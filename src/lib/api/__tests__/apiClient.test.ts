@@ -1,139 +1,103 @@
-import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { z } from 'zod';
 import { apiFetch } from '../apiClient';
-import { ApiError } from '../types';
+import { AppApiError } from '../types';
 
-describe('apiFetch Wrapper', () => {
-  const originalFetch = global.fetch;
+describe('apiFetch', () => {
+  const originalFetch = globalThis.fetch;
 
-  beforeEach(() => {
-    vi.restoreAllMocks();
-  });
-
+  beforeEach(() => vi.restoreAllMocks());
   afterEach(() => {
-    global.fetch = originalFetch;
+    globalThis.fetch = originalFetch;
   });
 
-  it('successfully fetches and validates data against a Zod schema', async () => {
-    const mockData = { temperature: 72, condition: 'Sunny' };
-    const TestSchema = z.object({
-      temperature: z.number(),
-      condition: z.string(),
+  it('returns a valid response parsed by its schema', async () => {
+    const schema = z.object({ temperature: z.number(), condition: z.string() });
+    globalThis.fetch = vi.fn().mockResolvedValue(
+      new Response(JSON.stringify({ temperature: 72, condition: 'Sunny' }), {
+        status: 200,
+        headers: { 'Content-Type': 'application/json' },
+      }),
+    );
+
+    await expect(apiFetch('https://example.test/weather', { schema, retries: 0 })).resolves.toEqual({
+      temperature: 72,
+      condition: 'Sunny',
     });
+  });
 
-    global.fetch = vi.fn().mockResolvedValue({
-      ok: true,
+  it('normalizes schema failures', async () => {
+    const schema = z.object({ temperature: z.number() });
+    globalThis.fetch = vi.fn().mockResolvedValue(
+      new Response(JSON.stringify({ temperature: 'warm' }), { status: 200 }),
+    );
+
+    await expect(apiFetch('https://example.test/weather', { schema, retries: 0 })).rejects.toMatchObject({
+      code: 'invalid-response',
       status: 200,
-      json: async () => mockData,
-      headers: new Headers(),
-    } as unknown as Response);
-
-    const result = await apiFetch('https://api.example.com/weather', {
-      schema: TestSchema,
-      retries: 0,
     });
-
-    expect(result).toEqual(mockData);
+    expect(globalThis.fetch).toHaveBeenCalledOnce();
   });
 
-  it('throws an invalid-response error when Zod validation fails', async () => {
-    const invalidData = { temperature: '72 degrees', condition: 'Sunny' };
-    const TestSchema = z.object({
-      temperature: z.number(), // expect number, gets string
-      condition: z.string(),
+  it('normalizes invalid JSON without retrying it', async () => {
+    globalThis.fetch = vi.fn().mockResolvedValue(new Response('<html>', { status: 200 }));
+
+    await expect(apiFetch('https://example.test/data', { retries: 2, retryDelayMs: 0 })).rejects.toMatchObject({
+      code: 'invalid-response',
     });
-
-    global.fetch = vi.fn().mockResolvedValue({
-      ok: true,
-      status: 200,
-      json: async () => invalidData,
-      headers: new Headers(),
-    } as unknown as Response);
-
-    try {
-      await apiFetch('https://api.example.com/weather', {
-        schema: TestSchema,
-        retries: 0,
-      });
-      expect.fail('Should have thrown an error');
-    } catch (err: unknown) {
-      const error = err as ApiError;
-      expect(error.code).toBe('invalid-response');
-      expect(error.message).toContain('Response validation failed');
-    }
+    expect(globalThis.fetch).toHaveBeenCalledOnce();
   });
 
-  it('throws an invalid-response error on non-JSON response body', async () => {
-    global.fetch = vi.fn().mockResolvedValue({
-      ok: true,
-      status: 200,
-      json: async () => {
-        throw new SyntaxError('Unexpected token < in JSON at position 0');
-      },
-      headers: new Headers(),
-    } as unknown as Response);
+  it('times out a request and does not retry when retries are disabled', async () => {
+    globalThis.fetch = vi.fn((_url: string | URL | Request, init?: RequestInit) =>
+      new Promise<Response>((_resolve, reject) => {
+        init?.signal?.addEventListener('abort', () => reject(new DOMException('Aborted', 'AbortError')));
+      }),
+    );
 
-    try {
-      await apiFetch('https://api.example.com/data', { retries: 0 });
-      expect.fail('Should have thrown an error');
-    } catch (err: unknown) {
-      const error = err as ApiError;
-      expect(error.code).toBe('invalid-response');
-    }
+    await expect(
+      apiFetch('https://example.test/slow', { timeoutMs: 5, retries: 0 }),
+    ).rejects.toMatchObject({ code: 'timeout' });
   });
 
-  it('handles HTTP error responses (e.g., 500) and attempts retries', async () => {
-    global.fetch = vi.fn().mockResolvedValue({
-      ok: false,
-      status: 500,
-      headers: new Headers(),
-    } as unknown as Response);
-
-    try {
-      await apiFetch('https://api.example.com/data', { retries: 1, retryDelayMs: 10 });
-      expect.fail('Should have thrown an error');
-    } catch (err: unknown) {
-      const error = err as ApiError;
-      expect(error.code).toBe('http');
-      expect(error.status).toBe(500);
-      expect(global.fetch).toHaveBeenCalledTimes(2);
-    }
-  });
-
-  it('detects 429 rate limit errors and extracts Retry-After header', async () => {
-    const headers = new Headers();
-    headers.set('Retry-After', '30');
-
-    global.fetch = vi.fn().mockResolvedValue({
-      ok: false,
-      status: 429,
-      headers,
-    } as unknown as Response);
-
-    try {
-      await apiFetch('https://api.example.com/rate-limited', { retries: 0 });
-      expect.fail('Should have thrown an error');
-    } catch (err: unknown) {
-      const error = err as ApiError;
-      expect(error.code).toBe('rate-limit');
-      expect(error.status).toBe(429);
-      expect(error.retryAfterSeconds).toBe(30);
-    }
-  });
-
-  it('handles user-initiated cancellation via AbortSignal', async () => {
+  it('honors cancellation without starting or retrying a request', async () => {
     const controller = new AbortController();
     controller.abort();
+    globalThis.fetch = vi.fn();
 
-    try {
-      await apiFetch('https://api.example.com/data', {
-        signal: controller.signal,
-        retries: 0,
-      });
-      expect.fail('Should have thrown an error');
-    } catch (err: unknown) {
-      const error = err as ApiError;
-      expect(error.code).toBe('aborted');
-    }
+    await expect(
+      apiFetch('https://example.test/data', { signal: controller.signal, retries: 2 }),
+    ).rejects.toMatchObject({ code: 'aborted' });
+    expect(globalThis.fetch).not.toHaveBeenCalled();
+  });
+
+  it('retries safe transient HTTP errors', async () => {
+    globalThis.fetch = vi.fn().mockResolvedValue(new Response(null, { status: 503 }));
+
+    await expect(
+      apiFetch('https://example.test/data', { retries: 1, retryDelayMs: 0 }),
+    ).rejects.toMatchObject({ code: 'http', status: 503 });
+    expect(globalThis.fetch).toHaveBeenCalledTimes(2);
+  });
+
+  it('recognizes rate limits and Retry-After dates or seconds', async () => {
+    globalThis.fetch = vi.fn().mockResolvedValue(
+      new Response(null, { status: 429, headers: { 'Retry-After': '30' } }),
+    );
+
+    await expect(apiFetch('https://example.test/data', { retries: 0 })).rejects.toMatchObject({
+      code: 'rate-limit',
+      status: 429,
+      retryAfterSeconds: 30,
+    });
+  });
+
+  it('does not retry invalid configuration', async () => {
+    globalThis.fetch = vi.fn();
+
+    const request = apiFetch('https://example.test/data', { timeoutMs: 0, retries: 3 });
+    await expect(request).rejects.toBeInstanceOf(AppApiError);
+    await expect(request).rejects.toMatchObject({ code: 'configuration' });
+    expect(globalThis.fetch).not.toHaveBeenCalled();
   });
 });

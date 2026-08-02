@@ -1,18 +1,17 @@
-import { ApiError, ApiErrorCode, FetchOptions } from './types';
 import { useDiagnosticsStore } from './diagnosticsStore';
+import { AppApiError, FetchOptions } from './types';
 
-const DEFAULT_TIMEOUT_MS = 10000;
+const DEFAULT_TIMEOUT_MS = 10_000;
 const DEFAULT_RETRIES = 1;
-const DEFAULT_RETRY_DELAY_MS = 1000;
+const DEFAULT_RETRY_DELAY_MS = 500;
+const SAFE_METHODS = new Set(['GET', 'HEAD', 'OPTIONS']);
+const TRANSIENT_STATUSES = new Set([408, 425, 429, 500, 502, 503, 504]);
 
-/**
- * Reusable, typed fetch wrapper with timeouts, retries, schema validation,
- * error handling, and diagnostic logging.
- */
-export async function apiFetch<T>(
-  url: string,
-  options: FetchOptions<T> & { providerId?: string } = {}
-): Promise<T> {
+/** Typed JSON fetch with bounded retries and normalized browser/network errors. */
+export async function apiFetch<T>(url: string, options: FetchOptions<T> = {}): Promise<T> {
+  const configError = validateConfiguration(url, options);
+  if (configError) throw configError;
+
   const {
     timeoutMs = DEFAULT_TIMEOUT_MS,
     signal,
@@ -20,233 +19,226 @@ export async function apiFetch<T>(
     schema,
     retries = DEFAULT_RETRIES,
     retryDelayMs = DEFAULT_RETRY_DELAY_MS,
-    requestId = Math.random().toString(36).substring(2, 9),
     providerId,
+    method = 'GET',
+    ...requestInit
   } = options;
+  const normalizedMethod = method.toUpperCase();
+  const startedAt = Date.now();
+  const requestHeaders = new Headers(headers);
+  if (!requestHeaders.has('Accept')) requestHeaders.set('Accept', 'application/json');
 
-  let attempt = 0;
-  const startTime = Date.now();
+  recordDiagnostic(providerId, { status: 'loading', errorMessage: undefined });
 
-  if (providerId) {
-    useDiagnosticsStore.getState().updateDiagnostic(providerId, {
-      status: 'loading',
-      errorMessage: undefined,
-    });
-  }
-
-  while (attempt <= retries) {
-    attempt++;
-    const controller = new AbortController();
-
-    // Link parent signal if provided
-    const onParentAbort = () => controller.abort();
-    if (signal) {
-      if (signal.aborted) {
-        const error: ApiError = {
-          code: 'aborted',
-          message: 'The request was cancelled by the client.',
-        };
-        recordDiagnosticError(providerId, error, Date.now() - startTime);
-        throw error;
-      }
-      signal.addEventListener('abort', onParentAbort);
-    }
-
-    // Set up timeout timer
-    const timeoutId = setTimeout(() => {
-      controller.abort();
-    }, timeoutMs);
-
+  for (let attempt = 0; attempt <= retries; attempt += 1) {
     try {
-      const response = await fetch(url, {
-        signal: controller.signal,
-        headers: {
-          Accept: 'application/json',
-          ...headers,
-        },
+      const response = await fetchOnce(url, {
+        ...requestInit,
+        method: normalizedMethod,
+        headers: requestHeaders,
+        signal,
+        timeoutMs,
       });
 
-      clearTimeout(timeoutId);
-      if (signal) signal.removeEventListener('abort', onParentAbort);
+      if (!response.ok) throw createHttpError(response);
 
-      const responseTimeMs = Date.now() - startTime;
-
-      // Check HTTP Status
-      if (!response.ok) {
-        const status = response.status;
-        let code: ApiErrorCode = 'http';
-        let message = `HTTP request failed with status ${status}`;
-        let retryAfterSeconds: number | undefined = undefined;
-
-        if (status === 429) {
-          code = 'rate-limit';
-          message = 'Rate limit exceeded. Please try again later.';
-          const retryAfterHeader = response.headers.get('Retry-After');
-          if (retryAfterHeader) {
-            const parsedSeconds = parseInt(retryAfterHeader, 10);
-            if (!isNaN(parsedSeconds)) {
-              retryAfterSeconds = parsedSeconds;
-            }
-          }
-        }
-
-        const apiError: ApiError = {
-          code,
-          message,
-          status,
-          retryAfterSeconds,
-        };
-
-        // Determine if error is retryable (e.g. 5xx or rate limit without immediate lockout)
-        if (attempt <= retries && (status >= 500 || status === 429)) {
-          await delay(retryDelayMs * Math.pow(2, attempt - 1));
-          continue;
-        }
-
-        recordDiagnosticError(providerId, apiError, responseTimeMs, status);
-        throw apiError;
-      }
-
-      // Parse JSON body
-      let rawJson: unknown;
+      let body: unknown;
       try {
-        rawJson = await response.json();
-      } catch (jsonErr) {
-        const apiError: ApiError = {
-          code: 'invalid-response',
-          message: 'Failed to parse JSON response body.',
+        body = await response.json();
+      } catch (cause) {
+        throw new AppApiError('invalid-response', 'The response body is not valid JSON.', {
           status: response.status,
-          cause: jsonErr,
-        };
-        recordDiagnosticError(providerId, apiError, responseTimeMs, response.status);
-        throw apiError;
-      }
-
-      // Validate with Zod schema if supplied
-      let validatedData: T;
-      if (schema) {
-        const parseResult = schema.safeParse(rawJson);
-        if (!parseResult.success) {
-          const apiError: ApiError = {
-            code: 'invalid-response',
-            message: `Response validation failed: ${parseResult.error.issues[0]?.message || 'Schema mismatch'}`,
-            status: response.status,
-            cause: parseResult.error,
-          };
-          recordDiagnosticError(providerId, apiError, responseTimeMs, response.status);
-          throw apiError;
-        }
-        validatedData = parseResult.data;
-      } else {
-        validatedData = rawJson as T;
-      }
-
-      // Record success diagnostic
-      if (providerId) {
-        useDiagnosticsStore.getState().updateDiagnostic(providerId, {
-          status: 'success',
-          lastFetchedAt: new Date().toISOString(),
-          cacheSource: 'network',
-          isStale: false,
-          responseTimeMs,
-          statusCode: response.status,
-          errorCategory: undefined,
-          errorMessage: undefined,
+          cause,
         });
       }
 
-      return validatedData;
-    } catch (err) {
-      clearTimeout(timeoutId);
-      if (signal) signal.removeEventListener('abort', onParentAbort);
-
-      const responseTimeMs = Date.now() - startTime;
-
-      // Handle ApiError directly
-      if (isApiError(err)) {
-        if (attempt <= retries && isRetryableCode(err.code)) {
-          await delay(retryDelayMs * Math.pow(2, attempt - 1));
-          continue;
+      if (schema) {
+        const result = schema.safeParse(body);
+        if (!result.success) {
+          throw new AppApiError('invalid-response', 'Response validation failed.', {
+            status: response.status,
+            cause: result.error,
+          });
         }
-        recordDiagnosticError(providerId, err, responseTimeMs, err.status);
-        throw err;
+        recordSuccess(providerId, startedAt, response.status);
+        return result.data;
       }
 
-      // Handle Abort or Timeout errors
-      if (err instanceof DOMException && err.name === 'AbortError') {
-        const isParentAborted = signal?.aborted;
-        const code: ApiErrorCode = isParentAborted ? 'aborted' : 'timeout';
-        const message = isParentAborted
-          ? 'Request was aborted.'
-          : `Request timed out after ${timeoutMs}ms.`;
+      recordSuccess(providerId, startedAt, response.status);
+      return body as T;
+    } catch (cause) {
+      const error = normalizeError(cause, signal, timeoutMs);
+      const mayRetry =
+        attempt < retries &&
+        SAFE_METHODS.has(normalizedMethod) &&
+        isTransient(error);
 
-        const apiError: ApiError = { code, message, cause: err };
-
-        if (!isParentAborted && attempt <= retries) {
-          await delay(retryDelayMs * Math.pow(2, attempt - 1));
-          continue;
-        }
-
-        recordDiagnosticError(providerId, apiError, responseTimeMs);
-        throw apiError;
+      if (!mayRetry) {
+        recordFailure(providerId, error, startedAt);
+        throw error;
       }
 
-      // Handle generic Network / Fetch errors
-      const apiError: ApiError = {
-        code: 'network',
-        message: 'Network connection error or offline status.',
-        cause: err,
-      };
-
-      if (attempt <= retries) {
-        await delay(retryDelayMs * Math.pow(2, attempt - 1));
-        continue;
-      }
-
-      recordDiagnosticError(providerId, apiError, responseTimeMs);
-      throw apiError;
+      const retryAfterMs = (error.retryAfterSeconds ?? 0) * 1_000;
+      const exponentialDelayMs = retryDelayMs * 2 ** attempt;
+      await abortableDelay(Math.max(retryAfterMs, exponentialDelayMs), signal);
     }
   }
 
-  // Fallback exhaust return error
-  const finalError: ApiError = {
-    code: 'unknown',
-    message: `Request failed after ${retries} attempts [req: ${requestId}]`,
-  };
-  recordDiagnosticError(providerId, finalError, Date.now() - startTime);
-  throw finalError;
+  throw new AppApiError('unknown', 'The request failed unexpectedly.');
 }
 
-function isApiError(err: unknown): err is ApiError {
+interface FetchOnceOptions extends RequestInit {
+  timeoutMs: number;
+  signal?: AbortSignal;
+}
+
+async function fetchOnce(url: string, options: FetchOnceOptions): Promise<Response> {
+  const { timeoutMs, signal, ...requestInit } = options;
+  const controller = new AbortController();
+  let timedOut = false;
+  const onAbort = () => controller.abort(signal?.reason);
+
+  if (signal?.aborted) {
+    throw new AppApiError('aborted', 'The request was cancelled.');
+  }
+  signal?.addEventListener('abort', onAbort, { once: true });
+
+  const timeoutId = globalThis.setTimeout(() => {
+    timedOut = true;
+    controller.abort();
+  }, timeoutMs);
+
+  try {
+    return await fetch(url, { ...requestInit, signal: controller.signal });
+  } catch (cause) {
+    if (signal?.aborted) {
+      throw new AppApiError('aborted', 'The request was cancelled.', { cause });
+    }
+    if (timedOut) {
+      throw new AppApiError('timeout', `The request timed out after ${timeoutMs}ms.`, { cause });
+    }
+    throw cause;
+  } finally {
+    globalThis.clearTimeout(timeoutId);
+    signal?.removeEventListener('abort', onAbort);
+  }
+}
+
+function validateConfiguration<T>(url: string, options: FetchOptions<T>): AppApiError | null {
+  if (url.trim().length === 0) {
+    return new AppApiError('configuration', 'A request URL is required.');
+  }
+  try {
+    const baseUrl = typeof document === 'undefined' ? 'http://localhost' : document.baseURI;
+    const parsedUrl = new URL(url, baseUrl);
+    if (parsedUrl.protocol !== 'http:' && parsedUrl.protocol !== 'https:') {
+      return new AppApiError('configuration', 'Only HTTP and HTTPS request URLs are supported.');
+    }
+    new Headers(options.headers);
+  } catch (cause) {
+    return new AppApiError('configuration', 'The request URL or headers are invalid.', { cause });
+  }
+  const method = options.method ?? 'GET';
+  if ((method === 'GET' || method === 'HEAD') && options.body !== undefined) {
+    return new AppApiError('configuration', `${method} requests cannot include a body.`);
+  }
+  if (options.timeoutMs !== undefined && (!Number.isFinite(options.timeoutMs) || options.timeoutMs <= 0)) {
+    return new AppApiError('configuration', 'timeoutMs must be a positive finite number.');
+  }
+  if (options.retries !== undefined && (!Number.isInteger(options.retries) || options.retries < 0)) {
+    return new AppApiError('configuration', 'retries must be a non-negative integer.');
+  }
+  if (
+    options.retryDelayMs !== undefined &&
+    (!Number.isFinite(options.retryDelayMs) || options.retryDelayMs < 0)
+  ) {
+    return new AppApiError('configuration', 'retryDelayMs must be a non-negative finite number.');
+  }
+  return null;
+}
+
+function createHttpError(response: Response): AppApiError {
+  if (response.status === 429) {
+    return new AppApiError('rate-limit', 'The provider rate limit was exceeded.', {
+      status: response.status,
+      retryAfterSeconds: parseRetryAfter(response.headers.get('Retry-After')),
+    });
+  }
+  return new AppApiError('http', `HTTP request failed with status ${response.status}.`, {
+    status: response.status,
+  });
+}
+
+function parseRetryAfter(value: string | null): number | undefined {
+  if (!value) return undefined;
+  const seconds = Number(value);
+  if (Number.isFinite(seconds) && seconds >= 0) return seconds;
+  const dateMs = Date.parse(value);
+  if (Number.isNaN(dateMs)) return undefined;
+  return Math.max(0, Math.ceil((dateMs - Date.now()) / 1_000));
+}
+
+function normalizeError(cause: unknown, signal: AbortSignal | undefined, timeoutMs: number): AppApiError {
+  if (cause instanceof AppApiError) return cause;
+  if (signal?.aborted) return new AppApiError('aborted', 'The request was cancelled.', { cause });
+  if (cause instanceof DOMException && cause.name === 'AbortError') {
+    return new AppApiError('timeout', `The request timed out after ${timeoutMs}ms.`, { cause });
+  }
+  return new AppApiError('network', 'The network request failed.', { cause });
+}
+
+function isTransient(error: AppApiError): boolean {
   return (
-    typeof err === 'object' &&
-    err !== null &&
-    'code' in err &&
-    'message' in err &&
-    typeof (err as ApiError).code === 'string'
+    error.code === 'network' ||
+    error.code === 'timeout' ||
+    (error.status !== undefined && TRANSIENT_STATUSES.has(error.status))
   );
 }
 
-function isRetryableCode(code: ApiErrorCode): boolean {
-  return code === 'network' || code === 'timeout';
+function abortableDelay(ms: number, signal?: AbortSignal): Promise<void> {
+  if (signal?.aborted) {
+    return Promise.reject(new AppApiError('aborted', 'The request was cancelled.'));
+  }
+  return new Promise((resolve, reject) => {
+    const onAbort = () => {
+      globalThis.clearTimeout(timeoutId);
+      reject(new AppApiError('aborted', 'The request was cancelled.'));
+    };
+    const timeoutId = globalThis.setTimeout(() => {
+      signal?.removeEventListener('abort', onAbort);
+      resolve();
+    }, ms);
+    signal?.addEventListener('abort', onAbort, { once: true });
+  });
 }
 
-function recordDiagnosticError(
-  providerId?: string,
-  error?: ApiError,
-  responseTimeMs?: number,
-  statusCode?: number
-) {
-  if (!providerId || !error) return;
-  useDiagnosticsStore.getState().updateDiagnostic(providerId, {
+function recordSuccess(providerId: string | undefined, startedAt: number, statusCode: number): void {
+  recordDiagnostic(providerId, {
+    status: 'success',
+    lastFetchedAt: new Date().toISOString(),
+    cacheSource: 'network',
+    isStale: false,
+    responseTimeMs: Date.now() - startedAt,
+    statusCode,
+    errorCategory: undefined,
+    errorMessage: undefined,
+  });
+}
+
+function recordFailure(providerId: string | undefined, error: AppApiError, startedAt: number): void {
+  recordDiagnostic(providerId, {
     status: 'error',
-    responseTimeMs,
-    statusCode: statusCode || error.status,
+    responseTimeMs: Date.now() - startedAt,
+    statusCode: error.status,
     errorCategory: error.code,
     errorMessage: error.message,
   });
 }
 
-function delay(ms: number): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms));
+function recordDiagnostic(
+  providerId: string | undefined,
+  update: Parameters<ReturnType<typeof useDiagnosticsStore.getState>['updateDiagnostic']>[1],
+): void {
+  if (!import.meta.env.DEV || !providerId) return;
+  useDiagnosticsStore.getState().updateDiagnostic(providerId, update);
 }

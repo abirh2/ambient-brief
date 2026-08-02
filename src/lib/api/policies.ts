@@ -1,67 +1,68 @@
-/**
- * Centralized Request & Cache Policies
- * Defines freshness TTLs and refresh rules for each information domain.
- */
+import { CachePolicy } from './cacheService';
 
-export interface DomainPolicy {
-  domainId: string;
-  domainName: string;
-  ttlMs: number;
-}
-
-const MINUTE_MS = 60 * 1000;
+const MINUTE_MS = 60 * 1_000;
 const HOUR_MS = 60 * MINUTE_MS;
+const DAY_MS = 24 * HOUR_MS;
 
-/**
- * Calculates remaining milliseconds until the next local midnight
- */
-function msUntilMidnight(): number {
-  const now = new Date();
-  const midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 0, 0);
-  return midnight.getTime() - now.getTime();
+export type CachePolicyName =
+  | 'weather'
+  | 'hourlyForecast'
+  | 'airQuality'
+  | 'nwsAlerts'
+  | 'news'
+  | 'currency'
+  | 'prayerSchedule';
+
+export interface DomainPolicy extends CachePolicy {
+  domainId: CachePolicyName;
+  domainName: string;
+  /** Compatibility accessor for existing feature code. */
+  readonly ttlMs: number;
 }
 
-export const REQUEST_POLICIES: Record<string, DomainPolicy> = {
-  weather: {
-    domainId: 'weather',
-    domainName: 'Current Weather',
-    ttlMs: 15 * MINUTE_MS, // 15 minutes
+function timedPolicy(
+  domainId: CachePolicyName,
+  domainName: string,
+  freshForMs: number,
+  staleForMs = DAY_MS,
+): DomainPolicy {
+  return { domainId, domainName, freshForMs, staleForMs, ttlMs: freshForMs };
+}
+
+function localDateKey(date: Date): string {
+  return `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
+}
+
+function millisecondsUntilLocalDateChanges(now: Date): number {
+  const nextDate = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+  return nextDate.getTime() - now.getTime();
+}
+
+const prayerSchedulePolicy: DomainPolicy = {
+  domainId: 'prayerSchedule',
+  domainName: 'Prayer Schedule',
+  freshForMs: millisecondsUntilLocalDateChanges,
+  staleForMs: 0,
+  validityKey: localDateKey,
+  get ttlMs() {
+    return millisecondsUntilLocalDateChanges(new Date());
   },
-  hourlyForecast: {
-    domainId: 'hourlyForecast',
-    domainName: 'Hourly Forecast',
-    ttlMs: 30 * MINUTE_MS, // 30 minutes
-  },
-  airQuality: {
-    domainId: 'airQuality',
-    domainName: 'Air Quality Index',
-    ttlMs: 30 * MINUTE_MS, // 30 minutes
-  },
-  weatherAlerts: {
-    domainId: 'weatherAlerts',
-    domainName: 'Severe Weather Alerts',
-    ttlMs: 10 * MINUTE_MS, // 10 minutes
-  },
-  news: {
-    domainId: 'news',
-    domainName: 'News Feed',
-    ttlMs: 20 * MINUTE_MS, // 20 minutes
-  },
-  currency: {
-    domainId: 'currency',
-    domainName: 'Currency Exchange Rates',
-    ttlMs: 12 * HOUR_MS, // 12 hours
-  },
-  prayerTimes: {
-    domainId: 'prayerTimes',
-    domainName: 'Islamic Prayer Schedule',
-    get ttlMs() {
-      return msUntilMidnight(); // Valid until local midnight
-    },
-  },
-  markets: {
-    domainId: 'markets',
-    domainName: 'Financial Markets Data',
-    ttlMs: 4 * HOUR_MS, // 4 hours
-  },
+};
+
+export const CACHE_POLICIES: Record<CachePolicyName, DomainPolicy> = {
+  weather: timedPolicy('weather', 'Current Weather', 15 * MINUTE_MS),
+  hourlyForecast: timedPolicy('hourlyForecast', 'Hourly Forecast', 30 * MINUTE_MS),
+  airQuality: timedPolicy('airQuality', 'Air Quality', 30 * MINUTE_MS),
+  nwsAlerts: timedPolicy('nwsAlerts', 'NWS Alerts', 10 * MINUTE_MS),
+  news: timedPolicy('news', 'News', 20 * MINUTE_MS),
+  currency: timedPolicy('currency', 'Currency', 12 * HOUR_MS),
+  prayerSchedule: prayerSchedulePolicy,
+};
+
+/** Legacy names retained until feature providers are migrated onto the new coordinator. */
+export const REQUEST_POLICIES = {
+  ...CACHE_POLICIES,
+  weatherAlerts: CACHE_POLICIES.nwsAlerts,
+  prayerTimes: CACHE_POLICIES.prayerSchedule,
+  markets: timedPolicy('currency', 'Financial Markets', 4 * HOUR_MS),
 };

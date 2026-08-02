@@ -1,15 +1,14 @@
-import { describe, it, expect, beforeEach, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { cacheService } from '../cacheService';
 
-// In-memory mock for localStorage in Node testing environment
-const createLocalStorageMock = () => {
+const createLocalStorageMock = (): Storage => {
   let store: Record<string, string> = {};
   return {
-    getItem: (key: string) => store[key] || null,
-    setItem: (key: string, value: string) => {
-      store[key] = value.toString();
+    getItem: (key) => store[key] ?? null,
+    setItem: (key, value) => {
+      store[key] = value;
     },
-    removeItem: (key: string) => {
+    removeItem: (key) => {
       delete store[key];
     },
     clear: () => {
@@ -18,69 +17,45 @@ const createLocalStorageMock = () => {
     get length() {
       return Object.keys(store).length;
     },
-    key: (index: number) => Object.keys(store)[index] || null,
+    key: (index) => Object.keys(store)[index] ?? null,
   };
 };
 
 describe('cacheService', () => {
   beforeEach(() => {
-    global.localStorage = createLocalStorageMock() as unknown as Storage;
-    vi.restoreAllMocks();
+    vi.useFakeTimers();
+    vi.setSystemTime(new Date('2026-08-02T12:00:00.000Z'));
+    vi.stubGlobal('localStorage', createLocalStorageMock());
   });
 
-  it('stores and retrieves items correctly when fresh', () => {
-    const data = { temp: 75, condition: 'Clear' };
-    cacheService.setCache('weather_test', data, 60000); // 1 minute TTL
+  it('reports fresh, stale, and expired cache states', () => {
+    const policy = { freshForMs: 1_000, staleForMs: 2_000 };
+    cacheService.setCache('weather', { temperature: 75 }, policy);
+    expect(cacheService.readCache('weather', policy).state).toBe('fresh');
 
-    const result = cacheService.getCache<typeof data>('weather_test');
-    expect(result).not.toBeNull();
-    expect(result?.data).toEqual(data);
-    expect(result?.isStale).toBe(false);
+    vi.advanceTimersByTime(1_001);
+    expect(cacheService.readCache('weather', policy).state).toBe('stale');
+
+    vi.advanceTimersByTime(2_000);
+    expect(cacheService.readCache('weather', policy).state).toBe('expired');
   });
 
-  it('marks cached item as stale when past TTL but within grace period', () => {
-    const data = { headline: 'Breaking News' };
-    const pastDate = new Date(Date.now() - 10000).toISOString();
-    const expiresDate = new Date(Date.now() - 5000).toISOString();
+  it('purges malformed and wrong-version cache records', () => {
+    localStorage.setItem('ambient_brief_api_v2_broken', '{not json');
+    expect(cacheService.readCache('broken')).toEqual({ state: 'miss' });
+    expect(localStorage.getItem('ambient_brief_api_v2_broken')).toBeNull();
 
-    const rawRecord = {
-      data,
-      fetchedAt: pastDate,
-      expiresAt: expiresDate,
-      version: 1,
-    };
-
-    localStorage.setItem('ambient_brief_v1_news_test', JSON.stringify(rawRecord));
-
-    const result = cacheService.getCache<typeof data>('news_test');
-    expect(result).not.toBeNull();
-    expect(result?.data).toEqual(data);
-    expect(result?.isStale).toBe(true);
+    localStorage.setItem(
+      'ambient_brief_api_v2_old',
+      JSON.stringify({ version: 1, data: {}, fetchedAt: '', freshUntil: '', expiresAt: '' }),
+    );
+    expect(cacheService.readCache('old')).toEqual({ state: 'miss' });
   });
 
-  it('purges and returns null for corrupted JSON cache entries', () => {
-    localStorage.setItem('ambient_brief_v1_corrupt_test', '{ invalid json ...');
-
-    const result = cacheService.getCache('corrupt_test');
-    expect(result).toBeNull();
-    expect(localStorage.getItem('ambient_brief_v1_corrupt_test')).toBeNull();
-  });
-
-  it('purges and returns null for malformed cache schema records', () => {
-    localStorage.setItem('ambient_brief_v1_malformed_test', JSON.stringify({ wrongKey: 123 }));
-
-    const result = cacheService.getCache('malformed_test');
-    expect(result).toBeNull();
-    expect(localStorage.getItem('ambient_brief_v1_malformed_test')).toBeNull();
-  });
-
-  it('safely handles localStorage write exceptions without crashing', () => {
+  it('fails softly when browser storage rejects a write', () => {
     vi.spyOn(localStorage, 'setItem').mockImplementation(() => {
-      throw new Error('QuotaExceededError');
+      throw new DOMException('Quota exceeded', 'QuotaExceededError');
     });
-
-    expect(() => {
-      cacheService.setCache('quota_test', { value: 1 }, 1000);
-    }).not.toThrow();
+    expect(() => cacheService.setCache('weather', {}, 1_000)).not.toThrow();
   });
 });

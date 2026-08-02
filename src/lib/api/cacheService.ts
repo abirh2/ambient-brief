@@ -1,135 +1,179 @@
-/**
- * Client-Side Versioned Cache Service
- * Provides fail-soft localStorage caching with TTL, staleness detection,
- * and malformed entry recovery.
- */
+/** Fail-soft, versioned local cache with explicit freshness states. */
 
-const CACHE_PREFIX = 'ambient_brief_v1_';
+const CACHE_VERSION = 2;
+const CACHE_PREFIX = `ambient_brief_api_v${CACHE_VERSION}_`;
+const LEGACY_PREFIX = 'ambient_brief_v1_';
+const DEFAULT_STALE_FOR_MS = 24 * 60 * 60 * 1_000;
 
-export interface CacheRecord<T> {
-  data: T;
-  fetchedAt: string; // ISO String
-  expiresAt: string; // ISO String
-  version: number;
+export interface CachePolicy {
+  freshForMs: number | ((now: Date) => number);
+  staleForMs?: number;
+  validityKey?: (now: Date) => string;
 }
 
-export interface CachedDataResult<T> {
+interface CacheRecord<T> {
+  version: number;
   data: T;
   fetchedAt: string;
+  freshUntil: string;
+  expiresAt: string;
+  validityKey?: string;
+}
+
+interface CacheValue<T> {
+  data: T;
+  fetchedAt: string;
+}
+
+export type CacheReadResult<T> =
+  | ({ state: 'fresh' | 'stale' } & CacheValue<T>)
+  | ({ state: 'expired' } & CacheValue<T>)
+  | { state: 'miss' };
+
+/** Compatibility result for feature code using the original cache API. */
+export interface CachedDataResult<T> extends CacheValue<T> {
   isStale: boolean;
 }
 
 export const cacheService = {
-  /**
-   * Store item in cache with a TTL in milliseconds.
-   */
-  setCache<T>(key: string, data: T, ttlMs: number): void {
-    try {
-      if (typeof localStorage === 'undefined') return;
-      const now = new Date();
-      const expires = new Date(now.getTime() + ttlMs);
+  setCache<T>(key: string, data: T, policyOrFreshMs: CachePolicy | number): void {
+    const storage = getStorage();
+    if (!storage) return;
 
+    try {
+      const now = new Date();
+      const policy = normalizePolicy(policyOrFreshMs);
+      const freshForMs = resolveDuration(policy.freshForMs, now);
+      const staleForMs = policy.staleForMs ?? DEFAULT_STALE_FOR_MS;
       const record: CacheRecord<T> = {
+        version: CACHE_VERSION,
         data,
         fetchedAt: now.toISOString(),
-        expiresAt: expires.toISOString(),
-        version: 1,
+        freshUntil: new Date(now.getTime() + freshForMs).toISOString(),
+        expiresAt: new Date(now.getTime() + freshForMs + staleForMs).toISOString(),
+        validityKey: policy.validityKey?.(now),
       };
-
-      const fullKey = `${CACHE_PREFIX}${key}`;
-      localStorage.setItem(fullKey, JSON.stringify(record));
-    } catch (err) {
-      // Fail-soft on localStorage quota exceeded or restricted storage
-      console.warn(`[CacheService] Failed to set cache for key "${key}":`, err);
+      storage.setItem(fullKey(key), JSON.stringify(record));
+    } catch (cause) {
+      diagnosticWarning(`Unable to write cache key "${key}".`, cause);
     }
   },
 
-  /**
-   * Retrieve item from cache if it exists.
-   * Returns data with staleness flag, or null if missing/expired/malformed.
-   */
-  getCache<T>(key: string): CachedDataResult<T> | null {
-    if (typeof localStorage === 'undefined') return null;
-    const fullKey = `${CACHE_PREFIX}${key}`;
+  readCache<T>(key: string, policy?: CachePolicy): CacheReadResult<T> {
+    const storage = getStorage();
+    if (!storage) return { state: 'miss' };
+
     try {
-      const raw = localStorage.getItem(fullKey);
-      if (!raw) return null;
-
-      const record = JSON.parse(raw) as CacheRecord<T>;
-
-      if (!record || typeof record !== 'object' || !record.fetchedAt || !record.expiresAt || record.data === undefined) {
-        // Malformed cache record - purge
-        this.clearKey(key);
-        return null;
+      const raw = storage.getItem(fullKey(key));
+      if (!raw) return { state: 'miss' };
+      const parsed: unknown = JSON.parse(raw);
+      if (!isCacheRecord<T>(parsed)) {
+        storage.removeItem(fullKey(key));
+        return { state: 'miss' };
       }
 
-      const now = new Date().getTime();
-      const expiresAt = new Date(record.expiresAt).getTime();
-      const fetchedAt = new Date(record.fetchedAt).getTime();
-
-      if (isNaN(expiresAt) || isNaN(fetchedAt)) {
-        this.clearKey(key);
-        return null;
+      const fetchedAtMs = Date.parse(parsed.fetchedAt);
+      const freshUntilMs = Date.parse(parsed.freshUntil);
+      const expiresAtMs = Date.parse(parsed.expiresAt);
+      if ([fetchedAtMs, freshUntilMs, expiresAtMs].some(Number.isNaN)) {
+        storage.removeItem(fullKey(key));
+        return { state: 'miss' };
       }
 
-      // Check if entry is past expiration (hard expiry = 2x TTL or explicit expiresAt)
-      if (now > expiresAt + ttlGracePeriodMs(expiresAt - fetchedAt)) {
-        // Expired completely
-        this.clearKey(key);
-        return null;
+      const value = { data: parsed.data, fetchedAt: parsed.fetchedAt };
+      const now = new Date();
+      if (policy?.validityKey && parsed.validityKey !== policy.validityKey(now)) {
+        return { state: 'expired', ...value };
       }
-
-      // Is it soft-stale? (past expiresAt, but within grace period)
-      const isStale = now > expiresAt;
-
-      return {
-        data: record.data,
-        fetchedAt: record.fetchedAt,
-        isStale,
-      };
-    } catch (err) {
-      console.warn(`[CacheService] Failed to read or parse cache for key "${key}":`, err);
-      this.clearKey(key);
-      return null;
+      if (now.getTime() <= freshUntilMs) return { state: 'fresh', ...value };
+      if (now.getTime() <= expiresAtMs) return { state: 'stale', ...value };
+      return { state: 'expired', ...value };
+    } catch (cause) {
+      diagnosticWarning(`Unable to read cache key "${key}".`, cause);
+      try {
+        storage.removeItem(fullKey(key));
+      } catch {
+        // Storage may be unavailable; cache failures never break the app.
+      }
+      return { state: 'miss' };
     }
   },
 
-  /**
-   * Remove a specific key from cache.
-   */
+  getCache<T>(key: string): CachedDataResult<T> | null {
+    const result = this.readCache<T>(key);
+    if (result.state === 'miss' || result.state === 'expired') return null;
+    return {
+      data: result.data,
+      fetchedAt: result.fetchedAt,
+      isStale: result.state === 'stale',
+    };
+  },
+
   clearKey(key: string): void {
     try {
-      if (typeof localStorage === 'undefined') return;
-      localStorage.removeItem(`${CACHE_PREFIX}${key}`);
+      const storage = getStorage();
+      storage?.removeItem(fullKey(key));
+      storage?.removeItem(`${LEGACY_PREFIX}${key}`);
     } catch {
-      // Ignore storage errors
+      // Cache cleanup is best effort.
     }
   },
 
-  /**
-   * Clear all Ambient Brief cache records.
-   */
   clearAll(): void {
+    const storage = getStorage();
+    if (!storage) return;
     try {
-      if (typeof localStorage === 'undefined') return;
-      const keysToRemove: string[] = [];
-      for (let i = 0; i < localStorage.length; i++) {
-        const k = localStorage.key(i);
-        if (k && k.startsWith(CACHE_PREFIX)) {
-          keysToRemove.push(k);
-        }
+      const keys: string[] = [];
+      for (let index = 0; index < storage.length; index += 1) {
+        const key = storage.key(index);
+        if (key?.startsWith('ambient_brief_api_v') || key?.startsWith(LEGACY_PREFIX)) keys.push(key);
       }
-      keysToRemove.forEach((k) => localStorage.removeItem(k));
+      keys.forEach((key) => storage.removeItem(key));
     } catch {
-      // Ignore storage errors
+      // Cache cleanup is best effort.
     }
   },
 };
 
-/**
- * Grace period during which stale data can still be rendered while revalidating
- */
-function ttlGracePeriodMs(ttlMs: number): number {
-  // Allow stale cache to be served for up to 1 additional TTL duration or 24h max
-  return Math.min(Math.max(ttlMs, 300000), 86400000);
+function normalizePolicy(policyOrFreshMs: CachePolicy | number): CachePolicy {
+  return typeof policyOrFreshMs === 'number'
+    ? { freshForMs: policyOrFreshMs }
+    : policyOrFreshMs;
+}
+
+function resolveDuration(value: CachePolicy['freshForMs'], now: Date): number {
+  const duration = typeof value === 'function' ? value(now) : value;
+  if (!Number.isFinite(duration) || duration < 0) {
+    throw new Error('Cache durations must be non-negative finite numbers.');
+  }
+  return duration;
+}
+
+function isCacheRecord<T>(value: unknown): value is CacheRecord<T> {
+  if (typeof value !== 'object' || value === null) return false;
+  const record = value as Record<string, unknown>;
+  return (
+    record.version === CACHE_VERSION &&
+    'data' in record &&
+    typeof record.fetchedAt === 'string' &&
+    typeof record.freshUntil === 'string' &&
+    typeof record.expiresAt === 'string' &&
+    (record.validityKey === undefined || typeof record.validityKey === 'string')
+  );
+}
+
+function fullKey(key: string): string {
+  return `${CACHE_PREFIX}${key}`;
+}
+
+function getStorage(): Storage | null {
+  try {
+    return typeof localStorage === 'undefined' ? null : localStorage;
+  } catch {
+    return null;
+  }
+}
+
+function diagnosticWarning(message: string, cause: unknown): void {
+  if (import.meta.env.DEV) console.warn(`[api-cache] ${message}`, cause);
 }
