@@ -74,7 +74,7 @@ The browser resolves `data/news-feed.json` through Vite's configured base path, 
 
 The workflow then runs at minutes 7 and 37 of each hour. GitHub scheduled workflows can start later than their nominal cron time during periods of scheduler load, so a delayed label does not necessarily indicate a provider outage. Five requests per scheduled run, 48 runs per day, is approximately **240 Currents requests per day**, plus any manual runs. Check the limits and usage terms for the selected Currents plan.
 
-The workflow commits `public/data/news-feed.json` only when its contents change. That commit triggers the existing Pages deployment workflow; the update workflow itself has no `push` trigger, preventing an update loop.
+The workflow commits `public/data/news-feed.json` only when its contents change, then explicitly dispatches the existing Pages deployment workflow. The explicit dispatch is necessary because GitHub does not emit another push-triggered workflow for commits made with the workflow's `GITHUB_TOKEN`. The news updater itself has no `push` trigger, preventing an update loop.
 
 ### Run the fetch locally
 

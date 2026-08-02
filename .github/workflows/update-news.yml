@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: update-static-news-${{ github.ref }}
@@ -38,9 +39,11 @@ jobs:
           CURRENTS_API_KEY: ${{ secrets.CURRENTS_API_KEY }}
 
       - name: Commit changed feed
+        id: commit_feed
         run: |
           if [ -z "$(git status --porcelain -- public/data/news-feed.json)" ]; then
             echo "Static news feed is unchanged."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "github-actions[bot]"
@@ -48,3 +51,10 @@ jobs:
           git add -- public/data/news-feed.json
           git commit -m "chore(news): update static Currents feed"
           git push origin "HEAD:${{ github.event.repository.default_branch }}"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Deploy updated feed to GitHub Pages
+        if: steps.commit_feed.outputs.changed == 'true'
+        run: gh workflow run deploy-pages.yml --ref "${{ github.event.repository.default_branch }}"
+        env:
+          GH_TOKEN: ${{ github.token }}
