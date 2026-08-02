@@ -57,11 +57,15 @@ Enable GitHub Pages with “GitHub Actions” as the source in the repository se
 
 - Open-Meteo weather, geocoding, and air-quality integrations are keyless.
 - NWS alerts are keyless and apply to supported US locations.
-- GDELT is the existing keyless news integration; failures show cached or unavailable states, never silent production mock stories.
+- Live news is currently unavailable in production. The GDELT DOC 2.0 adapter remains production-gated because deployed-origin verification did not pass; local development may exercise it, cached stories are labeled as cached, and production never substitutes mock stories.
 - Frankfurter currency and AlAdhan prayer-time integrations are keyless.
 - Alpha Vantage markets are optional and do not block startup.
 
 Provider availability and browser CORS behavior can vary by deployed origin. No mock value should be treated as live production data.
+
+### GDELT browser-access verification
+
+The detailed 2026-08-02 verification record is in [`docs/gdelt-news-audit.md`](docs/gdelt-news-audit.md). The documented Pages URL returned GitHub's 404 page, a direct article-list GET returned HTTP 429, and a preflight returned `Access-Control-Allow-Origin: *`. Because an actual article response could not be fetched from a running Pages app, live GDELT news remains disabled. Re-enable it only after a successful article-list request is observed in the deployed page context and the payload, duplicate rate, timestamps, and images are re-audited.
 
 ### NWS browser-access verification
 

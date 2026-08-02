@@ -130,9 +130,11 @@ export function rankHeadlines(
       item.reasons.push(`Similarity Penalty (${maxSim.toFixed(2)}): -${penalty}`);
     }
 
-    // Record debugging info
-    item.headline.rankingScore = item.score;
-    item.headline.rankingReason = item.reasons.join(', ');
+    // Diagnostics must not be retained in production story objects or caches.
+    if (import.meta.env.DEV) {
+      item.headline.rankingScore = item.score;
+      item.headline.rankingReason = item.reasons.join(', ');
+    }
 
     finalScored.push(item);
   }

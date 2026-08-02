@@ -3,6 +3,8 @@ import { Headline } from '../providers/newsProvider';
 import { formatNewsTimestamp } from '../../../lib/formatting';
 import { formatPublisherName } from '../utils/sourceMapper';
 import { ChevronDown, ChevronUp } from 'lucide-react';
+import { getSafeExternalUrl } from '../utils/urls';
+import { NewsImage } from './NewsImage';
 
 interface StoryListProps {
   articles: Headline[];
@@ -16,11 +18,14 @@ export const StoryList: React.FC<StoryListProps> = ({ articles }) => {
 
   return (
     <div className={`flex flex-col gap-3 story-list-container ${isExpanded ? 'is-expanded' : ''}`}>
-      {visibleArticles.map((story, idx) => (
+      {visibleArticles.map((story, idx) => {
+        const safeUrl = getSafeExternalUrl(story.url);
+        return (
         <a
-          href={story.url || '#'}
-          target="_blank"
-          rel="noopener noreferrer"
+          href={safeUrl}
+          target={safeUrl ? '_blank' : undefined}
+          rel={safeUrl ? 'noopener noreferrer' : undefined}
+          aria-disabled={!safeUrl}
           key={story.id || idx}
           title={story.publisherDomain ? `Source: ${story.publisherDomain}` : undefined}
           className="story-list-item relative group block p-3 rounded-lg hover:bg-white/5 transition-colors border-b border-white/5 last:border-b-0 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2"
@@ -42,7 +47,7 @@ export const StoryList: React.FC<StoryListProps> = ({ articles }) => {
           </div>
           {story.imageUrl && (
             <div className="w-14 h-14 rounded overflow-hidden bg-slate-800 shrink-0 border border-white/5 relative">
-              <img src={story.imageUrl} alt="" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+              <NewsImage src={story.imageUrl} className="w-full h-full object-cover" />
             </div>
           )}
 
@@ -53,7 +58,8 @@ export const StoryList: React.FC<StoryListProps> = ({ articles }) => {
             </div>
           )}
         </a>
-      ))}
+        );
+      })}
 
       {hasMore && (
         <button

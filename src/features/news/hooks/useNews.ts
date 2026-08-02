@@ -2,12 +2,17 @@ import { useState, useEffect, useCallback, useRef } from 'react';
 import { useSettingsStore } from '../../../lib/stores/useSettingsStore';
 import { useDevStateStore } from '../../../lib/stores/useDevStateStore';
 import { cacheService } from '../../../lib/api/cacheService';
-import { fetchNewsHeadlines } from '../newsService';
+import { fetchNewsHeadlines, isNewsProviderEnabled } from '../newsService';
 import { Headline } from '../providers/newsProvider';
 import { NewsState } from '../../../lib/types';
 import { FEATURED_NEWS_STORY, SECONDARY_NEWS_STORIES } from '../../../mocks/ambientData';
+import { GdeltProviderError } from '../providers/gdeltProvider';
 
-const NEWS_CACHE_TTL_MS = 20 * 60 * 1000; // 20 minutes cache per instructions
+const NEWS_CACHE_POLICY = {
+  freshForMs: 10 * 60 * 1000,
+  staleForMs: 6 * 60 * 60 * 1000,
+};
+const NEWS_REFRESH_INTERVAL_MS = 15 * 60 * 1000;
 
 export function useNews() {
   const { settings } = useSettingsStore();
@@ -19,7 +24,9 @@ export function useNews() {
   const abortControllerRef = useRef<AbortController | null>(null);
 
   const categoriesKey = [...settings.newsCategories].sort().join(',');
-  const cacheKey = `news_gdelt_v2_${categoriesKey}`;
+  // v3 invalidates results produced by the previous unbounded "news OR breaking"
+  // query so they cannot masquerade as a successful refresh from this provider.
+  const cacheKey = `news_gdelt_v3_${categoriesKey}`;
   const isDemoMode = import.meta.env.DEV && settings.isDemoMode;
 
   const loadNews = useCallback(
@@ -49,6 +56,27 @@ export function useNews() {
 
       // 2. Check local cache first (20 min TTL)
       const cachedRecord = cacheService.getCache<Headline[]>(cacheKey);
+
+      // Live GDELT stays disabled until an actual request succeeds in the
+      // deployed GitHub Pages page context. Never present a legacy cache as live.
+      if (!isNewsProviderEnabled()) {
+        if (cachedRecord && cachedRecord.data.length > 0) {
+          setNewsState({
+            status: 'cached',
+            featured: cachedRecord.data[0],
+            secondary: cachedRecord.data.slice(1),
+            lastUpdatedText: `Live news unavailable · Showing saved stories · Updated ${getRelativeTimeString(cachedRecord.fetchedAt)}`,
+          });
+        } else {
+          setNewsState({
+            status: 'error',
+            errorMessage:
+              'Live news is unavailable because deployed-site browser verification has not passed.',
+          });
+        }
+        setIsRefreshing(false);
+        return;
+      }
 
       if (cachedRecord && !cachedRecord.isStale && !forceRefresh) {
         if (cachedRecord.data.length > 0) {
@@ -97,7 +125,7 @@ export function useNews() {
 
         if (!controller.signal.aborted) {
           if (liveHeadlines.length > 0) {
-            cacheService.setCache(cacheKey, liveHeadlines, NEWS_CACHE_TTL_MS);
+            cacheService.setCache(cacheKey, liveHeadlines, NEWS_CACHE_POLICY);
             setNewsState({
               status: 'loaded',
               featured: liveHeadlines[0],
@@ -119,7 +147,7 @@ export function useNews() {
             status: 'cached',
             featured: fallbackCache.data[0],
             secondary: fallbackCache.data.slice(1),
-            lastUpdatedText: `Showing cached stories · Connection failed · Updated ${getRelativeTimeString(fallbackCache.fetchedAt)}`,
+            lastUpdatedText: `Showing saved stories · ${getFailureLabel(error)} · Updated ${getRelativeTimeString(fallbackCache.fetchedAt)}`,
           });
         } else {
           if (isDemoMode) {
@@ -131,7 +159,7 @@ export function useNews() {
           } else {
             setNewsState({
               status: 'error',
-              errorMessage: 'Unable to fetch news headlines. No cached stories available.',
+              errorMessage: `${getFailureLabel(error)}. No saved stories are available.`,
             });
           }
         }
@@ -145,7 +173,12 @@ export function useNews() {
   useEffect(() => {
     loadNews();
 
+    const refreshInterval = window.setInterval(() => {
+      if (!document.hidden) void loadNews(true);
+    }, NEWS_REFRESH_INTERVAL_MS);
+
     return () => {
+      window.clearInterval(refreshInterval);
       if (abortControllerRef.current) {
         abortControllerRef.current.abort();
       }
@@ -162,6 +195,17 @@ export function useNews() {
     isRefreshing,
     refreshNews,
   };
+}
+
+function getFailureLabel(error: unknown): string {
+  if (error instanceof GdeltProviderError) {
+    if (error.kind === 'rate-limited') return 'GDELT rate limited the refresh';
+    if (error.kind === 'timeout') return 'GDELT refresh timed out';
+    if (error.kind === 'network') return 'The browser could not read the GDELT response';
+    if (error.kind === 'invalid-response') return 'GDELT returned invalid data';
+    return 'GDELT refresh failed';
+  }
+  return 'Connection failed';
 }
 
 function getRelativeTimeString(isoString: string): string {

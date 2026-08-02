@@ -60,7 +60,7 @@ export function App() {
           <WeatherHero state={dashboard.weatherState} aqiState={dashboard.aqiState} onOpenSettings={dashboard.openSettings} onRetry={dashboard.refreshWeather} />
         </section>
         <section className="ambient-news flex flex-col" aria-label="Top news">
-          <NewsPanel state={dashboard.newsState} onCustomize={dashboard.openSettings} onRetry={dashboard.refreshNews} onUseCached={dashboard.refreshNews} />
+          <NewsPanel state={dashboard.newsState} onCustomize={dashboard.openSettings} onRetry={dashboard.refreshNews} />
         </section>
         <section className={`ambient-markets flex flex-col ${dashboard.settings.showMarkets ? '' : 'hidden'}`} aria-label="Markets">
           {dashboard.settings.showMarkets && <MarketPanel state={dashboard.marketState} onRetry={dashboard.refreshMarkets} onRefresh={dashboard.refreshMarkets} />}

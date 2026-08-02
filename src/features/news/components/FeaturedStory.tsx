@@ -2,17 +2,22 @@ import React from 'react';
 import { Headline } from '../providers/newsProvider';
 import { formatNewsTimestamp } from '../../../lib/formatting';
 import { formatPublisherName } from '../utils/sourceMapper';
+import { getSafeExternalUrl } from '../utils/urls';
+import { NewsImage } from './NewsImage';
 
 interface FeaturedStoryProps {
   article: Headline;
 }
 
 export const FeaturedStory: React.FC<FeaturedStoryProps> = ({ article }) => {
+  const safeUrl = getSafeExternalUrl(article.url);
+
   return (
     <a
-      href={article.url || '#'}
-      target="_blank"
-      rel="noopener noreferrer"
+      href={safeUrl}
+      target={safeUrl ? '_blank' : undefined}
+      rel={safeUrl ? 'noopener noreferrer' : undefined}
+      aria-disabled={!safeUrl}
       className="group flex flex-col md:flex-row gap-4 p-4 rounded-xl bg-slate-900/30 border border-white/5 hover:bg-white/5 transition-all relative block"
       title={article.publisherDomain ? `Source: ${article.publisherDomain}` : undefined}
     >
@@ -45,11 +50,9 @@ export const FeaturedStory: React.FC<FeaturedStoryProps> = ({ article }) => {
 
       {article.imageUrl && (
         <div className="w-full md:w-36 h-28 rounded-lg overflow-hidden bg-slate-800 shrink-0 border border-white/10 relative">
-          <img
+          <NewsImage
             src={article.imageUrl}
-            alt=""
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-            referrerPolicy="no-referrer"
           />
         </div>
       )}

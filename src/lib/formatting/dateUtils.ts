@@ -1,4 +1,4 @@
-import { format, formatDistanceToNow } from 'date-fns';
+import { format } from 'date-fns';
 import { TimeFormat } from '../types';
 
 export function formatClockTime(date: Date, timeFormat: TimeFormat): string {
@@ -58,13 +58,17 @@ export function formatDateTime(value: Date | string, timeFormat: TimeFormat = '1
 }
 
 export function formatRelativeTime(dateStringOrIso: string): string {
-  try {
-    const date = new Date(dateStringOrIso);
-    if (isNaN(date.getTime())) return 'Unknown time';
-    return formatDistanceToNow(date, { addSuffix: true });
-  } catch {
-    return 'Unknown time';
-  }
+  const date = new Date(dateStringOrIso);
+  if (Number.isNaN(date.getTime())) return 'Unknown time';
+
+  const deltaSeconds = (date.getTime() - Date.now()) / 1_000;
+  const absoluteSeconds = Math.abs(deltaSeconds);
+  const formatter = new Intl.RelativeTimeFormat(undefined, { numeric: 'auto' });
+
+  if (absoluteSeconds < 60) return formatter.format(Math.round(deltaSeconds), 'second');
+  if (absoluteSeconds < 3_600) return formatter.format(Math.round(deltaSeconds / 60), 'minute');
+  if (absoluteSeconds < 86_400) return formatter.format(Math.round(deltaSeconds / 3_600), 'hour');
+  return formatter.format(Math.round(deltaSeconds / 86_400), 'day');
 }
 
 export function formatNewsTimestamp(dateStringOrIso: string): string {
