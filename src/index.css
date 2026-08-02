@@ -149,6 +149,31 @@ html, body {
   animation-play-state: paused !important;
 }
 
+.tradingview-market-shell {
+  color-scheme: dark;
+  --tv-widget-background-color: transparent;
+  --tv-widget-font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  --tv-widget-positive-color: #34d399;
+  --tv-widget-negative-color: #fb7185;
+}
+
+.tradingview-widget-host,
+.tradingview-widget-host > tv-ticker-tape {
+  display: block;
+  width: 100%;
+  min-width: 0;
+}
+
+.tradingview-widget-host:not(.is-ready) {
+  visibility: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .market-widget-placeholder * {
+    animation: none !important;
+  }
+}
+
 /* Desktop information field: three surfaces, with weather intentionally shortest. */
 @media (min-width: 1200px) {
   .ambient-grid {
@@ -305,5 +330,4 @@ html, body {
     font-size: 0.8rem !important;
   }
 }
-
 

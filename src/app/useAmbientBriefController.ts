@@ -2,7 +2,6 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { useVisibilityRefresh } from '../hooks/useVisibilityRefresh';
 import { useWeather } from '../features/weather/hooks/useWeather';
 import { useNews } from '../features/news/hooks/useNews';
-import { useMarkets } from '../features/markets/hooks/useMarkets';
 import { useNWSAlerts } from '../features/weather/hooks/useNWSAlerts';
 import { useAirQuality } from '../features/air-quality/hooks/useAirQuality';
 import { useSettingsStore } from '../stores/settingsStore';
@@ -17,7 +16,6 @@ export function useAmbientBriefController() {
   const { weatherAlertVisible, weatherAlertSeverity, dismissWeatherAlert } = useDevStateStore();
   const { weatherState, refreshWeather } = useWeather();
   const { newsState, refreshNews, isNewsStale } = useNews();
-  const { marketState, refreshMarkets } = useMarkets();
   const { alerts: nwsAlerts, dismissAlert: dismissNWSAlert, refreshAlerts: refreshNWSAlerts } = useNWSAlerts();
   const { aqiState, refreshAirQuality } = useAirQuality();
   const { fetchExchangeRate } = useCurrencyStore();
@@ -49,16 +47,14 @@ export function useAmbientBriefController() {
     refreshAirQuality();
     refreshNWSAlerts();
     refreshNews();
-    refreshMarkets();
     void refreshOptionalData(true);
     window.setTimeout(() => setIsRefreshing(false), 600);
-  }, [refreshAirQuality, refreshMarkets, refreshNews, refreshNWSAlerts, refreshOptionalData, refreshWeather]);
+  }, [refreshAirQuality, refreshNews, refreshNWSAlerts, refreshOptionalData, refreshWeather]);
 
   useVisibilityRefresh([
     { id: 'weather', isStale: () => true, refresh: async () => refreshWeather() },
     { id: 'weatherAlerts', isStale: () => true, refresh: async () => refreshNWSAlerts() },
     { id: 'news', isStale: isNewsStale, refresh: async () => refreshNews() },
-    { id: 'markets', isStale: () => true, refresh: async () => refreshMarkets() },
     { id: 'optional', isStale: () => true, refresh: () => refreshOptionalData() },
   ]);
 
@@ -127,13 +123,11 @@ export function useAmbientBriefController() {
     weatherData,
     aqiState,
     newsState,
-    marketState,
     alerts,
     dismissAlert,
     refreshAll,
     refreshWeather,
     refreshNews,
-    refreshMarkets,
     isDemoMode,
     isRefreshing,
     isSettingsOpen,

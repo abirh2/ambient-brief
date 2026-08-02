@@ -9,7 +9,7 @@ import { SearchableCurrencySelector } from './SearchableCurrencySelector';
 const NEWS_CATEGORIES: NewsCategory[] = ['Top', 'U.S.', 'Technology', 'World', 'Business', 'Science', 'Sports', 'Entertainment'];
 const COMPANIES = [
   ['AAPL', 'Apple'], ['MSFT', 'Microsoft'], ['NVDA', 'NVIDIA'], ['AMZN', 'Amazon'],
-  ['GOOGL', 'Alphabet'], ['META', 'Meta'], ['TSLA', 'Tesla'], ['NFLX', 'Netflix'],
+  ['GOOGL', 'Alphabet'], ['META', 'Meta'],
 ] as const;
 const FALLBACK_CURRENCIES: Record<string, string> = {
   USD: 'United States Dollar', EUR: 'Euro', GBP: 'British Pound', JPY: 'Japanese Yen',
@@ -49,15 +49,18 @@ export function DisplaySettingsSection() {
 
 export function ContentSettingsSection() {
   const { settings, updateSettings } = useSettingsStore();
+  const selectedCompanySymbols = settings.marketSymbols.filter((symbol) =>
+    COMPANIES.some(([company]) => company === symbol),
+  );
   const toggleCategory = (category: NewsCategory) => {
     const selected = settings.newsCategories.includes(category);
     if (selected && settings.newsCategories.length > 1) updateSettings({ newsCategories: settings.newsCategories.filter((item) => item !== category) });
     if (!selected && settings.newsCategories.length < 3) updateSettings({ newsCategories: [...settings.newsCategories, category] });
   };
   const toggleSymbol = (symbol: string) => {
-    const selected = settings.marketSymbols.includes(symbol);
-    if (selected && settings.marketSymbols.length > 1) updateSettings({ marketSymbols: settings.marketSymbols.filter((item) => item !== symbol) });
-    if (!selected && settings.marketSymbols.length < 6) updateSettings({ marketSymbols: [...settings.marketSymbols, symbol] });
+    const selected = selectedCompanySymbols.includes(symbol);
+    if (selected && selectedCompanySymbols.length > 1) updateSettings({ marketSymbols: selectedCompanySymbols.filter((item) => item !== symbol) });
+    if (!selected && selectedCompanySymbols.length < 6) updateSettings({ marketSymbols: [...selectedCompanySymbols, symbol] });
   };
   return <>
     <section className={sectionClass}>
@@ -73,12 +76,12 @@ export function ContentSettingsSection() {
       <h3 className={titleClass}><TrendingUp className="w-3.5 h-3.5" /> Markets</h3>
       <ToggleRow label="Show Markets panel" checked={settings.showMarkets} onChange={(showMarkets) => updateSettings({ showMarkets })} />
       {settings.showMarkets && <>
-        <div className="flex justify-between text-xs text-slate-300"><span>Companies (max 6)</span><span className="font-mono text-slate-400">{settings.marketSymbols.length} / 6</span></div>
+        <p className="text-[11px] text-slate-400">Keyless TradingView ticker. S&amp;P 500, Dow Jones, and Nasdaq indices are always included.</p>
+        <div className="flex justify-between text-xs text-slate-300"><span>Companies (max 6)</span><span className="font-mono text-slate-400">{selectedCompanySymbols.length} / 6</span></div>
         <div className="grid grid-cols-2 gap-1.5">{COMPANIES.map(([symbol, name]) => {
-          const selected = settings.marketSymbols.includes(symbol);
-          return <button key={symbol} type="button" disabled={!selected && settings.marketSymbols.length >= 6} onClick={() => toggleSymbol(symbol)} className={`flex justify-between px-2.5 py-1.5 rounded-lg text-xs font-mono border ${selected ? 'bg-indigo-950/80 text-indigo-200 border-indigo-500/50' : 'bg-white/5 text-slate-400 border-white/5 disabled:opacity-50'}`}><span>{symbol}</span><span className="font-sans text-[10px]">{name}</span></button>;
+          const selected = selectedCompanySymbols.includes(symbol);
+          return <button key={symbol} type="button" disabled={!selected && selectedCompanySymbols.length >= 6} onClick={() => toggleSymbol(symbol)} className={`flex justify-between px-2.5 py-1.5 rounded-lg text-xs font-mono border ${selected ? 'bg-indigo-950/80 text-indigo-200 border-indigo-500/50' : 'bg-white/5 text-slate-400 border-white/5 disabled:opacity-50'}`}><span>{symbol}</span><span className="font-sans text-[10px]">{name}</span></button>;
         })}</div>
-        <ToggleRow label="Show sparkline mini graphs" checked={settings.showSparklines} onChange={(showSparklines) => updateSettings({ showSparklines })} />
       </>}
     </section>
   </>;
@@ -122,7 +125,7 @@ export function ProviderSettingsSection() {
   };
   return <section className={sectionClass}>
     <h3 className={titleClass}><Key className="w-3.5 h-3.5" /> Alpha Vantage Markets API Key</h3>
-    <p className="text-[11px] text-slate-400">Optional personal key for end-of-day market data. Stored only in this browser and sent directly to Alpha Vantage.</p>
+    <p className="text-[11px] text-slate-400">Optional advanced provider only; it is not used by or required for the default TradingView market display. Stored only in this browser and sent directly to Alpha Vantage when tested.</p>
     <div className="flex justify-between text-[11px] text-slate-300"><span>Personal API Key</span><span className="font-mono text-indigo-300">Usage today: {getProviderUsage().requestsAttempted} / 20 reqs</span></div>
     <div className="relative"><input type={showKey ? 'text' : 'password'} value={settings.alphaVantageApiKey ?? ''} onChange={(event) => updateSettings({ alphaVantageApiKey: event.target.value })} placeholder="Enter Alpha Vantage key..." className="w-full px-3 py-1.5 pr-16 rounded-lg bg-slate-950 border border-white/10 text-xs font-mono text-indigo-300" /><button type="button" onClick={() => setShowKey(!showKey)} className="absolute right-2 top-1.5 text-[10px] text-slate-400">{showKey ? 'Hide' : 'Show'}</button></div>
     <div className="flex gap-2"><button type="button" disabled={testing || !settings.alphaVantageApiKey?.trim()} onClick={() => void testKey()} className="px-3 py-1 rounded bg-indigo-600 disabled:opacity-50 text-white text-[11px] font-semibold">{testing ? 'Testing...' : 'Test Key'}</button><button type="button" disabled={!settings.alphaVantageApiKey} onClick={() => { updateSettings({ alphaVantageApiKey: '' }); setResult(null); }} className="px-3 py-1 rounded bg-white/5 disabled:opacity-30 text-slate-300 text-[11px]">Remove Key</button></div>

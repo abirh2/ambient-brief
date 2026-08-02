@@ -63,7 +63,7 @@ export function App() {
           <NewsPanel state={dashboard.newsState} onCustomize={dashboard.openSettings} onRetry={dashboard.refreshNews} />
         </section>
         <section className={`ambient-markets flex flex-col ${dashboard.settings.showMarkets ? '' : 'hidden'}`} aria-label="Markets">
-          {dashboard.settings.showMarkets && <MarketPanel state={dashboard.marketState} onRetry={dashboard.refreshMarkets} onRefresh={dashboard.refreshMarkets} />}
+          {dashboard.settings.showMarkets && <MarketPanel />}
         </section>
       </main>
 

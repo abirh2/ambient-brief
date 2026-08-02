@@ -15,7 +15,7 @@ const DEFAULT_PROVIDERS: ProviderDiagnostic[] = [
   { providerId: 'hourlyForecast', providerName: 'Hourly Forecast Feed', status: 'idle' },
   { providerId: 'weatherAlerts', providerName: 'NWS Severe Weather Alerts', status: 'idle' },
   { providerId: 'news', providerName: 'News Feed (Currents static cache)', status: 'idle' },
-  { providerId: 'markets', providerName: 'Financial Markets (Alpha Vantage)', status: 'idle' },
+  { providerId: 'markets', providerName: 'Financial Markets (TradingView widget)', status: 'idle' },
   { providerId: 'currency', providerName: 'Currency Exchange Rates', status: 'idle' },
   { providerId: 'prayerTimes', providerName: 'Prayer Schedule (Aladhan)', status: 'idle' },
 ];

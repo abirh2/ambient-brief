@@ -21,7 +21,7 @@ export const DEFAULT_SETTINGS: AppSettings = {
   timeFormat: '12h',
   newsCategories: ['Top', 'U.S.', 'Technology'],
   showMarkets: true,
-  marketSymbols: ['SPY', 'DIA', 'QQQ', 'AAPL', 'MSFT', 'NVDA', 'AMZN', 'GOOGL', 'META'],
+  marketSymbols: ['AAPL', 'MSFT', 'NVDA', 'AMZN', 'GOOGL', 'META'],
   showSparklines: true,
   backgroundMotion: 'subtle',
   glassIntensity: 0.65,

@@ -1,230 +1,110 @@
-import React from 'react';
-import { TrendingUp, AlertTriangle, RefreshCw, Info, ShieldAlert } from 'lucide-react';
+import { useCallback, useEffect, useRef, useState } from 'react';
+import { AlertTriangle, RefreshCw, TrendingUp } from 'lucide-react';
 import { GlassSurface } from '../../../components/common/GlassSurface';
-import { IndexSummary } from './IndexSummary';
-import { StockList } from './StockList';
-import { MarketSkeleton } from './MarketSkeleton';
-import { MarketState } from '../model';
 import { useSettingsStore } from '../../../stores/settingsStore';
+import {
+  getTradingViewSymbols,
+  loadTradingViewTickerTape,
+  TRADINGVIEW_TICKER_TAPE_TAG,
+} from '../tradingViewWidget';
 
-interface MarketPanelProps {
-  state: MarketState;
-  onRetry?: () => void;
-  onRefresh?: () => void;
-  isRefreshing?: boolean;
-}
+type WidgetStatus = 'loading' | 'ready' | 'unavailable';
 
-export const MarketPanel: React.FC<MarketPanelProps> = ({ state, onRetry, onRefresh, isRefreshing }) => {
+export function MarketPanel() {
   const { settings } = useSettingsStore();
-
-  if (!settings.showMarkets) {
-    return null;
-  }
-
+  const widgetHostRef = useRef<HTMLDivElement>(null);
+  const [status, setStatus] = useState<WidgetStatus>('loading');
+  const [loadAttempt, setLoadAttempt] = useState(0);
   const isCompact = settings.contentDensity === 'compact';
+  const symbols = getTradingViewSymbols(settings.marketSymbols);
 
-  // 1. Loading state
-  if (state.status === 'loading') {
-    return <MarketSkeleton />;
-  }
+  const retry = useCallback(() => {
+    setStatus('loading');
+    setLoadAttempt((attempt) => attempt + 1);
+  }, []);
 
-  // 2. Setup state
-  if (state.status === 'setup') {
-    return (
-      <GlassSurface className={`market-panel-card market-setup-state ${isCompact ? 'p-4' : 'p-5 sm:p-6'} flex flex-col gap-4 h-full min-h-[380px]`}>
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 border-b border-white/10 pb-3">
-          <div className="flex items-center gap-2">
-            <TrendingUp className="w-5 h-5 text-emerald-400" aria-hidden="true" />
-            <h2 className="text-base sm:text-lg font-bold tracking-tight text-slate-100">
-              Markets
-            </h2>
-          </div>
-          <span className="text-[11px] text-indigo-400 font-sans font-medium">
-            Setup Required
-          </span>
-        </div>
+  useEffect(() => {
+    const host = widgetHostRef.current;
+    if (!host) return;
 
-        <div
-          role="status"
-          aria-live="polite"
-          className="flex-grow flex flex-col items-center justify-center text-center p-6 gap-3 bg-slate-900/40 rounded-xl border border-white/5"
-        >
-          <div className="market-setup-icon p-3 rounded-full bg-slate-850 text-indigo-400 border border-white/5">
-            <TrendingUp className="w-7 h-7" />
-          </div>
-          <div className="flex flex-col gap-1 max-w-xs">
-            <h3 className="text-sm font-bold text-slate-200">Alpha Vantage Key Setup</h3>
-            <p className="text-xs text-slate-400 leading-relaxed">
-              Enter an optional Alpha Vantage API key in Settings to fetch latest available end-of-day market data for ETF proxies and your watchlist.
-            </p>
-          </div>
-          <button
-            type="button"
-            onClick={() => {
-              window.dispatchEvent(new CustomEvent('open-settings'));
-            }}
-            className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold shadow-md transition-all active:scale-[0.98]"
-          >
-            <span>Configure API Key</span>
-          </button>
-        </div>
-      </GlassSurface>
-    );
-  }
+    let active = true;
+    setStatus('loading');
+    host.replaceChildren();
 
-  // 3. Rate Limited or Quota Exhausted state
-  if (state.status === 'rate_limited' || state.status === 'quota_exhausted') {
-    return (
-      <GlassSurface className={`market-panel-card market-error-state ${isCompact ? 'p-4' : 'p-5 sm:p-6'} flex flex-col gap-4 h-full min-h-[380px]`}>
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 border-b border-white/10 pb-3">
-          <div className="flex items-center gap-2">
-            <TrendingUp className="w-5 h-5 text-emerald-400" aria-hidden="true" />
-            <h2 className="text-base sm:text-lg font-bold tracking-tight text-slate-100">
-              Markets
-            </h2>
-          </div>
-          <span className="text-[11px] text-amber-300 font-sans font-medium">
-            {state.status === 'rate_limited' ? 'Rate Limited' : 'Quota Exhausted'}
-          </span>
-        </div>
+    const widget = document.createElement(TRADINGVIEW_TICKER_TAPE_TAG);
+    widget.setAttribute('symbols', symbols);
+    widget.setAttribute('theme', 'dark');
+    widget.setAttribute('transparent', '');
+    widget.setAttribute('item-size', 'compact');
+    widget.setAttribute('hide-chart', '');
+    widget.setAttribute('aria-label', 'TradingView market ticker');
+    host.appendChild(widget);
 
-        <div
-          role="status"
-          aria-live="polite"
-          className="flex-grow flex flex-col items-center justify-center text-center p-6 gap-3 bg-slate-900/40 rounded-xl border border-amber-800/30"
-        >
-          <div className="p-3 rounded-full bg-amber-950/60 text-amber-400 border border-amber-800/40">
-            <ShieldAlert className="w-7 h-7" />
-          </div>
-          <div className="flex flex-col gap-1 max-w-xs">
-            <h3 className="text-sm font-bold text-slate-100">
-              {state.status === 'rate_limited' ? 'Alpha Vantage Rate Limit' : 'Daily Quota Reached'}
-            </h3>
-            <p className="text-xs text-slate-400 leading-relaxed">
-              {state.message}
-            </p>
-            {state.usage && (
-              <p className="text-[10px] font-mono text-slate-500 mt-1">
-                Today&apos;s usage: {state.usage.requestsAttempted} / 20 requests attempted.
-              </p>
-            )}
-          </div>
-          <button
-            type="button"
-            onClick={onRetry}
-            className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold shadow-md transition-colors"
-          >
-            <RefreshCw className="w-3.5 h-3.5" />
-            <span>Try again later</span>
-          </button>
-        </div>
-      </GlassSurface>
-    );
-  }
+    void loadTradingViewTickerTape()
+      .then(() => {
+        if (active) setStatus('ready');
+      })
+      .catch(() => {
+        if (!active) return;
+        widget.remove();
+        setStatus('unavailable');
+      });
 
-  // 4. Unavailable state
-  if (state.status === 'unavailable') {
-    return (
-      <GlassSurface className={`market-panel-card market-error-state ${isCompact ? 'p-4' : 'p-5 sm:p-6'} flex flex-col gap-4 h-full min-h-[380px]`}>
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 border-b border-white/10 pb-3">
-          <div className="flex items-center gap-2">
-            <TrendingUp className="w-5 h-5 text-emerald-400" aria-hidden="true" />
-            <h2 className="text-base sm:text-lg font-bold tracking-tight text-slate-100">
-              Markets
-            </h2>
-          </div>
-          <span className="text-[11px] text-amber-300 font-sans font-medium">
-            {state.lastUpdatedText || 'Unavailable'}
-          </span>
-        </div>
+    return () => {
+      active = false;
+      widget.remove();
+      host.replaceChildren();
+    };
+  }, [loadAttempt, symbols]);
 
-        <div
-          role="status"
-          aria-live="polite"
-          className="flex-grow flex flex-col items-center justify-center text-center p-6 gap-3 bg-slate-900/40 rounded-xl border border-white/5"
-        >
-          <div className="p-3 rounded-full bg-slate-800 text-slate-400 border border-white/10">
-            <AlertTriangle className="w-7 h-7 text-amber-400" />
-          </div>
-          <div className="flex flex-col gap-1 max-w-xs">
-            <h3 className="text-sm font-bold text-slate-100">Market data is temporarily unavailable</h3>
-            <p className="text-xs text-slate-400">
-              {state.message || 'Check connection or verify API key quota.'}
-            </p>
-          </div>
-          <button
-            type="button"
-            onClick={onRetry}
-            className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold shadow-md transition-colors"
-          >
-            <RefreshCw className="w-3.5 h-3.5" />
-            <span>Retry connection</span>
-          </button>
-        </div>
-      </GlassSurface>
-    );
-  }
-
-  // 5. Loaded or Delayed state
-  const isDelayed = state.status === 'delayed';
-  const indices = state.indices || [];
-  const stocks = state.stocks || [];
-  const sessionStatus = state.sessionStatus || 'Regular session closed · Market holiday status not independently verified';
-  const usage = state.usage;
+  if (!settings.showMarkets) return null;
 
   return (
-    <GlassSurface className={`market-panel-card ${isCompact ? 'p-4' : 'p-5 sm:p-6'} flex flex-col gap-4 h-full`}>
-      {/* Header & Status */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 border-b border-white/10 pb-3">
+    <GlassSurface className={`market-panel-card ${isCompact ? 'p-4' : 'p-5 sm:p-6'} flex h-full min-h-[180px] flex-col gap-4`}>
+      <div className="flex flex-col gap-1 border-b border-white/10 pb-3 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex items-center gap-2">
-          <TrendingUp className="w-5 h-5 text-emerald-400" aria-hidden="true" />
-          <h2 className="text-base sm:text-lg font-bold tracking-tight text-slate-100">
-            Markets
-          </h2>
+          <TrendingUp className="h-5 w-5 text-emerald-400" aria-hidden="true" />
+          <h2 className="text-base font-bold tracking-tight text-slate-100 sm:text-lg">Markets</h2>
         </div>
-        <div className="flex items-center gap-2">
-          <span className="text-[11px] text-slate-400 font-sans">
-            Latest available market data · End-of-day data
-          </span>
-          {onRefresh && (
-            <button
-              type="button"
-              onClick={onRefresh}
-              disabled={isRefreshing}
-              title="Manual refresh"
-              className="p-1 rounded bg-white/5 hover:bg-white/10 text-slate-300 transition-colors"
-            >
-              <RefreshCw className={`w-3.5 h-3.5 ${isRefreshing ? 'animate-spin' : ''}`} />
-            </button>
-          )}
-        </div>
+        <span className="text-[11px] font-medium text-slate-400">
+          Prices and exchange delay status provided by TradingView
+        </span>
       </div>
 
-      {/* Session state or Informative Notice */}
-      <div className="flex items-start gap-2 p-2.5 rounded-lg bg-slate-900/60 border border-white/5 text-xs font-sans">
-        <Info className="w-4 h-4 text-indigo-400 shrink-0 mt-0.5" />
-        <div className="flex flex-col gap-0.5 w-full">
-          <div className="flex justify-between items-center">
-            <span className="font-semibold text-slate-200">Session: {sessionStatus}</span>
-            {usage && (
-              <span className="text-[10px] font-mono text-slate-400">
-                Quota: {usage.requestsAttempted}/20 today
-              </span>
-            )}
+      <div className="tradingview-market-shell relative flex min-h-[76px] w-full flex-1 items-center" aria-busy={status === 'loading'}>
+        <div ref={widgetHostRef} className={`tradingview-widget-host w-full ${status === 'ready' ? 'is-ready' : ''}`} />
+
+        {status === 'loading' && (
+          <div className="market-widget-placeholder absolute inset-0 flex items-center gap-3 rounded-xl border border-white/5 bg-slate-900/45 px-4" role="status" aria-live="polite">
+            <span className="h-8 w-8 shrink-0 animate-pulse rounded-full bg-white/10" />
+            <div className="flex w-full flex-col gap-2">
+              <span className="h-2.5 w-2/3 animate-pulse rounded bg-white/10" />
+              <span className="h-2 w-1/3 animate-pulse rounded bg-white/5" />
+            </div>
+            <span className="sr-only">Loading TradingView market data</span>
           </div>
-          {isDelayed && (
-            <span className="text-[11px] text-amber-300/90">
-              {state.note || 'Showing cached or delayed market metrics.'}
-            </span>
-          )}
-        </div>
+        )}
+
+        {status === 'unavailable' && (
+          <div className="absolute inset-0 flex items-center justify-between gap-3 rounded-xl border border-amber-800/30 bg-slate-900/60 px-4" role="alert">
+            <div className="flex min-w-0 items-center gap-3">
+              <AlertTriangle className="h-5 w-5 shrink-0 text-amber-400" aria-hidden="true" />
+              <div>
+                <p className="text-xs font-semibold text-slate-100">TradingView market data is unavailable</p>
+                <p className="text-[11px] text-slate-400">The third-party widget may be blocked by your browser, network, or content security policy.</p>
+              </div>
+            </div>
+            <button type="button" onClick={retry} className="flex shrink-0 items-center gap-1.5 rounded-lg bg-white/5 px-3 py-1.5 text-xs font-semibold text-slate-200 hover:bg-white/10">
+              <RefreshCw className="h-3.5 w-3.5" aria-hidden="true" />
+              Retry
+            </button>
+          </div>
+        )}
       </div>
 
-      {/* Index Summary Block (ETF Proxies) */}
-      <IndexSummary indices={indices} />
-
-      {/* Stock Tickers List */}
-      <StockList stocks={stocks} />
+      <p className="text-[10px] leading-relaxed text-slate-500">
+        S&amp;P 500, Dow Jones Industrial Average, and Nasdaq Composite are displayed as index instruments—not ETF proxies. TradingView determines whether each exchange feed is real-time, delayed, or end-of-day.
+      </p>
     </GlassSurface>
   );
-};
+}
