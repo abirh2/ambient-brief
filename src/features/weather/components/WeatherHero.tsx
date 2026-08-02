@@ -1,5 +1,5 @@
-import React from 'react';
-import { CloudSun, ShieldAlert, MapPinOff, RefreshCw, Clock, AlertTriangle } from 'lucide-react';
+import React, { useState } from 'react';
+import { AlertTriangle, ChevronDown, ChevronUp, Clock, CloudSun, Droplets, MapPinOff, RefreshCw, ShieldAlert, Wind } from 'lucide-react';
 import { GlassSurface } from '../../../components/common/GlassSurface';
 import { WeatherInsight } from './WeatherInsight';
 import { HourlyForecast } from './HourlyForecast';
@@ -23,6 +23,7 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
 }) => {
   const { settings } = useSettingsStore();
   const { aqiState } = useAirQuality();
+  const [detailsExpanded, setDetailsExpanded] = useState(false);
 
   const isCompact = settings.contentDensity === 'compact';
 
@@ -122,8 +123,8 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
   return (
     <GlassSurface
       className={`weather-hero-card ${
-        isCompact ? 'p-4 sm:p-5' : 'p-5 sm:p-6 lg:p-7'
-      } flex flex-col justify-between gap-4 sm:gap-5 w-full h-full relative`}
+        isCompact ? 'p-4' : 'p-4 sm:p-5'
+      } flex flex-col gap-3 w-full relative`}
     >
       {/* Cached Banner Indicator */}
       {isCached && (
@@ -134,19 +135,19 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
       )}
 
       {/* Upper Row: Main Temp, Condition, Stats, Insight */}
-      <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
+      <div className="weather-current flex flex-col gap-3">
         {/* Huge temperature + condition + feels like */}
-        <div className="flex items-center gap-4 sm:gap-5">
-          <div className="text-6xl sm:text-7xl lg:text-8xl font-extralight tracking-tight text-white font-mono leading-none shrink-0">
+        <div className="flex items-center gap-3 sm:gap-4">
+          <div className="weather-temp-text text-5xl sm:text-6xl font-extralight tracking-[-0.055em] text-white font-mono leading-none shrink-0 tabular-nums">
             {formatTemp(weatherData.temperature)}
           </div>
 
-          <div className="flex flex-col gap-1 border-l border-white/10 pl-4 sm:pl-5">
-            <div className="flex items-center gap-2 text-xl sm:text-2xl font-medium text-slate-100">
-              <CloudSun className="w-6 h-6 text-amber-300 shrink-0" aria-hidden="true" />
+          <div className="flex flex-col gap-1 border-l border-white/10 pl-3 sm:pl-4 min-w-0">
+            <div className="flex items-center gap-2 text-base sm:text-lg font-medium text-slate-100 min-w-0">
+              <CloudSun className="w-5 h-5 text-amber-300 shrink-0" aria-hidden="true" />
               <span>{weatherData.condition}</span>
             </div>
-            <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-sm text-slate-300 font-sans">
+            <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5 text-xs text-slate-300 font-sans">
               <span>Feels {formatTemp(weatherData.feelsLike)}</span>
               <span className="text-slate-600">•</span>
               <span className="font-mono text-slate-200">
@@ -157,7 +158,7 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
         </div>
 
         {/* Insight and AQI */}
-        <div className="flex flex-col items-start lg:items-end justify-center gap-2 mt-2 lg:mt-0">
+        <div className="weather-insight-row flex flex-wrap items-center gap-2 min-h-6">
           {weatherData.summaryNote && <WeatherInsight note={weatherData.summaryNote} />}
           {showAqiProminent && interpretation && (
             <div
@@ -167,10 +168,25 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
               <span>AQI {aqiVal} · {interpretation.label}</span>
             </div>
           )}
+          <button
+            type="button"
+            onClick={() => setDetailsExpanded((isExpanded) => !isExpanded)}
+            className="inline-flex items-center gap-1 text-[11px] font-medium text-slate-400 hover:text-slate-200 transition-colors"
+            aria-expanded={detailsExpanded}
+          >
+            Details
+            {detailsExpanded ? <ChevronUp className="w-3 h-3" /> : <ChevronDown className="w-3 h-3" />}
+          </button>
         </div>
+        {detailsExpanded && (
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[11px] text-slate-400" aria-label="Additional weather details">
+            <span className="inline-flex items-center gap-1.5"><Droplets className="w-3.5 h-3.5 text-sky-300" />Humidity <strong className="font-mono font-medium text-slate-200">{weatherData.humidity}%</strong></span>
+            <span className="inline-flex items-center gap-1.5"><Wind className="w-3.5 h-3.5 text-slate-300" />Wind <strong className="font-mono font-medium text-slate-200">{Math.round(weatherData.windSpeedMph)} mph</strong></span>
+          </div>
+        )}
       </div>
 
-      <div className="w-full h-px bg-white/10 my-1" />
+      <div className="w-full h-px bg-white/10" />
 
       {/* Hourly Forecast Timeline */}
       <div className="hourly-forecast-container w-full">

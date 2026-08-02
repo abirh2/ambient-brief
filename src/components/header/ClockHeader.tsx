@@ -39,14 +39,14 @@ export const ClockHeader: React.FC<ClockHeaderProps> = ({
   const isDeviceGps = activeLocation.source === 'device';
 
   return (
-    <header className="app-header w-full flex flex-col sm:flex-row justify-between items-start gap-4 py-2 px-1 text-slate-100 z-20">
-      <div className="flex flex-col">
+    <header className="app-header w-full flex justify-between items-start gap-4 pt-1 pb-2 px-1 text-slate-100 z-20">
+      <div className="flex flex-col min-w-0">
         {/* Prominent Clock */}
-        <div className="flex items-baseline gap-2 font-mono font-light tracking-tight text-white mb-1" aria-hidden="true">
-          <span className="text-6xl lg:text-7xl tabular-nums">{hours}:{minutes}</span>
-          <span className="text-3xl lg:text-4xl text-slate-400 tabular-nums">:{seconds}</span>
+        <div className="clock-display flex items-baseline gap-2 font-mono font-light tracking-[-0.055em] text-white" aria-hidden="true">
+          <span className="clock-primary text-[4.75rem] sm:text-[5.5rem] lg:text-[6.5rem] leading-[0.9] tabular-nums">{hours}:{minutes}</span>
+          <span className="clock-seconds text-3xl sm:text-4xl lg:text-[2.75rem] text-slate-400/80 tabular-nums tracking-[-0.035em]">:{seconds}</span>
           {!is24h && ampm && (
-            <span className="text-2xl lg:text-3xl font-sans text-slate-300 ml-1">{ampm}</span>
+            <span className="clock-period text-lg sm:text-xl font-sans font-medium tracking-[0.08em] text-slate-400 ml-1">{ampm}</span>
           )}
         </div>
         {/* Accessible label for the clock so it doesn't announce every second */}
@@ -55,11 +55,11 @@ export const ClockHeader: React.FC<ClockHeaderProps> = ({
         </span>
         
         {/* Date and Location */}
-        <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3 text-slate-200">
-          <h2 className="text-lg lg:text-xl font-medium">{dateString}</h2>
+        <div className="clock-context flex flex-col sm:flex-row sm:items-center gap-1.5 sm:gap-3 mt-2 text-slate-200 min-w-0">
+          <h2 className="text-base sm:text-lg lg:text-xl font-medium tracking-[-0.01em]">{dateString}</h2>
           <span className="hidden sm:inline text-slate-500">•</span>
           <div 
-            className="flex items-center gap-1.5 text-slate-300 font-medium"
+            className="flex items-center gap-1.5 text-sm sm:text-base text-slate-300 font-medium min-w-0"
             title={isDeviceGps ? `Device GPS Active — ${formattedLabel}` : formattedLabel}
             aria-label={isDeviceGps ? `Active location (Device GPS active): ${formattedLabel}` : `Active location: ${formattedLabel}`}
           >
@@ -77,7 +77,7 @@ export const ClockHeader: React.FC<ClockHeaderProps> = ({
       </div>
       
       {/* Action icons */}
-      <div className="flex items-center gap-2 mt-4 sm:mt-0">
+      <div className="flex items-center gap-2 shrink-0">
         <button
           type="button"
           onClick={onRefresh}

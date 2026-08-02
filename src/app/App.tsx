@@ -21,7 +21,7 @@ export function App() {
     : null;
 
   return (
-    <div className="app-container min-h-screen w-full relative flex flex-col justify-between p-3 sm:p-5 lg:p-6 min-[1600px]:p-7 max-w-[1440px] min-[1600px]:max-w-[1728px] min-[1900px]:max-w-[1880px] min-[2560px]:max-w-[2200px] min-[3440px]:max-w-[2400px] mx-auto gap-3.5 text-slate-100 antialiased selection:bg-indigo-500/30 selection:text-indigo-200">
+    <div className="app-container min-h-screen w-full relative flex flex-col p-3 sm:p-5 lg:px-6 lg:py-5 min-[1600px]:px-7 max-w-[1440px] min-[1600px]:max-w-[1728px] min-[1900px]:max-w-[1880px] min-[2560px]:max-w-[2200px] min-[3440px]:max-w-[2400px] mx-auto gap-3.5 text-slate-100 antialiased selection:bg-indigo-500/30 selection:text-indigo-200">
       <AtmosphericBackground
         currentWeatherCondition={dashboard.weatherData?.condition}
         sunrise={dashboard.weatherData?.sunrise}
@@ -50,21 +50,21 @@ export function App() {
         </div>
       )}
 
-      <main className="w-full flex-grow grid grid-cols-1 lg:grid-cols-12 gap-3.5 z-10 items-stretch">
+      <main className="ambient-grid w-full flex-grow grid grid-cols-1 gap-3.5 z-10 items-stretch">
         {primaryAlert && (
-          <div className="col-span-12">
+          <div className="ambient-alert">
             <WeatherAlertBanner alert={primaryAlert} allAlerts={dashboard.alerts} onDismiss={() => dashboard.dismissAlert(primaryAlert.id)} onDismissAlert={dashboard.dismissAlert} />
           </div>
         )}
-        <div className={dashboard.settings.showMarkets ? 'col-span-12 min-[1900px]:col-span-4 flex flex-col' : 'col-span-12 min-[1900px]:col-span-5 flex flex-col'}>
+        <section className="ambient-weather flex flex-col" aria-label="Current weather and hourly forecast">
           <WeatherHero state={dashboard.weatherState} onOpenSettings={dashboard.openSettings} onRetry={dashboard.refreshWeather} />
-        </div>
-        <div className={dashboard.settings.showMarkets ? 'col-span-12 lg:col-span-7 min-[1900px]:col-span-5 flex flex-col' : 'col-span-12 lg:col-span-12 min-[1900px]:col-span-7 flex flex-col'}>
+        </section>
+        <section className="ambient-news flex flex-col" aria-label="Top news">
           <NewsPanel state={dashboard.newsState} onCustomize={dashboard.openSettings} onRetry={dashboard.refreshNews} onUseCached={dashboard.refreshNews} />
-        </div>
-        <div className={`col-span-12 flex flex-col gap-3.5 ${dashboard.settings.showMarkets ? 'lg:col-span-5 min-[1900px]:col-span-3' : 'hidden'}`}>
+        </section>
+        <section className={`ambient-markets flex flex-col ${dashboard.settings.showMarkets ? '' : 'hidden'}`} aria-label="Markets">
           {dashboard.settings.showMarkets && <MarketPanel state={dashboard.marketState} onRetry={dashboard.refreshMarkets} onRefresh={dashboard.refreshMarkets} />}
-        </div>
+        </section>
       </main>
 
       <ContextBar

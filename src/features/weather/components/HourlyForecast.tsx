@@ -35,11 +35,11 @@ export const HourlyForecast: React.FC<HourlyForecastProps> = ({ hourly }) => {
   const visibleHourly = hourly.slice(0, displayCount);
 
   return (
-    <div className="w-full relative pt-2">
+    <div className="w-full relative">
       {/* Continuous horizontal timeline line connecting points */}
-      <div className="absolute top-[35%] left-4 right-4 h-px bg-white/10 pointer-events-none" />
+      <div className="absolute top-[31px] left-4 right-4 h-px bg-white/10 pointer-events-none" />
 
-      <div className={`grid grid-cols-4 sm:grid-cols-6 gap-2 w-full text-center ${expanded ? 'sm:grid-cols-8' : ''}`}>
+      <div className={`hourly-points grid grid-cols-3 sm:grid-cols-6 gap-1 w-full text-center ${expanded ? 'sm:grid-cols-4 min-[1500px]:grid-cols-8' : ''}`}>
         {visibleHourly.map((item, idx) => {
           const hasSignificantPrecip = ['CloudRain', 'CloudSnow', 'CloudLightning', 'CloudDrizzle'].includes(item.iconName);
           const showPrecip = item.pop >= 15 || hasSignificantPrecip;
@@ -48,13 +48,13 @@ export const HourlyForecast: React.FC<HourlyForecastProps> = ({ hourly }) => {
           return (
             <div
               key={idx}
-              className="group flex flex-col items-center justify-between py-1 px-1 rounded hover:bg-white/5 transition-colors relative"
+              className="group flex flex-col items-center justify-between py-1 px-0.5 rounded hover:bg-white/5 transition-colors relative"
             >
               <span className="text-[11px] font-mono text-slate-400 font-medium">
                 {item.isoTime ? formatHourlyTimeLabel(item.isoTime, settings.timeFormat) : item.time}
               </span>
 
-              <div className="my-1.5 p-1 z-10 transition-transform">
+              <div className="my-1 p-1 z-10 transition-transform">
                 {renderWeatherIcon(item.iconName, 'w-5 h-5')}
               </div>
 

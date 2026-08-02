@@ -2,13 +2,18 @@ import { Clock, Sun, Sunset } from 'lucide-react';
 import { AirQualityContextItem } from '../../features/air-quality/components/AirQualityContextItem';
 import { CurrencyContextItem } from '../../features/currency/components/CurrencyContextItem';
 import { PrayerTimesContextItem } from '../../features/prayer-times/components/PrayerTimesContextItem';
+import { formatSunTime } from '../../lib/formatting';
+import { useSettingsStore } from '../../stores/settingsStore';
 
 interface ContextBarProps { uvIndex: number | null; uvLabel: string; sunset: string | null; weatherFreshness: string }
 
 export function ContextBar({ uvIndex, uvLabel, sunset, weatherFreshness }: ContextBarProps) {
-  return <div className="context-bar-container w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 min-[1900px]:grid-cols-1 gap-4 px-4 sm:px-5 py-4 rounded-xl bg-slate-900/40 border border-white/10 backdrop-blur-md text-sm text-slate-300 font-sans shadow-md items-start">
-    <div className="flex flex-col gap-2"><h3 className="text-[10px] font-bold uppercase tracking-wider text-slate-500 mb-1">Environment</h3><AirQualityContextItem /><div className="flex items-center gap-2"><Sun className="w-3.5 h-3.5 text-amber-400" /><span className="text-slate-400 w-16">UV</span><span className="font-semibold text-slate-100 font-mono">{uvIndex ?? '--'}</span><span className="text-amber-300 text-xs">· {uvLabel}</span></div><div className="flex items-center gap-2"><Sunset className="w-3.5 h-3.5 text-indigo-400" /><span className="text-slate-400 w-16">Sunset</span><span className="font-semibold text-slate-100 font-mono">{sunset ?? '--'}</span></div></div>
-    <div className="flex flex-col gap-2"><h3 className="text-[10px] font-bold uppercase tracking-wider text-slate-500 mb-1">Finance</h3><CurrencyContextItem /><div className="flex items-center gap-2 mt-1"><Clock className="w-3.5 h-3.5 text-slate-500" /><span className="text-slate-400">Last refreshed</span><span className="font-semibold text-slate-100 font-mono text-xs">{weatherFreshness}</span></div></div>
+  const timeFormat = useSettingsStore((state) => state.settings.timeFormat);
+  const sunsetLabel = sunset ? formatSunTime(sunset, timeFormat) : '--';
+
+  return <aside className="context-bar-container w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.35fr_1fr_auto] gap-x-6 gap-y-3 px-1 sm:px-2 pt-2 pb-1 border-t border-white/10 text-xs text-slate-300 font-sans items-start z-10" aria-label="Contextual information">
+    <div className="context-group flex flex-wrap items-center gap-x-4 gap-y-1.5"><h3 className="context-heading text-[9px] font-bold uppercase tracking-[0.18em] text-slate-500 w-full">Environment</h3><AirQualityContextItem /><div className="flex items-center gap-1.5"><Sun className="w-3.5 h-3.5 text-amber-400" /><span className="text-slate-400">UV</span><span className="font-semibold text-slate-100 font-mono">{uvIndex ?? '--'}</span><span className="text-amber-300">· {uvLabel}</span></div><div className="flex items-center gap-1.5"><Sunset className="w-3.5 h-3.5 text-indigo-400" /><span className="text-slate-400">Sunset</span><span className="font-semibold text-slate-100 font-mono">{sunsetLabel}</span></div></div>
+    <div className="context-group flex flex-wrap items-center gap-x-4 gap-y-1.5"><h3 className="context-heading text-[9px] font-bold uppercase tracking-[0.18em] text-slate-500 w-full">Finance</h3><CurrencyContextItem /><div className="flex items-center gap-1.5"><Clock className="w-3.5 h-3.5 text-slate-500" /><span className="text-slate-400">Weather</span><span className="font-semibold text-slate-100 font-mono text-[11px]">{weatherFreshness}</span></div></div>
     <PrayerTimesContextItem />
-  </div>;
+  </aside>;
 }
