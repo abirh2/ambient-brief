@@ -1,12 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
 import { Loader2, Wind } from 'lucide-react';
 import { AnimatePresence } from 'motion/react';
-import { useAirQuality } from '../hooks/useAirQuality';
+import type { AirQualityState } from '../hooks/useAirQuality';
 import { interpretAqi } from '../utils/aqiInterpreter';
 import { AirQualityPopover } from './AirQualityPopover';
 
-export function AirQualityContextItem() {
-  const { aqiState } = useAirQuality();
+export function AirQualityContextItem({ aqiState }: { aqiState: AirQualityState }) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
   useEffect(() => {

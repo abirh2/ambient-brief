@@ -57,7 +57,7 @@ export function App() {
           </div>
         )}
         <section className="ambient-weather flex flex-col" aria-label="Current weather and hourly forecast">
-          <WeatherHero state={dashboard.weatherState} onOpenSettings={dashboard.openSettings} onRetry={dashboard.refreshWeather} />
+          <WeatherHero state={dashboard.weatherState} aqiState={dashboard.aqiState} onOpenSettings={dashboard.openSettings} onRetry={dashboard.refreshWeather} />
         </section>
         <section className="ambient-news flex flex-col" aria-label="Top news">
           <NewsPanel state={dashboard.newsState} onCustomize={dashboard.openSettings} onRetry={dashboard.refreshNews} onUseCached={dashboard.refreshNews} />
@@ -72,6 +72,7 @@ export function App() {
         uvLabel={formatUvLabel(uvIndex)}
         sunset={dashboard.weatherData?.sunset ?? null}
         weatherFreshness={dashboard.weatherState.status === 'cached' ? 'Cached' : dashboard.weatherState.status === 'loaded' ? 'Live' : 'Unavailable'}
+        aqiState={dashboard.aqiState}
       />
       <SettingsDrawer isOpen={dashboard.isSettingsOpen} onClose={dashboard.closeSettings} triggerRef={dashboard.settingsButtonRef} />
       {DevTools && <Suspense fallback={null}><DevTools /></Suspense>}

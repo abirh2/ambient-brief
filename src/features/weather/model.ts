@@ -16,9 +16,9 @@ export interface WeatherData {
   condition: string;
   iconName: string;
   humidity: number;
-  windSpeedMph: number;
-  aqi: number;
-  uvIndex: number;
+  windSpeed: number;
+  windSpeedUnit: 'mph' | 'km/h';
+  uvIndex: number | null;
   summaryNote?: string;
   hourly: HourlyForecast[];
   sunrise?: string;

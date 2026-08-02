@@ -12,6 +12,33 @@ export interface DeviceLocationState {
   errorMessage?: string;
 }
 
+export function getDeviceLocationError(
+  error: Pick<GeolocationPositionError, 'code'>
+): Pick<DeviceLocationState, 'errorType' | 'errorMessage'> {
+  switch (error.code) {
+    case 1:
+      return {
+        errorType: 'denied',
+        errorMessage: 'Location permission denied. You can search for a location manually.',
+      };
+    case 2:
+      return {
+        errorType: 'unavailable',
+        errorMessage: 'Location information is unavailable. Please search manually.',
+      };
+    case 3:
+      return {
+        errorType: 'timeout',
+        errorMessage: 'Location request timed out. Please try again or search manually.',
+      };
+    default:
+      return {
+        errorType: 'unknown',
+        errorMessage: 'Failed to obtain current location.',
+      };
+  }
+}
+
 /**
  * Validates an AppLocation object to ensure coordinates and fields are valid.
  * Returns DEFAULT_LOCATION if invalid.
@@ -69,50 +96,32 @@ export function useAppLocation() {
     setDeviceLocationState({ status: 'loading' });
 
     navigator.geolocation.getCurrentPosition(
-      async (position) => {
+      (position) => {
         const { latitude, longitude } = position.coords;
-        const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC';
-
-        let cityName = '';
-        let admin1Name = '';
-        let countryName = '';
-        let countryCode = '';
-
-        try {
-          const res = await fetch(
-            `https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}&zoom=10`
-          );
-          if (res.ok) {
-            const data = await res.json();
-            if (data && data.address) {
-              cityName =
-                data.address.city ||
-                data.address.town ||
-                data.address.village ||
-                data.address.suburb ||
-                data.address.county ||
-                '';
-              admin1Name = data.address.state || data.address.region || '';
-              countryName = data.address.country || '';
-              countryCode = (data.address.country_code || '').toUpperCase();
-            }
-          }
-        } catch {
-          // Fallback if reverse geocoding network fails
+        // Open-Meteo's official geocoding API supports city-name search, but not
+        // reverse geocoding. Reuse the already normalized city label only when
+        // the device coordinates are close enough to that saved city to remain
+        // truthful. Otherwise ask the user to resolve the city through search.
+        if (distanceInKilometers(activeLocation, { latitude, longitude }) > 25) {
+          setDeviceLocationState({
+            status: 'error',
+            errorType: 'unavailable',
+            errorMessage:
+              'Coordinates detected, but Open-Meteo cannot resolve a city name from coordinates. Search for your city to finish setting the location.',
+          });
+          updateSettings({ useCurrentLocation: false });
+          return;
         }
-
-        const resolvedName = cityName || `Location (${latitude.toFixed(2)}, ${longitude.toFixed(2)})`;
-        const savedLabel = [resolvedName, admin1Name].filter(Boolean).join(', ');
 
         const deviceLoc: AppLocation = {
           id: `device-${latitude.toFixed(4)}-${longitude.toFixed(4)}`,
-          name: resolvedName,
-          admin1: admin1Name,
-          country: countryName,
-          countryCode: countryCode,
+          name: activeLocation.name,
+          admin1: activeLocation.admin1,
+          country: activeLocation.country,
+          countryCode: activeLocation.countryCode,
           latitude,
           longitude,
-          timezone,
+          timezone: activeLocation.timezone,
           source: 'device',
         };
 
@@ -121,27 +130,11 @@ export function useAppLocation() {
         updateSettings({
           useCurrentLocation: true,
           activeLocation: deviceLoc,
-          savedLocation: savedLabel || resolvedName,
+          savedLocation: formatLocationLabel(deviceLoc),
         });
       },
       (error) => {
-        let errorType: DeviceLocationErrorType = 'unknown';
-        let errorMessage = 'Failed to obtain current location.';
-
-        switch (error.code) {
-          case error.PERMISSION_DENIED:
-            errorType = 'denied';
-            errorMessage = 'Location permission denied. You can search for a location manually.';
-            break;
-          case error.POSITION_UNAVAILABLE:
-            errorType = 'unavailable';
-            errorMessage = 'Location information is unavailable. Please search manually.';
-            break;
-          case error.TIMEOUT:
-            errorType = 'timeout';
-            errorMessage = 'Location request timed out. Please try again or search manually.';
-            break;
-        }
+        const { errorType, errorMessage } = getDeviceLocationError(error);
 
         setDeviceLocationState({
           status: 'error',
@@ -157,7 +150,7 @@ export function useAppLocation() {
         maximumAge: 300000,
       }
     );
-  }, [updateSettings]);
+  }, [activeLocation, updateSettings]);
 
   const setCustomLocation = useCallback(
     (location: AppLocation) => {
@@ -207,4 +200,20 @@ export function useAppLocation() {
     toggleUseCurrentLocation,
     clearLocation,
   };
+}
+
+function distanceInKilometers(
+  first: Pick<AppLocation, 'latitude' | 'longitude'>,
+  second: Pick<AppLocation, 'latitude' | 'longitude'>
+): number {
+  const toRadians = (degrees: number) => (degrees * Math.PI) / 180;
+  const earthRadiusKm = 6371;
+  const latitudeDelta = toRadians(second.latitude - first.latitude);
+  const longitudeDelta = toRadians(second.longitude - first.longitude);
+  const firstLatitude = toRadians(first.latitude);
+  const secondLatitude = toRadians(second.latitude);
+  const haversine =
+    Math.sin(latitudeDelta / 2) ** 2 +
+    Math.cos(firstLatitude) * Math.cos(secondLatitude) * Math.sin(longitudeDelta / 2) ** 2;
+  return earthRadiusKm * 2 * Math.atan2(Math.sqrt(haversine), Math.sqrt(1 - haversine));
 }

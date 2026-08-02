@@ -20,8 +20,8 @@ export const LocationSettingsSection: React.FC = () => {
     formattedLabel,
     useCurrentLocation,
     deviceLocationState,
+    requestDeviceLocation,
     setCustomLocation,
-    toggleUseCurrentLocation,
     clearLocation,
   } = useAppLocation();
 
@@ -202,7 +202,7 @@ export const LocationSettingsSection: React.FC = () => {
       <div className="flex flex-col gap-1.5">
         <button
           type="button"
-          onClick={() => toggleUseCurrentLocation(!useCurrentLocation)}
+          onClick={requestDeviceLocation}
           disabled={deviceLocationState.status === 'loading'}
           className={`flex items-center justify-between p-2.5 rounded-lg border text-xs font-medium transition-all ${
             useCurrentLocation
@@ -216,7 +216,7 @@ export const LocationSettingsSection: React.FC = () => {
                 useCurrentLocation ? 'text-emerald-400 animate-pulse' : 'text-slate-400'
               }`}
             />
-            <span>Use Device Current Location</span>
+            <span>{useCurrentLocation && activeLocation.source === 'device' ? 'Refresh Device Location' : 'Use Device Location'}</span>
           </div>
 
           {deviceLocationState.status === 'loading' ? (

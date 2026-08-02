@@ -7,15 +7,6 @@ export type AirQualityCategory =
   | 'Hazardous'
   | 'Unknown';
 
-export interface HourlyAirQuality {
-  time: string;
-  isoTime: string;
-  usAqi: number;
-  pm25?: number;
-  pm10?: number;
-  ozone?: number;
-}
-
 export interface AirQualitySnapshot {
   usAqi: number | null;
   category: AirQualityCategory;
@@ -23,6 +14,4 @@ export interface AirQualitySnapshot {
   pm10?: number;
   ozone?: number;
   measuredAt: string;
-  hourly: HourlyAirQuality[];
-  pollen?: { alder?: number; birch?: number; grass?: number };
 }

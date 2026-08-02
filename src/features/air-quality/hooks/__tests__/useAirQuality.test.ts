@@ -53,8 +53,6 @@ describe('useAirQuality hook setup', () => {
     pm10: 15,
     ozone: 64,
     measuredAt: new Date().toISOString(),
-    hourly: [],
-    pollen: { alder: 1, birch: 2, grass: 3 },
   };
 
   it('correctly maps the air quality fetch and caching rules', async () => {
@@ -76,7 +74,7 @@ describe('useAirQuality hook setup', () => {
   });
 
   it('correctly retrieves from cache if populated', async () => {
-    const cacheKey = `aqi_v1_35.68_139.65`;
+    const cacheKey = `aqi_v2_35.68_139.65`;
     cacheService.setCache(cacheKey, mockSnapshot, 30 * 60 * 1000);
 
     const cached = cacheService.getCache(cacheKey);

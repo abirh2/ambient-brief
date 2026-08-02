@@ -24,7 +24,8 @@ describe('openMeteoAirQualityProvider', () => {
     expect(url).toContain('latitude=39.9526');
     expect(url).toContain('longitude=-75.1652');
     expect(url).toContain('current=us_aqi%2Cpm2_5%2Cpm10%2Cozone');
-    expect(url).toContain('hourly=us_aqi%2Cpm2_5%2Cpm10%2Cozone%2Calder_pollen%2Cbirch_pollen%2Cgrass_pollen');
+    expect(new URL(url).searchParams.get('hourly')).toBeNull();
+    expect(new URL(url).searchParams.get('timezone')).toBe('auto');
   });
 
   it('fetches and normalizes Open-Meteo Air Quality response', async () => {
@@ -95,9 +96,31 @@ describe('openMeteoAirQualityProvider', () => {
     expect(result.pm25).toBe(10); // Rounded 9.5
     expect(result.pm10).toBe(15); // Rounded 15.2
     expect(result.ozone).toBe(64); // Rounded 64.0
-    expect(result.pollen?.alder).toBe(1);
-    expect(result.pollen?.birch).toBe(2);
-    expect(result.pollen?.grass).toBe(3);
-    expect(result.hourly.length).toBeGreaterThan(0);
+    expect(result.measuredAt).toBe(baseDate.toISOString().slice(0, 16));
+  });
+
+  it('rejects a response with no requested current values', async () => {
+    global.fetch = vi.fn().mockResolvedValue({
+      ok: true,
+      status: 200,
+      headers: new Headers(),
+      json: async () => ({
+        latitude: 39.95,
+        longitude: -75.16,
+        utc_offset_seconds: -14400,
+        timezone: 'America/New_York',
+        current: {
+          time: '2026-07-29T12:00',
+          us_aqi: null,
+          pm2_5: null,
+          pm10: null,
+          ozone: null,
+        },
+      }),
+    } as Response);
+
+    await expect(fetchOpenMeteoAirQuality(sampleLocation)).rejects.toMatchObject({
+      code: 'invalid-response',
+    });
   });
 });

@@ -99,8 +99,8 @@ export const AMBIENT_WEATHER_MOCK: WeatherData & { insightNote: string } = {
   condition: 'Partly Cloudy',
   iconName: 'SunCloud',
   humidity: 58,
-  windSpeedMph: 9,
-  aqi: 42,
+  windSpeed: 9,
+  windSpeedUnit: 'mph',
   uvIndex: 5,
   insightNote: 'Rain becomes possible around 5 PM',
   hourly: [

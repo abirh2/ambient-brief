@@ -22,12 +22,6 @@ export const AirQualityPopover: React.FC<AirQualityPopoverProps> = ({
     return val !== undefined && val !== null ? `${val} µg/m³` : 'N/A';
   };
 
-  const hasPollen = data.pollen && (
-    data.pollen.alder !== undefined ||
-    data.pollen.birch !== undefined ||
-    data.pollen.grass !== undefined
-  );
-
   return (
     <motion.div
       initial={{ opacity: 0, y: 8, scale: 0.96 }}
@@ -102,33 +96,6 @@ export const AirQualityPopover: React.FC<AirQualityPopoverProps> = ({
           </span>
         </div>
       </div>
-
-      {/* Optional Pollen Values */}
-      {hasPollen && (
-        <div className="bg-white/5 p-3.5 rounded-xl border border-white/5 mb-4">
-          <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider block mb-2.5">Local Pollen Levels</span>
-          <div className="grid grid-cols-3 gap-2.5">
-            {data.pollen?.alder !== undefined && (
-              <div className="flex justify-between items-center bg-slate-900/40 px-2 py-1.5 rounded border border-white/5 text-center flex-col">
-                <span className="text-[10px] text-slate-400">Alder</span>
-                <span className="text-xs font-semibold font-mono text-indigo-300 mt-0.5">{data.pollen.alder}</span>
-              </div>
-            )}
-            {data.pollen?.birch !== undefined && (
-              <div className="flex justify-between items-center bg-slate-900/40 px-2 py-1.5 rounded border border-white/5 text-center flex-col">
-                <span className="text-[10px] text-slate-400">Birch</span>
-                <span className="text-xs font-semibold font-mono text-indigo-300 mt-0.5">{data.pollen.birch}</span>
-              </div>
-            )}
-            {data.pollen?.grass !== undefined && (
-              <div className="flex justify-between items-center bg-slate-900/40 px-2 py-1.5 rounded border border-white/5 text-center flex-col">
-                <span className="text-[10px] text-slate-400">Grass</span>
-                <span className="text-xs font-semibold font-mono text-indigo-300 mt-0.5">{data.pollen.grass}</span>
-              </div>
-            )}
-          </div>
-        </div>
-      )}
 
       {/* Footer / Last Updated */}
       <div className="flex items-center gap-1.5 text-[10px] text-slate-500 font-mono">

@@ -19,7 +19,7 @@ export function useWeather() {
   const abortControllerRef = useRef<AbortController | null>(null);
 
   // Construct cache key based on location coordinates and unit
-  const cacheKey = `weather_v1_${activeLocation.latitude.toFixed(2)}_${activeLocation.longitude.toFixed(
+  const cacheKey = `weather_v2_${activeLocation.latitude.toFixed(2)}_${activeLocation.longitude.toFixed(
     2
   )}_${settings.temperatureUnit}`;
   const isDemoMode = import.meta.env.DEV && settings.isDemoMode;
@@ -61,14 +61,12 @@ export function useWeather() {
       // 2. Check local cache first
       const cachedRecord = cacheService.getCache<WeatherData>(cacheKey);
 
-      // If fresh cache exists and not force refreshing, use it
+      // Paint any valid cache immediately, then revalidate in the background.
       if (cachedRecord && !cachedRecord.isStale && !forceRefresh) {
         setWeatherState({ status: 'loaded', data: cachedRecord.data });
-        return;
       }
 
-      // If stale cache exists, serve it immediately while revalidating in background
-      if (cachedRecord && !forceRefresh) {
+      if (cachedRecord?.isStale && !forceRefresh) {
         setWeatherState({
           status: 'cached',
           data: cachedRecord.data,

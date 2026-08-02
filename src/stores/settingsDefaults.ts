@@ -14,7 +14,7 @@ export const DEFAULT_LOCATION: AppLocation = {
 
 export const DEFAULT_SETTINGS: AppSettings = {
   version: 2,
-  useCurrentLocation: true,
+  useCurrentLocation: false,
   savedLocation: 'Upper Darby, PA',
   activeLocation: DEFAULT_LOCATION,
   temperatureUnit: 'fahrenheit',

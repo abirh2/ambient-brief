@@ -18,7 +18,7 @@ export function useAirQuality() {
   const abortControllerRef = useRef<AbortController | null>(null);
 
   // Cache key based on location coordinates (independent of temp units)
-  const cacheKey = `aqi_v1_${activeLocation.latitude.toFixed(2)}_${activeLocation.longitude.toFixed(2)}`;
+  const cacheKey = `aqi_v2_${activeLocation.latitude.toFixed(2)}_${activeLocation.longitude.toFixed(2)}`;
 
   const loadAirQuality = useCallback(
     async (forceRefresh = false) => {
@@ -29,14 +29,12 @@ export function useAirQuality() {
 
       const cachedRecord = cacheService.getCache<AirQualitySnapshot>(cacheKey);
 
-      // If fresh cache exists and not force refreshing, use it
+      // Paint any valid cache immediately, then revalidate in the background.
       if (cachedRecord && !cachedRecord.isStale && !forceRefresh) {
         setAqiState({ status: 'loaded', data: cachedRecord.data });
-        return;
       }
 
-      // If stale cache exists, serve it immediately while revalidating in background
-      if (cachedRecord && !forceRefresh) {
+      if (cachedRecord?.isStale && !forceRefresh) {
         setAqiState({
           status: 'cached',
           data: cachedRecord.data,

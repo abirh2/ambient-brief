@@ -53,7 +53,6 @@ export interface HourlyWeatherNormalized {
   condition: SemanticCondition;
   conditionLabel: string;
   iconName: string;
-  visibility?: number;
   uvIndex?: number;
   windSpeed: number;
 }

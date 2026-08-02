@@ -6,23 +6,24 @@ import { HourlyForecast } from './HourlyForecast';
 import { WeatherHeroSkeleton } from './WeatherHeroSkeleton';
 import { WeatherState } from '../model';
 import { useSettingsStore } from '../../../stores/settingsStore';
-import { useAirQuality } from '../../air-quality/hooks/useAirQuality';
+import type { AirQualityState } from '../../air-quality/hooks/useAirQuality';
 import { interpretAqi } from '../../air-quality/utils/aqiInterpreter';
 import { formatTemperature } from '../../../lib/formatting';
 
 interface WeatherHeroProps {
   state: WeatherState;
+  aqiState: AirQualityState;
   onOpenSettings?: () => void;
   onRetry?: () => void;
 }
 
 export const WeatherHero: React.FC<WeatherHeroProps> = ({
   state,
+  aqiState,
   onOpenSettings,
   onRetry,
 }) => {
   const { settings } = useSettingsStore();
-  const { aqiState } = useAirQuality();
   const [detailsExpanded, setDetailsExpanded] = useState(false);
 
   const isCompact = settings.contentDensity === 'compact';
@@ -181,7 +182,7 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
         {detailsExpanded && (
           <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[11px] text-slate-400" aria-label="Additional weather details">
             <span className="inline-flex items-center gap-1.5"><Droplets className="w-3.5 h-3.5 text-sky-300" />Humidity <strong className="font-mono font-medium text-slate-200">{weatherData.humidity}%</strong></span>
-            <span className="inline-flex items-center gap-1.5"><Wind className="w-3.5 h-3.5 text-slate-300" />Wind <strong className="font-mono font-medium text-slate-200">{Math.round(weatherData.windSpeedMph)} mph</strong></span>
+            <span className="inline-flex items-center gap-1.5"><Wind className="w-3.5 h-3.5 text-slate-300" />Wind <strong className="font-mono font-medium text-slate-200">{Math.round(weatherData.windSpeed)} {weatherData.windSpeedUnit}</strong></span>
           </div>
         )}
       </div>

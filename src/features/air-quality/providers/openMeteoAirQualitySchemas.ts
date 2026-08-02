@@ -7,18 +7,12 @@ export const OpenMeteoAirQualityCurrentSchema = z.object({
   pm2_5: z.number().nullable().optional(),
   pm10: z.number().nullable().optional(),
   ozone: z.number().nullable().optional(),
-});
-
-export const OpenMeteoAirQualityHourlySchema = z.object({
-  time: z.array(z.string()),
-  us_aqi: z.array(z.number().nullable().optional()).optional().default([]),
-  pm2_5: z.array(z.number().nullable().optional()).optional().default([]),
-  pm10: z.array(z.number().nullable().optional()).optional().default([]),
-  ozone: z.array(z.number().nullable().optional()).optional().default([]),
-  alder_pollen: z.array(z.number().nullable().optional()).optional().default([]),
-  birch_pollen: z.array(z.number().nullable().optional()).optional().default([]),
-  grass_pollen: z.array(z.number().nullable().optional()).optional().default([]),
-});
+}).refine(
+  (current) => [current.us_aqi, current.pm2_5, current.pm10, current.ozone].some(
+    (value) => value !== null && value !== undefined
+  ),
+  { message: 'Air-quality response did not include any requested current values.' }
+);
 
 export const OpenMeteoAirQualityResponseSchema = z.object({
   latitude: z.number(),
@@ -27,7 +21,6 @@ export const OpenMeteoAirQualityResponseSchema = z.object({
   timezone: z.string().default('UTC'),
   timezone_abbreviation: z.string().optional(),
   current: OpenMeteoAirQualityCurrentSchema,
-  hourly: OpenMeteoAirQualityHourlySchema,
 });
 
 export type OpenMeteoAirQualityResponse = z.infer<typeof OpenMeteoAirQualityResponseSchema>;

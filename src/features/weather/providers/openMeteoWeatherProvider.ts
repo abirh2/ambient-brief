@@ -23,14 +23,14 @@ export function buildOpenMeteoUrl(location: AppLocation, unit: TemperatureUnit =
   const params = new URLSearchParams({
     latitude: location.latitude.toString(),
     longitude: location.longitude.toString(),
-    timezone: location.timezone && location.timezone !== 'UTC' ? location.timezone : 'auto',
+    timezone: 'auto',
     forecast_days: '2',
     current:
-      'temperature_2m,apparent_temperature,relative_humidity_2m,weather_code,wind_speed_10m,wind_gusts_10m,is_day',
+      'temperature_2m,apparent_temperature,relative_humidity_2m,weather_code,wind_speed_10m,is_day',
     hourly:
-      'temperature_2m,apparent_temperature,precipitation_probability,weather_code,visibility,uv_index,wind_speed_10m',
+      'temperature_2m,precipitation_probability,weather_code,uv_index',
     daily:
-      'temperature_2m_max,temperature_2m_min,sunrise,sunset,precipitation_probability_max,weather_code',
+      'temperature_2m_max,temperature_2m_min,sunrise,sunset',
     temperature_unit: isCelsius ? 'celsius' : 'fahrenheit',
     wind_speed_unit: isCelsius ? 'kmh' : 'mph',
     precipitation_unit: isCelsius ? 'mm' : 'inch',
@@ -81,15 +81,16 @@ export async function fetchOpenMeteoWeather(
   const normalizedHourlyList: HourlyWeatherNormalized[] = next8Times.map((isoTime, idx) => {
     const arrayIdx = startIndex + idx;
     const weatherCode = hourly.weather_code[arrayIdx] ?? 0;
-    const mapping = mapWeatherCode(weatherCode, current.is_day === 1);
+    const mapping = mapWeatherCode(
+      weatherCode,
+      isTimeDuringDay(isoTime, daily.sunrise, daily.sunset, current.is_day === 1)
+    );
 
     return {
       time: formatHourlyTimeLabel(isoTime, timeFormat),
       isoTime,
       temperature: Math.round(hourly.temperature_2m[arrayIdx] ?? current.temperature_2m),
-      apparentTemperature: Math.round(
-        hourly.apparent_temperature[arrayIdx] ?? current.apparent_temperature
-      ),
+      apparentTemperature: Math.round(current.apparent_temperature),
       precipitationProbability: Math.round(
         hourly.precipitation_probability[arrayIdx] ?? 0
       ),
@@ -97,30 +98,29 @@ export async function fetchOpenMeteoWeather(
       condition: mapping.condition,
       conditionLabel: mapping.label,
       iconName: mapping.iconName,
-      visibility: hourly.visibility?.[arrayIdx],
       uvIndex: hourly.uv_index?.[arrayIdx],
-      windSpeed: Math.round(hourly.wind_speed_10m[arrayIdx] ?? current.wind_speed_10m),
+      windSpeed: Math.round(current.wind_speed_10m),
     };
   });
 
   // Extract UV Index for current hour
-  const currentUvIndex = Math.round(hourly.uv_index?.[startIndex] ?? 4);
+  const currentUvValue = hourly.uv_index[startIndex];
+  const currentUvIndex = currentUvValue === undefined ? null : Math.round(currentUvValue);
 
   const normalizedCurrent: CurrentWeatherNormalized = {
     temperature: Math.round(current.temperature_2m),
     apparentTemperature: Math.round(current.apparent_temperature),
     humidityPercent: Math.round(current.relative_humidity_2m),
     windSpeed: Math.round(current.wind_speed_10m),
-    windGust: current.wind_gusts_10m ? Math.round(current.wind_gusts_10m) : undefined,
     condition: currentMapping.condition,
     conditionLabel: currentMapping.label,
     weatherCode: current.weather_code,
     isDay: current.is_day === 1,
     high: Math.round(daily.temperature_2m_max[0] ?? current.temperature_2m),
     low: Math.round(daily.temperature_2m_min[0] ?? current.temperature_2m),
-    sunrise: daily.sunrise[0] ? formatSunTime(daily.sunrise[0], timeFormat) : '06:00 AM',
-    sunset: daily.sunset[0] ? formatSunTime(daily.sunset[0], timeFormat) : '08:00 PM',
-    observedAt: new Date().toISOString(),
+    sunrise: formatSunTime(daily.sunrise[0], timeFormat),
+    sunset: formatSunTime(daily.sunset[0], timeFormat),
+    observedAt: current.time,
     effectVariant: currentMapping.effectVariant,
     iconName: currentMapping.iconName,
   };
@@ -145,16 +145,32 @@ export async function fetchOpenMeteoWeather(
     condition: normalizedCurrent.conditionLabel,
     iconName: normalizedCurrent.iconName,
     humidity: normalizedCurrent.humidityPercent,
-    windSpeedMph: normalizedCurrent.windSpeed,
-    aqi: 22, // Nominal air quality index baseline
+    windSpeed: normalizedCurrent.windSpeed,
+    windSpeedUnit: isCelsiusUnit(unit) ? 'km/h' : 'mph',
     uvIndex: currentUvIndex,
     summaryNote,
     hourly: displayHourly,
     sunrise: daily.sunrise[0],
     sunset: daily.sunset[0],
     isDay: current.is_day === 1,
-    timezone: location.timezone,
+    timezone: rawResponse.timezone,
   };
 
   return weatherData;
+}
+
+function isCelsiusUnit(unit: TemperatureUnit): boolean {
+  return unit === 'celsius';
+}
+
+export function isTimeDuringDay(
+  isoTime: string,
+  sunrises: string[],
+  sunsets: string[],
+  fallback: boolean
+): boolean {
+  const date = isoTime.split('T')[0];
+  const dayIndex = sunrises.findIndex((sunrise) => sunrise.startsWith(`${date}T`));
+  if (dayIndex < 0 || !sunsets[dayIndex]) return fallback;
+  return isoTime >= sunrises[dayIndex] && isoTime < sunsets[dayIndex];
 }

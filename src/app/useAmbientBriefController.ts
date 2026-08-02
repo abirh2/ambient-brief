@@ -4,6 +4,7 @@ import { useWeather } from '../features/weather/hooks/useWeather';
 import { useNews } from '../features/news/hooks/useNews';
 import { useMarkets } from '../features/markets/hooks/useMarkets';
 import { useNWSAlerts } from '../features/weather/hooks/useNWSAlerts';
+import { useAirQuality } from '../features/air-quality/hooks/useAirQuality';
 import { useSettingsStore } from '../stores/settingsStore';
 import { useDevStateStore } from '../stores/devStateStore';
 import { useCurrencyStore } from '../stores/currencyStore';
@@ -18,6 +19,7 @@ export function useAmbientBriefController() {
   const { newsState, refreshNews } = useNews();
   const { marketState, refreshMarkets } = useMarkets();
   const { alerts: nwsAlerts, dismissAlert: dismissNWSAlert, refreshAlerts: refreshNWSAlerts } = useNWSAlerts();
+  const { aqiState, refreshAirQuality } = useAirQuality();
   const { fetchExchangeRate } = useCurrencyStore();
   const { fetchSchedules, updateCountdown, todaySchedule } = useIslamicStore();
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
@@ -44,12 +46,13 @@ export function useAmbientBriefController() {
   const refreshAll = useCallback(() => {
     setIsRefreshing(true);
     refreshWeather();
+    refreshAirQuality();
     refreshNWSAlerts();
     refreshNews();
     refreshMarkets();
     void refreshOptionalData(true);
     window.setTimeout(() => setIsRefreshing(false), 600);
-  }, [refreshMarkets, refreshNews, refreshNWSAlerts, refreshOptionalData, refreshWeather]);
+  }, [refreshAirQuality, refreshMarkets, refreshNews, refreshNWSAlerts, refreshOptionalData, refreshWeather]);
 
   useVisibilityRefresh([
     { id: 'weather', isStale: () => true, refresh: async () => refreshWeather() },
@@ -119,6 +122,7 @@ export function useAmbientBriefController() {
     updateSettings,
     weatherState,
     weatherData,
+    aqiState,
     newsState,
     marketState,
     alerts,
