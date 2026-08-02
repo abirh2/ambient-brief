@@ -1,6 +1,5 @@
 {
   "name": "Ambient Brief",
   "description": "Ambient information dashboard Phase 1 technical foundation and visual prototype",
-  "requestFramePermissions": ["geolocation"],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "requestFramePermissions": ["geolocation"]
 }

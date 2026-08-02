@@ -1,15 +1,9 @@
 import React from 'react';
 import { Activity, X, RefreshCw, CheckCircle2, AlertTriangle, Clock, Database, Server } from 'lucide-react';
 import { useDiagnosticsStore } from '../../lib/api/diagnosticsStore';
-import { env } from '../../lib/config/env';
 
 export const ApiDiagnosticsDrawer: React.FC = () => {
   const { records, isDrawerOpen, setDrawerOpen, resetAll } = useDiagnosticsStore();
-
-  // Do NOT render in production builds
-  if (!import.meta.env.DEV && !env.isDevMode) {
-    return null;
-  }
 
   if (!isDrawerOpen) return null;
 

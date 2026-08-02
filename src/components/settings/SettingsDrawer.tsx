@@ -73,8 +73,6 @@ const ALL_COMPANIES = [
   { symbol: 'NFLX', name: 'Netflix' },
 ];
 
-const CURRENCY_PAIRS = ['USD/BDT', 'USD/EUR', 'USD/GBP', 'USD/JPY', 'USD/CAD'];
-
 export const SettingsDrawer: React.FC<SettingsDrawerProps> = ({ isOpen, onClose, triggerRef }) => {
   const { settings, updateSettings, resetSettings } = useSettingsStore();
   const drawerRef = useRef<HTMLDivElement>(null);
@@ -99,6 +97,7 @@ export const SettingsDrawer: React.FC<SettingsDrawerProps> = ({ isOpen, onClose,
 
     // Prevent background scrolling
     const originalStyle = document.body.style.overflow;
+    const triggerElement = triggerRef?.current;
     document.body.style.overflow = 'hidden';
 
     // Focus initial element in drawer
@@ -142,9 +141,7 @@ export const SettingsDrawer: React.FC<SettingsDrawerProps> = ({ isOpen, onClose,
       window.removeEventListener('keydown', handleKeyDown);
 
       // Return focus to trigger button
-      if (triggerRef && triggerRef.current) {
-        triggerRef.current.focus();
-      }
+      triggerElement?.focus();
     };
   }, [isOpen, onClose, triggerRef]);
 
@@ -773,7 +770,7 @@ export const SettingsDrawer: React.FC<SettingsDrawerProps> = ({ isOpen, onClose,
           </section>
 
           {/* SECTION: DEMO MODE */}
-          <section className="flex flex-col gap-3 pt-3 border-t border-white/10">
+          {import.meta.env.DEV && <section className="flex flex-col gap-3 pt-3 border-t border-white/10">
             <h3 className="text-xs font-bold uppercase tracking-wider text-amber-400 flex items-center gap-1.5">
               <Sparkles className="w-3.5 h-3.5" /> Demo Data Mode
             </h3>
@@ -789,7 +786,7 @@ export const SettingsDrawer: React.FC<SettingsDrawerProps> = ({ isOpen, onClose,
                 className="w-4 h-4 rounded accent-amber-500 bg-white/10 border-white/20"
               />
             </label>
-          </section>
+          </section>}
 
           {/* DATA ATTRIBUTION */}
           <section className="pt-4 border-t border-white/10 text-[11px] text-slate-400 space-y-2.5">
@@ -803,7 +800,7 @@ export const SettingsDrawer: React.FC<SettingsDrawerProps> = ({ isOpen, onClose,
             <ul className="list-disc list-inside space-y-1 text-[10px] text-slate-400 bg-slate-900/40 p-2.5 rounded-lg border border-white/5">
               <li><strong className="text-slate-200">Open-Meteo</strong>: Weather forecasts, hourly timeline, air quality, and location geocoding.</li>
               <li><strong className="text-slate-200">National Weather Service (NWS)</strong>: Official real-time severe weather warnings and advisories (US).</li>
-              <li><strong className="text-slate-200">GDELT &amp; The Guardian</strong>: Global news headlines, summaries, and categorized stories.</li>
+              <li><strong className="text-slate-200">GDELT</strong>: Global news headlines and categorized stories.</li>
               <li><strong className="text-slate-200">Frankfurter API</strong>: Real-time currency exchange rates and conversion data.</li>
               <li><strong className="text-slate-200">AlAdhan API</strong>: Accurate Islamic prayer schedules, daylight timings, and Hijri calendar dates.</li>
               <li><strong className="text-slate-200">Alpha Vantage</strong>: End-of-day market indices and company stock quotes.</li>

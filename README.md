@@ -1,108 +1,68 @@
 # Ambient Brief
 
-An ambient, glanceable information dashboard prototype engineered to stay open on desktop monitors, laptops, and ambient displays for hours. **Ambient Brief** provides real-time atmospheric weather metrics, curated news summaries, live financial market trends, and contextual indicators (Air Quality, UV Index, Sunset Countdown, Currency, Islamic Prayer Times) in a distraction-free, low-cognitive-load glassmorphic layout.
+Ambient Brief is a single-page ambient information dashboard built with React 19, strict TypeScript, Tailwind CSS, and Vite. This repository currently contains the application foundation and existing prototype integrations; it does not require an application server.
 
----
+## Requirements
 
-## Technical Stack
+- Node.js 22 or newer
+- npm 10 or newer
 
-- **Framework:** React 18 + Vite
-- **Language:** TypeScript 5.8 (Strict Mode)
-- **Styling:** Tailwind CSS v4 + Layered Glassmorphism Design Tokens
-- **State Management:** Zustand (Persistent Settings & Visual Dev Controls)
-- **Icons:** Lucide React (`lucide-react`)
-- **Animations & Transitions:** Native GPU-accelerated CSS keyframes with `will-change: transform`
+npm is the authoritative package manager. The committed `package-lock.json` is used for reproducible installs.
 
----
+## Setup
 
-## Live Providers & API Integration Audit
+```bash
+npm ci
+npm run dev
+```
 
-### 1. Open-Meteo Geocoding API (`geocoding-api.open-meteo.com`)
-- **CORS Result:** Fully enabled (`Access-Control-Allow-Origin: *`). Suitable for static SPA deployment.
-- **Requirements:** No API key required. Free tier.
-- **Usage:** Powers location search and autocomplete.
+The development server prints its local URL. No environment variables or API keys are required to start the app.
 
-### 2. Open-Meteo Weather Forecast API (`api.open-meteo.com`)
-- **CORS Result:** Fully enabled (`Access-Control-Allow-Origin: *`). Suitable for static SPA deployment.
-- **Requirements:** No API key required. Free tier.
-- **Usage:** Powers current temperature, feels-like, humidity, wind, hourly forecast, sunrise/sunset, and weather insights.
+Available checks:
 
-### 3. Open-Meteo Air Quality API (`air-quality-api.open-meteo.com`)
-- **CORS Result:** Fully enabled (`Access-Control-Allow-Origin: *`). Suitable for static SPA deployment.
-- **Requirements:** No API key required. Free tier.
-- **Usage:** Powers US AQI, PM2.5, PM10, Ozone, and pollen breakdown.
+```bash
+npm run typecheck
+npm run lint
+npm run test
+npm run build
+```
 
-### 4. National Weather Service (NWS) Alerts API (`api.weather.gov`)
-- **CORS Result:** Fully enabled (`Access-Control-Allow-Origin: *`). Suitable for static SPA deployment (US regions only).
-- **Requirements:** No API key required (requires User-Agent / Accept headers).
-- **Usage:** Powers active severe weather warnings, watches, and advisories for US locations. Non-US locations return empty alerts gracefully.
+Use `npm run preview` to serve the completed production build locally.
 
-### 5. GDELT Doc 2.0 API (`api.gdeltproject.org`)
-- **CORS Result:** Fully enabled (`Access-Control-Allow-Origin: *`). Suitable for static SPA deployment.
-- **Requirements:** No API key required. Free global news wire.
-- **Usage:** Powers real-time global news headlines across categories (Top, U.S., World, Business, Tech, Science, Sports, Entertainment).
+## Optional configuration
 
-### 6. The Guardian Open Platform (`content.guardianapis.com`) - Optional
-- **CORS Result:** Enabled for authenticated requests.
-- **Requirements:** Personal API key required (optional fallback to GDELT/mock).
-- **Usage:** Premium curated journalism feed.
+`BASE_PATH` changes the Vite asset base for static hosting outside the automatic GitHub Pages configuration. Copy `.env.example` to `.env.local` only when this override is needed.
 
-### 7. Frankfurter API (`api.frankfurter.app`) - or Mock Currency Service
-- **CORS Result:** Fully enabled.
-- **Requirements:** No API key required.
-- **Usage:** Powers currency exchange rate pairs.
+An Alpha Vantage key can optionally be entered in Settings to enable the existing market prototype. Without one, markets show a setup state; the rest of Ambient Brief starts normally. The key is stored in browser local storage and is visible to browser scripts and developer tools, so do not use a privileged or developer-owned secret.
 
-### 8. AlAdhan Prayer Times API (`api.aladhan.com`)
-- **CORS Result:** Fully enabled.
-- **Requirements:** No API key required.
-- **Usage:** Powers precise Islamic prayer schedule calculations based on latitude, longitude, calculation method (ISNA, MWL, etc.), and Asr juristic school (Standard vs. Hanafi).
+The application does not use OpenWeather and does not require OpenWeather, Guardian, or Alpha Vantage environment variables.
 
-### 9. Alpha Vantage Global Quote API (`www.alphavantage.co`) - Optional
-- **CORS Result:** Varies; may be restricted or blocked by strict browser CORS/adblockers depending on origin headers. **Marked as optional with fallback/mock data & advisory request budget (20 requests/day).**
-- **Requirements:** Personal API key required.
-- **Usage:** Powers stock watchlist quotes and S&P 500 / Dow / Nasdaq-100 ETF proxies (SPY, DIA, QQQ).
+## Demo mode
 
----
+Mock data and visual state controls are explicit development tools. They are available only while running `npm run dev`; production builds force demo mode off and exclude the development-controls module.
 
-## Static-Site Limitations & Deployment Verification
+## GitHub Pages
 
-Ambient Brief is built as a single-page application (SPA) designed for deployment on static hosting providers such as GitHub Pages, Vercel, or Netlify.
-- **Client-Side Storage:** All settings, location favorites, and API diagnostic states are stored in browser `localStorage`.
-- **CORS Constraints:** Most data providers (Open-Meteo, GDELT, AlAdhan, NWS) support direct browser CORS. Alpha Vantage may experience CORS blocks on certain static origins and is wrapped with graceful fallback to cached/mock data.
-- **Background Visibility:** Uses the Page Visibility API (`useVisibilityRefresh`) to pause polling when tabs are hidden and perform staggered refresh upon foreground return.
+The Pages workflow runs all validation commands and builds the static artifact. During GitHub Actions builds, Vite derives the base path from `GITHUB_REPOSITORY` (for example, `/ambient-brief/`). User or organization Pages repositories ending in `.github.io` use `/`.
 
----
+For another static host or a custom Pages path:
 
-## Data Refresh Policies & Freshness Disclosures
+```bash
+BASE_PATH=/custom-path/ npm run build
+```
 
-- **Weather Data:** Cached for 15 minutes. Stale data labeled clearly after expiration.
-- **Air Quality:** Cached for 30 minutes.
-- **News Headlines:** Cached for 20 minutes.
-- **Financial Markets:** Cached for 4 hours during market hours (12 hours off-hours). Labeled with "End of day" or "Delayed".
-- **Prayer Times:** Cached for 24 hours (refreshes at midnight rollover).
+Enable GitHub Pages with “GitHub Actions” as the source in the repository settings before running the deployment workflow.
 
----
+## Current data behavior
 
-## Security & API Key Warnings
+- Open-Meteo weather, geocoding, and air-quality integrations are keyless.
+- NWS alerts are keyless and apply to supported US locations.
+- GDELT is the existing keyless news integration; failures show cached or unavailable states, never silent production mock stories.
+- Frankfurter currency and AlAdhan prayer-time integrations are keyless.
+- Alpha Vantage markets are optional and do not block startup.
 
-> [!WARNING]
-> **API Key Storage Notice:** User-entered API keys (Alpha Vantage, Guardian) are stored in client-side `localStorage` and never transmitted to any third-party server. Because browser-side keys are visible in developer tools, users are advised to use restricted or free-tier personal keys.
-- **No Secrets in Source Control:** No hardcoded API secrets exist in the repository.
-- **Input Sanitization & Validation:** All incoming API payloads are validated using Zod runtime schemas before rendering.
+Provider availability and browser CORS behavior can vary by deployed origin. No mock value should be treated as live production data.
 
----
+## License
 
-## Troubleshooting & Support
-
-1. **Weather/Geocoding fails to load:** Check network connection or adblocker settings blocking `open-meteo.com`.
-2. **Stock markets show stale data:** Alpha Vantage free tier limits requests to 25/day (Ambient Brief enforces a 20-request daily advisory budget). Enter a valid API key in Settings or use ETF proxies.
-3. **Prayer times incorrect:** Verify location coordinates and select the appropriate calculation method (e.g., ISNA for North America) in Settings.
-
----
-
-## Attribution & Licenses
-- Weather & Geocoding data powered by [Open-Meteo.com](https://open-meteo.com) (CC BY 4.0).
-- News wire powered by [GDELT Project](https://www.gdeltproject.org).
-- Prayer times powered by [AlAdhan.com](https://aladhan.com).
-- Open source under the MIT License.
-
+See [LICENSE](LICENSE).

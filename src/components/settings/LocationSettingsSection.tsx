@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
   MapPin,
   Navigation,
@@ -20,7 +20,6 @@ export const LocationSettingsSection: React.FC = () => {
     formattedLabel,
     useCurrentLocation,
     deviceLocationState,
-    requestDeviceLocation,
     setCustomLocation,
     toggleUseCurrentLocation,
     clearLocation,

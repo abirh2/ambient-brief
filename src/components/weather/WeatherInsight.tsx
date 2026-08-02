@@ -1,5 +1,5 @@
 import React from 'react';
-import { Info, CloudRain } from 'lucide-react';
+import { CloudRain } from 'lucide-react';
 
 interface WeatherInsightProps {
   note: string;

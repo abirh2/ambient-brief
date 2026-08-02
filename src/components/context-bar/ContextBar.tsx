@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Wind, Sun, Sunset, DollarSign, Clock, Moon, Calendar, Loader2, X } from 'lucide-react';
-import { ContextBarData } from '../../mocks/ambientData';
 import { useIslamicStore } from '../../lib/stores/useIslamicStore';
 import { useSettingsStore } from '../../lib/stores/useSettingsStore';
 import { useAirQuality } from '../../features/air-quality/hooks/useAirQuality';
@@ -10,7 +9,10 @@ import { AnimatePresence } from 'motion/react';
 import { useCurrencyStore } from '../../lib/stores/useCurrencyStore';
 
 interface ContextBarProps {
-  data: ContextBarData;
+  uvIndex: number | null;
+  uvLabel: string;
+  sunset: string | null;
+  weatherFreshness: string;
 }
 
 function getRelativeTime(isoString: string): string {
@@ -30,7 +32,12 @@ function getRelativeTime(isoString: string): string {
   }
 }
 
-export const ContextBar: React.FC<ContextBarProps> = ({ data }) => {
+export const ContextBar: React.FC<ContextBarProps> = ({
+  uvIndex,
+  uvLabel,
+  sunset,
+  weatherFreshness,
+}) => {
   const { settings } = useSettingsStore();
   const { aqiState } = useAirQuality();
   const [isPopoverOpen, setIsPopoverOpen] = useState(false);
@@ -149,14 +156,14 @@ export const ContextBar: React.FC<ContextBarProps> = ({ data }) => {
         <div className="flex items-center gap-2">
           <Sun className="w-3.5 h-3.5 text-amber-400" aria-hidden="true" />
           <span className="text-slate-400 w-16">UV</span>
-          <span className="font-semibold text-slate-100 font-mono">{data.uvIndex}</span>
-          <span className="text-amber-300 font-medium text-xs">· {data.uvLabel}</span>
+          <span className="font-semibold text-slate-100 font-mono">{uvIndex ?? '--'}</span>
+          <span className="text-amber-300 font-medium text-xs">· {uvLabel}</span>
         </div>
 
         <div className="flex items-center gap-2">
           <Sunset className="w-3.5 h-3.5 text-indigo-400" aria-hidden="true" />
-          <span className="text-slate-400 w-16">Sunset in</span>
-          <span className="font-semibold text-slate-100 font-mono">{data.timeToSunset}</span>
+          <span className="text-slate-400 w-16">Sunset</span>
+          <span className="font-semibold text-slate-100 font-mono">{sunset ?? '--'}</span>
         </div>
       </div>
 
@@ -259,7 +266,7 @@ export const ContextBar: React.FC<ContextBarProps> = ({ data }) => {
         <div className="flex items-center gap-2 mt-1">
           <Clock className="w-3.5 h-3.5 text-slate-500" aria-hidden="true" />
           <span className="text-slate-400">Last refreshed</span>
-          <span className="font-semibold text-slate-100 font-mono text-xs">{data.lastRefreshed}</span>
+          <span className="font-semibold text-slate-100 font-mono text-xs">{weatherFreshness}</span>
         </div>
       </div>
 

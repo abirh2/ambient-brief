@@ -21,6 +21,17 @@ export const AppLocationSchema = z.object({
   source: z.enum(['device', 'search', 'saved']),
 });
 
+export const NewsCategorySchema = z.enum([
+  'Top',
+  'U.S.',
+  'World',
+  'Business',
+  'Technology',
+  'Science',
+  'Sports',
+  'Entertainment',
+]);
+
 export const AppSettingsSchema = z.object({
   version: z.literal(1).default(1),
   useCurrentLocation: z.boolean(),
@@ -28,7 +39,7 @@ export const AppSettingsSchema = z.object({
   activeLocation: AppLocationSchema.optional(),
   temperatureUnit: z.enum(['fahrenheit', 'celsius']),
   timeFormat: z.enum(['12h', '24h']),
-  newsCategories: z.array(z.string()).max(3),
+  newsCategories: z.array(NewsCategorySchema).max(3),
   showMarkets: z.boolean(),
   marketSymbols: z.array(z.string()).max(9),
   showSparklines: z.boolean(),
@@ -41,7 +52,7 @@ export const AppSettingsSchema = z.object({
   islamic: IslamicSettingsSchema,
   showDevWidthIndicator: z.boolean().optional(),
   alphaVantageApiKey: z.string().optional(),
-  guardianApiKey: z.string().optional(),
+  isDemoMode: z.boolean().default(false),
 });
 
 export const HourlyForecastSchema = z.object({

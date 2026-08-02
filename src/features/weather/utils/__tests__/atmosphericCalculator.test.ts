@@ -6,36 +6,36 @@ describe('atmosphericCalculator', () => {
   const sunset = '2026-07-29T20:00';
 
   it('derives Morning correctly', () => {
-    const date = new Date('2026-07-29T07:00:00');
+    const date = new Date('2026-07-29T07:00:00Z');
     expect(deriveTimeOfDay('UTC', sunrise, sunset, date)).toBe('morning');
   });
 
   it('derives Day clear correctly', () => {
-    const date = new Date('2026-07-29T12:00:00');
+    const date = new Date('2026-07-29T12:00:00Z');
     expect(deriveTimeOfDay('UTC', sunrise, sunset, date)).toBe('day');
     expect(deriveWeatherEffect('Clear Sky')).toBe('clear');
   });
 
   it('derives Day cloudy correctly', () => {
-    const date = new Date('2026-07-29T14:00:00');
+    const date = new Date('2026-07-29T14:00:00Z');
     expect(deriveTimeOfDay('UTC', sunrise, sunset, date)).toBe('day');
     expect(deriveWeatherEffect('Overcast')).toBe('cloudy');
   });
 
   it('derives Day rain correctly', () => {
-    const date = new Date('2026-07-29T15:00:00');
+    const date = new Date('2026-07-29T15:00:00Z');
     expect(deriveTimeOfDay('UTC', sunrise, sunset, date)).toBe('day');
     expect(deriveWeatherEffect('Heavy Rain')).toBe('rain');
   });
 
   it('derives Night clear correctly', () => {
-    const date = new Date('2026-07-29T23:00:00');
+    const date = new Date('2026-07-29T23:00:00Z');
     expect(deriveTimeOfDay('UTC', sunrise, sunset, date)).toBe('night');
     expect(deriveWeatherEffect('Clear')).toBe('clear');
   });
 
   it('derives Sunset storm correctly', () => {
-    const date = new Date('2026-07-29T19:30:00');
+    const date = new Date('2026-07-29T19:30:00Z');
     expect(deriveTimeOfDay('UTC', sunrise, sunset, date)).toBe('sunset');
     expect(deriveWeatherEffect('Thunderstorm')).toBe('storm');
   });
@@ -46,7 +46,7 @@ describe('atmosphericCalculator', () => {
   });
 
   it('handles missing sunrise/sunset with fallback', () => {
-    const date = new Date('2026-07-29T10:00:00');
+    const date = new Date('2026-07-29T10:00:00Z');
     expect(deriveTimeOfDay('UTC', undefined, undefined, date)).toBe('day');
   });
 

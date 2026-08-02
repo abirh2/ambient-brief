@@ -1,6 +1,6 @@
 import React from 'react';
-import { motion, AnimatePresence } from 'motion/react';
-import { Wind, Clock, AlertTriangle, ChevronRight, X, Sparkles, Activity } from 'lucide-react';
+import { motion } from 'motion/react';
+import { Clock, X, Activity } from 'lucide-react';
 import { AirQualitySnapshot } from '../../features/air-quality/types';
 import { interpretAqi } from '../../features/air-quality/utils/aqiInterpreter';
 

@@ -25,8 +25,8 @@ export class ErrorBoundary extends Component<Props, State> {
     console.error('Ambient Brief ErrorBoundary caught an exception:', error, errorInfo);
   }
 
-  private handleReset = () => {
-    this.setState({ hasError: false, error: null });
+  private handleReload = () => {
+    window.location.reload();
   };
 
   public render() {
@@ -43,10 +43,13 @@ export class ErrorBoundary extends Component<Props, State> {
             </div>
             <h2 className="text-xl font-bold tracking-tight">Something unexpected happened</h2>
             <p className="text-sm text-slate-400">
-              {this.state.error?.message || 'An error occurred while rendering the interface.'}
+              {import.meta.env.DEV && this.state.error
+                ? this.state.error.message
+                : 'The interface could not be rendered. Reload the page to try again.'}
             </p>
             <button
-              onClick={this.handleReset}
+              type="button"
+              onClick={this.handleReload}
               className="mt-2 inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-white/10 hover:bg-white/20 border border-white/20 transition-colors text-sm font-medium"
             >
               <RefreshCw className="w-4 h-4" />

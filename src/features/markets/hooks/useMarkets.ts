@@ -2,8 +2,7 @@ import { useState, useEffect, useCallback, useRef } from 'react';
 import { useSettingsStore } from '../../../lib/stores/useSettingsStore';
 import { useDevStateStore } from '../../../lib/stores/useDevStateStore';
 import { fetchMarketInstruments, getUSMarketSessionState, getProviderUsage } from '../alphaVantageService';
-import { env } from '../../../lib/config/env';
-import { MarketInstrument, MarketState, ProviderUsage } from '../../../lib/types';
+import { MarketInstrument, MarketState } from '../../../lib/types';
 
 // Fallback high-quality static list for offline / dev / fallback
 const STATIC_INDICES: MarketInstrument[] = [
@@ -113,15 +112,16 @@ export function useMarkets() {
   const [isRefreshing, setIsRefreshing] = useState(false);
 
   const abortControllerRef = useRef<AbortController | null>(null);
+  const isDemoMode = import.meta.env.DEV && settings.isDemoMode;
 
   const loadMarkets = useCallback(
     async (forceRefresh = false) => {
       // 1. Dev State overrides
-      if (devMarketStatus === 'loading') {
+      if (import.meta.env.DEV && devMarketStatus === 'loading') {
         setMarketState({ status: 'loading' });
         return;
       }
-      if (devMarketStatus === 'delayed') {
+      if (import.meta.env.DEV && devMarketStatus === 'delayed') {
         setMarketState({
           status: 'delayed',
           indices: STATIC_INDICES,
@@ -133,7 +133,7 @@ export function useMarkets() {
         });
         return;
       }
-      if (devMarketStatus === 'unavailable') {
+      if (import.meta.env.DEV && devMarketStatus === 'unavailable') {
         setMarketState({
           status: 'unavailable',
           lastUpdatedText: 'Last updated 12 minutes ago',
@@ -143,7 +143,7 @@ export function useMarkets() {
       }
 
       // Check API Key
-      const apiKey = (settings.alphaVantageApiKey || env.alphaVantageApiKey || '').trim();
+      const apiKey = (settings.alphaVantageApiKey || '').trim();
       if (!apiKey) {
         setMarketState({
           status: 'setup',
@@ -171,14 +171,14 @@ export function useMarkets() {
 
         setMarketState({
           status: 'loaded',
-          indices: indices.length > 0 ? indices : STATIC_INDICES,
-          stocks: stocks.length > 0 ? stocks : STATIC_STOCKS,
+          indices,
+          stocks,
           sessionStatus: sessionState.statusText,
           usage,
         });
-      } catch (error: any) {
+      } catch (error: unknown) {
         const usage = getProviderUsage();
-        const msg = error?.message || 'Failed to fetch market data';
+        const msg = error instanceof Error ? error.message : 'Failed to fetch market data';
         if (msg.includes('Rate limited') || msg.includes('frequency')) {
           setMarketState({
             status: 'rate_limited',
@@ -197,7 +197,7 @@ export function useMarkets() {
         }
 
         // Fallback to static or cached data if demo mode is enabled, otherwise report unavailable
-        if (settings.isDemoMode) {
+        if (isDemoMode) {
           setMarketState({
             status: 'delayed',
             indices: STATIC_INDICES,
@@ -218,15 +218,14 @@ export function useMarkets() {
         setIsRefreshing(false);
       }
     },
-    [settings.marketSymbols, settings.alphaVantageApiKey, settings.isDemoMode, devMarketStatus]
+    [settings.marketSymbols, settings.alphaVantageApiKey, isDemoMode, devMarketStatus]
   );
 
   useEffect(() => {
     loadMarkets();
+    const controllerRef = abortControllerRef;
     return () => {
-      if (abortControllerRef.current) {
-        abortControllerRef.current.abort();
-      }
+      controllerRef.current?.abort();
     };
   }, [loadMarkets]);
 

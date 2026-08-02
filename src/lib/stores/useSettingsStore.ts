@@ -41,7 +41,6 @@ export const DEFAULT_SETTINGS: AppSettings = {
   },
   showDevWidthIndicator: true,
   alphaVantageApiKey: '',
-  guardianApiKey: '',
   isDemoMode: false,
 };
 
@@ -61,7 +60,10 @@ const loadInitialSettings = (): AppSettings => {
       const parsed = JSON.parse(saved);
       const validated = AppSettingsSchema.safeParse(parsed);
       if (validated.success) {
-        return validated.data as AppSettings;
+        return {
+          ...validated.data,
+          isDemoMode: import.meta.env.DEV && validated.data.isDemoMode,
+        };
       } else {
         console.warn('Stored settings failed validation, falling back to defaults.', validated.error);
       }
@@ -78,7 +80,11 @@ export const useSettingsStore = create<SettingsStoreState>((set) => ({
   updateSettings: (partial) => {
     set((state) => {
       const patch = typeof partial === 'function' ? partial(state.settings) : partial;
-      const updated = { ...state.settings, ...patch };
+      const updated = {
+        ...state.settings,
+        ...patch,
+        isDemoMode: import.meta.env.DEV && patch.isDemoMode === true,
+      };
 
       try {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));

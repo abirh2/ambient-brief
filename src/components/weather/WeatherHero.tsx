@@ -1,5 +1,5 @@
 import React from 'react';
-import { CloudSun, Droplets, Wind, ShieldAlert, MapPinOff, RefreshCw, Clock, AlertTriangle } from 'lucide-react';
+import { CloudSun, ShieldAlert, MapPinOff, RefreshCw, Clock, AlertTriangle } from 'lucide-react';
 import { GlassSurface } from '../common/GlassSurface';
 import { WeatherInsight } from './WeatherInsight';
 import { HourlyForecast } from './HourlyForecast';
@@ -28,8 +28,6 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
   const formatTemp = (val: number) => {
     return `${Math.round(val)}°`;
   };
-
-  const windUnit = settings.temperatureUnit === 'celsius' ? 'km/h' : 'mph';
 
   // 1. Loading state
   if (state.status === 'loading') {

@@ -4,7 +4,7 @@ import { useDevStateStore } from '../../../lib/stores/useDevStateStore';
 import { useAppLocation } from '../../../hooks/useAppLocation';
 import { cacheService } from '../../../lib/api/cacheService';
 import { REQUEST_POLICIES } from '../../../lib/api/policies';
-import { fetchWeatherData, fetchMockWeatherData } from '../weatherService';
+import { fetchWeatherData } from '../weatherService';
 import { WeatherData, WeatherState } from '../../../lib/types';
 import { AMBIENT_WEATHER_MOCK } from '../../../mocks/ambientData';
 
@@ -22,11 +22,12 @@ export function useWeather() {
   const cacheKey = `weather_v1_${activeLocation.latitude.toFixed(2)}_${activeLocation.longitude.toFixed(
     2
   )}_${settings.temperatureUnit}`;
+  const isDemoMode = import.meta.env.DEV && settings.isDemoMode;
 
   const loadWeather = useCallback(
     async (forceRefresh = false) => {
       // 1. Check if dev status override is set to a non-'loaded' mock state
-      if (devWeatherStatus === 'permission_denied') {
+      if (import.meta.env.DEV && devWeatherStatus === 'permission_denied') {
         setWeatherState({
           status: 'permission_denied',
           message:
@@ -35,7 +36,7 @@ export function useWeather() {
         return;
       }
 
-      if (devWeatherStatus === 'location_unavailable') {
+      if (import.meta.env.DEV && devWeatherStatus === 'location_unavailable') {
         setWeatherState({
           status: 'location_unavailable',
           message: 'Unable to retrieve weather data for the specified location.',
@@ -43,12 +44,12 @@ export function useWeather() {
         return;
       }
 
-      if (devWeatherStatus === 'loading') {
+      if (import.meta.env.DEV && devWeatherStatus === 'loading') {
         setWeatherState({ status: 'loading' });
         return;
       }
 
-      if (devWeatherStatus === 'cached') {
+      if (import.meta.env.DEV && devWeatherStatus === 'cached') {
         setWeatherState({
           status: 'cached',
           data: AMBIENT_WEATHER_MOCK,
@@ -119,16 +120,8 @@ export function useWeather() {
           });
         } else {
           // If no cache and demo mode is enabled, fall back to mock data; otherwise show unavailable error state
-          if (settings.isDemoMode) {
-            try {
-              const mockData = fetchMockWeatherData();
-              setWeatherState({ status: 'loaded', data: mockData });
-            } catch {
-              setWeatherState({
-                status: 'location_unavailable',
-                message: 'Unable to connect to weather service. Please check your internet connection.',
-              });
-            }
+          if (isDemoMode) {
+            setWeatherState({ status: 'loaded', data: AMBIENT_WEATHER_MOCK });
           } else {
             setWeatherState({
               status: 'location_unavailable',
@@ -143,7 +136,7 @@ export function useWeather() {
     [
       activeLocation,
       settings.temperatureUnit,
-      settings.isDemoMode,
+      isDemoMode,
       devWeatherStatus,
       cacheKey,
     ]

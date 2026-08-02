@@ -4,10 +4,6 @@ import { useViewportWidth } from '../../hooks/useViewportWidth';
 import { useSettingsStore } from '../../lib/stores/useSettingsStore';
 
 export const ScreenWidthIndicator: React.FC = () => {
-  if (!import.meta.env.DEV) {
-    return null;
-  }
-
   const { width, height, breakpoint } = useViewportWidth();
   const { settings, toggleDevWidthIndicator } = useSettingsStore();
   const [minimized, setMinimized] = useState(false);

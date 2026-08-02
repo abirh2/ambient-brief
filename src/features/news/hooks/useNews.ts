@@ -19,24 +19,25 @@ export function useNews() {
   const abortControllerRef = useRef<AbortController | null>(null);
 
   const categoriesKey = [...settings.newsCategories].sort().join(',');
-  const cacheKey = `news_gdelt_v2_${categoriesKey}_${settings.guardianApiKey || 'none'}`;
+  const cacheKey = `news_gdelt_v2_${categoriesKey}`;
+  const isDemoMode = import.meta.env.DEV && settings.isDemoMode;
 
   const loadNews = useCallback(
     async (forceRefresh = false) => {
       // 1. Dev state overrides
-      if (devNewsStatus === 'loading') {
+      if (import.meta.env.DEV && devNewsStatus === 'loading') {
         setNewsState({ status: 'loading' });
         return;
       }
-      if (devNewsStatus === 'empty') {
+      if (import.meta.env.DEV && devNewsStatus === 'empty') {
         setNewsState({ status: 'empty' });
         return;
       }
-      if (devNewsStatus === 'error') {
+      if (import.meta.env.DEV && devNewsStatus === 'error') {
         setNewsState({ status: 'error', errorMessage: 'News is temporarily unavailable' });
         return;
       }
-      if (devNewsStatus === 'cached') {
+      if (import.meta.env.DEV && devNewsStatus === 'cached') {
         setNewsState({
           status: 'cached',
           featured: FEATURED_NEWS_STORY,
@@ -91,7 +92,6 @@ export function useNews() {
 
         const liveHeadlines = await fetchNewsHeadlines(
           settings.newsCategories,
-          settings.guardianApiKey,
           controller.signal
         );
 
@@ -122,7 +122,7 @@ export function useNews() {
             lastUpdatedText: `Showing cached stories · Connection failed · Updated ${getRelativeTimeString(fallbackCache.fetchedAt)}`,
           });
         } else {
-          if (settings.isDemoMode) {
+          if (isDemoMode) {
             setNewsState({
               status: 'loaded',
               featured: FEATURED_NEWS_STORY,
@@ -139,7 +139,7 @@ export function useNews() {
         setIsRefreshing(false);
       }
     },
-    [settings.newsCategories, settings.guardianApiKey, settings.isDemoMode, devNewsStatus, cacheKey]
+    [settings.newsCategories, isDemoMode, devNewsStatus, cacheKey]
   );
 
   useEffect(() => {

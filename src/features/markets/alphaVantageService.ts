@@ -1,5 +1,25 @@
 import { MarketInstrument, ProviderUsage } from '../../lib/types';
 import { apiFetch } from '../../lib/api/apiClient';
+import { z } from 'zod';
+
+const AlphaVantageQuoteSchema = z.object({
+  '01. symbol': z.string().optional(),
+  '02. open': z.string().optional(),
+  '03. high': z.string().optional(),
+  '04. low': z.string().optional(),
+  '05. price': z.string().optional(),
+  '07. latest trading day': z.string().optional(),
+  '08. previous close': z.string().optional(),
+  '09. change': z.string().optional(),
+  '10. change percent': z.string().optional(),
+});
+
+const AlphaVantageResponseSchema = z.object({
+  'Global Quote': AlphaVantageQuoteSchema.optional(),
+  'Error Message': z.string().optional(),
+  Note: z.string().optional(),
+  Information: z.string().optional(),
+});
 
 const USAGE_STORAGE_KEY = 'ambient_brief_av_usage_v1';
 const MAX_DAILY_REQUESTS = 20;
@@ -110,10 +130,11 @@ export async function testAlphaVantageKey(apiKey: string): Promise<KeyTestResult
       if (res.status === 403 || res.status === 401) return 'invalid';
       return 'network_error';
     }
-    const data = await res.json();
+    const data = AlphaVantageResponseSchema.parse(await res.json());
     if (data['Error Message']) return 'invalid';
-    if (data['Note'] || data['Information']) {
-      const msg = (data['Note'] || data['Information']).toLowerCase();
+    const providerMessage = data.Note ?? data.Information;
+    if (providerMessage) {
+      const msg = providerMessage.toLowerCase();
       if (msg.includes('frequency') || msg.includes('rate limit')) return 'rate_limited';
       if (msg.includes('call limit') || msg.includes('25 requests') || msg.includes('per day')) return 'quota_exhausted';
     }
@@ -185,14 +206,19 @@ export async function fetchMarketInstruments(
     const url = `https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=${sym}&apikey=${apiKey}`;
     try {
       recordUsage(false); // temporary increment attempt
-      const data = await apiFetch<any>(url, { providerId: 'markets', timeoutMs: 6000 });
+      const data = await apiFetch(url, {
+        providerId: 'markets',
+        timeoutMs: 6000,
+        schema: AlphaVantageResponseSchema,
+      });
 
       if (data?.['Error Message']) {
         throw new Error('Invalid API key or symbol');
       }
 
-      if (data?.['Note'] || data?.['Information']) {
-        const msg = data['Note'] || data['Information'];
+      const providerMessage = data.Note ?? data.Information;
+      if (providerMessage) {
+        const msg = providerMessage;
         if (msg.toLowerCase().includes('frequency') || msg.toLowerCase().includes('rate')) {
           throw new Error('Rate limited by Alpha Vantage');
         }
@@ -201,8 +227,9 @@ export async function fetchMarketInstruments(
         }
       }
 
-      const quote = data?.['Global Quote'];
-      if (quote && quote['05. price']) {
+      const quote = data['Global Quote'];
+      const priceRaw = quote?.['05. price'];
+      if (quote && priceRaw) {
         // Correctly update successful usage count
         const u = getProviderUsage();
         u.requestsSucceeded += 1;
@@ -210,24 +237,25 @@ export async function fetchMarketInstruments(
           localStorage.setItem(USAGE_STORAGE_KEY, JSON.stringify(u));
         } catch {}
 
-        const price = parseFloat(quote['05. price']);
+        const price = parseFloat(priceRaw);
         const changePercentRaw = quote['10. change percent'] || '0%';
         const changePercent = parseFloat(changePercentRaw.replace('%', '')) || 0;
-        const prevClose = parseFloat(quote['08. previous close']) || price;
-        const change = parseFloat(quote['09. change']) || (price - prevClose);
+        const prevClose = parseFloat(quote['08. previous close'] ?? '') || price;
+        const change = parseFloat(quote['09. change'] ?? '') || (price - prevClose);
         const priceDate = quote['07. latest trading day'] || new Date().toISOString().slice(0, 10);
 
-        const isProxy = !!ETF_PROXIES[sym];
+        const proxy = ETF_PROXIES[sym];
+        const isProxy = proxy !== undefined;
         const instrumentType = isProxy ? 'etf-proxy' : 'company';
         const displayName = isProxy
-          ? ETF_PROXIES[sym].displayName
+          ? proxy.displayName
           : DEFAULT_COMPANIES[sym] || `${sym} Corp.`;
-        const proxyFor = isProxy ? ETF_PROXIES[sym].proxyFor : undefined;
+        const proxyFor = proxy?.proxyFor;
 
         // Approximate sparkline from open/high/low/price
-        const open = parseFloat(quote['02. open']) || prevClose;
-        const high = parseFloat(quote['03. high']) || Math.max(open, price);
-        const low = parseFloat(quote['04. low']) || Math.min(open, price);
+        const open = parseFloat(quote['02. open'] ?? '') || prevClose;
+        const high = parseFloat(quote['03. high'] ?? '') || Math.max(open, price);
+        const low = parseFloat(quote['04. low'] ?? '') || Math.min(open, price);
         const sparklineData = [
           { time: '9:30', value: open },
           { time: '11:00', value: low },
@@ -268,12 +296,12 @@ export async function fetchMarketInstruments(
         // Fallback to cache if quote missing
         results.push({ ...cachedItem.data, dataStatus: 'stale' });
       }
-    } catch (err: any) {
+    } catch (err: unknown) {
       console.warn(`Failed to fetch symbol ${sym}:`, err);
       if (cachedItem) {
         results.push({ ...cachedItem.data, dataStatus: 'stale' });
       }
-      if (err.message && (err.message.includes('Rate limited') || err.message.includes('quota'))) {
+      if (err instanceof Error && (err.message.includes('Rate limited') || err.message.includes('quota'))) {
         throw err;
       }
     }

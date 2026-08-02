@@ -1,5 +1,44 @@
 import { DailyPrayerSchedule, PrayerName, PrayerTime } from '../../lib/types';
 import { cacheService } from '../../lib/api/cacheService';
+import { z } from 'zod';
+
+const AladhanDataSchema = z.object({
+  timings: z.record(z.string(), z.string()),
+  meta: z.object({ timezone: z.string() }),
+  date: z.object({
+    gregorian: z.object({ date: z.string() }),
+    hijri: z.object({
+      day: z.string(),
+      year: z.string(),
+      date: z.string().optional(),
+      month: z.object({ en: z.string() }),
+    }),
+  }),
+});
+
+const AladhanEnvelopeSchema = z.object({
+  code: z.number(),
+  status: z.string().optional(),
+  data: AladhanDataSchema.optional(),
+});
+
+const SerializedPrayerScheduleSchema = z.object({
+  gregorianDate: z.string(),
+  hijriDate: z.object({
+    day: z.number(),
+    monthName: z.string(),
+    year: z.number(),
+    formatted: z.string(),
+  }),
+  timezone: z.string(),
+  prayers: z.array(z.object({
+    name: z.enum(['fajr', 'sunrise', 'dhuhr', 'asr', 'maghrib', 'isha']),
+    time: z.string(),
+    timestamp: z.coerce.date(),
+  })),
+  calculationMethod: z.string(),
+  asrMethod: z.enum(['standard', 'hanafi']),
+});
 
 // Centralized calculation methods and school types mappings as requested
 export const ALADHAN_CALCULATION_METHODS = {
@@ -125,13 +164,14 @@ export function getLocalDateComponents(timezone: string, date: Date = new Date()
 /**
  * Parses AlAdhan API response to clean, normalized structure.
  */
-export function parseAladhanResponse(data: any, methodKey: string, schoolKey: string): DailyPrayerSchedule {
-  const timings = data.timings;
-  const timezone = data.meta.timezone;
-  const gregorianDate = data.date.gregorian.date; // "DD-MM-YYYY"
+export function parseAladhanResponse(data: unknown, methodKey: string, schoolKey: string): DailyPrayerSchedule {
+  const validatedData = AladhanDataSchema.parse(data);
+  const timings = validatedData.timings;
+  const timezone = validatedData.meta.timezone;
+  const gregorianDate = validatedData.date.gregorian.date; // "DD-MM-YYYY"
 
   // Parse Hijri date safely, supporting missing/incomplete Hijri data fallback
-  const hijri = data.date.hijri;
+  const hijri = validatedData.date.hijri;
   const hijriDay = parseInt(hijri?.day, 10) || 1;
   const hijriMonthName = hijri?.month?.en || 'Safar';
   const hijriYear = parseInt(hijri?.year, 10) || 1448;
@@ -175,21 +215,15 @@ export function parseAladhanResponse(data: any, methodKey: string, schoolKey: st
     timezone,
     prayers,
     calculationMethod: methodKey,
-    asrMethod: schoolKey.toLowerCase() as 'standard' | 'hanafi',
+    asrMethod: schoolKey.toLowerCase() === 'standard' ? 'standard' : 'hanafi',
   };
 }
 
 /**
  * Deserializes date strings in Cached schedules back to JavaScript Date objects.
  */
-export function deserializeSchedule(data: any): DailyPrayerSchedule {
-  return {
-    ...data,
-    prayers: data.prayers.map((p: any) => ({
-      ...p,
-      timestamp: new Date(p.timestamp),
-    })),
-  };
+export function deserializeSchedule(data: unknown): DailyPrayerSchedule {
+  return SerializedPrayerScheduleSchema.parse(data);
 }
 
 /**
@@ -208,7 +242,7 @@ export async function fetchScheduleForDate(
   const cacheKey = `prayers_${lat.toFixed(3)}_${lng.toFixed(3)}_${dateStr}_${methodId}_${schoolId}`;
   
   // Try to load from Cache first
-  const cached = cacheService.getCache<any>(cacheKey);
+  const cached = cacheService.getCache<unknown>(cacheKey);
   if (cached && cached.data) {
     return deserializeSchedule(cached.data);
   }
@@ -220,7 +254,7 @@ export async function fetchScheduleForDate(
     throw new Error(`HTTP error! status: ${res.status}`);
   }
 
-  const json = await res.json();
+  const json = AladhanEnvelopeSchema.parse(await res.json());
   if (json.code !== 200 || !json.data) {
     throw new Error(`AlAdhan API error: ${json.status || 'Invalid response format'}`);
   }

@@ -6,10 +6,6 @@ import { useDiagnosticsStore } from '../../lib/api/diagnosticsStore';
 import { WeatherStateStatus, NewsStateStatus, MarketStateStatus, AlertSeverity, TimeOfDayVariant, WeatherEffectVariant } from '../../lib/types';
 
 export const DevStateSwitcher: React.FC = () => {
-  if (!import.meta.env.DEV) {
-    return null;
-  }
-
   const [isExpanded, setIsExpanded] = useState(false);
   const {
     weatherStatus,

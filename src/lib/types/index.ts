@@ -61,8 +61,7 @@ export interface AppSettings {
   islamic: IslamicSettings;
   showDevWidthIndicator?: boolean;
   alphaVantageApiKey?: string;
-  guardianApiKey?: string;
-  isDemoMode?: boolean;
+  isDemoMode: boolean;
 }
 
 export interface WeatherData {
@@ -261,5 +260,4 @@ export interface DailyPrayerSchedule {
   calculationMethod: string;
   asrMethod: "standard" | "hanafi";
 }
-
 

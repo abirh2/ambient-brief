@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useSettingsStore } from '../../lib/stores/useSettingsStore';
 import { useAppLocation } from '../../hooks/useAppLocation';
-import { RefreshCw, Settings, Sparkles, Navigation, MapPin } from 'lucide-react';
+import { RefreshCw, Settings, Navigation, MapPin } from 'lucide-react';
 
 interface ClockHeaderProps {
   onRefresh?: () => void;

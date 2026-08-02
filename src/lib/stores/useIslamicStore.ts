@@ -5,10 +5,12 @@ import {
   getLocalDateComponents,
   ALADHAN_CALCULATION_METHODS,
   ALADHAN_ASR_METHODS,
+  deserializeSchedule,
 } from '../../features/islamic/islamicService';
 import { useSettingsStore } from './useSettingsStore';
 import { useDiagnosticsStore } from '../api/diagnosticsStore';
 import { cacheService } from '../api/cacheService';
+import { ProviderDiagnostic } from '../api/types';
 
 const LAST_VALID_TODAY_KEY = 'ambient_brief_last_valid_today_v1';
 const LAST_VALID_TOMORROW_KEY = 'ambient_brief_last_valid_tomorrow_v1';
@@ -18,14 +20,7 @@ function loadCachedSchedule(key: string): DailyPrayerSchedule | null {
     if (typeof localStorage === 'undefined') return null;
     const raw = localStorage.getItem(key);
     if (!raw) return null;
-    const parsed = JSON.parse(raw);
-    return {
-      ...parsed,
-      prayers: parsed.prayers.map((p: any) => ({
-        ...p,
-        timestamp: new Date(p.timestamp),
-      })),
-    };
+    return deserializeSchedule(JSON.parse(raw));
   } catch (err) {
     console.warn(`[IslamicStore] Failed to load cached schedule for ${key}:`, err);
     return null;
@@ -74,15 +69,18 @@ export const useIslamicStore = create<IslamicStoreState>((set, get) => ({
 
   fetchSchedules: async (lat, lng, method, school, force = false) => {
     const startTime = Date.now();
-    const updateDiag = (status: 'loading' | 'success' | 'error', extra: any = {}) => {
+    const updateDiag = (
+      status: ProviderDiagnostic['status'],
+      extra: Partial<ProviderDiagnostic> = {},
+    ) => {
       try {
         useDiagnosticsStore.getState().updateDiagnostic('prayerTimes', {
           status,
           responseTimeMs: Date.now() - startTime,
-          lastFetchedAt: new Date().toISOString(),
+          ...(status === 'success' ? { lastFetchedAt: new Date().toISOString() } : {}),
           ...extra,
         });
-      } catch (e) {
+      } catch {
         // Ignore
       }
     };
@@ -128,8 +126,9 @@ export const useIslamicStore = create<IslamicStoreState>((set, get) => ({
       get().updateCountdown();
 
       updateDiag('success', { cacheSource: force ? 'network' : 'cache' });
-    } catch (err: any) {
+    } catch (err: unknown) {
       console.warn('[IslamicStore] Failed to fetch live prayer schedules, falling back to cache:', err);
+      const errorMessage = err instanceof Error ? err.message : 'Prayer times unavailable.';
 
       // Fallback behavior: load from cache backup
       const cachedToday = loadCachedSchedule(LAST_VALID_TODAY_KEY);
@@ -148,9 +147,10 @@ export const useIslamicStore = create<IslamicStoreState>((set, get) => ({
 
         get().updateCountdown();
 
-        updateDiag('success', {
+        updateDiag('error', {
+          cacheSource: 'cache',
           isStale,
-          errorMessage: err.message || 'Network request failed. Loaded from fallback cache.',
+          errorMessage,
         });
       } else {
         // No valid cached schedule exists
@@ -164,7 +164,7 @@ export const useIslamicStore = create<IslamicStoreState>((set, get) => ({
         });
 
         updateDiag('error', {
-          errorMessage: err.message || 'Prayer times unavailable.',
+          errorMessage,
         });
       }
     }

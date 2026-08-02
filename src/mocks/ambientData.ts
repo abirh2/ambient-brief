@@ -1,4 +1,4 @@
-import { WeatherData, NewsArticle, MarketTicker, CurrencyRate, WeatherAlert, IslamicDaylightInfo } from '../lib/types';
+import { WeatherData, NewsArticle, MarketTicker, WeatherAlert, IslamicDaylightInfo } from '../lib/types';
 
 export const MOCK_WEATHER_ALERTS: Record<string, WeatherAlert> = {
   warning: {

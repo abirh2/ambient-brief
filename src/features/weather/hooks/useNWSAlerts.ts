@@ -90,7 +90,7 @@ export function useNWSAlerts() {
 
   // Main fetch function
   const loadNWSAlerts = useCallback(
-    async (force = false) => {
+    async (_force = false) => {
       // Clean skip if not US
       if (activeLocation.countryCode !== 'US') {
         setAlerts([]);
@@ -172,11 +172,11 @@ export function useNWSAlerts() {
 
         setAlerts(sortedAlerts);
         setError(null);
-      } catch (err: any) {
-        if (err?.name === 'AbortError') return;
+      } catch (err: unknown) {
+        if (err instanceof Error && err.name === 'AbortError') return;
 
         console.error('NWS alert fetch error, falling back to cached:', err);
-        setError(err?.message || 'Failed to fetch National Weather Service alerts');
+        setError(err instanceof Error ? err.message : 'Failed to fetch National Weather Service alerts');
 
         // Fall back to cached alerts
         const cached = getCachedAlerts();

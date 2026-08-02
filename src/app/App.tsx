@@ -1,8 +1,5 @@
-import { useState, useRef, useEffect } from 'react';
+import { lazy, Suspense, useState, useRef, useEffect } from 'react';
 import { AtmosphericBackground } from '../components/background/AtmosphericBackground';
-import { ScreenWidthIndicator } from '../components/common/ScreenWidthIndicator';
-import { DevStateSwitcher } from '../components/common/DevStateSwitcher';
-import { ApiDiagnosticsDrawer } from '../components/common/ApiDiagnosticsDrawer';
 import { useVisibilityRefresh } from '../hooks/useVisibilityRefresh';
 import { useWeather } from '../features/weather/hooks/useWeather';
 import { useNews } from '../features/news/hooks/useNews';
@@ -20,10 +17,20 @@ import { useNWSAlerts } from '../features/weather/hooks/useNWSAlerts';
 import { useCurrencyStore } from '../lib/stores/useCurrencyStore';
 import { useIslamicStore } from '../lib/stores/useIslamicStore';
 import { getLocalDateComponents } from '../features/islamic/islamicService';
-import {
-  MOCK_WEATHER_ALERTS,
-  CONTEXT_BAR_MOCK,
-} from '../mocks/ambientData';
+import { MOCK_WEATHER_ALERTS } from '../mocks/ambientData';
+
+const DevTools = import.meta.env.DEV
+  ? lazy(() => import('../components/common/DevTools'))
+  : null;
+
+function getUvLabel(uvIndex: number | null): string {
+  if (uvIndex === null) return 'Unavailable';
+  if (uvIndex < 3) return 'Low';
+  if (uvIndex < 6) return 'Moderate';
+  if (uvIndex < 8) return 'High';
+  if (uvIndex < 11) return 'Very high';
+  return 'Extreme';
+}
 
 export function App() {
   const { settings, updateSettings } = useSettingsStore();
@@ -31,8 +38,6 @@ export function App() {
     weatherAlertVisible,
     weatherAlertSeverity,
     dismissWeatherAlert,
-    setNewsStatus,
-    setMarketStatus,
   } = useDevStateStore();
 
   const { weatherState, refreshWeather } = useWeather();
@@ -145,8 +150,7 @@ export function App() {
     }
   }, [
     settings.islamic.enabled,
-    settings.activeLocation?.latitude,
-    settings.activeLocation?.longitude,
+    settings.activeLocation,
     settings.islamic.calculationMethod,
     settings.islamic.asrMethod,
     fetchSchedules,
@@ -179,8 +183,7 @@ export function App() {
   }, [
     settings.islamic.enabled,
     todaySchedule,
-    settings.activeLocation?.latitude,
-    settings.activeLocation?.longitude,
+    settings.activeLocation,
     settings.islamic.calculationMethod,
     settings.islamic.asrMethod,
     updateCountdown,
@@ -194,11 +197,19 @@ export function App() {
   }, []);
 
   const hasRealAlerts = nwsAlerts && nwsAlerts.length > 0;
+  const isDemoMode = import.meta.env.DEV && settings.isDemoMode;
   const activeAlertsToShow = hasRealAlerts
     ? nwsAlerts
-    : (settings.isDemoMode && weatherAlertVisible
+    : (isDemoMode && weatherAlertVisible
       ? [MOCK_WEATHER_ALERTS[weatherAlertSeverity] || MOCK_WEATHER_ALERTS.warning]
       : []);
+
+  const weatherData = weatherState.status === 'loaded' || weatherState.status === 'cached'
+    ? weatherState.data
+    : null;
+  const uvIndex = weatherData && Number.isFinite(weatherData.uvIndex)
+    ? weatherData.uvIndex
+    : null;
 
   const primaryAlert = activeAlertsToShow[0];
 
@@ -242,7 +253,7 @@ export function App() {
       />
 
       {/* Persistent Visible Demo Data Banner (Development Only) */}
-      {settings.isDemoMode && import.meta.env.DEV && (
+      {isDemoMode && (
         <div className="w-full bg-amber-500/15 border border-amber-500/40 text-amber-200 px-4 py-2.5 rounded-xl text-xs flex items-center justify-between z-20 shadow-lg backdrop-blur-md">
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
@@ -299,8 +310,8 @@ export function App() {
           <NewsPanel
             state={newsState}
             onCustomize={() => setIsSettingsOpen(true)}
-            onRetry={() => setNewsStatus('loaded')}
-            onUseCached={() => setNewsStatus('cached')}
+            onRetry={refreshNews}
+            onUseCached={refreshNews}
           />
         </div>
 
@@ -314,22 +325,21 @@ export function App() {
           {settings.showMarkets && (
             <MarketPanel
               state={marketState}
-              onRetry={() => setMarketStatus('loaded')}
+              onRetry={refreshMarkets}
               onRefresh={refreshMarkets}
             />
           )}
 
-          {/* ContextBar goes here on ultrawide */}
-          <div className="hidden min-[1900px]:block">
-             <ContextBar data={CONTEXT_BAR_MOCK} />
-          </div>
         </div>
       </main>
 
-      {/* Slim Contextual Information Ribbon at Bottom for standard screens */}
-      <div className="min-[1900px]:hidden">
-        <ContextBar data={CONTEXT_BAR_MOCK} />
-      </div>
+      {/* One contextual ribbon avoids mounting duplicate data-fetching hooks. */}
+      <ContextBar
+        uvIndex={uvIndex}
+        uvLabel={getUvLabel(uvIndex)}
+        sunset={weatherData?.sunset ?? null}
+        weatherFreshness={weatherState.status === 'cached' ? 'Cached' : weatherState.status === 'loaded' ? 'Live' : 'Unavailable'}
+      />
 
       {/* Settings Preferences Drawer */}
       <SettingsDrawer
@@ -338,14 +348,11 @@ export function App() {
         triggerRef={settingsBtnRef}
       />
 
-      {/* Development Screen Width & Viewport Indicator */}
-      <ScreenWidthIndicator />
-
-      {/* Developer State Switcher for Visual State Previewing */}
-      <DevStateSwitcher />
-
-      {/* Developer API Diagnostics Panel */}
-      <ApiDiagnosticsDrawer />
+      {DevTools && (
+        <Suspense fallback={null}>
+          <DevTools />
+        </Suspense>
+      )}
     </div>
   );
 }

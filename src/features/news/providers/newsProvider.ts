@@ -1,11 +1,6 @@
 import { NewsCategory, NewsArticle } from '../../../lib/types';
 
-export interface Headline extends NewsArticle {
-  publisherDomain: string;
-  url?: string;
-  rankingScore?: number;
-  rankingReason?: string;
-}
+export type Headline = NewsArticle;
 
 export interface NewsProvider {
   id: string;

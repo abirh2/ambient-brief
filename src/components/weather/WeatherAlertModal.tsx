@@ -86,12 +86,13 @@ export const WeatherAlertModal: React.FC<WeatherAlertModalProps> = ({
     // Lock body scroll
     const originalStyle = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
+    const triggerElement = triggerRef?.current;
 
     return () => {
       document.removeEventListener('keydown', handleKeyDown);
       document.body.style.overflow = originalStyle;
       // Return focus to trigger
-      triggerRef?.current?.focus();
+      triggerElement?.focus();
     };
   }, [isOpen, onClose, triggerRef]);
 
@@ -180,15 +181,15 @@ export const WeatherAlertModal: React.FC<WeatherAlertModalProps> = ({
     }
   };
 
-  const effectiveDisplay = formatTime(currentAlert.effective) || (currentAlert as any).effectiveTime || 'N/A';
-  const expiresDisplay = formatTime(currentAlert.expires) || (currentAlert as any).expirationTime || 'N/A';
-  const affectedArea = currentAlert.areaDescription || (currentAlert as any).affectedArea || 'Affected Area';
-  const fullDescription = currentAlert.description || (currentAlert as any).fullDescription || '';
+  const effectiveDisplay = formatTime(currentAlert.effective);
+  const expiresDisplay = formatTime(currentAlert.expires);
+  const affectedArea = currentAlert.areaDescription || 'Affected Area';
+  const fullDescription = currentAlert.description;
 
   // Extract instructions as bullets
   const instructionsList = currentAlert.instruction
     ? currentAlert.instruction.split('\n').map((i) => i.trim()).filter(Boolean)
-    : ((currentAlert as any).safetyInstructions || []);
+    : [];
 
   const handlePrev = () => {
     if (allAlerts && allAlerts.length > 0) {

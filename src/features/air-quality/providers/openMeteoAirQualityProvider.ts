@@ -1,5 +1,5 @@
 import { apiFetch } from '../../../lib/api/apiClient';
-import { AppLocation, TimeFormat } from '../../../lib/types';
+import { AppLocation } from '../../../lib/types';
 import { AirQualitySnapshot, HourlyAirQuality } from '../types';
 import { OpenMeteoAirQualityResponseSchema } from './openMeteoAirQualitySchemas';
 import { interpretAqi } from '../utils/aqiInterpreter';
@@ -26,7 +26,7 @@ export async function fetchOpenMeteoAirQuality(
 ): Promise<AirQualitySnapshot> {
   const url = buildAirQualityUrl(location);
 
-  const rawResponse = await apiFetch<any>(url, {
+  const rawResponse = await apiFetch(url, {
     signal: options.signal,
     schema: OpenMeteoAirQualityResponseSchema,
     providerId: 'open_meteo_aqi',

@@ -19,7 +19,7 @@ interface CurrencyStoreState {
 const CURRENCIES_CACHE_KEY = 'currency_list_v1';
 const RATE_CACHE_PREFIX = 'exchange_rate_v1_';
 
-export const useCurrencyStore = create<CurrencyStoreState>((set, get) => ({
+export const useCurrencyStore = create<CurrencyStoreState>((set) => ({
   currencies: {},
   currenciesLoading: false,
   currenciesError: null,

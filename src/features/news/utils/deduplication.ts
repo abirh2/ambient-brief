@@ -75,7 +75,6 @@ export function deduplicateHeadlines(headlines: Headline[]): Headline[] {
   if (!headlines || headlines.length === 0) return [];
 
   const unique: Headline[] = [];
-  const seenPublishersForEvent = new Set<string>();
 
   // Sort by metadata completeness (has image, has summary) and recency first
   const sorted = [...headlines].sort((a, b) => {
@@ -89,8 +88,6 @@ export function deduplicateHeadlines(headlines: Headline[]): Headline[] {
 
     // Check against existing unique headlines for similarity and publisher constraints
     let isDuplicate = false;
-    const publisherKey = headline.publisherDomain || headline.source;
-
     for (const existing of unique) {
       const similarity = calculateTitleSimilarity(headline.title, existing.title);
 
