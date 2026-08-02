@@ -33,7 +33,7 @@ export const NewsCategorySchema = z.enum([
 ]);
 
 export const AppSettingsSchema = z.object({
-  version: z.literal(1).default(1),
+  version: z.literal(2).default(2),
   useCurrentLocation: z.boolean(),
   savedLocation: z.string(),
   activeLocation: AppLocationSchema.optional(),

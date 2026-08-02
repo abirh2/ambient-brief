@@ -309,3 +309,82 @@ The prominent clock is visually successful, but it is not location-time-aware. W
 3. Remove unused dependencies, dead prototype components, and generated residue.
 4. Lazy-load secondary UI and reduce the initial bundle.
 5. Update branding, README, favicon, attribution, and truthful provider/freshness disclosures.
+
+Repaired the Ambient Brief project foundation without redesigning the UI or adding providers.
+
+### Problems fixed
+
+- Added working `dev`, `build`, `typecheck`, `lint`, and `test` scripts.
+- Established npm as the sole package manager and verified clean `npm ci`.
+- Removed Bun lockfile and unused direct dependencies.
+- Added ESLint flat configuration with TypeScript and React Hooks checks.
+- Tightened strict TypeScript, unused-symbol, casing, fallthrough, and library checks.
+- Removed explicit `any`, unsafe compatibility casts, and unused imports.
+- Added Zod validation for NWS, AlAdhan, Alpha Vantage, settings, and cache boundaries.
+- Unified incompatible news types.
+- Removed recursive Guardian orchestration and production mock fallback.
+- Made demo mode development-only and forced it off in production.
+- Excluded development controls from production artifacts.
+- Removed required Guardian/environment-key handling. Alpha Vantage remains optional and does not block startup.
+- Confirmed there is no OpenWeather key requirement.
+- Removed simulated contextual production values and duplicate `ContextBar` mounting.
+- Repaired the application-level error boundary with a production-safe fallback.
+- Added automatic GitHub Pages base-path handling and deployment workflow.
+- Added optional-only `.env.example`.
+- Fixed timezone-dependent tests.
+- Updated README, metadata, page title, and ignore rules.
+- Removed unused prototype components, services, caches, and provider modules.
+
+### Files changed
+
+Core configuration and documentation:
+
+- [package.json](/Users/ahossain/Documents/GitHub/ambient-brief/package.json)
+- [package-lock.json](/Users/ahossain/Documents/GitHub/ambient-brief/package-lock.json)
+- [tsconfig.json](/Users/ahossain/Documents/GitHub/ambient-brief/tsconfig.json)
+- [vite.config.ts](/Users/ahossain/Documents/GitHub/ambient-brief/vite.config.ts)
+- [eslint.config.js](/Users/ahossain/Documents/GitHub/ambient-brief/eslint.config.js)
+- [.env.example](/Users/ahossain/Documents/GitHub/ambient-brief/.env.example)
+- [.gitignore](/Users/ahossain/Documents/GitHub/ambient-brief/.gitignore)
+- [README.md](/Users/ahossain/Documents/GitHub/ambient-brief/README.md)
+- [deploy-pages.yml](/Users/ahossain/Documents/GitHub/ambient-brief/.github/workflows/deploy-pages.yml)
+- [index.html](/Users/ahossain/Documents/GitHub/ambient-brief/index.html)
+- [metadata.json](/Users/ahossain/Documents/GitHub/ambient-brief/metadata.json)
+
+Application structure and safety:
+
+- [App.tsx](/Users/ahossain/Documents/GitHub/ambient-brief/src/app/App.tsx)
+- [ErrorBoundary.tsx](/Users/ahossain/Documents/GitHub/ambient-brief/src/components/common/ErrorBoundary.tsx)
+- [DevTools.tsx](/Users/ahossain/Documents/GitHub/ambient-brief/src/components/common/DevTools.tsx)
+- Context bar, settings, weather, news, markets, AQI, diagnostics, and store modules.
+- Provider schemas and adapters for NWS, AlAdhan, Alpha Vantage, and Open-Meteo AQI.
+- Atmospheric timezone tests and shared domain/settings types.
+
+Removed:
+
+- `bun.lock`
+- Unused header and preview components.
+- Legacy currency/market/cache services.
+- Recursive Guardian and mock news providers.
+- Obsolete feasibility and mock-data modules.
+- Frontend environment-key configuration.
+
+The supplied `audit.md` and `AGENTS.md` were not modified.
+
+### Commands run
+
+- `npm install`
+- `npm ci --no-audit --no-fund`
+- `npm run typecheck` — passed
+- `npm run lint` — passed with zero warnings
+- `npm run test` — 58/58 passed
+- `npm run build` — passed
+- `BASE_PATH=/ambient-brief/ npm run build` — passed; generated asset paths use `/ambient-brief/`
+- `git diff --check` — passed
+- Production artifact scan — no development-control or mock-data signatures found
+
+### Remaining blockers
+
+- The production JavaScript bundle is still approximately 892 KB and triggers Vite’s chunk-size warning. Bundle optimization was left out because it is not a build blocker and could require broader component-loading changes.
+- Layout, accessibility, live-provider reliability, and remaining data-integrity work from the audit are intentionally outside this foundation-only task.
+- Vitest emits Node’s experimental local-storage warning, but all tests pass.

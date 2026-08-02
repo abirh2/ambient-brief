@@ -1,16 +1,14 @@
 import { TemperatureUnit } from '../types';
 
-export function formatTemperature(fahrenheit: number, unit: TemperatureUnit): string {
-  if (unit === 'celsius') {
-    const celsius = Math.round(((fahrenheit - 32) * 5) / 9);
-    return `${celsius}°C`;
-  }
-  return `${Math.round(fahrenheit)}°F`;
+export function formatTemperature(value: number, unit: TemperatureUnit, showUnit = true): string {
+  const suffix = showUnit ? (unit === 'celsius' ? 'C' : 'F') : '';
+  return `${Math.round(value)}°${suffix}`;
 }
 
-export function formatPercent(value: number): string {
-  const sign = value > 0 ? '+' : '';
-  return `${sign}${value.toFixed(2)}%`;
+export function formatPercent(value: number, options: { signed?: boolean; digits?: number } = {}): string {
+  const { signed = true, digits = 2 } = options;
+  const sign = signed && value > 0 ? '+' : '';
+  return `${sign}${value.toFixed(digits)}%`;
 }
 
 export function formatCurrencyValue(value: number): string {

@@ -2,6 +2,7 @@ import { NewsCategory } from '../../../lib/types';
 import { NewsProvider, Headline } from './newsProvider';
 import { deduplicateHeadlines } from '../utils/deduplication';
 import { rankHeadlines } from '../utils/ranking';
+import { GdeltResponseSchema, type GdeltArticleResponse } from './gdeltSchemas';
 
 const CATEGORY_QUERY_MAP: Record<NewsCategory, string> = {
   'Top': 'news OR breaking',
@@ -22,6 +23,52 @@ function isValidHttpUrl(stringUrl: string): boolean {
   } catch {
     return false;
   }
+}
+
+function parseSeenDate(seenDate?: string): string {
+  if (!seenDate || seenDate.length < 15) return new Date(0).toISOString();
+  const year = seenDate.slice(0, 4);
+  const month = seenDate.slice(4, 6);
+  const day = seenDate.slice(6, 8);
+  const hour = seenDate.slice(9, 11);
+  const minute = seenDate.slice(11, 13);
+  const second = seenDate.slice(13, 15);
+  const parsed = new Date(`${year}-${month}-${day}T${hour}:${minute}:${second}Z`);
+  return Number.isNaN(parsed.getTime()) ? new Date(0).toISOString() : parsed.toISOString();
+}
+
+function categoryFor(article: GdeltArticleResponse, categories: NewsCategory[]): NewsCategory {
+  const lowerTitle = article.title.toLowerCase();
+  return categories.find((category) =>
+    CATEGORY_QUERY_MAP[category]
+      .toLowerCase()
+      .split(' or ')
+      .some((keyword) => lowerTitle.includes(keyword.trim()))
+  ) ?? categories[0] ?? 'Top';
+}
+
+/** Converts a validated provider payload into the application news model. */
+export function normalizeGdeltResponse(payload: unknown, categories: NewsCategory[]): Headline[] {
+  const response = GdeltResponseSchema.parse(payload);
+  const targetCategories: NewsCategory[] = categories.length > 0 ? categories : ['Top', 'U.S.', 'Technology'];
+  const articles = response.articles ?? response.data ?? [];
+
+  const headlines = articles.flatMap((article, index): Headline[] => {
+    if (!isValidHttpUrl(article.url)) return [];
+    return [{
+      id: `gdelt-${index}-${article.seendate ?? 'undated'}`,
+      title: article.title,
+      summary: '',
+      category: categoryFor(article, targetCategories),
+      source: article.domain || 'GDELT Wire',
+      publisherDomain: article.domain,
+      publishedAt: parseSeenDate(article.seendate),
+      url: article.url,
+      imageUrl: article.socialimage && isValidHttpUrl(article.socialimage) ? article.socialimage : undefined,
+    }];
+  });
+
+  return rankHeadlines(deduplicateHeadlines(headlines), targetCategories);
 }
 
 export class GdeltNewsProvider implements NewsProvider {
@@ -56,72 +103,7 @@ export class GdeltNewsProvider implements NewsProvider {
       throw new Error(`GDELT API error: HTTP ${res.status} ${res.statusText}`);
     }
 
-    const data = await res.json();
-    const rawArticles = data.articles || data.data || [];
-
-    if (!Array.isArray(rawArticles) || rawArticles.length === 0) {
-      return [];
-    }
-
-    const headlines: Headline[] = [];
-
-    for (let i = 0; i < rawArticles.length; i++) {
-      const item = rawArticles[i];
-      const title = item.title;
-      const articleUrl = item.url;
-      const domain = item.domain || '';
-      const seendate = item.seendate;
-      const socialimage = item.socialimage;
-
-      if (!title || !isValidHttpUrl(articleUrl)) {
-        continue;
-      }
-
-      let publishedAt = new Date().toISOString();
-      if (seendate && seendate.length >= 15) {
-        try {
-          const y = seendate.slice(0, 4);
-          const m = seendate.slice(4, 6);
-          const d = seendate.slice(6, 8);
-          const h = seendate.slice(9, 11);
-          const min = seendate.slice(11, 13);
-          const s = seendate.slice(13, 15);
-          publishedAt = new Date(`${y}-${m}-${d}T${h}:${min}:${s}Z`).toISOString();
-        } catch {
-          // fallback
-        }
-      }
-
-      let assignedCategory: NewsCategory = targetCategories[0] || 'Top';
-      const lowerTitle = title.toLowerCase();
-      for (const cat of targetCategories) {
-        const queryStr = CATEGORY_QUERY_MAP[cat as NewsCategory] || '';
-        const keywords = queryStr.toLowerCase().split(' or ');
-        if (keywords.some((kw: string) => lowerTitle.includes(kw.trim()))) {
-          assignedCategory = cat as NewsCategory;
-          break;
-        }
-      }
-
-      const imageUrl = isValidHttpUrl(socialimage) ? socialimage : undefined;
-
-      headlines.push({
-        id: `gdelt-${i}-${Date.now()}`,
-        title,
-        summary: '',
-        category: assignedCategory,
-        source: domain || 'GDELT Wire',
-        publisherDomain: domain,
-        publishedAt,
-        url: articleUrl,
-        imageUrl,
-      });
-    }
-
-    const deduped = deduplicateHeadlines(headlines);
-    const ranked = rankHeadlines(deduped, targetCategories);
-
-    return ranked;
+    return normalizeGdeltResponse(await res.json(), targetCategories);
   }
 }
 

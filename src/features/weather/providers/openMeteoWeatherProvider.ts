@@ -4,6 +4,9 @@ import { OpenMeteoForecastResponseSchema } from './openMeteoSchemas';
 import { mapWeatherCode } from '../utils/weatherCodeMapper';
 import { generateWeatherInsight } from '../utils/weatherInsight';
 import { CurrentWeatherNormalized, HourlyWeatherNormalized } from '../types/weather';
+import { formatHourlyTimeLabel, formatSunTime } from '../../../lib/formatting';
+
+export { formatHourlyTimeLabel, formatSunTime } from '../../../lib/formatting';
 
 export interface FetchOpenMeteoOptions {
   unit?: TemperatureUnit;
@@ -34,44 +37,6 @@ export function buildOpenMeteoUrl(location: AppLocation, unit: TemperatureUnit =
   });
 
   return `https://api.open-meteo.com/v1/forecast?${params.toString()}`;
-}
-
-/**
- * Formats a raw hourly ISO timestamp (e.g. "2026-07-29T16:00") into display hour ("4 PM" or "16:00")
- */
-export function formatHourlyTimeLabel(isoStr: string, timeFormat: TimeFormat = '12h'): string {
-  const parts = isoStr.split('T');
-  if (parts.length < 2) return isoStr;
-  const hourPart = parts[1].split(':')[0];
-  const hours = parseInt(hourPart, 10);
-  if (isNaN(hours)) return isoStr;
-
-  if (timeFormat === '24h') {
-    return `${String(hours).padStart(2, '0')}:00`;
-  }
-  const ampm = hours >= 12 ? 'PM' : 'AM';
-  const h12 = hours % 12 === 0 ? 12 : hours % 12;
-  return `${h12} ${ampm}`;
-}
-
-/**
- * Formats sunrise/sunset ISO string (e.g. "2026-07-29T06:04") into "6:04 AM" or "06:04"
- */
-export function formatSunTime(isoStr: string, timeFormat: TimeFormat = '12h'): string {
-  const parts = isoStr.split('T');
-  if (parts.length < 2) return isoStr;
-  const timeParts = parts[1].split(':');
-  const hours = parseInt(timeParts[0], 10);
-  const mins = parseInt(timeParts[1], 10);
-  if (isNaN(hours) || isNaN(mins)) return isoStr;
-
-  const minsStr = String(mins).padStart(2, '0');
-  if (timeFormat === '24h') {
-    return `${String(hours).padStart(2, '0')}:${minsStr}`;
-  }
-  const ampm = hours >= 12 ? 'PM' : 'AM';
-  const h12 = hours % 12 === 0 ? 12 : hours % 12;
-  return `${h12}:${minsStr} ${ampm}`;
 }
 
 /**

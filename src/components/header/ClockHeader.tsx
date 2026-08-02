@@ -1,7 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useSettingsStore } from '../../lib/stores/useSettingsStore';
 import { useAppLocation } from '../../hooks/useAppLocation';
 import { RefreshCw, Settings, Navigation, MapPin } from 'lucide-react';
+import { formatClockParts, formatHeaderDate } from '../../lib/formatting';
+import { useClock } from '../../features/clock/useClock';
 
 interface ClockHeaderProps {
   onRefresh?: () => void;
@@ -19,43 +21,11 @@ export const ClockHeader: React.FC<ClockHeaderProps> = ({
   const { settings } = useSettingsStore();
   const { formattedLabel, compactLabel, activeLocation } = useAppLocation();
 
-  const [time, setTime] = useState(new Date());
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setTime(new Date());
-    }, 1000);
-    return () => clearInterval(interval);
-  }, []);
+  const time = useClock();
 
   const is24h = settings.timeFormat === '24h';
-  
-  const formatterOptions: Intl.DateTimeFormatOptions = {
-    hour: 'numeric',
-    minute: '2-digit',
-    second: '2-digit',
-    hour12: !is24h,
-  };
-
-  const timeString = new Intl.DateTimeFormat('en-US', formatterOptions).format(time);
-  
-  // Extract parts for styling
-  // E.g. "14:13:42" or "2:13:42 PM"
-  const timeParts = timeString.split(' ');
-  const hms = timeParts[0]; // "2:13:42"
-  const ampm = timeParts[1]; // "PM" (if 12h)
-  
-  const hmsParts = hms.split(':');
-  const hours = hmsParts[0];
-  const minutes = hmsParts[1];
-  const seconds = hmsParts[2];
-
-  const dateOptions: Intl.DateTimeFormatOptions = {
-    weekday: 'long',
-    month: 'long',
-    day: 'numeric',
-  };
-  const dateString = new Intl.DateTimeFormat('en-US', dateOptions).format(time);
+  const { hours, minutes, seconds, period: ampm } = formatClockParts(time, settings.timeFormat);
+  const dateString = formatHeaderDate(time);
 
   const displayLocation = compactLabel || settings.savedLocation || formatFallbackLocation(activeLocation);
 
