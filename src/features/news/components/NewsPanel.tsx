@@ -4,13 +4,20 @@ import { GlassSurface } from '../../../components/common/GlassSurface';
 import { FeaturedStory } from './FeaturedStory';
 import { StoryList } from './StoryList';
 import { NewsSkeleton } from './NewsSkeleton';
-import type { NewsCategory, NewsState } from '../model';
+import type { Headline, NewsCategory, NewsState } from '../model';
 import { useSettingsStore } from '../../../stores/settingsStore';
 
 interface NewsPanelProps {
   state: NewsState;
   onCustomize?: () => void;
   onRetry?: () => void;
+}
+
+export function filterStoriesForCategory(
+  stories: Headline[],
+  category: NewsCategory,
+): Headline[] {
+  return stories.filter((story) => story.categories.includes(category));
 }
 
 export const NewsPanel: React.FC<NewsPanelProps> = ({
@@ -126,8 +133,7 @@ export const NewsPanel: React.FC<NewsPanelProps> = ({
   // 4. Loaded or Cached state
   const isCached = state.status === 'cached';
   const allStories = [state.featured, ...state.secondary];
-  const categoryStories = allStories.filter((story) => story.categories.includes(currentCategory));
-  const visibleStories = categoryStories.length > 0 ? categoryStories : allStories;
+  const visibleStories = filterStoriesForCategory(allStories, currentCategory);
   const featured = visibleStories[0];
   const secondary = visibleStories.slice(1);
 
@@ -184,8 +190,18 @@ export const NewsPanel: React.FC<NewsPanelProps> = ({
 
       {/* Stories list container */}
       <div className="news-scroll-container flex flex-col gap-3 overflow-y-auto max-h-[340px] pr-1 no-scrollbar">
-        <FeaturedStory article={featured} />
-        <StoryList articles={secondary} />
+        {featured ? (
+          <>
+            <FeaturedStory article={featured} />
+            <StoryList articles={secondary} />
+          </>
+        ) : (
+          <div role="status" className="flex min-h-44 flex-col items-center justify-center gap-2 rounded-xl border border-white/5 bg-slate-900/30 p-6 text-center">
+            <Inbox className="h-7 w-7 text-slate-500" aria-hidden="true" />
+            <p className="text-sm font-semibold text-slate-200">No {currentCategory} stories in this update</p>
+            <p className="text-xs text-slate-400">Try another category or refresh after the next scheduled news update.</p>
+          </div>
+        )}
       </div>
     </GlassSurface>
   );

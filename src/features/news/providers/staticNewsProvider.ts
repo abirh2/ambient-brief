@@ -24,7 +24,11 @@ export function selectFeedHeadlines(
       if (headline) interleaved.push(headline);
     }
   }
-  return deduplicateHeadlines(interleaved).slice(0, 16);
+  // Keep the complete union of the selected category buckets. Truncating the
+  // combined list here can remove every story from a smaller category after
+  // deduplication re-sorts by metadata completeness. The panel applies the
+  // active-category filter before deciding how many stories to show.
+  return deduplicateHeadlines(interleaved);
 }
 
 export class StaticNewsProvider implements NewsProvider {
