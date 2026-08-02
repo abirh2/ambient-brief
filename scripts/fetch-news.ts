@@ -65,16 +65,22 @@ export interface SafeRequestDiagnostic {
 }
 
 export class NewsUpdateError extends Error {
-  constructor(message: string, public readonly diagnostics: SafeRequestDiagnostic[] = []) {
+  readonly diagnostics: SafeRequestDiagnostic[];
+
+  constructor(message: string, diagnostics: SafeRequestDiagnostic[] = []) {
     super(message);
     this.name = 'NewsUpdateError';
+    this.diagnostics = diagnostics;
   }
 }
 
 class CurrentsRequestError extends Error {
-  constructor(public readonly detail: string) {
+  readonly detail: string;
+
+  constructor(detail: string) {
     super(detail);
     this.name = 'CurrentsRequestError';
+    this.detail = detail;
   }
 }
 

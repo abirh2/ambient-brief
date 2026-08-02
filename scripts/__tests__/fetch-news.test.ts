@@ -1,6 +1,7 @@
+import { spawnSync } from 'node:child_process';
 import { mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
-import { join } from 'node:path';
+import { join, resolve } from 'node:path';
 import { afterEach, describe, expect, it } from 'vitest';
 import { GeneratedNewsFeedSchema } from '../../src/features/news/generatedFeedSchemas';
 import { NEWS_CATEGORIES } from '../../src/features/news/model';
@@ -71,6 +72,19 @@ describe('Currents normalization', () => {
 });
 
 describe('generated news update', () => {
+  it('runs in the Node 22 strip-only TypeScript mode used by GitHub Actions', () => {
+    const environment = { ...process.env };
+    delete environment.CURRENTS_API_KEY;
+    const result = spawnSync(
+      process.execPath,
+      ['--experimental-strip-types', resolve('scripts/fetch-news.ts')],
+      { encoding: 'utf8', env: environment },
+    );
+    expect(result.status).toBe(1);
+    expect(result.stderr.trim()).toBe('CURRENTS_API_KEY is required');
+    expect(result.stderr).not.toContain('ERR_UNSUPPORTED_TYPESCRIPT_SYNTAX');
+  });
+
   it('keeps every request within the Currents Developer-plan result cap', () => {
     expect(REQUEST_PLAN).toHaveLength(5);
     expect(REQUEST_PLAN.every((request) => request.pageSize <= 20)).toBe(true);
