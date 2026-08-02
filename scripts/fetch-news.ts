@@ -13,6 +13,7 @@ import { getCanonicalArticleUrl, getPublisherDomain, getSafeImageUrl } from '../
 const API_ENDPOINT = 'https://api.currentsapi.services/v2/latest-news';
 const DEFAULT_OUTPUT_PATH = resolve('public/data/news-feed.json');
 const REQUEST_TIMEOUT_MS = 15_000;
+const DEVELOPER_PLAN_PAGE_SIZE = 20;
 const MAX_ARTICLES_PER_CATEGORY = 16;
 
 const CanonicalCategorySchema = z.enum([
@@ -51,12 +52,31 @@ interface RequestDefinition {
 }
 
 export const REQUEST_PLAN: readonly RequestDefinition[] = [
-  { id: 'broad', ownerCategories: ['Top', 'World', 'Technology', 'Science'], pageSize: 100 },
-  { id: 'us', ownerCategories: ['U.S.'], country: 'US', pageSize: 60 },
-  { id: 'business', ownerCategories: ['Business'], category: 'economy_business_finance', pageSize: 50 },
-  { id: 'sports', ownerCategories: ['Sports'], category: 'sport', pageSize: 40 },
-  { id: 'entertainment', ownerCategories: ['Entertainment'], category: 'arts_culture_entertainment', pageSize: 40 },
+  { id: 'broad', ownerCategories: ['Top', 'World', 'Technology', 'Science'], pageSize: DEVELOPER_PLAN_PAGE_SIZE },
+  { id: 'us', ownerCategories: ['U.S.'], country: 'US', pageSize: DEVELOPER_PLAN_PAGE_SIZE },
+  { id: 'business', ownerCategories: ['Business'], category: 'economy_business_finance', pageSize: DEVELOPER_PLAN_PAGE_SIZE },
+  { id: 'sports', ownerCategories: ['Sports'], category: 'sport', pageSize: DEVELOPER_PLAN_PAGE_SIZE },
+  { id: 'entertainment', ownerCategories: ['Entertainment'], category: 'arts_culture_entertainment', pageSize: DEVELOPER_PLAN_PAGE_SIZE },
 ] as const;
+
+export interface SafeRequestDiagnostic {
+  requestId: RequestDefinition['id'];
+  detail: string;
+}
+
+export class NewsUpdateError extends Error {
+  constructor(message: string, public readonly diagnostics: SafeRequestDiagnostic[] = []) {
+    super(message);
+    this.name = 'NewsUpdateError';
+  }
+}
+
+class CurrentsRequestError extends Error {
+  constructor(public readonly detail: string) {
+    super(detail);
+    this.name = 'CurrentsRequestError';
+  }
+}
 
 interface GenerateOptions {
   apiKey: string;
@@ -64,6 +84,7 @@ interface GenerateOptions {
   fetchImpl?: typeof fetch;
   now?: Date;
   timeoutMs?: number;
+  onDiagnostics?: (diagnostics: SafeRequestDiagnostic[]) => void;
 }
 
 function normalizeTimestamp(value: string): string | undefined {
@@ -152,12 +173,34 @@ async function fetchRequest(
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), timeoutMs);
   try {
-    const response = await fetchImpl(buildRequestUrl(request), {
-      signal: controller.signal,
-      headers: { Accept: 'application/json', Authorization: `Bearer ${apiKey}` },
-    });
-    if (!response.ok) throw new Error(`Currents request failed with HTTP ${response.status}`);
-    const payload = CurrentsResponseSchema.parse(await response.json());
+    let response: Response;
+    try {
+      response = await fetchImpl(buildRequestUrl(request), {
+        signal: controller.signal,
+        headers: { Accept: 'application/json', Authorization: `Bearer ${apiKey}` },
+      });
+    } catch {
+      if (controller.signal.aborted) throw new CurrentsRequestError(`timed out after ${timeoutMs} ms`);
+      throw new CurrentsRequestError('network request failed');
+    }
+    if (!response.ok) {
+      throw new CurrentsRequestError(`HTTP ${response.status}${response.statusText ? ` ${response.statusText}` : ''}`);
+    }
+    let rawPayload: unknown;
+    try {
+      rawPayload = await response.json();
+    } catch {
+      throw new CurrentsRequestError('response was not valid JSON');
+    }
+    const parsedPayload = CurrentsResponseSchema.safeParse(rawPayload);
+    if (!parsedPayload.success) {
+      const issueSummary = parsedPayload.error.issues.slice(0, 3).map((issue) => {
+        const path = issue.path.length > 0 ? issue.path.join('.') : 'response';
+        return `${path} (${issue.code})`;
+      }).join(', ');
+      throw new CurrentsRequestError(`response schema mismatch: ${issueSummary}`);
+    }
+    const payload = parsedPayload.data;
     return payload.news.flatMap((article) => {
       const normalized = normalizeCurrentsArticle(article, request);
       return normalized ? [normalized] : [];
@@ -199,7 +242,19 @@ export async function generateNewsFeed(options: GenerateOptions): Promise<Genera
   })));
   const successes = results.flatMap((result) => result.status === 'fulfilled' ? [result.value] : []);
   const failedRequests = results.length - successes.length;
-  if (successes.length === 0) throw new Error('Every Currents request failed; the existing feed was preserved');
+  const diagnostics = results.flatMap((result, index): SafeRequestDiagnostic[] => {
+    if (result.status === 'fulfilled') return [];
+    return [{
+      requestId: REQUEST_PLAN[index].id,
+      detail: result.reason instanceof CurrentsRequestError
+        ? result.reason.detail
+        : 'unexpected request failure',
+    }];
+  });
+  if (successes.length === 0) {
+    throw new NewsUpdateError('Every Currents request failed; the existing feed was preserved', diagnostics);
+  }
+  if (diagnostics.length > 0) options.onDiagnostics?.(diagnostics);
 
   const beforeDeduplication = successes.flatMap(({ headlines }) => headlines);
   const deduplicated = deduplicateHeadlines(beforeDeduplication);
@@ -233,16 +288,29 @@ export async function generateNewsFeed(options: GenerateOptions): Promise<Genera
 async function main(): Promise<void> {
   const apiKey = process.env.CURRENTS_API_KEY;
   if (!apiKey) throw new Error('CURRENTS_API_KEY is required');
-  const feed = await generateNewsFeed({ apiKey });
+  const feed = await generateNewsFeed({
+    apiKey,
+    onDiagnostics: (diagnostics) => {
+      console.warn('Partial update request diagnostics:');
+      for (const diagnostic of diagnostics) console.warn(`- ${diagnostic.requestId}: ${diagnostic.detail}`);
+    },
+  });
   console.log(`News feed updated: ${feed.metadata.successfulRequests}/${feed.metadata.requestCount} requests succeeded, ${feed.metadata.articleCountAfterDeduplication} unique articles.`);
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   main().catch((error: unknown) => {
-    const message = error instanceof Error && error.message === 'CURRENTS_API_KEY is required'
-      ? error.message
-      : 'News feed update failed. The previous valid feed, if present, was preserved.';
-    console.error(message);
+    if (error instanceof Error && error.message === 'CURRENTS_API_KEY is required') {
+      console.error(error.message);
+    } else {
+      console.error('News feed update failed. The previous valid feed, if present, was preserved.');
+      if (error instanceof NewsUpdateError && error.diagnostics.length > 0) {
+        console.error('Safe request diagnostics:');
+        for (const diagnostic of error.diagnostics) {
+          console.error(`- ${diagnostic.requestId}: ${diagnostic.detail}`);
+        }
+      }
+    }
     process.exitCode = 1;
   });
 }

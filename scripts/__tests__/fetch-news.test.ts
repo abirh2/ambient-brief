@@ -4,7 +4,7 @@ import { join } from 'node:path';
 import { afterEach, describe, expect, it } from 'vitest';
 import { GeneratedNewsFeedSchema } from '../../src/features/news/generatedFeedSchemas';
 import { NEWS_CATEGORIES } from '../../src/features/news/model';
-import { generateNewsFeed, normalizeCurrentsArticle } from '../fetch-news';
+import { generateNewsFeed, NewsUpdateError, normalizeCurrentsArticle, REQUEST_PLAN } from '../fetch-news';
 
 const temporaryDirectories: string[] = [];
 
@@ -71,6 +71,11 @@ describe('Currents normalization', () => {
 });
 
 describe('generated news update', () => {
+  it('keeps every request within the Currents Developer-plan result cap', () => {
+    expect(REQUEST_PLAN).toHaveLength(5);
+    expect(REQUEST_PLAN.every((request) => request.pageSize <= 20)).toBe(true);
+  });
+
   it('writes a schema-valid feed with no more than five requests', async () => {
     const outputPath = await temporaryOutputPath();
     const feed = await generateNewsFeed({ apiKey: 'temporary-test-key', outputPath, fetchImpl: successfulFetch(), now: new Date('2026-08-02T12:30:00Z') });
@@ -109,5 +114,21 @@ describe('generated news update', () => {
     const failedFetch: typeof fetch = async () => new Response('{}', { status: 503 });
     await expect(generateNewsFeed({ apiKey: 'temporary-test-key', outputPath, fetchImpl: failedFetch })).rejects.toThrow('existing feed was preserved');
     expect(await readFile(outputPath, 'utf8')).toBe(original);
+  });
+
+  it('reports safe per-request diagnostics without response bodies or credentials', async () => {
+    const outputPath = await temporaryOutputPath();
+    const failedFetch: typeof fetch = async () => new Response('sensitive-provider-body', { status: 400, statusText: 'Bad Request' });
+    try {
+      await generateNewsFeed({ apiKey: 'temporary-secret-value', outputPath, fetchImpl: failedFetch });
+      throw new Error('Expected the update to fail');
+    } catch (error) {
+      expect(error).toBeInstanceOf(NewsUpdateError);
+      const updateError = error as NewsUpdateError;
+      expect(updateError.diagnostics).toHaveLength(5);
+      expect(updateError.diagnostics.every((diagnostic) => diagnostic.detail === 'HTTP 400 Bad Request')).toBe(true);
+      expect(JSON.stringify(updateError)).not.toContain('sensitive-provider-body');
+      expect(JSON.stringify(updateError)).not.toContain('temporary-secret-value');
+    }
   });
 });
