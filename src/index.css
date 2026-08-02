@@ -1,0 +1,315 @@
+@import "tailwindcss";
+@import "./lib/styles/tokens.css";
+
+html, body {
+  background-color: #05060b;
+  color: var(--text-primary);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Atmospheric Background Keyframe Animations */
+
+/* 1. Large Cloud / Light Form Drifts (GPU Accelerated via translate3d) */
+@keyframes atmospheric-drift-a {
+  0% {
+    transform: translate3d(0%, 0%, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(4%, 3%, 0) scale(1.06);
+  }
+  100% {
+    transform: translate3d(0%, 0%, 0) scale(1);
+  }
+}
+
+@keyframes atmospheric-drift-b {
+  0% {
+    transform: translate3d(0%, 0%, 0) scale(1.05);
+  }
+  50% {
+    transform: translate3d(-5%, -3%, 0) scale(0.96);
+  }
+  100% {
+    transform: translate3d(0%, 0%, 0) scale(1.05);
+  }
+}
+
+@keyframes atmospheric-drift-c {
+  0% {
+    transform: translate3d(0%, 0%, 0) scale(0.98);
+  }
+  50% {
+    transform: translate3d(3%, -4%, 0) scale(1.04);
+  }
+  100% {
+    transform: translate3d(0%, 0%, 0) scale(0.98);
+  }
+}
+
+/* 2. Weather Effect Animations */
+@keyframes rain-slide {
+  0% {
+    transform: translate3d(0, -100px, 0);
+  }
+  100% {
+    transform: translate3d(-30px, 400px, 0);
+  }
+}
+
+@keyframes snow-fall {
+  0% {
+    transform: translate3d(0, -50px, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(20px, 250px, 0) rotate(180deg);
+  }
+  100% {
+    transform: translate3d(-10px, 550px, 0) rotate(360deg);
+  }
+}
+
+@keyframes fog-drift {
+  0% {
+    transform: translate3d(-8%, 0, 0);
+  }
+  50% {
+    transform: translate3d(8%, 0, 0);
+  }
+  100% {
+    transform: translate3d(-8%, 0, 0);
+  }
+}
+
+@keyframes star-twinkle {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+/* Animation Classes */
+.animate-cloud-a {
+  animation: atmospheric-drift-a 45s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-cloud-b {
+  animation: atmospheric-drift-b 60s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-cloud-c {
+  animation: atmospheric-drift-c 55s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-rain {
+  animation: rain-slide 1.2s linear infinite;
+  will-change: transform;
+}
+
+.animate-snow {
+  animation: snow-fall 12s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-fog {
+  animation: fog-drift 50s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-star {
+  animation: star-twinkle 6s ease-in-out infinite;
+}
+
+/* Motion Level Modifiers */
+.motion-subtle .animate-cloud-a,
+.motion-subtle .animate-cloud-b,
+.motion-subtle .animate-cloud-c {
+  animation-duration: 90s;
+}
+
+.motion-subtle .animate-fog {
+  animation-duration: 90s;
+}
+
+.motion-subtle .animate-rain {
+  opacity: 0.4;
+  animation-duration: 2s;
+}
+
+.motion-static *,
+.tab-hidden * {
+  animation-play-state: paused !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* RESPONSIVE VIEWPORT HEIGHT & SPACING DENSITY ADJUSTMENTS                  */
+/* -------------------------------------------------------------------------- */
+
+/* Compact desktop spacing for heights 760px to 899px (e.g. 1366x768, 1496x861) */
+@media (max-height: 899px) and (min-height: 760px) {
+  .app-container {
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+    gap: 0.75rem !important;
+  }
+
+  .app-header {
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+  }
+
+  /* Weather Panel Adjustments */
+  .weather-hero-card {
+    padding: 1.25rem !important;
+    gap: 0.75rem !important; /* Reduced empty gap between current weather and forecast */
+  }
+
+  .weather-temp-text {
+    font-size: 4.5rem !important; /* Kept visually prominent but slightly reduced */
+  }
+
+  /* News Panel Adjustments */
+  .news-panel-card,
+  .market-panel-card {
+    padding: 1rem !important;
+  }
+
+  .news-scroll-container {
+    max-height: 280px !important; /* Fits featured + 2 secondary */
+  }
+
+  /* Show only 2 secondary stories by default */
+  .story-list-container:not(.is-expanded) .story-list-item:nth-child(n+3) {
+    display: none !important;
+  }
+
+  .story-list-container:not(.is-expanded) .view-more-stories {
+    display: block !important;
+  }
+
+  .stock-scroll-container {
+    max-height: 180px !important;
+  }
+
+  /* Error and Empty States */
+  .market-setup-state,
+  .market-error-state,
+  .news-empty-state,
+  .news-error-state {
+    min-height: 0 !important;
+    padding: 1rem !important;
+    gap: 0.75rem !important;
+  }
+  .market-setup-state > div[role="status"],
+  .market-error-state > div[role="status"],
+  .news-empty-state > div[role="status"],
+  .news-error-state > div[role="alert"] {
+    padding: 1rem !important;
+    gap: 0.5rem !important;
+  }
+  .market-setup-icon {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    padding: 0.5rem !important;
+  }
+  .market-setup-icon svg {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+  }
+
+  .context-bar-container {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+}
+
+/* Allow controlled vertical scrolling below 760px */
+@media (max-height: 759px) {
+  .app-container {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    gap: 0.5rem !important;
+    /* Ensure scrolling can happen */
+    height: auto !important;
+    min-height: 100vh !important;
+  }
+
+  .app-header {
+    padding-top: 0.15rem !important;
+    padding-bottom: 0.15rem !important;
+  }
+
+  .weather-hero-card {
+    padding: 1rem !important;
+    gap: 0.75rem !important;
+  }
+
+  .weather-temp-text {
+    font-size: 3.5rem !important;
+  }
+
+  .news-panel-card,
+  .market-panel-card {
+    padding: 0.875rem !important;
+  }
+
+  .news-scroll-container {
+    max-height: unset !important; /* Allow natural scrolling */
+    overflow-y: visible !important;
+  }
+  
+  /* Show only 2 secondary stories by default */
+  .story-list-container:not(.is-expanded) .story-list-item:nth-child(n+3) {
+    display: none !important;
+  }
+
+  .story-list-container:not(.is-expanded) .view-more-stories {
+    display: block !important;
+  }
+
+  .stock-scroll-container {
+    max-height: unset !important;
+    overflow-y: visible !important;
+  }
+
+  /* Error and Empty States */
+  .market-setup-state,
+  .market-error-state,
+  .news-empty-state,
+  .news-error-state {
+    min-height: 0 !important;
+    padding: 1rem !important;
+  }
+  .market-setup-state > div[role="status"],
+  .market-error-state > div[role="status"],
+  .news-empty-state > div[role="status"],
+  .news-error-state > div[role="alert"] {
+    padding: 1rem !important;
+    gap: 0.5rem !important;
+  }
+  .market-setup-icon {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    padding: 0.5rem !important;
+  }
+  .market-setup-icon svg {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+  }
+  
+  .context-bar-container {
+    padding-top: 0.4rem !important;
+    padding-bottom: 0.4rem !important;
+  }
+}
+
+
+

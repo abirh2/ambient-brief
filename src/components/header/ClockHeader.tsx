@@ -1,0 +1,136 @@
+import React, { useState, useEffect } from 'react';
+import { useSettingsStore } from '../../lib/stores/useSettingsStore';
+import { useAppLocation } from '../../hooks/useAppLocation';
+import { RefreshCw, Settings, Sparkles, Navigation, MapPin } from 'lucide-react';
+
+interface ClockHeaderProps {
+  onRefresh?: () => void;
+  onOpenSettings?: () => void;
+  isRefreshing?: boolean;
+  settingsBtnRef?: React.RefObject<HTMLButtonElement | null>;
+}
+
+export const ClockHeader: React.FC<ClockHeaderProps> = ({
+  onRefresh,
+  onOpenSettings,
+  isRefreshing,
+  settingsBtnRef,
+}) => {
+  const { settings } = useSettingsStore();
+  const { formattedLabel, compactLabel, activeLocation } = useAppLocation();
+
+  const [time, setTime] = useState(new Date());
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTime(new Date());
+    }, 1000);
+    return () => clearInterval(interval);
+  }, []);
+
+  const is24h = settings.timeFormat === '24h';
+  
+  const formatterOptions: Intl.DateTimeFormatOptions = {
+    hour: 'numeric',
+    minute: '2-digit',
+    second: '2-digit',
+    hour12: !is24h,
+  };
+
+  const timeString = new Intl.DateTimeFormat('en-US', formatterOptions).format(time);
+  
+  // Extract parts for styling
+  // E.g. "14:13:42" or "2:13:42 PM"
+  const timeParts = timeString.split(' ');
+  const hms = timeParts[0]; // "2:13:42"
+  const ampm = timeParts[1]; // "PM" (if 12h)
+  
+  const hmsParts = hms.split(':');
+  const hours = hmsParts[0];
+  const minutes = hmsParts[1];
+  const seconds = hmsParts[2];
+
+  const dateOptions: Intl.DateTimeFormatOptions = {
+    weekday: 'long',
+    month: 'long',
+    day: 'numeric',
+  };
+  const dateString = new Intl.DateTimeFormat('en-US', dateOptions).format(time);
+
+  const displayLocation = compactLabel || settings.savedLocation || formatFallbackLocation(activeLocation);
+
+  function formatFallbackLocation(loc: typeof activeLocation): string {
+    if (loc.name && loc.name !== 'Current location') {
+      return [loc.name, loc.admin1].filter(Boolean).join(', ');
+    }
+    return 'Upper Darby, PA';
+  }
+
+  const isDeviceGps = activeLocation.source === 'device';
+
+  return (
+    <header className="app-header w-full flex flex-col sm:flex-row justify-between items-start gap-4 py-2 px-1 text-slate-100 z-20">
+      <div className="flex flex-col">
+        {/* Prominent Clock */}
+        <div className="flex items-baseline gap-2 font-mono font-light tracking-tight text-white mb-1" aria-hidden="true">
+          <span className="text-6xl lg:text-7xl tabular-nums">{hours}:{minutes}</span>
+          <span className="text-3xl lg:text-4xl text-slate-400 tabular-nums">:{seconds}</span>
+          {!is24h && ampm && (
+            <span className="text-2xl lg:text-3xl font-sans text-slate-300 ml-1">{ampm}</span>
+          )}
+        </div>
+        {/* Accessible label for the clock so it doesn't announce every second */}
+        <span className="sr-only">
+           Current time is {hours}:{minutes} {ampm || ''}
+        </span>
+        
+        {/* Date and Location */}
+        <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3 text-slate-200">
+          <h2 className="text-lg lg:text-xl font-medium">{dateString}</h2>
+          <span className="hidden sm:inline text-slate-500">•</span>
+          <div 
+            className="flex items-center gap-1.5 text-slate-300 font-medium"
+            title={isDeviceGps ? `Device GPS Active — ${formattedLabel}` : formattedLabel}
+            aria-label={isDeviceGps ? `Active location (Device GPS active): ${formattedLabel}` : `Active location: ${formattedLabel}`}
+          >
+            {isDeviceGps ? (
+              <Navigation className="w-4 h-4 text-emerald-400 shrink-0" aria-hidden="true" />
+            ) : (
+              <MapPin className="w-4 h-4 text-indigo-400 shrink-0" aria-hidden="true" />
+            )}
+            <span className="truncate">{displayLocation}</span>
+            {isDeviceGps && (
+              <span className="sr-only">(Device GPS Active)</span>
+            )}
+          </div>
+        </div>
+      </div>
+      
+      {/* Action icons */}
+      <div className="flex items-center gap-2 mt-4 sm:mt-0">
+        <button
+          type="button"
+          onClick={onRefresh}
+          disabled={isRefreshing}
+          aria-label="Refresh ambient data"
+          title="Refresh ambient data"
+          className="p-2.5 rounded-lg bg-slate-900/40 hover:bg-slate-800/80 text-slate-300 hover:text-white border border-white/10 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-400 disabled:opacity-50 cursor-pointer shadow-sm backdrop-blur-md"
+        >
+          <RefreshCw
+            className={`w-4 h-4 ${isRefreshing ? 'animate-spin text-indigo-400' : ''}`}
+          />
+        </button>
+        <button
+          ref={settingsBtnRef}
+          type="button"
+          onClick={onOpenSettings}
+          aria-label="Open settings preferences"
+          title="Preferences"
+          className="p-2.5 rounded-lg bg-slate-900/40 hover:bg-slate-800/80 text-slate-300 hover:text-white border border-white/10 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-400 cursor-pointer shadow-sm backdrop-blur-md"
+        >
+          <Settings className="w-4 h-4" />
+        </button>
+      </div>
+    </header>
+  );
+};

@@ -1,0 +1,66 @@
+/* Ambient Brief - Design Tokens and Accessible Base Styles (Frosted Glass Theme) */
+
+:root {
+  /* Surface & Background Palette - Dark Frosted Slate */
+  --page-bg: #05060b;
+  --glass-bg: rgba(15, 23, 42, 0.65);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-highlight: rgba(255, 255, 255, 0.03);
+
+  /* Typographic Contrast Palette */
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+
+  /* State & Indicator Tokens */
+  --positive: #10b981;
+  --negative: #ef4444;
+  --warning: #f59e0b;
+  --critical: #ef4444;
+
+  /* Surface Geometry & Blur Tokens */
+  --radius-surface: 1.5rem;
+  --blur-glass: 24px;
+  --shadow-surface: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+/* Glass surface utility helper */
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--blur-glass));
+  -webkit-backdrop-filter: blur(var(--blur-glass));
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-surface);
+  border-radius: var(--radius-surface);
+}
+
+.specular-highlight {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+/* Accessible focus ring styles */
+:focus-visible {
+  outline: 2px solid var(--text-primary);
+  outline-offset: 2px;
+}
+
+/* Reduced motion accessibility support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom scrollbars for clean ambient look */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
