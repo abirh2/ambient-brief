@@ -1,7 +1,6 @@
 import React from 'react';
-import { Headline } from '../providers/newsProvider';
+import type { Headline } from '../model';
 import { formatNewsTimestamp } from '../../../lib/formatting';
-import { formatPublisherName } from '../utils/sourceMapper';
 import { getSafeExternalUrl } from '../utils/urls';
 import { NewsImage } from './NewsImage';
 
@@ -24,11 +23,11 @@ export const FeaturedStory: React.FC<FeaturedStoryProps> = ({ article }) => {
       <div className="flex flex-col justify-between flex-1 gap-2">
         <div className="flex items-center gap-2 text-xs text-slate-400 font-sans">
           <span className="font-semibold text-indigo-400 tracking-wider uppercase text-[10px] bg-indigo-950/60 px-2 py-0.5 rounded border border-indigo-800/40">
-            {article.category}
+            {article.categories[0]}
           </span>
           <span>•</span>
           <span className="font-medium text-slate-300">
-            {formatPublisherName(article.publisherDomain || article.source)}
+            {article.publisher}
           </span>
           <span>•</span>
           <span className="text-slate-400">{formatNewsTimestamp(article.publishedAt)}</span>
@@ -41,9 +40,9 @@ export const FeaturedStory: React.FC<FeaturedStoryProps> = ({ article }) => {
         {/* Screen reader only external link indication */}
         <span className="sr-only">(opens in a new tab)</span>
 
-        {article.summary && (
+        {article.description && (
           <p className="text-xs sm:text-sm text-slate-300 line-clamp-2 leading-relaxed">
-            {article.summary}
+            {article.description}
           </p>
         )}
       </div>
@@ -54,14 +53,6 @@ export const FeaturedStory: React.FC<FeaturedStoryProps> = ({ article }) => {
             src={article.imageUrl}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
-        </div>
-      )}
-
-      {/* Dev-only ranking info */}
-      {import.meta.env.DEV && article.rankingScore !== undefined && (
-        <div className="absolute top-2 right-2 text-[9px] bg-black/80 text-green-400 p-1 rounded hidden group-hover:block z-10 max-w-[200px]">
-          <div>Score: {article.rankingScore.toFixed(1)}</div>
-          <div className="opacity-70 leading-tight mt-1">{article.rankingReason}</div>
         </div>
       )}
     </a>

@@ -4,7 +4,7 @@ import { GlassSurface } from '../../../components/common/GlassSurface';
 import { FeaturedStory } from './FeaturedStory';
 import { StoryList } from './StoryList';
 import { NewsSkeleton } from './NewsSkeleton';
-import { NewsState } from '../model';
+import type { NewsCategory, NewsState } from '../model';
 import { useSettingsStore } from '../../../stores/settingsStore';
 
 interface NewsPanelProps {
@@ -19,9 +19,9 @@ export const NewsPanel: React.FC<NewsPanelProps> = ({
   onRetry,
 }) => {
   const { settings } = useSettingsStore();
-  const categories =
+  const categories: NewsCategory[] =
     settings.newsCategories.length > 0 ? settings.newsCategories : ['Top', 'U.S.', 'Technology'];
-  const [activeCategory, setActiveCategory] = useState<string>(categories[0] || 'Top');
+  const [activeCategory, setActiveCategory] = useState<NewsCategory>(categories[0] || 'Top');
 
   const currentCategory = categories.includes(activeCategory) ? activeCategory : categories[0];
   const isCompact = settings.contentDensity === 'compact';
@@ -125,18 +125,18 @@ export const NewsPanel: React.FC<NewsPanelProps> = ({
 
   // 4. Loaded or Cached state
   const isCached = state.status === 'cached';
-  const featured = state.featured;
-  const secondary = state.secondary;
+  const allStories = [state.featured, ...state.secondary];
+  const categoryStories = allStories.filter((story) => story.categories.includes(currentCategory));
+  const visibleStories = categoryStories.length > 0 ? categoryStories : allStories;
+  const featured = visibleStories[0];
+  const secondary = visibleStories.slice(1);
 
   return (
     <GlassSurface className={`news-panel-card ${isCompact ? 'p-4' : 'p-5 sm:p-6'} flex flex-col gap-4 h-full`}>
-      {/* Cached Status Banner */}
-      {isCached && (
-        <div className="flex items-center gap-1.5 px-3 py-1 rounded-md bg-amber-950/70 border border-amber-700/40 text-amber-200 text-[11px] font-sans font-medium w-fit">
-          <Clock className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-          <span>{state.lastUpdatedText || 'Showing cached stories · Last updated 46 minutes ago'}</span>
-        </div>
-      )}
+      <div className={`flex items-center gap-1.5 px-3 py-1 rounded-md text-[11px] font-sans font-medium w-fit ${isCached ? 'bg-amber-950/70 border border-amber-700/40 text-amber-200' : 'bg-white/5 border border-white/5 text-slate-400'}`}>
+        <Clock className={`w-3.5 h-3.5 shrink-0 ${isCached ? 'text-amber-400' : 'text-slate-500'}`} />
+        <span>{state.updatedText}</span>
+      </div>
 
       {/* Header & Categories bar */}
       <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-3">

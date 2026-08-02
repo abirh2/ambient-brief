@@ -1,107 +1,81 @@
-import { Headline } from '../providers/newsProvider';
+import type { Headline, NewsCategory } from '../model.ts';
+import { getCanonicalArticleUrl } from './urls.ts';
 
-/**
- * Normalizes title punctuation, whitespace, and removes common publisher suffixes.
- */
-export function normalizeTitle(title: string): string {
-  if (!title) return '';
-  let cleaned = title
-    .toLowerCase()
-    .replace(/[^\w\s]/g, ' ') // replace punctuation with spaces
-    .replace(/\s+/g, ' ') // collapse whitespace
-    .trim();
+const PUBLISHER_SUFFIXES = [
+  'bbc news', 'reuters', 'cnn', 'ap news', 'associated press', 'the guardian',
+  'bloomberg', 'cnbc', 'wall street journal', 'wsj', 'new york times', 'nyt',
+  'fox news', 'npr', 'al jazeera', 'the verge', 'techcrunch', 'wired',
+];
 
-  // Common publisher suffixes to strip
-  const suffixes = [
-    'bbc news',
-    'reuters',
-    'cnn',
-    'ap news',
-    'associated press',
-    'the guardian',
-    'bloomberg',
-    'cnbc',
-    'wall street journal',
-    'wsj',
-    'new york times',
-    'nyt',
-    'fox news',
-    'npr',
-    'al jazeera',
-    'the verge',
-    'techcrunch',
-    'wired',
-  ];
-
-  for (const suffix of suffixes) {
-    if (cleaned.endsWith(suffix)) {
-      cleaned = cleaned.slice(0, cleaned.length - suffix.length).trim();
-    }
+export function stripPublisherSuffix(title: string, publisher?: string): string {
+  const candidates = publisher ? [...PUBLISHER_SUFFIXES, publisher.toLowerCase()] : PUBLISHER_SUFFIXES;
+  for (const suffix of [...new Set(candidates)].sort((a, b) => b.length - a.length)) {
+    const escaped = suffix.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const stripped = title.replace(new RegExp(`\\s+(?:[-–—|:]\\s*)${escaped}$`, 'i'), '').trim();
+    if (stripped !== title && stripped.length >= 15) return stripped;
   }
-
-  return cleaned;
+  return title.trim();
 }
 
-/**
- * Calculates token-based Jaccard similarity between two strings.
- */
+export function normalizeTitle(title: string): string {
+  return stripPublisherSuffix(title)
+    .toLowerCase()
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^\p{L}\p{N}\s]/gu, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 export function calculateTitleSimilarity(titleA: string, titleB: string): number {
   const normA = normalizeTitle(titleA);
   const normB = normalizeTitle(titleB);
+  if (normA === normB) return normA ? 1 : 0;
 
-  if (normA === normB) return 1.0;
-  if (!normA || !normB) return 0.0;
-
-  const tokensA = new Set(normA.split(' ').filter((t) => t.length > 2));
-  const tokensB = new Set(normB.split(' ').filter((t) => t.length > 2));
-
-  if (tokensA.size === 0 || tokensB.size === 0) return 0.0;
-
-  let intersection = 0;
-  for (const token of tokensA) {
-    if (tokensB.has(token)) {
-      intersection++;
-    }
-  }
-
-  const union = new Set([...tokensA, ...tokensB]).size;
-  return union === 0 ? 0 : intersection / union;
+  const tokensA = new Set(normA.split(' ').filter((token) => token.length > 2));
+  const tokensB = new Set(normB.split(' ').filter((token) => token.length > 2));
+  if (tokensA.size < 3 || tokensB.size < 3) return 0;
+  const intersection = [...tokensA].filter((token) => tokensB.has(token)).length;
+  return intersection / new Set([...tokensA, ...tokensB]).size;
 }
 
-/**
- * Deterministic deduplication pipeline for headlines.
- */
-export function deduplicateHeadlines(headlines: Headline[]): Headline[] {
-  if (!headlines || headlines.length === 0) return [];
+function metadataScore(headline: Headline): number {
+  return (headline.imageUrl ? 2 : 0) + (headline.description ? 1 : 0) +
+    (headline.publisherDomain ? 1 : 0);
+}
 
+function mergeCategories(a: NewsCategory[], b: NewsCategory[]): NewsCategory[] {
+  return [...new Set([...a, ...b])];
+}
+
+function choosePreferred(a: Headline, b: Headline): Headline {
+  const scoreDifference = metadataScore(b) - metadataScore(a);
+  const preferred = scoreDifference > 0 || (scoreDifference === 0 && b.publishedAt > a.publishedAt) ? b : a;
+  return { ...preferred, categories: mergeCategories(a.categories, b.categories) };
+}
+
+export function deduplicateHeadlines(headlines: Headline[]): Headline[] {
+  const sorted = [...headlines].sort((a, b) => {
+    const completeness = metadataScore(b) - metadataScore(a);
+    return completeness || b.publishedAt.localeCompare(a.publishedAt) || a.id.localeCompare(b.id);
+  });
   const unique: Headline[] = [];
 
-  // Sort by metadata completeness (has image, has summary) and recency first
-  const sorted = [...headlines].sort((a, b) => {
-    const scoreA = (a.imageUrl ? 2 : 0) + (a.summary ? 1 : 0) + (new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime() > 0 ? 0.5 : 0);
-    const scoreB = (b.imageUrl ? 2 : 0) + (b.summary ? 1 : 0) + (new Date(a.publishedAt).getTime() - new Date(b.publishedAt).getTime() > 0 ? 0.5 : 0);
-    return scoreB - scoreA;
-  });
-
   for (const headline of sorted) {
-    if (!headline.title || !headline.url) continue;
+    const canonicalUrl = getCanonicalArticleUrl(headline.url);
+    if (!headline.title || !canonicalUrl) continue;
 
-    // Check against existing unique headlines for similarity and publisher constraints
-    let isDuplicate = false;
-    for (const existing of unique) {
+    const duplicateIndex = unique.findIndex((existing) => {
+      const sameUrl = getCanonicalArticleUrl(existing.url) === canonicalUrl;
+      if (sameUrl) return true;
       const similarity = calculateTitleSimilarity(headline.title, existing.title);
+      if (similarity === 1 || similarity >= 0.92) return true;
+      const hoursApart = Math.abs(Date.parse(headline.publishedAt) - Date.parse(existing.publishedAt)) / 3_600_000;
+      return headline.publisherDomain === existing.publisherDomain && hoursApart <= 36 && similarity >= 0.78;
+    });
 
-      // Very conservative threshold: 0.85 similarity for title duplication
-      if (similarity >= 0.85) {
-        isDuplicate = true;
-        break;
-      }
-    }
-
-    if (!isDuplicate) {
-      unique.push(headline);
-    }
+    if (duplicateIndex < 0) unique.push({ ...headline, url: canonicalUrl });
+    else unique[duplicateIndex] = choosePreferred(unique[duplicateIndex], headline);
   }
-
   return unique;
 }

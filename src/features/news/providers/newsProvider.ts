@@ -1,6 +1,6 @@
-import { NewsCategory, NewsArticle } from '../../../lib/types';
+import type { GeneratedNewsFeed, Headline, NewsCategory } from '../model';
 
-export type Headline = NewsArticle;
+export type { Headline } from '../model';
 
 export interface NewsProvider {
   id: string;
@@ -9,5 +9,5 @@ export interface NewsProvider {
   fetchHeadlines(
     categories: NewsCategory[],
     signal?: AbortSignal
-  ): Promise<Headline[]>;
+  ): Promise<{ feed: GeneratedNewsFeed; headlines: Headline[] }>;
 }

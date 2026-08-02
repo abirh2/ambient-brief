@@ -84,11 +84,13 @@ export const WeatherDataSchema = z.object({
 export const NewsArticleSchema = z.object({
   id: z.string(),
   title: z.string(),
-  summary: z.string(),
-  category: z.string(),
-  source: z.string(),
+  description: z.string().optional(),
+  publisher: z.string(),
+  publisherDomain: z.string(),
   publishedAt: z.string(),
+  url: z.string(),
   imageUrl: z.string().optional(),
+  categories: z.array(NewsCategorySchema),
 });
 
 export const MarketTickerSchema = z.object({

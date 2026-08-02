@@ -1,226 +1,155 @@
-import { useState, useEffect, useCallback, useRef } from 'react';
-import { useSettingsStore } from '../../../lib/stores/useSettingsStore';
-import { useDevStateStore } from '../../../lib/stores/useDevStateStore';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { cacheService } from '../../../lib/api/cacheService';
-import { fetchNewsHeadlines, isNewsProviderEnabled } from '../newsService';
-import { Headline } from '../providers/newsProvider';
-import { NewsState } from '../../../lib/types';
+import { useDevStateStore } from '../../../lib/stores/useDevStateStore';
+import { useSettingsStore } from '../../../lib/stores/useSettingsStore';
 import { FEATURED_NEWS_STORY, SECONDARY_NEWS_STORIES } from '../../../mocks/ambientData';
-import { GdeltProviderError } from '../providers/gdeltProvider';
+import { GeneratedNewsFeedSchema } from '../generatedFeedSchemas';
+import type { GeneratedNewsFeed, NewsCategory, NewsState } from '../model';
+import { fetchNewsHeadlines } from '../newsService';
+import { selectFeedHeadlines } from '../providers/staticNewsProvider';
 
 const NEWS_CACHE_POLICY = {
-  freshForMs: 10 * 60 * 1000,
-  staleForMs: 6 * 60 * 60 * 1000,
+  freshForMs: 25 * 60 * 1_000,
+  staleForMs: 24 * 60 * 60 * 1_000,
 };
-const NEWS_REFRESH_INTERVAL_MS = 15 * 60 * 1000;
+export const GENERATED_FEED_STALE_AFTER_MS = 75 * 60 * 1_000;
+
+function getRelativeTimeString(isoString: string, now = Date.now()): string {
+  const fetched = Date.parse(isoString);
+  if (Number.isNaN(fetched)) return 'recently';
+  const diffMins = Math.max(0, Math.floor((now - fetched) / 60_000));
+  if (diffMins < 1) return 'just now';
+  if (diffMins === 1) return '1 minute ago';
+  if (diffMins < 60) return `${diffMins} minutes ago`;
+  const diffHours = Math.floor(diffMins / 60);
+  if (diffHours === 1) return '1 hour ago';
+  if (diffHours < 24) return `${diffHours} hours ago`;
+  return new Intl.DateTimeFormat(undefined, { month: 'short', day: 'numeric' }).format(new Date(fetched));
+}
+
+export function isGeneratedFeedStale(feed: GeneratedNewsFeed, now = Date.now()): boolean {
+  return now - Date.parse(feed.generatedAt) > GENERATED_FEED_STALE_AFTER_MS;
+}
+
+export function stateFromFeed(
+  feed: GeneratedNewsFeed,
+  categories: NewsCategory[],
+  source: 'static' | 'cache',
+  now = Date.now(),
+): NewsState {
+  const headlines = selectFeedHeadlines(categories, feed);
+  if (headlines.length === 0) return { status: 'empty' };
+  const ageText = getRelativeTimeString(feed.generatedAt, now);
+  const delayed = isGeneratedFeedStale(feed, now) || feed.status === 'partial';
+  const content = { featured: headlines[0], secondary: headlines.slice(1) };
+  if (source === 'cache') {
+    return { status: 'cached', ...content, updatedText: `Showing cached stories · Updated ${ageText}` };
+  }
+  if (delayed) {
+    return { status: 'cached', ...content, updatedText: `News update delayed · Updated ${ageText}` };
+  }
+  return { status: 'loaded', ...content, updatedText: `Updated ${ageText}` };
+}
+
+interface ResolveNewsOptions {
+  categories: NewsCategory[];
+  cachedFeed?: GeneratedNewsFeed;
+  load: () => Promise<{ feed: GeneratedNewsFeed }>;
+  now?: number;
+}
+
+export async function resolveNewsLoad(options: ResolveNewsOptions): Promise<{
+  state: NewsState;
+  validatedFeed?: GeneratedNewsFeed;
+}> {
+  try {
+    const result = await options.load();
+    return {
+      state: stateFromFeed(result.feed, options.categories, 'static', options.now),
+      validatedFeed: result.feed,
+    };
+  } catch {
+    if (options.cachedFeed) {
+      const cachedState = stateFromFeed(options.cachedFeed, options.categories, 'cache', options.now);
+      if (cachedState.status === 'cached') {
+        return {
+          state: { ...cachedState, updatedText: `Showing cached stories · News update delayed · ${cachedState.updatedText.split(' · ').at(-1)}` },
+        };
+      }
+      return { state: cachedState };
+    }
+    return { state: { status: 'error', errorMessage: 'News temporarily unavailable' } };
+  }
+}
 
 export function useNews() {
   const { settings } = useSettingsStore();
   const { newsStatus: devNewsStatus } = useDevStateStore();
-
   const [newsState, setNewsState] = useState<NewsState>({ status: 'loading' });
   const [isRefreshing, setIsRefreshing] = useState(false);
-
   const abortControllerRef = useRef<AbortController | null>(null);
-
   const categoriesKey = [...settings.newsCategories].sort().join(',');
-  // v3 invalidates results produced by the previous unbounded "news OR breaking"
-  // query so they cannot masquerade as a successful refresh from this provider.
-  const cacheKey = `news_gdelt_v3_${categoriesKey}`;
-  const isDemoMode = import.meta.env.DEV && settings.isDemoMode;
+  const cacheKey = `news_currents_static_v1_${categoriesKey}`;
 
-  const loadNews = useCallback(
-    async (forceRefresh = false) => {
-      // 1. Dev state overrides
-      if (import.meta.env.DEV && devNewsStatus === 'loading') {
-        setNewsState({ status: 'loading' });
-        return;
-      }
-      if (import.meta.env.DEV && devNewsStatus === 'empty') {
-        setNewsState({ status: 'empty' });
-        return;
-      }
-      if (import.meta.env.DEV && devNewsStatus === 'error') {
-        setNewsState({ status: 'error', errorMessage: 'News is temporarily unavailable' });
-        return;
-      }
-      if (import.meta.env.DEV && devNewsStatus === 'cached') {
-        setNewsState({
-          status: 'cached',
-          featured: FEATURED_NEWS_STORY,
-          secondary: SECONDARY_NEWS_STORIES,
-          lastUpdatedText: 'Showing cached stories · Last updated 20 minutes ago',
-        });
-        return;
-      }
+  const loadNews = useCallback(async (forceRefresh = false) => {
+    if (import.meta.env.DEV && devNewsStatus !== 'loaded') {
+      if (devNewsStatus === 'loading') setNewsState({ status: 'loading' });
+      if (devNewsStatus === 'empty') setNewsState({ status: 'empty' });
+      if (devNewsStatus === 'error') setNewsState({ status: 'error', errorMessage: 'News temporarily unavailable' });
+      if (devNewsStatus === 'cached') setNewsState({
+        status: 'cached',
+        featured: FEATURED_NEWS_STORY,
+        secondary: SECONDARY_NEWS_STORIES,
+        updatedText: 'Showing cached stories · Updated 20 minutes ago',
+      });
+      setIsRefreshing(false);
+      return;
+    }
 
-      // 2. Check local cache first (20 min TTL)
-      const cachedRecord = cacheService.getCache<Headline[]>(cacheKey);
+    const unvalidatedCache = cacheService.getCache<GeneratedNewsFeed>(cacheKey);
+    const cachedResult = unvalidatedCache
+      ? GeneratedNewsFeedSchema.safeParse(unvalidatedCache.data)
+      : undefined;
+    const cachedRecord = unvalidatedCache && cachedResult?.success
+      ? { ...unvalidatedCache, data: cachedResult.data }
+      : undefined;
+    if (unvalidatedCache && !cachedRecord) cacheService.clearKey(cacheKey);
+    if (cachedRecord && !forceRefresh) {
+      setNewsState(stateFromFeed(cachedRecord.data, settings.newsCategories, 'cache'));
+    } else if (!cachedRecord) {
+      setNewsState({ status: 'loading' });
+    }
 
-      // Live GDELT stays disabled until an actual request succeeds in the
-      // deployed GitHub Pages page context. Never present a legacy cache as live.
-      if (!isNewsProviderEnabled()) {
-        if (cachedRecord && cachedRecord.data.length > 0) {
-          setNewsState({
-            status: 'cached',
-            featured: cachedRecord.data[0],
-            secondary: cachedRecord.data.slice(1),
-            lastUpdatedText: `Live news unavailable · Showing saved stories · Updated ${getRelativeTimeString(cachedRecord.fetchedAt)}`,
-          });
-        } else {
-          setNewsState({
-            status: 'error',
-            errorMessage:
-              'Live news is unavailable because deployed-site browser verification has not passed.',
-          });
-        }
-        setIsRefreshing(false);
-        return;
-      }
-
-      if (cachedRecord && !cachedRecord.isStale && !forceRefresh) {
-        if (cachedRecord.data.length > 0) {
-          setNewsState({
-            status: 'loaded',
-            featured: cachedRecord.data[0],
-            secondary: cachedRecord.data.slice(1),
-          });
-        } else {
-          setNewsState({ status: 'empty' });
-        }
-        return;
-      }
-
-      // If stale cache or background revalidation needed, show cached items immediately and refresh in background
-      if (cachedRecord && !forceRefresh) {
-        if (cachedRecord.data.length > 0) {
-          setNewsState({
-            status: 'cached',
-            featured: cachedRecord.data[0],
-            secondary: cachedRecord.data.slice(1),
-            lastUpdatedText: `Showing cached stories · Updated ${getRelativeTimeString(cachedRecord.fetchedAt)}`,
-          });
-        }
-      } else if (!cachedRecord) {
-        setNewsState({ status: 'loading' });
-      }
-
-      // Cancel any in-flight request
-      if (abortControllerRef.current) {
-        abortControllerRef.current.abort();
-      }
-      const controller = new AbortController();
-      abortControllerRef.current = controller;
-
-      try {
-        // Slow or stop refreshes while hidden
-        if (typeof document !== 'undefined' && document.hidden && cachedRecord) {
-          return;
-        }
-
-        const liveHeadlines = await fetchNewsHeadlines(
-          settings.newsCategories,
-          controller.signal
-        );
-
-        if (!controller.signal.aborted) {
-          if (liveHeadlines.length > 0) {
-            cacheService.setCache(cacheKey, liveHeadlines, NEWS_CACHE_POLICY);
-            setNewsState({
-              status: 'loaded',
-              featured: liveHeadlines[0],
-              secondary: liveHeadlines.slice(1),
-            });
-          } else {
-            setNewsState({ status: 'empty' });
-          }
-        }
-      } catch (error: unknown) {
-        if (error instanceof Error && error.name === 'AbortError') {
-          return;
-        }
-
-        // Preserve cached stories on failure
-        const fallbackCache = cacheService.getCache<Headline[]>(cacheKey);
-        if (fallbackCache && fallbackCache.data.length > 0) {
-          setNewsState({
-            status: 'cached',
-            featured: fallbackCache.data[0],
-            secondary: fallbackCache.data.slice(1),
-            lastUpdatedText: `Showing saved stories · ${getFailureLabel(error)} · Updated ${getRelativeTimeString(fallbackCache.fetchedAt)}`,
-          });
-        } else {
-          if (isDemoMode) {
-            setNewsState({
-              status: 'loaded',
-              featured: FEATURED_NEWS_STORY,
-              secondary: SECONDARY_NEWS_STORIES,
-            });
-          } else {
-            setNewsState({
-              status: 'error',
-              errorMessage: `${getFailureLabel(error)}. No saved stories are available.`,
-            });
-          }
-        }
-      } finally {
-        setIsRefreshing(false);
-      }
-    },
-    [settings.newsCategories, isDemoMode, devNewsStatus, cacheKey]
-  );
+    abortControllerRef.current?.abort();
+    const controller = new AbortController();
+    abortControllerRef.current = controller;
+    const resolved = await resolveNewsLoad({
+      categories: settings.newsCategories,
+      cachedFeed: cachedRecord?.data,
+      load: async () => fetchNewsHeadlines(settings.newsCategories, controller.signal),
+    });
+    if (!controller.signal.aborted) {
+      if (resolved.validatedFeed) cacheService.setCache(cacheKey, resolved.validatedFeed, NEWS_CACHE_POLICY);
+      setNewsState(resolved.state);
+    }
+    setIsRefreshing(false);
+  }, [cacheKey, devNewsStatus, settings.newsCategories]);
 
   useEffect(() => {
-    loadNews();
-
-    const refreshInterval = window.setInterval(() => {
-      if (!document.hidden) void loadNews(true);
-    }, NEWS_REFRESH_INTERVAL_MS);
-
-    return () => {
-      window.clearInterval(refreshInterval);
-      if (abortControllerRef.current) {
-        abortControllerRef.current.abort();
-      }
-    };
+    void loadNews();
+    return () => abortControllerRef.current?.abort();
   }, [loadNews]);
 
   const refreshNews = useCallback(() => {
     setIsRefreshing(true);
-    loadNews(true);
+    void loadNews(true);
   }, [loadNews]);
 
-  return {
-    newsState,
-    isRefreshing,
-    refreshNews,
-  };
-}
+  const isNewsStale = useCallback(() => {
+    const cached = cacheService.getCache<GeneratedNewsFeed>(cacheKey);
+    const validated = cached ? GeneratedNewsFeedSchema.safeParse(cached.data) : undefined;
+    return !cached || !validated?.success || cached.isStale || isGeneratedFeedStale(validated.data);
+  }, [cacheKey]);
 
-function getFailureLabel(error: unknown): string {
-  if (error instanceof GdeltProviderError) {
-    if (error.kind === 'rate-limited') return 'GDELT rate limited the refresh';
-    if (error.kind === 'timeout') return 'GDELT refresh timed out';
-    if (error.kind === 'network') return 'The browser could not read the GDELT response';
-    if (error.kind === 'invalid-response') return 'GDELT returned invalid data';
-    return 'GDELT refresh failed';
-  }
-  return 'Connection failed';
-}
-
-function getRelativeTimeString(isoString: string): string {
-  try {
-    const fetched = new Date(isoString).getTime();
-    const diffMs = Date.now() - fetched;
-    const diffMins = Math.floor(diffMs / 60000);
-    if (diffMins < 1) return 'just now';
-    if (diffMins === 1) return '1 minute ago';
-    if (diffMins < 60) return `${diffMins} minutes ago`;
-    const diffHours = Math.floor(diffMins / 60);
-    if (diffHours === 1) return '1 hour ago';
-    if (diffHours < 24) return `${diffHours} hours ago`;
-    return new Date(isoString).toLocaleDateString();
-  } catch {
-    return 'recently';
-  }
+  return { newsState, isRefreshing, refreshNews, isNewsStale };
 }

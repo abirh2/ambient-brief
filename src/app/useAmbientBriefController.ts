@@ -16,7 +16,7 @@ export function useAmbientBriefController() {
   const { settings, updateSettings } = useSettingsStore();
   const { weatherAlertVisible, weatherAlertSeverity, dismissWeatherAlert } = useDevStateStore();
   const { weatherState, refreshWeather } = useWeather();
-  const { newsState, refreshNews } = useNews();
+  const { newsState, refreshNews, isNewsStale } = useNews();
   const { marketState, refreshMarkets } = useMarkets();
   const { alerts: nwsAlerts, dismissAlert: dismissNWSAlert, refreshAlerts: refreshNWSAlerts } = useNWSAlerts();
   const { aqiState, refreshAirQuality } = useAirQuality();
@@ -57,7 +57,7 @@ export function useAmbientBriefController() {
   useVisibilityRefresh([
     { id: 'weather', isStale: () => true, refresh: async () => refreshWeather() },
     { id: 'weatherAlerts', isStale: () => true, refresh: async () => refreshNWSAlerts() },
-    { id: 'news', isStale: () => true, refresh: async () => refreshNews() },
+    { id: 'news', isStale: isNewsStale, refresh: async () => refreshNews() },
     { id: 'markets', isStale: () => true, refresh: async () => refreshMarkets() },
     { id: 'optional', isStale: () => true, refresh: () => refreshOptionalData() },
   ]);

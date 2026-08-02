@@ -9,8 +9,9 @@ describe('news URL validation', () => {
     expect(getSafeExternalUrl('not a url')).toBeUndefined();
   });
 
-  it('requires HTTPS for embedded images', () => {
+  it('allows HTTP(S) images and rejects unsafe schemes', () => {
     expect(getSafeImageUrl('https://example.com/image.jpg')).toBe('https://example.com/image.jpg');
-    expect(getSafeImageUrl('http://example.com/image.jpg')).toBeUndefined();
+    expect(getSafeImageUrl('http://example.com/image.jpg')).toBe('http://example.com/image.jpg');
+    expect(getSafeImageUrl('data:image/svg+xml,bad')).toBeUndefined();
   });
 });

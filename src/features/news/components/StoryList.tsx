@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import { Headline } from '../providers/newsProvider';
+import type { Headline } from '../model';
 import { formatNewsTimestamp } from '../../../lib/formatting';
-import { formatPublisherName } from '../utils/sourceMapper';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 import { getSafeExternalUrl } from '../utils/urls';
 import { NewsImage } from './NewsImage';
@@ -39,7 +38,7 @@ export const StoryList: React.FC<StoryListProps> = ({ articles }) => {
 
             <div className="flex items-center gap-2 text-[11px] text-slate-400 font-sans">
               <span className="font-semibold text-slate-300">
-                {formatPublisherName(story.publisherDomain || story.source)}
+                {story.publisher}
               </span>
               <span>•</span>
               <span>{formatNewsTimestamp(story.publishedAt)}</span>
@@ -48,13 +47,6 @@ export const StoryList: React.FC<StoryListProps> = ({ articles }) => {
           {story.imageUrl && (
             <div className="w-14 h-14 rounded overflow-hidden bg-slate-800 shrink-0 border border-white/5 relative">
               <NewsImage src={story.imageUrl} className="w-full h-full object-cover" />
-            </div>
-          )}
-
-          {/* Dev-only ranking info */}
-          {import.meta.env.DEV && story.rankingScore !== undefined && (
-            <div className="absolute top-1 right-1 text-[8px] bg-black/80 text-green-400 p-1 rounded hidden group-hover:block z-10 max-w-[150px]">
-              <div>Score: {story.rankingScore.toFixed(1)}</div>
             </div>
           )}
         </a>

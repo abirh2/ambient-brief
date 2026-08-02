@@ -15,11 +15,10 @@ const DOMAIN_MAP: Record<string, string> = {
   'theverge.com': 'The Verge',
   'wired.com': 'Wired',
   'arstechnica.com': 'Ars Technica',
-  'gdeltproject.org': 'GDELT Wire',
 };
 
 export function formatPublisherName(sourceOrDomain: string): string {
-  if (!sourceOrDomain) return 'News Wire';
+  if (!sourceOrDomain) return 'News Source';
   const clean = sourceOrDomain
     .toLowerCase()
     .replace(/^https?:\/\//, '')
@@ -32,7 +31,12 @@ export function formatPublisherName(sourceOrDomain: string): string {
 
   const parts = clean.split('.');
   if (parts.length >= 2) {
-    const main = parts[parts.length - 2];
+    const commonSecondLevelSuffixes = new Set(['co.uk', 'com.au', 'co.nz', 'com.br']);
+    const suffix = parts.slice(-2).join('.');
+    const main = commonSecondLevelSuffixes.has(suffix) && parts.length >= 3
+      ? parts[parts.length - 3]
+      : parts[parts.length - 2];
+    if (!main) return sourceOrDomain;
     return main.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
   }
 

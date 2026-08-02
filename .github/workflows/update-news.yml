@@ -1,0 +1,50 @@
+name: Update static news feed
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7,37 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-static-news-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update-news:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Use Node.js 22 LTS
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch and validate news
+        run: npm run fetch:news
+        env:
+          CURRENTS_API_KEY: ${{ secrets.CURRENTS_API_KEY }}
+
+      - name: Commit changed feed
+        run: |
+          if [ -z "$(git status --porcelain -- public/data/news-feed.json)" ]; then
+            echo "Static news feed is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- public/data/news-feed.json
+          git commit -m "chore(news): update static Currents feed"
+          git push origin "HEAD:${{ github.event.repository.default_branch }}"
