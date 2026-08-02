@@ -1,10 +1,8 @@
-import { WeatherAlert } from '../../../lib/types';
-import { useDiagnosticsStore } from '../../../lib/api/diagnosticsStore';
-import { ProviderDiagnostic } from '../../../lib/api/types';
 import { z } from 'zod';
+import { WeatherAlert } from '../../../lib/types';
 
 const NwsAlertPropertiesSchema = z.object({
-  id: z.string().optional(),
+  id: z.string().min(1).optional(),
   event: z.string().nullable().optional(),
   headline: z.string().nullable().optional(),
   description: z.string().nullable().optional(),
@@ -23,11 +21,12 @@ const NwsAlertPropertiesSchema = z.object({
 });
 
 const NwsAlertFeatureSchema = z.object({
-  id: z.string().optional(),
+  type: z.literal('Feature').optional(),
+  id: z.string().min(1),
   properties: NwsAlertPropertiesSchema,
 });
 
-const NwsAlertsResponseSchema = z.object({
+export const NwsAlertsResponseSchema = z.object({
   type: z.literal('FeatureCollection'),
   features: z.array(NwsAlertFeatureSchema),
 });
@@ -35,120 +34,103 @@ const NwsAlertsResponseSchema = z.object({
 type NwsAlertFeature = z.infer<typeof NwsAlertFeatureSchema>;
 type NwsSeverity = WeatherAlert['severity'];
 
+const severityWeight: Record<NwsSeverity, number> = {
+  extreme: 5,
+  severe: 4,
+  moderate: 3,
+  minor: 2,
+  unknown: 1,
+};
+
+const urgencyWeight: Record<string, number> = {
+  immediate: 5,
+  expected: 4,
+  future: 3,
+  past: 2,
+  unknown: 1,
+};
+
 function normalizeSeverity(value: string | null | undefined): NwsSeverity {
-  const severity = value?.toLowerCase();
-  if (severity === 'minor' || severity === 'moderate' || severity === 'severe' || severity === 'extreme') {
-    return severity;
-  }
-  return 'unknown';
+  const severity = value?.trim().toLowerCase();
+  return severity === 'minor' || severity === 'moderate' || severity === 'severe' || severity === 'extreme'
+    ? severity
+    : 'unknown';
 }
 
-export interface DismissedAlert {
-  id: string;
-  dismissedAt: string;
-  expiresAt?: string;
+function normalizedValue(value: string | null | undefined): string {
+  return value?.trim().toLowerCase() ?? '';
 }
 
-/**
- * Normalizes GeoJSON feature properties into a WeatherAlert conformant to the requested schema.
- */
+function firstEndTime(alert: Pick<WeatherAlert, 'expires' | 'ends'>): number | null {
+  const times = [alert.expires, alert.ends]
+    .filter((value): value is string => Boolean(value))
+    .map((value) => Date.parse(value))
+    .filter((value) => Number.isFinite(value));
+  return times.length ? Math.min(...times) : null;
+}
+
+/** Converts a validated NWS GeoJSON feature into the app's provider-neutral alert model. */
 export function normalizeNWSAlert(feature: NwsAlertFeature): WeatherAlert {
   const props = feature.properties;
   return {
-    id: props.id || feature.id || Math.random().toString(36).substring(2, 11),
-    event: props.event || 'Weather Alert',
-    headline: props.headline || props.event || 'No Headline Provided',
-    description: props.description || 'No detailed description available.',
-    instruction: props.instruction || undefined,
+    // NWS's feature identifier is the stable CAP alert identifier used for dismissal.
+    id: feature.id,
+    event: props.event?.trim() || 'Weather Alert',
+    headline: props.headline?.trim() || props.event?.trim() || 'Weather alert issued',
+    description: props.description?.trim() || 'No detailed description is available.',
+    instruction: props.instruction?.trim() || undefined,
     severity: normalizeSeverity(props.severity),
-    certainty: props.certainty || 'Unknown',
-    urgency: props.urgency || 'Unknown',
-    status: props.status || 'Actual',
-    messageType: props.messageType || 'Alert',
-    areaDescription: props.areaDesc || 'Affected Area',
+    certainty: props.certainty?.trim() || 'Unknown',
+    urgency: props.urgency?.trim() || 'Unknown',
+    status: props.status?.trim() || 'Actual',
+    messageType: props.messageType?.trim() || 'Alert',
+    areaDescription: props.areaDesc?.trim() || 'Affected area',
     effective: props.effective ?? undefined,
     onset: props.onset ?? undefined,
     expires: props.expires ?? undefined,
     ends: props.ends ?? undefined,
-    senderName: props.senderName || 'National Weather Service',
+    senderName: props.senderName?.trim() || 'National Weather Service',
     source: 'National Weather Service',
   };
 }
 
-/**
- * Fetches active NWS alerts for the given latitude and longitude.
- */
-export async function fetchNWSAlerts(
-  latitude: number,
-  longitude: number,
-  signal?: AbortSignal
-): Promise<WeatherAlert[]> {
-  const url = `https://api.weather.gov/alerts/active?point=${latitude.toFixed(4)},${longitude.toFixed(4)}`;
-  const startTime = Date.now();
-  
-  const updateDiag = (
-    status: ProviderDiagnostic['status'],
-    extra: Partial<ProviderDiagnostic> = {},
-  ) => {
-    try {
-      useDiagnosticsStore.getState().updateDiagnostic('weatherAlerts', {
-        status,
-        responseTimeMs: Date.now() - startTime,
-        ...(status === 'success' ? { lastFetchedAt: new Date().toISOString() } : {}),
-        ...extra,
-      });
-    } catch {
-      // Ignore diagnostics store failures
-    }
-  };
-
-  updateDiag('loading');
-
-  try {
-    const response = await fetch(url, {
-      signal,
-      headers: {
-        // NWS API guidelines recommend setting a User-Agent or Accept header
-        'Accept': 'application/geo+json',
-      }
-    });
-
-    if (!response.ok) {
-      const errorMsg = `HTTP Error ${response.status}: ${response.statusText}`;
-      updateDiag('error', {
-        statusCode: response.status,
-        errorMessage: errorMsg,
-        errorCategory: 'http',
-      });
-      throw new Error(errorMsg);
-    }
-
-    const data = NwsAlertsResponseSchema.parse(await response.json());
-
-    const alerts = data.features.map(normalizeNWSAlert);
-    
-    updateDiag('success', {
-      statusCode: response.status,
-      cacheSource: 'network',
-    });
-
-    return alerts;
-  } catch (error: unknown) {
-    if (error instanceof Error && error.name === 'AbortError') {
-      throw error;
-    }
-
-    const isCors = error instanceof TypeError && error.message.includes('Failed to fetch');
-    const errorMessage = isCors 
-      ? 'Cross-Origin Resource Sharing (CORS) restriction or network error blocked browser direct access to weather.gov.' 
-      : error instanceof Error ? error.message : 'Network request failed';
-
-    updateDiag('error', {
-      statusCode: isCors ? undefined : 0,
-      errorMessage,
-      errorCategory: 'network',
-    });
-
-    throw error;
+export function isActiveNWSAlert(alert: WeatherAlert, now = Date.now()): boolean {
+  const status = normalizedValue(alert.status);
+  const messageType = normalizedValue(alert.messageType);
+  if (status === 'test' || status === 'cancelled' || messageType === 'test' || messageType === 'cancel') {
+    return false;
   }
+  const endTime = firstEndTime(alert);
+  return endTime === null || endTime > now;
+}
+
+/** Sorts most severe and urgent alerts first, with earliest expiration as a stable tie-breaker. */
+export function sortNWSAlerts(alerts: WeatherAlert[]): WeatherAlert[] {
+  return [...alerts].sort((first, second) => {
+    const severityDifference = severityWeight[second.severity] - severityWeight[first.severity];
+    if (severityDifference !== 0) return severityDifference;
+
+    const urgencyDifference = (urgencyWeight[normalizedValue(second.urgency)] ?? 1)
+      - (urgencyWeight[normalizedValue(first.urgency)] ?? 1);
+    if (urgencyDifference !== 0) return urgencyDifference;
+
+    return (firstEndTime(first) ?? Number.POSITIVE_INFINITY) - (firstEndTime(second) ?? Number.POSITIVE_INFINITY);
+  });
+}
+
+export function buildNWSAlertsUrl(latitude: number, longitude: number): string {
+  return `https://api.weather.gov/alerts/active?point=${latitude.toFixed(4)},${longitude.toFixed(4)}`;
+}
+
+/** Fetches and validates NWS GeoJSON. US-only gating belongs to the location-aware hook. */
+export async function fetchNWSAlerts(latitude: number, longitude: number, signal?: AbortSignal): Promise<WeatherAlert[]> {
+  const response = await fetch(buildNWSAlertsUrl(latitude, longitude), {
+    signal,
+    headers: { Accept: 'application/geo+json' },
+  });
+  if (!response.ok) throw new Error(`NWS alerts request failed (${response.status} ${response.statusText})`);
+
+  const responseBody: unknown = await response.json();
+  const data = NwsAlertsResponseSchema.parse(responseBody);
+  return sortNWSAlerts(data.features.map(normalizeNWSAlert).filter((alert) => isActiveNWSAlert(alert)));
 }

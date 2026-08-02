@@ -113,7 +113,10 @@ export function useAmbientBriefController() {
     : null;
 
   const dismissAlert = (id: string) => {
-    if (hasLiveAlerts) dismissNWSAlert(id, nwsAlerts.find((alert) => alert.id === id)?.expires);
+    if (hasLiveAlerts) {
+      const alert = nwsAlerts.find((candidate) => candidate.id === id);
+      dismissNWSAlert(id, alert?.expires ?? alert?.ends);
+    }
     else dismissWeatherAlert();
   };
 

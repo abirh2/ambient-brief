@@ -63,6 +63,10 @@ Enable GitHub Pages with “GitHub Actions” as the source in the repository se
 
 Provider availability and browser CORS behavior can vary by deployed origin. No mock value should be treated as live production data.
 
+### NWS browser-access verification
+
+NWS alerts use the official `https://api.weather.gov/alerts/active?point={latitude},{longitude}` GeoJSON endpoint directly from the browser, and only when the normalized location country code is `US`. No proxy is used. On 2026-08-02, direct browser access was verified from local Vite and `https://abirh2.github.io/ambient-brief/`; both requests completed without an NWS browser-access error. The deployed origin should be checked after future deployments because NWS CORS headers can change. If that check fails, the app disables the provider for the session and exposes an NWS diagnostic rather than presenting alerts as available.
+
 ## License
 
 See [LICENSE](LICENSE).
