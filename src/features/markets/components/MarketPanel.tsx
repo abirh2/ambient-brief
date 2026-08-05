@@ -66,14 +66,14 @@ export function MarketPanel() {
   if (!settings.showMarkets) return null;
 
   return (
-    <GlassSurface className="market-panel-card panel-padding panel-stack flex min-h-[180px] min-w-0 flex-col">
+    <GlassSurface className="market-panel-card panel-padding panel-stack flex min-w-0 flex-col">
       <div className="section-rule flex flex-col gap-1 pb-3 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex items-center gap-2">
           <TrendingUp className="h-5 w-5 text-emerald-400" aria-hidden="true" />
           <h2 className="panel-heading font-semibold tracking-tight">Markets</h2>
         </div>
         <span className="panel-metadata font-medium">
-          Prices and exchange delay status provided by TradingView
+          Feed timing varies by exchange
         </span>
       </div>
 
@@ -108,8 +108,8 @@ export function MarketPanel() {
         )}
       </div>
 
-      <p className="panel-metadata leading-relaxed">
-        S&amp;P 500, Dow Jones Industrial Average, and Nasdaq Composite are displayed as index instruments—not ETF proxies. TradingView determines whether each exchange feed is real-time, delayed, or end-of-day.
+      <p className="panel-metadata market-provenance leading-relaxed">
+        Index instruments are shown directly. TradingView labels each exchange feed as real-time, delayed, or end-of-day when available.
       </p>
     </GlassSurface>
   );

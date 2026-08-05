@@ -27,8 +27,9 @@ export const ClockHeader: React.FC<ClockHeaderProps> = ({
   const time = useClock();
 
   const is24h = settings.timeFormat === '24h';
-  const { hours, minutes, seconds, period: ampm } = formatClockParts(time, settings.timeFormat);
-  const dateString = formatHeaderDate(time);
+  const timeZone = settings.activeLocation?.timezone;
+  const { hours, minutes, seconds, period: ampm } = formatClockParts(time, settings.timeFormat, timeZone);
+  const dateString = formatHeaderDate(time, timeZone);
 
   const displayLocation = compactLabel || settings.savedLocation || formatFallbackLocation(activeLocation);
 
@@ -41,8 +42,10 @@ export const ClockHeader: React.FC<ClockHeaderProps> = ({
 
   const isDeviceGps = activeLocation.source === 'device';
 
+  const showConnectionStatus = globalStatus && globalStatus.state !== 'online';
+
   return (
-    <header className="app-header w-full flex justify-between items-start gap-4 pt-1 pb-2 px-1 z-20">
+    <header className="app-header w-full flex justify-between items-start gap-4 z-20">
       <div className="flex flex-col min-w-0">
         {/* Prominent Clock */}
         <div className="clock-display flex items-baseline gap-2 font-light tracking-[-0.055em]" aria-hidden="true">
@@ -81,12 +84,12 @@ export const ClockHeader: React.FC<ClockHeaderProps> = ({
       
       {/* Action icons */}
       <div className="flex items-center gap-2 shrink-0">
-        {globalStatus && (
+        {showConnectionStatus && (
           <div
             className="status-note hidden sm:flex items-center gap-1.5 px-2 py-1.5 font-medium"
             role="status"
             aria-live="polite"
-            title="Connection and cache status"
+            title="Connection and data status"
           >
             {globalStatus.state === 'offline' ? <WifiOff className="w-3 h-3 text-amber-400" />
               : globalStatus.state === 'cached' ? <Database className="w-3 h-3 text-slate-400" />

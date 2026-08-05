@@ -6,6 +6,7 @@ import { WeatherAlertBanner } from '../features/weather/components/WeatherAlertB
 import { NewsPanel } from '../features/news/components/NewsPanel';
 import { MarketPanel } from '../features/markets/components/MarketPanel';
 import { ContextBar } from '../components/common/ContextBar';
+import { GlassSurface } from '../components/common/GlassSurface';
 import { formatUvLabel } from '../features/weather/formatting';
 import { useAmbientBriefController } from './useAmbientBriefController';
 
@@ -44,22 +45,24 @@ export function App() {
           </div>
         )}
 
-        <main className={`ambient-grid ${primaryAlert ? 'has-alert' : ''}`}>
-          <ClockHeader
-            onRefresh={dashboard.refreshAll}
-            onOpenSettings={dashboard.openSettings}
-            isRefreshing={dashboard.isRefreshing}
-            globalStatus={dashboard.globalStatus}
-            settingsBtnRef={dashboard.settingsButtonRef}
-          />
-          {primaryAlert && (
-            <div className="ambient-alert">
-              <WeatherAlertBanner alert={primaryAlert} allAlerts={dashboard.alerts} onDismiss={() => dashboard.dismissAlert(primaryAlert.id)} onDismissAlert={dashboard.dismissAlert} />
-            </div>
-          )}
-          <section className="ambient-weather" aria-label="Current weather and hourly forecast">
-            <WeatherHero state={dashboard.weatherState} aqiState={dashboard.aqiState} onOpenSettings={dashboard.openSettings} onRetry={dashboard.refreshWeather} />
-          </section>
+        <main className="ambient-grid">
+          <GlassSurface className="ambient-lead" id="ambient-lead">
+            <ClockHeader
+              onRefresh={dashboard.refreshAll}
+              onOpenSettings={dashboard.openSettings}
+              isRefreshing={dashboard.isRefreshing}
+              globalStatus={dashboard.globalStatus}
+              settingsBtnRef={dashboard.settingsButtonRef}
+            />
+            {primaryAlert && (
+              <div className="ambient-alert">
+                <WeatherAlertBanner alert={primaryAlert} allAlerts={dashboard.alerts} onDismiss={() => dashboard.dismissAlert(primaryAlert.id)} onDismissAlert={dashboard.dismissAlert} />
+              </div>
+            )}
+            <section className="ambient-weather" aria-label="Current weather and hourly forecast">
+              <WeatherHero embedded state={dashboard.weatherState} aqiState={dashboard.aqiState} onOpenSettings={dashboard.openSettings} onRetry={dashboard.refreshWeather} />
+            </section>
+          </GlassSurface>
           <section className="ambient-news" aria-label="Top news">
             <NewsPanel state={dashboard.newsState} onCustomize={dashboard.openSettings} onRetry={dashboard.refreshNews} />
           </section>

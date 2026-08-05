@@ -17,7 +17,7 @@ export const FeaturedStory: React.FC<FeaturedStoryProps> = ({ article }) => {
       target={safeUrl ? '_blank' : undefined}
       rel={safeUrl ? 'noopener noreferrer' : undefined}
       aria-disabled={!safeUrl}
-      className="featured-story group flex flex-col md:flex-row gap-4 p-4 transition-colors relative block"
+      className="featured-story group grid gap-4 p-4 transition-colors relative"
       title={article.publisherDomain ? `Source: ${article.publisherDomain}` : undefined}
     >
       <div className="flex min-w-0 flex-col justify-between flex-1 gap-2">
@@ -48,7 +48,7 @@ export const FeaturedStory: React.FC<FeaturedStoryProps> = ({ article }) => {
       </div>
 
       {article.imageUrl && (
-        <div className="w-full md:w-36 h-28 rounded-[var(--radius-control)] overflow-hidden bg-slate-800/50 shrink-0 relative">
+        <div className="featured-story-image w-full rounded-[var(--radius-control)] overflow-hidden bg-slate-800/50 shrink-0 relative">
           <NewsImage
             src={article.imageUrl}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"

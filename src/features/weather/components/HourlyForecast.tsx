@@ -41,8 +41,7 @@ export const HourlyForecast: React.FC<HourlyForecastProps> = ({ hourly }) => {
 
       <div className={`hourly-points grid grid-cols-3 sm:grid-cols-6 gap-1 w-full text-center ${expanded ? 'sm:grid-cols-4 min-[1500px]:grid-cols-8' : ''}`}>
         {visibleHourly.map((item, idx) => {
-          const hasSignificantPrecip = ['CloudRain', 'CloudSnow', 'CloudLightning', 'CloudDrizzle'].includes(item.iconName);
-          const showPrecip = item.pop >= 15 || hasSignificantPrecip;
+          const showPrecip = item.pop >= 15;
           const isHighPrecip = item.pop >= 40;
 
           return (

@@ -8,8 +8,18 @@ export function formatClockTime(date: Date, timeFormat: TimeFormat): string {
   return format(date, 'h:mm:ss a');
 }
 
-export function formatHeaderDate(date: Date): string {
-  return format(date, 'EEEE, MMMM d');
+export function formatHeaderDate(date: Date, timeZone?: string): string {
+  try {
+    return new Intl.DateTimeFormat('en-US', {
+      weekday: 'long',
+      month: 'long',
+      day: 'numeric',
+      year: 'numeric',
+      timeZone,
+    }).format(date);
+  } catch {
+    return format(date, 'EEEE, MMMM d, yyyy');
+  }
 }
 
 export interface ClockParts {
@@ -19,12 +29,13 @@ export interface ClockParts {
   period?: string;
 }
 
-export function formatClockParts(date: Date, timeFormat: TimeFormat): ClockParts {
+export function formatClockParts(date: Date, timeFormat: TimeFormat, timeZone?: string): ClockParts {
   const parts = new Intl.DateTimeFormat('en-US', {
     hour: 'numeric',
     minute: '2-digit',
     second: '2-digit',
     hour12: timeFormat === '12h',
+    timeZone,
   }).formatToParts(date);
 
   const value = (type: Intl.DateTimeFormatPartTypes) =>

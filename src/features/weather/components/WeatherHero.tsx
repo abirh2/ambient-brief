@@ -13,6 +13,7 @@ import { formatTemperature } from '../../../lib/formatting';
 interface WeatherHeroProps {
   state: WeatherState;
   aqiState: AirQualityState;
+  embedded?: boolean;
   onOpenSettings?: () => void;
   onRetry?: () => void;
 }
@@ -20,6 +21,7 @@ interface WeatherHeroProps {
 export const WeatherHero: React.FC<WeatherHeroProps> = ({
   state,
   aqiState,
+  embedded = false,
   onOpenSettings,
   onRetry,
 }) => {
@@ -30,13 +32,13 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
 
   // 1. Loading state
   if (state.status === 'loading') {
-    return <WeatherHeroSkeleton />;
+    return <WeatherHeroSkeleton embedded={embedded} />;
   }
 
   // 2. Location Permission Denied state
   if (state.status === 'permission_denied') {
     return (
-      <GlassSurface className="panel-padding flex flex-col justify-center items-center text-center gap-4 w-full min-h-[200px]">
+      <WeatherContainer embedded={embedded} className="flex flex-col justify-center items-center text-center gap-4 w-full min-h-[200px]">
         <div className="p-3 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20">
           <ShieldAlert className="w-8 h-8" aria-hidden="true" />
         </div>
@@ -64,14 +66,14 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
             <span>Try again</span>
           </button>
         </div>
-      </GlassSurface>
+      </WeatherContainer>
     );
   }
 
   // 3. Location Unavailable state
   if (state.status === 'location_unavailable') {
     return (
-      <GlassSurface className="panel-padding flex flex-col justify-center items-center text-center gap-4 w-full min-h-[200px]">
+      <WeatherContainer embedded={embedded} className="flex flex-col justify-center items-center text-center gap-4 w-full min-h-[200px]">
         <div className="p-3 rounded-full bg-slate-800 text-slate-300 border border-white/10">
           <MapPinOff className="w-8 h-8" aria-hidden="true" />
         </div>
@@ -99,7 +101,7 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
             <span>Try again</span>
           </button>
         </div>
-      </GlassSurface>
+      </WeatherContainer>
     );
   }
 
@@ -116,9 +118,7 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
   const interpretation = aqiVal !== null ? interpretAqi(aqiVal) : null;
 
   return (
-    <GlassSurface
-      className="weather-hero-card panel-padding panel-stack flex flex-col w-full relative"
-    >
+    <WeatherContainer embedded={embedded} className="weather-hero-card panel-stack flex flex-col w-full relative">
       {/* Cached Banner Indicator */}
       {isCached && (
         <div className="status-note semantic-warning flex items-center gap-1.5 font-medium w-fit">
@@ -185,6 +185,22 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
       <div className="hourly-forecast-container w-full">
         <HourlyForecast hourly={weatherData.hourly} />
       </div>
-    </GlassSurface>
+    </WeatherContainer>
   );
 };
+
+function WeatherContainer({
+  embedded,
+  className,
+  children,
+}: {
+  embedded: boolean;
+  className: string;
+  children: React.ReactNode;
+}) {
+  if (embedded) {
+    return <div className={`weather-embedded ${className}`}>{children}</div>;
+  }
+
+  return <GlassSurface className={`panel-padding ${className}`}>{children}</GlassSurface>;
+}

@@ -34,7 +34,7 @@ export const NewsPanel: React.FC<NewsPanelProps> = ({
 
   const currentCategory = categories.includes(activeCategory) ? activeCategory : categories[0];
   const compactHeight = viewport.width >= 1200 && viewport.height <= 900;
-  const defaultSecondaryCount = compactHeight ? 1 : 3;
+  const defaultSecondaryCount = compactHeight ? 2 : 4;
 
   // 1. Loading state
   if (state.status === 'loading') {
@@ -149,7 +149,7 @@ export const NewsPanel: React.FC<NewsPanelProps> = ({
       <div className="section-rule flex flex-wrap items-center justify-between gap-3 pb-3">
         <div className="flex items-center gap-2">
           <h2 className="panel-heading font-semibold tracking-tight">
-            Top Stories
+            Top news
           </h2>
         </div>
 

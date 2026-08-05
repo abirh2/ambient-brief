@@ -3,12 +3,12 @@ import { GlassSurface } from '../../../components/common/GlassSurface';
 import { Skeleton } from '../../../components/common/Skeleton';
 import { useSettingsStore } from '../../../stores/settingsStore';
 
-export const WeatherHeroSkeleton: React.FC = () => {
+export const WeatherHeroSkeleton: React.FC<{ embedded?: boolean }> = ({ embedded = false }) => {
   const { settings } = useSettingsStore();
   const isCompact = settings.contentDensity === 'compact';
 
-  return (
-    <GlassSurface className={`weather-hero-card ${isCompact ? 'p-4' : 'p-4 sm:p-5'} flex flex-col gap-3 w-full min-h-[220px]`}>
+  const content = (
+    <>
       {/* Upper Row Skeleton */}
       <div className="flex flex-col gap-3">
         {/* Left block: Huge temp + condition */}
@@ -39,6 +39,9 @@ export const WeatherHeroSkeleton: React.FC = () => {
           </div>
         ))}
       </div>
-    </GlassSurface>
+    </>
   );
+
+  const className = `weather-hero-card ${embedded ? 'weather-embedded' : isCompact ? 'p-4' : 'p-4 sm:p-5'} flex flex-col gap-3 w-full min-h-[220px]`;
+  return embedded ? <div className={className}>{content}</div> : <GlassSurface className={className}>{content}</GlassSurface>;
 };
