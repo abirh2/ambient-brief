@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { Headline } from '../../model';
-import { filterStoriesForCategory } from '../NewsPanel';
+import { filterStoriesForCategory, getDefaultSecondaryStoryCount } from '../NewsPanel';
 
 const worldStory: Headline = {
   id: 'world-story',
@@ -26,5 +26,17 @@ describe('NewsPanel category filtering', () => {
       categories: ['Top', 'Technology'],
     };
     expect(filterStoriesForCategory([worldStory, technologyStory], 'Technology')).toEqual([technologyStory]);
+  });
+});
+
+describe('NewsPanel story count', () => {
+  it('shows two secondary stories on compact-height desktop', () => {
+    expect(getDefaultSecondaryStoryCount(1366, 768)).toBe(2);
+    expect(getDefaultSecondaryStoryCount(1440, 900)).toBe(2);
+  });
+
+  it('shows four secondary stories on taller or narrower layouts', () => {
+    expect(getDefaultSecondaryStoryCount(1920, 1080)).toBe(4);
+    expect(getDefaultSecondaryStoryCount(1199, 768)).toBe(4);
   });
 });

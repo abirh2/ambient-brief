@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SlidersHorizontal, AlertCircle, RefreshCw, Clock, Inbox } from 'lucide-react';
+import { SlidersHorizontal, AlertCircle, RefreshCw, Clock3, Inbox } from 'lucide-react';
 import { GlassSurface } from '../../../components/common/GlassSurface';
 import { FeaturedStory } from './FeaturedStory';
 import { StoryList } from './StoryList';
@@ -21,6 +21,68 @@ export function filterStoriesForCategory(
   return stories.filter((story) => story.categories.includes(category));
 }
 
+export function getDefaultSecondaryStoryCount(width: number, height: number): number {
+  return width >= 1200 && height <= 900 ? 2 : 4;
+}
+
+interface NewsPanelHeaderProps {
+  categories: NewsCategory[];
+  currentCategory: NewsCategory;
+  onCategoryChange: (category: NewsCategory) => void;
+  onCustomize?: () => void;
+  updatedText?: string;
+  isCached?: boolean;
+}
+
+function NewsPanelHeader({
+  categories,
+  currentCategory,
+  onCategoryChange,
+  onCustomize,
+  updatedText,
+  isCached = false,
+}: NewsPanelHeaderProps) {
+  return (
+    <header className="news-panel-header section-rule">
+      <div className="news-heading-group">
+        <h2 className="panel-heading font-semibold tracking-tight">Top Stories</h2>
+        {updatedText && (
+          <div
+            className={`status-note news-freshness ${isCached ? 'semantic-warning' : ''}`}
+            aria-label={`News status: ${updatedText}`}
+          >
+            <Clock3 aria-hidden="true" />
+            <span>Feed · {updatedText}</span>
+          </div>
+        )}
+      </div>
+
+      <div className="news-header-actions">
+        <label className="news-category-control compact-control">
+          <span>Category</span>
+          <select
+            value={currentCategory}
+            onChange={(event) => onCategoryChange(event.target.value as NewsCategory)}
+            aria-label="News category"
+          >
+            {categories.map((category) => (
+              <option key={category} value={category}>{category}</option>
+            ))}
+          </select>
+        </label>
+        <button
+          type="button"
+          onClick={onCustomize}
+          className="compact-control news-customize-action"
+        >
+          <SlidersHorizontal aria-hidden="true" />
+          <span>Customize</span>
+        </button>
+      </div>
+    </header>
+  );
+}
+
 export const NewsPanel: React.FC<NewsPanelProps> = ({
   state,
   onCustomize,
@@ -33,8 +95,7 @@ export const NewsPanel: React.FC<NewsPanelProps> = ({
   const [activeCategory, setActiveCategory] = useState<NewsCategory>(categories[0] || 'Top');
 
   const currentCategory = categories.includes(activeCategory) ? activeCategory : categories[0];
-  const compactHeight = viewport.width >= 1200 && viewport.height <= 900;
-  const defaultSecondaryCount = compactHeight ? 2 : 4;
+  const defaultSecondaryCount = getDefaultSecondaryStoryCount(viewport.width, viewport.height);
 
   // 1. Loading state
   if (state.status === 'loading') {
@@ -45,35 +106,23 @@ export const NewsPanel: React.FC<NewsPanelProps> = ({
   if (state.status === 'empty') {
     return (
       <GlassSurface className="news-panel-card news-empty-state panel-padding panel-stack flex flex-col min-h-[260px]">
-        {/* Header */}
-        <div className="section-rule flex items-center justify-between pb-3">
-          <div className="flex items-center gap-2">
-            <h2 className="panel-heading font-semibold tracking-tight">
-              Top Stories
-            </h2>
-          </div>
-          <button
-            type="button"
-            onClick={onCustomize}
-            className="compact-control flex items-center gap-1 px-2.5 py-1 text-xs font-medium"
-          >
-            <SlidersHorizontal className="w-3 h-3 text-slate-400" />
-            <span>Customize</span>
-          </button>
-        </div>
+        <NewsPanelHeader
+          categories={categories}
+          currentCategory={currentCategory}
+          onCategoryChange={setActiveCategory}
+          onCustomize={onCustomize}
+        />
 
         {/* Empty state message container */}
         <div
           role="status"
           aria-live="polite"
-          className="empty-state flex-grow flex flex-col items-center justify-center text-center p-6 gap-3"
+          className="empty-state news-state-message"
         >
-          <div className="p-3 rounded-full bg-slate-800/80 text-slate-400 border border-white/10">
-            <Inbox className="w-8 h-8" />
-          </div>
-          <div className="flex flex-col gap-1 max-w-sm">
-            <h3 className="text-base font-bold text-slate-200">No stories found for these categories</h3>
-            <p className="text-xs text-slate-400">
+          <Inbox aria-hidden="true" />
+          <div>
+            <h3>No stories found for these categories</h3>
+            <p>
               Try selecting another category or refresh the feed to load latest headlines.
             </p>
           </div>
@@ -93,26 +142,22 @@ export const NewsPanel: React.FC<NewsPanelProps> = ({
   if (state.status === 'error') {
     return (
       <GlassSurface className="news-panel-card news-error-state panel-padding panel-stack flex flex-col min-h-[260px]">
-        {/* Header */}
-        <div className="section-rule flex items-center justify-between pb-3">
-          <div className="flex items-center gap-2">
-            <h2 className="panel-heading font-semibold tracking-tight">
-              Top Stories
-            </h2>
-          </div>
-        </div>
+        <NewsPanelHeader
+          categories={categories}
+          currentCategory={currentCategory}
+          onCategoryChange={setActiveCategory}
+          onCustomize={onCustomize}
+        />
 
         {/* Error state message container */}
         <div
           role="alert"
-          className="error-state is-error flex-grow flex flex-col items-center justify-center text-center p-6 gap-3"
+          className="error-state is-error news-state-message"
         >
-          <div className="p-3 rounded-full bg-rose-500/10 text-rose-400 border border-rose-500/20">
-            <AlertCircle className="w-8 h-8" />
-          </div>
-          <div className="flex flex-col gap-1 max-w-sm">
-            <h3 className="text-base font-bold text-slate-100">News is temporarily unavailable</h3>
-            <p className="text-xs text-slate-300">
+          <AlertCircle aria-hidden="true" />
+          <div>
+            <h3>News is temporarily unavailable</h3>
+            <p>
               {state.errorMessage ?? 'Your weather and market information are still available.'}
             </p>
           </div>
@@ -140,56 +185,25 @@ export const NewsPanel: React.FC<NewsPanelProps> = ({
 
   return (
     <GlassSurface className="news-panel-card panel-padding panel-stack flex min-w-0 flex-col">
-      <div className={`status-note flex items-center gap-1.5 font-medium w-fit ${isCached ? 'semantic-warning' : ''}`}>
-        <Clock className={`w-3.5 h-3.5 shrink-0 ${isCached ? 'text-amber-400' : 'text-slate-500'}`} />
-        <span>{state.updatedText}</span>
-      </div>
-
-      {/* Header & Categories bar */}
-      <div className="section-rule flex flex-wrap items-center justify-between gap-3 pb-3">
-        <div className="flex items-center gap-2">
-          <h2 className="panel-heading font-semibold tracking-tight">
-            Top news
-          </h2>
-        </div>
-
-        {/* Category Pills + Customize Action */}
-        <div className="flex items-center gap-2 flex-wrap">
-          <div className="tonal-section flex items-center gap-1 p-1">
-            {categories.map((category) => {
-              const isSelected = currentCategory === category;
-              return (
-                <button
-                  key={category}
-                  type="button"
-                  onClick={() => setActiveCategory(category)}
-                  aria-pressed={isSelected}
-                  className="compact-control px-2.5 py-1 text-xs font-medium cursor-pointer"
-                >
-                  {category}
-                </button>
-              );
-            })}
-          </div>
-
-          <button
-            type="button"
-            onClick={onCustomize}
-            aria-label="Customize news categories"
-            className="compact-control flex items-center gap-1 px-2.5 py-1 text-xs font-medium cursor-pointer"
-          >
-            <SlidersHorizontal className="w-3 h-3 text-slate-400" />
-            <span>Customize</span>
-          </button>
-        </div>
-      </div>
+      <NewsPanelHeader
+        categories={categories}
+        currentCategory={currentCategory}
+        onCategoryChange={setActiveCategory}
+        onCustomize={onCustomize}
+        updatedText={state.updatedText}
+        isCached={isCached}
+      />
 
       {/* Stories list container */}
       <div className="news-content flex min-h-0 min-w-0 flex-col gap-3">
         {featured ? (
           <>
             <FeaturedStory article={featured} />
-            <StoryList articles={secondary} defaultVisibleCount={defaultSecondaryCount} />
+            <StoryList
+              key={currentCategory}
+              articles={secondary}
+              defaultVisibleCount={defaultSecondaryCount}
+            />
           </>
         ) : (
           <div role="status" className="empty-state flex min-h-44 flex-col items-center justify-center gap-2 p-6 text-center">

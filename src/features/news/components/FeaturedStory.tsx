@@ -17,20 +17,20 @@ export const FeaturedStory: React.FC<FeaturedStoryProps> = ({ article }) => {
       target={safeUrl ? '_blank' : undefined}
       rel={safeUrl ? 'noopener noreferrer' : undefined}
       aria-disabled={!safeUrl}
-      className="featured-story group grid gap-4 p-4 transition-colors relative"
+      className={`featured-story group grid transition-colors relative ${article.imageUrl ? 'has-image' : 'without-image'}`}
       title={article.publisherDomain ? `Source: ${article.publisherDomain}` : undefined}
     >
-      <div className="flex min-w-0 flex-col justify-between flex-1 gap-2">
-        <div className="type-metadata flex min-w-0 flex-wrap items-center gap-2 text-[color:var(--text-muted)]">
-          <span className="font-semibold semantic-info">
+      <div className="featured-story-copy">
+        <div className="featured-story-metadata type-metadata">
+          <span className="featured-story-category semantic-info">
             {article.categories[0]}
           </span>
-          <span>•</span>
-          <span className="font-medium text-slate-300">
+          <span aria-hidden="true">·</span>
+          <span className="featured-story-publisher">
             {article.publisher}
           </span>
-          <span>•</span>
-          <span className="text-slate-400">{formatNewsTimestamp(article.publishedAt)}</span>
+          <span aria-hidden="true">·</span>
+          <span>{formatNewsTimestamp(article.publishedAt)}</span>
         </div>
 
         <h3 className="news-title type-featured-headline font-semibold text-[color:var(--text-primary)] transition-colors leading-snug tracking-tight">
@@ -41,17 +41,17 @@ export const FeaturedStory: React.FC<FeaturedStoryProps> = ({ article }) => {
         <span className="sr-only">(opens in a new tab)</span>
 
         {article.description && (
-          <p className="news-description type-body text-[color:var(--text-secondary)] line-clamp-2 leading-relaxed">
+          <p className="news-description type-body text-[color:var(--text-secondary)] leading-relaxed">
             {article.description}
           </p>
         )}
       </div>
 
       {article.imageUrl && (
-        <div className="featured-story-image w-full rounded-[var(--radius-control)] overflow-hidden bg-slate-800/50 shrink-0 relative">
+        <div className="featured-story-image">
           <NewsImage
             src={article.imageUrl}
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            className="news-image"
           />
         </div>
       )}
