@@ -1,0 +1,95 @@
+name: Update market snapshot
+
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Force a refresh outside the normal market window
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    - cron: '7,22,37,52 11-23 * * 1-5'
+    - cron: '37 17 * * 0,6'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-market-data
+  cancel-in-progress: false
+
+jobs:
+  update-markets:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+
+      - name: Use Node.js 22 LTS
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Retrieve previous valid snapshot
+        run: |
+          mkdir -p generated
+          snapshot_url="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/market-data/markets.json"
+          if curl --fail --silent --show-error --location "$snapshot_url" --output /tmp/previous-markets.json; then
+            cp /tmp/previous-markets.json generated/markets.json
+          else
+            echo "No prior public market snapshot was available."
+          fi
+
+      - name: Fetch and validate Finnhub quotes
+        run: npm run fetch:markets
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          FORCE_MARKET_REFRESH: ${{ github.event_name == 'workflow_dispatch' && inputs.force && 'true' || 'false' }}
+
+      - name: Validate generated snapshot and collect summary
+        id: snapshot
+        run: |
+          node --experimental-strip-types --input-type=module -e "import { readFile } from 'node:fs/promises'; import { MarketSnapshotSchema } from './src/features/markets/schemas.ts'; const snapshot=MarketSnapshotSchema.parse(JSON.parse(await readFile('generated/markets.json','utf8'))); const retained=snapshot.errors.filter((item)=>item.retainedPreviousValue).length; console.log('generated_at='+snapshot.generatedAt); console.log('session='+snapshot.marketSession); console.log('successful='+snapshot.instruments.filter((item)=>!item.stale).length); console.log('failed='+snapshot.errors.length); console.log('retained='+retained);" >> "$GITHUB_OUTPUT"
+          if [ -f /tmp/previous-markets.json ] && cmp --silent /tmp/previous-markets.json generated/markets.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Publish market-data branch
+        if: steps.snapshot.outputs.changed == 'true'
+        run: |
+          cp generated/markets.json /tmp/markets.json
+          git switch --orphan market-data
+          git rm --recursive --force --cached .
+          cp /tmp/markets.json markets.json
+          git add -- markets.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update market snapshot ${GENERATED_AT%:*}Z"
+          git push --force origin market-data
+        env:
+          GENERATED_AT: ${{ steps.snapshot.outputs.generated_at }}
+
+      - name: Write job summary
+        if: always() && steps.snapshot.outcome == 'success'
+        run: |
+          {
+            echo "## Market snapshot"
+            echo "- Generated: ${{ steps.snapshot.outputs.generated_at }}"
+            echo "- Estimated session: ${{ steps.snapshot.outputs.session }}"
+            echo "- Successful symbols: ${{ steps.snapshot.outputs.successful }}"
+            echo "- Failed symbols: ${{ steps.snapshot.outputs.failed }}"
+            echo "- Previous values retained: ${{ steps.snapshot.outputs.retained }}"
+            echo "- Published: ${{ steps.snapshot.outputs.changed }}"
+          } >> "$GITHUB_STEP_SUMMARY"

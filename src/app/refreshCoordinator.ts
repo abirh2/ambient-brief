@@ -4,7 +4,8 @@ export type RefreshProviderId =
   | 'alerts'
   | 'prayerTimes'
   | 'currency'
-  | 'news';
+  | 'news'
+  | 'markets';
 
 export type RefreshCause = 'initial' | 'routine' | 'visible' | 'online' | 'settings' | 'manual';
 export type ProviderRefreshResult = 'success' | 'cached' | 'skipped';

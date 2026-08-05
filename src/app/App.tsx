@@ -67,7 +67,7 @@ export function App() {
             <NewsPanel state={dashboard.newsState} onCustomize={dashboard.openSettings} onRetry={dashboard.refreshNews} />
           </section>
           <section className={`ambient-markets ${dashboard.settings.showMarkets ? '' : 'hidden'}`} aria-label="Markets">
-            {dashboard.settings.showMarkets && <MarketPanel />}
+            {dashboard.settings.showMarkets && <MarketPanel state={dashboard.marketState} onRefresh={dashboard.refreshMarkets} />}
           </section>
           <ContextBar
             uvIndex={uvIndex}
@@ -80,7 +80,14 @@ export function App() {
 
         {dashboard.isSettingsOpen && (
           <Suspense fallback={null}>
-            <SettingsDrawer isOpen onClose={dashboard.closeSettings} triggerRef={dashboard.settingsButtonRef} />
+            <SettingsDrawer
+              isOpen
+              onClose={dashboard.closeSettings}
+              triggerRef={dashboard.settingsButtonRef}
+              marketState={dashboard.marketState}
+              onRefreshMarkets={dashboard.refreshMarkets}
+              onClearMarketCache={dashboard.clearMarketCache}
+            />
           </Suspense>
         )}
         {DevTools && <Suspense fallback={null}><DevTools /></Suspense>}

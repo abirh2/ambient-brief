@@ -25,7 +25,6 @@ export interface AppSettings {
   newsCategories: NewsCategory[];
   showMarkets: boolean;
   marketSymbols: string[];
-  showSparklines: boolean;
   backgroundMotion: BackgroundMotion;
   glassIntensity: number;
   contentDensity: ContentDensity;
@@ -34,6 +33,5 @@ export interface AppSettings {
   currencyPair: string;
   islamic: IslamicSettings;
   showDevWidthIndicator?: boolean;
-  alphaVantageApiKey?: string;
   isDemoMode: boolean;
 }

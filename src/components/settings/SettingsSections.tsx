@@ -1,9 +1,8 @@
-import { useState } from 'react';
-import { Check, Compass, DollarSign, Info, Key, Monitor, Moon, Newspaper, Sparkles, TrendingUp } from 'lucide-react';
+import { Check, Compass, Database, DollarSign, Monitor, Moon, Newspaper, RefreshCw, ShieldCheck, Sparkles, Trash2, TrendingUp } from 'lucide-react';
 import type { BackgroundMotion, ContentDensity, NewsCategory } from '../../types';
+import type { MarketState } from '../../features/markets/model';
 import { useSettingsStore } from '../../stores/settingsStore';
 import { useCurrencyStore } from '../../stores/currencyStore';
-import { getProviderUsage, testAlphaVantageKey, type KeyTestResult } from '../../features/markets/alphaVantageService';
 import { SearchableCurrencySelector } from './SearchableCurrencySelector';
 
 const NEWS_CATEGORIES: NewsCategory[] = ['Top', 'U.S.', 'Technology', 'World', 'Business', 'Science', 'Sports', 'Entertainment'];
@@ -48,7 +47,7 @@ export function DisplaySettingsSection() {
   </>;
 }
 
-export function ContentSettingsSection() {
+export function ContentSettingsSection({ marketState, onRefreshMarkets }: { marketState: MarketState; onRefreshMarkets: () => void }) {
   const { settings, updateSettings } = useSettingsStore();
   const selectedCompanySymbols = settings.marketSymbols.filter((symbol) =>
     COMPANIES.some(([company]) => company === symbol),
@@ -77,12 +76,21 @@ export function ContentSettingsSection() {
       <h3 className={titleClass}><TrendingUp className="w-3.5 h-3.5" /> Markets</h3>
       <ToggleRow label="Show Markets panel" checked={settings.showMarkets} onChange={(showMarkets) => updateSettings({ showMarkets })} />
       {settings.showMarkets && <>
-        <p className="type-metadata text-[color:var(--text-muted)]">Keyless TradingView ticker. S&amp;P 500, Dow Jones, and Nasdaq indices are always included.</p>
+        <p className="type-metadata text-[color:var(--text-muted)]">S&amp;P 500 (SPY), Dow Jones (DIA), and Nasdaq-100 (QQQ) ETF proxies are always included.</p>
         <div className="flex justify-between text-xs text-slate-300"><span>Companies (max 6)</span><span className="font-mono text-slate-400">{selectedCompanySymbols.length} / 6</span></div>
         <div className="grid grid-cols-2 gap-1.5">{COMPANIES.map(([symbol, name]) => {
           const selected = selectedCompanySymbols.includes(symbol);
           return <button key={symbol} type="button" disabled={!selected && selectedCompanySymbols.length >= 6} onClick={() => toggleSymbol(symbol)} aria-pressed={selected} className="compact-control numeric flex justify-between px-2.5 py-1.5 text-xs"><span>{symbol}</span><span className="font-sans type-metadata">{name}</span></button>;
         })}</div>
+        <div className="tonal-section flex items-center justify-between gap-3 p-2.5">
+          <div className="min-w-0">
+            <p className="type-metadata font-semibold text-[color:var(--text-secondary)]">Market snapshot</p>
+            <p className="type-metadata truncate text-[color:var(--text-muted)]">{formatMarketSettingsStatus(marketState)}</p>
+          </div>
+          <button type="button" onClick={onRefreshMarkets} disabled={marketState.status === 'loading'} className="compact-control flex shrink-0 items-center gap-1.5 px-2.5 py-1 type-metadata font-semibold">
+            <RefreshCw className={`h-3.5 w-3.5 ${marketState.status === 'loading' ? 'animate-spin' : ''}`} />Check
+          </button>
+        </div>
       </>}
     </section>
   </>;
@@ -112,26 +120,33 @@ export function OptionalSettingsSection() {
   </section>;
 }
 
-export function ProviderSettingsSection() {
-  const { settings, updateSettings } = useSettingsStore();
-  const [showKey, setShowKey] = useState(false);
-  const [testing, setTesting] = useState(false);
-  const [result, setResult] = useState<KeyTestResult | null>(null);
-  const testKey = async () => {
-    if (!settings.alphaVantageApiKey) return;
-    setTesting(true); setResult(null);
-    try { setResult(await testAlphaVantageKey(settings.alphaVantageApiKey)); }
-    catch { setResult('network_error'); }
-    finally { setTesting(false); }
-  };
+export function ProviderSettingsSection({ marketState, onRefreshMarkets, onClearMarketCache }: { marketState: MarketState; onRefreshMarkets: () => void; onClearMarketCache: () => void }) {
   return <section className={sectionClass}>
-    <h3 className={titleClass}><Key className="w-3.5 h-3.5" /> Alpha Vantage Markets API Key</h3>
-    <p className="type-metadata text-[color:var(--text-muted)]">Optional advanced provider only; it is not used by or required for the default TradingView market display. Stored only in this browser and sent directly to Alpha Vantage when tested.</p>
-    <div className="type-metadata flex justify-between text-[color:var(--text-secondary)]"><span>Personal API key</span><span className="numeric semantic-info">Usage today: {getProviderUsage().requestsAttempted} / 20 requests</span></div>
-    <div className="relative"><input type={showKey ? 'text' : 'password'} value={settings.alphaVantageApiKey ?? ''} onChange={(event) => updateSettings({ alphaVantageApiKey: event.target.value })} placeholder="Enter Alpha Vantage key..." className="compact-control numeric w-full px-3 py-1.5 pr-16 text-xs" /><button type="button" onClick={() => setShowKey(!showKey)} className="absolute right-2 top-1.5 type-metadata text-[color:var(--text-muted)]">{showKey ? 'Hide' : 'Show'}</button></div>
-    <div className="flex gap-2"><button type="button" disabled={testing || !settings.alphaVantageApiKey?.trim()} onClick={() => void testKey()} className="compact-control px-3 py-1 text-xs font-semibold">{testing ? 'Testing...' : 'Test key'}</button><button type="button" disabled={!settings.alphaVantageApiKey} onClick={() => { updateSettings({ alphaVantageApiKey: '' }); setResult(null); }} className="compact-control px-3 py-1 text-xs">Remove key</button></div>
-    {result && <div className={`flex gap-1.5 p-2 rounded text-[11px] ${result === 'valid' ? 'bg-emerald-950/60 text-emerald-300' : 'bg-amber-950/60 text-amber-300'}`}><Info className="w-3.5 h-3.5" />Test result: {result.replaceAll('_', ' ')}</div>}
+    <h3 className={titleClass}><ShieldCheck className="w-3.5 h-3.5" /> Market Data &amp; Privacy</h3>
+    <p className="type-metadata text-[color:var(--text-muted)]">Market data is fetched by a scheduled GitHub Actions workflow using a private repository secret. The website downloads the latest generated snapshot and never receives the Finnhub API key.</p>
+    <div className="tonal-section flex flex-col gap-2 p-3 type-metadata text-[color:var(--text-secondary)]">
+      <div className="flex justify-between gap-3"><span>Provider</span><span className="font-semibold">Finnhub</span></div>
+      <div className="flex justify-between gap-3"><span>Public snapshot</span><span className="font-semibold">{marketState.status === 'unavailable' ? 'Unavailable' : marketState.status === 'loading' ? 'Checking' : 'Valid'}</span></div>
+      <div className="flex justify-between gap-3"><span>Browser data</span><span className="font-semibold">{marketState.status === 'cached' || marketState.status === 'stale' ? 'Cached' : marketState.status === 'unavailable' ? 'None' : 'Available'}</span></div>
+      <div className="flex justify-between gap-3"><span>Generated</span><span className="numeric text-right font-semibold">{marketState.status === 'loaded' || marketState.status === 'cached' || marketState.status === 'stale' || marketState.status === 'partial' ? formatSnapshotDate(marketState.snapshot.generatedAt) : 'Not available'}</span></div>
+    </div>
+    <div className="flex flex-wrap gap-2">
+      <button type="button" onClick={onRefreshMarkets} disabled={marketState.status === 'loading'} className="compact-control flex items-center gap-1.5 px-3 py-1 type-metadata font-semibold"><Database className="h-3.5 w-3.5" />Check latest snapshot</button>
+      <button type="button" onClick={onClearMarketCache} className="compact-control flex items-center gap-1.5 px-3 py-1 type-metadata"><Trash2 className="h-3.5 w-3.5" />Clear local cache</button>
+    </div>
   </section>;
+}
+
+function formatMarketSettingsStatus(state: MarketState): string {
+  if (state.status === 'loading') return 'Checking the published snapshot…';
+  if (state.status === 'unavailable') return 'No valid published snapshot available';
+  return `${state.status === 'loaded' ? 'Available' : state.status} · ${formatSnapshotDate(state.snapshot.generatedAt)}`;
+}
+
+function formatSnapshotDate(value: string): string {
+  const timestamp = Date.parse(value);
+  if (Number.isNaN(timestamp)) return 'Unknown';
+  return new Intl.DateTimeFormat(undefined, { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }).format(new Date(timestamp));
 }
 
 function ToggleRow({ label, checked, onChange, compact = false }: { label: React.ReactNode; checked: boolean; onChange: (checked: boolean) => void; compact?: boolean }) {

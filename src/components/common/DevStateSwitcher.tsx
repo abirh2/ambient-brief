@@ -268,7 +268,9 @@ export const DevStateSwitcher: React.FC = () => {
               >
                 <option value="loaded">Loaded</option>
                 <option value="loading">Loading (Skeleton)</option>
-                <option value="delayed">Delayed</option>
+                <option value="cached">Cached</option>
+                <option value="stale">Stale</option>
+                <option value="partial">Partial</option>
                 <option value="unavailable">Unavailable</option>
               </select>
             </div>

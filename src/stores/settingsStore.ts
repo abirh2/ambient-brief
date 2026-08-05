@@ -17,17 +17,34 @@ export const SETTINGS_STORAGE_KEY = 'ambient_brief_settings_v1';
 function restoreSettings(): AppSettings {
   try {
     if (typeof localStorage === 'undefined') return DEFAULT_SETTINGS;
+    removeLegacyMarketStorage();
     const saved = localStorage.getItem(SETTINGS_STORAGE_KEY);
     if (!saved) return DEFAULT_SETTINGS;
     const migrated = migrateSettings(JSON.parse(saved));
     if (migrated) {
-      return { ...migrated, isDemoMode: import.meta.env.DEV && migrated.isDemoMode };
+      const restored = { ...migrated, isDemoMode: import.meta.env.DEV && migrated.isDemoMode };
+      // Persist the normalized schema so removed provider credentials cannot
+      // remain in browser storage after upgrading from the legacy market client.
+      if (saved !== JSON.stringify(restored)) persist(restored);
+      return restored;
     }
     console.warn('Stored settings failed validation, falling back to defaults.');
   } catch (error) {
     console.warn('Error reading settings from localStorage', error);
   }
   return DEFAULT_SETTINGS;
+}
+
+function removeLegacyMarketStorage(): void {
+  if (typeof localStorage === 'undefined') return;
+  const obsoleteKeys: string[] = [];
+  for (let index = 0; index < localStorage.length; index += 1) {
+    const key = localStorage.key(index);
+    if (key === 'ambient_brief_av_usage_v1' || key?.startsWith('ambient_brief_av_sym_v1_')) {
+      obsoleteKeys.push(key);
+    }
+  }
+  obsoleteKeys.forEach((key) => localStorage.removeItem(key));
 }
 
 function persist(settings: AppSettings): void {

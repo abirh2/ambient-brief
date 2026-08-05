@@ -334,29 +334,43 @@ html, body {
   }
 }
 
-.tradingview-market-shell {
-  color-scheme: dark;
-  --tv-widget-background-color: transparent;
-  --tv-widget-font-family: var(--font-sans);
-  --tv-widget-positive-color: var(--positive);
-  --tv-widget-negative-color: var(--negative);
-}
-
-.tradingview-widget-host,
-.tradingview-widget-host > tv-ticker-tape {
-  display: block;
-  width: 100%;
-  min-width: 0;
-}
-
-.tradingview-widget-host:not(.is-ready) {
-  visibility: hidden;
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .market-widget-placeholder * {
+  .market-panel-card .animate-pulse {
     animation: none !important;
   }
+}
+
+.market-proxy-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding: 0.25rem 0.5rem;
+}
+
+.market-quote {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.65rem;
+}
+
+.market-proxy-quote {
+  padding: 0.55rem 0.7rem;
+}
+
+.market-proxy-quote + .market-proxy-quote {
+  border-left: 1px solid rgba(194, 213, 226, 0.09);
+}
+
+.market-company-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 1rem;
+}
+
+.market-company-quote {
+  padding-block: 0.5rem;
+  border-bottom: 1px solid rgba(194, 213, 226, 0.08);
 }
 
 /* Standard desktop: one integrated ambient lead beside the editorial field. */
@@ -365,8 +379,7 @@ html, body {
     grid-template-columns: minmax(390px, 40fr) minmax(0, 60fr);
     grid-template-areas:
       "lead news"
-      "markets news"
-      "context context";
+      "context markets";
   }
 
   .ambient-news {
@@ -374,9 +387,29 @@ html, body {
   }
 
   .context-bar-container {
-    grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr) minmax(0, 1fr);
-    padding: 0.35rem 0.35rem 0;
+    grid-template-columns: minmax(0, 1fr);
+    padding-top: var(--section-spacing);
   }
+
+  .market-data-sections {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.35fr);
+    gap: var(--gap-standard);
+  }
+
+  .market-company-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .market-proxy-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .market-proxy-quote + .market-proxy-quote {
+    border-left: 0;
+    border-top: 1px solid rgba(194, 213, 226, 0.09);
+  }
+
 }
 
 /* Ultrawide: the canvas becomes three intentional regions with local measures. */
@@ -391,6 +424,14 @@ html, body {
       "lead news markets"
       "lead news context";
     column-gap: clamp(1rem, 1.4vw, 1.75rem);
+  }
+
+  .market-data-sections {
+    display: block;
+  }
+
+  .market-company-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .clock-primary {
@@ -417,6 +458,9 @@ html, body {
   .weather-temp-text { font-size: 3.15rem !important; }
   .market-panel-card,
   .news-panel-card { padding: 0.85rem !important; gap: 0.6rem !important; }
+  .market-panel-card { padding: 0.65rem !important; gap: 0.35rem !important; }
+  .market-company-quote { padding-block: 0.3rem; }
+  .market-proxy-quote { padding-block: 0.3rem; }
   .market-panel-card > div:first-child,
   .news-panel-card > .section-rule { padding-bottom: 0.5rem !important; }
   .market-provenance { display: none; }
@@ -439,9 +483,6 @@ html, body {
 @media (min-width: 1200px) and (max-height: 799px) {
   .app-container { padding-block: 0.3rem; }
   .ambient-grid {
-    grid-template-areas:
-      "lead news"
-      "markets context";
     gap: 0.45rem;
   }
   .market-panel-card { padding: 0.5rem !important; gap: 0.35rem !important; }
@@ -526,20 +567,6 @@ html, body {
 
 .weather-embedded {
   padding: 0;
-}
-
-.tradingview-market-shell,
-.tradingview-widget-host {
-  max-width: 100%;
-  min-width: 0;
-}
-
-.tradingview-market-shell {
-  overflow-x: auto;
-  overflow-y: hidden;
-  overscroll-behavior-inline: contain;
-  scrollbar-width: thin;
-  scrollbar-color: rgba(148, 163, 184, 0.3) transparent;
 }
 
 .news-panel-card,
@@ -844,12 +871,27 @@ html, body {
   }
 }
 
-.market-widget-placeholder,
-.market-widget-error,
 .empty-state,
 .error-state {
   background: var(--tonal-section);
   border-radius: calc(var(--radius-surface) - 0.375rem);
+}
+
+@media (max-width: 720px), (min-width: 1900px) and (max-width: 2250px) {
+  .market-proxy-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .market-proxy-quote + .market-proxy-quote {
+    border-left: 0;
+    border-top: 1px solid rgba(194, 213, 226, 0.09);
+  }
+}
+
+@media (max-width: 420px) {
+  .market-company-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 .numeric,

@@ -42,7 +42,6 @@ export const AppSettingsSchema = z.object({
   newsCategories: z.array(NewsCategorySchema).max(3),
   showMarkets: z.boolean(),
   marketSymbols: z.array(z.string()).max(9),
-  showSparklines: z.boolean(),
   backgroundMotion: z.enum(['living', 'subtle', 'static']),
   glassIntensity: z.number().min(0.1).max(1.0),
   contentDensity: z.enum(['comfortable', 'compact']),
@@ -51,7 +50,6 @@ export const AppSettingsSchema = z.object({
   currencyPair: z.string(),
   islamic: IslamicSettingsSchema,
   showDevWidthIndicator: z.boolean().optional(),
-  alphaVantageApiKey: z.string().optional(),
   isDemoMode: z.boolean().default(false),
 });
 
@@ -91,15 +89,6 @@ export const NewsArticleSchema = z.object({
   url: z.string(),
   imageUrl: z.string().optional(),
   categories: z.array(NewsCategorySchema),
-});
-
-export const MarketTickerSchema = z.object({
-  symbol: z.string(),
-  name: z.string(),
-  category: z.enum(['index', 'stock', 'crypto', 'commodity']),
-  price: z.number(),
-  changePercent: z.number(),
-  sparklineData: z.array(z.object({ time: z.string(), value: z.number() })),
 });
 
 export const CurrencyRateSchema = z.object({

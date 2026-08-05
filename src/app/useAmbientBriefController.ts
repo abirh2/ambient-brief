@@ -7,6 +7,7 @@ import { useSettingsStore } from '../stores/settingsStore';
 import { useDevStateStore } from '../stores/devStateStore';
 import { useCurrencyStore } from '../stores/currencyStore';
 import { useIslamicStore } from '../stores/prayerTimesStore';
+import { useMarkets } from '../features/markets/hooks/useMarkets';
 import { getLocalDateComponents } from '../features/prayer-times/service';
 import { MOCK_WEATHER_ALERTS } from '../mocks/ambientData';
 import {
@@ -29,19 +30,20 @@ export function useAmbientBriefController() {
   const airQuality = useAirQuality();
   const currency = useCurrencyStore();
   const islamic = useIslamicStore();
+  const { marketState, loadMarkets, clearMarketCache, isMarketStale } = useMarkets();
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [isRefreshing, setIsRefreshing] = useState(false);
   const [isOnline, setIsOnline] = useState(() => typeof navigator === 'undefined' || navigator.onLine !== false);
   const [manualSummary, setManualSummary] = useState<RefreshSummary | null>(null);
   const settingsButtonRef = useRef<HTMLButtonElement>(null);
 
-  const latest = useRef({ settings, weather, news, nws, airQuality, currency, islamic });
-  latest.current = { settings, weather, news, nws, airQuality, currency, islamic };
+  const latest = useRef({ settings, weather, news, nws, airQuality, currency, islamic, marketState, loadMarkets, isMarketStale });
+  latest.current = { settings, weather, news, nws, airQuality, currency, islamic, marketState, loadMarkets, isMarketStale };
 
   const coordinatorRef = useRef<RefreshCoordinator | null>(null);
   if (!coordinatorRef.current) {
     coordinatorRef.current = new RefreshCoordinator({
-      // This order is the product's load contract. TradingView is intentionally absent.
+      // This order is the product's load contract. Markets fetch only the public generated snapshot.
       providers: [
         {
           id: 'weather', enabled: () => true,
@@ -93,6 +95,11 @@ export function useAmbientBriefController() {
           id: 'news', enabled: () => true,
           isStale: () => latest.current.news.isNewsStale(),
           refresh: ({ force, signal }) => latest.current.news.loadNews(force, signal),
+        },
+        {
+          id: 'markets', enabled: () => latest.current.settings.showMarkets,
+          isStale: () => latest.current.isMarketStale(),
+          refresh: ({ force, signal }) => latest.current.loadMarkets(force, signal),
         },
       ],
     });
@@ -157,6 +164,10 @@ export function useAmbientBriefController() {
     void coordinator.settingsChanged([providerId]);
   }, [coordinator]);
 
+  const refreshMarkets = useCallback(() => {
+    void loadMarkets(true).catch(() => undefined);
+  }, [loadMarkets]);
+
   const hasLiveAlerts = nws.alerts.length > 0;
   const isDemoMode = import.meta.env.DEV && settings.isDemoMode;
   const alerts = hasLiveAlerts
@@ -178,6 +189,8 @@ export function useAmbientBriefController() {
   const hasCachedData = weather.weatherState.status === 'cached'
     || airQuality.aqiState.status === 'cached'
     || news.newsState.status === 'cached'
+    || marketState.status === 'cached'
+    || marketState.status === 'stale'
     || currency.isStale
     || islamic.isStale;
   const globalStatus = getGlobalStatus(isOnline, isRefreshing, hasCachedData, manualSummary);
@@ -189,11 +202,14 @@ export function useAmbientBriefController() {
     weatherData,
     aqiState: airQuality.aqiState,
     newsState: news.newsState,
+    marketState,
     alerts,
     dismissAlert,
     refreshAll,
     refreshWeather: () => refreshProvider('weather'),
     refreshNews: () => refreshProvider('news'),
+    refreshMarkets,
+    clearMarketCache,
     isDemoMode,
     isRefreshing,
     globalStatus,
@@ -210,6 +226,7 @@ interface SettingsFingerprint {
   newsCategories: string;
   currency: string;
   prayer: string;
+  markets: string;
 }
 
 function getSettingsFingerprint(settings: ReturnType<typeof useSettingsStore.getState>['settings']): SettingsFingerprint {
@@ -223,6 +240,7 @@ function getSettingsFingerprint(settings: ReturnType<typeof useSettingsStore.get
     newsCategories: [...settings.newsCategories].sort().join(','),
     currency: `${settings.currencyEnabled}:${settings.currencyPair}`,
     prayer: `${settings.islamic.enabled}:${settings.islamic.calculationMethod}:${settings.islamic.asrMethod}`,
+    markets: String(settings.showMarkets),
   };
 }
 
@@ -238,6 +256,7 @@ function changedProviders(previous: SettingsFingerprint, next: SettingsFingerpri
   if (previous.newsCategories !== next.newsCategories) changed.add('news');
   if (previous.currency !== next.currency) changed.add('currency');
   if (previous.prayer !== next.prayer) changed.add('prayerTimes');
+  if (previous.markets !== next.markets) changed.add('markets');
   return [...changed];
 }
 

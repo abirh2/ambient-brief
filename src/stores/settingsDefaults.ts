@@ -22,7 +22,6 @@ export const DEFAULT_SETTINGS: AppSettings = {
   newsCategories: ['Top', 'U.S.', 'Technology'],
   showMarkets: true,
   marketSymbols: ['AAPL', 'MSFT', 'NVDA', 'AMZN', 'GOOGL', 'META'],
-  showSparklines: true,
   backgroundMotion: 'subtle',
   glassIntensity: 0.65,
   contentDensity: 'comfortable',
@@ -38,6 +37,5 @@ export const DEFAULT_SETTINGS: AppSettings = {
     asrMethod: 'Hanafi',
   },
   showDevWidthIndicator: true,
-  alphaVantageApiKey: '',
   isDemoMode: false,
 };

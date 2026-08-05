@@ -151,7 +151,7 @@ function normalizeRemoteError(cause: unknown): AppApiError {
 }
 
 function isOnline(): boolean {
-  return typeof navigator === 'undefined' || navigator.onLine;
+  return typeof navigator === 'undefined' || navigator.onLine !== false;
 }
 
 function isDocumentHidden(): boolean {

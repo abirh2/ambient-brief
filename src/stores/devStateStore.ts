@@ -70,7 +70,7 @@ export const useDevStateStore = create<DevStateStore>((set) => ({
       set({
         weatherStatus: 'cached',
         newsStatus: 'cached',
-        marketStatus: 'delayed',
+        marketStatus: 'cached',
         weatherAlertVisible: true,
       });
     }
