@@ -30,7 +30,6 @@ export const DEFAULT_SETTINGS: AppSettings = {
   currencyPair: 'USD/BDT',
   islamic: {
     enabled: false,
-    showNextPrayer: true,
     showHijriDate: true,
     showFullSchedule: false,
     calculationMethod: 'ISNA',

@@ -47,7 +47,7 @@ describe('openMeteoWeatherProvider', () => {
 
   it('formats hourly ISO timestamp into 12h and 24h labels correctly', () => {
     const isoStr = '2026-07-29T15:00';
-    expect(formatHourlyTimeLabel(isoStr, '12h')).toMatch(/3 PM|15:00/);
+    expect(formatHourlyTimeLabel(isoStr, '12h')).toBe('3:00 PM');
     expect(formatHourlyTimeLabel(isoStr, '24h')).toBe('15:00');
   });
 

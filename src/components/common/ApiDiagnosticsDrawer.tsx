@@ -1,9 +1,12 @@
 import React from 'react';
 import { Activity, X, RefreshCw, CheckCircle2, AlertTriangle, Clock, Database, Server } from 'lucide-react';
 import { useDiagnosticsStore } from '../../lib/api/diagnosticsStore';
+import { useSettingsStore } from '../../stores/settingsStore';
+import { formatDisplayTime } from '../../lib/formatting';
 
 export const ApiDiagnosticsDrawer: React.FC = () => {
   const { records, isDrawerOpen, setDrawerOpen, resetAll } = useDiagnosticsStore();
+  const { timeFormat, activeLocation } = useSettingsStore((state) => state.settings);
 
   if (!isDrawerOpen) return null;
 
@@ -78,7 +81,7 @@ export const ApiDiagnosticsDrawer: React.FC = () => {
                 {p.lastFetchedAt && (
                   <span className="flex items-center gap-1">
                     <Clock className="w-3 h-3 text-indigo-400" />
-                    {new Date(p.lastFetchedAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' })}
+                    {formatDisplayTime(p.lastFetchedAt, { timeFormat, timeZone: activeLocation?.timezone, includeSeconds: true })}
                   </span>
                 )}
 

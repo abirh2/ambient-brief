@@ -14,6 +14,8 @@ import {
   Layers,
 } from 'lucide-react';
 import { WeatherAlert, AlertSeverity } from '../../../types';
+import { useSettingsStore } from '../../../stores/settingsStore';
+import { formatDisplayDateTime } from '../../../lib/formatting';
 
 interface WeatherAlertModalProps {
   alert: WeatherAlert;
@@ -35,6 +37,7 @@ export const WeatherAlertModal: React.FC<WeatherAlertModalProps> = ({
   const [activeIndex, setActiveIndex] = useState(0);
   const modalRef = useRef<HTMLDivElement>(null);
   const closeBtnRef = useRef<HTMLButtonElement>(null);
+  const { timeFormat, activeLocation } = useSettingsStore((state) => state.settings);
 
   // Sync index if alert changes or modal opens
   useEffect(() => {
@@ -166,20 +169,9 @@ export const WeatherAlertModal: React.FC<WeatherAlertModalProps> = ({
   const SeverityIcon = config.Icon;
 
   // Graceful formatting of timings
-  const formatTime = (isoString?: string) => {
-    if (!isoString) return 'N/A';
-    try {
-      return new Date(isoString).toLocaleString([], {
-        weekday: 'short',
-        month: 'short',
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit',
-      });
-    } catch {
-      return isoString;
-    }
-  };
+  const formatTime = (isoString?: string) => isoString
+    ? formatDisplayDateTime(isoString, { timeFormat, timeZone: activeLocation?.timezone, weekday: true })
+    : 'N/A';
 
   const effectiveDisplay = formatTime(currentAlert.effective);
   const expiresDisplay = formatTime(currentAlert.expires);

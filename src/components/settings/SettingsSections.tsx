@@ -4,6 +4,7 @@ import type { MarketState } from '../../features/markets/model';
 import { useSettingsStore } from '../../stores/settingsStore';
 import { useCurrencyStore } from '../../stores/currencyStore';
 import { SearchableCurrencySelector } from './SearchableCurrencySelector';
+import { formatDisplayDateTime } from '../../lib/formatting';
 
 const NEWS_CATEGORIES: NewsCategory[] = ['Top', 'U.S.', 'Technology', 'World', 'Business', 'Science', 'Sports', 'Entertainment'];
 const COMPANIES = [
@@ -85,7 +86,7 @@ export function ContentSettingsSection({ marketState, onRefreshMarkets }: { mark
         <div className="tonal-section flex items-center justify-between gap-3 p-2.5">
           <div className="min-w-0">
             <p className="type-metadata font-semibold text-[color:var(--text-secondary)]">Market snapshot</p>
-            <p className="type-metadata truncate text-[color:var(--text-muted)]">{formatMarketSettingsStatus(marketState)}</p>
+            <p className="type-metadata truncate text-[color:var(--text-muted)]">{formatMarketSettingsStatus(marketState, settings.timeFormat, settings.activeLocation?.timezone)}</p>
           </div>
           <button type="button" onClick={onRefreshMarkets} disabled={marketState.status === 'loading'} className="compact-control flex shrink-0 items-center gap-1.5 px-2.5 py-1 type-metadata font-semibold">
             <RefreshCw className={`h-3.5 w-3.5 ${marketState.status === 'loading' ? 'animate-spin' : ''}`} />Check
@@ -109,18 +110,19 @@ export function OptionalSettingsSection() {
       <SearchableCurrencySelector label="Base" selected={base} exclude={quote} currencies={currencyData} onSelect={(next) => next !== quote && updateSettings({ currencyPair: `${next}/${quote}` })} />
       <SearchableCurrencySelector label="Quote" selected={quote} exclude={base} currencies={currencyData} onSelect={(next) => next !== base && updateSettings({ currencyPair: `${base}/${next}` })} />
     </div>}
-    <ToggleRow label={<span className="flex gap-1.5"><Moon className="w-3.5 h-3.5 text-indigo-400" />Islamic Daylight / Prayer Times</span>} checked={settings.islamic.enabled} onChange={(enabled) => updateIslamic({ enabled })} />
+    <h4 className="type-label flex items-center gap-1.5 font-semibold text-[color:var(--text-secondary)]"><Moon className="w-3.5 h-3.5 semantic-info" />Prayer Times &amp; Hijri Date</h4>
+    <ToggleRow label="Enable prayer information" checked={settings.islamic.enabled} onChange={(enabled) => updateIslamic({ enabled })} />
     {settings.islamic.enabled && <div className="tonal-section flex flex-col gap-2 p-3">
-      <ToggleRow label="Show next prayer in Context Bar" checked={settings.islamic.showNextPrayer} onChange={(showNextPrayer) => updateIslamic({ showNextPrayer })} compact />
-      <ToggleRow label="Show Hijri date in Context Bar" checked={settings.islamic.showHijriDate} onChange={(showHijriDate) => updateIslamic({ showHijriDate })} compact />
-      <ToggleRow label="Show full prayer schedule" checked={settings.islamic.showFullSchedule} onChange={(showFullSchedule) => updateIslamic({ showFullSchedule })} compact />
-      <SelectRow label="Calculation Method" value={settings.islamic.calculationMethod} onChange={(calculationMethod) => updateIslamic({ calculationMethod })} options={[['ISNA', 'ISNA (North America)'], ['MWL', 'Muslim World League'], ['Egyptian', 'Egyptian General Authority'], ['Karachi', 'Karachi (Islamic Sciences)'], ['Makkah', 'Umm Al-Qura (Makkah)']]} />
-      <SelectRow label="Asr Juristic Method" value={settings.islamic.asrMethod} onChange={(asrMethod) => updateIslamic({ asrMethod })} options={[['Hanafi', 'Hanafi'], ['Standard', 'Standard (Shafi, Maliki, Hanbali)']]} />
+      <ToggleRow label="Show Hijri date" checked={settings.islamic.showHijriDate} onChange={(showHijriDate) => updateIslamic({ showHijriDate })} compact />
+      <ToggleRow label="Show full schedule" checked={settings.islamic.showFullSchedule} onChange={(showFullSchedule) => updateIslamic({ showFullSchedule })} compact />
+      <SelectRow label="Calculation method" value={settings.islamic.calculationMethod} onChange={(calculationMethod) => updateIslamic({ calculationMethod })} options={[['ISNA', 'ISNA (North America)'], ['MWL', 'Muslim World League'], ['Egyptian', 'Egyptian General Authority'], ['Karachi', 'Karachi (Islamic Sciences)'], ['Makkah', 'Umm Al-Qura (Makkah)']]} />
+      <SelectRow label="Asr method" value={settings.islamic.asrMethod} onChange={(asrMethod) => updateIslamic({ asrMethod })} options={[['Hanafi', 'Hanafi'], ['Standard', 'Standard (Shafi, Maliki, Hanbali)']]} />
     </div>}
   </section>;
 }
 
 export function ProviderSettingsSection({ marketState, onRefreshMarkets, onClearMarketCache }: { marketState: MarketState; onRefreshMarkets: () => void; onClearMarketCache: () => void }) {
+  const { timeFormat, activeLocation } = useSettingsStore((state) => state.settings);
   return <section className={sectionClass}>
     <h3 className={titleClass}><ShieldCheck className="w-3.5 h-3.5" /> Market Data &amp; Privacy</h3>
     <p className="type-metadata text-[color:var(--text-muted)]">Market data is fetched by a scheduled GitHub Actions workflow using a private repository secret. The website downloads the latest generated snapshot and never receives the Finnhub API key.</p>
@@ -128,7 +130,7 @@ export function ProviderSettingsSection({ marketState, onRefreshMarkets, onClear
       <div className="flex justify-between gap-3"><span>Provider</span><span className="font-semibold">Finnhub</span></div>
       <div className="flex justify-between gap-3"><span>Public snapshot</span><span className="font-semibold">{marketState.status === 'unavailable' ? 'Unavailable' : marketState.status === 'loading' ? 'Checking' : 'Valid'}</span></div>
       <div className="flex justify-between gap-3"><span>Browser data</span><span className="font-semibold">{marketState.status === 'cached' || marketState.status === 'stale' ? 'Cached' : marketState.status === 'unavailable' ? 'None' : 'Available'}</span></div>
-      <div className="flex justify-between gap-3"><span>Generated</span><span className="numeric text-right font-semibold">{marketState.status === 'loaded' || marketState.status === 'cached' || marketState.status === 'stale' || marketState.status === 'partial' ? formatSnapshotDate(marketState.snapshot.generatedAt) : 'Not available'}</span></div>
+      <div className="flex justify-between gap-3"><span>Generated</span><span className="numeric text-right font-semibold">{marketState.status === 'loaded' || marketState.status === 'cached' || marketState.status === 'stale' || marketState.status === 'partial' ? formatSnapshotDate(marketState.snapshot.generatedAt, timeFormat, activeLocation?.timezone) : 'Not available'}</span></div>
     </div>
     <div className="flex flex-wrap gap-2">
       <button type="button" onClick={onRefreshMarkets} disabled={marketState.status === 'loading'} className="compact-control flex items-center gap-1.5 px-3 py-1 type-metadata font-semibold"><Database className="h-3.5 w-3.5" />Check latest snapshot</button>
@@ -137,16 +139,16 @@ export function ProviderSettingsSection({ marketState, onRefreshMarkets, onClear
   </section>;
 }
 
-function formatMarketSettingsStatus(state: MarketState): string {
+function formatMarketSettingsStatus(state: MarketState, timeFormat: '12h' | '24h', timeZone?: string): string {
   if (state.status === 'loading') return 'Checking the published snapshot…';
   if (state.status === 'unavailable') return 'No valid published snapshot available';
-  return `${state.status === 'loaded' ? 'Available' : state.status} · ${formatSnapshotDate(state.snapshot.generatedAt)}`;
+  return `${state.status === 'loaded' ? 'Available' : state.status} · ${formatSnapshotDate(state.snapshot.generatedAt, timeFormat, timeZone)}`;
 }
 
-function formatSnapshotDate(value: string): string {
+function formatSnapshotDate(value: string, timeFormat: '12h' | '24h', timeZone?: string): string {
   const timestamp = Date.parse(value);
   if (Number.isNaN(timestamp)) return 'Unknown';
-  return new Intl.DateTimeFormat(undefined, { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }).format(new Date(timestamp));
+  return formatDisplayDateTime(new Date(timestamp), { timeFormat, timeZone });
 }
 
 function ToggleRow({ label, checked, onChange, compact = false }: { label: React.ReactNode; checked: boolean; onChange: (checked: boolean) => void; compact?: boolean }) {

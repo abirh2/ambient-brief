@@ -2,6 +2,8 @@ import React from 'react';
 import { Clock, X, Activity } from 'lucide-react';
 import { AirQualitySnapshot } from '../types';
 import { interpretAqi } from '../utils/aqiInterpreter';
+import { useSettingsStore } from '../../../stores/settingsStore';
+import { formatDisplayTime } from '../../../lib/formatting';
 
 interface AirQualityPopoverProps {
   data: AirQualitySnapshot;
@@ -16,6 +18,7 @@ export const AirQualityPopover: React.FC<AirQualityPopoverProps> = ({
 }) => {
   const aqi = data.usAqi;
   const interpretation = interpretAqi(aqi);
+  const { timeFormat, activeLocation } = useSettingsStore((state) => state.settings);
 
   const formatPollutant = (val?: number) => {
     return val !== undefined && val !== null ? `${val} µg/m³` : 'N/A';
@@ -96,7 +99,7 @@ export const AirQualityPopover: React.FC<AirQualityPopoverProps> = ({
       <div className="flex items-center gap-1.5 text-[10px] text-slate-500 font-mono">
         <Clock className="w-3.5 h-3.5" />
         <span>
-          {lastUpdatedText || `Observed at ${new Date(data.measuredAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`}
+          {lastUpdatedText || `Observed at ${formatDisplayTime(data.measuredAt, { timeFormat, timeZone: activeLocation?.timezone })}`}
         </span>
       </div>
     </div>

@@ -8,7 +8,6 @@ export type ContentDensity = 'comfortable' | 'compact';
 
 export interface IslamicSettings {
   enabled: boolean;
-  showNextPrayer: boolean;
   showHijriDate: boolean;
   showFullSchedule: boolean;
   calculationMethod: string;

@@ -1,18 +1,21 @@
 import { DailyPrayerSchedule, PrayerName, PrayerTime } from '../../lib/types';
 import { cacheService } from '../../lib/api/cacheService';
 import { z } from 'zod';
+import { createDateInTimeZone } from '../../lib/formatting';
+
+const HijriDateSchema = z.object({
+  day: z.string().regex(/^\d{1,2}$/),
+  year: z.string().regex(/^\d{3,4}$/),
+  date: z.string().optional(),
+  month: z.object({ en: z.string().trim().min(1) }),
+});
 
 const AladhanDataSchema = z.object({
   timings: z.record(z.string(), z.string()),
   meta: z.object({ timezone: z.string() }),
   date: z.object({
     gregorian: z.object({ date: z.string() }),
-    hijri: z.object({
-      day: z.string(),
-      year: z.string(),
-      date: z.string().optional(),
-      month: z.object({ en: z.string() }),
-    }),
+    hijri: HijriDateSchema.nullish(),
   }),
 });
 
@@ -28,8 +31,12 @@ const SerializedPrayerScheduleSchema = z.object({
     day: z.number(),
     monthName: z.string(),
     year: z.number(),
-    formatted: z.string(),
-  }),
+    formatted: z.string().optional(),
+  }).nullable().transform((value) => value ? {
+    day: value.day,
+    monthName: value.monthName,
+    year: value.year,
+  } : null),
   timezone: z.string(),
   prayers: z.array(z.object({
     name: z.enum(['fajr', 'sunrise', 'dhuhr', 'asr', 'maghrib', 'isha']),
@@ -58,12 +65,9 @@ export const ALADHAN_ASR_METHODS = {
  * Normalizes prayer times to HH:MM format safely, avoiding brittle substring assumptions.
  */
 export function normalizeTimeStr(timeStr: string): string {
-  if (!timeStr) return '';
-  const match = timeStr.match(/^(\d{1,2}):(\d{2})/);
-  if (!match) return timeStr;
-  const h = match[1].padStart(2, '0');
-  const m = match[2];
-  return `${h}:${m}`;
+  const match = timeStr.trim().match(/^([01]?\d|2[0-3]):([0-5]\d)(?:\s+\([A-Za-z0-9_+:/-]{1,16}\))?$/);
+  if (!match) throw new Error(`Invalid provider prayer time: ${timeStr || '(empty)'}`);
+  return `${match[1].padStart(2, '0')}:${match[2]}`;
 }
 
 /**
@@ -78,37 +82,8 @@ export function createTimezoneDate(
   minute: number,
   timezone: string
 ): Date {
-  const utcDate = new Date(Date.UTC(year, month - 1, day, hour, minute, 0));
-
   try {
-    const formatter = new Intl.DateTimeFormat('en-US', {
-      timeZone: timezone,
-      year: 'numeric',
-      month: 'numeric',
-      day: 'numeric',
-      hour: 'numeric',
-      minute: 'numeric',
-      second: 'numeric',
-      hour12: false,
-    });
-
-    const parts = formatter.formatToParts(utcDate);
-    const p: Record<string, string> = {};
-    for (const part of parts) {
-      p[part.type] = part.value;
-    }
-
-    const formattedYear = parseInt(p.year, 10);
-    const formattedMonth = parseInt(p.month, 10);
-    const formattedDay = parseInt(p.day, 10);
-    let formattedHour = parseInt(p.hour, 10);
-    if (formattedHour === 24) formattedHour = 0;
-    const formattedMinute = parseInt(p.minute, 10);
-
-    const formattedUtc = Date.UTC(formattedYear, formattedMonth - 1, formattedDay, formattedHour, formattedMinute, 0);
-    const diffMs = utcDate.getTime() - formattedUtc;
-
-    return new Date(utcDate.getTime() + diffMs);
+    return createDateInTimeZone(year, month, day, hour, minute, timezone);
   } catch (err) {
     console.warn(`Timezone formatting failed for timezone "${timezone}", falling back to local time:`, err);
     return new Date(year, month - 1, day, hour, minute, 0);
@@ -172,10 +147,11 @@ export function parseAladhanResponse(data: unknown, methodKey: string, schoolKey
 
   // Parse Hijri date safely, supporting missing/incomplete Hijri data fallback
   const hijri = validatedData.date.hijri;
-  const hijriDay = parseInt(hijri?.day, 10) || 1;
-  const hijriMonthName = hijri?.month?.en || 'Safar';
-  const hijriYear = parseInt(hijri?.year, 10) || 1448;
-  const hijriFormatted = hijri?.date || `${hijriDay} ${hijriMonthName} ${hijriYear}`;
+  const hijriDate = hijri ? {
+    day: Number.parseInt(hijri.day, 10),
+    monthName: normalizeHijriMonthName(hijri.month.en),
+    year: Number.parseInt(hijri.year, 10),
+  } : null;
 
   const [gDay, gMonth, gYear] = gregorianDate.split('-').map(Number);
 
@@ -206,17 +182,16 @@ export function parseAladhanResponse(data: unknown, methodKey: string, schoolKey
 
   return {
     gregorianDate,
-    hijriDate: {
-      day: hijriDay,
-      monthName: hijriMonthName,
-      year: hijriYear,
-      formatted: hijriFormatted,
-    },
+    hijriDate,
     timezone,
     prayers,
     calculationMethod: methodKey,
     asrMethod: schoolKey.toLowerCase() === 'standard' ? 'standard' : 'hanafi',
   };
+}
+
+function normalizeHijriMonthName(value: string): string {
+  return value.trim().replace(/\s+/g, ' ');
 }
 
 /**

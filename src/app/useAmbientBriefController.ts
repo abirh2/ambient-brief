@@ -220,7 +220,7 @@ export function useAmbientBriefController() {
   };
 }
 
-interface SettingsFingerprint {
+export interface SettingsFingerprint {
   location: string;
   temperatureUnit: string;
   newsCategories: string;
@@ -229,7 +229,7 @@ interface SettingsFingerprint {
   markets: string;
 }
 
-function getSettingsFingerprint(settings: ReturnType<typeof useSettingsStore.getState>['settings']): SettingsFingerprint {
+export function getSettingsFingerprint(settings: ReturnType<typeof useSettingsStore.getState>['settings']): SettingsFingerprint {
   const location = settings.activeLocation;
   const locationKey = location
     ? `${location.id}:${location.latitude}:${location.longitude}:${location.countryCode}:${location.timezone}`
@@ -244,7 +244,7 @@ function getSettingsFingerprint(settings: ReturnType<typeof useSettingsStore.get
   };
 }
 
-function changedProviders(previous: SettingsFingerprint, next: SettingsFingerprint): RefreshProviderId[] {
+export function changedProviders(previous: SettingsFingerprint, next: SettingsFingerprint): RefreshProviderId[] {
   const changed = new Set<RefreshProviderId>();
   if (previous.location !== next.location) {
     changed.add('weather');

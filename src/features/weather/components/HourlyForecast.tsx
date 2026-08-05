@@ -50,7 +50,7 @@ export const HourlyForecast: React.FC<HourlyForecastProps> = ({ hourly }) => {
               className="group flex flex-col items-center justify-between py-1 px-0.5 rounded hover:bg-white/5 transition-colors relative"
             >
               <span className="text-[11px] font-mono text-slate-400 font-medium">
-                {item.isoTime ? formatHourlyTimeLabel(item.isoTime, settings.timeFormat) : item.time}
+                {item.isoTime ? formatHourlyTimeLabel(item.isoTime, settings.timeFormat, settings.activeLocation?.timezone) : item.time}
               </span>
 
               <div className="my-1 p-1 z-10 transition-transform">

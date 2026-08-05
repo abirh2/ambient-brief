@@ -2,7 +2,6 @@ import { z } from 'zod';
 
 export const IslamicSettingsSchema = z.object({
   enabled: z.boolean(),
-  showNextPrayer: z.boolean(),
   showHijriDate: z.boolean(),
   showFullSchedule: z.boolean(),
   calculationMethod: z.string(),

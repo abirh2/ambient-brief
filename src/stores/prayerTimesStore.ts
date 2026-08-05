@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { DailyPrayerSchedule, PrayerName } from '../types';
+import { DailyPrayerSchedule } from '../types';
 import {
   fetchScheduleForDate,
   getLocalDateComponents,
@@ -11,6 +11,7 @@ import { useSettingsStore } from './settingsStore';
 import { useDiagnosticsStore } from '../lib/api/diagnosticsStore';
 import { cacheService } from '../lib/api/cacheService';
 import { ProviderDiagnostic } from '../lib/api/types';
+import { calculateNextPrayer, type NextPrayerInfo } from '../features/prayer-times/calculation';
 
 const LAST_VALID_TODAY_KEY = 'ambient_brief_last_valid_today_v1';
 const LAST_VALID_TOMORROW_KEY = 'ambient_brief_last_valid_tomorrow_v1';
@@ -38,13 +39,6 @@ function saveCachedSchedule(key: string, schedule: DailyPrayerSchedule | null) {
   } catch (err) {
     console.warn(`[IslamicStore] Failed to save cached schedule for ${key}:`, err);
   }
-}
-
-interface NextPrayerInfo {
-  name: PrayerName;
-  time: string;
-  timestamp: Date;
-  timeRemainingText: string;
 }
 
 interface IslamicStoreState {
@@ -92,8 +86,7 @@ export const useIslamicStore = create<IslamicStoreState>((set, get) => ({
     const todayComps = getLocalDateComponents(timezone, new Date());
     const todayStr = `${String(todayComps.day).padStart(2, '0')}-${String(todayComps.month).padStart(2, '0')}-${todayComps.year}`;
 
-    const tomorrowDate = new Date(Date.now() + 24 * 60 * 60 * 1000);
-    const tomorrowComps = getLocalDateComponents(timezone, tomorrowDate);
+    const tomorrowComps = addCalendarDays(todayComps, 1);
     const tomorrowStr = `${String(tomorrowComps.day).padStart(2, '0')}-${String(tomorrowComps.month).padStart(2, '0')}-${tomorrowComps.year}`;
 
     try {
@@ -179,57 +172,21 @@ export const useIslamicStore = create<IslamicStoreState>((set, get) => ({
 
   updateCountdown: () => {
     const { todaySchedule, tomorrowSchedule } = get();
-    if (!todaySchedule) {
-      set({ nextPrayer: null });
-      return;
-    }
-
-    const now = new Date();
-
-    // Filter out sunrise from the next prayer candidates
-    const todayTargetPrayers = todaySchedule.prayers.filter((p) => p.name !== 'sunrise');
-
-    // Find the first prayer today whose timestamp is in the future
-    let next = todayTargetPrayers.find((p) => p.timestamp.getTime() > now.getTime());
-
-    if (!next && tomorrowSchedule) {
-      // If no more prayers today, use tomorrow's Fajr
-      const tomorrowTargetPrayers = tomorrowSchedule.prayers.filter((p) => p.name !== 'sunrise');
-      const tomorrowFajr = tomorrowTargetPrayers.find((p) => p.name === 'fajr');
-      if (tomorrowFajr) {
-        next = tomorrowFajr;
-      }
-    }
-
-    if (!next) {
-      set({ nextPrayer: null });
-      return;
-    }
-
-    // Calculate remaining time
-    const diffMs = next.timestamp.getTime() - now.getTime();
-    const diffMins = Math.floor(diffMs / 60000);
-
-    let timeRemainingText = '';
-    if (diffMins <= 0) {
-      timeRemainingText = 'now';
-    } else {
-      const hours = Math.floor(diffMins / 60);
-      const mins = diffMins % 60;
-      if (hours > 0) {
-        timeRemainingText = `${hours}h ${mins}m`;
-      } else {
-        timeRemainingText = `${mins}m`;
-      }
-    }
-
-    set({
-      nextPrayer: {
-        name: next.name,
-        time: next.time,
-        timestamp: next.timestamp,
-        timeRemainingText,
-      },
-    });
+    set({ nextPrayer: calculateNextPrayer(todaySchedule, tomorrowSchedule) });
   },
 }));
+
+function addCalendarDays(
+  value: ReturnType<typeof getLocalDateComponents>,
+  days: number,
+): ReturnType<typeof getLocalDateComponents> {
+  const date = new Date(Date.UTC(value.year, value.month - 1, value.day + days));
+  return {
+    year: date.getUTCFullYear(),
+    month: date.getUTCMonth() + 1,
+    day: date.getUTCDate(),
+    hour: value.hour,
+    minute: value.minute,
+    second: value.second,
+  };
+}

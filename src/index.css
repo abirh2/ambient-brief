@@ -493,25 +493,35 @@ html, body {
   }
 }
 
-@media (min-width: 768px) {
-  .prayer-context {
-    position: relative;
-  }
-
-  .prayer-schedule {
-    position: absolute;
-    right: 0;
-    bottom: calc(100% + 0.75rem);
-    z-index: 40;
-    width: 15rem;
-    padding: 0.875rem;
-    border: 1px solid var(--glass-border);
-    border-radius: var(--radius-control);
-    background: var(--glass-secondary);
-    box-shadow: var(--glass-shadow);
-    backdrop-filter: blur(var(--glass-blur));
-  }
+.prayer-context {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: clamp(0.9rem, 1.2vw, 1.15rem);
 }
+
+.prayer-context-header,
+.prayer-schedule-action,
+.prayer-schedule-row,
+.prayer-hijri,
+.prayer-status {
+  display: flex;
+  align-items: center;
+}
+
+.prayer-context-header { justify-content: space-between; gap: 1rem; }
+.prayer-schedule-action { gap: 0.35rem; }
+.prayer-schedule-action svg { transition: transform var(--transition-fast); }
+.prayer-next { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 0.1rem 1rem; }
+.prayer-next-name { grid-row: 1 / span 2; align-self: center; font-size: clamp(1.15rem, 1.5vw, 1.45rem); font-weight: 650; color: var(--text-primary); }
+.prayer-next-time { font-size: clamp(1.35rem, 1.75vw, 1.8rem); font-weight: 650; line-height: 1; color: var(--text-primary); }
+.prayer-countdown { justify-self: end; color: var(--informational); font-size: var(--type-context-value); }
+.prayer-hijri { gap: 0.45rem; color: var(--text-muted); }
+.prayer-status { gap: 0.5rem; min-height: 3rem; color: var(--text-secondary); font-size: var(--type-body); }
+.prayer-schedule { display: flex; flex-direction: column; border-top: 1px solid rgba(194, 213, 226, 0.09); padding-top: 0.55rem; }
+.prayer-schedule-row { justify-content: space-between; gap: 1rem; min-height: 2.25rem; color: var(--text-secondary); font-size: var(--type-metadata); }
+.prayer-schedule-row[data-next="true"] { color: var(--text-primary); }
+.prayer-next-label { color: var(--informational); font-size: var(--type-label); font-weight: 600; }
 
 .news-title,
 .news-description {

@@ -4,7 +4,7 @@ export interface PrayerTime { name: PrayerName; time: string; timestamp: Date }
 
 export interface DailyPrayerSchedule {
   gregorianDate: string;
-  hijriDate: { day: number; monthName: string; year: number; formatted: string };
+  hijriDate: { day: number; monthName: string; year: number } | null;
   timezone: string;
   prayers: PrayerTime[];
   calculationMethod: string;

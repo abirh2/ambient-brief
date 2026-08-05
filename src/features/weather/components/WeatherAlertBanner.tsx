@@ -20,7 +20,7 @@ export const WeatherAlertBanner: React.FC<WeatherAlertBannerProps> = ({
   allAlerts = [],
   onDismissAlert,
 }) => {
-  const timeFormat = useSettingsStore((state) => state.settings.timeFormat);
+  const { timeFormat, activeLocation } = useSettingsStore((state) => state.settings);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const detailsButtonRef = useRef<HTMLButtonElement>(null);
 
@@ -125,7 +125,7 @@ export const WeatherAlertBanner: React.FC<WeatherAlertBannerProps> = ({
               {expiration && (
                 <span className="type-metadata flex items-center gap-1.5 text-[color:var(--text-muted)]">
                   <Clock className="h-3.5 w-3.5" aria-hidden="true" />
-                  Expires {formatShortTime(expiration, timeFormat)}
+                  Expires {formatShortTime(expiration, timeFormat, activeLocation?.timezone)}
                 </span>
               )}
             </div>

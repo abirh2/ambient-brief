@@ -2,6 +2,7 @@ import { AlertTriangle, ArrowDownRight, ArrowUpRight, Minus, RefreshCw, Trending
 import { GlassSurface } from '../../../components/common/GlassSurface';
 import { useSettingsStore } from '../../../stores/settingsStore';
 import type { MarketInstrument, MarketSession, MarketState } from '../model';
+import { formatDisplayDateTime } from '../../../lib/formatting';
 
 interface MarketPanelProps {
   state: MarketState;
@@ -34,7 +35,7 @@ export function MarketPanel({ state, onRefresh }: MarketPanelProps) {
           </div>
           <p className="panel-metadata mt-1">
             {hasSnapshot
-              ? `${formatSession(state.snapshot.marketSession)} · ${formatGeneratedTime(state.snapshot.generatedAt, state.status)}`
+              ? `${formatSession(state.snapshot.marketSession)} · ${formatGeneratedTime(state.snapshot.generatedAt, state.status, settings.timeFormat, settings.activeLocation?.timezone)}`
               : state.status === 'loading' ? 'Checking the latest available snapshot' : 'Snapshot unavailable'}
           </p>
         </div>
@@ -157,7 +158,7 @@ function formatSession(session: MarketSession): string {
   return labels[session];
 }
 
-function formatGeneratedTime(generatedAt: string, status: MarketState['status']): string {
+function formatGeneratedTime(generatedAt: string, status: MarketState['status'], timeFormat: '12h' | '24h', timeZone?: string): string {
   const timestamp = Date.parse(generatedAt);
   if (Number.isNaN(timestamp)) return 'Update time unavailable';
   const minutes = Math.max(0, Math.floor((Date.now() - timestamp) / 60_000));
@@ -166,7 +167,7 @@ function formatGeneratedTime(generatedAt: string, status: MarketState['status'])
   if (minutes < 60) return `${prefix} ${minutes} minute${minutes === 1 ? '' : 's'} ago`;
   const hours = Math.floor(minutes / 60);
   if (hours < 24) return `${prefix} ${hours} hour${hours === 1 ? '' : 's'} ago`;
-  return `${prefix} ${new Intl.DateTimeFormat(undefined, { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }).format(new Date(timestamp))}`;
+  return `${prefix} ${formatDisplayDateTime(new Date(timestamp), { timeFormat, timeZone })}`;
 }
 
 function formatFreshness(status: MarketState['status']): string {
