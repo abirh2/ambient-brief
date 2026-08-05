@@ -27,16 +27,16 @@ export const StoryList: React.FC<StoryListProps> = ({ articles, defaultVisibleCo
           aria-disabled={!safeUrl}
           key={story.id || idx}
           title={story.publisherDomain ? `Source: ${story.publisherDomain}` : undefined}
-          className="story-list-item relative group block p-3 rounded-lg hover:bg-white/5 transition-colors border-b border-white/5 last:border-b-0 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2"
+          className="story-list-item relative group block px-2 py-3 transition-colors flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2"
         >
           <div className="flex min-w-0 flex-col gap-1 flex-1">
-            <h4 className="news-title text-xs sm:text-sm font-medium text-slate-200 group-hover:text-indigo-300 transition-colors leading-snug">
+            <h4 className="news-title type-secondary-headline font-medium text-[color:var(--text-secondary)] transition-colors leading-snug">
               {story.title}
             </h4>
             
             <span className="sr-only">(opens in a new tab)</span>
 
-            <div className="flex min-w-0 flex-wrap items-center gap-x-2 gap-y-0.5 text-[11px] text-slate-400 font-sans">
+            <div className="type-metadata flex min-w-0 flex-wrap items-center gap-x-2 gap-y-0.5 text-[color:var(--text-muted)]">
               <span className="font-semibold text-slate-300">
                 {story.publisher}
               </span>
@@ -57,7 +57,7 @@ export const StoryList: React.FC<StoryListProps> = ({ articles, defaultVisibleCo
         <button
           type="button"
           onClick={() => setIsExpanded(!isExpanded)}
-          className="view-more-stories w-full py-2 text-xs font-medium text-slate-400 hover:text-slate-200 hover:bg-white/5 rounded-lg transition-colors border border-dashed border-white/10"
+          className="view-more-stories compact-control w-full py-2 text-xs font-medium"
         >
           <div className="flex items-center justify-center gap-1.5">
             {isExpanded ? (

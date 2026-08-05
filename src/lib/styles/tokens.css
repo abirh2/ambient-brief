@@ -1,66 +1,240 @@
-/* Ambient Brief - Design Tokens and Accessible Base Styles (Frosted Glass Theme) */
+/* Ambient Brief visual foundation
+ * Keep component CSS semantic: feature code should consume these tokens instead
+ * of introducing new navy fills, borders, radii, or accent colors.
+ */
 
 :root {
-  /* Surface & Background Palette - Dark Frosted Slate */
-  --page-bg: #05060b;
-  --glass-bg: rgba(15, 23, 42, 0.65);
-  --glass-border: rgba(255, 255, 255, 0.08);
-  --glass-highlight: rgba(255, 255, 255, 0.03);
+  color-scheme: dark;
 
-  /* Typographic Contrast Palette */
-  --text-primary: #f8fafc;
-  --text-secondary: #94a3b8;
-  --text-muted: #64748b;
+  /* Canvas and atmosphere */
+  --canvas-base: #05080d;
+  --atmosphere-horizon: rgba(78, 102, 126, 0.22);
+  --atmosphere-cool-glow: rgba(84, 127, 158, 0.16);
+  --gradient-night: linear-gradient(155deg, #03060b 0%, #07101b 46%, #101b27 100%);
+  --gradient-day: linear-gradient(155deg, #08131e 0%, #102638 48%, #142b37 100%);
+  --gradient-sunset: linear-gradient(155deg, #080b12 0%, #17202b 43%, #34231f 100%);
+  --gradient-morning: linear-gradient(155deg, #07101a 0%, #172534 48%, #302821 100%);
+  --fog-opacity: 0.28;
+  --grain-opacity: 0.18;
+  --vignette: radial-gradient(ellipse at center, transparent 48%, rgba(0, 3, 8, 0.55) 115%);
 
-  /* State & Indicator Tokens */
-  --positive: #10b981;
-  --negative: #ef4444;
-  --warning: #f59e0b;
-  --critical: #ef4444;
+  /* Glass. Alpha is intentionally separate so the user setting can tune it. */
+  --glass-primary-rgb: 12 21 31;
+  --glass-secondary-rgb: 17 28 39;
+  --glass-primary: rgb(var(--glass-primary-rgb) / 0.72);
+  --glass-secondary: rgb(var(--glass-secondary-rgb) / 0.82);
+  --glass-border: rgba(194, 213, 226, 0.13);
+  --glass-inner-highlight: rgba(231, 241, 247, 0.07);
+  --glass-shadow: 0 18px 54px rgba(0, 3, 8, 0.28), 0 2px 8px rgba(0, 3, 8, 0.18);
+  --glass-blur: 22px;
+  --glass-saturation: 118%;
+  --tonal-section: rgba(184, 205, 218, 0.055);
+  --tonal-section-hover: rgba(184, 205, 218, 0.09);
 
-  /* Surface Geometry & Blur Tokens */
-  --radius-surface: 1.5rem;
-  --blur-glass: 24px;
-  --shadow-surface: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  /* Text */
+  --text-primary: #f3f6f7;
+  --text-secondary: #c2cdd3;
+  --text-muted: #8e9da6;
+  --text-subtle: #697983;
+  --text-inverse: #071017;
+
+  /* Semantic color */
+  --positive: #66c7a1;
+  --negative: #ef8b8b;
+  --warning: #e2b46f;
+  --critical: #f07178;
+  --informational: #7fb3ce;
+  --selected: #9bbdce;
+  --focus: #b8d7e6;
+  --selection-bg: rgba(127, 179, 206, 0.28);
+
+  /* Geometry and rhythm */
+  --radius-surface: 1.25rem;
+  --radius-control: 0.625rem;
+  --panel-padding: clamp(1rem, 1.35vw, 1.4rem);
+  --section-spacing: clamp(1rem, 1.5vw, 1.5rem);
+  --gap-standard: 0.875rem;
+  --gap-compact: 0.5rem;
+
+  /* Type scale */
+  --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-numeric: "SFMono-Regular", "Roboto Mono", ui-monospace, monospace;
+  --type-hero-clock: clamp(4.75rem, 7.4vw, 8.75rem);
+  --type-clock-seconds: clamp(1.85rem, 2.75vw, 3.5rem);
+  --type-date: clamp(1rem, 1.25vw, 1.25rem);
+  --type-location: clamp(0.875rem, 1vw, 1rem);
+  --type-temperature: clamp(3.25rem, 4.8vw, 5.25rem);
+  --type-section-heading: clamp(1rem, 1.1vw, 1.125rem);
+  --type-featured-headline: clamp(1.125rem, 1.5vw, 1.5rem);
+  --type-secondary-headline: clamp(0.875rem, 1vw, 1rem);
+  --type-body: 0.875rem;
+  --type-metadata: 0.75rem;
+  --type-context-value: 0.875rem;
+  --type-label: 0.75rem;
+
+  /* Interaction */
+  --state-hover: rgba(210, 226, 235, 0.09);
+  --state-active: rgba(210, 226, 235, 0.14);
+  --state-selected: rgba(127, 179, 206, 0.18);
+  --state-disabled-opacity: 0.46;
+  --state-loading: rgba(177, 197, 208, 0.09);
+  --state-error: rgba(240, 113, 120, 0.12);
+  --transition-fast: 150ms ease;
+
+  /* Compatibility aliases; remove only after all feature styles migrate. */
+  --page-bg: var(--canvas-base);
+  --glass-bg: var(--glass-primary);
+  --glass-highlight: var(--glass-inner-highlight);
+  --blur-glass: var(--glass-blur);
+  --shadow-surface: var(--glass-shadow);
 }
 
-/* Glass surface utility helper */
+body {
+  font-family: var(--font-sans);
+  background: var(--canvas-base);
+  color: var(--text-primary);
+}
+
+::selection {
+  background: var(--selection-bg);
+  color: var(--text-primary);
+}
+
+.ambient-canvas {
+  background: var(--canvas-base);
+}
+
+/* Surface level 2: the only large, floating container. */
 .glass-panel {
-  background: var(--glass-bg);
-  backdrop-filter: blur(var(--blur-glass));
-  -webkit-backdrop-filter: blur(var(--blur-glass));
+  --glass-alpha: 0.72;
+  position: relative;
   border: 1px solid var(--glass-border);
-  box-shadow: var(--shadow-surface);
   border-radius: var(--radius-surface);
+  background: rgb(var(--glass-primary-rgb) / var(--glass-alpha));
+  box-shadow: var(--glass-shadow);
+  backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturation));
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturation));
 }
 
-.specular-highlight {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0) 100%);
+.glass-panel[data-variant="secondary"] {
+  background: rgb(var(--glass-secondary-rgb) / var(--glass-alpha));
+  box-shadow: 0 16px 44px rgba(0, 3, 8, 0.34);
 }
 
-/* Accessible focus ring styles */
+.glass-panel::before {
+  position: absolute;
+  inset: 0 1.2rem auto;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--glass-inner-highlight), transparent);
+  content: "";
+  pointer-events: none;
+}
+
+/* Surface level 3: quiet grouping inside a glass surface. No blur or shadow. */
+.tonal-section {
+  border-radius: calc(var(--radius-surface) - 0.375rem);
+  background: var(--tonal-section);
+}
+
+/* Surface level 4: buttons, segmented controls, inputs, and similar controls. */
+.compact-control {
+  min-height: 2.25rem;
+  border: 1px solid transparent;
+  border-radius: var(--radius-control);
+  background: rgba(186, 207, 219, 0.055);
+  color: var(--text-secondary);
+  transition: background-color var(--transition-fast), border-color var(--transition-fast), color var(--transition-fast), transform var(--transition-fast);
+}
+
+.compact-control:hover:not(:disabled) {
+  background: var(--state-hover);
+  color: var(--text-primary);
+}
+
+.compact-control:active:not(:disabled) {
+  background: var(--state-active);
+  transform: translateY(1px);
+}
+
+.compact-control[aria-pressed="true"],
+.compact-control[data-selected="true"] {
+  border-color: rgba(155, 189, 206, 0.22);
+  background: var(--state-selected);
+  color: var(--text-primary);
+}
+
+button:disabled,
+input:disabled,
+select:disabled,
+[aria-disabled="true"] {
+  cursor: not-allowed;
+  opacity: var(--state-disabled-opacity);
+}
+
 :focus-visible {
-  outline: 2px solid var(--text-primary);
-  outline-offset: 2px;
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
 }
 
-/* Reduced motion accessibility support */
+.is-loading {
+  background: var(--state-loading);
+}
+
+.is-error {
+  background: var(--state-error);
+  color: var(--text-primary);
+}
+
+.specular-highlight { display: none; }
+
+.type-hero-clock,
+.type-clock-seconds,
+.type-temperature,
+.tabular-data {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+.type-hero-clock { font-size: var(--type-hero-clock); }
+.type-clock-seconds { font-size: var(--type-clock-seconds); }
+.type-date { font-size: var(--type-date); }
+.type-location { font-size: var(--type-location); }
+.type-temperature { font-size: var(--type-temperature); }
+.type-section-heading { font-size: var(--type-section-heading); }
+.type-featured-headline { font-size: var(--type-featured-headline); }
+.type-secondary-headline { font-size: var(--type-secondary-headline); }
+.type-body { font-size: var(--type-body); }
+.type-metadata { font-size: var(--type-metadata); }
+.type-context-value { font-size: var(--type-context-value); }
+.type-label { font-size: var(--type-label); }
+
+.section-rule {
+  border-bottom: 1px solid rgba(194, 213, 226, 0.09);
+}
+
+.status-note {
+  color: var(--text-muted);
+  font-size: var(--type-metadata);
+}
+
+.semantic-info { color: var(--informational); }
+.semantic-positive { color: var(--positive); }
+.semantic-warning { color: var(--warning); }
+.semantic-negative { color: var(--negative); }
+.semantic-critical { color: var(--critical); }
+
 @media (prefers-reduced-motion: reduce) {
   *,
   ::before,
   ::after {
+    scroll-behavior: auto !important;
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
   }
 }
 
-/* Custom scrollbars for clean ambient look */
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
-}
+.no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar {
-  -ms-overflow-style: none;
   scrollbar-width: none;
+  -ms-overflow-style: none;
 }

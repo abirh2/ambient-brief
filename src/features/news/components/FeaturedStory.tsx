@@ -17,12 +17,12 @@ export const FeaturedStory: React.FC<FeaturedStoryProps> = ({ article }) => {
       target={safeUrl ? '_blank' : undefined}
       rel={safeUrl ? 'noopener noreferrer' : undefined}
       aria-disabled={!safeUrl}
-      className="group flex flex-col md:flex-row gap-4 p-4 rounded-xl bg-slate-900/30 border border-white/5 hover:bg-white/5 transition-all relative block"
+      className="featured-story group flex flex-col md:flex-row gap-4 p-4 transition-colors relative block"
       title={article.publisherDomain ? `Source: ${article.publisherDomain}` : undefined}
     >
       <div className="flex min-w-0 flex-col justify-between flex-1 gap-2">
-        <div className="flex min-w-0 flex-wrap items-center gap-2 text-xs text-slate-400 font-sans">
-          <span className="font-semibold text-indigo-400 tracking-wider uppercase text-[10px] bg-indigo-950/60 px-2 py-0.5 rounded border border-indigo-800/40">
+        <div className="type-metadata flex min-w-0 flex-wrap items-center gap-2 text-[color:var(--text-muted)]">
+          <span className="font-semibold semantic-info">
             {article.categories[0]}
           </span>
           <span>•</span>
@@ -33,7 +33,7 @@ export const FeaturedStory: React.FC<FeaturedStoryProps> = ({ article }) => {
           <span className="text-slate-400">{formatNewsTimestamp(article.publishedAt)}</span>
         </div>
 
-        <h3 className="news-title text-base sm:text-lg font-semibold text-slate-100 group-hover:text-indigo-300 transition-colors leading-snug tracking-tight">
+        <h3 className="news-title type-featured-headline font-semibold text-[color:var(--text-primary)] transition-colors leading-snug tracking-tight">
           {article.title}
         </h3>
         
@@ -41,14 +41,14 @@ export const FeaturedStory: React.FC<FeaturedStoryProps> = ({ article }) => {
         <span className="sr-only">(opens in a new tab)</span>
 
         {article.description && (
-          <p className="news-description text-xs sm:text-sm text-slate-300 line-clamp-2 leading-relaxed">
+          <p className="news-description type-body text-[color:var(--text-secondary)] line-clamp-2 leading-relaxed">
             {article.description}
           </p>
         )}
       </div>
 
       {article.imageUrl && (
-        <div className="w-full md:w-36 h-28 rounded-lg overflow-hidden bg-slate-800 shrink-0 border border-white/10 relative">
+        <div className="w-full md:w-36 h-28 rounded-[var(--radius-control)] overflow-hidden bg-slate-800/50 shrink-0 relative">
           <NewsImage
             src={article.imageUrl}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"

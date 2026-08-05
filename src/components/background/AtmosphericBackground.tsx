@@ -72,19 +72,20 @@ export const AtmosphericBackground: React.FC<AtmosphericBackgroundProps> = ({
   return (
     <div
       aria-hidden="true"
-      className={`atmospheric-background fixed inset-0 z-0 w-full h-full overflow-hidden bg-[#04060c] pointer-events-none select-none ${motionClass}`}
+      className={`atmospheric-background atmosphere-${timeOfDay} fixed inset-0 z-0 w-full h-full overflow-hidden pointer-events-none select-none ${motionClass}`}
     >
       {/* LAYER 1: BASE TIME-OF-DAY GRADIENT */}
       <TimeOfDayBaseGradient timeOfDay={timeOfDay} weatherEffect={weatherEffect} />
 
       {/* LAYER 2: LARGE ATMOSPHERIC CLOUD & LIGHT FORMS */}
-      <AtmosphericLightForms timeOfDay={timeOfDay} weatherEffect={weatherEffect} />
+      <AtmosphericLightForms weatherEffect={weatherEffect} />
 
       {/* LAYER 3: OPTIONAL WEATHER EFFECT LAYER */}
       <WeatherEffectLayer weatherEffect={weatherEffect} timeOfDay={timeOfDay} />
 
       {/* LAYER 4: SUBTLE STATIC GRAIN TEXTURE */}
-      <div className="atmospheric-grain absolute inset-0 opacity-35 pointer-events-none mix-blend-overlay" />
+      <div className="atmospheric-vignette absolute inset-0 pointer-events-none" />
+      <div className="atmospheric-grain absolute inset-0 pointer-events-none mix-blend-overlay" />
     </div>
   );
 };
@@ -96,49 +97,18 @@ const TimeOfDayBaseGradient: React.FC<{
   timeOfDay: TimeOfDayVariant;
   weatherEffect: WeatherEffectVariant;
 }> = ({ timeOfDay, weatherEffect }) => {
-  const getGradientStyles = () => {
-    switch (timeOfDay) {
-      case 'morning':
-        return {
-          base: 'bg-gradient-to-b from-[#091322] via-[#1c2135] to-[#2d1b28]',
-          horizon: 'bg-[radial-gradient(ellipse_at_50%_75%,rgba(217,119,6,0.18)_0%,rgba(190,24,93,0.12)_35%,rgba(9,19,34,0)_75%)]',
-          upperSky: 'bg-[radial-gradient(ellipse_at_50%_10%,rgba(99,102,241,0.15)_0%,rgba(9,19,34,0)_60%)]',
-        };
-      case 'day':
-        return {
-          base: 'bg-gradient-to-b from-[#081225] via-[#0f1d38] to-[#070d1a]',
-          horizon: 'bg-[radial-gradient(ellipse_at_50%_65%,rgba(51,65,85,0.25)_0%,rgba(30,41,59,0.15)_40%,rgba(7,13,26,0)_80%)]',
-          upperSky: 'bg-[radial-gradient(ellipse_at_50%_0%,rgba(56,189,248,0.12)_0%,rgba(8,18,37,0)_60%)]',
-        };
-      case 'sunset':
-        return {
-          base: 'bg-gradient-to-b from-[#080914] via-[#1e142d] to-[#31131a]',
-          horizon: 'bg-[radial-gradient(ellipse_at_50%_80%,rgba(217,119,6,0.22)_0%,rgba(190,24,93,0.18)_40%,rgba(8,9,20,0)_80%)]',
-          upperSky: 'bg-[radial-gradient(ellipse_at_50%_10%,rgba(99,102,241,0.15)_0%,rgba(8,9,20,0)_60%)]',
-        };
-      case 'night':
-      default:
-        return {
-          base: 'bg-gradient-to-b from-[#02050c] via-[#080f21] to-[#03060f]',
-          horizon: 'bg-[radial-gradient(ellipse_at_50%_70%,rgba(30,27,75,0.3)_0%,rgba(15,23,42,0.2)_45%,rgba(2,5,12,0)_80%)]',
-          upperSky: 'bg-[radial-gradient(ellipse_at_50%_15%,rgba(99,102,241,0.12)_0%,rgba(2,5,12,0)_70%)]',
-        };
-    }
-  };
-
-  const styles = getGradientStyles();
   const isStorm = weatherEffect === 'storm';
 
   return (
     <div className="absolute inset-0 w-full h-full transition-colors duration-1000">
       {/* Primary Gradient Base */}
-      <div className={`absolute inset-0 ${styles.base}`} />
+      <div className="atmospheric-base absolute inset-0" />
 
       {/* Horizon Soft Glow */}
-      <div className={`absolute inset-0 ${styles.horizon}`} />
+      <div className="atmospheric-horizon absolute inset-0" />
 
       {/* Upper Sky Depth */}
-      <div className={`absolute inset-0 ${styles.upperSky}`} />
+      <div className="atmospheric-cool-glow absolute inset-0" />
 
       {/* Storm Darkening Overlay */}
       {isStorm && (
@@ -169,62 +139,30 @@ const TimeOfDayBaseGradient: React.FC<{
 /* LAYER 2: LARGE ATMOSPHERIC CLOUD & LIGHT FORMS                             */
 /* -------------------------------------------------------------------------- */
 const AtmosphericLightForms: React.FC<{
-  timeOfDay: TimeOfDayVariant;
   weatherEffect: WeatherEffectVariant;
-}> = ({ timeOfDay, weatherEffect }) => {
-  const getFormColors = () => {
-    switch (timeOfDay) {
-      case 'morning':
-        return {
-          formA: 'from-amber-500/15 via-rose-500/10 to-transparent',
-          formB: 'from-indigo-500/15 via-slate-500/10 to-transparent',
-          formC: 'from-rose-600/12 via-orange-500/08 to-transparent',
-        };
-      case 'day':
-        return {
-          formA: 'from-slate-400/12 via-indigo-400/08 to-transparent',
-          formB: 'from-sky-500/10 via-slate-600/08 to-transparent',
-          formC: 'from-slate-500/12 via-blue-500/06 to-transparent',
-        };
-      case 'sunset':
-        return {
-          formA: 'from-amber-600/18 via-rose-600/12 to-transparent',
-          formB: 'from-purple-600/15 via-indigo-600/10 to-transparent',
-          formC: 'from-rose-500/14 via-amber-500/10 to-transparent',
-        };
-      case 'night':
-      default:
-        return {
-          formA: 'from-indigo-600/12 via-slate-700/08 to-transparent',
-          formB: 'from-blue-600/10 via-indigo-900/12 to-transparent',
-          formC: 'from-slate-700/10 via-indigo-800/06 to-transparent',
-        };
-    }
-  };
-
-  const colors = getFormColors();
+}> = ({ weatherEffect }) => {
   const isCloudyOrStorm = weatherEffect === 'cloudy' || weatherEffect === 'storm' || weatherEffect === 'fog';
 
   return (
     <div className="absolute inset-0 w-full h-full overflow-hidden pointer-events-none">
       {/* Form A: Top-Left Ambient Orb */}
       <div
-        className={`absolute -top-[15%] -left-[10%] w-[65vw] h-[65vw] max-w-[800px] max-h-[800px] rounded-full bg-gradient-to-br ${colors.formA} blur-[100px] animate-cloud-a opacity-80`}
+        className="atmospheric-form atmospheric-form-a animate-cloud-a"
       />
 
       {/* Form B: Top-Right Soft Light Shape */}
       <div
-        className={`absolute -top-[10%] -right-[10%] w-[60vw] h-[60vw] max-w-[750px] max-h-[750px] rounded-full bg-gradient-to-bl ${colors.formB} blur-[110px] animate-cloud-b opacity-75`}
+        className="atmospheric-form atmospheric-form-b animate-cloud-b"
       />
 
       {/* Form C: Center-Bottom Horizon Cushion */}
       <div
-        className={`absolute -bottom-[20%] left-[15%] w-[70vw] h-[50vw] max-w-[900px] max-h-[600px] rounded-full bg-gradient-to-t ${colors.formC} blur-[120px] animate-cloud-c opacity-70`}
+        className="atmospheric-form atmospheric-form-c animate-cloud-c"
       />
 
       {/* Additional Large Atmospheric Cloud Mass for Cloudy/Storm */}
       {isCloudyOrStorm && (
-        <div className="absolute top-[20%] -left-[15%] w-[90vw] h-[40vw] max-w-[1100px] rounded-full bg-gradient-to-r from-slate-800/20 via-slate-700/15 to-transparent blur-[90px] animate-cloud-b opacity-80" />
+        <div className="atmospheric-cloud-mass absolute top-[20%] -left-[15%] w-[90vw] h-[40vw] max-w-[1100px] rounded-full blur-[90px] animate-cloud-b" />
       )}
     </div>
   );

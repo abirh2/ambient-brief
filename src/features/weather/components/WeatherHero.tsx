@@ -26,8 +26,6 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
   const { settings } = useSettingsStore();
   const [detailsExpanded, setDetailsExpanded] = useState(false);
 
-  const isCompact = settings.contentDensity === 'compact';
-
   const formatTemp = (value: number) => formatTemperature(value, settings.temperatureUnit, false);
 
   // 1. Loading state
@@ -38,9 +36,7 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
   // 2. Location Permission Denied state
   if (state.status === 'permission_denied') {
     return (
-      <GlassSurface
-        className={`${isCompact ? 'p-4 sm:p-5' : 'p-5 sm:p-6 lg:p-7'} flex flex-col justify-center items-center text-center gap-4 w-full min-h-[200px] border-amber-500/30 bg-amber-950/20`}
-      >
+      <GlassSurface className="panel-padding flex flex-col justify-center items-center text-center gap-4 w-full min-h-[200px]">
         <div className="p-3 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20">
           <ShieldAlert className="w-8 h-8" aria-hidden="true" />
         </div>
@@ -55,14 +51,14 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
           <button
             type="button"
             onClick={onOpenSettings}
-            className="px-3.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs transition-colors shadow-md shadow-indigo-600/30"
+            className="compact-control px-3.5 py-1.5 font-semibold text-xs"
           >
             Enter location
           </button>
           <button
             type="button"
             onClick={onRetry}
-            className="flex items-center gap-1 px-3.5 py-1.5 rounded-lg bg-white/10 hover:bg-white/15 text-slate-200 text-xs font-semibold transition-colors border border-white/10"
+            className="compact-control flex items-center gap-1 px-3.5 py-1.5 text-xs font-semibold"
           >
             <RefreshCw className="w-3.5 h-3.5" />
             <span>Try again</span>
@@ -75,9 +71,7 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
   // 3. Location Unavailable state
   if (state.status === 'location_unavailable') {
     return (
-      <GlassSurface
-        className={`${isCompact ? 'p-4 sm:p-5' : 'p-5 sm:p-6 lg:p-7'} flex flex-col justify-center items-center text-center gap-4 w-full min-h-[200px] border-slate-700/50`}
-      >
+      <GlassSurface className="panel-padding flex flex-col justify-center items-center text-center gap-4 w-full min-h-[200px]">
         <div className="p-3 rounded-full bg-slate-800 text-slate-300 border border-white/10">
           <MapPinOff className="w-8 h-8" aria-hidden="true" />
         </div>
@@ -92,14 +86,14 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
           <button
             type="button"
             onClick={onOpenSettings}
-            className="px-3.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs transition-colors shadow-md"
+            className="compact-control px-3.5 py-1.5 font-semibold text-xs"
           >
             Enter location
           </button>
           <button
             type="button"
             onClick={onRetry}
-            className="flex items-center gap-1 px-3.5 py-1.5 rounded-lg bg-white/10 hover:bg-white/15 text-slate-200 text-xs font-semibold transition-colors border border-white/10"
+            className="compact-control flex items-center gap-1 px-3.5 py-1.5 text-xs font-semibold"
           >
             <RefreshCw className="w-3.5 h-3.5" />
             <span>Try again</span>
@@ -123,13 +117,11 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
 
   return (
     <GlassSurface
-      className={`weather-hero-card ${
-        isCompact ? 'p-4' : 'p-4 sm:p-5'
-      } flex flex-col gap-3 w-full relative`}
+      className="weather-hero-card panel-padding panel-stack flex flex-col w-full relative"
     >
       {/* Cached Banner Indicator */}
       {isCached && (
-        <div className="flex items-center gap-1.5 px-3 py-1 rounded-md bg-amber-950/70 border border-amber-700/40 text-amber-200 text-[11px] font-sans font-medium w-fit">
+        <div className="status-note semantic-warning flex items-center gap-1.5 font-medium w-fit">
           <Clock className="w-3.5 h-3.5 text-amber-400 shrink-0" />
           <span>{state.lastUpdatedText || 'Showing cached weather · Last updated 1 hour ago'}</span>
         </div>
@@ -139,11 +131,11 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
       <div className="weather-current flex flex-col gap-3">
         {/* Huge temperature + condition + feels like */}
         <div className="flex items-center gap-3 sm:gap-4">
-          <div className="weather-temp-text text-5xl sm:text-6xl font-extralight tracking-[-0.055em] text-white font-mono leading-none shrink-0 tabular-nums">
+          <div className="weather-temp-text type-temperature font-extralight tracking-[-0.055em] text-[color:var(--text-primary)] leading-none shrink-0 tabular-nums">
             {formatTemp(weatherData.temperature)}
           </div>
 
-          <div className="flex flex-col gap-1 border-l border-white/10 pl-3 sm:pl-4 min-w-0">
+          <div className="flex flex-col gap-1 pl-3 sm:pl-4 min-w-0">
             <div className="flex items-center gap-2 text-base sm:text-lg font-medium text-slate-100 min-w-0">
               <CloudSun className="w-5 h-5 text-amber-300 shrink-0" aria-hidden="true" />
               <span>{weatherData.condition}</span>
@@ -172,7 +164,7 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
           <button
             type="button"
             onClick={() => setDetailsExpanded((isExpanded) => !isExpanded)}
-            className="inline-flex items-center gap-1 text-[11px] font-medium text-slate-400 hover:text-slate-200 transition-colors"
+            className="compact-control inline-flex items-center gap-1 px-2 text-xs font-medium"
             aria-expanded={detailsExpanded}
           >
             Details
@@ -180,14 +172,14 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
           </button>
         </div>
         {detailsExpanded && (
-          <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[11px] text-slate-400" aria-label="Additional weather details">
+          <div className="type-metadata flex flex-wrap items-center gap-x-4 gap-y-1 text-[color:var(--text-muted)]" aria-label="Additional weather details">
             <span className="inline-flex items-center gap-1.5"><Droplets className="w-3.5 h-3.5 text-sky-300" />Humidity <strong className="font-mono font-medium text-slate-200">{weatherData.humidity}%</strong></span>
             <span className="inline-flex items-center gap-1.5"><Wind className="w-3.5 h-3.5 text-slate-300" />Wind <strong className="font-mono font-medium text-slate-200">{Math.round(weatherData.windSpeed)} {weatherData.windSpeedUnit}</strong></span>
           </div>
         )}
       </div>
 
-      <div className="w-full h-px bg-white/10" />
+      <div className="section-rule w-full" />
 
       {/* Hourly Forecast Timeline */}
       <div className="hourly-forecast-container w-full">

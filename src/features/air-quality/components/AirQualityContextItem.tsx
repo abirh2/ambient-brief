@@ -22,8 +22,8 @@ export function AirQualityContextItem({ aqiState }: { aqiState: AirQualityState 
   if (aqiState.status === 'unavailable') return <div className="flex items-center gap-2 text-slate-500"><Wind className="w-3.5 h-3.5" />AQI unavailable</div>;
   const interpretation = interpretAqi(aqiState.data.usAqi);
   return <div className="relative" ref={ref}>
-    <button type="button" onClick={() => setOpen(!open)} className="flex items-center gap-2 hover:bg-white/5 px-2 py-1 rounded-md" aria-haspopup="true" aria-expanded={open}>
-      <Wind className={`w-3.5 h-3.5 ${interpretation.textClass}`} /><span className="text-slate-400">AQI</span><span className="font-semibold text-slate-100 font-mono">{aqiState.data.usAqi ?? '--'}</span><span className={`${interpretation.textClass} font-medium`}>· {interpretation.label}</span>
+    <button type="button" onClick={() => setOpen(!open)} className="compact-control flex items-center gap-2 px-2 py-1" aria-haspopup="true" aria-expanded={open}>
+      <Wind className={`w-3.5 h-3.5 ${interpretation.textClass}`} /><span className="text-[color:var(--text-muted)]">AQI</span><span className="context-value font-semibold">{aqiState.data.usAqi ?? '--'}</span><span className={`${interpretation.textClass} font-medium`}>· {interpretation.label}</span>
     </button>
     {open && <AirQualityPopover data={aqiState.data} onClose={() => setOpen(false)} lastUpdatedText={aqiState.status === 'cached' ? aqiState.lastUpdatedText : undefined} />}
   </div>;

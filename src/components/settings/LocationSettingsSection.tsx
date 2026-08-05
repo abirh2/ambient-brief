@@ -163,19 +163,19 @@ export const LocationSettingsSection: React.FC = () => {
   }, [focusedIndex]);
 
   return (
-    <section className="flex flex-col gap-3.5 pt-3 border-t border-white/10">
+    <section className="section-rule flex flex-col gap-3.5 pt-3 pb-1">
       <div className="flex items-center justify-between">
-        <h3 className="text-xs font-bold uppercase tracking-wider text-indigo-400 flex items-center gap-1.5">
-          <MapPin className="w-3.5 h-3.5" /> Location Settings
+        <h3 className="type-label font-semibold text-[color:var(--text-secondary)] flex items-center gap-1.5">
+          <MapPin className="w-3.5 h-3.5 semantic-info" /> Location settings
         </h3>
-        <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-indigo-500/10 text-indigo-300 border border-indigo-500/20 uppercase">
+        <span className="type-metadata numeric text-[color:var(--text-muted)]">
           {activeLocation.source}
         </span>
       </div>
 
       {/* Active Saved Location Display */}
-      <div className="p-3 rounded-lg bg-slate-900/60 border border-white/10 flex flex-col gap-1.5">
-        <span className="text-[11px] font-medium text-slate-400">Current Active Location</span>
+      <div className="tonal-section p-3 flex flex-col gap-1.5">
+        <span className="type-metadata font-medium text-[color:var(--text-muted)]">Current active location</span>
         <div className="flex items-start justify-between gap-2">
           <div className="flex items-center gap-2 text-xs font-semibold text-slate-100">
             {activeLocation.source === 'device' ? (
@@ -190,7 +190,7 @@ export const LocationSettingsSection: React.FC = () => {
             type="button"
             onClick={clearLocation}
             title="Reset to default location"
-            className="p-1 rounded text-slate-400 hover:text-rose-400 hover:bg-white/5 transition-colors text-[11px] flex items-center gap-1"
+            className="compact-control p-1 text-xs flex items-center gap-1"
           >
             <RotateCcw className="w-3 h-3" />
             <span className="sr-only sm:not-sr-only text-[10px]">Reset</span>
@@ -204,10 +204,11 @@ export const LocationSettingsSection: React.FC = () => {
           type="button"
           onClick={requestDeviceLocation}
           disabled={deviceLocationState.status === 'loading'}
-          className={`flex items-center justify-between p-2.5 rounded-lg border text-xs font-medium transition-all ${
+          aria-pressed={useCurrentLocation}
+          className={`compact-control flex items-center justify-between p-2.5 text-xs font-medium ${
             useCurrentLocation
-              ? 'bg-emerald-950/40 border-emerald-500/50 text-emerald-200'
-              : 'bg-slate-900/40 border-white/10 text-slate-300 hover:bg-white/5'
+              ? 'semantic-positive'
+              : ''
           }`}
         >
           <div className="flex items-center gap-2">
@@ -220,9 +221,9 @@ export const LocationSettingsSection: React.FC = () => {
           </div>
 
           {deviceLocationState.status === 'loading' ? (
-            <div className="flex items-center gap-1.5 text-indigo-300 font-normal">
+            <div className="flex items-center gap-1.5 semantic-info font-normal">
               <Loader2 className="w-3.5 h-3.5 animate-spin" />
-              <span className="text-[11px]">Detecting...</span>
+              <span className="text-xs">Detecting...</span>
             </div>
           ) : (
             <div
@@ -268,11 +269,11 @@ export const LocationSettingsSection: React.FC = () => {
             aria-autocomplete="list"
             aria-controls="location-search-results"
             aria-expanded={searchResults.length > 0}
-            className="w-full pl-9 pr-9 py-2 rounded-lg bg-white/5 border border-white/10 text-xs text-slate-100 placeholder-slate-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
+            className="compact-control w-full pl-9 pr-9 py-2 text-xs placeholder-slate-500"
           />
 
           {isSearching ? (
-            <Loader2 className="w-4 h-4 text-indigo-400 animate-spin absolute right-3" />
+            <Loader2 className="w-4 h-4 semantic-info animate-spin absolute right-3" />
           ) : searchQuery ? (
             <button
               type="button"
@@ -287,8 +288,8 @@ export const LocationSettingsSection: React.FC = () => {
 
         {/* Search Results Dropdown / List */}
         {searchResults.length > 0 && (
-          <div className="flex flex-col gap-1 rounded-lg bg-slate-900 border border-white/15 p-1 shadow-xl max-h-52 overflow-y-auto no-scrollbar">
-            <span className="text-[10px] font-semibold text-slate-400 uppercase tracking-wider px-2 py-1">
+          <div className="tonal-section flex flex-col gap-1 p-1 max-h-52 overflow-y-auto no-scrollbar">
+            <span className="type-metadata font-semibold text-[color:var(--text-muted)] px-2 py-1">
               Search Results ({searchResults.length})
             </span>
 
@@ -310,12 +311,13 @@ export const LocationSettingsSection: React.FC = () => {
                     aria-selected={isFocused || isSelectedPending}
                     onClick={() => handleSelectCandidate(loc)}
                     onMouseEnter={() => setFocusedIndex(idx)}
-                    className={`flex items-center justify-between p-2 rounded-md cursor-pointer text-xs transition-colors ${
+                    data-selected={isSelectedPending}
+                    className={`compact-control flex items-center justify-between p-2 cursor-pointer text-xs ${
                       isSelectedPending
-                        ? 'bg-indigo-600/40 border border-indigo-400/50 text-white'
+                        ? ''
                         : isFocused
-                        ? 'bg-white/10 text-slate-100'
-                        : 'text-slate-300 hover:bg-white/5'
+                        ? 'text-slate-100'
+                        : ''
                     }`}
                   >
                     <div className="flex flex-col gap-0.5">
@@ -330,7 +332,7 @@ export const LocationSettingsSection: React.FC = () => {
                         Active
                       </span>
                     ) : isSelectedPending ? (
-                      <Check className="w-4 h-4 text-indigo-300" />
+                      <Check className="w-4 h-4 semantic-info" />
                     ) : null}
                   </li>
                 );
@@ -355,11 +357,11 @@ export const LocationSettingsSection: React.FC = () => {
 
         {/* Selected Candidate Confirmation Preview */}
         {pendingLocation && (
-          <div className="p-3 rounded-lg bg-indigo-950/50 border border-indigo-500/40 flex flex-col gap-2 mt-1 animate-fade-in">
+          <div className="tonal-section flex flex-col gap-2 p-3 mt-1 animate-fade-in">
             <div className="flex items-start justify-between">
               <div className="flex flex-col">
-                <span className="text-[10px] uppercase tracking-wider font-semibold text-indigo-300">
-                  Selected Location
+                <span className="type-metadata font-semibold semantic-info">
+                  Selected location
                 </span>
                 <span className="text-xs font-bold text-white">
                   {formatLocationLabel(pendingLocation)}
@@ -374,7 +376,7 @@ export const LocationSettingsSection: React.FC = () => {
               </button>
             </div>
 
-            <div className="flex items-center justify-end gap-2 pt-1 border-t border-indigo-500/20">
+            <div className="section-rule flex items-center justify-end gap-2 pt-1">
               <button
                 type="button"
                 onClick={() => setPendingLocation(null)}
@@ -385,7 +387,8 @@ export const LocationSettingsSection: React.FC = () => {
               <button
                 type="button"
                 onClick={handleConfirmLocation}
-                className="px-3 py-1 rounded bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs shadow-md transition-colors flex items-center gap-1"
+                className="compact-control px-3 py-1 font-semibold text-xs flex items-center gap-1"
+                data-selected="true"
               >
                 <Check className="w-3.5 h-3.5" />
                 <span>Confirm &amp; Set Location</span>

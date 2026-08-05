@@ -17,9 +17,9 @@ const FALLBACK_CURRENCIES: Record<string, string> = {
   BDT: 'Bangladeshi Taka', INR: 'Indian Rupee', KRW: 'South Korean Won', SGD: 'Singapore Dollar',
 };
 
-const sectionClass = 'flex flex-col gap-3 pt-3 border-t border-white/10';
-const titleClass = 'text-xs font-bold uppercase tracking-wider text-indigo-400 flex items-center gap-1.5';
-const toggleClass = 'flex items-center justify-between text-xs text-slate-300 cursor-pointer p-2 rounded-lg bg-slate-900/40 border border-white/5';
+const sectionClass = 'section-rule flex flex-col gap-3 pt-3 pb-1';
+const titleClass = 'type-label font-semibold text-[color:var(--text-secondary)] flex items-center gap-1.5';
+const toggleClass = 'tonal-section flex items-center justify-between text-xs text-[color:var(--text-secondary)] cursor-pointer p-2';
 
 export function DisplaySettingsSection() {
   const { settings, updateSettings } = useSettingsStore();
@@ -33,13 +33,13 @@ export function DisplaySettingsSection() {
       <h3 className={titleClass}><Sparkles className="w-3.5 h-3.5" /> Appearance &amp; Motion</h3>
       <div className="flex flex-col gap-1.5">
         <span className="text-xs text-slate-300">Background Motion</span>
-        <div className="grid grid-cols-3 gap-1 p-1 rounded-lg bg-slate-900/60 border border-white/10">
-          {(['living', 'subtle', 'static'] as BackgroundMotion[]).map((motion) => <button key={motion} type="button" onClick={() => updateSettings({ backgroundMotion: motion })} className={`py-1 rounded text-xs font-bold uppercase tracking-wider ${settings.backgroundMotion === motion ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-white'}`}>{motion}</button>)}
+        <div className="tonal-section grid grid-cols-3 gap-1 p-1">
+          {(['living', 'subtle', 'static'] as BackgroundMotion[]).map((motion) => <button key={motion} type="button" onClick={() => updateSettings({ backgroundMotion: motion })} aria-pressed={settings.backgroundMotion === motion} className="compact-control py-1 text-xs font-semibold capitalize">{motion}</button>)}
         </div>
       </div>
       <label className="flex flex-col gap-1.5 text-xs text-slate-300">
-        <span className="flex justify-between">Glass Opacity / Intensity <span className="font-mono text-indigo-300">{Math.round(settings.glassIntensity * 100)}%</span></span>
-        <input type="range" min={0.2} max={0.9} step={0.05} value={settings.glassIntensity} onChange={(event) => updateSettings({ glassIntensity: Number(event.target.value) })} className="w-full accent-indigo-500 h-1.5" />
+        <span className="flex justify-between">Glass opacity <span className="numeric semantic-info">{Math.round(settings.glassIntensity * 100)}%</span></span>
+        <input type="range" min={0.2} max={0.9} step={0.05} value={settings.glassIntensity} onChange={(event) => updateSettings({ glassIntensity: Number(event.target.value) })} className="w-full accent-sky-300 h-1.5" />
       </label>
       <SegmentedSetting label="Content Density" values={['comfortable', 'compact'] as ContentDensity[]} value={settings.contentDensity} labels={['Comfortable', 'Compact']} onChange={(contentDensity) => updateSettings({ contentDensity })} />
       <ToggleRow label="Reduce motion" checked={settings.reducedMotion} onChange={(reducedMotion) => updateSettings({ reducedMotion })} />
@@ -64,23 +64,23 @@ export function ContentSettingsSection() {
   };
   return <>
     <section className={sectionClass}>
-      <div className="flex justify-between"><h3 className={titleClass}><Newspaper className="w-3.5 h-3.5" /> News Categories</h3><span className="text-[11px] font-mono text-slate-400">{settings.newsCategories.length} / 3 selected</span></div>
-      <p className="text-[11px] text-slate-400">Select up to 3 news topics for your main feed.</p>
+      <div className="flex justify-between"><h3 className={titleClass}><Newspaper className="w-3.5 h-3.5" /> News categories</h3><span className="type-metadata numeric text-[color:var(--text-muted)]">{settings.newsCategories.length} / 3 selected</span></div>
+      <p className="type-metadata text-[color:var(--text-muted)]">Select up to 3 news topics for your main feed.</p>
       <div className="flex flex-wrap gap-1.5">{NEWS_CATEGORIES.map((category) => {
         const selected = settings.newsCategories.includes(category);
         const disabled = settings.newsCategories.length >= 3 && !selected;
-        return <button key={category} type="button" disabled={disabled} onClick={() => toggleCategory(category)} className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium border ${selected ? 'bg-indigo-600 text-white border-indigo-400/30' : 'bg-white/5 text-slate-300 border-white/10 disabled:opacity-50'}`}>{selected && <Check className="w-3 h-3" />}{category}</button>;
+        return <button key={category} type="button" disabled={disabled} onClick={() => toggleCategory(category)} aria-pressed={selected} className="compact-control inline-flex items-center gap-1 px-2.5 py-1 text-xs font-medium">{selected && <Check className="w-3 h-3" />}{category}</button>;
       })}</div>
     </section>
     <section className={sectionClass}>
       <h3 className={titleClass}><TrendingUp className="w-3.5 h-3.5" /> Markets</h3>
       <ToggleRow label="Show Markets panel" checked={settings.showMarkets} onChange={(showMarkets) => updateSettings({ showMarkets })} />
       {settings.showMarkets && <>
-        <p className="text-[11px] text-slate-400">Keyless TradingView ticker. S&amp;P 500, Dow Jones, and Nasdaq indices are always included.</p>
+        <p className="type-metadata text-[color:var(--text-muted)]">Keyless TradingView ticker. S&amp;P 500, Dow Jones, and Nasdaq indices are always included.</p>
         <div className="flex justify-between text-xs text-slate-300"><span>Companies (max 6)</span><span className="font-mono text-slate-400">{selectedCompanySymbols.length} / 6</span></div>
         <div className="grid grid-cols-2 gap-1.5">{COMPANIES.map(([symbol, name]) => {
           const selected = selectedCompanySymbols.includes(symbol);
-          return <button key={symbol} type="button" disabled={!selected && selectedCompanySymbols.length >= 6} onClick={() => toggleSymbol(symbol)} className={`flex justify-between px-2.5 py-1.5 rounded-lg text-xs font-mono border ${selected ? 'bg-indigo-950/80 text-indigo-200 border-indigo-500/50' : 'bg-white/5 text-slate-400 border-white/5 disabled:opacity-50'}`}><span>{symbol}</span><span className="font-sans text-[10px]">{name}</span></button>;
+          return <button key={symbol} type="button" disabled={!selected && selectedCompanySymbols.length >= 6} onClick={() => toggleSymbol(symbol)} aria-pressed={selected} className="compact-control numeric flex justify-between px-2.5 py-1.5 text-xs"><span>{symbol}</span><span className="font-sans type-metadata">{name}</span></button>;
         })}</div>
       </>}
     </section>
@@ -101,7 +101,7 @@ export function OptionalSettingsSection() {
       <SearchableCurrencySelector label="Quote" selected={quote} exclude={base} currencies={currencyData} onSelect={(next) => next !== base && updateSettings({ currencyPair: `${base}/${next}` })} />
     </div>}
     <ToggleRow label={<span className="flex gap-1.5"><Moon className="w-3.5 h-3.5 text-indigo-400" />Islamic Daylight / Prayer Times</span>} checked={settings.islamic.enabled} onChange={(enabled) => updateIslamic({ enabled })} />
-    {settings.islamic.enabled && <div className="flex flex-col gap-2 p-3 rounded-lg bg-slate-900/60 border border-white/10">
+    {settings.islamic.enabled && <div className="tonal-section flex flex-col gap-2 p-3">
       <ToggleRow label="Show next prayer in Context Bar" checked={settings.islamic.showNextPrayer} onChange={(showNextPrayer) => updateIslamic({ showNextPrayer })} compact />
       <ToggleRow label="Show Hijri date in Context Bar" checked={settings.islamic.showHijriDate} onChange={(showHijriDate) => updateIslamic({ showHijriDate })} compact />
       <ToggleRow label="Show full prayer schedule" checked={settings.islamic.showFullSchedule} onChange={(showFullSchedule) => updateIslamic({ showFullSchedule })} compact />
@@ -125,22 +125,22 @@ export function ProviderSettingsSection() {
   };
   return <section className={sectionClass}>
     <h3 className={titleClass}><Key className="w-3.5 h-3.5" /> Alpha Vantage Markets API Key</h3>
-    <p className="text-[11px] text-slate-400">Optional advanced provider only; it is not used by or required for the default TradingView market display. Stored only in this browser and sent directly to Alpha Vantage when tested.</p>
-    <div className="flex justify-between text-[11px] text-slate-300"><span>Personal API Key</span><span className="font-mono text-indigo-300">Usage today: {getProviderUsage().requestsAttempted} / 20 reqs</span></div>
-    <div className="relative"><input type={showKey ? 'text' : 'password'} value={settings.alphaVantageApiKey ?? ''} onChange={(event) => updateSettings({ alphaVantageApiKey: event.target.value })} placeholder="Enter Alpha Vantage key..." className="w-full px-3 py-1.5 pr-16 rounded-lg bg-slate-950 border border-white/10 text-xs font-mono text-indigo-300" /><button type="button" onClick={() => setShowKey(!showKey)} className="absolute right-2 top-1.5 text-[10px] text-slate-400">{showKey ? 'Hide' : 'Show'}</button></div>
-    <div className="flex gap-2"><button type="button" disabled={testing || !settings.alphaVantageApiKey?.trim()} onClick={() => void testKey()} className="px-3 py-1 rounded bg-indigo-600 disabled:opacity-50 text-white text-[11px] font-semibold">{testing ? 'Testing...' : 'Test Key'}</button><button type="button" disabled={!settings.alphaVantageApiKey} onClick={() => { updateSettings({ alphaVantageApiKey: '' }); setResult(null); }} className="px-3 py-1 rounded bg-white/5 disabled:opacity-30 text-slate-300 text-[11px]">Remove Key</button></div>
+    <p className="type-metadata text-[color:var(--text-muted)]">Optional advanced provider only; it is not used by or required for the default TradingView market display. Stored only in this browser and sent directly to Alpha Vantage when tested.</p>
+    <div className="type-metadata flex justify-between text-[color:var(--text-secondary)]"><span>Personal API key</span><span className="numeric semantic-info">Usage today: {getProviderUsage().requestsAttempted} / 20 requests</span></div>
+    <div className="relative"><input type={showKey ? 'text' : 'password'} value={settings.alphaVantageApiKey ?? ''} onChange={(event) => updateSettings({ alphaVantageApiKey: event.target.value })} placeholder="Enter Alpha Vantage key..." className="compact-control numeric w-full px-3 py-1.5 pr-16 text-xs" /><button type="button" onClick={() => setShowKey(!showKey)} className="absolute right-2 top-1.5 type-metadata text-[color:var(--text-muted)]">{showKey ? 'Hide' : 'Show'}</button></div>
+    <div className="flex gap-2"><button type="button" disabled={testing || !settings.alphaVantageApiKey?.trim()} onClick={() => void testKey()} className="compact-control px-3 py-1 text-xs font-semibold">{testing ? 'Testing...' : 'Test key'}</button><button type="button" disabled={!settings.alphaVantageApiKey} onClick={() => { updateSettings({ alphaVantageApiKey: '' }); setResult(null); }} className="compact-control px-3 py-1 text-xs">Remove key</button></div>
     {result && <div className={`flex gap-1.5 p-2 rounded text-[11px] ${result === 'valid' ? 'bg-emerald-950/60 text-emerald-300' : 'bg-amber-950/60 text-amber-300'}`}><Info className="w-3.5 h-3.5" />Test result: {result.replaceAll('_', ' ')}</div>}
   </section>;
 }
 
 function ToggleRow({ label, checked, onChange, compact = false }: { label: React.ReactNode; checked: boolean; onChange: (checked: boolean) => void; compact?: boolean }) {
-  return <label className={compact ? 'flex items-center justify-between text-xs text-slate-300 cursor-pointer' : toggleClass}><span>{label}</span><input type="checkbox" checked={checked} onChange={(event) => onChange(event.target.checked)} className="w-4 h-4 rounded accent-indigo-500" /></label>;
+  return <label className={compact ? 'flex items-center justify-between text-xs text-[color:var(--text-secondary)] cursor-pointer' : toggleClass}><span>{label}</span><input type="checkbox" checked={checked} onChange={(event) => onChange(event.target.checked)} className="w-4 h-4 rounded accent-sky-300" /></label>;
 }
 
 function SegmentedSetting<T extends string>({ label, values, labels, value, onChange }: { label: string; values: readonly T[]; labels: readonly string[]; value: T; onChange: (value: T) => void }) {
-  return <div className="flex justify-between items-center text-xs text-slate-300"><span>{label}</span><div className="flex rounded-lg bg-slate-900/60 p-0.5 border border-white/10">{values.map((item, index) => <button type="button" key={item} onClick={() => onChange(item)} className={`px-3 py-1 rounded-md text-xs font-semibold ${value === item ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-white'}`}>{labels[index]}</button>)}</div></div>;
+  return <div className="flex justify-between items-center text-xs text-[color:var(--text-secondary)]"><span>{label}</span><div className="tonal-section flex p-0.5">{values.map((item, index) => <button type="button" key={item} onClick={() => onChange(item)} aria-pressed={value === item} className="compact-control px-3 py-1 text-xs font-semibold">{labels[index]}</button>)}</div></div>;
 }
 
 function SelectRow({ label, value, onChange, options }: { label: string; value: string; onChange: (value: string) => void; options: ReadonlyArray<readonly [string, string]> }) {
-  return <label className="flex justify-between items-center text-xs text-slate-300"><span>{label}</span><select value={value} onChange={(event) => onChange(event.target.value)} className="px-2 py-1 rounded bg-slate-900 border border-white/10 text-xs text-slate-200">{options.map(([option, text]) => <option key={option} value={option}>{text}</option>)}</select></label>;
+  return <label className="flex justify-between items-center text-xs text-[color:var(--text-secondary)]"><span>{label}</span><select value={value} onChange={(event) => onChange(event.target.value)} className="compact-control px-2 py-1 text-xs">{options.map(([option, text]) => <option key={option} value={option}>{text}</option>)}</select></label>;
 }

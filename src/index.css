@@ -2,9 +2,9 @@
 @import "./lib/styles/tokens.css";
 
 html, body {
-  background-color: #05060b;
+  background-color: var(--canvas-base);
   color: var(--text-primary);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: var(--font-sans);
   min-height: 100dvh;
   margin: 0;
   padding: 0;
@@ -220,14 +220,79 @@ html, body {
     repeating-linear-gradient(117deg, rgba(255, 255, 255, 0.025) 0 1px, transparent 1px 4px),
     repeating-linear-gradient(23deg, rgba(148, 163, 184, 0.018) 0 1px, transparent 1px 5px);
   background-size: 7px 9px, 11px 13px;
+  opacity: var(--grain-opacity);
+}
+
+.atmospheric-background {
+  background: var(--canvas-base);
+}
+
+.atmospheric-base {
+  background: var(--gradient-night);
+}
+
+.atmosphere-morning .atmospheric-base { background: var(--gradient-morning); }
+.atmosphere-day .atmospheric-base { background: var(--gradient-day); }
+.atmosphere-sunset .atmospheric-base { background: var(--gradient-sunset); }
+
+.atmospheric-horizon {
+  background: radial-gradient(ellipse at 50% 78%, var(--atmosphere-horizon), transparent 68%);
+}
+
+.atmospheric-cool-glow {
+  background: radial-gradient(ellipse at 52% 3%, var(--atmosphere-cool-glow), transparent 62%);
+}
+
+.atmospheric-vignette {
+  background: var(--vignette);
+}
+
+.atmospheric-form {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle at 42% 42%, rgba(129, 158, 177, 0.16), transparent 68%);
+  filter: blur(100px);
+}
+
+.atmospheric-form-a {
+  top: -20%;
+  left: -12%;
+  width: min(68vw, 900px);
+  aspect-ratio: 1;
+}
+
+.atmospheric-form-b {
+  top: -16%;
+  right: -12%;
+  width: min(62vw, 820px);
+  aspect-ratio: 1;
+  opacity: 0.72;
+}
+
+.atmospheric-form-c {
+  bottom: -28%;
+  left: 15%;
+  width: min(76vw, 1020px);
+  aspect-ratio: 1.6;
+  opacity: 0.62;
+}
+
+.atmosphere-sunset .atmospheric-form-a,
+.atmosphere-morning .atmospheric-form-c {
+  background: radial-gradient(circle at 42% 42%, rgba(183, 138, 99, 0.18), transparent 68%);
+}
+
+.atmospheric-cloud-mass {
+  opacity: var(--fog-opacity);
+  background: radial-gradient(ellipse, rgba(113, 133, 147, 0.26), transparent 70%);
 }
 
 .tradingview-market-shell {
   color-scheme: dark;
   --tv-widget-background-color: transparent;
-  --tv-widget-font-family: Inter, ui-sans-serif, system-ui, sans-serif;
-  --tv-widget-positive-color: #34d399;
-  --tv-widget-negative-color: #fb7185;
+  --tv-widget-font-family: var(--font-sans);
+  --tv-widget-positive-color: var(--positive);
+  --tv-widget-negative-color: var(--negative);
 }
 
 .tradingview-widget-host,
@@ -384,7 +449,7 @@ html, body {
   .market-panel-card > p {
     display: -webkit-box;
     overflow: hidden;
-    font-size: 9px !important;
+    font-size: var(--type-metadata) !important;
     line-height: 1.25 !important;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
@@ -429,7 +494,7 @@ html, body {
   }
 
   .context-heading {
-    font-size: 10px !important;
+    font-size: var(--type-label) !important;
   }
 
   .context-group,
@@ -515,11 +580,11 @@ html, body {
     z-index: 40;
     width: 15rem;
     padding: 0.875rem;
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-radius: 0.875rem;
-    background: rgba(2, 6, 23, 0.96);
-    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.45);
-    backdrop-filter: blur(18px);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-control);
+    background: var(--glass-secondary);
+    box-shadow: var(--glass-shadow);
+    backdrop-filter: blur(var(--glass-blur));
   }
 }
 
@@ -557,6 +622,63 @@ html, body {
   overscroll-behavior: contain;
   scrollbar-width: thin;
   scrollbar-color: rgba(148, 163, 184, 0.4) transparent;
+}
+
+/* Foundation migration helpers for feature components. */
+.panel-padding { padding: var(--panel-padding); }
+.panel-stack { gap: var(--gap-standard); }
+.panel-heading { color: var(--text-primary); font-size: var(--type-section-heading); }
+.panel-copy { color: var(--text-secondary); font-size: var(--type-body); }
+.panel-metadata { color: var(--text-muted); font-size: var(--type-metadata); }
+
+.story-list-item + .story-list-item {
+  border-top: 1px solid rgba(194, 213, 226, 0.07);
+}
+
+.story-list-item:hover,
+.featured-story:hover {
+  background: var(--tonal-section-hover);
+}
+
+.featured-story,
+.market-widget-placeholder,
+.market-widget-error,
+.empty-state,
+.error-state {
+  background: var(--tonal-section);
+  border-radius: calc(var(--radius-surface) - 0.375rem);
+}
+
+.numeric,
+.clock-display,
+.weather-temp-text,
+.context-value {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+.clock-display,
+.weather-temp-text {
+  font-family: var(--font-numeric);
+}
+
+.context-bar-container {
+  color: var(--text-secondary);
+  font-size: var(--type-metadata);
+}
+
+.context-heading {
+  color: var(--text-subtle);
+  font-size: var(--type-label);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+/* Legacy feature utilities may request 9–11px; keep meaningful dashboard copy
+   at the 12px metadata floor while those components migrate incrementally. */
+.app-shell .text-\[9px\],
+.app-shell .text-\[10px\],
+.app-shell .text-\[11px\] {
+  font-size: var(--type-metadata);
 }
 
 @media (max-width: 1199px) {

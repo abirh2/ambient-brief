@@ -42,12 +42,12 @@ export const ClockHeader: React.FC<ClockHeaderProps> = ({
   const isDeviceGps = activeLocation.source === 'device';
 
   return (
-    <header className="app-header w-full flex justify-between items-start gap-4 pt-1 pb-2 px-1 text-slate-100 z-20">
+    <header className="app-header w-full flex justify-between items-start gap-4 pt-1 pb-2 px-1 z-20">
       <div className="flex flex-col min-w-0">
         {/* Prominent Clock */}
-        <div className="clock-display flex items-baseline gap-2 font-mono font-light tracking-[-0.055em] text-white" aria-hidden="true">
-          <span className="clock-primary text-[4.75rem] sm:text-[5.5rem] lg:text-[6.5rem] leading-[0.9] tabular-nums">{hours}:{minutes}</span>
-          <span className="clock-seconds text-3xl sm:text-4xl lg:text-[2.75rem] text-slate-400/80 tabular-nums tracking-[-0.035em]">:{seconds}</span>
+        <div className="clock-display flex items-baseline gap-2 font-light tracking-[-0.055em]" aria-hidden="true">
+          <span className="clock-primary type-hero-clock leading-[0.9] tabular-nums">{hours}:{minutes}</span>
+          <span className="clock-seconds type-clock-seconds text-[color:var(--text-muted)] tabular-nums tracking-[-0.035em]">:{seconds}</span>
           {!is24h && ampm && (
             <span className="clock-period text-lg sm:text-xl font-sans font-medium tracking-[0.08em] text-slate-400 ml-1">{ampm}</span>
           )}
@@ -58,18 +58,18 @@ export const ClockHeader: React.FC<ClockHeaderProps> = ({
         </span>
         
         {/* Date and Location */}
-        <div className="clock-context flex flex-col sm:flex-row sm:items-center gap-1.5 sm:gap-3 mt-2 text-slate-200 min-w-0">
-          <h2 className="text-base sm:text-lg lg:text-xl font-medium tracking-[-0.01em]">{dateString}</h2>
+        <div className="clock-context flex flex-col sm:flex-row sm:items-center gap-1.5 sm:gap-3 mt-2 min-w-0">
+          <h2 className="type-date font-medium tracking-[-0.01em]">{dateString}</h2>
           <span className="hidden sm:inline text-slate-500">•</span>
           <div 
-            className="flex items-center gap-1.5 text-sm sm:text-base text-slate-300 font-medium min-w-0"
+            className="type-location flex items-center gap-1.5 text-[color:var(--text-secondary)] font-medium min-w-0"
             title={isDeviceGps ? `Device GPS Active — ${formattedLabel}` : formattedLabel}
             aria-label={isDeviceGps ? `Active location (Device GPS active): ${formattedLabel}` : `Active location: ${formattedLabel}`}
           >
             {isDeviceGps ? (
               <Navigation className="w-4 h-4 text-emerald-400 shrink-0" aria-hidden="true" />
             ) : (
-              <MapPin className="w-4 h-4 text-indigo-400 shrink-0" aria-hidden="true" />
+              <MapPin className="w-4 h-4 semantic-info shrink-0" aria-hidden="true" />
             )}
             <span className="truncate max-w-[min(52vw,40rem)]">{displayLocation}</span>
             {isDeviceGps && (
@@ -83,7 +83,7 @@ export const ClockHeader: React.FC<ClockHeaderProps> = ({
       <div className="flex items-center gap-2 shrink-0">
         {globalStatus && (
           <div
-            className="hidden sm:flex items-center gap-1.5 px-2 py-1.5 rounded-md bg-slate-950/25 text-[10px] font-medium text-slate-400 border border-white/[0.06] backdrop-blur-sm"
+            className="status-note hidden sm:flex items-center gap-1.5 px-2 py-1.5 font-medium"
             role="status"
             aria-live="polite"
             title="Connection and cache status"
@@ -100,10 +100,10 @@ export const ClockHeader: React.FC<ClockHeaderProps> = ({
           disabled={isRefreshing}
           aria-label="Refresh ambient data"
           title="Refresh ambient data"
-          className="p-2.5 rounded-lg bg-slate-900/40 hover:bg-slate-800/80 text-slate-300 hover:text-white border border-white/10 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-400 disabled:opacity-50 cursor-pointer shadow-sm backdrop-blur-md"
+          className="compact-control p-2.5 cursor-pointer"
         >
           <RefreshCw
-            className={`w-4 h-4 ${isRefreshing ? 'animate-spin text-indigo-400' : ''}`}
+            className={`w-4 h-4 ${isRefreshing ? 'animate-spin semantic-info' : ''}`}
           />
         </button>
         <button
@@ -112,7 +112,7 @@ export const ClockHeader: React.FC<ClockHeaderProps> = ({
           onClick={onOpenSettings}
           aria-label="Open settings preferences"
           title="Preferences"
-          className="p-2.5 rounded-lg bg-slate-900/40 hover:bg-slate-800/80 text-slate-300 hover:text-white border border-white/10 transition-all focus:outline-none focus:ring-2 focus:ring-indigo-400 cursor-pointer shadow-sm backdrop-blur-md"
+          className="compact-control p-2.5 cursor-pointer"
         >
           <Settings className="w-4 h-4" />
         </button>

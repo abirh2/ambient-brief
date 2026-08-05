@@ -22,11 +22,11 @@ export function CurrencyContextItem() {
   }, [open]);
   if (!settings.currencyEnabled) return <div className="text-slate-500 text-xs italic">Currency disabled</div>;
   return <div className="relative w-fit" ref={ref} id="context-bar-currency">
-    <button type="button" onClick={() => setOpen(!open)} className="flex items-center gap-2 hover:bg-white/5 px-2 py-1 -ml-2 rounded-md" aria-haspopup="true" aria-expanded={open}>
-      <DollarSign className="w-3.5 h-3.5 text-sky-400" /><span className="text-slate-400 w-14 font-mono">{settings.currencyPair}</span>
+    <button type="button" onClick={() => setOpen(!open)} className="compact-control flex items-center gap-2 px-2 py-1 -ml-2" aria-haspopup="true" aria-expanded={open}>
+      <DollarSign className="w-3.5 h-3.5 semantic-info" /><span className="text-[color:var(--text-muted)] w-14 numeric">{settings.currencyPair}</span>
       {rateLoading && !rate ? <Loader2 className="w-3 h-3 animate-spin" /> : rateError ? <span className="text-red-400">Unavailable</span> : rate ? <span className="font-semibold text-slate-100 font-mono">{formatCurrencyValue(rate.rate)}{isStale && <span className="text-[10px] text-amber-400 ml-1 font-sans font-normal">(stale)</span>}</span> : <span className="text-slate-500">--</span>}
     </button>
-    {open && <div className="absolute bottom-full left-0 mb-2 w-72 p-4 rounded-xl bg-slate-950 border border-white/15 shadow-2xl text-xs text-slate-200 z-50 flex flex-col gap-3 backdrop-blur-md">
+    {open && <div data-variant="secondary" className="glass-panel absolute bottom-full left-0 mb-2 w-72 p-4 text-xs z-50 flex flex-col gap-3">
       <div className="flex justify-between border-b border-white/10 pb-2"><strong className="text-sm">Exchange Rate Details</strong><button type="button" onClick={() => setOpen(false)} aria-label="Close details"><X className="w-3.5 h-3.5" /></button></div>
       {rateLoading && <div className="flex justify-center py-4 gap-2 text-slate-400"><Loader2 className="w-4 h-4 animate-spin" />Fetching latest rates...</div>}
       {rateError && !rateLoading && <div className="text-center py-2 text-red-400 bg-red-950/20 rounded-lg">{rateError}</div>}

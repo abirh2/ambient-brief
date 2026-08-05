@@ -21,7 +21,7 @@ export function App() {
     : null;
 
   return (
-    <div className={`app-shell min-h-[100dvh] w-full overflow-x-clip text-slate-100 antialiased selection:bg-indigo-500/30 selection:text-indigo-200 ${dashboard.settings.reducedMotion ? 'reduce-motion' : ''}`}>
+    <div className={`app-shell ambient-canvas min-h-[100dvh] w-full overflow-x-clip antialiased ${dashboard.settings.reducedMotion ? 'reduce-motion' : ''}`}>
       <AtmosphericBackground
         currentWeatherCondition={dashboard.weatherData?.condition}
         sunrise={dashboard.weatherData?.sunrise}
@@ -32,13 +32,13 @@ export function App() {
 
       <div className="app-container">
         {dashboard.isDemoMode && (
-          <div className="ambient-demo w-full bg-amber-500/15 border border-amber-500/40 text-amber-200 px-4 py-2.5 rounded-xl text-xs flex items-center justify-between z-20 shadow-lg backdrop-blur-md">
+          <div className="ambient-demo tonal-section semantic-warning w-full px-4 py-2.5 text-xs flex items-center justify-between z-20">
             <div className="flex items-center gap-2 min-w-0">
               <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse shrink-0" />
               <span className="font-semibold shrink-0">Demo Data Active</span>
               <span className="text-amber-300/80 truncate">· Displaying simulated sample briefs and data across domains.</span>
             </div>
-            <button type="button" onClick={() => dashboard.updateSettings({ isDemoMode: false })} className="px-2.5 py-1 bg-amber-600 hover:bg-amber-500 text-white rounded font-medium text-[11px] transition-colors shadow shrink-0">
+            <button type="button" onClick={() => dashboard.updateSettings({ isDemoMode: false })} className="compact-control px-2.5 py-1 font-medium text-xs shrink-0">
               Reset to Live Mode
             </button>
           </div>
