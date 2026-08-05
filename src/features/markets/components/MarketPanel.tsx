@@ -67,7 +67,7 @@ export function MarketPanel() {
   if (!settings.showMarkets) return null;
 
   return (
-    <GlassSurface className={`market-panel-card ${isCompact ? 'p-4' : 'p-5 sm:p-6'} flex h-full min-h-[180px] flex-col gap-4`}>
+    <GlassSurface className={`market-panel-card ${isCompact ? 'p-4' : 'p-5 sm:p-6'} flex min-h-[180px] min-w-0 flex-col gap-4`}>
       <div className="flex flex-col gap-1 border-b border-white/10 pb-3 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex items-center gap-2">
           <TrendingUp className="h-5 w-5 text-emerald-400" aria-hidden="true" />
@@ -78,7 +78,7 @@ export function MarketPanel() {
         </span>
       </div>
 
-      <div className="tradingview-market-shell relative flex min-h-[76px] w-full flex-1 items-center" aria-busy={status === 'loading'}>
+      <div className="tradingview-market-shell relative flex min-h-[76px] w-full items-center" aria-busy={status === 'loading'}>
         <div ref={widgetHostRef} className={`tradingview-widget-host w-full ${status === 'ready' ? 'is-ready' : ''}`} />
 
         {status === 'loading' && (

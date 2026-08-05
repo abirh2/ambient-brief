@@ -58,8 +58,8 @@ export class RefreshCoordinator {
     this.isOnline = options.isOnline ?? (() => typeof navigator === 'undefined' || navigator.onLine !== false);
     this.isHidden = options.isHidden ?? (() => typeof document !== 'undefined' && document.hidden);
     this.routineIntervalMs = options.routineIntervalMs ?? DEFAULT_ROUTINE_INTERVAL_MS;
-    this.createInterval = options.setInterval ?? globalThis.setInterval;
-    this.destroyInterval = options.clearInterval ?? globalThis.clearInterval;
+    this.createInterval = options.setInterval ?? globalThis.setInterval.bind(globalThis);
+    this.destroyInterval = options.clearInterval ?? globalThis.clearInterval.bind(globalThis);
   }
 
   async start(): Promise<RefreshSummary> {

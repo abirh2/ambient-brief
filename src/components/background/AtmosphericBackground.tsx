@@ -72,7 +72,7 @@ export const AtmosphericBackground: React.FC<AtmosphericBackgroundProps> = ({
   return (
     <div
       aria-hidden="true"
-      className={`fixed inset-0 z-[-1] w-full h-full overflow-hidden bg-[#04060c] pointer-events-none select-none ${motionClass}`}
+      className={`atmospheric-background fixed inset-0 z-0 w-full h-full overflow-hidden bg-[#04060c] pointer-events-none select-none ${motionClass}`}
     >
       {/* LAYER 1: BASE TIME-OF-DAY GRADIENT */}
       <TimeOfDayBaseGradient timeOfDay={timeOfDay} weatherEffect={weatherEffect} />

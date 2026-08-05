@@ -40,7 +40,7 @@ export function SettingsDrawer({ isOpen, onClose, triggerRef }: SettingsDrawerPr
   if (!isOpen) return null;
   return <div className="fixed inset-0 z-[70] flex justify-end" role="dialog" aria-modal="true" aria-labelledby="settings-drawer-title">
     <div onClick={onClose} className="fixed inset-0 bg-black/60 backdrop-blur-sm z-[60]" />
-    <aside ref={drawerRef} className={`relative z-[70] w-full sm:max-w-[400px] 2xl:max-w-[440px] h-full bg-[#0f172a]/95 text-slate-100 border-l border-white/10 shadow-2xl flex flex-col justify-between overflow-y-auto no-scrollbar p-6 backdrop-blur-2xl ${settings.reducedMotion ? '' : 'transition-transform duration-300 ease-out'}`}>
+    <aside ref={drawerRef} className={`settings-drawer relative z-[70] h-full min-h-0 w-full overflow-x-hidden overflow-y-auto sm:max-w-[400px] 2xl:max-w-[440px] bg-[#0f172a]/95 text-slate-100 border-l border-white/10 shadow-2xl flex flex-col justify-between p-6 backdrop-blur-2xl ${settings.reducedMotion ? '' : 'transition-transform duration-300 ease-out'}`}>
       <div className="flex flex-col gap-6">
         <header className="flex items-center justify-between border-b border-white/10 pb-4"><div className="flex gap-2"><Sliders className="w-5 h-5 text-indigo-400" /><div><h2 id="settings-drawer-title" className="text-lg font-bold">Preferences</h2><p className="text-xs text-slate-400">Customize Ambient Brief dashboard</p></div></div><button ref={closeButtonRef} type="button" onClick={onClose} aria-label="Close preferences drawer" className="p-1.5 rounded-lg bg-white/5 text-slate-400 hover:text-white"><X className="w-5 h-5" /></button></header>
         <LocationSettingsSection />

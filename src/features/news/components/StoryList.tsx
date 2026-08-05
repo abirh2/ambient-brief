@@ -7,11 +7,11 @@ import { NewsImage } from './NewsImage';
 
 interface StoryListProps {
   articles: Headline[];
+  defaultVisibleCount?: number;
 }
 
-export const StoryList: React.FC<StoryListProps> = ({ articles }) => {
+export const StoryList: React.FC<StoryListProps> = ({ articles, defaultVisibleCount = 3 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
-  const defaultVisibleCount = 3;
   const hasMore = articles.length > defaultVisibleCount;
   const visibleArticles = isExpanded ? articles : articles.slice(0, defaultVisibleCount);
 

@@ -6,6 +6,7 @@ import { StoryList } from './StoryList';
 import { NewsSkeleton } from './NewsSkeleton';
 import type { Headline, NewsCategory, NewsState } from '../model';
 import { useSettingsStore } from '../../../stores/settingsStore';
+import { useViewportWidth } from '../../../hooks/useViewportWidth';
 
 interface NewsPanelProps {
   state: NewsState;
@@ -26,12 +27,15 @@ export const NewsPanel: React.FC<NewsPanelProps> = ({
   onRetry,
 }) => {
   const { settings } = useSettingsStore();
+  const viewport = useViewportWidth();
   const categories: NewsCategory[] =
     settings.newsCategories.length > 0 ? settings.newsCategories : ['Top', 'U.S.', 'Technology'];
   const [activeCategory, setActiveCategory] = useState<NewsCategory>(categories[0] || 'Top');
 
   const currentCategory = categories.includes(activeCategory) ? activeCategory : categories[0];
   const isCompact = settings.contentDensity === 'compact';
+  const compactHeight = viewport.width >= 1200 && viewport.height <= 900;
+  const defaultSecondaryCount = compactHeight ? 1 : 3;
 
   // 1. Loading state
   if (state.status === 'loading') {
@@ -41,7 +45,7 @@ export const NewsPanel: React.FC<NewsPanelProps> = ({
   // 2. Empty state
   if (state.status === 'empty') {
     return (
-      <GlassSurface className={`news-panel-card news-empty-state ${isCompact ? 'p-4' : 'p-5 sm:p-6'} flex flex-col gap-4 h-full min-h-[380px]`}>
+      <GlassSurface className={`news-panel-card news-empty-state ${isCompact ? 'p-4' : 'p-5 sm:p-6'} flex flex-col gap-4 min-h-[260px]`}>
         {/* Header */}
         <div className="flex items-center justify-between border-b border-white/10 pb-3">
           <div className="flex items-center gap-2">
@@ -90,7 +94,7 @@ export const NewsPanel: React.FC<NewsPanelProps> = ({
   // 3. Error state
   if (state.status === 'error') {
     return (
-      <GlassSurface className={`news-panel-card news-error-state ${isCompact ? 'p-4' : 'p-5 sm:p-6'} flex flex-col gap-4 h-full min-h-[380px]`}>
+      <GlassSurface className={`news-panel-card news-error-state ${isCompact ? 'p-4' : 'p-5 sm:p-6'} flex flex-col gap-4 min-h-[260px]`}>
         {/* Header */}
         <div className="flex items-center justify-between border-b border-white/10 pb-3">
           <div className="flex items-center gap-2">
@@ -138,7 +142,7 @@ export const NewsPanel: React.FC<NewsPanelProps> = ({
   const secondary = visibleStories.slice(1);
 
   return (
-    <GlassSurface className={`news-panel-card ${isCompact ? 'p-4' : 'p-5 sm:p-6'} flex flex-col gap-4 h-full`}>
+    <GlassSurface className={`news-panel-card ${isCompact ? 'p-4' : 'p-5 sm:p-6'} flex min-w-0 flex-col gap-4`}>
       <div className={`flex items-center gap-1.5 px-3 py-1 rounded-md text-[11px] font-sans font-medium w-fit ${isCached ? 'bg-amber-950/70 border border-amber-700/40 text-amber-200' : 'bg-white/5 border border-white/5 text-slate-400'}`}>
         <Clock className={`w-3.5 h-3.5 shrink-0 ${isCached ? 'text-amber-400' : 'text-slate-500'}`} />
         <span>{state.updatedText}</span>
@@ -189,11 +193,11 @@ export const NewsPanel: React.FC<NewsPanelProps> = ({
       </div>
 
       {/* Stories list container */}
-      <div className="news-scroll-container flex flex-col gap-3 overflow-y-auto max-h-[340px] pr-1 no-scrollbar">
+      <div className="news-content flex min-h-0 min-w-0 flex-col gap-3">
         {featured ? (
           <>
             <FeaturedStory article={featured} />
-            <StoryList articles={secondary} />
+            <StoryList articles={secondary} defaultVisibleCount={defaultSecondaryCount} />
           </>
         ) : (
           <div role="status" className="flex min-h-44 flex-col items-center justify-center gap-2 rounded-xl border border-white/5 bg-slate-900/30 p-6 text-center">

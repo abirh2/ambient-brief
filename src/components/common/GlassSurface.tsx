@@ -20,7 +20,7 @@ export const GlassSurface: React.FC<GlassSurfaceProps> = ({
   return (
     <div
       id={id}
-      className={`glass-panel relative overflow-hidden transition-all duration-300 ${className}`}
+      className={`glass-panel relative transition-all duration-300 ${className}`}
       style={{
         backgroundColor: `rgba(15, 23, 42, ${Math.min(Math.max(effectiveIntensity, 0.2), 0.95)})`,
       }}
