@@ -68,223 +68,257 @@ html, body {
   align-self: start;
 }
 
-/* Atmospheric Background Keyframe Animations */
-
-/* 1. Large Cloud / Light Form Drifts (GPU Accelerated via translate3d) */
-@keyframes atmospheric-drift-a {
-  0% {
-    transform: translate3d(0%, 0%, 0) scale(1);
-  }
-  50% {
-    transform: translate3d(4%, 3%, 0) scale(1.06);
-  }
-  100% {
-    transform: translate3d(0%, 0%, 0) scale(1);
-  }
+/* Fixed ambient canvas. Gradients create their own softness so no large layer
+   needs an animated blur filter. */
+.atmospheric-background {
+  --atmosphere-base: var(--gradient-night);
+  --horizon-light: rgba(111, 149, 179, 0.2);
+  --local-light: rgba(115, 159, 193, 0.16);
+  --haze-a-opacity: 0.5;
+  --haze-b-opacity: 0.36;
+  --haze-c-opacity: 0.28;
+  --motion-strength: 1;
+  position: fixed;
+  z-index: 0;
+  inset: 0;
+  contain: strict;
+  overflow: hidden;
+  pointer-events: none;
+  user-select: none;
+  background: var(--atmosphere-base);
 }
 
-@keyframes atmospheric-drift-b {
-  0% {
-    transform: translate3d(0%, 0%, 0) scale(1.05);
-  }
-  50% {
-    transform: translate3d(-5%, -3%, 0) scale(0.96);
-  }
-  100% {
-    transform: translate3d(0%, 0%, 0) scale(1.05);
-  }
+.atmospheric-background::before,
+.atmospheric-background::after {
+  position: absolute;
+  inset: -5%;
+  content: "";
+  pointer-events: none;
 }
 
-@keyframes atmospheric-drift-c {
-  0% {
-    transform: translate3d(0%, 0%, 0) scale(0.98);
-  }
-  50% {
-    transform: translate3d(3%, -4%, 0) scale(1.04);
-  }
-  100% {
-    transform: translate3d(0%, 0%, 0) scale(0.98);
-  }
+.atmospheric-background::before {
+  background:
+    radial-gradient(ellipse at 16% 27%, var(--local-light), transparent 38%),
+    radial-gradient(ellipse at 52% 82%, var(--horizon-light), transparent 62%);
 }
 
-/* 2. Weather Effect Animations */
-@keyframes rain-slide {
-  0% {
-    transform: translate3d(0, -100px, 0);
-  }
-  100% {
-    transform: translate3d(-30px, 400px, 0);
-  }
+.atmospheric-background::after {
+  z-index: 4;
+  background-image:
+    var(--vignette),
+    radial-gradient(circle, rgba(238, 245, 248, 0.09) 0 0.45px, transparent 0.7px),
+    radial-gradient(circle, rgba(7, 15, 24, 0.15) 0 0.5px, transparent 0.8px);
+  background-position: center, 0 0, 2px 1px;
+  background-size: auto, 4px 4px, 5px 5px;
+  opacity: 0.78;
 }
 
-@keyframes snow-fall {
-  0% {
-    transform: translate3d(0, -50px, 0) rotate(0deg);
-  }
-  50% {
-    transform: translate3d(20px, 250px, 0) rotate(180deg);
-  }
-  100% {
-    transform: translate3d(-10px, 550px, 0) rotate(360deg);
-  }
+.atmospheric-background[data-time="morning"] {
+  --atmosphere-base: var(--gradient-morning);
+  --horizon-light: rgba(225, 181, 139, 0.3);
+  --local-light: rgba(184, 207, 218, 0.2);
 }
 
-@keyframes fog-drift {
-  0% {
-    transform: translate3d(-8%, 0, 0);
-  }
-  50% {
-    transform: translate3d(8%, 0, 0);
-  }
-  100% {
-    transform: translate3d(-8%, 0, 0);
-  }
+.atmospheric-background[data-time="day"] {
+  --atmosphere-base: var(--gradient-day);
+  --horizon-light: rgba(216, 229, 231, 0.25);
+  --local-light: rgba(226, 238, 239, 0.22);
 }
 
-@keyframes star-twinkle {
-  0%, 100% {
-    opacity: 0.3;
-  }
-  50% {
-    opacity: 0.8;
-  }
+.atmospheric-background[data-time="sunset"] {
+  --atmosphere-base: var(--gradient-sunset);
+  --horizon-light: rgba(225, 154, 104, 0.34);
+  --local-light: rgba(190, 155, 145, 0.18);
 }
 
-/* Animation Classes */
-.animate-cloud-a {
-  animation: atmospheric-drift-a 45s ease-in-out infinite;
+.atmospheric-haze {
+  position: absolute;
+  display: block;
+  border-radius: 48%;
+  transform: translate3d(0, 0, 0);
+  transform-origin: center;
+}
+
+.atmospheric-haze-a {
+  top: -25vh;
+  left: -24vw;
+  width: 102vw;
+  height: 82vh;
+  opacity: calc(var(--haze-a-opacity) * var(--motion-strength));
+  background:
+    radial-gradient(ellipse at 40% 48%, rgba(159, 181, 194, 0.25), transparent 57%),
+    radial-gradient(ellipse at 70% 58%, rgba(83, 109, 127, 0.17), transparent 64%);
+}
+
+.atmospheric-haze-b {
+  top: 3vh;
+  right: -33vw;
+  width: 108vw;
+  height: 76vh;
+  opacity: calc(var(--haze-b-opacity) * var(--motion-strength));
+  background:
+    radial-gradient(ellipse at 44% 44%, rgba(130, 153, 166, 0.24), transparent 58%),
+    radial-gradient(ellipse at 72% 60%, rgba(63, 86, 104, 0.2), transparent 65%);
+}
+
+.atmospheric-haze-c {
+  right: -18vw;
+  bottom: -40vh;
+  width: 126vw;
+  height: 86vh;
+  opacity: calc(var(--haze-c-opacity) * var(--motion-strength));
+  background: radial-gradient(ellipse at 48% 38%, rgba(145, 165, 174, 0.22), transparent 62%);
+}
+
+.atmospheric-background[data-weather="clear"] {
+  --haze-a-opacity: 0.38;
+  --haze-b-opacity: 0.2;
+  --haze-c-opacity: 0.18;
+}
+
+.atmospheric-background[data-weather="cloudy"] {
+  --haze-a-opacity: 0.82;
+  --haze-b-opacity: 0.68;
+  --haze-c-opacity: 0.54;
+}
+
+.atmospheric-background[data-weather="rain"] {
+  --haze-a-opacity: 0.88;
+  --haze-b-opacity: 0.74;
+  --haze-c-opacity: 0.48;
+  --horizon-light: rgba(102, 136, 158, 0.16);
+}
+
+.atmospheric-background[data-weather="rain"] .atmospheric-haze-a,
+.atmospheric-background[data-weather="rain"] .atmospheric-haze-b {
+  background:
+    radial-gradient(ellipse at 42% 48%, rgba(88, 111, 127, 0.35), transparent 58%),
+    linear-gradient(164deg, transparent 28%, rgba(121, 145, 158, 0.09) 48%, transparent 70%);
+}
+
+.atmospheric-background[data-weather="snow"] {
+  --haze-a-opacity: 0.86;
+  --haze-b-opacity: 0.72;
+  --haze-c-opacity: 0.66;
+  --horizon-light: rgba(216, 229, 233, 0.25);
+}
+
+.atmospheric-background[data-weather="snow"] .atmospheric-haze {
+  background: radial-gradient(ellipse at 48% 48%, rgba(213, 225, 229, 0.3), transparent 64%);
+}
+
+.atmospheric-background[data-weather="storm"] {
+  --haze-a-opacity: 0.96;
+  --haze-b-opacity: 0.88;
+  --haze-c-opacity: 0.66;
+  --horizon-light: rgba(78, 100, 119, 0.12);
+  --local-light: rgba(103, 127, 145, 0.1);
+}
+
+.atmospheric-background[data-weather="storm"] .atmospheric-haze {
+  background:
+    radial-gradient(ellipse at 42% 44%, rgba(45, 59, 72, 0.5), transparent 62%),
+    radial-gradient(ellipse at 68% 62%, rgba(18, 28, 40, 0.44), transparent 66%);
+}
+
+.atmospheric-background[data-weather="fog"] {
+  --haze-a-opacity: 0.66;
+  --haze-b-opacity: 0.72;
+  --haze-c-opacity: 0.8;
+  --horizon-light: rgba(199, 215, 219, 0.24);
+}
+
+.atmospheric-background[data-weather="fog"] .atmospheric-haze {
+  height: 48vh;
+  border-radius: 42%;
+  background: radial-gradient(ellipse at center, rgba(198, 213, 216, 0.28), transparent 69%);
+}
+
+.atmospheric-background[data-weather="fog"] .atmospheric-haze-a { top: 5vh; }
+.atmospheric-background[data-weather="fog"] .atmospheric-haze-b { top: 31vh; }
+.atmospheric-background[data-weather="fog"] .atmospheric-haze-c { bottom: -8vh; }
+
+@keyframes atmosphere-drift-a {
+  0%, 100% { transform: translate3d(-2%, -1%, 0) scale(1.01); }
+  50% { transform: translate3d(4%, 2%, 0) scale(1.05); }
+}
+
+@keyframes atmosphere-drift-b {
+  0%, 100% { transform: translate3d(2%, 1%, 0) scale(1.04); }
+  50% { transform: translate3d(-4%, -2%, 0) scale(0.99); }
+}
+
+@keyframes atmosphere-drift-c {
+  0%, 100% { transform: translate3d(-1%, 2%, 0) scale(1); }
+  50% { transform: translate3d(3%, -2%, 0) scale(1.04); }
+}
+
+@keyframes atmosphere-light-shift {
+  0%, 100% { transform: translate3d(-1%, 0, 0) scale(1); }
+  50% { transform: translate3d(1.5%, -1%, 0) scale(1.02); }
+}
+
+.atmospheric-background[data-motion="living"]::before {
+  animation: atmosphere-light-shift 108s ease-in-out infinite;
+}
+
+.atmospheric-background[data-motion="living"] .atmospheric-haze-a {
+  animation: atmosphere-drift-a 78s ease-in-out infinite;
+}
+
+.atmospheric-background[data-motion="living"] .atmospheric-haze-b {
+  animation: atmosphere-drift-b 96s ease-in-out infinite;
+}
+
+.atmospheric-background[data-motion="living"] .atmospheric-haze-c {
+  animation: atmosphere-drift-c 116s ease-in-out infinite;
+}
+
+.atmospheric-background[data-motion="subtle"] {
+  --motion-strength: 0.72;
+}
+
+.atmospheric-background[data-motion="subtle"]::before {
+  animation: atmosphere-light-shift 210s ease-in-out infinite;
+}
+
+.atmospheric-background[data-motion="subtle"] .atmospheric-haze-a {
+  animation: atmosphere-drift-a 168s ease-in-out infinite;
+}
+
+.atmospheric-background[data-motion="subtle"] .atmospheric-haze-b {
+  animation: atmosphere-drift-b 204s ease-in-out infinite;
+}
+
+.atmospheric-background[data-motion="subtle"] .atmospheric-haze-c {
+  animation: atmosphere-drift-c 228s ease-in-out infinite;
+}
+
+.atmospheric-background[data-motion="living"]::before,
+.atmospheric-background[data-motion="living"] .atmospheric-haze,
+.atmospheric-background[data-motion="subtle"]::before,
+.atmospheric-background[data-motion="subtle"] .atmospheric-haze {
   will-change: transform;
 }
 
-.animate-cloud-b {
-  animation: atmospheric-drift-b 60s ease-in-out infinite;
-  will-change: transform;
-}
-
-.animate-cloud-c {
-  animation: atmospheric-drift-c 55s ease-in-out infinite;
-  will-change: transform;
-}
-
-.animate-rain {
-  animation: rain-slide 1.2s linear infinite;
-  will-change: transform;
-}
-
-.animate-snow {
-  animation: snow-fall 12s ease-in-out infinite;
-  will-change: transform;
-}
-
-.animate-fog {
-  animation: fog-drift 50s ease-in-out infinite;
-  will-change: transform;
-}
-
-.animate-star {
-  animation: star-twinkle 6s ease-in-out infinite;
-}
-
-/* Motion Level Modifiers */
-.motion-subtle .animate-cloud-a,
-.motion-subtle .animate-cloud-b,
-.motion-subtle .animate-cloud-c {
-  animation-duration: 90s;
-}
-
-.motion-subtle .animate-fog {
-  animation-duration: 90s;
-}
-
-.motion-subtle .animate-rain {
-  opacity: 0.4;
-  animation-duration: 2s;
-}
-
-.motion-static *,
-.tab-hidden * {
+.atmospheric-background[data-visibility="hidden"]::before,
+.atmospheric-background[data-visibility="hidden"] .atmospheric-haze {
   animation-play-state: paused !important;
 }
 
 .reduce-motion *,
 .reduce-motion *::before,
 .reduce-motion *::after {
-  animation-duration: 0.01ms !important;
-  animation-iteration-count: 1 !important;
+  animation: none !important;
   transition-duration: 0.01ms !important;
   scroll-behavior: auto !important;
 }
 
-.atmospheric-grain {
-  background-image:
-    repeating-linear-gradient(117deg, rgba(255, 255, 255, 0.025) 0 1px, transparent 1px 4px),
-    repeating-linear-gradient(23deg, rgba(148, 163, 184, 0.018) 0 1px, transparent 1px 5px);
-  background-size: 7px 9px, 11px 13px;
-  opacity: var(--grain-opacity);
-}
-
-.atmospheric-background {
-  background: var(--canvas-base);
-}
-
-.atmospheric-base {
-  background: var(--gradient-night);
-}
-
-.atmosphere-morning .atmospheric-base { background: var(--gradient-morning); }
-.atmosphere-day .atmospheric-base { background: var(--gradient-day); }
-.atmosphere-sunset .atmospheric-base { background: var(--gradient-sunset); }
-
-.atmospheric-horizon {
-  background: radial-gradient(ellipse at 50% 78%, var(--atmosphere-horizon), transparent 68%);
-}
-
-.atmospheric-cool-glow {
-  background: radial-gradient(ellipse at 52% 3%, var(--atmosphere-cool-glow), transparent 62%);
-}
-
-.atmospheric-vignette {
-  background: var(--vignette);
-}
-
-.atmospheric-form {
-  position: absolute;
-  border-radius: 50%;
-  background: radial-gradient(circle at 42% 42%, rgba(129, 158, 177, 0.16), transparent 68%);
-  filter: blur(100px);
-}
-
-.atmospheric-form-a {
-  top: -20%;
-  left: -12%;
-  width: min(68vw, 900px);
-  aspect-ratio: 1;
-}
-
-.atmospheric-form-b {
-  top: -16%;
-  right: -12%;
-  width: min(62vw, 820px);
-  aspect-ratio: 1;
-  opacity: 0.72;
-}
-
-.atmospheric-form-c {
-  bottom: -28%;
-  left: 15%;
-  width: min(76vw, 1020px);
-  aspect-ratio: 1.6;
-  opacity: 0.62;
-}
-
-.atmosphere-sunset .atmospheric-form-a,
-.atmosphere-morning .atmospheric-form-c {
-  background: radial-gradient(circle at 42% 42%, rgba(183, 138, 99, 0.18), transparent 68%);
-}
-
-.atmospheric-cloud-mass {
-  opacity: var(--fog-opacity);
-  background: radial-gradient(ellipse, rgba(113, 133, 147, 0.26), transparent 70%);
+@media (prefers-reduced-motion: reduce) {
+  .atmospheric-background::before,
+  .atmospheric-background .atmospheric-haze {
+    animation: none !important;
+  }
 }
 
 .tradingview-market-shell {

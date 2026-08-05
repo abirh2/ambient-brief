@@ -40,6 +40,10 @@ describe('atmosphericCalculator', () => {
     expect(deriveWeatherEffect('Thunderstorm')).toBe('storm');
   });
 
+  it('keeps compound thunderstorm conditions in the storm state', () => {
+    expect(deriveWeatherEffect('Thunderstorms with heavy rain')).toBe('storm');
+  });
+
   it('handles missing weather gracefully', () => {
     expect(deriveWeatherEffect(undefined)).toBe('clear');
     expect(deriveWeatherEffect('')).toBe('clear');

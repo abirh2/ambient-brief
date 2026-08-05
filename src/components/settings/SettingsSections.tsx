@@ -23,6 +23,7 @@ const toggleClass = 'tonal-section flex items-center justify-between text-xs tex
 
 export function DisplaySettingsSection() {
   const { settings, updateSettings } = useSettingsStore();
+  const effectiveGlassIntensity = Math.min(Math.max(settings.glassIntensity, 0.5), 0.85);
   return <>
     <section className={sectionClass}>
       <h3 className={titleClass}><Monitor className="w-3.5 h-3.5" /> General Display</h3>
@@ -38,8 +39,8 @@ export function DisplaySettingsSection() {
         </div>
       </div>
       <label className="flex flex-col gap-1.5 text-xs text-slate-300">
-        <span className="flex justify-between">Glass opacity <span className="numeric semantic-info">{Math.round(settings.glassIntensity * 100)}%</span></span>
-        <input type="range" min={0.2} max={0.9} step={0.05} value={settings.glassIntensity} onChange={(event) => updateSettings({ glassIntensity: Number(event.target.value) })} className="w-full accent-sky-300 h-1.5" />
+        <span className="flex justify-between">Glass opacity <span className="numeric semantic-info">{Math.round(effectiveGlassIntensity * 100)}%</span></span>
+        <input type="range" min={0.5} max={0.85} step={0.05} value={effectiveGlassIntensity} onChange={(event) => updateSettings({ glassIntensity: Number(event.target.value) })} className="w-full accent-sky-300 h-1.5" />
       </label>
       <SegmentedSetting label="Content Density" values={['comfortable', 'compact'] as ContentDensity[]} value={settings.contentDensity} labels={['Comfortable', 'Compact']} onChange={(contentDensity) => updateSettings({ contentDensity })} />
       <ToggleRow label="Reduce motion" checked={settings.reducedMotion} onChange={(reducedMotion) => updateSettings({ reducedMotion })} />

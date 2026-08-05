@@ -119,9 +119,9 @@ export function deriveTimeOfDay(
 export function deriveWeatherEffect(condition?: string): WeatherEffectVariant {
   if (!condition) return 'clear';
   const cond = condition.toLowerCase();
+  if (cond.includes('thunder') || cond.includes('storm')) return 'storm';
   if (cond.includes('rain') || cond.includes('shower') || cond.includes('drizzle')) return 'rain';
   if (cond.includes('snow') || cond.includes('flurry') || cond.includes('sleet')) return 'snow';
-  if (cond.includes('thunder') || cond.includes('storm')) return 'storm';
   if (cond.includes('fog') || cond.includes('mist') || cond.includes('haze')) return 'fog';
   if (cond.includes('cloud') || cond.includes('overcast')) return 'cloudy';
   return 'clear';
