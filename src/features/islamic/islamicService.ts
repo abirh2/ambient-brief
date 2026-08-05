@@ -234,7 +234,8 @@ export async function fetchScheduleForDate(
   lng: number,
   dateStr: string, // "DD-MM-YYYY"
   methodKey: string,
-  schoolKey: string
+  schoolKey: string,
+  signal?: AbortSignal,
 ): Promise<DailyPrayerSchedule> {
   const methodId = ALADHAN_CALCULATION_METHODS[methodKey as keyof typeof ALADHAN_CALCULATION_METHODS]?.id ?? 2;
   const schoolId = ALADHAN_ASR_METHODS[schoolKey as keyof typeof ALADHAN_ASR_METHODS]?.id ?? 1;
@@ -249,7 +250,7 @@ export async function fetchScheduleForDate(
 
   // Live fetch from AlAdhan API
   const url = `https://api.aladhan.com/v1/timings/${dateStr}?latitude=${lat}&longitude=${lng}&method=${methodId}&school=${schoolId}`;
-  const res = await fetch(url);
+  const res = await fetch(url, { signal });
   if (!res.ok) {
     throw new Error(`HTTP error! status: ${res.status}`);
   }

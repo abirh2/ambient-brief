@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useRef, useState } from 'react';
 import { useAppLocation } from '../../../hooks/useAppLocation';
 import { useDiagnosticsStore } from '../../../lib/api/diagnosticsStore';
 import { CACHE_POLICIES } from '../../../lib/api/policies';
@@ -7,7 +7,6 @@ import { WeatherAlert } from '../../../lib/types';
 import { fetchNWSAlerts, isActiveNWSAlert, sortNWSAlerts } from '../providers/nwsAlertsProvider';
 
 const DISMISSED_ALERTS_KEY = 'ambient_dismissed_nws_alerts_v2';
-const REFRESH_INTERVAL_MS = 10 * 60 * 1000;
 
 interface DismissedAlert {
   id: string;
@@ -47,12 +46,16 @@ function withoutDismissed(alerts: WeatherAlert[]): WeatherAlert[] {
 
 export function useNWSAlerts() {
   const { activeLocation } = useAppLocation();
-  const [alerts, setAlerts] = useState<WeatherAlert[]>([]);
-  const abortControllerRef = useRef<AbortController | null>(null);
+  const [alerts, setAlerts] = useState<WeatherAlert[]>(() => {
+    if (!isUSLocation(activeLocation.countryCode)) return [];
+    const cached = cacheService.readCache<WeatherAlert[]>(cacheKey(activeLocation.latitude, activeLocation.longitude), CACHE_POLICIES.nwsAlerts);
+    return cached.state === 'fresh' || cached.state === 'stale'
+      ? withoutDismissed(cached.data.filter((alert) => isActiveNWSAlert(alert)))
+      : [];
+  });
   const providerDisabledRef = useRef(false);
 
   const clearForUnsupportedLocation = useCallback(() => {
-    abortControllerRef.current?.abort();
     setAlerts([]);
     useDiagnosticsStore.getState().updateDiagnostic('weatherAlerts', {
       status: 'idle',
@@ -60,31 +63,29 @@ export function useNWSAlerts() {
     });
   }, []);
 
-  const loadNWSAlerts = useCallback(async () => {
+  const loadNWSAlerts = useCallback(async (_force = false, signal?: AbortSignal): Promise<'success' | 'cached' | 'skipped'> => {
     if (!isUSLocation(activeLocation.countryCode)) {
       clearForUnsupportedLocation();
-      return;
+      return 'skipped';
     }
-    if (providerDisabledRef.current) return;
+    if (providerDisabledRef.current) return 'skipped';
 
-    abortControllerRef.current?.abort();
-    const controller = new AbortController();
-    abortControllerRef.current = controller;
     const key = cacheKey(activeLocation.latitude, activeLocation.longitude);
     const startedAt = Date.now();
     useDiagnosticsStore.getState().updateDiagnostic('weatherAlerts', { status: 'loading', errorMessage: undefined });
 
     try {
-      const fetchedAlerts = await fetchNWSAlerts(activeLocation.latitude, activeLocation.longitude, controller.signal);
-      if (controller.signal.aborted) return;
+      const fetchedAlerts = await fetchNWSAlerts(activeLocation.latitude, activeLocation.longitude, signal);
+      if (signal?.aborted) throw new DOMException('Aborted', 'AbortError');
       cacheService.setCache(key, fetchedAlerts, CACHE_POLICIES.nwsAlerts);
       setAlerts(withoutDismissed(fetchedAlerts));
       useDiagnosticsStore.getState().updateDiagnostic('weatherAlerts', {
         status: 'success', cacheSource: 'network', isStale: false,
         lastFetchedAt: new Date().toISOString(), responseTimeMs: Date.now() - startedAt,
       });
+      return 'success';
     } catch (cause: unknown) {
-      if (controller.signal.aborted) return;
+      if (signal?.aborted || (cause instanceof Error && cause.name === 'AbortError')) throw cause;
       const cached = cacheService.readCache<WeatherAlert[]>(key, CACHE_POLICIES.nwsAlerts);
       if (cached.state === 'fresh' || cached.state === 'stale') {
         setAlerts(withoutDismissed(cached.data.filter((alert) => isActiveNWSAlert(alert))));
@@ -92,7 +93,7 @@ export function useNWSAlerts() {
           status: 'success', cacheSource: 'cache', isStale: true, responseTimeMs: Date.now() - startedAt,
           errorMessage: 'Live NWS request failed; showing cached alerts.',
         });
-        return;
+        return 'cached';
       }
 
       const isDirectAccessFailure = cause instanceof TypeError;
@@ -104,6 +105,7 @@ export function useNWSAlerts() {
           : cause instanceof Error ? cause.message : 'NWS alerts request failed.',
       });
       setAlerts([]);
+      throw cause;
     }
   }, [activeLocation, clearForUnsupportedLocation]);
 
@@ -113,16 +115,11 @@ export function useNWSAlerts() {
     setAlerts((current) => current.filter((alert) => alert.id !== id));
   }, []);
 
-  useEffect(() => {
-    void loadNWSAlerts();
-    const intervalId = window.setInterval(() => {
-      if (document.visibilityState === 'visible') void loadNWSAlerts();
-    }, REFRESH_INTERVAL_MS);
-    return () => {
-      window.clearInterval(intervalId);
-      abortControllerRef.current?.abort();
-    };
-  }, [loadNWSAlerts]);
+  const isAlertsStale = useCallback(() => {
+    if (!isUSLocation(activeLocation.countryCode) || providerDisabledRef.current) return false;
+    const cached = cacheService.readCache<WeatherAlert[]>(cacheKey(activeLocation.latitude, activeLocation.longitude), CACHE_POLICIES.nwsAlerts);
+    return cached.state !== 'fresh';
+  }, [activeLocation]);
 
-  return { alerts, dismissAlert, refreshAlerts: loadNWSAlerts };
+  return { alerts, dismissAlert, refreshAlerts: loadNWSAlerts, isAlertsStale };
 }

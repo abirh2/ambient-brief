@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useState } from 'react';
 import { cacheService } from '../../../lib/api/cacheService';
 import { useDevStateStore } from '../../../lib/stores/useDevStateStore';
 import { useSettingsStore } from '../../../lib/stores/useSettingsStore';
@@ -85,13 +85,16 @@ export async function resolveNewsLoad(options: ResolveNewsOptions): Promise<{
 export function useNews() {
   const { settings } = useSettingsStore();
   const { newsStatus: devNewsStatus } = useDevStateStore();
-  const [newsState, setNewsState] = useState<NewsState>({ status: 'loading' });
-  const [isRefreshing, setIsRefreshing] = useState(false);
-  const abortControllerRef = useRef<AbortController | null>(null);
   const categoriesKey = [...settings.newsCategories].sort().join(',');
   const cacheKey = `news_currents_static_v1_${categoriesKey}`;
+  const [newsState, setNewsState] = useState<NewsState>(() => {
+    const cached = cacheService.getCache<GeneratedNewsFeed>(cacheKey);
+    const parsed = cached ? GeneratedNewsFeedSchema.safeParse(cached.data) : undefined;
+    return parsed?.success ? stateFromFeed(parsed.data, settings.newsCategories, 'cache') : { status: 'loading' };
+  });
+  const [isRefreshing, setIsRefreshing] = useState(false);
 
-  const loadNews = useCallback(async (forceRefresh = false) => {
+  const loadNews = useCallback(async (forceRefresh = false, signal?: AbortSignal): Promise<'success' | 'cached' | 'skipped'> => {
     if (import.meta.env.DEV && devNewsStatus !== 'loaded') {
       if (devNewsStatus === 'loading') setNewsState({ status: 'loading' });
       if (devNewsStatus === 'empty') setNewsState({ status: 'empty' });
@@ -103,7 +106,7 @@ export function useNews() {
         updatedText: 'Showing cached stories · Updated 20 minutes ago',
       });
       setIsRefreshing(false);
-      return;
+      return 'skipped';
     }
 
     const unvalidatedCache = cacheService.getCache<GeneratedNewsFeed>(cacheKey);
@@ -120,29 +123,27 @@ export function useNews() {
       setNewsState({ status: 'loading' });
     }
 
-    abortControllerRef.current?.abort();
-    const controller = new AbortController();
-    abortControllerRef.current = controller;
     const resolved = await resolveNewsLoad({
       categories: settings.newsCategories,
       cachedFeed: cachedRecord?.data,
-      load: async () => fetchNewsHeadlines(settings.newsCategories, controller.signal),
+      load: async () => fetchNewsHeadlines(settings.newsCategories, signal),
     });
-    if (!controller.signal.aborted) {
+    if (!signal?.aborted) {
       if (resolved.validatedFeed) cacheService.setCache(cacheKey, resolved.validatedFeed, NEWS_CACHE_POLICY);
       setNewsState(resolved.state);
     }
     setIsRefreshing(false);
+    if (signal?.aborted) throw new DOMException('Aborted', 'AbortError');
+    if (!resolved.validatedFeed) {
+      if (cachedRecord) return 'cached';
+      throw new Error('News temporarily unavailable');
+    }
+    return resolved.state.status === 'cached' ? 'cached' : 'success';
   }, [cacheKey, devNewsStatus, settings.newsCategories]);
 
-  useEffect(() => {
-    void loadNews();
-    return () => abortControllerRef.current?.abort();
-  }, [loadNews]);
-
-  const refreshNews = useCallback(() => {
+  const refreshNews = useCallback((signal?: AbortSignal) => {
     setIsRefreshing(true);
-    void loadNews(true);
+    return loadNews(true, signal);
   }, [loadNews]);
 
   const isNewsStale = useCallback(() => {
@@ -151,5 +152,5 @@ export function useNews() {
     return !cached || !validated?.success || cached.isStale || isGeneratedFeedStale(validated.data);
   }, [cacheKey]);
 
-  return { newsState, isRefreshing, refreshNews, isNewsStale };
+  return { newsState, isRefreshing, refreshNews, loadNews, isNewsStale };
 }

@@ -55,7 +55,7 @@ interface IslamicStoreState {
   isStale: boolean;
   nextPrayer: NextPrayerInfo | null;
 
-  fetchSchedules: (lat: number, lng: number, method: string, school: string, force?: boolean) => Promise<void>;
+  fetchSchedules: (lat: number, lng: number, method: string, school: string, force?: boolean, signal?: AbortSignal) => Promise<'success' | 'cached' | false>;
   updateCountdown: () => void;
 }
 
@@ -67,7 +67,7 @@ export const useIslamicStore = create<IslamicStoreState>((set, get) => ({
   isStale: false,
   nextPrayer: null,
 
-  fetchSchedules: async (lat, lng, method, school, force = false) => {
+  fetchSchedules: async (lat, lng, method, school, force = false, signal) => {
     const startTime = Date.now();
     const updateDiag = (
       status: ProviderDiagnostic['status'],
@@ -107,8 +107,8 @@ export const useIslamicStore = create<IslamicStoreState>((set, get) => ({
 
       // Fetch today and tomorrow in parallel
       const [todaySchedule, tomorrowSchedule] = await Promise.all([
-        fetchScheduleForDate(lat, lng, todayStr, method, school),
-        fetchScheduleForDate(lat, lng, tomorrowStr, method, school),
+        fetchScheduleForDate(lat, lng, todayStr, method, school, signal),
+        fetchScheduleForDate(lat, lng, tomorrowStr, method, school, signal),
       ]);
 
       set({
@@ -126,7 +126,12 @@ export const useIslamicStore = create<IslamicStoreState>((set, get) => ({
       get().updateCountdown();
 
       updateDiag('success', { cacheSource: force ? 'network' : 'cache' });
+      return 'success';
     } catch (err: unknown) {
+      if (signal?.aborted || (err instanceof Error && err.name === 'AbortError')) {
+        set({ loading: false });
+        throw err;
+      }
       console.warn('[IslamicStore] Failed to fetch live prayer schedules, falling back to cache:', err);
       const errorMessage = err instanceof Error ? err.message : 'Prayer times unavailable.';
 
@@ -152,6 +157,7 @@ export const useIslamicStore = create<IslamicStoreState>((set, get) => ({
           isStale,
           errorMessage,
         });
+        return 'cached';
       } else {
         // No valid cached schedule exists
         set({
@@ -166,6 +172,7 @@ export const useIslamicStore = create<IslamicStoreState>((set, get) => ({
         updateDiag('error', {
           errorMessage,
         });
+        return false;
       }
     }
   },

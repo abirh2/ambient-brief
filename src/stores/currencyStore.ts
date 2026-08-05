@@ -14,7 +14,7 @@ interface CurrencyStoreState {
   isStale: boolean;
   
   fetchCurrencies: () => Promise<Record<string, string>>;
-  fetchExchangeRate: (base: string, quote: string, force?: boolean) => Promise<void>;
+  fetchExchangeRate: (base: string, quote: string, force?: boolean, signal?: AbortSignal) => Promise<'success' | 'cached' | false>;
 }
 
 const CURRENCIES_CACHE_KEY = 'currency_list_v1';
@@ -70,11 +70,11 @@ export const useCurrencyStore = create<CurrencyStoreState>((set) => ({
     }
   },
 
-  fetchExchangeRate: async (base: string, quote: string, force = false) => {
-    if (!base || !quote) return;
+  fetchExchangeRate: async (base: string, quote: string, force = false, signal?: AbortSignal) => {
+    if (!base || !quote) return false;
     if (base === quote) {
       set({ rate: null, rateError: 'Base and quote currencies cannot be the same', rateLoading: false, isStale: false });
-      return;
+      return false;
     }
 
     const cacheKey = `${RATE_CACHE_PREFIX}${base}_${quote}`;
@@ -83,7 +83,7 @@ export const useCurrencyStore = create<CurrencyStoreState>((set) => ({
     // If cache is fresh and not forced, use it immediately
     if (cached && !cached.isStale && !force) {
       set({ rate: cached.data, rateError: null, rateLoading: false, isStale: false });
-      return;
+      return 'cached';
     }
 
     // If cache is stale, use it as fallback state while fetching
@@ -97,13 +97,15 @@ export const useCurrencyStore = create<CurrencyStoreState>((set) => ({
     updateDiagnostic('currency', { status: 'loading' });
 
     try {
-      const newRate = await fetchLatestRate(base, quote);
+      const newRate = await fetchLatestRate(base, quote, signal);
 
       // Cache for 12 hours
       cacheService.setCache(cacheKey, newRate, 12 * 60 * 60 * 1000);
       set({ rate: newRate, rateError: null, rateLoading: false, isStale: false });
       updateDiagnostic('currency', { status: 'idle', errorMessage: undefined });
+      return 'success';
     } catch (err) {
+      if (signal?.aborted || (err instanceof Error && err.name === 'AbortError')) throw err;
       console.warn(`Failed to fetch exchange rate for ${base}/${quote}:`, err);
       const errMsg = 'Currency unavailable';
 
@@ -112,9 +114,11 @@ export const useCurrencyStore = create<CurrencyStoreState>((set) => ({
       if (fallback && fallback.data) {
         set({ rate: fallback.data, rateError: null, rateLoading: false, isStale: true });
         updateDiagnostic('currency', { status: 'idle', errorMessage: undefined });
+        return 'cached';
       } else {
         set({ rate: null, rateError: errMsg, rateLoading: false, isStale: false });
         updateDiagnostic('currency', { status: 'error', errorMessage: errMsg });
+        return false;
       }
     }
   }

@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useCallback } from 'react';
 import { useAppLocation } from '../../../hooks/useAppLocation';
 import { cacheService } from '../../../lib/api/cacheService';
 import { REQUEST_POLICIES } from '../../../lib/api/policies';
@@ -13,20 +13,19 @@ export type AirQualityState =
 
 export function useAirQuality() {
   const { activeLocation } = useAppLocation();
-  const [aqiState, setAqiState] = useState<AirQualityState>({ status: 'loading' });
-  const [isRefreshing, setIsRefreshing] = useState(false);
-  const abortControllerRef = useRef<AbortController | null>(null);
-
   // Cache key based on location coordinates (independent of temp units)
   const cacheKey = `aqi_v2_${activeLocation.latitude.toFixed(2)}_${activeLocation.longitude.toFixed(2)}`;
+  const [aqiState, setAqiState] = useState<AirQualityState>(() => {
+    const cached = cacheService.getCache<AirQualitySnapshot>(cacheKey);
+    if (!cached) return { status: 'loading' };
+    return cached.isStale
+      ? { status: 'cached', data: cached.data, lastUpdatedText: `Showing cached AQI · Updated ${getRelativeTimeString(cached.fetchedAt)}` }
+      : { status: 'loaded', data: cached.data };
+  });
+  const [isRefreshing, setIsRefreshing] = useState(false);
 
   const loadAirQuality = useCallback(
-    async (forceRefresh = false) => {
-      // If tab is hidden and not force refreshing, stop/skip background refresh
-      if (typeof document !== 'undefined' && document.hidden && !forceRefresh) {
-        return;
-      }
-
+    async (forceRefresh = false, signal?: AbortSignal): Promise<'success' | 'cached'> => {
       const cachedRecord = cacheService.getCache<AirQualitySnapshot>(cacheKey);
 
       // Paint any valid cache immediately, then revalidate in the background.
@@ -46,28 +45,22 @@ export function useAirQuality() {
         setAqiState({ status: 'loading' });
       }
 
-      // Cancel any in-flight request
-      if (abortControllerRef.current) {
-        abortControllerRef.current.abort();
-      }
-      const controller = new AbortController();
-      abortControllerRef.current = controller;
-
       try {
         const liveData = await fetchOpenMeteoAirQuality(activeLocation, {
-          signal: controller.signal,
+          signal,
         });
 
-        if (!controller.signal.aborted) {
+        if (!signal?.aborted) {
           cacheService.setCache(cacheKey, liveData, REQUEST_POLICIES.airQuality.ttlMs);
           setAqiState({
             status: 'loaded',
             data: liveData,
           });
         }
+        return 'success';
       } catch (error: unknown) {
         if (error instanceof Error && error.name === 'AbortError') {
-          return;
+          throw error;
         }
 
         // On failure: fallback to existing cache if available
@@ -80,11 +73,13 @@ export function useAirQuality() {
               fallbackCache.fetchedAt
             )}`,
           });
+          return 'cached';
         } else {
           setAqiState({
             status: 'unavailable',
             message: 'AQI unavailable.',
           });
+          throw error;
         }
       } finally {
         setIsRefreshing(false);
@@ -93,57 +88,17 @@ export function useAirQuality() {
     [activeLocation, cacheKey]
   );
 
-  // Trigger refetch when location changes
-  useEffect(() => {
-    loadAirQuality();
-
-    return () => {
-      if (abortControllerRef.current) {
-        abortControllerRef.current.abort();
-      }
-    };
-  }, [loadAirQuality]);
-
-  // Document visibility change listener to refresh when tab becomes active / visible
-  useEffect(() => {
-    const handleVisibilityChange = () => {
-      if (typeof document !== 'undefined' && !document.hidden) {
-        // Tab is visible now, refresh to check if cache is stale
-        loadAirQuality();
-      }
-    };
-
-    if (typeof document !== 'undefined') {
-      document.addEventListener('visibilitychange', handleVisibilityChange);
-    }
-
-    return () => {
-      if (typeof document !== 'undefined') {
-        document.removeEventListener('visibilitychange', handleVisibilityChange);
-      }
-    };
-  }, [loadAirQuality]);
-
-  // Periodic poll every 5 minutes, checking document visibility
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      if (typeof document !== 'undefined' && !document.hidden) {
-        loadAirQuality();
-      }
-    }, 5 * 60 * 1000);
-
-    return () => clearInterval(intervalId);
-  }, [loadAirQuality]);
-
-  const refreshAirQuality = useCallback(() => {
+  const refreshAirQuality = useCallback((signal?: AbortSignal) => {
     setIsRefreshing(true);
-    loadAirQuality(true);
+    return loadAirQuality(true, signal);
   }, [loadAirQuality]);
 
   return {
     aqiState,
     isRefreshing,
     refreshAirQuality,
+    loadAirQuality,
+    isAirQualityStale: () => cacheService.getCache<AirQualitySnapshot>(cacheKey)?.isStale ?? true,
   };
 }
 

@@ -7,11 +7,9 @@ import { formatCurrencyValue, formatRelativeTime } from '../../../lib/formatting
 
 export function CurrencyContextItem() {
   const { settings } = useSettingsStore();
-  const { rate, rateLoading, rateError, isStale, fetchExchangeRate } = useCurrencyStore();
+  const { rate, rateLoading, rateError, isStale } = useCurrencyStore();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
-  const [base, quote] = settings.currencyPair.split('/');
-  useEffect(() => { if (settings.currencyEnabled && base && quote) void fetchExchangeRate(base, quote); }, [base, fetchExchangeRate, quote, settings.currencyEnabled]);
   useEffect(() => {
     if (!open) return;
     const close = (event: MouseEvent) => { if (ref.current && !ref.current.contains(event.target as Node)) setOpen(false); };

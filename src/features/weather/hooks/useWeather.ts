@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useCallback } from 'react';
 import { useSettingsStore } from '../../../lib/stores/useSettingsStore';
 import { useDevStateStore } from '../../../lib/stores/useDevStateStore';
 import { useAppLocation } from '../../../hooks/useAppLocation';
@@ -13,19 +13,21 @@ export function useWeather() {
   const { activeLocation } = useAppLocation();
   const { weatherStatus: devWeatherStatus } = useDevStateStore();
 
-  const [weatherState, setWeatherState] = useState<WeatherState>({ status: 'loading' });
-  const [isRefreshing, setIsRefreshing] = useState(false);
-
-  const abortControllerRef = useRef<AbortController | null>(null);
-
-  // Construct cache key based on location coordinates and unit
   const cacheKey = `weather_v2_${activeLocation.latitude.toFixed(2)}_${activeLocation.longitude.toFixed(
     2
   )}_${settings.temperatureUnit}`;
+  const [weatherState, setWeatherState] = useState<WeatherState>(() => {
+    const cached = cacheService.getCache<WeatherData>(cacheKey);
+    if (!cached) return { status: 'loading' };
+    return cached.isStale
+      ? { status: 'cached', data: cached.data, lastUpdatedText: `Showing cached weather · Updated ${getRelativeTimeString(cached.fetchedAt)}` }
+      : { status: 'loaded', data: cached.data };
+  });
+  const [isRefreshing, setIsRefreshing] = useState(false);
   const isDemoMode = import.meta.env.DEV && settings.isDemoMode;
 
   const loadWeather = useCallback(
-    async (forceRefresh = false) => {
+    async (forceRefresh = false, signal?: AbortSignal): Promise<'success' | 'cached' | 'skipped'> => {
       // 1. Check if dev status override is set to a non-'loaded' mock state
       if (import.meta.env.DEV && devWeatherStatus === 'permission_denied') {
         setWeatherState({
@@ -33,7 +35,7 @@ export function useWeather() {
           message:
             'Weather information requires location access. You can enter a location manually in Settings or grant browser permission.',
         });
-        return;
+        return 'skipped';
       }
 
       if (import.meta.env.DEV && devWeatherStatus === 'location_unavailable') {
@@ -41,12 +43,12 @@ export function useWeather() {
           status: 'location_unavailable',
           message: 'Unable to retrieve weather data for the specified location.',
         });
-        return;
+        return 'skipped';
       }
 
       if (import.meta.env.DEV && devWeatherStatus === 'loading') {
         setWeatherState({ status: 'loading' });
-        return;
+        return 'skipped';
       }
 
       if (import.meta.env.DEV && devWeatherStatus === 'cached') {
@@ -55,7 +57,7 @@ export function useWeather() {
           data: AMBIENT_WEATHER_MOCK,
           lastUpdatedText: 'Showing cached weather · Last updated 1 hour ago',
         });
-        return;
+        return 'success';
       }
 
       // 2. Check local cache first
@@ -78,21 +80,14 @@ export function useWeather() {
         setWeatherState({ status: 'loading' });
       }
 
-      // 3. Cancel any in-flight weather request
-      if (abortControllerRef.current) {
-        abortControllerRef.current.abort();
-      }
-      const controller = new AbortController();
-      abortControllerRef.current = controller;
-
       try {
         const liveData = await fetchWeatherData(
           activeLocation,
           settings.temperatureUnit,
-          controller.signal
+          signal
         );
 
-        if (!controller.signal.aborted) {
+        if (!signal?.aborted) {
           // Store in cache
           cacheService.setCache(cacheKey, liveData, REQUEST_POLICIES.weather.ttlMs);
 
@@ -101,9 +96,10 @@ export function useWeather() {
             data: liveData,
           });
         }
+        return 'success';
       } catch (error: unknown) {
         if (error instanceof Error && error.name === 'AbortError') {
-          return;
+          throw error;
         }
 
         // On network error: fallback to existing cache if available
@@ -116,6 +112,7 @@ export function useWeather() {
               fallbackCache.fetchedAt
             )}`,
           });
+          return 'cached';
         } else {
           // If no cache and demo mode is enabled, fall back to mock data; otherwise show unavailable error state
           if (isDemoMode) {
@@ -126,6 +123,7 @@ export function useWeather() {
               message: 'Unable to connect to weather service. No cached data available.',
             });
           }
+          throw error;
         }
       } finally {
         setIsRefreshing(false);
@@ -140,26 +138,17 @@ export function useWeather() {
     ]
   );
 
-  // Trigger refetch when location, unit, or dev override changes
-  useEffect(() => {
-    loadWeather();
-
-    return () => {
-      if (abortControllerRef.current) {
-        abortControllerRef.current.abort();
-      }
-    };
-  }, [loadWeather]);
-
-  const refreshWeather = useCallback(() => {
+  const refreshWeather = useCallback((signal?: AbortSignal) => {
     setIsRefreshing(true);
-    loadWeather(true);
+    return loadWeather(true, signal);
   }, [loadWeather]);
 
   return {
     weatherState,
     isRefreshing,
     refreshWeather,
+    loadWeather,
+    isWeatherStale: () => cacheService.getCache<WeatherData>(cacheKey)?.isStale ?? true,
   };
 }
 

@@ -34,6 +34,7 @@ export function App() {
         onRefresh={dashboard.refreshAll}
         onOpenSettings={dashboard.openSettings}
         isRefreshing={dashboard.isRefreshing}
+        globalStatus={dashboard.globalStatus}
         settingsBtnRef={dashboard.settingsButtonRef}
       />
 

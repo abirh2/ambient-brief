@@ -1,14 +1,16 @@
 import React from 'react';
 import { useSettingsStore } from '../../lib/stores/useSettingsStore';
 import { useAppLocation } from '../../hooks/useAppLocation';
-import { RefreshCw, Settings, Navigation, MapPin } from 'lucide-react';
+import { RefreshCw, Settings, Navigation, MapPin, Wifi, WifiOff, Database } from 'lucide-react';
 import { formatClockParts, formatHeaderDate } from '../../lib/formatting';
 import { useClock } from '../../features/clock/useClock';
+import type { GlobalRefreshStatus } from '../../app/useAmbientBriefController';
 
 interface ClockHeaderProps {
   onRefresh?: () => void;
   onOpenSettings?: () => void;
   isRefreshing?: boolean;
+  globalStatus?: GlobalRefreshStatus;
   settingsBtnRef?: React.RefObject<HTMLButtonElement | null>;
 }
 
@@ -16,6 +18,7 @@ export const ClockHeader: React.FC<ClockHeaderProps> = ({
   onRefresh,
   onOpenSettings,
   isRefreshing,
+  globalStatus,
   settingsBtnRef,
 }) => {
   const { settings } = useSettingsStore();
@@ -78,6 +81,19 @@ export const ClockHeader: React.FC<ClockHeaderProps> = ({
       
       {/* Action icons */}
       <div className="flex items-center gap-2 shrink-0">
+        {globalStatus && (
+          <div
+            className="hidden sm:flex items-center gap-1.5 px-2 py-1.5 rounded-md bg-slate-950/25 text-[10px] font-medium text-slate-400 border border-white/[0.06] backdrop-blur-sm"
+            role="status"
+            aria-live="polite"
+            title="Connection and cache status"
+          >
+            {globalStatus.state === 'offline' ? <WifiOff className="w-3 h-3 text-amber-400" />
+              : globalStatus.state === 'cached' ? <Database className="w-3 h-3 text-slate-400" />
+                : <Wifi className={`w-3 h-3 ${globalStatus.state === 'partial' ? 'text-amber-400' : 'text-emerald-400'}`} />}
+            <span>{globalStatus.label}</span>
+          </div>
+        )}
         <button
           type="button"
           onClick={onRefresh}
