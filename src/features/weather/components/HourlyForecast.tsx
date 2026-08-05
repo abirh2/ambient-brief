@@ -63,7 +63,7 @@ export const HourlyForecast: React.FC<HourlyForecastProps> = ({ hourly }) => {
 
               <div className="h-4 flex items-center justify-center mt-0.5">
                 {showPrecip ? (
-                  <span className={`text-[10px] font-mono ${isHighPrecip ? 'text-sky-300 font-bold bg-sky-900/40 px-1 rounded' : 'text-sky-400/80 font-medium'}`}>
+                  <span className={`text-[10px] font-mono ${isHighPrecip ? 'text-sky-300 font-semibold' : 'text-sky-400/80 font-medium'}`}>
                     {item.pop}%
                   </span>
                 ) : null}

@@ -21,7 +21,7 @@ html, body {
 }
 
 .app-container {
-  --app-gutter: clamp(14px, 2.25vw, 72px);
+  --app-gutter: clamp(16px, 2.6vw, 68px);
   position: relative;
   z-index: 1;
   display: flex;
@@ -29,7 +29,7 @@ html, body {
   min-width: 0;
   min-height: 100dvh;
   margin-inline: auto;
-  padding-block: clamp(10px, 1.35vw, 22px);
+  padding-block: clamp(14px, 1.7vw, 28px);
   flex-direction: column;
   gap: 0.875rem;
 }
@@ -70,6 +70,23 @@ html, body {
   flex-direction: column;
   gap: var(--section-spacing);
   padding: var(--panel-padding);
+}
+
+.app-header .compact-control {
+  min-height: 2.5rem;
+  border: 0;
+  background: transparent;
+}
+
+.clock-display {
+  font-family: var(--font-sans);
+  font-weight: 250;
+}
+
+.clock-context h1 {
+  flex: none;
+  color: var(--text-primary);
+  line-height: 1.35;
 }
 
 .ambient-weather {
@@ -119,10 +136,11 @@ html, body {
   z-index: 4;
   background-image:
     var(--vignette),
+    linear-gradient(180deg, transparent 48%, rgba(3, 10, 17, 0.38) 100%),
     radial-gradient(circle, rgba(238, 245, 248, 0.09) 0 0.45px, transparent 0.7px),
     radial-gradient(circle, rgba(7, 15, 24, 0.15) 0 0.5px, transparent 0.8px);
-  background-position: center, 0 0, 2px 1px;
-  background-size: auto, 4px 4px, 5px 5px;
+  background-position: center, center, 0 0, 2px 1px;
+  background-size: auto, auto, 4px 4px, 5px 5px;
   opacity: 0.78;
 }
 
@@ -343,7 +361,7 @@ html, body {
 .market-proxy-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  padding: 0.25rem 0.5rem;
+  padding: 0;
 }
 
 .market-quote {
@@ -355,7 +373,7 @@ html, body {
 }
 
 .market-proxy-quote {
-  padding: 0.55rem 0.7rem;
+  padding: 0.6rem 0;
 }
 
 .market-proxy-quote + .market-proxy-quote {
@@ -369,14 +387,14 @@ html, body {
 }
 
 .market-company-quote {
-  padding-block: 0.5rem;
+  padding-block: 0.6rem;
   border-bottom: 1px solid rgba(194, 213, 226, 0.08);
 }
 
 /* Standard desktop: one integrated ambient lead beside the editorial field. */
 @media (min-width: 1200px) {
   .ambient-grid {
-    grid-template-columns: minmax(390px, 40fr) minmax(0, 60fr);
+    grid-template-columns: minmax(420px, 39fr) minmax(0, 61fr);
     grid-template-areas:
       "lead news"
       "context markets";
@@ -395,6 +413,10 @@ html, body {
     display: grid;
     grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.35fr);
     gap: var(--gap-standard);
+  }
+
+  .market-panel-card {
+    padding: 0.35rem 0.15rem 0;
   }
 
   .market-company-grid {
@@ -419,7 +441,7 @@ html, body {
   }
 
   .ambient-grid {
-    grid-template-columns: minmax(500px, 29fr) minmax(660px, 45fr) minmax(390px, 26fr);
+    grid-template-columns: minmax(500px, 28fr) minmax(720px, 47fr) minmax(400px, 25fr);
     grid-template-areas:
       "lead news markets"
       "lead news context";
@@ -446,7 +468,7 @@ html, body {
 
 /* Compact-height desktop tightens rhythm while preserving every information group. */
 @media (min-width: 1200px) and (max-height: 900px) {
-  .app-container { padding-block: 0.55rem; }
+  .app-container { padding-block: 0.3rem; }
   .ambient-grid { gap: 0.6rem; }
   .ambient-lead { gap: 0.7rem; padding: 0.85rem; }
   .ambient-weather { padding-top: 0.7rem; }
@@ -456,9 +478,8 @@ html, body {
   .weather-hero-card { min-height: 0 !important; gap: 0.45rem !important; }
   .weather-current { gap: 0.4rem !important; }
   .weather-temp-text { font-size: 3.15rem !important; }
-  .market-panel-card,
-  .news-panel-card { padding: 0.85rem !important; gap: 0.6rem !important; }
-  .market-panel-card { padding: 0.65rem !important; gap: 0.35rem !important; }
+  .news-panel-card { padding: 1rem !important; gap: 0.7rem !important; }
+  .market-panel-card { padding: 0.2rem 0.15rem 0 !important; gap: 0.4rem !important; }
   .market-company-quote { padding-block: 0.3rem; }
   .market-proxy-quote { padding-block: 0.3rem; }
   .market-panel-card > div:first-child,
@@ -481,12 +502,30 @@ html, body {
 }
 
 @media (min-width: 1200px) and (max-height: 799px) {
-  .app-container { padding-block: 0.3rem; }
+  .app-container { padding-block: 0; }
   .ambient-grid {
     gap: 0.45rem;
   }
-  .market-panel-card { padding: 0.5rem !important; gap: 0.35rem !important; }
+  .market-panel-card { padding: 0.65rem !important; gap: 0.3rem !important; }
   .market-panel-card > div:first-child { padding-bottom: 0.35rem !important; }
+  .market-panel-card .panel-metadata { display: none; }
+  .market-data-sections {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.35fr);
+    gap: 0.75rem;
+  }
+  .market-proxy-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .market-proxy-quote { padding-block: 0.25rem; }
+  .market-proxy-quote + .market-proxy-quote {
+    border-top: 0;
+    border-left: 1px solid rgba(194, 213, 226, 0.09);
+    padding-left: 0.55rem;
+  }
+  .market-company-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 0.65rem; }
+  .market-company-quote { padding-block: 0.25rem; }
+  .market-quote > div:first-child p:first-child,
+  .market-quote > div:last-child p:last-child { display: none; }
+  .market-quote > div:first-child p:last-child { color: var(--text-secondary); }
+  .market-panel-card h3 { margin-bottom: 0.2rem; }
   .context-bar-container {
     align-self: start;
     padding-top: 0.65rem;
@@ -531,18 +570,19 @@ html, body {
 
 .weather-alert-banner {
   border-left: 3px solid var(--informational);
-  background: rgba(127, 179, 206, 0.08);
+  border-radius: 0;
+  background: linear-gradient(90deg, rgba(127, 179, 206, 0.065), transparent 72%);
 }
 
 .weather-alert-banner.alert-watch,
 .weather-alert-banner.alert-warning {
   border-left-color: var(--warning);
-  background: rgba(226, 180, 111, 0.085);
+  background: linear-gradient(90deg, rgba(226, 180, 111, 0.075), transparent 72%);
 }
 
 .weather-alert-banner.alert-emergency {
   border-left-color: var(--critical);
-  background: rgba(240, 113, 120, 0.09);
+  background: linear-gradient(90deg, rgba(240, 113, 120, 0.08), transparent 72%);
 }
 
 .alert-icon {
@@ -572,7 +612,38 @@ html, body {
 }
 
 .weather-hero-card {
-  min-height: 260px;
+  min-height: 0;
+}
+
+.weather-insight {
+  position: relative;
+  padding-left: 0.9rem;
+  color: var(--informational);
+}
+
+.weather-insight::before {
+  position: absolute;
+  left: 0;
+  width: 0.35rem;
+  height: 0.35rem;
+  border-radius: 50%;
+  background: currentColor;
+  content: "";
+}
+
+.weather-details-action,
+.market-refresh,
+.news-customize-action {
+  border: 0;
+  background: transparent;
+  color: var(--text-muted);
+  transition: color var(--transition-fast);
+}
+
+.weather-details-action:hover,
+.market-refresh:hover,
+.news-customize-action:hover {
+  color: var(--text-primary);
 }
 
 .weather-embedded {
@@ -589,7 +660,7 @@ html, body {
 
 .news-panel-card {
   container-type: inline-size;
-  min-height: 420px;
+  min-height: 0;
 }
 
 .news-panel-header {
@@ -633,7 +704,7 @@ html, body {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  padding-inline: 0.65rem;
+  padding: 0.35rem 0;
   font-size: var(--type-label);
   font-weight: 600;
 }
@@ -641,6 +712,10 @@ html, body {
 .news-category-control > span {
   color: var(--text-muted);
   font-weight: 500;
+}
+
+.news-category-control {
+  border-bottom: 1px solid rgba(194, 213, 226, 0.14);
 }
 
 .news-category-control select {
@@ -948,7 +1023,7 @@ html, body {
   align-items: stretch;
   grid-template-columns: minmax(0, 1fr);
   gap: clamp(1rem, 2.5cqi, 1.5rem);
-  padding-block: 0.35rem 1rem;
+  padding-block: 0.65rem 1.15rem;
   border-bottom: 1px solid rgba(194, 213, 226, 0.09);
   border-radius: 0;
   background: transparent;
@@ -989,7 +1064,11 @@ html, body {
 }
 
 .featured-story .news-title {
-  max-width: 28ch;
+  max-width: 25ch;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif;
+  font-weight: 520;
+  letter-spacing: -0.025em;
+  line-height: 1.12;
 }
 
 .featured-story .news-description {
@@ -1031,8 +1110,8 @@ html, body {
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
   gap: var(--gap-standard);
-  padding: 0.8rem 0.35rem;
-  border-radius: 0.35rem;
+  padding: 0.85rem 0;
+  border-radius: 0;
   transition: background-color var(--transition-fast);
 }
 
@@ -1042,6 +1121,11 @@ html, body {
   flex: 1;
   flex-direction: column;
   gap: 0.35rem;
+}
+
+.story-list-item .news-title {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif;
+  letter-spacing: -0.012em;
 }
 
 .story-list-image {
@@ -1059,7 +1143,7 @@ html, body {
   align-items: center;
   justify-content: flex-start;
   margin-top: 0.35rem;
-  padding: 0.55rem 0.7rem;
+  padding: 0.55rem 0;
   background: transparent;
   font-size: var(--type-label);
   font-weight: 650;
@@ -1170,7 +1254,6 @@ html, body {
   font-variant-numeric: tabular-nums lining-nums;
 }
 
-.clock-display,
 .weather-temp-text {
   font-family: var(--font-numeric);
 }
@@ -1178,21 +1261,38 @@ html, body {
 .context-bar-container {
   color: var(--text-secondary);
   font-size: var(--type-context-value);
-  border-top: 1px solid rgba(194, 213, 226, 0.09);
+  border-top: 1px solid rgba(194, 213, 226, 0.12);
   padding-top: var(--section-spacing);
 }
 
 .context-heading {
-  color: var(--text-subtle);
+  color: var(--text-muted);
   font-size: var(--type-label);
   font-weight: 600;
-  letter-spacing: 0.01em;
+  letter-spacing: 0;
 }
 
 .context-bar-container .compact-control {
   min-height: 1.75rem;
   border: 0;
+  padding-inline: 0;
   background: transparent;
+}
+
+.market-panel-card .section-rule,
+.news-panel-card > .section-rule {
+  border-bottom-color: rgba(194, 213, 226, 0.11);
+}
+
+.market-panel-card {
+  padding: clamp(0.9rem, 1.2vw, 1.2rem);
+  border-radius: 0.75rem;
+  background: rgb(var(--glass-primary-rgb) / 0.38);
+  color: var(--text-secondary);
+}
+
+.market-refresh {
+  padding: 0.35rem 0;
 }
 
 .context-bar-container .compact-control:hover {

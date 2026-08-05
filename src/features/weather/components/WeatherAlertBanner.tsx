@@ -45,26 +45,26 @@ export const WeatherAlertBanner: React.FC<WeatherAlertBannerProps> = ({
     switch (severity) {
       case 'emergency':
         return {
-          label: 'EMERGENCY',
+          label: 'Emergency',
           tone: 'alert-emergency',
           Icon: AlertOctagon,
         };
       case 'warning':
         return {
-          label: 'WARNING',
+          label: 'Warning',
           tone: 'alert-warning',
           Icon: ShieldAlert,
         };
       case 'watch':
         return {
-          label: 'WATCH',
+          label: 'Watch',
           tone: 'alert-watch',
           Icon: AlertTriangle,
         };
       case 'advisory':
       default:
         return {
-          label: 'ADVISORY',
+          label: 'Advisory',
           tone: 'alert-advisory',
           Icon: Info,
         };
@@ -116,9 +116,9 @@ export const WeatherAlertBanner: React.FC<WeatherAlertBannerProps> = ({
             </div>
 
             <div className="flex flex-col gap-1">
-              <h3 className="text-sm sm:text-base font-semibold tracking-tight text-[color:var(--text-primary)] font-sans">
+              <h2 className="text-sm sm:text-base font-semibold tracking-tight text-[color:var(--text-primary)] font-sans">
                 {title}
-              </h3>
+              </h2>
               <p className="alert-summary type-body text-[color:var(--text-secondary)] font-sans">
                 {summary}
               </p>

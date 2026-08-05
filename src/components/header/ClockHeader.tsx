@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSettingsStore } from '../../lib/stores/useSettingsStore';
 import { useAppLocation } from '../../hooks/useAppLocation';
-import { RefreshCw, Settings, Navigation, MapPin, Wifi, WifiOff, Database } from 'lucide-react';
+import { RefreshCw, Settings, Navigation, Wifi, WifiOff } from 'lucide-react';
 import { formatClockParts, formatHeaderDate } from '../../lib/formatting';
 import { useClock } from '../../features/clock/useClock';
 import type { GlobalRefreshStatus } from '../../app/useAmbientBriefController';
@@ -42,7 +42,7 @@ export const ClockHeader: React.FC<ClockHeaderProps> = ({
 
   const isDeviceGps = activeLocation.source === 'device';
 
-  const showConnectionStatus = globalStatus && globalStatus.state !== 'online';
+  const showConnectionStatus = globalStatus && (globalStatus.state === 'offline' || globalStatus.state === 'partial');
 
   return (
     <header className="app-header w-full flex justify-between items-start gap-4 z-20">
@@ -62,18 +62,14 @@ export const ClockHeader: React.FC<ClockHeaderProps> = ({
         
         {/* Date and Location */}
         <div className="clock-context flex flex-col sm:flex-row sm:items-center gap-1.5 sm:gap-3 mt-2 min-w-0">
-          <h2 className="type-date font-medium tracking-[-0.01em]">{dateString}</h2>
-          <span className="hidden sm:inline text-slate-500">•</span>
+          <h1 className="type-date font-medium tracking-[-0.01em]">{dateString}</h1>
+          <span className="hidden sm:inline text-[color:var(--text-subtle)]">/</span>
           <div 
             className="type-location flex items-center gap-1.5 text-[color:var(--text-secondary)] font-medium min-w-0"
             title={isDeviceGps ? `Device GPS Active — ${formattedLabel}` : formattedLabel}
             aria-label={isDeviceGps ? `Active location (Device GPS active): ${formattedLabel}` : `Active location: ${formattedLabel}`}
           >
-            {isDeviceGps ? (
-              <Navigation className="w-4 h-4 text-emerald-400 shrink-0" aria-hidden="true" />
-            ) : (
-              <MapPin className="w-4 h-4 semantic-info shrink-0" aria-hidden="true" />
-            )}
+            {isDeviceGps && <Navigation className="w-3.5 h-3.5 text-[color:var(--positive)] shrink-0" aria-hidden="true" />}
             <span className="truncate max-w-[min(52vw,40rem)]">{displayLocation}</span>
             {isDeviceGps && (
               <span className="sr-only">(Device GPS Active)</span>
@@ -92,8 +88,7 @@ export const ClockHeader: React.FC<ClockHeaderProps> = ({
             title="Connection and data status"
           >
             {globalStatus.state === 'offline' ? <WifiOff className="w-3 h-3 text-amber-400" />
-              : globalStatus.state === 'cached' ? <Database className="w-3 h-3 text-slate-400" />
-                : <Wifi className={`w-3 h-3 ${globalStatus.state === 'partial' ? 'text-amber-400' : 'text-emerald-400'}`} />}
+              : <Wifi className="w-3 h-3 text-amber-400" />}
             <span>{globalStatus.label}</span>
           </div>
         )}

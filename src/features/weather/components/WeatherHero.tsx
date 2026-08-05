@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AlertTriangle, ChevronDown, ChevronUp, Clock, CloudSun, Droplets, MapPinOff, RefreshCw, ShieldAlert, Wind } from 'lucide-react';
+import { AlertTriangle, ChevronDown, ChevronUp, Clock, Droplets, MapPinOff, RefreshCw, ShieldAlert, Wind } from 'lucide-react';
 import { GlassSurface } from '../../../components/common/GlassSurface';
 import { WeatherInsight } from './WeatherInsight';
 import { HourlyForecast } from './HourlyForecast';
@@ -137,7 +137,6 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
 
           <div className="flex flex-col gap-1 pl-3 sm:pl-4 min-w-0">
             <div className="flex items-center gap-2 text-base sm:text-lg font-medium text-slate-100 min-w-0">
-              <CloudSun className="w-5 h-5 text-amber-300 shrink-0" aria-hidden="true" />
               <span>{weatherData.condition}</span>
             </div>
             <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5 text-xs text-slate-300 font-sans">
@@ -164,7 +163,7 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
           <button
             type="button"
             onClick={() => setDetailsExpanded((isExpanded) => !isExpanded)}
-            className="compact-control inline-flex items-center gap-1 px-2 text-xs font-medium"
+            className="weather-details-action inline-flex items-center gap-1 text-sm font-medium"
             aria-expanded={detailsExpanded}
           >
             Details

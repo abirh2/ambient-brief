@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { DollarSign, Loader2, X } from 'lucide-react';
+import { Loader2, X } from 'lucide-react';
 import { useSettingsStore } from '../../../stores/settingsStore';
 import { useCurrencyStore } from '../../../stores/currencyStore';
 import { formatCurrencyValue, formatRelativeTime } from '../../../lib/formatting';
@@ -23,7 +23,7 @@ export function CurrencyContextItem() {
   if (!settings.currencyEnabled) return <div className="text-slate-500 text-xs italic">Currency disabled</div>;
   return <div className="relative w-fit" ref={ref} id="context-bar-currency">
     <button type="button" onClick={() => setOpen(!open)} className="compact-control flex items-center gap-2 px-2 py-1 -ml-2" aria-haspopup="true" aria-expanded={open}>
-      <DollarSign className="w-3.5 h-3.5 semantic-info" /><span className="text-[color:var(--text-muted)] w-14 numeric">{settings.currencyPair}</span>
+      <span className="text-[color:var(--text-muted)] numeric">{settings.currencyPair}</span>
       {rateLoading && !rate ? <Loader2 className="w-3 h-3 animate-spin" /> : rateError ? <span className="text-red-400">Unavailable</span> : rate ? <span className="font-semibold text-slate-100 font-mono">{formatCurrencyValue(rate.rate)}{isStale && <span className="text-[10px] text-amber-400 ml-1 font-sans font-normal">(stale)</span>}</span> : <span className="text-slate-500">--</span>}
     </button>
     {open && <div data-variant="secondary" className="glass-panel absolute bottom-full left-0 mb-2 w-72 p-4 text-xs z-50 flex flex-col gap-3">

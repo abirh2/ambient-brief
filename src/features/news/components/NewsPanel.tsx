@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SlidersHorizontal, AlertCircle, RefreshCw, Clock3, Inbox } from 'lucide-react';
+import { AlertCircle, RefreshCw, Inbox } from 'lucide-react';
 import { GlassSurface } from '../../../components/common/GlassSurface';
 import { FeaturedStory } from './FeaturedStory';
 import { StoryList } from './StoryList';
@@ -51,15 +51,14 @@ function NewsPanelHeader({
             className={`status-note news-freshness ${isCached ? 'semantic-warning' : ''}`}
             aria-label={`News status: ${updatedText}`}
           >
-            <Clock3 aria-hidden="true" />
-            <span>Feed · {updatedText}</span>
+            <span>{updatedText}</span>
           </div>
         )}
       </div>
 
       <div className="news-header-actions">
-        <label className="news-category-control compact-control">
-          <span>Category</span>
+        <label className="news-category-control">
+          <span className="sr-only">Section</span>
           <select
             value={currentCategory}
             onChange={(event) => onCategoryChange(event.target.value as NewsCategory)}
@@ -73,10 +72,9 @@ function NewsPanelHeader({
         <button
           type="button"
           onClick={onCustomize}
-          className="compact-control news-customize-action"
+          className="news-customize-action"
         >
-          <SlidersHorizontal aria-hidden="true" />
-          <span>Customize</span>
+          <span>Topics</span>
         </button>
       </div>
     </header>

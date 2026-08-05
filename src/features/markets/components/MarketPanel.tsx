@@ -1,5 +1,4 @@
-import { AlertTriangle, ArrowDownRight, ArrowUpRight, Minus, RefreshCw, TrendingUp } from 'lucide-react';
-import { GlassSurface } from '../../../components/common/GlassSurface';
+import { AlertTriangle, ArrowDownRight, ArrowUpRight, Minus } from 'lucide-react';
 import { useSettingsStore } from '../../../stores/settingsStore';
 import type { MarketInstrument, MarketSession, MarketState } from '../model';
 import { formatDisplayDateTime } from '../../../lib/formatting';
@@ -26,29 +25,25 @@ export function MarketPanel({ state, onRefresh }: MarketPanelProps) {
     : [];
 
   return (
-    <GlassSurface className="market-panel-card panel-padding panel-stack flex min-w-0 flex-col">
+    <section className="market-panel-card panel-stack flex min-w-0 flex-col" aria-labelledby="markets-heading">
       <div className="section-rule flex items-start justify-between gap-3 pb-3">
         <div className="min-w-0">
-          <div className="flex items-center gap-2">
-            <TrendingUp className="h-5 w-5 text-[color:var(--positive)]" aria-hidden="true" />
-            <h2 className="panel-heading font-semibold tracking-tight">Markets</h2>
-          </div>
+          <h2 id="markets-heading" className="panel-heading font-semibold tracking-tight">Markets</h2>
           <p className="panel-metadata mt-1">
             {hasSnapshot
               ? `${formatSession(state.snapshot.marketSession)} · ${formatGeneratedTime(state.snapshot.generatedAt, state.status, settings.timeFormat, settings.activeLocation?.timezone)}`
-              : state.status === 'loading' ? 'Checking the latest available snapshot' : 'Snapshot unavailable'}
+              : state.status === 'loading' ? 'Checking the latest snapshot' : 'Snapshot unavailable'}
           </p>
         </div>
         <button
           type="button"
           onClick={onRefresh}
           disabled={state.status === 'loading'}
-          className="compact-control flex shrink-0 items-center gap-1.5 px-2.5 py-1 type-metadata font-semibold"
+          className="market-refresh shrink-0 type-metadata font-semibold"
           aria-label="Check for latest market snapshot"
-          title="Check the published snapshot; this does not request new Finnhub data"
+          title="Check for a newer market snapshot"
         >
-          <RefreshCw className={`h-3.5 w-3.5 ${state.status === 'loading' ? 'animate-spin' : ''}`} aria-hidden="true" />
-          Check
+          Update
         </button>
       </div>
 
@@ -73,8 +68,8 @@ export function MarketPanel({ state, onRefresh }: MarketPanelProps) {
 
           <div className="market-data-sections">
             <section aria-labelledby="market-proxies-heading">
-              <h3 id="market-proxies-heading" className="type-label mb-2 font-semibold text-[color:var(--text-muted)]">Broad-market ETF proxies</h3>
-              <div className="market-proxy-grid tonal-section">
+              <h3 id="market-proxies-heading" className="type-label mb-2 font-semibold text-[color:var(--text-muted)]">Market benchmarks</h3>
+              <div className="market-proxy-grid">
                 {proxies.map((instrument) => <MarketQuote key={instrument.symbol} instrument={instrument} proxy />)}
               </div>
             </section>
@@ -91,17 +86,16 @@ export function MarketPanel({ state, onRefresh }: MarketPanelProps) {
             </section>
           </div>
 
-          <div className="flex flex-wrap items-center justify-between gap-2 type-metadata text-[color:var(--text-muted)]">
-            <span>Market data: Finnhub</span>
-            <span>{state.snapshot.freshness === 'fresh' && state.status === 'loaded' ? 'Latest available snapshot' : formatFreshness(state.status)}</span>
-          </div>
+          {(state.snapshot.freshness !== 'fresh' || state.status !== 'loaded') && (
+            <p className="type-metadata text-[color:var(--text-muted)]">{formatFreshness(state.status)}</p>
+          )}
         </>
       )}
 
       {'notice' in state && state.notice && (
         <p className="type-metadata text-[color:var(--text-secondary)]" role="status" aria-live="polite">{state.notice}</p>
       )}
-    </GlassSurface>
+    </section>
   );
 }
 
@@ -114,8 +108,8 @@ function MarketQuote({ instrument, proxy = false }: { instrument: MarketInstrume
   return (
     <div className={`market-quote ${proxy ? 'market-proxy-quote' : 'market-company-quote'}`}>
       <div className="min-w-0">
-        <p className="truncate type-body font-semibold">{proxy ? `${instrument.proxyFor} · ${instrument.symbol} proxy` : instrument.name}</p>
-        <p className="type-metadata numeric text-[color:var(--text-muted)]">{instrument.symbol}{instrument.stale ? ' · Previous snapshot' : ''}</p>
+        <p className="truncate type-body font-semibold">{proxy ? instrument.proxyFor : instrument.name}</p>
+        <p className="type-metadata numeric text-[color:var(--text-muted)]">{instrument.symbol}{proxy ? ' fund' : ''}{instrument.stale ? ' · Previous snapshot' : ''}</p>
       </div>
       <div className="shrink-0 text-right">
         <p className="numeric type-body font-semibold tabular-nums">{formatPrice(instrument.price)}</p>

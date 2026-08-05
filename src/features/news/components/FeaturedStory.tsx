@@ -22,10 +22,6 @@ export const FeaturedStory: React.FC<FeaturedStoryProps> = ({ article }) => {
     >
       <div className="featured-story-copy">
         <div className="featured-story-metadata type-metadata">
-          <span className="featured-story-category semantic-info">
-            {article.categories[0]}
-          </span>
-          <span aria-hidden="true">·</span>
           <span className="featured-story-publisher">
             {article.publisher}
           </span>
