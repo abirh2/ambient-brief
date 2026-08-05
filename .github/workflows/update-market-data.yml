@@ -71,7 +71,7 @@ jobs:
         run: |
           cp generated/markets.json /tmp/markets.json
           git switch --orphan market-data
-          git rm --recursive --force --cached .
+          git rm -r -f --cached --ignore-unmatch -- .
           cp /tmp/markets.json markets.json
           git add -- markets.json
           git config user.name "github-actions[bot]"
