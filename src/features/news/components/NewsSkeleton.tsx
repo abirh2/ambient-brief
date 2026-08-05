@@ -8,7 +8,7 @@ export const NewsSkeleton: React.FC = () => {
   const isCompact = settings.contentDensity === 'compact';
 
   return (
-    <GlassSurface className={`${isCompact ? 'p-4' : 'p-5 sm:p-6'} flex flex-col gap-4 h-full min-h-[380px]`}>
+    <GlassSurface className={`news-panel-card ${isCompact ? 'p-4' : 'p-5 sm:p-6'} flex flex-col gap-4 h-full min-h-[380px]`}>
       {/* Header bar skeleton */}
       <div className="flex items-center justify-between border-b border-white/10 pb-3">
         <Skeleton className="w-32 h-6" />

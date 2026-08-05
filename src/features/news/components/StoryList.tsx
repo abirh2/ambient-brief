@@ -29,14 +29,14 @@ export const StoryList: React.FC<StoryListProps> = ({ articles }) => {
           title={story.publisherDomain ? `Source: ${story.publisherDomain}` : undefined}
           className="story-list-item relative group block p-3 rounded-lg hover:bg-white/5 transition-colors border-b border-white/5 last:border-b-0 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2"
         >
-          <div className="flex flex-col gap-1 flex-1">
-            <h4 className="text-xs sm:text-sm font-medium text-slate-200 group-hover:text-indigo-300 transition-colors leading-snug">
+          <div className="flex min-w-0 flex-col gap-1 flex-1">
+            <h4 className="news-title text-xs sm:text-sm font-medium text-slate-200 group-hover:text-indigo-300 transition-colors leading-snug">
               {story.title}
             </h4>
             
             <span className="sr-only">(opens in a new tab)</span>
 
-            <div className="flex items-center gap-2 text-[11px] text-slate-400 font-sans">
+            <div className="flex min-w-0 flex-wrap items-center gap-x-2 gap-y-0.5 text-[11px] text-slate-400 font-sans">
               <span className="font-semibold text-slate-300">
                 {story.publisher}
               </span>

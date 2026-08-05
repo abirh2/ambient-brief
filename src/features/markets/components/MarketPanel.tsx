@@ -28,31 +28,38 @@ export function MarketPanel() {
     if (!host) return;
 
     let active = true;
+    let widget: HTMLElement | null = null;
     setStatus('loading');
     host.replaceChildren();
 
-    const widget = document.createElement(TRADINGVIEW_TICKER_TAPE_TAG);
-    widget.setAttribute('symbols', symbols);
-    widget.setAttribute('theme', 'dark');
-    widget.setAttribute('transparent', '');
-    widget.setAttribute('item-size', 'compact');
-    widget.setAttribute('hide-chart', '');
-    widget.setAttribute('aria-label', 'TradingView market ticker');
-    host.appendChild(widget);
+    const initializeWidget = () => {
+      if (!active) return;
+      widget = document.createElement(TRADINGVIEW_TICKER_TAPE_TAG);
+      widget.setAttribute('symbols', symbols);
+      widget.setAttribute('theme', 'dark');
+      widget.setAttribute('transparent', '');
+      widget.setAttribute('item-size', 'compact');
+      widget.setAttribute('hide-chart', '');
+      widget.setAttribute('aria-label', 'TradingView market ticker');
+      host.appendChild(widget);
 
-    void loadTradingViewTickerTape()
-      .then(() => {
-        if (active) setStatus('ready');
-      })
-      .catch(() => {
-        if (!active) return;
-        widget.remove();
-        setStatus('unavailable');
-      });
+      void loadTradingViewTickerTape()
+        .then(() => {
+          if (active) setStatus('ready');
+        })
+        .catch(() => {
+          if (!active) return;
+          widget?.remove();
+          setStatus('unavailable');
+        });
+    };
+
+    const initializationTimer = window.setTimeout(initializeWidget, 250);
 
     return () => {
       active = false;
-      widget.remove();
+      window.clearTimeout(initializationTimer);
+      widget?.remove();
       host.replaceChildren();
     };
   }, [loadAttempt, symbols]);

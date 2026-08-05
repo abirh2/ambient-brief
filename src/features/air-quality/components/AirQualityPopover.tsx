@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'motion/react';
 import { Clock, X, Activity } from 'lucide-react';
 import { AirQualitySnapshot } from '../types';
 import { interpretAqi } from '../utils/aqiInterpreter';
@@ -23,11 +22,7 @@ export const AirQualityPopover: React.FC<AirQualityPopoverProps> = ({
   };
 
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 8, scale: 0.96 }}
-      animate={{ opacity: 1, y: 0, scale: 1 }}
-      exit={{ opacity: 0, y: 8, scale: 0.96 }}
-      transition={{ duration: 0.15, ease: 'easeOut' }}
+    <div
       className="absolute bottom-full left-0 mb-3 w-80 sm:w-96 rounded-2xl bg-slate-950/95 border border-white/10 backdrop-blur-xl text-slate-100 shadow-2xl p-5 z-50 font-sans"
     >
       {/* Header */}
@@ -104,6 +99,6 @@ export const AirQualityPopover: React.FC<AirQualityPopoverProps> = ({
           {lastUpdatedText || `Observed at ${new Date(data.measuredAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`}
         </span>
       </div>
-    </motion.div>
+    </div>
   );
 };

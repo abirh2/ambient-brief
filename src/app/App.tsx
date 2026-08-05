@@ -6,11 +6,11 @@ import { WeatherAlertBanner } from '../features/weather/components/WeatherAlertB
 import { NewsPanel } from '../features/news/components/NewsPanel';
 import { MarketPanel } from '../features/markets/components/MarketPanel';
 import { ContextBar } from '../components/common/ContextBar';
-import { SettingsDrawer } from '../components/settings/SettingsDrawer';
 import { formatUvLabel } from '../features/weather/formatting';
 import { useAmbientBriefController } from './useAmbientBriefController';
 
 const DevTools = import.meta.env.DEV ? lazy(() => import('../components/common/DevTools')) : null;
+const SettingsDrawer = lazy(() => import('../components/settings/SettingsDrawer').then((module) => ({ default: module.SettingsDrawer })));
 
 export function App() {
   const dashboard = useAmbientBriefController();
@@ -21,7 +21,7 @@ export function App() {
     : null;
 
   return (
-    <div className="app-container min-h-screen w-full relative flex flex-col p-3 sm:p-5 lg:px-6 lg:py-5 min-[1600px]:px-7 max-w-[1440px] min-[1600px]:max-w-[1728px] min-[1900px]:max-w-[1880px] min-[2560px]:max-w-[2200px] min-[3440px]:max-w-[2400px] mx-auto gap-3.5 text-slate-100 antialiased selection:bg-indigo-500/30 selection:text-indigo-200">
+    <div className={`app-container min-h-screen w-full relative flex flex-col p-3 sm:p-5 lg:px-6 lg:py-5 min-[1600px]:px-7 max-w-[1440px] min-[1600px]:max-w-[1728px] min-[1900px]:max-w-[1880px] min-[2560px]:max-w-[2200px] min-[3440px]:max-w-[2400px] mx-auto gap-3.5 text-slate-100 antialiased selection:bg-indigo-500/30 selection:text-indigo-200 ${dashboard.settings.reducedMotion ? 'reduce-motion' : ''}`}>
       <AtmosphericBackground
         currentWeatherCondition={dashboard.weatherData?.condition}
         sunrise={dashboard.weatherData?.sunrise}
@@ -51,7 +51,7 @@ export function App() {
         </div>
       )}
 
-      <main className="ambient-grid w-full flex-grow grid grid-cols-1 gap-3.5 z-10 items-stretch">
+      <main className={`ambient-grid ${primaryAlert ? 'has-alert' : ''} w-full flex-grow grid grid-cols-1 gap-3.5 z-10 items-stretch`}>
         {primaryAlert && (
           <div className="ambient-alert">
             <WeatherAlertBanner alert={primaryAlert} allAlerts={dashboard.alerts} onDismiss={() => dashboard.dismissAlert(primaryAlert.id)} onDismissAlert={dashboard.dismissAlert} />
@@ -75,7 +75,11 @@ export function App() {
         weatherFreshness={dashboard.weatherState.status === 'cached' ? 'Cached' : dashboard.weatherState.status === 'loaded' ? 'Live' : 'Unavailable'}
         aqiState={dashboard.aqiState}
       />
-      <SettingsDrawer isOpen={dashboard.isSettingsOpen} onClose={dashboard.closeSettings} triggerRef={dashboard.settingsButtonRef} />
+      {dashboard.isSettingsOpen && (
+        <Suspense fallback={null}>
+          <SettingsDrawer isOpen onClose={dashboard.closeSettings} triggerRef={dashboard.settingsButtonRef} />
+        </Suspense>
+      )}
       {DevTools && <Suspense fallback={null}><DevTools /></Suspense>}
     </div>
   );

@@ -83,8 +83,8 @@ export const AtmosphericBackground: React.FC<AtmosphericBackgroundProps> = ({
       {/* LAYER 3: OPTIONAL WEATHER EFFECT LAYER */}
       <WeatherEffectLayer weatherEffect={weatherEffect} timeOfDay={timeOfDay} />
 
-      {/* LAYER 4: SUBTLE NOISE & GRAIN TEXTURE */}
-      <GrainTextureOverlay />
+      {/* LAYER 4: SUBTLE STATIC GRAIN TEXTURE */}
+      <div className="atmospheric-grain absolute inset-0 opacity-35 pointer-events-none mix-blend-overlay" />
     </div>
   );
 };
@@ -291,24 +291,3 @@ const WeatherEffectLayer: React.FC<{
     </div>
   );
 };
-
-/* -------------------------------------------------------------------------- */
-/* LAYER 4: SUBTLE NOISE & GRAIN TEXTURE                                      */
-/* -------------------------------------------------------------------------- */
-const GrainTextureOverlay: React.FC = () => (
-  <svg
-    className="absolute inset-0 w-full h-full opacity-[0.035] pointer-events-none mix-blend-overlay"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <filter id="ambientGrain">
-      <feTurbulence
-        type="fractalNoise"
-        baseFrequency="0.85"
-        numOctaves="3"
-        stitchTiles="stitch"
-      />
-      <feColorMatrix type="saturate" values="0" />
-    </filter>
-    <rect width="100%" height="100%" filter="url(#ambientGrain)" />
-  </svg>
-);

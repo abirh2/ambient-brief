@@ -53,7 +53,7 @@ export const ClockHeader: React.FC<ClockHeaderProps> = ({
           )}
         </div>
         {/* Accessible label for the clock so it doesn't announce every second */}
-        <span className="sr-only">
+        <span className="sr-only" aria-live="off">
            Current time is {hours}:{minutes} {ampm || ''}
         </span>
         
@@ -71,7 +71,7 @@ export const ClockHeader: React.FC<ClockHeaderProps> = ({
             ) : (
               <MapPin className="w-4 h-4 text-indigo-400 shrink-0" aria-hidden="true" />
             )}
-            <span className="truncate">{displayLocation}</span>
+            <span className="truncate max-w-[min(52vw,40rem)]">{displayLocation}</span>
             {isDeviceGps && (
               <span className="sr-only">(Device GPS Active)</span>
             )}

@@ -27,6 +27,10 @@ export function NewsImage({ src, className }: NewsImageProps) {
     <img
       src={safeSrc}
       alt=""
+      width="288"
+      height="224"
+      loading="lazy"
+      decoding="async"
       className={className}
       referrerPolicy="no-referrer"
       onError={() => setFailed(true)}

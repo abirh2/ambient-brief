@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { ShieldAlert, AlertTriangle, Info, AlertOctagon, X, ChevronRight, Layers } from 'lucide-react';
 import { WeatherAlert, AlertSeverity } from '../../../types';
 import { WeatherAlertModal } from './WeatherAlertModal';
@@ -19,6 +19,7 @@ export const WeatherAlertBanner: React.FC<WeatherAlertBannerProps> = ({
   onDismissAlert,
 }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const detailsButtonRef = useRef<HTMLButtonElement>(null);
 
   // Helper for mapping NWS severity to theme colors
   const getMappedSeverity = (rawSeverity: string): AlertSeverity => {
@@ -141,6 +142,7 @@ export const WeatherAlertBanner: React.FC<WeatherAlertBannerProps> = ({
         {/* Right Side Actions: View details + Dismiss */}
         <div className="flex items-center justify-end gap-2 shrink-0 self-end md:self-auto border-t md:border-t-0 pt-2 md:pt-0 border-white/10 w-full md:w-auto">
           <button
+            ref={detailsButtonRef}
             type="button"
             onClick={() => setIsModalOpen(true)}
             className={`flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors shadow-sm cursor-pointer ${style.btnPrimary}`}
@@ -167,6 +169,7 @@ export const WeatherAlertBanner: React.FC<WeatherAlertBannerProps> = ({
         allAlerts={hasMultipleAlerts ? allAlerts : undefined}
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
+        triggerRef={detailsButtonRef}
         onDismissAlert={onDismissAlert}
       />
     </>
