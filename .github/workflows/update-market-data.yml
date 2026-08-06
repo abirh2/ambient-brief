@@ -9,8 +9,13 @@ on:
         default: false
         type: boolean
   schedule:
-    - cron: '7,22,37,52 11-23 * * 1-5'
-    - cron: '37 17 * * 0,6'
+    # Four staggered opportunities per hour. The broad UTC window covers
+    # 04:00-20:00 America/New_York during both standard and daylight time;
+    # the script skips requests when the market is closed.
+    - cron: '11,26,41,56 8-23 * * 1-5'
+    # UTC midnight follows the prior Eastern trading day.
+    - cron: '11,26,41,56 0-1 * * 2-6'
+    - cron: '26 17 * * 0,6'
 
 permissions:
   contents: write
@@ -26,13 +31,13 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Check out source
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: ${{ github.event.repository.default_branch }}
           fetch-depth: 0
 
       - name: Use Node.js 22 LTS
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: npm

@@ -149,6 +149,7 @@ describe('market snapshot generator', () => {
     await writeFile(path, previous);
     await expect(generateMarketSnapshot({
       apiKey: 'secret', outputPath: path, batchDelayMs: 0,
+      now: new Date('2026-08-05T15:00:00.000Z'),
       fetchImpl: fetchFor(() => new Response('', { status: 503 })),
     })).rejects.toBeInstanceOf(MarketUpdateError);
     expect(await readFile(path, 'utf8')).toBe(previous);
