@@ -3,6 +3,10 @@ import { useSettingsStore, DEFAULT_LOCATION } from '../lib/stores/useSettingsSto
 import { AppLocation } from '../lib/types';
 import { AppLocationSchema } from '../lib/validation/schemas';
 import { formatLocationLabel, formatCompactLocation } from '../lib/services/geocodingService';
+import {
+  reverseGeocodeDeviceLocation,
+  type ReverseGeocodedLocation,
+} from '../lib/services/reverseGeocodingService';
 
 export type DeviceLocationErrorType = 'denied' | 'unavailable' | 'timeout' | 'unsupported' | 'unknown';
 
@@ -96,32 +100,26 @@ export function useAppLocation() {
     setDeviceLocationState({ status: 'loading' });
 
     navigator.geolocation.getCurrentPosition(
-      (position) => {
+      async (position) => {
         const { latitude, longitude } = position.coords;
-        // Open-Meteo's official geocoding API supports city-name search, but not
-        // reverse geocoding. Reuse the already normalized city label only when
-        // the device coordinates are close enough to that saved city to remain
-        // truthful. Otherwise ask the user to resolve the city through search.
-        if (distanceInKilometers(activeLocation, { latitude, longitude }) > 25) {
-          setDeviceLocationState({
-            status: 'error',
-            errorType: 'unavailable',
-            errorMessage:
-              'Coordinates detected, but Open-Meteo cannot resolve a city name from coordinates. Search for your city to finish setting the location.',
-          });
-          updateSettings({ useCurrentLocation: false });
-          return;
+
+        let resolvedLocation: ReverseGeocodedLocation | undefined;
+        try {
+          resolvedLocation = await reverseGeocodeDeviceLocation(latitude, longitude);
+        } catch {
+          // The coordinates remain valid if the optional naming request fails.
+          // Keep location-driven data live with a truthful generic label.
         }
 
         const deviceLoc: AppLocation = {
           id: `device-${latitude.toFixed(4)}-${longitude.toFixed(4)}`,
-          name: activeLocation.name,
-          admin1: activeLocation.admin1,
-          country: activeLocation.country,
-          countryCode: activeLocation.countryCode,
+          name: resolvedLocation?.name ?? 'My Location',
+          admin1: resolvedLocation?.admin1,
+          country: resolvedLocation?.country ?? '',
+          countryCode: resolvedLocation?.countryCode ?? '',
           latitude,
           longitude,
-          timezone: activeLocation.timezone,
+          timezone: getDeviceTimeZone(),
           source: 'device',
         };
 
@@ -150,7 +148,7 @@ export function useAppLocation() {
         maximumAge: 300000,
       }
     );
-  }, [activeLocation, updateSettings]);
+  }, [updateSettings]);
 
   const setCustomLocation = useCallback(
     (location: AppLocation) => {
@@ -202,18 +200,7 @@ export function useAppLocation() {
   };
 }
 
-function distanceInKilometers(
-  first: Pick<AppLocation, 'latitude' | 'longitude'>,
-  second: Pick<AppLocation, 'latitude' | 'longitude'>
-): number {
-  const toRadians = (degrees: number) => (degrees * Math.PI) / 180;
-  const earthRadiusKm = 6371;
-  const latitudeDelta = toRadians(second.latitude - first.latitude);
-  const longitudeDelta = toRadians(second.longitude - first.longitude);
-  const firstLatitude = toRadians(first.latitude);
-  const secondLatitude = toRadians(second.latitude);
-  const haversine =
-    Math.sin(latitudeDelta / 2) ** 2 +
-    Math.cos(firstLatitude) * Math.cos(secondLatitude) * Math.sin(longitudeDelta / 2) ** 2;
-  return earthRadiusKm * 2 * Math.atan2(Math.sqrt(haversine), Math.sqrt(1 - haversine));
+function getDeviceTimeZone(): string {
+  const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  return timeZone || 'UTC';
 }

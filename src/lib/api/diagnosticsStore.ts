@@ -12,6 +12,7 @@ interface DiagnosticsStore {
 
 const DEFAULT_PROVIDERS: ProviderDiagnostic[] = [
   { providerId: 'weather', providerName: 'Weather API (Open-Meteo)', status: 'idle' },
+  { providerId: 'reverseGeocoding', providerName: 'Location Names (BigDataCloud)', status: 'idle' },
   { providerId: 'hourlyForecast', providerName: 'Hourly Forecast Feed', status: 'idle' },
   { providerId: 'weatherAlerts', providerName: 'NWS Severe Weather Alerts', status: 'idle' },
   { providerId: 'news', providerName: 'News Feed (Currents static cache)', status: 'idle' },
