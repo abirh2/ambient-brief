@@ -108,15 +108,17 @@ function MarketQuote({ instrument, proxy = false }: { instrument: MarketInstrume
   return (
     <div className={`market-quote ${proxy ? 'market-proxy-quote' : 'market-company-quote'}`}>
       <div className="min-w-0">
-        <p className="truncate type-body font-semibold">{proxy ? instrument.proxyFor : instrument.name}</p>
-        <p className="type-metadata numeric text-[color:var(--text-muted)]">{instrument.symbol}{proxy ? ' fund' : ''}{instrument.stale ? ' · Previous snapshot' : ''}</p>
+        <p className="market-quote-name truncate">{proxy ? `${instrument.proxyFor} · ${instrument.symbol} proxy` : instrument.name}</p>
+        <p className="market-quote-symbol numeric">{proxy ? 'ETF share price' : instrument.symbol}{instrument.stale ? ' · Previous snapshot' : ''}</p>
       </div>
       <div className="shrink-0 text-right">
-        <p className="numeric type-body font-semibold tabular-nums">{formatPrice(instrument.price)}</p>
-        <p className={`numeric type-metadata inline-flex items-center justify-end gap-0.5 tabular-nums ${direction === 'up' ? 'semantic-positive' : direction === 'down' ? 'semantic-negative' : 'text-[color:var(--text-muted)]'}`}>
+        <p className="market-price numeric tabular-nums">{formatPrice(instrument.price)}</p>
+        <p className={`market-change numeric inline-flex items-center justify-end gap-1 tabular-nums ${direction === 'up' ? 'semantic-positive' : direction === 'down' ? 'semantic-negative' : 'text-[color:var(--text-muted)]'}`}>
           <DirectionIcon className="h-3.5 w-3.5" aria-hidden="true" />
           <span className="sr-only">{directionLabel} </span>
-          {formatChange(instrument.change, instrument.changePercent)}
+          {instrument.change !== null && <span className="market-absolute-change">{formatAbsoluteChange(instrument.change)}</span>}
+          {instrument.change !== null && instrument.changePercent !== null && <span aria-hidden="true">·</span>}
+          <span className="market-percent-change">{formatPercentChange(instrument.changePercent)}</span>
         </p>
       </div>
     </div>
@@ -134,11 +136,12 @@ function formatPrice(value: number): string {
   return new Intl.NumberFormat(undefined, { style: 'currency', currency: 'USD', minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(value);
 }
 
-function formatChange(change: number | null, percent: number | null): string {
-  const parts: string[] = [];
-  if (change !== null) parts.push(`${change >= 0 ? '+' : ''}${change.toFixed(2)}`);
-  if (percent !== null) parts.push(`${percent >= 0 ? '+' : ''}${percent.toFixed(2)}%`);
-  return parts.length > 0 ? parts.join(' · ') : 'Change unavailable';
+function formatAbsoluteChange(change: number): string {
+  return `${change >= 0 ? '+' : ''}${change.toFixed(2)}`;
+}
+
+function formatPercentChange(percent: number | null): string {
+  return percent === null ? 'Change unavailable' : `${percent >= 0 ? '+' : ''}${percent.toFixed(2)}%`;
 }
 
 function formatSession(session: MarketSession): string {

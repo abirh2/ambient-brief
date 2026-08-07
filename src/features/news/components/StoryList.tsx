@@ -59,7 +59,7 @@ export const StoryList: React.FC<StoryListProps> = ({ articles, defaultVisibleCo
         <button
           type="button"
           onClick={() => setIsExpanded(!isExpanded)}
-          className="view-more-stories compact-control"
+          className="view-more-stories compact-control disclosure-action"
           aria-expanded={isExpanded}
           aria-controls="news-story-list"
         >

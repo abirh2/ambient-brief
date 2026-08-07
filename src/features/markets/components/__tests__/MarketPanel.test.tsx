@@ -26,12 +26,10 @@ function loadedState(): MarketState {
 describe('MarketPanel', () => {
   it('renders honest proxy labels, all selected companies, directions, and partial state', () => {
     const html = renderToStaticMarkup(<MarketPanel state={loadedState()} onRefresh={() => undefined} />);
-    expect(html).toContain('S&amp;P 500');
-    expect(html).toContain('SPY fund');
-    expect(html).toContain('Dow Jones');
-    expect(html).toContain('DIA fund');
-    expect(html).toContain('Nasdaq-100');
-    expect(html).toContain('QQQ fund');
+    expect(html).toContain('S&amp;P 500 · SPY proxy');
+    expect(html).toContain('Dow Jones · DIA proxy');
+    expect(html).toContain('Nasdaq-100 · QQQ proxy');
+    expect(html).toContain('ETF share price');
     expect(html).toContain('Apple');
     expect(html).toContain('Meta');
     expect(html).toContain('Some quotes are unavailable');

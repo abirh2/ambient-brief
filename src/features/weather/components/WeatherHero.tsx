@@ -163,7 +163,7 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
           <button
             type="button"
             onClick={() => setDetailsExpanded((isExpanded) => !isExpanded)}
-            className="weather-details-action inline-flex items-center gap-1 text-sm font-medium"
+            className="weather-details-action compact-control disclosure-action inline-flex items-center gap-1 font-medium"
             aria-expanded={detailsExpanded}
           >
             Details

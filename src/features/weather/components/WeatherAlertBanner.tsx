@@ -94,7 +94,8 @@ export const WeatherAlertBanner: React.FC<WeatherAlertBannerProps> = ({
       <div
         role="region"
         aria-label={`Severe weather alert: ${title}`}
-        className={`weather-alert-banner tonal-section flex w-full flex-col gap-3 p-3.5 ${style.tone} ${className}`}
+        data-alert-severity={mappedSeverity}
+        className={`weather-alert-banner tonal-section flex w-full flex-col ${style.tone} ${className}`}
       >
         {/* Left Side: Icon + Severity + Title + Description + Source */}
         <div className="flex items-start gap-3 min-w-0 flex-grow">
@@ -138,9 +139,9 @@ export const WeatherAlertBanner: React.FC<WeatherAlertBannerProps> = ({
             ref={detailsButtonRef}
             type="button"
             onClick={() => setIsModalOpen(true)}
-            className="compact-control flex items-center gap-1 px-3 text-xs font-semibold cursor-pointer"
+            className="compact-control disclosure-action flex items-center gap-1 px-3 font-semibold cursor-pointer"
           >
-            <span>{hasMultipleAlerts ? 'Browse alerts' : 'View details'}</span>
+            <span>{hasMultipleAlerts ? 'Browse alerts' : 'Details'}</span>
             <ChevronRight className="w-3.5 h-3.5" />
           </button>
 

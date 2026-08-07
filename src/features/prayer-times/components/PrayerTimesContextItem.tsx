@@ -41,7 +41,7 @@ export function PrayerTimesContextItem() {
           <button
             type="button"
             onClick={() => setExpanded((value) => !value)}
-            className="compact-control prayer-schedule-action px-3 text-xs font-medium"
+            className="compact-control disclosure-action prayer-schedule-action px-3 font-medium"
             aria-expanded={expanded}
             aria-controls="prayer-full-schedule"
           >
@@ -75,8 +75,9 @@ export function PrayerTimesContextItem() {
             <div id="prayer-full-schedule" className="prayer-schedule" aria-label="Full prayer schedule">
               {scheduleForDisplay.prayers.map((prayer) => {
                 const isNext = prayer.timestamp.getTime() === nextPrayer.timestamp.getTime();
+                const isPast = !isNext && prayer.timestamp.getTime() < Date.now();
                 return (
-                  <div key={prayer.name} className="prayer-schedule-row" data-next={isNext || undefined}>
+                  <div key={prayer.name} className="prayer-schedule-row" data-next={isNext || undefined} data-past={isPast || undefined}>
                     <span className="flex items-center gap-2 font-medium">
                       {isNext && <CircleDot className="h-3.5 w-3.5 semantic-info" aria-hidden="true" />}
                       <span>{PRAYER_LABELS[prayer.name]}</span>

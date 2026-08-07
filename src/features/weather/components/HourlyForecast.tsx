@@ -76,7 +76,7 @@ export const HourlyForecast: React.FC<HourlyForecastProps> = ({ hourly }) => {
       {!expanded && hourly.length > 6 && (
         <button 
           onClick={() => setExpanded(true)}
-          className="w-full mt-2 py-1 text-xs text-slate-400 hover:text-slate-200 flex items-center justify-center gap-1 transition-colors"
+          className="compact-control disclosure-action w-full mt-2 flex items-center justify-center gap-1"
         >
           <span>Full forecast</span>
           <ChevronDown className="w-3 h-3" />
@@ -85,7 +85,7 @@ export const HourlyForecast: React.FC<HourlyForecastProps> = ({ hourly }) => {
       {expanded && (
         <button 
           onClick={() => setExpanded(false)}
-          className="w-full mt-2 py-1 text-xs text-slate-400 hover:text-slate-200 flex items-center justify-center gap-1 transition-colors"
+          className="compact-control disclosure-action w-full mt-2 flex items-center justify-center gap-1"
         >
           <span>Compact view</span>
           <ChevronUp className="w-3 h-3" />
