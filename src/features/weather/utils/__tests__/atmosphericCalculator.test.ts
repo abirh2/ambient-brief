@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { deriveTimeOfDay, deriveWeatherEffect, parseTimeToMinutes } from '../atmosphericCalculator';
+import { deriveAmbientLightPosition, deriveTimeOfDay, deriveWeatherEffect, parseTimeToMinutes } from '../atmosphericCalculator';
 
 describe('atmosphericCalculator', () => {
   const sunrise = '2026-07-29T06:00';
@@ -58,6 +58,12 @@ describe('atmosphericCalculator', () => {
     const date = new Date('2026-07-29T13:00:00Z');
     const tokyoTimeOfDay = deriveTimeOfDay('Asia/Tokyo', sunrise, sunset, date);
     expect(tokyoTimeOfDay).toBe('night');
+  });
+
+  it('moves daylight from the horizon through the upper field', () => {
+    expect(deriveAmbientLightPosition('UTC', '06:00', '18:00', new Date('2026-08-07T06:00:00Z'))).toEqual({ x: 14, y: 65 });
+    expect(deriveAmbientLightPosition('UTC', '06:00', '18:00', new Date('2026-08-07T12:00:00Z'))).toEqual({ x: 50, y: 31 });
+    expect(deriveAmbientLightPosition('UTC', '06:00', '18:00', new Date('2026-08-07T18:00:00Z'))).toEqual({ x: 86, y: 65 });
   });
 
   it('parses time strings correctly', () => {

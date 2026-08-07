@@ -8,21 +8,21 @@
 
   /* Canvas and atmosphere */
   --canvas-base: #07101a;
-  --gradient-night: linear-gradient(158deg, #07101b 0%, #0b1726 48%, #101c28 100%);
-  --gradient-day: linear-gradient(158deg, #2b4354 0%, #385666 48%, #51666c 100%);
-  --gradient-sunset: linear-gradient(158deg, #141b2b 0%, #34333d 50%, #67463b 100%);
-  --gradient-morning: linear-gradient(158deg, #23384b 0%, #485967 52%, #766358 100%);
-  --vignette: radial-gradient(ellipse at 50% 44%, transparent 46%, rgba(2, 7, 13, 0.16) 78%, rgba(2, 6, 11, 0.48) 120%);
+  --gradient-night: linear-gradient(164deg, #07111f 0%, #0b1828 46%, #101d2a 72%, #0a151f 100%);
+  --gradient-day: linear-gradient(164deg, #2a414f 0%, #3b5360 43%, #455b60 68%, #2b414b 100%);
+  --gradient-sunset: linear-gradient(174deg, #151d34 0%, #2d3040 43%, #594846 69%, #6b4b3b 88%, #332b2d 100%);
+  --gradient-morning: linear-gradient(166deg, #22384a 0%, #465b67 45%, #69605b 74%, #3a3d43 100%);
+  --vignette: radial-gradient(ellipse at 50% 43%, transparent 42%, rgba(2, 7, 13, 0.1) 72%, rgba(2, 6, 11, 0.42) 112%);
 
   /* Glass. Alpha is intentionally separate so the user setting can tune it. */
   --glass-primary-rgb: 10 21 32;
   --glass-secondary-rgb: 14 25 36;
   --glass-primary: rgb(var(--glass-primary-rgb) / 0.72);
   --glass-secondary: rgb(var(--glass-secondary-rgb) / 0.82);
-  --glass-border: rgba(214, 229, 237, 0.12);
-  --glass-inner-highlight: rgba(240, 247, 250, 0.08);
-  --glass-shadow: 0 28px 70px rgba(1, 6, 12, 0.2), 0 3px 12px rgba(1, 6, 12, 0.12);
-  --glass-blur: 20px;
+  --glass-border: rgba(214, 229, 237, 0.095);
+  --glass-inner-highlight: rgba(240, 247, 250, 0.105);
+  --glass-shadow: 0 26px 68px rgba(1, 6, 12, 0.18), 0 2px 10px rgba(1, 6, 12, 0.1);
+  --glass-blur: 26px;
   --glass-saturation: 122%;
   --tonal-section: rgba(184, 205, 218, 0.055);
   --tonal-section-hover: rgba(184, 205, 218, 0.09);
@@ -102,12 +102,12 @@ body {
 
 /* Surface level 2: the only large, floating container. */
 .glass-panel {
-  --glass-alpha: 0.72;
+  --glass-alpha: 0.675;
   position: relative;
   border: 1px solid var(--glass-border);
   border-radius: var(--radius-surface);
   background:
-    linear-gradient(145deg, rgba(226, 239, 246, 0.045), transparent 46%),
+    linear-gradient(145deg, rgba(226, 239, 246, 0.036), transparent 46%),
     linear-gradient(180deg, transparent 50%, rgba(2, 8, 15, 0.12)),
     rgb(var(--glass-primary-rgb) / var(--glass-alpha));
   box-shadow: var(--glass-shadow);
@@ -117,7 +117,7 @@ body {
 
 .glass-panel[data-variant="secondary"] {
   background:
-    linear-gradient(145deg, rgba(226, 239, 246, 0.04), transparent 40%),
+    linear-gradient(145deg, rgba(226, 239, 246, 0.032), transparent 40%),
     rgb(var(--glass-secondary-rgb) / var(--glass-alpha));
   box-shadow: 0 16px 44px rgba(0, 3, 8, 0.34);
 }
@@ -126,7 +126,7 @@ body {
   position: absolute;
   inset: 0 1.2rem auto;
   height: 1px;
-  background: linear-gradient(90deg, transparent, var(--glass-inner-highlight), transparent);
+  background: linear-gradient(90deg, transparent 2%, var(--glass-inner-highlight) 23%, rgba(240, 247, 250, 0.055) 62%, transparent 98%);
   content: "";
   pointer-events: none;
 }

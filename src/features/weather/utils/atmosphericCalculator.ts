@@ -113,6 +113,42 @@ export function deriveTimeOfDay(
 }
 
 /**
+ * Places the quiet directional light in the location-local sky. During
+ * daylight it travels from the sunrise horizon, through the upper field, to
+ * the sunset horizon. At night the same curve becomes a lower, cooler glow.
+ */
+export function deriveAmbientLightPosition(
+  timezone?: string,
+  sunrise?: string,
+  sunset?: string,
+  now: Date = new Date(),
+): { x: number; y: number } {
+  const currentMins = getLocalTimeComponents(timezone, now).minutesFromMidnight;
+  const sunriseMins = parseTimeToMinutes(sunrise) ?? 6 * 60;
+  const sunsetMins = parseTimeToMinutes(sunset) ?? 18 * 60;
+  const daylightDuration = Math.max(1, sunsetMins - sunriseMins);
+
+  if (currentMins >= sunriseMins && currentMins <= sunsetMins) {
+    const progress = Math.min(1, Math.max(0, (currentMins - sunriseMins) / daylightDuration));
+    return {
+      x: 14 + progress * 72,
+      y: 65 - Math.sin(progress * Math.PI) * 34,
+    };
+  }
+
+  const minutesSinceSunset = currentMins > sunsetMins
+    ? currentMins - sunsetMins
+    : currentMins + 24 * 60 - sunsetMins;
+  const nightDuration = Math.max(1, 24 * 60 - sunsetMins + sunriseMins);
+  const progress = Math.min(1, Math.max(0, minutesSinceSunset / nightDuration));
+
+  return {
+    x: 82 - progress * 64,
+    y: 58 - Math.sin(progress * Math.PI) * 17,
+  };
+}
+
+/**
  * Maps normalized weather condition string to WeatherEffectVariant.
  * Provider numeric codes must not reach the background components.
  */

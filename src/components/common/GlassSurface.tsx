@@ -20,11 +20,12 @@ export const GlassSurface: React.FC<GlassSurfaceProps> = ({
 }) => {
   const { settings } = useSettingsStore();
   const effectiveIntensity = intensity ?? settings.glassIntensity ?? 0.65;
-  const minimumAlpha = variant === 'secondary' ? 0.68 : 0.48;
-  const maximumAlpha = variant === 'secondary' ? 0.9 : 0.82;
+  const minimumAlpha = variant === 'secondary' ? 0.64 : 0.44;
+  const maximumAlpha = variant === 'secondary' ? 0.86 : 0.78;
+  const softenedIntensity = effectiveIntensity - 0.045;
 
   const style: GlassSurfaceStyle = {
-    '--glass-alpha': Math.min(Math.max(effectiveIntensity, minimumAlpha), maximumAlpha),
+    '--glass-alpha': Math.min(Math.max(softenedIntensity, minimumAlpha), maximumAlpha),
   };
 
   return (

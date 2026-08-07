@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
-import { deriveTimeOfDay, deriveWeatherEffect } from '../../features/weather/utils/atmosphericCalculator';
+import type { CSSProperties } from 'react';
+import { deriveAmbientLightPosition, deriveTimeOfDay, deriveWeatherEffect } from '../../features/weather/utils/atmosphericCalculator';
 import { useDevStateStore } from '../../lib/stores/useDevStateStore';
 import { useSettingsStore } from '../../lib/stores/useSettingsStore';
 
@@ -12,6 +13,11 @@ interface AtmosphericBackgroundProps {
 }
 
 const TIME_STATE_REFRESH_MS = 5 * 60 * 1000;
+
+type AtmosphericStyle = CSSProperties & {
+  '--ambient-light-x': string;
+  '--ambient-light-y': string;
+};
 
 /**
  * A deliberately small, non-interactive scene: the root paints the sky,
@@ -58,6 +64,11 @@ export function AtmosphericBackground({
     : bgWeatherOverride;
 
   const motion = settings.reducedMotion ? 'static' : settings.backgroundMotion;
+  const lightPosition = deriveAmbientLightPosition(timezone, sunrise, sunset, new Date(timeSample));
+  const style: AtmosphericStyle = {
+    '--ambient-light-x': `${lightPosition.x.toFixed(1)}%`,
+    '--ambient-light-y': `${lightPosition.y.toFixed(1)}%`,
+  };
 
   return (
     <div
@@ -68,6 +79,7 @@ export function AtmosphericBackground({
       data-time={timeOfDay}
       data-visibility="visible"
       data-weather={weatherEffect}
+      style={style}
     >
       <span className="atmospheric-haze atmospheric-haze-a" />
       <span className="atmospheric-haze atmospheric-haze-b" />
