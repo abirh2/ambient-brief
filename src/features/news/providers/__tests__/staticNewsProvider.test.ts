@@ -32,6 +32,22 @@ describe('StaticNewsProvider', () => {
     expect(fetchMock).toHaveBeenCalledWith(expect.stringContaining('data/news-feed.json'), expect.objectContaining({ cache: 'no-cache' }));
   });
 
+  it('normalizes readable publisher names and publisher title affixes at read time', async () => {
+    const feed = makeTestFeed();
+    feed.categories.Top = [{
+      ...TEST_HEADLINE,
+      title: 'Frontiers | Researchers publish significant climate findings',
+      publisher: 'frontiersin.org',
+      publisherDomain: 'frontiersin.org',
+    }];
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue(new Response(JSON.stringify(feed), { status: 200 })));
+    const result = await new StaticNewsProvider().fetchHeadlines(['Top']);
+    expect(result.headlines[0]).toMatchObject({
+      publisher: 'Frontiers',
+      title: 'Researchers publish significant climate findings',
+    });
+  });
+
   it('retains sparse categories when other selected categories contain full feeds', async () => {
     const categories: Record<NewsCategory, ReturnType<typeof categoryHeadline>[]> = {
       Top: Array.from({ length: 16 }, (_, index) => categoryHeadline('Top', index)),

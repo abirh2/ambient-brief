@@ -13,6 +13,8 @@ export function stripPublisherSuffix(title: string, publisher?: string): string 
     const escaped = suffix.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const stripped = title.replace(new RegExp(`\\s+(?:[-–—|:]\\s*)${escaped}$`, 'i'), '').trim();
     if (stripped !== title && stripped.length >= 15) return stripped;
+    const withoutPrefix = title.replace(new RegExp(`^${escaped}\\s*(?:[-–—|:]\\s*)`, 'i'), '').trim();
+    if (withoutPrefix !== title && withoutPrefix.length >= 15) return withoutPrefix;
   }
   return title.trim();
 }
@@ -39,6 +41,32 @@ export function calculateTitleSimilarity(titleA: string, titleB: string): number
   return intersection / new Set([...tokensA, ...tokensB]).size;
 }
 
+const EVENT_STOP_WORDS = new Set([
+  'about', 'after', 'again', 'against', 'amid', 'before', 'being', 'could', 'from',
+  'coverage', 'details', 'distinct', 'have', 'into', 'latest', 'more', 'news', 'over',
+  'says', 'story', 'that', 'their', 'there', 'these',
+  'they', 'this', 'through', 'update', 'what', 'when', 'where', 'which', 'while',
+  'with', 'would', 'your',
+]);
+
+function eventTokens(title: string): Set<string> {
+  return new Set(normalizeTitle(title).split(' ').filter((token) =>
+    token.length > 3 && !EVENT_STOP_WORDS.has(token)));
+}
+
+/** Conservative cross-publisher event similarity used for visible-feed diversity. */
+export function calculateEventSimilarity(titleA: string, titleB: string): number {
+  const titleSimilarity = calculateTitleSimilarity(titleA, titleB);
+  const tokensA = eventTokens(titleA);
+  const tokensB = eventTokens(titleB);
+  if (tokensA.size === 0 || tokensB.size === 0) return titleSimilarity;
+  const overlap = [...tokensA].filter((token) => tokensB.has(token)).length;
+  const containment = overlap / Math.min(tokensA.size, tokensB.size);
+  const dice = (2 * overlap) / (tokensA.size + tokensB.size);
+  const eventOverlap = overlap >= 4 ? (containment + dice) / 2 : dice * 0.6;
+  return titleSimilarity >= 0.92 ? titleSimilarity : eventOverlap;
+}
+
 function metadataScore(headline: Headline): number {
   return (headline.imageUrl ? 2 : 0) + (headline.description ? 1 : 0) +
     (headline.publisherDomain ? 1 : 0);
@@ -54,8 +82,11 @@ function choosePreferred(a: Headline, b: Headline): Headline {
   return { ...preferred, categories: mergeCategories(a.categories, b.categories) };
 }
 
-export function deduplicateHeadlines(headlines: Headline[]): Headline[] {
-  const sorted = [...headlines].sort((a, b) => {
+export function deduplicateHeadlines(
+  headlines: Headline[],
+  options: { preserveInputOrder?: boolean } = {},
+): Headline[] {
+  const sorted = options.preserveInputOrder ? [...headlines] : [...headlines].sort((a, b) => {
     const completeness = metadataScore(b) - metadataScore(a);
     return completeness || b.publishedAt.localeCompare(a.publishedAt) || a.id.localeCompare(b.id);
   });
@@ -71,6 +102,8 @@ export function deduplicateHeadlines(headlines: Headline[]): Headline[] {
       const similarity = calculateTitleSimilarity(headline.title, existing.title);
       if (similarity === 1 || similarity >= 0.92) return true;
       const hoursApart = Math.abs(Date.parse(headline.publishedAt) - Date.parse(existing.publishedAt)) / 3_600_000;
+      const eventSimilarity = calculateEventSimilarity(headline.title, existing.title);
+      if (hoursApart <= 36 && eventSimilarity >= 0.72) return true;
       return headline.publisherDomain === existing.publisherDomain && hoursApart <= 36 && similarity >= 0.78;
     });
 

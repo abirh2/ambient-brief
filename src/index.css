@@ -1147,8 +1147,8 @@ html, body {
 }
 
 .story-list-item .news-title {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif;
-  letter-spacing: -0.012em;
+  font-family: var(--font-sans);
+  letter-spacing: -0.006em;
 }
 
 .story-list-image {

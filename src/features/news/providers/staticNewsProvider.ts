@@ -1,6 +1,8 @@
 import { GeneratedNewsFeedSchema } from '../generatedFeedSchemas';
 import { NEWS_CATEGORIES, type Headline, type NewsCategory } from '../model';
-import { deduplicateHeadlines } from '../utils/deduplication';
+import { deduplicateHeadlines, stripPublisherSuffix } from '../utils/deduplication';
+import { rankHeadlines } from '../utils/ranking';
+import { formatPublisherName } from '../utils/sourceMapper';
 import type { NewsProvider } from './newsProvider';
 
 export const STATIC_NEWS_FEED_PATH = 'data/news-feed.json';
@@ -15,7 +17,17 @@ export function selectFeedHeadlines(
   feed: ReturnType<typeof GeneratedNewsFeedSchema.parse>,
 ): Headline[] {
   const selected = categories.length > 0 ? [...new Set(categories)] : ['Top' as const];
-  const queues = selected.map((category) => feed.categories[category]);
+  const queues = selected.map((category) => {
+    const normalized = feed.categories[category].map((headline) => {
+      const publisher = formatPublisherName(headline.publisherDomain);
+      return {
+        ...headline,
+        publisher,
+        title: stripPublisherSuffix(stripPublisherSuffix(headline.title, headline.publisherDomain), publisher),
+      };
+    });
+    return rankHeadlines(normalized, [category], feed.generatedAt);
+  });
   const interleaved: Headline[] = [];
   const maxLength = Math.max(0, ...queues.map((queue) => queue.length));
   for (let index = 0; index < maxLength; index += 1) {
@@ -28,7 +40,7 @@ export function selectFeedHeadlines(
   // combined list here can remove every story from a smaller category after
   // deduplication re-sorts by metadata completeness. The panel applies the
   // active-category filter before deciding how many stories to show.
-  return deduplicateHeadlines(interleaved);
+  return deduplicateHeadlines(interleaved, { preserveInputOrder: true });
 }
 
 export class StaticNewsProvider implements NewsProvider {

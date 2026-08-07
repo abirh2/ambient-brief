@@ -18,7 +18,7 @@ export const FeaturedStory: React.FC<FeaturedStoryProps> = ({ article }) => {
       rel={safeUrl ? 'noopener noreferrer' : undefined}
       aria-disabled={!safeUrl}
       className={`featured-story group grid transition-colors relative ${article.imageUrl ? 'has-image' : 'without-image'}`}
-      title={article.publisherDomain ? `Source: ${article.publisherDomain}` : undefined}
+      title={article.publisher ? `Source: ${article.publisher}` : undefined}
     >
       <div className="featured-story-copy">
         <div className="featured-story-metadata type-metadata">

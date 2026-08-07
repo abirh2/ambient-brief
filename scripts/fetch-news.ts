@@ -148,7 +148,7 @@ export function normalizeCurrentsArticle(
 
   return {
     id: `currents-${stableId}`,
-    title: stripPublisherSuffix(title, publisher),
+    title: stripPublisherSuffix(stripPublisherSuffix(title, publisherDomain), publisher),
     ...(description ? { description } : {}),
     publisher,
     publisherDomain,

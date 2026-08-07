@@ -27,7 +27,7 @@ export const StoryList: React.FC<StoryListProps> = ({ articles, defaultVisibleCo
             rel={safeUrl ? 'noopener noreferrer' : undefined}
             aria-disabled={!safeUrl}
             key={story.id || idx}
-            title={story.publisherDomain ? `Source: ${story.publisherDomain}` : undefined}
+            title={story.publisher ? `Source: ${story.publisher}` : undefined}
             className="story-list-item group"
           >
             <div className="story-list-copy">
