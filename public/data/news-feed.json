@@ -1,197 +1,33 @@
 {
   "schemaVersion": 1,
   "provider": "currents",
-  "generatedAt": "2026-08-16T08:38:59.123Z",
-  "sourceFetchedAt": "2026-08-16T08:38:59.123Z",
+  "generatedAt": "2026-08-16T09:35:00.134Z",
+  "sourceFetchedAt": "2026-08-16T09:35:00.134Z",
   "status": "success",
   "categories": {
     "Top": [
       {
-        "id": "currents-cf83d3a3-d008-5440-8d80-4a519fe1cbab",
-        "title": "Doctors found a parasite eating a man’s liver. Then traced how he got it",
-        "description": "The 41-year-old's liver was riddled with abscesses, and the trail back led through body lice and one undisclosed night.",
-        "publisher": "Newsweek",
-        "publisherDomain": "newsweek.com",
-        "publishedAt": "2026-08-16T08:15:00.000Z",
-        "url": "https://www.newsweek.com/doctors-found-a-parasite-eating-a-mans-liver-then-traced-how-he-got-it-12313720",
-        "imageUrl": "https://assets.newsweek.com/wp-content/uploads/2026/08/Copy-of-32-circle-inset-right.png?w=1200&crop=1",
+        "id": "currents-4f821731-515e-5ba9-88ec-9503b2531082",
+        "title": "As Iran War Turns Into Economic Battle, a New U.S. Strategy Recalls Old Ones",
+        "description": "The United States and Iran are poised to blow past a deadline they had set themselves to broker terms on peace and Iran’s nuclear program.",
+        "publisher": "The New York Times",
+        "publisherDomain": "nytimes.com",
+        "publishedAt": "2026-08-16T09:02:18.000Z",
+        "url": "https://www.nytimes.com/2026/08/16/world/middleeast/iran-war-us-trump.html",
         "categories": [
           "Top",
           "U.S."
         ]
       },
       {
-        "id": "currents-26f16883-3128-5010-9fa0-ce95be14e442",
-        "title": "What ACTUALLY Happens When You Type a URL google.com",
-        "description": "What ACTUALLY Happens When You Type a URL google.com \"If you’ve ever interviewed for a software...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-16T08:29:26.000Z",
-        "url": "https://dev.to/zidane1688/what-actually-happens-when-you-type-a-url-googlecom-58p6",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxa6rqgqkz8el8au3ev6u.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-0396f2b7-ea47-5f60-8f00-e7e0b78addff",
-        "title": "Grading Eagles preseason game vs. Ravens: Offense struggles to move ball",
-        "description": "Neither Andy Dalton nor Tanner McKee won the No. 2 QB spot with their performance on a Saturday night, while the Eagles' backup defensive line ...",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:36:34.000Z",
-        "url": "https://www.inquirer.com/eagles/eagles-ravens-grades-andy-dalton-tanner-mckee-sean-mannion-new-offense-20260815.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-f0fb9438-cdab-51b1-87a9-a9987bde3bce",
-        "title": "N is for namedtuple - Python A to Z",
-        "description": "I’m writing again about namedtuple, my favourite data structure in Python. They have all the good stuff from tuples but adds attribute access and better documentation while maintaining full backwards compatibility so it’s an easy upgrade on existing codebase.",
-        "publisher": "Hamatti",
-        "publisherDomain": "hamatti.org",
-        "publishedAt": "2026-08-16T08:28:32.000Z",
-        "url": "https://hamatti.org/posts/n-is-for-namedtuple-python-a-to-z",
-        "imageUrl": "https://hamatti.org/assets/img/posts/n-is-for-namedtuple-python-a-to-z/n-is-for-namedtuple-python-a-to-z-cover.png.webp",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-4545b0dc-767a-5f86-bf02-933240155a1f",
-        "title": "The AI Engineer's Reading List for 2026 (10 Books That Matter)",
-        "description": "The AI Engineering Books Developer CAn read in 2026 to learn essential AI concepts like RAG, LLM Engineering, Deployment, Agentic AI, and more.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-16T08:24:55.000Z",
-        "url": "https://dev.to/somadevtoo/the-ai-engineers-reading-list-for-2026-10-books-that-matter-50pb",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqbzx5sv5kf2gem7yqnpx.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-392a527b-ef66-5072-8f2d-d77db5539b2b",
-        "title": "What Happens When an LLM Never Reads Beyond Fifth Grade?",
-        "description": "A thought experiment on training a large language model exclusively on elementary-school materials—exploring the surprising strengths, severe weaknesses, and deep implications for AI alignment, safety, and data curation.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-16T08:19:52.000Z",
-        "url": "https://dev.to/kaixintelligence/what-happens-when-an-llm-never-reads-beyond-fifth-grade-phj",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmbp704the48o4qhjrsoa.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-dc00bf6e-36f5-5efc-b6c5-49257467a0ac",
-        "title": "I Built an Investigation-First Debugger for AI Agents — TraceMotive v0.3",
-        "description": "I Built an Investigation-First Debugger for AI Agents — TraceMotive v0.3 I just released...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-16T08:15:03.000Z",
-        "url": "https://dev.to/ruca_ai/i-built-an-investigation-first-debugger-for-ai-agents-tracemotive-v03-30n5",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbccxdjeujsbbpyx9z6yl.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-18e8f302-c0c9-5966-bf6f-6768635e6f73",
-        "title": "Philadelphia Eagles lose to Baltimore Ravens 24-7 in NFL preseason game",
-        "description": "Photos from Eagles at Ravens in preseason game at M&T Bank Stadium in Baltimore.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:36:34.000Z",
-        "url": "https://www.inquirer.com/photo/philadelphia-eagles-lose-baltimore-ravens-24-7-nfl-preseason-game-20260815.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-54d70549-f0ac-5dc2-82b2-d8085c23057f",
-        "title": "Phillies throttle Twins, 9-1, with better plate approach - The Philadelphia Inquirer",
-        "description": "A seven-run fifth inning and another dominant outing from Jesús Luzardo helped the Phillies cruise to a much-needed win as the NL wild-card race ...",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:36:34.000Z",
-        "url": "https://www.inquirer.com/phillies/phillies-twins-score-bryson-stott-jesus-luzardo-trea-turner-injury-20260815.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-c85131d6-f4b7-5775-b378-00b2a72ad259",
-        "title": "Eagles backups fail to generate fireworks in preseason opener, fall 24-7 at Ravens",
-        "description": "In a game that mostly included reserves for both sides, Sean Mannion and the new look Birds offense struggled to generate points.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:36:34.000Z",
-        "url": "https://www.inquirer.com/eagles/instant-analysis-2026-preseason-opener-eagles-loss-20260815.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-cbe73676-4a3a-5e2d-ab4e-aee416648693",
-        "title": "Andy Dalton and Tanner McKee are battling for QB2 duties. Saturday didn't provide much ...",
-        "description": "Neither quarterback could generate much offense in a preseason opener that featured mostly backups.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:36:34.000Z",
-        "url": "https://www.inquirer.com/eagles/2026-preseason-opener-andy-dalton-tanner-mckee-ravens-loss-20260815.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-d0548431-8e62-531d-a8a4-34d6744d1347",
-        "title": "A hometown hero, a legend retires, a night of stoppages and more from UFC 330",
-        "description": "UFC 330 took over the Xfinity Mobile Arena on Saturday night. The night was full of stoppages, teeth flying, and legendary ends.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:36:34.000Z",
-        "url": "https://www.inquirer.com/sports/philly-ufc-330-highlights-20260816.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-26431676-b5c1-59f9-bb6d-f2f7dba8e7d7",
-        "title": "Rose Tree Media - The Philadelphia Inquirer",
-        "description": "Wallingford-Swarthmore is facing a $2.6 million deficit. Officials blame a 'spending problem.' Officials in the Delaware County school district say ...",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:13:35.000Z",
-        "url": "https://www.inquirer.com/topic/rose-tree-media?includeTopper=true/2/2/2/2/2",
+        "id": "currents-5b8e55d3-a733-521b-b923-73d2e88fdd73",
+        "title": "Morocco tightens security as migrants gather near Ceuta border",
+        "description": "Morocco has deployed heavy security around the border city of Fnideq after false social media rumours claimed the border to Spain's Ceuta enclave would open. Hundreds of migrants, mostly from sub-Saharan…",
+        "publisher": "France24",
+        "publisherDomain": "france24.com",
+        "publishedAt": "2026-08-16T09:17:50.000Z",
+        "url": "https://www.france24.com/en/morocco-tightens-security-as-migrants-gather-near-ceuta-border",
+        "imageUrl": "https://s.france24.com/media/display/6681330a-97a0-11f1-83fc-005056bf30b7/w:1280/p:16x9/Capture-243.jpg",
         "categories": [
           "Top",
           "U.S.",
@@ -199,13 +35,60 @@
         ]
       },
       {
-        "id": "currents-38dabd6b-8ca8-518c-8b32-8ba738c1cd12",
-        "title": "Cassie Owens - The Philadelphia Inquirer",
-        "description": "I cover sociocultural dynamics, as well as how Philadelphians contend with them these days. 2 3. A 'renewed' mural in Philly's Chinatown ...",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:13:35.000Z",
-        "url": "https://www.inquirer.com/author/owens_cassie?page=2/2/2/2/2",
+        "id": "currents-4843fb1e-27e5-5e47-b6f9-aa790783ae83",
+        "title": "I re-scanned the launches I flagged last week — here's who actually shipped the fixes",
+        "description": "For the past two weeks I've been running passive, read-only security scans on products that launch...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-08-16T09:05:27.000Z",
+        "url": "https://dev.to/amitfeldman/i-re-scanned-the-launches-i-flagged-last-week-heres-who-actually-shipped-the-fixes-514k",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdvg2tefofbp4mmbrm23n.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-18c7374a-20f7-5c90-9d82-a43bef031afb",
+        "title": "Science at LLM Speed · Research-like output is cheap. A valid claim still needs evidence that can show it is wrong.",
+        "description": "Research-like output is cheap. A valid claim still needs evidence that can show it is wrong.",
+        "publisher": "Christophermeiklejohn",
+        "publisherDomain": "christophermeiklejohn.com",
+        "publishedAt": "2026-08-16T09:06:28.000Z",
+        "url": "https://christophermeiklejohn.com/series/the-machine-in-the-lab/science-at-llm-speed",
+        "imageUrl": "https://christophermeiklejohn.com/og/science-at-llm-speed.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-97de6077-e0c8-5d36-98e1-ab10b36b3ea4",
+        "title": "A top personal trainer shares 3 common mistakes people make when trying to build muscle",
+        "description": "Harley Pasternak has spent 30 years helping people build strength and muscle. He's seen the same mistakes along the way.",
+        "publisher": "Businessinsider",
+        "publisherDomain": "businessinsider.com",
+        "publishedAt": "2026-08-16T09:30:03.000Z",
+        "url": "https://www.businessinsider.com/top-personal-trainer-shares-3-common-muscle-building-mistakes-2026-8",
+        "imageUrl": "https://i.insider.com/6a7f3444c78818eff7d2d137?width=1200&format=jpeg",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-31387ce7-1ab8-5932-8e42-cd7bbef065eb",
+        "title": "WAFCON: Malawi and Cameroon face off for historic first crown",
+        "description": "Malawi and Cameroon will face off this Sunday in Rabat at 9pm Paris time in the final of the Women's Africa Cup of Nations. A surprising matchup, with each nation hoping to secure the first continental…",
+        "publisher": "France24",
+        "publisherDomain": "france24.com",
+        "publishedAt": "2026-08-16T09:21:20.000Z",
+        "url": "https://www.france24.com/en/sport/20260816-wafcon-malawi-and-cameroon-face-off-for-historic-first-crown",
+        "imageUrl": "https://s.france24.com/media/display/83a09e9e-9949-11f1-868d-005056a97e36/w:1280/p:16x9/AP26098352020610.jpg",
         "categories": [
           "Top",
           "U.S.",
@@ -213,13 +96,14 @@
         ]
       },
       {
-        "id": "currents-402ee7ac-a98a-5f4c-8dbd-5105e4af8f50",
-        "title": "Curious Philly - The Philadelphia Inquirer",
-        "description": "The Frank Rizzo statue is repaired, and the search for a new location is underway · SEPTA's bus numbering system is a relic from the streetcar era.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:13:35.000Z",
-        "url": "https://www.inquirer.com/topic/curious-philly?clickHeader=plus-whats-next-for-the-rizzo-statue&int_promo=newsletter&clickText=our-forum-for-readers-to-ask-about-the-citys-quirks/2/2",
+        "id": "currents-4ad702d1-a7d5-5348-b0cc-cd83c22d0caa",
+        "title": "Why France's under-15 social media ban was blocked",
+        "description": "France's attempt to ban social media for under-15s has been blocked by the Constitutional Council, which ruled the measure unconstitutional. Speaking to FRANCE 24, Peter Craddock, Senior Attorney advising…",
+        "publisher": "France24",
+        "publisherDomain": "france24.com",
+        "publishedAt": "2026-08-16T09:20:06.000Z",
+        "url": "https://www.france24.com/en/why-france-s-under-15-social-media-ban-was-blocked",
+        "imageUrl": "https://s.france24.com/media/display/8bd8eb1e-8005-11f1-836b-005056bfb2b6/w:1280/p:16x9/000-B9J29ZQ.jpg",
         "categories": [
           "Top",
           "U.S.",
@@ -227,221 +111,163 @@
         ]
       },
       {
-        "id": "currents-d92099a2-528c-5ce6-a67c-80bd5a04a80c",
-        "title": "How I Bought This House - The Philadelphia Inquirer",
-        "description": "A professional loan helped the first-time buyers keep $100,000 in savings while buying the rowhouse. Abigail Covington ...",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:13:35.000Z",
-        "url": "https://www.inquirer.com/topic/how-i-bought-my-house?cntr_auctionId=6a804b6b000ba43102e9006c/2/2",
+        "id": "currents-c886d96d-08cf-5ef8-b611-f3a455b0fe8c",
+        "title": "The Introvert with AI Intelligence: How AI Can Turn Deep Thinking into Lightning-Fast Innovation",
+        "description": "Introduction Deep thought meets fast innovation. Introverts have always been the quiet...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-08-16T09:16:55.000Z",
+        "url": "https://dev.to/ranjancse/the-introvert-with-ai-intelligence-how-ai-can-turn-deep-thinking-into-lightning-fast-innovation-47l2",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbmfob9qp0cfa3hw13vx5.png",
         "categories": [
           "Top",
           "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-5ba88a1d-cf14-5d32-8049-e8cacf589284",
+        "title": "Bangladesh get a call from their PM. Australia faces calls for new talent",
+        "description": "Every young batter in the country should keep their own phones close by. Changes to Australia’s line-up can’t be too far away.",
+        "publisher": "Theage",
+        "publisherDomain": "theage.com.au",
+        "publishedAt": "2026-08-16T09:15:23.000Z",
+        "url": "https://www.theage.com.au/sport/cricket/bangladesh-get-a-call-from-their-pm-australia-faces-calls-for-new-talent-20260816-p60ot2.html",
+        "imageUrl": "https://static.ffx.io/images/$zoom_0.2187%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_84%2C$y_117/t_crop_custom/q_86%2Cf_auto/t_metro_analysis_no_age_social_wm/659e3b677014687042009e640a5a76d4d101e438",
+        "categories": [
+          "Sports",
+          "Top",
+          "U.S.",
           "World"
+        ]
+      },
+      {
+        "id": "currents-562d3071-a42d-5323-b0af-b20f72062b1a",
+        "title": "Claude Opus 5 Surprised me! Detailed explanation of its performance",
+        "description": "TLDR: Claude Opus 5, released July 24, 2026, is Anthropic’s strongest Opus-class model. It approaches Claude Fable 5 performance on coding…",
+        "publisher": "Medium",
+        "publisherDomain": "medium.com",
+        "publishedAt": "2026-08-16T09:06:13.000Z",
+        "url": "https://medium.com/@CometAPI_/claude-opus-5-surprised-me-detailed-explanation-of-its-performance-c7f59b727f7b",
+        "imageUrl": "https://miro.medium.com/v2/resize:fit:1187/1*DWSbKmEgPWhBzNtCFK-omw.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-495d27f7-d0da-58c8-a757-8eab48a09910",
+        "title": "Attorney-General asks High Court to block PID appointments until after election | The Jerusalem Post",
+        "description": "The court is considering several petitions against a law passed in June that removes PID from the State Attorney’s Office and places it more directly under the Justice Ministry.",
+        "publisher": "Jpost",
+        "publisherDomain": "jpost.com",
+        "publishedAt": "2026-08-16T09:29:00.000Z",
+        "url": "https://www.jpost.com/israel-news/article-905633",
+        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/731413",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-2e4d7224-ce8d-5902-a9d0-7e261ab66080",
+        "title": "Hebrew U scientists create real dairy proteins from plants | The Jerusalem Post",
+        "description": "The discovery would thus help overcome a major hurdle in producing real dairy proteins without cows, paving the way for more sustainable dairy ingredients and less climate change.",
+        "publisher": "Jpost",
+        "publisherDomain": "jpost.com",
+        "publishedAt": "2026-08-16T09:28:59.000Z",
+        "url": "https://www.jpost.com/health-and-wellness/article-905625",
+        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/734040",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-49067ad6-befe-5367-92e9-046e70050af4",
+        "title": "IDF diverted to combat settler extremism, halting Palestinian terror arrested | The Jerusalem Post",
+        "description": "According to Army Radio, the arrests come at the request of the Shin Bet (Israel Security Agency), to which the IDF has responded that it is \"unable\" to arrest all of the wanted suspects.",
+        "publisher": "Jpost",
+        "publisherDomain": "jpost.com",
+        "publishedAt": "2026-08-16T09:28:59.000Z",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-905620",
+        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/733953",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-d93a78ce-a4fc-575c-8b94-fcb6fe1b4001",
+        "title": "National Security Minister Itamar Ben-Gvir claims Likud ministers asked to join party | The Jerusalem Post",
+        "description": "\"They see Otzma's polls, they saw how strong we are, and they wanted to join,\" Ben-Gvir elaborated.",
+        "publisher": "Jpost",
+        "publisherDomain": "jpost.com",
+        "publishedAt": "2026-08-16T09:28:58.000Z",
+        "url": "https://www.jpost.com/israel-election-2026/article-905629",
+        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/727714",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-f062fd29-d95d-545c-98a9-acd0250ec431",
+        "title": "FPS Test — Free Online Frame Rate Test",
+        "description": "Test your FPS online in one click. Measure frame rate, frame time, 1% lows and your screen refresh rate in the browser. No download, no signup.",
+        "publisher": "Fpstest",
+        "publisherDomain": "fpstest.co",
+        "publishedAt": "2026-08-16T09:13:43.000Z",
+        "url": "https://fpstest.co/",
+        "imageUrl": "https://fpstest.co/icons/og.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-11d06212-03bc-5c63-9d2a-1cd829d5fe9d",
+        "title": "BJP using Vande Mataram issue to divert attention from real ones: K C Venugopal",
+        "description": "K C Venugopal stated the Vande Mataram singing was a communication matter. He accused the BJP of using the issue to divert attention from real problems. Venugopal mentioned the Congress respects both Vande Mataram and the national anthem. He urged the BJP to address land issues in Arunachal Pradesh ...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-08-16T09:10:33.000Z",
+        "url": "https://economictimes.indiatimes.com/news/india/bjp-using-vande-mataram-issue-to-divert-attention-from-real-ones-k-c-venugopal/articleshow/133272621.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133272629,width-1200,height-630,imgsize-51132,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
         ]
       }
     ],
     "U.S.": [
       {
-        "id": "currents-cf83d3a3-d008-5440-8d80-4a519fe1cbab",
-        "title": "Doctors found a parasite eating a man’s liver. Then traced how he got it",
-        "description": "The 41-year-old's liver was riddled with abscesses, and the trail back led through body lice and one undisclosed night.",
-        "publisher": "Newsweek",
-        "publisherDomain": "newsweek.com",
-        "publishedAt": "2026-08-16T08:15:00.000Z",
-        "url": "https://www.newsweek.com/doctors-found-a-parasite-eating-a-mans-liver-then-traced-how-he-got-it-12313720",
-        "imageUrl": "https://assets.newsweek.com/wp-content/uploads/2026/08/Copy-of-32-circle-inset-right.png?w=1200&crop=1",
+        "id": "currents-4f821731-515e-5ba9-88ec-9503b2531082",
+        "title": "As Iran War Turns Into Economic Battle, a New U.S. Strategy Recalls Old Ones",
+        "description": "The United States and Iran are poised to blow past a deadline they had set themselves to broker terms on peace and Iran’s nuclear program.",
+        "publisher": "The New York Times",
+        "publisherDomain": "nytimes.com",
+        "publishedAt": "2026-08-16T09:02:18.000Z",
+        "url": "https://www.nytimes.com/2026/08/16/world/middleeast/iran-war-us-trump.html",
         "categories": [
           "Top",
           "U.S."
         ]
       },
       {
-        "id": "currents-26f16883-3128-5010-9fa0-ce95be14e442",
-        "title": "What ACTUALLY Happens When You Type a URL google.com",
-        "description": "What ACTUALLY Happens When You Type a URL google.com \"If you’ve ever interviewed for a software...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-16T08:29:26.000Z",
-        "url": "https://dev.to/zidane1688/what-actually-happens-when-you-type-a-url-googlecom-58p6",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxa6rqgqkz8el8au3ev6u.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-0396f2b7-ea47-5f60-8f00-e7e0b78addff",
-        "title": "Grading Eagles preseason game vs. Ravens: Offense struggles to move ball",
-        "description": "Neither Andy Dalton nor Tanner McKee won the No. 2 QB spot with their performance on a Saturday night, while the Eagles' backup defensive line ...",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:36:34.000Z",
-        "url": "https://www.inquirer.com/eagles/eagles-ravens-grades-andy-dalton-tanner-mckee-sean-mannion-new-offense-20260815.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-f0fb9438-cdab-51b1-87a9-a9987bde3bce",
-        "title": "N is for namedtuple - Python A to Z",
-        "description": "I’m writing again about namedtuple, my favourite data structure in Python. They have all the good stuff from tuples but adds attribute access and better documentation while maintaining full backwards compatibility so it’s an easy upgrade on existing codebase.",
-        "publisher": "Hamatti",
-        "publisherDomain": "hamatti.org",
-        "publishedAt": "2026-08-16T08:28:32.000Z",
-        "url": "https://hamatti.org/posts/n-is-for-namedtuple-python-a-to-z",
-        "imageUrl": "https://hamatti.org/assets/img/posts/n-is-for-namedtuple-python-a-to-z/n-is-for-namedtuple-python-a-to-z-cover.png.webp",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-4545b0dc-767a-5f86-bf02-933240155a1f",
-        "title": "The AI Engineer's Reading List for 2026 (10 Books That Matter)",
-        "description": "The AI Engineering Books Developer CAn read in 2026 to learn essential AI concepts like RAG, LLM Engineering, Deployment, Agentic AI, and more.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-16T08:24:55.000Z",
-        "url": "https://dev.to/somadevtoo/the-ai-engineers-reading-list-for-2026-10-books-that-matter-50pb",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqbzx5sv5kf2gem7yqnpx.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-392a527b-ef66-5072-8f2d-d77db5539b2b",
-        "title": "What Happens When an LLM Never Reads Beyond Fifth Grade?",
-        "description": "A thought experiment on training a large language model exclusively on elementary-school materials—exploring the surprising strengths, severe weaknesses, and deep implications for AI alignment, safety, and data curation.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-16T08:19:52.000Z",
-        "url": "https://dev.to/kaixintelligence/what-happens-when-an-llm-never-reads-beyond-fifth-grade-phj",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmbp704the48o4qhjrsoa.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-dc00bf6e-36f5-5efc-b6c5-49257467a0ac",
-        "title": "I Built an Investigation-First Debugger for AI Agents — TraceMotive v0.3",
-        "description": "I Built an Investigation-First Debugger for AI Agents — TraceMotive v0.3 I just released...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-16T08:15:03.000Z",
-        "url": "https://dev.to/ruca_ai/i-built-an-investigation-first-debugger-for-ai-agents-tracemotive-v03-30n5",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbccxdjeujsbbpyx9z6yl.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-18e8f302-c0c9-5966-bf6f-6768635e6f73",
-        "title": "Philadelphia Eagles lose to Baltimore Ravens 24-7 in NFL preseason game",
-        "description": "Photos from Eagles at Ravens in preseason game at M&T Bank Stadium in Baltimore.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:36:34.000Z",
-        "url": "https://www.inquirer.com/photo/philadelphia-eagles-lose-baltimore-ravens-24-7-nfl-preseason-game-20260815.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-54d70549-f0ac-5dc2-82b2-d8085c23057f",
-        "title": "Phillies throttle Twins, 9-1, with better plate approach - The Philadelphia Inquirer",
-        "description": "A seven-run fifth inning and another dominant outing from Jesús Luzardo helped the Phillies cruise to a much-needed win as the NL wild-card race ...",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:36:34.000Z",
-        "url": "https://www.inquirer.com/phillies/phillies-twins-score-bryson-stott-jesus-luzardo-trea-turner-injury-20260815.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-bcb19edb-12db-5816-a381-27dae8d69cbd",
-        "title": "Eagles Joshua Weru and Uar Bernard played in their first football game ever",
-        "description": "The two International Player Pathway program products took another step in their remarkable journeys.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:36:34.000Z",
-        "url": "https://www.inquirer.com/eagles/joshua-weru-uar-bernard-2026-preseason-opener-ravens-20260815.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-c85131d6-f4b7-5775-b378-00b2a72ad259",
-        "title": "Eagles backups fail to generate fireworks in preseason opener, fall 24-7 at Ravens",
-        "description": "In a game that mostly included reserves for both sides, Sean Mannion and the new look Birds offense struggled to generate points.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:36:34.000Z",
-        "url": "https://www.inquirer.com/eagles/instant-analysis-2026-preseason-opener-eagles-loss-20260815.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-cbe73676-4a3a-5e2d-ab4e-aee416648693",
-        "title": "Andy Dalton and Tanner McKee are battling for QB2 duties. Saturday didn't provide much ...",
-        "description": "Neither quarterback could generate much offense in a preseason opener that featured mostly backups.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:36:34.000Z",
-        "url": "https://www.inquirer.com/eagles/2026-preseason-opener-andy-dalton-tanner-mckee-ravens-loss-20260815.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-d0548431-8e62-531d-a8a4-34d6744d1347",
-        "title": "A hometown hero, a legend retires, a night of stoppages and more from UFC 330",
-        "description": "UFC 330 took over the Xfinity Mobile Arena on Saturday night. The night was full of stoppages, teeth flying, and legendary ends.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:36:34.000Z",
-        "url": "https://www.inquirer.com/sports/philly-ufc-330-highlights-20260816.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-26431676-b5c1-59f9-bb6d-f2f7dba8e7d7",
-        "title": "Rose Tree Media - The Philadelphia Inquirer",
-        "description": "Wallingford-Swarthmore is facing a $2.6 million deficit. Officials blame a 'spending problem.' Officials in the Delaware County school district say ...",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:13:35.000Z",
-        "url": "https://www.inquirer.com/topic/rose-tree-media?includeTopper=true/2/2/2/2/2",
+        "id": "currents-5b8e55d3-a733-521b-b923-73d2e88fdd73",
+        "title": "Morocco tightens security as migrants gather near Ceuta border",
+        "description": "Morocco has deployed heavy security around the border city of Fnideq after false social media rumours claimed the border to Spain's Ceuta enclave would open. Hundreds of migrants, mostly from sub-Saharan…",
+        "publisher": "France24",
+        "publisherDomain": "france24.com",
+        "publishedAt": "2026-08-16T09:17:50.000Z",
+        "url": "https://www.france24.com/en/morocco-tightens-security-as-migrants-gather-near-ceuta-border",
+        "imageUrl": "https://s.france24.com/media/display/6681330a-97a0-11f1-83fc-005056bf30b7/w:1280/p:16x9/Capture-243.jpg",
         "categories": [
           "Top",
           "U.S.",
@@ -449,13 +275,75 @@
         ]
       },
       {
-        "id": "currents-38dabd6b-8ca8-518c-8b32-8ba738c1cd12",
-        "title": "Cassie Owens - The Philadelphia Inquirer",
-        "description": "I cover sociocultural dynamics, as well as how Philadelphians contend with them these days. 2 3. A 'renewed' mural in Philly's Chinatown ...",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:13:35.000Z",
-        "url": "https://www.inquirer.com/author/owens_cassie?page=2/2/2/2/2",
+        "id": "currents-4843fb1e-27e5-5e47-b6f9-aa790783ae83",
+        "title": "I re-scanned the launches I flagged last week — here's who actually shipped the fixes",
+        "description": "For the past two weeks I've been running passive, read-only security scans on products that launch...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-08-16T09:05:27.000Z",
+        "url": "https://dev.to/amitfeldman/i-re-scanned-the-launches-i-flagged-last-week-heres-who-actually-shipped-the-fixes-514k",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdvg2tefofbp4mmbrm23n.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-18c7374a-20f7-5c90-9d82-a43bef031afb",
+        "title": "Science at LLM Speed · Research-like output is cheap. A valid claim still needs evidence that can show it is wrong.",
+        "description": "Research-like output is cheap. A valid claim still needs evidence that can show it is wrong.",
+        "publisher": "Christophermeiklejohn",
+        "publisherDomain": "christophermeiklejohn.com",
+        "publishedAt": "2026-08-16T09:06:28.000Z",
+        "url": "https://christophermeiklejohn.com/series/the-machine-in-the-lab/science-at-llm-speed",
+        "imageUrl": "https://christophermeiklejohn.com/og/science-at-llm-speed.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-7451492b-e7d1-56ee-a4e1-b0e6ef3f50e8",
+        "title": "Used Booksellers Are Racking Up Huge Sales. They're Not Thrilled About the Likely Reason",
+        "description": "If you're a book, you'd better start sleeping with one eye open.",
+        "publisher": "Gizmodo",
+        "publisherDomain": "gizmodo.com",
+        "publishedAt": "2026-08-16T09:30:46.000Z",
+        "url": "https://gizmodo.com/used-booksellers-are-racking-up-huge-sales-theyre-not-thrilled-about-the-likely-reason-2000799032",
+        "imageUrl": "https://gizmodo.com/app/uploads/2026/08/used-books-1200x675.jpg",
+        "categories": [
+          "Entertainment",
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-97de6077-e0c8-5d36-98e1-ab10b36b3ea4",
+        "title": "A top personal trainer shares 3 common mistakes people make when trying to build muscle",
+        "description": "Harley Pasternak has spent 30 years helping people build strength and muscle. He's seen the same mistakes along the way.",
+        "publisher": "Businessinsider",
+        "publisherDomain": "businessinsider.com",
+        "publishedAt": "2026-08-16T09:30:03.000Z",
+        "url": "https://www.businessinsider.com/top-personal-trainer-shares-3-common-muscle-building-mistakes-2026-8",
+        "imageUrl": "https://i.insider.com/6a7f3444c78818eff7d2d137?width=1200&format=jpeg",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-31387ce7-1ab8-5932-8e42-cd7bbef065eb",
+        "title": "WAFCON: Malawi and Cameroon face off for historic first crown",
+        "description": "Malawi and Cameroon will face off this Sunday in Rabat at 9pm Paris time in the final of the Women's Africa Cup of Nations. A surprising matchup, with each nation hoping to secure the first continental…",
+        "publisher": "France24",
+        "publisherDomain": "france24.com",
+        "publishedAt": "2026-08-16T09:21:20.000Z",
+        "url": "https://www.france24.com/en/sport/20260816-wafcon-malawi-and-cameroon-face-off-for-historic-first-crown",
+        "imageUrl": "https://s.france24.com/media/display/83a09e9e-9949-11f1-868d-005056a97e36/w:1280/p:16x9/AP26098352020610.jpg",
         "categories": [
           "Top",
           "U.S.",
@@ -463,211 +351,266 @@
         ]
       },
       {
-        "id": "currents-402ee7ac-a98a-5f4c-8dbd-5105e4af8f50",
-        "title": "Curious Philly - The Philadelphia Inquirer",
-        "description": "The Frank Rizzo statue is repaired, and the search for a new location is underway · SEPTA's bus numbering system is a relic from the streetcar era.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:13:35.000Z",
-        "url": "https://www.inquirer.com/topic/curious-philly?clickHeader=plus-whats-next-for-the-rizzo-statue&int_promo=newsletter&clickText=our-forum-for-readers-to-ask-about-the-citys-quirks/2/2",
+        "id": "currents-4ad702d1-a7d5-5348-b0cc-cd83c22d0caa",
+        "title": "Why France's under-15 social media ban was blocked",
+        "description": "France's attempt to ban social media for under-15s has been blocked by the Constitutional Council, which ruled the measure unconstitutional. Speaking to FRANCE 24, Peter Craddock, Senior Attorney advising…",
+        "publisher": "France24",
+        "publisherDomain": "france24.com",
+        "publishedAt": "2026-08-16T09:20:06.000Z",
+        "url": "https://www.france24.com/en/why-france-s-under-15-social-media-ban-was-blocked",
+        "imageUrl": "https://s.france24.com/media/display/8bd8eb1e-8005-11f1-836b-005056bfb2b6/w:1280/p:16x9/000-B9J29ZQ.jpg",
         "categories": [
           "Top",
           "U.S.",
           "World"
+        ]
+      },
+      {
+        "id": "currents-c886d96d-08cf-5ef8-b611-f3a455b0fe8c",
+        "title": "The Introvert with AI Intelligence: How AI Can Turn Deep Thinking into Lightning-Fast Innovation",
+        "description": "Introduction Deep thought meets fast innovation. Introverts have always been the quiet...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-08-16T09:16:55.000Z",
+        "url": "https://dev.to/ranjancse/the-introvert-with-ai-intelligence-how-ai-can-turn-deep-thinking-into-lightning-fast-innovation-47l2",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbmfob9qp0cfa3hw13vx5.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-5ba88a1d-cf14-5d32-8049-e8cacf589284",
+        "title": "Bangladesh get a call from their PM. Australia faces calls for new talent",
+        "description": "Every young batter in the country should keep their own phones close by. Changes to Australia’s line-up can’t be too far away.",
+        "publisher": "Theage",
+        "publisherDomain": "theage.com.au",
+        "publishedAt": "2026-08-16T09:15:23.000Z",
+        "url": "https://www.theage.com.au/sport/cricket/bangladesh-get-a-call-from-their-pm-australia-faces-calls-for-new-talent-20260816-p60ot2.html",
+        "imageUrl": "https://static.ffx.io/images/$zoom_0.2187%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_84%2C$y_117/t_crop_custom/q_86%2Cf_auto/t_metro_analysis_no_age_social_wm/659e3b677014687042009e640a5a76d4d101e438",
+        "categories": [
+          "Sports",
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-562d3071-a42d-5323-b0af-b20f72062b1a",
+        "title": "Claude Opus 5 Surprised me! Detailed explanation of its performance",
+        "description": "TLDR: Claude Opus 5, released July 24, 2026, is Anthropic’s strongest Opus-class model. It approaches Claude Fable 5 performance on coding…",
+        "publisher": "Medium",
+        "publisherDomain": "medium.com",
+        "publishedAt": "2026-08-16T09:06:13.000Z",
+        "url": "https://medium.com/@CometAPI_/claude-opus-5-surprised-me-detailed-explanation-of-its-performance-c7f59b727f7b",
+        "imageUrl": "https://miro.medium.com/v2/resize:fit:1187/1*DWSbKmEgPWhBzNtCFK-omw.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-dfe050ff-a8eb-5bcf-acb8-3067da859d7c",
+        "title": "On this day in 1992, Nigel Mansell became a Formula 1 World Champion.",
+        "description": "submitted by /u/PiggySVW [link] [comments]",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-08-16T09:04:20.000Z",
+        "url": "https://www.reddit.com/r/formula1/comments/1vps6e8/on_this_day_in_1992_nigel_mansell_became_a",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-f062fd29-d95d-545c-98a9-acd0250ec431",
+        "title": "FPS Test — Free Online Frame Rate Test",
+        "description": "Test your FPS online in one click. Measure frame rate, frame time, 1% lows and your screen refresh rate in the browser. No download, no signup.",
+        "publisher": "Fpstest",
+        "publisherDomain": "fpstest.co",
+        "publishedAt": "2026-08-16T09:13:43.000Z",
+        "url": "https://fpstest.co/",
+        "imageUrl": "https://fpstest.co/icons/og.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-9ce113d8-bbf3-5b47-a349-fd066cfdd880",
+        "title": "Ask HN: Where to learn software engineering fundamentals?",
+        "publisher": "Ycombinator",
+        "publisherDomain": "news.ycombinator.com",
+        "publishedAt": "2026-08-16T09:15:14.000Z",
+        "url": "https://news.ycombinator.com/item?id=49318324",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-290838a1-3056-5f2b-8ab8-74d9ae115c60",
+        "title": "Show HN: RNet – AI token service provider",
+        "publisher": "Ycombinator",
+        "publisherDomain": "news.ycombinator.com",
+        "publishedAt": "2026-08-16T09:11:32.000Z",
+        "url": "https://news.ycombinator.com/item?id=49318304",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-cf3e3022-0490-54fe-b7ef-0fb661f282a4",
+        "title": "I parented the child I was, not the kids I had. Now I wonder if that was a mistake.",
+        "description": "I chose my sons' small school based on my own childhood fears. I regret not seeing that a bigger school may have suited them better.",
+        "publisher": "Businessinsider",
+        "publisherDomain": "businessinsider.com",
+        "publishedAt": "2026-08-16T09:08:01.000Z",
+        "url": "https://www.businessinsider.com/parented-child-i-was-not-the-kids-i-had-regret-2026-8",
+        "imageUrl": "https://i.insider.com/6a7c94eebd87410e364d1982?width=1200&format=jpeg",
+        "categories": [
+          "Top",
+          "U.S."
         ]
       }
     ],
     "World": [
       {
-        "id": "currents-26a288db-36ee-50a0-a4a5-dea8d755cf89",
-        "title": "Korea relaunches hunt for assets accumulated by pro-Japanese collaborators - The Korea Times",
-        "description": "Sixteen years after winding down, Korea’s Investigative Commission on Pro-Japanese Collaborators’ Property will restart operations this December to...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-08-16T08:32:02.000Z",
-        "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20260816/korea-relaunches-hunt-for-assets-accumulated-by-pro-japanese-collaborators",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/16/2104b8bf-b7de-4e63-9834-e058ef812ebc.jpg",
+        "id": "currents-5b8e55d3-a733-521b-b923-73d2e88fdd73",
+        "title": "Morocco tightens security as migrants gather near Ceuta border",
+        "description": "Morocco has deployed heavy security around the border city of Fnideq after false social media rumours claimed the border to Spain's Ceuta enclave would open. Hundreds of migrants, mostly from sub-Saharan…",
+        "publisher": "France24",
+        "publisherDomain": "france24.com",
+        "publishedAt": "2026-08-16T09:17:50.000Z",
+        "url": "https://www.france24.com/en/morocco-tightens-security-as-migrants-gather-near-ceuta-border",
+        "imageUrl": "https://s.france24.com/media/display/6681330a-97a0-11f1-83fc-005056bf30b7/w:1280/p:16x9/Capture-243.jpg",
         "categories": [
           "Top",
+          "U.S.",
           "World"
         ]
       },
       {
-        "id": "currents-0396f2b7-ea47-5f60-8f00-e7e0b78addff",
-        "title": "Grading Eagles preseason game vs. Ravens: Offense struggles to move ball",
-        "description": "Neither Andy Dalton nor Tanner McKee won the No. 2 QB spot with their performance on a Saturday night, while the Eagles' backup defensive line ...",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:36:34.000Z",
-        "url": "https://www.inquirer.com/eagles/eagles-ravens-grades-andy-dalton-tanner-mckee-sean-mannion-new-offense-20260815.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-d9596a76-6a8d-52c6-b119-dba1bc518415",
-        "title": "Yemen closes strategic Mocha port after numerous Houthi missile attacks | The Jerusalem Post",
-        "description": "The attacks killed seven people and caused an estimated $16 million in losses, the director told a news conference.",
+        "id": "currents-495d27f7-d0da-58c8-a757-8eab48a09910",
+        "title": "Attorney-General asks High Court to block PID appointments until after election | The Jerusalem Post",
+        "description": "The court is considering several petitions against a law passed in June that removes PID from the State Attorney’s Office and places it more directly under the Justice Ministry.",
         "publisher": "Jpost",
         "publisherDomain": "jpost.com",
-        "publishedAt": "2026-08-16T08:38:27.000Z",
-        "url": "https://www.jpost.com/middle-east/article-905632",
-        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/734047",
+        "publishedAt": "2026-08-16T09:29:00.000Z",
+        "url": "https://www.jpost.com/israel-news/article-905633",
+        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/731413",
         "categories": [
           "Top",
           "World"
         ]
       },
       {
-        "id": "currents-3d86043d-64b4-5d81-a26d-08a5642db1e2",
-        "title": "12 killed, at least 10 injured in Polish bus crash in Hungary - The Korea Times",
-        "description": "BUDAPEST — A dozen people were killed and at least 10 injured after a Polish bus overturned at night on a motorway in eastern Hungary, Hungarian Pr...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-08-16T08:32:02.000Z",
-        "url": "https://www.koreatimes.co.kr/world/20260816/12-killed-at-least-10-injured-in-polish-bus-crash-in-hungary",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/16/8bdf27d4-e540-4108-8a03-0a95b46dbccc.jpg",
+        "id": "currents-95622af8-d932-5502-9af9-1f9771dee981",
+        "title": "Relief for families struggling with skyrocketing power prices",
+        "description": "An Australian inventor has built an AI tool to help slash household bills.",
+        "publisher": "Smh",
+        "publisherDomain": "smh.com.au",
+        "publishedAt": "2026-08-16T09:31:01.000Z",
+        "url": "https://www.smh.com.au/national/relief-for-families-struggling-with-skyrocketing-power-prices-20260816-p60otl.html?ref=rss",
+        "imageUrl": "https://static.ffx.io/images/w_800%2Ch_450%2Cc_fill%2Cg_auto:faces/q_86%2Cf_auto/e3517c40459b8119c3f7d8b6055c772a39fc842e",
         "categories": [
           "Top",
           "World"
         ]
       },
       {
-        "id": "currents-782f8b3d-5a83-555f-8e60-85e533cbf281",
-        "title": "State-sponsored cyberattacks from N. Korea, China, Russia rise 7.5% in 1st half of 2026 - The Korea Times",
-        "description": "Cyberattacks orchestrated by state-sponsored hacking groups from North Korea, China and Russia increased by 7.5 percent in the first half of this y...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-08-16T08:32:02.000Z",
-        "url": "https://www.koreatimes.co.kr/southkorea/defense/20260816/state-sponsored-cyberattacks-from-n-korea-china-russia-rise-75-in-1st-half-of-2026",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/16/4de509e0-4454-4e3c-9663-e00655d183fb.jpg",
+        "id": "currents-5ba88a1d-cf14-5d32-8049-e8cacf589284",
+        "title": "Bangladesh get a call from their PM. Australia faces calls for new talent",
+        "description": "Every young batter in the country should keep their own phones close by. Changes to Australia’s line-up can’t be too far away.",
+        "publisher": "Theage",
+        "publisherDomain": "theage.com.au",
+        "publishedAt": "2026-08-16T09:15:23.000Z",
+        "url": "https://www.theage.com.au/sport/cricket/bangladesh-get-a-call-from-their-pm-australia-faces-calls-for-new-talent-20260816-p60ot2.html",
+        "imageUrl": "https://static.ffx.io/images/$zoom_0.2187%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_84%2C$y_117/t_crop_custom/q_86%2Cf_auto/t_metro_analysis_no_age_social_wm/659e3b677014687042009e640a5a76d4d101e438",
+        "categories": [
+          "Sports",
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-2e4d7224-ce8d-5902-a9d0-7e261ab66080",
+        "title": "Hebrew U scientists create real dairy proteins from plants | The Jerusalem Post",
+        "description": "The discovery would thus help overcome a major hurdle in producing real dairy proteins without cows, paving the way for more sustainable dairy ingredients and less climate change.",
+        "publisher": "Jpost",
+        "publisherDomain": "jpost.com",
+        "publishedAt": "2026-08-16T09:28:59.000Z",
+        "url": "https://www.jpost.com/health-and-wellness/article-905625",
+        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/734040",
         "categories": [
           "Top",
           "World"
         ]
       },
       {
-        "id": "currents-7ed7f083-b2df-599b-8fd8-cf0bddd7afa7",
-        "title": "Young Korean workers hit hardest as AI automation slashes jobs - The Korea Times",
-        "description": "More than half of the jobs lost by young Koreans in July were concentrated in industries heavily exposed to artificial intelligence (AI). This mark...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-08-16T08:32:02.000Z",
-        "url": "https://www.koreatimes.co.kr/economy/20260816/young-korean-workers-hit-hardest-as-ai-automation-slashes-jobs",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/16/48fcc600-9f03-45c9-b0e2-3aa0012d1109.jpg",
+        "id": "currents-49067ad6-befe-5367-92e9-046e70050af4",
+        "title": "IDF diverted to combat settler extremism, halting Palestinian terror arrested | The Jerusalem Post",
+        "description": "According to Army Radio, the arrests come at the request of the Shin Bet (Israel Security Agency), to which the IDF has responded that it is \"unable\" to arrest all of the wanted suspects.",
+        "publisher": "Jpost",
+        "publisherDomain": "jpost.com",
+        "publishedAt": "2026-08-16T09:28:59.000Z",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-905620",
+        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/733953",
         "categories": [
           "Top",
           "World"
         ]
       },
       {
-        "id": "currents-b9de10e9-1670-531a-b1e1-0c3f19f086c8",
-        "title": "Ex-PM leads in DPK leadership race amid falling approval rating for president - The Korea Times",
-        "description": "Former Prime Minister Kim Min-seok won the ruling Democratic Party of Korea's (DPK) primary across Gwangju and the Jeolla provinces Saturday, secur...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-08-16T08:32:02.000Z",
-        "url": "https://www.koreatimes.co.kr/southkorea/politics/20260816/ex-pm-leads-in-dpk-leadership-race-amid-falling-approval-rating-for-president",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/16/32c9bf85-b909-467a-9677-f2fdd3e2226b.jpg",
+        "id": "currents-d93a78ce-a4fc-575c-8b94-fcb6fe1b4001",
+        "title": "National Security Minister Itamar Ben-Gvir claims Likud ministers asked to join party | The Jerusalem Post",
+        "description": "\"They see Otzma's polls, they saw how strong we are, and they wanted to join,\" Ben-Gvir elaborated.",
+        "publisher": "Jpost",
+        "publisherDomain": "jpost.com",
+        "publishedAt": "2026-08-16T09:28:58.000Z",
+        "url": "https://www.jpost.com/israel-election-2026/article-905629",
+        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/727714",
         "categories": [
           "Top",
           "World"
         ]
       },
       {
-        "id": "currents-18e8f302-c0c9-5966-bf6f-6768635e6f73",
-        "title": "Philadelphia Eagles lose to Baltimore Ravens 24-7 in NFL preseason game",
-        "description": "Photos from Eagles at Ravens in preseason game at M&T Bank Stadium in Baltimore.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:36:34.000Z",
-        "url": "https://www.inquirer.com/photo/philadelphia-eagles-lose-baltimore-ravens-24-7-nfl-preseason-game-20260815.html",
+        "id": "currents-4dd0d478-e6d5-548f-9fb2-5df19ff94521",
+        "title": "‘I’ve fallen in love with the trade’: The AI-proof job that 30,000 more Australians took up last year",
+        "description": "Despite the hazards – risk of electrocution or severe burns from live wires, breathing in toxic building materials and falls from dangerous heights – being an electrician has never been more popular.",
+        "publisher": "Smh",
+        "publisherDomain": "smh.com.au",
+        "publishedAt": "2026-08-16T09:30:00.000Z",
+        "url": "https://www.smh.com.au/national/i-ve-fallen-in-love-with-the-trade-the-ai-proof-job-that-30-000-more-australians-took-up-last-year-20260807-p60mby.html",
+        "imageUrl": "https://static.ffx.io/images/$zoom_0.2121%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_43%2C$y_1/t_crop_custom/q_86%2Cf_auto/9d1692c5e361a59b11fecdf8f188efc49be9b00d5032dfd180bf6c4103d6c28b",
         "categories": [
           "Top",
-          "World",
-          "U.S."
+          "World"
         ]
       },
       {
-        "id": "currents-54d70549-f0ac-5dc2-82b2-d8085c23057f",
-        "title": "Phillies throttle Twins, 9-1, with better plate approach - The Philadelphia Inquirer",
-        "description": "A seven-run fifth inning and another dominant outing from Jesús Luzardo helped the Phillies cruise to a much-needed win as the NL wild-card race ...",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:36:34.000Z",
-        "url": "https://www.inquirer.com/phillies/phillies-twins-score-bryson-stott-jesus-luzardo-trea-turner-injury-20260815.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-bcb19edb-12db-5816-a381-27dae8d69cbd",
-        "title": "Eagles Joshua Weru and Uar Bernard played in their first football game ever",
-        "description": "The two International Player Pathway program products took another step in their remarkable journeys.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:36:34.000Z",
-        "url": "https://www.inquirer.com/eagles/joshua-weru-uar-bernard-2026-preseason-opener-ravens-20260815.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-c85131d6-f4b7-5775-b378-00b2a72ad259",
-        "title": "Eagles backups fail to generate fireworks in preseason opener, fall 24-7 at Ravens",
-        "description": "In a game that mostly included reserves for both sides, Sean Mannion and the new look Birds offense struggled to generate points.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:36:34.000Z",
-        "url": "https://www.inquirer.com/eagles/instant-analysis-2026-preseason-opener-eagles-loss-20260815.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-cbe73676-4a3a-5e2d-ab4e-aee416648693",
-        "title": "Andy Dalton and Tanner McKee are battling for QB2 duties. Saturday didn't provide much ...",
-        "description": "Neither quarterback could generate much offense in a preseason opener that featured mostly backups.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:36:34.000Z",
-        "url": "https://www.inquirer.com/eagles/2026-preseason-opener-andy-dalton-tanner-mckee-ravens-loss-20260815.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-d0548431-8e62-531d-a8a4-34d6744d1347",
-        "title": "A hometown hero, a legend retires, a night of stoppages and more from UFC 330",
-        "description": "UFC 330 took over the Xfinity Mobile Arena on Saturday night. The night was full of stoppages, teeth flying, and legendary ends.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:36:34.000Z",
-        "url": "https://www.inquirer.com/sports/philly-ufc-330-highlights-20260816.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-26431676-b5c1-59f9-bb6d-f2f7dba8e7d7",
-        "title": "Rose Tree Media - The Philadelphia Inquirer",
-        "description": "Wallingford-Swarthmore is facing a $2.6 million deficit. Officials blame a 'spending problem.' Officials in the Delaware County school district say ...",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:13:35.000Z",
-        "url": "https://www.inquirer.com/topic/rose-tree-media?includeTopper=true/2/2/2/2/2",
+        "id": "currents-31387ce7-1ab8-5932-8e42-cd7bbef065eb",
+        "title": "WAFCON: Malawi and Cameroon face off for historic first crown",
+        "description": "Malawi and Cameroon will face off this Sunday in Rabat at 9pm Paris time in the final of the Women's Africa Cup of Nations. A surprising matchup, with each nation hoping to secure the first continental…",
+        "publisher": "France24",
+        "publisherDomain": "france24.com",
+        "publishedAt": "2026-08-16T09:21:20.000Z",
+        "url": "https://www.france24.com/en/sport/20260816-wafcon-malawi-and-cameroon-face-off-for-historic-first-crown",
+        "imageUrl": "https://s.france24.com/media/display/83a09e9e-9949-11f1-868d-005056a97e36/w:1280/p:16x9/AP26098352020610.jpg",
         "categories": [
           "Top",
           "U.S.",
@@ -675,13 +618,14 @@
         ]
       },
       {
-        "id": "currents-38dabd6b-8ca8-518c-8b32-8ba738c1cd12",
-        "title": "Cassie Owens - The Philadelphia Inquirer",
-        "description": "I cover sociocultural dynamics, as well as how Philadelphians contend with them these days. 2 3. A 'renewed' mural in Philly's Chinatown ...",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:13:35.000Z",
-        "url": "https://www.inquirer.com/author/owens_cassie?page=2/2/2/2/2",
+        "id": "currents-4ad702d1-a7d5-5348-b0cc-cd83c22d0caa",
+        "title": "Why France's under-15 social media ban was blocked",
+        "description": "France's attempt to ban social media for under-15s has been blocked by the Constitutional Council, which ruled the measure unconstitutional. Speaking to FRANCE 24, Peter Craddock, Senior Attorney advising…",
+        "publisher": "France24",
+        "publisherDomain": "france24.com",
+        "publishedAt": "2026-08-16T09:20:06.000Z",
+        "url": "https://www.france24.com/en/why-france-s-under-15-social-media-ban-was-blocked",
+        "imageUrl": "https://s.france24.com/media/display/8bd8eb1e-8005-11f1-836b-005056bfb2b6/w:1280/p:16x9/000-B9J29ZQ.jpg",
         "categories": [
           "Top",
           "U.S.",
@@ -689,13 +633,83 @@
         ]
       },
       {
-        "id": "currents-402ee7ac-a98a-5f4c-8dbd-5105e4af8f50",
-        "title": "Curious Philly - The Philadelphia Inquirer",
-        "description": "The Frank Rizzo statue is repaired, and the search for a new location is underway · SEPTA's bus numbering system is a relic from the streetcar era.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-16T08:13:35.000Z",
-        "url": "https://www.inquirer.com/topic/curious-philly?clickHeader=plus-whats-next-for-the-rizzo-statue&int_promo=newsletter&clickText=our-forum-for-readers-to-ask-about-the-citys-quirks/2/2",
+        "id": "currents-0fc34114-6507-5fc1-9cc1-01b30007f37a",
+        "title": "Israel’s escalation in southern Lebanon threatens to derail settlement efforts: Arab League",
+        "publisher": "Middleeastmonitor",
+        "publisherDomain": "middleeastmonitor.com",
+        "publishedAt": "2026-08-16T09:31:41.000Z",
+        "url": "https://www.middleeastmonitor.com/20260816-israels-escalation-in-southern-lebanon-threatens-to-derail-settlement-efforts-arab-league",
+        "imageUrl": "https://www.middleeastmonitor.com/wp-content/uploads/2026/05/AA-20260513-41366701-41366688-ISRAELI_TARGETS_VEHICLES_IN_BEIRUT_DESPITE_THE_CEASEFIRE.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-e672ed21-e239-5fd2-b2ef-5196b2fd6dfd",
+        "title": "Israeli arrested for allegedly starting wildfire in Crete | The Jerusalem Post",
+        "description": "According to the reports, the villa owner warned the guests when they arrived that, due to the high fire risk, using a barbecue was completely prohibited in the area.",
+        "publisher": "Jpost",
+        "publisherDomain": "jpost.com",
+        "publishedAt": "2026-08-16T09:29:00.000Z",
+        "url": "https://www.jpost.com/diaspora/article-905624",
+        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/734039",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-25dc4b0f-287f-50a3-9cc9-4c9d68204e35",
+        "title": "Thunderstorms, heatwaves expected across Israel as end of August nears | The Jerusalem Post",
+        "description": "The unusual forecast follows heavy rainfall in eastern Israel on Saturday, when large amounts of rain fell within a short period, causing flooding and flash floods.",
+        "publisher": "Jpost",
+        "publisherDomain": "jpost.com",
+        "publishedAt": "2026-08-16T09:28:59.000Z",
+        "url": "https://www.jpost.com/environment-and-climate-change/article-905627",
+        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/734041",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-43b8dcff-622a-5fcd-b666-cf5832426ff9",
+        "title": "How Israel’s milk bank helped babies after October 7 | The Jerusalem Post",
+        "description": "“The project’s success was caused by motivation; what caused success was motivation; giving of your own milk, giving part of yourself while nursing your own baby is the height of unconditional love.”",
+        "publisher": "Jpost",
+        "publisherDomain": "jpost.com",
+        "publishedAt": "2026-08-16T09:28:59.000Z",
+        "url": "https://www.jpost.com/health-and-wellness/article-905631",
+        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/734045",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-25e8653f-1913-54b9-b56d-48f77bb4ab22",
+        "title": "Police request public help locating Acre teen last seen in July | The Jerusalem Post",
+        "description": "Police have asked anyone with information on his whereabouts to either report it to the police hotline (100) or to the Acre Police Station over the phone at 04-987-6808.",
+        "publisher": "Jpost",
+        "publisherDomain": "jpost.com",
+        "publishedAt": "2026-08-16T09:28:58.000Z",
+        "url": "https://www.jpost.com/israel-news/article-905635",
+        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/734052",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-311fce1a-9e7c-5794-89ad-f0c6b2ae7436",
+        "title": "INTU DEADLINE NOTICE: ROSEN, GLOBAL INVESTOR COUNSEL, Encourages Intuit Inc. Investors with Losses in Excess of $100K to Secure Counsel Before Important Deadline in Securities Class Action - INTU",
+        "description": "NEW YORK, Aug. 16, 2026 (GLOBE NEWSWIRE) -- WHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Intuit Inc....",
+        "publisher": "Globenewswire",
+        "publisherDomain": "globenewswire.com",
+        "publishedAt": "2026-08-16T09:26:00.000Z",
+        "url": "https://www.globenewswire.com/news-release/2026/08/16/3345766/673/en/intu-deadline-notice-rosen-global-investor-counsel-encourages-intuit-inc-investors-with-losses-in-excess-of-100k-to-secure-counsel-before-important-deadline-in-securities-class-act.html",
+        "imageUrl": "https://ml.globenewswire.com/Resource/Download/745335af-3a3a-4fb5-84c0-fdedc9adf092",
         "categories": [
           "Top",
           "U.S.",
@@ -705,224 +719,224 @@
     ],
     "Business": [
       {
-        "id": "currents-abbfec73-5546-51a7-b18b-8c4a2f861c91",
-        "title": "Delhi High Court to hear on Monday CBI's challenge to discharge of Arvind Kejriwal in excise case",
-        "description": "The Delhi High Court will hear the CBI's petition challenging a trial court order. This order had discharged AAP leaders Arvind Kejriwal and Manish Sisodia. The court will also consider applications seeking dismissal of the CBI's revision petition. Kejriwal and Sisodia claim the CBI filed its plea w...",
+        "id": "currents-11d06212-03bc-5c63-9d2a-1cd829d5fe9d",
+        "title": "BJP using Vande Mataram issue to divert attention from real ones: K C Venugopal",
+        "description": "K C Venugopal stated the Vande Mataram singing was a communication matter. He accused the BJP of using the issue to divert attention from real problems. Venugopal mentioned the Congress respects both Vande Mataram and the national anthem. He urged the BJP to address land issues in Arunachal Pradesh ...",
         "publisher": "Indiatimes",
         "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-08-16T08:04:41.000Z",
-        "url": "https://economictimes.indiatimes.com/news/india/delhi-high-court-to-hear-on-monday-cbis-challenge-to-discharge-of-arvind-kejriwal-in-excise-case/articleshow/133271992.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133271998,width-1200,height-630,imgsize-101666,overlay-economictimes/articleshow.jpg",
+        "publishedAt": "2026-08-16T09:10:33.000Z",
+        "url": "https://economictimes.indiatimes.com/news/india/bjp-using-vande-mataram-issue-to-divert-attention-from-real-ones-k-c-venugopal/articleshow/133272621.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133272629,width-1200,height-630,imgsize-51132,overlay-economictimes/articleshow.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-0f2e6d6a-b9c4-5928-9f6b-9fbc3b9b6dff",
-        "title": "What impact will July’s energy price hike have on UK inflation figures?",
-        "description": "Many experts are forecasting that Consumer Prices Index inflation will rise back up to 2.9% in July, from 2.6% in June.",
-        "publisher": "Independent",
-        "publisherDomain": "independent.co.uk",
-        "publishedAt": "2026-08-16T08:00:10.000Z",
-        "url": "https://www.independent.co.uk/news/business/inflation-rachel-reeves-investec-government-england-b3033767.html",
-        "imageUrl": "https://static.independent.co.uk/2026/05/08/07/06164232-747a73b9-c5fd-4e12-8066-2d8d8b7a7152.jpg?width=1200&height=800&crop=1200:800",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-f94bfa17-1772-5914-9def-34c511ca3332",
-        "title": "Immunome director Isaac Barchas sells $940,453 in common stock By Investing.com",
-        "description": "Immunome director Isaac Barchas sells $940,453 in common stock",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-08-16T08:01:24.000Z",
-        "url": "https://www.investing.com/news/insider-trading-news/immunome-director-isaac-barchas-sells-940453-in-common-stock-93CH-4861943",
-        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM3S10Z_1200_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-20808199-8894-54c4-9a88-e791840ec399",
-        "title": "The end of an era for China's economy",
-        "description": "Zhu Rongji's formula won't work anymore. But that doesn't mean Xi Jinping's will work either.",
-        "publisher": "Noahpinion",
-        "publisherDomain": "noahpinion.blog",
-        "publishedAt": "2026-08-16T07:26:51.000Z",
-        "url": "https://www.noahpinion.blog/p/the-end-of-an-era-for-chinas-economy",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!0blH!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7367e8f-c521-4145-96b7-629f981adf85_960x690.jpeg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-514d06b1-4d17-5d73-8812-53985ee3f50f",
-        "title": "Kawa UAV successfully conducts maiden flight of jet-powered 'Divyastra Mk3' loitering munition",
-        "description": "Kawa UAV Pvt. Ltd. successfully flew India's first indigenous jet-powered loitering munition, Divyastra Mk3. This advanced system was powered by an indigenous jet engine developed by DG Propulsion. The Defence Research and Development Organisation also completed trials for its Unmanned Aerial Vehicl...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-08-16T07:29:30.000Z",
-        "url": "https://economictimes.indiatimes.com/news/defence/kawa-uav-successfully-conducts-maiden-flight-of-jet-powered-divyastra-mk3-loitering-munition/articleshow/133271643.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133271642,width-1200,height-630,imgsize-29082,overlay-etdefence/articleshow.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-fc3fa896-b1c2-5195-a597-fbf8bf8bdad7",
-        "title": "\"Didn't call opposition leaders Dimagi Naxals:\" Union Minister Kiren Rijiju on PM Modi's Red Fort remark",
-        "description": "Parliamentary Affairs Minister Kiren Rijiju said Prime Minister Narendra Modis “dimagi Naxal” remark was not aimed at opposition leaders but at supporters of Maoists and separatism. Congress rejected the clarification, accusing Modi of using the term against political opponents.",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-08-16T07:26:26.000Z",
-        "url": "https://economictimes.indiatimes.com/news/politics-and-nation/didnt-call-opposition-leaders-dimagi-naxals-union-minister-kiren-rijiju-on-pm-modis-red-fort-remark/articleshow/133271672.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133271671,width-1200,height-630,imgsize-30558,overlay-economictimes/articleshow.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-da69fdc6-d18b-594b-b487-39ed35378b37",
-        "title": "Paylocity director Steven Sarowitz sells $1.68m of stock By Investing.com",
-        "description": "Paylocity director Steven Sarowitz sells $1.68m of stock",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-08-16T08:01:23.000Z",
-        "url": "https://www.investing.com/news/insider-trading-news/paylocity-director-steven-sarowitz-sells-168m-of-stock-93CH-4861942",
-        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM3S10Z_1200_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-6f7f1245-89d8-5768-b9b7-be2d0b2c2ee5",
-        "title": "Velocity Financial CFO sells $36,320 in company stock By Investing.com",
-        "description": "Velocity Financial CFO sells $36,320 in company stock",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-08-16T07:45:58.000Z",
-        "url": "https://www.investing.com/news/insider-trading-news/velocity-financial-cfo-sells-36320-in-company-stock-93CH-4861938",
-        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM4519D_1200_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-8313ae06-8aee-5464-a7c4-980df6353128",
-        "title": "German investment in the U.S. drops to three-year low amid policy uncertainty By Investing.com",
-        "description": "German investment in the U.S. drops to three-year low amid policy uncertainty",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-08-16T07:33:56.000Z",
-        "url": "https://www.investing.com/news/economy-news/german-investment-in-the-us-drops-to-threeyear-low-amid-policy-uncertainty-4861936",
-        "imageUrl": "https://content-media.investing.com/news/LYNXNPEBA20NW_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-33b2daea-c39f-5518-af2a-003c06514d61",
-        "title": "Travel & leisure co. CFO Michael Brown sells $15,800 of stock By Investing.com",
-        "description": "Travel & leisure co. CFO Michael Brown sells $15,800 of stock",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-08-16T07:31:09.000Z",
-        "url": "https://www.investing.com/news/insider-trading-news/travel--leisure-co-cfo-michael-brown-sells-15800-of-stock-93CH-4861935",
-        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM450ND_1200_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-45d1c94d-62e2-51c7-a5be-d920505afc87",
-        "title": "Equitable holdings chief accounting officer sells $50,072 in stock By Investing.com",
-        "description": "Equitable holdings chief accounting officer sells $50,072 in stock",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-08-16T07:31:01.000Z",
-        "url": "https://www.investing.com/news/insider-trading-news/equitable-holdings-chief-accounting-officer-sells-50072-in-stock-93CH-4861934",
-        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM3T1K3_1200_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-92333abf-f3de-5409-a882-ab9dfae2279e",
-        "title": "Samsung, SK hynix could deliver record $212 bil. in shareholder returns: reports - The Korea Times",
-        "description": "With Samsung Electronics and SK hynix expected to unveil new shareholder return plans as early as this month, analysts estimate that the two chipma...",
+        "id": "currents-ee173412-b512-5eca-87ea-c9c0249fee15",
+        "title": "Cash-only demand reportedly prompted SK chairman to appeal $666 mil. divorce payout ruling - The Korea Times",
+        "description": "SK Group Chairman Chey Tae-won’s last-minute decision to appeal his 944 billion won ($666 million) property division ruling reportedly stems from a...",
         "publisher": "Co",
         "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-08-16T08:27:03.000Z",
-        "url": "https://www.koreatimes.co.kr/business/companies/20260816/samsung-sk-hynix-could-deliver-record-212-bil-in-shareholder-returns-reports",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/16/ad81328a-ac9e-4e4e-afca-fc0f09b8eb58.jpg",
+        "publishedAt": "2026-08-16T08:52:03.000Z",
+        "url": "https://www.koreatimes.co.kr/business/companies/20260816/cash-only-demand-reportedly-prompted-sk-chairman-to-appeal-666-mil-divorce-payout-ruling",
+        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/16/e5024e0a-9ad8-424e-879c-a791d431d18d.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-466e3211-e845-516b-b2e5-3647c8f755e6",
-        "title": "Indonesia's deadliest earthquakes of past decade",
-        "description": "A magnitude-7.7 earthquake in eastern Indonesia has killed at least fifty-one people. The Palu earthquake in 2018 caused over four thousand deaths and widespread destruction. A 2022 quake in Cianjur killed 602 people, becoming the deadliest non-tsunami event. Lombok experienced five hundred eighteen...",
+        "id": "currents-7c49d1a0-cff1-5c6b-9d4c-ae19b9509c12",
+        "title": "Firefighters battle a massive Belgian wildfire, forcing hundreds to evacuate",
+        "description": "BAELEN, Belgium (AP) — Firefighters battled a massive wildfire in eastern Belgium on Sunday that has burned more than 27 square kilometers (10 square miles) in the High Fens, a large nature reserve, and forced nearby residents to evacuate in what media describe as one of the worst-ever wildfires in ...",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-08-16T08:48:50.000Z",
+        "url": "https://www.winnipegfreepress.com/arts-and-life/life/greenpage/2026/08/16/firefighters-battle-a-massive-belgian-wildfire-forcing-hundreds-to-evacuate",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-09e301cf-94d6-546b-b9d1-cf784b475be2",
+        "title": "Shock defeat to Bangladesh reveals bigger picture hiding in plain sight",
+        "description": "On paper, Australia's full-strength team should have wiped the floor with Bangladesh. But a lack of application to their Test match craft has left Australia vulnerable to teams that are driven to succeed in the longest format.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-08-16T08:47:06.000Z",
+        "url": "https://www.abc.net.au/news/2026-08-16/australia-bangladesh-darwin-defeat-problems/107037438",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/3048ba6cd75562dd25aa8de337881669?impolicy=wcms_watermark_news&cropH=980&cropW=1743&xPos=352&yPos=187&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-7b405596-e784-52b3-9790-32caeeb0e92f",
+        "title": "Pune court remands 'drug kingpin' Virender Singh Basoya to NCB custody till August 21",
+        "description": "Virender Singh Basoya, an alleged drug kingpin, was extradited from the UAE to India. A Pune court has remanded him to NCB custody until August 21. Basoya is accused in a multi-crore drug haul involving significant mephedrone seizures. He allegedly coordinated drug trafficking activities from foreig...",
         "publisher": "Indiatimes",
         "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-08-16T08:02:20.000Z",
-        "url": "https://economictimes.indiatimes.com/news/international/world-news/indonesias-most-catastrophic-earthquakes-a-decade-of-tragedy-and-loss/articleshow/133271946.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133271988,width-1200,height-630,imgsize-116498,overlay-economictimes/articleshow.jpg",
+        "publishedAt": "2026-08-16T09:01:47.000Z",
+        "url": "https://economictimes.indiatimes.com/news/india/pune-court-remands-drug-kingpin-virender-singh-basoya-to-ncb-custody-till-august-21/articleshow/133272453.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133272460,width-1200,height-630,imgsize-25158,overlay-economictimes/articleshow.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-bf47c1d0-9e73-5afa-afe0-13e8f6741e1c",
-        "title": "India opens tax amnesty scheme for small taxpayers to declare select foreign assets",
-        "description": "India's tax amnesty scheme for small taxpayers opened Sunday and runs until December 2026. This one-time measure aims to bring undeclared foreign assets and income into the tax net. Taxpayers with undisclosed foreign income up to one crore rupees can declare it.",
+        "id": "currents-8aa90510-36fd-54c2-b999-b445fd2e43b5",
+        "title": "Devji, other surrendered Maoists plan to urge Centre to lift ban on CPI (Maoist)",
+        "description": "Surrendered CPI (Maoist) leader Tippiri Tirupati, alias Devji, plans to approach Union Home Minister Amit Shah seeking the lifting of the ban on the outfit, saying surrendered Maoists want to work legally on people's issues. Tirupati, a former top commander, also sought freedom of movement for surre...",
         "publisher": "Indiatimes",
         "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-08-16T08:01:19.000Z",
-        "url": "https://economictimes.indiatimes.com/news/economy/policy/india-opens-tax-amnesty-scheme-for-small-taxpayers-to-declare-select-foreign-assets/articleshow/133271952.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133271973,width-1200,height-630,imgsize-45626,overlay-economictimes/articleshow.jpg",
+        "publishedAt": "2026-08-16T09:17:50.000Z",
+        "url": "https://economictimes.indiatimes.com/news/india/devji-other-surrendered-maoists-plan-to-urge-centre-to-lift-ban-on-cpi-maoist/articleshow/133272694.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133272705,width-1200,height-630,imgsize-115412,overlay-economictimes/articleshow.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-96f3931e-50f0-5a51-bf23-dceab17be6f4",
-        "title": "Pakistan retain Wahab Riaz as women’s team head coach for Asian Games, senior batter Aliya Riaz recalled",
-        "description": "Pakistan Cricket Board retains Wahab Riaz and coaching staff for upcoming tournaments. Senior batter Aliya Riaz has been recalled for the Asian Games selection. Sidra Amin and Sadaf Shams were overlooked as selectors deemed them ODI players only. Fatima Sana will captain the squad for both the Asia ...",
+        "id": "currents-84c199d5-8cdd-5519-a892-a5db8ba386d1",
+        "title": "Belgium's biggest wildfire on record heads towards Germany",
+        "description": "Firefighters battled Belgium's largest wildfire, which burned 3,000 hectares of land. The blaze in the High Fens nature reserve spread towards the German border. European reinforcements arrived to assist with containing the significant and ongoing fire. Cooler, humid weather offered hope for efforts...",
         "publisher": "Indiatimes",
         "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-08-16T08:00:17.000Z",
-        "url": "https://economictimes.indiatimes.com/news/sports/cricket/pakistan-retain-wahab-riaz-as-womens-team-head-coach-for-asian-games-senior-batter-aliya-riaz-recalled/articleshow/133271894.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133271970,width-1200,height-630,imgsize-84000,overlay-economictimes/articleshow.jpg",
+        "publishedAt": "2026-08-16T09:13:41.000Z",
+        "url": "https://economictimes.indiatimes.com/news/international/world-news/belgiums-biggest-wildfire-on-record-heads-towards-germany/articleshow/133272641.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133272689,width-1200,height-630,imgsize-62520,overlay-economictimes/articleshow.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-9df7bcff-0057-53ad-9e8f-118716d85b86",
-        "title": "Traders are spoiling for a fight over the yen",
-        "description": "After historic US-Japan intervention on the currency, the risk of market ructions is again rising Read more at The Business Times.",
-        "publisher": "Com",
-        "publisherDomain": "businesstimes.com.sg",
-        "publishedAt": "2026-08-16T07:43:34.000Z",
-        "url": "https://www.businesstimes.com.sg/opinion-features/traders-are-spoiling-fight-over-yen",
-        "imageUrl": "https://cassette.sphdigital.com.sg/image/businesstimes/be4dad0f8a04483b6757d0eafeedfed8a0014bd5a0c991e1e09597e1be2cd275?w=1920&f=webp",
+        "id": "currents-83b16a41-e3f2-5a9e-8ec9-6cd94896add8",
+        "title": "Ranveer Singh new movie update: ‘Dhurandhar’ star begins ‘Pralay’ shoot; Kalyani Priyadarshan joins action thriller",
+        "description": "Ranveer Singh has started shooting for his upcoming post-apocalyptic thriller, Pralay. This ambitious project also marks the actor's debut as a producer. Jai Mehta, known for Scam 1992, is directing the Mumbai-based film. Kalyani Priyadarshan joins the cast of this survival and action thriller. The ...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-08-16T09:02:37.000Z",
+        "url": "https://economictimes.indiatimes.com/news/new-updates/ranveer-singh-new-movie-update-dhurandhar-star-begins-pralay-shoot-kalyani-priyadarshan-joins-action-thriller/articleshow/133272466.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133272475,width-1200,height-630,imgsize-58376,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-ff57a3ba-2093-5ec0-94c1-4f4fe85c1fc9",
+        "title": "Norway fines man thousands of dollars for disturbing sleeping polar bear with ship's foghorn",
+        "description": "A person in Svalbard received a substantial fine for deliberately disturbing a polar bear. The incident involved sounding a foghorn, which woke the sleeping animal aboard a vessel. Environmental regulations strictly prohibit such unnecessary disturbances of protected polar bears. Svalbard rules mand...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-08-16T08:58:18.000Z",
+        "url": "https://economictimes.indiatimes.com/news/new-updates/norway-fines-man-thousands-of-dollars-for-disturbing-sleeping-polar-bear-with-ships-foghorn/articleshow/133272400.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133272432,width-1200,height-630,imgsize-106181,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-2c8e1d67-ff66-5986-a0d2-9122f346526d",
+        "title": "Live: Nominees begin to file in to the Logies but will we see Karl Stefanovic?",
+        "description": "The 2026 Logies are underway, with the stars of Australian TV gathering for a night of celebration. Follow live",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-08-16T08:47:06.000Z",
+        "url": "https://www.abc.net.au/news/2026-08-16/logies-live-blog-2026-award-winners-gold-logie/107033608",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/25b0dc1906ef721ad2339a74fcdc35c7?impolicy=wcms_watermark_news&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-4b0a5a34-01ee-5c0e-8c35-946e6d451888",
+        "title": "She designed jumpers worn by Princess Diana and Olivia Newton-John, then lost everything",
+        "description": "Eighties knitwear designer Liz Newman walks into a gallery space hung with the quirky, colourful jumpers made from patterns she created decades ago. She thought these designs were lost forever.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-08-16T08:47:06.000Z",
+        "url": "https://www.abc.net.au/news/2026-08-16/sala-liz-newman-exhibition/107041920",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/9881e298f996ce699507c07ec9e8ed15?impolicy=wcms_watermark_news&cropH=1080&cropW=1920&xPos=0&yPos=98&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-8312db93-8f10-58ca-901d-78e9e482819d",
+        "title": "Quick hits: Das's redemption and Mehid's Messi attempt",
+        "description": "Litton Das was wrong-footed behind the stumps, and Mehidy Hasan Miraz suffered a worse fate in front of them. Here are the quick hits from day four of the first Test between Australia and Bangladesh.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-08-16T08:47:06.000Z",
+        "url": "https://www.abc.net.au/news/2026-08-16/quick-hits-australia-vs-bangladesh-day-four/107043378",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/7c6ade4fc98aa803acb2ce803da89b7b?impolicy=wcms_watermark_news&cropH=450&cropW=800&xPos=0&yPos=50&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-8ccafb57-1286-5eb5-96ff-61f0dc73acb0",
+        "title": "'Eleventh hour' expert submission delays former Sydney nurses' trial",
+        "description": "Former Bankstown Hospital nurses Sarah Abu Lebdeh and Ahmad Rashad Nadir were due to stand trial on August 31, but the date will now likely be pushed back.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-08-16T08:47:06.000Z",
+        "url": "https://www.abc.net.au/news/2026-08-16/trial-ex-sydney-nurses-alleged-threat-israeli-patients-delayed/107043732",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/459990cfdc49548e226508e3c1319bc8?impolicy=wcms_watermark_news&cropH=450&cropW=800&xPos=0&yPos=28&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-b4e55566-dccd-5aad-94b2-998d657d0c6d",
+        "title": "'Staggering' increase in number of lockdown incidents at WA schools",
+        "description": "Public schools were forced into lockdown 1,300 times last year, according to figures tabled in Parliament this week, and most of those were triggered by violent threats made against students or staff.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-08-16T08:47:06.000Z",
+        "url": "https://www.abc.net.au/news/2026-08-16/schools-lockdown-violence-threats-wa/107043536",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/17915a30ecf032f74b281975642a5174?impolicy=wcms_watermark_news&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-d74fb554-2144-5a5d-a5e2-2897e70c69f3",
+        "title": "Dragons give hope to wooden spoon battle after downing Tigers",
+        "description": "St George Illawarra still have a chance to avoid the NRL's wooden spoon after they outlasted a fast-finishing Wests Tigers outfit.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-08-16T08:47:06.000Z",
+        "url": "https://www.abc.net.au/news/2026-08-16/nrl-live-updates-knights-titans-dragons-tigers/107043632",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/d8b14cdf990da056d56e0e3355462c84?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-d97f0cfe-f524-5661-bec6-5ac84dce2d73",
+        "title": "What the stars are wearing at the 2026 Logies",
+        "description": "The stars of the Australian television industry have arrived at the 2026 Logie Awards. Here's a look at some of the outfits.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-08-16T08:47:06.000Z",
+        "url": "https://www.abc.net.au/news/2026-08-16/logies-red-carpet-television-awards-ceremony-2026/107043538",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/a1dd6ea344bb379cabdcda15f689e693?impolicy=wcms_watermark_news&cropH=1874&cropW=3332&xPos=0&yPos=660&width=862&height=485&imformat=generic",
         "categories": [
           "Top",
           "Business"
@@ -931,14 +945,14 @@
     ],
     "Technology": [
       {
-        "id": "currents-26f16883-3128-5010-9fa0-ce95be14e442",
-        "title": "What ACTUALLY Happens When You Type a URL google.com",
-        "description": "What ACTUALLY Happens When You Type a URL google.com \"If you’ve ever interviewed for a software...",
+        "id": "currents-4843fb1e-27e5-5e47-b6f9-aa790783ae83",
+        "title": "I re-scanned the launches I flagged last week — here's who actually shipped the fixes",
+        "description": "For the past two weeks I've been running passive, read-only security scans on products that launch...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-16T08:29:26.000Z",
-        "url": "https://dev.to/zidane1688/what-actually-happens-when-you-type-a-url-googlecom-58p6",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxa6rqgqkz8el8au3ev6u.png",
+        "publishedAt": "2026-08-16T09:05:27.000Z",
+        "url": "https://dev.to/amitfeldman/i-re-scanned-the-launches-i-flagged-last-week-heres-who-actually-shipped-the-fixes-514k",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdvg2tefofbp4mmbrm23n.png",
         "categories": [
           "Top",
           "U.S.",
@@ -947,14 +961,14 @@
         ]
       },
       {
-        "id": "currents-f0fb9438-cdab-51b1-87a9-a9987bde3bce",
-        "title": "N is for namedtuple - Python A to Z",
-        "description": "I’m writing again about namedtuple, my favourite data structure in Python. They have all the good stuff from tuples but adds attribute access and better documentation while maintaining full backwards compatibility so it’s an easy upgrade on existing codebase.",
-        "publisher": "Hamatti",
-        "publisherDomain": "hamatti.org",
-        "publishedAt": "2026-08-16T08:28:32.000Z",
-        "url": "https://hamatti.org/posts/n-is-for-namedtuple-python-a-to-z",
-        "imageUrl": "https://hamatti.org/assets/img/posts/n-is-for-namedtuple-python-a-to-z/n-is-for-namedtuple-python-a-to-z-cover.png.webp",
+        "id": "currents-18c7374a-20f7-5c90-9d82-a43bef031afb",
+        "title": "Science at LLM Speed · Research-like output is cheap. A valid claim still needs evidence that can show it is wrong.",
+        "description": "Research-like output is cheap. A valid claim still needs evidence that can show it is wrong.",
+        "publisher": "Christophermeiklejohn",
+        "publisherDomain": "christophermeiklejohn.com",
+        "publishedAt": "2026-08-16T09:06:28.000Z",
+        "url": "https://christophermeiklejohn.com/series/the-machine-in-the-lab/science-at-llm-speed",
+        "imageUrl": "https://christophermeiklejohn.com/og/science-at-llm-speed.png",
         "categories": [
           "Top",
           "U.S.",
@@ -963,14 +977,14 @@
         ]
       },
       {
-        "id": "currents-4545b0dc-767a-5f86-bf02-933240155a1f",
-        "title": "The AI Engineer's Reading List for 2026 (10 Books That Matter)",
-        "description": "The AI Engineering Books Developer CAn read in 2026 to learn essential AI concepts like RAG, LLM Engineering, Deployment, Agentic AI, and more.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-16T08:24:55.000Z",
-        "url": "https://dev.to/somadevtoo/the-ai-engineers-reading-list-for-2026-10-books-that-matter-50pb",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqbzx5sv5kf2gem7yqnpx.png",
+        "id": "currents-562d3071-a42d-5323-b0af-b20f72062b1a",
+        "title": "Claude Opus 5 Surprised me! Detailed explanation of its performance",
+        "description": "TLDR: Claude Opus 5, released July 24, 2026, is Anthropic’s strongest Opus-class model. It approaches Claude Fable 5 performance on coding…",
+        "publisher": "Medium",
+        "publisherDomain": "medium.com",
+        "publishedAt": "2026-08-16T09:06:13.000Z",
+        "url": "https://medium.com/@CometAPI_/claude-opus-5-surprised-me-detailed-explanation-of-its-performance-c7f59b727f7b",
+        "imageUrl": "https://miro.medium.com/v2/resize:fit:1187/1*DWSbKmEgPWhBzNtCFK-omw.png",
         "categories": [
           "Top",
           "U.S.",
@@ -979,14 +993,14 @@
         ]
       },
       {
-        "id": "currents-392a527b-ef66-5072-8f2d-d77db5539b2b",
-        "title": "What Happens When an LLM Never Reads Beyond Fifth Grade?",
-        "description": "A thought experiment on training a large language model exclusively on elementary-school materials—exploring the surprising strengths, severe weaknesses, and deep implications for AI alignment, safety, and data curation.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-16T08:19:52.000Z",
-        "url": "https://dev.to/kaixintelligence/what-happens-when-an-llm-never-reads-beyond-fifth-grade-phj",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmbp704the48o4qhjrsoa.png",
+        "id": "currents-f062fd29-d95d-545c-98a9-acd0250ec431",
+        "title": "FPS Test — Free Online Frame Rate Test",
+        "description": "Test your FPS online in one click. Measure frame rate, frame time, 1% lows and your screen refresh rate in the browser. No download, no signup.",
+        "publisher": "Fpstest",
+        "publisherDomain": "fpstest.co",
+        "publishedAt": "2026-08-16T09:13:43.000Z",
+        "url": "https://fpstest.co/",
+        "imageUrl": "https://fpstest.co/icons/og.png",
         "categories": [
           "Top",
           "U.S.",
@@ -995,14 +1009,14 @@
         ]
       },
       {
-        "id": "currents-dc00bf6e-36f5-5efc-b6c5-49257467a0ac",
-        "title": "I Built an Investigation-First Debugger for AI Agents — TraceMotive v0.3",
-        "description": "I Built an Investigation-First Debugger for AI Agents — TraceMotive v0.3 I just released...",
+        "id": "currents-c886d96d-08cf-5ef8-b611-f3a455b0fe8c",
+        "title": "The Introvert with AI Intelligence: How AI Can Turn Deep Thinking into Lightning-Fast Innovation",
+        "description": "Introduction Deep thought meets fast innovation. Introverts have always been the quiet...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-16T08:15:03.000Z",
-        "url": "https://dev.to/ruca_ai/i-built-an-investigation-first-debugger-for-ai-agents-tracemotive-v03-30n5",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbccxdjeujsbbpyx9z6yl.png",
+        "publishedAt": "2026-08-16T09:16:55.000Z",
+        "url": "https://dev.to/ranjancse/the-introvert-with-ai-intelligence-how-ai-can-turn-deep-thinking-into-lightning-fast-innovation-47l2",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbmfob9qp0cfa3hw13vx5.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1011,14 +1025,74 @@
         ]
       },
       {
-        "id": "currents-c116e37b-1c1e-5b1c-a734-c470f2a82655",
-        "title": ".github/workflows/accessibility.yml",
-        "description": "Designing AI‑Driven HR Tools for WCAG 2.2 Compliance Under the EU AI Act and UK Online Safety...",
+        "id": "currents-9ce113d8-bbf3-5b47-a349-fd066cfdd880",
+        "title": "Ask HN: Where to learn software engineering fundamentals?",
+        "publisher": "Ycombinator",
+        "publisherDomain": "news.ycombinator.com",
+        "publishedAt": "2026-08-16T09:15:14.000Z",
+        "url": "https://news.ycombinator.com/item?id=49318324",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-290838a1-3056-5f2b-8ab8-74d9ae115c60",
+        "title": "Show HN: RNet – AI token service provider",
+        "publisher": "Ycombinator",
+        "publisherDomain": "news.ycombinator.com",
+        "publishedAt": "2026-08-16T09:11:32.000Z",
+        "url": "https://news.ycombinator.com/item?id=49318304",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-0fb5ea1d-1a58-545a-a76d-3fe26226edc6",
+        "title": "Trend: Forbes Solo-Founder AI Playbook",
+        "description": "Forbes Called It a Playbook. I Call It a Production Log. Forbes published a piece recently...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-16T08:15:15.000Z",
-        "url": "https://dev.to/maria_josegonzalezantel_80/githubworkflowsaccessibilityyml-3e6n",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ff76eh6y25id6y0tfzauh.png",
+        "publishedAt": "2026-08-16T09:18:33.000Z",
+        "url": "https://dev.to/frederikvonderheyden/trend-forbes-solo-founder-ai-playbook-38fj",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fa3c3b2v8dinodbg4ptm7.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-ff9afcfa-cf91-5173-be2c-eedd31b3c495",
+        "title": "Beautiful Racket by Matthew Butterick",
+        "description": "Beautiful Racket",
+        "publisher": "Beautifulracket",
+        "publisherDomain": "beautifulracket.com",
+        "publishedAt": "2026-08-16T09:15:20.000Z",
+        "url": "https://beautifulracket.com/",
+        "imageUrl": "https://beautifulracket.com/img/og-image.jpg?1779853968",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-291549ab-d6c6-510d-ae7b-1976ec30696a",
+        "title": "GitHub - drmhse/tts-rs",
+        "description": "Contribute to drmhse/tts-rs development by creating an account on GitHub.",
+        "publisher": "Github",
+        "publisherDomain": "github.com",
+        "publishedAt": "2026-08-16T09:07:57.000Z",
+        "url": "https://github.com/drmhse/tts-rs",
+        "imageUrl": "https://opengraph.githubassets.com/cd52a1208c1ce008a1a0536c99bf13bae5603a5db08c8e4abd65d1a8f33552b5/drmhse/tts-rs",
         "categories": [
           "Top",
           "U.S.",
@@ -1029,14 +1103,14 @@
     ],
     "Science": [
       {
-        "id": "currents-26f16883-3128-5010-9fa0-ce95be14e442",
-        "title": "What ACTUALLY Happens When You Type a URL google.com",
-        "description": "What ACTUALLY Happens When You Type a URL google.com \"If you’ve ever interviewed for a software...",
+        "id": "currents-4843fb1e-27e5-5e47-b6f9-aa790783ae83",
+        "title": "I re-scanned the launches I flagged last week — here's who actually shipped the fixes",
+        "description": "For the past two weeks I've been running passive, read-only security scans on products that launch...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-16T08:29:26.000Z",
-        "url": "https://dev.to/zidane1688/what-actually-happens-when-you-type-a-url-googlecom-58p6",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxa6rqgqkz8el8au3ev6u.png",
+        "publishedAt": "2026-08-16T09:05:27.000Z",
+        "url": "https://dev.to/amitfeldman/i-re-scanned-the-launches-i-flagged-last-week-heres-who-actually-shipped-the-fixes-514k",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdvg2tefofbp4mmbrm23n.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1045,14 +1119,14 @@
         ]
       },
       {
-        "id": "currents-f0fb9438-cdab-51b1-87a9-a9987bde3bce",
-        "title": "N is for namedtuple - Python A to Z",
-        "description": "I’m writing again about namedtuple, my favourite data structure in Python. They have all the good stuff from tuples but adds attribute access and better documentation while maintaining full backwards compatibility so it’s an easy upgrade on existing codebase.",
-        "publisher": "Hamatti",
-        "publisherDomain": "hamatti.org",
-        "publishedAt": "2026-08-16T08:28:32.000Z",
-        "url": "https://hamatti.org/posts/n-is-for-namedtuple-python-a-to-z",
-        "imageUrl": "https://hamatti.org/assets/img/posts/n-is-for-namedtuple-python-a-to-z/n-is-for-namedtuple-python-a-to-z-cover.png.webp",
+        "id": "currents-18c7374a-20f7-5c90-9d82-a43bef031afb",
+        "title": "Science at LLM Speed · Research-like output is cheap. A valid claim still needs evidence that can show it is wrong.",
+        "description": "Research-like output is cheap. A valid claim still needs evidence that can show it is wrong.",
+        "publisher": "Christophermeiklejohn",
+        "publisherDomain": "christophermeiklejohn.com",
+        "publishedAt": "2026-08-16T09:06:28.000Z",
+        "url": "https://christophermeiklejohn.com/series/the-machine-in-the-lab/science-at-llm-speed",
+        "imageUrl": "https://christophermeiklejohn.com/og/science-at-llm-speed.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1061,14 +1135,14 @@
         ]
       },
       {
-        "id": "currents-4545b0dc-767a-5f86-bf02-933240155a1f",
-        "title": "The AI Engineer's Reading List for 2026 (10 Books That Matter)",
-        "description": "The AI Engineering Books Developer CAn read in 2026 to learn essential AI concepts like RAG, LLM Engineering, Deployment, Agentic AI, and more.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-16T08:24:55.000Z",
-        "url": "https://dev.to/somadevtoo/the-ai-engineers-reading-list-for-2026-10-books-that-matter-50pb",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqbzx5sv5kf2gem7yqnpx.png",
+        "id": "currents-562d3071-a42d-5323-b0af-b20f72062b1a",
+        "title": "Claude Opus 5 Surprised me! Detailed explanation of its performance",
+        "description": "TLDR: Claude Opus 5, released July 24, 2026, is Anthropic’s strongest Opus-class model. It approaches Claude Fable 5 performance on coding…",
+        "publisher": "Medium",
+        "publisherDomain": "medium.com",
+        "publishedAt": "2026-08-16T09:06:13.000Z",
+        "url": "https://medium.com/@CometAPI_/claude-opus-5-surprised-me-detailed-explanation-of-its-performance-c7f59b727f7b",
+        "imageUrl": "https://miro.medium.com/v2/resize:fit:1187/1*DWSbKmEgPWhBzNtCFK-omw.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1077,14 +1151,14 @@
         ]
       },
       {
-        "id": "currents-392a527b-ef66-5072-8f2d-d77db5539b2b",
-        "title": "What Happens When an LLM Never Reads Beyond Fifth Grade?",
-        "description": "A thought experiment on training a large language model exclusively on elementary-school materials—exploring the surprising strengths, severe weaknesses, and deep implications for AI alignment, safety, and data curation.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-16T08:19:52.000Z",
-        "url": "https://dev.to/kaixintelligence/what-happens-when-an-llm-never-reads-beyond-fifth-grade-phj",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmbp704the48o4qhjrsoa.png",
+        "id": "currents-f062fd29-d95d-545c-98a9-acd0250ec431",
+        "title": "FPS Test — Free Online Frame Rate Test",
+        "description": "Test your FPS online in one click. Measure frame rate, frame time, 1% lows and your screen refresh rate in the browser. No download, no signup.",
+        "publisher": "Fpstest",
+        "publisherDomain": "fpstest.co",
+        "publishedAt": "2026-08-16T09:13:43.000Z",
+        "url": "https://fpstest.co/",
+        "imageUrl": "https://fpstest.co/icons/og.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1093,14 +1167,14 @@
         ]
       },
       {
-        "id": "currents-dc00bf6e-36f5-5efc-b6c5-49257467a0ac",
-        "title": "I Built an Investigation-First Debugger for AI Agents — TraceMotive v0.3",
-        "description": "I Built an Investigation-First Debugger for AI Agents — TraceMotive v0.3 I just released...",
+        "id": "currents-c886d96d-08cf-5ef8-b611-f3a455b0fe8c",
+        "title": "The Introvert with AI Intelligence: How AI Can Turn Deep Thinking into Lightning-Fast Innovation",
+        "description": "Introduction Deep thought meets fast innovation. Introverts have always been the quiet...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-16T08:15:03.000Z",
-        "url": "https://dev.to/ruca_ai/i-built-an-investigation-first-debugger-for-ai-agents-tracemotive-v03-30n5",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbccxdjeujsbbpyx9z6yl.png",
+        "publishedAt": "2026-08-16T09:16:55.000Z",
+        "url": "https://dev.to/ranjancse/the-introvert-with-ai-intelligence-how-ai-can-turn-deep-thinking-into-lightning-fast-innovation-47l2",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbmfob9qp0cfa3hw13vx5.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1109,14 +1183,74 @@
         ]
       },
       {
-        "id": "currents-c116e37b-1c1e-5b1c-a734-c470f2a82655",
-        "title": ".github/workflows/accessibility.yml",
-        "description": "Designing AI‑Driven HR Tools for WCAG 2.2 Compliance Under the EU AI Act and UK Online Safety...",
+        "id": "currents-9ce113d8-bbf3-5b47-a349-fd066cfdd880",
+        "title": "Ask HN: Where to learn software engineering fundamentals?",
+        "publisher": "Ycombinator",
+        "publisherDomain": "news.ycombinator.com",
+        "publishedAt": "2026-08-16T09:15:14.000Z",
+        "url": "https://news.ycombinator.com/item?id=49318324",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-290838a1-3056-5f2b-8ab8-74d9ae115c60",
+        "title": "Show HN: RNet – AI token service provider",
+        "publisher": "Ycombinator",
+        "publisherDomain": "news.ycombinator.com",
+        "publishedAt": "2026-08-16T09:11:32.000Z",
+        "url": "https://news.ycombinator.com/item?id=49318304",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-0fb5ea1d-1a58-545a-a76d-3fe26226edc6",
+        "title": "Trend: Forbes Solo-Founder AI Playbook",
+        "description": "Forbes Called It a Playbook. I Call It a Production Log. Forbes published a piece recently...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-16T08:15:15.000Z",
-        "url": "https://dev.to/maria_josegonzalezantel_80/githubworkflowsaccessibilityyml-3e6n",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ff76eh6y25id6y0tfzauh.png",
+        "publishedAt": "2026-08-16T09:18:33.000Z",
+        "url": "https://dev.to/frederikvonderheyden/trend-forbes-solo-founder-ai-playbook-38fj",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fa3c3b2v8dinodbg4ptm7.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-ff9afcfa-cf91-5173-be2c-eedd31b3c495",
+        "title": "Beautiful Racket by Matthew Butterick",
+        "description": "Beautiful Racket",
+        "publisher": "Beautifulracket",
+        "publisherDomain": "beautifulracket.com",
+        "publishedAt": "2026-08-16T09:15:20.000Z",
+        "url": "https://beautifulracket.com/",
+        "imageUrl": "https://beautifulracket.com/img/og-image.jpg?1779853968",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-291549ab-d6c6-510d-ae7b-1976ec30696a",
+        "title": "GitHub - drmhse/tts-rs",
+        "description": "Contribute to drmhse/tts-rs development by creating an account on GitHub.",
+        "publisher": "Github",
+        "publisherDomain": "github.com",
+        "publishedAt": "2026-08-16T09:07:57.000Z",
+        "url": "https://github.com/drmhse/tts-rs",
+        "imageUrl": "https://opengraph.githubassets.com/cd52a1208c1ce008a1a0536c99bf13bae5603a5db08c8e4abd65d1a8f33552b5/drmhse/tts-rs",
         "categories": [
           "Top",
           "U.S.",
@@ -1127,250 +1261,360 @@
     ],
     "Sports": [
       {
-        "id": "currents-e536038e-84a8-5d89-8554-c8421c5dbc25",
-        "title": "West Brom star sparks controversy with stunning handball goal",
-        "description": "The Baggies were well below par in their 2-1 victory on Saturday afternoon, but managed to claim victory following strikes from Heggebo and new signing Jimmy-Jay Morgan.",
+        "id": "currents-8de50992-f7c9-5c32-87cc-8b828f903440",
+        "title": "Novak Djokovic hints at mystery health concern",
+        "description": "The tennis great lost 2-6, 6-4, 6-4 on Saturday in a match that took 2 hours, 44 minutes in hot and humid conditions at the Cincinnati Open, and sparked concerns after the game.",
         "publisher": "Daily Mail",
         "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-08-16T08:01:06.000Z",
-        "url": "https://www.dailymail.com/sport/football/article-16056107/West-Brom-handball-goal-Championship.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/16/08/110664267-0-image-m-52_1786864556362.jpg",
+        "publishedAt": "2026-08-16T08:49:52.000Z",
+        "url": "https://www.dailymail.com/sport/tennis/article-16056175/Novak-Djokovic-health-concern-tennis.html?ns_campaign=1490&ito=1490",
+        "imageUrl": "https://i.dailymail.com/1s/2026/08/16/09/110665089-0-image-m-71_1786868679812.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-487fae23-c848-5fea-b209-e162164d0bb3",
-        "title": "Ukraine launches one of its largest aerial attacks of the war, killing at least 6 people in Russia",
-        "description": "Ukraine launched hundreds of drones across Russia Sunday, killing at least six people in one of Kyiv’s largest aerial attacks of the war.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-16T07:42:50.000Z",
-        "url": "https://www.winnipegfreepress.com/world/2026/08/16/ukraine-launches-one-of-its-largest-aerial-attacks-of-the-war-killing-at-least-6-people-in-russia",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-e532da52-0a41-5e70-8628-e7d5f3dcfa59",
-        "title": "Enzo Maresca to decide on Man City leadership group at end of transfer window",
-        "description": "Last season’s captain Bernardo Silva has left the club and Rodri could follow, leaving only Ruben Dias and Erling Haaland from the previous group.",
-        "publisher": "Breakingnews",
-        "publisherDomain": "breakingnews.ie",
-        "publishedAt": "2026-08-16T08:31:37.000Z",
-        "url": "https://www.breakingnews.ie/sport/enzo-maresca-to-decide-on-man-city-leadership-group-at-end-of-transfer-window-1940493.html",
-        "imageUrl": "https://img.resized.co/breaking-news/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL2ltYWdlcy5icmVha2luZ25ld3MuaWVcXFwvcHJvZFxcXC91cGxvYWRzXFxcLzIwMjZcXFwvMDhcXFwvMTYwOTA3NDVcXFwvMi44NTU1NDM2Ni5qcGdcIixcIndpZHRoXCI6MTIwMCxcImhlaWdodFwiOjYyNyxcImRlZmF1bHRcIjpcImh0dHBzOlxcXC9cXFwvd3d3LmJyZWFraW5nbmV3cy5pZVxcXC9pXFxcL2JuLW5vaW1hZ2UucG5nXCIsXCJvcHRpb25zXCI6W119IiwiaGFzaCI6IjhlNjY2NGY2N2Q0ZWYwNWUxNjE0NjQ4NzllN2Q1OTRiZDZjM2YyZDQifQ==/enzo-maresca-to-decide-on-man-city-leadership-group-at-end-of-transfer-window.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-66f83879-79f2-5d1f-917f-bf79cb838ce9",
-        "title": "Watch: Ramos scores first goal as Chukwueze stars - the highlights from Man Utd 2-4 AC Milan",
-        "description": "Yesterday, AC Milan battered Manchester United in their final pre-season game in Poland. Ruben Amorim had plenty to be happy with, indeed.",
+        "id": "currents-4bad5b62-b22c-5b39-a19e-9b21338f6f5f",
+        "title": "Vitiello: Amorim 'convinced' about keeping Cisse as two Serie A clubs push for deal",
+        "description": "Alphadjo Cisse came into this pre-season as an exciting talent and he could leave it as an exciting first-team talent at AC Milan.",
         "publisher": "Sempremilan",
         "publisherDomain": "sempremilan.com",
-        "publishedAt": "2026-08-16T08:30:00.000Z",
-        "url": "https://sempremilan.com/ramos-scores-first-goal-chukwueze-stars-mufc-milan-highlights",
-        "imageUrl": "https://icdn.sempremilan.com/wp-content/uploads/2026/08/Trophy-Milan-MUFC.jpg",
+        "publishedAt": "2026-08-16T09:30:00.000Z",
+        "url": "https://sempremilan.com/amorim-convinced-keeping-cisse-serie-a-clubs-push",
+        "imageUrl": "https://icdn.sempremilan.com/wp-content/uploads/2026/08/Amorim-Cisse-Milan-Man-United.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-74131d0d-6461-5593-a3ac-c752552c6618",
-        "title": "Jamal Musiala appears to FAINT while playing for Bayern Munich",
-        "description": "The midfielder had just scored to make it 3-1 to his side in the 81st minute, but appeared dazed and confused just two minutes later before he was caught by new team-mate Ismael Saibari.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-08-16T07:56:02.000Z",
-        "url": "https://www.dailymail.com/sport/football/article-16056093/Jamal-Musiala-FAINT-Bayern-Munich.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/16/07/110664053-0-image-m-32_1786862953796.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-3f726bd6-5802-53f0-8c48-308eb8e1d7dd",
-        "title": "Islam Makhachev defeats Ian Machado Garry with record 17th straight win at UFC 330",
-        "description": "With the victory, Russia's Makhachev etched his name alone in the UFC record books, extending his winning streak to 17 consecutive fights and surpassing UFC Hall of Famer Anderson Silva's historic 16-fight mark set from 2006-13.",
-        "publisher": "Breakingnews",
-        "publisherDomain": "breakingnews.ie",
-        "publishedAt": "2026-08-16T08:31:36.000Z",
-        "url": "https://www.breakingnews.ie/world/islam-makhachev-wins-record-17th-straight-fight-at-ufc-330-1940497.html",
-        "imageUrl": "https://img.resized.co/breaking-news/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL2ltYWdlcy5icmVha2luZ25ld3MuaWVcXFwvcHJvZFxcXC91cGxvYWRzXFxcLzIwMjZcXFwvMDhcXFwvMTYwOTE1MzlcXFwvR2V0dHlJbWFnZXMtMjI5MDY3NDY3NS1lMTc4Njg2ODIwMDI4Mi5qcGdcIixcIndpZHRoXCI6MTIwMCxcImhlaWdodFwiOjYyNyxcImRlZmF1bHRcIjpcImh0dHBzOlxcXC9cXFwvd3d3LmJyZWFraW5nbmV3cy5pZVxcXC9pXFxcL2JuLW5vaW1hZ2UucG5nXCIsXCJvcHRpb25zXCI6W119IiwiaGFzaCI6ImY0MGU4MzI2NWFhMThmY2Y4NzFhMTA5NzVmYmZmMTU0ZTNhNzZmMDEifQ==/islam-makhachev-defeats-ian-machado-garry-with-record-17th-straight-win-at-ufc-330.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-d7bcb8e7-adc2-572c-ab53-91f79efe23c8",
-        "title": "No Joshing: Draw confirms Carlton’s stunning run to AFL finals after parting ways with Voss",
-        "description": "A heart-stopping draw after a second-half arm wrestle with the Western Bulldogs has secured Carlton a wildcard berth and continued their unlikely revival under interim coach Josh Fraser.",
+        "id": "currents-5ba88a1d-cf14-5d32-8049-e8cacf589284",
+        "title": "Bangladesh get a call from their PM. Australia faces calls for new talent",
+        "description": "Every young batter in the country should keep their own phones close by. Changes to Australia’s line-up can’t be too far away.",
         "publisher": "Theage",
         "publisherDomain": "theage.com.au",
-        "publishedAt": "2026-08-16T08:06:21.000Z",
-        "url": "https://www.theage.com.au/sport/afl/no-joshing-carlton-to-play-finals-after-round-23-draw-secures-spot-20260816-p60osc.html",
-        "imageUrl": "https://static.ffx.io/images/$zoom_0.4474%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_246%2C$y_0/t_crop_custom/q_86%2Cf_auto/78f887742090417f7a04b1774785ebb9e1a10f63",
+        "publishedAt": "2026-08-16T09:15:23.000Z",
+        "url": "https://www.theage.com.au/sport/cricket/bangladesh-get-a-call-from-their-pm-australia-faces-calls-for-new-talent-20260816-p60ot2.html",
+        "imageUrl": "https://static.ffx.io/images/$zoom_0.2187%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_84%2C$y_117/t_crop_custom/q_86%2Cf_auto/t_metro_analysis_no_age_social_wm/659e3b677014687042009e640a5a76d4d101e438",
         "categories": [
-          "Sports"
+          "Sports",
+          "Top",
+          "U.S.",
+          "World"
         ]
       },
       {
-        "id": "currents-cf0cbc08-adfc-5ef2-9d50-8f3ec686bd03",
-        "title": "'Not quite functioning': Australia batters face axe",
-        "description": "Australia captain Pat Cummins says the top order's lack of runs has become 'a bit of a trend' in the wake of a stunning Test loss to Bangladesh",
-        "publisher": "Thewest",
-        "publisherDomain": "thewest.com.au",
-        "publishedAt": "2026-08-16T08:01:26.000Z",
-        "url": "https://thewest.com.au/sport/cricket/not-quite-functioning-australia-batters-face-axe-c-22731707",
-        "imageUrl": "https://images.thewest.com.au/publication/C-22731707/6926c56ee5896c0caeacfebbb4b42ebd9b71baf7-16x9-x0y0w1280h720.jpg?imwidth=1200",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-54ed9cf4-f02c-50c8-9588-fe96447e86fa",
-        "title": "What channel is Arsenal v Man City Community Shield on? TV coverage, live stream and kick-off time",
-        "description": "Check out how to watch Arsenal v Man City in the Community Shield, including TV channel, radio coverage and kick-off time.",
-        "publisher": "Radiotimes",
-        "publisherDomain": "radiotimes.com",
-        "publishedAt": "2026-08-16T08:00:55.000Z",
-        "url": "https://www.radiotimes.com/tv/sport/football/arsenal-man-city-community-shield-2026-27-preview",
-        "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2026/08/GettyImages-2173195938-8ddbba7.jpg?resize=1200%2C630",
-        "categories": [
-          "Entertainment",
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-2bf70906-0e1b-5201-8d51-7bd76d6b9cd0",
-        "title": "Bangladesh captain Shanto says pace focus reaping rewards after Australia breakthrough",
-        "description": "MELBOURNE, Aug 16 - Bangladesh captain Najmul Hossain Shanto said the nation's belated focus on pace is yielding rewards after the South Asian underdogs pulled off a seismic upset of Pat Cummins' top-ranked Australia on Sunday. Read more at straitstimes.com. Read more at straitstimes.com.",
-        "publisher": "Straitstimes",
-        "publisherDomain": "straitstimes.com",
-        "publishedAt": "2026-08-16T08:00:49.000Z",
-        "url": "https://www.straitstimes.com/sport/bangladesh-captain-shanto-says-pace-focus-reaping-rewards-after-australia-breakthrough",
-        "imageUrl": "https://cassette.sphdigital.com.sg/image/straitstimes/16b03a832db18b3de4d896adc6db4f5a012b9deb677662644347beecee9033f4",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-a506c289-b72a-5e59-a1d2-45381277366e",
-        "title": "Moretto: Clubs from Spain, Germany and England interested in Nkunku - who has called so far",
-        "description": "AC Milan will part ways with Christopher Nkunku this summer, but the Frenchman isn't really close to an exit just yet.",
-        "publisher": "Sempremilan",
-        "publisherDomain": "sempremilan.com",
-        "publishedAt": "2026-08-16T08:00:00.000Z",
-        "url": "https://sempremilan.com/clubs-spain-germany-england-interested-nkunku",
-        "imageUrl": "https://icdn.sempremilan.com/wp-content/uploads/2026/08/Nkunku-Prem-Bundes-LaLiga.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-84d27be1-5002-59e7-90b1-c7c305930be3",
-        "title": "US top Middle East commander visits deployed aircraft carrier, and other Mideast news",
-        "description": "Adm. Brad Cooper, the top U.S. military commander in the Middle East, visited the USS Lincoln in the Arabian Sea during a 10-day tour in the region that concluded on Saturday, U.S. Central Command said.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-16T07:53:29.000Z",
-        "url": "https://www.winnipegfreepress.com/world/2026/08/16/us-top-middle-east-commander-visits-deployed-aircraft-carrier-and-other-mideast-news",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a7e0a95633f3691623e6f2fjpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-6e6d2211-c4c6-506e-ac5d-708f981207c9",
-        "title": "Why are companies eager to host golf championships? - The Korea Times",
-        "description": "Golf can be a sport with a relatively high barrier to entry for those looking to take it up themselves. But the gates to golf courses hosting profe...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-08-16T07:52:03.000Z",
-        "url": "https://www.koreatimes.co.kr/sports/20260816/why-are-companies-eager-to-host-golf-championships",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/16/c490b501-71aa-4847-b223-605a941dfa22.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-6974e112-da31-5df3-a458-0f3fbce56883",
-        "title": "New Zealand sweating on injury concerns ahead of first test against Springboks",
-        "description": "Aug 16 - New Zealand coach Dave Rennie admitted on Saturday to some concern over the injury status of first-choice fullback Damian McKenzie ahead of the four-test series against world champions South Africa that starts in Johannesburg on August 22. Read more at straitstimes.com. Read more at straits...",
-        "publisher": "Straitstimes",
-        "publisherDomain": "straitstimes.com",
-        "publishedAt": "2026-08-16T07:50:56.000Z",
-        "url": "https://www.straitstimes.com/sport/new-zealand-sweating-on-injury-concerns-ahead-of-first-test-against-springboks",
-        "imageUrl": "https://cassette.sphdigital.com.sg/image/straitstimes/91195eacd079b3c75ac7ed4953d6f544b2cf4434ce832a82bebba27957fe4393",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-a47ad351-4167-5fcd-8270-44ecbd744189",
-        "title": "India Vs England Hockey World Cup Clash Live: Streaming, Telecast & Match Details",
-        "description": "India faces difficult England challenge in FIH Hockey World Cup. Harmanpreet Singh leads team after Wales victory, aiming for strong knockout position.",
-        "publisher": "News18",
-        "publisherDomain": "news18.com",
-        "publishedAt": "2026-08-16T07:41:57.000Z",
-        "url": "https://www.news18.com/sports/hockey/india-vs-england-hockey-world-cup-clash-live-streaming-telecast-match-details-ws-l-10275988.html",
-        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/08/India-become-first-team-to-feature-in-all-16-editions-of-FIH-Mens-Hockey-World-Cup-2026-08-dfd22b4e95dcb5c1e771a8906a06e53b-1200x675.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-6c75a0a2-75fb-5549-a7b0-1cb489969450",
-        "title": "Melbourne forward banned for high hit ahead of AFL finals",
-        "description": "Jacob van Rooyen’s season is potentially over after knocking out Aliir Aliir.",
+        "id": "currents-ae684c02-7413-5038-999e-5299409976e8",
+        "title": "Police make arrest after alleged assault on innocent AFL fan",
+        "description": "Shocking footage has captured the moment a 20-year-old man on bail throws a barrage of punches.",
         "publisher": "7news",
         "publisherDomain": "7news.com.au",
-        "publishedAt": "2026-08-16T07:36:22.000Z",
-        "url": "https://7news.com.au/sport/afl/melbourne-forward-jacob-van-rooyen-hit-with-three-match-suspension-for-banned-for-high-hit-on-aliir-aliir-c-22731613",
-        "imageUrl": "https://images.7news.com.au/publication/C-22731613/b780bf76322e5e4a4883ee26f69f5c9f879487f3-16x9-x0y2w1280h720.jpg?imwidth=1200",
+        "publishedAt": "2026-08-16T09:12:40.000Z",
+        "url": "https://7news.com.au/sport/afl/police-make-arrest-after-alleged-assault-on-innocent-afl-fan-at-collingwood-hawthorn-clash-c-22732030",
+        "imageUrl": "https://images.7news.com.au/publication/C-22732030/84c3e490f66958ca06121924700c1e19bca0a1b0-16x9-x0y2w1280h720.png?imwidth=1200",
         "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-2e3f96f3-c390-5beb-9ebf-7a1d127bb83e",
+        "title": "Arsenal vs City combined XI: Stats give Maresca's side the edge",
+        "description": "With Arsenal and Man City's first clash of the new campaign getting under way today in Cardiff, the stats gurus over at Sofascore have given the lowdown on both teams, building an ideal XI.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-08-16T09:00:46.000Z",
+        "url": "https://www.dailymail.com/sport/football/article-16041615/arsenal-man-city-combined-line-community-shield.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/08/13/18/110621199-0-image-a-16_1786641200492.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-3057e913-e094-511c-9bbb-427a95c52578",
+        "title": "'Not functioning': Australia captain Cummins tips batting review after Bangladesh shock",
+        "description": "Aug 16 - Australia captain Pat Cummins has backed his team to rebound from a stunning nine-wicket loss to Bangladesh in the series-opener in Darwin but concedes changes may be needed to fix the team's troubled batting. Read more at straitstimes.com. Read more at straitstimes.com.",
+        "publisher": "Straitstimes",
+        "publisherDomain": "straitstimes.com",
+        "publishedAt": "2026-08-16T09:10:58.000Z",
+        "url": "https://www.straitstimes.com/sport/not-functioning-australia-captain-cummins-tips-batting-review-after-bangladesh-shock",
+        "imageUrl": "https://cassette.sphdigital.com.sg/image/straitstimes/d5b3829ff968574b1cf5000717e27d072473d64d3042cb40c156697363075ce2",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-92edc2cb-622d-576e-8fb5-331683b6b694",
+        "title": "Bulldogs superstar no guarantee to face AFL's Demons",
+        "description": "Marcus Bontempelli missed the Western Bulldogs' draw with Carlton through an Achilles issue he has been managing and won't necessarily face the Demons.",
+        "publisher": "Thewest",
+        "publisherDomain": "thewest.com.au",
+        "publishedAt": "2026-08-16T09:10:03.000Z",
+        "url": "https://thewest.com.au/sport/afl/bulldogs-superstar-no-guarantee-to-face-afls-demons-c-22732086",
+        "imageUrl": "https://images.thewest.com.au/publication/C-22732086/e997add2e0ac9ed66a659cba8cc51c47a71cdc3f-16x9-x0y0w1280h720.jpg?imwidth=1200",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-0bc70a55-3207-5a1d-90ed-ef04bbbe8c4f",
+        "title": "Green staves off ‘wolves’, books SA ticket with Test ton",
+        "description": "West Australian all-rounder Cam Green is a relieved man after producing his maiden Test century on Australian soil to stave off the ‘wolves’ despite his side’s embarrassing loss to Bangladesh in Darwin.",
+        "publisher": "Thewest",
+        "publisherDomain": "thewest.com.au",
+        "publishedAt": "2026-08-16T09:04:52.000Z",
+        "url": "https://thewest.com.au/sport/australian-cricket-team/west-australian-all-rounder-cam-green-staves-off-wolves-after-maiden-home-test-century-c-22731209",
+        "imageUrl": "https://images.thewest.com.au/publication/C-22731209/8fe081d6a915c94ab713b4347685ef989c3d05a1-16x9-x271y307w2121h1193.jpg?imwidth=1200",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-a89332b2-1204-5f9c-8426-3666715f75c1",
+        "title": "Schira: Milan restart renewal talks with Loftus-Cheek after goal vs. Manchester United",
+        "description": "After his goal against Manchester United, AC Milan have made an attempt to re-open talks with Ruben Loftus-Cheek's entourage.",
+        "publisher": "Sempremilan",
+        "publisherDomain": "sempremilan.com",
+        "publishedAt": "2026-08-16T09:00:00.000Z",
+        "url": "https://sempremilan.com/milan-restart-renewal-talks-loftus-cheek",
+        "imageUrl": "https://icdn.sempremilan.com/wp-content/uploads/2026/08/Schira-RLC.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-92dd85a3-889b-5c67-9fab-e70ae5616cee",
+        "title": "Eagles succumb to GWS pressure as Giants get boilover win",
+        "description": "West Coasts’ AFLW campaign is off to a less than ideal start, as they wilted in the midst of a pressure cooker-type performance from GWS to slump to a 12-point defeat.",
+        "publisher": "Thewest",
+        "publisherDomain": "thewest.com.au",
+        "publishedAt": "2026-08-16T08:58:17.000Z",
+        "url": "https://thewest.com.au/sport/west-coast-eagles/aflw-2026-west-coast-eagles-fall-to-gws-by-12-points-as-giants-pressure-proves-too-much-in-opener--c-22731102",
+        "imageUrl": "https://images.thewest.com.au/publication/C-22731102/c0e63b6b0474eca49d7c638f0f1b3a4c66f141fc-16x9-x0y219w3433h1931.jpg?imwidth=1200",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-6c65e3df-a1bd-5dfd-b10d-ef0893badc61",
+        "title": "Arsenal vs Man City: Prediction, kick-off time, team news, h2h, odds",
+        "description": "Premier League champions and FA Cup winners collide in Cardiff",
+        "publisher": "Standard",
+        "publisherDomain": "standard.co.uk",
+        "publishedAt": "2026-08-16T08:53:04.000Z",
+        "url": "https://www.standard.co.uk/sport/football/arsenal-fc-vs-man-city-prediction-kick-off-time-team-news-tv-live-stream-latest-h2h-results-odds-community-shield-2026-preview-today-b1293331.html",
+        "imageUrl": "https://static.standard.co.uk/2026/08/13/16/46/ArsenalvsManCity13082026.png?width=1200&auto=webp&quality=75",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-27f92a14-3f05-51ad-8576-40dce4bec471",
+        "title": "Transfer rumors, news: Liverpool step up Barcola chase as PSG sign Godts",
+        "description": "Liverpool are ready to make another move for Paris Saint-Germain winger Bradley Barcola. Transfer Talk has the latest.",
+        "publisher": "ESPN",
+        "publisherDomain": "espn.com",
+        "publishedAt": "2026-08-16T08:45:52.000Z",
+        "url": "https://www.espn.com/soccer/story/_/id/49626304/transfer-rumors-news-liverpool-step-barcola-chase-psg-sign-godts",
+        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2025%2F0807%2Fr1528816_1296x729_16%2D9.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-8b705fa9-2350-5820-9f5a-ef481adfa48f",
+        "title": "Irish teen who died in Greece may have been electrocuted by faulty shower",
+        "description": "The 17-year-old was on holiday with his family on the Greek island of Kimolos when he died in a tragic accident",
+        "publisher": "Belfastlive",
+        "publisherDomain": "belfastlive.co.uk",
+        "publishedAt": "2026-08-16T08:45:28.000Z",
+        "url": "https://www.belfastlive.co.uk/news/uk-world-news/irish-teen-who-died-greece-34466224",
+        "imageUrl": "https://i2-prod.belfastlive.co.uk/article34466223.ece/ALTERNATES/s1200d/1_AMckeeRIP.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-e6ad7db6-0f14-57ec-ba70-1f1f687a0901",
+        "title": "Cambridge professor Jason Arday sent friend heartbreaking final message before his death",
+        "description": "Jason Arday's friend Sarah Carney has revealed the poignant contents of the last conversation they shared the day before he resigned from Cambridge.",
+        "publisher": "Ladbible",
+        "publisherDomain": "ladbible.com",
+        "publishedAt": "2026-08-16T08:44:00.000Z",
+        "url": "https://www.ladbible.com/news/uk-news/jason-arday-death-cambridge-uni-friend-final-conversation-925344-20260816",
+        "imageUrl": "https://resizer.ladbiblegroup.com/ogimage/v3/assets/bltcd74acc1d0a99f3a/blte588690d593bae75/6a8170e2ebb81cc4d6e2d892/jason-arday-cambridge-death.png",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-ed0e3255-74c3-57d4-b4b5-e28ecd9793ee",
+        "title": "Gymnastics-Spain, Japan and Brazil book 2028 LA Games rhythmic gymnastics group places",
+        "description": "Aug 16 - Spain, Japan and Brazil became the first nations to secure quota places for the rhythmic gymnastics group competition at the 2028 Los Angeles Olympics after finishing on the podium at the Rhythmic Gymnastics World Championships in Frankfurt on Saturday. Read more at straitstimes.com. Read m...",
+        "publisher": "Straitstimes",
+        "publisherDomain": "straitstimes.com",
+        "publishedAt": "2026-08-16T08:40:57.000Z",
+        "url": "https://www.straitstimes.com/sport/gymnastics-spain-japan-and-brazil-book-2028-la-games-rhythmic-gymnastics-group-places",
+        "imageUrl": "https://cassette.sphdigital.com.sg/image/straitstimes/9ba35dc23323d5a6df35b62cf2e3e43d0a4194849effe2cfbdef9d83544d2166",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-dfe050ff-a8eb-5bcf-acb8-3067da859d7c",
+        "title": "On this day in 1992, Nigel Mansell became a Formula 1 World Champion.",
+        "description": "submitted by /u/PiggySVW [link] [comments]",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-08-16T09:04:20.000Z",
+        "url": "https://www.reddit.com/r/formula1/comments/1vps6e8/on_this_day_in_1992_nigel_mansell_became_a",
+        "categories": [
+          "Top",
+          "U.S.",
           "Sports"
         ]
       }
     ],
     "Entertainment": [
       {
-        "id": "currents-f1699db6-0f04-5dd9-a9bc-61093b84d770",
-        "title": "Not for Glory review – folk dance and bagpipes, but not as we know them",
-        "description": "Jack Anderson and Charlotte Mclean began as champions of classic Irish and Highland steps. Here, with piper Malin Lewis, they give them a new form",
+        "id": "currents-aa35bb31-3a97-50ed-890c-21a2264e042c",
+        "title": "Kelly Osbourne hits back at Dee Snider’s “attempt to belittle” Ozzy Osbourne",
+        "description": "Dee Snider and Kelly Osbourne got locked into a war of words on social media concerning Ozzy Osbourne's songwriting",
+        "publisher": "Nme",
+        "publisherDomain": "nme.com",
+        "publishedAt": "2026-08-16T08:53:21.000Z",
+        "url": "https://www.nme.com/news/music/kelly-osbourne-hits-back-at-dee-sniders-attempt-to-belittle-ozzy-osbourne-3962965",
+        "imageUrl": "https://www.nme.com/wp-content/uploads/2026/08/live-kelly-osbourne-dee-snider.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-e38768e8-8ea4-5c40-a146-d5ab18102cab",
+        "title": "‘I thought – if I die, I’ve had a good innings’: producer James Ford on life, death and making an album from his hospital bed",
+        "description": "The Arctic Monkeys, Pet Shop Boys and Pulp collaborator was Britain’s most in-demand producer when leukaemia struck. ‘I realised life is exceptionally fragile,’ he says",
         "publisher": "The Guardian",
         "publisherDomain": "theguardian.com",
-        "publishedAt": "2026-08-16T07:53:29.000Z",
-        "url": "https://www.theguardian.com/stage/2026/aug/16/not-for-glory-review-assembly-dance-base-edinburgh",
-        "imageUrl": "https://i.guim.co.uk/img/media/30fc650078e0a2ff12be10fac32d3fdf55faf89c/0_614_4677_3742/master/4677.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctcmV2aWV3LTMucG5n&enable=upscale&s=d819856a5430c7cb9dfe7e72c8d7614c",
+        "publishedAt": "2026-08-16T09:00:21.000Z",
+        "url": "https://www.theguardian.com/music/2026/aug/16/james-ellis-ford-music-producer-interview-lost-in-another-world-leukaemia-arctic-monkeys-florence-machine",
+        "imageUrl": "https://i.guim.co.uk/img/media/16899c289a448c231719a75c00ad283c3bbca03b/2385_2374_6605_5284/master/6605.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0e4ab44f39a47008b408014d37a34fd5",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-eeae46c1-74d0-5a3c-9081-c8500bd21249",
-        "title": "Sonia Kruger leaves a mess on the Logies red carpet",
-        "description": "Sonia Kruger's Logies night is off to a bad start.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-08-16T07:12:10.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16056079/sonia-kruger-logies-red-carpet-glittering-gown-disintegrate.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/16/07/110663811-0-image-m-16_1786861664782.jpg",
+        "id": "currents-7451492b-e7d1-56ee-a4e1-b0e6ef3f50e8",
+        "title": "Used Booksellers Are Racking Up Huge Sales. They're Not Thrilled About the Likely Reason",
+        "description": "If you're a book, you'd better start sleeping with one eye open.",
+        "publisher": "Gizmodo",
+        "publisherDomain": "gizmodo.com",
+        "publishedAt": "2026-08-16T09:30:46.000Z",
+        "url": "https://gizmodo.com/used-booksellers-are-racking-up-huge-sales-theyre-not-thrilled-about-the-likely-reason-2000799032",
+        "imageUrl": "https://gizmodo.com/app/uploads/2026/08/used-books-1200x675.jpg",
+        "categories": [
+          "Entertainment",
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-68bc9f07-f371-5224-936b-7a343917aa24",
+        "title": "EastEnders confirms Nicola Mitchell’s sisters Gemma and Jodie arrive in Walford tomorrow with chaotic first look",
+        "description": "Won't someone check on the postman though?",
+        "publisher": "Radiotimes",
+        "publisherDomain": "radiotimes.com",
+        "publishedAt": "2026-08-16T09:21:18.000Z",
+        "url": "https://www.radiotimes.com/tv/soaps/eastenders/eastenders-nicola-sisters-gemma-jodie-first-look-newsupdate",
+        "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2026/08/569296-b749145.jpg?resize=1200%2C630",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-94fa74f3-e88c-5998-a0cd-e9ab02478e2b",
-        "title": "Kyrsten Sinema Allegedly Rescued Boyfriend From Jail After His Assault Arrest",
-        "description": "Kyrsten Sinema allegedly bonded her boyfriend, Matthew Ammel, out of jail after he was arrested for assaulting a physician ... TMZ has learned. According to court docs obtained by TMZ, Matthew was involuntarily committed to the hospital on November…",
-        "publisher": "Tmz",
-        "publisherDomain": "tmz.com",
-        "publishedAt": "2026-08-16T08:00:01.000Z",
-        "url": "https://www.tmz.com/2026/08/16/kyrsten-sinema-allegedly-bonded-boyfriend-out-of-jail-after-assault-arrest",
+        "id": "currents-625aebbd-d9a4-52b6-b1e2-485463bc674d",
+        "title": "Saif Ali Khan spotted with Kareena Kapoor Khan and sons at airport, back from 'Haiwaan' acttor's birthday getaway",
+        "description": "Bollywood actor Saif Ali Khan rang in his birthday in true family style, spotted at the airport alongside wife Kareena Kapoor Khan and their sons, Tai.",
+        "publisher": "Indiatimes",
+        "publisherDomain": "timesofindia.indiatimes.com",
+        "publishedAt": "2026-08-16T09:02:29.000Z",
+        "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/saif-ali-khan-spotted-with-kareena-kapoor-khan-and-sons-at-airport-back-from-haiwaan-acttors-birthday-getaway/articleshow/133272481.cms",
+        "imageUrl": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-1784cd32-c05b-5580-ac7e-3166c3a4ed41",
+        "title": "Skrillex and Jorja Smith wrap up Sziget 2026 on the dancefloor",
+        "description": "This year's edition of the Budapest bash went out with a bang, with some assistance from Zimmer90 and Soulwax",
+        "publisher": "Nme",
+        "publisherDomain": "nme.com",
+        "publishedAt": "2026-08-16T09:01:12.000Z",
+        "url": "https://www.nme.com/reviews/live/skrillex-jorja-smith-sziget-2026-round-up-3962942",
+        "imageUrl": "https://www.nme.com/wp-content/uploads/2026/08/skrillex-sziget-2026-credit-Joseph-OkpakoWireImage.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-3c92513f-0be8-51d8-a60d-50076fc136e4",
+        "title": "38 Simple Tips For Anyone Who Wants To Be A Bit More Put-Together",
+        "description": "Just out here helping you hack your way through life in 10-minute increments with visual timers, cute hats, and tips and tricks to make adulting a breeze.",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-08-16T09:01:05.000Z",
+        "url": "https://www.buzzfeed.com/ashleyschumacher/tips-for-anyone-who-wants-to-be-more-put-together",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/05/20/thumb/-0d5uYkXJ.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-a0a5fe95-0454-59d9-b3f9-2fb6a4031057",
+        "title": "The Effective Altruists Reportedly Have Their Mojo Back Thanks to AI",
+        "description": "SBF didn't render EA completely DOA, thanks to AI.",
+        "publisher": "Gizmodo",
+        "publisherDomain": "gizmodo.com",
+        "publishedAt": "2026-08-16T09:00:11.000Z",
+        "url": "https://gizmodo.com/the-effective-altruists-reportedly-have-their-mojo-back-thanks-to-ai-2000799030",
+        "imageUrl": "https://gizmodo.com/app/uploads/2025/11/sbf-profile-1200x675.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-9ed600dd-d4d1-5a53-bf0d-b47926aeffc1",
+        "title": "9 quirky desk accessories to brighten up your setup",
+        "description": "From desk robots to Lego sets.",
+        "publisher": "Creativebloq",
+        "publisherDomain": "creativebloq.com",
+        "publishedAt": "2026-08-16T09:00:00.000Z",
+        "url": "https://www.creativebloq.com/entertainment/toys-collectibles/from-robot-pets-to-lego-sets-level-up-your-desk-with-these-quirky-accessories",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/gr4GJpaZtM7zJTjfnB6kq3-2560-80.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-6e34f34e-117b-5ce7-a865-9dafb0e42b67",
+        "title": "Watch Zimmer90 perform brand-new, unreleased song at Sziget Festival 2026",
+        "description": "The German band introduced the track during their appearance on Revolut Stage during the fifth and final night of the Hungarian festival",
+        "publisher": "Nme",
+        "publisherDomain": "nme.com",
+        "publishedAt": "2026-08-16T08:35:41.000Z",
+        "url": "https://www.nme.com/news/zimmer90-new-song-sziget-festival-2026-3962934",
+        "imageUrl": "https://www.nme.com/wp-content/uploads/2026/08/zimmer90-sziget-credit-Joseph-OkpakoWireImage.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-62cb89d9-f898-547a-ac8f-08184b7f0efe",
+        "title": "'Sathuranga Vettai 2' signs off revival; Aravind Swamy and Trisha starrer to get release date soon",
+        "description": "'Sathuranga Vettai 2,' which was lingering in suspense for quite some time, is now slowly making its way to the big screen. The film, starring Arvind Swamy and Trisha in lead roles, has been one of the most talked-about unreleased projects in Tamil cinema.",
+        "publisher": "Indiatimes",
+        "publisherDomain": "timesofindia.indiatimes.com",
+        "publishedAt": "2026-08-16T08:32:26.000Z",
+        "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/sathuranga-vettai-2-signs-off-revival-aravind-swamy-and-trisha-starrer-to-get-release-date-soon/articleshow/133272234.cms",
+        "imageUrl": "https://static.toiimg.com/thumb/msid-133272243,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
         "categories": [
           "Entertainment"
         ]
@@ -1389,157 +1633,53 @@
         ]
       },
       {
-        "id": "currents-d63efa16-c852-529c-a5e7-422bc1b0b9c3",
-        "title": "The Last Drop review – everything is rotten in this dark domestic comedy",
-        "description": "Dante Passarelli’s play, part of the Edinburgh fringe’s São Paulo Showcase, is an atmospheric hour borrowing themes from Hamlet",
-        "publisher": "The Guardian",
-        "publisherDomain": "theguardian.com",
-        "publishedAt": "2026-08-16T07:36:28.000Z",
-        "url": "https://www.theguardian.com/stage/2026/aug/16/the-last-drop-review-zoo-playground-edinburgh-festival",
-        "imageUrl": "https://i.guim.co.uk/img/media/4dc7d763b798a96b86e87709dea94e39b4140972/1267_707_2511_2009/master/2511.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctcmV2aWV3LTMucG5n&enable=upscale&s=ba89d27c5057c662be76cd79a90830a0",
+        "id": "currents-00d51ffa-de14-5dfa-91be-c48e58e80aff",
+        "title": "These 30 Furniture Pieces From Wayfair Will Make Your Home Feel Brand New Again",
+        "description": "Out with the old, in with the “WOW, where did you get that from?”",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-08-16T08:31:01.000Z",
+        "url": "https://www.buzzfeed.com/lucyatkins/these-furniture-pieces-from-wayfair-will-make-your-home",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/12/21/thumb/DOJpoz1U4.jpg?crop=3000:1571;0,210%26downsize=1250:*",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-c397d6c8-1cde-50c7-a0f6-992e70df1f5b",
-        "title": "Inside the $3000 gift bag given to the Gold Logie nominees",
-        "description": "They may be competing for Australian television's most coveted award, but none of this year's Gold Logie nominees will be going home empty-handed.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-08-16T07:01:13.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16056049/gold-logie-nominee-gift-bag-oscars-serum-candles.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/16/07/110663661-0-image-a-11_1786860655739.jpg",
+        "id": "currents-05d4d177-ad94-5418-b22c-83adf80c0cb0",
+        "title": "Only People Who Were Born In The '50s or '60s Can Fill In The Blanks Of These '80s TV Shows",
+        "description": "This isn't just about remembering what was on TV — it's about proving you really paid attention during the golden age of prime time.",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-08-16T09:16:02.000Z",
+        "url": "https://www.buzzfeed.com/sarathompson1/80s-tv-show-titles-trivia-quiz",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/13/13/thumb/1dI8tR2YG.jpg?crop=2999:1570;0,2%26downsize=1250:*",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-2810e10c-864d-52b4-9f6e-fa64b567ddd8",
-        "title": "Cristiano Ronaldo and new wife Georgina Rodriguez pictured on 'honeymoon'",
-        "description": "Cristiano Ronaldo and his new wife Georgina Rodriguez chose not to have a traditional honeymoon and in the days after their wedding they watched a football match during the Saudi Pro League with their five children",
-        "publisher": "Mirror",
-        "publisherDomain": "mirror.co.uk",
-        "publishedAt": "2026-08-16T08:28:25.000Z",
-        "url": "https://www.mirror.co.uk/3am/celebrity-news/cristiano-ronaldo-georgina-rodriguez-honeymoon-37556874",
-        "imageUrl": "https://i2-prod.mirror.co.uk/article37556847.ece/ALTERNATES/s1200d/1_FBL-KSA-NASSR-FATEH.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-e9b4abac-f51a-5ed1-a903-452d192cd39b",
-        "title": "Teen Mom cast now – from no contact with kid to car tragedy and prison sentence",
-        "description": "They became household names after sharing the highs and lows of teenage motherhood on MTV's Teen Mom - but 17 years later, Maci Bookout, Farrah Abraham, Amber Portwood and Catelynn Baltierra have taken very different paths",
-        "publisher": "Mirror",
-        "publisherDomain": "mirror.co.uk",
-        "publishedAt": "2026-08-16T08:22:51.000Z",
-        "url": "https://www.mirror.co.uk/3am/us-celebrity-news/teen-mom-cast-now--37555858",
-        "imageUrl": "https://i2-prod.mirror.co.uk/article30271713.ece/ALTERNATES/s1200d/3_EHP_CHP_190623Teen-Mom-Farrah-Abrahams-daughter-Sophia_82612JPG.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-54ed9cf4-f02c-50c8-9588-fe96447e86fa",
-        "title": "What channel is Arsenal v Man City Community Shield on? TV coverage, live stream and kick-off time",
-        "description": "Check out how to watch Arsenal v Man City in the Community Shield, including TV channel, radio coverage and kick-off time.",
+        "id": "currents-865f1cd5-68c0-5eaa-81b8-87dadbf7e07e",
+        "title": "What channel is Rangers v St Mirren Scottish Premier Sports Cup match on? TV coverage, live stream and kick-off time",
+        "description": "Check out how to watch Rangers v St Mirren in the Scottish Premier Sports Cup, including TV channel, radio coverage and kick-off time.",
         "publisher": "Radiotimes",
         "publisherDomain": "radiotimes.com",
-        "publishedAt": "2026-08-16T08:00:55.000Z",
-        "url": "https://www.radiotimes.com/tv/sport/football/arsenal-man-city-community-shield-2026-27-preview",
-        "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2026/08/GettyImages-2173195938-8ddbba7.jpg?resize=1200%2C630",
-        "categories": [
-          "Entertainment",
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-61e6702d-46e2-57d3-b82c-872d634c7a1e",
-        "title": "Other brands are throwing shade at the new Instagram logo",
-        "description": "From McDonald's to ChatGPT, they've all decided it's \"time for a refresh\".",
-        "publisher": "Creativebloq",
-        "publisherDomain": "creativebloq.com",
-        "publishedAt": "2026-08-16T08:00:00.000Z",
-        "url": "https://www.creativebloq.com/design/logos-icons/other-brands-are-throwing-shade-at-the-new-instagram-logo",
-        "imageUrl": "https://cdn.mos.cms.futurecdn.net/XTy7s9NWxGZxLptg8HCs5B-1920-80.jpg",
+        "publishedAt": "2026-08-16T09:00:43.000Z",
+        "url": "https://www.radiotimes.com/tv/sport/football/rangers-st-mirren-scottish-premier-sports-cup-2026-27-preview",
+        "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2026/08/GettyImages-2289133963-1ae27fb.jpg?resize=1200%2C630",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-85ad17d9-be9a-5dbf-92b2-6205e08fc078",
-        "title": "China box office hits 9.5 billion yuan in summer surge",
-        "description": "China's summer box-office revenue has surpassed 9.5 billion yuan ($1.33 billion), driven by a strong lineup of local releases, lower ticket prices and steady audience demand.",
-        "publisher": "Cgtn",
-        "publisherDomain": "news.cgtn.com",
-        "publishedAt": "2026-08-16T07:42:41.000Z",
-        "url": "https://news.cgtn.com/news/2026-08-16/China-box-office-hits-9-5-billion-yuan-in-summer-surge-1PEBZhDIj8k/p.html",
-        "imageUrl": "https://news.cgtn.com/news/2026-08-16/China-box-office-hits-9-5-billion-yuan-in-summer-surge-1PEBZhDIj8k/img/dd23646aa99646ebb0ad47f734523c69/dd23646aa99646ebb0ad47f734523c69-750.png",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-1f08cf1c-afa6-50a2-853f-09d2b79e6eba",
-        "title": "Beijing Central Axis: Where ancient heritage meets urban innovation",
-        "description": "In August 2026, Beijing was designated as the UNESCO–UIA World Capital of Architecture for 2029, celebrating its unique urban identity where thousands of years of imperial history seamlessly integrate with modern design.",
-        "publisher": "Cgtn",
-        "publisherDomain": "news.cgtn.com",
-        "publishedAt": "2026-08-16T07:39:15.000Z",
-        "url": "https://news.cgtn.com/news/2026-08-16/Beijing-Central-Axis-Where-ancient-heritage-meets-urban-innovation-1PEBxw76NXO/p.html",
-        "imageUrl": "https://news.cgtn.com/news/2026-08-16/Beijing-Central-Axis-Where-ancient-heritage-meets-urban-innovation-1PEBxw76NXO/img/ca508f15df1f4023b9d6a2f7c48f6193/ca508f15df1f4023b9d6a2f7c48f6193-750.png",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-a2d1361a-dce1-511f-ad39-372879e54839",
-        "title": "Intangible heritage market draws crowds at CMG Film Culture Carnival",
-        "description": "The CMG Film Cultural Carnival Tianjin Special officially kicked off this weekend on August 14 in Tianjin, instantly transforming Jinwan Plaza into an immersive \"movie theme park\" filled with great sights, delicious food and fun activities.",
-        "publisher": "Cgtn",
-        "publisherDomain": "news.cgtn.com",
-        "publishedAt": "2026-08-16T07:37:24.000Z",
-        "url": "https://news.cgtn.com/news/2026-08-16/Intangible-heritage-market-draws-crowds-at-CMG-Film-Culture-Carnival-1PEsQyIgH1m/p.html",
-        "imageUrl": "https://news.cgtn.com/news/2026-08-16/Intangible-heritage-market-draws-crowds-at-CMG-Film-Culture-Carnival-1PEsQyIgH1m/img/83552d0587af46d19f290a9de8f9864a/83552d0587af46d19f290a9de8f9864a-750.jpeg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-1dc66005-a0ab-5325-b47c-6ab806edf583",
-        "title": "Why the most thrilling story of the Premier League 2026/27 season is that of the teenage sensation",
-        "description": "Could the new season reveal a breakout sensation?",
-        "publisher": "Radiotimes",
-        "publisherDomain": "radiotimes.com",
-        "publishedAt": "2026-08-16T07:00:48.000Z",
-        "url": "https://www.radiotimes.com/tv/sport/premier-league-season-2026-teenage-sensation-comment",
-        "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2026/08/GettyImages-1190817816-a8c9425.jpg?resize=1200%2C630",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-2050c139-e44c-5121-b247-486e7951e2e8",
-        "title": "What channel is Watford v Southampton Championship match on? TV coverage, live stream and kick-off time",
-        "description": "Check out how to watch Watford v Southampton in the Championship, including TV channel, radio coverage and kick-off time.",
-        "publisher": "Radiotimes",
-        "publisherDomain": "radiotimes.com",
-        "publishedAt": "2026-08-16T07:00:29.000Z",
-        "url": "https://www.radiotimes.com/tv/sport/football/watford-southampton-championship-2026-27-preview",
-        "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2026/08/GettyImages-2289997778-c394e17.jpg?resize=1200%2C630",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-1849d5b4-e63f-56c0-bc6c-a112db3bdb90",
-        "title": "Celebrate Madonna's 68th Birthday with Her Hottest Shots Through The Years",
-        "description": "Madonna just turned 68 ... and she's still lookin' great ... she's been a stunner for decades, turning heads on and off stage. The pop icon's still strutting her stuff and flaunting her fit figure after all these years ... which is certainly cause…",
-        "publisher": "Tmz",
-        "publisherDomain": "tmz.com",
-        "publishedAt": "2026-08-16T08:00:19.000Z",
-        "url": "https://www.tmz.com/2026/08/16/madonna-birthday-hot-shots",
+        "id": "currents-304e35e0-36ba-5f23-87ba-a3ba4fa321cb",
+        "title": "Gangai Amaran reveals SP Balasubrahmanyam's LAST WISH six years after the veteran singer's demise: 'He wanted to see Ilaiyaraaja'",
+        "description": "Nearly six years after the passing of legendary singer S.P. Balasubrahmanyam (SPB), memories of his warmth, friendship and extraordinary musical journey continue to touch millions.",
+        "publisher": "Indiatimes",
+        "publisherDomain": "timesofindia.indiatimes.com",
+        "publishedAt": "2026-08-16T08:37:33.000Z",
+        "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/gangai-amaran-reveals-sp-balasubrahmanyams-last-wish-six-years-after-the-veteran-singers-demise-he-wanted-to-see-ilaiyaraaja/articleshow/133272278.cms",
+        "imageUrl": "https://static.toiimg.com/thumb/msid-133272293,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
         "categories": [
           "Entertainment"
         ]
@@ -1551,6 +1691,6 @@
     "successfulRequests": 5,
     "failedRequests": 0,
     "articleCountBeforeDeduplication": 100,
-    "articleCountAfterDeduplication": 87
+    "articleCountAfterDeduplication": 91
   }
 }
