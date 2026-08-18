@@ -1,180 +1,94 @@
 {
   "schemaVersion": 1,
   "provider": "currents",
-  "generatedAt": "2026-08-18T22:53:52.542Z",
-  "sourceFetchedAt": "2026-08-18T22:53:52.542Z",
+  "generatedAt": "2026-08-18T23:29:22.117Z",
+  "sourceFetchedAt": "2026-08-18T23:29:22.117Z",
   "status": "success",
   "categories": {
     "Top": [
       {
-        "id": "currents-b67c1fdc-bb04-52dd-aa5e-6d08cd5b9b36",
-        "title": "NIH proposes major revamp of how it scores research grant proposals",
-        "description": "Proponents argue that the current system creates a false sense of precision, but critics fear that the change could increase political interference.",
-        "publisher": "Nature",
-        "publisherDomain": "nature.com",
-        "publishedAt": "2026-08-18T22:46:11.000Z",
-        "url": "https://www.nature.com/articles/d41586-026-02584-4",
-        "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-026-02584-4/d41586-026-02584-4_53130006.jpg",
+        "id": "currents-713ae39a-9d68-5f09-a6df-a155eea4a1a3",
+        "title": "DeSantis ally and appointee is arrested on child sex abuse charges",
+        "description": "Michael Caruso was removed from his post as Palm Beach County’s clerk of courts and comptroller after his arrest was announced",
+        "publisher": "NBC News",
+        "publisherDomain": "nbcnews.com",
+        "publishedAt": "2026-08-18T23:09:59.000Z",
+        "url": "https://www.nbcnews.com/news/us-news/desantis-ally-appointee-arrested-child-sex-abuse-charges-rcna593206",
+        "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-08/Florida-Legislature-22041714664967-AP-a68c9d.jpg",
         "categories": [
           "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-a235301c-99b5-56ee-9bbb-ed8d9df78d5a",
+        "title": "40 looters ransack family-run California business during massive street takeover",
+        "description": "Surveillance video shows 40 suspects ransacking A-Z Market in Bellflower after power tools were used to breach the security gate during a street takeover.",
+        "publisher": "Fox News",
+        "publisherDomain": "foxnews.com",
+        "publishedAt": "2026-08-18T23:15:18.000Z",
+        "url": "https://www.foxnews.com/us/40-looters-ransack-family-run-california-business-during-massive-street-takeover",
+        "imageUrl": "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/looters-ransack-businesses-during-california-street-takeover-7.jpg",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-28ab3a3b-c3d9-54a7-b785-76ae8f0b199c",
+        "title": "Primaries in three states will narrow the field in key Senate, House and governors’ races.",
+        "description": "Here is a look at primaries in Alaska, Florida and Wyoming on Tuesday.",
+        "publisher": "Abcnews",
+        "publisherDomain": "abcnews.com",
+        "publishedAt": "2026-08-18T23:15:26.000Z",
+        "url": "https://abcnews.com/Politics/primaries-3-states-tuesday-narrow-field-key-senate/story?id=135721707",
+        "imageUrl": "https://i.abcnewsfe.com/a/5b3ac11e-6ebd-4b5d-94ab-e0ac0e121bfa/vote-gty-gmh-260818_1787087850783_hpMain_16x9.jpg?w=1600",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-dd3d16f7-f292-5452-9997-85600948c8c8",
+        "title": "Ritchie Valens at 85: Chicano rockers are hosting a free tribute show in L.A. on Aug. 22",
+        "description": "Coming August 22 to DTLA, the Ritchie Valens tribute will include remarks from his family and music by members of Las Cafeteras, Shannon and the Clams, Thee Sinseers and the McCharmlys.",
+        "publisher": "Latimes",
+        "publisherDomain": "latimes.com",
+        "publishedAt": "2026-08-18T23:13:14.000Z",
+        "url": "https://www.latimes.com/delos/story/2026-08-18/ritchie-valens-family-tribute-free-dtla-show-grand-performances",
+        "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/f5d982e/2147483647/strip/true/crop/2400x1260+0+732/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F42%2Fc8%2Fcf02bb314fadbeffe6c956b603a5%2Frichie-valens.png",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-e42f95d6-4f78-5468-972d-26167ee15983",
+        "title": "New sensors aim to bring real-time tracking to nuclear recycling",
+        "description": "SHINE and GE Vernova are developing a real-time system to track nuclear material during spent fuel recycling and cut costs.",
+        "publisher": "Interestingengineering",
+        "publisherDomain": "interestingengineering.com",
+        "publishedAt": "2026-08-18T23:11:23.000Z",
+        "url": "https://interestingengineering.com/energy/nuclear-fuel-recycling-real-time-tracking-system",
+        "imageUrl": "https://cms.interestingengineering.com/wp-content/uploads/2026/08/GettyImages-115566067.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
           "Technology",
-          "Science",
-          "U.S."
+          "Science"
         ]
       },
       {
-        "id": "currents-733f7006-b16e-5c1b-bc05-7c131741a113",
-        "title": "Study suggests sleeping well keeps middle-aged people fit to stay in work longer",
-        "description": "Sleeping longer than the NHS advises - more than nine hours - or waking regularly in the night is linked to having to leave the workforce earlier, new research has suggested",
-        "publisher": "Mirror",
-        "publisherDomain": "mirror.co.uk",
-        "publishedAt": "2026-08-18T22:47:01.000Z",
-        "url": "https://www.mirror.co.uk/news/health/sleep-work-job-health-retire-37565546",
-        "imageUrl": "https://i2-prod.mirror.co.uk/article37484299.ece/ALTERNATES/s1200d/0_Senior-man-with-sleep-apnoea.jpg",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-eae4eb20-5b17-561f-806c-7373a4fc9316",
-        "title": "Why Mamdani features alongside Iran, Hezbollah leaders on Netanyahu billboard",
-        "description": "Benjamin Netanyahu's Likud party has put Zohran Mamdani on a Tel Aviv campaign billboard alongside regional leaders. The move sharpens their public feud as Israel heads into an October election and Gaza ceasefire efforts stall.",
-        "publisher": "Indiatoday",
-        "publisherDomain": "indiatoday.in",
-        "publishedAt": "2026-08-18T22:45:47.000Z",
-        "url": "https://www.indiatoday.in/world/story/zohran-mamdani-netanyahu-likud-billboard-feud-israel-election-2974490-2026-08-19",
-        "imageUrl": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202608/zohran-mamdani-183705153-16x9_0.jpg?VersionId=cPQad0XTI45flcKR.oRSp_7tqzWKuGc_",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-95f16d42-75e9-55ff-acf7-b4f73322e427",
-        "title": "Edo unveils policy to tackle digital GBV",
-        "description": "The policy was unveiled on Monday at the 17th Quarterly Meeting of the Edo Gender-Based Violence Management Committee in Benin.",
-        "publisher": "Premiumtimesng",
-        "publisherDomain": "premiumtimesng.com",
-        "publishedAt": "2026-08-18T22:48:46.000Z",
-        "url": "https://www.premiumtimesng.com/regional/south-south-regional/903942-edo-unveils-policy-to-tackle-digital-gbv.html",
-        "imageUrl": "https://media.premiumtimesng.com/wp-content/files/2026/08/Edo-unveils-policy-to-tackle-digital-GBV.jpg",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-78c46aca-6f6c-5497-be41-6d631e5015c9",
-        "title": "Chauncey Golston stealing first-team camp reps in new Giants role",
-        "description": "Observations from Tuesday’s Giants practice.",
+        "id": "currents-57c7c561-ff7e-558d-8ad0-886721ba8c3e",
+        "title": "Fuming homeowners rail against Mamdani’s pied-à-terre tax rollout at fiery NYC Council hearing: ‘Where is the justice?’",
+        "description": "Fuming and flummoxed New Yorkers testified Tuesday that Mayor Zohran Mamdani’s botched rollout of the new pied-à-terre tax left them flailing for answers — and feeling under “direct att…",
         "publisher": "Nypost",
         "publisherDomain": "nypost.com",
-        "publishedAt": "2026-08-18T22:48:41.000Z",
-        "url": "https://nypost.com/2026/08/18/sports/chauncey-golston-stealing-first-team-camp-reps-in-new-giants-role",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/crop-40400314_57c735.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-17a2a237-e43f-5b45-bce2-d73bf972729c",
-        "title": "Popular Tahoe ski resorts announce opening dates after shortened winter season",
-        "description": "Lake Tahoe ski resorts are gearing up for the 2026-2027 season, with Heavenly and Northstar resorts opening November 20 and Kirkwood following December 4.",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-08-18T22:47:17.000Z",
-        "url": "https://nypost.com/2026/08/18/us-news/popular-lake-tahoe-ski-resorts-set-opening-dates-for-2026-27-season",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/ski.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-48c491bd-9ffd-5508-ab61-acf62dcb9b64",
-        "title": "Sandra Bullock shares rare pics of her kids in family’s summer photo dump",
-        "description": "The actress posted photos of Louis, 16, and Layla, 12, to Instagram on Tuesday.",
-        "publisher": "Pagesix",
-        "publisherDomain": "pagesix.com",
-        "publishedAt": "2026-08-18T22:46:51.000Z",
-        "url": "https://pagesix.com/2026/08/18/celebrity-news/sandra-bullock-shares-rare-photos-of-kids-louis-and-laila-in-summer-photo-dump",
-        "imageUrl": "https://pagesix.com/wp-content/uploads/sites/3/2026/08/137818375.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-e8bec2fc-0700-537a-8c06-bdcbafe7e7dd",
-        "title": "DSA councilmember clears way for homeless to pitch tents in district parks",
-        "description": "LA City Council voted 10-3 to lift anti-camping bans at over a dozen parks in Hollywood and Silver Lake, allowing homeless people to pitch tents.",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-08-18T22:46:46.000Z",
-        "url": "https://nypost.com/2026/08/18/us-news/progressive-la-councilmember-wants-to-allow-homeless-camping-in-parks",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/137816533.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-c44cbdd2-6ab0-5487-93d3-8786914795a4",
-        "title": "Arizona migrant deaths rise despite historically low crossings",
-        "description": "Migrant deaths along Arizona’s border with Mexico increased this summer, with July recording the highest monthly total in two years, according to the humanitarian organization Humane Borders.",
-        "publisher": "Cbs42",
-        "publisherDomain": "cbs42.com",
-        "publishedAt": "2026-08-18T22:45:06.000Z",
-        "url": "https://www.cbs42.com/border-report-tour/arizona-migrant-deaths-rise-despite-historically-low-crossings",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-1c46890a-e065-5aaf-a0ab-8d7c2d59574e",
-        "title": "Connie Chadwell Obituary (1947 - 2026) - Bargersville, IN - Daily Journal - Legacy",
-        "description": "Connie Sue Chadwell, 79, of Bargersville, passed away on August 17, 2026. She was born on April 15, 1947 in Seymour, Indiana to the late Earl and ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-18T22:43:48.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/dailyjournal/name/connie-chadwell-obituary?id=62215473",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-2d2333b2-8ba0-5c41-9e7c-e576ce7d0faa",
-        "title": "Clarence Hicks Obituary (2026) - Fort Wayne, IN - Legacy",
-        "description": "Minister Clarence Lorenzo Hicks, Jr., 80, of Fort Wayne, Indiana, passed peacefully on Thursday August 13, 2026, He was born on March 12, 1946, ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-18T22:43:48.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/fortwayne/name/clarence-hicks-obituary?id=62207085",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-571f36e4-95f9-5b7e-9fc9-28e6e3377b2e",
-        "title": "Charlotte Jean Williams Obituary (2026) - Robert S. Nester Funeral Home & Cremation Services, Inc.",
-        "description": "Charlotte Williams Obituary Charlotte Jean Williams, founder of Char-Will Kennels of New Ringgold, Pennsylvania passed away on Monday, August 17, ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-18T22:43:48.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/name/charlotte-williams-obituary?id=62214206",
+        "publishedAt": "2026-08-18T23:09:08.000Z",
+        "url": "https://nypost.com/2026/08/18/us-news/fuming-homeowners-rail-against-mamdanis-pied-a-terre-tax-rollout",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/137822114.jpg?quality=75&strip=all&w=1200",
         "categories": [
           "Top",
           "U.S.",
@@ -182,13 +96,13 @@
         ]
       },
       {
-        "id": "currents-73121c52-41c0-5c09-862d-f60d134be4fb",
-        "title": "Lori Ann Kunze obituary, 1964-2026, Grand Island, NE - Legacy",
-        "description": "Lori Ann KunzeJuly 28, 1964 - August 12, 2026Lori Ann Kunze, 62, a resident of Bickford Assisted Living of Grand Island and very special daughter, ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-18T22:43:48.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/theindependent/name/lori-kunze-obituary?id=62212674",
+        "id": "currents-28a6b560-e60a-52e7-80a1-3a6c21b8aa2d",
+        "title": "Smalls' Provisions - The Philadelphia Inquirer",
+        "description": "After working at Parc and Le Diplomate, this corner grocery and takeout shop in Kensington is something of a gear shift for chef Mark Gears.",
+        "publisher": "Inquirer",
+        "publisherDomain": "inquirer.com",
+        "publishedAt": "2026-08-18T23:26:55.000Z",
+        "url": "https://www.inquirer.com/food/restaurants/smalls-provisions",
         "categories": [
           "Top",
           "World",
@@ -196,13 +110,13 @@
         ]
       },
       {
-        "id": "currents-7f58a575-3d03-58bd-8334-5d2e3d7427bf",
-        "title": "David Ferguson Obituary (2026) - Garrett, IN - KPCNews - Legacy",
-        "description": "David Ferguson Sr.Aug 15, 2026Garrett - David K. Ferguson Sr. age 91 went to be with his Heavenly Father on Saturday, August 15, 2026.",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-18T22:43:48.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/kpcnews/name/david-ferguson-obituary?id=62204461",
+        "id": "currents-622eae7d-822e-520f-837c-dd967838dab7",
+        "title": "Weitzman Jewish history museum vandalized with antisemitic graffiti - Philadelphia Inquirer",
+        "description": "Less than a year ago, an Israeli flag that was displayed on the west-facing side of the museum was vandalized with red paint.",
+        "publisher": "Inquirer",
+        "publisherDomain": "inquirer.com",
+        "publishedAt": "2026-08-18T23:26:55.000Z",
+        "url": "https://www.inquirer.com/crime/weitzman-jewish-museum-vandalized-antisemitic-graffiti-20260818.html",
         "categories": [
           "Top",
           "World",
@@ -210,13 +124,96 @@
         ]
       },
       {
-        "id": "currents-87705ab0-86bb-53d7-8f70-e64d27d08319",
-        "title": "Michelle Burris Obituary, Age 61 - February 26, 2026 - Indianapolis, Indiana",
-        "description": "Read the obituary of Michelle Burris, age 61 (January 18, 1965 - February 26, 2026), with arrangements entrusted to Indiana Funeral Care - South ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-18T22:43:48.000Z",
-        "url": "https://obits.oregonlive.com/person/Michelle-Burris-60817157",
+        "id": "currents-fa9bb4b7-87c3-5b08-8a05-b07b0a09136e",
+        "title": "Cavan Sullivan is set to host Lionel Messi for the first time as the Union face Miami",
+        "description": "The hype machine is on its way: soccer's greatest of all time against an American phenom in the land of underdogs. The notion is causing a stir ...",
+        "publisher": "Inquirer",
+        "publisherDomain": "inquirer.com",
+        "publishedAt": "2026-08-18T23:26:55.000Z",
+        "url": "https://www.inquirer.com/soccer/cavan-sullivan-lionel-messi-philadelphia-union-inter-miami-20260818.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-50316da4-6a9f-5971-bfc7-971599ad2667",
+        "title": "Arq, Inc. (ARQ) Presents at Canaccord Genuity's 46th Annual Growth Conference - Slideshow",
+        "description": "Arq, Inc. (ARQ) Presents at Canaccord Genuity's 46th Annual Growth Conference - Slideshow",
+        "publisher": "Seekingalpha",
+        "publisherDomain": "seekingalpha.com",
+        "publishedAt": "2026-08-18T23:19:23.000Z",
+        "url": "https://seekingalpha.com/article/4938012-arq-inc-arq-presents-at-canaccord-genuitys-46th-annual-growth-conference-slideshow?source=feed_all_articles",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-61b252c9-b8d9-5873-812c-30721c2bf505",
+        "title": "Driving to Harrisburg High School, urged to leave early",
+        "description": "SIOUX FALLS, S.D. (KELO)-- Schools are starting classes all over KELOLAND. For students, Harrisburg road construction is impacting how staff, students, and parents get to school. The parking lot at Harrisburg High School was full of cars on the first day of classes. The 18 hundred students who atten...",
+        "publisher": "Keloland",
+        "publisherDomain": "keloland.com",
+        "publishedAt": "2026-08-18T23:17:09.000Z",
+        "url": "https://www.keloland.com/news/local-news/driving-to-harrisburg-high-school-urged-to-leave-early",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-e856a5d0-5e23-55e6-a906-607c7d1cf0e9",
+        "title": "More travelers, more flights at Rapid City Airport",
+        "description": "RAPID CITY, S.D. (KELO)-- Travelers are busy navigating prices while looking to enjoy their vacation. \"I actually just checked the flight I'm on. It's twice as much now if I would've booked it now versus when I booked it six weeks ago. So, it makes it a little more difficult to travel. Although ther...",
+        "publisher": "Keloland",
+        "publisherDomain": "keloland.com",
+        "publishedAt": "2026-08-18T23:16:24.000Z",
+        "url": "https://www.keloland.com/news/local-news/more-travelers-more-flights-at-rapid-city-airport",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-e3fce5d4-779f-585d-9860-219d877c7a6f",
+        "title": "Unexpected roommate: Mizzou students say they didn’t expect older man with criminal record in their unit",
+        "description": "Three college roommates recently noticed a stranger living with them — an older man they say has a criminal record. They say it’s happening at their off-campus apartments marketed as student living",
+        "publisher": "Fox2now",
+        "publisherDomain": "fox2now.com",
+        "publishedAt": "2026-08-18T23:15:57.000Z",
+        "url": "https://fox2now.com/news/fox-files/unexpected-roommate-mizzou-students-say-they-didnt-expect-older-man-with-criminal-record-in-their-unit",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-ba71dd23-4137-5cd0-9e45-a9fce08a7ff4",
+        "title": "Jody’s Law aims to help Louisiana police find hit-and-run drivers faster",
+        "description": "LAFAYETTE, La. (KLFY) — A new Louisiana law is now in effect, aimed at helping law enforcement identify and locate hit-and-run drivers faster. Jody’s Law was created after Jody Mann was struck by a vehicle and left along a roadway. Mann spent 18 days fighting for her life before she died from her in...",
+        "publisher": "Klfy",
+        "publisherDomain": "klfy.com",
+        "publishedAt": "2026-08-18T23:14:11.000Z",
+        "url": "https://www.klfy.com/local/lafayette-parish/jodys-law-aims-to-help-louisiana-police-find-hit-and-run-drivers-faster",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-7656db40-d7ca-5841-a4b4-6e09cad45a8b",
+        "title": "77-year-old woman rescued from car crash in Hot Springs after neighbor follows sound of honking",
+        "description": "Charlene Simon was swimming in her pool Sunday afternoon in Hot Springs when she heard a sudden crash of metal and a tree, but when she heard honking, that’s when she decided to follow the sound into West Mountain at Hot Springs National Park.",
+        "publisher": "Kark",
+        "publisherDomain": "kark.com",
+        "publishedAt": "2026-08-18T23:11:41.000Z",
+        "url": "https://www.kark.com/news/local-news/77-year-old-woman-rescued-from-car-crash-in-hot-springs-after-neighbor-follows-sound-of-honking",
         "categories": [
           "Top",
           "U.S.",
@@ -224,13 +221,13 @@
         ]
       },
       {
-        "id": "currents-964885a1-9b2f-5063-a52c-671b6c219b2f",
-        "title": "Jess R. \"Bub\" Smith Obituary (2023) - Beavercreek, OH - Legacy",
-        "description": "Jess Smith Obituary JESS SMITH's passing has been publicly announced by Newcomer Funeral Home - Kettering Chapel in Kettering, OH.",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-18T22:43:48.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/name/jess-smith-obituary?id=39122034",
+        "id": "currents-bbb70c05-a9a5-580f-bff7-136a828baacc",
+        "title": "Gambling opponents slam online Lottery's 'child-like themes'",
+        "description": "Less than a month into its existence, a new online purchase and play platform run by the Mass. Lottery is facing criticism from national gambling opponents.",
+        "publisher": "Wwlp",
+        "publisherDomain": "wwlp.com",
+        "publishedAt": "2026-08-18T23:11:26.000Z",
+        "url": "https://www.wwlp.com/news/massachusetts/gambling-opponents-slam-online-lotterys-child-like-themes",
         "categories": [
           "Top",
           "U.S.",
@@ -240,176 +237,117 @@
     ],
     "U.S.": [
       {
-        "id": "currents-b67c1fdc-bb04-52dd-aa5e-6d08cd5b9b36",
-        "title": "NIH proposes major revamp of how it scores research grant proposals",
-        "description": "Proponents argue that the current system creates a false sense of precision, but critics fear that the change could increase political interference.",
-        "publisher": "Nature",
-        "publisherDomain": "nature.com",
-        "publishedAt": "2026-08-18T22:46:11.000Z",
-        "url": "https://www.nature.com/articles/d41586-026-02584-4",
-        "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-026-02584-4/d41586-026-02584-4_53130006.jpg",
+        "id": "currents-713ae39a-9d68-5f09-a6df-a155eea4a1a3",
+        "title": "DeSantis ally and appointee is arrested on child sex abuse charges",
+        "description": "Michael Caruso was removed from his post as Palm Beach County’s clerk of courts and comptroller after his arrest was announced",
+        "publisher": "NBC News",
+        "publisherDomain": "nbcnews.com",
+        "publishedAt": "2026-08-18T23:09:59.000Z",
+        "url": "https://www.nbcnews.com/news/us-news/desantis-ally-appointee-arrested-child-sex-abuse-charges-rcna593206",
+        "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-08/Florida-Legislature-22041714664967-AP-a68c9d.jpg",
         "categories": [
           "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-a235301c-99b5-56ee-9bbb-ed8d9df78d5a",
+        "title": "40 looters ransack family-run California business during massive street takeover",
+        "description": "Surveillance video shows 40 suspects ransacking A-Z Market in Bellflower after power tools were used to breach the security gate during a street takeover.",
+        "publisher": "Fox News",
+        "publisherDomain": "foxnews.com",
+        "publishedAt": "2026-08-18T23:15:18.000Z",
+        "url": "https://www.foxnews.com/us/40-looters-ransack-family-run-california-business-during-massive-street-takeover",
+        "imageUrl": "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/looters-ransack-businesses-during-california-street-takeover-7.jpg",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-dc98b0b2-4738-5927-9e72-2b6a82ccb47e",
+        "title": "Chris Evans Reveals Most “Unexpected” Part of Being Dad to Baby Girl With Wife Alba Baptista",
+        "description": "Marvel star Chris Evans, who welcomed his baby girl Alma Grace with wife Alba Baptista in October, explained the most unexpected part of being a dad is how much he misses his daughter.",
+        "publisher": "E! News",
+        "publisherDomain": "eonline.com",
+        "publishedAt": "2026-08-18T23:19:00.000Z",
+        "url": "https://www.eonline.com/news/1435164/chris-evans-shares-unexpected-part-of-being-dad-to-baby-girl-alma",
+        "imageUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20260818/b1cc142a-aa04-4da0-bf51-112cc2583abf_1787094142.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-28ab3a3b-c3d9-54a7-b785-76ae8f0b199c",
+        "title": "Primaries in three states will narrow the field in key Senate, House and governors’ races.",
+        "description": "Here is a look at primaries in Alaska, Florida and Wyoming on Tuesday.",
+        "publisher": "Abcnews",
+        "publisherDomain": "abcnews.com",
+        "publishedAt": "2026-08-18T23:15:26.000Z",
+        "url": "https://abcnews.com/Politics/primaries-3-states-tuesday-narrow-field-key-senate/story?id=135721707",
+        "imageUrl": "https://i.abcnewsfe.com/a/5b3ac11e-6ebd-4b5d-94ab-e0ac0e121bfa/vote-gty-gmh-260818_1787087850783_hpMain_16x9.jpg?w=1600",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-dd3d16f7-f292-5452-9997-85600948c8c8",
+        "title": "Ritchie Valens at 85: Chicano rockers are hosting a free tribute show in L.A. on Aug. 22",
+        "description": "Coming August 22 to DTLA, the Ritchie Valens tribute will include remarks from his family and music by members of Las Cafeteras, Shannon and the Clams, Thee Sinseers and the McCharmlys.",
+        "publisher": "Latimes",
+        "publisherDomain": "latimes.com",
+        "publishedAt": "2026-08-18T23:13:14.000Z",
+        "url": "https://www.latimes.com/delos/story/2026-08-18/ritchie-valens-family-tribute-free-dtla-show-grand-performances",
+        "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/f5d982e/2147483647/strip/true/crop/2400x1260+0+732/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F42%2Fc8%2Fcf02bb314fadbeffe6c956b603a5%2Frichie-valens.png",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-e42f95d6-4f78-5468-972d-26167ee15983",
+        "title": "New sensors aim to bring real-time tracking to nuclear recycling",
+        "description": "SHINE and GE Vernova are developing a real-time system to track nuclear material during spent fuel recycling and cut costs.",
+        "publisher": "Interestingengineering",
+        "publisherDomain": "interestingengineering.com",
+        "publishedAt": "2026-08-18T23:11:23.000Z",
+        "url": "https://interestingengineering.com/energy/nuclear-fuel-recycling-real-time-tracking-system",
+        "imageUrl": "https://cms.interestingengineering.com/wp-content/uploads/2026/08/GettyImages-115566067.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
           "Technology",
-          "Science",
-          "U.S."
+          "Science"
         ]
       },
       {
-        "id": "currents-95f16d42-75e9-55ff-acf7-b4f73322e427",
-        "title": "Edo unveils policy to tackle digital GBV",
-        "description": "The policy was unveiled on Monday at the 17th Quarterly Meeting of the Edo Gender-Based Violence Management Committee in Benin.",
-        "publisher": "Premiumtimesng",
-        "publisherDomain": "premiumtimesng.com",
-        "publishedAt": "2026-08-18T22:48:46.000Z",
-        "url": "https://www.premiumtimesng.com/regional/south-south-regional/903942-edo-unveils-policy-to-tackle-digital-gbv.html",
-        "imageUrl": "https://media.premiumtimesng.com/wp-content/files/2026/08/Edo-unveils-policy-to-tackle-digital-GBV.jpg",
+        "id": "currents-35d99736-1d62-5265-81c8-4128b4ab36b0",
+        "title": "Kristin Cavallari rocks black string bikini months after revealing runway-ready routine",
+        "description": "Kristin Cavallari poses in a black string bikini while promoting her Uncommon Beauty Enhanced Pineapple Peptide Nectar in a new photo shoot.",
+        "publisher": "Fox News",
+        "publisherDomain": "foxnews.com",
+        "publishedAt": "2026-08-18T23:10:30.000Z",
+        "url": "https://www.foxnews.com/entertainment/kristin-cavallari-rocks-black-string-bikini-months-after-revealing-runway-ready-routine",
+        "imageUrl": "https://static.foxnews.com/foxnews.com/content/uploads/2026/03/kristin-cavallari-brown-dress-outside.jpg",
         "categories": [
           "Top",
-          "World",
           "U.S."
         ]
       },
       {
-        "id": "currents-78c46aca-6f6c-5497-be41-6d631e5015c9",
-        "title": "Chauncey Golston stealing first-team camp reps in new Giants role",
-        "description": "Observations from Tuesday’s Giants practice.",
+        "id": "currents-57c7c561-ff7e-558d-8ad0-886721ba8c3e",
+        "title": "Fuming homeowners rail against Mamdani’s pied-à-terre tax rollout at fiery NYC Council hearing: ‘Where is the justice?’",
+        "description": "Fuming and flummoxed New Yorkers testified Tuesday that Mayor Zohran Mamdani’s botched rollout of the new pied-à-terre tax left them flailing for answers — and feeling under “direct att…",
         "publisher": "Nypost",
         "publisherDomain": "nypost.com",
-        "publishedAt": "2026-08-18T22:48:41.000Z",
-        "url": "https://nypost.com/2026/08/18/sports/chauncey-golston-stealing-first-team-camp-reps-in-new-giants-role",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/crop-40400314_57c735.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-48c491bd-9ffd-5508-ab61-acf62dcb9b64",
-        "title": "Sandra Bullock shares rare pics of her kids in family’s summer photo dump",
-        "description": "The actress posted photos of Louis, 16, and Layla, 12, to Instagram on Tuesday.",
-        "publisher": "Pagesix",
-        "publisherDomain": "pagesix.com",
-        "publishedAt": "2026-08-18T22:46:51.000Z",
-        "url": "https://pagesix.com/2026/08/18/celebrity-news/sandra-bullock-shares-rare-photos-of-kids-louis-and-laila-in-summer-photo-dump",
-        "imageUrl": "https://pagesix.com/wp-content/uploads/sites/3/2026/08/137818375.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-fc0da182-6b97-585e-ad83-a05dafdedf74",
-        "title": "Chargers’ Rashawn Slater relief arrives as Tyler Biadasz injury raises new concern",
-        "description": "The Los Angeles Chargers finally have something resembling a return date for Rashawn Slater. After the Pro Bowl left tackle missed his eighth consecutive practice, head coach Jim Harbaugh said Tues…",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-08-18T22:48:28.000Z",
-        "url": "https://nypost.com/2026/08/18/sports/chargers-share-rashawn-slater-injury-update-ahead-of-49ers-game",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/newspress-collage-yzwrr1d7o-1787089621093.jpg?quality=75&strip=all&1787075247&w=1200",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-17a2a237-e43f-5b45-bce2-d73bf972729c",
-        "title": "Popular Tahoe ski resorts announce opening dates after shortened winter season",
-        "description": "Lake Tahoe ski resorts are gearing up for the 2026-2027 season, with Heavenly and Northstar resorts opening November 20 and Kirkwood following December 4.",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-08-18T22:47:17.000Z",
-        "url": "https://nypost.com/2026/08/18/us-news/popular-lake-tahoe-ski-resorts-set-opening-dates-for-2026-27-season",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/ski.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-e8bec2fc-0700-537a-8c06-bdcbafe7e7dd",
-        "title": "DSA councilmember clears way for homeless to pitch tents in district parks",
-        "description": "LA City Council voted 10-3 to lift anti-camping bans at over a dozen parks in Hollywood and Silver Lake, allowing homeless people to pitch tents.",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-08-18T22:46:46.000Z",
-        "url": "https://nypost.com/2026/08/18/us-news/progressive-la-councilmember-wants-to-allow-homeless-camping-in-parks",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/137816533.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-68ff3919-4366-55c8-9dcb-3917845eb56b",
-        "title": "High school football 2026: Munford intends to keep doing what it does best",
-        "description": "Cougars are zagging while others are zigging. The results have been impressive, and 2026 could be the best season yet under coach Slade Calhoun.",
-        "publisher": "Dailymemphian",
-        "publisherDomain": "dailymemphian.com",
-        "publishedAt": "2026-08-18T22:46:35.000Z",
-        "url": "https://dailymemphian.com/article/65713/high-school-football-2026-munford-high-school-preview",
-        "imageUrl": "https://thememphian.blob.core.windows.net/sized/198128_1200",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-c44cbdd2-6ab0-5487-93d3-8786914795a4",
-        "title": "Arizona migrant deaths rise despite historically low crossings",
-        "description": "Migrant deaths along Arizona’s border with Mexico increased this summer, with July recording the highest monthly total in two years, according to the humanitarian organization Humane Borders.",
-        "publisher": "Cbs42",
-        "publisherDomain": "cbs42.com",
-        "publishedAt": "2026-08-18T22:45:06.000Z",
-        "url": "https://www.cbs42.com/border-report-tour/arizona-migrant-deaths-rise-despite-historically-low-crossings",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-1c46890a-e065-5aaf-a0ab-8d7c2d59574e",
-        "title": "Connie Chadwell Obituary (1947 - 2026) - Bargersville, IN - Daily Journal - Legacy",
-        "description": "Connie Sue Chadwell, 79, of Bargersville, passed away on August 17, 2026. She was born on April 15, 1947 in Seymour, Indiana to the late Earl and ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-18T22:43:48.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/dailyjournal/name/connie-chadwell-obituary?id=62215473",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-2d2333b2-8ba0-5c41-9e7c-e576ce7d0faa",
-        "title": "Clarence Hicks Obituary (2026) - Fort Wayne, IN - Legacy",
-        "description": "Minister Clarence Lorenzo Hicks, Jr., 80, of Fort Wayne, Indiana, passed peacefully on Thursday August 13, 2026, He was born on March 12, 1946, ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-18T22:43:48.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/fortwayne/name/clarence-hicks-obituary?id=62207085",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-571f36e4-95f9-5b7e-9fc9-28e6e3377b2e",
-        "title": "Charlotte Jean Williams Obituary (2026) - Robert S. Nester Funeral Home & Cremation Services, Inc.",
-        "description": "Charlotte Williams Obituary Charlotte Jean Williams, founder of Char-Will Kennels of New Ringgold, Pennsylvania passed away on Monday, August 17, ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-18T22:43:48.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/name/charlotte-williams-obituary?id=62214206",
+        "publishedAt": "2026-08-18T23:09:08.000Z",
+        "url": "https://nypost.com/2026/08/18/us-news/fuming-homeowners-rail-against-mamdanis-pied-a-terre-tax-rollout",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/137822114.jpg?quality=75&strip=all&w=1200",
         "categories": [
           "Top",
           "U.S.",
@@ -417,13 +355,13 @@
         ]
       },
       {
-        "id": "currents-73121c52-41c0-5c09-862d-f60d134be4fb",
-        "title": "Lori Ann Kunze obituary, 1964-2026, Grand Island, NE - Legacy",
-        "description": "Lori Ann KunzeJuly 28, 1964 - August 12, 2026Lori Ann Kunze, 62, a resident of Bickford Assisted Living of Grand Island and very special daughter, ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-18T22:43:48.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/theindependent/name/lori-kunze-obituary?id=62212674",
+        "id": "currents-28a6b560-e60a-52e7-80a1-3a6c21b8aa2d",
+        "title": "Smalls' Provisions - The Philadelphia Inquirer",
+        "description": "After working at Parc and Le Diplomate, this corner grocery and takeout shop in Kensington is something of a gear shift for chef Mark Gears.",
+        "publisher": "Inquirer",
+        "publisherDomain": "inquirer.com",
+        "publishedAt": "2026-08-18T23:26:55.000Z",
+        "url": "https://www.inquirer.com/food/restaurants/smalls-provisions",
         "categories": [
           "Top",
           "World",
@@ -431,13 +369,13 @@
         ]
       },
       {
-        "id": "currents-7f58a575-3d03-58bd-8334-5d2e3d7427bf",
-        "title": "David Ferguson Obituary (2026) - Garrett, IN - KPCNews - Legacy",
-        "description": "David Ferguson Sr.Aug 15, 2026Garrett - David K. Ferguson Sr. age 91 went to be with his Heavenly Father on Saturday, August 15, 2026.",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-18T22:43:48.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/kpcnews/name/david-ferguson-obituary?id=62204461",
+        "id": "currents-622eae7d-822e-520f-837c-dd967838dab7",
+        "title": "Weitzman Jewish history museum vandalized with antisemitic graffiti - Philadelphia Inquirer",
+        "description": "Less than a year ago, an Israeli flag that was displayed on the west-facing side of the museum was vandalized with red paint.",
+        "publisher": "Inquirer",
+        "publisherDomain": "inquirer.com",
+        "publishedAt": "2026-08-18T23:26:55.000Z",
+        "url": "https://www.inquirer.com/crime/weitzman-jewish-museum-vandalized-antisemitic-graffiti-20260818.html",
         "categories": [
           "Top",
           "World",
@@ -445,218 +383,99 @@
         ]
       },
       {
-        "id": "currents-87705ab0-86bb-53d7-8f70-e64d27d08319",
-        "title": "Michelle Burris Obituary, Age 61 - February 26, 2026 - Indianapolis, Indiana",
-        "description": "Read the obituary of Michelle Burris, age 61 (January 18, 1965 - February 26, 2026), with arrangements entrusted to Indiana Funeral Care - South ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-18T22:43:48.000Z",
-        "url": "https://obits.oregonlive.com/person/Michelle-Burris-60817157",
+        "id": "currents-fa9bb4b7-87c3-5b08-8a05-b07b0a09136e",
+        "title": "Cavan Sullivan is set to host Lionel Messi for the first time as the Union face Miami",
+        "description": "The hype machine is on its way: soccer's greatest of all time against an American phenom in the land of underdogs. The notion is causing a stir ...",
+        "publisher": "Inquirer",
+        "publisherDomain": "inquirer.com",
+        "publishedAt": "2026-08-18T23:26:55.000Z",
+        "url": "https://www.inquirer.com/soccer/cavan-sullivan-lionel-messi-philadelphia-union-inter-miami-20260818.html",
         "categories": [
           "Top",
-          "U.S.",
-          "World"
+          "World",
+          "U.S."
         ]
       },
       {
-        "id": "currents-964885a1-9b2f-5063-a52c-671b6c219b2f",
-        "title": "Jess R. \"Bub\" Smith Obituary (2023) - Beavercreek, OH - Legacy",
-        "description": "Jess Smith Obituary JESS SMITH's passing has been publicly announced by Newcomer Funeral Home - Kettering Chapel in Kettering, OH.",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-18T22:43:48.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/name/jess-smith-obituary?id=39122034",
+        "id": "currents-50316da4-6a9f-5971-bfc7-971599ad2667",
+        "title": "Arq, Inc. (ARQ) Presents at Canaccord Genuity's 46th Annual Growth Conference - Slideshow",
+        "description": "Arq, Inc. (ARQ) Presents at Canaccord Genuity's 46th Annual Growth Conference - Slideshow",
+        "publisher": "Seekingalpha",
+        "publisherDomain": "seekingalpha.com",
+        "publishedAt": "2026-08-18T23:19:23.000Z",
+        "url": "https://seekingalpha.com/article/4938012-arq-inc-arq-presents-at-canaccord-genuitys-46th-annual-growth-conference-slideshow?source=feed_all_articles",
         "categories": [
           "Top",
-          "U.S.",
-          "World"
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-68b11095-de4b-509e-b631-bac2cc245309",
+        "title": "How high school football teams in SD are classified",
+        "description": "SIOUX FALLS, S.D. (KELO) -- The South Dakota high school football season gets underway this week, with class 11B and 9-man teams hitting the gridiron on Friday. However, there will be 29 teams playing in different classes this year. The Faulkton Area Trojans will play in class 9A this year after pla...",
+        "publisher": "Keloland",
+        "publisherDomain": "keloland.com",
+        "publishedAt": "2026-08-18T23:18:11.000Z",
+        "url": "https://www.keloland.com/news/local-news/how-high-school-football-teams-in-sd-are-classified",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-61b252c9-b8d9-5873-812c-30721c2bf505",
+        "title": "Driving to Harrisburg High School, urged to leave early",
+        "description": "SIOUX FALLS, S.D. (KELO)-- Schools are starting classes all over KELOLAND. For students, Harrisburg road construction is impacting how staff, students, and parents get to school. The parking lot at Harrisburg High School was full of cars on the first day of classes. The 18 hundred students who atten...",
+        "publisher": "Keloland",
+        "publisherDomain": "keloland.com",
+        "publishedAt": "2026-08-18T23:17:09.000Z",
+        "url": "https://www.keloland.com/news/local-news/driving-to-harrisburg-high-school-urged-to-leave-early",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-e856a5d0-5e23-55e6-a906-607c7d1cf0e9",
+        "title": "More travelers, more flights at Rapid City Airport",
+        "description": "RAPID CITY, S.D. (KELO)-- Travelers are busy navigating prices while looking to enjoy their vacation. \"I actually just checked the flight I'm on. It's twice as much now if I would've booked it now versus when I booked it six weeks ago. So, it makes it a little more difficult to travel. Although ther...",
+        "publisher": "Keloland",
+        "publisherDomain": "keloland.com",
+        "publishedAt": "2026-08-18T23:16:24.000Z",
+        "url": "https://www.keloland.com/news/local-news/more-travelers-more-flights-at-rapid-city-airport",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-e3fce5d4-779f-585d-9860-219d877c7a6f",
+        "title": "Unexpected roommate: Mizzou students say they didn’t expect older man with criminal record in their unit",
+        "description": "Three college roommates recently noticed a stranger living with them — an older man they say has a criminal record. They say it’s happening at their off-campus apartments marketed as student living",
+        "publisher": "Fox2now",
+        "publisherDomain": "fox2now.com",
+        "publishedAt": "2026-08-18T23:15:57.000Z",
+        "url": "https://fox2now.com/news/fox-files/unexpected-roommate-mizzou-students-say-they-didnt-expect-older-man-with-criminal-record-in-their-unit",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
         ]
       }
     ],
     "World": [
       {
-        "id": "currents-733f7006-b16e-5c1b-bc05-7c131741a113",
-        "title": "Study suggests sleeping well keeps middle-aged people fit to stay in work longer",
-        "description": "Sleeping longer than the NHS advises - more than nine hours - or waking regularly in the night is linked to having to leave the workforce earlier, new research has suggested",
-        "publisher": "Mirror",
-        "publisherDomain": "mirror.co.uk",
-        "publishedAt": "2026-08-18T22:47:01.000Z",
-        "url": "https://www.mirror.co.uk/news/health/sleep-work-job-health-retire-37565546",
-        "imageUrl": "https://i2-prod.mirror.co.uk/article37484299.ece/ALTERNATES/s1200d/0_Senior-man-with-sleep-apnoea.jpg",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-eae4eb20-5b17-561f-806c-7373a4fc9316",
-        "title": "Why Mamdani features alongside Iran, Hezbollah leaders on Netanyahu billboard",
-        "description": "Benjamin Netanyahu's Likud party has put Zohran Mamdani on a Tel Aviv campaign billboard alongside regional leaders. The move sharpens their public feud as Israel heads into an October election and Gaza ceasefire efforts stall.",
-        "publisher": "Indiatoday",
-        "publisherDomain": "indiatoday.in",
-        "publishedAt": "2026-08-18T22:45:47.000Z",
-        "url": "https://www.indiatoday.in/world/story/zohran-mamdani-netanyahu-likud-billboard-feud-israel-election-2974490-2026-08-19",
-        "imageUrl": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202608/zohran-mamdani-183705153-16x9_0.jpg?VersionId=cPQad0XTI45flcKR.oRSp_7tqzWKuGc_",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-95f16d42-75e9-55ff-acf7-b4f73322e427",
-        "title": "Edo unveils policy to tackle digital GBV",
-        "description": "The policy was unveiled on Monday at the 17th Quarterly Meeting of the Edo Gender-Based Violence Management Committee in Benin.",
-        "publisher": "Premiumtimesng",
-        "publisherDomain": "premiumtimesng.com",
-        "publishedAt": "2026-08-18T22:48:46.000Z",
-        "url": "https://www.premiumtimesng.com/regional/south-south-regional/903942-edo-unveils-policy-to-tackle-digital-gbv.html",
-        "imageUrl": "https://media.premiumtimesng.com/wp-content/files/2026/08/Edo-unveils-policy-to-tackle-digital-GBV.jpg",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-78c46aca-6f6c-5497-be41-6d631e5015c9",
-        "title": "Chauncey Golston stealing first-team camp reps in new Giants role",
-        "description": "Observations from Tuesday’s Giants practice.",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-08-18T22:48:41.000Z",
-        "url": "https://nypost.com/2026/08/18/sports/chauncey-golston-stealing-first-team-camp-reps-in-new-giants-role",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/crop-40400314_57c735.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-fc0da182-6b97-585e-ad83-a05dafdedf74",
-        "title": "Chargers’ Rashawn Slater relief arrives as Tyler Biadasz injury raises new concern",
-        "description": "The Los Angeles Chargers finally have something resembling a return date for Rashawn Slater. After the Pro Bowl left tackle missed his eighth consecutive practice, head coach Jim Harbaugh said Tues…",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-08-18T22:48:28.000Z",
-        "url": "https://nypost.com/2026/08/18/sports/chargers-share-rashawn-slater-injury-update-ahead-of-49ers-game",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/newspress-collage-yzwrr1d7o-1787089621093.jpg?quality=75&strip=all&1787075247&w=1200",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-17a2a237-e43f-5b45-bce2-d73bf972729c",
-        "title": "Popular Tahoe ski resorts announce opening dates after shortened winter season",
-        "description": "Lake Tahoe ski resorts are gearing up for the 2026-2027 season, with Heavenly and Northstar resorts opening November 20 and Kirkwood following December 4.",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-08-18T22:47:17.000Z",
-        "url": "https://nypost.com/2026/08/18/us-news/popular-lake-tahoe-ski-resorts-set-opening-dates-for-2026-27-season",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/ski.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-48c491bd-9ffd-5508-ab61-acf62dcb9b64",
-        "title": "Sandra Bullock shares rare pics of her kids in family’s summer photo dump",
-        "description": "The actress posted photos of Louis, 16, and Layla, 12, to Instagram on Tuesday.",
-        "publisher": "Pagesix",
-        "publisherDomain": "pagesix.com",
-        "publishedAt": "2026-08-18T22:46:51.000Z",
-        "url": "https://pagesix.com/2026/08/18/celebrity-news/sandra-bullock-shares-rare-photos-of-kids-louis-and-laila-in-summer-photo-dump",
-        "imageUrl": "https://pagesix.com/wp-content/uploads/sites/3/2026/08/137818375.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-e8bec2fc-0700-537a-8c06-bdcbafe7e7dd",
-        "title": "DSA councilmember clears way for homeless to pitch tents in district parks",
-        "description": "LA City Council voted 10-3 to lift anti-camping bans at over a dozen parks in Hollywood and Silver Lake, allowing homeless people to pitch tents.",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-08-18T22:46:46.000Z",
-        "url": "https://nypost.com/2026/08/18/us-news/progressive-la-councilmember-wants-to-allow-homeless-camping-in-parks",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/137816533.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-68ff3919-4366-55c8-9dcb-3917845eb56b",
-        "title": "High school football 2026: Munford intends to keep doing what it does best",
-        "description": "Cougars are zagging while others are zigging. The results have been impressive, and 2026 could be the best season yet under coach Slade Calhoun.",
-        "publisher": "Dailymemphian",
-        "publisherDomain": "dailymemphian.com",
-        "publishedAt": "2026-08-18T22:46:35.000Z",
-        "url": "https://dailymemphian.com/article/65713/high-school-football-2026-munford-high-school-preview",
-        "imageUrl": "https://thememphian.blob.core.windows.net/sized/198128_1200",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-c44cbdd2-6ab0-5487-93d3-8786914795a4",
-        "title": "Arizona migrant deaths rise despite historically low crossings",
-        "description": "Migrant deaths along Arizona’s border with Mexico increased this summer, with July recording the highest monthly total in two years, according to the humanitarian organization Humane Borders.",
-        "publisher": "Cbs42",
-        "publisherDomain": "cbs42.com",
-        "publishedAt": "2026-08-18T22:45:06.000Z",
-        "url": "https://www.cbs42.com/border-report-tour/arizona-migrant-deaths-rise-despite-historically-low-crossings",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-1c46890a-e065-5aaf-a0ab-8d7c2d59574e",
-        "title": "Connie Chadwell Obituary (1947 - 2026) - Bargersville, IN - Daily Journal - Legacy",
-        "description": "Connie Sue Chadwell, 79, of Bargersville, passed away on August 17, 2026. She was born on April 15, 1947 in Seymour, Indiana to the late Earl and ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-18T22:43:48.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/dailyjournal/name/connie-chadwell-obituary?id=62215473",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-2d2333b2-8ba0-5c41-9e7c-e576ce7d0faa",
-        "title": "Clarence Hicks Obituary (2026) - Fort Wayne, IN - Legacy",
-        "description": "Minister Clarence Lorenzo Hicks, Jr., 80, of Fort Wayne, Indiana, passed peacefully on Thursday August 13, 2026, He was born on March 12, 1946, ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-18T22:43:48.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/fortwayne/name/clarence-hicks-obituary?id=62207085",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-571f36e4-95f9-5b7e-9fc9-28e6e3377b2e",
-        "title": "Charlotte Jean Williams Obituary (2026) - Robert S. Nester Funeral Home & Cremation Services, Inc.",
-        "description": "Charlotte Williams Obituary Charlotte Jean Williams, founder of Char-Will Kennels of New Ringgold, Pennsylvania passed away on Monday, August 17, ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-18T22:43:48.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/name/charlotte-williams-obituary?id=62214206",
+        "id": "currents-713ae39a-9d68-5f09-a6df-a155eea4a1a3",
+        "title": "DeSantis ally and appointee is arrested on child sex abuse charges",
+        "description": "Michael Caruso was removed from his post as Palm Beach County’s clerk of courts and comptroller after his arrest was announced",
+        "publisher": "NBC News",
+        "publisherDomain": "nbcnews.com",
+        "publishedAt": "2026-08-18T23:09:59.000Z",
+        "url": "https://www.nbcnews.com/news/us-news/desantis-ally-appointee-arrested-child-sex-abuse-charges-rcna593206",
+        "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-08/Florida-Legislature-22041714664967-AP-a68c9d.jpg",
         "categories": [
           "Top",
           "U.S.",
@@ -664,13 +483,28 @@
         ]
       },
       {
-        "id": "currents-73121c52-41c0-5c09-862d-f60d134be4fb",
-        "title": "Lori Ann Kunze obituary, 1964-2026, Grand Island, NE - Legacy",
-        "description": "Lori Ann KunzeJuly 28, 1964 - August 12, 2026Lori Ann Kunze, 62, a resident of Bickford Assisted Living of Grand Island and very special daughter, ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-18T22:43:48.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/theindependent/name/lori-kunze-obituary?id=62212674",
+        "id": "currents-cd03721a-3281-5bb9-899c-6babded86f36",
+        "title": "Republican House Rep caught on doorbell cam rifling through someone’s mailbox",
+        "description": "The Florida homeowner has decided not to press charges, according to a report",
+        "publisher": "Independent",
+        "publisherDomain": "independent.co.uk",
+        "publishedAt": "2026-08-18T23:19:22.000Z",
+        "url": "https://www.independent.co.uk/news/world/americas/us-politics/republican-mailbox-ring-camera-randy-fine-b3035283.html",
+        "imageUrl": "https://static.independent.co.uk/2026/08/18/21/57/GettyImages-2208035312.jpeg?trim=0,0,0,0&width=1200&height=800&crop=1200:800",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-dc98b0b2-4738-5927-9e72-2b6a82ccb47e",
+        "title": "Chris Evans Reveals Most “Unexpected” Part of Being Dad to Baby Girl With Wife Alba Baptista",
+        "description": "Marvel star Chris Evans, who welcomed his baby girl Alma Grace with wife Alba Baptista in October, explained the most unexpected part of being a dad is how much he misses his daughter.",
+        "publisher": "E! News",
+        "publisherDomain": "eonline.com",
+        "publishedAt": "2026-08-18T23:19:00.000Z",
+        "url": "https://www.eonline.com/news/1435164/chris-evans-shares-unexpected-part-of-being-dad-to-baby-girl-alma",
+        "imageUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20260818/b1cc142a-aa04-4da0-bf51-112cc2583abf_1787094142.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
         "categories": [
           "Top",
           "World",
@@ -678,13 +512,29 @@
         ]
       },
       {
-        "id": "currents-7f58a575-3d03-58bd-8334-5d2e3d7427bf",
-        "title": "David Ferguson Obituary (2026) - Garrett, IN - KPCNews - Legacy",
-        "description": "David Ferguson Sr.Aug 15, 2026Garrett - David K. Ferguson Sr. age 91 went to be with his Heavenly Father on Saturday, August 15, 2026.",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-18T22:43:48.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/kpcnews/name/david-ferguson-obituary?id=62204461",
+        "id": "currents-c44c3665-d7b6-5c04-837e-25cedba6b534",
+        "title": "Crews work to restore power to thousands after Lala raked Hawaii",
+        "description": "Crews were working to restore power to thousands of Hawaii residents Tuesday after the outer bands of Lala battered the archipelago over the weekend, causing destructive flooding and killing one person, before weakening from a hurricane to a tropical storm.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-08-18T23:18:52.000Z",
+        "url": "https://www.winnipegfreepress.com/world/2026/08/18/crews-work-to-restore-power-to-thousands-after-lala-raked-hawaii",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a833597633f369162441a33jpeg.jpg?w=1600",
+        "categories": [
+          "Sports",
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-28ab3a3b-c3d9-54a7-b785-76ae8f0b199c",
+        "title": "Primaries in three states will narrow the field in key Senate, House and governors’ races.",
+        "description": "Here is a look at primaries in Alaska, Florida and Wyoming on Tuesday.",
+        "publisher": "Abcnews",
+        "publisherDomain": "abcnews.com",
+        "publishedAt": "2026-08-18T23:15:26.000Z",
+        "url": "https://abcnews.com/Politics/primaries-3-states-tuesday-narrow-field-key-senate/story?id=135721707",
+        "imageUrl": "https://i.abcnewsfe.com/a/5b3ac11e-6ebd-4b5d-94ab-e0ac0e121bfa/vote-gty-gmh-260818_1787087850783_hpMain_16x9.jpg?w=1600",
         "categories": [
           "Top",
           "World",
@@ -692,13 +542,154 @@
         ]
       },
       {
-        "id": "currents-87705ab0-86bb-53d7-8f70-e64d27d08319",
-        "title": "Michelle Burris Obituary, Age 61 - February 26, 2026 - Indianapolis, Indiana",
-        "description": "Read the obituary of Michelle Burris, age 61 (January 18, 1965 - February 26, 2026), with arrangements entrusted to Indiana Funeral Care - South ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-18T22:43:48.000Z",
-        "url": "https://obits.oregonlive.com/person/Michelle-Burris-60817157",
+        "id": "currents-57c7c561-ff7e-558d-8ad0-886721ba8c3e",
+        "title": "Fuming homeowners rail against Mamdani’s pied-à-terre tax rollout at fiery NYC Council hearing: ‘Where is the justice?’",
+        "description": "Fuming and flummoxed New Yorkers testified Tuesday that Mayor Zohran Mamdani’s botched rollout of the new pied-à-terre tax left them flailing for answers — and feeling under “direct att…",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-08-18T23:09:08.000Z",
+        "url": "https://nypost.com/2026/08/18/us-news/fuming-homeowners-rail-against-mamdanis-pied-a-terre-tax-rollout",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/137822114.jpg?quality=75&strip=all&w=1200",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-28a6b560-e60a-52e7-80a1-3a6c21b8aa2d",
+        "title": "Smalls' Provisions - The Philadelphia Inquirer",
+        "description": "After working at Parc and Le Diplomate, this corner grocery and takeout shop in Kensington is something of a gear shift for chef Mark Gears.",
+        "publisher": "Inquirer",
+        "publisherDomain": "inquirer.com",
+        "publishedAt": "2026-08-18T23:26:55.000Z",
+        "url": "https://www.inquirer.com/food/restaurants/smalls-provisions",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-622eae7d-822e-520f-837c-dd967838dab7",
+        "title": "Weitzman Jewish history museum vandalized with antisemitic graffiti - Philadelphia Inquirer",
+        "description": "Less than a year ago, an Israeli flag that was displayed on the west-facing side of the museum was vandalized with red paint.",
+        "publisher": "Inquirer",
+        "publisherDomain": "inquirer.com",
+        "publishedAt": "2026-08-18T23:26:55.000Z",
+        "url": "https://www.inquirer.com/crime/weitzman-jewish-museum-vandalized-antisemitic-graffiti-20260818.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-fa9bb4b7-87c3-5b08-8a05-b07b0a09136e",
+        "title": "Cavan Sullivan is set to host Lionel Messi for the first time as the Union face Miami",
+        "description": "The hype machine is on its way: soccer's greatest of all time against an American phenom in the land of underdogs. The notion is causing a stir ...",
+        "publisher": "Inquirer",
+        "publisherDomain": "inquirer.com",
+        "publishedAt": "2026-08-18T23:26:55.000Z",
+        "url": "https://www.inquirer.com/soccer/cavan-sullivan-lionel-messi-philadelphia-union-inter-miami-20260818.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-68b11095-de4b-509e-b631-bac2cc245309",
+        "title": "How high school football teams in SD are classified",
+        "description": "SIOUX FALLS, S.D. (KELO) -- The South Dakota high school football season gets underway this week, with class 11B and 9-man teams hitting the gridiron on Friday. However, there will be 29 teams playing in different classes this year. The Faulkton Area Trojans will play in class 9A this year after pla...",
+        "publisher": "Keloland",
+        "publisherDomain": "keloland.com",
+        "publishedAt": "2026-08-18T23:18:11.000Z",
+        "url": "https://www.keloland.com/news/local-news/how-high-school-football-teams-in-sd-are-classified",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-61b252c9-b8d9-5873-812c-30721c2bf505",
+        "title": "Driving to Harrisburg High School, urged to leave early",
+        "description": "SIOUX FALLS, S.D. (KELO)-- Schools are starting classes all over KELOLAND. For students, Harrisburg road construction is impacting how staff, students, and parents get to school. The parking lot at Harrisburg High School was full of cars on the first day of classes. The 18 hundred students who atten...",
+        "publisher": "Keloland",
+        "publisherDomain": "keloland.com",
+        "publishedAt": "2026-08-18T23:17:09.000Z",
+        "url": "https://www.keloland.com/news/local-news/driving-to-harrisburg-high-school-urged-to-leave-early",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-e856a5d0-5e23-55e6-a906-607c7d1cf0e9",
+        "title": "More travelers, more flights at Rapid City Airport",
+        "description": "RAPID CITY, S.D. (KELO)-- Travelers are busy navigating prices while looking to enjoy their vacation. \"I actually just checked the flight I'm on. It's twice as much now if I would've booked it now versus when I booked it six weeks ago. So, it makes it a little more difficult to travel. Although ther...",
+        "publisher": "Keloland",
+        "publisherDomain": "keloland.com",
+        "publishedAt": "2026-08-18T23:16:24.000Z",
+        "url": "https://www.keloland.com/news/local-news/more-travelers-more-flights-at-rapid-city-airport",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-e3fce5d4-779f-585d-9860-219d877c7a6f",
+        "title": "Unexpected roommate: Mizzou students say they didn’t expect older man with criminal record in their unit",
+        "description": "Three college roommates recently noticed a stranger living with them — an older man they say has a criminal record. They say it’s happening at their off-campus apartments marketed as student living",
+        "publisher": "Fox2now",
+        "publisherDomain": "fox2now.com",
+        "publishedAt": "2026-08-18T23:15:57.000Z",
+        "url": "https://fox2now.com/news/fox-files/unexpected-roommate-mizzou-students-say-they-didnt-expect-older-man-with-criminal-record-in-their-unit",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-ba71dd23-4137-5cd0-9e45-a9fce08a7ff4",
+        "title": "Jody’s Law aims to help Louisiana police find hit-and-run drivers faster",
+        "description": "LAFAYETTE, La. (KLFY) — A new Louisiana law is now in effect, aimed at helping law enforcement identify and locate hit-and-run drivers faster. Jody’s Law was created after Jody Mann was struck by a vehicle and left along a roadway. Mann spent 18 days fighting for her life before she died from her in...",
+        "publisher": "Klfy",
+        "publisherDomain": "klfy.com",
+        "publishedAt": "2026-08-18T23:14:11.000Z",
+        "url": "https://www.klfy.com/local/lafayette-parish/jodys-law-aims-to-help-louisiana-police-find-hit-and-run-drivers-faster",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-7656db40-d7ca-5841-a4b4-6e09cad45a8b",
+        "title": "77-year-old woman rescued from car crash in Hot Springs after neighbor follows sound of honking",
+        "description": "Charlene Simon was swimming in her pool Sunday afternoon in Hot Springs when she heard a sudden crash of metal and a tree, but when she heard honking, that’s when she decided to follow the sound into West Mountain at Hot Springs National Park.",
+        "publisher": "Kark",
+        "publisherDomain": "kark.com",
+        "publishedAt": "2026-08-18T23:11:41.000Z",
+        "url": "https://www.kark.com/news/local-news/77-year-old-woman-rescued-from-car-crash-in-hot-springs-after-neighbor-follows-sound-of-honking",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-bbb70c05-a9a5-580f-bff7-136a828baacc",
+        "title": "Gambling opponents slam online Lottery's 'child-like themes'",
+        "description": "Less than a month into its existence, a new online purchase and play platform run by the Mass. Lottery is facing criticism from national gambling opponents.",
+        "publisher": "Wwlp",
+        "publisherDomain": "wwlp.com",
+        "publishedAt": "2026-08-18T23:11:26.000Z",
+        "url": "https://www.wwlp.com/news/massachusetts/gambling-opponents-slam-online-lotterys-child-like-themes",
         "categories": [
           "Top",
           "U.S.",
@@ -708,13 +699,140 @@
     ],
     "Business": [
       {
-        "id": "currents-3b65b194-76f5-5e92-aa47-b70419766e3a",
-        "title": "Hampton Financial Corporation Issues Stock Options",
-        "description": "TORONTO, Aug. 18, 2026 (GLOBE NEWSWIRE) —",
-        "publisher": "Financial Post",
-        "publisherDomain": "financialpost.com",
-        "publishedAt": "2026-08-18T22:02:37.000Z",
-        "url": "https://financialpost.com/globe-newswire/hampton-financial-corporation-issues-stock-options",
+        "id": "currents-445e8d5d-f1bc-5c80-95e4-dfa7c94a3f01",
+        "title": "Diesel shock rages as war enters end game",
+        "description": "War headlines today. Majed al-Ansari, a spokesman for Qatar’s Foreign Ministry, says there are no negotiations until Iran/Oman agreement. On social media, US President Donald Trump declared the Strait of Hormuz to be “New US Territory.” Iran’s Speaker of Parliament, Mohammad Bagher Ghalibaf, respond...",
+        "publisher": "Macrobusiness",
+        "publisherDomain": "macrobusiness.com.au",
+        "publishedAt": "2026-08-18T23:00:56.000Z",
+        "url": "https://www.macrobusiness.com.au/?p=1359905",
+        "imageUrl": "https://api.macrobusiness.com.au/wp-content/uploads/2026/08/34-660x396.png",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-6ac209de-fed8-5bae-ae9b-9089388009f0",
+        "title": "Global bond markets hit highest yields amid fiscal risks",
+        "description": "Global bond yields hit multi-decade highs amid rising debt, inflation fears, and geopolitical tensions, raising borrowing costs for governments, companies, and households. Read more at straitstimes.com. Read more at straitstimes.com.",
+        "publisher": "Straitstimes",
+        "publisherDomain": "straitstimes.com",
+        "publishedAt": "2026-08-18T22:40:00.000Z",
+        "url": "https://www.straitstimes.com/business/economy/global-bond-markets-put-governments-on-notice-over-fiscal-inflation-risks",
+        "imageUrl": "https://cassette.sphdigital.com.sg/image/straitstimes/8d702bbf94eacd3acb7420c6930f5695042c29300833bcc29237e692151ab577",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-42e2e6ba-6be2-5664-8a72-cd145cd8ca09",
+        "title": "Drilling Tools International at EnerCom Denver: cash flow, M&A and expansion By Investing.com",
+        "description": "Drilling Tools International at EnerCom Denver: cash flow, M&A and expansion",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-08-18T23:01:51.000Z",
+        "url": "https://www.investing.com/news/transcripts/drilling-tools-international-at-enercom-denver-cash-flow-ma-and-expansion-93CH-4866221",
+        "imageUrl": "https://content-media.investing.com/news/LYNXNPEB6R0AQ_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-2198a73a-a44d-5735-941e-e3a3ce5dbb37",
+        "title": "US securities regulator proposes long-awaited crypto rules",
+        "description": "The proposal would allow a one-time exemption for crypto companies to issue up to US$5 million in crypto tokens during a four-year period Read more at The Business Times.",
+        "publisher": "Com",
+        "publisherDomain": "businesstimes.com.sg",
+        "publishedAt": "2026-08-18T23:06:26.000Z",
+        "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/us-securities-regulator-proposes-long-awaited-crypto-rules",
+        "imageUrl": "https://cassette.sphdigital.com.sg/image/businesstimes/599d486a44a9b72faf90153a22d868fbb428780cc2892a860772439dfa16a7b6?w=1920&f=webp",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-754d0d8a-1756-53d7-8ee7-438e327ff880",
+        "title": "US transport regulator resumes review of Union Pacific’s proposed Norfolk merger By Reuters",
+        "description": "US transport regulator resumes review of Union Pacific’s proposed Norfolk merger",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-08-18T22:54:44.000Z",
+        "url": "https://www.investing.com/news/stock-market-news/us-transport-regulator-resumes-review-of-union-pacifics-proposed-norfolk-merger-4866219",
+        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXMPEM7H1IC_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-291b05fa-1fcf-5a9b-a4bb-4e46b165c02a",
+        "title": "Charles Schwab MD Jonathan Beatty sells $111,330 in stock By Investing.com",
+        "description": "Charles Schwab MD Jonathan Beatty sells $111,330 in stock",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-08-18T22:50:14.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/charles-schwab-md-jonathan-beatty-sells-111330-in-stock-93CH-4866220",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM3T1K3_1200_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-6c3c7562-8570-5dd2-ad26-0fe2962eaf2f",
+        "title": "Aura Minerals director Bruno Sousa Mauad buys $868,230 in shares By Investing.com",
+        "description": "Aura Minerals director Bruno Sousa Mauad buys $868,230 in shares",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-08-18T22:45:56.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/aura-minerals-director-bruno-sousa-mauad-buys-868230-in-shares-93CH-4866218",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM4416N_1200_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-ead07069-9633-5272-b270-a141be83267b",
+        "title": "Alx oncology CEO Jason Lettmann disposes of $4,303 in shares By Investing.com",
+        "description": "Alx oncology CEO Jason Lettmann disposes of $4,303 in shares",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-08-18T22:45:56.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/alx-oncology-ceo-jason-lettmann-disposes-of-4303-in-shares-93CH-4866217",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM3S10Z_1200_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-7f7d0b75-0092-5608-b57c-62657d15bdaa",
+        "title": "Alx Oncology SVP Shelly Wong sells $1,105 of company stock By Investing.com",
+        "description": "Alx Oncology SVP Shelly Wong sells $1,105 of company stock",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-08-18T22:45:54.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/alx-oncology-svp-shelly-wong-sells-1105-of-company-stock-93CH-4866216",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM450ND_1200_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-ca063485-3cd2-530f-9c6d-dc9ab03b7269",
+        "title": "Quinstreet CFO Gregory Wong sells $239,229 in stock on August 18 By Investing.com",
+        "description": "Quinstreet CFO Gregory Wong sells $239,229 in stock on August 18",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-08-18T22:45:52.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/quinstreet-cfo-gregory-wong-sells-239229-in-stock-on-august-18-93CH-4866215",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM3T1K3_1200_L.jpg",
         "categories": [
           "Top",
           "Business"
@@ -735,168 +853,55 @@
         ]
       },
       {
-        "id": "currents-3b8f8f05-be4b-55a0-8565-5419bd48a89d",
-        "title": "Zander Insurance Earns Second Consecutive Big \"I\" Best Practices Agency Recognition",
-        "description": "Repeat Designation Reflects Consistent Performance Among the Nation's Leading Independent Insurance Agencies",
-        "publisher": "Newswire",
-        "publisherDomain": "newswire.com",
-        "publishedAt": "2026-08-18T22:25:00.000Z",
-        "url": "https://www.newswire.com/news/zander-insurance-earns-second-consecutive-big-i-best-practices-agency",
-        "imageUrl": "https://cdn.nwe.io/files/x/d8/1c/5940d8775d7b802bda066c884e74.jpg",
+        "id": "currents-da7b015f-6e8e-5632-9b86-f1bbaaaf1306",
+        "title": "‘SGX needs to be better understood,’ says CEO Loh Boon Chye",
+        "description": "His thesis of the exchange outgrowing domestic borders is corroborated by institutional watchers Read more at The Business Times.",
+        "publisher": "Com",
+        "publisherDomain": "businesstimes.com.sg",
+        "publishedAt": "2026-08-18T23:00:00.000Z",
+        "url": "https://www.businesstimes.com.sg/companies-markets/sgx-needs-be-better-understood-says-ceo-loh-boon-chye",
+        "imageUrl": "https://cassette.sphdigital.com.sg/image/businesstimes/18d11e1deee337cf7077f743fef7125f1801e3da44cc91d6cb802428052bead2?w=1920&f=webp",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-61ae0e46-a8cf-5534-bc6d-92272b381d5a",
-        "title": "Thirty dead in Central African Republic mine collapse",
-        "description": "An artisanal gold mining site has collapsed in the western part of Central African Republic, killing at least 30 miners.",
-        "publisher": "Thewest",
-        "publisherDomain": "thewest.com.au",
-        "publishedAt": "2026-08-18T22:13:25.000Z",
-        "url": "https://thewest.com.au/business/mining/thirty-dead-in-central-african-republic-mine-collapse-c-22744656",
-        "imageUrl": "https://images.thewest.com.au/publication/C-22744656/490501a64aca19894206b0bcd4b10502dc8194aa-16x9-x0y0w1280h720.jpg?imwidth=1200",
+        "id": "currents-141a1d54-ec92-5430-abbb-4fa686d296b6",
+        "title": "TikTok explores feature to send money over direct messages, extending financial services push",
+        "description": "The in-development feature, if launched, will use the TikTok Pay offering available in South-east Asia to handle the transactions Read more at The Business Times.",
+        "publisher": "Com",
+        "publisherDomain": "businesstimes.com.sg",
+        "publishedAt": "2026-08-18T22:53:28.000Z",
+        "url": "https://www.businesstimes.com.sg/companies-markets/tiktok-explores-feature-send-money-over-direct-messages-extending-financial-services-push",
+        "imageUrl": "https://cassette.sphdigital.com.sg/image/businesstimes/a0edad8e480f03726b976a4870840519c4b07392d9b495006514e2a7820c2638?w=1920&f=webp",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-5d6948a8-19fd-5fd9-9d60-6e77fcc6ac84",
-        "title": "Frp Holdings director John D. Baker II buys $200,936 in shares By Investing.com",
-        "description": "Frp Holdings director John D. Baker II buys $200,936 in shares",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-08-18T22:31:04.000Z",
-        "url": "https://www.investing.com/news/insider-trading-news/frp-holdings-director-john-d-baker-ii-buys-200936-in-shares-93CH-4866213",
-        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM3T1AG_1200_L.jpg",
+        "id": "currents-7f68bdd6-8279-5210-bc52-70aa132eb305",
+        "title": "Apple changes fees for alternative app stores in EU",
+        "description": "The new terms eliminate the initial acquisition fee and store services fee charged previously Read more at The Business Times.",
+        "publisher": "Com",
+        "publisherDomain": "businesstimes.com.sg",
+        "publishedAt": "2026-08-18T22:51:36.000Z",
+        "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/apple-changes-fees-alternative-app-stores-eu",
+        "imageUrl": "https://cassette.sphdigital.com.sg/image/businesstimes/25773dba9549915827360319c93b27b1c9ff4cc6948f9ecf0c9765f47b989809?w=1920&f=webp",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-ecb3bab1-ddc7-58d0-8880-daf836b03c63",
-        "title": "Anterix director William Heard sells $4.18m in company stock By Investing.com",
-        "description": "Anterix director William Heard sells $4.18m in company stock",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-08-18T22:31:00.000Z",
-        "url": "https://www.investing.com/news/insider-trading-news/anterix-director-william-heard-sells-418m-in-company-stock-93CH-4866212",
-        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM4519D_1200_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-13eea7a8-52db-50b1-b7b5-96bfc3af44d8",
-        "title": "Whitecap Resources at EnerCom Denver: debt cuts, steady growth By Investing.com",
-        "description": "Whitecap Resources at EnerCom Denver: debt cuts, steady growth",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-08-18T22:26:28.000Z",
-        "url": "https://www.investing.com/news/transcripts/whitecap-resources-at-enercom-denver-debt-cuts-steady-growth-93CH-4866210",
-        "imageUrl": "https://content-media.investing.com/news/LYNXNPEB7Q0U9_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-0daf3684-2de8-5133-a865-255796548681",
-        "title": "Arista Networks at Rosenblatt AI summit: AI networking broadens By Investing.com",
-        "description": "Arista Networks at Rosenblatt AI summit: AI networking broadens",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-08-18T22:26:21.000Z",
-        "url": "https://www.investing.com/news/transcripts/arista-networks-at-rosenblatt-ai-summit-ai-networking-broadens-93CH-4866209",
-        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM3T1AG_1200_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-818ad4d2-2fbb-53b8-bc5c-eb9c07136c7d",
-        "title": "Mercury Systems Q4 FY26 slides: record bookings offset margin pressure By Investing.com",
-        "description": "Mercury Systems Q4 FY26 slides: record bookings offset margin pressure",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-08-18T22:23:38.000Z",
-        "url": "https://www.investing.com/news/company-news/mercury-systems-q4-fy26-slides-record-bookings-offset-margin-pressure-93CH-4866207",
-        "imageUrl": "https://i-invdn-com.investing.com/redesign/images/seo/investing_300X300.png",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-a6d64410-592b-5f91-bdd5-002f17f71b74",
-        "title": "JBS proposes to acquire remaining 18% stake in Pilgrim’s Pride By Investing.com",
-        "description": "JBS proposes to acquire remaining 18% stake in Pilgrim’s Pride",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-08-18T22:20:36.000Z",
-        "url": "https://www.investing.com/news/company-news/jbs-proposes-to-acquire-remaining-18-stake-in-pilgrims-pride-93CH-4866206",
-        "imageUrl": "https://i-invdn-com.investing.com/redesign/images/seo/investing_300X300.png",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-8c963a58-c267-5496-b5d2-86bbe31ba4fc",
-        "title": "Up another 16% TODAY, see why this AI-picked medtech stock is now up +92% By Investing.com",
-        "description": "Up another 16% TODAY, see why this AI-picked medtech stock is now up +92%",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-08-18T22:20:10.000Z",
-        "url": "https://www.investing.com/news/stock-market-news/up-another-16-today-see-why-this-aipicked-medtech-stock-is-now-up-92-4866205",
-        "imageUrl": "https://content-media.investing.com/news/LYNXMPEM531LT_1200_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-9df750f5-73d0-577f-83f5-06faff6441c7",
-        "title": "DEFSEC Technologies closes C$5.54 million private placement By Investing.com",
-        "description": "DEFSEC Technologies closes C$5.54 million private placement",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-08-18T22:16:31.000Z",
-        "url": "https://www.investing.com/news/company-news/defsec-technologies-closes-c554-million-private-placement-93CH-4866204",
-        "imageUrl": "https://i-invdn-com.investing.com/redesign/images/seo/investing_300X300.png",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-3006c55e-a07e-552b-8adb-2b38a1fff654",
-        "title": "Magnite at Rosenblatt ai summit: ctv growth and google upside By Investing.com",
-        "description": "Magnite at Rosenblatt ai summit: ctv growth and google upside",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-08-18T22:12:14.000Z",
-        "url": "https://www.investing.com/news/transcripts/magnite-at-rosenblatt-ai-summit-ctv-growth-and-google-upside-93CH-4866202",
-        "imageUrl": "https://content-media.investing.com/news/LYNXNPEC0Q0MJ_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-dc387e76-4b4b-5449-bcf6-98ea28912cf4",
-        "title": "Sweetgreen COO Jason Cochran sells $29,863 in stock By Investing.com",
-        "description": "Sweetgreen COO Jason Cochran sells $29,863 in stock",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-08-18T22:01:19.000Z",
-        "url": "https://www.investing.com/news/insider-trading-news/sweetgreen-coo-jason-cochran-sells-29863-in-stock-93CH-4866197",
-        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM3Q0WG_1200_L.jpg",
+        "id": "currents-109cd220-632d-5ba2-94ad-52e661acd677",
+        "title": "Not sure how to save my money, could use advice",
+        "description": "Ill keep this short, i (32m) have a pension, when i retire in 30 years if everything stays how it is i should have a minimum of 15k/month before tax based on my pension amount via the calculation from our benefits dept. it isnt an employer pension, its a union contributed pension thats managed by a ...",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-08-18T22:47:45.000Z",
+        "url": "https://www.reddit.com/r/personalfinance/comments/1vs4lq6/not_sure_how_to_save_my_money_could_use_advice",
         "categories": [
           "Top",
           "Business"
@@ -914,132 +919,160 @@
           "Top",
           "Business"
         ]
-      },
-      {
-        "id": "currents-b9b458b8-516a-5dba-bdd6-c01a7aa4d551",
-        "title": "Journal Center Business Park property for sale for $7.25M",
-        "description": "The 36,040-square-foot property includes available space for a potential owner-user, while existing tenants provide rental income.",
-        "publisher": "Bizjournals",
-        "publisherDomain": "bizjournals.com",
-        "publishedAt": "2026-08-18T22:14:23.000Z",
-        "url": "https://www.bizjournals.com/albuquerque/news/2026/08/18/journal-center-property-for-sale.html?ana=brss_1566",
-        "categories": [
-          "Top",
-          "Business"
-        ]
       }
     ],
     "Technology": [
       {
-        "id": "currents-b67c1fdc-bb04-52dd-aa5e-6d08cd5b9b36",
-        "title": "NIH proposes major revamp of how it scores research grant proposals",
-        "description": "Proponents argue that the current system creates a false sense of precision, but critics fear that the change could increase political interference.",
-        "publisher": "Nature",
-        "publisherDomain": "nature.com",
-        "publishedAt": "2026-08-18T22:46:11.000Z",
-        "url": "https://www.nature.com/articles/d41586-026-02584-4",
-        "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-026-02584-4/d41586-026-02584-4_53130006.jpg",
+        "id": "currents-e42f95d6-4f78-5468-972d-26167ee15983",
+        "title": "New sensors aim to bring real-time tracking to nuclear recycling",
+        "description": "SHINE and GE Vernova are developing a real-time system to track nuclear material during spent fuel recycling and cut costs.",
+        "publisher": "Interestingengineering",
+        "publisherDomain": "interestingengineering.com",
+        "publishedAt": "2026-08-18T23:11:23.000Z",
+        "url": "https://interestingengineering.com/energy/nuclear-fuel-recycling-real-time-tracking-system",
+        "imageUrl": "https://cms.interestingengineering.com/wp-content/uploads/2026/08/GettyImages-115566067.jpg",
         "categories": [
           "Top",
+          "U.S.",
           "Technology",
-          "Science",
-          "U.S."
+          "Science"
         ]
       }
     ],
     "Science": [
       {
-        "id": "currents-b67c1fdc-bb04-52dd-aa5e-6d08cd5b9b36",
-        "title": "NIH proposes major revamp of how it scores research grant proposals",
-        "description": "Proponents argue that the current system creates a false sense of precision, but critics fear that the change could increase political interference.",
-        "publisher": "Nature",
-        "publisherDomain": "nature.com",
-        "publishedAt": "2026-08-18T22:46:11.000Z",
-        "url": "https://www.nature.com/articles/d41586-026-02584-4",
-        "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-026-02584-4/d41586-026-02584-4_53130006.jpg",
+        "id": "currents-e42f95d6-4f78-5468-972d-26167ee15983",
+        "title": "New sensors aim to bring real-time tracking to nuclear recycling",
+        "description": "SHINE and GE Vernova are developing a real-time system to track nuclear material during spent fuel recycling and cut costs.",
+        "publisher": "Interestingengineering",
+        "publisherDomain": "interestingengineering.com",
+        "publishedAt": "2026-08-18T23:11:23.000Z",
+        "url": "https://interestingengineering.com/energy/nuclear-fuel-recycling-real-time-tracking-system",
+        "imageUrl": "https://cms.interestingengineering.com/wp-content/uploads/2026/08/GettyImages-115566067.jpg",
         "categories": [
           "Top",
+          "U.S.",
           "Technology",
-          "Science",
-          "U.S."
+          "Science"
         ]
       }
     ],
     "Sports": [
       {
-        "id": "currents-42656b6d-533f-5019-b3a4-54d1e8dd84c0",
-        "title": "Rider dies after Manx Grand Prix qualifying crash",
-        "description": "A rider has died after a crash involving two bikes in Ramsey during qualifying, organisers say.",
-        "publisher": "BBC News",
-        "publisherDomain": "bbc.co.uk",
-        "publishedAt": "2026-08-18T22:10:40.000Z",
-        "url": "https://www.bbc.co.uk/news/articles/cvgjyggj051o",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/997d/live/8d77db00-9b4f-11f1-83d8-cfa02e83b41a.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-5081bf8d-8d9a-5d20-a33a-e54b863394cb",
-        "title": "Feud over Lakers sale escalates as Buss family double down",
-        "description": "The Buss family's feud over the ownership of the Los Angeles Lakers has taken a new twist after Jeanie Buss' siblings are standing firm in their stance.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-08-18T22:31:51.000Z",
-        "url": "https://www.dailymail.com/sport/nba/article-16062307/lakers-sale-buss-family-feud.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/18/23/110715889-0-image-a-20_1787092137993.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-55e31600-cad1-56dd-bb88-cc032416553b",
-        "title": "John Ivison: Churchill Falls deal will outlast any damage Trump inflicts",
-        "description": "The deal guarantees predictable, stable energy for the next 50 years.",
-        "publisher": "Nationalpost",
-        "publisherDomain": "nationalpost.com",
-        "publishedAt": "2026-08-18T22:22:11.000Z",
-        "url": "https://nationalpost.com/opinion/john-ivison-churchill-falls-deal-will-outlast-any-damage-trump-inflicts",
-        "imageUrl": "https://smartcdn.gprod.postmedia.digital/nationalpost/wp-content/uploads/2026/08/0817-tg-Churchill-Falls-2026-kg82.TG_.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-1ad789dc-c72c-5ae2-8da3-76668f47ecb2",
-        "title": "Fake polling from mysterious company highlights danger of unvetted election surveys",
-        "description": "NEW YORK (AP) — Locked in a competitive reelection race, Los Angeles Mayor Karen Bass declared on social media last week that a new poll was evidence that her campaign was “gaining momentum.”",
+        "id": "currents-99135898-2bdd-5f42-8de8-9312189fd73c",
+        "title": "Province officially recognizes arboriculture as a trade",
+        "description": "Arboriculture has officially been recognized as a trade in Manitoba, which industry experts say will help address the increased demand for tree experts across the province.",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-18T22:08:34.000Z",
-        "url": "https://www.winnipegfreepress.com/world/2026/08/18/fake-polling-from-mysterious-company-highlights-danger-of-unvetted-election-surveys",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a84d7dd270eb4db4d5a3fccjpeg.jpg?w=1600",
+        "publishedAt": "2026-08-18T23:19:07.000Z",
+        "url": "https://www.winnipegfreepress.com/breakingnews/2026/08/18/province-officially-recognizes-arboriculture-as-a-trade",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/4485942_web1_249311-ARBORIST5-MG.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-dc7d1c21-0d99-5a4d-a377-702b87c13885",
-        "title": "Suspect charged over burglary at NASCAR legend Greg Biffle's estate",
-        "description": "Terrell Williams, 44, has been charged with second-degree burglary, safe cracking and money laundering, Iredell County Sheriff Darren Campbell announced at a news conference.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-08-18T22:29:22.000Z",
-        "url": "https://www.dailymail.com/sport/othersports/article-16062263/greg-biffle-burglary-suspect-north-carolina.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/18/23/104858823-0-image-m-19_1787092125443.jpg",
+        "id": "currents-df8ea1ec-b2e5-5bc6-b75b-42eaa55143d6",
+        "title": "Swans boss set to announce player sanctions following board meeting",
+        "description": "Swans coach Dean Cox confirmed the club would make a statement later today, following a board meeting on Tuesday night.",
+        "publisher": "Theage",
+        "publisherDomain": "theage.com.au",
+        "publishedAt": "2026-08-18T22:57:36.000Z",
+        "url": "https://www.theage.com.au/sport/afl/swans-boss-set-to-announce-player-sanctions-following-board-meeting-20260819-p60pjo.html",
+        "imageUrl": "https://static.ffx.io/images/$zoom_0.2792%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_75%2C$y_89/t_crop_custom/q_86%2Cf_auto/17953c97704f1c7ed4ca6eda5d0244b8582a0900",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-437d7142-359f-5c4f-b623-129c867767ad",
-        "title": "How Barcelona have pulled off the transfer of the summer",
-        "description": "It seemed for a very long time that the fairytale of the summer, the one about the king returning to his castle, would enter its final chapter within the walls of the Bernabeu Stadium.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-08-18T22:15:47.000Z",
-        "url": "https://www.dailymail.com/sport/football/article-16035841/barcelona-sign-rodri-despite-real-madrid-courtship.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/18/22/110714979-0-image-m-29_1787089372499.jpg",
+        "id": "currents-e484a91e-e392-555a-915f-216fc9dae5f7",
+        "title": "Ketel Marte back in Phoenix after no-show for knee testing",
+        "description": "Ketel Marte, who was placed on the restricted list after failing to show up to Monday's game, has traveled back to Phoenix for tests on his left knee, D-backs manager Torey Lovullo said.",
+        "publisher": "ESPN",
+        "publisherDomain": "espn.com",
+        "publishedAt": "2026-08-18T22:54:14.000Z",
+        "url": "https://www.espn.com/mlb/story/_/id/49652516/ketel-marte-back-phoenix-no-show-knee-testing",
+        "imageUrl": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0724%2Fr1693194_1296x729_16%2D9.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-82c9789c-3695-5a65-a1ee-cc313124bbfd",
+        "title": "Formula for extending the careers of NFL linemen? Less practice, maximum care",
+        "description": "At 34, in his 12th pro season and with his fourth team, Patriots right tackle Morgan Moses was the old man in his first year on New England’s offensive line last season. It didn’t stop him from starting all 21 games the Patriots played during their Super Bowl run. A",
+        "publisher": "Triblive",
+        "publisherDomain": "triblive.com",
+        "publishedAt": "2026-08-18T22:49:13.000Z",
+        "url": "https://triblive.com/sports/formula-for-extending-the-careers-of-nfl-linemen-less-practice-maximum-care",
+        "imageUrl": "https://assets-varnish.triblive.com/2026/08/9860097_web1_9860097-d3d52a0fdf084d6bb7b25c4211cd4762.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-c44c3665-d7b6-5c04-837e-25cedba6b534",
+        "title": "Crews work to restore power to thousands after Lala raked Hawaii",
+        "description": "Crews were working to restore power to thousands of Hawaii residents Tuesday after the outer bands of Lala battered the archipelago over the weekend, causing destructive flooding and killing one person, before weakening from a hurricane to a tropical storm.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-08-18T23:18:52.000Z",
+        "url": "https://www.winnipegfreepress.com/world/2026/08/18/crews-work-to-restore-power-to-thousands-after-lala-raked-hawaii",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a833597633f369162441a33jpeg.jpg?w=1600",
+        "categories": [
+          "Sports",
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-5a6088db-4ff6-52e4-aa7d-50515baaf010",
+        "title": "Rookie defensive lineman’s history hits just as hard",
+        "description": "Michael Fletcher hasn’t exactly been able to ease into things since bringing his talents up north.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-08-18T23:09:17.000Z",
+        "url": "https://www.winnipegfreepress.com/breakingnews/2026/08/18/rookie-defensive-linemans-history-hits-just-as-hard",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/4487356_web1_260818-Bombers-00161.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-72f86d4d-c343-5749-9ac3-3d05fc383f5a",
+        "title": "Costco breaks ground on new West St. Paul store",
+        "description": "Construction has begun on the American retailer",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-08-18T22:51:53.000Z",
+        "url": "https://www.winnipegfreepress.com/business/2026/08/18/costco-breaks-ground-on-new-west-st-paul-store",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/4486852_web1_260818_costco_construction_3.JPG?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-50314ca7-7950-5d85-95f5-fd352c436485",
+        "title": "Rural Manitoba homeowner charged with shooting at accused thieves",
+        "description": "A homeowner in southern Manitoba has been charged after he fired shots at a group of people accused of stealing from his property, police say.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-08-18T22:51:20.000Z",
+        "url": "https://www.winnipegfreepress.com/breakingnews/2026/08/18/rural-manitoba-homeowner-charged-with-shooting-at-accused-thieves",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2024/09/20240923000912-f1fda5485975c2638337293780a8370b62d6f08ab7c4a3116bb053fa247f92c0.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-01fdfc0c-ce0f-5bce-8306-ea7f00086b24",
+        "title": "Fringe Review: FlyBoy takes flight, but doesn't soar",
+        "description": "The Edmonton International Fringe Theatre Festival runs until Aug. 23",
+        "publisher": "Edmontonjournal",
+        "publisherDomain": "edmontonjournal.com",
+        "publishedAt": "2026-08-18T22:47:54.000Z",
+        "url": "https://edmontonjournal.com/entertainment/edmonton-fringe-review-fly-boy",
+        "imageUrl": "https://smartcdn.gprod.postmedia.digital/edmontonjournal/wp-content/uploads/2026/08/fly-boy_304763725.jpeg",
         "categories": [
           "Sports"
         ]
@@ -1058,6 +1091,19 @@
         ]
       },
       {
+        "id": "currents-63374051-aac3-5af9-a076-1a32d0a47de8",
+        "title": "Countdown to Kickoff: Stadium construction sends 2 WPIAL teams on the road for the season",
+        "description": "Two WPIAL football teams will truly be road warriors this season as construction work continues on their football stadiums. Renovations are being done to Norwin Stadium and Moon Stadium this fall, forcing their football (and soccer) teams to hit the road, even for home games. Norwin will play their ...",
+        "publisher": "Triblive",
+        "publisherDomain": "triblive.com",
+        "publishedAt": "2026-08-18T22:43:42.000Z",
+        "url": "https://triblive.com/sports/countdown-to-kickoff-stadium-construction-sends-2-wpial-teams-on-the-road-for-the-season",
+        "imageUrl": "https://assets-varnish.triblive.com/2026/08/9860091_web1_gtr-Norwin03-073126.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
         "id": "currents-f6a90888-7998-5a1e-9092-f348dbfdfbf4",
         "title": "Bills add experienced depth to defensive front by signing 7-year NFL veteran Greg Gaines",
         "description": "ORCHARD PARK, N.Y. (AP) — The Buffalo Bills added experienced depth to their defensive front by signing Greg Gaines on Tuesday.",
@@ -1071,111 +1117,147 @@
         ]
       },
       {
-        "id": "currents-7b48fd7a-80e3-5feb-a863-d2518620bfca",
-        "title": "City rescinds Balmoral Street property owner’s order to clean up encampment",
-        "description": "A West Broadway landlord is off the hook for clearing a large riverbank encampment after the City of Winnipeg rescinded an order threatening to stick him with the cleanup bill.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-18T22:35:03.000Z",
-        "url": "https://www.winnipegfreepress.com/breakingnews/2026/08/18/city-rescinds-balmoral-street-property-owners-order-to-clean-up-encampment",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/4486819_web1_260721-Balmoral-Encamp-1-.jpg?w=1600",
+        "id": "currents-dadb846c-0d1e-5313-a3bd-455704ea07f4",
+        "title": "Fresno Man Arrested via ALPR in Domestic Violence Case",
+        "description": "Two months after an alleged domestic assault, a license plate camera led Fresno police straight to the suspect's car.",
+        "publisher": "Hoodline",
+        "publisherDomain": "hoodline.com",
+        "publishedAt": "2026-08-18T22:37:54.000Z",
+        "url": "https://hoodline.com/2026/08/fresno-man-nabbed-by-license-plate-camera-two-months-after-alleged-assault",
+        "imageUrl": "https://img.hoodline.com/2026/8/fresno-man-nabbed-by-license-plate-camera-two-months-after-alleged-assault-3.webp",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-e2bc5277-f9aa-5467-8939-e594379c4904",
-        "title": "Alexandra Lodge, a gold rush-era landmark, survives B.C. wildfire",
-        "description": "HELLS GATE - The owners of the gold rush-era Alexandra Lodge in southwestern B.C., are celebrating news that the landmark is still standing after a wildfire came perilously close.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-18T22:33:30.000Z",
-        "url": "https://www.winnipegfreepress.com/canada/2026/08/18/alexandra-lodge-a-gold-rush-era-landmark-survives-b-c-wildfire",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/a0b2f899b683e7dc02cae53a1658eec986773845a7914f1ce9be756682ec69df.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-3b7abda2-cc42-5ba0-a7e5-5912d0aa2f6e",
-        "title": "Orioles' Félix Bautista and Blaze Alexander are nearing rehab assignments",
-        "description": "BALTIMORE (AP) — Baltimore Orioles reliever Félix Bautista and utility player Blaze Alexander could begin rehab assignments by the end of the week, according to the club’s weekly injury report.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-18T22:32:37.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/baseball/2026/08/18/orioles-felix-bautista-and-blaze-alexander-are-nearing-rehab-assignments",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-748d0ca9-f44b-583d-ac8a-546d724701b7",
-        "title": "Veteran linebacker Zaire Franklin bringing an emotional edge to Packers defense",
-        "description": "GREEN BAY, Wis. (AP) — Zaire Franklin’s involvement in the first scuffle of Green Bay’s training camp this week came as no surprise to his new Packers teammates.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-18T22:29:26.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/08/18/veteran-linebacker-zaire-franklin-bringing-an-emotional-edge-to-packers-defense",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a84dcc3270eb4db4d5a4570jpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-9dbd8463-700e-5cfa-9d79-14fc088dff5c",
-        "title": "Rangers' deGrom could start against Nats a week after exiting early with triceps fatigue",
-        "description": "ARLINGTON, Texas (AP) — Jacob deGrom checked out OK after a bullpen session, and the Texas right-hander and could start the series finale against Washington a week after lasting just two innings against the Los Angeles Angels due to right triceps fatigue, manager Skip Schumaker said.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-18T22:29:21.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/baseball/2026/08/18/rangers-degrom-could-start-against-nats-a-week-after-exiting-early-with-triceps-fatigue",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a7e8dac633f3691623f250fjpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-9d216638-3d08-5f3f-9531-552226826446",
-        "title": "5 Buss siblings say they still intend to sell Lakers minority shares despite Jeanie's opposition",
-        "description": "LOS ANGELES (AP) — Five of the six children of former Los Angeles Lakers owner Jerry Buss still intend to sell their remaining minority ownership of the NBA team despite the opposition of their sister, Jeanie.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-18T22:23:22.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/basketball/2026/08/18/5-buss-siblings-say-they-still-intend-to-sell-lakers-minority-shares-despite-jeanies-opposition",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a83733b633f3691624470e3jpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-f1aaf869-019e-5f23-8f1e-c865819c395a",
-        "title": "Vacant west Edmonton motel damaged in Monday night fire",
-        "description": "Part of a vacant motel in west Edmonton was damaged by a fire Monday night that has since been put out.",
+        "id": "currents-4e3bb1a6-b17c-5703-9770-9f91ccc11ecf",
+        "title": "Fringe Review: Oversharer a comedic journey through ADHD diagnosis",
+        "description": "Oversharer 4 stars out of 5 Stage 34, The Faculty Events Centre, 10151 82 Ave. “If you happen to be here from the Edmonton Journal, you could just write down the word ‘bravery,’” Kristen Einarson jokes from the stage. I’ll try to offer a bit more than that, but I do admire the courage of […]",
         "publisher": "Edmontonjournal",
         "publisherDomain": "edmontonjournal.com",
-        "publishedAt": "2026-08-18T22:18:12.000Z",
-        "url": "https://edmontonjournal.com/news/local-news/vacant-west-edmonton-motel-damaged-in-monday-night-fire",
-        "imageUrl": "https://smartcdn.gprod.postmedia.digital/edmontonjournal/wp-content/uploads/2026/08/but_9053.ej_304762869.jpg",
+        "publishedAt": "2026-08-18T23:01:00.000Z",
+        "url": "https://edmontonjournal.com/entertainment/edmonton-fringe-review-oversharer",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-e0149232-c1fa-5607-95bd-ddace539c594",
-        "title": "D-backs manager Lovullo: Marte returns to Phoenix for knee testing, hopeful he can play again in '26",
-        "description": "BOSTON (AP) — Arizona Diamondbacks manager Torey Lovullo said he has been told that Ketel Marte traveled back to Phoenix for tests on his left knee and was a bit surprised at the lack of communication with the All-Star second baseman.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-18T22:08:27.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/baseball/2026/08/18/d-backs-manager-lovullo-marte-returns-to-phoenix-for-knee-testing-hopeful-he-can-play-again-in-26",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a84d7d7270eb4db4d5a3f73jpeg.jpg?w=1600",
+        "id": "currents-8b702e8f-1357-5ab7-9190-4f7faf6d715f",
+        "title": "Fringe Review: Maiden Voyage a journey worth taking",
+        "description": "Maiden Voyage 3.5 stars out of 5 Stage 32, Lorne Cardinal Theatre at The Roxy, 10708 124 St. Early in Maiden Voyage, Maigan van der Giessen asks, “Why is living so hazardous for young girls?” And then, over the next hour, she takes us through a healing ritual from her own traumatic experiences as a ...",
+        "publisher": "Edmontonjournal",
+        "publisherDomain": "edmontonjournal.com",
+        "publishedAt": "2026-08-18T22:56:01.000Z",
+        "url": "https://edmontonjournal.com/entertainment/edmonton-fringe-review-maiden-voyage",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-988dcbbd-70f6-5641-adfc-2d4083bc288a",
+        "title": "FIFA Vice President Withdraws Infantino Support Over Lamour Exit",
+        "description": "submitted by /u/SectionWorking7080 [link] [comments]",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-08-18T22:47:49.000Z",
+        "url": "https://www.reddit.com/r/sports/comments/1vs4ls9/fifa_vice_president_withdraws_infantino_support",
         "categories": [
           "Sports"
         ]
       }
     ],
     "Entertainment": [
+      {
+        "id": "currents-bf4a6451-5137-5c0c-92a4-91310d86366a",
+        "title": "'ADHD, a money-making industry... and the children paying the price'",
+        "description": "Are you easily distracted? Do you fidget? Are you talkative, and apt to interrupt others or blurt out answers before the question is finished? Do you lose your keys and feel frustrated in queues?",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-08-18T23:12:29.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16062245/CHRISTOPHER-STEVENS-ADHD-money-making-industry-children-paying-price.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/08/18/23/110716249-0-image-a-9_1787093860468.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-79fe0bfe-14e7-5046-8c41-bd9fb0d4adff",
+        "title": "Hayden Panettiere’s estranged mum slams ex in heated statement",
+        "description": "‘This person in her life we have been trying to get rid of for quite some time was with her at her death.’",
+        "publisher": "7news",
+        "publisherDomain": "7news.com.au",
+        "publishedAt": "2026-08-18T23:15:10.000Z",
+        "url": "https://7news.com.au/news/hayden-panettieres-estranged-mother-slams-ex-boyfriend-after-daughters-sudden-death-c-22744620",
+        "imageUrl": "https://images.7news.com.au/publication/C-22744620/78f0f316d8b44a2846d4cf871513e4b404cc424d-16x9-x0y48w1024h576.jpg?imwidth=1200",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-8375abe9-d710-52e7-a02e-e962f5cdfa58",
+        "title": "Trump casts mail ballot again in Florida despite efforts to restrict mail voting",
+        "description": "The White House said Trump has not been to Florida in months.",
+        "publisher": "6abc",
+        "publisherDomain": "6abc.com",
+        "publishedAt": "2026-08-18T23:08:24.000Z",
+        "url": "https://6abc.com/story/trump-casts-mail-ballot-florida-despite-efforts-restrict-voting/19699411",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/19699485_trump-lifeguard-evemt.png?w=1600",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-1441d6a0-86c0-5cdf-a819-4d2c14be05a8",
+        "title": "NCIS: New York: LL COOL J Tackles The Big Apple In Teaser Trailer For CBS Spin-Off",
+        "description": "LL COOL J's Sam Hanna is kicking butt in the Big Apple in a new teaser trailer for NCIS: New York — get a sneak peek at the CBS spin-off.",
+        "publisher": "Tvline",
+        "publisherDomain": "tvline.com",
+        "publishedAt": "2026-08-18T23:01:17.000Z",
+        "url": "https://www.tvline.com/2239646/ncis-new-york-teaser-trailer-cbs-ll-cool-j",
+        "imageUrl": "https://www.tvline.com/img/gallery/ncis-new-york-ll-cool-j-tackles-the-big-apple-in-teaser-trailer-for-cbs-spin-off/l-intro-1787093177.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-26989616-4614-598c-8cb1-06f9a4c08773",
+        "title": "The troubled lives of the Jackson kids and their varied fates",
+        "description": "Paris and her siblings have also been in the limelight this year with the release of Michael, the tale of their late father and the first biographical film to reach $1 billion.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-08-18T23:04:13.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16061287/lives-Jackson-kids-rift-Paris-troubled-past.html?ns_campaign=1490&ito=1490",
+        "imageUrl": "https://i.dailymail.com/1s/2026/08/18/16/110707545-0-image-m-18_1787066918827.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-2603fa1d-45b6-5867-809d-670008240ab8",
+        "title": "'Lucky' Ellen DeGeneres swoons over wife for 18th wedding anniversary",
+        "description": "Ellen DeGeneres gushed that she was 'lucky' as she celebrated her 18th wedding anniversary to Portia de Rossi over the past weekend.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-08-18T23:03:59.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16062417/ellen-degeneres-lucky-wife-portia-wedding-anniversary.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/08/18/23/110715317-0-image-m-136_1787093716018.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-ff493071-e239-5eca-add0-7e9e603fd05a",
+        "title": "Inside the Beckhams' luxury £6k-a-night Amalfi Coast hotel",
+        "description": "Perched on a dramatic cliff overlooking the pretty fishing village of Conca dei Marini, it is one of the coast's most breathtaking locations.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-08-18T23:03:07.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16060791/Inside-Beckham-luxury-Amalfi-Coast-hotel-superyacht.html?ns_campaign=1490&ito=1490",
+        "imageUrl": "https://i.dailymail.com/1s/2026/08/18/13/110703771-0-image-m-14_1787056909123.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
       {
         "id": "currents-a0e3a75e-fb76-5f35-af94-9981c3d89948",
         "title": "Maura Higgins puts on a VERY leggy display in sizzling Guess campaign",
@@ -1185,45 +1267,6 @@
         "publishedAt": "2026-08-18T22:41:46.000Z",
         "url": "https://www.dailymail.com/tvshowbiz/article-16062441/Maura-Higgins-puts-leggy-display-black-leotard-tights-poses-sizzling-Guess-campaign.html?ns_campaign=1490&ito=1490",
         "imageUrl": "https://i.dailymail.com/1s/2026/08/18/23/110715521-0-image-m-23_1787091939516.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-b9652053-aa18-5034-960b-3fa0ceda2b65",
-        "title": "DHL Triples Shenzhen Air Cargo Capacity With $205M Gateway Upgrade",
-        "description": "DHL has roughly tripled its processing capacity at its Shenzhen air hub after a four-year upgrade, completing its largest investment in China to date.",
-        "publisher": "Wwd",
-        "publisherDomain": "wwd.com",
-        "publishedAt": "2026-08-18T22:39:03.000Z",
-        "url": "https://wwd.com/sourcing-journal/logistics/dhl-shenzhen-air-cargo-hub-expansion-205-million-de-minimis-trade-1239129045",
-        "imageUrl": "https://wwd.com/wp-content/uploads/2026/08/dhlshenzhen.jpg?w=1000&h=563&crop=1",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-8a3fe2db-da33-5ddd-aacc-c3e793b1a5ea",
-        "title": "Just 27 Bathing Suits That Reviewers With Bigger Busts Swear By",
-        "description": "You're about to finally find the beach truly relaxing now that you don't have to ~adjust~ every five minutes.",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-08-18T22:31:01.000Z",
-        "url": "https://www.buzzfeed.com/rachelleyang1/bathing-suits-that-reviewers-with-bigger-busts",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-06/05/21/thumb/Sw1itzu65.jpg?crop=1249:654;0,88%26downsize=1250:*",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-c4b07cad-5f00-5d06-b83d-0d9966546441",
-        "title": "iRacing Arcade - Official Console Release Date Trailer",
-        "description": "Take a look at the Console Release Date Trailer for iRacing Arcade, the hit arcade racing game developed by Original Fire Games. Players will take the intense signature to the console with new cars, tracks, and more, with four-player co-op. Customize your racer in iRacing Arcade, launching on August...",
-        "publisher": "Ign",
-        "publisherDomain": "ign.com",
-        "publishedAt": "2026-08-18T22:23:56.000Z",
-        "url": "https://www.ign.com/videos/iracing-arcade-official-console-release-date-trailer",
-        "imageUrl": "https://assets-prd.ignimgs.com/2026/08/18/iracingthumbv-1787091825648.png?width=1280&format=jpg&auto=webp&quality=80",
         "categories": [
           "Entertainment"
         ]
@@ -1242,148 +1285,93 @@
         ]
       },
       {
-        "id": "currents-ad5d501d-88f0-55d6-80db-0f888d3aca4d",
-        "title": "Temu Backs Danish Startup Group as It Seeks to Build Goodwill",
-        "description": "Temu is partnering with Danish Startup Group, an organization that supports early-stage founders.",
-        "publisher": "Wwd",
-        "publisherDomain": "wwd.com",
-        "publishedAt": "2026-08-18T22:28:28.000Z",
-        "url": "https://wwd.com/sourcing-journal/industry-news/denmark-temu-e-commerce-startup-1239129015",
-        "imageUrl": "https://wwd.com/wp-content/uploads/2026/08/GettyImages-2200949404.jpg?w=1000&h=563&crop=1",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-b1a695ac-9533-592f-ac96-ff327317572d",
-        "title": "Longtime NJ sports announcer's dream comes true in Phillies' radio booth",
-        "description": "73-year-old sports announcer Lewis Kalb is known as a legend in Medford Lakes. Thanks to a viral Phillies radio clip, the world is getting to know him.",
+        "id": "currents-c779be06-8af2-5372-8a7a-aeea2d0fcd9f",
+        "title": "Off-duty NJ lifeguard helps save 11-year-old swimmer after hearing cries for help",
+        "description": "Ryan Gibson, 19, a Cape May Point lifeguard, said he was on the beach with friends after work when he heard a girl screaming for help near the beach off Lehigh Avenue.",
         "publisher": "6abc",
         "publisherDomain": "6abc.com",
-        "publishedAt": "2026-08-18T22:21:58.000Z",
-        "url": "https://6abc.com/post/longtime-nj-sports-announcers-dream-comes-true-phillies-game/19699182",
-        "imageUrl": "https://cdn.abcotvs.com/dip/images/19699179_081426-wpvi-LEWKALBANNOUNCER-thumb.jpg?w=1600",
+        "publishedAt": "2026-08-18T23:04:02.000Z",
+        "url": "https://6abc.com/post/off-duty-cape-may-point-lifeguard-helps-save-11-year-old-swimmer-hearing-cries-help/19699038",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/19699240_081826-wpvi-off-duty-lifeguard-rescue-430-vid-vid.jpg?w=1600",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-45ce5e0d-2f15-54b5-8d1d-4af185eeb0f4",
-        "title": "GTA 6 Gameplay and Map Appear to Leak Online, Group Reportedly Responsible Threatens Rockstar Over All-Digital Future",
-        "description": "Grand Theft Auto 6 appears to have suffered yet another significant leak after what looks like legitimate gameplay videos and an image of the full map appeared online. Rockstar has yet to comment.",
-        "publisher": "Ign",
-        "publisherDomain": "ign.com",
-        "publishedAt": "2026-08-18T22:15:13.000Z",
-        "url": "https://www.ign.com/articles/gta-6-gameplay-and-map-appear-to-leak-online-group-reportedly-responsible-threatens-rockstar-over-all-digital-future",
-        "imageUrl": "https://assets-prd.ignimgs.com/2026/08/18/ultimate-edition-01-1787090621861.jpg?width=1280&format=jpg&auto=webp&quality=80",
+        "id": "currents-f844cbba-4239-5317-ab94-dcb8c1b851c8",
+        "title": "Brenda Song Reveals Which Iconic Y2K DCOM Outfits She’d Still Wear Today",
+        "description": "Brenda Song will always be a style icon. She spilled her favorite DCOM looks and which pieces she kept from her Disney days.",
+        "publisher": "E! News",
+        "publisherDomain": "eonline.com",
+        "publishedAt": "2026-08-18T23:00:00.000Z",
+        "url": "https://www.eonline.com/news/1435146/brenda-song-on-the-iconic-y2k-dcom-outfits-shed-still-wear-today",
+        "imageUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20260818/6511bcc1-e810-427f-ada5-0edaa3d31157_1787080147.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-6e6b773b-d20f-5289-aa4b-0e553f076995",
-        "title": "Kevin Feige Says There Could Be \"100 More\" Movies Featuring The New X-Men Cast",
-        "description": "Kevin Feige says the X-Men cast's young age will allow for \"100 more\" movies featuring the characters.",
-        "publisher": "Ign",
-        "publisherDomain": "ign.com",
-        "publishedAt": "2026-08-18T22:14:29.000Z",
-        "url": "https://www.ign.com/shorts/kevin-feige-says-there-could-be-100-more-movies-featuring-the-new-x-men-cast",
-        "imageUrl": "https://assets-prd.ignimgs.com/2026/08/18/screenshot-2026-08-18-at-3-14-21-pm-1787091263119.png?width=1280&format=jpg&auto=webp&quality=80",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-cb0b0cea-ab53-5ca4-934e-2ad8d9a2c7cb",
-        "title": "‘We Were in Danger’: Leslie Mann, Isla Fisher, & Anna Faris Survived a Cyclone Filming New Movie",
-        "description": "Leslie Mann and her cast members shared a behind-the-scenes incident of facing a cyclone during the filming of Spa Weekend.",
+        "id": "currents-ffdb4ab0-e6de-5262-bab5-7f1398eb047d",
+        "title": "Insidious: Out of the Further's Lin Shaye Has Surprising Reason for Returning to the Franchise",
+        "description": "Lin Shaye reveals why she keeps returning as Elise Rainier in Insidious franchise and how the role continues to evolve.",
         "publisher": "Comingsoon",
         "publisherDomain": "comingsoon.net",
-        "publishedAt": "2026-08-18T22:14:16.000Z",
-        "url": "https://www.comingsoon.net/movies/news/2178267-leslie-mann-isla-fisher-anna-faris-cyclone-spa-weekend",
-        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/08/Untitled-design-30.png?resize=1200,630",
+        "publishedAt": "2026-08-18T22:54:31.000Z",
+        "url": "https://www.comingsoon.net/movies/news/2178414-insidious-lin-shaye-not-money-returning-franchise",
+        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/08/Insidious-Out-of-the-Furthers-Lin-Shaye-Has-Surprising-Reason-for-Returning-to-the-Franchise.jpg?resize=1200,630",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-bbfcd00c-d413-5e5d-a7b0-bb25f8c16619",
-        "title": "Lanterns Creator Promises Shocking DCU Death Will Be Justified Before Finale Arrives",
-        "description": "Lanterns creator Damon Lindelof defends the shocking death of a beloved character, promising it will be justified by the series finale.",
-        "publisher": "Superherohype",
-        "publisherDomain": "superherohype.com",
-        "publishedAt": "2026-08-18T22:13:31.000Z",
-        "url": "https://www.superherohype.com/news/687446-lanterns-creator-promises-dcu-death-justified-before-finale-arrives",
-        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/08/lanterns_d224f7.jpg?resize=1200,630",
+        "id": "currents-50b453df-5a12-5263-807d-59e7b7867e80",
+        "title": "Rose of Tralee 2026: Westmeath contender who shared alopecia condition called the winner",
+        "description": "Caoilfhinn Ní Choiligh: ‘I’m actually speechless ... I honestly would not have been able to do this without these girls’",
+        "publisher": "Irishtimes",
+        "publisherDomain": "irishtimes.com",
+        "publishedAt": "2026-08-18T22:53:28.000Z",
+        "url": "https://www.irishtimes.com/culture/tv-radio/2026/08/18/rose-of-tralee-2026-westmeath-contender-who-shared-alopecia-condition-called-the-winner",
+        "imageUrl": "https://www.irishtimes.com/resizer/v2/L54HMZ2JLNHGDBESZPOFMPNGMI.jpg?smart=true&auth=9b4e1bb8fc08e22712a419d827fea22fa6bb73f76c6b42eab8065143fe9d1eea&width=1200&height=630",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-3fff3f40-4d7f-5fb2-9121-ef6c446ec759",
-        "title": "Florida Governor Ron DeSantis Suspends Palm Beach Clerk Accused of Molesting Child",
-        "description": "Ron DeSantis has suspended Michael Allen Caruso -- a Palm Beach clerk he had appointed and a former state representative -- after Caruso was busted for allegedly kidnapping and molesting a young child.",
-        "publisher": "Tmz",
-        "publisherDomain": "tmz.com",
-        "publishedAt": "2026-08-18T22:12:35.000Z",
-        "url": "https://www.tmz.com/2026/08/18/ron-desantis-suspends-clerk-accused-of-child-molestation",
-        "imageUrl": "https://imagez.tmz.com/image/d1/16by9/2026/08/18/d188d83c63f1456bb4d033bfb5b82382_xl.jpg",
+        "id": "currents-54a7d437-47a1-58e8-83e6-d2ac54fb91cc",
+        "title": "Ted Lasso Season 4 Release Schedule: When Do New Episodes Come Out On Apple TV?",
+        "description": "Ted Lasso Season 4 releases new episodes weekly on Apple TV through October 7, with episodes becoming available Tuesday nights before Wednesday dates.",
+        "publisher": "Tvline",
+        "publisherDomain": "tvline.com",
+        "publishedAt": "2026-08-18T22:46:14.000Z",
+        "url": "https://www.tvline.com/2239636/ted-lasso-season-4-release-schedule-new-episodes-apple-tv",
+        "imageUrl": "https://www.tvline.com/img/gallery/ted-lasso-season-4-release-schedule-when-do-new-episodes-come-out-on-apple-tv/l-intro-1787093032.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-c181a5ec-c8e5-5870-b7ff-b740b6e438d5",
-        "title": "Walmart Touts Free Peacock Access for Walmart+ Members on Heels of Streamer's Latest Price Hike",
-        "description": "Walmart+ is discounted to just $1 right now for your first month.",
-        "publisher": "Variety",
-        "publisherDomain": "variety.com",
-        "publishedAt": "2026-08-18T22:11:00.000Z",
-        "url": "https://variety.com/2026/shopping/news/best-walmart-plus-deals-streaming-offers-1236040212",
-        "imageUrl": "https://variety.com/wp-content/uploads/2024/06/GettyImages-2152961478.jpg?w=1000&h=563&crop=1",
+        "id": "currents-fa10a9d4-69a5-510c-9145-4c3ddcb65cab",
+        "title": "Callum Turner Teases Future Baby Plans With Dua Lipa 2 Months After Wedding",
+        "description": "After Callum Turner and Dua Lipa's wedding in May, the One Night Only actor shared that starting a family at 36 years old is a priority for him, following almost three years together.",
+        "publisher": "E! News",
+        "publisherDomain": "eonline.com",
+        "publishedAt": "2026-08-18T22:43:17.000Z",
+        "url": "https://www.eonline.com/news/1435163/dua-lipa-husband-callum-turner-plan-for-babies-kids-after-wedding",
+        "imageUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20260818/5f32af17-1c7c-49da-af39-28e58c9ce293_1787092218.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-d8b6da4b-e855-5895-ae0f-364e7792c446",
-        "title": "Hayden Panettiere's Toxic Relationship With Brian Hickerson Detailed in Alleged Texts",
-        "description": "Hayden Panettiere’s boyfriend, Brian Hickerson, allegedly sent her threatening text messages after his 2020 arrest for domestic battery ... years before she spoke out about forgiving him.",
-        "publisher": "Tmz",
-        "publisherDomain": "tmz.com",
-        "publishedAt": "2026-08-18T22:10:43.000Z",
-        "url": "https://www.tmz.com/2026/08/18/brian-hickerson-texts-to-hayden-panettiere-after-his-2020-arrest-revealed",
-        "imageUrl": "https://imagez.tmz.com/image/4b/16by9/2026/08/18/4bd84f8a674149d99e18be81e6ad6def_xl.jpg",
+        "id": "currents-ce7f0db3-cf5f-5cf1-a70a-ea6eda73ea2c",
+        "title": "Neighbor catches evading thief getting stuck on the safety gate.",
+        "description": "Tags: better every loop206 points, 57 comments.",
+        "publisher": "9gag",
+        "publisherDomain": "9gag.com",
+        "publishedAt": "2026-08-18T22:55:31.000Z",
+        "url": "http://9gag.com/gag/a0eA4Lz",
         "categories": [
           "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-93da940f-ebfa-5fa3-86f1-447424bfa980",
-        "title": "Clive Barker Announces Kickstarter-Exclusive Anthology Book Series ‘Library of the Dead’ (EXCLUSIVE)",
-        "description": "Clive Barker announced “Library of the Dead” anthology project releasing Aug. 18 exclusively on Kickstarter.",
-        "publisher": "Variety",
-        "publisherDomain": "variety.com",
-        "publishedAt": "2026-08-18T22:10:15.000Z",
-        "url": "https://variety.com/2026/digital/news/clive-barker-kickstarter-series-library-of-the-dead-1236837367",
-        "imageUrl": "https://variety.com/wp-content/uploads/2026/08/CLIVE-BARKER-3-NEW-BOOKS-LIBRARY-OF-THE-DEAD-ANGLE.png?w=1000&h=563&crop=1",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-179272cd-1a18-550e-b027-ca7818ad29e0",
-        "title": "Gap Targets Nordic and Baltic Markets",
-        "description": "Gap Inc. announced a new partnership with Iconic Brands Nordic LLC to bring the Gap brand to more customers across the Nordic and Baltic markets.",
-        "publisher": "Wwd",
-        "publisherDomain": "wwd.com",
-        "publishedAt": "2026-08-18T22:46:58.000Z",
-        "url": "https://wwd.com/sourcing-journal/sj-denim/gap-targets-nordic-baltic-markets-iconic-brands-1239129152",
-        "imageUrl": "https://wwd.com/wp-content/uploads/2026/06/2264976085.jpg?w=1000&h=563&crop=1",
-        "categories": [
-          "Entertainment",
-          "Top",
-          "U.S."
         ]
       }
     ]
@@ -1393,6 +1381,6 @@
     "successfulRequests": 5,
     "failedRequests": 0,
     "articleCountBeforeDeduplication": 100,
-    "articleCountAfterDeduplication": 81
+    "articleCountAfterDeduplication": 83
   }
 }
