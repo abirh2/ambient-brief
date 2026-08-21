@@ -1,288 +1,32 @@
 {
   "schemaVersion": 1,
   "provider": "currents",
-  "generatedAt": "2026-08-21T03:11:10.487Z",
-  "sourceFetchedAt": "2026-08-21T03:11:10.487Z",
+  "generatedAt": "2026-08-21T04:12:41.143Z",
+  "sourceFetchedAt": "2026-08-21T04:12:41.143Z",
   "status": "success",
   "categories": {
     "Top": [
       {
-        "id": "currents-f58bdcd1-34d6-5fa0-827d-4e0da4e7f261",
-        "title": "Hong Kong's Tiananmen Square activists guilty in national security trial",
-        "description": "Three activists were accused of inciting others to subvert state power under the China-introduced law.",
-        "publisher": "BBC News",
-        "publisherDomain": "bbc.co.uk",
-        "publishedAt": "2026-08-21T02:59:46.000Z",
-        "url": "https://www.bbc.co.uk/news/articles/c1l10mdrld5o",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/d436/live/0a8eae40-9d0b-11f1-8a23-b9fc4847a391.jpg",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-e3c089eb-d370-571b-99b2-e22f0fac3944",
-        "title": "Charter plane carrying 8 crashes in western Alaska, NTSB official says",
-        "description": "A charter plane carrying eight people, two pilots and six passengers, crashed near a remote radar site in western Alaska, an NTSB official said.",
-        "publisher": "CBS News",
-        "publisherDomain": "cbsnews.com",
-        "publishedAt": "2026-08-21T02:51:05.000Z",
-        "url": "https://www.cbsnews.com/news/charter-plane-crash-cape-newenham-alaska",
-        "imageUrl": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/08/21/83a15baa-384c-4f99-a696-73bb63d1008e/thumbnail/1200x630/4d668a3d94e87a0a28e7fe3447756e39/ap26233068166835.jpg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-62d33187-37cf-5389-bef6-b3639908f9ad",
-        "title": "Nebraska Orthopaedic Center Data Breach: Edelson Lechtzin LLP Launches Investigation Into Exposure of Personal and Health Information",
-        "description": "Edelson Lechtzin LLP, a national class action law firm, is investigating data privacy claims arising from the Nebraska Orthopaedic Center data breach. ...",
-        "publisher": "Globenewswire",
-        "publisherDomain": "globenewswire.com",
-        "publishedAt": "2026-08-21T02:53:38.000Z",
-        "url": "https://www.globenewswire.com/news-release/2026/08/21/3348874/0/en/nebraska-orthopaedic-center-data-breach-edelson-lechtzin-llp-launches-investigation-into-exposure-of-personal-and-health-information.html",
-        "imageUrl": "https://ml.globenewswire.com/Resource/Download/a4c5d053-6c12-443f-9e32-57fe0d1ece19",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-6ebfce98-d71f-53b0-b99c-6ac7ad8b8bcb",
-        "title": "Neural Networks in Trading: Probabilistic Time Series Forecasting (K2VAE)",
-        "description": "We invite you to explore the original implementation of the K²VAE framework — a flexible model capable of linearly approximating complex dynamics in latent space. This article demonstrates how to implement key components in MQL5, including parameterized matrices and how to manage them outside standa...",
-        "publisher": "Mql5",
-        "publisherDomain": "mql5.com",
-        "publishedAt": "2026-08-21T02:54:30.000Z",
-        "url": "https://www.mql5.com/en/articles/18734",
-        "imageUrl": "https://c.mql5.com/2/154/18734-neyroseti-v-treydinge-veroyatnostnoe-prognozirovanie-vremennih_1200x628.jpg",
+        "id": "currents-85b6d08d-e625-5e7a-bed9-d2ec1f0b277a",
+        "title": "Can AI Solve Online Shopping’s Biggest Problem?",
+        "description": "When was the last time you ordered jeans online and they actually fit? Brands hope that AI-powered tools will help deliver the perfect size, meaning happier customers and fewer returned goods. Sonja Wind explains how. (Source: Bloomberg)",
+        "publisher": "Bloomberg",
+        "publisherDomain": "bloomberg.com",
+        "publishedAt": "2026-08-21T04:00:04.000Z",
+        "url": "https://www.bloomberg.com/news/videos/2026-08-21/can-ai-solve-online-shopping-s-biggest-problem",
         "categories": [
           "Top",
           "U.S."
         ]
       },
       {
-        "id": "currents-77ecbbc7-ed7c-5a32-af98-163796a54aed",
-        "title": "Training Neural Networks on Oscillators Without Look-Ahead Bias",
-        "description": "The article describes an approach to trade labeling using oscillators for machine learning models. This eliminates look-ahead bias. It has been shown that this type of labeling does not lead to model overfitting, and the strategies continue to perform well over the long term.",
-        "publisher": "Mql5",
-        "publisherDomain": "mql5.com",
-        "publishedAt": "2026-08-21T02:54:30.000Z",
-        "url": "https://www.mql5.com/en/articles/20343",
-        "imageUrl": "https://c.mql5.com/2/182/20343-obuchaem-neyroseti-na-oscillyatorah-bez-podglyadivaniya-v-buduschee_1200x628.jpg",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-b0e752e1-935b-5a51-b93c-b293811e1458",
-        "title": "Self Optimizing Expert Advisors in MQL5 (Part 18): Time Lagged Independent Components Analysis",
-        "description": "We evaluate blind source separation for market noise control using FastICA applied to SMA-filtered, time-lagged OHLC features. The study compares classical and surrogate targets, measures accuracy across lags, tunes KNN models, and inspects residual structure with clustering. Models are exported to ...",
-        "publisher": "Mql5",
-        "publisherDomain": "mql5.com",
-        "publishedAt": "2026-08-21T02:54:30.000Z",
-        "url": "https://www.mql5.com/en/articles/23405",
-        "imageUrl": "https://c.mql5.com/2/242/23405-self-optimizing-expert-advisors-in-mql5-part-18-time-lagged_1200x628.jpg",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-90737ebd-f14b-5fb5-88c1-8ceda3eace68",
-        "title": "Up to 20 clubs could reach MLS postseason in league’s new plan to overhaul playoff format",
-        "description": "Major League Soccer will go through one of the league’s biggest changes in its history next summer when it moves to a summer to spring calendar, and with it will come a new look to its playoff syst…",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-08-21T02:53:45.000Z",
-        "url": "https://nypost.com/2026/08/20/sports/mls-looking-to-make-massive-overhaul-to-playoff-structure",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/newspress-collage-bu0g0lmow-1787280015908.jpg?quality=75&strip=all&1787265639&w=1200",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-b95f6a9b-4737-5a07-9a82-6af766754849",
-        "title": "Mike Selig Says CFTC Will 'Move Swiftly' to Propose Rules if Democrats Continue to Stall CLARITY Act: 'We",
-        "description": "Mike Selig, Chairman of the Commodity Futures Trading Commission, stated on Thursday, August 20, that the U.S. has crossed a threshold into new financial frontiers driven by blockchain, AI and prediction markets.",
-        "publisher": "Benzinga",
-        "publisherDomain": "benzinga.com",
-        "publishedAt": "2026-08-21T02:53:34.000Z",
-        "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61348234/mike-selig-cftc-clarity-act-democrats-stall-crypto-rules",
-        "imageUrl": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/08/21/Washington--Dc---August-20-Emblem-At-The.jpg",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-7dd4bff2-7dca-5427-b2b0-17e468005c71",
-        "title": "Engineers warn that changes to electrical safety rules create new hazard",
-        "description": "The country's main engineering industry group has joined warnings that changes to electrical safety rules create a new electrocution hazard for people.",
-        "publisher": "Rnz",
-        "publisherDomain": "rnz.co.nz",
-        "publishedAt": "2026-08-21T02:48:58.000Z",
-        "url": "https://www.rnz.co.nz/news/business/581956/engineers-warn-that-changes-to-electrical-safety-rules-create-new-hazard",
-        "imageUrl": "https://media.rnztools.nz/rnz/image/upload/s--PO_gwnL5--/t_tohu-badge-facebook/f_auto/q_auto/4JWWFEL_Electricians1_png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-e4f6732a-1771-519f-9c07-f5c23c6359bc",
-        "title": "49ers’ bad drafts forced them to retread rather than reset",
-        "description": "The 49ers held their last practice in front of fans this week, and nothing this training camp has gotten the faithful hooting and hollering more than two particular players. Any play involving red …",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-08-21T02:48:56.000Z",
-        "url": "https://nypost.com/2026/08/20/sports/aging-49ers-roster-reflects-failure-to-invest-in-young-talent",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/SHANAHAN2-1.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-07de652e-8158-59eb-8151-e981ad278e03",
-        "title": "Teen Drops Landmark Social Media Addiction Lawsuit Against Meta, Google and Snap Ahead of October Trial:",
-        "description": "A teen dropped her lawsuit against Meta, Google and Snap, removing a key October test case amid thousands of similar claims.",
-        "publisher": "Benzinga",
-        "publisherDomain": "benzinga.com",
-        "publishedAt": "2026-08-21T02:48:45.000Z",
-        "url": "https://www.benzinga.com/news/legal/26/08/61348217/teen-drops-social-media-addiction-lawsuit-meta-google-snap",
-        "imageUrl": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/08/21/Barnaul--Russia--June-20--2022-Popular-S.jpg",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-64ee01fb-285d-5dae-869d-5fe9774717fb",
-        "title": "aesc-silicon/ElemRV: ElemRV - End-to-end Open-Source RISC-V Microcontroller",
-        "description": "ElemRV - End-to-end Open-Source RISC-V Microcontroller - aesc-silicon/ElemRV",
-        "publisher": "Github",
-        "publisherDomain": "github.com",
-        "publishedAt": "2026-08-21T02:48:20.000Z",
-        "url": "https://github.com/aesc-silicon/ElemRV",
-        "imageUrl": "https://opengraph.githubassets.com/dd2b5be7292fd01bf5aa1df80147af65da30b7b8940cc0b0ff043c8a442e7929/aesc-silicon/ElemRV",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-b8d5ff89-68f0-5b35-90d4-fa755f1a7cf8",
-        "title": "6 Indians On Board Hijacked Cargo Ship Carrying Turkish Weapons Near Somalia",
-        "description": "Eight pirates reportedly took the ship toward the coast near Garmaal (Representative Image)",
-        "publisher": "Ndtv",
-        "publisherDomain": "ndtv.com",
-        "publishedAt": "2026-08-21T02:50:59.000Z",
-        "url": "https://www.ndtv.com/world-news/6-indians-on-board-hijacked-cargo-ship-carrying-turkish-weapons-near-somalia-11938683",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-342be166-8923-5c62-849a-dcb9188936d1",
-        "title": "Malvern School District to close Friday due to downed power lines",
-        "description": "Malvern School District will close its schools on Friday due to power line damage caused by severe storms.",
-        "publisher": "Kark",
-        "publisherDomain": "kark.com",
-        "publishedAt": "2026-08-21T02:49:18.000Z",
-        "url": "https://www.kark.com/severe-weather-coverage/malvern-school-district-to-close-friday-due-to-downed-power-lines",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-52e4c89a-ea06-5992-9578-d45743db3152",
-        "title": "Crypto & NFT Project Directory | Other Worlders",
-        "description": "Discover independently reviewed NFT projects across every chain in the Other Worlders NFT directory.",
-        "publisher": "Otherworlders",
-        "publisherDomain": "otherworlders.com",
-        "publishedAt": "2026-08-21T02:53:59.000Z",
-        "url": "https://otherworlders.com/nft-directory",
-        "imageUrl": "https://otherworlders.com/assets/images/nfts/Angelic.gif",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-d9f1a60a-8cfb-58ee-8ef6-03db07c6445f",
-        "title": "The cost of caring about software",
-        "description": "AI made generating code cheap. Verifying it stayed expensive. The difference lands on whoever still checks.",
-        "publisher": "Substack",
-        "publisherDomain": "alexriosme.substack.com",
-        "publishedAt": "2026-08-21T02:56:29.000Z",
-        "url": "https://alexriosme.substack.com/p/the-cost-of-caring-about-software",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!P5OM!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4ff5cf0-2c83-4ff1-8d36-d2f2dbfa044a_1672x941.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      }
-    ],
-    "U.S.": [
-      {
-        "id": "currents-e3c089eb-d370-571b-99b2-e22f0fac3944",
-        "title": "Charter plane carrying 8 crashes in western Alaska, NTSB official says",
-        "description": "A charter plane carrying eight people, two pilots and six passengers, crashed near a remote radar site in western Alaska, an NTSB official said.",
-        "publisher": "CBS News",
-        "publisherDomain": "cbsnews.com",
-        "publishedAt": "2026-08-21T02:51:05.000Z",
-        "url": "https://www.cbsnews.com/news/charter-plane-crash-cape-newenham-alaska",
-        "imageUrl": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/08/21/83a15baa-384c-4f99-a696-73bb63d1008e/thumbnail/1200x630/4d668a3d94e87a0a28e7fe3447756e39/ap26233068166835.jpg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-62d33187-37cf-5389-bef6-b3639908f9ad",
-        "title": "Nebraska Orthopaedic Center Data Breach: Edelson Lechtzin LLP Launches Investigation Into Exposure of Personal and Health Information",
-        "description": "Edelson Lechtzin LLP, a national class action law firm, is investigating data privacy claims arising from the Nebraska Orthopaedic Center data breach. ...",
-        "publisher": "Globenewswire",
-        "publisherDomain": "globenewswire.com",
-        "publishedAt": "2026-08-21T02:53:38.000Z",
-        "url": "https://www.globenewswire.com/news-release/2026/08/21/3348874/0/en/nebraska-orthopaedic-center-data-breach-edelson-lechtzin-llp-launches-investigation-into-exposure-of-personal-and-health-information.html",
-        "imageUrl": "https://ml.globenewswire.com/Resource/Download/a4c5d053-6c12-443f-9e32-57fe0d1ece19",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-38ea8024-245c-5c06-a470-e83a23c0bebf",
-        "title": "Travis Barker's Daughter Alabama Barker Goes to First \"Prom\" With N3on After Reconciliation",
-        "description": "Alabama Barker—the 20-year-old daughter of exes Travis Barker and Shanna Moakler—went to her first \"prom\" with streamer N3on, who previously claimed he was put in the \"friend zone\" by the influencer.",
-        "publisher": "E! News",
-        "publisherDomain": "eonline.com",
-        "publishedAt": "2026-08-21T02:57:57.000Z",
-        "url": "https://www.eonline.com/news/1435256/is-alabama-barker-dating-n3on-they-reunite-for-prom-as-friends-after-feud",
-        "imageUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20260820/1de10162-986e-46fa-bc73-c3bb4096df0a_1787277125.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+        "id": "currents-d21d90f5-63f7-5199-beed-761e976421e7",
+        "title": "Meta defends its child safety efforts, but critics say the social media giant falls short",
+        "description": "The social media giant is defending itself in a California federal court against allegations that its social media business poses harms to ...",
+        "publisher": "Inquirer",
+        "publisherDomain": "inquirer.com",
+        "publishedAt": "2026-08-21T04:03:09.000Z",
+        "url": "https://www.inquirer.com/news/nation-world/meta-safety-hearing-facebook-instagram-teens-20260820.html",
         "categories": [
           "Top",
           "World",
@@ -290,145 +34,14 @@
         ]
       },
       {
-        "id": "currents-6ebfce98-d71f-53b0-b99c-6ac7ad8b8bcb",
-        "title": "Neural Networks in Trading: Probabilistic Time Series Forecasting (K2VAE)",
-        "description": "We invite you to explore the original implementation of the K²VAE framework — a flexible model capable of linearly approximating complex dynamics in latent space. This article demonstrates how to implement key components in MQL5, including parameterized matrices and how to manage them outside standa...",
-        "publisher": "Mql5",
-        "publisherDomain": "mql5.com",
-        "publishedAt": "2026-08-21T02:54:30.000Z",
-        "url": "https://www.mql5.com/en/articles/18734",
-        "imageUrl": "https://c.mql5.com/2/154/18734-neyroseti-v-treydinge-veroyatnostnoe-prognozirovanie-vremennih_1200x628.jpg",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-77ecbbc7-ed7c-5a32-af98-163796a54aed",
-        "title": "Training Neural Networks on Oscillators Without Look-Ahead Bias",
-        "description": "The article describes an approach to trade labeling using oscillators for machine learning models. This eliminates look-ahead bias. It has been shown that this type of labeling does not lead to model overfitting, and the strategies continue to perform well over the long term.",
-        "publisher": "Mql5",
-        "publisherDomain": "mql5.com",
-        "publishedAt": "2026-08-21T02:54:30.000Z",
-        "url": "https://www.mql5.com/en/articles/20343",
-        "imageUrl": "https://c.mql5.com/2/182/20343-obuchaem-neyroseti-na-oscillyatorah-bez-podglyadivaniya-v-buduschee_1200x628.jpg",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-b0e752e1-935b-5a51-b93c-b293811e1458",
-        "title": "Self Optimizing Expert Advisors in MQL5 (Part 18): Time Lagged Independent Components Analysis",
-        "description": "We evaluate blind source separation for market noise control using FastICA applied to SMA-filtered, time-lagged OHLC features. The study compares classical and surrogate targets, measures accuracy across lags, tunes KNN models, and inspects residual structure with clustering. Models are exported to ...",
-        "publisher": "Mql5",
-        "publisherDomain": "mql5.com",
-        "publishedAt": "2026-08-21T02:54:30.000Z",
-        "url": "https://www.mql5.com/en/articles/23405",
-        "imageUrl": "https://c.mql5.com/2/242/23405-self-optimizing-expert-advisors-in-mql5-part-18-time-lagged_1200x628.jpg",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-90737ebd-f14b-5fb5-88c1-8ceda3eace68",
-        "title": "Up to 20 clubs could reach MLS postseason in league’s new plan to overhaul playoff format",
-        "description": "Major League Soccer will go through one of the league’s biggest changes in its history next summer when it moves to a summer to spring calendar, and with it will come a new look to its playoff syst…",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-08-21T02:53:45.000Z",
-        "url": "https://nypost.com/2026/08/20/sports/mls-looking-to-make-massive-overhaul-to-playoff-structure",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/newspress-collage-bu0g0lmow-1787280015908.jpg?quality=75&strip=all&1787265639&w=1200",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-b95f6a9b-4737-5a07-9a82-6af766754849",
-        "title": "Mike Selig Says CFTC Will 'Move Swiftly' to Propose Rules if Democrats Continue to Stall CLARITY Act: 'We",
-        "description": "Mike Selig, Chairman of the Commodity Futures Trading Commission, stated on Thursday, August 20, that the U.S. has crossed a threshold into new financial frontiers driven by blockchain, AI and prediction markets.",
-        "publisher": "Benzinga",
-        "publisherDomain": "benzinga.com",
-        "publishedAt": "2026-08-21T02:53:34.000Z",
-        "url": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61348234/mike-selig-cftc-clarity-act-democrats-stall-crypto-rules",
-        "imageUrl": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/08/21/Washington--Dc---August-20-Emblem-At-The.jpg",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-7dd4bff2-7dca-5427-b2b0-17e468005c71",
-        "title": "Engineers warn that changes to electrical safety rules create new hazard",
-        "description": "The country's main engineering industry group has joined warnings that changes to electrical safety rules create a new electrocution hazard for people.",
-        "publisher": "Rnz",
-        "publisherDomain": "rnz.co.nz",
-        "publishedAt": "2026-08-21T02:48:58.000Z",
-        "url": "https://www.rnz.co.nz/news/business/581956/engineers-warn-that-changes-to-electrical-safety-rules-create-new-hazard",
-        "imageUrl": "https://media.rnztools.nz/rnz/image/upload/s--PO_gwnL5--/t_tohu-badge-facebook/f_auto/q_auto/4JWWFEL_Electricians1_png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-e4f6732a-1771-519f-9c07-f5c23c6359bc",
-        "title": "49ers’ bad drafts forced them to retread rather than reset",
-        "description": "The 49ers held their last practice in front of fans this week, and nothing this training camp has gotten the faithful hooting and hollering more than two particular players. Any play involving red …",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-08-21T02:48:56.000Z",
-        "url": "https://nypost.com/2026/08/20/sports/aging-49ers-roster-reflects-failure-to-invest-in-young-talent",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/SHANAHAN2-1.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-07de652e-8158-59eb-8151-e981ad278e03",
-        "title": "Teen Drops Landmark Social Media Addiction Lawsuit Against Meta, Google and Snap Ahead of October Trial:",
-        "description": "A teen dropped her lawsuit against Meta, Google and Snap, removing a key October test case amid thousands of similar claims.",
-        "publisher": "Benzinga",
-        "publisherDomain": "benzinga.com",
-        "publishedAt": "2026-08-21T02:48:45.000Z",
-        "url": "https://www.benzinga.com/news/legal/26/08/61348217/teen-drops-social-media-addiction-lawsuit-meta-google-snap",
-        "imageUrl": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/08/21/Barnaul--Russia--June-20--2022-Popular-S.jpg",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-64ee01fb-285d-5dae-869d-5fe9774717fb",
-        "title": "aesc-silicon/ElemRV: ElemRV - End-to-end Open-Source RISC-V Microcontroller",
-        "description": "ElemRV - End-to-end Open-Source RISC-V Microcontroller - aesc-silicon/ElemRV",
-        "publisher": "Github",
-        "publisherDomain": "github.com",
-        "publishedAt": "2026-08-21T02:48:20.000Z",
-        "url": "https://github.com/aesc-silicon/ElemRV",
-        "imageUrl": "https://opengraph.githubassets.com/dd2b5be7292fd01bf5aa1df80147af65da30b7b8940cc0b0ff043c8a442e7929/aesc-silicon/ElemRV",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-b8d5ff89-68f0-5b35-90d4-fa755f1a7cf8",
-        "title": "6 Indians On Board Hijacked Cargo Ship Carrying Turkish Weapons Near Somalia",
-        "description": "Eight pirates reportedly took the ship toward the coast near Garmaal (Representative Image)",
-        "publisher": "Ndtv",
-        "publisherDomain": "ndtv.com",
-        "publishedAt": "2026-08-21T02:50:59.000Z",
-        "url": "https://www.ndtv.com/world-news/6-indians-on-board-hijacked-cargo-ship-carrying-turkish-weapons-near-somalia-11938683",
+        "id": "currents-48644212-515c-5fa3-94fd-066af146d8df",
+        "title": "Next Level Performance Marks 50 Years of Impact with HOPE Week",
+        "description": "/PRNewswire/ -- Next Level Performance (Next Level), a leader in employee engagement, incentive, loyalty, and recognition solutions, is celebrating its 50th...",
+        "publisher": "Prnewswire",
+        "publisherDomain": "prnewswire.com",
+        "publishedAt": "2026-08-21T04:01:00.000Z",
+        "url": "https://www.prnewswire.com/news-releases/next-level-performance-marks-50-years-of-impact-with-hope-week-302856822.html",
+        "imageUrl": "https://mmx.prnewswire.com/media/MS1142695/Next-Level-Performance-Logo.jpg?id=OA2900454&p=facebook",
         "categories": [
           "Top",
           "U.S.",
@@ -436,28 +49,69 @@
         ]
       },
       {
-        "id": "currents-342be166-8923-5c62-849a-dcb9188936d1",
-        "title": "Malvern School District to close Friday due to downed power lines",
-        "description": "Malvern School District will close its schools on Friday due to power line damage caused by severe storms.",
-        "publisher": "Kark",
-        "publisherDomain": "kark.com",
-        "publishedAt": "2026-08-21T02:49:18.000Z",
-        "url": "https://www.kark.com/severe-weather-coverage/malvern-school-district-to-close-friday-due-to-downed-power-lines",
+        "id": "currents-d0f03492-b933-5c04-846a-1e1c1cf6b4ca",
+        "title": "Gwyneth Paltrow is going full meme over that 'private, off-the-record al-fresco dinner'",
+        "description": "Some social media users appeared confused by Gwyneth Paltrow's attempt to address the Sam Altman dinner backlash with spoof invitations.",
+        "publisher": "Businessinsider",
+        "publisherDomain": "businessinsider.com",
+        "publishedAt": "2026-08-21T04:00:47.000Z",
+        "url": "https://www.businessinsider.com/gwyneth-paltrow-sam-altman-private-dinner-invitation-backlash-meme-2026-8",
+        "imageUrl": "https://i.insider.com/6a87b0014569a4ec219f8ab7?width=1200&format=jpeg",
         "categories": [
           "Top",
-          "U.S.",
-          "World"
+          "U.S."
         ]
       },
       {
-        "id": "currents-52e4c89a-ea06-5992-9578-d45743db3152",
-        "title": "Crypto & NFT Project Directory | Other Worlders",
-        "description": "Discover independently reviewed NFT projects across every chain in the Other Worlders NFT directory.",
-        "publisher": "Otherworlders",
-        "publisherDomain": "otherworlders.com",
-        "publishedAt": "2026-08-21T02:53:59.000Z",
-        "url": "https://otherworlders.com/nft-directory",
-        "imageUrl": "https://otherworlders.com/assets/images/nfts/Angelic.gif",
+        "id": "currents-3f79200d-5ed4-5b33-94bb-958811609d14",
+        "title": "Phyllis Ann Sifford Charleston obituary, Salisbury, NC - Legacy",
+        "description": "Phyllis Ann Sifford Charleston, of Salisbury, North Carolina, passed away on August 14, 2026. She was born on November 15, 1951, in Rowan County, ...",
+        "publisher": "Oregonlive",
+        "publisherDomain": "obits.oregonlive.com",
+        "publishedAt": "2026-08-21T04:08:09.000Z",
+        "url": "https://obits.oregonlive.com/us/obituaries/salisburypost/name/phyllis-charleston-obituary?id=62230658",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-8516fde9-64ae-51bf-b9e7-d8552f47b4a4",
+        "title": "Jim Chester Anderson Obituary (2026) - Butler, MO - Schowengerdt Funeral Chapel Inc",
+        "description": "Jim Anderson Obituary Jim Anderson's wishes were to be cremated and remembered with fond memories. There are no public services planned at this ...",
+        "publisher": "Oregonlive",
+        "publisherDomain": "obits.oregonlive.com",
+        "publishedAt": "2026-08-21T04:08:09.000Z",
+        "url": "https://obits.oregonlive.com/us/obituaries/name/jim-anderson-obituary?id=62234806",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-393ad9fb-f871-5637-9c20-8a36397249df",
+        "title": "The Montco Jazz Fest celebrates its fifth anniversary by honoring a century of jazz greats",
+        "description": "Curator Joanna Pascale decided to mark the occasion by celebrating a host of legendary musicians, all of whom happen to be commemorating an even ...",
+        "publisher": "Inquirer",
+        "publisherDomain": "inquirer.com",
+        "publishedAt": "2026-08-21T04:03:09.000Z",
+        "url": "https://www.inquirer.com/entertainment/music/montco-jazz-festival-montgomery-county-fifth-anniversary-20260820.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-f5f0e85d-42af-5885-8e17-e5fb4b24b8d2",
+        "title": "Quantifying over Optimal MSO-Definable Sets on Graphs of Bounded Clique-Width",
+        "description": "We introduce $mathsf{AmCMSO}$, an extension of counting monadic second-order logic ($mathsf{CMSO}$) with predicates that refer to minimum- and maximum-value satisfying assignments. We establish fixed-parameter tractable model-checking meta-theorems for $mathsf{AmCMSO}_1$ on graphs of bounded clique-...",
+        "publisher": "Arxiv",
+        "publisherDomain": "arxiv.org",
+        "publishedAt": "2026-08-21T04:00:00.000Z",
+        "url": "https://arxiv.org/abs/2608.20175v1",
         "categories": [
           "Top",
           "U.S.",
@@ -466,14 +120,337 @@
         ]
       },
       {
-        "id": "currents-d9f1a60a-8cfb-58ee-8ef6-03db07c6445f",
-        "title": "The cost of caring about software",
-        "description": "AI made generating code cheap. Verifying it stayed expensive. The difference lands on whoever still checks.",
-        "publisher": "Substack",
-        "publisherDomain": "alexriosme.substack.com",
-        "publishedAt": "2026-08-21T02:56:29.000Z",
-        "url": "https://alexriosme.substack.com/p/the-cost-of-caring-about-software",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!P5OM!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4ff5cf0-2c83-4ff1-8d36-d2f2dbfa044a_1672x941.png",
+        "id": "currents-064f6a9a-5e34-5ead-bcd0-7cb330eb86d4",
+        "title": "Trump warns of 'economic D-Day' against Iran, but Tehran is well acquainted with sanctions",
+        "description": "NEW YORK (AP) — Nearing the six-month mark of the Iran war and facing diminishing stockpiles of key weapons, the Trump administration is touting a crushing financial campaign against Tehran, promising an “economic D-Day” against a country that has so far withstood nearly five decades of punishing Am...",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-08-21T04:04:03.000Z",
+        "url": "https://www.winnipegfreepress.com/world/2026/08/20/trump-warns-of-economic-d-day-against-iran-but-tehran-is-well-acquainted-with-sanctions",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a8707c50e2ba939903048c0jpeg.jpg?w=1600",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-69f8559c-adf7-5248-beb5-42a47977095b",
+        "title": "Nara Lokesh vows justice after six-year-old allegedly dies following teacher assault",
+        "description": "Andhra Pradesh Education Minister Nara Lokesh expressed deep grief over a six-year-old student's death. The minister promised full administrative support to ensure justice for the grieving family. A UKG student allegedly died after being beaten by a teacher at a private school. Officials confirmed t...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-08-21T03:36:53.000Z",
+        "url": "https://economictimes.indiatimes.com/news/politics-and-nation/nara-lokesh-vows-justice-after-six-year-old-allegedly-dies-following-teacher-assault/articleshow/133392004.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133392003,width-1200,height-630,imgsize-84612,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-1d3fd4ba-edba-58b5-9002-01230b68a1dd",
+        "title": "Sugar Price Hike: Govt Allows 10 Lakh Tonnes Duty-Free Imports, First Such Move in a Decade",
+        "description": "The government has allowed duty-free imports of 10 lakh tonnes of raw sugar under the Tariff Rate Quota (TRQ) system until October 31, 2026.",
+        "publisher": "News18",
+        "publisherDomain": "news18.com",
+        "publishedAt": "2026-08-21T03:34:47.000Z",
+        "url": "https://www.news18.com/business/economy/sugar-price-hike-govt-allows-10-lakh-tonnes-duty-free-imports-first-such-move-in-a-decade-ws-l-10285256.html",
+        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/07/1785308606_Sugar-Traders-Face-New-Stock-Rules-From-August-1-Government-Sets-4000-Quintal-Limit-6-2026-07-730d87080fb1ffbaa54664000ee76a49-1200x675.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-172eabde-fc51-5073-8d1d-1c73617047ef",
+        "title": "Banks ditch hustlers for Treasury bonds amid worsening debt crisis",
+        "description": "Commercial banks are turning their backs on small businesses and households, pouring record amounts of cash into government securities instead.",
+        "publisher": "Co",
+        "publisherDomain": "standardmedia.co.ke",
+        "publishedAt": "2026-08-21T04:00:00.000Z",
+        "url": "https://www.standardmedia.co.ke/business/article/2001555835/banks-ditch-hustlers-for-treasury-bonds-amid-worsening-debt-crisis",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-2d0d9c50-ea06-58ff-8eb5-edc9420fe197",
+        "title": "FED-UP on Ninoy Aquino Day: Integrity, moral renewal in public life",
+        "description": "BACOLOD CITY — The Federation of Urban Poor (FED-UP) on Friday, Aug. 21, called for courage, integrity and moral renewal in public life as it marked the 43rd death anniversary of former Sen. Benigno “Ninoy” Aquino Jr. in Bacolod City. Some 100 FED-UP members, waving Philippine flags and yellow ribbo...",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-08-21T04:08:51.000Z",
+        "url": "https://newsinfo.inquirer.net/2289418/fed-up-on-ninoy-aquino-day-integrity-moral-renewal-in-public-life",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-9c91a184-3bb6-5361-9855-646c186dccd0",
+        "title": "Bataan declares state of calamity due to widespread floods",
+        "description": "BALANGA CITY, Bataan – The Sangguniang Panlalawigan of Bataan on Thursday (August 20) has declared province under a state of calamity, based on the Provincial Disaster Risk Reduction and Management Council’s report of heavy damage to properties, farms and crops and infrastructure. Hardest hit by f...",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-08-21T04:08:51.000Z",
+        "url": "https://newsinfo.inquirer.net/2289402/bataan-declares-state-of-calamity-due-to-widespread-floods",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-b906d958-76eb-502b-aa66-8384b3e8f03c",
+        "title": "Urban poor group marks Ninoy Aquino Day in Bacolod",
+        "description": "BACOLOD CITY — Close to 100 members of the Federation of Urban Poor (FedUP) waving Philippine flags and yellow ribbons gathered early Thursday, August 21, along Araneta Street here to lay flowers at the statue of former Senator Benigno “Ninoy” Aquino Jr., marking his 43rd death anniversary. The annu...",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-08-21T04:08:51.000Z",
+        "url": "https://newsinfo.inquirer.net/2289404/urban-poor-group-marks-ninoy-aquino-day-in-bacolod",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-8bef4f75-cf20-5560-8902-9cf8109b048f",
+        "title": "11-year-old boy drowns in Tanay river — police",
+        "description": "LUCENA CITY — An 11-year-old boy drowned in a river in Tanay, Rizal, on Thursday, Aug. 20, police reported on Friday. The Calabarzon police said the victim, identified only as “Miguel,” a resident of Barangay Plaza Aldea, told his mother at about 11 a.m. that he was going to fetch water from a nearb...",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-08-21T04:08:50.000Z",
+        "url": "https://newsinfo.inquirer.net/2289425/11-year-old-boy-drowns-in-tanay-river-police",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      }
+    ],
+    "U.S.": [
+      {
+        "id": "currents-85b6d08d-e625-5e7a-bed9-d2ec1f0b277a",
+        "title": "Can AI Solve Online Shopping’s Biggest Problem?",
+        "description": "When was the last time you ordered jeans online and they actually fit? Brands hope that AI-powered tools will help deliver the perfect size, meaning happier customers and fewer returned goods. Sonja Wind explains how. (Source: Bloomberg)",
+        "publisher": "Bloomberg",
+        "publisherDomain": "bloomberg.com",
+        "publishedAt": "2026-08-21T04:00:04.000Z",
+        "url": "https://www.bloomberg.com/news/videos/2026-08-21/can-ai-solve-online-shopping-s-biggest-problem",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-d21d90f5-63f7-5199-beed-761e976421e7",
+        "title": "Meta defends its child safety efforts, but critics say the social media giant falls short",
+        "description": "The social media giant is defending itself in a California federal court against allegations that its social media business poses harms to ...",
+        "publisher": "Inquirer",
+        "publisherDomain": "inquirer.com",
+        "publishedAt": "2026-08-21T04:03:09.000Z",
+        "url": "https://www.inquirer.com/news/nation-world/meta-safety-hearing-facebook-instagram-teens-20260820.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-093cb489-f4c6-5c7e-94f8-c1d9e85fb0e0",
+        "title": "39 Products That Are So Good, You'll Hit The Reorder Button Without Hesitation",
+        "description": "Before ya know it, you'll be telling everyone about how much you love \"Butt Stuff.\"",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-08-21T04:01:02.000Z",
+        "url": "https://www.buzzfeed.com/jordanagrigs/products-so-good-hit-the-reorder-button",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/11/04/thumb/2D3PmuBmi.jpg?crop=3000:1571;0,3%26downsize=1250:*",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-28d50e9c-0f24-5bfe-8127-96dc4990f326",
+        "title": "Beauty Inc Editors on Their Favorite August Launches",
+        "description": "WWD Beauty Inc editors share their favorite new product launches from YSL Beauty, E.l.f. Skin and more.",
+        "publisher": "Wwd",
+        "publisherDomain": "wwd.com",
+        "publishedAt": "2026-08-21T04:01:00.000Z",
+        "url": "https://wwd.com/beauty-industry-news/beauty-features/best-beauty-products-summer-editor-picks-1239085766",
+        "imageUrl": "https://wwd.com/wp-content/uploads/2026/08/beauty-team-wwd.jpg?w=1000&h=563&crop=1",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-48644212-515c-5fa3-94fd-066af146d8df",
+        "title": "Next Level Performance Marks 50 Years of Impact with HOPE Week",
+        "description": "/PRNewswire/ -- Next Level Performance (Next Level), a leader in employee engagement, incentive, loyalty, and recognition solutions, is celebrating its 50th...",
+        "publisher": "Prnewswire",
+        "publisherDomain": "prnewswire.com",
+        "publishedAt": "2026-08-21T04:01:00.000Z",
+        "url": "https://www.prnewswire.com/news-releases/next-level-performance-marks-50-years-of-impact-with-hope-week-302856822.html",
+        "imageUrl": "https://mmx.prnewswire.com/media/MS1142695/Next-Level-Performance-Logo.jpg?id=OA2900454&p=facebook",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-650493c9-675b-5495-8f97-29136b1ee6a4",
+        "title": "Inside the WWD Archive: When WWD’s ‘Chutzpah Ratings’ Revealed Icons Shaping the Zeitgeist",
+        "description": "Explore the influential personalities whose style, nerve and cultural impact helped shaped fashion, politics and pop culture.",
+        "publisher": "Wwd",
+        "publisherDomain": "wwd.com",
+        "publishedAt": "2026-08-21T04:01:00.000Z",
+        "url": "https://wwd.com/fashion-news/fashion-features/inside-wwd-archives-the-chutzpah-of-becoming-an-icon-1239127543",
+        "imageUrl": "https://wwd.com/wp-content/uploads/2026/08/icons_barbara-and-lena.jpg?crop=0px%2C101px%2C1250px%2C700px&resize=1000%2C563",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-8f9da5f1-1bb2-5439-b01f-e464efe5e792",
+        "title": "Nili Lotan Unveils Fall Ad Campaign Focused on Modern Americana and New Western Boots",
+        "description": "The campaign was shot by Gray Sorrenti, known for her cool, stylish and fresh photography.",
+        "publisher": "Wwd",
+        "publisherDomain": "wwd.com",
+        "publishedAt": "2026-08-21T04:01:00.000Z",
+        "url": "https://wwd.com/fashion-news/fashion-features/nili-lotan-fall-ad-campaign-f-modern-americana-new-western-boots-1239127359",
+        "imageUrl": "https://wwd.com/wp-content/uploads/2026/08/nili-lotan-fall-2026-ctsy-04.jpg?crop=0px%2C0px%2C5395px%2C3022px&resize=1000%2C563",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-9fb2bd1e-cb1d-59ca-8508-fb30b8f6b60d",
+        "title": "Meet the Man Preserving the Lost Art of the Fragrance Factice",
+        "description": "Factice collector Sudhir Gupta has amassed more than 3,000 supersized perfume bottles from brands including Chanel, Dior, Jean Paul Gaultier and more.",
+        "publisher": "Wwd",
+        "publisherDomain": "wwd.com",
+        "publishedAt": "2026-08-21T04:01:00.000Z",
+        "url": "https://wwd.com/beauty-industry-news/fragrance/fragrance-factice-dior-chanel-guerlain-collection-1239079530",
+        "imageUrl": "https://wwd.com/wp-content/uploads/2026/08/WWD_Facticerie_004.jpg?crop=0px%2C635px%2C1624px%2C909px&resize=1000%2C563",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-d0f03492-b933-5c04-846a-1e1c1cf6b4ca",
+        "title": "Gwyneth Paltrow is going full meme over that 'private, off-the-record al-fresco dinner'",
+        "description": "Some social media users appeared confused by Gwyneth Paltrow's attempt to address the Sam Altman dinner backlash with spoof invitations.",
+        "publisher": "Businessinsider",
+        "publisherDomain": "businessinsider.com",
+        "publishedAt": "2026-08-21T04:00:47.000Z",
+        "url": "https://www.businessinsider.com/gwyneth-paltrow-sam-altman-private-dinner-invitation-backlash-meme-2026-8",
+        "imageUrl": "https://i.insider.com/6a87b0014569a4ec219f8ab7?width=1200&format=jpeg",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-f5760357-b381-5c54-9789-9a1357add820",
+        "title": "How Gucci Westman and David Neville Are Building a Luxury Beauty Brand for the Ages",
+        "description": "How Westman Atelier, led by Gucci Westman and David Neville, is redefining luxury beauty with intentional growth.",
+        "publisher": "Wwd",
+        "publisherDomain": "wwd.com",
+        "publishedAt": "2026-08-21T04:00:00.000Z",
+        "url": "https://wwd.com/beauty-industry-news/beauty-features/gucci-westman-david-neville-luxury-beauty-brand-1239097104",
+        "imageUrl": "https://wwd.com/wp-content/uploads/2026/08/Cover-F2-WWD_Gucci_Westman_and_David_Neville_450-copy.jpg?crop=0px%2C778px%2C3521px%2C1973px&resize=1000%2C563",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-3f79200d-5ed4-5b33-94bb-958811609d14",
+        "title": "Phyllis Ann Sifford Charleston obituary, Salisbury, NC - Legacy",
+        "description": "Phyllis Ann Sifford Charleston, of Salisbury, North Carolina, passed away on August 14, 2026. She was born on November 15, 1951, in Rowan County, ...",
+        "publisher": "Oregonlive",
+        "publisherDomain": "obits.oregonlive.com",
+        "publishedAt": "2026-08-21T04:08:09.000Z",
+        "url": "https://obits.oregonlive.com/us/obituaries/salisburypost/name/phyllis-charleston-obituary?id=62230658",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-8516fde9-64ae-51bf-b9e7-d8552f47b4a4",
+        "title": "Jim Chester Anderson Obituary (2026) - Butler, MO - Schowengerdt Funeral Chapel Inc",
+        "description": "Jim Anderson Obituary Jim Anderson's wishes were to be cremated and remembered with fond memories. There are no public services planned at this ...",
+        "publisher": "Oregonlive",
+        "publisherDomain": "obits.oregonlive.com",
+        "publishedAt": "2026-08-21T04:08:09.000Z",
+        "url": "https://obits.oregonlive.com/us/obituaries/name/jim-anderson-obituary?id=62234806",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-393ad9fb-f871-5637-9c20-8a36397249df",
+        "title": "The Montco Jazz Fest celebrates its fifth anniversary by honoring a century of jazz greats",
+        "description": "Curator Joanna Pascale decided to mark the occasion by celebrating a host of legendary musicians, all of whom happen to be commemorating an even ...",
+        "publisher": "Inquirer",
+        "publisherDomain": "inquirer.com",
+        "publishedAt": "2026-08-21T04:03:09.000Z",
+        "url": "https://www.inquirer.com/entertainment/music/montco-jazz-festival-montgomery-county-fifth-anniversary-20260820.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-bb6733e2-637a-5996-bb69-b91b1bc3bf54",
+        "title": "Spanish Fort gets revenge over Daphne 18-15; more season kick-off games set",
+        "description": "SPANISH FORT, Ala. (WKRG) — One of the biggest rivalries in Baldwin County between the Spanish Fort Toros and the Daphne Trojans kicked off the 2026 high school football season around the Gulf Coast on Thursday night. The Toros hosted the Trojans as Spanish Fort came out in all black while Daphne wa...",
+        "publisher": "Wkrg",
+        "publisherDomain": "wkrg.com",
+        "publishedAt": "2026-08-21T04:02:42.000Z",
+        "url": "https://www.wkrg.com/sports/spanish-fort-gets-revenge-over-daphne-18-15-more-season-kick-off-games-set",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-f5de5405-b33e-5a3c-a478-e69ecf60bc3e",
+        "title": "Cheekwood, neighborhood group square off at Metro hearing",
+        "description": "Cheekwood Estate & Gardens, one of Nashville's biggest tourist attractions, will continue building a $35 million parking garage for now on the heels of winning a Metro Board of Zoning Appeals vote on Aug. 20. Neighbors for Safety BMH Inc., comprised of many residents of the adjacent Belle Meade High...",
+        "publisher": "Bizjournals",
+        "publisherDomain": "bizjournals.com",
+        "publishedAt": "2026-08-21T04:00:00.000Z",
+        "url": "https://www.bizjournals.com/nashville/news/2026/08/20/cheekwood-neighbors-for-safety-zoning-appeals-vote.html?ana=brss_1566",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-f5f0e85d-42af-5885-8e17-e5fb4b24b8d2",
+        "title": "Quantifying over Optimal MSO-Definable Sets on Graphs of Bounded Clique-Width",
+        "description": "We introduce $mathsf{AmCMSO}$, an extension of counting monadic second-order logic ($mathsf{CMSO}$) with predicates that refer to minimum- and maximum-value satisfying assignments. We establish fixed-parameter tractable model-checking meta-theorems for $mathsf{AmCMSO}_1$ on graphs of bounded clique-...",
+        "publisher": "Arxiv",
+        "publisherDomain": "arxiv.org",
+        "publishedAt": "2026-08-21T04:00:00.000Z",
+        "url": "https://arxiv.org/abs/2608.20175v1",
         "categories": [
           "Top",
           "U.S.",
@@ -484,72 +461,13 @@
     ],
     "World": [
       {
-        "id": "currents-f58bdcd1-34d6-5fa0-827d-4e0da4e7f261",
-        "title": "Hong Kong's Tiananmen Square activists guilty in national security trial",
-        "description": "Three activists were accused of inciting others to subvert state power under the China-introduced law.",
-        "publisher": "BBC News",
-        "publisherDomain": "bbc.co.uk",
-        "publishedAt": "2026-08-21T02:59:46.000Z",
-        "url": "https://www.bbc.co.uk/news/articles/c1l10mdrld5o",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/d436/live/0a8eae40-9d0b-11f1-8a23-b9fc4847a391.jpg",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-e3c089eb-d370-571b-99b2-e22f0fac3944",
-        "title": "Charter plane carrying 8 crashes in western Alaska, NTSB official says",
-        "description": "A charter plane carrying eight people, two pilots and six passengers, crashed near a remote radar site in western Alaska, an NTSB official said.",
-        "publisher": "CBS News",
-        "publisherDomain": "cbsnews.com",
-        "publishedAt": "2026-08-21T02:51:05.000Z",
-        "url": "https://www.cbsnews.com/news/charter-plane-crash-cape-newenham-alaska",
-        "imageUrl": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/08/21/83a15baa-384c-4f99-a696-73bb63d1008e/thumbnail/1200x630/4d668a3d94e87a0a28e7fe3447756e39/ap26233068166835.jpg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-62d33187-37cf-5389-bef6-b3639908f9ad",
-        "title": "Nebraska Orthopaedic Center Data Breach: Edelson Lechtzin LLP Launches Investigation Into Exposure of Personal and Health Information",
-        "description": "Edelson Lechtzin LLP, a national class action law firm, is investigating data privacy claims arising from the Nebraska Orthopaedic Center data breach. ...",
-        "publisher": "Globenewswire",
-        "publisherDomain": "globenewswire.com",
-        "publishedAt": "2026-08-21T02:53:38.000Z",
-        "url": "https://www.globenewswire.com/news-release/2026/08/21/3348874/0/en/nebraska-orthopaedic-center-data-breach-edelson-lechtzin-llp-launches-investigation-into-exposure-of-personal-and-health-information.html",
-        "imageUrl": "https://ml.globenewswire.com/Resource/Download/a4c5d053-6c12-443f-9e32-57fe0d1ece19",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-347c8731-a021-5244-af03-77109a5684c8",
-        "title": "Australia investigates fourth close call at Sydney airport in less than a month",
-        "description": "SYDNEY: Australia's transport safety regulator said on Friday (Aug 21) it had launched an investigation into a fourth incident involving air traffic control at Sydney airport in less than a month after tw",
-        "publisher": "Channelnewsasia",
-        "publisherDomain": "channelnewsasia.com",
-        "publishedAt": "2026-08-21T03:01:48.000Z",
-        "url": "https://www.channelnewsasia.com/world/australia-sydney-airport-fourth-close-call-6332551",
-        "imageUrl": "https://dam.mediacorp.sg/image/upload/s--2iQBqCff--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-08-21T024410Z_3_LYNXMPEM7K042_RTROPTP_3_AUSTRALIA-AVIATION.JPG?itok=ypdy-eWp",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-38ea8024-245c-5c06-a470-e83a23c0bebf",
-        "title": "Travis Barker's Daughter Alabama Barker Goes to First \"Prom\" With N3on After Reconciliation",
-        "description": "Alabama Barker—the 20-year-old daughter of exes Travis Barker and Shanna Moakler—went to her first \"prom\" with streamer N3on, who previously claimed he was put in the \"friend zone\" by the influencer.",
-        "publisher": "E! News",
-        "publisherDomain": "eonline.com",
-        "publishedAt": "2026-08-21T02:57:57.000Z",
-        "url": "https://www.eonline.com/news/1435256/is-alabama-barker-dating-n3on-they-reunite-for-prom-as-friends-after-feud",
-        "imageUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20260820/1de10162-986e-46fa-bc73-c3bb4096df0a_1787277125.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+        "id": "currents-d21d90f5-63f7-5199-beed-761e976421e7",
+        "title": "Meta defends its child safety efforts, but critics say the social media giant falls short",
+        "description": "The social media giant is defending itself in a California federal court against allegations that its social media business poses harms to ...",
+        "publisher": "Inquirer",
+        "publisherDomain": "inquirer.com",
+        "publishedAt": "2026-08-21T04:03:09.000Z",
+        "url": "https://www.inquirer.com/news/nation-world/meta-safety-hearing-facebook-instagram-teens-20260820.html",
         "categories": [
           "Top",
           "World",
@@ -557,13 +475,14 @@
         ]
       },
       {
-        "id": "currents-b8d5ff89-68f0-5b35-90d4-fa755f1a7cf8",
-        "title": "6 Indians On Board Hijacked Cargo Ship Carrying Turkish Weapons Near Somalia",
-        "description": "Eight pirates reportedly took the ship toward the coast near Garmaal (Representative Image)",
-        "publisher": "Ndtv",
-        "publisherDomain": "ndtv.com",
-        "publishedAt": "2026-08-21T02:50:59.000Z",
-        "url": "https://www.ndtv.com/world-news/6-indians-on-board-hijacked-cargo-ship-carrying-turkish-weapons-near-somalia-11938683",
+        "id": "currents-48644212-515c-5fa3-94fd-066af146d8df",
+        "title": "Next Level Performance Marks 50 Years of Impact with HOPE Week",
+        "description": "/PRNewswire/ -- Next Level Performance (Next Level), a leader in employee engagement, incentive, loyalty, and recognition solutions, is celebrating its 50th...",
+        "publisher": "Prnewswire",
+        "publisherDomain": "prnewswire.com",
+        "publishedAt": "2026-08-21T04:01:00.000Z",
+        "url": "https://www.prnewswire.com/news-releases/next-level-performance-marks-50-years-of-impact-with-hope-week-302856822.html",
+        "imageUrl": "https://mmx.prnewswire.com/media/MS1142695/Next-Level-Performance-Logo.jpg?id=OA2900454&p=facebook",
         "categories": [
           "Top",
           "U.S.",
@@ -571,41 +490,122 @@
         ]
       },
       {
-        "id": "currents-342be166-8923-5c62-849a-dcb9188936d1",
-        "title": "Malvern School District to close Friday due to downed power lines",
-        "description": "Malvern School District will close its schools on Friday due to power line damage caused by severe storms.",
-        "publisher": "Kark",
-        "publisherDomain": "kark.com",
-        "publishedAt": "2026-08-21T02:49:18.000Z",
-        "url": "https://www.kark.com/severe-weather-coverage/malvern-school-district-to-close-friday-due-to-downed-power-lines",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-2ba9bd59-be73-547f-b88a-392e4b480e00",
-        "title": "Hong Kong Tiananmen activists found guilty of inciting subversion",
-        "publisher": "Rtl",
-        "publisherDomain": "today.rtl.lu",
-        "publishedAt": "2026-08-21T03:02:45.000Z",
-        "url": "https://today.rtl.lu/news/world/hong-kong-tiananmen-activists-found-guilty-of-inciting-subversion-355495363",
-        "imageUrl": "https://static-prod.rtl.lu/dims4/default/d56975d/2147483647/strip/true/crop/768x432+0+0/resize/1224x689!/quality/90/?url=https%3A%2F%2Frtl-luxembourg-new-production-web.s3.eu-central-1.amazonaws.com%2Fbrightspot%2F88%2Fb7%2F2db3bc643fc9fe5ef729ccb95b78%2Fmedias",
+        "id": "currents-2d0d9c50-ea06-58ff-8eb5-edc9420fe197",
+        "title": "FED-UP on Ninoy Aquino Day: Integrity, moral renewal in public life",
+        "description": "BACOLOD CITY — The Federation of Urban Poor (FED-UP) on Friday, Aug. 21, called for courage, integrity and moral renewal in public life as it marked the 43rd death anniversary of former Sen. Benigno “Ninoy” Aquino Jr. in Bacolod City. Some 100 FED-UP members, waving Philippine flags and yellow ribbo...",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-08-21T04:08:51.000Z",
+        "url": "https://newsinfo.inquirer.net/2289418/fed-up-on-ninoy-aquino-day-integrity-moral-renewal-in-public-life",
         "categories": [
           "Top",
           "World"
         ]
       },
       {
-        "id": "currents-6144b095-16f4-5c6c-8208-160485f3da41",
-        "title": "Good Luck Charlie's Mia Talerico Is a High School Senior & Even She's \"Starting to Feel Old\" in New Photo",
-        "description": "Mia Talerico, who starred as the titular toddler in the Disney Channel show Good Luck Charlie in the early 2010s, celebrated her first day of her senior year of high school—and yes, we feel old.",
-        "publisher": "E! News",
-        "publisherDomain": "eonline.com",
-        "publishedAt": "2026-08-21T02:50:05.000Z",
-        "url": "https://www.eonline.com/news/1435258/good-luck-charlies-mia-talerico-starts-senior-year-of-high-school-photo",
-        "imageUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20260820/432cee0a-4e26-4774-97c4-fcf5bf812ec5_1787279672.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+        "id": "currents-3f79200d-5ed4-5b33-94bb-958811609d14",
+        "title": "Phyllis Ann Sifford Charleston obituary, Salisbury, NC - Legacy",
+        "description": "Phyllis Ann Sifford Charleston, of Salisbury, North Carolina, passed away on August 14, 2026. She was born on November 15, 1951, in Rowan County, ...",
+        "publisher": "Oregonlive",
+        "publisherDomain": "obits.oregonlive.com",
+        "publishedAt": "2026-08-21T04:08:09.000Z",
+        "url": "https://obits.oregonlive.com/us/obituaries/salisburypost/name/phyllis-charleston-obituary?id=62230658",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-9c91a184-3bb6-5361-9855-646c186dccd0",
+        "title": "Bataan declares state of calamity due to widespread floods",
+        "description": "BALANGA CITY, Bataan – The Sangguniang Panlalawigan of Bataan on Thursday (August 20) has declared province under a state of calamity, based on the Provincial Disaster Risk Reduction and Management Council’s report of heavy damage to properties, farms and crops and infrastructure. Hardest hit by f...",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-08-21T04:08:51.000Z",
+        "url": "https://newsinfo.inquirer.net/2289402/bataan-declares-state-of-calamity-due-to-widespread-floods",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-b906d958-76eb-502b-aa66-8384b3e8f03c",
+        "title": "Urban poor group marks Ninoy Aquino Day in Bacolod",
+        "description": "BACOLOD CITY — Close to 100 members of the Federation of Urban Poor (FedUP) waving Philippine flags and yellow ribbons gathered early Thursday, August 21, along Araneta Street here to lay flowers at the statue of former Senator Benigno “Ninoy” Aquino Jr., marking his 43rd death anniversary. The annu...",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-08-21T04:08:51.000Z",
+        "url": "https://newsinfo.inquirer.net/2289404/urban-poor-group-marks-ninoy-aquino-day-in-bacolod",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-8bef4f75-cf20-5560-8902-9cf8109b048f",
+        "title": "11-year-old boy drowns in Tanay river — police",
+        "description": "LUCENA CITY — An 11-year-old boy drowned in a river in Tanay, Rizal, on Thursday, Aug. 20, police reported on Friday. The Calabarzon police said the victim, identified only as “Miguel,” a resident of Barangay Plaza Aldea, told his mother at about 11 a.m. that he was going to fetch water from a nearb...",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-08-21T04:08:50.000Z",
+        "url": "https://newsinfo.inquirer.net/2289425/11-year-old-boy-drowns-in-tanay-river-police",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-8516fde9-64ae-51bf-b9e7-d8552f47b4a4",
+        "title": "Jim Chester Anderson Obituary (2026) - Butler, MO - Schowengerdt Funeral Chapel Inc",
+        "description": "Jim Anderson Obituary Jim Anderson's wishes were to be cremated and remembered with fond memories. There are no public services planned at this ...",
+        "publisher": "Oregonlive",
+        "publisherDomain": "obits.oregonlive.com",
+        "publishedAt": "2026-08-21T04:08:09.000Z",
+        "url": "https://obits.oregonlive.com/us/obituaries/name/jim-anderson-obituary?id=62234806",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-393ad9fb-f871-5637-9c20-8a36397249df",
+        "title": "The Montco Jazz Fest celebrates its fifth anniversary by honoring a century of jazz greats",
+        "description": "Curator Joanna Pascale decided to mark the occasion by celebrating a host of legendary musicians, all of whom happen to be commemorating an even ...",
+        "publisher": "Inquirer",
+        "publisherDomain": "inquirer.com",
+        "publishedAt": "2026-08-21T04:03:09.000Z",
+        "url": "https://www.inquirer.com/entertainment/music/montco-jazz-festival-montgomery-county-fifth-anniversary-20260820.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-bb6733e2-637a-5996-bb69-b91b1bc3bf54",
+        "title": "Spanish Fort gets revenge over Daphne 18-15; more season kick-off games set",
+        "description": "SPANISH FORT, Ala. (WKRG) — One of the biggest rivalries in Baldwin County between the Spanish Fort Toros and the Daphne Trojans kicked off the 2026 high school football season around the Gulf Coast on Thursday night. The Toros hosted the Trojans as Spanish Fort came out in all black while Daphne wa...",
+        "publisher": "Wkrg",
+        "publisherDomain": "wkrg.com",
+        "publishedAt": "2026-08-21T04:02:42.000Z",
+        "url": "https://www.wkrg.com/sports/spanish-fort-gets-revenge-over-daphne-18-15-more-season-kick-off-games-set",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-b89bceae-360d-555f-9dd9-082d3bd2b637",
+        "title": "Daily Horoscope: August 21, 2026",
+        "description": "Venus opposing Saturn hits exact this morning. Pressure peaks, then releases. The thing you've been bracing for turns out to be survivable.",
+        "publisher": "Vice",
+        "publisherDomain": "vice.com",
+        "publishedAt": "2026-08-21T04:01:00.000Z",
+        "url": "https://www.vice.com/en/article/daily-horoscope-august-21-2026",
+        "imageUrl": "https://www.vice.com/wp-content/uploads/sites/2/2026/07/5_LEO_VIRGO_DAILY_8_1920x1080.png?w=1920",
         "categories": [
           "Top",
           "U.S.",
@@ -615,224 +615,223 @@
     ],
     "Business": [
       {
-        "id": "currents-2f35d195-9a6c-5f68-ae97-f45fadd3732a",
-        "title": "Man charged with assaulting fellow inmate at Ontario prison, police say",
-        "description": "TORONTO - Police say a man currently serving a sentence at a medium-security prison in Ontario has been charged with assaulting a fellow inmate.",
+        "id": "currents-064f6a9a-5e34-5ead-bcd0-7cb330eb86d4",
+        "title": "Trump warns of 'economic D-Day' against Iran, but Tehran is well acquainted with sanctions",
+        "description": "NEW YORK (AP) — Nearing the six-month mark of the Iran war and facing diminishing stockpiles of key weapons, the Trump administration is touting a crushing financial campaign against Tehran, promising an “economic D-Day” against a country that has so far withstood nearly five decades of punishing Am...",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-21T02:50:33.000Z",
-        "url": "https://www.winnipegfreepress.com/uncategorized/2026/08/20/man-charged-with-assaulting-fellow-inmate-at-ontario-prison-police-say",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a87bb6027db3bf5f73c9efajpeg.jpg?w=1600",
+        "publishedAt": "2026-08-21T04:04:03.000Z",
+        "url": "https://www.winnipegfreepress.com/world/2026/08/20/trump-warns-of-economic-d-day-against-iran-but-tehran-is-well-acquainted-with-sanctions",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a8707c50e2ba939903048c0jpeg.jpg?w=1600",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-748fb38e-4dcd-5447-ae58-0e55e1b472cc",
-        "title": "Hong Kong court convicts two former Tiananmen vigil organisers in national security case - The Economic Times",
-        "description": "Two former leaders of the now-disbanded Hong Kong Alliance, Lee Cheuk-yan and Chow Hang-tung, were convicted of inciting subversion over the group's advocacy and decades-long commemoration of the 1989 Tiananmen crackdown. The case is among the latest against Hong Kong's pro-democracy activists under...",
+        "id": "currents-69f8559c-adf7-5248-beb5-42a47977095b",
+        "title": "Nara Lokesh vows justice after six-year-old allegedly dies following teacher assault",
+        "description": "Andhra Pradesh Education Minister Nara Lokesh expressed deep grief over a six-year-old student's death. The minister promised full administrative support to ensure justice for the grieving family. A UKG student allegedly died after being beaten by a teacher at a private school. Officials confirmed t...",
         "publisher": "Indiatimes",
         "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-08-21T02:34:59.000Z",
-        "url": "https://economictimes.indiatimes.com/news/newsblogs/hong-kong-tiananmen-convicted-india-delhi-weather-today-lunar-eclipse-narendra-modi-rahul-gandhi-politics-latest-news-today/liveblog/133391107.cms",
-        "imageUrl": "https://economictimes.indiatimes.com/thumb/msid-133391107,width-1200,height-900,resizemode-4,imglength-184820/news/newsblogs/hong-kong-tiananmen-convicted-india-delhi-weather-today-lunar-eclipse-narendra-modi-rahul-gandhi-politics-latest-news-today.jpg",
+        "publishedAt": "2026-08-21T03:36:53.000Z",
+        "url": "https://economictimes.indiatimes.com/news/politics-and-nation/nara-lokesh-vows-justice-after-six-year-old-allegedly-dies-following-teacher-assault/articleshow/133392004.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133392003,width-1200,height-630,imgsize-84612,overlay-economictimes/articleshow.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-dba74d15-f690-5f38-8daf-049640b4ad9f",
-        "title": "Shares resume downtrend as oil, bond worries weigh",
-        "description": "Energy stocks are on the rise after US threats to impose historic sanctions on Iran forced investors to price a further protracted oil supply disruption.",
-        "publisher": "Thewest",
-        "publisherDomain": "thewest.com.au",
-        "publishedAt": "2026-08-21T02:33:48.000Z",
-        "url": "https://thewest.com.au/business/shares-resume-downtrend-as-oil-bond-worries-weigh-c-22758289",
-        "imageUrl": "https://images.thewest.com.au/publication/C-22758289/c3c4acec2d288c7f26fd8805a8320f51ed4a7c64-16x9-x0y0w1280h720.jpg?imwidth=1200",
+        "id": "currents-1d3fd4ba-edba-58b5-9002-01230b68a1dd",
+        "title": "Sugar Price Hike: Govt Allows 10 Lakh Tonnes Duty-Free Imports, First Such Move in a Decade",
+        "description": "The government has allowed duty-free imports of 10 lakh tonnes of raw sugar under the Tariff Rate Quota (TRQ) system until October 31, 2026.",
+        "publisher": "News18",
+        "publisherDomain": "news18.com",
+        "publishedAt": "2026-08-21T03:34:47.000Z",
+        "url": "https://www.news18.com/business/economy/sugar-price-hike-govt-allows-10-lakh-tonnes-duty-free-imports-first-such-move-in-a-decade-ws-l-10285256.html",
+        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/07/1785308606_Sugar-Traders-Face-New-Stock-Rules-From-August-1-Government-Sets-4000-Quintal-Limit-6-2026-07-730d87080fb1ffbaa54664000ee76a49-1200x675.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-a090015d-93a6-5d8a-aef1-215f56ee3918",
-        "title": "Climate risk’s invisible threat: What ASEAN banks aren’t accounting for",
-        "description": "Indonesian banks are disclosing climate risks faster than they are pricing physical and transition exposures into credit decisions",
-        "publisher": "E27",
-        "publisherDomain": "e27.co",
-        "publishedAt": "2026-08-21T02:32:07.000Z",
-        "url": "https://e27.co/climate-risks-invisible-threat-what-asean-banks-arent-accounting-for-20260809",
-        "imageUrl": "https://e27.co/wp-content/uploads/2026/05/e27-16-2.png",
+        "id": "currents-172eabde-fc51-5073-8d1d-1c73617047ef",
+        "title": "Banks ditch hustlers for Treasury bonds amid worsening debt crisis",
+        "description": "Commercial banks are turning their backs on small businesses and households, pouring record amounts of cash into government securities instead.",
+        "publisher": "Co",
+        "publisherDomain": "standardmedia.co.ke",
+        "publishedAt": "2026-08-21T04:00:00.000Z",
+        "url": "https://www.standardmedia.co.ke/business/article/2001555835/banks-ditch-hustlers-for-treasury-bonds-amid-worsening-debt-crisis",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-f4d3c7e7-7243-5a91-bcba-3391b317388a",
-        "title": "Samsung Elec to convene board meeting Friday to discuss shareholder return plan, says source By Reuters",
-        "description": "Samsung Elec to convene board meeting Friday to discuss shareholder return plan, says source",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-08-21T02:36:47.000Z",
-        "url": "https://www.investing.com/news/stock-market-news/samsung-elec-to-convene-board-meeting-friday-to-discuss-shareholder-return-plan-says-source-4870787",
-        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXMPEM7K044_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-7dfa87f9-3f57-5f19-a6a9-f7c05f46a49d",
-        "title": "Tempus AI CFO James Rogers sells $2.69m in stock By Investing.com",
-        "description": "Tempus AI CFO James Rogers sells $2.69m in stock",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-08-21T02:31:07.000Z",
-        "url": "https://www.investing.com/news/insider-trading-news/tempus-ai-cfo-james-rogers-sells-269m-in-stock-93CH-4870786",
-        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM4519D_1200_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-009212ed-4cf5-5c56-a652-f9a6b2af7dee",
-        "title": "Tempus AI EVP, chief legal officer Polovin sells $1.54m in stock By Investing.com",
-        "description": "Tempus AI EVP, chief legal officer Polovin sells $1.54m in stock",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-08-21T02:31:04.000Z",
-        "url": "https://www.investing.com/news/insider-trading-news/tempus-ai-evp-chief-legal-officer-polovin-sells-154m-in-stock-93CH-4870785",
-        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM4416N_1200_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-985395d1-bf1c-5854-8e1f-f0d158274429",
-        "title": "Tempus AI chief accounting officer sells $306,341 in shares By Investing.com",
-        "description": "Tempus AI chief accounting officer sells $306,341 in shares",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-08-21T02:31:04.000Z",
-        "url": "https://www.investing.com/news/insider-trading-news/tempus-ai-chief-accounting-officer-sells-306341-in-shares-93CH-4870784",
-        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM3Q0WG_1200_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-acc6f1e3-4473-50ca-83b7-e5c25f7fbc5c",
-        "title": "Protagenic therapeutics: exec. chair Garo Armen buys $9,810 in stock By Investing.com",
-        "description": "Protagenic therapeutics: exec. chair Garo Armen buys $9,810 in stock",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-08-21T02:30:57.000Z",
-        "url": "https://www.investing.com/news/insider-trading-news/protagenic-therapeutics-exec-chair-garo-armen-buys-9810-in-stock-93CH-4870783",
-        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM450ND_1200_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-82c25d7a-e58d-54d9-8df6-2190e24963ef",
-        "title": "Hyundai Motor’s union stages first full strike in 10 years over wage talks By Reuters",
-        "description": "Hyundai Motor’s union stages first full strike in 10 years over wage talks",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-08-21T02:30:30.000Z",
-        "url": "https://www.investing.com/news/stock-market-news/hyundai-motors-union-stages-first-full-strike-in-10-years-over-wage-talks-4870780",
-        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXMPEM7K03S_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-678e0a1a-acc1-5b4a-a541-3347225cd260",
-        "title": "Using An Axis Credit Card? New Rules Kick In From Aug. 28: Rewards, Late Fees And More",
-        "description": "The most significant change for customers travelling abroad or shopping at international merchants is a steep increase in the Dynamic Currency Conversion (DCC) markup.",
-        "publisher": "Ndtvprofit",
-        "publisherDomain": "ndtvprofit.com",
-        "publishedAt": "2026-08-21T02:45:10.000Z",
-        "url": "https://www.ndtvprofit.com/personal-finance/using-an-axis-credit-card-new-rules-kick-in-from-aug-28-markup-rewards-late-fees-and-more-11934996",
-        "imageUrl": "https://c.ndtvimg.com/2026-08/d16j5jh4_c_625x300_20_August_26.jpeg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-f03ac07e-97d4-562b-9491-36e33c330bd1",
-        "title": "Redblacks fall to 0-10 on the season with 46-16 loss to CFL-best Alouettes",
-        "description": "MONTREAL - The Ottawa Redblacks are still searching for their first win, and now sit in some very lonely company.",
+        "id": "currents-e4a733d6-c3e2-5672-b2b2-6052c97a80b0",
+        "title": "A question looms over Harry's return to the UK. Can he rebuild his relationship with Prince William?",
+        "description": "LONDON (AP) — The royal family’s long-running American soap opera is returning to Britain. The question is whether it will blossom into a happy reunion or descend into anger, division and chaos.",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-21T02:39:57.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/football/cfl/2026/08/20/redblacks-fall-to-0-10-on-the-season-with-46-16-loss-to-cfl-best-alouettes",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a87b48998bb55bb6206932ajpeg.jpg?w=1600",
+        "publishedAt": "2026-08-21T04:06:59.000Z",
+        "url": "https://www.winnipegfreepress.com/arts-and-life/entertainment/2026/08/20/a-question-looms-over-harrys-return-to-the-uk-can-he-rebuild-his-relationship-with-prince-william",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a87cedc270eb4db4d5d47ffjpeg.jpg?w=1600",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-63f56080-6820-5f5f-b581-cca63bf8bde9",
-        "title": "Catholic Schools’ chief sacked after ICAC",
-        "description": "The head of one state’s Catholic Schools has been sacked days after giving evidence before an anti-corruption inquiry.",
-        "publisher": "Thewest",
-        "publisherDomain": "thewest.com.au",
-        "publishedAt": "2026-08-21T02:38:29.000Z",
-        "url": "https://thewest.com.au/business/loss-of-confidence-catholic-schools-nsw-ceo-dallas-mcinerney-sacked-amid-icac-probe-c-22758341",
-        "imageUrl": "https://images.thewest.com.au/publication/C-22758341/f2ecdecc47c77150119f79ad34a4220e236edd87-16x9-x0y358w929h523.jpg?imwidth=1200",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-6c6c4126-701b-5ce8-b1cd-d3cf0a78dff0",
-        "title": "Ogunbowale and Shepard lead Wings over Fever 91-85 on off shooting night for Bueckers and Clark",
-        "description": "DALLAS (AP) — Arike Ogunbowale scored a season-high 32 points, Jessica Shepard added a career-best 26 and the Dallas Wings beat Indiana 91-85 on Thursday night, ending the Fever",
+        "id": "currents-3de57bb6-143b-5e38-b9f0-7f1ba90fa6ef",
+        "title": "Schools are starting to teach AI literacy. For many, that means helping kids see chatbots' flaws",
+        "description": "NORTH CHARLESTON, S.C. (AP) — Artificial intelligence chatbots have become the bane of teachers everywhere, but to prepare for the new school year, a group of educators in Charleston, South Carolina, packed into a high school auditorium and talked about inviting AI into the classroom.",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-21T02:32:36.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/basketball/2026/08/20/ogunbowale-and-shepard-lead-wings-over-fever-91-85-on-off-shooting-night-for-bueckers-and-clark",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a87b8b7270eb4db4d5d2fb9jpeg.jpg?w=1600",
+        "publishedAt": "2026-08-21T04:05:49.000Z",
+        "url": "https://www.winnipegfreepress.com/arts-and-life/life/2026/08/20/schools-are-starting-to-teach-ai-literacy-for-many-that-means-helping-kids-see-chatbots-flaws",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a87ce8c270eb4db4d5d4724jpeg.jpg?w=1600",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-1d131000-3ca9-5879-8522-7ad9195ac52e",
-        "title": "Lenskart Reports Cyber Incident At Sub-Vendor Of Its Group Company In Singapore",
-        "description": "The company was emphatic that neither its own operations nor those of its Singapore group entity or their respective customers had faced any disruption on account of the breach at the sub-vendor's end.",
-        "publisher": "Ndtvprofit",
-        "publisherDomain": "ndtvprofit.com",
-        "publishedAt": "2026-08-21T02:31:36.000Z",
-        "url": "https://www.ndtvprofit.com/business/lenskart-reports-cyber-incident-at-sub-vendor-of-its-group-company-in-singapore-11938624",
-        "imageUrl": "https://c.ndtvimg.com/2026-01/86893e09_WhatsApp-Image-2025-10-30-at-9.01.51-PM.jpeg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
+        "id": "currents-1446707e-a650-5d7d-8ff5-1d56caf06ed9",
+        "title": "President Trump to stump for Sen. Darline Graham days ahead of South Carolina's GOP Senate runoff",
+        "description": "MYRTLE BEACH, S.C. (AP) — President Donald Trump is scheduled to travel to South Carolina on Friday to make a last-minute appeal for Sen. Darline Graham, his chosen candidate to replace her brother, the late Sen. Lindsey Graham, ahead of a Republican runoff next week.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-08-21T04:04:01.000Z",
+        "url": "https://www.winnipegfreepress.com/world/2026/08/20/president-trump-to-stump-for-sen-darline-graham-days-ahead-of-south-carolinas-gop-senate-runoff",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a853f8b0e2ba939902efcdajpeg.jpg?w=1600",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-acb41aeb-99c3-54a4-9580-eb190664f7b3",
-        "title": "‘Will hit’: Ingham’s braces for bird flu",
-        "description": "Bird flu will inevitably hit an Ingham’s farm, the boss of the major chicken meat business says.",
-        "publisher": "Thewest",
-        "publisherDomain": "thewest.com.au",
-        "publishedAt": "2026-08-21T02:30:36.000Z",
-        "url": "https://thewest.com.au/business/bird-flu-obviously-will-hit-inghams-chief-executive-says-c-22758242",
-        "imageUrl": "https://images.thewest.com.au/publication/C-22758242/f7d5e073e4283fd8a63fb86748376c06fa290f55-16x9-x0y0w1497h842.jpg?imwidth=1200",
+        "id": "currents-8ab10acf-4231-5419-beb4-f20b0280b51b",
+        "title": "Vance will campaign at the Ohio steel plant where his grandfather once worked",
+        "description": "MIDDLETOWN, OHIO (AP) — Vice President JD Vance will return to his hometown Friday to campaign for Republican candidates at the same steel plant where his grandfather used to work.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-08-21T04:02:29.000Z",
+        "url": "https://www.winnipegfreepress.com/world/2026/08/20/vance-will-campaign-at-the-ohio-steel-plant-where-his-grandfather-once-worked",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a87cdd1270eb4db4d5d458cjpeg.jpg?w=1600",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-765b0a52-bfb7-54f8-a79c-0d796ac69812",
+        "title": "WNBA Commissioner Cathy Engelbert says others are trying to 'sow divisiveness' in transgender debate",
+        "description": "DALLAS (AP) — WNBA Commissioner Cathy Engelbert denounced people she said are trying to “sow divisiveness” as the league grapples with a debate over transgender athletes.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-08-21T03:56:28.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/basketball/2026/08/20/wnba-commissioner-cathy-engelbert-says-others-are-trying-to-sow-divisiveness-in-transgender-debate",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a87cc66270eb4db4d5d4404jpeg.jpg?w=1600",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-8b7e296e-3881-5f14-a755-084d5719e5a9",
+        "title": "Pakistan Assembly passes military bills to formalise Asim Munir's expanded role",
+        "description": "Pakistan's National Assembly passed two bills to streamline military and nuclear command structures. These bills follow last year's constitutional amendment which introduced a Chief of Defence Forces. The new legislation aims to integrate strategic forces and establish a Defence Forces Headquarters....",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-08-21T03:54:09.000Z",
+        "url": "https://economictimes.indiatimes.com/news/international/world-news/pakistan-assembly-passes-military-bills-to-formalise-asim-munirs-expanded-role/articleshow/133392270.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133392283,width-1200,height-630,imgsize-72600,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-1ca72090-247d-59a3-a374-2bea6faa27dc",
+        "title": "Appliance maker Atomberg Technologies files for IPO",
+        "description": "Atomberg Technologies has taken a significant step by filing for an initial public offering. This IPO aims to generate capital through a new share issue while allowing existing investors to offload shares as well. The funds raised are earmarked for paying off debts and enhancing brand presence, coin...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-08-21T03:52:30.000Z",
+        "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/appliance-maker-atomberg-technologies-files-for-ipo/articleshow/133392233.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133392271,width-1200,height-630,imgsize-19133,overlay-etmarkets/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-7c3078fe-42df-5486-a085-9acdd98d7b53",
+        "title": "Colgate India names Manish Anandani as managing director",
+        "description": "Manish Anandani will become Colgate-Palmolive India's new managing director and chief executive officer. He takes over from Prabha Narasimhan on September twenty-eighth for a five-year term. Narasimhan moves to a regional marketing role within the parent company's Asia-Pacific division. Anandani bri...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-08-21T03:49:31.000Z",
+        "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/colgate-palmolive-india-appoints-kenvue-exec-manish-anandani-as-md-and-ceo/articleshow/133392179.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133392204,width-1200,height-630,imgsize-59174,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-30cf382b-7589-5394-b83d-28c5951a4f4d",
+        "title": "Three SME IPOs to debut today; Technocrats Plasma Systems leads with 53% GMP",
+        "description": "Shares of three SME IPOs—Technocrats Plasma Systems, ENS Enterprises, and Skytech Infinite Platform—are set to debut on August 21. Technocrats Plasma Systems stands out with a strong grey market premium (GMP) of around 53%, signalling expectations of a robust listing gain, while ENS Enterprises and ...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-08-21T03:47:23.000Z",
+        "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/three-sme-ipos-to-debut-today-technocrats-plasma-systems-leads-with-53-gmp/articleshow/133392138.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133392188,width-1200,height-630,imgsize-2060760,overlay-etmarkets/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-f1e2259a-2c88-5b50-a2ac-5c9e5790251d",
+        "title": "Colgate-Palmolive India Appoints Manish Anandani As New MD & CEO; Prabha Narasimhan To Step Down",
+        "description": "Anandani replaces Prabha Narasimhan who is resigning as MD and CEO following her promotion to executive vice president – marketing, Asia-Pacific division of Colgate-Palmolive.",
+        "publisher": "News18",
+        "publisherDomain": "news18.com",
+        "publishedAt": "2026-08-21T03:46:31.000Z",
+        "url": "https://www.news18.com/business/markets/colgate-palmolive-india-appoints-manish-anandani-as-new-md-prabha-narasimhan-to-step-down-10285330.html",
+        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/08/manish-anandani-colgate-2026-08-ac60cb7623bf324dbd322ba403c6fd43-1200x675.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-4fa685b6-ffd2-52bc-9003-d377d432b23c",
+        "title": "Top stocks to buy today: Stock market recommendations for August 21, 2026 - check list",
+        "description": "Stock market recommendations: DLF, PG Electroplast Ltd, and Sansera Engineering - these are the top stocks to buy identified by Hitesh Rathi, Technical Analyst (Equity & Derivatives) at Angel One for August 20, 2026. Let’s take a look:",
+        "publisher": "Indiatimes",
+        "publisherDomain": "timesofindia.indiatimes.com",
+        "publishedAt": "2026-08-21T03:37:57.000Z",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/top-stock-recommendations-for-august-21-2026-dlf-pg-electroplast-ltd-sansera-engineerng-stocks-to-buy-today/articleshow/133392017.cms",
+        "imageUrl": "https://static.toiimg.com/thumb/msid-133392036,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-69124b62-25b2-5632-87a5-5012f6b7c74e",
+        "title": "Welspun Corp bags biggest-ever ₹17,200 crore US pipe order",
+        "description": "Welspun Corp secured its largest order valued at $1.8 billion for US pipe supply. This significant contract will be executed during fiscal years twenty twenty-eight and twenty twenty-nine. The company's global order book will reach a record $4.4 billion after this deal. This order strengthens Welspu...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-08-21T03:37:55.000Z",
+        "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/welspun-corp-bags-biggest-ever-17200-crore-us-pipe-order/articleshow/133391948.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133392030,width-1200,height-630,imgsize-20860,overlay-economictimes/articleshow.jpg",
         "categories": [
           "Top",
           "Business"
@@ -841,76 +840,13 @@
     ],
     "Technology": [
       {
-        "id": "currents-7dd4bff2-7dca-5427-b2b0-17e468005c71",
-        "title": "Engineers warn that changes to electrical safety rules create new hazard",
-        "description": "The country's main engineering industry group has joined warnings that changes to electrical safety rules create a new electrocution hazard for people.",
-        "publisher": "Rnz",
-        "publisherDomain": "rnz.co.nz",
-        "publishedAt": "2026-08-21T02:48:58.000Z",
-        "url": "https://www.rnz.co.nz/news/business/581956/engineers-warn-that-changes-to-electrical-safety-rules-create-new-hazard",
-        "imageUrl": "https://media.rnztools.nz/rnz/image/upload/s--PO_gwnL5--/t_tohu-badge-facebook/f_auto/q_auto/4JWWFEL_Electricians1_png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-64ee01fb-285d-5dae-869d-5fe9774717fb",
-        "title": "aesc-silicon/ElemRV: ElemRV - End-to-end Open-Source RISC-V Microcontroller",
-        "description": "ElemRV - End-to-end Open-Source RISC-V Microcontroller - aesc-silicon/ElemRV",
-        "publisher": "Github",
-        "publisherDomain": "github.com",
-        "publishedAt": "2026-08-21T02:48:20.000Z",
-        "url": "https://github.com/aesc-silicon/ElemRV",
-        "imageUrl": "https://opengraph.githubassets.com/dd2b5be7292fd01bf5aa1df80147af65da30b7b8940cc0b0ff043c8a442e7929/aesc-silicon/ElemRV",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-52e4c89a-ea06-5992-9578-d45743db3152",
-        "title": "Crypto & NFT Project Directory | Other Worlders",
-        "description": "Discover independently reviewed NFT projects across every chain in the Other Worlders NFT directory.",
-        "publisher": "Otherworlders",
-        "publisherDomain": "otherworlders.com",
-        "publishedAt": "2026-08-21T02:53:59.000Z",
-        "url": "https://otherworlders.com/nft-directory",
-        "imageUrl": "https://otherworlders.com/assets/images/nfts/Angelic.gif",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-d9f1a60a-8cfb-58ee-8ef6-03db07c6445f",
-        "title": "The cost of caring about software",
-        "description": "AI made generating code cheap. Verifying it stayed expensive. The difference lands on whoever still checks.",
-        "publisher": "Substack",
-        "publisherDomain": "alexriosme.substack.com",
-        "publishedAt": "2026-08-21T02:56:29.000Z",
-        "url": "https://alexriosme.substack.com/p/the-cost-of-caring-about-software",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!P5OM!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4ff5cf0-2c83-4ff1-8d36-d2f2dbfa044a_1672x941.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-5ab42305-d33d-5df8-821d-eed800e3b148",
-        "title": "My answer is No.",
-        "publisher": "Columbia",
-        "publisherDomain": "statmodeling.stat.columbia.edu",
-        "publishedAt": "2026-08-21T02:55:40.000Z",
-        "url": "https://statmodeling.stat.columbia.edu/2026/08/20/my-answer-is-no",
+        "id": "currents-f5f0e85d-42af-5885-8e17-e5fb4b24b8d2",
+        "title": "Quantifying over Optimal MSO-Definable Sets on Graphs of Bounded Clique-Width",
+        "description": "We introduce $mathsf{AmCMSO}$, an extension of counting monadic second-order logic ($mathsf{CMSO}$) with predicates that refer to minimum- and maximum-value satisfying assignments. We establish fixed-parameter tractable model-checking meta-theorems for $mathsf{AmCMSO}_1$ on graphs of bounded clique-...",
+        "publisher": "Arxiv",
+        "publisherDomain": "arxiv.org",
+        "publishedAt": "2026-08-21T04:00:00.000Z",
+        "url": "https://arxiv.org/abs/2608.20175v1",
         "categories": [
           "Top",
           "U.S.",
@@ -921,76 +857,13 @@
     ],
     "Science": [
       {
-        "id": "currents-7dd4bff2-7dca-5427-b2b0-17e468005c71",
-        "title": "Engineers warn that changes to electrical safety rules create new hazard",
-        "description": "The country's main engineering industry group has joined warnings that changes to electrical safety rules create a new electrocution hazard for people.",
-        "publisher": "Rnz",
-        "publisherDomain": "rnz.co.nz",
-        "publishedAt": "2026-08-21T02:48:58.000Z",
-        "url": "https://www.rnz.co.nz/news/business/581956/engineers-warn-that-changes-to-electrical-safety-rules-create-new-hazard",
-        "imageUrl": "https://media.rnztools.nz/rnz/image/upload/s--PO_gwnL5--/t_tohu-badge-facebook/f_auto/q_auto/4JWWFEL_Electricians1_png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-64ee01fb-285d-5dae-869d-5fe9774717fb",
-        "title": "aesc-silicon/ElemRV: ElemRV - End-to-end Open-Source RISC-V Microcontroller",
-        "description": "ElemRV - End-to-end Open-Source RISC-V Microcontroller - aesc-silicon/ElemRV",
-        "publisher": "Github",
-        "publisherDomain": "github.com",
-        "publishedAt": "2026-08-21T02:48:20.000Z",
-        "url": "https://github.com/aesc-silicon/ElemRV",
-        "imageUrl": "https://opengraph.githubassets.com/dd2b5be7292fd01bf5aa1df80147af65da30b7b8940cc0b0ff043c8a442e7929/aesc-silicon/ElemRV",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-52e4c89a-ea06-5992-9578-d45743db3152",
-        "title": "Crypto & NFT Project Directory | Other Worlders",
-        "description": "Discover independently reviewed NFT projects across every chain in the Other Worlders NFT directory.",
-        "publisher": "Otherworlders",
-        "publisherDomain": "otherworlders.com",
-        "publishedAt": "2026-08-21T02:53:59.000Z",
-        "url": "https://otherworlders.com/nft-directory",
-        "imageUrl": "https://otherworlders.com/assets/images/nfts/Angelic.gif",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-d9f1a60a-8cfb-58ee-8ef6-03db07c6445f",
-        "title": "The cost of caring about software",
-        "description": "AI made generating code cheap. Verifying it stayed expensive. The difference lands on whoever still checks.",
-        "publisher": "Substack",
-        "publisherDomain": "alexriosme.substack.com",
-        "publishedAt": "2026-08-21T02:56:29.000Z",
-        "url": "https://alexriosme.substack.com/p/the-cost-of-caring-about-software",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!P5OM!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4ff5cf0-2c83-4ff1-8d36-d2f2dbfa044a_1672x941.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-5ab42305-d33d-5df8-821d-eed800e3b148",
-        "title": "My answer is No.",
-        "publisher": "Columbia",
-        "publisherDomain": "statmodeling.stat.columbia.edu",
-        "publishedAt": "2026-08-21T02:55:40.000Z",
-        "url": "https://statmodeling.stat.columbia.edu/2026/08/20/my-answer-is-no",
+        "id": "currents-f5f0e85d-42af-5885-8e17-e5fb4b24b8d2",
+        "title": "Quantifying over Optimal MSO-Definable Sets on Graphs of Bounded Clique-Width",
+        "description": "We introduce $mathsf{AmCMSO}$, an extension of counting monadic second-order logic ($mathsf{CMSO}$) with predicates that refer to minimum- and maximum-value satisfying assignments. We establish fixed-parameter tractable model-checking meta-theorems for $mathsf{AmCMSO}_1$ on graphs of bounded clique-...",
+        "publisher": "Arxiv",
+        "publisherDomain": "arxiv.org",
+        "publishedAt": "2026-08-21T04:00:00.000Z",
+        "url": "https://arxiv.org/abs/2608.20175v1",
         "categories": [
           "Top",
           "U.S.",
@@ -1001,14 +874,14 @@
     ],
     "Sports": [
       {
-        "id": "currents-14e6e872-6b6a-583a-b4d7-23671686e183",
-        "title": "Inside Newcastle Red Bulls' unique pre-season",
-        "description": "Dan McFarland studied classics at Newcastle University in the early 1990s. Two decades on, he is back heading up the team's Red Bull revolution.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-08-21T02:00:38.000Z",
-        "url": "https://www.dailymail.com/sport/rugbyunion/article-16066517/newcastle-red-bull-rugby-preseason.html?ns_campaign=1490&ito=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/20/17/110753757-0-image-m-47_1787245063204.jpg",
+        "id": "currents-e7c629e0-48de-57a5-aba0-c680041fa0c0",
+        "title": "Tour of Britain Women: World's best riders set for Welsh roads",
+        "description": "Some of the world's best riders are ready to take on Welsh roads as the Tour of Britain Women comes to Wales for two days.",
+        "publisher": "BBC News",
+        "publisherDomain": "bbc.co.uk",
+        "publishedAt": "2026-08-21T03:06:24.000Z",
+        "url": "https://www.bbc.co.uk/sport/cycling/articles/cm2g43pj490o",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/c3c9/live/b66617f0-9caf-11f1-b109-879e35c24276.png",
         "categories": [
           "Sports"
         ]
@@ -1021,6 +894,136 @@
         "publisherDomain": "kyivpost.com",
         "publishedAt": "2026-08-21T03:09:54.000Z",
         "url": "https://www.kyivpost.com/thread/82786",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-84cfd601-8273-5524-9018-c113217cf4c4",
+        "title": "Swans AFLW captain wants a say over banned players' return",
+        "description": "Sydney’s AFLW captain Lucy McEvoy says she wants to be a part of any reintegration discussions for the five players banned over a police investigation but says the club remains united.",
+        "publisher": "Thewest",
+        "publisherDomain": "thewest.com.au",
+        "publishedAt": "2026-08-21T04:09:22.000Z",
+        "url": "https://thewest.com.au/sport/sydney-swans/sydney-swans-aflw-captain-lucy-mcevoy-incredibly-dissapointed-but-says-club-is-united-c-22758724",
+        "imageUrl": "https://images.thewest.com.au/publication/C-22758724/daf25879777dbe9a944f2e28ef829eadb61b84f7-16x9-x0y299w5732h3224.jpg?imwidth=1200",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-35c6c0b0-9228-5532-b546-c191b2638783",
+        "title": "Bichu Devi’s stunning save helps India hold England, reach World Cup next round",
+        "description": "With just about half a minute left for the hooter, England’s Tessa Howard fired a shot of strange menace and intent towards the top-right corner of the Indian goal — on the turn, and from the edge of the D.",
+        "publisher": "Indiatimes",
+        "publisherDomain": "timesofindia.indiatimes.com",
+        "publishedAt": "2026-08-21T03:33:59.000Z",
+        "url": "https://timesofindia.indiatimes.com/sports/hockey/bichu-devis-stunning-save-helps-india-hold-england-reach-world-cup-next-round/articleshow/133391945.cms",
+        "imageUrl": "https://static.toiimg.com/thumb/msid-133391990,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-b2b1e862-6112-5872-a6ed-10b6771c842a",
+        "title": "Losses, betting probe, corruption: BCB suspends Bangladesh Premier League after years of chaos",
+        "description": "Bangladesh’s top domestic T20 tournament, the Bangladesh Premier League (BPL), will not be held this year as the Bangladesh Cricket Board (BCB) plans to restructure the competition, board president Tamim Iqbal said on Thursday.",
+        "publisher": "Indiatimes",
+        "publisherDomain": "timesofindia.indiatimes.com",
+        "publishedAt": "2026-08-21T03:29:54.000Z",
+        "url": "https://timesofindia.indiatimes.com/sports/cricket/news/losses-betting-probe-corruption-bcb-suspends-bangladesh-premier-league-after-years-of-chaos/articleshow/133391570.cms",
+        "imageUrl": "https://static.toiimg.com/thumb/msid-133391857,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-4f2179cb-e0bc-5cf5-ad5a-cffb724e6f89",
+        "title": "Wang downs Sindhu to break Indian hearts at badminton world championships",
+        "description": "Wang beat ninth-seeded Sindhu despite severely cramping in the deciding game. Read more at straitstimes.com. Read more at straitstimes.com.",
+        "publisher": "Straitstimes",
+        "publisherDomain": "straitstimes.com",
+        "publishedAt": "2026-08-21T03:25:00.000Z",
+        "url": "https://www.straitstimes.com/sport/wang-downs-sindhu-to-break-indian-hearts-at-badminton-worlds",
+        "imageUrl": "https://cassette.sphdigital.com.sg/image/straitstimes/bd63423e666a953a37899cb674a245b28ac5c29e789bb9f7c0ca6ffafc16af58",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-39786040-7aca-59ee-824a-37e2beebaddf",
+        "title": "Fernando Mendoza throws a pick-6, struggles in 1st half of Raiders' 22-20 preseason win over Texans",
+        "description": "HOUSTON (AP) — Top draft pick Fernando Mendoza struggled in his second preseason game, throwing an interception that Houston returned for a touchdown before the Las Vegas Raiders rallied late for a 22-20 victory over the Texans on Thursday night.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-08-21T03:20:42.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/08/20/fernando-mendoza-throws-a-pick-6-struggles-in-1st-half-of-raiders-22-20-preseason-win-over-texans",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a87c3f9270eb4db4d5d3bc4jpeg.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-86cd6ce9-753c-53d0-88ac-7a0b5454f705",
+        "title": "Neto homers in 5-hit, 7-RBI night to help the Angels rout the Astros 18-3",
+        "description": "HOUSTON (AP) — Zach Neto was 5-for-6 with his 21st homer and a career-high seven RBIs and the Los Angeles Angels scored their most runs in three years to rout the Houston Astros 18-3 on Thursday night.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-08-21T03:17:55.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/baseball/2026/08/20/neto-homers-in-5-hit-7-rbi-night-to-help-the-angels-rout-the-astros-18-3",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a87c351270eb4db4d5d3a8ejpeg.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-57f0a8cb-0e75-5823-bc63-2702ff941f11",
+        "title": "Hussey considering batting coaching role with England for Ashes series",
+        "description": "SYDNEY, Aug 21 - Former Australia test stalwart Mike Hussey said he would consider a role helping England with their batting for next year's Ashes series after an \"off-the-cuff\" approach from Stephen Fleming. Read more at straitstimes.com. Read more at straitstimes.com.",
+        "publisher": "Straitstimes",
+        "publisherDomain": "straitstimes.com",
+        "publishedAt": "2026-08-21T03:02:24.000Z",
+        "url": "https://www.straitstimes.com/sport/hussey-considering-batting-coaching-role-with-england-for-ashes-series",
+        "imageUrl": "https://cassette.sphdigital.com.sg/image/straitstimes/8c45add19fd741ff56c75ba7a3bae2991ea77f3c10d8bc3ece82c3235b506252",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-a3725e64-4cb2-50b8-9bc1-e2734420edcf",
+        "title": "Trump, Iran and Infantino: Auckland FC's chaotic Middle Eastern trip",
+        "description": "SafeTravel warns against non-essential travel as Auckland FC head to Jeddah.",
+        "publisher": "Nzherald",
+        "publisherDomain": "nzherald.co.nz",
+        "publishedAt": "2026-08-21T03:01:00.000Z",
+        "url": "https://www.nzherald.co.nz/sport/football/auckland-fc/auckland-fcs-saudi-arabia-trip-overshadowed-by-trump-iran-threats-infantino-controversy/A3AAIOX4IBHXNE4MEKL55ZXMFM",
+        "imageUrl": "https://www.nzherald.co.nz/resizer/v2/MH6SLWHS4RAX7JC4XRXKQ6RPHU.jpg?auth=ea769c3fa5bcb8fb04c02c895c5a8033599cfde960f32d22b562843fb1df2137&width=1200&height=675&quality=70&focal=783%2C292&smart=false",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-48b5d6cc-6b92-5e52-8568-945b89ad7338",
+        "title": "Nancy Kissinger, a force beside her diplomat husband, dead at 92",
+        "description": "At almost 6 feet tall, with a ready wit, lithe figure, patrician manners and Episcopalian rearing, she was an intriguing foil to her husband",
+        "publisher": "Nationalpost",
+        "publisherDomain": "nationalpost.com",
+        "publishedAt": "2026-08-21T02:56:50.000Z",
+        "url": "https://nationalpost.com/news/nancy-kissinger-a-force-beside-her-diplomat-husband-dead-at-92",
+        "imageUrl": "https://smartcdn.gprod.postmedia.digital/nationalpost/wp-content/uploads/2026/08/US-MET-OPERA-OPENING-NIGHT.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-3f157748-4b73-50fc-9560-1a9d132c3e18",
+        "title": "Satwik-Chirag survive Malaysian scare, storm into World Championships quarterfinals",
+        "description": "New Delhi: The brown tape wrapped around Satwiksairaj Rankireddy’s right shoulder was impossible to miss. Neither was the way he kept testing it, stretching, rotating, preparing himself for the demands of a big-stage match, nearly three months since their last competitive outing.",
+        "publisher": "Indiatimes",
+        "publisherDomain": "timesofindia.indiatimes.com",
+        "publishedAt": "2026-08-21T02:56:20.000Z",
+        "url": "https://timesofindia.indiatimes.com/sports/badminton/satwik-chirag-survive-malaysian-scare-storm-into-world-championships-quarterfinals/articleshow/133391308.cms",
+        "imageUrl": "https://static.toiimg.com/thumb/msid-133391366,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
         "categories": [
           "Sports"
         ]
@@ -1048,8 +1051,19 @@
         "url": "https://nypost.com/2026/08/20/sports/mls-looking-to-make-massive-overhaul-to-playoff-structure",
         "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/newspress-collage-bu0g0lmow-1787280015908.jpg?quality=75&strip=all&1787265639&w=1200",
         "categories": [
-          "Top",
-          "U.S.",
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-36465d60-a0b3-5166-8f46-4b1f2a3b5327",
+        "title": "195-run lead! Joe Root's England leave Pakistan on the ropes at Headingley after day 2",
+        "description": "England took control of the first Test against Pakistan on Thursday, finishing Day 2 on 366/8 and taking a first-innings lead of 195 runs at Headingley.",
+        "publisher": "Indiatimes",
+        "publisherDomain": "timesofindia.indiatimes.com",
+        "publishedAt": "2026-08-21T02:53:42.000Z",
+        "url": "https://timesofindia.indiatimes.com/sports/cricket/news/195-run-lead-joe-roots-england-leave-pakistan-on-the-ropes-at-headingley-after-day-2/articleshow/133391218.cms",
+        "imageUrl": "https://static.toiimg.com/thumb/msid-133391293,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+        "categories": [
           "Sports"
         ]
       },
@@ -1065,358 +1079,226 @@
         "categories": [
           "Sports"
         ]
-      },
-      {
-        "id": "currents-e4f6732a-1771-519f-9c07-f5c23c6359bc",
-        "title": "49ers’ bad drafts forced them to retread rather than reset",
-        "description": "The 49ers held their last practice in front of fans this week, and nothing this training camp has gotten the faithful hooting and hollering more than two particular players. Any play involving red …",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-08-21T02:48:56.000Z",
-        "url": "https://nypost.com/2026/08/20/sports/aging-49ers-roster-reflects-failure-to-invest-in-young-talent",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/SHANAHAN2-1.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-52237702-6256-5313-ad4c-ee3804fc2f67",
-        "title": "Inter Milan set for Serie A title defence as AC Milan get Ruben Amorim reboot",
-        "description": "Inter are targeting a third league title in four seasons. Read more at straitstimes.com. Read more at straitstimes.com.",
-        "publisher": "Straitstimes",
-        "publisherDomain": "straitstimes.com",
-        "publishedAt": "2026-08-21T02:45:00.000Z",
-        "url": "https://www.straitstimes.com/sport/football/inter-milan-set-for-serie-a-title-defence-as-ac-milan-get-ruben-amorim-reboot",
-        "imageUrl": "https://cassette.sphdigital.com.sg/image/straitstimes/ed9e528ab596ea5da6274877b6a68fc7993b43f76dd422ca337986fcdf5d17a4",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-dcbffbaa-5de3-511d-b043-8741bb71c530",
-        "title": "Swiatek into Cincinnati semis after Rybakina injury",
-        "description": "Trailing 4-1 in the opening set, Kazakh Rybakina suddenly pulled up short at 40-all. Read more at straitstimes.com. Read more at straitstimes.com.",
-        "publisher": "Straitstimes",
-        "publisherDomain": "straitstimes.com",
-        "publishedAt": "2026-08-21T02:40:00.000Z",
-        "url": "https://www.straitstimes.com/sport/tennis/swiatek-into-cincinnati-semis-after-rybakina-injury",
-        "imageUrl": "https://cassette.sphdigital.com.sg/image/straitstimes/88b9d67f4f5e96318878c173081ea85b1986956cddc7703264ca829c942661ab",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-f08323e6-2f2a-52f6-a153-7656c06b9be6",
-        "title": "Barcelona enter new era as Flick targets La Liga hat-trick",
-        "description": "Departures have left the German with a reshaped attack as Barca begin their campaign on Aug 23. Read more at straitstimes.com. Read more at straitstimes.com.",
-        "publisher": "Straitstimes",
-        "publisherDomain": "straitstimes.com",
-        "publishedAt": "2026-08-21T02:40:00.000Z",
-        "url": "https://www.straitstimes.com/sport/football/barcelona-enter-new-era-as-flick-targets-la-liga-hat-trick",
-        "imageUrl": "https://cassette.sphdigital.com.sg/image/straitstimes/7e4a7fab3cd3c25ef39128852f34dca1978aa424d2b13b067e8f2a8adfb7ce4b",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-ae9da457-758b-538c-899f-914d3931d09f",
-        "title": "Rangers' Jacob deGrom surpasses 2,000 K's and combines with 3 on 1-hitter in 2-0 win over Nationals",
-        "description": "ARLINGTON, Texas (AP) — Jacob deGrom struck out 10 and allowed one hit and one walk in six innings while reaching 2,000 career strikeouts in the second-fewest games and innings in major league history as the Texas Rangers beat the Washington Nationals 2-0 on Thursday night.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-21T02:38:36.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/baseball/2026/08/20/rangers-jacob-degrom-surpasses-2000-ks-and-combines-with-3-on-1-hitter-in-2-0-win-over-nationals",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a87ba1e270eb4db4d5d3206jpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-7a042173-c01d-5076-8f1c-8e0b554c2f10",
-        "title": "New twist in Sydney Swans saga as father of alleged victim speaks out",
-        "description": "The man has revealed what happened in the moments before Pullman Hotel staff were approached.",
-        "publisher": "7news",
-        "publisherDomain": "7news.com.au",
-        "publishedAt": "2026-08-21T02:30:57.000Z",
-        "url": "https://7news.com.au/sport/sydney-swans/father-of-alleged-victim-at-centre-of-sydney-swans-saga-reveals-she-suffered-medical-episode-before-seeking-help-c-22757427",
-        "imageUrl": "https://images.7news.com.au/publication/C-22757427/1fa5168e0cc24a3caec04b0d48232fb7fc83848e-16x9-x0y0w1304h734.jpg?imwidth=1200",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-af76e5fb-bdc3-5124-9bd6-62ffe8287745",
-        "title": "Silver Fern switches Super Netball allegiance with two-year deal",
-        "description": "The midcourter joins former Silver Ferns captain Ameliaranne Ekenasio in Perth.",
-        "publisher": "Nzherald",
-        "publisherDomain": "nzherald.co.nz",
-        "publishedAt": "2026-08-21T02:30:00.000Z",
-        "url": "https://www.nzherald.co.nz/sport/netball/silver-ferns/silver-fern-maddy-gordon-inks-super-netball-deal-with-west-coast-fever-exits-queensland-firebirds/EC67ZNLKTRALNMZ4W4EGNFUC5M",
-        "imageUrl": "https://www.nzherald.co.nz/resizer/v2/MAVNZCMTVVEPHMGUAAOV44V7TA.JPG?auth=1c879b861ac038859433b53f58bd314030a79beb8d6d59b35c77d3e75f53cfb2&width=1200&height=675&quality=70&focal=2205%2C663&smart=false",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-26dd9b91-c7f3-524e-bf34-46845ebcaa0d",
-        "title": "Red Bulls have their eyes on 23-year-old Mexico star Brian Gutierrez",
-        "description": "Red Bull New York is pursuing a Mexican international who was part of the country’s World Cup roster this summer.",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-08-21T02:28:56.000Z",
-        "url": "https://nypost.com/2026/08/20/sports/red-bulls-have-their-eyes-on-23-year-old-mexico-star-brian-gutierrez",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/crop-40441374.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-177d6126-f745-5935-8ec6-45d9c0c9e207",
-        "title": "US Open hits US$108 million purse record as ticket prices soar",
-        "description": "Grounds passes, once as low as US$65, now sell for prices for over US$300. Read more at straitstimes.com. Read more at straitstimes.com.",
-        "publisher": "Straitstimes",
-        "publisherDomain": "straitstimes.com",
-        "publishedAt": "2026-08-21T02:25:00.000Z",
-        "url": "https://www.straitstimes.com/sport/tennis/us-open-hits-us108-million-purse-record-as-ticket-prices-soar",
-        "imageUrl": "https://cassette.sphdigital.com.sg/image/straitstimes/b8e46a03013a257923fd7ac85cc0d20c963caed5a6f194c6147bf82f44ed1205",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-f7d8781f-4f98-50ab-8ef3-2241ac03d34c",
-        "title": "Diamondbacks star Ketel Marte will move to 10-day injured list after mysterious absence",
-        "description": "PHOENIX (AP) — Arizona Diamondbacks second baseman Ketel Marte will be transferred to the 10-day injured list from the restricted list, three days after he failed to show up for a game in Boston.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-21T02:05:31.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/baseball/2026/08/20/diamondback-star-ketel-marte-will-move-to-10-day-injured-list-after-mysterious-absence",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a87b262270eb4db4d5d2880jpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-b3fa6b97-bc02-5adc-852f-0786e43ab3db",
-        "title": "What Liam Lawson’s Red Bull return really says about his F1 future",
-        "description": "ANALYSIS: Red Bull are not setting the Kiwi up to fail at Zandvoort.",
-        "publisher": "Nzherald",
-        "publisherDomain": "nzherald.co.nz",
-        "publishedAt": "2026-08-21T02:01:00.000Z",
-        "url": "https://www.nzherald.co.nz/sport/motorsport/formula-1/formula-1-what-liam-lawsons-return-really-says-about-his-future-prospects-alex-powell/premium/VTBYADIWYRAYHEGUOA3LVBA5SE",
-        "imageUrl": "https://www.nzherald.co.nz/resizer/v2/SYK2T4Z63VHHZA5RC6B35TQWOM.jpg?auth=79a8ad65d27d2cac5017fb38d7f5ed0cae0b058f678d3fbc3818bd2ea089063a&width=1200&height=675&quality=70&focal=484%2C275&smart=false",
-        "categories": [
-          "Sports"
-        ]
       }
     ],
     "Entertainment": [
       {
-        "id": "currents-a63443a4-bf0d-5b91-b8b6-aa3171b13ded",
-        "title": "James Wilkie Broderick makes shocking statement about modeling career",
-        "description": "The Entertainment 360-repped actor left members-only luxury gym and spa, S10 Training and Recovery, in New York City's West Village neighborhood on Wednesday",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-08-21T02:35:02.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16068705/Sara-Jessica-Parker-nepo-baby-James-Wilkie-Broderick-bulging-biceps-modeling-career.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/21/03/110764901-0-image-m-29_1787278446359.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-3ae8af95-8727-5f82-bc62-2b1c1c9be409",
-        "title": "Dhanush surprises fans during ‘Om’ shoot; wins their hearts with his sweet interactions at Jawadhu Hills",
-        "description": "Dhanush continues to keep a busy schedule as he works on his upcoming film ‘Om – Chapter 1: Udhiram – The Blood Wood.’ The actor is currently shooting in the forest regions of Tiruvannamalai, where the film is being mounted on a large scale. While the shoot has largely remained away from the spotlig...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "timesofindia.indiatimes.com",
-        "publishedAt": "2026-08-21T02:53:56.000Z",
-        "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/dhanush-surprises-fans-during-om-shoot-wins-their-hearts-with-his-sweet-interactions-at-jawadhu-hills/articleshow/133391297.cms",
-        "imageUrl": "https://static.toiimg.com/thumb/msid-133391317,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-328d3338-a42a-5e0a-92f1-52c414145ef4",
-        "title": "Jason Sudeikis says it was a ‘joy’ for ex-star’s real-life sister to join Ted Lasso",
-        "description": "Actor appears in latest episode of ‘Ted Lasso’ season four",
-        "publisher": "Independent",
-        "publisherDomain": "independent.co.uk",
-        "publishedAt": "2026-08-21T02:49:07.000Z",
-        "url": "https://www.independent.co.uk/arts-entertainment/tv/news/ted-lasso-season-4-dani-rojas-real-sister-b3036776.html",
-        "imageUrl": "https://static.independent.co.uk/2026/08/20/18/35/GettyImages-2221578499-(1).jpg?trim=0,1,0,1&width=1200&height=800&crop=1200:800",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-ee818892-cacf-5d8a-bbd3-11afbb774338",
-        "title": "Rajinikanth's Jailer 2 Song Ala Bolelo Triggers Language Row: 'Hire A Singer Who Knows Malayalam'",
-        "description": "Keralites are upset over the mispronunciation of Malayalam words in the \"Ala Bolelo\" song promo from Rajinikanth's \"Jailer 2.",
-        "publisher": "News18",
-        "publisherDomain": "news18.com",
-        "publishedAt": "2026-08-21T02:43:31.000Z",
-        "url": "https://www.news18.com/movies/regional-cinema/rajinikanths-jailer-2-song-ala-bolelo-triggers-language-row-hire-a-singer-who-knows-malayalam-ws-l-10285221.html",
-        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/08/BeFunky-collage-2026-08-6b652667fc46f32d9e326e345ec23489-1200x675.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-a05800c7-5ee5-5522-9871-3467d533e0db",
-        "title": "Ariana Grande issues furious response after Trump's team uses her song",
-        "description": "Ariana Grande issued a furious five-word response after President Donald Trump's official Team Trump TikTok account once used her music in a new video.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-08-21T02:32:48.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16068665/ariana-grande-donald-trump-anti-trans-tiktok.html?ns_campaign=1490&ito=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/21/01/110764225-0-image-m-24_1787271442149.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-0a8f30be-60e2-5582-9355-7da571990c3c",
-        "title": "Was Santhosh Narayanan taking a dig at Sai Abhyankkar? Composer clarifies his ‘Mannaru’ video",
-        "description": "Composer Santhosh Narayanan has addressed the online discussion around his recent video featuring Mannar Muthu. The composer appeared in a light-hearted interaction with Mannar Muthu and spoke about creating an unplugged version of their recently released track ‘Mannaru.’ His playful approach quickl...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "timesofindia.indiatimes.com",
-        "publishedAt": "2026-08-21T02:42:08.000Z",
-        "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/was-santhosh-narayanan-taking-a-dig-at-sai-abhyankkar-composer-clarifies-his-mannaru-video/articleshow/133391140.cms",
-        "imageUrl": "https://static.toiimg.com/thumb/msid-133391154,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-7fb4550e-69d8-5ef0-9d94-9f65d46b8a69",
-        "title": "Honey Singh Impressed With Yash's Ravana In Ramayana: 'Ranbir Bhai Se Zyada Ache'",
-        "description": "Besides Yash and Ranbir Kapoor, Ramayana features Sai Pallavi, Sunny Deol and Ravi Dubey in pivotal roles.",
-        "publisher": "News18",
-        "publisherDomain": "news18.com",
-        "publishedAt": "2026-08-21T02:31:22.000Z",
-        "url": "https://www.news18.com/movies/bollywood/honey-singh-impressed-with-yash-ravana-in-ramayana-ranbir-bhai-se-zyada-ache-ws-lt-10285218.html",
-        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/08/Honey-Singh-Yashs-Ravana-In-Ramayana-2026-08-0376df368410ecca03d7a9510f38a734-1200x675.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-099820c1-47df-585d-a16b-041456f804cb",
-        "title": "30 Home Decor Pieces From Walmart That’ll Have Your Space Looking Absolutely Lovely",
-        "description": "Including a bolster pillow that looks like a sweet piece of candy.",
+        "id": "currents-093cb489-f4c6-5c7e-94f8-c1d9e85fb0e0",
+        "title": "39 Products That Are So Good, You'll Hit The Reorder Button Without Hesitation",
+        "description": "Before ya know it, you'll be telling everyone about how much you love \"Butt Stuff.\"",
         "publisher": "Buzzfeed",
         "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-08-21T02:31:03.000Z",
-        "url": "https://www.buzzfeed.com/bykitstone/home-decor-pieces-walmart-lovely",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/10/13/thumb/FHF7j1pUg.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+        "publishedAt": "2026-08-21T04:01:02.000Z",
+        "url": "https://www.buzzfeed.com/jordanagrigs/products-so-good-hit-the-reorder-button",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/11/04/thumb/2D3PmuBmi.jpg?crop=3000:1571;0,3%26downsize=1250:*",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-28d50e9c-0f24-5bfe-8127-96dc4990f326",
+        "title": "Beauty Inc Editors on Their Favorite August Launches",
+        "description": "WWD Beauty Inc editors share their favorite new product launches from YSL Beauty, E.l.f. Skin and more.",
+        "publisher": "Wwd",
+        "publisherDomain": "wwd.com",
+        "publishedAt": "2026-08-21T04:01:00.000Z",
+        "url": "https://wwd.com/beauty-industry-news/beauty-features/best-beauty-products-summer-editor-picks-1239085766",
+        "imageUrl": "https://wwd.com/wp-content/uploads/2026/08/beauty-team-wwd.jpg?w=1000&h=563&crop=1",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-d7c36b60-fed5-5302-954c-8c216670defc",
+        "title": "General Hospital’s Chad Duell Didn’t Think Michael Would Be Recast, Is Open To Join B&B",
+        "description": "Chad Duell revealed that he didn't expect General Hospital to recast Michael after his 2024 departure. Here are the details.",
+        "publisher": "Comingsoon",
+        "publisherDomain": "comingsoon.net",
+        "publishedAt": "2026-08-21T03:44:00.000Z",
+        "url": "https://www.comingsoon.net/guides/news/2179952-general-hospital-chad-duell-didnt-think-michael-recast-return",
+        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/08/MixCollage-21-Aug-2026-09-12-AM-2913.jpg?resize=1200,630",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-832ce344-04bc-57cb-abd1-d830447749b9",
-        "title": "Jaafar Jackson Predicts ‘Michael’ Sequel Will Offer ‘Insight’ Into Child Abuse Allegations From Singer's POV",
-        "description": "With a potential sequel on the horizon, \"Michael\" star (and MJ's nephew) Jaafar Jackson shared he believes this topic will be addressed in the follow-up.",
-        "publisher": "Thewrap",
-        "publisherDomain": "thewrap.com",
-        "publishedAt": "2026-08-21T02:12:38.000Z",
-        "url": "https://www.thewrap.com/creative-content/movies/jaafar-jackson-michael-sequel-more-insight-child-abuse-allegations",
-        "imageUrl": "https://www.thewrap.com/wp-content/uploads/2026/08/Michael-Jaafar-Jackson.jpg",
+        "id": "currents-5c15a46e-8658-54e0-9729-cd5234287e8d",
+        "title": "Bigg Boss Common Man Explained: What Is The New Reality Show About?",
+        "description": "Bigg Boss: The Common Man premiered on August 16, 2026. The reality show is being broadcast on Vijay TV and is also available to stream on JioHotstar.",
+        "publisher": "News18",
+        "publisherDomain": "news18.com",
+        "publishedAt": "2026-08-21T03:39:33.000Z",
+        "url": "https://www.news18.com/movies/tamil-cinema/bigg-boss-common-man-explained-what-is-the-new-reality-show-about-ws-l-10285275.html",
+        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/08/Bigg-Boss-Common-Man-2026-08-79c4a0f803a8cd4d8b8d468a3804b519-1200x675.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-90618d06-7635-58d5-8407-5b86ffd22499",
-        "title": "'Outer Banks' Star Madison Bailey On Show's \"Lack Of Queer Representation\"",
-        "description": "With 'Outer Banks' coming to an end, Madison Bailey wants to spread her wings as she contemplates the future of her career.",
-        "publisher": "Deadline",
-        "publisherDomain": "deadline.com",
-        "publishedAt": "2026-08-21T02:07:14.000Z",
-        "url": "https://deadline.com/2026/08/outer-banks-madison-bailey-lack-queer-representation-1237047181",
-        "imageUrl": "https://deadline.com/wp-content/uploads/2026/08/P107OMWA-e1787275456846.jpg?w=1024",
+        "id": "currents-650493c9-675b-5495-8f97-29136b1ee6a4",
+        "title": "Inside the WWD Archive: When WWD’s ‘Chutzpah Ratings’ Revealed Icons Shaping the Zeitgeist",
+        "description": "Explore the influential personalities whose style, nerve and cultural impact helped shaped fashion, politics and pop culture.",
+        "publisher": "Wwd",
+        "publisherDomain": "wwd.com",
+        "publishedAt": "2026-08-21T04:01:00.000Z",
+        "url": "https://wwd.com/fashion-news/fashion-features/inside-wwd-archives-the-chutzpah-of-becoming-an-icon-1239127543",
+        "imageUrl": "https://wwd.com/wp-content/uploads/2026/08/icons_barbara-and-lena.jpg?crop=0px%2C101px%2C1250px%2C700px&resize=1000%2C563",
         "categories": [
+          "Top",
+          "U.S.",
           "Entertainment"
         ]
       },
       {
-        "id": "currents-ef014b5b-8b9a-5f3a-a1e5-9a81a0939ebf",
-        "title": "27 Beauty And Personal Care Products That Do Their Jobs So Well, You’ll Want To Celebrate",
-        "description": "🎵 Yeaaaaaahh, it's a party (for your skin) in the USA 🎵",
+        "id": "currents-8f9da5f1-1bb2-5439-b01f-e464efe5e792",
+        "title": "Nili Lotan Unveils Fall Ad Campaign Focused on Modern Americana and New Western Boots",
+        "description": "The campaign was shot by Gray Sorrenti, known for her cool, stylish and fresh photography.",
+        "publisher": "Wwd",
+        "publisherDomain": "wwd.com",
+        "publishedAt": "2026-08-21T04:01:00.000Z",
+        "url": "https://wwd.com/fashion-news/fashion-features/nili-lotan-fall-ad-campaign-f-modern-americana-new-western-boots-1239127359",
+        "imageUrl": "https://wwd.com/wp-content/uploads/2026/08/nili-lotan-fall-2026-ctsy-04.jpg?crop=0px%2C0px%2C5395px%2C3022px&resize=1000%2C563",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-9fb2bd1e-cb1d-59ca-8508-fb30b8f6b60d",
+        "title": "Meet the Man Preserving the Lost Art of the Fragrance Factice",
+        "description": "Factice collector Sudhir Gupta has amassed more than 3,000 supersized perfume bottles from brands including Chanel, Dior, Jean Paul Gaultier and more.",
+        "publisher": "Wwd",
+        "publisherDomain": "wwd.com",
+        "publishedAt": "2026-08-21T04:01:00.000Z",
+        "url": "https://wwd.com/beauty-industry-news/fragrance/fragrance-factice-dior-chanel-guerlain-collection-1239079530",
+        "imageUrl": "https://wwd.com/wp-content/uploads/2026/08/WWD_Facticerie_004.jpg?crop=0px%2C635px%2C1624px%2C909px&resize=1000%2C563",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-ae2c6aea-00db-514c-b50f-65a4694e8e11",
+        "title": "Only People With Elite Pattern Recognition Can Solve This Word Puzzle",
+        "description": "This is what your lunch break was made for.",
         "publisher": "Buzzfeed",
         "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-08-21T02:01:02.000Z",
-        "url": "https://www.buzzfeed.com/gabriellermoss/beauty-personal-care-products",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/05/15/thumb/qXZ0Q91d-.jpg?crop=3000:1571;0,211%26downsize=1250:*",
+        "publishedAt": "2026-08-21T04:00:02.000Z",
+        "url": "https://www.buzzfeed.com/avalonlustick/pyramid-scheme-august-21-2026",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/03/18/thumb/DoVDqKmcb.jpg?crop=2988:1992;6,0&resize=1250:830",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-5dbca811-73a8-597f-a5d9-70905a06be24",
-        "title": "K-Pop Idol Apologizes For Calling 15-Year-Old Fan A \"Naked Mole Rat\"",
-        "description": "After insulting a young fan during a fansign, a male K-Pop idol has apologized on her video recollecting the event when it happened.",
-        "publisher": "Koreaboo",
-        "publisherDomain": "koreaboo.com",
-        "publishedAt": "2026-08-21T02:00:40.000Z",
-        "url": "https://www.koreaboo.com/news/kpop-idol-apologizes-calling-fan-naked-mole-rat",
-        "imageUrl": "https://image.koreaboo.com/2026/08/FEATURED-IMAGE-2026-08-20T204947.302.jpg",
+        "id": "currents-1a6c8617-cc86-5e6a-b90b-d0668a2d1777",
+        "title": "Get Ready for Generation Beta, Beauty’s Next Big Demographic Opportunity",
+        "description": "Meet Gen Beta, the tiny tots whose discerning parents are changing the face of children's personal care.",
+        "publisher": "Wwd",
+        "publisherDomain": "wwd.com",
+        "publishedAt": "2026-08-21T04:00:00.000Z",
+        "url": "https://wwd.com/beauty-industry-news/beauty-features/generation-beta-beautys-next-big-demographic-opportunity-1239083468",
+        "imageUrl": "https://wwd.com/wp-content/uploads/2026/08/babylesstan_c6c727.jpg?w=1000&h=563&crop=1",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-53e73b6a-cda8-5a04-a162-a6095effc88d",
-        "title": "NYT Connections Sports Edition today: Hints and answers for August 21, 2026",
-        "description": "Everything you need to solve Connections Sports Edition #698",
-        "publisher": "Mashable",
-        "publisherDomain": "sea.mashable.com",
-        "publishedAt": "2026-08-21T02:00:00.000Z",
-        "url": "https://sea.mashable.com/games/53985/nyt-connections-sports-edition-today-hints-and-answers-for-august-21-2026",
-        "imageUrl": "https://sm.mashable.com/t/mashable_sea/article/n/nyt-connec/nyt-connections-sports-edition-today-hints-and-answers-for-a_m982.1200.jpg",
+        "id": "currents-f5760357-b381-5c54-9789-9a1357add820",
+        "title": "How Gucci Westman and David Neville Are Building a Luxury Beauty Brand for the Ages",
+        "description": "How Westman Atelier, led by Gucci Westman and David Neville, is redefining luxury beauty with intentional growth.",
+        "publisher": "Wwd",
+        "publisherDomain": "wwd.com",
+        "publishedAt": "2026-08-21T04:00:00.000Z",
+        "url": "https://wwd.com/beauty-industry-news/beauty-features/gucci-westman-david-neville-luxury-beauty-brand-1239097104",
+        "imageUrl": "https://wwd.com/wp-content/uploads/2026/08/Cover-F2-WWD_Gucci_Westman_and_David_Neville_450-copy.jpg?crop=0px%2C778px%2C3521px%2C1973px&resize=1000%2C563",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-8f087ea0-f6ac-5ff3-9482-c7a88bb4e2c5",
+        "title": "Jason Statham’s Mutiny Leak Has Fans Saying the Same Things",
+        "description": "Amazon accidentally streamed Jason Statham's Mutiny days before its theatrical release, and fans are reacting the same.",
+        "publisher": "Comingsoon",
+        "publisherDomain": "comingsoon.net",
+        "publishedAt": "2026-08-21T03:38:11.000Z",
+        "url": "https://www.comingsoon.net/movies/news/2179956-mutiny-leak-jason-statham-fan-reactions",
+        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/08/MixCollage-21-Aug-2026-09-05-AM-5646.jpg?resize=1200,630",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-a45d8033-39a1-5727-8b29-42307b8cca75",
-        "title": "NYT Strands hints, answers for August 21, 2026",
-        "description": "Every hint, nudge and outright answer you need to complete today's NYT Strands puzzle.",
-        "publisher": "Mashable",
-        "publisherDomain": "sea.mashable.com",
-        "publishedAt": "2026-08-21T02:00:00.000Z",
-        "url": "https://sea.mashable.com/games/53981/nyt-strands-hints-answers-for-august-21-2026",
-        "imageUrl": "https://sm.mashable.com/t/mashable_sea/article/n/nyt-strand/nyt-strands-hints-answers-for-august-21-2026_5jzr.1200.jpg",
+        "id": "currents-fa6c8e07-74e6-572b-aba4-7a5cb6023b26",
+        "title": "Madison Bailey Calls Out Outer Banks’ ‘Lack of Queer Representation,’ Claps Back at Critics",
+        "description": "Madison Bailey calls out Outer Banks' lack of queer representation and claps back at critics opposing LGBTQ+ visibility on screen.",
+        "publisher": "Comingsoon",
+        "publisherDomain": "comingsoon.net",
+        "publishedAt": "2026-08-21T03:32:15.000Z",
+        "url": "https://www.comingsoon.net/guides/news/2179951-outer-banks-season-5-madison-bailey-lack-of-queer-representation-lgbtq",
+        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/08/MixCollage-21-Aug-2026-01-31-PM-179.jpg?resize=1200,630",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-e99242ca-5d67-513b-96a3-3fbeb1b5fd49",
-        "title": "Wordle today: Answer, hints for August 21, 2026",
-        "description": "Here are some tips and tricks to help you find the answer to \"Wordle\" #1889.",
-        "publisher": "Mashable",
-        "publisherDomain": "sea.mashable.com",
-        "publishedAt": "2026-08-21T02:00:00.000Z",
-        "url": "https://sea.mashable.com/games/53987/wordle-today-answer-hints-for-august-21-2026",
-        "imageUrl": "https://sm.mashable.com/t/mashable_sea/article/w/wordle-tod/wordle-today-answer-hints-for-august-21-2026_85kj.1200.jpg",
+        "id": "currents-6a488c0c-aa80-56c4-9007-9792fd1c1c7f",
+        "title": "Silo Season 3 Just Revealed the Real Reason 50 Silos Were Built",
+        "description": "Silo Season 3 Episode 8 reveals why the silos were built, exposing the terrifying threat that drove their construction.",
+        "publisher": "Comingsoon",
+        "publisherDomain": "comingsoon.net",
+        "publishedAt": "2026-08-21T03:31:44.000Z",
+        "url": "https://www.comingsoon.net/tv/news/2179953-silo-season-3-why-50-silos-built-dug-reason",
+        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/08/MixCollage-21-Aug-2026-08-58-AM-9586.jpg?resize=1200,630",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-b91c2498-3960-5637-a410-f264652fc33e",
-        "title": "Drax the Destroyer is the God of War",
-        "description": "Dave Bautista is going grey",
-        "publisher": "Ign",
-        "publisherDomain": "ign.com",
-        "publishedAt": "2026-08-21T02:26:22.000Z",
-        "url": "https://www.ign.com/shorts/drax-the-destroyer-is-the-god-of-war",
-        "imageUrl": "https://assets-prd.ignimgs.com/2026/08/21/31bafab6-5ffd-40e1-9dcc-9049c93a2413-1787279177295.jpg?width=1280&format=jpg&auto=webp&quality=80",
+        "id": "currents-a2e9b523-13e3-502d-991c-8baee238bee6",
+        "title": "The 2026 Most Powerful Brands in Beauty",
+        "description": "From Amika to Medicube to Rhode to YSL and beyond, WWD Beauty Inc rounds up the 50 brands charting the beauty industry's future.",
+        "publisher": "Wwd",
+        "publisherDomain": "wwd.com",
+        "publishedAt": "2026-08-21T04:01:00.000Z",
+        "url": "https://wwd.com/beauty-industry-news/beauty-features/lists/beauty-power-brands-2026-1239143216",
+        "imageUrl": "https://wwd.com/wp-content/uploads/2026/08/power-brands-web-collage-1-1.jpg?w=1000&h=563&crop=1",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-ead40fb9-063d-5eef-bd19-cdec56a1f8bb",
+        "title": "Denis O'Hare Confirms He Won't Appear in 'American Horror Story' Season 13: \"I wanted to, but they sailed without asking me aboard.”",
+        "description": "submitted by /u/Gato1980 [link] [comments]",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-08-21T03:35:35.000Z",
+        "url": "https://www.reddit.com/r/television/comments/1vu525b/denis_ohare_confirms_he_wont_appear_in_american",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-bf0e5f5d-6a81-5c33-901e-3b0edc32ea81",
+        "title": "Stop the slop. Let me see your best downvote gifs to at least keep the comment sections great again. - GIF",
+        "description": "2,667 points • 269 comments",
+        "publisher": "9gag",
+        "publisherDomain": "9gag.com",
+        "publishedAt": "2026-08-21T03:50:31.000Z",
+        "url": "http://9gag.com/gag/aoyrKGX",
+        "imageUrl": "https://images-cdn.9gag.com/photo/aoyrKGX_ogimage.jpg",
         "categories": [
           "Entertainment"
         ]
@@ -1428,6 +1310,6 @@
     "successfulRequests": 5,
     "failedRequests": 0,
     "articleCountBeforeDeduplication": 100,
-    "articleCountAfterDeduplication": 92
+    "articleCountAfterDeduplication": 78
   }
 }
