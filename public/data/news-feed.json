@@ -1,19 +1,63 @@
 {
   "schemaVersion": 1,
   "provider": "currents",
-  "generatedAt": "2026-08-22T11:49:40.553Z",
-  "sourceFetchedAt": "2026-08-22T11:49:40.553Z",
+  "generatedAt": "2026-08-22T12:54:20.341Z",
+  "sourceFetchedAt": "2026-08-22T12:54:20.341Z",
   "status": "success",
   "categories": {
     "Top": [
       {
-        "id": "currents-43fcbcdb-bc98-553b-82c4-0a7ab8f32b7c",
-        "title": "Government – Page 573 - Hartford Courant",
-        "description": "August 20, 2026 at 5:43 a.m.. Gov. Ned Lamont announced on Tuesday that his administration is seeking intervene in federal regulators'...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/news/government/page/573",
+        "id": "currents-5088a8e7-05af-5927-ad89-6daf1293c965",
+        "title": "Harvard’s A.I. Clones Will Hear Your Start-Up Pitch Now",
+        "description": "To create a new $699 bootcamp for entrepreneurs, Harvard Business School made A.I. versions of its faculty. I’ve just started a video call with a general partner at a venture capital firm. “Whenever you’re ready, please start your pitch,” he says. For a reporting experiment, I am playing the role of...",
+        "publisher": "The New York Times",
+        "publisherDomain": "nytimes.com",
+        "publishedAt": "2026-08-22T12:18:47.000Z",
+        "url": "https://www.nytimes.com/2026/08/22/business/dealbook/harvard-ai-faculty.html",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-57fc116b-9ad0-5984-82c9-90e80fc69664",
+        "title": "Who are you going to vote for? Several people vie for seat on Norfolk County council",
+        "description": "Voters in Norfolk will have plenty of choices when they head to the polls in the upcoming municipal election.",
+        "publisher": "Simcoereformer",
+        "publisherDomain": "simcoereformer.ca",
+        "publishedAt": "2026-08-22T12:47:10.000Z",
+        "url": "https://www.simcoereformer.ca/news/local-news/who-are-you-going-to-vote-for-several-people-vie-for-seat-on-norfolk-county-council",
+        "imageUrl": "https://smartcdn.gprod.postmedia.digital/nexus/wp-content/uploads/2026/08/ballot-box-e1651627529221-1-4-2-2-1-1.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-71d75ae0-728a-56a1-ad50-37d99fff6908",
+        "title": "Why AI Output Feels Wrong Even When It Is Correct",
+        "description": "AI can produce an answer in seconds. The answer may be clear, plausible, and even correct. Yet...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-08-22T12:47:38.000Z",
+        "url": "https://dev.to/synthaicode_commander/why-ai-output-feels-wrong-even-when-it-is-correct-29cc",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fg0raesu7mzl4lqrqfaj6.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-8700fd2f-9a32-53ef-83b6-fdcce179e09c",
+        "title": "The playoff scenarios facing the Liberty — and the surprising path they might prefer",
+        "description": "Talk about an uphill climb for the Liberty.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-08-22T12:45:00.000Z",
+        "url": "https://nypost.com/2026/08/22/sports/wnba-playoff-scenarios-should-liberty-prefer-aces-in-first-round",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/newspress-collage-4425onsu9-1787398990591.jpg?quality=75&strip=all&1787384759&w=1200",
         "categories": [
           "Top",
           "World",
@@ -21,210 +65,174 @@
         ]
       },
       {
-        "id": "currents-4548c964-010d-52e7-878b-0b6a468fa1e6",
-        "title": "Trump finds tamping down costs to be tricky",
-        "description": "The administration is under mounting pressure to deliver relief as affordability becomes a bigger political liability.",
-        "publisher": "Axios",
-        "publisherDomain": "axios.com",
-        "publishedAt": "2026-08-22T11:00:07.000Z",
-        "url": "https://www.axios.com/2026/08/22/trump-affordability-beef-consumers",
-        "imageUrl": "https://images.axios.com/1Q5jmY-2FJ9rX4cSqJs7O8dri2o=/0x0:1920x1080/1366x768/2026/08/21/1787342562461.jpeg",
+        "id": "currents-56bea4ad-971a-509f-bca1-6ceed9740f7c",
+        "title": "The multilingual bugs that never throw: hreflang, JSON-LD and a site in 12 languages",
+        "description": "I run a search engine that publishes in twelve languages from one static site on Cloudflare Pages....",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-08-22T12:47:29.000Z",
+        "url": "https://dev.to/ohadfarkash/the-multilingual-bugs-that-never-throw-hreflang-json-ld-and-a-site-in-12-languages-50d2",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcwmhb0f3wbvrnxlev86s.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-845c3229-d9d1-588a-b3f6-b503f9113ab7",
+        "title": "Four things SVG and CSS did that I did not expect",
+        "description": "I spent a while building an icon editor that runs entirely in the browser (icons.jamuny.com, free, no...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-08-22T12:46:28.000Z",
+        "url": "https://dev.to/pop3_zxcv/four-things-svg-and-css-did-that-i-did-not-expect-4f4d",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbkdr70mitz2sttkewhss.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-24db77bd-f2ca-59a2-8e2b-c39a97b7a72e",
+        "title": "Kurly Expands Its Chef-Driven Food Collection with Udon Kaden's U.S. Retail Launch",
+        "description": "/PRNewswire/ -- Kurly, the premium Korean food company bringing the country's most-loved foods to American consumers, announced the U.S. launch of two frozen...",
+        "publisher": "Prnewswire",
+        "publisherDomain": "prnewswire.com",
+        "publishedAt": "2026-08-22T12:44:00.000Z",
+        "url": "https://www.prnewswire.com/news-releases/kurly-expands-its-chef-driven-food-collection-with-udon-kadens-us-retail-launch-302857701.html",
+        "imageUrl": "https://mmx.prnewswire.com/media/MS1973976/20260822025006EDT_image_1.jpg?id=OA2903321&p=facebook",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-10d2882d-f49c-525b-a97b-6b7da78c4619",
+        "title": "Wolfe Research sees CNH stock flat 2027 outlook on commodity prices By Investing.com",
+        "description": "Wolfe Research sees CNH stock flat 2027 outlook on commodity prices",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-08-22T12:05:56.000Z",
+        "url": "https://www.investing.com/news/stock-market-news/wolfe-research-sees-cnh-stock-flat-2027-outlook-on-commodity-prices-93CH-4872360",
+        "imageUrl": "https://content-media.investing.com/news/LYNXNPEB8506G_L.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-d59e21f6-408b-5e2f-a435-82123af53517",
-        "title": "Will Jaishankar reveal India’s security calculus? ‘Of course I will not’",
-        "description": "Does India monitor cooperation among countries that may not be well-disposed towards it? Jaishankar says every development enters India’s calculations—but refuses to disclose them publicly.",
+        "id": "currents-47309cf8-06cc-5e09-b508-0815faf80716",
+        "title": "Exclusive | Alleged ISIS plotter Jessica Bowie threatened to blow up home, roommates say",
+        "description": "Albany roommates of accused ISIS plotter Jessica Bowie say she threatened to poison their food and blow up their building before her arrest.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-08-22T12:45:00.000Z",
+        "url": "https://nypost.com/2026/08/22/us-news/isis-plotter-jessica-bowie-threatened-to-blow-up-house-roommates",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/roomiesComp.jpg?quality=75&strip=all&w=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-96a74763-72b4-56a3-b5a2-6dbd3f6d7d69",
+        "title": "I Have a Favorite for 2028",
+        "description": "Analyzing the 2028 GOP presidential race: JD Vance's missteps vs. Marco Rubio's rising favor.",
+        "publisher": "Pjmedia",
+        "publisherDomain": "pjmedia.com",
+        "publishedAt": "2026-08-22T12:45:53.000Z",
+        "url": "https://pjmedia.com/aj-christopher/2026/08/22/i-have-a-favorite-for-2028-n4956419",
+        "imageUrl": "https://media.townhall.com/cdn/hodl/2026/230/c3037a0d-c772-4c97-9e35-a20768fcde74.jpg",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-7d209af1-ea12-5217-afa1-87a26400098c",
+        "title": "BJP to launch month-long 'Seva Sankalp Abhiyan' marking PM Modi's 25 years in public office",
+        "description": "The Bharatiya Janata Party will initiate a month-long campaign to honor Prime Minister Narendra Modi's 25 years. This 'Seva Sankalp Abhiyan' will commence after the annual 'Seva Pakhwada' event. The initiative aims to connect beneficiaries with government welfare schemes through 'Seva Setu Abhiyan'....",
         "publisher": "Indiatimes",
         "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-08-22T11:16:38.000Z",
-        "url": "https://economictimes.indiatimes.com/news/short-videos/will-jaishankar-reveal-indias-security-calculus-of-course-i-will-not/videoshow/133422966.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133422966,width-1200,height-900,overlay-economictimes/news/short-videos/will-jaishankar-reveal-indias-security-calculus-of-course-i-will-not.jpg",
+        "publishedAt": "2026-08-22T12:18:18.000Z",
+        "url": "https://economictimes.indiatimes.com/news/politics-and-nation/bjp-to-launch-month-long-seva-sankalp-abhiyan-marking-pm-modis-25-years-in-public-office/articleshow/133424036.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133424035,width-1200,height-630,imgsize-45510,overlay-economictimes/articleshow.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-200a3c16-19c9-59aa-8934-f7c57e4e5e87",
-        "title": "AIAPGET 2026: NTA Announces September 1 Re-Exam For Candidates Affected By Power Failure",
-        "description": "The National Testing Agency also released contact details for the candidates, the helpline numbers are 011-40759000 and 011-69227700.",
-        "publisher": "Ndtvprofit",
-        "publisherDomain": "ndtvprofit.com",
-        "publishedAt": "2026-08-22T11:03:35.000Z",
-        "url": "https://www.ndtvprofit.com/india/aiapget-2026-nta-announces-september-1-re-exam-for-candidates-affected-by-power-failure-11944382",
-        "imageUrl": "https://c.ndtvimg.com/2026-08/9p7jic4c_nta_625x300_22_August_26.jpeg?im=FaceCrop,algorithm=dnn,width=1600,height=900",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-95a84809-d7cb-584d-948c-552fc973b56c",
-        "title": "MAHA activists criticize Trump for promoting coal to power energy-hungry AI data centers",
-        "description": "Nearly 200 activists in Robert F. Kennedy Jr.'s “Make America Healthy Again” movement are criticizing President Donald Trump's promotion of coal ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/maha-data-centers",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-b0686b56-19d9-58be-a41b-dfb6c1362e8b",
-        "title": "Cuba says US sanctions are blocking its efforts to open the economy to private investment",
-        "description": "Ambassador Ernesto Soberón Guzmán, in an interview this week with The Associated Press, directed his question to U.S. Secretary of State Marco Rubio, ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/cuba-united-states",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-3cc00257-3529-5c43-97b1-134083604bd7",
-        "title": "An 18-year-old with a sword attacks a school in Sweden, leaving 1 dead - Hartford Courant",
-        "description": "Police Chief Tommy Alriksson told a news conference that the 18-year-old perpetrator at the school in the central town of Fagersta had been arrested.",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/sweden-sword-attack",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-3d7ca14d-d07c-5518-bf10-f105e0fb8f3a",
-        "title": "Cleanup underway after tornadoes touch down in Delaware and New York's Long Island",
-        "description": "Storms battered the Northeast on Thursday with strong winds and heavy rains.",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/northeast-storms",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-6b235179-761b-53cf-a501-d3c73255b725",
-        "title": "immigration – Page 185 - Hartford Courant",
-        "description": "August 20, 2026 at 4:14 p.m.. Until now, Mexicans deported from the U.S. were mostly sent back to Mexico. FILE – An Omaha police ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/tag/immigration/page/185",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-a81b1841-beb9-5aea-a473-8f59c88b72a4",
-        "title": "Israel will investigate Hind Rajab's killing. Her mother wants more - Hartford Courant",
-        "description": "The mother of a 5-year-old Palestinian girl who was killed after Israeli forces fired on her family's car wants an independent inquiry into her ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/hind-rajab-investigation",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-b13efd77-bb1d-5499-aebd-c83f2c961f85",
-        "title": "What's in a name? Why naming storms, military operations and medical maladies matters",
-        "description": "U.S. hurricane season is gearing up. And from Amanda and Boris onward, tropical cyclones' names in the Pacific region are unfolding quickly. But why ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/memorable-monikers",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-b5abf49e-3c79-5a31-b927-6da62b9416d6",
-        "title": "US plans to pay $850 million of the $5 billion it owes the United Nations - Hartford Courant",
-        "description": "It would be the largest payment the administration would make to the world body since it demanded sweeping reforms in exchange for continued ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/united-nations-funding",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-d6c00eb8-704a-54cc-b2bf-cf6b9d120f9e",
-        "title": "Karmelo Anthony dropped plans to testify over track stabbing - Hartford Courant",
-        "description": "Anthony, 19, is asking for a new trial after a jury in June sentenced him to 35 years in prison for killing 17-year-old Austin Metcalf, who attended a ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/karmelo-anthony-retrial",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-e0fa63c3-46ac-5048-8037-b29eaeeb42ec",
-        "title": "Charter boat hauls in 1,260-pound blue marlin believed to be East Coast's largest catch",
-        "description": "PORTLAND, Maine (AP) — Damon Sacco had never seen anything like the fish he and fellow anglers fought for hours in the waters off Massachusetts. As it ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/giant-marlin",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-e14764bd-2abf-5ba8-9f22-541c8376993f",
-        "title": "2 Army Corps of Engineers workers among 8 killed in Alaska plane crash - Hartford Courant",
-        "description": "The agency had chartered the plane, which crashed Thursday near its destination, the Cape Newenham Long Range Radar Site Airport, approximately 450 ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/alaska-plane-crash",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-386f356f-11ce-549f-8603-5869fac6cd55",
-        "title": "Psychology says people who write long messages and then shorten them before sending may be managing anticipated judgment",
-        "description": "Psychology does not suggest that everyone who edits a text fears being judged. However, research onself-presentation, impression management, self-consciousness and emotion regulationcan help explain why people sometimes adjust their messages when they become aware of how others might perceive or eva...",
+        "id": "currents-05951915-eb72-5f5a-9326-6ecefde49cf6",
+        "title": "India’s sugar stockpile set to shrink as output estimate falls: Govt",
+        "description": "India's sugar production estimate has fallen significantly, impacting opening stocks for the new season. This lower output is expected to meet domestic demand until fresh supplies arrive. Retail sugar prices have risen sharply due to several contributing factors. The government has allowed duty-free...",
         "publisher": "Indiatimes",
         "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-08-22T11:09:39.000Z",
-        "url": "https://economictimes.indiatimes.com/news/international/us/psychology-says-people-who-write-long-messages-and-then-shorten-them-before-sending-may-be-managing-anticipated-judgment/articleshow/133422285.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133422804,width-1200,height-630,imgsize-126734,overlay-economictimes/articleshow.jpg",
+        "publishedAt": "2026-08-22T12:18:13.000Z",
+        "url": "https://economictimes.indiatimes.com/news/economy/agriculture/indias-sugar-stockpile-set-to-shrink-as-output-estimate-falls-govt/articleshow/133424100.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133424232,width-1200,height-630,imgsize-186436,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-fcc53e06-72d2-5ac7-916c-0c14fb34bcf6",
+        "title": "Northeast India looks to emerge as space-tech gateway to Southeast Asia",
+        "description": "The Northeast India Space Workshop 2026 will convene in Guwahati to explore regional transformation. This event aims to leverage space technology for global reach and economic growth. Stakeholders will discuss Northeast India becoming a developer and testbed for space solutions. The region's strateg...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-08-22T12:16:24.000Z",
+        "url": "https://economictimes.indiatimes.com/news/science/northeast-india-looks-to-emerge-as-space-tech-gateway-to-southeast-asia/articleshow/133424137.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133424171,width-1200,height-630,imgsize-201776,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-5f8c9a19-9e0f-52de-9a53-e5134bd8068b",
+        "title": "Ram Mandir donations row: Lawyers' body demands FIR against Champat Rai, Anil Mishra",
+        "description": "The Faizabad Bar Association is demanding an FIR against Champat Rai and others for alleged donation irregularities. Lawyers allege government protection for those accused in the Ram Mandir donation case. A delegation met the Senior Superintendent of Police seeking urgent action on their complaint.",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-08-22T12:13:49.000Z",
+        "url": "https://economictimes.indiatimes.com/news/india/ram-mandir-donations-row-lawyers-body-demands-fir-against-champat-rai-anil-mishra/articleshow/133424063.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133424088,width-1200,height-630,imgsize-195524,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-fd3fc93b-4a36-5baa-9ae2-487563f42237",
+        "title": "Vande Mataram row disrupts second day of Himachal Assembly Session",
+        "description": "A dispute over Vande Mataram and the National Anthem disrupted the Himachal Pradesh Vidhan Sabha session. The ruling Congress and opposition BJP protested outside the assembly premises on Saturday. Opposition leader Jai Ram Thakur stated the Vidhan Sabha would not follow the Congress Working Committ...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-08-22T12:11:55.000Z",
+        "url": "https://economictimes.indiatimes.com/news/india/vande-mataram-controversy-shakes-himachal-pradesh-assembly-protests-erupt-between-congress-and-bjp/articleshow/133423988.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133424055,width-1200,height-630,imgsize-41540,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-d667d90c-6966-5df7-b232-18903cc84ac4",
+        "title": "BofA maintains underperform ratings on six BDC stocks By Investing.com",
+        "description": "BofA maintains underperform ratings on six BDC stocks",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-08-22T12:09:48.000Z",
+        "url": "https://www.investing.com/news/stock-market-news/bofa-maintains-underperform-ratings-on-six-bdc-stocks-93CH-4872361",
+        "imageUrl": "https://content-media.investing.com/news/LYNXNPEC0E0NG_L.jpg",
         "categories": [
           "Top",
           "Business"
@@ -233,13 +241,45 @@
     ],
     "U.S.": [
       {
-        "id": "currents-43fcbcdb-bc98-553b-82c4-0a7ab8f32b7c",
-        "title": "Government – Page 573 - Hartford Courant",
-        "description": "August 20, 2026 at 5:43 a.m.. Gov. Ned Lamont announced on Tuesday that his administration is seeking intervene in federal regulators'...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/news/government/page/573",
+        "id": "currents-2a221fc8-76fb-530a-b04a-f6bbe67be4ae",
+        "title": "What Your Eyes Already Know But Your Brain Doesn’t",
+        "description": "There is absolutely no science behind this...",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-08-22T12:51:02.000Z",
+        "url": "https://www.buzzfeed.com/dooggggoo/what-your-eyes-already-know-but-your-brain-doesna",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/20/15/thumb/0qegJxcCF.jpg?crop=1250:654;0,175%26downsize=1250:*",
+        "categories": [
+          "Entertainment",
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-71d75ae0-728a-56a1-ad50-37d99fff6908",
+        "title": "Why AI Output Feels Wrong Even When It Is Correct",
+        "description": "AI can produce an answer in seconds. The answer may be clear, plausible, and even correct. Yet...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-08-22T12:47:38.000Z",
+        "url": "https://dev.to/synthaicode_commander/why-ai-output-feels-wrong-even-when-it-is-correct-29cc",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fg0raesu7mzl4lqrqfaj6.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-8700fd2f-9a32-53ef-83b6-fdcce179e09c",
+        "title": "The playoff scenarios facing the Liberty — and the surprising path they might prefer",
+        "description": "Talk about an uphill climb for the Liberty.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-08-22T12:45:00.000Z",
+        "url": "https://nypost.com/2026/08/22/sports/wnba-playoff-scenarios-should-liberty-prefer-aces-in-first-round",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/newspress-collage-4425onsu9-1787398990591.jpg?quality=75&strip=all&1787384759&w=1200",
         "categories": [
           "Top",
           "World",
@@ -247,13 +287,14 @@
         ]
       },
       {
-        "id": "currents-95a84809-d7cb-584d-948c-552fc973b56c",
-        "title": "MAHA activists criticize Trump for promoting coal to power energy-hungry AI data centers",
-        "description": "Nearly 200 activists in Robert F. Kennedy Jr.'s “Make America Healthy Again” movement are criticizing President Donald Trump's promotion of coal ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/maha-data-centers",
+        "id": "currents-24db77bd-f2ca-59a2-8e2b-c39a97b7a72e",
+        "title": "Kurly Expands Its Chef-Driven Food Collection with Udon Kaden's U.S. Retail Launch",
+        "description": "/PRNewswire/ -- Kurly, the premium Korean food company bringing the country's most-loved foods to American consumers, announced the U.S. launch of two frozen...",
+        "publisher": "Prnewswire",
+        "publisherDomain": "prnewswire.com",
+        "publishedAt": "2026-08-22T12:44:00.000Z",
+        "url": "https://www.prnewswire.com/news-releases/kurly-expands-its-chef-driven-food-collection-with-udon-kadens-us-retail-launch-302857701.html",
+        "imageUrl": "https://mmx.prnewswire.com/media/MS1973976/20260822025006EDT_image_1.jpg?id=OA2903321&p=facebook",
         "categories": [
           "Top",
           "World",
@@ -261,13 +302,46 @@
         ]
       },
       {
-        "id": "currents-b0686b56-19d9-58be-a41b-dfb6c1362e8b",
-        "title": "Cuba says US sanctions are blocking its efforts to open the economy to private investment",
-        "description": "Ambassador Ernesto Soberón Guzmán, in an interview this week with The Associated Press, directed his question to U.S. Secretary of State Marco Rubio, ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/cuba-united-states",
+        "id": "currents-56bea4ad-971a-509f-bca1-6ceed9740f7c",
+        "title": "The multilingual bugs that never throw: hreflang, JSON-LD and a site in 12 languages",
+        "description": "I run a search engine that publishes in twelve languages from one static site on Cloudflare Pages....",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-08-22T12:47:29.000Z",
+        "url": "https://dev.to/ohadfarkash/the-multilingual-bugs-that-never-throw-hreflang-json-ld-and-a-site-in-12-languages-50d2",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcwmhb0f3wbvrnxlev86s.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-845c3229-d9d1-588a-b3f6-b503f9113ab7",
+        "title": "Four things SVG and CSS did that I did not expect",
+        "description": "I spent a while building an icon editor that runs entirely in the browser (icons.jamuny.com, free, no...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-08-22T12:46:28.000Z",
+        "url": "https://dev.to/pop3_zxcv/four-things-svg-and-css-did-that-i-did-not-expect-4f4d",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbkdr70mitz2sttkewhss.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-47309cf8-06cc-5e09-b508-0815faf80716",
+        "title": "Exclusive | Alleged ISIS plotter Jessica Bowie threatened to blow up home, roommates say",
+        "description": "Albany roommates of accused ISIS plotter Jessica Bowie say she threatened to poison their food and blow up their building before her arrest.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-08-22T12:45:00.000Z",
+        "url": "https://nypost.com/2026/08/22/us-news/isis-plotter-jessica-bowie-threatened-to-blow-up-house-roommates",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/roomiesComp.jpg?quality=75&strip=all&w=1200",
         "categories": [
           "Top",
           "World",
@@ -275,13 +349,27 @@
         ]
       },
       {
-        "id": "currents-3cc00257-3529-5c43-97b1-134083604bd7",
-        "title": "An 18-year-old with a sword attacks a school in Sweden, leaving 1 dead - Hartford Courant",
-        "description": "Police Chief Tommy Alriksson told a news conference that the 18-year-old perpetrator at the school in the central town of Fagersta had been arrested.",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/sweden-sword-attack",
+        "id": "currents-96a74763-72b4-56a3-b5a2-6dbd3f6d7d69",
+        "title": "I Have a Favorite for 2028",
+        "description": "Analyzing the 2028 GOP presidential race: JD Vance's missteps vs. Marco Rubio's rising favor.",
+        "publisher": "Pjmedia",
+        "publisherDomain": "pjmedia.com",
+        "publishedAt": "2026-08-22T12:45:53.000Z",
+        "url": "https://pjmedia.com/aj-christopher/2026/08/22/i-have-a-favorite-for-2028-n4956419",
+        "imageUrl": "https://media.townhall.com/cdn/hodl/2026/230/c3037a0d-c772-4c97-9e35-a20768fcde74.jpg",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-941da38c-6d2b-52ab-b144-96aecc5eeccf",
+        "title": "Iraq Iran | Nation & World",
+        "description": "Iran's Parliament Speaker Mohammad Bagher Qalibaf reacts during a visit to the grave of Abu Mahdi al-Muhandis, the Iraqi paramilitary commander ...",
+        "publisher": "Springfieldnewssun",
+        "publisherDomain": "springfieldnewssun.com",
+        "publishedAt": "2026-08-22T12:42:22.000Z",
+        "url": "https://www.springfieldnewssun.com/nation-world/iraq-iran/image_dc0b00c5-7ba5-5ac7-bca4-6bc8211d2d24.html",
         "categories": [
           "Top",
           "World",
@@ -289,13 +377,13 @@
         ]
       },
       {
-        "id": "currents-3d7ca14d-d07c-5518-bf10-f105e0fb8f3a",
-        "title": "Cleanup underway after tornadoes touch down in Delaware and New York's Long Island",
-        "description": "Storms battered the Northeast on Thursday with strong winds and heavy rains.",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/northeast-storms",
+        "id": "currents-cd637983-9dd1-5faa-9544-b13bec548e9b",
+        "title": "Bangladesh President | Nation & World",
+        "description": "Mirza Fakhrul Islam Alamgir, left, a veteran of the ruling Bangladesh Nationalist Party, takes the oath of office as president of the country in ...",
+        "publisher": "Springfieldnewssun",
+        "publisherDomain": "springfieldnewssun.com",
+        "publishedAt": "2026-08-22T12:42:22.000Z",
+        "url": "https://www.springfieldnewssun.com/nation-world/bangladesh-president/image_d6676139-3808-512e-9e20-0b1fa5892851.html",
         "categories": [
           "Top",
           "World",
@@ -303,13 +391,13 @@
         ]
       },
       {
-        "id": "currents-6b235179-761b-53cf-a501-d3c73255b725",
-        "title": "immigration – Page 185 - Hartford Courant",
-        "description": "August 20, 2026 at 4:14 p.m.. Until now, Mexicans deported from the U.S. were mostly sent back to Mexico. FILE – An Omaha police ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/tag/immigration/page/185",
+        "id": "currents-e38ddaa0-7fd4-5ec1-909c-a50021cf3a71",
+        "title": "The Stream | Nation & World",
+        "description": "This combination of album cover images show “I Must Be Dreaming” by Alabama Shakes, left, and \"1989 – 1992\" by Velocity Girl.",
+        "publisher": "Springfieldnewssun",
+        "publisherDomain": "springfieldnewssun.com",
+        "publishedAt": "2026-08-22T12:42:22.000Z",
+        "url": "https://www.springfieldnewssun.com/nation-world/the-stream/image_5782ccfc-60d0-503a-9d7e-7e81742a29b2.html",
         "categories": [
           "Top",
           "World",
@@ -317,155 +405,72 @@
         ]
       },
       {
-        "id": "currents-a81b1841-beb9-5aea-a473-8f59c88b72a4",
-        "title": "Israel will investigate Hind Rajab's killing. Her mother wants more - Hartford Courant",
-        "description": "The mother of a 5-year-old Palestinian girl who was killed after Israeli forces fired on her family's car wants an independent inquiry into her ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/hind-rajab-investigation",
+        "id": "currents-06ed5dc3-aab3-5528-b532-ad64cf5aa3c5",
+        "title": "Vance | Nation & World",
+        "description": "Attendees are seen ahead of Vice President JD Vance's speech at the Cleveland Cliffs Middletown Works, Friday, Aug. 21, 2026, in Middletown, Ohio.",
+        "publisher": "Springfieldnewssun",
+        "publisherDomain": "springfieldnewssun.com",
+        "publishedAt": "2026-08-22T12:42:22.000Z",
+        "url": "https://www.springfieldnewssun.com/nation-world/vance/image_280be4f2-d694-5773-b10c-4abab21a5211.html",
         "categories": [
           "Top",
-          "World",
-          "U.S."
+          "U.S.",
+          "World"
         ]
       },
       {
-        "id": "currents-b13efd77-bb1d-5499-aebd-c83f2c961f85",
-        "title": "What's in a name? Why naming storms, military operations and medical maladies matters",
-        "description": "U.S. hurricane season is gearing up. And from Amanda and Boris onward, tropical cyclones' names in the Pacific region are unfolding quickly. But why ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/memorable-monikers",
+        "id": "currents-e947ac62-98d5-5326-bf85-2e4eb33d3847",
+        "title": "COhatch in Springfield |",
+        "description": "The COhatch building in Springfield at 101 S. Fountain Ave. The building is for sale. BROOKE SPURLOCK / STAFF.",
+        "publisher": "Springfieldnewssun",
+        "publisherDomain": "springfieldnewssun.com",
+        "publishedAt": "2026-08-22T12:42:22.000Z",
+        "url": "https://www.springfieldnewssun.com/cohatch-in-springfield/image_b38c0d3d-caab-5b65-8140-c806381b6c3e.html",
         "categories": [
           "Top",
-          "World",
-          "U.S."
+          "U.S.",
+          "World"
         ]
       },
       {
-        "id": "currents-b5abf49e-3c79-5a31-b927-6da62b9416d6",
-        "title": "US plans to pay $850 million of the $5 billion it owes the United Nations - Hartford Courant",
-        "description": "It would be the largest payment the administration would make to the world body since it demanded sweeping reforms in exchange for continued ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/united-nations-funding",
+        "id": "currents-421c63d3-031a-5b4f-bab3-43b3bef4bcb9",
+        "title": "Trump | Nation & World",
+        "description": "South Carolina Gov. Henry McMaster, left, greets President Donald Trump upon Trump's arrival at Myrtle Beach International Airport in Myrtle Beach ...",
+        "publisher": "Springfieldnewssun",
+        "publisherDomain": "springfieldnewssun.com",
+        "publishedAt": "2026-08-22T12:42:21.000Z",
+        "url": "https://www.springfieldnewssun.com/nation-world/trump/image_00ade64c-dbe0-5cce-a04c-88ee78d4ab8f.html",
         "categories": [
           "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-d6c00eb8-704a-54cc-b2bf-cf6b9d120f9e",
-        "title": "Karmelo Anthony dropped plans to testify over track stabbing - Hartford Courant",
-        "description": "Anthony, 19, is asking for a new trial after a jury in June sentenced him to 35 years in prison for killing 17-year-old Austin Metcalf, who attended a ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/karmelo-anthony-retrial",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-e0fa63c3-46ac-5048-8037-b29eaeeb42ec",
-        "title": "Charter boat hauls in 1,260-pound blue marlin believed to be East Coast's largest catch",
-        "description": "PORTLAND, Maine (AP) — Damon Sacco had never seen anything like the fish he and fellow anglers fought for hours in the waters off Massachusetts. As it ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/giant-marlin",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-e14764bd-2abf-5ba8-9f22-541c8376993f",
-        "title": "2 Army Corps of Engineers workers among 8 killed in Alaska plane crash - Hartford Courant",
-        "description": "The agency had chartered the plane, which crashed Thursday near its destination, the Cape Newenham Long Range Radar Site Airport, approximately 450 ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/alaska-plane-crash",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-0a01d601-8b9e-58ca-a613-3d5c14a7cbe9",
-        "title": "Jean Bill Obituary | August 18, 2026 - Hartford Courant",
-        "description": "Jean (Gauthier) Bill, 88, of Windsor, beloved wife of the late Frank A. Bill (Nov 3, 2019) for 62 years, passed away peaceful.",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/obituaries/jean-bill",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-13f5fb06-1d30-521c-bc7c-f4da8f95e984",
-        "title": "Wilma Gentile Obituary | August 14, 2026 | Hartford Courant",
-        "description": "Wilma (Gagnon) Gentile, 94, passed away peacefully on August 14, 2026. Wilma was born in 1932 on a potato farm in Caribou, Ma.",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/obituaries/wilma-gagnon-gentile",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-2307256b-7ae5-5afc-987f-640072393f70",
-        "title": "COVID – Page 18 - Hartford Courant",
-        "description": "Senate committee votes to hold Fauci in contempt for refusing to answer COVID questions ... August 6, 2026 at 7:24 p.m.. Fauci invoked his Fifth ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/tag/covid/page/18",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-f3ab3c6b-1581-5c84-9871-e5cb386a916a",
-        "title": "Sarah C. Bronin - Hartford Courant",
-        "description": "By making our historic places visible and accessible, these resources offer perspective on all the places that could be threatened by the federal ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/author/sarah-c-bronin",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
+          "U.S.",
+          "World"
         ]
       }
     ],
     "World": [
       {
-        "id": "currents-43fcbcdb-bc98-553b-82c4-0a7ab8f32b7c",
-        "title": "Government – Page 573 - Hartford Courant",
-        "description": "August 20, 2026 at 5:43 a.m.. Gov. Ned Lamont announced on Tuesday that his administration is seeking intervene in federal regulators'...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/news/government/page/573",
+        "id": "currents-57fc116b-9ad0-5984-82c9-90e80fc69664",
+        "title": "Who are you going to vote for? Several people vie for seat on Norfolk County council",
+        "description": "Voters in Norfolk will have plenty of choices when they head to the polls in the upcoming municipal election.",
+        "publisher": "Simcoereformer",
+        "publisherDomain": "simcoereformer.ca",
+        "publishedAt": "2026-08-22T12:47:10.000Z",
+        "url": "https://www.simcoereformer.ca/news/local-news/who-are-you-going-to-vote-for-several-people-vie-for-seat-on-norfolk-county-council",
+        "imageUrl": "https://smartcdn.gprod.postmedia.digital/nexus/wp-content/uploads/2026/08/ballot-box-e1651627529221-1-4-2-2-1-1.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-8700fd2f-9a32-53ef-83b6-fdcce179e09c",
+        "title": "The playoff scenarios facing the Liberty — and the surprising path they might prefer",
+        "description": "Talk about an uphill climb for the Liberty.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-08-22T12:45:00.000Z",
+        "url": "https://nypost.com/2026/08/22/sports/wnba-playoff-scenarios-should-liberty-prefer-aces-in-first-round",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/newspress-collage-4425onsu9-1787398990591.jpg?quality=75&strip=all&1787384759&w=1200",
         "categories": [
           "Top",
           "World",
@@ -473,13 +478,14 @@
         ]
       },
       {
-        "id": "currents-95a84809-d7cb-584d-948c-552fc973b56c",
-        "title": "MAHA activists criticize Trump for promoting coal to power energy-hungry AI data centers",
-        "description": "Nearly 200 activists in Robert F. Kennedy Jr.'s “Make America Healthy Again” movement are criticizing President Donald Trump's promotion of coal ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/maha-data-centers",
+        "id": "currents-24db77bd-f2ca-59a2-8e2b-c39a97b7a72e",
+        "title": "Kurly Expands Its Chef-Driven Food Collection with Udon Kaden's U.S. Retail Launch",
+        "description": "/PRNewswire/ -- Kurly, the premium Korean food company bringing the country's most-loved foods to American consumers, announced the U.S. launch of two frozen...",
+        "publisher": "Prnewswire",
+        "publisherDomain": "prnewswire.com",
+        "publishedAt": "2026-08-22T12:44:00.000Z",
+        "url": "https://www.prnewswire.com/news-releases/kurly-expands-its-chef-driven-food-collection-with-udon-kadens-us-retail-launch-302857701.html",
+        "imageUrl": "https://mmx.prnewswire.com/media/MS1973976/20260822025006EDT_image_1.jpg?id=OA2903321&p=facebook",
         "categories": [
           "Top",
           "World",
@@ -487,13 +493,28 @@
         ]
       },
       {
-        "id": "currents-b0686b56-19d9-58be-a41b-dfb6c1362e8b",
-        "title": "Cuba says US sanctions are blocking its efforts to open the economy to private investment",
-        "description": "Ambassador Ernesto Soberón Guzmán, in an interview this week with The Associated Press, directed his question to U.S. Secretary of State Marco Rubio, ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/cuba-united-states",
+        "id": "currents-4b12d908-4e48-5001-a124-743f54ba3515",
+        "title": "Iran to allow Iraqi tankers through Strait of Hormuz | The Jerusalem Post",
+        "description": "Iraqi President Nizar Amedi said that Iran had facilitated the passage of vessels carrying Iraqi oil through the Strait in recent days, and Baghdad had discussed the export of Iraqi oil with Tehran.",
+        "publisher": "Jpost",
+        "publisherDomain": "jpost.com",
+        "publishedAt": "2026-08-22T12:45:55.000Z",
+        "url": "https://www.jpost.com/middle-east/iran-news/article-906245",
+        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/734824",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-47309cf8-06cc-5e09-b508-0815faf80716",
+        "title": "Exclusive | Alleged ISIS plotter Jessica Bowie threatened to blow up home, roommates say",
+        "description": "Albany roommates of accused ISIS plotter Jessica Bowie say she threatened to poison their food and blow up their building before her arrest.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-08-22T12:45:00.000Z",
+        "url": "https://nypost.com/2026/08/22/us-news/isis-plotter-jessica-bowie-threatened-to-blow-up-house-roommates",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/roomiesComp.jpg?quality=75&strip=all&w=1200",
         "categories": [
           "Top",
           "World",
@@ -501,13 +522,13 @@
         ]
       },
       {
-        "id": "currents-3cc00257-3529-5c43-97b1-134083604bd7",
-        "title": "An 18-year-old with a sword attacks a school in Sweden, leaving 1 dead - Hartford Courant",
-        "description": "Police Chief Tommy Alriksson told a news conference that the 18-year-old perpetrator at the school in the central town of Fagersta had been arrested.",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/sweden-sword-attack",
+        "id": "currents-941da38c-6d2b-52ab-b144-96aecc5eeccf",
+        "title": "Iraq Iran | Nation & World",
+        "description": "Iran's Parliament Speaker Mohammad Bagher Qalibaf reacts during a visit to the grave of Abu Mahdi al-Muhandis, the Iraqi paramilitary commander ...",
+        "publisher": "Springfieldnewssun",
+        "publisherDomain": "springfieldnewssun.com",
+        "publishedAt": "2026-08-22T12:42:22.000Z",
+        "url": "https://www.springfieldnewssun.com/nation-world/iraq-iran/image_dc0b00c5-7ba5-5ac7-bca4-6bc8211d2d24.html",
         "categories": [
           "Top",
           "World",
@@ -515,13 +536,13 @@
         ]
       },
       {
-        "id": "currents-3d7ca14d-d07c-5518-bf10-f105e0fb8f3a",
-        "title": "Cleanup underway after tornadoes touch down in Delaware and New York's Long Island",
-        "description": "Storms battered the Northeast on Thursday with strong winds and heavy rains.",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/northeast-storms",
+        "id": "currents-cd637983-9dd1-5faa-9544-b13bec548e9b",
+        "title": "Bangladesh President | Nation & World",
+        "description": "Mirza Fakhrul Islam Alamgir, left, a veteran of the ruling Bangladesh Nationalist Party, takes the oath of office as president of the country in ...",
+        "publisher": "Springfieldnewssun",
+        "publisherDomain": "springfieldnewssun.com",
+        "publishedAt": "2026-08-22T12:42:22.000Z",
+        "url": "https://www.springfieldnewssun.com/nation-world/bangladesh-president/image_d6676139-3808-512e-9e20-0b1fa5892851.html",
         "categories": [
           "Top",
           "World",
@@ -529,13 +550,13 @@
         ]
       },
       {
-        "id": "currents-6b235179-761b-53cf-a501-d3c73255b725",
-        "title": "immigration – Page 185 - Hartford Courant",
-        "description": "August 20, 2026 at 4:14 p.m.. Until now, Mexicans deported from the U.S. were mostly sent back to Mexico. FILE – An Omaha police ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/tag/immigration/page/185",
+        "id": "currents-e38ddaa0-7fd4-5ec1-909c-a50021cf3a71",
+        "title": "The Stream | Nation & World",
+        "description": "This combination of album cover images show “I Must Be Dreaming” by Alabama Shakes, left, and \"1989 – 1992\" by Velocity Girl.",
+        "publisher": "Springfieldnewssun",
+        "publisherDomain": "springfieldnewssun.com",
+        "publishedAt": "2026-08-22T12:42:22.000Z",
+        "url": "https://www.springfieldnewssun.com/nation-world/the-stream/image_5782ccfc-60d0-503a-9d7e-7e81742a29b2.html",
         "categories": [
           "Top",
           "World",
@@ -543,574 +564,574 @@
         ]
       },
       {
-        "id": "currents-a81b1841-beb9-5aea-a473-8f59c88b72a4",
-        "title": "Israel will investigate Hind Rajab's killing. Her mother wants more - Hartford Courant",
-        "description": "The mother of a 5-year-old Palestinian girl who was killed after Israeli forces fired on her family's car wants an independent inquiry into her ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/hind-rajab-investigation",
+        "id": "currents-06ed5dc3-aab3-5528-b532-ad64cf5aa3c5",
+        "title": "Vance | Nation & World",
+        "description": "Attendees are seen ahead of Vice President JD Vance's speech at the Cleveland Cliffs Middletown Works, Friday, Aug. 21, 2026, in Middletown, Ohio.",
+        "publisher": "Springfieldnewssun",
+        "publisherDomain": "springfieldnewssun.com",
+        "publishedAt": "2026-08-22T12:42:22.000Z",
+        "url": "https://www.springfieldnewssun.com/nation-world/vance/image_280be4f2-d694-5773-b10c-4abab21a5211.html",
         "categories": [
           "Top",
-          "World",
-          "U.S."
+          "U.S.",
+          "World"
         ]
       },
       {
-        "id": "currents-b13efd77-bb1d-5499-aebd-c83f2c961f85",
-        "title": "What's in a name? Why naming storms, military operations and medical maladies matters",
-        "description": "U.S. hurricane season is gearing up. And from Amanda and Boris onward, tropical cyclones' names in the Pacific region are unfolding quickly. But why ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/memorable-monikers",
+        "id": "currents-e947ac62-98d5-5326-bf85-2e4eb33d3847",
+        "title": "COhatch in Springfield |",
+        "description": "The COhatch building in Springfield at 101 S. Fountain Ave. The building is for sale. BROOKE SPURLOCK / STAFF.",
+        "publisher": "Springfieldnewssun",
+        "publisherDomain": "springfieldnewssun.com",
+        "publishedAt": "2026-08-22T12:42:22.000Z",
+        "url": "https://www.springfieldnewssun.com/cohatch-in-springfield/image_b38c0d3d-caab-5b65-8140-c806381b6c3e.html",
         "categories": [
           "Top",
-          "World",
-          "U.S."
+          "U.S.",
+          "World"
         ]
       },
       {
-        "id": "currents-b5abf49e-3c79-5a31-b927-6da62b9416d6",
-        "title": "US plans to pay $850 million of the $5 billion it owes the United Nations - Hartford Courant",
-        "description": "It would be the largest payment the administration would make to the world body since it demanded sweeping reforms in exchange for continued ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/united-nations-funding",
+        "id": "currents-421c63d3-031a-5b4f-bab3-43b3bef4bcb9",
+        "title": "Trump | Nation & World",
+        "description": "South Carolina Gov. Henry McMaster, left, greets President Donald Trump upon Trump's arrival at Myrtle Beach International Airport in Myrtle Beach ...",
+        "publisher": "Springfieldnewssun",
+        "publisherDomain": "springfieldnewssun.com",
+        "publishedAt": "2026-08-22T12:42:21.000Z",
+        "url": "https://www.springfieldnewssun.com/nation-world/trump/image_00ade64c-dbe0-5cce-a04c-88ee78d4ab8f.html",
         "categories": [
           "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-d6c00eb8-704a-54cc-b2bf-cf6b9d120f9e",
-        "title": "Karmelo Anthony dropped plans to testify over track stabbing - Hartford Courant",
-        "description": "Anthony, 19, is asking for a new trial after a jury in June sentenced him to 35 years in prison for killing 17-year-old Austin Metcalf, who attended a ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/karmelo-anthony-retrial",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-e0fa63c3-46ac-5048-8037-b29eaeeb42ec",
-        "title": "Charter boat hauls in 1,260-pound blue marlin believed to be East Coast's largest catch",
-        "description": "PORTLAND, Maine (AP) — Damon Sacco had never seen anything like the fish he and fellow anglers fought for hours in the waters off Massachusetts. As it ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/giant-marlin",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-e14764bd-2abf-5ba8-9f22-541c8376993f",
-        "title": "2 Army Corps of Engineers workers among 8 killed in Alaska plane crash - Hartford Courant",
-        "description": "The agency had chartered the plane, which crashed Thursday near its destination, the Cape Newenham Long Range Radar Site Airport, approximately 450 ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/2026/08/21/alaska-plane-crash",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-0a01d601-8b9e-58ca-a613-3d5c14a7cbe9",
-        "title": "Jean Bill Obituary | August 18, 2026 - Hartford Courant",
-        "description": "Jean (Gauthier) Bill, 88, of Windsor, beloved wife of the late Frank A. Bill (Nov 3, 2019) for 62 years, passed away peaceful.",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/obituaries/jean-bill",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-13f5fb06-1d30-521c-bc7c-f4da8f95e984",
-        "title": "Wilma Gentile Obituary | August 14, 2026 | Hartford Courant",
-        "description": "Wilma (Gagnon) Gentile, 94, passed away peacefully on August 14, 2026. Wilma was born in 1932 on a potato farm in Caribou, Ma.",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/obituaries/wilma-gagnon-gentile",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-2307256b-7ae5-5afc-987f-640072393f70",
-        "title": "COVID – Page 18 - Hartford Courant",
-        "description": "Senate committee votes to hold Fauci in contempt for refusing to answer COVID questions ... August 6, 2026 at 7:24 p.m.. Fauci invoked his Fifth ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/tag/covid/page/18",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-f3ab3c6b-1581-5c84-9871-e5cb386a916a",
-        "title": "Sarah C. Bronin - Hartford Courant",
-        "description": "By making our historic places visible and accessible, these resources offer perspective on all the places that could be threatened by the federal ...",
-        "publisher": "Courant",
-        "publisherDomain": "courant.com",
-        "publishedAt": "2026-08-22T11:41:53.000Z",
-        "url": "https://www.courant.com/author/sarah-c-bronin",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
+          "U.S.",
+          "World"
         ]
       }
     ],
     "Business": [
       {
-        "id": "currents-4548c964-010d-52e7-878b-0b6a468fa1e6",
-        "title": "Trump finds tamping down costs to be tricky",
-        "description": "The administration is under mounting pressure to deliver relief as affordability becomes a bigger political liability.",
-        "publisher": "Axios",
-        "publisherDomain": "axios.com",
-        "publishedAt": "2026-08-22T11:00:07.000Z",
-        "url": "https://www.axios.com/2026/08/22/trump-affordability-beef-consumers",
-        "imageUrl": "https://images.axios.com/1Q5jmY-2FJ9rX4cSqJs7O8dri2o=/0x0:1920x1080/1366x768/2026/08/21/1787342562461.jpeg",
+        "id": "currents-5088a8e7-05af-5927-ad89-6daf1293c965",
+        "title": "Harvard’s A.I. Clones Will Hear Your Start-Up Pitch Now",
+        "description": "To create a new $699 bootcamp for entrepreneurs, Harvard Business School made A.I. versions of its faculty. I’ve just started a video call with a general partner at a venture capital firm. “Whenever you’re ready, please start your pitch,” he says. For a reporting experiment, I am playing the role of...",
+        "publisher": "The New York Times",
+        "publisherDomain": "nytimes.com",
+        "publishedAt": "2026-08-22T12:18:47.000Z",
+        "url": "https://www.nytimes.com/2026/08/22/business/dealbook/harvard-ai-faculty.html",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-d59e21f6-408b-5e2f-a435-82123af53517",
-        "title": "Will Jaishankar reveal India’s security calculus? ‘Of course I will not’",
-        "description": "Does India monitor cooperation among countries that may not be well-disposed towards it? Jaishankar says every development enters India’s calculations—but refuses to disclose them publicly.",
+        "id": "currents-10d2882d-f49c-525b-a97b-6b7da78c4619",
+        "title": "Wolfe Research sees CNH stock flat 2027 outlook on commodity prices By Investing.com",
+        "description": "Wolfe Research sees CNH stock flat 2027 outlook on commodity prices",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-08-22T12:05:56.000Z",
+        "url": "https://www.investing.com/news/stock-market-news/wolfe-research-sees-cnh-stock-flat-2027-outlook-on-commodity-prices-93CH-4872360",
+        "imageUrl": "https://content-media.investing.com/news/LYNXNPEB8506G_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-7d209af1-ea12-5217-afa1-87a26400098c",
+        "title": "BJP to launch month-long 'Seva Sankalp Abhiyan' marking PM Modi's 25 years in public office",
+        "description": "The Bharatiya Janata Party will initiate a month-long campaign to honor Prime Minister Narendra Modi's 25 years. This 'Seva Sankalp Abhiyan' will commence after the annual 'Seva Pakhwada' event. The initiative aims to connect beneficiaries with government welfare schemes through 'Seva Setu Abhiyan'....",
         "publisher": "Indiatimes",
         "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-08-22T11:16:38.000Z",
-        "url": "https://economictimes.indiatimes.com/news/short-videos/will-jaishankar-reveal-indias-security-calculus-of-course-i-will-not/videoshow/133422966.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133422966,width-1200,height-900,overlay-economictimes/news/short-videos/will-jaishankar-reveal-indias-security-calculus-of-course-i-will-not.jpg",
+        "publishedAt": "2026-08-22T12:18:18.000Z",
+        "url": "https://economictimes.indiatimes.com/news/politics-and-nation/bjp-to-launch-month-long-seva-sankalp-abhiyan-marking-pm-modis-25-years-in-public-office/articleshow/133424036.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133424035,width-1200,height-630,imgsize-45510,overlay-economictimes/articleshow.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-34e6704a-79ae-57d4-9091-f43cbac44fa1",
-        "title": "India vs Netherlands Live Streaming, Telecast: When, Where To Watch Hockey World Cup Match On TV, Online?",
-        "description": "Fans in India can watch the live telecast of the FIH Hockey World Cup 2026 on the Star Sports Network television channels and JioHotstar app and website.",
-        "publisher": "Ndtvprofit",
-        "publisherDomain": "ndtvprofit.com",
-        "publishedAt": "2026-08-22T11:30:01.000Z",
-        "url": "https://www.ndtvprofit.com/sports/fih-hockey-world-cup-2026-india-vs-netherlands-live-streaming-telecast-date-time-where-to-watch-match-tv-online-jiohotstar-11941181",
-        "imageUrl": "https://c.ndtvimg.com/2026-08/c921vg5o_hockey-world-cup_625x300_21_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
+        "id": "currents-d24fefd5-d064-53f0-9884-72fa18721605",
+        "title": "Need Insights on the frequency of understanding your finance part",
+        "description": "Background: I was always curious about something and want to get an opinion on the same - I feel like understanding your finances/ budgeting - what comes in monthly/yearly vs what goes out monthly/yearly is the first part. I did it with great intent a few years ago - it was the foundation to all thi...",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-08-22T12:35:05.000Z",
+        "url": "https://www.reddit.com/r/personalfinance/comments/1vvbana/need_insights_on_the_frequency_of_understanding",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-85b09df6-94d0-5e05-9dd9-5fe267a3db5d",
-        "title": "Kroger has a customer problem that may be its own fault",
-        "description": "The fix may not be easy, even if the chain's CEO understands the issue.",
+        "id": "currents-05951915-eb72-5f5a-9326-6ecefde49cf6",
+        "title": "India’s sugar stockpile set to shrink as output estimate falls: Govt",
+        "description": "India's sugar production estimate has fallen significantly, impacting opening stocks for the new season. This lower output is expected to meet domestic demand until fresh supplies arrive. Retail sugar prices have risen sharply due to several contributing factors. The government has allowed duty-free...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-08-22T12:18:13.000Z",
+        "url": "https://economictimes.indiatimes.com/news/economy/agriculture/indias-sugar-stockpile-set-to-shrink-as-output-estimate-falls-govt/articleshow/133424100.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133424232,width-1200,height-630,imgsize-186436,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-fcc53e06-72d2-5ac7-916c-0c14fb34bcf6",
+        "title": "Northeast India looks to emerge as space-tech gateway to Southeast Asia",
+        "description": "The Northeast India Space Workshop 2026 will convene in Guwahati to explore regional transformation. This event aims to leverage space technology for global reach and economic growth. Stakeholders will discuss Northeast India becoming a developer and testbed for space solutions. The region's strateg...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-08-22T12:16:24.000Z",
+        "url": "https://economictimes.indiatimes.com/news/science/northeast-india-looks-to-emerge-as-space-tech-gateway-to-southeast-asia/articleshow/133424137.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133424171,width-1200,height-630,imgsize-201776,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-5f8c9a19-9e0f-52de-9a53-e5134bd8068b",
+        "title": "Ram Mandir donations row: Lawyers' body demands FIR against Champat Rai, Anil Mishra",
+        "description": "The Faizabad Bar Association is demanding an FIR against Champat Rai and others for alleged donation irregularities. Lawyers allege government protection for those accused in the Ram Mandir donation case. A delegation met the Senior Superintendent of Police seeking urgent action on their complaint.",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-08-22T12:13:49.000Z",
+        "url": "https://economictimes.indiatimes.com/news/india/ram-mandir-donations-row-lawyers-body-demands-fir-against-champat-rai-anil-mishra/articleshow/133424063.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133424088,width-1200,height-630,imgsize-195524,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-fd3fc93b-4a36-5baa-9ae2-487563f42237",
+        "title": "Vande Mataram row disrupts second day of Himachal Assembly Session",
+        "description": "A dispute over Vande Mataram and the National Anthem disrupted the Himachal Pradesh Vidhan Sabha session. The ruling Congress and opposition BJP protested outside the assembly premises on Saturday. Opposition leader Jai Ram Thakur stated the Vidhan Sabha would not follow the Congress Working Committ...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-08-22T12:11:55.000Z",
+        "url": "https://economictimes.indiatimes.com/news/india/vande-mataram-controversy-shakes-himachal-pradesh-assembly-protests-erupt-between-congress-and-bjp/articleshow/133423988.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133424055,width-1200,height-630,imgsize-41540,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-d667d90c-6966-5df7-b232-18903cc84ac4",
+        "title": "BofA maintains underperform ratings on six BDC stocks By Investing.com",
+        "description": "BofA maintains underperform ratings on six BDC stocks",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-08-22T12:09:48.000Z",
+        "url": "https://www.investing.com/news/stock-market-news/bofa-maintains-underperform-ratings-on-six-bdc-stocks-93CH-4872361",
+        "imageUrl": "https://content-media.investing.com/news/LYNXNPEC0E0NG_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-4e048eca-0371-5f76-b23e-5be1d3cb094f",
+        "title": "Manipur honours Mirabai Chanu, Glasgow Commonwealth Games medallists",
+        "description": "Manipur Chief Minister Yumnam Khemchand Singh honored Commonwealth Games athletes. He also distributed appointment letters to National Games gold medal winners. Saikhom Mirabai Chanu received recognition for her weightlifting achievements. Cash rewards and certificates were given to various medalist...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-08-22T12:16:33.000Z",
+        "url": "https://economictimes.indiatimes.com/news/sports/other-sports/manipur-celebrates-sports-heroes-mirabai-chanu-and-commonwealth-medallists-honoured-with-cash-rewards-and-job-appointments/articleshow/133424087.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133424195,width-1200,height-630,imgsize-130840,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-cfa8fe5b-fcde-5ef5-91ce-a340fbaf6cab",
+        "title": "'Answer the question!': Senators torch Soros-funded witness at fiery Minnesota Somali fraud hearing",
+        "description": "Heated moment unfolded at the Senate Judiciary Committee as Sen. Ted Cruz accused top Minnesota Democrats of being aware of — and allowing — large-scale fraud schemes tied to Somali-linked nonprofit networks. Cruz directly named state leaders, claiming warning signs were ignored while millions in ta...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-08-22T12:15:41.000Z",
+        "url": "https://economictimes.indiatimes.com/news/international/world-news/answer-the-question-senators-torch-soros-funded-witness-at-fiery-minnesota-somali-fraud-hearing/videoshow/133424167.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133424167,width-1200,height-900,overlay-economictimes/news/international/world-news/answer-the-question-senators-torch-soros-funded-witness-at-fiery-minnesota-somali-fraud-hearing.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-e568b75f-3d58-51fc-8101-0d56cea6251a",
+        "title": "Baloch communities facing systematic repression, claims BYC leader Sabiha Baloch",
+        "description": "Baloch Yakjehti Committee leader Sabiha Baloch alleges identity is a mark of suspicion. Baloch communities face systematic repression and state persecution across Pakistan. Civilians in Balochistan experience drone attacks and airstrikes, while Karachi residents face raids. Forced disappearances and...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-08-22T12:14:39.000Z",
+        "url": "https://economictimes.indiatimes.com/news/international/world-news/baloch-communities-facing-systematic-repression-claims-byc-leader-sabiha-baloch/articleshow/133424077.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133424101,width-1200,height-630,imgsize-88692,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-a18ad38f-446c-5b84-bb94-97f549b8c513",
+        "title": "7 high-protein breakfasts you can make in under 15 minutes - Moong Dal Chilla",
+        "description": "Blend soaked or pre-soaked moong dal with spices, then cook thin chillas on a hot pan. Add paneer or curd alongside for an extra protein boost. Moong Dal Chilla",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-08-22T12:14:07.000Z",
+        "url": "https://economictimes.indiatimes.com/news/india/7-high-protein-breakfasts-you-can-make-in-under-15-minutes/moong-dal-chilla/slideshow/133424150.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133424150,width-1200,height-900,overlay-economictimes/slideshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-77ba9c70-c5cc-5b75-b9dc-d72abb317334",
+        "title": "Psychology says people who unconsciously match another person's walking speed may be experiencing behavioral synchrony",
+        "description": "Unconsciously matching someone elses walking pace is not a hidden psychological code that can reveal exactly how you feel about them. However, it does highlight something more fascinating: human interaction extends beyond words, with our bodies often adjusting and coordinating with the people around...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-08-22T12:11:46.000Z",
+        "url": "https://economictimes.indiatimes.com/news/international/us/psychology-says-people-who-unconsciously-match-another-persons-walking-speed-may-be-experiencing-behavioral-synchrony/articleshow/133423601.cms",
+        "imageUrl": "https://img.etimg.com/photo/65498029.cms",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-383d3fd7-971e-5a9f-93a1-9b85ef83c79a",
+        "title": "CONCACAF chief asks Infantino to skip youth tournament amid FIFA governance crisis",
+        "description": "CONCACAF President Victor Montagliani asked FIFA chief Gianni Infantino to avoid a youth tournament. Montagliani cited mounting opposition to Infantino's leadership as the primary reason. Infantino faces pressure from three confederations to resign from his position. His presence would overshadow th...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-08-22T12:08:59.000Z",
+        "url": "https://economictimes.indiatimes.com/news/sports/football/concacaf-chief-asks-infantino-to-skip-youth-tournament-amid-fifa-governance-crisis/articleshow/133423872.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133423980,width-1200,height-630,imgsize-40956,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-80720998-60bd-5444-953c-d2f3324d7af0",
+        "title": "DoorDash partners with iconic brands for back-to-school prep",
+        "description": "The platform hopes to make back-to-school shopping more convenient for busy parents.",
         "publisher": "Thestreet",
         "publisherDomain": "thestreet.com",
-        "publishedAt": "2026-08-22T11:37:00.000Z",
-        "url": "https://www.thestreet.com/retail/kroger-has-a-customer-problem-that-may-be-its-own-fault",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-386f356f-11ce-549f-8603-5869fac6cd55",
-        "title": "Psychology says people who write long messages and then shorten them before sending may be managing anticipated judgment",
-        "description": "Psychology does not suggest that everyone who edits a text fears being judged. However, research onself-presentation, impression management, self-consciousness and emotion regulationcan help explain why people sometimes adjust their messages when they become aware of how others might perceive or eva...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-08-22T11:09:39.000Z",
-        "url": "https://economictimes.indiatimes.com/news/international/us/psychology-says-people-who-write-long-messages-and-then-shorten-them-before-sending-may-be-managing-anticipated-judgment/articleshow/133422285.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133422804,width-1200,height-630,imgsize-126734,overlay-economictimes/articleshow.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-673d528c-0a44-529e-98b7-c493cde23b4c",
-        "title": "Right to practice religion subject to reasonable restrictions in interest of public order: Patna HC",
-        "description": "The Patna High Court ruled religious practice is not absolute and has restrictions. It dismissed a plea for a larger religious procession in Siwan. The court cited public order and societal norms as valid reasons for limits. Restrictions were imposed after past incidents of violence and stone-peltin...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-08-22T11:03:22.000Z",
-        "url": "https://economictimes.indiatimes.com/news/india/patna-high-court-rules-religious-freedom-not-absolute-upholds-public-order-restrictions/articleshow/133422712.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133422739,width-1200,height-630,imgsize-60208,overlay-economictimes/articleshow.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-24d76bf8-04c1-5822-82c8-49f4afb62fb7",
-        "title": "‘Distrust and diversify’: Jaishankar’s four-step response to global risk | ET WLF 2026",
-        "description": "S Jaishankar describes a global economy increasingly shaped by competition, conflicts and strategic chokepoints. He advises businesses to de-risk and diversify, build greater resilience into supply chains and stop assuming that the cheapest option will always be the safest.",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-08-22T11:12:42.000Z",
-        "url": "https://economictimes.indiatimes.com/news/politics-and-nation/distrust-and-diversify-jaishankars-four-step-response-to-global-risk-et-wlf-2026/videoshow/133422897.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133422897,width-1200,height-900,overlay-economictimes/news/politics-and-nation/distrust-and-diversify-jaishankars-four-step-response-to-global-risk-et-wlf-2026.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-c63225d9-6b0f-5a60-8cdd-1ca9a197973e",
-        "title": "Mecca defence pact: What has it achieved? Jaishankar questions its record",
-        "description": "Asked whether the Mecca defence pact worries India, S. Jaishankar points to ongoing military situations facing its members and questions what the agreement has achieved in response.",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-08-22T11:12:17.000Z",
-        "url": "https://economictimes.indiatimes.com/news/short-videos/mecca-defence-pact-what-has-it-achieved-jaishankar-questions-its-record/videoshow/133422887.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133422887,width-1200,height-900,overlay-economictimes/news/short-videos/mecca-defence-pact-what-has-it-achieved-jaishankar-questions-its-record.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-200a3c16-19c9-59aa-8934-f7c57e4e5e87",
-        "title": "AIAPGET 2026: NTA Announces September 1 Re-Exam For Candidates Affected By Power Failure",
-        "description": "The National Testing Agency also released contact details for the candidates, the helpline numbers are 011-40759000 and 011-69227700.",
-        "publisher": "Ndtvprofit",
-        "publisherDomain": "ndtvprofit.com",
-        "publishedAt": "2026-08-22T11:03:35.000Z",
-        "url": "https://www.ndtvprofit.com/india/aiapget-2026-nta-announces-september-1-re-exam-for-candidates-affected-by-power-failure-11944382",
-        "imageUrl": "https://c.ndtvimg.com/2026-08/9p7jic4c_nta_625x300_22_August_26.jpeg?im=FaceCrop,algorithm=dnn,width=1600,height=900",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-ee7bce7f-454b-5d2c-b60d-a53c034024e7",
-        "title": "Batwara 1947 Box Office Collection Day 8: Sunny Deol Starrer Sees A Drop After Week One",
-        "description": "Sunny Deol starrer Batwara 1947 saw a drop on Day 8, earning Rs 75 lakh at the India box office.",
-        "publisher": "Ndtvprofit",
-        "publisherDomain": "ndtvprofit.com",
-        "publishedAt": "2026-08-22T11:03:09.000Z",
-        "url": "https://www.ndtvprofit.com/business/batwara-1947-box-office-collection-day-8-sunny-deol-starrer-sees-a-drop-after-week-one-11944094",
-        "imageUrl": "https://c.ndtvimg.com/2026-08/2cqvj9eo_sunnydeolbatwara1947boxofficeday8_625x300_22_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-291f66d4-e22d-5b8a-85a8-aa14a9067409",
-        "title": "Parliament sees growing trend of bills introduced, passed in same session: PRS data",
-        "description": "More than half of bills in the 18th Lok Sabha passed quickly. This trend accelerated sharply over the past year, analysis shows. The Monsoon Session saw eleven of twelve bills passed before its end. Many bills were cleared without any MP speaking on them. Lok Sabha functioned for only fifteen percen...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-08-22T11:00:28.000Z",
-        "url": "https://economictimes.indiatimes.com/news/india/parliament-sees-growing-trend-of-bills-introduced-passed-in-same-session-prs-data/articleshow/133422343.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133422660,width-1200,height-630,imgsize-93818,overlay-economictimes/articleshow.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-30a80d7f-5985-5ac5-ae05-18271b8a1bcd",
-        "title": "130/80: The Magic Number That Could Add Years to Your Life",
-        "description": "High blood pressure has no symptoms, yet it silently raises your risk of stroke, heart disease, and now dementia.",
-        "publisher": "Thestreet",
-        "publisherDomain": "thestreet.com",
-        "publishedAt": "2026-08-22T11:30:00.000Z",
-        "url": "https://www.thestreet.com/retirement/130-80-the-magic-number-that-could-add-years-to-your-life",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-6f8f85ac-ff55-52ad-a534-7b393ec228bf",
-        "title": "IRS rule could change who qualifies for tax credit refunds",
-        "description": "The rule could affect 200,000 to 700,000 tax filers.",
-        "publisher": "Thestreet",
-        "publisherDomain": "thestreet.com",
-        "publishedAt": "2026-08-22T11:17:00.000Z",
-        "url": "https://www.thestreet.com/taxes/irs-treasury-noncitizen-refundable-tax-credits-rule",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-db1e55d9-615b-532f-b255-09cd9965eed0",
-        "title": "5 Small Business Ideas for Extroverts That Turn Conversation Skills Into a Competitive Advantage",
-        "description": "If talking to people is your strength, these small business ideas can help you turn it into revenue and growth. Extroverts don’t mind a crowd—and they crave personal interactions. That opens up a wide variety of small business ideas for them that might be less appealing for a founder who leans more ...",
-        "publisher": "Inc",
-        "publisherDomain": "inc.com",
-        "publishedAt": "2026-08-22T11:00:00.000Z",
-        "url": "https://www.inc.com/chris-morris/5-small-business-ideas-for-extroverts-that-turn-conversation-skills-into-a-competitive-advantage/91391173",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-dbe090a4-4c41-5f91-a0a4-3c96153ef579",
-        "title": "Think Xanthan Gum Is Harmless? A New Study Suggests Daily Use Needs Scrutiny",
-        "description": "A new rat study found chronic xanthan gum intake triggered colon inflammation and barrier changes, but researchers say human evidence must come next. Xanthan gum, a product found in ice cream, yogurt, cakes, sauces and gluten-free pasta, might be hurting our guts. Its thickening, stabilizing and …",
-        "publisher": "Inc",
-        "publisherDomain": "inc.com",
-        "publishedAt": "2026-08-22T11:00:00.000Z",
-        "url": "https://www.inc.com/avery-miles/think-xanthan-gum-is-harmless-a-new-study-suggests-daily-use-needs-scrutiny/91383913",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-2d19bab7-7066-52e2-911a-365b2f77e69a",
-        "title": "‘The Indian consumer is never off’: Jaishankar on Russia, the Gulf and Pakistan | ET WLF 2026",
-        "description": "Asked whether India’s Russia policy is “on or off”, S. Jaishankar says the Indian consumer remains the priority. He explains why India must balance relationships across Russia, Ukraine, the Gulf, Iran, Israel and the US—and gives a guarded response when questioned about Pakistan’s defence relationsh...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-08-22T11:16:02.000Z",
-        "url": "https://economictimes.indiatimes.com/news/india/the-indian-consumer-is-never-off-jaishankar-on-russia-the-gulf-and-pakistan-et-wlf-2026/videoshow/133422944.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133422944,width-1200,height-900,overlay-economictimes/news/india/the-indian-consumer-is-never-off-jaishankar-on-russia-the-gulf-and-pakistan-et-wlf-2026.jpg",
+        "publishedAt": "2026-08-22T12:17:00.000Z",
+        "url": "https://www.thestreet.com/retail/doordash-partners-gap-kohls-barnes-noble-back-to-school-prep",
         "categories": [
           "Top",
           "Business"
         ]
       }
     ],
-    "Technology": [],
-    "Science": [],
+    "Technology": [
+      {
+        "id": "currents-71d75ae0-728a-56a1-ad50-37d99fff6908",
+        "title": "Why AI Output Feels Wrong Even When It Is Correct",
+        "description": "AI can produce an answer in seconds. The answer may be clear, plausible, and even correct. Yet...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-08-22T12:47:38.000Z",
+        "url": "https://dev.to/synthaicode_commander/why-ai-output-feels-wrong-even-when-it-is-correct-29cc",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fg0raesu7mzl4lqrqfaj6.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-56bea4ad-971a-509f-bca1-6ceed9740f7c",
+        "title": "The multilingual bugs that never throw: hreflang, JSON-LD and a site in 12 languages",
+        "description": "I run a search engine that publishes in twelve languages from one static site on Cloudflare Pages....",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-08-22T12:47:29.000Z",
+        "url": "https://dev.to/ohadfarkash/the-multilingual-bugs-that-never-throw-hreflang-json-ld-and-a-site-in-12-languages-50d2",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcwmhb0f3wbvrnxlev86s.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-845c3229-d9d1-588a-b3f6-b503f9113ab7",
+        "title": "Four things SVG and CSS did that I did not expect",
+        "description": "I spent a while building an icon editor that runs entirely in the browser (icons.jamuny.com, free, no...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-08-22T12:46:28.000Z",
+        "url": "https://dev.to/pop3_zxcv/four-things-svg-and-css-did-that-i-did-not-expect-4f4d",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbkdr70mitz2sttkewhss.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      }
+    ],
+    "Science": [
+      {
+        "id": "currents-71d75ae0-728a-56a1-ad50-37d99fff6908",
+        "title": "Why AI Output Feels Wrong Even When It Is Correct",
+        "description": "AI can produce an answer in seconds. The answer may be clear, plausible, and even correct. Yet...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-08-22T12:47:38.000Z",
+        "url": "https://dev.to/synthaicode_commander/why-ai-output-feels-wrong-even-when-it-is-correct-29cc",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fg0raesu7mzl4lqrqfaj6.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-56bea4ad-971a-509f-bca1-6ceed9740f7c",
+        "title": "The multilingual bugs that never throw: hreflang, JSON-LD and a site in 12 languages",
+        "description": "I run a search engine that publishes in twelve languages from one static site on Cloudflare Pages....",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-08-22T12:47:29.000Z",
+        "url": "https://dev.to/ohadfarkash/the-multilingual-bugs-that-never-throw-hreflang-json-ld-and-a-site-in-12-languages-50d2",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcwmhb0f3wbvrnxlev86s.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-845c3229-d9d1-588a-b3f6-b503f9113ab7",
+        "title": "Four things SVG and CSS did that I did not expect",
+        "description": "I spent a while building an icon editor that runs entirely in the browser (icons.jamuny.com, free, no...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-08-22T12:46:28.000Z",
+        "url": "https://dev.to/pop3_zxcv/four-things-svg-and-css-did-that-i-did-not-expect-4f4d",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbkdr70mitz2sttkewhss.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      }
+    ],
     "Sports": [
       {
-        "id": "currents-555dcc5c-85c9-5f3d-9394-931ab6b528b7",
-        "title": "England vs Pakistan: Joe Root praised for his calmness on his return as captain by Marcus Trescothick",
-        "description": "Joe Root is praised for his calmness on his return as captain by interim coach Marcus Trescothick, who says the pair \"are not\" Ben Stokes and Brendon McCullum.",
+        "id": "currents-df0e4b6b-4f3f-5870-8a7d-eba598b041b5",
+        "title": "Memphis Depay: Dutch forward defends music video showing Corinthians HQ ablaze",
+        "description": "Netherlands forward Memphis Depay says having Corinthians HQ, Parque São Jorge, in flames for a music video is \"just art\".",
         "publisher": "BBC News",
         "publisherDomain": "bbc.co.uk",
-        "publishedAt": "2026-08-22T11:00:02.000Z",
-        "url": "https://www.bbc.co.uk/sport/cricket/articles/cly9yzrgp21o",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/4050/live/90cf8650-9e14-11f1-a291-b542ee92de7c.jpg",
+        "publishedAt": "2026-08-22T12:22:26.000Z",
+        "url": "https://www.bbc.co.uk/sport/football/articles/cx2l2565l90o",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/178f/live/24a70990-9e13-11f1-95e0-53a570c83624.png",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-16ffa8e3-fc3b-54c8-99e6-f6be0e10ad37",
-        "title": "Christos Tzolis could be Arsenal's new Alexis Sanchez",
-        "description": "ISAAN KHAN AT THE EMIRATES STADIUM: For a player who didn't make the grade at Norwich and moved to north London from Club Bruges, Tzolis is already far superseding all expectations.",
+        "id": "currents-582ee3aa-872b-5cf5-b683-12059b7a8fe3",
+        "title": "This rare Nebraska district backed Harris but sent a Republican to Congress. Can Democrats win here?",
+        "description": "OMAHA, Neb. (AP) — “Do they still like Trump in Nebraska? I think so,” the president said during a recent event in Washington.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-08-22T12:29:11.000Z",
+        "url": "https://www.winnipegfreepress.com/world/2026/08/22/this-rare-nebraska-district-backed-harris-but-sent-a-republican-to-congress-can-democrats-win-here",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a899604270eb4db4d5eaf1ajpeg.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-3e010643-cffe-5964-9b34-6811491dfd0d",
+        "title": "ESPN legend blasts network over Pat McAfee 'lovefest'",
+        "description": "McAfee will join the NFL Monday Night Countdown team for the 2026 season. He was already a key part of the network's output thanks to his daily show and his role as an analyst on College GameDay.",
         "publisher": "Daily Mail",
         "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-08-22T11:33:49.000Z",
-        "url": "https://www.dailymail.com/sport/football/article-16066903/christos-tzolis-bruno-guimaraes-arsenal.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/22/12/110789165-0-image-m-77_1787398303193.jpg",
+        "publishedAt": "2026-08-22T12:08:01.000Z",
+        "url": "https://www.dailymail.com/sport/nfl/article-16071893/espn-linda-cohn-pat-mcafee-promotion.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/08/22/13/110730841-0-image-m-15_1787400247825.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-9b66b97c-5b80-5c31-b383-1b57c426d061",
-        "title": "2026-27 preseason College Football Playoff, bowl projections",
-        "description": "College football is still a week away, but it's never too soon to look ahead to bowl season.",
-        "publisher": "ESPN",
-        "publisherDomain": "espn.com",
-        "publishedAt": "2026-08-22T11:32:01.000Z",
-        "url": "https://www.espn.com/college-football/story/_/id/49661442/2026-27-preseason-college-football-playoff-cfp-bowl-projections",
-        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0821%2Fr1704813_1296x729_16%2D9.jpg",
+        "id": "currents-47b4ccaa-bf41-5d0c-94f9-7d4b64aa2061",
+        "title": "Swansea City v Sheffield United - live updates",
+        "description": "Follow all the latest as Swansea face Sheffield United",
+        "publisher": "Walesonline",
+        "publisherDomain": "walesonline.co.uk",
+        "publishedAt": "2026-08-22T12:35:29.000Z",
+        "url": "https://www.walesonline.co.uk/sport/football/football-news/swansea-city-v-sheffield-united-34501314",
+        "imageUrl": "https://i2-prod.walesonline.co.uk/article34501344.ece/ALTERNATES/s1200d/0_JS414412243.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-4cc3bcbd-8a08-5aeb-970e-577794075094",
-        "title": "Burton goes to the sin bin for ugly error",
-        "description": "Matt Burton is sent to the sin bin for a professional foul.",
-        "publisher": "Theage",
-        "publisherDomain": "theage.com.au",
-        "publishedAt": "2026-08-22T11:25:13.000Z",
-        "url": "https://www.theage.com.au/sport/nrl/burton-goes-to-the-sin-bin-for-ugly-error-20260822-p60qn1.html?ref=rss",
-        "imageUrl": "https://static.ffx.io/images/w_800%2Ch_450%2Cc_fill%2Cg_auto:faces/q_86%2Cf_auto/6b99a508c20b4a58b53314dadfcc7aa73d23b4e0",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-ccf04c97-163d-54e6-ac30-264004be4b9a",
-        "title": "Deion Sanders facing shock fraud lawsuit by graphic designer",
-        "description": "University of Colorado head football coach Deion Sanders was recently deposed pertaining to a federal lawsuit over a fraud claim by the designer that created his 'Prime' logo.",
+        "id": "currents-63d6425e-6d37-51db-8cd6-e396bbe45208",
+        "title": "Gloating Hull City fans taunt Joe Cole",
+        "description": "Cole has drawn criticism for laughing at the newly promoted club, saying they are 'gone' on The Dressing Room podcast in the build-up to the season.",
         "publisher": "Daily Mail",
         "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-08-22T11:14:59.000Z",
-        "url": "https://www.dailymail.com/sport/college-football/article-16071373/deion-sanders-fraud-lawsuit-colorado.html?ns_campaign=1490&ito=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/22/05/110787207-0-image-m-7_1787371723562.jpg",
+        "publishedAt": "2026-08-22T12:34:36.000Z",
+        "url": "https://www.dailymail.com/sport/football/article-16071929/hull-city-man-united-joe-cole-premier-league.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/08/22/13/110789535-0-image-a-86_1787401853377.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-f8dfb302-b8d4-538a-a3a3-3dcfcf883b27",
-        "title": "England's decision to skip Ashes Test at Headingley makes no sense",
-        "description": "RICHARD GISBON: As England celebrated their historic Headingley success, the absence of Test cricket here next summer made less and less sense. The home of Graves.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-08-22T11:00:46.000Z",
-        "url": "https://www.dailymail.com/sport/cricket/article-16071847/england-ashes-headingley-richard-gibson.html?ns_campaign=1490&ito=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/22/11/110788721-0-image-m-64_1787395658346.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-1e746aac-c10d-5985-ae26-2e767297f84d",
-        "title": "Russell lays down marker in world championship fight with sprint win",
-        "description": "JONATHAN McEVOY AT ZANDVOORT: George Russell won the sprint race ahead of the Dutch Grand Prix to put down a defiant marker in his world championship fight against Kimi Antonelli.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-08-22T11:00:09.000Z",
-        "url": "https://www.dailymail.com/sport/formulaone/article-16071869/george-russell-sprint-victory-zandvoort.html?ns_campaign=1490&ito=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/22/11/110788905-0-image-m-8_1787396178850.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-67eb9b49-4c27-505c-b854-f5e88f7e7378",
-        "title": "‘Look out, we’re coming’: 18-year-old’s stunning statement with five goals in her second game",
-        "description": "The Bulldogs remain undefeated as Isabelle Pritchard dominated in their gutsy win over Richmond on Saturday, while a new Sun is rising over the AFLW competition.",
-        "publisher": "Theage",
-        "publisherDomain": "theage.com.au",
-        "publishedAt": "2026-08-22T11:15:36.000Z",
-        "url": "https://www.theage.com.au/sport/afl/look-out-we-re-coming-18-year-old-s-stunning-statement-with-five-goals-in-her-second-game-20260822-p60qmj.html",
-        "imageUrl": "https://static.ffx.io/images/$zoom_0.353%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_51/t_crop_custom/q_86%2Cf_auto/fbabf6e002f1d87309684073e1a438586509607b",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-7df96f0e-12a0-5624-adb3-0bb12f243caa",
-        "title": "Rapid Vienna endure bumpy return from Hearts that lasted until 5am",
-        "description": "Hearts are on their travels in the Conference League next week.",
-        "publisher": "Scotsman",
-        "publisherDomain": "edinburghnews.scotsman.com",
-        "publishedAt": "2026-08-22T11:09:32.000Z",
-        "url": "https://www.edinburghnews.scotsman.com/sport/football/hearts/rapid-vienna-endure-bumpy-return-from-hearts-gorgie-memories-8935880",
-        "imageUrl": "https://www.edinburghnews.scotsman.com/jpim-static/image/2026/08/22/11/54/21768852.jpg?trim=33,0,33,0&crop=&width=1200&auto=webp&quality=75",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-f9c472bb-2c59-5429-9c1f-16f215cd0744",
+        "id": "currents-2fcd00dd-cd0a-51e6-8588-88428b226e01",
         "title": "New Zealand forced into late change for first test against Springboks",
-        "description": "JOHANNESBURG, Aug 22 - New Zealand have been forced into a late change to their squad for the first test against South Africa at Ellis Park on Saturday as loose forward Simon Parker comes onto the replacements' bench for injured flanker Anton Segner. Read more at straitstimes.com. Read more at strai...",
-        "publisher": "Straitstimes",
-        "publisherDomain": "straitstimes.com",
-        "publishedAt": "2026-08-22T11:02:52.000Z",
-        "url": "https://www.straitstimes.com/sport/new-zealand-forced-into-late-change-for-first-test-against-springboks",
-        "imageUrl": "https://cassette.sphdigital.com.sg/image/straitstimes/c5a940a98dcbabb0c05785ab34e575b3a74b1a90170c52d7c0c64f074b2bdda8",
+        "description": "Parker, 26, has played seven tests for New Zealand after making his debut in 2025.",
+        "publisher": "Breakingnews",
+        "publisherDomain": "breakingnews.ie",
+        "publishedAt": "2026-08-22T12:33:44.000Z",
+        "url": "https://www.breakingnews.ie/sport/rugby-new-zealand-forced-into-late-change-for-first-test-against-springboks-1942907.html",
+        "imageUrl": "https://img.resized.co/breaking-news/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL2ltYWdlcy5icmVha2luZ25ld3MuaWVcXFwvcHJvZFxcXC91cGxvYWRzXFxcLzIwMjVcXFwvMDlcXFwvMDYxMzE2MzlcXFwvR2V0dHlJbWFnZXMtMjIzMzk1NzM5NS1lMTc1NzE2MTAyMjU0Ny5qcGdcIixcIndpZHRoXCI6MTIwMCxcImhlaWdodFwiOjYyNyxcImRlZmF1bHRcIjpcImh0dHBzOlxcXC9cXFwvd3d3LmJyZWFraW5nbmV3cy5pZVxcXC9pXFxcL2JuLW5vaW1hZ2UucG5nXCIsXCJvcHRpb25zXCI6W119IiwiaGFzaCI6IjYxZjhiZjA0YWI2YWU2M2UzMWZhYWQ5YjUyZmM4MGY4MmVjOTRlZjkifQ==/new-zealand-forced-into-late-change-for-first-test-against-springboks.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-fa127c45-47f6-5cf8-8c9e-0063752ae2a7",
-        "title": "Why Amad Diallo is not in Man Utd squad as shock absence explained",
-        "description": "Ivorian winger not involved in Premier League opener against Hull",
-        "publisher": "Standard",
-        "publisherDomain": "standard.co.uk",
-        "publishedAt": "2026-08-22T11:02:34.000Z",
-        "url": "https://www.standard.co.uk/sport/football/amad-diallo-man-utd-injury-news-carrick-b1294295.html",
-        "imageUrl": "https://static.standard.co.uk/2026/08/22/11/2290294045..?width=1200&auto=webp&quality=75",
+        "id": "currents-3a99a809-3336-5519-960f-35af72d4d263",
+        "title": "Perlis teen Zureen Alyssa clinches first Sukma gold in women’s masters despite injury",
+        "description": "PETALING JAYA, Aug 22 — Perlis kegler Zureen Alyssa Qaisara Azlisham finally won her first Malaysia Games (Sukma) medal in style when she emerged triumphant in the women’s...",
+        "publisher": "Malaymail",
+        "publisherDomain": "malaymail.com",
+        "publishedAt": "2026-08-22T12:31:14.000Z",
+        "url": "https://www.malaymail.com/news/sports/2026/08/22/perlis-teen-zureen-alyssa-clinches-first-sukma-gold-in-womens-masters-despite-injury/232337",
+        "imageUrl": "https://www.malaymail.com/malaymail/uploads/images/2026/08/22/358372.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-9ee57b25-e493-5d56-8876-7559e43d036e",
-        "title": "Wooed by wood, Cedarella founder takes pride in handcrafted designs",
-        "description": "Marina Bulan is the founder of Cedarella, a two-year-old venture that turns out eye-catching wood products such as jewelry, kitchen decor, children’s toys and, most recently, metre-high outdoor planters that double as home street-number indicators.",
+        "id": "currents-e0d314ee-7096-53a7-8d57-4cef3ed83dc0",
+        "title": "GdS: Two signings no longer possible as Milan prioritise attacking midfield role",
+        "description": "Ruben Amorim has told Gerry Cardinale to prioritise the attacking midfield position, with Milan now set to make one more signing as opposed to two.",
+        "publisher": "Sempremilan",
+        "publisherDomain": "sempremilan.com",
+        "publishedAt": "2026-08-22T12:30:00.000Z",
+        "url": "https://sempremilan.com/two-signings-no-milan-attacking-midfield",
+        "imageUrl": "https://icdn.sempremilan.com/wp-content/uploads/2026/08/Amorim_3.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-8bae6389-e500-55f0-aadd-9c5770577d3d",
+        "title": "Welsh club consider stunning move to bring Wales star home ahead of World Cup",
+        "description": "The 32-year-old is heading into his fourth year with Grenoble in France",
+        "publisher": "Walesonline",
+        "publisherDomain": "walesonline.co.uk",
+        "publishedAt": "2026-08-22T12:24:22.000Z",
+        "url": "https://www.walesonline.co.uk/sport/rugby/rugby-news/welsh-club-consider-stunning-move-34501117",
+        "imageUrl": "https://i2-prod.walesonline.co.uk/article33508791.ece/ALTERNATES/s1200d/0_GettyImages-2252511655.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-1936fd26-b195-5f5c-bd7f-2966ef9fdb09",
+        "title": "Russell wins Dutch GP sprint race, Antonelli fourth",
+        "description": "ZANDVOORT (Netherlands), Aug 22 — Mercedes driver George Russell powered to victory in the Dutch Grand Prix sprint race today, making the most of his pole position to claw back...",
+        "publisher": "Malaymail",
+        "publisherDomain": "malaymail.com",
+        "publishedAt": "2026-08-22T12:21:40.000Z",
+        "url": "https://www.malaymail.com/news/sports/2026/08/22/russell-wins-dutch-gp-sprint-race-antonelli-fourth/232334",
+        "imageUrl": "https://www.malaymail.com/malaymail/uploads/images/2026/08/22/358369.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-c02c829c-9a66-5560-a9bf-eda2510410fc",
+        "title": "Amorim discusses 'tough' Torino clash, new signings and the Scudetto: \"Respect our identity\"",
+        "description": "On the eve of AC Milan's season opener away at Torino, the new head coach Ruben Amorim answered the questions of the media in a press conference.",
+        "publisher": "Sempremilan",
+        "publisherDomain": "sempremilan.com",
+        "publishedAt": "2026-08-22T12:13:35.000Z",
+        "url": "https://sempremilan.com/amorim-tough-torino-signings-scudetto",
+        "imageUrl": "https://icdn.sempremilan.com/wp-content/uploads/2026/08/amorim-presser-torino.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-118da81f-e617-5982-972e-c3c5083ac754",
+        "title": "Inside Trump's remake of the White House Rose Garden. First a stone patio, then statues",
+        "description": "WASHINGTON (AP) — Instead of adding new roses, President Donald Trump’s White House Rose Garden is growing statues.",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-22T11:00:48.000Z",
-        "url": "https://www.winnipegfreepress.com/arts-and-life/entertainment/arts/2026/08/22/a-sprinkling-of-sawdust",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/4483437_web1_260817-Cedarella-00278.jpg?w=1600",
+        "publishedAt": "2026-08-22T12:08:11.000Z",
+        "url": "https://www.winnipegfreepress.com/world/2026/08/22/inside-trumps-remake-of-the-white-house-rose-garden-first-a-stone-patio-then-statues",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a899118270eb4db4d5eac01jpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-88653297-c08e-5ba6-b5a2-bbf217ab78f7",
-        "title": "Lorne Gunter: Let Canadian consumers decide whether to boycott U.S. booze",
-        "description": "If lifting bans against U.S. liquor can help halt devastating tariffs, then get rid of them. If you don’t want to buy U.S. liquor, don’t.",
-        "publisher": "Edmontonjournal",
-        "publisherDomain": "edmontonjournal.com",
-        "publishedAt": "2026-08-22T11:00:33.000Z",
-        "url": "https://edmontonjournal.com/opinion/columnists/lorne-gunter-let-canadian-consumers-decide-whether-to-boycott-u-s-booze",
-        "imageUrl": "https://smartcdn.gprod.postmedia.digital/edmontonjournal/wp-content/uploads/2026/08/png0310nusbooze-09_293864212.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-d78ccb0d-bcbb-5f06-a626-0b5da62b1af7",
-        "title": "Free Press literary editor picks noteworthy Canadian fiction and non-fiction titles to watch for this fall",
-        "description": "For many book lovers, summer means relaxing at the beach, in the backyard or at the cottage with fun, warm-weather page-turners — easy-going romance novels, gripping thrillers or even a dishy biography.",
+        "id": "currents-11f48b9c-650d-55fb-b630-ade4fd9e4ccc",
+        "title": "Florida shows how to adapt as coastal cities face growing threats from sea level rise and storms",
+        "description": "One day there was a roof. The next morning it was gone.",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-22T11:00:19.000Z",
-        "url": "https://www.winnipegfreepress.com/arts-and-life/2026/08/22/bumper-crop-of-books",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/fall-books-thumbnail-2026-overlay.jpg?w=1600",
+        "publishedAt": "2026-08-22T12:04:24.000Z",
+        "url": "https://www.winnipegfreepress.com/arts-and-life/life/greenpage/2026/08/22/florida-shows-how-to-adapt-as-coastal-cities-face-growing-threats-from-sea-level-rise-and-storms",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a89900dc8d15006573074c7jpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-002672f5-12a9-5869-8ebe-964698ec4a21",
-        "title": "Opinion: Plenty of alternatives to U.S. wines on the shelves",
-        "description": "In February 2025, Manitoba (and most other provinces) pulled American liquor from store shelves as part of the ongoing trade dispute with the United States.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-22T11:00:07.000Z",
-        "url": "https://www.winnipegfreepress.com/arts-and-life/2026/08/22/plenty-of-alternatives-to-u-s-wines-on-the-shelves",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/4497213_web1_251210USliquor09TS.jpg?w=1600",
+        "id": "currents-bdbccfc0-fd13-5e3f-8023-12f65b047401",
+        "title": "Investigation launched after burglary and car theft in Belfast",
+        "description": "It happened in the early hours of Saturday morning",
+        "publisher": "Belfastlive",
+        "publisherDomain": "belfastlive.co.uk",
+        "publishedAt": "2026-08-22T12:03:35.000Z",
+        "url": "https://www.belfastlive.co.uk/news/belfast-news/investigation-launched-after-burglary-car-34501288",
+        "imageUrl": "https://i2-prod.belfastlive.co.uk/article26519384.ece/ALTERNATES/s1200d/1_JS229185209.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-0859c434-cbee-57d4-94d7-51872ef50376",
-        "title": "'Absolutely stoked': Quiet hobby gets dose of adrenalin as speed puzzling grows",
-        "description": "WINNIPEG - The most gruelling day of competition left Kirsty Williams sweating and collapsed on the floor, clutching a can of Coke as she tried not to pass out.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-22T11:00:00.000Z",
-        "url": "https://www.winnipegfreepress.com/arts-and-life/life/2026/08/22/absolutely-stoked-quiet-hobby-gets-dose-of-adrenalin-as-speed-puzzling-grows",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/3ed3000635e2013769d4fa7f4510877fb2f9a8f63ed5fecbd8eac920e5b61149.jpg?w=1600",
+        "id": "currents-ad2440c2-387a-59ce-a783-da6bfdc9f950",
+        "title": "Birmingham City [1]-1 Bristol City, Sam Tickle own goal 42'",
+        "description": "submitted by /u/PopeSouthpaw [link] [comments]",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-08-22T12:22:48.000Z",
+        "url": "https://www.reddit.com/r/Championship/comments/1vvb1ix/birmingham_city_11_bristol_city_sam_tickle_own",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-ee14ae06-de59-5855-9303-8b6e99a3223f",
+        "title": "Birmingham City 0-[1] Bristol City, Scott Twine 33'",
+        "description": "submitted by /u/PopeSouthpaw [link] [comments]",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-08-22T12:07:23.000Z",
+        "url": "https://www.reddit.com/r/Championship/comments/1vvaq0o/birmingham_city_01_bristol_city_scott_twine_33",
         "categories": [
           "Sports"
         ]
@@ -1118,209 +1139,210 @@
     ],
     "Entertainment": [
       {
-        "id": "currents-36481b14-0162-52b2-9274-750b095ace12",
-        "title": "'Lanterns' shines a bright but unsteady light",
-        "description": "If Watchmen taught us that you can use superheroes to excavate the cracked foundations of the American experience, Lanterns seems content to linger in the shadow of another HBO prestige genre series, True Detective.",
-        "publisher": "NPR",
-        "publisherDomain": "npr.org",
-        "publishedAt": "2026-08-22T11:00:00.000Z",
-        "url": "https://www.npr.org/2026/08/22/nx-s1-5936439/hbo-lanterns-review",
-        "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1080+0+86/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F25%2Fa1%2F86736b4f479a99f42790bc8e9b98%2Faaron-pierre-kyle-chandler.jpg",
+        "id": "currents-57ea911a-4c74-510b-9c91-68c660110ecc",
+        "title": "Heart FM's Toby Anstis reveals his most bizarre celebrity stories",
+        "description": "During his quarter of a century on the airwaves, Toby has also had the chance to interview some of the world's biggest stars. Now he tells the Daily Mail his top 10.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-08-22T12:14:12.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16063751/Heart-FM-Toby-Anstis-Bruno-Mars-Robbie-Williams-Lady-Gaga.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/08/19/13/110727243-0-image-m-50_1787141033368.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-867e34e5-cfdf-5641-b636-d5464a29fc07",
-        "title": "7 Men Who Low-Key Terrorized Their Costars While \"Method Acting\" Vs. 7 Women Who Think It's Total BS",
-        "description": "When will men start method acting as overly nice people?",
+        "id": "currents-2a221fc8-76fb-530a-b04a-f6bbe67be4ae",
+        "title": "What Your Eyes Already Know But Your Brain Doesn’t",
+        "description": "There is absolutely no science behind this...",
         "publisher": "Buzzfeed",
         "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-08-22T11:31:02.000Z",
-        "url": "https://www.buzzfeed.com/leylamohammed/celebrity-men-vs-women-on-method-acting",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/21/16/thumb/h2zZ37LvY.jpg?crop=3000:1571;0,3%26downsize=1250:*",
+        "publishedAt": "2026-08-22T12:51:02.000Z",
+        "url": "https://www.buzzfeed.com/dooggggoo/what-your-eyes-already-know-but-your-brain-doesna",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/20/15/thumb/0qegJxcCF.jpg?crop=1250:654;0,175%26downsize=1250:*",
+        "categories": [
+          "Entertainment",
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-b8fdc01c-a9b5-5f15-8c00-0bfd8881a900",
+        "title": "Bobby Deol Begins Shooting For Prakash Jha's Aashram Season 4: 'Ek Aur Aarambh...'",
+        "description": "Bobby Deol will be seen reprising his role as Baba Nirala in Aashram Season 4, expected to stream on MX Player, just like the previous seasons.",
+        "publisher": "News18",
+        "publisherDomain": "news18.com",
+        "publishedAt": "2026-08-22T12:46:32.000Z",
+        "url": "https://www.news18.com/movies/web-series/bobby-deol-begins-shooting-for-prakash-jhas-aashram-season-4-ek-aur-aarambh-10288000.html",
+        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/08/Aashram-4-2026-08-61ccfe17ffb6fb3f951e2ea2a91c2628-1200x675.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-448c92a6-99c3-5dfa-9776-d144b286a4c4",
-        "title": "Nuking a 'City Killer' Asteroid Might Not Be the Worst Idea. Scientists Tested It.",
-        "description": "If your concept of eradicating a potential “city killer” asteroid begins and ends with the plot of Armageddon, well, you’re actually not that far off from one proposed method of asteroid obliteration—just without actually putting anyone on the asteroid. Nuking an asteroid to smithereens is such a vi...",
-        "publisher": "Vice",
-        "publisherDomain": "vice.com",
-        "publishedAt": "2026-08-22T11:30:00.000Z",
-        "url": "https://www.vice.com/en/article/nuking-a-city-killer-asteroid-might-not-be-the-worst-idea-scientists-tested-it",
-        "imageUrl": "https://www.vice.com/wp-content/uploads/sites/2/2026/08/simulations-show-that-nuking-a-city-killer-asteroid-might-not-be-the-worst-idea.png?w=2000",
+        "id": "currents-0bff0c6f-e229-502a-bbc8-4be4b0d60ec2",
+        "title": "Actor Michael Wright, Star of ‘The Five Heartbeats’ and ‘V,’ Dies at 70",
+        "description": "Actor Michael Wright, known for \"The Five Heartbeats,\" \"The Principal\" and \"V,\" has died, according to a statement from his family. He was 70.",
+        "publisher": "Variety",
+        "publisherDomain": "variety.com",
+        "publishedAt": "2026-08-22T12:38:46.000Z",
+        "url": "https://variety.com/2026/film/news/michael-wright-dead-five-heartbeats-the-principal-1236840765",
+        "imageUrl": "https://variety.com/wp-content/uploads/2026/08/Michael-Wright.jpg?w=1000&h=563&crop=1",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-6890241c-68cd-5e88-90e7-60f6840e2218",
-        "title": "Who Is Pierre ‘P’ Thomas? QC Co-Founder Hospitalized After Heart Attack",
-        "description": "The Quality Control co-founder helped turn a scrappy Atlanta label into a hip-hop empire. Here’s what we know about his condition after the sudden scare.",
-        "publisher": "Hollywoodlife",
-        "publisherDomain": "hollywoodlife.com",
-        "publishedAt": "2026-08-22T11:30:00.000Z",
-        "url": "https://hollywoodlife.com/feature/who-is-pierre-p-thomas-quality-control-heart-attack-5557055",
-        "imageUrl": "https://i0.wp.com/media.hollywoodlife.com/uploads/2026/08/GettyImages-1166734995-1-e1787396808282.jpg?resize=1200%2C675&quality=100&ssl=1",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-fa79be69-e76b-52e9-9f27-944b9e9e4c73",
-        "title": "In which 'Winnie-the-Pooh' turns 100",
-        "description": "In 1926, author A.A. Milne and illustrator Ernest H. Shepard published Winnie-the-Pooh. Now, a new kids' book — How a Bear Became a Book — celebrates their collaboration.",
-        "publisher": "NPR",
-        "publisherDomain": "npr.org",
-        "publishedAt": "2026-08-22T11:00:00.000Z",
-        "url": "https://www.npr.org/2026/08/22/nx-s1-5697049/how-a-bear-became-a-book-annette-bay-pimentel-faith-pray",
-        "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3148x1771+3578+1758/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe5%2F6a%2F24597b5040b8b3e7ae79c104bdd4%2Fhowabearbecameabook-9781250358448-int-36-37.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-9c104324-69f0-5d5a-863c-ec4a6bab4025",
-        "title": "26 Less Obvious Things About Getting Older That Really Did Surprise People When They Happened",
-        "description": "This might actually change the way I live.",
+        "id": "currents-05d1ec5e-e48a-5598-b6f4-8b450d7a75ec",
+        "title": "It Might Feel Like Summer Outside, But It Looks Like A Crispy Fall Day In This Post",
+        "description": "If you're ready for chunky knits, tall boots, fall candles, apples, and pumpkin spice, let's hang out.",
         "publisher": "Buzzfeed",
         "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-08-22T11:31:02.000Z",
-        "url": "https://www.buzzfeed.com/scarymouse/what-surprising-about-getting-older",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/15/00/thumb/xfwxRAutr.jpg?crop=1250:654;0,106%26downsize=1250:*",
+        "publishedAt": "2026-08-22T12:31:02.000Z",
+        "url": "https://www.buzzfeed.com/melanie_aman/fall-weather-products",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/20/14/thumb/0KBKS-JNT.jpg?crop=1250:654;0,88%26downsize=1250:*",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-85e9a67c-feda-5f63-a84b-e70a51a054b6",
-        "title": "BBC series watched by 11,800,000 returns with 'stakes higher than ever'",
-        "description": "'Peep Show but with added murder'",
-        "publisher": "Metro",
-        "publisherDomain": "metro.co.uk",
-        "publishedAt": "2026-08-22T11:24:12.000Z",
-        "url": "https://metro.co.uk/2026/08/22/bbc-series-watched-11-800-000-returns-stakes-higher-ever-29436890",
-        "imageUrl": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_301540232-b0ab-e1787397637600_1787397858.jpg?quality=90&strip=all&w=1200&h=630&crop=1",
+        "id": "currents-3c2438f3-7ab9-5d98-b933-99f533baf95f",
+        "title": "Deepika Padukone Spirit Row: Actress Sought Rs 25 Crore For 35-Day Shoot, 10% Profit Share?",
+        "description": "Deepika Padukone’s Spirit exit row resurfaces. News18 had exclusively reported her alleged Rs 25 crore fee, 10% profit share and other demands.",
+        "publisher": "News18",
+        "publisherDomain": "news18.com",
+        "publishedAt": "2026-08-22T12:28:04.000Z",
+        "url": "https://www.news18.com/movies/bollywood/deepika-padukone-spirit-row-actress-sought-rs-25-crore-for-35-day-shoot-10-profit-share-ws-klt-10287980.html",
+        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/08/Deepika-Padukone-Spirit-Sandeep-Reddy-Vanga-2026-08-e18523ea23d866cf68a34b37f6a3ada5-1200x675.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-72c3bc1d-ac68-5c5b-8c92-2b2d30f62f81",
-        "title": "Grooms Are Revealing Why They Called Off Their Marriage Right Before The Wedding, And Wow",
-        "description": "\"A friend of mine attended a wedding where the groom waited till his fiancé arrived at the altar, then pulled a huge red fabric letter A out of his pocket, pinned it to the front of her dress, and walked out of the church without a word.\"",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-08-22T11:16:02.000Z",
-        "url": "https://www.buzzfeed.com/lizmrichardson/grooms-cancel-weddings-stories-fs",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2023-08/28/20/enhanced/08ce27dba7b1/original-465-1693253136-2.jpg?crop=1200:628;0,0%26downsize=1250:*",
+        "id": "currents-c66a004d-5249-5bed-b72b-eca7026331ea",
+        "title": "Ronnie Wood stuns crowd as he returns to stage for first live show in 16 years",
+        "description": "Ronnie Wood joined frequent collaborator Imelda May onstage at London's O2 Forum Kentish town ahead of their forthcoming tour",
+        "publisher": "Mirror",
+        "publisherDomain": "mirror.co.uk",
+        "publishedAt": "2026-08-22T12:26:59.000Z",
+        "url": "https://www.mirror.co.uk/3am/celebrity-news/ronnie-wood-concert-tour-tickets-37581448",
+        "imageUrl": "https://i2-prod.mirror.co.uk/article37581370.ece/ALTERNATES/s1200d/0_JS415459183.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-5f9fb4e8-5b60-5d73-b455-814c94c59907",
-        "title": "Ozark star reveals he was nearly cast as Professor X in X-Men reboot",
-        "description": "\"I can see everything with a perspective that just leaves me feeling grateful.\"",
-        "publisher": "Radiotimes",
-        "publisherDomain": "radiotimes.com",
-        "publishedAt": "2026-08-22T11:14:43.000Z",
-        "url": "https://www.radiotimes.com/movies/scifi/x-men-movie-tom-pelphrey-professor-x-newsupdate",
-        "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2026/08/Tom-Pelphrey--aea95e7.jpg?resize=1200%2C630",
+        "id": "currents-6db597b6-d01d-56b2-bb7a-b3f1b927e11e",
+        "title": "US imposes 50% tariffs on $20 billion worth of Canadian products, and Canada says it will retaliate",
+        "description": "The United States is imposing 50% tariffs on $20 billion worth of Canadian products after last-ditch negotiations failed to resolve the latest strain in already tense relations between the historic allies.",
+        "publisher": "Abc7chicago",
+        "publisherDomain": "abc7chicago.com",
+        "publishedAt": "2026-08-22T12:20:00.000Z",
+        "url": "https://abc7chicago.com/post/us-canada-tariffs-news-imposes-50-20-billion-worth-canadian-products-says-will-retaliate/19718120",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/19718117_082226-wls-canada-tariffs-6avo-vid.jpg?w=1600",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-c3d5e9a6-2a10-5909-809f-342211598be8",
-        "title": "Moby in Dublin review: Old-school beats, bongos and floor-slaying dance escapism",
-        "description": "Techno titan Richard Melville Hall returns to the stage with a exhilarating set – and there’s even a nod to Father Ted",
-        "publisher": "Irishtimes",
-        "publisherDomain": "irishtimes.com",
-        "publishedAt": "2026-08-22T11:11:37.000Z",
-        "url": "https://www.irishtimes.com/culture/music/review/2026/08/22/moby-in-dublin-review-old-school-beats-bongos-and-floor-slaying-dance-escapism",
-        "imageUrl": "https://www.irishtimes.com/resizer/v2/GUSWHE4ATRHQFOLQ6UXKPOZWZE.jpg?smart=true&auth=62aa277ed89ba5eeac1d4602c6597a7709888b34862155b8189fd7c022d3283d&width=1200&height=630",
+        "id": "currents-b947b284-d112-5005-acc4-1eadaa9f045e",
+        "title": "Amid Govinda-Sunita Spat, Krushna Abhishek Cheers For Cousin Yashvardhan’s Bollywood Debut",
+        "description": "Krushna Abhishek is excited for cousin Yashvrdhn's Bollywood debut in \"Hero Ki Horrorine,\" directed by Sajid Khan, releasing Jan 7, 2027.",
+        "publisher": "News18",
+        "publisherDomain": "news18.com",
+        "publishedAt": "2026-08-22T12:08:57.000Z",
+        "url": "https://www.news18.com/movies/bollywood/amid-govinda-sunita-spat-krushna-abhishek-cheers-for-cousin-yashvardhans-bollywood-debut-ws-l-10287871.html",
+        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/08/BeFunky-collage-1-2026-08-a3ceb4217dd0fbb38de73b2b993ef69a-1200x675.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-7d600a36-4521-54f9-bc4e-7c8bb3582f42",
-        "title": "After calling Gen Z 'Gutter Generation', Kangana Ranaut now says she's 'Gen Alpha'",
-        "description": "Kangana Ranaut has been in the news lately for her controversial remarks on the Gen Z protests surrounding the alleged NEET-UG paper leak. Across a string of social media posts, she called certain Gen Z protesters the \"gutter generation.\" Adding a new twist to the row, she has now posted again, this...",
+        "id": "currents-91628387-7e58-5b41-9ce3-9fca5a4e86dc",
+        "title": "Kangana Ranaut calls Karisma Kapoor the 'Original Fashionista', says she 'Worshipped' her in the 90s, shares RARE PIC",
+        "description": "Actress-politician Kangana Ranaut, known for being vocal on social media and sharing her honest takes on a range of topics, recently turned to Instagram to express her admiration for veteran actress Karisma Kapoor. She posted a rare throwback picture of herself, revealing that Karisma Kapoor, fondly...",
         "publisher": "Indiatimes",
         "publisherDomain": "timesofindia.indiatimes.com",
-        "publishedAt": "2026-08-22T11:04:54.000Z",
-        "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/after-calling-gen-z-gutter-generation-kangana-ranaut-now-says-shes-gen-alpha/articleshow/133422703.cms",
-        "imageUrl": "https://static.toiimg.com/thumb/msid-133422753,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+        "publishedAt": "2026-08-22T12:01:33.000Z",
+        "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/kangana-ranaut-calls-karisma-kapoor-the-original-fashionista-says-she-worshipped-her-in-the-90s-shares-rare-pic/articleshow/133423739.cms",
+        "imageUrl": "https://static.toiimg.com/thumb/msid-133423775,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-14d86c48-0d92-5c7a-9bd6-428ad416148c",
-        "title": "Small Kitchen? These 27 Clever Products Will Help You Make Every Inch Count",
-        "description": "A guide to optimizing space for your snacks, gadgets, and questionable number of mugs.",
+        "id": "currents-46421ca5-f4ff-5af2-9963-837b46229ece",
+        "title": "27 Affordable Products That’ll Actually Make Parenting Feel A Tiny Bit Easier",
+        "description": "Consider these your parenting cheat codes.",
         "publisher": "Buzzfeed",
         "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-08-22T11:01:02.000Z",
-        "url": "https://www.buzzfeed.com/mana_faye/small-kitchen-finds",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-07/29/16/thumb/cO-8_pcVZ.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+        "publishedAt": "2026-08-22T12:01:02.000Z",
+        "url": "https://www.buzzfeed.com/kathleensheaporter/affordable-products-to-make-parenting-easier",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/11/15/thumb/tg9Zu6o5v.jpg?crop=2999:1570;0,2%26downsize=1250:*",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-63b88d9a-3653-5de6-8fce-c92076bb07cc",
-        "title": "What channel is West Brom v Burnley Championship match on? TV coverage, live stream and kick-off time",
-        "description": "Check out how to watch West Brom v Burnley in the Championship, including TV channel, radio coverage and kick-off time.",
-        "publisher": "Radiotimes",
-        "publisherDomain": "radiotimes.com",
-        "publishedAt": "2026-08-22T11:00:52.000Z",
-        "url": "https://www.radiotimes.com/tv/sport/football/west-brom-burnley-championship-2026-27-preview",
-        "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2026/08/GettyImages-2290361697-12176bf.jpg?resize=1200%2C630",
+        "id": "currents-bef1f775-5d61-5ed0-8a4a-20655840d1cc",
+        "title": "Stand By Me remains a one-of-a-kind Stephen King adaptation",
+        "description": "The film is celebrating its 40th anniversary this year.",
+        "publisher": "Metro",
+        "publisherDomain": "metro.co.uk",
+        "publishedAt": "2026-08-22T12:00:00.000Z",
+        "url": "https://metro.co.uk/2026/08/22/stand-remains-a-one-of-a-kind-stephen-king-adaptation-29415351",
+        "imageUrl": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_240429437-1d78_1787319618.jpg?quality=90&strip=all&w=1200&h=630&crop=1",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-0046c720-999e-5afb-9b69-b7bcbec990cf",
-        "title": "Match of the Day presenters: Meet the pundits after 2026/27 shake-up",
-        "description": "All you need to know about the Match of the Day presenters and pundits ahead of the 2026/27 season.",
-        "publisher": "Radiotimes",
-        "publisherDomain": "radiotimes.com",
-        "publishedAt": "2026-08-22T11:00:22.000Z",
-        "url": "https://www.radiotimes.com/tv/sport/football/match-of-the-day-presenters",
-        "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2025/08/530086-2eaa949.jpg?resize=1200%2C630",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-a55ddebd-ec47-5bd4-9f8f-e5b9fe0bc774",
-        "title": "Wuhan Open 2026 snooker on TV 2026: How to watch, channel and live stream",
-        "description": "Your complete guide to how to watch the Wuhan Open 2026 on TV and live stream, including full broadcast details.",
-        "publisher": "Radiotimes",
-        "publisherDomain": "radiotimes.com",
-        "publishedAt": "2026-08-22T11:00:01.000Z",
-        "url": "https://www.radiotimes.com/tv/sport/snooker/wuhan-open-2026-tv",
-        "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2026/08/GettyImages-2289687292-2b06b56.jpg?resize=1200%2C630",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-ba4748a8-33bf-5033-817d-cf64b1fe1672",
-        "title": "The best portable CAD laptops for on-site work",
-        "description": "Get the power you need to run your software on location with the best portable CAD laptops for on-site work.",
+        "id": "currents-c4dde821-a5a2-5a0d-8a95-e1e100a8b663",
+        "title": "The Spider-Man AI scandal feels inevitable",
+        "description": "Cinema isn’t excluded from the AI invasion.",
         "publisher": "Creativebloq",
         "publisherDomain": "creativebloq.com",
-        "publishedAt": "2026-08-22T11:00:00.000Z",
-        "url": "https://www.creativebloq.com/tech/laptops/the-best-portable-cad-laptops-for-on-site-work",
-        "imageUrl": "https://cdn.mos.cms.futurecdn.net/9wpjEhz2qs9Uh6U2KeusFh-1920-80.jpg",
+        "publishedAt": "2026-08-22T12:00:00.000Z",
+        "url": "https://www.creativebloq.com/entertainment/movies-tv-shows/the-spider-man-ai-scandal-shouldnt-be-a-surprise",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/dbVAZFvL9Da94km64KvaTa-1920-80.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-bdc55756-5bab-5b57-bb2d-c8ebeb546776",
+        "title": "When you have a very very very very very serious hobby",
+        "description": "Tags: awesome, satisfying, wow588 points, 61 comments.",
+        "publisher": "9gag",
+        "publisherDomain": "9gag.com",
+        "publishedAt": "2026-08-22T12:35:37.000Z",
+        "url": "http://9gag.com/gag/a87P0nO",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-da04a604-1dd6-5b53-bf6b-9193910f19d2",
+        "title": "I’m Confident That If You Ace This General Knowledge Quiz, You’re Brilliant",
+        "description": "Slow down there, ya brainiac.",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-08-22T12:01:02.000Z",
+        "url": "https://www.buzzfeed.com/audreyworboys/general-knowledge-trivia-bingo-edition-43",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/18/23/thumb/bNxRcLc5q.jpg?crop=2490:1660;5,0&resize=1250:830",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-fbe6771e-3ab6-5f55-aaaf-5515d651be31",
+        "title": "“That CAN’T Be Real”: 35 Things About “American Schools” That Are Completely Normal To Americans And Incredibly Weird To Non-Americans",
+        "description": "I never thought about it that way.",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-08-22T12:16:02.000Z",
+        "url": "https://www.buzzfeed.com/daves4/weird-things-about-americans-schools",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/18/12/thumb/aKJxAOKCR.jpg?crop=2490:1660;5,0&resize=1250:830",
         "categories": [
           "Entertainment"
         ]
@@ -1332,6 +1354,6 @@
     "successfulRequests": 5,
     "failedRequests": 0,
     "articleCountBeforeDeduplication": 100,
-    "articleCountAfterDeduplication": 77
+    "articleCountAfterDeduplication": 79
   }
 }
