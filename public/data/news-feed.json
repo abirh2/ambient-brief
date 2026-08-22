@@ -1,94 +1,107 @@
 {
   "schemaVersion": 1,
   "provider": "currents",
-  "generatedAt": "2026-08-22T20:32:41.382Z",
-  "sourceFetchedAt": "2026-08-22T20:32:41.382Z",
+  "generatedAt": "2026-08-22T20:52:19.524Z",
+  "sourceFetchedAt": "2026-08-22T20:52:19.524Z",
   "status": "success",
   "categories": {
     "Top": [
       {
-        "id": "currents-bebf9b58-358c-5ecb-8cf9-07ae8a4e24e0",
-        "title": "Prince Harry 'privately pleads' with Home Secretary over security amid UK return",
-        "description": "Security remains a key issue following the Duke and Duchess of Sussex’s announcement they will return to the UK",
-        "publisher": "Standard",
-        "publisherDomain": "standard.co.uk",
-        "publishedAt": "2026-08-22T20:22:22.000Z",
-        "url": "https://www.standard.co.uk/news/royals/prince-harry-privately-pleads-security-uk-b1294334.html",
-        "imageUrl": "https://static.standard.co.uk/2026/07/29/15/2256944483..?width=1200&auto=webp&quality=75",
+        "id": "currents-7af8706a-374b-591e-8e91-871dc973c36e",
+        "title": "Tropical Storm Moke expected to bring up to 15 inches of rain in Hawaii: Maps and projected path",
+        "description": "Hawaii is still cleaning up from Hurricane Lala, which dumped massive amounts of rain on the islands.",
+        "publisher": "CBS News",
+        "publisherDomain": "cbsnews.com",
+        "publishedAt": "2026-08-22T20:38:54.000Z",
+        "url": "https://www.cbsnews.com/news/tropical-storm-moke-rain-hawaii-big-island",
+        "imageUrl": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/08/22/f91a03af-b309-479c-a064-b1bbc5340ed9/thumbnail/1200x630/23f131ac54770cf084165986e23020ff/screenshot-2026-08-22-at-4-23-17-pm.png",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-acd66cf8-b1f1-56db-b6dc-746bcf893b93",
+        "title": "Paramount, California AG office reportedly plan to meet Monday to discuss settling WBD lawsuit",
+        "description": "Paramount and the California A.G. office are set to meet Monday to discuss a settlement of the antitrust lawsuit over Paramount's Warner Bros. Discovery deal.",
+        "publisher": "CNBC",
+        "publisherDomain": "cnbc.com",
+        "publishedAt": "2026-08-22T20:34:13.000Z",
+        "url": "https://www.cnbc.com/2026/08/22/paramount-california-ag-said-to-plan-meeting-on-settling-wbd-suit-.html",
+        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108334165-17839619082026-06-30t125836z_380056246_rc2fciazx5cx_rtrmadp_0_warner-bros-dis-m-a-paramount-britain.jpeg?v=1783961940&w=1920&h=1080",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-4ce548c2-3b65-5b7e-b040-7e06d020770e",
+        "title": "West's war on Russia, Russian flag as symbol of justice — Lavrov’s remarks",
+        "description": "The foreign minister emphasized that the West will try to disrupt the September elections to the State Duma, but \"these plans will thwarted\"",
+        "publisher": "Tass",
+        "publisherDomain": "tass.com",
+        "publishedAt": "2026-08-22T20:35:40.000Z",
+        "url": "https://tass.com/politics/2176537",
+        "imageUrl": "https://cdn-media.tass.ru/width/1200_4ce85301/tass/m2/en/uploads/i/20260822/1484355.jpg",
         "categories": [
           "Top",
           "World"
         ]
       },
       {
-        "id": "currents-a2dd61e6-4330-51ed-81a5-e748c5f76e5a",
-        "title": "Understanding the Git Workflow: Working Directory, Staging, Commit and Push.",
-        "description": "Two weeks ago, I joined a Data Science bootcamp and part of the learning outcomes for this week was...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-22T20:20:07.000Z",
-        "url": "https://dev.to/9ichia/understanding-the-git-workflow-working-directory-staging-commit-and-push-226i",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F47ovbx4ywcvs3r28tjaz.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-6b29d889-01c6-50d3-843b-62b7b1f5b307",
-        "title": "Valve’s latest Proton update fixes Helldivers 2, Forza Horizon, and more",
-        "description": "Valve's Proton 11.0-2 update fixes dozens of games on Linux and SteamOS, including Helldivers 2, Marvel Rivals, Forza Horizon and Arc Raiders.",
-        "publisher": "Digitaltrends",
-        "publisherDomain": "digitaltrends.com",
-        "publishedAt": "2026-08-22T20:19:02.000Z",
-        "url": "https://www.digitaltrends.com/computing/valve-proton-11-0-2-steamos-game-fixes",
-        "imageUrl": "https://www.digitaltrends.com/tachyon/2022/06/steam-deck-tricks-3.jpg?resize=1200%2C630",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-94059bea-66d7-5c6c-8c2e-dd091d62fdcf",
-        "title": "Brentford are everything Spurs want to be. Can De Zerbi bridge the gap?",
-        "description": "Brentford beat Tottenham Hotspur and new manager Roberto De Zerbi at their own game, showing the scale of the task ahead for the Italian.",
+        "id": "currents-82c94687-af21-5dd8-b47e-5d758b58ef47",
+        "title": "Roberto De Zerbi: Tottenham 'not a team yet' and lacking fight after Brentford defeat",
+        "description": "Roberto De Zerbi has said that Tottenham are undercooked and \"lacking fight\" after they slumped to a 3-0 defeat at Brentford.",
         "publisher": "ESPN",
         "publisherDomain": "espn.com",
-        "publishedAt": "2026-08-22T20:18:20.000Z",
-        "url": "https://www.espn.com/soccer/story/_/id/49693373/brentford-everything-spurs-want-de-zerbi-bridge-gap",
-        "imageUrl": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0822%2Fr1705412_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-08-22T20:48:01.000Z",
+        "url": "https://www.espn.com/soccer/story/_/id/49694117/roberto-de-zerbi-tottenham-not-team-yet-lacking-fight-brentford-defeat",
+        "imageUrl": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0822%2Fr1705429_575x383_3%2D2.jpg",
         "categories": [
           "Top",
           "U.S."
         ]
       },
       {
-        "id": "currents-5a394f53-2fba-5ab6-824b-56d16704773c",
-        "title": "Sec. Duffy Says He Wants His Kid to Reach Heaven, Not Harvard",
-        "description": "Sean Duffy prioritizes faith over elite colleges, warning against woke Ivy League influence on children.",
-        "publisher": "Pjmedia",
-        "publisherDomain": "pjmedia.com",
-        "publishedAt": "2026-08-22T20:17:00.000Z",
-        "url": "https://pjmedia.com/catherinesalgado/2026/08/22/sec-duffy-says-he-wants-his-kid-to-reach-heaven-not-harvard-n4956435",
-        "imageUrl": "https://media.townhall.com/cdn/hodl/2025/136/5de3b676-0a6a-492b-8d8c-f4e11022fdea.jpg",
+        "id": "currents-88951238-35c8-5d66-a046-ddebfced422a",
+        "title": "Traffic cameras could return as California city battles ‘epidemic’ of dangerous drivers",
+        "description": "The city is considering bringing back red-light enforcement cameras, two years after its previous program was shut down.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-08-22T20:44:33.000Z",
+        "url": "https://nypost.com/2026/08/22/us-news/sacramento-considers-bringing-back-red-light-cameras",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/newspress-collage-b0kk3i7pu-1787431308260.jpg?quality=75&strip=all&1787416962&w=1200",
         "categories": [
           "Top",
+          "World",
           "U.S."
         ]
       },
       {
-        "id": "currents-3ef86180-8c17-5f04-b438-64e891a0fd2b",
-        "title": "The Blood of Dawnwalker won't hit 60 FPS on any console, PS5 Pro tops out at 40 FPS",
-        "description": "The Blood of Dawnwalker caps at 40 FPS on PS5 Pro even on performance mode, and unfortunately won't reach 60 FPS on any current console.",
-        "publisher": "Tweaktown",
-        "publisherDomain": "tweaktown.com",
-        "publishedAt": "2026-08-22T20:15:11.000Z",
-        "url": "https://www.tweaktown.com/news/113201/the-blood-of-dawnwalker-wont-hit-60-fps-on-any-console-ps5-pro-tops-out-at-40-fps/index.html",
-        "imageUrl": "https://static.tweaktown.com/news/1/1/113201_1_the-blood-of-dawnwalker-wont-hit-60-fps-on-any-console-ps5-pro-tops-out-at-40_full.jpg",
+        "id": "currents-8f950d1b-be25-592d-8edf-2f10dde7e529",
+        "title": "Dodgers have competition atop The Post’s latest MLB Power Rankings",
+        "description": "Each week, the California Post will power rank MLB’s 30 teams and check in on one intriguing awards race. Records as of Saturday morning: 1) Brewers (80-49) Last week, we dropped the previously top…",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-08-22T20:39:58.000Z",
+        "url": "https://nypost.com/2026/08/22/sports/brewers-dodgers-battle-for-top-spot-in-mlb-power-rankings",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/newspress-collage-xovwmz3nk-1787420957406.jpg?quality=75&strip=all&1787406585&w=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-845ef4f3-3236-5269-b059-3ecd04b1616a",
+        "title": "# My First Github Project: From a Local Folder to Github Using Git and SSH",
+        "description": "Introduction I am on week two of learning Data Science and Analytics and I have just been...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-08-22T20:34:06.000Z",
+        "url": "https://dev.to/nesta_munene_5f710317bb2e/-my-first-github-project-from-a-local-folder-to-github-using-git-and-ssh-b1a",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmuvuyzk6mti21878vd17.png",
         "categories": [
           "Top",
           "U.S.",
@@ -97,18 +110,88 @@
         ]
       },
       {
-        "id": "currents-c21528e4-2553-500d-88d2-d30c195bd6e1",
-        "title": "Europe's wildfires unveil deadly new threat - bombs from WWI and WWII",
-        "description": "Droughts across Europe have also been churning up military vehicles and weapons from the era, with shrinking rivers revealing German warships, a Wehrmacht motorbike, and a bomb. #EuropeNews",
-        "publisher": "Euronews",
-        "publisherDomain": "euronews.com",
-        "publishedAt": "2026-08-22T20:13:49.000Z",
-        "url": "https://www.euronews.com/my-europe/2026/08/22/europes-devastating-wildfires-unveil-deadly-new-threat-buried-bombs-from-wwi-and-wwii",
-        "imageUrl": "https://images.euronews.com/articles/stories/09/88/46/89/1200x675_cmsv2_05b977e7-26a5-57d9-a4fb-0739013b05d3-9884689.jpg",
+        "id": "currents-edebdc30-23e5-5286-bd19-39bb0b38ad21",
+        "title": "Why Sione Vaki, Lions RB, didn't play vs. Commanders",
+        "description": "Running back Sione Vaki was the only surprise absence for the Lions in their 17-13 preseason victory over the Commanders.",
+        "publisher": "Detroitnews",
+        "publisherDomain": "detroitnews.com",
+        "publishedAt": "2026-08-22T20:33:02.000Z",
+        "url": "https://www.detroitnews.com/story/sports/nfl/lions/2026/08/22/why-sione-vaki-lions-rb-didnt-play-vs-commanders/91424805007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/06/04/PDTN/90407087007-20260604-dmlionssp-lions-1474.jpg?auto=webp&crop=4330,2436,x0,y258&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-2c8c67cb-727b-531a-834c-7f602441d8ed",
+        "title": "Jeremiyah Love’s girlfriend roasts trolls over $300K Lamborghini gift: ‘Could probably quit my job’",
+        "description": "Arizona Cardinals rookie Jeremiyah Love’s girlfriend Aliece shut down trolls after he gifted her a $300,000 Lamborghini Urus.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-08-22T20:32:39.000Z",
+        "url": "https://nypost.com/2026/08/22/sports/jeremiyah-loves-girlfriend-roasts-trolls-over-300k-lamborghini-gift",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/newspress-collage-t433ph19l-1787425987559.jpg?quality=75&strip=all&1787411610&w=1200",
         "categories": [
           "Top",
           "U.S.",
           "World"
+        ]
+      },
+      {
+        "id": "currents-1122632d-2bc7-5d17-ab5b-457ad418fd14",
+        "title": "Popular '90s rock band's tour bus involved in fatal crash. Here's what we know",
+        "description": "Fans of the popular rock band Buckcherry are sending prayers their way after a fatal crash involving its tour bus.",
+        "publisher": "Lehighvalleylive",
+        "publisherDomain": "lehighvalleylive.com",
+        "publishedAt": "2026-08-22T20:41:45.000Z",
+        "url": "https://www.lehighvalleylive.com/entertainment/2026/08/popular-90s-rock-bands-tour-bus-involved-in-fatal-crash-heres-what-we-know.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-3e01abb5-3095-5364-82c5-aaf2cda02950",
+        "title": "Travel advisory issued for popular Caribbean destination, and it's good news for travelers - NJ.com",
+        "description": "This Caribbean nation has the lowest State Department-issued travel advisory, which means it is a generally safe destination for U.S. citizens to ...",
+        "publisher": "Lehighvalleylive",
+        "publisherDomain": "lehighvalleylive.com",
+        "publishedAt": "2026-08-22T20:41:45.000Z",
+        "url": "https://www.lehighvalleylive.com/news/2026/08/travel-advisory-issued-for-popular-caribbean-destination-and-its-good-news-for-travelers.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-678e712e-380c-5e31-a500-a724fa2b5e52",
+        "title": "Where to watch Steelers vs. Jets NFL preseason game tonight on free streams, TV",
+        "description": "The Pittsburgh Steelers return to NFL preseason action Friday night at Acrisure Stadium against the visiting New York Jets.",
+        "publisher": "Lehighvalleylive",
+        "publisherDomain": "lehighvalleylive.com",
+        "publishedAt": "2026-08-22T20:41:45.000Z",
+        "url": "https://www.lehighvalleylive.com/tv/2026/08/where-to-watch-steelers-vs-jets-nfl-preseason-game-tonight-on-free-streams-tv.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-7c22839c-739c-53db-b07e-282e8a1e7783",
+        "title": "The most heartbreaking deaths in country music history: Stars we lost too soon",
+        "description": "Published: Aug. 22, 2026, 6:00 a.m.. Brett James died in a plane crash in 2025. (Photo by Terry Wyatt/Getty Images) ...",
+        "publisher": "Lehighvalleylive",
+        "publisherDomain": "lehighvalleylive.com",
+        "publishedAt": "2026-08-22T20:41:45.000Z",
+        "url": "https://www.lehighvalleylive.com/entertainment/2026/08/the-most-heartbreaking-deaths-in-country-music-history-stars-we-lost-too-soon.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
         ]
       },
       {
@@ -125,218 +208,136 @@
         ]
       },
       {
-        "id": "currents-1ddb2ee6-64e4-59c8-b29a-2f1469935445",
-        "title": "Denise Stephens Obituary (2026) - Memphis, TN - The Daily Memphian - Legacy",
-        "description": "Denise C. Stephens, 73, of Memphis, TN, died peacefully in her sleep Friday, July 31, 2026. She was preceded in death by her parents, ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-22T20:25:44.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/dailymemphian/name/denise-stephens-obituary?id=62245268",
+        "id": "currents-37a5df63-2e10-5b90-93df-561b64fd202b",
+        "title": "The most important European act",
+        "description": "The AI race is putting the entire European economy through the ringer",
+        "publisher": "Medium",
+        "publisherDomain": "0xksure.medium.com",
+        "publishedAt": "2026-08-22T20:32:50.000Z",
+        "url": "https://0xksure.medium.com/the-most-important-european-act-f6f298ed693a",
+        "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*W7mbEDoLVdQhqmen",
         "categories": [
           "Top",
-          "World",
-          "U.S."
+          "U.S.",
+          "Technology",
+          "Science"
         ]
       },
       {
-        "id": "currents-2c6a610a-f8ab-56e3-8043-2dd0235ccd21",
-        "title": "Beverly Lynne Foster Obituary (2026) - Winston-Salem, NC - Carolina Cremation Center",
-        "description": "Beverly Foster Obituary Born in Norfolk VA to Linwood/Bunie Burroughs. She was hard working, intelligent and loved animals.",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-22T20:25:44.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/name/beverly-foster-obituary?id=62244978",
+        "id": "currents-99e2bb38-bc02-5aae-a8dd-9b354f9c2704",
+        "title": "Engrava 0.5.0: a first-class MCP server",
+        "description": "Engrava 0.5.0 pulls the MCP server out of the library. Install engrava now and you get the memory...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-08-22T20:36:42.000Z",
+        "url": "https://dev.to/sovantica/engrava-050-a-first-class-mcp-server-2djc",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F15a7fam565xnx70i46bz.png",
         "categories": [
           "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-9991f665-81ad-5d94-adec-2f766724cfdd",
-        "title": "Parris Ronald Hall Obituary (2026) - Wilmington, DE - Evan W. Smith Funeral Services",
-        "description": "Parris Hall Obituary An obituary is not available at this time for Parris Hall. We welcome you to provide your thoughts and memories on our ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-22T20:25:44.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/name/parris-hall-obituary?id=62245971",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-3678a768-3cf9-59f1-95c2-86d25923e5c0",
-        "title": "Post-absence, N.J. Congressman Tom Kean Jr. hit the campaign trail and took a TV ...",
-        "description": "A New York Times reporter was denied entry and approached by police at the event.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-22T20:23:10.000Z",
-        "url": "https://www.inquirer.com/news/tom-kean-congressman-spoke-at-golf-club-20260822.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-3b3c04fe-abfb-53ea-a22c-f490a39392f5",
-        "title": "unCovering the Birds: Two Important Days - The Philadelphia Inquirer",
-        "description": "The Philadelphia Inquirer's Jeff McLane and Boston Sports Journal's Greg A. Bedard recap what they saw at the joint practices in New England.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-22T20:23:10.000Z",
-        "url": "https://www.inquirer.com/eagles/uncovering-the-birds-eagles-patriots-20260822.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-5c0cca9c-9f0c-5044-9911-6d92f356e4ea",
-        "title": "SUV struck and killed man near La Salle University early Saturday - The Philadelphia Inquirer",
-        "description": "The SUV was attempting to go around a stopped vehicle when the man stepped into the road, police said.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-22T20:23:10.000Z",
-        "url": "https://www.inquirer.com/news/pedestrian-killed-by-suv-20260822.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-e24775eb-bee2-5fad-877f-c100e11b14c0",
-        "title": "A tornado touched down in Downingtown during Thursday's severe storms",
-        "description": "The tornado was one of two that touched down in the greater Philadelphia region Thursday night as thunderstorms blanketed the area.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-22T20:23:10.000Z",
-        "url": "https://www.inquirer.com/weather/tornado-downingtown-chester-county-storms-20260822.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-524bf1e2-e78f-5f0e-909e-16c85e1648e0",
-        "title": "Anthony Michael Hall felt ‘rupture’ in friendship with John Hughes after rejecting Ferris Bueller, Pretty in Pink",
-        "description": "“I think that was heartbreaking for him in a way,” the actor said. Anthony Michael Hall loved working with John Hughes, but he felt a shift in their relationship after turning down further collaborations. The actor became a generation-defining teen star after appearing in four of Hughes’ movies: …",
-        "publisher": "Ew",
-        "publisherDomain": "ew.com",
-        "publishedAt": "2026-08-22T20:22:17.000Z",
-        "url": "https://ew.com/anthony-michael-hall-felt-rupture-john-hughes-friendship-12065856",
-        "categories": [
-          "Top",
-          "World",
+          "Technology",
+          "Science",
           "U.S."
         ]
       }
     ],
     "U.S.": [
       {
-        "id": "currents-22c316b5-b3c5-540c-a56c-89604a85c0df",
-        "title": "Carlson keeps Glamorgan in hunt after Gumbs shows quality",
-        "description": "County DIV1 2026, Leics vs Glamorgan Match Report: Rookie Leicestershire opener falls for 93 but not before giving hosts a glimmer of victory",
-        "publisher": "Cricinfo",
-        "publisherDomain": "cricinfo.com",
-        "publishedAt": "2026-08-22T20:21:27.000Z",
-        "url": "https://www.cricinfo.com/series/county-championship-division-one-2026-1513323/leicestershire-vs-glamorgan-43rd-match-1513368/match-report",
-        "imageUrl": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/416400/416439.6.jpg",
+        "id": "currents-7af8706a-374b-591e-8e91-871dc973c36e",
+        "title": "Tropical Storm Moke expected to bring up to 15 inches of rain in Hawaii: Maps and projected path",
+        "description": "Hawaii is still cleaning up from Hurricane Lala, which dumped massive amounts of rain on the islands.",
+        "publisher": "CBS News",
+        "publisherDomain": "cbsnews.com",
+        "publishedAt": "2026-08-22T20:38:54.000Z",
+        "url": "https://www.cbsnews.com/news/tropical-storm-moke-rain-hawaii-big-island",
+        "imageUrl": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/08/22/f91a03af-b309-479c-a064-b1bbc5340ed9/thumbnail/1200x630/23f131ac54770cf084165986e23020ff/screenshot-2026-08-22-at-4-23-17-pm.png",
         "categories": [
           "Top",
-          "U.S.",
-          "Sports"
+          "World",
+          "U.S."
         ]
       },
       {
-        "id": "currents-7c9e7fd1-8878-5abf-9f50-3e6f19719f8d",
-        "title": "Sydney Sweeney Runs Through Obstacle Course, Dresses As Sexy Wonder Woman Alongside Scooter Braun",
-        "description": "Sydney Sweeney is charging through a fun 2026 without a care in the world ... and with a Wonder Woman costume that accentuated every curve.",
-        "publisher": "Tmz",
-        "publisherDomain": "tmz.com",
-        "publishedAt": "2026-08-22T20:21:24.000Z",
-        "url": "https://www.tmz.com/2026/08/22/sydney-sweeney-dresses-as-wonder-woman-with-scooter-braun",
-        "imageUrl": "https://imagez.tmz.com/image/41/16by9/2026/08/22/41f436bb163a4d16a2197df404fe9ecd_xl.png",
+        "id": "currents-acd66cf8-b1f1-56db-b6dc-746bcf893b93",
+        "title": "Paramount, California AG office reportedly plan to meet Monday to discuss settling WBD lawsuit",
+        "description": "Paramount and the California A.G. office are set to meet Monday to discuss a settlement of the antitrust lawsuit over Paramount's Warner Bros. Discovery deal.",
+        "publisher": "CNBC",
+        "publisherDomain": "cnbc.com",
+        "publishedAt": "2026-08-22T20:34:13.000Z",
+        "url": "https://www.cnbc.com/2026/08/22/paramount-california-ag-said-to-plan-meeting-on-settling-wbd-suit-.html",
+        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108334165-17839619082026-06-30t125836z_380056246_rc2fciazx5cx_rtrmadp_0_warner-bros-dis-m-a-paramount-britain.jpeg?v=1783961940&w=1920&h=1080",
         "categories": [
           "Top",
-          "U.S.",
-          "Entertainment"
+          "U.S."
         ]
       },
       {
-        "id": "currents-a2dd61e6-4330-51ed-81a5-e748c5f76e5a",
-        "title": "Understanding the Git Workflow: Working Directory, Staging, Commit and Push.",
-        "description": "Two weeks ago, I joined a Data Science bootcamp and part of the learning outcomes for this week was...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-22T20:20:07.000Z",
-        "url": "https://dev.to/9ichia/understanding-the-git-workflow-working-directory-staging-commit-and-push-226i",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F47ovbx4ywcvs3r28tjaz.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-6b29d889-01c6-50d3-843b-62b7b1f5b307",
-        "title": "Valve’s latest Proton update fixes Helldivers 2, Forza Horizon, and more",
-        "description": "Valve's Proton 11.0-2 update fixes dozens of games on Linux and SteamOS, including Helldivers 2, Marvel Rivals, Forza Horizon and Arc Raiders.",
-        "publisher": "Digitaltrends",
-        "publisherDomain": "digitaltrends.com",
-        "publishedAt": "2026-08-22T20:19:02.000Z",
-        "url": "https://www.digitaltrends.com/computing/valve-proton-11-0-2-steamos-game-fixes",
-        "imageUrl": "https://www.digitaltrends.com/tachyon/2022/06/steam-deck-tricks-3.jpg?resize=1200%2C630",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-94059bea-66d7-5c6c-8c2e-dd091d62fdcf",
-        "title": "Brentford are everything Spurs want to be. Can De Zerbi bridge the gap?",
-        "description": "Brentford beat Tottenham Hotspur and new manager Roberto De Zerbi at their own game, showing the scale of the task ahead for the Italian.",
+        "id": "currents-82c94687-af21-5dd8-b47e-5d758b58ef47",
+        "title": "Roberto De Zerbi: Tottenham 'not a team yet' and lacking fight after Brentford defeat",
+        "description": "Roberto De Zerbi has said that Tottenham are undercooked and \"lacking fight\" after they slumped to a 3-0 defeat at Brentford.",
         "publisher": "ESPN",
         "publisherDomain": "espn.com",
-        "publishedAt": "2026-08-22T20:18:20.000Z",
-        "url": "https://www.espn.com/soccer/story/_/id/49693373/brentford-everything-spurs-want-de-zerbi-bridge-gap",
-        "imageUrl": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0822%2Fr1705412_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-08-22T20:48:01.000Z",
+        "url": "https://www.espn.com/soccer/story/_/id/49694117/roberto-de-zerbi-tottenham-not-team-yet-lacking-fight-brentford-defeat",
+        "imageUrl": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0822%2Fr1705429_575x383_3%2D2.jpg",
         "categories": [
           "Top",
           "U.S."
         ]
       },
       {
-        "id": "currents-5a394f53-2fba-5ab6-824b-56d16704773c",
-        "title": "Sec. Duffy Says He Wants His Kid to Reach Heaven, Not Harvard",
-        "description": "Sean Duffy prioritizes faith over elite colleges, warning against woke Ivy League influence on children.",
-        "publisher": "Pjmedia",
-        "publisherDomain": "pjmedia.com",
-        "publishedAt": "2026-08-22T20:17:00.000Z",
-        "url": "https://pjmedia.com/catherinesalgado/2026/08/22/sec-duffy-says-he-wants-his-kid-to-reach-heaven-not-harvard-n4956435",
-        "imageUrl": "https://media.townhall.com/cdn/hodl/2025/136/5de3b676-0a6a-492b-8d8c-f4e11022fdea.jpg",
+        "id": "currents-88951238-35c8-5d66-a046-ddebfced422a",
+        "title": "Traffic cameras could return as California city battles ‘epidemic’ of dangerous drivers",
+        "description": "The city is considering bringing back red-light enforcement cameras, two years after its previous program was shut down.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-08-22T20:44:33.000Z",
+        "url": "https://nypost.com/2026/08/22/us-news/sacramento-considers-bringing-back-red-light-cameras",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/newspress-collage-b0kk3i7pu-1787431308260.jpg?quality=75&strip=all&1787416962&w=1200",
         "categories": [
           "Top",
+          "World",
           "U.S."
         ]
       },
       {
-        "id": "currents-3ef86180-8c17-5f04-b438-64e891a0fd2b",
-        "title": "The Blood of Dawnwalker won't hit 60 FPS on any console, PS5 Pro tops out at 40 FPS",
-        "description": "The Blood of Dawnwalker caps at 40 FPS on PS5 Pro even on performance mode, and unfortunately won't reach 60 FPS on any current console.",
-        "publisher": "Tweaktown",
-        "publisherDomain": "tweaktown.com",
-        "publishedAt": "2026-08-22T20:15:11.000Z",
-        "url": "https://www.tweaktown.com/news/113201/the-blood-of-dawnwalker-wont-hit-60-fps-on-any-console-ps5-pro-tops-out-at-40-fps/index.html",
-        "imageUrl": "https://static.tweaktown.com/news/1/1/113201_1_the-blood-of-dawnwalker-wont-hit-60-fps-on-any-console-ps5-pro-tops-out-at-40_full.jpg",
+        "id": "currents-8f950d1b-be25-592d-8edf-2f10dde7e529",
+        "title": "Dodgers have competition atop The Post’s latest MLB Power Rankings",
+        "description": "Each week, the California Post will power rank MLB’s 30 teams and check in on one intriguing awards race. Records as of Saturday morning: 1) Brewers (80-49) Last week, we dropped the previously top…",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-08-22T20:39:58.000Z",
+        "url": "https://nypost.com/2026/08/22/sports/brewers-dodgers-battle-for-top-spot-in-mlb-power-rankings",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/newspress-collage-xovwmz3nk-1787420957406.jpg?quality=75&strip=all&1787406585&w=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-13d6b3e4-64ee-5d03-bd55-1d1e009f94c9",
+        "title": "Fantasy baseball: Mason Montgomery leads widely available bullpen arms",
+        "description": "Pirates reliever Mason Montgomery is available in over 85% of leagues. Here is why he and other dominant bullpen arms are must-adds for fantasy.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-08-22T20:38:15.000Z",
+        "url": "https://nypost.com/2026/08/22/sports/fantasy-baseball-mason-montgomery-leads-widely-available-bullpen-arms",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/newspress-collage-j8x6f4e6w-1787430652783.jpg?quality=75&strip=all&1787416664&w=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-845ef4f3-3236-5269-b059-3ecd04b1616a",
+        "title": "# My First Github Project: From a Local Folder to Github Using Git and SSH",
+        "description": "Introduction I am on week two of learning Data Science and Analytics and I have just been...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-08-22T20:34:06.000Z",
+        "url": "https://dev.to/nesta_munene_5f710317bb2e/-my-first-github-project-from-a-local-folder-to-github-using-git-and-ssh-b1a",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmuvuyzk6mti21878vd17.png",
         "categories": [
           "Top",
           "U.S.",
@@ -345,14 +346,28 @@
         ]
       },
       {
-        "id": "currents-c21528e4-2553-500d-88d2-d30c195bd6e1",
-        "title": "Europe's wildfires unveil deadly new threat - bombs from WWI and WWII",
-        "description": "Droughts across Europe have also been churning up military vehicles and weapons from the era, with shrinking rivers revealing German warships, a Wehrmacht motorbike, and a bomb. #EuropeNews",
-        "publisher": "Euronews",
-        "publisherDomain": "euronews.com",
-        "publishedAt": "2026-08-22T20:13:49.000Z",
-        "url": "https://www.euronews.com/my-europe/2026/08/22/europes-devastating-wildfires-unveil-deadly-new-threat-buried-bombs-from-wwi-and-wwii",
-        "imageUrl": "https://images.euronews.com/articles/stories/09/88/46/89/1200x675_cmsv2_05b977e7-26a5-57d9-a4fb-0739013b05d3-9884689.jpg",
+        "id": "currents-edebdc30-23e5-5286-bd19-39bb0b38ad21",
+        "title": "Why Sione Vaki, Lions RB, didn't play vs. Commanders",
+        "description": "Running back Sione Vaki was the only surprise absence for the Lions in their 17-13 preseason victory over the Commanders.",
+        "publisher": "Detroitnews",
+        "publisherDomain": "detroitnews.com",
+        "publishedAt": "2026-08-22T20:33:02.000Z",
+        "url": "https://www.detroitnews.com/story/sports/nfl/lions/2026/08/22/why-sione-vaki-lions-rb-didnt-play-vs-commanders/91424805007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/06/04/PDTN/90407087007-20260604-dmlionssp-lions-1474.jpg?auto=webp&crop=4330,2436,x0,y258&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-2c8c67cb-727b-531a-834c-7f602441d8ed",
+        "title": "Jeremiyah Love’s girlfriend roasts trolls over $300K Lamborghini gift: ‘Could probably quit my job’",
+        "description": "Arizona Cardinals rookie Jeremiyah Love’s girlfriend Aliece shut down trolls after he gifted her a $300,000 Lamborghini Urus.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-08-22T20:32:39.000Z",
+        "url": "https://nypost.com/2026/08/22/sports/jeremiyah-loves-girlfriend-roasts-trolls-over-300k-lamborghini-gift",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/newspress-collage-t433ph19l-1787425987559.jpg?quality=75&strip=all&1787411610&w=1200",
         "categories": [
           "Top",
           "U.S.",
@@ -360,13 +375,13 @@
         ]
       },
       {
-        "id": "currents-1ddb2ee6-64e4-59c8-b29a-2f1469935445",
-        "title": "Denise Stephens Obituary (2026) - Memphis, TN - The Daily Memphian - Legacy",
-        "description": "Denise C. Stephens, 73, of Memphis, TN, died peacefully in her sleep Friday, July 31, 2026. She was preceded in death by her parents, ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-22T20:25:44.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/dailymemphian/name/denise-stephens-obituary?id=62245268",
+        "id": "currents-1122632d-2bc7-5d17-ab5b-457ad418fd14",
+        "title": "Popular '90s rock band's tour bus involved in fatal crash. Here's what we know",
+        "description": "Fans of the popular rock band Buckcherry are sending prayers their way after a fatal crash involving its tour bus.",
+        "publisher": "Lehighvalleylive",
+        "publisherDomain": "lehighvalleylive.com",
+        "publishedAt": "2026-08-22T20:41:45.000Z",
+        "url": "https://www.lehighvalleylive.com/entertainment/2026/08/popular-90s-rock-bands-tour-bus-involved-in-fatal-crash-heres-what-we-know.html",
         "categories": [
           "Top",
           "World",
@@ -374,13 +389,13 @@
         ]
       },
       {
-        "id": "currents-2c6a610a-f8ab-56e3-8043-2dd0235ccd21",
-        "title": "Beverly Lynne Foster Obituary (2026) - Winston-Salem, NC - Carolina Cremation Center",
-        "description": "Beverly Foster Obituary Born in Norfolk VA to Linwood/Bunie Burroughs. She was hard working, intelligent and loved animals.",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-22T20:25:44.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/name/beverly-foster-obituary?id=62244978",
+        "id": "currents-29ad1c0b-67c5-5640-8471-be10139ef569",
+        "title": "High school football coaches were put on leave, then resigned over group chat",
+        "description": "Seven coaches at Nathan Hale High School resigned just before the start of the season.",
+        "publisher": "Lehighvalleylive",
+        "publisherDomain": "lehighvalleylive.com",
+        "publishedAt": "2026-08-22T20:41:45.000Z",
+        "url": "https://www.lehighvalleylive.com/sports/2026/08/high-school-football-coaches-were-put-on-leave-then-resigned-over-group-chat.html",
         "categories": [
           "Top",
           "World",
@@ -388,13 +403,13 @@
         ]
       },
       {
-        "id": "currents-9991f665-81ad-5d94-adec-2f766724cfdd",
-        "title": "Parris Ronald Hall Obituary (2026) - Wilmington, DE - Evan W. Smith Funeral Services",
-        "description": "Parris Hall Obituary An obituary is not available at this time for Parris Hall. We welcome you to provide your thoughts and memories on our ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-22T20:25:44.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/name/parris-hall-obituary?id=62245971",
+        "id": "currents-2b9d3ea7-4528-531d-8f6c-f961a328d214",
+        "title": "Dieruff football preview 2026: Huskies follow lead of their seniors",
+        "description": "The best disciplined football teams are self-policed. At Dieruff, senior four-year starting lineman Marcus Soto is the top cop, and he rules with ...",
+        "publisher": "Lehighvalleylive",
+        "publisherDomain": "lehighvalleylive.com",
+        "publishedAt": "2026-08-22T20:41:45.000Z",
+        "url": "https://www.lehighvalleylive.com/highschoolsports/2026/08/dieruff-football-preview-2026-huskies-follow-lead-of-their-seniors.html",
         "categories": [
           "Top",
           "World",
@@ -402,13 +417,13 @@
         ]
       },
       {
-        "id": "currents-3678a768-3cf9-59f1-95c2-86d25923e5c0",
-        "title": "Post-absence, N.J. Congressman Tom Kean Jr. hit the campaign trail and took a TV ...",
-        "description": "A New York Times reporter was denied entry and approached by police at the event.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-22T20:23:10.000Z",
-        "url": "https://www.inquirer.com/news/tom-kean-congressman-spoke-at-golf-club-20260822.html",
+        "id": "currents-3e01abb5-3095-5364-82c5-aaf2cda02950",
+        "title": "Travel advisory issued for popular Caribbean destination, and it's good news for travelers - NJ.com",
+        "description": "This Caribbean nation has the lowest State Department-issued travel advisory, which means it is a generally safe destination for U.S. citizens to ...",
+        "publisher": "Lehighvalleylive",
+        "publisherDomain": "lehighvalleylive.com",
+        "publishedAt": "2026-08-22T20:41:45.000Z",
+        "url": "https://www.lehighvalleylive.com/news/2026/08/travel-advisory-issued-for-popular-caribbean-destination-and-its-good-news-for-travelers.html",
         "categories": [
           "Top",
           "World",
@@ -416,13 +431,13 @@
         ]
       },
       {
-        "id": "currents-3b3c04fe-abfb-53ea-a22c-f490a39392f5",
-        "title": "unCovering the Birds: Two Important Days - The Philadelphia Inquirer",
-        "description": "The Philadelphia Inquirer's Jeff McLane and Boston Sports Journal's Greg A. Bedard recap what they saw at the joint practices in New England.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-22T20:23:10.000Z",
-        "url": "https://www.inquirer.com/eagles/uncovering-the-birds-eagles-patriots-20260822.html",
+        "id": "currents-53ff90a8-2a99-5176-8a17-7dece661fb1b",
+        "title": "Nick Saban shares SEC favorites with Pat McAfee, and team under the radar - AL.com",
+        "description": "ESPN analyst and former Alabama coach mentions one team that can sneak up on people.",
+        "publisher": "Lehighvalleylive",
+        "publisherDomain": "lehighvalleylive.com",
+        "publishedAt": "2026-08-22T20:41:45.000Z",
+        "url": "https://www.lehighvalleylive.com/sports/2026/08/nick-saban-shares-sec-favorites-with-pat-mcafee-and-team-under-the-radar.html",
         "categories": [
           "Top",
           "World",
@@ -430,13 +445,13 @@
         ]
       },
       {
-        "id": "currents-5c0cca9c-9f0c-5044-9911-6d92f356e4ea",
-        "title": "SUV struck and killed man near La Salle University early Saturday - The Philadelphia Inquirer",
-        "description": "The SUV was attempting to go around a stopped vehicle when the man stepped into the road, police said.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-22T20:23:10.000Z",
-        "url": "https://www.inquirer.com/news/pedestrian-killed-by-suv-20260822.html",
+        "id": "currents-678e712e-380c-5e31-a500-a724fa2b5e52",
+        "title": "Where to watch Steelers vs. Jets NFL preseason game tonight on free streams, TV",
+        "description": "The Pittsburgh Steelers return to NFL preseason action Friday night at Acrisure Stadium against the visiting New York Jets.",
+        "publisher": "Lehighvalleylive",
+        "publisherDomain": "lehighvalleylive.com",
+        "publishedAt": "2026-08-22T20:41:45.000Z",
+        "url": "https://www.lehighvalleylive.com/tv/2026/08/where-to-watch-steelers-vs-jets-nfl-preseason-game-tonight-on-free-streams-tv.html",
         "categories": [
           "Top",
           "World",
@@ -444,27 +459,13 @@
         ]
       },
       {
-        "id": "currents-e24775eb-bee2-5fad-877f-c100e11b14c0",
-        "title": "A tornado touched down in Downingtown during Thursday's severe storms",
-        "description": "The tornado was one of two that touched down in the greater Philadelphia region Thursday night as thunderstorms blanketed the area.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-22T20:23:10.000Z",
-        "url": "https://www.inquirer.com/weather/tornado-downingtown-chester-county-storms-20260822.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-524bf1e2-e78f-5f0e-909e-16c85e1648e0",
-        "title": "Anthony Michael Hall felt ‘rupture’ in friendship with John Hughes after rejecting Ferris Bueller, Pretty in Pink",
-        "description": "“I think that was heartbreaking for him in a way,” the actor said. Anthony Michael Hall loved working with John Hughes, but he felt a shift in their relationship after turning down further collaborations. The actor became a generation-defining teen star after appearing in four of Hughes’ movies: …",
-        "publisher": "Ew",
-        "publisherDomain": "ew.com",
-        "publishedAt": "2026-08-22T20:22:17.000Z",
-        "url": "https://ew.com/anthony-michael-hall-felt-rupture-john-hughes-friendship-12065856",
+        "id": "currents-7c22839c-739c-53db-b07e-282e8a1e7783",
+        "title": "The most heartbreaking deaths in country music history: Stars we lost too soon",
+        "description": "Published: Aug. 22, 2026, 6:00 a.m.. Brett James died in a plane crash in 2025. (Photo by Terry Wyatt/Getty Images) ...",
+        "publisher": "Lehighvalleylive",
+        "publisherDomain": "lehighvalleylive.com",
+        "publishedAt": "2026-08-22T20:41:45.000Z",
+        "url": "https://www.lehighvalleylive.com/entertainment/2026/08/the-most-heartbreaking-deaths-in-country-music-history-stars-we-lost-too-soon.html",
         "categories": [
           "Top",
           "World",
@@ -474,28 +475,102 @@
     ],
     "World": [
       {
-        "id": "currents-bebf9b58-358c-5ecb-8cf9-07ae8a4e24e0",
-        "title": "Prince Harry 'privately pleads' with Home Secretary over security amid UK return",
-        "description": "Security remains a key issue following the Duke and Duchess of Sussex’s announcement they will return to the UK",
-        "publisher": "Standard",
-        "publisherDomain": "standard.co.uk",
-        "publishedAt": "2026-08-22T20:22:22.000Z",
-        "url": "https://www.standard.co.uk/news/royals/prince-harry-privately-pleads-security-uk-b1294334.html",
-        "imageUrl": "https://static.standard.co.uk/2026/07/29/15/2256944483..?width=1200&auto=webp&quality=75",
+        "id": "currents-7af8706a-374b-591e-8e91-871dc973c36e",
+        "title": "Tropical Storm Moke expected to bring up to 15 inches of rain in Hawaii: Maps and projected path",
+        "description": "Hawaii is still cleaning up from Hurricane Lala, which dumped massive amounts of rain on the islands.",
+        "publisher": "CBS News",
+        "publisherDomain": "cbsnews.com",
+        "publishedAt": "2026-08-22T20:38:54.000Z",
+        "url": "https://www.cbsnews.com/news/tropical-storm-moke-rain-hawaii-big-island",
+        "imageUrl": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/08/22/f91a03af-b309-479c-a064-b1bbc5340ed9/thumbnail/1200x630/23f131ac54770cf084165986e23020ff/screenshot-2026-08-22-at-4-23-17-pm.png",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-4ce548c2-3b65-5b7e-b040-7e06d020770e",
+        "title": "West's war on Russia, Russian flag as symbol of justice — Lavrov’s remarks",
+        "description": "The foreign minister emphasized that the West will try to disrupt the September elections to the State Duma, but \"these plans will thwarted\"",
+        "publisher": "Tass",
+        "publisherDomain": "tass.com",
+        "publishedAt": "2026-08-22T20:35:40.000Z",
+        "url": "https://tass.com/politics/2176537",
+        "imageUrl": "https://cdn-media.tass.ru/width/1200_4ce85301/tass/m2/en/uploads/i/20260822/1484355.jpg",
         "categories": [
           "Top",
           "World"
         ]
       },
       {
-        "id": "currents-c21528e4-2553-500d-88d2-d30c195bd6e1",
-        "title": "Europe's wildfires unveil deadly new threat - bombs from WWI and WWII",
-        "description": "Droughts across Europe have also been churning up military vehicles and weapons from the era, with shrinking rivers revealing German warships, a Wehrmacht motorbike, and a bomb. #EuropeNews",
-        "publisher": "Euronews",
-        "publisherDomain": "euronews.com",
-        "publishedAt": "2026-08-22T20:13:49.000Z",
-        "url": "https://www.euronews.com/my-europe/2026/08/22/europes-devastating-wildfires-unveil-deadly-new-threat-buried-bombs-from-wwi-and-wwii",
-        "imageUrl": "https://images.euronews.com/articles/stories/09/88/46/89/1200x675_cmsv2_05b977e7-26a5-57d9-a4fb-0739013b05d3-9884689.jpg",
+        "id": "currents-88951238-35c8-5d66-a046-ddebfced422a",
+        "title": "Traffic cameras could return as California city battles ‘epidemic’ of dangerous drivers",
+        "description": "The city is considering bringing back red-light enforcement cameras, two years after its previous program was shut down.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-08-22T20:44:33.000Z",
+        "url": "https://nypost.com/2026/08/22/us-news/sacramento-considers-bringing-back-red-light-cameras",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/newspress-collage-b0kk3i7pu-1787431308260.jpg?quality=75&strip=all&1787416962&w=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-bf0ff07d-f9db-51b4-99c7-410d03edde30",
+        "title": "Woman arrested and explosives seized in Dundalk",
+        "description": "Gardaí carried out several searches as part of an ‘investigation targeting an organised crime group’.",
+        "publisher": "Breakingnews",
+        "publisherDomain": "breakingnews.ie",
+        "publishedAt": "2026-08-22T20:41:19.000Z",
+        "url": "https://www.breakingnews.ie/ireland/woman-arrested-and-explosives-seized-in-dundalk-1943061.html",
+        "imageUrl": "https://img.resized.co/breaking-news/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL2ltYWdlcy5icmVha2luZ25ld3MuaWVcXFwvcHJvZFxcXC91cGxvYWRzXFxcLzIwMjZcXFwvMDhcXFwvMjIyMTE4MjFcXFwvMi40MDY1OTUwNy5qcGdcIixcIndpZHRoXCI6MTIwMCxcImhlaWdodFwiOjYyNyxcImRlZmF1bHRcIjpcImh0dHBzOlxcXC9cXFwvd3d3LmJyZWFraW5nbmV3cy5pZVxcXC9pXFxcL2JuLW5vaW1hZ2UucG5nXCIsXCJvcHRpb25zXCI6W119IiwiaGFzaCI6IjM2NTNmMTdhZjk3MmYyZmY4ZTM2NDFhNGRiZDRkMDNmZmU3NjViNDYifQ==/woman-arrested-and-explosives-seized-in-dundalk.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-8f950d1b-be25-592d-8edf-2f10dde7e529",
+        "title": "Dodgers have competition atop The Post’s latest MLB Power Rankings",
+        "description": "Each week, the California Post will power rank MLB’s 30 teams and check in on one intriguing awards race. Records as of Saturday morning: 1) Brewers (80-49) Last week, we dropped the previously top…",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-08-22T20:39:58.000Z",
+        "url": "https://nypost.com/2026/08/22/sports/brewers-dodgers-battle-for-top-spot-in-mlb-power-rankings",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/newspress-collage-xovwmz3nk-1787420957406.jpg?quality=75&strip=all&1787406585&w=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-13d6b3e4-64ee-5d03-bd55-1d1e009f94c9",
+        "title": "Fantasy baseball: Mason Montgomery leads widely available bullpen arms",
+        "description": "Pirates reliever Mason Montgomery is available in over 85% of leagues. Here is why he and other dominant bullpen arms are must-adds for fantasy.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-08-22T20:38:15.000Z",
+        "url": "https://nypost.com/2026/08/22/sports/fantasy-baseball-mason-montgomery-leads-widely-available-bullpen-arms",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/newspress-collage-j8x6f4e6w-1787430652783.jpg?quality=75&strip=all&1787416664&w=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-2c8c67cb-727b-531a-834c-7f602441d8ed",
+        "title": "Jeremiyah Love’s girlfriend roasts trolls over $300K Lamborghini gift: ‘Could probably quit my job’",
+        "description": "Arizona Cardinals rookie Jeremiyah Love’s girlfriend Aliece shut down trolls after he gifted her a $300,000 Lamborghini Urus.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-08-22T20:32:39.000Z",
+        "url": "https://nypost.com/2026/08/22/sports/jeremiyah-loves-girlfriend-roasts-trolls-over-300k-lamborghini-gift",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/08/newspress-collage-t433ph19l-1787425987559.jpg?quality=75&strip=all&1787411610&w=1200",
         "categories": [
           "Top",
           "U.S.",
@@ -503,13 +578,13 @@
         ]
       },
       {
-        "id": "currents-1ddb2ee6-64e4-59c8-b29a-2f1469935445",
-        "title": "Denise Stephens Obituary (2026) - Memphis, TN - The Daily Memphian - Legacy",
-        "description": "Denise C. Stephens, 73, of Memphis, TN, died peacefully in her sleep Friday, July 31, 2026. She was preceded in death by her parents, ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-22T20:25:44.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/dailymemphian/name/denise-stephens-obituary?id=62245268",
+        "id": "currents-1122632d-2bc7-5d17-ab5b-457ad418fd14",
+        "title": "Popular '90s rock band's tour bus involved in fatal crash. Here's what we know",
+        "description": "Fans of the popular rock band Buckcherry are sending prayers their way after a fatal crash involving its tour bus.",
+        "publisher": "Lehighvalleylive",
+        "publisherDomain": "lehighvalleylive.com",
+        "publishedAt": "2026-08-22T20:41:45.000Z",
+        "url": "https://www.lehighvalleylive.com/entertainment/2026/08/popular-90s-rock-bands-tour-bus-involved-in-fatal-crash-heres-what-we-know.html",
         "categories": [
           "Top",
           "World",
@@ -517,13 +592,13 @@
         ]
       },
       {
-        "id": "currents-3678a768-3cf9-59f1-95c2-86d25923e5c0",
-        "title": "Post-absence, N.J. Congressman Tom Kean Jr. hit the campaign trail and took a TV ...",
-        "description": "A New York Times reporter was denied entry and approached by police at the event.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-22T20:23:10.000Z",
-        "url": "https://www.inquirer.com/news/tom-kean-congressman-spoke-at-golf-club-20260822.html",
+        "id": "currents-29ad1c0b-67c5-5640-8471-be10139ef569",
+        "title": "High school football coaches were put on leave, then resigned over group chat",
+        "description": "Seven coaches at Nathan Hale High School resigned just before the start of the season.",
+        "publisher": "Lehighvalleylive",
+        "publisherDomain": "lehighvalleylive.com",
+        "publishedAt": "2026-08-22T20:41:45.000Z",
+        "url": "https://www.lehighvalleylive.com/sports/2026/08/high-school-football-coaches-were-put-on-leave-then-resigned-over-group-chat.html",
         "categories": [
           "Top",
           "World",
@@ -531,13 +606,13 @@
         ]
       },
       {
-        "id": "currents-2c6a610a-f8ab-56e3-8043-2dd0235ccd21",
-        "title": "Beverly Lynne Foster Obituary (2026) - Winston-Salem, NC - Carolina Cremation Center",
-        "description": "Beverly Foster Obituary Born in Norfolk VA to Linwood/Bunie Burroughs. She was hard working, intelligent and loved animals.",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-22T20:25:44.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/name/beverly-foster-obituary?id=62244978",
+        "id": "currents-2b9d3ea7-4528-531d-8f6c-f961a328d214",
+        "title": "Dieruff football preview 2026: Huskies follow lead of their seniors",
+        "description": "The best disciplined football teams are self-policed. At Dieruff, senior four-year starting lineman Marcus Soto is the top cop, and he rules with ...",
+        "publisher": "Lehighvalleylive",
+        "publisherDomain": "lehighvalleylive.com",
+        "publishedAt": "2026-08-22T20:41:45.000Z",
+        "url": "https://www.lehighvalleylive.com/highschoolsports/2026/08/dieruff-football-preview-2026-huskies-follow-lead-of-their-seniors.html",
         "categories": [
           "Top",
           "World",
@@ -545,13 +620,13 @@
         ]
       },
       {
-        "id": "currents-9991f665-81ad-5d94-adec-2f766724cfdd",
-        "title": "Parris Ronald Hall Obituary (2026) - Wilmington, DE - Evan W. Smith Funeral Services",
-        "description": "Parris Hall Obituary An obituary is not available at this time for Parris Hall. We welcome you to provide your thoughts and memories on our ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-22T20:25:44.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/name/parris-hall-obituary?id=62245971",
+        "id": "currents-3e01abb5-3095-5364-82c5-aaf2cda02950",
+        "title": "Travel advisory issued for popular Caribbean destination, and it's good news for travelers - NJ.com",
+        "description": "This Caribbean nation has the lowest State Department-issued travel advisory, which means it is a generally safe destination for U.S. citizens to ...",
+        "publisher": "Lehighvalleylive",
+        "publisherDomain": "lehighvalleylive.com",
+        "publishedAt": "2026-08-22T20:41:45.000Z",
+        "url": "https://www.lehighvalleylive.com/news/2026/08/travel-advisory-issued-for-popular-caribbean-destination-and-its-good-news-for-travelers.html",
         "categories": [
           "Top",
           "World",
@@ -559,13 +634,13 @@
         ]
       },
       {
-        "id": "currents-3b3c04fe-abfb-53ea-a22c-f490a39392f5",
-        "title": "unCovering the Birds: Two Important Days - The Philadelphia Inquirer",
-        "description": "The Philadelphia Inquirer's Jeff McLane and Boston Sports Journal's Greg A. Bedard recap what they saw at the joint practices in New England.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-22T20:23:10.000Z",
-        "url": "https://www.inquirer.com/eagles/uncovering-the-birds-eagles-patriots-20260822.html",
+        "id": "currents-53ff90a8-2a99-5176-8a17-7dece661fb1b",
+        "title": "Nick Saban shares SEC favorites with Pat McAfee, and team under the radar - AL.com",
+        "description": "ESPN analyst and former Alabama coach mentions one team that can sneak up on people.",
+        "publisher": "Lehighvalleylive",
+        "publisherDomain": "lehighvalleylive.com",
+        "publishedAt": "2026-08-22T20:41:45.000Z",
+        "url": "https://www.lehighvalleylive.com/sports/2026/08/nick-saban-shares-sec-favorites-with-pat-mcafee-and-team-under-the-radar.html",
         "categories": [
           "Top",
           "World",
@@ -573,13 +648,13 @@
         ]
       },
       {
-        "id": "currents-5c0cca9c-9f0c-5044-9911-6d92f356e4ea",
-        "title": "SUV struck and killed man near La Salle University early Saturday - The Philadelphia Inquirer",
-        "description": "The SUV was attempting to go around a stopped vehicle when the man stepped into the road, police said.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-22T20:23:10.000Z",
-        "url": "https://www.inquirer.com/news/pedestrian-killed-by-suv-20260822.html",
+        "id": "currents-678e712e-380c-5e31-a500-a724fa2b5e52",
+        "title": "Where to watch Steelers vs. Jets NFL preseason game tonight on free streams, TV",
+        "description": "The Pittsburgh Steelers return to NFL preseason action Friday night at Acrisure Stadium against the visiting New York Jets.",
+        "publisher": "Lehighvalleylive",
+        "publisherDomain": "lehighvalleylive.com",
+        "publishedAt": "2026-08-22T20:41:45.000Z",
+        "url": "https://www.lehighvalleylive.com/tv/2026/08/where-to-watch-steelers-vs-jets-nfl-preseason-game-tonight-on-free-streams-tv.html",
         "categories": [
           "Top",
           "World",
@@ -587,13 +662,13 @@
         ]
       },
       {
-        "id": "currents-e24775eb-bee2-5fad-877f-c100e11b14c0",
-        "title": "A tornado touched down in Downingtown during Thursday's severe storms",
-        "description": "The tornado was one of two that touched down in the greater Philadelphia region Thursday night as thunderstorms blanketed the area.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-08-22T20:23:10.000Z",
-        "url": "https://www.inquirer.com/weather/tornado-downingtown-chester-county-storms-20260822.html",
+        "id": "currents-7c22839c-739c-53db-b07e-282e8a1e7783",
+        "title": "The most heartbreaking deaths in country music history: Stars we lost too soon",
+        "description": "Published: Aug. 22, 2026, 6:00 a.m.. Brett James died in a plane crash in 2025. (Photo by Terry Wyatt/Getty Images) ...",
+        "publisher": "Lehighvalleylive",
+        "publisherDomain": "lehighvalleylive.com",
+        "publishedAt": "2026-08-22T20:41:45.000Z",
+        "url": "https://www.lehighvalleylive.com/entertainment/2026/08/the-most-heartbreaking-deaths-in-country-music-history-stars-we-lost-too-soon.html",
         "categories": [
           "Top",
           "World",
@@ -601,44 +676,16 @@
         ]
       },
       {
-        "id": "currents-524bf1e2-e78f-5f0e-909e-16c85e1648e0",
-        "title": "Anthony Michael Hall felt ‘rupture’ in friendship with John Hughes after rejecting Ferris Bueller, Pretty in Pink",
-        "description": "“I think that was heartbreaking for him in a way,” the actor said. Anthony Michael Hall loved working with John Hughes, but he felt a shift in their relationship after turning down further collaborations. The actor became a generation-defining teen star after appearing in four of Hughes’ movies: …",
-        "publisher": "Ew",
-        "publisherDomain": "ew.com",
-        "publishedAt": "2026-08-22T20:22:17.000Z",
-        "url": "https://ew.com/anthony-michael-hall-felt-rupture-john-hughes-friendship-12065856",
+        "id": "currents-f58ec2cb-09d2-599b-8e22-843fb852245e",
+        "title": "Iran releases video of underground missile production facility | The Jerusalem Post",
+        "description": "In the video, the Chief of Staff of the Iranian Armed Forces, Ali Abdollahi, said that Iran's production has increased significantly in the past year.",
+        "publisher": "Jpost",
+        "publisherDomain": "jpost.com",
+        "publishedAt": "2026-08-22T20:37:16.000Z",
+        "url": "https://www.jpost.com/middle-east/iran-news/article-906266",
+        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/719741",
         "categories": [
           "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-c335339e-cd76-54fc-aed3-837c79288961",
-        "title": "J.J. McCarthy flashes big-play ability but familiar issues remain in Vikings’ loss to Ravens",
-        "description": "McCarthy delivered a 50-yard highlight but struggled to turn opportunities into points. Carson Wentz followed with a much more efficient second quarter.",
-        "publisher": "Startribune",
-        "publisherDomain": "startribune.com",
-        "publishedAt": "2026-08-22T20:14:36.000Z",
-        "url": "https://www.startribune.com/minnesota-vikings-qb-depth-chart-jj-mccarthy-carson-wentz-stats-baltimore-ravens-kyler-murray-backup/601879445",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-134f84e1-fd40-5581-8776-af34cf567336",
-        "title": "Illegal gaming raid in Potosi yields 9 machines, $27K in cash",
-        "description": "Authorities seized nine gambling machines and more than $27,000 in cash during an illegal gaming raid at a Potosi liquor store earlier this week.",
-        "publisher": "Fox2now",
-        "publisherDomain": "fox2now.com",
-        "publishedAt": "2026-08-22T20:13:22.000Z",
-        "url": "https://fox2now.com/news/missouri/illegal-gaming-raid-in-potosi-yields-9-machines-27k-in-cash",
-        "categories": [
-          "Top",
-          "U.S.",
           "World"
         ]
       }
@@ -672,13 +719,14 @@
         ]
       },
       {
-        "id": "currents-60d08ace-b1ec-58b2-9295-1088385842d8",
-        "title": "Better to end the war now, Iranian president says",
-        "description": "President ​Masoud Pezeshkian says it is time to stop the conflict with the United States, adding the world has accepted Iran as the victor.",
-        "publisher": "Michaelwest",
-        "publisherDomain": "michaelwest.com.au",
-        "publishedAt": "2026-08-22T19:13:38.000Z",
-        "url": "https://michaelwest.com.au/better-to-end-the-war-now-iranian-president-says",
+        "id": "currents-c3fd9a0c-4489-524f-b773-1ed0d85595c3",
+        "title": "Canada’s Unifor union, GM reach tentative agreements By Reuters",
+        "description": "Canada’s Unifor union, GM reach tentative agreements",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-08-22T20:24:32.000Z",
+        "url": "https://www.investing.com/news/stock-market-news/canadas-unifor-union-gm-reach-tentative-agreements-4872388",
+        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXMPEM7L0FK_L.jpg",
         "categories": [
           "Top",
           "Business"
@@ -693,6 +741,34 @@
         "publishedAt": "2026-08-22T19:56:25.000Z",
         "url": "https://www.winnipegfreepress.com/sports/baseball/2026/08/22/blue-jays-ace-dylan-cease-has-a-no-hitter-against-the-yankees-through-six-innings",
         "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a89fee6270eb4db4d5f05f1jpeg.jpg?w=1600",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-61e4608b-6674-5a3e-ac6e-7fb97a9ee9c8",
+        "title": "Will Bessent’s intervention mark a turning point for the yen? By Investing.com",
+        "description": "Will Bessent’s intervention mark a turning point for the yen?",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-08-22T20:18:41.000Z",
+        "url": "https://www.investing.com/news/forex-news/will-bessents-intervention-mark-a-turning-point-for-the-yen-4872387",
+        "imageUrl": "https://content-media.investing.com/news/LYNXNPEC0E0TR_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-1775ecb7-7e05-5610-9b9c-21dbd8dce094",
+        "title": "Nvidia customers notified about AI-related price hikes above 15%, Bloomberg News reports By Reuters",
+        "description": "Nvidia customers notified about AI-related price hikes above 15%, Bloomberg News reports",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-08-22T20:00:33.000Z",
+        "url": "https://www.investing.com/news/stock-market-news/nvidia-customers-notified-about-airelated-price-hikes-above-15-bloomberg-news-reports-4872385",
+        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXMPEM7L0F3_L.jpg",
         "categories": [
           "Top",
           "Business"
@@ -741,48 +817,6 @@
         ]
       },
       {
-        "id": "currents-0c7cda02-28c2-5e30-a490-dfe3b5092053",
-        "title": "Trump told Lula that officials should meet soon to discuss tariffs, Brazil says",
-        "description": "Brazilian and U.S. presidents spoke by phone regarding recent tariffs imposed on Brazilian goods. Lula reiterated that negotiations are the best way to resolve the ongoing trade dispute. Trump suggested officials from both countries meet as soon as possible to discuss matters. The tariffs would harm...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-08-22T19:17:20.000Z",
-        "url": "https://economictimes.indiatimes.com/news/international/world-news/trump-told-lula-that-officials-should-meet-soon-to-discuss-tariffs-brazil-says/articleshow/133430600.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133430669,width-1200,height-630,imgsize-649345,overlay-economictimes/articleshow.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-a4ba9fda-3744-575e-bdb3-feb6ca53da60",
-        "title": "Bhavnagar Hooch toll rises to 9; 17 hospitalised, 3 in ICU",
-        "description": "Nine people died from spurious liquor in Bhavnagar by Saturday evening. Seventeen individuals remained hospitalized, with three in critical condition after consuming the toxic brew. Police arrested thirteen people and named twenty-one in the FIR, identifying Raees as the mastermind. Forensic reports...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-08-22T19:15:17.000Z",
-        "url": "https://economictimes.indiatimes.com/news/india/bhavnagar-hooch-toll-rises-to-9-17-hospitalised-3-in-icu/articleshow/133430638.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133430653,width-1200,height-630,imgsize-96490,overlay-economictimes/articleshow.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-0772bc0a-72e0-5e45-afd8-50a013e52a5e",
-        "title": "Amit Shah sets up panel for political solution to Gorkha Issues",
-        "description": "Union Home Minister Amit Shah announced a high-level committee for Gorkha issues. This committee will prepare a framework for a permanent political solution. The group will work within the Indian Constitution's established framework. Various stakeholders and representatives attended the key meeting ...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-08-22T19:12:45.000Z",
-        "url": "https://economictimes.indiatimes.com/news/india/amit-shah-sets-up-panel-for-political-solution-to-gorkha-issues/articleshow/133430612.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133430621,width-1200,height-630,imgsize-68710,overlay-economictimes/articleshow.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
         "id": "currents-d41a2b08-8fe1-5751-9153-ea3cbec31c28",
         "title": "Any advice on lowering my mortgage payment?",
         "description": "Is there realistically any way to lower your monthly payment without refinancing? I looked into refinancing, but it doesn’t make sense because my current interest rate is lower than what’s available right now. I also don’t have a large lump sum to put toward the principal. Has anyone successfully lo...",
@@ -792,7 +826,19 @@
         "url": "https://www.reddit.com/r/personalfinance/comments/1vvmuwb/any_advice_on_lowering_my_mortgage_payment",
         "categories": [
           "Top",
-          "U.S.",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-cd4c65f7-2733-5b78-816c-04f84cacfac3",
+        "title": "Nevada Gold Mines, already the world's largest gold-producing complex, is about to ...",
+        "description": "Fourmile's proximity to the permitted Goldrush mine will facilitate its advancement. “This is a unique two-in-one opportunity to expand Barrick's ...",
+        "publisher": "Facebook",
+        "publisherDomain": "facebook.com",
+        "publishedAt": "2026-08-22T20:06:54.000Z",
+        "url": "https://www.facebook.com/miningshorts/posts/nevada-gold-mines-already-the-worlds-largest-gold-producing-complex-is-about-to-/1055931080736963",
+        "categories": [
+          "Top",
           "Business"
         ]
       },
@@ -849,13 +895,13 @@
         ]
       },
       {
-        "id": "currents-6ce08568-27e5-5aaf-b52c-1b2fa4658d7f",
-        "title": "Amazon's $212 Seiko luxury watch proves every collector needs a chronograph",
-        "description": "It has 100 meters of water resistance.",
-        "publisher": "Thestreet",
-        "publisherDomain": "thestreet.com",
-        "publishedAt": "2026-08-22T19:15:00.000Z",
-        "url": "https://www.thestreet.com/shopping/seiko-ssb425-luxury-chronograph-watch-amazon-sale",
+        "id": "currents-aa6bfacb-aa1e-5e85-9bc1-dd24f88fa12c",
+        "title": "How much should I keep in savings ?",
+        "description": "Hey everyone I wanted to ask how much would be appropriate to keep in savings. So I recently commissioned into the military. Fresh 0-1 ( pay chart is public). No CC debt, nothing. Currently sitting at 5k in savings. Expenses are decent as it’s phone, apartment, vehicle and car insurance. I know I’ll...",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-08-22T19:47:27.000Z",
+        "url": "https://www.reddit.com/r/personalfinance/comments/1vvlztj/how_much_should_i_keep_in_savings",
         "categories": [
           "Top",
           "Business"
@@ -864,14 +910,29 @@
     ],
     "Technology": [
       {
-        "id": "currents-a2dd61e6-4330-51ed-81a5-e748c5f76e5a",
-        "title": "Understanding the Git Workflow: Working Directory, Staging, Commit and Push.",
-        "description": "Two weeks ago, I joined a Data Science bootcamp and part of the learning outcomes for this week was...",
+        "id": "currents-79c4354c-18e3-5b9a-8279-787cd8567757",
+        "title": "A tiny startup wants to bring nuclear power back to California",
+        "description": "A nuclear reactor on a boat could power 15,000 California homes if regulators ever say yes",
+        "publisher": "Techradar",
+        "publisherDomain": "techradar.com",
+        "publishedAt": "2026-08-22T20:35:00.000Z",
+        "url": "https://www.techradar.com/pro/floating-10-mw-nuclear-reactor-proposed-for-california-barge-mounted-smr-aims-to-power-15-000-homes",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/LBTaMajp8LNwTKKrsyxMrM-1920-80.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-845ef4f3-3236-5269-b059-3ecd04b1616a",
+        "title": "# My First Github Project: From a Local Folder to Github Using Git and SSH",
+        "description": "Introduction I am on week two of learning Data Science and Analytics and I have just been...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-22T20:20:07.000Z",
-        "url": "https://dev.to/9ichia/understanding-the-git-workflow-working-directory-staging-commit-and-push-226i",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F47ovbx4ywcvs3r28tjaz.png",
+        "publishedAt": "2026-08-22T20:34:06.000Z",
+        "url": "https://dev.to/nesta_munene_5f710317bb2e/-my-first-github-project-from-a-local-folder-to-github-using-git-and-ssh-b1a",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmuvuyzk6mti21878vd17.png",
         "categories": [
           "Top",
           "U.S.",
@@ -880,14 +941,14 @@
         ]
       },
       {
-        "id": "currents-6b29d889-01c6-50d3-843b-62b7b1f5b307",
-        "title": "Valve’s latest Proton update fixes Helldivers 2, Forza Horizon, and more",
-        "description": "Valve's Proton 11.0-2 update fixes dozens of games on Linux and SteamOS, including Helldivers 2, Marvel Rivals, Forza Horizon and Arc Raiders.",
-        "publisher": "Digitaltrends",
-        "publisherDomain": "digitaltrends.com",
-        "publishedAt": "2026-08-22T20:19:02.000Z",
-        "url": "https://www.digitaltrends.com/computing/valve-proton-11-0-2-steamos-game-fixes",
-        "imageUrl": "https://www.digitaltrends.com/tachyon/2022/06/steam-deck-tricks-3.jpg?resize=1200%2C630",
+        "id": "currents-37a5df63-2e10-5b90-93df-561b64fd202b",
+        "title": "The most important European act",
+        "description": "The AI race is putting the entire European economy through the ringer",
+        "publisher": "Medium",
+        "publisherDomain": "0xksure.medium.com",
+        "publishedAt": "2026-08-22T20:32:50.000Z",
+        "url": "https://0xksure.medium.com/the-most-important-european-act-f6f298ed693a",
+        "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*W7mbEDoLVdQhqmen",
         "categories": [
           "Top",
           "U.S.",
@@ -896,14 +957,12 @@
         ]
       },
       {
-        "id": "currents-3ef86180-8c17-5f04-b438-64e891a0fd2b",
-        "title": "The Blood of Dawnwalker won't hit 60 FPS on any console, PS5 Pro tops out at 40 FPS",
-        "description": "The Blood of Dawnwalker caps at 40 FPS on PS5 Pro even on performance mode, and unfortunately won't reach 60 FPS on any current console.",
-        "publisher": "Tweaktown",
-        "publisherDomain": "tweaktown.com",
-        "publishedAt": "2026-08-22T20:15:11.000Z",
-        "url": "https://www.tweaktown.com/news/113201/the-blood-of-dawnwalker-wont-hit-60-fps-on-any-console-ps5-pro-tops-out-at-40-fps/index.html",
-        "imageUrl": "https://static.tweaktown.com/news/1/1/113201_1_the-blood-of-dawnwalker-wont-hit-60-fps-on-any-console-ps5-pro-tops-out-at-40_full.jpg",
+        "id": "currents-3691e033-928e-5d2a-9d21-7581a01e88a7",
+        "title": "Ingo Swann - Wikipedia",
+        "publisher": "Wikipedia",
+        "publisherDomain": "en.wikipedia.org",
+        "publishedAt": "2026-08-22T20:33:57.000Z",
+        "url": "https://en.wikipedia.org/wiki/Ingo_Swann",
         "categories": [
           "Top",
           "U.S.",
@@ -912,32 +971,63 @@
         ]
       },
       {
-        "id": "currents-abd7a450-2883-5560-a246-53983f113d6d",
-        "title": "Everyone is hyping Claude Code. I used Google Jules to build and ship a phone tracking app—entirely from my phone on the beach.",
-        "description": "Don't get me wrong: I love Claude Code. I use it every single day. I’ve used its various models to...",
+        "id": "currents-99e2bb38-bc02-5aae-a8dd-9b354f9c2704",
+        "title": "Engrava 0.5.0: a first-class MCP server",
+        "description": "Engrava 0.5.0 pulls the MCP server out of the library. Install engrava now and you get the memory...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-22T20:14:57.000Z",
-        "url": "https://dev.to/gents_83/everyone-is-hyping-claude-code-i-used-google-jules-to-build-and-ship-a-location-sharing-4o1e",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqzizsf1gj0rc8tibkl6k.png",
+        "publishedAt": "2026-08-22T20:36:42.000Z",
+        "url": "https://dev.to/sovantica/engrava-050-a-first-class-mcp-server-2djc",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F15a7fam565xnx70i46bz.png",
         "categories": [
           "Top",
-          "U.S.",
           "Technology",
-          "Science"
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-35e88d53-9220-5665-8f03-8d9ea4d498df",
+        "title": "Outbid boilerplate beta",
+        "description": "The outbid clone boilerplate. The pay-for-the-top-spot mechanic, Stripe, D1, and R2, live on Cloudflare with one wrangler command. Beta pricing: $59 now, $199 at launch. Immediate access via GitHub invite.",
+        "publisher": "Outbid Directory",
+        "publisherDomain": "outbid-directory.lol",
+        "publishedAt": "2026-08-22T20:34:28.000Z",
+        "url": "https://outbid-directory.lol/outbid-boilerplate",
+        "imageUrl": "https://outbid-directory.lol/og.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
         ]
       }
     ],
     "Science": [
       {
-        "id": "currents-a2dd61e6-4330-51ed-81a5-e748c5f76e5a",
-        "title": "Understanding the Git Workflow: Working Directory, Staging, Commit and Push.",
-        "description": "Two weeks ago, I joined a Data Science bootcamp and part of the learning outcomes for this week was...",
+        "id": "currents-79c4354c-18e3-5b9a-8279-787cd8567757",
+        "title": "A tiny startup wants to bring nuclear power back to California",
+        "description": "A nuclear reactor on a boat could power 15,000 California homes if regulators ever say yes",
+        "publisher": "Techradar",
+        "publisherDomain": "techradar.com",
+        "publishedAt": "2026-08-22T20:35:00.000Z",
+        "url": "https://www.techradar.com/pro/floating-10-mw-nuclear-reactor-proposed-for-california-barge-mounted-smr-aims-to-power-15-000-homes",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/LBTaMajp8LNwTKKrsyxMrM-1920-80.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-845ef4f3-3236-5269-b059-3ecd04b1616a",
+        "title": "# My First Github Project: From a Local Folder to Github Using Git and SSH",
+        "description": "Introduction I am on week two of learning Data Science and Analytics and I have just been...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-22T20:20:07.000Z",
-        "url": "https://dev.to/9ichia/understanding-the-git-workflow-working-directory-staging-commit-and-push-226i",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F47ovbx4ywcvs3r28tjaz.png",
+        "publishedAt": "2026-08-22T20:34:06.000Z",
+        "url": "https://dev.to/nesta_munene_5f710317bb2e/-my-first-github-project-from-a-local-folder-to-github-using-git-and-ssh-b1a",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmuvuyzk6mti21878vd17.png",
         "categories": [
           "Top",
           "U.S.",
@@ -946,14 +1036,14 @@
         ]
       },
       {
-        "id": "currents-6b29d889-01c6-50d3-843b-62b7b1f5b307",
-        "title": "Valve’s latest Proton update fixes Helldivers 2, Forza Horizon, and more",
-        "description": "Valve's Proton 11.0-2 update fixes dozens of games on Linux and SteamOS, including Helldivers 2, Marvel Rivals, Forza Horizon and Arc Raiders.",
-        "publisher": "Digitaltrends",
-        "publisherDomain": "digitaltrends.com",
-        "publishedAt": "2026-08-22T20:19:02.000Z",
-        "url": "https://www.digitaltrends.com/computing/valve-proton-11-0-2-steamos-game-fixes",
-        "imageUrl": "https://www.digitaltrends.com/tachyon/2022/06/steam-deck-tricks-3.jpg?resize=1200%2C630",
+        "id": "currents-37a5df63-2e10-5b90-93df-561b64fd202b",
+        "title": "The most important European act",
+        "description": "The AI race is putting the entire European economy through the ringer",
+        "publisher": "Medium",
+        "publisherDomain": "0xksure.medium.com",
+        "publishedAt": "2026-08-22T20:32:50.000Z",
+        "url": "https://0xksure.medium.com/the-most-important-european-act-f6f298ed693a",
+        "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*W7mbEDoLVdQhqmen",
         "categories": [
           "Top",
           "U.S.",
@@ -962,14 +1052,12 @@
         ]
       },
       {
-        "id": "currents-3ef86180-8c17-5f04-b438-64e891a0fd2b",
-        "title": "The Blood of Dawnwalker won't hit 60 FPS on any console, PS5 Pro tops out at 40 FPS",
-        "description": "The Blood of Dawnwalker caps at 40 FPS on PS5 Pro even on performance mode, and unfortunately won't reach 60 FPS on any current console.",
-        "publisher": "Tweaktown",
-        "publisherDomain": "tweaktown.com",
-        "publishedAt": "2026-08-22T20:15:11.000Z",
-        "url": "https://www.tweaktown.com/news/113201/the-blood-of-dawnwalker-wont-hit-60-fps-on-any-console-ps5-pro-tops-out-at-40-fps/index.html",
-        "imageUrl": "https://static.tweaktown.com/news/1/1/113201_1_the-blood-of-dawnwalker-wont-hit-60-fps-on-any-console-ps5-pro-tops-out-at-40_full.jpg",
+        "id": "currents-3691e033-928e-5d2a-9d21-7581a01e88a7",
+        "title": "Ingo Swann - Wikipedia",
+        "publisher": "Wikipedia",
+        "publisherDomain": "en.wikipedia.org",
+        "publishedAt": "2026-08-22T20:33:57.000Z",
+        "url": "https://en.wikipedia.org/wiki/Ingo_Swann",
         "categories": [
           "Top",
           "U.S.",
@@ -978,58 +1066,178 @@
         ]
       },
       {
-        "id": "currents-abd7a450-2883-5560-a246-53983f113d6d",
-        "title": "Everyone is hyping Claude Code. I used Google Jules to build and ship a phone tracking app—entirely from my phone on the beach.",
-        "description": "Don't get me wrong: I love Claude Code. I use it every single day. I’ve used its various models to...",
+        "id": "currents-99e2bb38-bc02-5aae-a8dd-9b354f9c2704",
+        "title": "Engrava 0.5.0: a first-class MCP server",
+        "description": "Engrava 0.5.0 pulls the MCP server out of the library. Install engrava now and you get the memory...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-08-22T20:14:57.000Z",
-        "url": "https://dev.to/gents_83/everyone-is-hyping-claude-code-i-used-google-jules-to-build-and-ship-a-location-sharing-4o1e",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqzizsf1gj0rc8tibkl6k.png",
+        "publishedAt": "2026-08-22T20:36:42.000Z",
+        "url": "https://dev.to/sovantica/engrava-050-a-first-class-mcp-server-2djc",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F15a7fam565xnx70i46bz.png",
         "categories": [
           "Top",
-          "U.S.",
           "Technology",
-          "Science"
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-35e88d53-9220-5665-8f03-8d9ea4d498df",
+        "title": "Outbid boilerplate beta",
+        "description": "The outbid clone boilerplate. The pay-for-the-top-spot mechanic, Stripe, D1, and R2, live on Cloudflare with one wrangler command. Beta pricing: $59 now, $199 at launch. Immediate access via GitHub invite.",
+        "publisher": "Outbid Directory",
+        "publisherDomain": "outbid-directory.lol",
+        "publishedAt": "2026-08-22T20:34:28.000Z",
+        "url": "https://outbid-directory.lol/outbid-boilerplate",
+        "imageUrl": "https://outbid-directory.lol/og.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
         ]
       }
     ],
     "Sports": [
       {
-        "id": "currents-516af9c2-a7fe-5ffe-ab81-9c743d1a0118",
-        "title": "County Championship: Ollie Price and Miles Hammond lead Gloucestershire fightback against Worcestershire",
-        "description": "Half-centuries from Ollie Price and Miles Hammond bring Gloucestershire back into their County Championship match with Worcestershire.",
+        "id": "currents-4e2e8353-0e6f-5cd4-9a25-1c72ee8a2c5e",
+        "title": "Irish Premiership: Could Adam Brooks be Crusaders' next Scottish sensation?",
+        "description": "BBC Sport NI considers whether Adam Brooks can be Crusaders' next top Scottish striker after his hat-trick against Portadown on Saturday.",
         "publisher": "BBC News",
         "publisherDomain": "bbc.co.uk",
-        "publishedAt": "2026-08-22T19:34:54.000Z",
-        "url": "https://www.bbc.co.uk/sport/cricket/articles/cp3rv3rgxrxo",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/2737/live/af8c8330-9e5b-11f1-92d9-fda6ee78d386.jpg",
+        "publishedAt": "2026-08-22T20:12:20.000Z",
+        "url": "https://www.bbc.co.uk/sport/football/articles/c0kmkg047dxo",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/d91d/live/d2ac9640-9e59-11f1-92d9-fda6ee78d386.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-0c07fdd8-ab2d-5a47-88f5-225eace48834",
-        "title": "DUNDEE UTD 0 DUNDEE 2: Dark Blues take bragging rights at Tannadice",
-        "description": "It would be easy to call this a tale of two missiles.",
+        "id": "currents-79684928-d59e-5875-baca-0908ede0b35b",
+        "title": "I’d heard ringing in my ears before. This time, it didn’t stop",
+        "description": "Miranda Luby was only 36 years old when her tinnitus arrived in the middle of the night, without warning and for no clear reason",
+        "publisher": "The Guardian",
+        "publisherDomain": "theguardian.com",
+        "publishedAt": "2026-08-22T20:00:14.000Z",
+        "url": "https://www.theguardian.com/australia-news/2026/aug/23/tinnitus-ringing-in-the-ears-didnt-stop",
+        "imageUrl": "https://i.guim.co.uk/img/media/1ce14e70e0aa1e2ff9a2b96bc58f59f46d3a7262/0_746_2200_1759/master/2200.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=cd662252fd94442a4f5c7b88a9a635ce",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-c67e005c-87d1-502d-af60-7cc1ad303b19",
+        "title": "De Zerbi warns big-spending Tottenham need time after Brentford loss",
+        "description": "De Zerbi admitted Spurs did not 'fight in the right way', 'lost too many duels' and 'made a lot of mistakes'. He also claimed they must improve in their 'physical condition' and 'organisation'",
         "publisher": "Daily Mail",
         "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-08-22T19:54:32.000Z",
-        "url": "https://www.dailymail.com/sport/football/article-16072687/DUNDEE-UTD-0-DUNDEE-2-Clinical-Dark-Blues-derby-bragging-rights-Tannadice.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/22/20/110794873-0-image-a-12_1787428196234.jpg",
+        "publishedAt": "2026-08-22T20:29:06.000Z",
+        "url": "https://www.dailymail.com/sport/football/article-16072663/Roberto-Zerbi-Tottenham-need-time-apologises-crushing-loss-Brentford.html?ns_campaign=1490&ito=1490",
+        "imageUrl": "https://i.dailymail.com/1s/2026/08/22/21/110795189-0-image-m-14_1787430376227.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-abd4ad79-05eb-5668-a2c1-f51b73ad4a4d",
-        "title": "Opinion: Cancer must be a priority for new Health Minister",
-        "description": "Writing for Belfast Live, Sarah Christie, Head of Northern Ireland for Macmillan Cancer Support, calls on the new Health Minister Robbie Butler to make cancer a priority",
-        "publisher": "Belfastlive",
-        "publisherDomain": "belfastlive.co.uk",
-        "publishedAt": "2026-08-22T19:36:13.000Z",
-        "url": "https://www.belfastlive.co.uk/news/northern-ireland/cancer-must-priority-new-health-34499014",
-        "imageUrl": "https://i2-prod.belfastlive.co.uk/article34498990.ece/ALTERNATES/s1200d/0_Copy-of-Copy-of-Untitled-Design.png",
+        "id": "currents-4da56214-5cff-5ec9-aff5-8f0402fcea82",
+        "title": "McCarthy's misfires at QB stand out for the Vikings in a 13-3 preseason loss to the Ravens",
+        "description": "MINNEAPOLIS (AP) — J.J. McCarthy had an erratic start for the Minnesota Vikings, completing 5 of 10 passes for 81 yards in a 13-3 exhibition-game loss to Baltimore on Saturday, after undrafted rookie Joe Fagnano threw a touchdown pass to LaJohntay Wester for the Ravens.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-08-22T20:37:07.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/08/22/mccarthys-misfires-at-qb-stand-out-for-the-vikings-in-a-13-3-preseason-loss-to-the-ravens",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a8a0864270eb4db4d5f0c80jpeg.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-64137432-0ff6-50a2-91eb-7e6e4ef0a5d7",
+        "title": "Everton 2-0 Crystal Palace: Is Thierno Barry emerging as the frontman Everton can count on?",
+        "description": "After finding the back of the net in Everton's 2-0 win over Crystal Palace, is Thierno Barry on course to become Everton's main man up front?",
+        "publisher": "BBC News",
+        "publisherDomain": "bbc.co.uk",
+        "publishedAt": "2026-08-22T20:10:40.000Z",
+        "url": "https://www.bbc.co.uk/sport/football/articles/c39e9vpjg1do",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/81e3/live/7017a160-9e5d-11f1-92d9-fda6ee78d386.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-231401e3-4036-598e-8f5a-f6193c99e39f",
+        "title": "Could the macadamias hidden in Queensland’s rainforests be the key to saving ‘the world’s finest nut’?",
+        "description": "While grown in huge numbers commercially, macadamias are a vulnerable crop. A group of wild Australian nut hunters is seeking to change that",
+        "publisher": "The Guardian",
+        "publisherDomain": "theguardian.com",
+        "publishedAt": "2026-08-22T20:00:13.000Z",
+        "url": "https://www.theguardian.com/food/2026/aug/23/wild-macadamia-trees-conservation-queensland",
+        "imageUrl": "https://i.guim.co.uk/img/media/c369d1b01936da0d73752b0da3fe12187896b7ef/982_1049_2855_2284/master/2855.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d09974fab7befd90a558b9f8daecd0f9",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-b0d67739-4eba-554c-af4d-80819ad1ca38",
+        "title": "Peter Malinauskas grabbed headlines by announcing a royal commission into AI. How genuine are his ‘nation-leading’ moves?",
+        "description": "The South Australian premier says his choices, including on AI and the social media ban, are powered by the need to turn the state’s smaller size into agility",
+        "publisher": "The Guardian",
+        "publisherDomain": "theguardian.com",
+        "publishedAt": "2026-08-22T20:00:13.000Z",
+        "url": "https://www.theguardian.com/australia-news/2026/aug/23/ai-royal-commission-south-australia-premier-peter-malinauskas-artificial-intelligence",
+        "imageUrl": "https://i.guim.co.uk/img/media/0c10224672fae7ae0de50305c8906c379f8c7773/1316_32_5471_4377/master/5471.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=353e0c0fe18022e0b06fd7efe8c2ca28",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-ea2ea51d-5b0e-5174-9f9c-15215c867d86",
+        "title": "‘Devastating’: Western Australia fears a black swan moment as bird flu threatens flagship species",
+        "description": "The state’s bird emblem is an indicator species for H5N1, with high visibility populations and low survival rates. Experts are warning of ‘significant mortality’",
+        "publisher": "The Guardian",
+        "publisherDomain": "theguardian.com",
+        "publishedAt": "2026-08-22T20:00:12.000Z",
+        "url": "https://www.theguardian.com/australia-news/2026/aug/23/black-swan-bird-flu-western-australia",
+        "imageUrl": "https://i.guim.co.uk/img/media/edaf877cb08a79945a83f39d9dccb17304b8bc2a/585_0_2915_2333/master/2915.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=83588edca112a9aca67c07ec41ba07e8",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-a90a03cd-7005-56ee-b602-1ed56f4f02c5",
+        "title": "A new scheme is about to replace the NDIS for children with autism. Why has Queensland refused to sign up?",
+        "description": "State’s premier and many parents have questions about the Thriving Kids program. But what happens when the NDIS funding stops?",
+        "publisher": "The Guardian",
+        "publisherDomain": "theguardian.com",
+        "publishedAt": "2026-08-22T20:00:13.000Z",
+        "url": "https://www.theguardian.com/australia-news/2026/aug/23/ndis-reforms-autism-funding-thriving-kids-queensland",
+        "imageUrl": "https://i.guim.co.uk/img/media/a4f3ad2e54ec4161e3a13ff7d611357008ba3cbe/0_177_1000_800/master/1000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0d5fd2a4f36c6ab15b7cc4cd19f11ae1",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-967265e7-d273-5d87-b941-b28b64900c16",
+        "title": "The moment I knew: Days after September 11, we flew through turbulence – all I could say was ‘I love you’",
+        "description": "In 2001, Scott Westerfeld travelled from New York to Sydney to see Justine Larbalestier. In the immediate aftermath of 9/11, they navigated the crisis as best they could, together",
+        "publisher": "The Guardian",
+        "publisherDomain": "theguardian.com",
+        "publishedAt": "2026-08-22T20:00:12.000Z",
+        "url": "https://www.theguardian.com/lifeandstyle/2026/aug/23/the-moment-i-knew-days-after-september-11-we-flew-through-turbulence-all-i-could-say-was-i-love-you",
+        "imageUrl": "https://i.guim.co.uk/img/media/cf31023c79ae02e791de9485168d0dd4eccda330/302_226_2831_2266/master/2831.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ff8319177f9c249e55051dfcbb147e4f",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-7c2c03b6-be67-558d-8c18-172ac78c4627",
+        "title": "The major parties several chances to meet the moment. Instead they chose to safeguard their collective mediocrity | Zoe Daniel",
+        "description": "Labor and the Coalition united three times to defy the expressed desire of the voters; on gambling, on disability and on the power of the tech companies",
+        "publisher": "The Guardian",
+        "publisherDomain": "theguardian.com",
+        "publishedAt": "2026-08-22T20:00:12.000Z",
+        "url": "https://www.theguardian.com/commentisfree/2026/aug/23/the-major-parties-had-several-chances-to-meet-the-moment-instead-they-chose-to-safeguard-their-collective-mediocrity",
+        "imageUrl": "https://i.guim.co.uk/img/media/20b9e93bdaa49f64ec31b7b2631f9d3b7c84cf7a/688_0_6880_5504/master/6880.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=1ee548e6329f7fe376b283dfd707de9e",
         "categories": [
           "Sports"
         ]
@@ -1048,58 +1256,6 @@
         ]
       },
       {
-        "id": "currents-7b04087e-4729-5fba-98f4-63a08705d604",
-        "title": "Liberty accused of 'censoring' Cunningham fan in latest WNBA storm",
-        "description": "Julie Potter, a lesbian hip hop artist, claims she was among a group who paid more than $2,000 for 25 tickets for Saturday's clash between the Liberty and Indiana Fever at Barclays Center.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-08-22T19:46:15.000Z",
-        "url": "https://www.dailymail.com/sport/wnba/article-16072229/wnba-new-york-liberty-fan-censorship.html?ns_campaign=1490&ito=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/22/19/110773099-0-image-m-15_1787421669096.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-efbd9433-57b0-5dec-bce5-57e1b8815bb9",
-        "title": "Jean-Philippe Mateta takes Crystal Palace to FIFA",
-        "description": "Mateta's case was heard by an independent tribunal under the Premier League's rules and he subsequently went to Fifa, but they ruled that overruling the contract is not within their jurisdiction.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-08-22T19:40:26.000Z",
-        "url": "https://www.dailymail.com/sport/football/article-16072635/Jean-Philippe-Mateta-goes-war-Crystal-Palace-Wantaway-striker-takes-club-FIFA-claims-final-months-contract-void.html?ns_campaign=1490&ito=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/22/19/110794383-0-image-a-48_1787424956307.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-47f1d13b-5584-5712-85d0-074295f3e78a",
-        "title": "Gianni Infantino defies request to stay away from youth tournament",
-        "description": "The letter from Montagliani, who is also a FIFA vice-president, comes with Infantino still coming under fire over his now scrapped plans to sell off stakes in the World Cup.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-08-22T19:35:48.000Z",
-        "url": "https://www.dailymail.com/sport/football/article-16072321/Gianni-Infantino-FIFA-request-stay-away-youth-tournament-backlash-World-Cup.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/22/20/110794639-0-image-m-16_1787427058277.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-5d6088b6-433e-58af-a568-207cc068dd4d",
-        "title": "Brentford 3-0 Tottenham: De Zerbi's men outplayed and unable to cope",
-        "description": "MATT BARLOW AT THE GTECH COMMUNITY STADIUM: Amid so much change, some things remain the same. And there is still nothing quite like a trip to Brentford in the Premier League.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-08-22T19:32:17.000Z",
-        "url": "https://www.dailymail.com/sport/football/article-16066923/Brentford-3-0-Tottenham-comprehensive-defeats-come-Roberto-Zerbis-men-outplayed-unable-cope-slick-hosts-writes-MATT-BARLOW.html?ns_campaign=1490&ito=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/22/20/110794257-0-image-m-193_1787426124653.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
         "id": "currents-22c316b5-b3c5-540c-a56c-89604a85c0df",
         "title": "Carlson keeps Glamorgan in hunt after Gumbs shows quality",
         "description": "County DIV1 2026, Leics vs Glamorgan Match Report: Rookie Leicestershire opener falls for 93 but not before giving hosts a glimmer of victory",
@@ -1109,8 +1265,6 @@
         "url": "https://www.cricinfo.com/series/county-championship-division-one-2026-1513323/leicestershire-vs-glamorgan-43rd-match-1513368/match-report",
         "imageUrl": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/416400/416439.6.jpg",
         "categories": [
-          "Top",
-          "U.S.",
           "Sports"
         ]
       },
@@ -1152,58 +1306,6 @@
         "categories": [
           "Sports"
         ]
-      },
-      {
-        "id": "currents-1079154a-ebcf-5309-be0e-026b311ae788",
-        "title": "Joe Brolly: Andy Moran has created something inspirational and dramatic, it will give us untold pleasure and enjoyment",
-        "description": "Everyone in Mayo is going around smiling as though the magic mushrooms are just starting to kick in.",
-        "publisher": "Independent",
-        "publisherDomain": "independent.ie",
-        "publishedAt": "2026-08-22T20:00:00.000Z",
-        "url": "https://www.independent.ie/sport/joe-brolly-andy-moran-has-created-something-inspirational-and-dramatic-it-will-give-us-untold-pleasure-and-enjoyment/a/160374910.html",
-        "imageUrl": "https://prod-img.independent.ie/public/incoming/a90w1m-ss-morancoyne-23.jpg/alternates/SIXTEEN_NINE_1200/SS%20MORANCOYNE%2023.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-88c9b33e-df4e-56d5-9f7a-a894fc535a89",
-        "title": "Erasmus vows Springboks can still win series after Ellis Park rout by All Blacks",
-        "description": "JOHANNESBURG (AP) — Coach Rassie Erasmus reassured South Africa supporters that recent history proved the test series against New Zealand can still be won after losing the opening salvo 33-16 on Saturday.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-22T19:53:38.000Z",
-        "url": "https://www.winnipegfreepress.com/uncategorized/2026/08/22/erasmus-vows-springboks-can-still-win-series-after-ellis-park-rout-by-all-blacks",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a89fe3b270eb4db4d5f0523jpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-ca85badb-5dae-5c9d-819c-dbec51bb092d",
-        "title": "2 bodies recovered and about 12 missing after migrant boat capsized off Tunisian coast",
-        "description": "TUNIS, Tunisia (AP) — A boat carrying migrants capsized off the coast of southern Tunisia, killing at least two people and leaving 12 missing, Tunisia",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-22T19:48:52.000Z",
-        "url": "https://www.winnipegfreepress.com/world/2026/08/22/2-bodies-recovered-and-about-12-missing-after-migrant-boat-capsized-off-tunisian-coast",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-d29667a9-7a4c-58d4-bf4e-8d3c9725dad9",
-        "title": "We compare prices of packed lunch essentials at Tesco, Asda and Sainsbury's",
-        "description": "Belfast Live has looked at the three major supermarkets, Sainsbury's, Asda and Tesco, to see which one offers the best value for money on a selection of items that are commonly found in pack lunches.",
-        "publisher": "Belfastlive",
-        "publisherDomain": "belfastlive.co.uk",
-        "publishedAt": "2026-08-22T19:45:14.000Z",
-        "url": "https://www.belfastlive.co.uk/news/northern-ireland/compare-prices-packed-lunch-essentials-34500100",
-        "imageUrl": "https://i2-prod.belfastlive.co.uk/article21895595.ece/ALTERNATES/s1200d/0_GettyImages-763158755.jpg",
-        "categories": [
-          "Sports"
-        ]
       }
     ],
     "Entertainment": [
@@ -1216,6 +1318,45 @@
         "publishedAt": "2026-08-22T20:27:41.000Z",
         "url": "https://www.nme.com/news/music/tupac-murder-trial-plays-secret-police-interview-with-keffe-d-admitting-role-in-rappers-shooting-3964131",
         "imageUrl": "https://www.nme.com/wp-content/uploads/2026/04/tupac@2000x1270.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-6135f519-0d6c-5a44-a601-dc68dd2de6f5",
+        "title": "EastEnders' Sean Slater set to bring 'chaos' when he returns",
+        "description": "Rob is set to make a permanent return to the soap this autumn, and bosses are hinting that despite it being 20 years since his debut, he 'hasn't grown up too much.'",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-08-22T20:14:09.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16063375/EastEnders-Sean-Slater-returns-soap-bosses-clash-Max-Branning.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/08/19/10/110724133-0-image-m-46_1787131060033.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-5af6ac93-2809-5520-ac19-73a817ab0695",
+        "title": "Sunday Puzzle: MBA's",
+        "description": "NPR's Ayesha Rascoe plays the puzzle along with Weekend Edition Puzzlemaster Will Shortz and KUHF listener Ned Andrews of Houston, Texas.",
+        "publisher": "NPR",
+        "publisherDomain": "npr.org",
+        "publishedAt": "2026-08-22T19:59:59.000Z",
+        "url": "https://www.npr.org/2026/08/22/g-s1-139397/sunday-puzzle-mbas",
+        "imageUrl": "https://media.npr.org/assets/img/2020/10/10/sundaypuzzle-widecrop_wide-933bc5b683895f01fdfbecc1e1894b38c1b7c049.jpg?s=1400&c=85&f=jpeg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-76e615b9-2bd4-552b-b221-e6d7660db4fa",
+        "title": "If You Did One Productive Thing Today, You Deserve To Treat Yourself To One Of These 31 Finds",
+        "description": "Whether you answered that email you've been putting off, finally folded your laundry, or did some meal prepping, you deserve a little treat.",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-08-22T20:31:02.000Z",
+        "url": "https://www.buzzfeed.com/jonathanmazzei/if-you-did-one-productive-thing-today-you-deserve-to-treat",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/19/03/thumb/JhXeK6AqW.jpg?crop=3000:1571;0,215%26downsize=1250:*",
         "categories": [
           "Entertainment"
         ]
@@ -1234,34 +1375,6 @@
         ]
       },
       {
-        "id": "currents-f6f5e69e-8c24-566d-b818-a50bf84cd37d",
-        "title": "There Are Carrier Pigeon Apps Now Because Pigeon Technology Is Actually Superior",
-        "description": "The original wireless carriers.",
-        "publisher": "Gizmodo",
-        "publisherDomain": "gizmodo.com",
-        "publishedAt": "2026-08-22T19:28:01.000Z",
-        "url": "https://gizmodo.com/there-are-carrier-pigeon-apps-now-because-pigeon-technology-is-actually-superior-2000801934",
-        "imageUrl": "https://gizmodo.com/app/uploads/2026/08/pigeon-foot-1200x675.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-7c9e7fd1-8878-5abf-9f50-3e6f19719f8d",
-        "title": "Sydney Sweeney Runs Through Obstacle Course, Dresses As Sexy Wonder Woman Alongside Scooter Braun",
-        "description": "Sydney Sweeney is charging through a fun 2026 without a care in the world ... and with a Wonder Woman costume that accentuated every curve.",
-        "publisher": "Tmz",
-        "publisherDomain": "tmz.com",
-        "publishedAt": "2026-08-22T20:21:24.000Z",
-        "url": "https://www.tmz.com/2026/08/22/sydney-sweeney-dresses-as-wonder-woman-with-scooter-braun",
-        "imageUrl": "https://imagez.tmz.com/image/41/16by9/2026/08/22/41f436bb163a4d16a2197df404fe9ecd_xl.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Entertainment"
-        ]
-      },
-      {
         "id": "currents-e480c70f-2ca5-5b96-b906-935154e7113f",
         "title": "Hayden Panettiere mourned by fellow child star Anna Paquin",
         "description": "The broadside comes after Panettiere was found dead aged 36 of a suspected overdose last Sunday at an Airbnb in Greenville, South Carolina.",
@@ -1275,40 +1388,53 @@
         ]
       },
       {
-        "id": "currents-cd0ab0c6-3e17-5dd2-a6f3-62479c45f2f3",
-        "title": "James Jordan says he's 'going through a midlife crisis' after split",
-        "description": "The former Strictly star, 48, has said he is 'going through a midlife crisis' in the wake of his split from his wife Ola after 22 years of marriage.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-08-22T19:31:29.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16072655/James-Jordan-midlife-crisis-marriage-wife-Ola-split.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/22/20/110794641-0-image-m-7_1787426932859.jpg",
+        "id": "currents-96aca46d-d404-5dbf-9cb5-f7e71c8d6e07",
+        "title": "50 Dishes From Every US State That Will Make You Rethink What “American Food” Even Means",
+        "description": "From berries to beef testicles, these famous foods might change how you think about certain states.",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-08-22T20:31:02.000Z",
+        "url": "https://www.buzzfeed.com/gabriellelafrank/most-popular-dish-from-every-us-state",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/11/00/thumb/VwVCu3cFE.jpg?crop=1250:654;0,30%26downsize=1250:*",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-7a84ea88-fb21-5817-8134-3830c88db69a",
-        "title": "DWTS power couple reveal how they REALLY feel about life in Florida",
-        "description": "Dancing With the Stars alums Peta Murgatroyd and Maksim Chmerkovskiy packed up and moved from Los Angeles to Boca Raton with their three sons on June 29.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-08-22T19:28:31.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16072387/dwts-peta-murgatroyd-maks-chmerkovskiy-fled-los-angeles-reveal-feelings-life-florida.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/22/20/110792849-0-image-m-68_1787425478229.jpg",
+        "id": "currents-7a58fc6c-8842-5775-90bc-b7df17372062",
+        "title": "PS Plus September 2026 games - what to expect on PS5 and PS4",
+        "description": "Find out what you can expect from the PS Plus September 2026 games on PS5 and PS4 and when they will be announced.",
+        "publisher": "Nme",
+        "publisherDomain": "nme.com",
+        "publishedAt": "2026-08-22T20:30:13.000Z",
+        "url": "https://www.nme.com/guides/gaming-guides/ps-plus-september-2026-games-3960325",
+        "imageUrl": "https://www.nme.com/wp-content/uploads/2026/08/ps-plus-september-2026-games.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-07ff56f2-576b-54e5-be01-379ea67b806a",
-        "title": "Hayden Panettiere's mom: What I think REALLY happened at Airbnb",
-        "description": "In an exclusive interview with the Daily Mail, Vogel said she pressured South Carolina law enforcement in to investigate Hayden's death and raised serious questions about Brian Hickerson's account.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-08-22T19:25:56.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16070987/hayden-panettiere-brian-hickerson-south-carolina-death.html?ns_campaign=1490&ito=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/21/22/110782907-0-image-m-46_1787347931487.jpg",
+        "id": "currents-73963573-942a-5c73-8c20-07a4d9e4bee6",
+        "title": "Hayden Panettiere's co-star Justin Chatwin 'pissed off' over Hollywood culture after her passing",
+        "description": "Justin Chatwin slams Hollywood culture for failing people battling trauma and addiction as he grieves \"Sleepwalker\" co-star Hayden Panettiere.",
+        "publisher": "Fox News",
+        "publisherDomain": "foxnews.com",
+        "publishedAt": "2026-08-22T20:21:33.000Z",
+        "url": "https://www.foxnews.com/entertainment/hayden-panettiere-co-star-justin-chatwin-pissed-off-hollywood-culture-after-her-passing",
+        "imageUrl": "https://static.foxnews.com/foxnews.com/content/uploads/2026/08/justin-chatwin-hayden-panettiere.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-7c9e7fd1-8878-5abf-9f50-3e6f19719f8d",
+        "title": "Sydney Sweeney Runs Through Obstacle Course, Dresses As Sexy Wonder Woman Alongside Scooter Braun",
+        "description": "Sydney Sweeney is charging through a fun 2026 without a care in the world ... and with a Wonder Woman costume that accentuated every curve.",
+        "publisher": "Tmz",
+        "publisherDomain": "tmz.com",
+        "publishedAt": "2026-08-22T20:21:24.000Z",
+        "url": "https://www.tmz.com/2026/08/22/sydney-sweeney-dresses-as-wonder-woman-with-scooter-braun",
+        "imageUrl": "https://imagez.tmz.com/image/41/16by9/2026/08/22/41f436bb163a4d16a2197df404fe9ecd_xl.png",
         "categories": [
           "Entertainment"
         ]
@@ -1379,40 +1505,14 @@
         ]
       },
       {
-        "id": "currents-ff1c4f9e-23d7-5320-9c32-934472294501",
-        "title": "Janie Bradford, Motown songwriter behind 'Money (That's What I Want)', dies aged 87",
-        "description": "Janie Bradford, the Motown songwriter who co-wrote 'Money (That's What I Want)', has died at the age of 87.",
-        "publisher": "Nme",
-        "publisherDomain": "nme.com",
-        "publishedAt": "2026-08-22T19:46:57.000Z",
-        "url": "https://www.nme.com/news/music/janie-bradford-motown-songwriter-behind-money-thats-what-i-want-dies-aged-87-3964134",
-        "imageUrl": "https://www.nme.com/wp-content/uploads/2026/08/janie_bradford_rip.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-c9315127-a200-5234-9e05-09b22b43164a",
-        "title": "Kendall Jenner, Jacob Elordi Keep Up the Date Nights With Hand-in-Hand Outing in London",
-        "description": "Kendall Jenner and Jacob Elordi strolled hand-in-hand during a date night in London after the Frankenstein actor's red carpet appearance at The Dog Stars premiere.",
-        "publisher": "E! News",
-        "publisherDomain": "eonline.com",
-        "publishedAt": "2026-08-22T19:38:30.000Z",
-        "url": "https://www.eonline.com/news/1435285/kendall-jenner-jacob-elordi-pictured-hold-hands-during-london-date-night",
-        "imageUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20260822/d1f1d5c8-ea80-44ec-a65c-8038c56a8478_1787417978.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-a3d9caa9-bab1-5ac1-bd0f-5b17cfc476db",
-        "title": "You May Not Have Seen These 30 Products Yet, But They’ll Make Life A Little Easier",
-        "description": "This hybrid towel robe and magnetic wall control mount are so handy that you'll forget the person you were before you owned the.",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-08-22T19:31:03.000Z",
-        "url": "https://www.buzzfeed.com/emmalord9/products-seen-yet-easier-life-august-2026-an",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-01/14/20/thumb/YaFTGqXRy.jpg?crop=1250:654;0,88%26downsize=1250:*",
+        "id": "currents-4ff5acd9-0466-5adb-85af-11fa432fa296",
+        "title": "EastEnders confirms 2 major returns for Linda Carter exit storyline – as shocking twist teased",
+        "description": "Bright announced her departure earlier this month.",
+        "publisher": "Radiotimes",
+        "publisherDomain": "radiotimes.com",
+        "publishedAt": "2026-08-22T19:59:07.000Z",
+        "url": "https://www.radiotimes.com/tv/soaps/eastenders/eastenders-lee-nancy-carter-returns-linda-exit-twist-newsupdate",
+        "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2026/01/539221-1c4a756-e1767621429368.jpg?resize=1200%2C630",
         "categories": [
           "Entertainment"
         ]
@@ -1424,6 +1524,6 @@
     "successfulRequests": 5,
     "failedRequests": 0,
     "articleCountBeforeDeduplication": 100,
-    "articleCountAfterDeduplication": 87
+    "articleCountAfterDeduplication": 84
   }
 }
