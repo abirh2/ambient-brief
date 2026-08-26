@@ -1,291 +1,434 @@
 {
   "schemaVersion": 1,
   "provider": "currents",
-  "generatedAt": "2026-08-26T07:52:40.310Z",
-  "sourceFetchedAt": "2026-08-26T07:52:40.310Z",
+  "generatedAt": "2026-08-26T08:54:14.479Z",
+  "sourceFetchedAt": "2026-08-26T08:54:14.479Z",
   "status": "success",
   "categories": {
     "Top": [
       {
-        "id": "currents-9ad4e582-9d16-5a1c-918c-6c8f4afadbcc",
-        "title": "Watch Nano Nuclear Energy Bring Microreactors to UAE",
-        "description": "US microreactor company Nano Nuclear Energy is on the path to deploy its technology to the Middle East after signing the first and only nuclear microreactor partnership with the UAE. The agreement aims to help the country go off grid, power desert data centers and decarbonize oil and gas fields. Jay...",
+        "id": "currents-cb74f871-31fc-5d5e-baa2-960d2e7efe28",
+        "title": "Banco BPM Says Paschi's Offer 'Does Not Recognize a Premium'",
+        "description": "Banco BPM indicated skepticism toward the takeover bid it received from rival Banca Monte dei Paschi, saying the price offered was pretty much the same as its market valuation. Bloomberg's Tommaso Ebhardt reports from Milan. (Source: Bloomberg)",
         "publisher": "Bloomberg",
         "publisherDomain": "bloomberg.com",
-        "publishedAt": "2026-08-26T07:37:51.000Z",
-        "url": "https://www.bloomberg.com/news/videos/2026-08-26/nano-nuclear-energy-bring-microreactors-to-uae-video",
-        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ilzcwD.KVaJ8/v3/-1x-1.webp",
+        "publishedAt": "2026-08-26T08:42:48.000Z",
+        "url": "https://www.bloomberg.com/news/videos/2026-08-26/banco-bpm-says-paschi-bid-does-not-recognize-a-premium-video",
         "categories": [
           "Top",
           "U.S."
         ]
       },
       {
-        "id": "currents-b6ce4b77-a2c2-5fe9-8577-af740ca8331a",
-        "title": "Pakistan no longer a neutral Iran mediator after joining Mecca Pact: Fmr Indian Ambassador",
-        "description": "Dinkar Srivastava, Former Indian Ambassador to Iran explains why he is skeptical of Pakistan's role as mediator in the U.S.-Iran conflict. He also discusses the future of India's Chabahar port project in Iran.",
-        "publisher": "CNBC",
-        "publisherDomain": "cnbc.com",
-        "publishedAt": "2026-08-26T07:04:19.000Z",
-        "url": "https://www.cnbc.com/video/2026/08/26/pakistan-not-a-neutral-iran-mediator-fmr-indian-ambassador.html",
-        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108354323-17877249961787724993-47990994556-1080pnbcnews.jpg?v=1787724995&w=1920&h=1080",
+        "id": "currents-1c42d709-4285-596b-8a82-09f3b10a0a18",
+        "title": "What the Cincinnati Open and tennis teach us about our health and our patience | Lifestyles",
+        "description": "“Don't swing at the volley. Stop swinging.” “Say 'yes' every time the ball meets a racquet — mine, yours or another player's.” These are ...",
+        "publisher": "Daytondailynews",
+        "publisherDomain": "daytondailynews.com",
+        "publishedAt": "2026-08-26T08:54:03.000Z",
+        "url": "https://www.daytondailynews.com/lifestyles/what-the-cincinnati-open-and-tennis-teach-us-about-our-health-and-our-patience/article_1337fced-f46a-53c9-bf58-faa6dc28cbdf.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-79d9a057-7528-5464-9c17-20a58801526b",
+        "title": "Germany news: Sugar tax plan leaves sour taste",
+        "description": "Germany's plans for a sugar tax are facing growing opposition amid claims that it's more about raising revenue than health. DW has the latest.",
+        "publisher": "Dw",
+        "publisherDomain": "dw.com",
+        "publishedAt": "2026-08-26T08:45:00.000Z",
+        "url": "https://www.dw.com/en/germany-news-sugar-tax-plan-leaves-sour-taste/live-78504011",
+        "imageUrl": "https://static.dw.com/image/70591772_6.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-3512736b-369f-590f-8cc0-9d8aa78b625b",
+        "title": "Automating Chart Patterns in MQL5 (Part 1): The Multi-Timeframe Swing Structure Engine",
+        "description": "This article presents CSwingEngine, a reusable MQL5 class that detects H4 swing highs and lows, labels them HH, LH, HL, or LL, and classifies market structure as trend or range. Swings are always computed on H4, regardless of the attached chart, and each point draws correctly on lower timeframes via...",
+        "publisher": "Mql5",
+        "publisherDomain": "mql5.com",
+        "publishedAt": "2026-08-26T08:47:28.000Z",
+        "url": "https://www.mql5.com/en/articles/23538",
+        "imageUrl": "https://c.mql5.com/2/244/23538-automating-chart-patterns-in-mql5-part-1-the-multi-timeframe_1200x628.jpg",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-3e4d66ab-3313-5bd7-92b4-9231f82e62ae",
+        "title": "Larry Williams Market Secrets (Part 16): Detecting and Trading the Oops Gap Reversal Pattern",
+        "description": "Learn how to build an MQL5 Expert Advisor that detects and trades Larry Williams’ Oops Gap Reversal pattern using objective gap rules and later-bar confirmation. The EA tracks setup expiration, prepares stop-loss and take-profit levels, supports manual or risk-based position sizing, executes market ...",
+        "publisher": "Mql5",
+        "publisherDomain": "mql5.com",
+        "publishedAt": "2026-08-26T08:47:28.000Z",
+        "url": "https://www.mql5.com/en/articles/21741",
+        "imageUrl": "https://c.mql5.com/2/243/21741-larry-williams-market-secrets-part-16-detecting-and-trading_1200x628.jpg",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-499b0c6a-0c80-5557-8d24-02e38605442d",
+        "title": "Does This Entry Filter Really Add Edge? A Block-Permutation Test in MQL5",
+        "description": "An MQL5 analyzer reconstructs completed trades, records acceptance labels, and measures the accepted-minus-rejected mean net-profit difference. It benchmarks that statistic against individual permutations, equal-block permutations, and circular shifts while preserving the accepted count. Block-size ...",
+        "publisher": "Mql5",
+        "publisherDomain": "mql5.com",
+        "publishedAt": "2026-08-26T08:47:28.000Z",
+        "url": "https://www.mql5.com/en/articles/23665",
+        "imageUrl": "https://c.mql5.com/2/244/23665-does-this-entry-filter-really-add-edge-a-block-permutation_1200x628.jpg",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-dd0c4a27-4758-54c7-a651-1d0eff30af60",
+        "title": "OpenAI Jalapeno Custom AI ASIC at Hot Chips 2026",
+        "description": "We got a deep-dive on OpenAI Jalapeño at Hot Chips 2026 as the company rapidly built its own competitive AI accelerator",
+        "publisher": "Servethehome",
+        "publisherDomain": "servethehome.com",
+        "publishedAt": "2026-08-26T08:45:41.000Z",
+        "url": "https://www.servethehome.com/openai-jalapeno-asic-at-hot-chips-2026",
+        "imageUrl": "https://www.servethehome.com/wp-content/uploads/2026/08/OpenAI-Jalapeno-chip-final.jpg",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-21fcfd2e-0e79-5b13-b8de-5f2e19a604f9",
+        "title": "The Taliban Kicked the U.S. Out of Afghanistan. Now They Want It Back. - Dayton Daily News",
+        "description": "People inspect the area hit during Pakistani airstrikes on the night of June 28 in Paktia Province, Afghanistan, near the border with Pakistan, ...",
+        "publisher": "Daytondailynews",
+        "publisherDomain": "daytondailynews.com",
+        "publishedAt": "2026-08-26T08:54:03.000Z",
+        "url": "https://www.daytondailynews.com/nation-world/the-taliban-kicked-the-u-s-out-of-afghanistan-now-they-want-it-back/image_ef8336ae-4807-55ea-9647-b4c2453a7fce.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-41a16847-8e9f-5298-9da3-d505afd380dd",
+        "title": "Abortion Foes Backed Ballot Measures in 2 Red States. Voters Said No. - Dayton Daily News",
+        "description": "People fill out their ballots at a polling location in Kansas City, Mo., on Tuesday, Aug. 4, 2026. Though the word \"abortion\" did not appear on ...",
+        "publisher": "Daytondailynews",
+        "publisherDomain": "daytondailynews.com",
+        "publishedAt": "2026-08-26T08:54:03.000Z",
+        "url": "https://www.daytondailynews.com/nation-world/abortion-foes-backed-ballot-measures-in-2-red-states-voters-said-no/image_b76d812f-8885-5d57-9ae0-91482d4a397b.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-1a531f79-aa24-5931-b0c7-3bcd6eaa6b7d",
+        "title": "Christopher Nolan and the Anxiety of Making 'The Odyssey' - Springfield News-Sun",
+        "description": "Christopher Nolan in New York, June 19, 2026. Filming his new movie \"The Odyssey\" entirely in IMAX meant new engineering and actor ingenuity -- it ...",
+        "publisher": "Daytondailynews",
+        "publisherDomain": "daytondailynews.com",
+        "publishedAt": "2026-08-26T08:54:02.000Z",
+        "url": "https://www.daytondailynews.com/nation-world/christopher-nolan-and-the-anxiety-of-making-the-odyssey/image_37e0e9e1-89c3-51e5-9905-c557ad5d89f6.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-0cb72371-88a3-539f-8785-550e7644b85f",
+        "title": "It’s the People, Stupid (Human Art in a Company World) - T.R Napper",
+        "description": "Why human art matters.",
+        "publisher": "Nappertime",
+        "publisherDomain": "nappertime.com",
+        "publishedAt": "2026-08-26T08:45:04.000Z",
+        "url": "https://nappertime.com/its-the-people-stupid-human-art-in-a-company-world",
+        "imageUrl": "https://nappertime.com/wp-content/uploads/2025/04/its-the-people-bradshaw.jpg",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-85ca697b-e958-5b2d-a429-94108a3e4f1f",
+        "title": "Kiran Mazumdar-Shaw Reacts As Karnataka Congress MLA Seeks CSR Funds For Road Repair",
+        "description": "The row began after Shaw called out Anekal MLA B. Shivanna over the poor state of roads in his constituency, which houses one of Bengaluru's biggest industrial clusters.",
+        "publisher": "Ndtvprofit",
+        "publisherDomain": "ndtvprofit.com",
+        "publishedAt": "2026-08-26T08:23:06.000Z",
+        "url": "https://www.ndtvprofit.com/india/kiran-mazumdar-shaw-reacts-as-karnataka-congress-mla-seeks-csr-funds-for-road-repair-11960133",
+        "imageUrl": "https://c.ndtvimg.com/2026-08/ffk01qqc_ndtv_625x300_26_August_26.png?im=FitAndFill,algorithm=dnn,width=1600,height=900",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-c7df301a-aeeb-58a7-8e5a-30fd8c231616",
-        "title": "The continent nobody owns & everyone benefits from (Summer School) : Planet Money",
-        "description": "This episode is packed with your best economic ideas from around the world and a penguin interview. It all comes together in this final session of Summer School 2026.Pack your parka, we’re headed to Antarctica. The continent nobody owns, but everyone benefits from and plenty of economic activity if ...",
-        "publisher": "NPR",
-        "publisherDomain": "npr.org",
-        "publishedAt": "2026-08-26T07:30:00.000Z",
-        "url": "https://www.npr.org/2026/08/26/nx-s1-5943609/summer-school-antarctica",
-        "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3378x1900+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc2%2F36%2F8323600a4df58f6d6dbee6448cfb%2F2d862318-82d0-4111-b274-a2047f100d43.jpg",
+        "id": "currents-000eff2c-28ba-5ae9-adec-c7464385de9b",
+        "title": "Inside mega plan to make Nairobi Africa's film hub",
+        "description": "Kenyan filmmakers James Hakesley and Roy Kimani are betting on virtual production technology to cut costs, expand creative possibilities and position Nairobi as Africa’s next film and content hub.",
+        "publisher": "Co",
+        "publisherDomain": "standardmedia.co.ke",
+        "publishedAt": "2026-08-26T08:18:41.000Z",
+        "url": "https://www.standardmedia.co.ke/business/article/2001556210/inside-mega-plan-to-make-nairobi-africa-s-film-hub",
+        "imageUrl": "https://cdn.standardmedia.co.ke/images/articles/thumbnails/thgPoWYvoxtQnEV2R7wgEaKGN5beLg8VqyWxnrG6.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-d65863a4-b2ea-57a2-8bcf-0e90f1055706",
-        "title": "[COVER STORY] USFK job platform takes Korea-US alliance from security to jobs - The Korea Times",
-        "description": "As Korean companies expand their footprint across the United States, securing qualified local workers has emerged as one of their biggest challenge...",
+        "id": "currents-63f66ce3-7bf4-5a07-8b34-de3a7c31c55d",
+        "title": "Court refuses to stay eviction of Delhi Race Club, rejects interim plea",
+        "description": "The Patiala House Court dismissed the club's plea for interim relief",
+        "publisher": "Business Standard",
+        "publisherDomain": "business-standard.com",
+        "publishedAt": "2026-08-26T08:16:23.000Z",
+        "url": "https://www.business-standard.com/india-news/court-refuses-to-stay-eviction-of-delhi-race-club-rejects-interim-plea-126082600442_1.html",
+        "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2023-04/05/thumb/featurecrop/1200X628/1680702282-6956.png",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-2e222e47-9d49-5f54-bd31-4462d4ebac31",
+        "title": "Hormuz shock sends Jebel Ali tumbling out of global top 30",
+        "description": "Dubai’s Jebel Ali has suffered one of the most dramatic collapses ever seen in the global container port rankings, tumbling from 10th to 32nd place in the space of half a year as the war with Iran throttles shipping through the Strait of Hormuz. New analysis from Alphaliner shows throughput at the M...",
+        "publisher": "Splash247",
+        "publisherDomain": "splash247.com",
+        "publishedAt": "2026-08-26T08:12:12.000Z",
+        "url": "https://splash247.com/hormuz-shock-sends-jebel-ali-tumbling-out-of-global-top-30",
+        "imageUrl": "https://splash247.com/wp-content/uploads/2017/05/Jebel-Ali-Port-e1631692677124.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-02a755bd-ce33-5675-b48a-916c3790b0ea",
+        "title": "SF9 marks 10th year with new album 'TENACITY,' vows 6 more decades - The Korea Times",
+        "description": "K-pop boy band SF9 marks its 10th anniversary this year, but the eight-piece is measuring its career in a much longer unit: 60 more years, by the g...",
         "publisher": "Co",
         "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-08-26T07:47:03.000Z",
-        "url": "https://www.koreatimes.co.kr/southkorea/politics/20260826/cover-story-usfk-job-platform-takes-korea-us-alliance-from-security-to-jobs",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/26/f88337f0-82dc-4f7d-9083-cd664b3b12d6.png",
+        "publishedAt": "2026-08-26T08:47:03.000Z",
+        "url": "https://www.koreatimes.co.kr/entertainment/k-pop/20260826/sf9-marks-10th-year-with-new-album-tenacity-vows-6-more-decades",
+        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/26/1bbcb7cd-e7aa-4717-933d-351444ffd60e.jpg",
         "categories": [
           "Top",
           "World"
-        ]
-      },
-      {
-        "id": "currents-fc04c138-82af-526e-8b2b-e0bcd4587c44",
-        "title": "Korea sees record number of students from immigrant backgrounds - The Korea Times",
-        "description": "The number of elementary, middle and high school students with an immigrant background has reached a record high, government data showed Wednesday....",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-08-26T07:47:03.000Z",
-        "url": "https://www.koreatimes.co.kr/southkorea/society/20260826/korea-sees-record-number-of-students-from-immigrant-backgrounds",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/26/d957b035-5ae6-4987-a872-3e1ae7d8f3fa.jpg",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-b792feea-3ee3-5270-abf7-b96c5a9b6fb5",
-        "title": "ARKB: The ETF Flow Cycle Matters More Than The Bitcoin Price Cycle (BATS:ARKB)",
-        "description": "ARKB's smaller asset base means incremental institutional inflows have an outsized impact on AUM growth and relevance. Read why ARKB ETF is a Buy.",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-08-26T07:42:51.000Z",
-        "url": "https://seekingalpha.com/article/4940232-arkb-the-etf-flow-cycle-matters-more-than-the-bitcoin-price-cycle",
-        "imageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2241710794/image_2241710794.jpg?io=getty-c-w1536",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-8e2ac53d-d932-516e-bfdd-35a6ccfc40b2",
-        "title": "Flash flood in Nepal washes away villages, power projects near Tibet",
-        "description": "The overspill from the Bhotekoshi River has caused power cuts and damaged roads amid fears of heavy casualties.",
-        "publisher": "Scmp",
-        "publisherDomain": "scmp.com",
-        "publishedAt": "2026-08-26T07:42:25.000Z",
-        "url": "https://www.scmp.com/news/asia/south-asia/article/3365311/flash-flood-nepal-washes-away-villages-power-projects-near-tibet-border",
-        "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/08/26/0619281d-2b0a-4e51-ad20-046599e1b945_330c35b4.jpg?itok=3dPmDJYW&v=1787730133",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-3c996f2d-04f3-5c8c-a13e-8e54452b7ce5",
-        "title": "Rassie Erasmus: 'Springbok defeat was largely due to my mistakes'",
-        "description": "Rassie Erasmus has accepted a large portion of responsibility for decisions and errors that cost the Springboks at Ellis Park.",
-        "publisher": "Thesouthafrican",
-        "publisherDomain": "thesouthafrican.com",
-        "publishedAt": "2026-08-26T07:40:03.000Z",
-        "url": "https://www.thesouthafrican.com/sport/rugby/springboks/rassie-erasmus-springbok-defeat-was-largely-due-my-mistakes",
-        "imageUrl": "https://www.thesouthafrican.com/wp-content/uploads/2026/08/Rassie-Erasmus-Springboks-1.jpg.webp",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-76ccdba3-4e50-5744-838e-03c7aba97c97",
-        "title": "How food companies can prepare for the next drought",
-        "description": "Drought has been seen across Europe, leading to significant yield losses. How can European food companies prepare for the next drought?",
-        "publisher": "Foodnavigator",
-        "publisherDomain": "foodnavigator.com",
-        "publishedAt": "2026-08-26T07:39:04.000Z",
-        "url": "https://www.foodnavigator.com/Article/2026/08/26/strategies-for-food-companies-to-prepare-for-drought",
-        "imageUrl": "https://www.foodnavigator.com/resizer/v2/T2OWHLKTNJASDC27TT5PP4CCPM.jpg?auth=bee829f9351538b6aa92742843a709f6dc87aa097c8477e12ac80163c2c89856&width=1200&height=630&smart=true",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-961cf5df-18ce-554b-ac05-fd65f80dbf47",
-        "title": "EREV Powertrains Heading to Hyundai and Genesis Lineup in 2027",
-        "description": "The company is also expanding its traditional hybrid offerings and launching new entries in the pickup truck and body-on-frame SUV segments.",
-        "publisher": "Caranddriver",
-        "publisherDomain": "caranddriver.com",
-        "publishedAt": "2026-08-26T07:33:08.000Z",
-        "url": "https://www.caranddriver.com/news/a73527970/hyundai-genesis-erev-powertrains-2027",
-        "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/95642aac-575c-4eea-95da-6e1fe8662047.jpg?crop=1xw:0.7499062617172854xh;center,top&resize=1200:*",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-bcdbc54c-867c-5a04-8aec-812bc6ad9c51",
-        "title": "Diamondbacks earn 40th comeback win to stay in playoff race",
-        "description": "Diamondbacks rookie Ryan Waldschmidt entered Tuesday's game as a pinch hitter with two outs in the ninth and smashed a two-run, game-winning homer to stun the Cubs 5-4. It was Arizona's major-league-leading 40th comeback win of the season.",
-        "publisher": "ESPN",
-        "publisherDomain": "espn.com",
-        "publishedAt": "2026-08-26T07:32:34.000Z",
-        "url": "https://www.espn.com/mlb/story/_/id/49729028/diamondbacks-stun-cubs-40th-comeback-win-stay-playoff-race",
-        "imageUrl": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0826%2Fr1707033_1296x729_16%2D9.jpg",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-09dcf35a-4f96-5458-b226-71ff56cbf2e3",
-        "title": "Jeanne Ostfeld Obituary (1935 - 2026) - Easton, PA - WFMZ-TV 69 News - Legacy",
-        "description": "Jeanne Ostfeld Obituary Jean A. “Jeanne O'Brien” Ostfeld, 91, passed away on Sunday, August 23, 2026 in the home of her daughter, Nancy with whom ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-26T07:48:10.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/wfmz/name/jeanne-ostfeld-obituary?id=62265905",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-22e0f5c2-cecb-55b4-9661-ddfdd4a8b9f1",
-        "title": "Jessie Lapsansky Obituary (2026) - Avoca, PA - Times Leader - Legacy",
-        "description": "Jessie M. Lapsansky, 66, of Avoca, died Aug. 23, 2026. Private funeral services will be held at the convenience of the family.",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-26T07:48:10.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/timesleader/name/jessie-lapsansky-obituary?id=62274375",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-4c6308cd-2aec-5d0b-a0aa-d98db72040d1",
-        "title": "Claudia Payne Obituary (2026) - Santa Fe, NM - Santa Fe New Mexican - Legacy",
-        "description": "Claudia Erickson Payne Claudia Erickson Payne, beloved mother, grandmother, sister, and cherished member of her family, was born on May 20, 1948, ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-26T07:48:10.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/santafenewmexican/name/claudia-payne-obituary?id=62262746",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-6cf832a9-79e1-591c-8809-ab81c0585974",
-        "title": "Dorothy Witty Obituary (1932 - 2026) - Terre Haute, IN - Daily Journal - Legacy",
-        "description": "Dorothy Elizabeth Witty, 94, passed away peacefully on August 23, 2026. She was born August 2, 1932 to Henry and Clara Handick.",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-26T07:48:10.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/dailyjournal/name/dorothy-witty-obituary?id=62270381",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-74ab9ba4-99a0-532d-b7b5-a4ecb50b0f7e",
-        "title": "Marion Needham Obituary (2026) - Scranton, PA - Times Leader - Legacy",
-        "description": "Marion (Frost) Needham, 101, of Scranton, died Aug. 23, 2026. Funeral services are scheduled to begin at 9:15 a.m. on Friday from Kevin K. Kearney ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-26T07:48:10.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/timesleader/name/marion-needham-obituary?id=62274371",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
         ]
       }
     ],
     "U.S.": [
       {
-        "id": "currents-9ad4e582-9d16-5a1c-918c-6c8f4afadbcc",
-        "title": "Watch Nano Nuclear Energy Bring Microreactors to UAE",
-        "description": "US microreactor company Nano Nuclear Energy is on the path to deploy its technology to the Middle East after signing the first and only nuclear microreactor partnership with the UAE. The agreement aims to help the country go off grid, power desert data centers and decarbonize oil and gas fields. Jay...",
+        "id": "currents-cb74f871-31fc-5d5e-baa2-960d2e7efe28",
+        "title": "Banco BPM Says Paschi's Offer 'Does Not Recognize a Premium'",
+        "description": "Banco BPM indicated skepticism toward the takeover bid it received from rival Banca Monte dei Paschi, saying the price offered was pretty much the same as its market valuation. Bloomberg's Tommaso Ebhardt reports from Milan. (Source: Bloomberg)",
         "publisher": "Bloomberg",
         "publisherDomain": "bloomberg.com",
-        "publishedAt": "2026-08-26T07:37:51.000Z",
-        "url": "https://www.bloomberg.com/news/videos/2026-08-26/nano-nuclear-energy-bring-microreactors-to-uae-video",
-        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ilzcwD.KVaJ8/v3/-1x-1.webp",
+        "publishedAt": "2026-08-26T08:42:48.000Z",
+        "url": "https://www.bloomberg.com/news/videos/2026-08-26/banco-bpm-says-paschi-bid-does-not-recognize-a-premium-video",
         "categories": [
           "Top",
           "U.S."
         ]
       },
       {
-        "id": "currents-86ebfe25-6627-53a9-9af9-2566616d8d77",
-        "title": "Chix On Netflix -- Guess the Actress Playing Tongue Tease",
-        "description": "This week's \"Chix On Netflix\" is clearly a star who ain't affraid of some shameless sexy pix!",
-        "publisher": "Tmz",
-        "publisherDomain": "tmz.com",
-        "publishedAt": "2026-08-26T07:45:12.000Z",
-        "url": "https://www.tmz.com/2026/08/26/rachel-zegler-topless-picture",
-        "imageUrl": "https://imagez.tmz.com/image/a6/16by9/2026/08/25/a6d444f7e651474bbfc7b72537b8ce3c_xl.jpg",
+        "id": "currents-1c42d709-4285-596b-8a82-09f3b10a0a18",
+        "title": "What the Cincinnati Open and tennis teach us about our health and our patience | Lifestyles",
+        "description": "“Don't swing at the volley. Stop swinging.” “Say 'yes' every time the ball meets a racquet — mine, yours or another player's.” These are ...",
+        "publisher": "Daytondailynews",
+        "publisherDomain": "daytondailynews.com",
+        "publishedAt": "2026-08-26T08:54:03.000Z",
+        "url": "https://www.daytondailynews.com/lifestyles/what-the-cincinnati-open-and-tennis-teach-us-about-our-health-and-our-patience/article_1337fced-f46a-53c9-bf58-faa6dc28cbdf.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-3512736b-369f-590f-8cc0-9d8aa78b625b",
+        "title": "Automating Chart Patterns in MQL5 (Part 1): The Multi-Timeframe Swing Structure Engine",
+        "description": "This article presents CSwingEngine, a reusable MQL5 class that detects H4 swing highs and lows, labels them HH, LH, HL, or LL, and classifies market structure as trend or range. Swings are always computed on H4, regardless of the attached chart, and each point draws correctly on lower timeframes via...",
+        "publisher": "Mql5",
+        "publisherDomain": "mql5.com",
+        "publishedAt": "2026-08-26T08:47:28.000Z",
+        "url": "https://www.mql5.com/en/articles/23538",
+        "imageUrl": "https://c.mql5.com/2/244/23538-automating-chart-patterns-in-mql5-part-1-the-multi-timeframe_1200x628.jpg",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-dd0c4a27-4758-54c7-a651-1d0eff30af60",
+        "title": "OpenAI Jalapeno Custom AI ASIC at Hot Chips 2026",
+        "description": "We got a deep-dive on OpenAI Jalapeño at Hot Chips 2026 as the company rapidly built its own competitive AI accelerator",
+        "publisher": "Servethehome",
+        "publisherDomain": "servethehome.com",
+        "publishedAt": "2026-08-26T08:45:41.000Z",
+        "url": "https://www.servethehome.com/openai-jalapeno-asic-at-hot-chips-2026",
+        "imageUrl": "https://www.servethehome.com/wp-content/uploads/2026/08/OpenAI-Jalapeno-chip-final.jpg",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-3e4d66ab-3313-5bd7-92b4-9231f82e62ae",
+        "title": "Larry Williams Market Secrets (Part 16): Detecting and Trading the Oops Gap Reversal Pattern",
+        "description": "Learn how to build an MQL5 Expert Advisor that detects and trades Larry Williams’ Oops Gap Reversal pattern using objective gap rules and later-bar confirmation. The EA tracks setup expiration, prepares stop-loss and take-profit levels, supports manual or risk-based position sizing, executes market ...",
+        "publisher": "Mql5",
+        "publisherDomain": "mql5.com",
+        "publishedAt": "2026-08-26T08:47:28.000Z",
+        "url": "https://www.mql5.com/en/articles/21741",
+        "imageUrl": "https://c.mql5.com/2/243/21741-larry-williams-market-secrets-part-16-detecting-and-trading_1200x628.jpg",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-499b0c6a-0c80-5557-8d24-02e38605442d",
+        "title": "Does This Entry Filter Really Add Edge? A Block-Permutation Test in MQL5",
+        "description": "An MQL5 analyzer reconstructs completed trades, records acceptance labels, and measures the accepted-minus-rejected mean net-profit difference. It benchmarks that statistic against individual permutations, equal-block permutations, and circular shifts while preserving the accepted count. Block-size ...",
+        "publisher": "Mql5",
+        "publisherDomain": "mql5.com",
+        "publishedAt": "2026-08-26T08:47:28.000Z",
+        "url": "https://www.mql5.com/en/articles/23665",
+        "imageUrl": "https://c.mql5.com/2/244/23665-does-this-entry-filter-really-add-edge-a-block-permutation_1200x628.jpg",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-21fcfd2e-0e79-5b13-b8de-5f2e19a604f9",
+        "title": "The Taliban Kicked the U.S. Out of Afghanistan. Now They Want It Back. - Dayton Daily News",
+        "description": "People inspect the area hit during Pakistani airstrikes on the night of June 28 in Paktia Province, Afghanistan, near the border with Pakistan, ...",
+        "publisher": "Daytondailynews",
+        "publisherDomain": "daytondailynews.com",
+        "publishedAt": "2026-08-26T08:54:03.000Z",
+        "url": "https://www.daytondailynews.com/nation-world/the-taliban-kicked-the-u-s-out-of-afghanistan-now-they-want-it-back/image_ef8336ae-4807-55ea-9647-b4c2453a7fce.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-41a16847-8e9f-5298-9da3-d505afd380dd",
+        "title": "Abortion Foes Backed Ballot Measures in 2 Red States. Voters Said No. - Dayton Daily News",
+        "description": "People fill out their ballots at a polling location in Kansas City, Mo., on Tuesday, Aug. 4, 2026. Though the word \"abortion\" did not appear on ...",
+        "publisher": "Daytondailynews",
+        "publisherDomain": "daytondailynews.com",
+        "publishedAt": "2026-08-26T08:54:03.000Z",
+        "url": "https://www.daytondailynews.com/nation-world/abortion-foes-backed-ballot-measures-in-2-red-states-voters-said-no/image_b76d812f-8885-5d57-9ae0-91482d4a397b.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-1a531f79-aa24-5931-b0c7-3bcd6eaa6b7d",
+        "title": "Christopher Nolan and the Anxiety of Making 'The Odyssey' - Springfield News-Sun",
+        "description": "Christopher Nolan in New York, June 19, 2026. Filming his new movie \"The Odyssey\" entirely in IMAX meant new engineering and actor ingenuity -- it ...",
+        "publisher": "Daytondailynews",
+        "publisherDomain": "daytondailynews.com",
+        "publishedAt": "2026-08-26T08:54:02.000Z",
+        "url": "https://www.daytondailynews.com/nation-world/christopher-nolan-and-the-anxiety-of-making-the-odyssey/image_37e0e9e1-89c3-51e5-9905-c557ad5d89f6.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-ceeb8dee-d0f6-5908-8400-f74dd0693f0d",
+        "title": "The World Cup Came to His Backyard. He's Not Thrilled. - Dayton Daily News",
+        "description": "A view of Los Angeles Stadium, also known as SoFi Stadium, during the Belgium vs. Iran World Cup match in Inglewood, Calif., on June 21, 2026.",
+        "publisher": "Daytondailynews",
+        "publisherDomain": "daytondailynews.com",
+        "publishedAt": "2026-08-26T08:54:02.000Z",
+        "url": "https://www.daytondailynews.com/nation-world/the-world-cup-came-to-his-backyard-hes-not-thrilled/image_4c3d9e6a-26ef-5b54-bf93-68f17b395055.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-0cb72371-88a3-539f-8785-550e7644b85f",
+        "title": "It’s the People, Stupid (Human Art in a Company World) - T.R Napper",
+        "description": "Why human art matters.",
+        "publisher": "Nappertime",
+        "publisherDomain": "nappertime.com",
+        "publishedAt": "2026-08-26T08:45:04.000Z",
+        "url": "https://nappertime.com/its-the-people-stupid-human-art-in-a-company-world",
+        "imageUrl": "https://nappertime.com/wp-content/uploads/2025/04/its-the-people-bradshaw.jpg",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-4132c3b5-37d9-52e0-9575-ca2880615517",
+        "title": "Open source in-browser log sanitizer, feedback required",
+        "publisher": "Ycombinator",
+        "publisherDomain": "news.ycombinator.com",
+        "publishedAt": "2026-08-26T08:41:58.000Z",
+        "url": "https://news.ycombinator.com/item?id=49445741",
         "categories": [
           "Top",
           "U.S.",
-          "Entertainment"
+          "Technology",
+          "Science"
         ]
       },
       {
-        "id": "currents-b792feea-3ee3-5270-abf7-b96c5a9b6fb5",
-        "title": "ARKB: The ETF Flow Cycle Matters More Than The Bitcoin Price Cycle (BATS:ARKB)",
-        "description": "ARKB's smaller asset base means incremental institutional inflows have an outsized impact on AUM growth and relevance. Read why ARKB ETF is a Buy.",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-08-26T07:42:51.000Z",
-        "url": "https://seekingalpha.com/article/4940232-arkb-the-etf-flow-cycle-matters-more-than-the-bitcoin-price-cycle",
-        "imageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2241710794/image_2241710794.jpg?io=getty-c-w1536",
+        "id": "currents-50b3bf06-639f-51cc-90fa-0e6260fac3aa",
+        "title": "Should we let AI govern us?",
+        "description": "What if AI were in charge of public policy and politics? Perhaps it would shift food subsidies, electrify transport, build cheap power, sign the plastics treaty, restore the aid, and feed everyone for a rounding error on the weapons budget. The experiment would not show how smart machines are. It wo...",
+        "publisher": "Github",
+        "publisherDomain": "inevolin.github.io",
+        "publishedAt": "2026-08-26T08:45:00.000Z",
+        "url": "https://inevolin.github.io/blog/2026/08/25/should-we-let-ai-govern-us",
         "categories": [
           "Top",
-          "U.S."
+          "U.S.",
+          "Technology",
+          "Science"
         ]
       },
       {
-        "id": "currents-8e2ac53d-d932-516e-bfdd-35a6ccfc40b2",
-        "title": "Flash flood in Nepal washes away villages, power projects near Tibet",
-        "description": "The overspill from the Bhotekoshi River has caused power cuts and damaged roads amid fears of heavy casualties.",
-        "publisher": "Scmp",
-        "publisherDomain": "scmp.com",
-        "publishedAt": "2026-08-26T07:42:25.000Z",
-        "url": "https://www.scmp.com/news/asia/south-asia/article/3365311/flash-flood-nepal-washes-away-villages-power-projects-near-tibet-border",
-        "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/08/26/0619281d-2b0a-4e51-ad20-046599e1b945_330c35b4.jpg?itok=3dPmDJYW&v=1787730133",
+        "id": "currents-6d50fd37-3acb-5221-8b2c-8ed13c45bc50",
+        "title": "Politics - Chicago - WTTW News",
+        "description": "Mayor Daley's defending his decision to give United Airlines $25 million in tax increment financing funds to help pay for its move to Willis Tower ...",
+        "publisher": "Wttw",
+        "publisherDomain": "news.wttw.com",
+        "publishedAt": "2026-08-26T08:39:20.000Z",
+        "url": "https://news.wttw.com/politics?mini=2012-12&page=840",
         "categories": [
           "Top",
           "U.S.",
@@ -293,14 +436,13 @@
         ]
       },
       {
-        "id": "currents-3c996f2d-04f3-5c8c-a13e-8e54452b7ce5",
-        "title": "Rassie Erasmus: 'Springbok defeat was largely due to my mistakes'",
-        "description": "Rassie Erasmus has accepted a large portion of responsibility for decisions and errors that cost the Springboks at Ellis Park.",
-        "publisher": "Thesouthafrican",
-        "publisherDomain": "thesouthafrican.com",
-        "publishedAt": "2026-08-26T07:40:03.000Z",
-        "url": "https://www.thesouthafrican.com/sport/rugby/springboks/rassie-erasmus-springbok-defeat-was-largely-due-my-mistakes",
-        "imageUrl": "https://www.thesouthafrican.com/wp-content/uploads/2026/08/Rassie-Erasmus-Springboks-1.jpg.webp",
+        "id": "currents-a6414069-308f-5503-9dea-bbb3561e0ac8",
+        "title": "Immigration - Chicago - WTTW News",
+        "description": "After earlier announcing that Colorado would help asylum-seeking migrants leave the state for their intended destinations, Gov.",
+        "publisher": "Wttw",
+        "publisherDomain": "news.wttw.com",
+        "publishedAt": "2026-08-26T08:39:20.000Z",
+        "url": "https://news.wttw.com/taxonomy/term/1466/jserrors?page=44",
         "categories": [
           "Top",
           "U.S.",
@@ -308,184 +450,184 @@
         ]
       },
       {
-        "id": "currents-76ccdba3-4e50-5744-838e-03c7aba97c97",
-        "title": "How food companies can prepare for the next drought",
-        "description": "Drought has been seen across Europe, leading to significant yield losses. How can European food companies prepare for the next drought?",
-        "publisher": "Foodnavigator",
-        "publisherDomain": "foodnavigator.com",
-        "publishedAt": "2026-08-26T07:39:04.000Z",
-        "url": "https://www.foodnavigator.com/Article/2026/08/26/strategies-for-food-companies-to-prepare-for-drought",
-        "imageUrl": "https://www.foodnavigator.com/resizer/v2/T2OWHLKTNJASDC27TT5PP4CCPM.jpg?auth=bee829f9351538b6aa92742843a709f6dc87aa097c8477e12ac80163c2c89856&width=1200&height=630&smart=true",
+        "id": "currents-93795a84-78bd-501e-87a7-967f777a2938",
+        "title": "Ubisoft forgot to make sure the Steam release of Heroes of Might & Magic 3 included the actual game",
+        "publisher": "Pcgamer",
+        "publisherDomain": "pcgamer.com",
+        "publishedAt": "2026-08-26T08:45:36.000Z",
+        "url": "https://www.pcgamer.com/games/strategy/ubisoft-forgot-to-make-sure-the-steam-release-of-heroes-of-might-and-magic-3-included-the-actual-game",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/2dY95yuiWjM2Gab3cHGLXN-1920-80.jpg",
         "categories": [
           "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-961cf5df-18ce-554b-ac05-fd65f80dbf47",
-        "title": "EREV Powertrains Heading to Hyundai and Genesis Lineup in 2027",
-        "description": "The company is also expanding its traditional hybrid offerings and launching new entries in the pickup truck and body-on-frame SUV segments.",
-        "publisher": "Caranddriver",
-        "publisherDomain": "caranddriver.com",
-        "publishedAt": "2026-08-26T07:33:08.000Z",
-        "url": "https://www.caranddriver.com/news/a73527970/hyundai-genesis-erev-powertrains-2027",
-        "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/95642aac-575c-4eea-95da-6e1fe8662047.jpg?crop=1xw:0.7499062617172854xh;center,top&resize=1200:*",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-bcdbc54c-867c-5a04-8aec-812bc6ad9c51",
-        "title": "Diamondbacks earn 40th comeback win to stay in playoff race",
-        "description": "Diamondbacks rookie Ryan Waldschmidt entered Tuesday's game as a pinch hitter with two outs in the ninth and smashed a two-run, game-winning homer to stun the Cubs 5-4. It was Arizona's major-league-leading 40th comeback win of the season.",
-        "publisher": "ESPN",
-        "publisherDomain": "espn.com",
-        "publishedAt": "2026-08-26T07:32:34.000Z",
-        "url": "https://www.espn.com/mlb/story/_/id/49729028/diamondbacks-stun-cubs-40th-comeback-win-stay-playoff-race",
-        "imageUrl": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0826%2Fr1707033_1296x729_16%2D9.jpg",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-09dcf35a-4f96-5458-b226-71ff56cbf2e3",
-        "title": "Jeanne Ostfeld Obituary (1935 - 2026) - Easton, PA - WFMZ-TV 69 News - Legacy",
-        "description": "Jeanne Ostfeld Obituary Jean A. “Jeanne O'Brien” Ostfeld, 91, passed away on Sunday, August 23, 2026 in the home of her daughter, Nancy with whom ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-26T07:48:10.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/wfmz/name/jeanne-ostfeld-obituary?id=62265905",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-22e0f5c2-cecb-55b4-9661-ddfdd4a8b9f1",
-        "title": "Jessie Lapsansky Obituary (2026) - Avoca, PA - Times Leader - Legacy",
-        "description": "Jessie M. Lapsansky, 66, of Avoca, died Aug. 23, 2026. Private funeral services will be held at the convenience of the family.",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-26T07:48:10.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/timesleader/name/jessie-lapsansky-obituary?id=62274375",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-4c6308cd-2aec-5d0b-a0aa-d98db72040d1",
-        "title": "Claudia Payne Obituary (2026) - Santa Fe, NM - Santa Fe New Mexican - Legacy",
-        "description": "Claudia Erickson Payne Claudia Erickson Payne, beloved mother, grandmother, sister, and cherished member of her family, was born on May 20, 1948, ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-26T07:48:10.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/santafenewmexican/name/claudia-payne-obituary?id=62262746",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-6cf832a9-79e1-591c-8809-ab81c0585974",
-        "title": "Dorothy Witty Obituary (1932 - 2026) - Terre Haute, IN - Daily Journal - Legacy",
-        "description": "Dorothy Elizabeth Witty, 94, passed away peacefully on August 23, 2026. She was born August 2, 1932 to Henry and Clara Handick.",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-26T07:48:10.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/dailyjournal/name/dorothy-witty-obituary?id=62270381",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-74ab9ba4-99a0-532d-b7b5-a4ecb50b0f7e",
-        "title": "Marion Needham Obituary (2026) - Scranton, PA - Times Leader - Legacy",
-        "description": "Marion (Frost) Needham, 101, of Scranton, died Aug. 23, 2026. Funeral services are scheduled to begin at 9:15 a.m. on Friday from Kevin K. Kearney ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-26T07:48:10.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/timesleader/name/marion-needham-obituary?id=62274371",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-76fdd56e-bc2c-5270-b7b7-7d0aafd82aad",
-        "title": "Dale Rodgers Obituary (1931 - 2026) - Greeneville, TN - Legacy",
-        "description": "With heavy hearts and faith in God's promises, we share that our beloved father, Dale Franklin Rodgers age 94, has gone home to be with our Lord ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-26T07:48:10.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/greenevillesun/name/dale-rodgers-obituary?id=62265402",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-8edb99ea-cc3d-5da6-9bd7-3a516d9906db",
-        "title": "Betty Priest Obituary (1933 - 2026) - Greenfield, OK - Daily Reporter - Legacy",
-        "description": "It is with heavy hearts that we share the passing of our beloved mother, grandmother, and great-grandmother, Betty Jean (Phillips Robbins) Priest.",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-26T07:48:10.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/greenfieldreporter/name/betty-priest-obituary?id=62267176",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-9f3b773d-34fd-5c8a-9422-108c48e27ce2",
-        "title": "The Rev. Bruce A. Ellingson Obituary (1936 - 2026) - Coopersburg, PA - WFMZ-TV 69 News",
-        "description": "Bruce Ellingson Obituary The Rev. Bruce A. Ellingson, 89, went to be with his Lord and Savior on Monday, August 17, 2026, \"with the assurance of ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-26T07:48:10.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/wfmz/name/bruce-ellingson-obituary?id=62265689",
-        "categories": [
-          "Top",
-          "World",
+          "Technology",
+          "Science",
           "U.S."
         ]
       }
     ],
     "World": [
       {
-        "id": "currents-d65863a4-b2ea-57a2-8bcf-0e90f1055706",
-        "title": "[COVER STORY] USFK job platform takes Korea-US alliance from security to jobs - The Korea Times",
-        "description": "As Korean companies expand their footprint across the United States, securing qualified local workers has emerged as one of their biggest challenge...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-08-26T07:47:03.000Z",
-        "url": "https://www.koreatimes.co.kr/southkorea/politics/20260826/cover-story-usfk-job-platform-takes-korea-us-alliance-from-security-to-jobs",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/26/f88337f0-82dc-4f7d-9083-cd664b3b12d6.png",
+        "id": "currents-79d9a057-7528-5464-9c17-20a58801526b",
+        "title": "Germany news: Sugar tax plan leaves sour taste",
+        "description": "Germany's plans for a sugar tax are facing growing opposition amid claims that it's more about raising revenue than health. DW has the latest.",
+        "publisher": "Dw",
+        "publisherDomain": "dw.com",
+        "publishedAt": "2026-08-26T08:45:00.000Z",
+        "url": "https://www.dw.com/en/germany-news-sugar-tax-plan-leaves-sour-taste/live-78504011",
+        "imageUrl": "https://static.dw.com/image/70591772_6.jpg",
         "categories": [
           "Top",
           "World"
         ]
       },
       {
-        "id": "currents-8e2ac53d-d932-516e-bfdd-35a6ccfc40b2",
-        "title": "Flash flood in Nepal washes away villages, power projects near Tibet",
-        "description": "The overspill from the Bhotekoshi River has caused power cuts and damaged roads amid fears of heavy casualties.",
-        "publisher": "Scmp",
-        "publisherDomain": "scmp.com",
-        "publishedAt": "2026-08-26T07:42:25.000Z",
-        "url": "https://www.scmp.com/news/asia/south-asia/article/3365311/flash-flood-nepal-washes-away-villages-power-projects-near-tibet-border",
-        "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/08/26/0619281d-2b0a-4e51-ad20-046599e1b945_330c35b4.jpg?itok=3dPmDJYW&v=1787730133",
+        "id": "currents-1c42d709-4285-596b-8a82-09f3b10a0a18",
+        "title": "What the Cincinnati Open and tennis teach us about our health and our patience | Lifestyles",
+        "description": "“Don't swing at the volley. Stop swinging.” “Say 'yes' every time the ball meets a racquet — mine, yours or another player's.” These are ...",
+        "publisher": "Daytondailynews",
+        "publisherDomain": "daytondailynews.com",
+        "publishedAt": "2026-08-26T08:54:03.000Z",
+        "url": "https://www.daytondailynews.com/lifestyles/what-the-cincinnati-open-and-tennis-teach-us-about-our-health-and-our-patience/article_1337fced-f46a-53c9-bf58-faa6dc28cbdf.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-02a755bd-ce33-5675-b48a-916c3790b0ea",
+        "title": "SF9 marks 10th year with new album 'TENACITY,' vows 6 more decades - The Korea Times",
+        "description": "K-pop boy band SF9 marks its 10th anniversary this year, but the eight-piece is measuring its career in a much longer unit: 60 more years, by the g...",
+        "publisher": "Co",
+        "publisherDomain": "koreatimes.co.kr",
+        "publishedAt": "2026-08-26T08:47:03.000Z",
+        "url": "https://www.koreatimes.co.kr/entertainment/k-pop/20260826/sf9-marks-10th-year-with-new-album-tenacity-vows-6-more-decades",
+        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/26/1bbcb7cd-e7aa-4717-933d-351444ffd60e.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-e68f1c71-eaf4-507c-a2ff-574432af13c6",
+        "title": "Eight prison guards face criminal inquiry over sick leave fraud",
+        "description": "Eight prison officers and two doctors are under criminal investigation following findings that sick leave certificates had been issued without corresponding records in Gesy. The case centres on suspected collusion between medical staff and prison personnel aimed at defrauding the state through falsi...",
+        "publisher": "Cyprus Mail",
+        "publisherDomain": "cyprus-mail.com",
+        "publishedAt": "2026-08-26T08:46:52.000Z",
+        "url": "https://cyprus-mail.com/2026/08/26/eight-prison-guards-face-criminal-inquiry-over-sick-leave-fraud",
+        "imageUrl": "https://cyprus-mail.com/wp-content/uploads/2025/05/doctor-8733826_1280.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-6a458668-0357-5932-a5fe-3afef1610845",
+        "title": "Interior minister apologizes over police mishandling of missing person case in Jeju - The Korea Times",
+        "description": "Interior Minister Yun Ho-jung apologized Wednesday over the alleged police mishandling of a missing person case on the southern resort island of Je...",
+        "publisher": "Co",
+        "publisherDomain": "koreatimes.co.kr",
+        "publishedAt": "2026-08-26T08:47:03.000Z",
+        "url": "https://www.koreatimes.co.kr/southkorea/politics/20260826/interior-minister-apologizes-over-police-mishandling-of-missing-person-case-in-jeju",
+        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/26/87177a18-0b29-4bc0-8083-965b8150d53b.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-77cfe4bf-0b37-5245-b473-12902ef5390d",
+        "title": "Korea, Vietnam vow stronger ties in cutting-edge sectors, building on FTA - The Korea Times",
+        "description": "Korea and Vietnam vowed to further bolster economic exchanges with the goal of increasing bilateral trade to $150 billion by 2030 and strengthening...",
+        "publisher": "Co",
+        "publisherDomain": "koreatimes.co.kr",
+        "publishedAt": "2026-08-26T08:47:03.000Z",
+        "url": "https://www.koreatimes.co.kr/foreignaffairs/20260826/korea-vietnam-vow-stronger-ties-in-cutting-edge-sectors-building-on-fta",
+        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/26/2958e0dd-7724-459f-a947-7115704bcc3a.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-d2f55fb7-6467-50d7-a7fe-af8c9b7dda0e",
+        "title": "Nepal flash flood kills 8, damages roads and power projects - The Korea Times",
+        "description": "KATHMANDU — Nepal sent helicopters to the rescue on Wednesday after a massive flash flood swept away villages in the Himalayan nation, killing eigh...",
+        "publisher": "Co",
+        "publisherDomain": "koreatimes.co.kr",
+        "publishedAt": "2026-08-26T08:47:03.000Z",
+        "url": "https://www.koreatimes.co.kr/world/20260826/nepal-flash-flood-kills-8-damages-roads-and-power-projects",
+        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/26/117d8861-fc7f-4a8d-b4ff-7bf928aaf4e0.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-21fcfd2e-0e79-5b13-b8de-5f2e19a604f9",
+        "title": "The Taliban Kicked the U.S. Out of Afghanistan. Now They Want It Back. - Dayton Daily News",
+        "description": "People inspect the area hit during Pakistani airstrikes on the night of June 28 in Paktia Province, Afghanistan, near the border with Pakistan, ...",
+        "publisher": "Daytondailynews",
+        "publisherDomain": "daytondailynews.com",
+        "publishedAt": "2026-08-26T08:54:03.000Z",
+        "url": "https://www.daytondailynews.com/nation-world/the-taliban-kicked-the-u-s-out-of-afghanistan-now-they-want-it-back/image_ef8336ae-4807-55ea-9647-b4c2453a7fce.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-41a16847-8e9f-5298-9da3-d505afd380dd",
+        "title": "Abortion Foes Backed Ballot Measures in 2 Red States. Voters Said No. - Dayton Daily News",
+        "description": "People fill out their ballots at a polling location in Kansas City, Mo., on Tuesday, Aug. 4, 2026. Though the word \"abortion\" did not appear on ...",
+        "publisher": "Daytondailynews",
+        "publisherDomain": "daytondailynews.com",
+        "publishedAt": "2026-08-26T08:54:03.000Z",
+        "url": "https://www.daytondailynews.com/nation-world/abortion-foes-backed-ballot-measures-in-2-red-states-voters-said-no/image_b76d812f-8885-5d57-9ae0-91482d4a397b.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-1a531f79-aa24-5931-b0c7-3bcd6eaa6b7d",
+        "title": "Christopher Nolan and the Anxiety of Making 'The Odyssey' - Springfield News-Sun",
+        "description": "Christopher Nolan in New York, June 19, 2026. Filming his new movie \"The Odyssey\" entirely in IMAX meant new engineering and actor ingenuity -- it ...",
+        "publisher": "Daytondailynews",
+        "publisherDomain": "daytondailynews.com",
+        "publishedAt": "2026-08-26T08:54:02.000Z",
+        "url": "https://www.daytondailynews.com/nation-world/christopher-nolan-and-the-anxiety-of-making-the-odyssey/image_37e0e9e1-89c3-51e5-9905-c557ad5d89f6.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-ceeb8dee-d0f6-5908-8400-f74dd0693f0d",
+        "title": "The World Cup Came to His Backyard. He's Not Thrilled. - Dayton Daily News",
+        "description": "A view of Los Angeles Stadium, also known as SoFi Stadium, during the Belgium vs. Iran World Cup match in Inglewood, Calif., on June 21, 2026.",
+        "publisher": "Daytondailynews",
+        "publisherDomain": "daytondailynews.com",
+        "publishedAt": "2026-08-26T08:54:02.000Z",
+        "url": "https://www.daytondailynews.com/nation-world/the-world-cup-came-to-his-backyard-hes-not-thrilled/image_4c3d9e6a-26ef-5b54-bf93-68f17b395055.html",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-6d50fd37-3acb-5221-8b2c-8ed13c45bc50",
+        "title": "Politics - Chicago - WTTW News",
+        "description": "Mayor Daley's defending his decision to give United Airlines $25 million in tax increment financing funds to help pay for its move to Willis Tower ...",
+        "publisher": "Wttw",
+        "publisherDomain": "news.wttw.com",
+        "publishedAt": "2026-08-26T08:39:20.000Z",
+        "url": "https://news.wttw.com/politics?mini=2012-12&page=840",
         "categories": [
           "Top",
           "U.S.",
@@ -493,421 +635,238 @@
         ]
       },
       {
-        "id": "currents-3c996f2d-04f3-5c8c-a13e-8e54452b7ce5",
-        "title": "Rassie Erasmus: 'Springbok defeat was largely due to my mistakes'",
-        "description": "Rassie Erasmus has accepted a large portion of responsibility for decisions and errors that cost the Springboks at Ellis Park.",
-        "publisher": "Thesouthafrican",
-        "publisherDomain": "thesouthafrican.com",
-        "publishedAt": "2026-08-26T07:40:03.000Z",
-        "url": "https://www.thesouthafrican.com/sport/rugby/springboks/rassie-erasmus-springbok-defeat-was-largely-due-my-mistakes",
-        "imageUrl": "https://www.thesouthafrican.com/wp-content/uploads/2026/08/Rassie-Erasmus-Springboks-1.jpg.webp",
+        "id": "currents-a6414069-308f-5503-9dea-bbb3561e0ac8",
+        "title": "Immigration - Chicago - WTTW News",
+        "description": "After earlier announcing that Colorado would help asylum-seeking migrants leave the state for their intended destinations, Gov.",
+        "publisher": "Wttw",
+        "publisherDomain": "news.wttw.com",
+        "publishedAt": "2026-08-26T08:39:20.000Z",
+        "url": "https://news.wttw.com/taxonomy/term/1466/jserrors?page=44",
         "categories": [
           "Top",
           "U.S.",
           "World"
-        ]
-      },
-      {
-        "id": "currents-09dcf35a-4f96-5458-b226-71ff56cbf2e3",
-        "title": "Jeanne Ostfeld Obituary (1935 - 2026) - Easton, PA - WFMZ-TV 69 News - Legacy",
-        "description": "Jeanne Ostfeld Obituary Jean A. “Jeanne O'Brien” Ostfeld, 91, passed away on Sunday, August 23, 2026 in the home of her daughter, Nancy with whom ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-26T07:48:10.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/wfmz/name/jeanne-ostfeld-obituary?id=62265905",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-fc04c138-82af-526e-8b2b-e0bcd4587c44",
-        "title": "Korea sees record number of students from immigrant backgrounds - The Korea Times",
-        "description": "The number of elementary, middle and high school students with an immigrant background has reached a record high, government data showed Wednesday....",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-08-26T07:47:03.000Z",
-        "url": "https://www.koreatimes.co.kr/southkorea/society/20260826/korea-sees-record-number-of-students-from-immigrant-backgrounds",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/26/d957b035-5ae6-4987-a872-3e1ae7d8f3fa.jpg",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-1afacc31-b010-56ca-8cf7-9caa15481eae",
-        "title": "YouTube under fire as overseas shopping scam ads surge - The Korea Times",
-        "description": "A cheap online purchase can become an expensive lesson, with Seoul officials warning that complaints tied to overseas shopping sites promoted throu...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-08-26T07:47:03.000Z",
-        "url": "https://www.koreatimes.co.kr/business/20260826/youtube-under-fire-as-overseas-shopping-scam-ads-surge",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/26/dd98190a-26ef-42a7-81e1-000e4bb36509.jpg",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-46e3c35c-fe96-58d9-92e9-5688f9f43750",
-        "title": "[PHOTO] Renault Filante chosen as French ambassador's diplomatic car - The Korea Times",
-        "description": "French Ambassador to Korea Philippe Bertoux, left, poses with Renault Korea CEO Nicolas Paris, Tuesday, after the French carmaker presented him wit...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-08-26T07:47:03.000Z",
-        "url": "https://www.koreatimes.co.kr/business/companies/20260826/photo-renault-filante-chosen-as-french-ambassadors-diplomatic-car",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/26/4c804355-aee2-4185-b6b6-e98fbc009ac9.jpg",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-80eb93cc-deb6-5807-9566-5bb93e092574",
-        "title": "Police say missing woman on Jeju likely died soon after disappearing - The Korea Times",
-        "description": "Police suspect the woman found dead in a high-profile missing person case on the southern resort island of Jeju likely died soon after she disappea...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-08-26T07:47:03.000Z",
-        "url": "https://www.koreatimes.co.kr/southkorea/law-crime/20260826/police-say-missing-woman-on-jeju-likely-died-soon-after-disappearing",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/26/2b6f50cf-5e31-4eb1-b08b-95e3fd0bf8c1.jpg",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-8a595b2e-8791-5d84-8e7f-7fba1901b9c0",
-        "title": "KOSPI inches up as corporate buying offsets foreign, retail sell-offs - The Korea Times",
-        "description": "The KOSPI edged higher Wednesday, buoyed by buying from corporate investors as Samsung Electronics and SK hynix stepped up share buyback plans, tho...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-08-26T07:47:03.000Z",
-        "url": "https://www.koreatimes.co.kr/economy/20260826/kospi-inches-up-as-corporate-buying-offsets-foreign-retail-sell-offs",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/26/b9a6c2ac-1b87-4001-bf21-9ba92c5ebfeb.jpg",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-ba04ffd6-ca3f-58fd-845a-41b3a06841fa",
-        "title": "Korean American activist warns Seoul against escalating Coupang row - The Korea Times",
-        "description": "A Korean American civic activist urged Seoul on Wednesday to avoid escalating its dispute with Coupang and quietly seek a resolution, warning that...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-08-26T07:47:03.000Z",
-        "url": "https://www.koreatimes.co.kr/foreignaffairs/20260826/korean-american-activist-warns-seoul-against-escalating-coupang-row",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/08/26/d05f82a5-2b42-465c-a3bf-44eb9f9048c5.jpg",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-22e0f5c2-cecb-55b4-9661-ddfdd4a8b9f1",
-        "title": "Jessie Lapsansky Obituary (2026) - Avoca, PA - Times Leader - Legacy",
-        "description": "Jessie M. Lapsansky, 66, of Avoca, died Aug. 23, 2026. Private funeral services will be held at the convenience of the family.",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-26T07:48:10.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/timesleader/name/jessie-lapsansky-obituary?id=62274375",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-4c6308cd-2aec-5d0b-a0aa-d98db72040d1",
-        "title": "Claudia Payne Obituary (2026) - Santa Fe, NM - Santa Fe New Mexican - Legacy",
-        "description": "Claudia Erickson Payne Claudia Erickson Payne, beloved mother, grandmother, sister, and cherished member of her family, was born on May 20, 1948, ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-26T07:48:10.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/santafenewmexican/name/claudia-payne-obituary?id=62262746",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-6cf832a9-79e1-591c-8809-ab81c0585974",
-        "title": "Dorothy Witty Obituary (1932 - 2026) - Terre Haute, IN - Daily Journal - Legacy",
-        "description": "Dorothy Elizabeth Witty, 94, passed away peacefully on August 23, 2026. She was born August 2, 1932 to Henry and Clara Handick.",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-26T07:48:10.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/dailyjournal/name/dorothy-witty-obituary?id=62270381",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-74ab9ba4-99a0-532d-b7b5-a4ecb50b0f7e",
-        "title": "Marion Needham Obituary (2026) - Scranton, PA - Times Leader - Legacy",
-        "description": "Marion (Frost) Needham, 101, of Scranton, died Aug. 23, 2026. Funeral services are scheduled to begin at 9:15 a.m. on Friday from Kevin K. Kearney ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-26T07:48:10.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/timesleader/name/marion-needham-obituary?id=62274371",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-76fdd56e-bc2c-5270-b7b7-7d0aafd82aad",
-        "title": "Dale Rodgers Obituary (1931 - 2026) - Greeneville, TN - Legacy",
-        "description": "With heavy hearts and faith in God's promises, we share that our beloved father, Dale Franklin Rodgers age 94, has gone home to be with our Lord ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-26T07:48:10.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/greenevillesun/name/dale-rodgers-obituary?id=62265402",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-8edb99ea-cc3d-5da6-9bd7-3a516d9906db",
-        "title": "Betty Priest Obituary (1933 - 2026) - Greenfield, OK - Daily Reporter - Legacy",
-        "description": "It is with heavy hearts that we share the passing of our beloved mother, grandmother, and great-grandmother, Betty Jean (Phillips Robbins) Priest.",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-08-26T07:48:10.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/greenfieldreporter/name/betty-priest-obituary?id=62267176",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
         ]
       }
     ],
     "Business": [
       {
-        "id": "currents-b6ce4b77-a2c2-5fe9-8577-af740ca8331a",
-        "title": "Pakistan no longer a neutral Iran mediator after joining Mecca Pact: Fmr Indian Ambassador",
-        "description": "Dinkar Srivastava, Former Indian Ambassador to Iran explains why he is skeptical of Pakistan's role as mediator in the U.S.-Iran conflict. He also discusses the future of India's Chabahar port project in Iran.",
-        "publisher": "CNBC",
-        "publisherDomain": "cnbc.com",
-        "publishedAt": "2026-08-26T07:04:19.000Z",
-        "url": "https://www.cnbc.com/video/2026/08/26/pakistan-not-a-neutral-iran-mediator-fmr-indian-ambassador.html",
-        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108354323-17877249961787724993-47990994556-1080pnbcnews.jpg?v=1787724995&w=1920&h=1080",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-c7df301a-aeeb-58a7-8e5a-30fd8c231616",
-        "title": "The continent nobody owns & everyone benefits from (Summer School) : Planet Money",
-        "description": "This episode is packed with your best economic ideas from around the world and a penguin interview. It all comes together in this final session of Summer School 2026.Pack your parka, we’re headed to Antarctica. The continent nobody owns, but everyone benefits from and plenty of economic activity if ...",
-        "publisher": "NPR",
-        "publisherDomain": "npr.org",
-        "publishedAt": "2026-08-26T07:30:00.000Z",
-        "url": "https://www.npr.org/2026/08/26/nx-s1-5943609/summer-school-antarctica",
-        "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3378x1900+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc2%2F36%2F8323600a4df58f6d6dbee6448cfb%2F2d862318-82d0-4111-b274-a2047f100d43.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-a497bba8-dfeb-5cea-8edc-4c5fbe7c2f43",
-        "title": "Nano One Advances Global LFP Cathode Strategy as Demand from Energy Storage, EV and Defence Applications Accelerates",
-        "description": "Highlights",
-        "publisher": "Financial Post",
-        "publisherDomain": "financialpost.com",
-        "publishedAt": "2026-08-26T07:09:22.000Z",
-        "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/nano-one-advances-global-lfp-cathode-strategy-as-demand-from-energy-storage-ev-and-defence-applications-accelerates",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-46a7a758-f7f6-5ba1-8d58-ff600839f23b",
-        "title": "Gatwick profits fall as Iran war sees passenger numbers drop",
-        "description": "The West Sussex airport said 19.1 million passengers travelled through the airport over the first half, down 4.7% compared with a year earlier.",
-        "publisher": "Independent",
-        "publisherDomain": "independent.co.uk",
-        "publishedAt": "2026-08-26T07:04:04.000Z",
-        "url": "https://www.independent.co.uk/news/business/london-gatwick-iran-west-sussex-travellers-middle-east-b3039354.html",
-        "imageUrl": "https://static.independent.co.uk/2026/08/26/08/7171f06463939a77c0606a82634a6ed9Y29udGVudHNlYXJjaGFwaSwxNzg3ODEzNDc3-2.85590966.jpg?width=1200&height=800&crop=1200:800",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-62c44319-6027-5098-9e0f-fcfa40388518",
-        "title": "Purdys Chocolatier Celebrates Maritime Grand Opening September 4",
-        "description": "Beloved Canadian chocolatier marks its arrival in the Maritimes over Labour Day weekend with exclusive giveaways, brand activation pop-ups, and a warm Maritime welc…",
-        "publisher": "Financial Post",
-        "publisherDomain": "financialpost.com",
-        "publishedAt": "2026-08-26T07:20:36.000Z",
-        "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/purdys-chocolatier-celebrates-maritime-grand-opening-september-4",
-        "imageUrl": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/08/bw20260826852447_maritimes_2026_interior_01.jpeg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-091c0a9d-688f-52f3-b5ee-8a4d3388d1e6",
-        "title": "China Eastern Airlines Forges Direct Link with KAYAK to Offer Seamless, AI-Powered Travel Services to Overseas Travelers",
-        "description": "SHANGHAI — China Eastern Airlines (CEAir) has completed a direct system connection with KAYAK, a leading U.S.-based travel metasearch platform, enabling more effic…",
-        "publisher": "Financial Post",
-        "publisherDomain": "financialpost.com",
-        "publishedAt": "2026-08-26T07:29:48.000Z",
-        "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/china-eastern-airlines-forges-direct-link-with-kayak-to-offer-seamless-ai-powered-travel-services-to-overseas-travelers",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-a29e8239-36a5-5cec-8ec0-0d22fd1a9c7d",
-        "title": "Israeli AI security co Alice raises $140m | The Jerusalem Post",
-        "description": "Alice provides AI safety solutions across the full lifecycle of AI systems. The financing round brings the total amount raised to $280 million",
-        "publisher": "Jpost",
-        "publisherDomain": "jpost.com",
-        "publishedAt": "2026-08-26T07:08:28.000Z",
-        "url": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-906615",
-        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/729677",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-ef9161c7-062e-529c-9c81-1ce428f3741b",
-        "title": "SK Gas pays record $5.3m to jump Panama Canal queue",
-        "description": "SK Gas has smashed the record for securing an expedited passage through the Panama Canal, paying $5.3m for a transit slot as drought restrictions and surging demand pile pressure on the waterway. Bloomberg reports the South Korean company made the winning bid at an auction this week to send the LPG ...",
-        "publisher": "Splash247",
-        "publisherDomain": "splash247.com",
-        "publishedAt": "2026-08-26T07:30:48.000Z",
-        "url": "https://splash247.com/sk-gas-pays-record-5-3m-to-jump-panama-canal-queue",
-        "imageUrl": "https://splash247.com/wp-content/uploads/2023/05/Panama-Canal-Authority.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-8a7c7e37-01c4-5dbb-b05a-7ddaf2da8b2c",
-        "title": "Neuren Pharmaceuticals Limited (NURPF) Q2 2026 Earnings Call Transcript",
-        "description": "Neuren Pharmaceuticals Limited (NURPF) Q2 2026 Earnings Call August 25, 2026 9:00 PM EDTCompany ParticipantsGerry Zhao - Chief Business OfficerJonathan...",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-08-26T07:19:16.000Z",
-        "url": "https://seekingalpha.com/article/4940247-neuren-pharmaceuticals-limited-nurpf-q2-2026-earnings-call-transcript",
-        "imageUrl": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-f1a88ccc-eb9e-594b-8299-98afbf480d90",
-        "title": "Tukaram Mundhe's Loose Oil Ban Rolled Back? Maharashtra CM Seeks SOP Instead",
-        "description": "Maharashtra's FDA plans to review its ban on loose edible oil sales after CM Fadnavis directs creation of an SOP to prevent adulteration while supporting traditional businesses.",
+        "id": "currents-85ca697b-e958-5b2d-a429-94108a3e4f1f",
+        "title": "Kiran Mazumdar-Shaw Reacts As Karnataka Congress MLA Seeks CSR Funds For Road Repair",
+        "description": "The row began after Shaw called out Anekal MLA B. Shivanna over the poor state of roads in his constituency, which houses one of Bengaluru's biggest industrial clusters.",
         "publisher": "Ndtvprofit",
         "publisherDomain": "ndtvprofit.com",
-        "publishedAt": "2026-08-26T07:16:13.000Z",
-        "url": "https://www.ndtvprofit.com/india/tukaram-mundhes-loose-oil-ban-rolled-back-maharashtra-cm-seeks-sop-instead-11960434",
-        "imageUrl": "https://c.ndtvimg.com/2026-08/0djja5oc_tukaram-mundhe-and-cm-fadnavis_625x300_18_August_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+        "publishedAt": "2026-08-26T08:23:06.000Z",
+        "url": "https://www.ndtvprofit.com/india/kiran-mazumdar-shaw-reacts-as-karnataka-congress-mla-seeks-csr-funds-for-road-repair-11960133",
+        "imageUrl": "https://c.ndtvimg.com/2026-08/ffk01qqc_ndtv_625x300_26_August_26.png?im=FitAndFill,algorithm=dnn,width=1600,height=900",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-f48c137c-3f39-5598-a44a-001ae2a84db8",
-        "title": "RUTH SUNDERLAND: Near-collapse of AI hedge fund is a reminder of 2007",
-        "description": "The debacle at hedge fund Situational Awareness seems an ominous reminder of the collapse of two Bear Stearns hedge funds in July 2007.",
-        "publisher": "Thisismoney",
-        "publisherDomain": "thisismoney.co.uk",
-        "publishedAt": "2026-08-26T07:15:23.000Z",
-        "url": "https://www.thisismoney.co.uk/money/markets/article-16080673/RUTH-SUNDERLAND-Near-collapse-AI-hedge-fund-scary-trip-memory-lane.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/08/26/08/110857537-0-image-m-15_1787728307875.jpg",
+        "id": "currents-000eff2c-28ba-5ae9-adec-c7464385de9b",
+        "title": "Inside mega plan to make Nairobi Africa's film hub",
+        "description": "Kenyan filmmakers James Hakesley and Roy Kimani are betting on virtual production technology to cut costs, expand creative possibilities and position Nairobi as Africa’s next film and content hub.",
+        "publisher": "Co",
+        "publisherDomain": "standardmedia.co.ke",
+        "publishedAt": "2026-08-26T08:18:41.000Z",
+        "url": "https://www.standardmedia.co.ke/business/article/2001556210/inside-mega-plan-to-make-nairobi-africa-s-film-hub",
+        "imageUrl": "https://cdn.standardmedia.co.ke/images/articles/thumbnails/thgPoWYvoxtQnEV2R7wgEaKGN5beLg8VqyWxnrG6.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-54cc9c82-231f-5278-afd9-93e5585bbfa1",
-        "title": "Bollywood-Backed Wedding Fashion Retailer Purple Style Labs To Sell Shares In IPO",
-        "description": "The multibrand luxury fashion retailer backed by Bollywood stars Shah Rukh Khan and Salman Khan plans to sell as much as 6.8 billion rupees",
-        "publisher": "Ndtvprofit",
-        "publisherDomain": "ndtvprofit.com",
-        "publishedAt": "2026-08-26T07:11:48.000Z",
-        "url": "https://www.ndtvprofit.com/markets/bollywood-backed-wedding-fashion-retailer-purple-style-labs-to-sell-shares-in-ipo-11960411",
-        "imageUrl": "https://c.ndtvimg.com/2026-08/7vgbhku4_cc_625x300_26_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-8486015f-6bd4-5cd0-b904-76b03aa365e8",
-        "title": "Toxic X Reviews: From 'Pure Madness' To 'Big Disappointment', Yash's Film Gets Mixed Reactions",
-        "description": "While many viewers have praised Yash's performance, action sequences, visuals and climax in 'Toxic', others have criticised the film's pacing, long runtime and screenplay.",
-        "publisher": "Ndtvprofit",
-        "publisherDomain": "ndtvprofit.com",
-        "publishedAt": "2026-08-26T07:11:38.000Z",
-        "url": "https://www.ndtvprofit.com/lifestyle/toxic-x-reviews-from-pure-madness-to-big-disappointment-yash-s-film-gets-mixed-reactions-11960080",
-        "imageUrl": "https://c.ndtvimg.com/2026-08/t6kq4qq_toxic_625x300_26_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-f7b01c3a-c20c-577f-a917-3293a49a1702",
-        "title": "HMC Capital Limited (HMCLF) Q4 2026 Earnings Call Transcript",
-        "description": "HMC Capital Limited (HMCLF) Q4 2026 Earnings Call August 25, 2026 8:01 PM EDTCompany ParticipantsDavid Di Pilla - MD, Group CEO & DirectorVictoria...",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-08-26T07:09:22.000Z",
-        "url": "https://seekingalpha.com/article/4940199-hmc-capital-limited-hmclf-q4-2026-earnings-call-transcript",
-        "imageUrl": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-4e1d45ea-4909-5d08-a9e3-3ab159e2867d",
-        "title": "Record Short Bets Hit China's AI Model Duo On Fierce Competition",
-        "description": "Short interest has climbed to account for 20% of the free float for MiniMax and 6% for Z.AI, or Zhipu, according to data from S&P Global.",
-        "publisher": "Ndtvprofit",
-        "publisherDomain": "ndtvprofit.com",
-        "publishedAt": "2026-08-26T07:08:01.000Z",
-        "url": "https://www.ndtvprofit.com/markets/record-short-bets-hit-chinas-ai-model-duo-on-fierce-competition-11960397",
-        "imageUrl": "https://c.ndtvimg.com/2026-08/s0h8r9d4_a_625x300_26_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-5b199aa3-cf0f-5242-b3e4-bd28367d3353",
-        "title": "boAt FY26 net profit rises 38% to ₹84.5 crore, wearables turn profitable",
-        "description": "The company, owned by Imagine Marketing Limited, had posted a PAT (profit after tax) of ₹61.1 crore in the preceding fiscal year",
+        "id": "currents-63f66ce3-7bf4-5a07-8b34-de3a7c31c55d",
+        "title": "Court refuses to stay eviction of Delhi Race Club, rejects interim plea",
+        "description": "The Patiala House Court dismissed the club's plea for interim relief",
         "publisher": "Business Standard",
         "publisherDomain": "business-standard.com",
-        "publishedAt": "2026-08-26T07:04:58.000Z",
-        "url": "https://www.business-standard.com/companies/quarterly-results/boat-fy26-net-profit-rises-38-to-84-5-crore-wearables-turn-profitable-126082600278_1.html",
-        "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-02/21/thumb/fitandfill/1200X628/1740130548-1717.png",
+        "publishedAt": "2026-08-26T08:16:23.000Z",
+        "url": "https://www.business-standard.com/india-news/court-refuses-to-stay-eviction-of-delhi-race-club-rejects-interim-plea-126082600442_1.html",
+        "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2023-04/05/thumb/featurecrop/1200X628/1680702282-6956.png",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-2e222e47-9d49-5f54-bd31-4462d4ebac31",
+        "title": "Hormuz shock sends Jebel Ali tumbling out of global top 30",
+        "description": "Dubai’s Jebel Ali has suffered one of the most dramatic collapses ever seen in the global container port rankings, tumbling from 10th to 32nd place in the space of half a year as the war with Iran throttles shipping through the Strait of Hormuz. New analysis from Alphaliner shows throughput at the M...",
+        "publisher": "Splash247",
+        "publisherDomain": "splash247.com",
+        "publishedAt": "2026-08-26T08:12:12.000Z",
+        "url": "https://splash247.com/hormuz-shock-sends-jebel-ali-tumbling-out-of-global-top-30",
+        "imageUrl": "https://splash247.com/wp-content/uploads/2017/05/Jebel-Ali-Port-e1631692677124.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-745ab83c-16b3-5c40-bd54-18453c31b2c5",
+        "title": "Earnings call transcript: BioArctic Q2 2026 revenue growth offsets softer profit By Investing.com",
+        "description": "Earnings call transcript: BioArctic Q2 2026 revenue growth offsets softer profit",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-08-26T08:20:02.000Z",
+        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-bioarctic-q2-2026-revenue-growth-offsets-softer-profit-93CH-4876460",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM431A2_1200_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-c0898973-26be-5c74-b1d7-90e5a3fe53c4",
+        "title": "Australian property developer Ingenia offers to buy Peet in $711 million deal By Reuters",
+        "description": "Australian property developer Ingenia offers to buy Peet in $711 million deal",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-08-26T08:19:29.000Z",
+        "url": "https://www.investing.com/news/stock-market-news/australian-property-developer-ingenia-offers-to-buy-peet-in-711-million-deal-4876459",
+        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXMPEM7P01J_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-ba5b5b87-210b-52a3-87c1-32da5d735ca2",
+        "title": "Macquarie sticks with PwC as auditor, drops plan to recommend KPMG Australia By Reuters",
+        "description": "Macquarie sticks with PwC as auditor, drops plan to recommend KPMG Australia",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-08-26T08:19:09.000Z",
+        "url": "https://www.investing.com/news/stock-market-news/macquarie-sticks-with-pwc-as-auditor-drops-plan-to-recommend-kpmg-australia-4876458",
+        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXMPEM7P0JM_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-9b0669fb-29ad-5adc-8b6e-9ec977458be7",
+        "title": "Deutsche Bank turns bullish on UK software as AI fears ease By Investing.com",
+        "description": "Deutsche Bank turns bullish on UK software as AI fears ease",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-08-26T08:18:43.000Z",
+        "url": "https://www.investing.com/news/stock-market-news/deutsche-bank-turns-bullish-on-uk-software-as-ai-fears-ease-4876457",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXNPEK2J0UH_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-c4df2b21-c0af-521b-bae1-6c6caba1648f",
+        "title": "Bill Gates, alarmed by AI, has policy ideas he wants to discuss with China’s Xi By Reuters",
+        "description": "Bill Gates, alarmed by AI, has policy ideas he wants to discuss with China’s Xi",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-08-26T08:18:43.000Z",
+        "url": "https://www.investing.com/news/stock-market-news/bill-gates-alarmed-by-ai-has-policy-ideas-he-wants-to-discuss-with-chinas-xi-jinping-4876392",
+        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXMPEM7P0H0_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-93040bfe-3e26-5dfc-a3b0-a814ffdb9ce0",
+        "title": "HDFC Bank FD Rate Hike: Senior Citizens Get Up To 7.10% Interest; Know Latest Rates",
+        "description": "HDFC Bank and Federal Bank revise their fixed deposit (FD) interest rates in August 2026, with both banks offering different rates to senior citizens and regular depositors.",
+        "publisher": "News18",
+        "publisherDomain": "news18.com",
+        "publishedAt": "2026-08-26T08:35:56.000Z",
+        "url": "https://www.news18.com/business/savings-and-investments/hdfc-bank-fd-rate-hike-senior-citizens-get-up-to-7-10-interest-know-latest-rates-10294275.html",
+        "imageUrl": "https://images.news18.com/ibnlive/uploads/2025/01/hdfc-bank-1600x900-2025-01-fdc3c3a044093fdaf469fa80142f0c2b-16x9.webp",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-c0e3a0b3-dabb-5586-a923-904dacdb555a",
+        "title": "CEO of Australia’s US$255 billion sovereign wealth fund quits",
+        "description": "[SYDNEY] Australia has embarked on a global search to fill one of its highest-profile investment roles after the longtime head of its A$356 billion (US$255 billion) sovereign wealth fund announced his... Read more at The Business Times.",
+        "publisher": "Com",
+        "publisherDomain": "businesstimes.com.sg",
+        "publishedAt": "2026-08-26T08:27:17.000Z",
+        "url": "https://www.businesstimes.com.sg/companies-markets/ceo-australias-us255-billion-sovereign-wealth-fund-quits",
+        "imageUrl": "https://cassette.sphdigital.com.sg/image/businesstimes/e0b917070f66fb77f7e2c3dee1452b3028d1647201b97763a0d3da0007a8fb14?w=1920&f=webp",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-2bab417a-9b12-5455-9746-f297920579f5",
+        "title": "Nokia 300 Charge Phone: Price, Features, Specifications, Colours And Other Details",
+        "description": "The Nokia 300 Charge comes with a 3,700mAh battery that can last for over 40 days on standby and also charge other devices. Here are its price, features, specifications and colour options.",
+        "publisher": "Ndtvprofit",
+        "publisherDomain": "ndtvprofit.com",
+        "publishedAt": "2026-08-26T08:27:13.000Z",
+        "url": "https://www.ndtvprofit.com/technology/nokia-300-charge-feature-phone-price-features-specifications-colours-and-other-details-11960127",
+        "imageUrl": "https://c.ndtvimg.com/2026-08/snst8f5o_nokia_625x300_26_August_26.png?im=FitAndFill,algorithm=dnn,width=1600,height=900",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-e5ec2956-deee-59be-9a2a-e30df546cdab",
+        "title": "Buy, Sell Or Hold: Groww, Sedemac Mechatronics, Jana Small Finance Bank, Kirloskar Oil, Hindustan Copper — Ask Profit",
+        "description": "Market experts shared their insights on fundamentals and technical levels for key stocks.",
+        "publisher": "Ndtvprofit",
+        "publisherDomain": "ndtvprofit.com",
+        "publishedAt": "2026-08-26T08:26:51.000Z",
+        "url": "https://www.ndtvprofit.com/markets/buy-sell-or-hold-groww-sedemac-mechatronics-jana-small-finance-bank-kirloskar-oil-hindustan-copper-ask-profit-11959828",
+        "imageUrl": "https://c.ndtvimg.com/2026-08/cjpl5cl4_buy-sell-hold-echion_625x300_26_August_26.png?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-9456859d-ffc4-5565-847f-7f2873352599",
+        "title": "One of the tactics of the financial industry is scaring people to make sure they buy their financial products",
+        "description": "I was listening to the HerMoney with Jean Chatzky podcast about finances, and the guest of episode 541 was a financial advisor working for LIMRA, an institution that provides research to support financial advisors/professionals. (They're paid by financial advisors/financial institutions and insuranc...",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-08-26T08:38:08.000Z",
+        "url": "https://www.reddit.com/r/personalfinance/comments/1vyr9vk/one_of_the_tactics_of_the_financial_industry_is",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-7a77d84d-cfad-5ad6-8d9c-b50311ce542c",
+        "title": "Li Auto Inc. Announces Unaudited Second Quarter 2026 Financial Results",
+        "description": "Quarterly total revenues reached RMB25.7 billion (US$3.8 billion)1Quarterly deliveries were 98,330 vehicles",
+        "publisher": "Globenewswire",
+        "publisherDomain": "globenewswire.com",
+        "publishedAt": "2026-08-26T08:30:00.000Z",
+        "url": "https://www.globenewswire.com/news-release/2026/08/26/3351119/0/en/li-auto-inc-announces-unaudited-second-quarter-2026-financial-results.html",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-8f3a7bf2-6915-5a8a-93d5-b496a69fb7e2",
+        "title": "No. 10/2026 - INTERIM REPORT, H1 2026",
+        "description": "Nasdaq Copenhagen Nikolaj Plads 6DK-1067 Copenhagen K Copenhagen, 26 August 2026ANNOUNCEMENT no. 10/2026...",
+        "publisher": "Globenewswire",
+        "publisherDomain": "globenewswire.com",
+        "publishedAt": "2026-08-26T08:15:00.000Z",
+        "url": "https://www.globenewswire.com/news-release/2026/08/26/3351117/0/en/no-10-2026-interim-report-h1-2026.html",
+        "imageUrl": "https://ml-eu.globenewswire.com/Resource/Download/599489e2-1d6b-4d68-b199-bb02e6c6828f",
         "categories": [
           "Top",
           "Business"
@@ -916,13 +875,90 @@
     ],
     "Technology": [
       {
-        "id": "currents-94779495-3b9c-5f39-91d4-e2e9faf4587f",
-        "title": "Millwright — experimenting with an end-to-end machine learning framework in Rust [P]",
-        "description": "I've been working on an open-source project called Millwright, an attempt to explore what an end-to-end machine learning workflow could look like in Rust. https://millwright-rs.dev/ This started while I was learning and building ML tooling in Rust. I kept finding capable individual libraries, but al...",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-08-26T07:34:45.000Z",
-        "url": "https://www.reddit.com/r/MachineLearning/comments/1vyq7m9/millwright_experimenting_with_an_endtoend_machine",
+        "id": "currents-dd0c4a27-4758-54c7-a651-1d0eff30af60",
+        "title": "OpenAI Jalapeno Custom AI ASIC at Hot Chips 2026",
+        "description": "We got a deep-dive on OpenAI Jalapeño at Hot Chips 2026 as the company rapidly built its own competitive AI accelerator",
+        "publisher": "Servethehome",
+        "publisherDomain": "servethehome.com",
+        "publishedAt": "2026-08-26T08:45:41.000Z",
+        "url": "https://www.servethehome.com/openai-jalapeno-asic-at-hot-chips-2026",
+        "imageUrl": "https://www.servethehome.com/wp-content/uploads/2026/08/OpenAI-Jalapeno-chip-final.jpg",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-0cb72371-88a3-539f-8785-550e7644b85f",
+        "title": "It’s the People, Stupid (Human Art in a Company World) - T.R Napper",
+        "description": "Why human art matters.",
+        "publisher": "Nappertime",
+        "publisherDomain": "nappertime.com",
+        "publishedAt": "2026-08-26T08:45:04.000Z",
+        "url": "https://nappertime.com/its-the-people-stupid-human-art-in-a-company-world",
+        "imageUrl": "https://nappertime.com/wp-content/uploads/2025/04/its-the-people-bradshaw.jpg",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-4132c3b5-37d9-52e0-9575-ca2880615517",
+        "title": "Open source in-browser log sanitizer, feedback required",
+        "publisher": "Ycombinator",
+        "publisherDomain": "news.ycombinator.com",
+        "publishedAt": "2026-08-26T08:41:58.000Z",
+        "url": "https://news.ycombinator.com/item?id=49445741",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-50b3bf06-639f-51cc-90fa-0e6260fac3aa",
+        "title": "Should we let AI govern us?",
+        "description": "What if AI were in charge of public policy and politics? Perhaps it would shift food subsidies, electrify transport, build cheap power, sign the plastics treaty, restore the aid, and feed everyone for a rounding error on the weapons budget. The experiment would not show how smart machines are. It wo...",
+        "publisher": "Github",
+        "publisherDomain": "inevolin.github.io",
+        "publishedAt": "2026-08-26T08:45:00.000Z",
+        "url": "https://inevolin.github.io/blog/2026/08/25/should-we-let-ai-govern-us",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-93795a84-78bd-501e-87a7-967f777a2938",
+        "title": "Ubisoft forgot to make sure the Steam release of Heroes of Might & Magic 3 included the actual game",
+        "publisher": "Pcgamer",
+        "publisherDomain": "pcgamer.com",
+        "publishedAt": "2026-08-26T08:45:36.000Z",
+        "url": "https://www.pcgamer.com/games/strategy/ubisoft-forgot-to-make-sure-the-steam-release-of-heroes-of-might-and-magic-3-included-the-actual-game",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/2dY95yuiWjM2Gab3cHGLXN-1920-80.jpg",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-ccd5d07c-85e6-5140-96bc-a64fa07f1763",
+        "title": "Every Surge Has Character: This collaboration between UNIQ and PANTONE® explores how one color can express different sides of who we are",
+        "description": "Switch up your look for different outfits and occasions with the reversible Revix IV PANTONE® Edition Apple Watch Band.",
+        "publisher": "Macworld",
+        "publisherDomain": "macworld.com",
+        "publishedAt": "2026-08-26T08:39:35.000Z",
+        "url": "https://www.macworld.com/article/3218744/every-surge-has-character-this-collaboration-between-uniq-and-pantone-explores-how-one-color-can-express-different-sides-of-who-we-are.html",
+        "imageUrl": "https://www.macworld.com/wp-content/uploads/2026/08/3218744-0-23440500-1787733670-Pantone_Revix_01-4.24.54-PM.jpg?quality=50&strip=all&w=1024",
         "categories": [
           "Top",
           "U.S.",
@@ -933,13 +969,90 @@
     ],
     "Science": [
       {
-        "id": "currents-94779495-3b9c-5f39-91d4-e2e9faf4587f",
-        "title": "Millwright — experimenting with an end-to-end machine learning framework in Rust [P]",
-        "description": "I've been working on an open-source project called Millwright, an attempt to explore what an end-to-end machine learning workflow could look like in Rust. https://millwright-rs.dev/ This started while I was learning and building ML tooling in Rust. I kept finding capable individual libraries, but al...",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-08-26T07:34:45.000Z",
-        "url": "https://www.reddit.com/r/MachineLearning/comments/1vyq7m9/millwright_experimenting_with_an_endtoend_machine",
+        "id": "currents-dd0c4a27-4758-54c7-a651-1d0eff30af60",
+        "title": "OpenAI Jalapeno Custom AI ASIC at Hot Chips 2026",
+        "description": "We got a deep-dive on OpenAI Jalapeño at Hot Chips 2026 as the company rapidly built its own competitive AI accelerator",
+        "publisher": "Servethehome",
+        "publisherDomain": "servethehome.com",
+        "publishedAt": "2026-08-26T08:45:41.000Z",
+        "url": "https://www.servethehome.com/openai-jalapeno-asic-at-hot-chips-2026",
+        "imageUrl": "https://www.servethehome.com/wp-content/uploads/2026/08/OpenAI-Jalapeno-chip-final.jpg",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-0cb72371-88a3-539f-8785-550e7644b85f",
+        "title": "It’s the People, Stupid (Human Art in a Company World) - T.R Napper",
+        "description": "Why human art matters.",
+        "publisher": "Nappertime",
+        "publisherDomain": "nappertime.com",
+        "publishedAt": "2026-08-26T08:45:04.000Z",
+        "url": "https://nappertime.com/its-the-people-stupid-human-art-in-a-company-world",
+        "imageUrl": "https://nappertime.com/wp-content/uploads/2025/04/its-the-people-bradshaw.jpg",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-4132c3b5-37d9-52e0-9575-ca2880615517",
+        "title": "Open source in-browser log sanitizer, feedback required",
+        "publisher": "Ycombinator",
+        "publisherDomain": "news.ycombinator.com",
+        "publishedAt": "2026-08-26T08:41:58.000Z",
+        "url": "https://news.ycombinator.com/item?id=49445741",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-50b3bf06-639f-51cc-90fa-0e6260fac3aa",
+        "title": "Should we let AI govern us?",
+        "description": "What if AI were in charge of public policy and politics? Perhaps it would shift food subsidies, electrify transport, build cheap power, sign the plastics treaty, restore the aid, and feed everyone for a rounding error on the weapons budget. The experiment would not show how smart machines are. It wo...",
+        "publisher": "Github",
+        "publisherDomain": "inevolin.github.io",
+        "publishedAt": "2026-08-26T08:45:00.000Z",
+        "url": "https://inevolin.github.io/blog/2026/08/25/should-we-let-ai-govern-us",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-93795a84-78bd-501e-87a7-967f777a2938",
+        "title": "Ubisoft forgot to make sure the Steam release of Heroes of Might & Magic 3 included the actual game",
+        "publisher": "Pcgamer",
+        "publisherDomain": "pcgamer.com",
+        "publishedAt": "2026-08-26T08:45:36.000Z",
+        "url": "https://www.pcgamer.com/games/strategy/ubisoft-forgot-to-make-sure-the-steam-release-of-heroes-of-might-and-magic-3-included-the-actual-game",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/2dY95yuiWjM2Gab3cHGLXN-1920-80.jpg",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-ccd5d07c-85e6-5140-96bc-a64fa07f1763",
+        "title": "Every Surge Has Character: This collaboration between UNIQ and PANTONE® explores how one color can express different sides of who we are",
+        "description": "Switch up your look for different outfits and occasions with the reversible Revix IV PANTONE® Edition Apple Watch Band.",
+        "publisher": "Macworld",
+        "publisherDomain": "macworld.com",
+        "publishedAt": "2026-08-26T08:39:35.000Z",
+        "url": "https://www.macworld.com/article/3218744/every-surge-has-character-this-collaboration-between-uniq-and-pantone-explores-how-one-color-can-express-different-sides-of-who-we-are.html",
+        "imageUrl": "https://www.macworld.com/wp-content/uploads/2026/08/3218744-0-23440500-1787733670-Pantone_Revix_01-4.24.54-PM.jpg?quality=50&strip=all&w=1024",
         "categories": [
           "Top",
           "U.S.",
@@ -950,209 +1063,209 @@
     ],
     "Sports": [
       {
-        "id": "currents-86a63595-bd5b-51e1-a035-112c9b2bbba6",
-        "title": "Raheem Sterling charged with dangerous driving after crash on M3 in Hampshire",
-        "description": "Raheem Sterling will appear in court next month to face charges of dangerous driving after crashing his car into motorway barriers in May.",
+        "id": "currents-5e4d24fb-7189-5eff-ba5a-95f2ea94f973",
+        "title": "UFC: Bella Mir suffers shock defeat on Dana White's Contender Series",
+        "description": "Bella Mir misses out on a UFC contract after suffering one of the biggest shocks in MMA history by losing to Alex Apodaca.",
         "publisher": "BBC News",
         "publisherDomain": "bbc.co.uk",
-        "publishedAt": "2026-08-26T07:42:51.000Z",
-        "url": "https://www.bbc.co.uk/sport/football/articles/c23xkk1vkkpo",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/225a/live/77b8e540-a0ca-11f1-ad58-4d48ded76db6.jpg",
+        "publishedAt": "2026-08-26T08:43:34.000Z",
+        "url": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/clyrvq7klw2o",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/f62a/live/974983d0-a127-11f1-8c37-3f30331ac537.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-90375bc0-5a94-5a91-b05b-e8e76a90017e",
-        "title": "With no friends left to burn, Trump is running out of diplomatic ammunition | Rafael Behr",
-        "description": "Everyone can see that the Iran war has been a strategic disaster for the US, while a failing president pretends he is winning, says Guardian columnist Rafael Behr",
+        "id": "currents-cc885082-9fb6-5e6e-b4b6-3ead14606765",
+        "title": "Now you seafood, now you don’t: $350k worth of oysters vanish without a trace in NSW",
+        "description": "About 400,000 juvenile Sydney rock oysters were taken from an oyster farm on state’s mid-north coast earlier this year, police say",
         "publisher": "The Guardian",
         "publisherDomain": "theguardian.com",
-        "publishedAt": "2026-08-26T07:00:37.000Z",
-        "url": "https://www.theguardian.com/commentisfree/2026/aug/26/donald-trump-friends-diplomatic-iran-war-us-president",
-        "imageUrl": "https://i.guim.co.uk/img/media/90463752a97809961ae8d6982f90bf188c18beed/0_0_6000_4800/master/6000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=85f8e0dab4e5faab6a70faee30614ee7",
+        "publishedAt": "2026-08-26T08:12:53.000Z",
+        "url": "https://www.theguardian.com/australia-news/2026/aug/26/now-you-seafood-now-you-dont-350k-worth-of-oysters-vanish-without-a-trace-in-nsw",
+        "imageUrl": "https://i.guim.co.uk/img/media/326bf239a13612001e59dc7212089a2d4ae2d188/389_0_4065_3252/master/4065.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=72d788ec87eba141f9ede0b009999be5",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-a4ad9145-3e0c-5c2b-974f-3911904125e9",
-        "title": "Serena Williams and Carlos Alcaraz exit US Open at quarter-finals",
-        "description": "The pair were among the headline attractions in a revamped US Open mixed doubles.",
-        "publisher": "Breakingnews",
-        "publisherDomain": "breakingnews.ie",
-        "publishedAt": "2026-08-26T07:36:57.000Z",
-        "url": "https://www.breakingnews.ie/sport/serena-williams-and-carlos-alcaraz-end-britons-hopes-before-quarter-final-loss-1944348.html",
-        "imageUrl": "https://img.resized.co/breaking-news/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL2ltYWdlcy5icmVha2luZ25ld3MuaWVcXFwvcHJvZFxcXC91cGxvYWRzXFxcLzIwMjZcXFwvMDhcXFwvMjYwODAxMTRcXFwvMDc1ZDdmMDRhNmI1NDA3NTgwYzFlNzc3MzkxZmNjNzkuanBnXCIsXCJ3aWR0aFwiOjEyMDAsXCJoZWlnaHRcIjo2MjcsXCJkZWZhdWx0XCI6XCJodHRwczpcXFwvXFxcL3d3dy5icmVha2luZ25ld3MuaWVcXFwvaVxcXC9ibi1ub2ltYWdlLnBuZ1wiLFwib3B0aW9uc1wiOltdfSIsImhhc2giOiI5NjgyMmJiZWE0M2MzNWRkYTAzNmEzZTFhYjE2OTc3ZDRkOWNiYTkwIn0=/serena-williams-and-carlos-alcaraz-exit-us-open-at-quarter-finals.jpg",
+        "id": "currents-f2e68b74-df3c-5e9e-b94c-70d019ff085b",
+        "title": "Scandal, stumbling stars and spin: Root's five biggest headaches",
+        "description": "England's first-Test victory over Pakistan was a welcome one after only two in the previous ten games. But after another drinking fiasco, they still have questions to answer.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-08-26T08:37:04.000Z",
+        "url": "https://www.dailymail.com/sport/cricket/article-16080759/England-Joe-Root-Pakistan-headaches.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/08/26/09/110858365-0-image-a-15_1787733049456.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-1df3e90c-5c54-5d02-8f93-a973a516102c",
-        "title": "Sri Lanka reaches 83-2 at lunch on Day 4 after India enforces follow on in 2nd cricket test",
-        "description": "COLOMBO, Sri Lanka (AP) — Sri Lanka reached lunch at 83-2 in its second innings Wednesday, still 130 behind in the second cricket test after India enforced the follow on.",
+        "id": "currents-f8c5ad47-0287-5491-a0cf-0b733c9b3ff8",
+        "title": "Alberta NDP urges Smith to cancel separation vote amid Canada-U.S. trade war",
+        "description": "CALGARY - Alberta",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-26T07:36:13.000Z",
-        "url": "https://www.winnipegfreepress.com/uncategorized/2026/08/26/sri-lanka-reaches-83-2-at-lunch-on-day-4-after-india-enforces-follow-on-in-2nd-cricket-test",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a8e9762c9a729daf1e533f9jpeg.jpg?w=1600",
+        "publishedAt": "2026-08-26T08:00:01.000Z",
+        "url": "https://www.winnipegfreepress.com/business/2026/08/26/alberta-ndp-urges-smith-to-cancel-separation-vote-amid-canada-u-s-trade-war",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a8dec6bfd3c67279707dab8jpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-6b44aa47-fb81-5ebc-9b95-24ab5aea5be5",
-        "title": "Irish League: What is the relationship between gambling and football in Northern Ireland?",
-        "description": "From changing culture to investment and criticism, BBC Sport NI examines the Irish League's ever-changing relationship with gambling.",
+        "id": "currents-b6bee9b9-0a22-59b2-83ab-792e46075717",
+        "title": "Omar Marmoush: Tottenham agree loan for Manchester City forward",
+        "description": "Tottenham agree a loan deal to sign Manchester City forward Omar Marmoush, with an obligation to make the deal permanent for £60m next summer.",
         "publisher": "BBC News",
         "publisherDomain": "bbc.co.uk",
-        "publishedAt": "2026-08-26T07:26:26.000Z",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cwy0dp85688o",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/84a7/live/a28e8420-a09b-11f1-b109-879e35c24276.jpg",
+        "publishedAt": "2026-08-26T08:18:41.000Z",
+        "url": "https://www.bbc.co.uk/sport/football/articles/cx2z5ewlrwko",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/d37f/live/a0422f70-a125-11f1-92eb-a9b3bbcf6f4a.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-a99894db-9583-5bf4-8cde-71b8706f3dca",
-        "title": "College Football Classic: Bill Belichick's 'wisdom' guiding UNC on Dublin trip to face TCU",
-        "description": "North Carolina punter Adam Gibbs-McCann says he has been \"blown away\" by Bill Belichick's coaching.",
-        "publisher": "BBC News",
-        "publisherDomain": "bbc.co.uk",
-        "publishedAt": "2026-08-26T07:09:11.000Z",
-        "url": "https://www.bbc.co.uk/sport/american-football/articles/cew9l0j1v5ro",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/3eec/live/f9934b10-a0c4-11f1-b8cc-1bd2cc322bf4.jpg",
+        "id": "currents-ce371d5a-85a7-5c2d-b7e4-5cc912014918",
+        "title": "Liverpool explore options with Brighton wanting £80m for Minteh",
+        "description": "The transfer window is now open until September 1 and it's sure to be a busy period as clubs look to make big signings ahead of the new season. Here are today's latest developments...",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-08-26T08:32:00.000Z",
+        "url": "https://www.dailymail.com/sport/football/article-16080717/Liverpool-explore-options-Brighton-wanting-80m-Yankuba-Minteh-Forest-open-talks-Celta-Vigo-defender-WINDOW-WATCH.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+        "imageUrl": "https://i.dailymail.com/1s/2026/08/26/09/110858357-0-image-m-25_1787733026473.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-0037869d-7b8a-5260-8255-12c39a506dcc",
-        "title": "At least 14 newborn babies die in fire at Pakistan hospital’s maternity ward",
-        "description": "Authorities at biggest state hospital in Islamabad say 15 babies were in the ward when fire broke out",
-        "publisher": "The Guardian",
-        "publisherDomain": "theguardian.com",
-        "publishedAt": "2026-08-26T07:05:43.000Z",
-        "url": "https://www.theguardian.com/world/2026/aug/26/newborn-babies-die-fire-pakistan-hospital-maternity-ward",
-        "imageUrl": "https://i.guim.co.uk/img/media/9adad222c9e0c03341f2f814da4724786c9a8d6c/324_0_3228_2582/master/3228.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=75ff6b35663ceb6a5866e77ba3e8680a",
+        "id": "currents-b9c95a60-b360-5a63-a40e-e362a21782f1",
+        "title": "Ronaldo hauled off mid-tantrum by no-nonsense Postecoglou at half-time",
+        "description": "Cristiano Ronaldo's relationship with new Al Nassr boss Ange Postecoglou already appears to be under scrutiny just three matches into the season.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-08-26T08:08:45.000Z",
+        "url": "https://www.dailymail.com/sport/football/article-16080643/cristiano-ronaldo-tantrum-al-nassr-comeback.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/08/26/08/110857585-0-image-m-20_1787728700856.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-5d96fb43-010e-5e3a-b34f-fd5cd06d4255",
-        "title": "The Last Sunrise review – Amazon’s soapy YA romance is thankless and bland",
-        "description": "Another familiar concoction fails to make use of its sunny location and chooses cheap melodrama over romantic charm",
-        "publisher": "The Guardian",
-        "publisherDomain": "theguardian.com",
-        "publishedAt": "2026-08-26T07:01:36.000Z",
-        "url": "https://www.theguardian.com/film/2026/aug/26/the-last-sunrise-movie-review-amazon",
-        "imageUrl": "https://i.guim.co.uk/img/media/cc02eb6f89f90bad22b5c80b2a87f8a0b58dba70/250_0_2500_2001/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctcmV2aWV3LTEucG5n&enable=upscale&s=61024b94e524f1a63b0c25025d31489f",
+        "id": "currents-f06ea139-cb86-53d0-809a-952c0bd849ec",
+        "title": "The epic La Tomatina food fight draws thousands to a small Spanish town",
+        "description": "BUÑOL, Spain (AP) — Thousands of revelers descended on Buñol on Wednesday for the annual La Tomatina food fight, where they were set to paint the small Spanish town red with up to 165 tons of overripe tomatoes.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-08-26T08:37:56.000Z",
+        "url": "https://www.winnipegfreepress.com/world/2026/08/26/the-epic-la-tomatina-food-fight-draws-thousands-to-a-small-spanish-town",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a8ea5d0c9a729daf1e53df6jpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-9a02723c-4bca-5fd6-828a-b1090619a1e1",
-        "title": "Dolly Parton’s flamboyant, fun style: ‘I’m not a fashion icon; I’m an eyesore’",
-        "description": "With her gaudy rhinestones and ever mushrooming hair, the country star pioneered a new vision of femininity",
-        "publisher": "The Guardian",
-        "publisherDomain": "theguardian.com",
-        "publishedAt": "2026-08-26T07:00:37.000Z",
-        "url": "https://www.theguardian.com/music/2026/aug/26/dolly-parton-style-fashion",
-        "imageUrl": "https://i.guim.co.uk/img/media/cc101ea6aab4fc74d190ceb00efc30059f5b1c49/543_0_2974_2379/master/2974.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=92771c3e38248c735fc22febcff60c8f",
+        "id": "currents-bcc2d233-5e03-53af-8cd1-0722db5d4cfd",
+        "title": "GdS: A new 'Alpha' in town - why Amorim plans to keep faith in Cisse after dazzling debut",
+        "description": "Alphadjo Cisse stole the headlines with his first goal in his first competitive AC Milan game on Sunday, and his fairytale could continue.",
+        "publisher": "Sempremilan",
+        "publisherDomain": "sempremilan.com",
+        "publishedAt": "2026-08-26T08:30:00.000Z",
+        "url": "https://sempremilan.com/why-amorim-keep-faith-cisse-debut",
+        "imageUrl": "https://icdn.sempremilan.com/wp-content/uploads/2026/08/Preview-XLARGE-1649245.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-3d6570e4-7f66-581e-801f-92db7a1a34a9",
-        "title": "Brydon Carse incident points to a darker truth about life as a professional cricketer | The Secret Cricket Coach",
-        "description": "Cricket is a brutal game – you are basically being judged all the time. It’s no wonder players seek out ways of coping",
-        "publisher": "The Guardian",
-        "publisherDomain": "theguardian.com",
-        "publishedAt": "2026-08-26T07:00:37.000Z",
-        "url": "https://www.theguardian.com/sport/2026/aug/26/brydon-carse-cricket-england-test-alcohol-mental-health",
-        "imageUrl": "https://i.guim.co.uk/img/media/7a3d4668790d02d8e7515ad3522e87fb4d95c64b/187_92_3787_3030/master/3787.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=cfc7bb7d6f20748ecff589dda93e7ab4",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-62fb76ae-b7e4-5703-a0b7-04d975822f97",
-        "title": "Dolly Parton's cause of death after 'brief battle with cancer'",
-        "description": "Dolly Parton has died aged 80 after a \"brief battle with cancer\", her representatives have confirmed in a statement",
+        "id": "currents-5c05174d-6fd3-59d0-8433-5a1ddc1481f2",
+        "title": "Irish couple found dead in Spanish resort as police investigate",
+        "description": "The couple's two young children alerted authorities after a discovery at their rented villa in Cullera, Spain, with the Civil Guard homicide unit now leading the probe into the deaths",
         "publisher": "Belfastlive",
         "publisherDomain": "belfastlive.co.uk",
-        "publishedAt": "2026-08-26T07:15:36.000Z",
-        "url": "https://www.belfastlive.co.uk/news/uk-world-news/dolly-partons-cause-death-confirmed-34517854",
-        "imageUrl": "https://i2-prod.belfastlive.co.uk/article34517852.ece/ALTERNATES/s1200d/1_Obit-Dolly-Parton-21082443990412.jpg",
+        "publishedAt": "2026-08-26T08:22:11.000Z",
+        "url": "https://www.belfastlive.co.uk/news/uk-world-news/irish-couple-found-dead-hot-34518252",
+        "imageUrl": "https://i2-prod.belfastlive.co.uk/article34518250.ece/ALTERNATES/s1200d/0_JS415786620.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-07318794-924e-5511-af8e-8df9f46dc238",
-        "title": "Manchester United star Bruno Fernandes crowned PFA Player of the Year",
-        "description": "Manchester City Golden Boot winner Khadija Shaw scooped the women’s award for the second time.",
-        "publisher": "The42",
-        "publisherDomain": "the42.ie",
-        "publishedAt": "2026-08-26T07:08:37.000Z",
-        "url": "https://www.the42.ie/bruno-fernandes-pfa-player-of-the-year-7142229-Aug2026",
-        "imageUrl": "https://img2.thejournal.ie/article/7142229/river/?height=400&version=7142234",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-6552e61c-bd28-5057-b247-997137b1326c",
-        "title": "Celtic crash out of Champions League as LASK stun them with comeback",
-        "description": "Celtic threw away a four-goal lead in Austria as they missed out on the Champions League for the second year running",
-        "publisher": "Breakingnews",
-        "publisherDomain": "breakingnews.ie",
-        "publishedAt": "2026-08-26T07:08:12.000Z",
-        "url": "https://www.breakingnews.ie/sport/celtic-crash-out-of-champions-league-as-lask-stun-them-with-comeback-1944336.html",
-        "imageUrl": "https://img.resized.co/breaking-news/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL2ltYWdlcy5icmVha2luZ25ld3MuaWVcXFwvcHJvZFxcXC91cGxvYWRzXFxcLzIwMjZcXFwvMDhcXFwvMjYwNzQ2MDRcXFwvR2V0dHlJbWFnZXMtMjI5MjA0MjQ5NC1lMTc4NzcyNjgyOTM4Ni5qcGdcIixcIndpZHRoXCI6MTIwMCxcImhlaWdodFwiOjYyNyxcImRlZmF1bHRcIjpcImh0dHBzOlxcXC9cXFwvd3d3LmJyZWFraW5nbmV3cy5pZVxcXC9pXFxcL2JuLW5vaW1hZ2UucG5nXCIsXCJvcHRpb25zXCI6W119IiwiaGFzaCI6ImQxZmIyMDNhMjc2YWNlNDAyYTczYThmYmU0M2Q2MWI1MmViNGE5NjYifQ==/celtic-crash-out-of-champions-league-as-lask-stun-them-with-comeback.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-ffb54600-555b-559f-9052-d752dc0addb8",
-        "title": "Hull progress in Carabao Cup after shootout win at Stoke",
-        "description": "Kieran Dowell has cancelled out Robert Bozenik’s opener for the home side.",
-        "publisher": "Breakingnews",
-        "publisherDomain": "breakingnews.ie",
-        "publishedAt": "2026-08-26T07:08:11.000Z",
-        "url": "https://www.breakingnews.ie/sport/hull-progress-in-carabao-cup-after-shootout-win-at-stoke-1944344.html",
-        "imageUrl": "https://img.resized.co/breaking-news/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL2ltYWdlcy5icmVha2luZ25ld3MuaWVcXFwvcHJvZFxcXC91cGxvYWRzXFxcLzIwMjZcXFwvMDhcXFwvMjYwNzU3NTdcXFwvMi44NTY1OTM2MS5qcGdcIixcIndpZHRoXCI6MTIwMCxcImhlaWdodFwiOjYyNyxcImRlZmF1bHRcIjpcImh0dHBzOlxcXC9cXFwvd3d3LmJyZWFraW5nbmV3cy5pZVxcXC9pXFxcL2JuLW5vaW1hZ2UucG5nXCIsXCJvcHRpb25zXCI6W119IiwiaGFzaCI6ImVmNjFjYTFlMWViMDA3ODBkNDdiNmE4OTJkZTQ4NGE2NTQyNmM2NjgifQ==/hull-progress-in-carabao-cup-after-shootout-win-at-stoke.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-648e9cf4-0a1d-53f5-8663-c437513ce787",
-        "title": "Arts & Life team taste-tests new Kraft concoction",
-        "description": "Prepare your tongue for the ultimate thrill, as Kraft Dinner has once again veered wildly out of its box and into new territory.",
+        "id": "currents-f6303959-92bb-5af7-b67a-bce988d0fa2c",
+        "title": "In the news today: Tariff relief packages, Alberta referendum latest, Arctic sea ice.",
+        "description": "Here is a roundup of stories from The Canadian Press designed to bring you up to speed...",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-08-26T07:00:50.000Z",
-        "url": "https://www.winnipegfreepress.com/arts-and-life/entertainment/arts/2026/08/26/ramen-round-up",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/4493684_web1_IMG_6579.jpeg?w=1600",
+        "publishedAt": "2026-08-26T08:15:02.000Z",
+        "url": "https://www.winnipegfreepress.com/canada/2026/08/26/in-the-news-today-tariff-relief-packages-alberta-referendum-latest-arctic-sea-ice",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/468675de99f3d0017989b2e1167cbf9f07c88a3913010e203c1d74d9ae393020.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-633dc5a4-a8f8-5527-9bfd-b8c7ecab212f",
-        "title": "Hibs on the cusp of smashing Scottish football's Euro glass ceiling in huge chance",
-        "description": "Hibs have a huge game this Thursday - in an opportunity they will know the importance of taking.",
+        "id": "currents-93a22e05-c626-5ae5-9919-b82770315076",
+        "title": "Troy Parrott plays role in winner against Valencia on Real Betis debut",
+        "description": "Troy Parrott sparked the counterattack that led to Real Betis snatching a late winning goal in a 1-0 victory over Valencia on Tuesday night",
+        "publisher": "Breakingnews",
+        "publisherDomain": "breakingnews.ie",
+        "publishedAt": "2026-08-26T08:05:42.000Z",
+        "url": "https://www.breakingnews.ie/sport/troy-parrott-plays-role-in-winner-against-valencia-on-real-betis-debut-1944356.html",
+        "imageUrl": "https://img.resized.co/breaking-news/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL2ltYWdlcy5icmVha2luZ25ld3MuaWVcXFwvcHJvZFxcXC91cGxvYWRzXFxcLzIwMjZcXFwvMDhcXFwvMjYwODMyMDNcXFwvR2V0dHlJbWFnZXMtMjI5MjAzNzI5MC5qcGdcIixcIndpZHRoXCI6MTIwMCxcImhlaWdodFwiOjYyNyxcImRlZmF1bHRcIjpcImh0dHBzOlxcXC9cXFwvd3d3LmJyZWFraW5nbmV3cy5pZVxcXC9pXFxcL2JuLW5vaW1hZ2UucG5nXCIsXCJvcHRpb25zXCI6W119IiwiaGFzaCI6IjY1ZWVkOTJmOWM0NWIzZjc3ODUzMmJmMjU3ZmM5MjcyOWE4MTRkOWYifQ==/troy-parrott-plays-role-in-winner-against-valencia-on-real-betis-debut.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-1dacee40-866f-5390-874f-793b38e03510",
+        "title": "Reports: Galatasaray ready to relaunch for Leao - second bid worth €50m ready",
+        "description": "The Rafael Leao saga continues to rumble on, with the latest reports suggesting a new attempt from Galatasaray is coming.",
+        "publisher": "Sempremilan",
+        "publisherDomain": "sempremilan.com",
+        "publishedAt": "2026-08-26T08:00:00.000Z",
+        "url": "https://sempremilan.com/galatasaray-relaunch-leao-second-bid-50m",
+        "imageUrl": "https://icdn.sempremilan.com/wp-content/uploads/2026/08/chelsea-fc-v-ac-milan-pre-season-friendly-1.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-f399ac40-04f5-5254-9a0f-f7d1f4a9326f",
+        "title": "Sam Dean: Bruno Fernandes’ PFA prize shows Arsenal do not need superstars",
+        "description": "The announcement of Bruno Fernandes as the PFA Players’ Player of the Year is confirmation of what Arsenal supporters already knew: that their Premier League title success was achieved because of collective strength rather than individual brilliance.",
+        "publisher": "Independent",
+        "publisherDomain": "independent.ie",
+        "publishedAt": "2026-08-26T07:59:00.000Z",
+        "url": "https://www.independent.ie/sport/soccer/premier-league/sam-dean-bruno-fernandes-pfa-prize-shows-arsenal-do-not-need-superstars/a/160518710.html",
+        "imageUrl": "https://prod-img.independent.ie/public/incoming/odjfoh-a4a3c6c2-791e-.jpg/alternates/SIXTEEN_NINE_1200/a4a3c6c2-791e-.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-d4c1d29d-f165-5c3f-83e1-663151f701cb",
+        "title": "'Dolly wouldn't want us to be sad': Watch as Fringe goers pay tribute to late star",
+        "description": "Dolly Parton’s death at the age of 80 was announced on Tuesday, August 25",
         "publisher": "Scotsman",
         "publisherDomain": "edinburghnews.scotsman.com",
-        "publishedAt": "2026-08-26T07:00:42.000Z",
-        "url": "https://www.edinburghnews.scotsman.com/sport/football/hibs/hibs-on-cusp-smashing-scottish-football-european-glass-ceiling-8940133",
-        "imageUrl": "https://www.edinburghnews.scotsman.com/jpim-static/image/2026/08/25/9/28/21744313.jpg?trim=0,53,0,52&crop=&width=1200&auto=webp&quality=75",
+        "publishedAt": "2026-08-26T07:58:38.000Z",
+        "url": "https://www.edinburghnews.scotsman.com/whats-on/edinburgh-festivals/dolly-parton-story-edinburgh-fringe-tribute-death-aged-80-8942157",
+        "imageUrl": "https://www.edinburghnews.scotsman.com/jpim-static/image/2026/08/26/7/24/The-Story-of-Dolly-Parton-at-the-Edinburgh-Fringe-1.jpeg?trim=0,0,0,0&crop=&width=1200&auto=webp&quality=75",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-5073d8b9-e6de-53d7-ac25-22d6b17c88d5",
+        "title": "Relaunched Afghanistan Premier League to start on December 27",
+        "description": "Three teams - Axcel United Kabul, Balkh Zwanan and Kandahar Warriors - have been announced for inaugural edition of the tournament, which will likely be played in the UAE",
+        "publisher": "Cricinfo",
+        "publisherDomain": "cricinfo.com",
+        "publishedAt": "2026-08-26T07:58:08.000Z",
+        "url": "https://www.cricinfo.com/story/relaunched-afghanistan-premier-league-to-start-on-december-27-1551476",
+        "imageUrl": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/421700/421705.6.png",
         "categories": [
           "Sports"
         ]
@@ -1160,210 +1273,208 @@
     ],
     "Entertainment": [
       {
-        "id": "currents-86ebfe25-6627-53a9-9af9-2566616d8d77",
-        "title": "Chix On Netflix -- Guess the Actress Playing Tongue Tease",
-        "description": "This week's \"Chix On Netflix\" is clearly a star who ain't affraid of some shameless sexy pix!",
-        "publisher": "Tmz",
-        "publisherDomain": "tmz.com",
-        "publishedAt": "2026-08-26T07:45:12.000Z",
-        "url": "https://www.tmz.com/2026/08/26/rachel-zegler-topless-picture",
-        "imageUrl": "https://imagez.tmz.com/image/a6/16by9/2026/08/25/a6d444f7e651474bbfc7b72537b8ce3c_xl.jpg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-c92a2bfa-1fe1-5f86-9b36-e0b9cc523c68",
-        "title": "Gasps heard at 9 To 5 musical as audience informed about Dolly Parton’s death",
-        "description": "The audience members attending a performance of 9 To 5: The Musical gasped as they were informed of Dolly Parton’s death on Tuesday evening.",
-        "publisher": "Mirror",
-        "publisherDomain": "mirror.co.uk",
-        "publishedAt": "2026-08-26T07:32:45.000Z",
-        "url": "https://www.mirror.co.uk/3am/celebrity-news/dolly-parton-death-musical-tribute-37593514",
-        "imageUrl": "https://i2-prod.mirror.co.uk/article37593360.ece/ALTERNATES/s1200d/1_Dolly-Parton.jpg",
+        "id": "currents-bc5bcfc6-9a17-5887-b87f-ea6461a09bc9",
+        "title": "‘I just give from my heart’: how Dolly Parton’s philanthropy focused most on helping children",
+        "description": "Parton put her millions behind causes she believed in – from Covid vaccines to the Imagination Library, which sends children around the world a free book every month",
+        "publisher": "The Guardian",
+        "publisherDomain": "theguardian.com",
+        "publishedAt": "2026-08-26T08:00:38.000Z",
+        "url": "https://www.theguardian.com/music/2026/aug/26/dolly-parton-philanthropy-charity-children-imagination-library",
+        "imageUrl": "https://i.guim.co.uk/img/media/8713c6fc797bffa4f9fe998e9d862c93e547d136/108_0_1250_1000/master/1250.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0e33f07b45d01e36a299a94f54afe23d",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-598c49b4-5b4e-5211-bc0d-21255fd0779b",
-        "title": "Toxic Cast Salary: Kiara Advani Or Nayanthara, Who Is The Highest Paid Actress In Yash's Film?",
-        "description": "Meanwhile, Yash is reportedly taking a fee of Rs 50 crore. He is also a co-writer and co-producer for Toxic.",
+        "id": "currents-233b74f0-dcfc-5b29-8902-09b04a847363",
+        "title": "Dolly Parton's unreleased song that will mark her 100th birthday",
+        "description": "Dolly Parton has left fans one final gift with an unreleased song which is set to be released on her 100th birthday in 20 years time.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-08-26T08:29:11.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16080751/Dolly-Partons-final-gift-unreleased-song-locked-box-released-100th-birthday.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/08/26/09/110857895-0-image-m-23_1787732265524.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-f1c75821-cd4c-5720-903a-3178f90127f6",
+        "title": "Dolly Parton's Only Sci-Fi Acting Credit Was A Surprisingly Complicated TV Role",
+        "description": "Dolly Parton was no stranger to playing herself in TV shows, but one cameo appearance in a science fiction series proved to be extremely tricky.",
+        "publisher": "Tvline",
+        "publisherDomain": "tvline.com",
+        "publishedAt": "2026-08-26T08:33:32.000Z",
+        "url": "https://www.tvline.com/2244391/dolly-parton-only-sci-fi-acting-credit-the-orville-tv-role",
+        "imageUrl": "https://www.tvline.com/img/gallery/dolly-partons-only-sci-fi-acting-credit-was-a-surprisingly-complicated-tv-role/l-intro-1787731965.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-eeb0ea24-3ae0-5d35-8884-a03819905736",
+        "title": "Dolly Parton: The Queen of Country’s life in pictures",
+        "description": "Dolly Parton, one of the greatest singer-songwriters in country music, has died aged 80",
+        "publisher": "Irishtimes",
+        "publisherDomain": "irishtimes.com",
+        "publishedAt": "2026-08-26T08:33:28.000Z",
+        "url": "https://www.irishtimes.com/culture/music/2026/08/26/dolly-parton-the-queen-of-countrys-life-in-pictures",
+        "imageUrl": "https://www.irishtimes.com/resizer/v2/IO7ZIB34HRHCPKJS4VEG65G3IU.jpg?smart=true&auth=5a6fa21f5d148d3d9176172a4dc356da5e86268c8684ee1fa3c4208ec9cb67b8&width=1200&height=630",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-d81b83a6-8fc2-5c44-8f3a-eb7842d1073d",
+        "title": "PHOTOS: Katrina Kaif, Vicky Kaushal, Javed Akhtar, Rohit Shetty Attend Kuku Kohli's Funeral",
+        "description": "Filmmaker Kuku Kohli, best known for giving Ajay Devgn his first break in Bollywood with Phool Aur Kaante, passed away at Kokilaben Hospital in Mumbai on August 25.",
         "publisher": "News18",
         "publisherDomain": "news18.com",
-        "publishedAt": "2026-08-26T07:29:55.000Z",
-        "url": "https://www.news18.com/photogallery/movies/regional-cinema/toxic-cast-salary-kiara-advani-or-nayanthara-who-is-the-highest-paid-actress-in-yashs-film-ws-l-10294034.html",
-        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/08/toxic-2026-08-5700ddb0ff856c4b4f03b339dfe91565-1200x675.jpg",
+        "publishedAt": "2026-08-26T08:30:12.000Z",
+        "url": "https://www.news18.com/photogallery/movies/bollywood/photos-katrina-kaif-vicky-kaushal-javed-akhtar-rohit-shetty-attend-kuku-kohlis-funeral-ws-l-10294296.html",
+        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/08/Katrina-Kaif-at-Kuku-Kohli-Funeral-2026-08-0a1f170b58903718530885ee05ca47b1-1200x675.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-8e5fa43d-14a8-5706-b8c7-f56fef63863f",
-        "title": "Dolly Parton’s ‘all-American heart’: How country icon forged special bond with US military",
-        "description": "The country music legend performed for troops, recorded patriotic albums, had her likeness painted on aircraft.",
-        "publisher": "Pagesix",
-        "publisherDomain": "pagesix.com",
-        "publishedAt": "2026-08-26T07:22:46.000Z",
-        "url": "https://pagesix.com/2026/08/26/entertainment/dolly-parton-remembered-by-military-and-veteran-community-for-decades-of-supporting-troops",
-        "imageUrl": "https://pagesix.com/wp-content/uploads/sites/3/2026/08/newspress-collage-laj72m2p5-1787726403245.jpg?quality=75&strip=all&1787712045&w=1200",
+        "id": "currents-e436cff9-8fd2-52cc-a8ed-9aa27672a40f",
+        "title": "Ananya Panday, Walker Blanco Break Up After Nearly 2 Years Of Dating? Know Here",
+        "description": "As per reports, Ananya Panday and Walker Blanco's breakup happened last week and was mutual.",
+        "publisher": "News18",
+        "publisherDomain": "news18.com",
+        "publishedAt": "2026-08-26T08:25:48.000Z",
+        "url": "https://www.news18.com/movies/bollywood/ananya-panday-walker-blanco-break-up-after-nearly-2-years-of-dating-know-here-ws-l-10294172.html",
+        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/08/ananya-walker-1-2026-08-b9ff40c73f3adb8655e74359d4de0d00-1200x675.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-07e0eae4-ee76-5f17-b91b-5a31e997a148",
-        "title": "Claressa Shields Wants Beyoncé To Walk Her To The Ring Before Boxing Retirement",
-        "description": "Claressa Shields has accomplished just about everything in the boxing ring ... but there's still one more MUST on her bucket list -- Beyoncé!",
-        "publisher": "Tmz",
-        "publisherDomain": "tmz.com",
-        "publishedAt": "2026-08-26T07:30:36.000Z",
-        "url": "https://www.tmz.com/2026/08/26/claressa-shields-wants-beyonce-walk-her-to-boxing-ring",
-        "imageUrl": "https://imagez.tmz.com/image/97/16by9/2026/08/25/973bbddeff1046ba857fded720640de0_xl.png",
+        "id": "currents-6ba6941d-8011-5087-8484-674a48ced79c",
+        "title": "Praise for Dolly Parton’s work bringing love of books to children worldwide",
+        "description": "Parton’s Imagination Library has gifted more than 270m books to young children since it was founded in 1995",
+        "publisher": "Irishtimes",
+        "publisherDomain": "irishtimes.com",
+        "publishedAt": "2026-08-26T08:23:45.000Z",
+        "url": "https://www.irishtimes.com/culture/books/2026/08/26/praise-for-dolly-partons-work-bringing-love-of-books-to-children-worldwide",
+        "imageUrl": "https://www.irishtimes.com/resizer/v2/Q6US6YFNKFB7HHANHYOT54EZIA.jpg?smart=true&auth=3dacc67e60939c1d26efb9f338d8227946a5893ded2966a0164b9a56ca0276d7&width=1200&height=630",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-84033baf-242d-5d2c-8a34-497170819b03",
-        "title": "Star-studded cast bring A Christmas Carol to life for one night only in West End",
-        "description": "This December, a star-studded cast will come together for one night only to bring Charles Dickens’ A Christmas Carol to life in support of the national homelessness charity Crisis.",
-        "publisher": "Mirror",
-        "publisherDomain": "mirror.co.uk",
-        "publishedAt": "2026-08-26T07:24:58.000Z",
-        "url": "https://www.mirror.co.uk/3am/celebrity-news/matthew-macfadyen-leads-star-studded-37591627",
-        "imageUrl": "https://i2-prod.mirror.co.uk/article35417982.ece/ALTERNATES/s1200d/1_Holland.jpg",
+        "id": "currents-0d2e5370-1fa2-548f-ae40-c373b9940136",
+        "title": "Sandeep Reddy Vanga confirms A certificate for ‘Spirit’, REACTS to clash with Priyanka Chopra’s ‘Varanasi’",
+        "description": "Sandeep Reddy Vanga spoke about his upcoming film ‘Spirit’, starring Prabhas, at the trailer launch of ‘Romanchakam’. He shared details about the film's certification and release date, and discussed its clash with SS Rajamouli and Mahesh Babu's ‘Varanasi’.",
+        "publisher": "Indiatimes",
+        "publisherDomain": "timesofindia.indiatimes.com",
+        "publishedAt": "2026-08-26T08:12:39.000Z",
+        "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/sandeep-reddy-vanga-confirms-a-certificate-for-spirit-reacts-to-clash-with-priyanka-chopras-varanasi/articleshow/133534656.cms",
+        "imageUrl": "https://static.toiimg.com/thumb/msid-133534671,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-37da39a5-e152-524f-a71c-781aa2cd31aa",
-        "title": "Ranvir Singh's life from toyboy lover to loss that 'ripped her world apart'",
-        "description": "From Good Morning Britain to Strictly Come Dancing, Ranvir Singh is a regular on TV screens",
-        "publisher": "Mirror",
-        "publisherDomain": "mirror.co.uk",
-        "publishedAt": "2026-08-26T07:22:51.000Z",
-        "url": "https://www.mirror.co.uk/3am/celebrity-news/gmbs-ranvir-singhs-life-toyboy-37593376",
-        "imageUrl": "https://i2-prod.mirror.co.uk/article37186022.ece/ALTERNATES/s1200d/2_Screenshot-63.png",
+        "id": "currents-924519cf-e6fd-5273-9e33-f6f7663dc9f9",
+        "title": "Kuku Kohli Funeral: Aruna Irani Looks Devastated; Katrina Kaif Arrives With Vicky Kaushal To Pay Last Respects",
+        "description": "Filmmaker Kuku Kohli’s funeral was held at Oshiwara crematorium in Mumbai. His wife Aruna Irani, Vicky Kaushal, Katrina Kaif, Javed Akhtar and others arrived for the final rites.",
+        "publisher": "News18",
+        "publisherDomain": "news18.com",
+        "publishedAt": "2026-08-26T08:10:03.000Z",
+        "url": "https://www.news18.com/movies/bollywood/kuku-kohli-funeral-aruna-irani-looks-devastated-katrina-kaif-arrives-with-vicky-kaushal-to-pay-last-respects-ws-kl-10294224.html",
+        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/08/Aruna-Irani-Vicky-Kaushal-Katrina-kaif-2026-08-c96b6f0c6e2352e11dbd3e4c5661b241-1200x675.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-a077053f-3757-5dc9-a698-9c4d07b0b22e",
-        "title": "This Morning star slams claim he 'deceived' to wife after coming out as gay",
-        "description": "Former This Morning and Strictly Come Dancing star Dr Ranj Singh opened up about his sexuality and the backlash he received following the breakdown of his marriage",
-        "publisher": "Mirror",
-        "publisherDomain": "mirror.co.uk",
-        "publishedAt": "2026-08-26T07:22:51.000Z",
-        "url": "https://www.mirror.co.uk/incoming/morning-star-slams-claim-deceived-37593494",
-        "imageUrl": "https://i2-prod.mirror.co.uk/article36723308.ece/ALTERNATES/s1200d/3_BBC-Morning-Live-Dr-Ranj.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-7b9245aa-a488-594c-a160-5795dbad37f7",
-        "title": "Watch Jack White's Emotional Cover 'Jolene' in Honor of Dolly Parton",
-        "description": "Jack White performed an emotional cover of \"Jolene\" live in London to honor Dolly Parton.",
-        "publisher": "Rollingstone",
-        "publisherDomain": "rollingstone.com",
-        "publishedAt": "2026-08-26T07:12:39.000Z",
-        "url": "https://www.rollingstone.com/music/music-news/jack-white-dolly-parton-jolene-cover-live-tribute-1235615698",
-        "imageUrl": "https://www.rollingstone.com/wp-content/uploads/2026/08/GettyImages-2156439172-1.jpg?w=1600&h=900&crop=1",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-4febd688-313e-5c8e-b9ff-a0761530dbbf",
-        "title": "Watch Jack White pay tribute to Dolly Parton with rousing rendition of 'Jolene' live in London",
-        "description": "Jack White paid tribute to Dolly Parton at his show in London last night by performing a rousing rendition of 'Jolene'. Watch here.",
-        "publisher": "Nme",
-        "publisherDomain": "nme.com",
-        "publishedAt": "2026-08-26T07:08:46.000Z",
-        "url": "https://www.nme.com/news/music/watch-jack-white-pay-tribute-to-dolly-parton-with-rousing-rendition-of-jolene-live-in-london-3964728",
-        "imageUrl": "https://www.nme.com/wp-content/uploads/2026/08/DollyPartonJackWhite-cover-news-story.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-2920bfbb-40a2-5677-b5a3-95500b942526",
-        "title": "Fil-Am singer H.E.R. felt ‘at home’ with her Filipino roots in ‘Forgotten Island’",
-        "description": "H.E.R speaks on the stage during the Q&A session with audience at DreamWorks Animations' FORGOTTEN ISLAND Tayo Na Tour on Aug. 25, 2026, in Manila, Philippines. (Photo by Ezra",
-        "publisher": "Inquirer",
-        "publisherDomain": "entertainment.inquirer.net",
-        "publishedAt": "2026-08-26T07:05:20.000Z",
-        "url": "https://entertainment.inquirer.net/681673/fil-am-singer-h-e-r-felt-at-home-with-her-filipino-roots-in-forgotten-island",
-        "imageUrl": "https://entertainment.inquirer.net/files/2026/08/EA1_2847_TF6YqKls_20260825010427-scaled.jpeg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-73955de0-8556-5426-95ac-e15f42463d5a",
-        "title": "Sandra Lemonon welcomes baby No. 2 via home water birth",
-        "description": "Sandra Lemonon, her husband Sol Mercado and their two children. Image: Instagram/@sandralemonon Former beauty queen Sandra Lemonon and her husband, former Philippine Basketball Association (PBA)",
-        "publisher": "Inquirer",
-        "publisherDomain": "entertainment.inquirer.net",
-        "publishedAt": "2026-08-26T07:05:20.000Z",
-        "url": "https://entertainment.inquirer.net/681660/sandra-lemonon-welcomes-baby-no-2-via-home-water-birth",
-        "imageUrl": "https://entertainment.inquirer.net/files/2026/08/sandra-lemonon-water-birth-26aug2026.jpeg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-26eddac6-0474-5a92-850d-543f543a6144",
-        "title": "Liza Soberano says ‘Forgotten Island’ could put Filipino creatives on global map",
-        "description": "Liza Soberano speaks on the stage during the Q&A session with audience at DreamWorks Animations' FORGOTTEN ISLAND Tayo Na Tour on Aug. 25, 2026, in Manila, Philippines. (Photo by Ezra",
-        "publisher": "Inquirer",
-        "publisherDomain": "entertainment.inquirer.net",
-        "publishedAt": "2026-08-26T07:05:19.000Z",
-        "url": "https://entertainment.inquirer.net/681692/liza-soberano-says-forgotten-island-could-put-filipino-creatives-on-global-map",
-        "imageUrl": "https://entertainment.inquirer.net/files/2026/08/EA1_2643_Em4ssVxs_20260825010427-scaled.jpeg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-30edc536-75d7-52be-9e00-9fac3d656bce",
-        "title": "39 Parenting Products From Amazon Our Readers Are Loving In 2026",
-        "description": "Because \"We're All In This Together\" was actually written for parents just trying to survive and thrive.",
+        "id": "currents-8302775c-4291-5a5d-a921-40c95d7c3e6f",
+        "title": "26 Flight Attendant-Approved Travel Products You'll Wish You'd Known About Sooner",
+        "description": "Flight attendants, thank you for your service (and for these tried-and-true recs). 🫡",
         "publisher": "Buzzfeed",
         "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-08-26T07:01:02.000Z",
-        "url": "https://www.buzzfeed.com/ashleyschumacher/amazon-parenting-products-our-readers-are-loving-in-2026-an",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-06/23/03/thumb/cEWMzxJSN.jpg",
+        "publishedAt": "2026-08-26T08:01:02.000Z",
+        "url": "https://www.buzzfeed.com/diviniatarin/travel-products-approved-by-flight-attendants-august-2026-an",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/14/14/thumb/HFzw0vaK2.jpg?crop=3000:1571;0,318%26downsize=1250:*",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-6b8f4dba-c830-5d34-ba7b-6a4016dcf090",
-        "title": "Google DeepMind, Amazon Web Services, Kling AI Join Busan Market Tech Program InnoAsia",
-        "description": "Busan market unveils its InnoAsia lineup, pairing global tech firms with seven Korean startups and a branded-film contest with Hanwha and Innocean.",
-        "publisher": "Variety",
-        "publisherDomain": "variety.com",
-        "publishedAt": "2026-08-26T07:00:20.000Z",
-        "url": "https://variety.com/2026/film/news/google-deepmind-amazon-web-services-busan-market-innoasia-1236843573",
-        "imageUrl": "https://variety.com/wp-content/uploads/2026/08/Busan-ACFM-poster.jpg?w=1000&h=563&crop=1",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-fb49ab60-7d4e-55bc-86e1-53c796ec6bd3",
-        "title": "Simple Products That Make Your Home Feel More Elevated",
-        "description": "TMZ may collect a share of sales or other compensation from links on this page. You don't need a mansion in the Hollywood Hills or an A-list budget to have celebrity style right at home. Finding the right decor can instantly give your space the…",
+        "id": "currents-44f18381-f03b-5c96-93fc-b487afe457dc",
+        "title": "Adrien Broner Faces Charge Over Trespass Arrest After Florida Casino's Lifetime Ban",
+        "description": "Former boxer Adrien Broner is facing a criminal trespass charge after cops say she showed up at a Florida casino despite being banned for life ... TMZ has learned.",
         "publisher": "Tmz",
         "publisherDomain": "tmz.com",
-        "publishedAt": "2026-08-26T07:05:01.000Z",
-        "url": "https://www.tmz.com/2026/08/26/home-goods-that-instantly-make-your-space-more-glamorous",
+        "publishedAt": "2026-08-26T08:00:37.000Z",
+        "url": "https://www.tmz.com/2026/08/26/adrien-broner-arrest-warrant-issued-over-2024-casino-trespass",
+        "imageUrl": "https://imagez.tmz.com/image/c5/16by9/2026/08/24/c58a9a91dee8400b9cea190921b73326_xl.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-72a48c9f-8442-54e9-a431-d8d506659aa5",
+        "title": "Uorfi Javed Defends Kriti Sanon After GIVA Pulls Down Rakhi Ad Amid Backlash: 'She Looks Perfectly Decent'",
+        "description": "Uorfi Javed, who is known for experimenting with her looks and fashion game, has come out in support of Kriti Sanon amid the ongoing backlash over her Raksha Bandhan ad.",
+        "publisher": "News18",
+        "publisherDomain": "news18.com",
+        "publishedAt": "2026-08-26T07:57:41.000Z",
+        "url": "https://www.news18.com/movies/television/uorfi-javed-defends-kriti-sanon-after-giva-pulls-down-rakhi-ad-amid-backlash-she-looks-perfectly-decent-10294223.html",
+        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/08/Uorfi-Javed-1-2026-08-920913ae8bae3c9245f3cdc823b7f2f6-1200x675.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-38a5e264-8149-5372-9300-907e0369917e",
+        "title": "vibrant card deck by julia schimautz hides an animation in its sequence of colors and shapes",
+        "description": "julia schimautz and small wonder CPH create 'color index', a card deck that turns printmaking and riffle motion into an analog animation.",
+        "publisher": "Designboom",
+        "publisherDomain": "designboom.com",
+        "publishedAt": "2026-08-26T07:45:16.000Z",
+        "url": "https://www.designboom.com/design/vibrant-card-deck-julia-schimautz-animation-sequence-colors-shapes",
+        "imageUrl": "https://www.designboom.com/twitterimages/uploads/2026/08/vibrant-card-deck-julia-schimautz-animation-sequence-colors-shapes-designboom-03-1.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-e95e5c11-9ea2-531e-aac9-0f911bba6245",
+        "title": "Dame Maggie Smith leaves £16million fortune to two actors in will",
+        "description": "The Harry Potter legend died in 2024 at the age of 89.",
+        "publisher": "Express",
+        "publisherDomain": "express.co.uk",
+        "publishedAt": "2026-08-26T08:38:00.000Z",
+        "url": "https://www.express.co.uk/celebrity-news/2242565/dame-maggie-smith-leaves-16million-will",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-fe486a56-12ca-5b22-82af-1251b2e387f8",
+        "title": "Quote Of The Day By Jack Lowden 'There Is Courage In Persevering, But There Is Courage In Calling It A Day As Well...'",
+        "description": "Slow Horses star Jack Lowden knows the power of persevering — and the power of making a good pivot.",
+        "publisher": "Tvline",
+        "publisherDomain": "tvline.com",
+        "publishedAt": "2026-08-26T08:25:00.000Z",
+        "url": "https://www.tvline.com/2244324/quote-of-the-day-jack-lowden-persevering",
+        "imageUrl": "https://www.tvline.com/img/gallery/quote-of-the-day-by-jack-lowden-there-is-courage-in-persevering-but-there-is-courage-in-calling-it-a-day-as-well/l-intro-1787710354.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-1ee85589-095d-53e6-9ee7-8fa41d02e49f",
+        "title": "'Awarapan 2' box office collection Day 13 [LIVE]: Can Emraan Hashmi film cross Rs 145 crore amid clash with Yash starrer 'Toxic'?",
+        "description": "Emraan Hashmi and Disha Patani-starrer 'Awarapan 2' continues its theatrical run after crossing the Rs. 140 crore mark in India net collections.",
+        "publisher": "Indiatimes",
+        "publisherDomain": "timesofindia.indiatimes.com",
+        "publishedAt": "2026-08-26T08:07:48.000Z",
+        "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/box-office/awarapan-2-box-office-collection-day-13-live-emraan-hashmi-and-disha-patani-film-eyes-rs-150-crore-india-net-amid-yash-starrer-toxic-clash-and-grossing-over-rs-200-crore-globally/articleshow/133534536.cms",
+        "imageUrl": "https://static.toiimg.com/thumb/msid-133534585,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
         "categories": [
           "Entertainment"
         ]
@@ -1375,6 +1486,6 @@
     "successfulRequests": 5,
     "failedRequests": 0,
     "articleCountBeforeDeduplication": 100,
-    "articleCountAfterDeduplication": 87
+    "articleCountAfterDeduplication": 84
   }
 }
