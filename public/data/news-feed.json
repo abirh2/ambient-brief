@@ -1,20 +1,80 @@
 {
   "schemaVersion": 1,
   "provider": "currents",
-  "generatedAt": "2026-09-05T10:52:13.944Z",
-  "sourceFetchedAt": "2026-09-05T10:52:13.944Z",
+  "generatedAt": "2026-09-05T13:49:36.079Z",
+  "sourceFetchedAt": "2026-09-05T13:49:36.079Z",
   "status": "success",
   "categories": {
     "Top": [
       {
-        "id": "currents-dea3c3cd-7730-55cc-a206-c59c548221c0",
-        "title": "Beyond Zero: Google Publishes Successor to BeyondCorp",
-        "description": "In a recent research paper, Google introduced Beyond Zero, a “security model for the AI era” that extends Zero Trust to autonomous AI agents. The new approach moves access decisions from the application level to individual resources and actions, combining static authorization controls with dynamic A...",
-        "publisher": "Infoq",
-        "publisherDomain": "infoq.com",
-        "publishedAt": "2026-09-05T10:40:00.000Z",
-        "url": "https://www.infoq.com/news/2026/09/google-beyond-zero",
-        "imageUrl": "https://res.infoq.com/news/2026/09/google-beyond-zero/en/headerimage/generatedHeaderImage-1787655112500.jpg",
+        "id": "currents-ae8e2eb7-9a97-59ed-a19d-245da4097d7f",
+        "title": "Node.js Security Essentials: The Checklist I Use in Production",
+        "description": "Every middleware, header, and validation rule that has actually stopped an attack — from a 7-year...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-05T13:30:00.000Z",
+        "url": "https://dev.to/mryadavgulshan/nodejs-security-essentials-the-checklist-i-use-in-production-13k0",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.pexels.com%2Fphotos%2F19399416%2Fpexels-photo-19399416.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26fit%3Dcrop%26h%3D627%26w%3D1200",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-c0f9e10d-6c73-5d37-934e-f90aaf7e2b45",
+        "title": "How to check your MacBook's hard drive health",
+        "description": "Searching for potential faults with your MacBook's hard drive before they occur is key. That's where Apple's Disk Utility tool and other apps come in.",
+        "publisher": "Engadget",
+        "publisherDomain": "engadget.com",
+        "publishedAt": "2026-09-05T13:30:00.000Z",
+        "url": "https://www.engadget.com/2247782/how-to-check-hard-drive-health-macbook",
+        "imageUrl": "https://www.engadget.com/img/gallery/how-to-check-your-macbooks-hard-drive-health/l-intro-1787932638.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-4b0f1217-56ab-56ad-ae1d-c9cc9bcff63a",
+        "title": "Heathrow runway is closed by grass fire as flights are disrupted",
+        "description": "Britain's biggest airport's southern runway was closed as the fire took hold - sparking chaos.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-09-05T13:36:32.000Z",
+        "url": "https://www.dailymail.com/news/article-16107601/Heathrow-runway-closed-grass-fire-flights-disrupted.html?ito=1490&ns_campaign=1490",
+        "imageUrl": "https://i.dailymail.com/1s/2026/09/05/14/111069797-0-image-m-17_1788614838672.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-ea65e8db-c946-5bcc-8a96-578a99185c0e",
+        "title": "New York gallery sues Alaska Airlines for allegedly ruining $500,000 in Japanese art",
+        "description": "Exclusive: Eleven paintings were ‘soaked and sustained significant damage’ when they were transferred between flights during a rainstorm in Honolulu, according to court filings reviewed by The Independent",
+        "publisher": "Independent",
+        "publisherDomain": "independent.co.uk",
+        "publishedAt": "2026-09-05T13:35:13.000Z",
+        "url": "https://www.independent.co.uk/news/world/americas/alaska-airlines-ruined-japanese-art-lawsuit-b3044885.html",
+        "imageUrl": "https://static.independent.co.uk/2026/09/04/14/59/GettyImages-82798190.jpeg?trim=0,0,0,0&width=1200&height=800&crop=1200:800",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-5cb154e1-231f-5136-9698-f05428c6897a",
+        "title": "I built PadForward because sometimes you just need a pad",
+        "description": "This is a submission for Weekend Challenge: Generosity Edition 💗 Live demo:...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-05T13:39:59.000Z",
+        "url": "https://dev.to/ujja/i-built-padforward-because-sometimes-you-just-need-a-pad-1ljl",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnk5cz4r10yt7jcxpntzx.png",
         "categories": [
           "Top",
           "Technology",
@@ -23,72 +83,14 @@
         ]
       },
       {
-        "id": "currents-599b39e5-15cd-5ad2-a820-a6d31b4e947c",
-        "title": "All 10 Accused Found Guilty In Jhiram Valley Attack That Wiped Out Chhattisgarh Congress Leadership",
-        "description": "A special National Investigation Agency (NIA) court on Saturday found all 10 accused guilty in the Jhiram Valley Maoist attack of 2013, which claimed",
-        "publisher": "Swarajyamag",
-        "publisherDomain": "swarajyamag.com",
-        "publishedAt": "2026-09-05T10:38:57.000Z",
-        "url": "https://swarajyamag.com/news-brief/all-10-accused-found-guilty-in-jhiram-valley-attack-that-wiped-out-chhattisgarh-congress-leadership",
-        "imageUrl": "https://swarajya.gumlet.io/swarajya/2022-01/28833104-8e96-42f4-9fc3-5894802beb91/A_Maoist_rally.jpg?w=600&h=315&format=jpg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-a29eed6b-6dc8-59eb-add2-90e89d3a8c14",
-        "title": "Wanted: A new WNBA commissioner. She must be everything to everyone",
-        "description": "She must be approachable, charismatic and respected in the boardroom. The standard for female CEOs will always be higher and more personal.",
-        "publisher": "The New York Times",
-        "publisherDomain": "nytimes.com",
-        "publishedAt": "2026-09-05T10:00:58.000Z",
-        "url": "https://www.nytimes.com/athletic/7566384/2026/09/05/cathy-engelbert-wnba-commissioner-replacement",
-        "imageUrl": "https://static01.nyt.com/athletic/uploads/wp/2026/03/14113952/GettyImages-2226067786-scaled.jpg?width=1200&height=630&fit=cover",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-8ff82000-fbe4-5f96-96cc-f167368d5841",
-        "title": "Mayor Parker's election put lobbyist William Dunbar at the center of Philly politics. Now he's ...",
-        "description": "Parker let Dunbar go from her campaign in August 2024. Neither side has publicly explained what led to the separation.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-09-05T10:30:50.000Z",
-        "url": "https://www.inquirer.com/politics/philadelphia/mayor-parker-campaign-lobbyist-william-dunbar-office-20260905.html",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-7f47919f-a6fe-59dd-8680-ac4e7f2129b2",
-        "title": "Goldman raises Asia-Pacific equity target on tech earnings outlook By Investing.com",
-        "description": "Goldman raises Asia-Pacific equity target on tech earnings outlook",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-09-05T10:33:09.000Z",
-        "url": "https://www.investing.com/news/stock-market-news/goldman-raises-asiapacific-equity-target-on-tech-earnings-outlook-93CH-4890190",
-        "imageUrl": "https://content-media.investing.com/news/LYNXNPEC0K08U_L.jpg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-b59dbd62-b430-52e7-a244-9f7bb2d710e8",
-        "title": "RBI Gives LIC One-Year Window To Acquire Up To 9.99 Per Cent Stake In ICICI Bank",
-        "description": "The Life Insurance Corporation (LIC) of India has received approval from the Reserve Bank of India (RBI) to acquire an aggregate holding of up to 9.99",
-        "publisher": "Swarajyamag",
-        "publisherDomain": "swarajyamag.com",
-        "publishedAt": "2026-09-05T10:40:49.000Z",
-        "url": "https://swarajyamag.com/business/rbi-gives-lic-one-year-window-to-acquire-up-to-999-per-cent-stake-in-icici-bank",
-        "imageUrl": "https://swarajya.gumlet.io/swarajya/2021-11/eecc3280-2707-4284-92fa-3eec249de024/LIC_Image_v2.png?w=600&h=315&format=jpg",
+        "id": "currents-c21d1c8d-3419-5e91-a1a9-53620a6c2719",
+        "title": "Masked anti-immigrant protesters block UK port",
+        "description": "‘Having the path of your vehicle blocked by men wearing black paramilitary gear and balaclavas is extremely intimidating’.",
+        "publisher": "Scmp",
+        "publisherDomain": "scmp.com",
+        "publishedAt": "2026-09-05T13:36:26.000Z",
+        "url": "https://www.scmp.com/news/world/europe/article/3366495/uk-government-condemns-masked-anti-immigrant-protesters-blocking-dover-port",
+        "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/09/05/6cf8a554-2c60-4dd8-8a3f-06e00684a1b3_8fa2bc87.jpg?itok=UidxpaTy&v=1788615383",
         "categories": [
           "Top",
           "World",
@@ -96,14 +98,46 @@
         ]
       },
       {
-        "id": "currents-478aa039-9b28-59fb-9702-e1a429fa4a0c",
-        "title": "Singapore probes ‘shameful’ racism over Nepal-Tibet flood, India investment",
-        "description": "Minister K Shanmugam has asked police to look at an ‘online mob’ after various comments, including missing Singaporeans being ‘not our own’.",
-        "publisher": "Scmp",
-        "publisherDomain": "scmp.com",
-        "publishedAt": "2026-09-05T10:30:42.000Z",
-        "url": "https://www.scmp.com/news/asia/southeast-asia/article/3366484/singapore-investigates-racism-related-nepal-tibet-disaster-air-india-investment",
-        "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/09/05/44e460fd-e904-4cc6-95e2-8659c011dad6_dc3bee9a.jpg?itok=EIyNKF9j&v=1788604237",
+        "id": "currents-cb6f9a44-5fa3-5d20-8af4-1ac9b887b673",
+        "title": "AI has a safety problem nobody is ready for",
+        "description": "AI companies are racing to make their models safer, but those protections don’t appear to work equally well everywhere.",
+        "publisher": "Digitaltrends",
+        "publisherDomain": "digitaltrends.com",
+        "publishedAt": "2026-09-05T13:36:20.000Z",
+        "url": "https://www.digitaltrends.com/cool-tech/ai-has-a-safety-problem-nobody-is-ready-for",
+        "imageUrl": "https://www.digitaltrends.com/tachyon/2026/09/AI-tokens-for-ChatGPT.jpg?resize=1200%2C630",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-cfdd8495-312c-5ddb-b233-bdf9566ab9fc",
+        "title": "The Dealership Charges $180/hr for This, I Do It With an ESP32",
+        "description": "Your car is not magic. It is just a noisy network with cupholders. Let me tell you how a service...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-05T13:35:06.000Z",
+        "url": "https://dev.to/numbpill3d/the-dealership-charges-180hr-for-this-i-do-it-with-an-esp32-off",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F566y2mffictoct06970x.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-97ec3490-4b81-55c2-b808-4c52d39b7d95",
+        "title": "Thurgood Marshall College Fund to honor HBCU difference makers",
+        "description": "Washington, D.C., Sept. 05, 2026 (GLOBE NEWSWIRE) -- The Thurgood Marshall College Fund (TMCF) will host the DC CEO Impact NOW Awards Sept. 10 at the...",
+        "publisher": "Globenewswire",
+        "publisherDomain": "globenewswire.com",
+        "publishedAt": "2026-09-05T13:33:12.000Z",
+        "url": "https://www.globenewswire.com/news-release/2026/09/05/3356877/0/en/thurgood-marshall-college-fund-to-honor-hbcu-difference-makers.html",
+        "imageUrl": "https://ml.globenewswire.com/Resource/Download/109868e9-7c38-49f0-a8a9-4f2d561bdd10",
         "categories": [
           "Top",
           "U.S.",
@@ -111,13 +145,59 @@
         ]
       },
       {
-        "id": "currents-49f0375d-1db0-5d51-8a2b-45c39c3fb755",
-        "title": "Struggling to budget with inconsistent weekly income how do you actually make this work",
-        "description": "I seriously need help getting better with money because budgeting just doesn’t seem to stick for me. My income isn’t fixed. I get paid based on how many hours I work, so some weeks are pretty bad and other weeks are decent. That makes it hard for me to follow a normal monthly budget because I never ...",
+        "id": "currents-dbd7a76f-e95d-53e8-922f-25bb06ce5740",
+        "title": "Wisconsin businesses say they 'dodged a bullet,' rejecting high taxes as democratic socialist lost primary",
+        "description": "WMC's Kurt Bauer says Wisconsin businesses \"dodged a bullet\" after Francesca Hong lost to David Crowley, but warns concerns remain on taxes.",
+        "publisher": "Fox News",
+        "publisherDomain": "foxnews.com",
+        "publishedAt": "2026-09-05T13:31:32.000Z",
+        "url": "https://www.foxnews.com/media/wisconsin-businesses-say-dodged-bullet-rejecting-high-taxes-democratic-socialist-lost-primary",
+        "imageUrl": "https://static.foxnews.com/foxnews.com/content/uploads/2026/07/Franscesca-Hong-Madison-Wisconsin-July-7_-2026.jpg",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-9eaf1f26-71af-5696-8fdb-18b900383e5e",
+        "title": "This Week In Space podcast: Episode 226 — Who Owns The Moon?",
+        "description": "Capitalism and Property Rights in Space",
+        "publisher": "Space",
+        "publisherDomain": "space.com",
+        "publishedAt": "2026-09-05T13:30:52.000Z",
+        "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-226-who-owns-the-moon",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/wQ2tCNvqUmHxZr63qbgbx5-720-80.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-f60a9a75-b7a0-588f-bc41-96fe53436356",
+        "title": "I automated Dependabot PR cleanup — and drew a hard line on what NOT to automate",
+        "description": "If you use GitHub, you know the rhythm: Dependabot opens a PR, CI runs green, and then a human has to...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-05T13:30:12.000Z",
+        "url": "https://dev.to/sunnydachs/i-automated-dependabot-pr-cleanup-and-drew-a-hard-line-on-what-not-to-automate-4jm1",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fsunnydachs%2Fdep-triage%2Fmain%2Fassets%2Fnote-cover-v2.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-8c9f46c0-ad50-50c8-bee2-7eb0f36fc264",
+        "title": "Moving to new town- should I sell or rent my home",
+        "description": "I really love my home in Brownsville,tx but the market doesn’t seem to be growing as fast as years prior. Still there’s plenty of growth with spacex and lng. I bought this one just 2yrs ago for 280k I have a mortgage rate of 5.6%, owe 249k still. I had to buy a new home in my new city 5 hours away f...",
         "publisher": "Reddit",
         "publisherDomain": "reddit.com",
-        "publishedAt": "2026-09-05T10:49:30.000Z",
-        "url": "https://www.reddit.com/r/personalfinance/comments/1w7xgpd/struggling_to_budget_with_inconsistent_weekly",
+        "publishedAt": "2026-09-05T13:44:29.000Z",
+        "url": "https://www.reddit.com/r/personalfinance/comments/1w815wg/moving_to_new_town_should_i_sell_or_rent_my_home",
         "categories": [
           "Top",
           "Business",
@@ -125,128 +205,105 @@
         ]
       },
       {
-        "id": "currents-8731a509-486d-5193-86a8-6af4b90520e0",
-        "title": "Our Culture Needs a Return to Biological Realism",
-        "description": "From AOC’s viral egg-freezing to the proclamations of transhumanists, we are a society increasingly in denial about the limits of the human body.",
-        "publisher": "Nationalreview",
-        "publisherDomain": "nationalreview.com",
-        "publishedAt": "2026-09-05T10:30:58.000Z",
-        "url": "https://www.nationalreview.com/2026/09/our-culture-needs-a-return-to-biological-realism",
+        "id": "currents-0e7e9cd0-c486-54e2-b152-98370b6e16ff",
+        "title": "Childhood best time to instil good conduct: President Murmu at National Teachers Awards",
+        "description": "President Droupadi Murmu highlighted school education's foundational role for children's development. She stressed that teaching good conduct during childhood is highly effective. Teachers are praised for achieving a negligible primary school dropout rate. She urged teachers to instill confidence an...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-09-05T13:10:20.000Z",
+        "url": "https://economictimes.indiatimes.com/news/india/president-murmu-advocates-for-strong-morals-in-education-at-national-teachers-awards/articleshow/133801572.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133802605,width-1200,height-630,imgsize-96188,overlay-economictimes/articleshow.jpg",
         "categories": [
           "Top",
-          "U.S.",
-          "World"
+          "Business"
         ]
       },
       {
-        "id": "currents-eeaca056-6da3-532d-bba1-d757c9e2b7f0",
-        "title": "There’s No Business Like Show Business, Buffalo Bill–Style",
-        "description": "His museum in Cody spotlights his larger-than-life bio, his Wild West show, and why Annie Oakley wished she’d killed the Kaiser when she had the chance.",
-        "publisher": "Nationalreview",
-        "publisherDomain": "nationalreview.com",
-        "publishedAt": "2026-09-05T10:30:57.000Z",
-        "url": "https://www.nationalreview.com/2026/09/theres-no-business-like-show-business-buffalo-bill-style",
+        "id": "currents-aefdc28f-67da-5ff2-849e-36345664324e",
+        "title": "Changan Officially Launches SDA Pilot to Deliver Safer, Smoother and Stress-Free Intelligent Driving",
+        "description": "CHONGQING, China, Sept. 05, 2026 (GLOBE NEWSWIRE) — Changan Group has launched SDA Pilot, an advanced driver assistance system developed by its own engineering te…",
+        "publisher": "Financial Post",
+        "publisherDomain": "financialpost.com",
+        "publishedAt": "2026-09-05T13:07:49.000Z",
+        "url": "https://financialpost.com/globe-newswire/changan-officially-launches-sda-pilot-to-deliver-safer-smoother-and-stress-free-intelligent-driving",
+        "imageUrl": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/09/changan-group-has-launched-sda-pilot-an-advanced-driver-assi.jpeg",
         "categories": [
           "Top",
-          "U.S.",
-          "World"
+          "Business"
         ]
       },
       {
-        "id": "currents-8db111d0-cb56-548a-a798-043fae4e102f",
-        "title": "Ambiguity Is the Enemy of Equality in Sports and the Law",
-        "description": "Solutions to the challenges faced by college sports can’t come at the expense of competitive fairness for female athletes.",
-        "publisher": "Nationalreview",
-        "publisherDomain": "nationalreview.com",
-        "publishedAt": "2026-09-05T10:30:54.000Z",
-        "url": "https://www.nationalreview.com/2026/09/ambiguity-is-the-enemy-of-equality-in-sports-and-the-law",
+        "id": "currents-b91b52f6-d3be-5394-9f63-5313a7ba4d7b",
+        "title": "Iran accuses US of targeting tanker near Kharg Island",
+        "description": "Iran accused the United States of striking an oil tanker near Kharg Island. The US has not yet commented on the incident, which occurred near a key oil terminal. Meanwhile, Houthi rebels in Yemen blamed government forces for recent deadly attacks. Israeli strikes in southern Lebanon killed three peo...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-09-05T13:02:29.000Z",
+        "url": "https://economictimes.indiatimes.com/news/defence/iran-accuses-us-of-targeting-tanker-near-kharg-island-other-mideast-news/articleshow/133801726.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133802435,width-1200,height-630,imgsize-76496,overlay-etdefence/articleshow.jpg",
         "categories": [
           "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-53c6f6d2-5321-50c7-9fbc-986fd4f79c60",
-        "title": "Phillies prospect Aidan Miller will play five innings at shortstop Saturday for low-A Clearwater",
-        "description": "The 22-year-old hasn't played this season because of a low back condition.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-09-05T10:30:50.000Z",
-        "url": "https://www.inquirer.com/phillies/aidan-miller-injury-update-low-a-clearwater-phillies-prospect-20260904.html",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-c6b7b6af-2751-5be2-ac9b-05d28e883974",
-        "title": "Dan Vladař's new contract is a worthy bet for the goalie-starved Flyers",
-        "description": "The Flyers have been searching for a long-term solution in net for decades. The $27.5 million contract they handed Vladař this summer is proof ...",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-09-05T10:30:50.000Z",
-        "url": "https://www.inquirer.com/flyers/goalie-dan-vladar-2026-27-season-contract-20260905.html",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-dc969fb1-9624-5e67-bb30-042366ffb7d3",
-        "title": "The best thing Craig LaBan ate this week: Vietnamese fried chicken in deep South Philly",
-        "description": "The soups are fantastic at this family-run Vietnamese corner restaurant in deep South Philadelphia. But the fried chicken platter alone is worth ...",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-09-05T10:30:50.000Z",
-        "url": "https://www.inquirer.com/food/vietnamese-pho-fried-chicken-duyen-south-philadelphia-20260905.html",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-f167ee46-41bd-5949-a997-169bffc57f91",
-        "title": "A Philadelphia-based developer may score Haddon Heights' first liquor license",
-        "description": "The developer of the property at the corner of Station Avenue and the White Horse Pike will bid on the first license available since voters lifted ...",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-09-05T10:30:50.000Z",
-        "url": "https://www.inquirer.com/south-jersey/haddon-heights-liquor-license-station-avenue-20260905.html",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-fcf828b8-2535-5d85-8f0c-8dc2a457a934",
-        "title": "They used to date. Now they're best friends raising her child together. - The Philadelphia Inquirer",
-        "description": "Elysia Baskins initially asked Christopher Johnson to be a godfather.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-09-05T10:30:50.000Z",
-        "url": "https://www.inquirer.com/life/life-partners-best-friends-baby-20260905.html",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
+          "Business"
         ]
       }
     ],
     "U.S.": [
       {
-        "id": "currents-dea3c3cd-7730-55cc-a206-c59c548221c0",
-        "title": "Beyond Zero: Google Publishes Successor to BeyondCorp",
-        "description": "In a recent research paper, Google introduced Beyond Zero, a “security model for the AI era” that extends Zero Trust to autonomous AI agents. The new approach moves access decisions from the application level to individual resources and actions, combining static authorization controls with dynamic A...",
-        "publisher": "Infoq",
-        "publisherDomain": "infoq.com",
-        "publishedAt": "2026-09-05T10:40:00.000Z",
-        "url": "https://www.infoq.com/news/2026/09/google-beyond-zero",
-        "imageUrl": "https://res.infoq.com/news/2026/09/google-beyond-zero/en/headerimage/generatedHeaderImage-1787655112500.jpg",
+        "id": "currents-ae8e2eb7-9a97-59ed-a19d-245da4097d7f",
+        "title": "Node.js Security Essentials: The Checklist I Use in Production",
+        "description": "Every middleware, header, and validation rule that has actually stopped an attack — from a 7-year...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-05T13:30:00.000Z",
+        "url": "https://dev.to/mryadavgulshan/nodejs-security-essentials-the-checklist-i-use-in-production-13k0",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.pexels.com%2Fphotos%2F19399416%2Fpexels-photo-19399416.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26fit%3Dcrop%26h%3D627%26w%3D1200",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-c0f9e10d-6c73-5d37-934e-f90aaf7e2b45",
+        "title": "How to check your MacBook's hard drive health",
+        "description": "Searching for potential faults with your MacBook's hard drive before they occur is key. That's where Apple's Disk Utility tool and other apps come in.",
+        "publisher": "Engadget",
+        "publisherDomain": "engadget.com",
+        "publishedAt": "2026-09-05T13:30:00.000Z",
+        "url": "https://www.engadget.com/2247782/how-to-check-hard-drive-health-macbook",
+        "imageUrl": "https://www.engadget.com/img/gallery/how-to-check-your-macbooks-hard-drive-health/l-intro-1787932638.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-c21d1c8d-3419-5e91-a1a9-53620a6c2719",
+        "title": "Masked anti-immigrant protesters block UK port",
+        "description": "‘Having the path of your vehicle blocked by men wearing black paramilitary gear and balaclavas is extremely intimidating’.",
+        "publisher": "Scmp",
+        "publisherDomain": "scmp.com",
+        "publishedAt": "2026-09-05T13:36:26.000Z",
+        "url": "https://www.scmp.com/news/world/europe/article/3366495/uk-government-condemns-masked-anti-immigrant-protesters-blocking-dover-port",
+        "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/09/05/6cf8a554-2c60-4dd8-8a3f-06e00684a1b3_8fa2bc87.jpg?itok=UidxpaTy&v=1788615383",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-cb6f9a44-5fa3-5d20-8af4-1ac9b887b673",
+        "title": "AI has a safety problem nobody is ready for",
+        "description": "AI companies are racing to make their models safer, but those protections don’t appear to work equally well everywhere.",
+        "publisher": "Digitaltrends",
+        "publisherDomain": "digitaltrends.com",
+        "publishedAt": "2026-09-05T13:36:20.000Z",
+        "url": "https://www.digitaltrends.com/cool-tech/ai-has-a-safety-problem-nobody-is-ready-for",
+        "imageUrl": "https://www.digitaltrends.com/tachyon/2026/09/AI-tokens-for-ChatGPT.jpg?resize=1200%2C630",
         "categories": [
           "Top",
           "Technology",
@@ -255,73 +312,46 @@
         ]
       },
       {
-        "id": "currents-599b39e5-15cd-5ad2-a820-a6d31b4e947c",
-        "title": "All 10 Accused Found Guilty In Jhiram Valley Attack That Wiped Out Chhattisgarh Congress Leadership",
-        "description": "A special National Investigation Agency (NIA) court on Saturday found all 10 accused guilty in the Jhiram Valley Maoist attack of 2013, which claimed",
-        "publisher": "Swarajyamag",
-        "publisherDomain": "swarajyamag.com",
-        "publishedAt": "2026-09-05T10:38:57.000Z",
-        "url": "https://swarajyamag.com/news-brief/all-10-accused-found-guilty-in-jhiram-valley-attack-that-wiped-out-chhattisgarh-congress-leadership",
-        "imageUrl": "https://swarajya.gumlet.io/swarajya/2022-01/28833104-8e96-42f4-9fc3-5894802beb91/A_Maoist_rally.jpg?w=600&h=315&format=jpg",
+        "id": "currents-5cb154e1-231f-5136-9698-f05428c6897a",
+        "title": "I built PadForward because sometimes you just need a pad",
+        "description": "This is a submission for Weekend Challenge: Generosity Edition 💗 Live demo:...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-05T13:39:59.000Z",
+        "url": "https://dev.to/ujja/i-built-padforward-because-sometimes-you-just-need-a-pad-1ljl",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnk5cz4r10yt7jcxpntzx.png",
         "categories": [
           "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-8ff82000-fbe4-5f96-96cc-f167368d5841",
-        "title": "Mayor Parker's election put lobbyist William Dunbar at the center of Philly politics. Now he's ...",
-        "description": "Parker let Dunbar go from her campaign in August 2024. Neither side has publicly explained what led to the separation.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-09-05T10:30:50.000Z",
-        "url": "https://www.inquirer.com/politics/philadelphia/mayor-parker-campaign-lobbyist-william-dunbar-office-20260905.html",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-7f47919f-a6fe-59dd-8680-ac4e7f2129b2",
-        "title": "Goldman raises Asia-Pacific equity target on tech earnings outlook By Investing.com",
-        "description": "Goldman raises Asia-Pacific equity target on tech earnings outlook",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-09-05T10:33:09.000Z",
-        "url": "https://www.investing.com/news/stock-market-news/goldman-raises-asiapacific-equity-target-on-tech-earnings-outlook-93CH-4890190",
-        "imageUrl": "https://content-media.investing.com/news/LYNXNPEC0K08U_L.jpg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-b59dbd62-b430-52e7-a244-9f7bb2d710e8",
-        "title": "RBI Gives LIC One-Year Window To Acquire Up To 9.99 Per Cent Stake In ICICI Bank",
-        "description": "The Life Insurance Corporation (LIC) of India has received approval from the Reserve Bank of India (RBI) to acquire an aggregate holding of up to 9.99",
-        "publisher": "Swarajyamag",
-        "publisherDomain": "swarajyamag.com",
-        "publishedAt": "2026-09-05T10:40:49.000Z",
-        "url": "https://swarajyamag.com/business/rbi-gives-lic-one-year-window-to-acquire-up-to-999-per-cent-stake-in-icici-bank",
-        "imageUrl": "https://swarajya.gumlet.io/swarajya/2021-11/eecc3280-2707-4284-92fa-3eec249de024/LIC_Image_v2.png?w=600&h=315&format=jpg",
-        "categories": [
-          "Top",
-          "World",
+          "Technology",
+          "Science",
           "U.S."
         ]
       },
       {
-        "id": "currents-ec805f66-75e3-5eff-ad3a-0d7f670f4159",
-        "title": "People Are Warning Others About The Hobbies That Will Drain Your Wallet And Soul",
-        "description": "\"It's one of my great loves – don't do it.\"",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-09-05T10:31:05.000Z",
-        "url": "https://www.buzzfeed.com/jennaguillaume/expensive-hobbies",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/21/01/thumb/ZPBcHU7hO.jpg?crop=1250:654;0,126%26downsize=1250:*",
+        "id": "currents-cfdd8495-312c-5ddb-b233-bdf9566ab9fc",
+        "title": "The Dealership Charges $180/hr for This, I Do It With an ESP32",
+        "description": "Your car is not magic. It is just a noisy network with cupholders. Let me tell you how a service...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-05T13:35:06.000Z",
+        "url": "https://dev.to/numbpill3d/the-dealership-charges-180hr-for-this-i-do-it-with-an-esp32-off",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F566y2mffictoct06970x.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-91959896-2265-5b3e-a2b9-b3af089ed3d9",
+        "title": "2-Year-Old Girl Falls From Jersey Shore Amusement Park Ride",
+        "description": "A 2-year-old girl fell from a chairlift-style amusement park ride on the Jersey Shore.",
+        "publisher": "Tmz",
+        "publisherDomain": "tmz.com",
+        "publishedAt": "2026-09-05T13:35:01.000Z",
+        "url": "https://www.tmz.com/2026/09/05/toddler-falls-off-jersey-shore-amusement-park-ride",
+        "imageUrl": "https://imagez.tmz.com/image/0e/16by9/2026/09/05/0e6e0c7f18a84f5fbd56b5d2d308325f_xl.png",
         "categories": [
           "Top",
           "U.S.",
@@ -329,29 +359,14 @@
         ]
       },
       {
-        "id": "currents-c5ba2d04-7e80-537e-994f-ba1325b7d08a",
-        "title": "Just 22 “Little Treats” From Etsy To Buy Yourself If You Could Use A Budget-Friendly Pick-Me-Up",
-        "description": "Whimsical? Yes. Under $30? Also yes!",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-09-05T10:31:03.000Z",
-        "url": "https://www.buzzfeed.com/danielboan/budget-friendly-etsy-treats-september-2026-an",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-03/18/20/thumb/8EKfki7_G.jpg?crop=3000:1571;0,211%26downsize=1250:*",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-478aa039-9b28-59fb-9702-e1a429fa4a0c",
-        "title": "Singapore probes ‘shameful’ racism over Nepal-Tibet flood, India investment",
-        "description": "Minister K Shanmugam has asked police to look at an ‘online mob’ after various comments, including missing Singaporeans being ‘not our own’.",
-        "publisher": "Scmp",
-        "publisherDomain": "scmp.com",
-        "publishedAt": "2026-09-05T10:30:42.000Z",
-        "url": "https://www.scmp.com/news/asia/southeast-asia/article/3366484/singapore-investigates-racism-related-nepal-tibet-disaster-air-india-investment",
-        "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/09/05/44e460fd-e904-4cc6-95e2-8659c011dad6_dc3bee9a.jpg?itok=EIyNKF9j&v=1788604237",
+        "id": "currents-97ec3490-4b81-55c2-b808-4c52d39b7d95",
+        "title": "Thurgood Marshall College Fund to honor HBCU difference makers",
+        "description": "Washington, D.C., Sept. 05, 2026 (GLOBE NEWSWIRE) -- The Thurgood Marshall College Fund (TMCF) will host the DC CEO Impact NOW Awards Sept. 10 at the...",
+        "publisher": "Globenewswire",
+        "publisherDomain": "globenewswire.com",
+        "publishedAt": "2026-09-05T13:33:12.000Z",
+        "url": "https://www.globenewswire.com/news-release/2026/09/05/3356877/0/en/thurgood-marshall-college-fund-to-honor-hbcu-difference-makers.html",
+        "imageUrl": "https://ml.globenewswire.com/Resource/Download/109868e9-7c38-49f0-a8a9-4f2d561bdd10",
         "categories": [
           "Top",
           "U.S.",
@@ -359,13 +374,89 @@
         ]
       },
       {
-        "id": "currents-49f0375d-1db0-5d51-8a2b-45c39c3fb755",
-        "title": "Struggling to budget with inconsistent weekly income how do you actually make this work",
-        "description": "I seriously need help getting better with money because budgeting just doesn’t seem to stick for me. My income isn’t fixed. I get paid based on how many hours I work, so some weeks are pretty bad and other weeks are decent. That makes it hard for me to follow a normal monthly budget because I never ...",
+        "id": "currents-dbd7a76f-e95d-53e8-922f-25bb06ce5740",
+        "title": "Wisconsin businesses say they 'dodged a bullet,' rejecting high taxes as democratic socialist lost primary",
+        "description": "WMC's Kurt Bauer says Wisconsin businesses \"dodged a bullet\" after Francesca Hong lost to David Crowley, but warns concerns remain on taxes.",
+        "publisher": "Fox News",
+        "publisherDomain": "foxnews.com",
+        "publishedAt": "2026-09-05T13:31:32.000Z",
+        "url": "https://www.foxnews.com/media/wisconsin-businesses-say-dodged-bullet-rejecting-high-taxes-democratic-socialist-lost-primary",
+        "imageUrl": "https://static.foxnews.com/foxnews.com/content/uploads/2026/07/Franscesca-Hong-Madison-Wisconsin-July-7_-2026.jpg",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-7140ea6d-ca27-5c82-9f2b-251e6046e217",
+        "title": "Hey You, These 27 Skincare Products Have Been Missing From Your Life All These Years",
+        "description": "How you've gone your whole adult life without this caffeinated eye cream, you'll never understand.",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-09-05T13:31:02.000Z",
+        "url": "https://www.buzzfeed.com/jessicahall2/skincare-products-youve-been-missing-an",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/05/14/thumb/jPaEJ7vw-.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-9eaf1f26-71af-5696-8fdb-18b900383e5e",
+        "title": "This Week In Space podcast: Episode 226 — Who Owns The Moon?",
+        "description": "Capitalism and Property Rights in Space",
+        "publisher": "Space",
+        "publisherDomain": "space.com",
+        "publishedAt": "2026-09-05T13:30:52.000Z",
+        "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-226-who-owns-the-moon",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/wQ2tCNvqUmHxZr63qbgbx5-720-80.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-f60a9a75-b7a0-588f-bc41-96fe53436356",
+        "title": "I automated Dependabot PR cleanup — and drew a hard line on what NOT to automate",
+        "description": "If you use GitHub, you know the rhythm: Dependabot opens a PR, CI runs green, and then a human has to...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-05T13:30:12.000Z",
+        "url": "https://dev.to/sunnydachs/i-automated-dependabot-pr-cleanup-and-drew-a-hard-line-on-what-not-to-automate-4jm1",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fsunnydachs%2Fdep-triage%2Fmain%2Fassets%2Fnote-cover-v2.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-b407d983-456b-5717-b527-3c0ea1983a85",
+        "title": "Women Share \"Zero-Effort Habits\" That Make Them Feel Totally Put Together",
+        "description": "\"It's something I passed on to a few roommates and friends over the years, and they always said it helps them, too.\"",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-09-05T13:30:02.000Z",
+        "url": "https://www.buzzfeed.com/ravenishak/micro-habits-zero-energy",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-09/01/19/thumb/-AvRR-gJq.jpg?crop=1250:654;0,21%26downsize=1250:*",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-8c9f46c0-ad50-50c8-bee2-7eb0f36fc264",
+        "title": "Moving to new town- should I sell or rent my home",
+        "description": "I really love my home in Brownsville,tx but the market doesn’t seem to be growing as fast as years prior. Still there’s plenty of growth with spacex and lng. I bought this one just 2yrs ago for 280k I have a mortgage rate of 5.6%, owe 249k still. I had to buy a new home in my new city 5 hours away f...",
         "publisher": "Reddit",
         "publisherDomain": "reddit.com",
-        "publishedAt": "2026-09-05T10:49:30.000Z",
-        "url": "https://www.reddit.com/r/personalfinance/comments/1w7xgpd/struggling_to_budget_with_inconsistent_weekly",
+        "publishedAt": "2026-09-05T13:44:29.000Z",
+        "url": "https://www.reddit.com/r/personalfinance/comments/1w815wg/moving_to_new_town_should_i_sell_or_rent_my_home",
         "categories": [
           "Top",
           "Business",
@@ -373,200 +464,86 @@
         ]
       },
       {
-        "id": "currents-8731a509-486d-5193-86a8-6af4b90520e0",
-        "title": "Our Culture Needs a Return to Biological Realism",
-        "description": "From AOC’s viral egg-freezing to the proclamations of transhumanists, we are a society increasingly in denial about the limits of the human body.",
-        "publisher": "Nationalreview",
-        "publisherDomain": "nationalreview.com",
-        "publishedAt": "2026-09-05T10:30:58.000Z",
-        "url": "https://www.nationalreview.com/2026/09/our-culture-needs-a-return-to-biological-realism",
+        "id": "currents-adcb9f47-bc44-5903-a9d2-2f954e07026a",
+        "title": "Guess the Cricketer #156: Lionel Messi",
+        "description": "This post contains content not supported on old Reddit. Click here to view the full post submitted by /u/game-of-guesses [link] [comments]",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-09-05T13:30:11.000Z",
+        "url": "https://www.reddit.com/r/Cricket/comments/1w80tv1/guess_the_cricketer_156_lionel_messi",
         "categories": [
           "Top",
           "U.S.",
-          "World"
+          "Sports"
         ]
       },
       {
-        "id": "currents-eeaca056-6da3-532d-bba1-d757c9e2b7f0",
-        "title": "There’s No Business Like Show Business, Buffalo Bill–Style",
-        "description": "His museum in Cody spotlights his larger-than-life bio, his Wild West show, and why Annie Oakley wished she’d killed the Kaiser when she had the chance.",
-        "publisher": "Nationalreview",
-        "publisherDomain": "nationalreview.com",
-        "publishedAt": "2026-09-05T10:30:57.000Z",
-        "url": "https://www.nationalreview.com/2026/09/theres-no-business-like-show-business-buffalo-bill-style",
+        "id": "currents-1f619727-5448-58f4-bb53-4049dfe7cd30",
+        "title": "🇪🇺🇩🇪 German FM Wadephul: Europe must become a global player. That means replacing the veto with qualified majority voting",
+        "description": "submitted by /u/paneuropeanism_ [link] [comments]",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-09-05T13:40:01.000Z",
+        "url": "https://www.reddit.com/r/IRstudies/comments/1w81227/german_fm_wadephul_europe_must_become_a_global",
         "categories": [
           "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-8db111d0-cb56-548a-a798-043fae4e102f",
-        "title": "Ambiguity Is the Enemy of Equality in Sports and the Law",
-        "description": "Solutions to the challenges faced by college sports can’t come at the expense of competitive fairness for female athletes.",
-        "publisher": "Nationalreview",
-        "publisherDomain": "nationalreview.com",
-        "publishedAt": "2026-09-05T10:30:54.000Z",
-        "url": "https://www.nationalreview.com/2026/09/ambiguity-is-the-enemy-of-equality-in-sports-and-the-law",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-53c6f6d2-5321-50c7-9fbc-986fd4f79c60",
-        "title": "Phillies prospect Aidan Miller will play five innings at shortstop Saturday for low-A Clearwater",
-        "description": "The 22-year-old hasn't played this season because of a low back condition.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-09-05T10:30:50.000Z",
-        "url": "https://www.inquirer.com/phillies/aidan-miller-injury-update-low-a-clearwater-phillies-prospect-20260904.html",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-c6b7b6af-2751-5be2-ac9b-05d28e883974",
-        "title": "Dan Vladař's new contract is a worthy bet for the goalie-starved Flyers",
-        "description": "The Flyers have been searching for a long-term solution in net for decades. The $27.5 million contract they handed Vladař this summer is proof ...",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-09-05T10:30:50.000Z",
-        "url": "https://www.inquirer.com/flyers/goalie-dan-vladar-2026-27-season-contract-20260905.html",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-dc969fb1-9624-5e67-bb30-042366ffb7d3",
-        "title": "The best thing Craig LaBan ate this week: Vietnamese fried chicken in deep South Philly",
-        "description": "The soups are fantastic at this family-run Vietnamese corner restaurant in deep South Philadelphia. But the fried chicken platter alone is worth ...",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-09-05T10:30:50.000Z",
-        "url": "https://www.inquirer.com/food/vietnamese-pho-fried-chicken-duyen-south-philadelphia-20260905.html",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-f167ee46-41bd-5949-a997-169bffc57f91",
-        "title": "A Philadelphia-based developer may score Haddon Heights' first liquor license",
-        "description": "The developer of the property at the corner of Station Avenue and the White Horse Pike will bid on the first license available since voters lifted ...",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-09-05T10:30:50.000Z",
-        "url": "https://www.inquirer.com/south-jersey/haddon-heights-liquor-license-station-avenue-20260905.html",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
+          "World",
+          "U.S."
         ]
       }
     ],
     "World": [
       {
-        "id": "currents-599b39e5-15cd-5ad2-a820-a6d31b4e947c",
-        "title": "All 10 Accused Found Guilty In Jhiram Valley Attack That Wiped Out Chhattisgarh Congress Leadership",
-        "description": "A special National Investigation Agency (NIA) court on Saturday found all 10 accused guilty in the Jhiram Valley Maoist attack of 2013, which claimed",
-        "publisher": "Swarajyamag",
-        "publisherDomain": "swarajyamag.com",
-        "publishedAt": "2026-09-05T10:38:57.000Z",
-        "url": "https://swarajyamag.com/news-brief/all-10-accused-found-guilty-in-jhiram-valley-attack-that-wiped-out-chhattisgarh-congress-leadership",
-        "imageUrl": "https://swarajya.gumlet.io/swarajya/2022-01/28833104-8e96-42f4-9fc3-5894802beb91/A_Maoist_rally.jpg?w=600&h=315&format=jpg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-8ff82000-fbe4-5f96-96cc-f167368d5841",
-        "title": "Mayor Parker's election put lobbyist William Dunbar at the center of Philly politics. Now he's ...",
-        "description": "Parker let Dunbar go from her campaign in August 2024. Neither side has publicly explained what led to the separation.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-09-05T10:30:50.000Z",
-        "url": "https://www.inquirer.com/politics/philadelphia/mayor-parker-campaign-lobbyist-william-dunbar-office-20260905.html",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-16305631-7812-58f1-925b-72026475e8c1",
-        "title": "Why is 'The Remarried Empress' teaser already surpassing 10 million views? - The Korea Times",
-        "description": "Disney+ original series \"The Remarried Empress\" is showing strong signs of becoming a hit even before its official release. Its teaser, unveiled ah...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-09-05T10:42:03.000Z",
-        "url": "https://www.koreatimes.co.kr/entertainment/20260905/why-is-the-remarried-empress-teaser-already-surpassing-10-million-views",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/09/05/653b35b8-b4b0-4e25-b492-be8468828e70.jpg",
+        "id": "currents-4b0f1217-56ab-56ad-ae1d-c9cc9bcff63a",
+        "title": "Heathrow runway is closed by grass fire as flights are disrupted",
+        "description": "Britain's biggest airport's southern runway was closed as the fire took hold - sparking chaos.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-09-05T13:36:32.000Z",
+        "url": "https://www.dailymail.com/news/article-16107601/Heathrow-runway-closed-grass-fire-flights-disrupted.html?ito=1490&ns_campaign=1490",
+        "imageUrl": "https://i.dailymail.com/1s/2026/09/05/14/111069797-0-image-m-17_1788614838672.jpg",
         "categories": [
           "Top",
           "World"
         ]
       },
       {
-        "id": "currents-478aa039-9b28-59fb-9702-e1a429fa4a0c",
-        "title": "Singapore probes ‘shameful’ racism over Nepal-Tibet flood, India investment",
-        "description": "Minister K Shanmugam has asked police to look at an ‘online mob’ after various comments, including missing Singaporeans being ‘not our own’.",
+        "id": "currents-ea65e8db-c946-5bcc-8a96-578a99185c0e",
+        "title": "New York gallery sues Alaska Airlines for allegedly ruining $500,000 in Japanese art",
+        "description": "Exclusive: Eleven paintings were ‘soaked and sustained significant damage’ when they were transferred between flights during a rainstorm in Honolulu, according to court filings reviewed by The Independent",
+        "publisher": "Independent",
+        "publisherDomain": "independent.co.uk",
+        "publishedAt": "2026-09-05T13:35:13.000Z",
+        "url": "https://www.independent.co.uk/news/world/americas/alaska-airlines-ruined-japanese-art-lawsuit-b3044885.html",
+        "imageUrl": "https://static.independent.co.uk/2026/09/04/14/59/GettyImages-82798190.jpeg?trim=0,0,0,0&width=1200&height=800&crop=1200:800",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-cae386cb-6e26-5628-aac5-85b79eadc7c2",
+        "title": "PM Modi takes Delhi Metro to SRCC, chats with students on way to centenary event",
+        "description": "Prime Minister Narendra Modi took the Delhi Metro to Shri Ram College of Commerce and interacted with students and commuters on the way. The journey set the tone for his visit to the college's centenary celebrations, where he is scheduled to address students.",
+        "publisher": "Indiatoday",
+        "publisherDomain": "indiatoday.in",
+        "publishedAt": "2026-09-05T13:41:06.000Z",
+        "url": "https://www.indiatoday.in/education-today/news/story/pm-modi-takes-delhi-metro-to-srcc-100-year-celebration-interacts-with-students-2987853-2026-09-05",
+        "imageUrl": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202609/pm-modi-takes-delhi-metro-to-srcc-100-year-celebration--interacts-with-students-054014400-16x9_0.jpg?VersionId=0yrXNMtC2zQZdjUhnHt3i6YMnBrl1R_c",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-c21d1c8d-3419-5e91-a1a9-53620a6c2719",
+        "title": "Masked anti-immigrant protesters block UK port",
+        "description": "‘Having the path of your vehicle blocked by men wearing black paramilitary gear and balaclavas is extremely intimidating’.",
         "publisher": "Scmp",
         "publisherDomain": "scmp.com",
-        "publishedAt": "2026-09-05T10:30:42.000Z",
-        "url": "https://www.scmp.com/news/asia/southeast-asia/article/3366484/singapore-investigates-racism-related-nepal-tibet-disaster-air-india-investment",
-        "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/09/05/44e460fd-e904-4cc6-95e2-8659c011dad6_dc3bee9a.jpg?itok=EIyNKF9j&v=1788604237",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-5fb8de74-580f-57d2-adf2-eb24901a901e",
-        "title": "Rescuers in Nepal pull Chinese national, woman alive 10 days after floods - The Korea Times",
-        "description": "KATHMANDU, Nepal — Rescuers in Nepal pulled a Chinese national and a woman alive 10 days after devastating floods hit the country, officials said S...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-09-05T10:42:03.000Z",
-        "url": "https://www.koreatimes.co.kr/world/20260905/rescuers-in-nepal-pull-chinese-national-woman-alive-10-days-after-floods",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/09/05/965af5b9-2822-4096-9f0f-f83dc379cc55.jpg",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-803bd3e4-b5d9-5c55-8cc7-b007b77ddcdf",
-        "title": "Iranian town mourns after strikes kill 5 at wedding celebration - The Korea Times",
-        "description": "KUHESTAK, Iran — Women with their children were gathered in the house and yard, waiting for the bride and groom to arrive to kick off a wedding cel...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-09-05T10:42:03.000Z",
-        "url": "https://www.koreatimes.co.kr/world/20260905/iranian-town-mourns-after-strikes-kill-5-at-wedding-celebration",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/09/05/fd65cc7b-403a-4e87-9a2f-2b31b514806b.jpg",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-b59dbd62-b430-52e7-a244-9f7bb2d710e8",
-        "title": "RBI Gives LIC One-Year Window To Acquire Up To 9.99 Per Cent Stake In ICICI Bank",
-        "description": "The Life Insurance Corporation (LIC) of India has received approval from the Reserve Bank of India (RBI) to acquire an aggregate holding of up to 9.99",
-        "publisher": "Swarajyamag",
-        "publisherDomain": "swarajyamag.com",
-        "publishedAt": "2026-09-05T10:40:49.000Z",
-        "url": "https://swarajyamag.com/business/rbi-gives-lic-one-year-window-to-acquire-up-to-999-per-cent-stake-in-icici-bank",
-        "imageUrl": "https://swarajya.gumlet.io/swarajya/2021-11/eecc3280-2707-4284-92fa-3eec249de024/LIC_Image_v2.png?w=600&h=315&format=jpg",
+        "publishedAt": "2026-09-05T13:36:26.000Z",
+        "url": "https://www.scmp.com/news/world/europe/article/3366495/uk-government-condemns-masked-anti-immigrant-protesters-blocking-dover-port",
+        "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/09/05/6cf8a554-2c60-4dd8-8a3f-06e00684a1b3_8fa2bc87.jpg?itok=UidxpaTy&v=1788615383",
         "categories": [
           "Top",
           "World",
@@ -574,13 +551,14 @@
         ]
       },
       {
-        "id": "currents-8731a509-486d-5193-86a8-6af4b90520e0",
-        "title": "Our Culture Needs a Return to Biological Realism",
-        "description": "From AOC’s viral egg-freezing to the proclamations of transhumanists, we are a society increasingly in denial about the limits of the human body.",
-        "publisher": "Nationalreview",
-        "publisherDomain": "nationalreview.com",
-        "publishedAt": "2026-09-05T10:30:58.000Z",
-        "url": "https://www.nationalreview.com/2026/09/our-culture-needs-a-return-to-biological-realism",
+        "id": "currents-97ec3490-4b81-55c2-b808-4c52d39b7d95",
+        "title": "Thurgood Marshall College Fund to honor HBCU difference makers",
+        "description": "Washington, D.C., Sept. 05, 2026 (GLOBE NEWSWIRE) -- The Thurgood Marshall College Fund (TMCF) will host the DC CEO Impact NOW Awards Sept. 10 at the...",
+        "publisher": "Globenewswire",
+        "publisherDomain": "globenewswire.com",
+        "publishedAt": "2026-09-05T13:33:12.000Z",
+        "url": "https://www.globenewswire.com/news-release/2026/09/05/3356877/0/en/thurgood-marshall-college-fund-to-honor-hbcu-difference-makers.html",
+        "imageUrl": "https://ml.globenewswire.com/Resource/Download/109868e9-7c38-49f0-a8a9-4f2d561bdd10",
         "categories": [
           "Top",
           "U.S.",
@@ -588,41 +566,69 @@
         ]
       },
       {
-        "id": "currents-eeaca056-6da3-532d-bba1-d757c9e2b7f0",
-        "title": "There’s No Business Like Show Business, Buffalo Bill–Style",
-        "description": "His museum in Cody spotlights his larger-than-life bio, his Wild West show, and why Annie Oakley wished she’d killed the Kaiser when she had the chance.",
-        "publisher": "Nationalreview",
-        "publisherDomain": "nationalreview.com",
-        "publishedAt": "2026-09-05T10:30:57.000Z",
-        "url": "https://www.nationalreview.com/2026/09/theres-no-business-like-show-business-buffalo-bill-style",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-8db111d0-cb56-548a-a798-043fae4e102f",
-        "title": "Ambiguity Is the Enemy of Equality in Sports and the Law",
-        "description": "Solutions to the challenges faced by college sports can’t come at the expense of competitive fairness for female athletes.",
-        "publisher": "Nationalreview",
-        "publisherDomain": "nationalreview.com",
-        "publishedAt": "2026-09-05T10:30:54.000Z",
-        "url": "https://www.nationalreview.com/2026/09/ambiguity-is-the-enemy-of-equality-in-sports-and-the-law",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-53c6f6d2-5321-50c7-9fbc-986fd4f79c60",
-        "title": "Phillies prospect Aidan Miller will play five innings at shortstop Saturday for low-A Clearwater",
-        "description": "The 22-year-old hasn't played this season because of a low back condition.",
+        "id": "currents-22d1e51d-ec99-580e-be66-33789b050f0d",
+        "title": "Missing 9-yr-old boy found dead in Abra; search continues for sibling",
+        "description": "SAN ILDEFONSO, Ilocos Sur — A nine-year-old boy, who had been missing with his sibling, was found dead on a mountain in this town on Saturday morning (Sept. 5), according to local responders. The boy was found at the top of Mt. Mabitog in Sitio Asilip, Barangay Caganayan, around 11 a.m., during cont...",
         "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-09-05T10:30:50.000Z",
-        "url": "https://www.inquirer.com/phillies/aidan-miller-injury-update-low-a-clearwater-phillies-prospect-20260904.html",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-09-05T13:38:17.000Z",
+        "url": "https://newsinfo.inquirer.net/2299667/missing-9-yr-old-boy-found-dead-in-abra-search-continues-for-sibling",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-6728d643-b1a7-5a0a-a5a6-79cba1ffe79d",
+        "title": "Iran rebuilding its axis for attack on Israel, Israeli assessment says | The Jerusalem Post",
+        "description": "Israeli assessments indicate Tehran is working to coordinate its regional allies for a simultaneous assault on Israel, seeking to avoid the lack of coordination seen during the October 7 attack.",
+        "publisher": "Jpost",
+        "publisherDomain": "jpost.com",
+        "publishedAt": "2026-09-05T13:42:27.000Z",
+        "url": "https://www.jpost.com/middle-east/article-907636",
+        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/691078",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-c910b899-f432-5bd0-9ed7-6ce77b298faf",
+        "title": "Kurdish forces lose ground as US backs centralized governments in Syria and Iraq | The Jerusalem Post",
+        "description": "BEHIND THE LINES: If and when the current strategy fails, the Kurds may need to be reached again. Hopefully, by the time this occurs, they will be able to take advantage of the moment in full.",
+        "publisher": "Jpost",
+        "publisherDomain": "jpost.com",
+        "publishedAt": "2026-09-05T13:42:27.000Z",
+        "url": "https://www.jpost.com/middle-east/article-907527",
+        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/736407",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-1f619727-5448-58f4-bb53-4049dfe7cd30",
+        "title": "🇪🇺🇩🇪 German FM Wadephul: Europe must become a global player. That means replacing the veto with qualified majority voting",
+        "description": "submitted by /u/paneuropeanism_ [link] [comments]",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-09-05T13:40:01.000Z",
+        "url": "https://www.reddit.com/r/IRstudies/comments/1w81227/german_fm_wadephul_europe_must_become_a_global",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-265aeaf6-3ce2-5b57-8a26-ff2af01f0ca4",
+        "title": "In 1842, a North Carolina mission school began on mountain farmland; 184 years later, an 86.7-acre easement completes protection of land stewarded there for 130 years",
+        "description": "High in the Blue Ridge Mountains of western North Carolina, a quiet story of faith, education and land stewardship has unfolded over nearly two centuries. In 1842, a mission school opened on what was then rugged mountain farmland in the Valle Crucis valley, near present day Boone.",
+        "publisher": "Indiatimes",
+        "publisherDomain": "timesofindia.indiatimes.com",
+        "publishedAt": "2026-09-05T13:30:00.000Z",
+        "url": "https://timesofindia.indiatimes.com/world/us/in-1842-a-north-carolina-mission-school-began-on-mountain-farmland-184-years-later-an-86-7-acre-easement-completes-protection-of-land-stewarded-there-for-130-years/articleshow/133797971.cms",
+        "imageUrl": "https://static.toiimg.com/thumb/msid-133798229,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
         "categories": [
           "Top",
           "U.S.",
@@ -630,69 +636,14 @@
         ]
       },
       {
-        "id": "currents-c6b7b6af-2751-5be2-ac9b-05d28e883974",
-        "title": "Dan Vladař's new contract is a worthy bet for the goalie-starved Flyers",
-        "description": "The Flyers have been searching for a long-term solution in net for decades. The $27.5 million contract they handed Vladař this summer is proof ...",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-09-05T10:30:50.000Z",
-        "url": "https://www.inquirer.com/flyers/goalie-dan-vladar-2026-27-season-contract-20260905.html",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-dc969fb1-9624-5e67-bb30-042366ffb7d3",
-        "title": "The best thing Craig LaBan ate this week: Vietnamese fried chicken in deep South Philly",
-        "description": "The soups are fantastic at this family-run Vietnamese corner restaurant in deep South Philadelphia. But the fried chicken platter alone is worth ...",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-09-05T10:30:50.000Z",
-        "url": "https://www.inquirer.com/food/vietnamese-pho-fried-chicken-duyen-south-philadelphia-20260905.html",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-f167ee46-41bd-5949-a997-169bffc57f91",
-        "title": "A Philadelphia-based developer may score Haddon Heights' first liquor license",
-        "description": "The developer of the property at the corner of Station Avenue and the White Horse Pike will bid on the first license available since voters lifted ...",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-09-05T10:30:50.000Z",
-        "url": "https://www.inquirer.com/south-jersey/haddon-heights-liquor-license-station-avenue-20260905.html",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-fcf828b8-2535-5d85-8f0c-8dc2a457a934",
-        "title": "They used to date. Now they're best friends raising her child together. - The Philadelphia Inquirer",
-        "description": "Elysia Baskins initially asked Christopher Johnson to be a godfather.",
-        "publisher": "Inquirer",
-        "publisherDomain": "inquirer.com",
-        "publishedAt": "2026-09-05T10:30:50.000Z",
-        "url": "https://www.inquirer.com/life/life-partners-best-friends-baby-20260905.html",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-b427ba6b-4e47-5d28-8e17-6e15740bf7a7",
-        "title": "Taking Venezuela’s Oil: How We Got Here",
-        "description": "Supporting a stable world order that promotes the rule of law has made the U.S. the most prosperous nation in history. Trump has little time for that.",
-        "publisher": "Nationalreview",
-        "publisherDomain": "nationalreview.com",
-        "publishedAt": "2026-09-05T10:30:00.000Z",
-        "url": "https://www.nationalreview.com/2026/09/taking-venezuelas-oil-how-we-got-here",
+        "id": "currents-1fbdde4b-c036-5e82-9228-342f3a23aaad",
+        "title": "In 1844, a Mexican land grant gave settlers rights across what is now an 80,000-acre Colorado ranch; nearly two centuries later, the access fight has become the state’s longest-running land dispute",
+        "description": "A land dispute in Colorado dates back to an 1844 Mexican land grant and continues to involve questions over who can access the property and for what purposes. The land, now known as Cielo Vista Ranch and traditionally called La Sierra, covers about 80,000 acres in Costilla County.",
+        "publisher": "Indiatimes",
+        "publisherDomain": "timesofindia.indiatimes.com",
+        "publishedAt": "2026-09-05T13:30:23.000Z",
+        "url": "https://timesofindia.indiatimes.com/world/us/in-1844-a-mexican-land-grant-gave-settlers-rights-across-what-is-now-an-80000-acre-colorado-ranch-nearly-two-centuries-later-the-access-fight-has-become-the-states-longest-running-land-dispute/articleshow/133755132.cms",
+        "imageUrl": "https://static.toiimg.com/thumb/msid-133756713,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
         "categories": [
           "Top",
           "U.S.",
@@ -702,196 +653,55 @@
     ],
     "Business": [
       {
-        "id": "currents-a29eed6b-6dc8-59eb-add2-90e89d3a8c14",
-        "title": "Wanted: A new WNBA commissioner. She must be everything to everyone",
-        "description": "She must be approachable, charismatic and respected in the boardroom. The standard for female CEOs will always be higher and more personal.",
-        "publisher": "The New York Times",
-        "publisherDomain": "nytimes.com",
-        "publishedAt": "2026-09-05T10:00:58.000Z",
-        "url": "https://www.nytimes.com/athletic/7566384/2026/09/05/cathy-engelbert-wnba-commissioner-replacement",
-        "imageUrl": "https://static01.nyt.com/athletic/uploads/wp/2026/03/14113952/GettyImages-2226067786-scaled.jpg?width=1200&height=630&fit=cover",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-704ec7cd-0d80-5381-ad13-98e9ca1e5c4e",
-        "title": "US envoys Witkoff, Kushnerarrive in Moscow for talks on peace in Ukraine, sources say",
-        "description": "US envoys Steve Witkoff and Jared Kushner have arrived in Moscow for fresh talks aimed at ending the Ukraine war. The visit comes after Donald Trump said Washington has a new proposal, with the two negotiators expected to travel to Ukraine next.",
+        "id": "currents-0e7e9cd0-c486-54e2-b152-98370b6e16ff",
+        "title": "Childhood best time to instil good conduct: President Murmu at National Teachers Awards",
+        "description": "President Droupadi Murmu highlighted school education's foundational role for children's development. She stressed that teaching good conduct during childhood is highly effective. Teachers are praised for achieving a negligible primary school dropout rate. She urged teachers to instill confidence an...",
         "publisher": "Indiatimes",
         "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-09-05T10:36:51.000Z",
-        "url": "https://economictimes.indiatimes.com/news/international/world-news/us-envoys-witkoff-kushnerarrive-in-moscow-for-talks-on-peace-in-ukraine-sources-say/articleshow/133797397.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133797476,width-1200,height-630,imgsize-75684,overlay-economictimes/articleshow.jpg",
+        "publishedAt": "2026-09-05T13:10:20.000Z",
+        "url": "https://economictimes.indiatimes.com/news/india/president-murmu-advocates-for-strong-morals-in-education-at-national-teachers-awards/articleshow/133801572.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133802605,width-1200,height-630,imgsize-96188,overlay-economictimes/articleshow.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-7f47919f-a6fe-59dd-8680-ac4e7f2129b2",
-        "title": "Goldman raises Asia-Pacific equity target on tech earnings outlook By Investing.com",
-        "description": "Goldman raises Asia-Pacific equity target on tech earnings outlook",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-09-05T10:33:09.000Z",
-        "url": "https://www.investing.com/news/stock-market-news/goldman-raises-asiapacific-equity-target-on-tech-earnings-outlook-93CH-4890190",
-        "imageUrl": "https://content-media.investing.com/news/LYNXNPEC0K08U_L.jpg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-3616e641-6d6d-52b2-84d0-e92fe4103284",
-        "title": "Influencers are infiltrating this year's US Open, but it's not stopping tennis lovers",
-        "description": "In this Saturday edition of Business Insider Today, we're talking about what makes the 2026 US Open different from years past.",
-        "publisher": "Businessinsider",
-        "publisherDomain": "businessinsider.com",
-        "publishedAt": "2026-09-05T10:32:01.000Z",
-        "url": "https://www.businessinsider.com/us-open-influencers-controversy-explained-2026-9",
-        "imageUrl": "https://i.insider.com/6a9aff0161854fb4851a3fbd?width=1200&format=jpeg",
+        "id": "currents-aefdc28f-67da-5ff2-849e-36345664324e",
+        "title": "Changan Officially Launches SDA Pilot to Deliver Safer, Smoother and Stress-Free Intelligent Driving",
+        "description": "CHONGQING, China, Sept. 05, 2026 (GLOBE NEWSWIRE) — Changan Group has launched SDA Pilot, an advanced driver assistance system developed by its own engineering te…",
+        "publisher": "Financial Post",
+        "publisherDomain": "financialpost.com",
+        "publishedAt": "2026-09-05T13:07:49.000Z",
+        "url": "https://financialpost.com/globe-newswire/changan-officially-launches-sda-pilot-to-deliver-safer-smoother-and-stress-free-intelligent-driving",
+        "imageUrl": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/09/changan-group-has-launched-sda-pilot-an-advanced-driver-assi.jpeg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-faeb35da-bcfb-5756-902b-98e4df56f9a3",
-        "title": "Nepal PM Balendra Shah to address UN session to voice concern over climate change",
-        "description": "Nepal's Prime Minister Balendra Shah will address the UN General Assembly soon. He plans to raise climate change and seek international compensation for devastating floods. These flash floods, caused by an ice-rock avalanche, killed over thirteen hundred people. The Nepalese delegation is preparing ...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-09-05T10:27:23.000Z",
-        "url": "https://economictimes.indiatimes.com/news/international/world-news/nepal-pm-balendra-shah-to-address-un-session-to-voice-concern-over-climate-change/articleshow/133797087.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133797185,width-1200,height-630,imgsize-30390,overlay-economictimes/articleshow.jpg",
+        "id": "currents-42a503cd-a109-5a5f-8e76-6c8f847dee9d",
+        "title": "Russia to halt strikes on Kyiv during US diplomatic talks",
+        "description": "Russian President Vladimir Putin has ordered a halt on all strikes on Ukraine's capital Kyiv amid ongoing diplomatic talks.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-09-05T13:38:01.000Z",
+        "url": "https://www.abc.net.au/news/2026-09-05/russia-to-halt-strikes-on-kyiv-during-us-diplomatic-talks/107120486",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/5557237a563a53f41fcf6abcef182694?impolicy=wcms_watermark_news&cropH=540&cropW=960&xPos=0&yPos=88&width=862&height=485&imformat=generic",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-5f7aec6a-2611-5dda-88c3-49e5703f1e7f",
-        "title": "Prior consent mandatory for CBI to probe offences involving public servants: Bihar govt",
-        "description": "Bihar government mandates prior consent for CBI probes involving state public servants. A new Home Department notification supersedes all previous directives on this matter. The governor has accorded consent for extending CBI powers throughout the state. This consent is for investigating offenses by...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-09-05T10:16:02.000Z",
-        "url": "https://economictimes.indiatimes.com/news/politics-and-nation/prior-consent-mandatory-for-cbi-to-probe-offences-involving-public-servants-bihar-govt/articleshow/133796770.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133796924,width-1200,height-630,imgsize-120036,overlay-economictimes/articleshow.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-151d6d88-57f7-51f4-92bf-0210773d5ebe",
-        "title": "Here are three scenarios that could drive gold above $5,000 By Investing.com",
-        "description": "Here are three scenarios that could drive gold above $5,000",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-09-05T10:20:28.000Z",
-        "url": "https://www.investing.com/news/commodities-news/jefferies-identifies-three-scenarios-that-could-drive-gold-above-5000-4890189",
-        "imageUrl": "https://content-media.investing.com/news/LYNXMPED180L9_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-eb6bad7e-1b02-59fc-b98e-898aa4ef13c0",
-        "title": "Horse smuggling exposes cracks in US defenses against screwworm By Reuters",
-        "description": "Horse smuggling exposes cracks in US defenses against screwworm",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-09-05T10:12:27.000Z",
-        "url": "https://www.investing.com/news/commodities-news/horse-smuggling-exposes-cracks-in-us-defenses-against-screwworm-4890188",
-        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXMPEM8406X_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-c645cdc1-9a38-518e-a2ff-17d8f27c2258",
-        "title": "The Venezuelan billionaire the US investigated for money laundering now has a Pentagon oil deal By Reuters",
-        "description": "The Venezuelan billionaire the US investigated for money laundering now has a Pentagon oil deal",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-09-05T10:06:38.000Z",
-        "url": "https://www.investing.com/news/commodities-news/the-venezuelan-billionaire-the-us-investigated-for-money-laundering-now-has-a-pentagon-oil-deal-4890186",
-        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXMPEM8406R_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-a2568ad5-ec15-5a04-b923-f526fed3d4ec",
-        "title": "'Smugglers exploit vulnerable migrants’ hopes': Explosive testimony on unaccompanied alien children",
-        "description": "The House Subcommittee on Federal Law Enforcement held a roundtable on September 1, 2026, titled “Catch and Release, Lose and Forget: Addressing the Crisis of Unaccompanied Alien Children- Part III.” The hearing examined the challenges surrounding unaccompanied migrant children, including concerns o...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-09-05T10:24:43.000Z",
-        "url": "https://economictimes.indiatimes.com/news/international/world-news/smugglers-exploit-vulnerable-migrants-hopes-explosive-testimony-on-unaccompanied-children/videoshow/133797169.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133797169,width-1200,height-900,overlay-economictimes/news/international/world-news/smugglers-exploit-vulnerable-migrants-hopes-explosive-testimony-on-unaccompanied-children.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-a88f7cce-a860-5121-a91e-d70521fdf2ed",
-        "title": "CPC to leave domestic gasoline, diesel prices unchanged next week - Focus Taiwan",
-        "description": "Despite a spike in international crude oil prices, state-owned oil supplier CPC Corp., Taiwan said Saturday that it will keep its domestic gasoline and diesel prices steady next week.",
-        "publisher": "Focustaiwan",
-        "publisherDomain": "focustaiwan.tw",
-        "publishedAt": "2026-09-05T10:23:00.000Z",
-        "url": "https://focustaiwan.tw/business/202609050010",
-        "imageUrl": "https://imgcdn.cna.com.tw/Eng/images/default.png",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-dd04a0a8-a845-50ff-be23-f03ca9a526d7",
-        "title": "‘Hanuman Ansh’, film based on Neem Karoli Baba, declared tax-free in Uttarakhand; check details",
-        "description": "Uttarakhand Chief Minister Pushkar Singh Dhami announced the film 'Hanuman Ansh' will be tax-free. This movie showcases the life and teachings of spiritual leader Neem Karoli Baba. The film has achieved significant box office success after a slow start. It highlights Baba Neem Karoli's devotion, ser...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-09-05T10:14:02.000Z",
-        "url": "https://economictimes.indiatimes.com/news/new-updates/hanuman-ansh-film-based-on-neem-karoli-baba-declared-tax-free-in-uttarakhand-check-details/articleshow/133796778.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-133796868,width-1200,height-630,imgsize-59786,overlay-economictimes/articleshow.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-432135cf-775a-54c0-ad35-029aafda3ffb",
-        "title": "A SAP executive predicts a shakeout among software's winners and losers",
-        "description": "SAP executive Jan Gilg discusses the SaaSpocalypse impact and its AI investments. It's been competing more with Palantir and other AI companies.",
-        "publisher": "Businessinsider",
-        "publisherDomain": "businessinsider.com",
-        "publishedAt": "2026-09-05T10:00:01.000Z",
-        "url": "https://www.businessinsider.com/sap-bets-on-ai-to-recover-saaspocalypse-downturn-2026-9",
-        "imageUrl": "https://i.insider.com/6a975f63a2990857652e1a8c?width=1200&format=jpeg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-49f0375d-1db0-5d51-8a2b-45c39c3fb755",
-        "title": "Struggling to budget with inconsistent weekly income how do you actually make this work",
-        "description": "I seriously need help getting better with money because budgeting just doesn’t seem to stick for me. My income isn’t fixed. I get paid based on how many hours I work, so some weeks are pretty bad and other weeks are decent. That makes it hard for me to follow a normal monthly budget because I never ...",
+        "id": "currents-8c9f46c0-ad50-50c8-bee2-7eb0f36fc264",
+        "title": "Moving to new town- should I sell or rent my home",
+        "description": "I really love my home in Brownsville,tx but the market doesn’t seem to be growing as fast as years prior. Still there’s plenty of growth with spacex and lng. I bought this one just 2yrs ago for 280k I have a mortgage rate of 5.6%, owe 249k still. I had to buy a new home in my new city 5 hours away f...",
         "publisher": "Reddit",
         "publisherDomain": "reddit.com",
-        "publishedAt": "2026-09-05T10:49:30.000Z",
-        "url": "https://www.reddit.com/r/personalfinance/comments/1w7xgpd/struggling_to_budget_with_inconsistent_weekly",
+        "publishedAt": "2026-09-05T13:44:29.000Z",
+        "url": "https://www.reddit.com/r/personalfinance/comments/1w815wg/moving_to_new_town_should_i_sell_or_rent_my_home",
         "categories": [
           "Top",
           "Business",
@@ -899,27 +709,164 @@
         ]
       },
       {
-        "id": "currents-d6515841-a2e6-5e37-8390-8d5411cbb489",
-        "title": "A veteran chief engineer building a flying taxi shared the one piece of advice he'd give his 25-year-old self",
-        "description": "\"Just discover, and embrace the discovery, and learn as you go,\" David King, chief engineer of Vertical Aerospace told Business Insider.",
-        "publisher": "Businessinsider",
-        "publisherDomain": "businessinsider.com",
-        "publishedAt": "2026-09-05T10:30:01.000Z",
-        "url": "https://www.businessinsider.com/flying-taxi-chief-engineer-career-advice-embrace-discovery-unknown-2026-9",
-        "imageUrl": "https://i.insider.com/6a9abc96a86b54c443140245?width=1200&format=jpeg",
+        "id": "currents-6e486ceb-54a9-51be-83be-00dad47458f4",
+        "title": "India needs to believe it has the power, need to invest in sport and education: Cafu",
+        "description": "Legendary Brazilian captain Cafu urged India to believe in its football growth potential. He stated Brazil is open to developing cooperation in this important field. Cafu mentioned Japan and China previously sought Brazilian assistance for football development. India and Brazil are scheduled for the...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-09-05T13:05:32.000Z",
+        "url": "https://economictimes.indiatimes.com/news/sports/football/india-needs-to-believe-it-has-the-power-need-to-invest-in-sport-and-education-cafu/articleshow/133802496.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133802513,width-1200,height-630,imgsize-109308,overlay-economictimes/articleshow.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-e7b1749b-d38f-56e7-a3ed-0a7830f747d0",
-        "title": "What should an 18 yr old do?",
-        "description": "Just turned 18, what accounts should I open and when and does it matter what order? HYSA, brokerage, Roth IRA, etc. ? submitted by /u/CapableMushroom4562 [link] [comments]",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-09-05T10:16:12.000Z",
-        "url": "https://www.reddit.com/r/personalfinance/comments/1w7wvc5/what_should_an_18_yr_old_do",
+        "id": "currents-b91b52f6-d3be-5394-9f63-5313a7ba4d7b",
+        "title": "Iran accuses US of targeting tanker near Kharg Island",
+        "description": "Iran accused the United States of striking an oil tanker near Kharg Island. The US has not yet commented on the incident, which occurred near a key oil terminal. Meanwhile, Houthi rebels in Yemen blamed government forces for recent deadly attacks. Israeli strikes in southern Lebanon killed three peo...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-09-05T13:02:29.000Z",
+        "url": "https://economictimes.indiatimes.com/news/defence/iran-accuses-us-of-targeting-tanker-near-kharg-island-other-mideast-news/articleshow/133801726.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133802435,width-1200,height-630,imgsize-76496,overlay-etdefence/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-6a5e61e2-75fc-5c2d-9501-900ed5d4a9e3",
+        "title": "Engine flames from Sydney-bound Qantas flight forces plane to be diverted",
+        "description": "The Sydney-bound Boeing aircraft left the alpine ski town of Queenstown in New Zealand just before 3:30pm before it had to be diverted to Christchurch.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-09-05T13:38:01.000Z",
+        "url": "https://www.abc.net.au/news/2026-09-05/sydney-bound-qantas-flight-diverted-as-flames-come-from-plane/107120414",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/05ee2ab24317a8377f295e9f5af683de?impolicy=wcms_watermark_news&cropH=307&cropW=545&xPos=58&yPos=228&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-6fbe140b-51f3-57ed-8b43-28d9249aad4e",
+        "title": "US ambassador says Israel not planning forced displacement in Gaza",
+        "description": "US Ambassador to Israel Mike Huckabee's remarks come after Israeli ministers laid out ideas this week on how to expel the territory's two million people.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-09-05T13:38:01.000Z",
+        "url": "https://www.abc.net.au/news/2026-09-05/israel-not-planning-gaza-forced-displacement-us-ambassador-says/107120558",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/c3c581d47de83fe82bdcd8a5fc47269f?impolicy=wcms_watermark_news&cropH=1935&cropW=3440&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-f5d5ea08-81fd-526c-9a4c-d319c1f30b2f",
+        "title": "Two briefly detained over 'chaotic scenes' at Canberra junior AFL match",
+        "description": "Two spectators were briefly taken into custody after reports of flares being set off and items being thrown at players at the Under 18s AFL Canberra Grand Final between Marist College and the Belconnen Magpies last night.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-09-05T13:38:01.000Z",
+        "url": "https://www.abc.net.au/news/2026-09-05/act-flares-set-off-items-thrown-players-junior-afl-grand-final/107120130",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/a3e869fb762e30b4f7d22cc8c876736c?impolicy=wcms_watermark_news&cropH=765&cropW=1366&xPos=105&yPos=113&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-2eb69699-228e-504a-a1e9-794c936e50f4",
+        "title": "Nepal floods: Woman rescued after 10 days of being trapped in house buried under mud and debris",
+        "description": "A 60-year-old woman was rescued alive after being trapped for ten days. She was buried under mud and debris following devastating flash floods in Nepal. Rescuers located Chandika Shrestha on the top floor of her four-storey house. She was then flown by helicopter for initial medical treatment. The f...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-09-05T13:14:13.000Z",
+        "url": "https://economictimes.indiatimes.com/news/international/world-news/incredible-rescue-60-year-old-woman-survives-10-days-trapped-in-house-after-nepal-floods/articleshow/133802626.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133802702,width-1200,height-630,imgsize-47954,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-18d6463e-63af-5c98-bb66-d3946d41526c",
+        "title": "Himachal: 85 roads closed; wet spell likely to continue till Sep 11",
+        "description": "Persistent rainfall has blocked eighty-five roads across Himachal Pradesh. Light to moderate rain occurred in several locations, with Dharamshala recording the highest rainfall. The Shimla Meteorological Office predicts this wet spell will continue until September eleventh. Mandi district faces the ...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-09-05T13:02:21.000Z",
+        "url": "https://economictimes.indiatimes.com/news/india/himachal-85-roads-closed-wet-spell-likely-to-continue-till-sep-11/articleshow/133802361.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133802449,width-1200,height-630,imgsize-153776,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-29cd2270-8079-5a35-8d55-cfce88a203c1",
+        "title": "Who is Shardendu Tiwari, who gave up a Rs 46 lakh Amazon package to join Indian Army?",
+        "description": "A Rs 46 lakh annual package at Amazon and an opportunity with Airbus offered Shardendu Tiwari a promising corporate career. Instead, the 27-year-old Lucknow resident chose to pursue his childhood inclination towards the armed forces. After eight Army selection attempts, the second-generation soldier...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-09-05T12:59:55.000Z",
+        "url": "https://economictimes.indiatimes.com/news/new-updates/who-is-shardendu-tiwari-who-gave-up-a-rs-46-lakh-amazon-package-to-join-indian-army/articleshow/133801930.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-133802353,width-1200,height-630,imgsize-113965,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-23e7d09a-2c3e-5ea8-a63f-951351827d88",
+        "title": "Quincy nonprofit executive Curtis Sethaler announces new book, There is More – Muddy River News",
+        "description": "New book challenges readers to examine where they are, take ownership of what comes next and pursue their potential QUINCY — What happens when you …",
+        "publisher": "Muddyrivernews",
+        "publisherDomain": "muddyrivernews.com",
+        "publishedAt": "2026-09-05T13:18:03.000Z",
+        "url": "https://muddyrivernews.com/communities/illinois/quincy-nonprofit-executive-curtis-sethaler-announces-new-book-there-is-more/20260905064143",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-13212df6-dd4c-560b-9229-91b60952586d",
+        "title": "Disney World quietly makes another costly move",
+        "description": "It's expensive, but maybe worth it?",
+        "publisher": "Thestreet",
+        "publisherDomain": "thestreet.com",
+        "publishedAt": "2026-09-05T13:17:00.000Z",
+        "url": "https://www.thestreet.com/travel/disney-world-quietly-makes-another-costly-move",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-0862ffa6-7d70-52d3-a227-47015f2fc03a",
+        "title": "Private university sues coalition it helped launch, alleging 'hostile takeover' of operations",
+        "description": "A private university in Yellow Springs is suing a collaborative coalition it helped launch just three years ago, seeking to block what its leadership calls a “hostile takeover” of its governance. Here's what the parties are saying.",
+        "publisher": "Bizjournals",
+        "publisherDomain": "bizjournals.com",
+        "publishedAt": "2026-09-05T13:11:33.000Z",
+        "url": "https://www.bizjournals.com/dayton/news/2026/09/05/antioch-university-coalition-common-good-lawsuit.html?ana=brss_1566",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-92368a47-78c4-54d6-97d4-1ff2630019a8",
+        "title": "Lowe's bets $250 million on jobs AI can't take",
+        "description": "The home improvement giant wants to create 1 million six-figure jobs.",
+        "publisher": "Thestreet",
+        "publisherDomain": "thestreet.com",
+        "publishedAt": "2026-09-05T13:03:00.000Z",
+        "url": "https://www.thestreet.com/retail/lowes-launches-plan-to-create-1-million-high-paying-jobs",
         "categories": [
           "Top",
           "Business"
@@ -928,14 +875,46 @@
     ],
     "Technology": [
       {
-        "id": "currents-dea3c3cd-7730-55cc-a206-c59c548221c0",
-        "title": "Beyond Zero: Google Publishes Successor to BeyondCorp",
-        "description": "In a recent research paper, Google introduced Beyond Zero, a “security model for the AI era” that extends Zero Trust to autonomous AI agents. The new approach moves access decisions from the application level to individual resources and actions, combining static authorization controls with dynamic A...",
-        "publisher": "Infoq",
-        "publisherDomain": "infoq.com",
-        "publishedAt": "2026-09-05T10:40:00.000Z",
-        "url": "https://www.infoq.com/news/2026/09/google-beyond-zero",
-        "imageUrl": "https://res.infoq.com/news/2026/09/google-beyond-zero/en/headerimage/generatedHeaderImage-1787655112500.jpg",
+        "id": "currents-ae8e2eb7-9a97-59ed-a19d-245da4097d7f",
+        "title": "Node.js Security Essentials: The Checklist I Use in Production",
+        "description": "Every middleware, header, and validation rule that has actually stopped an attack — from a 7-year...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-05T13:30:00.000Z",
+        "url": "https://dev.to/mryadavgulshan/nodejs-security-essentials-the-checklist-i-use-in-production-13k0",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.pexels.com%2Fphotos%2F19399416%2Fpexels-photo-19399416.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26fit%3Dcrop%26h%3D627%26w%3D1200",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-c0f9e10d-6c73-5d37-934e-f90aaf7e2b45",
+        "title": "How to check your MacBook's hard drive health",
+        "description": "Searching for potential faults with your MacBook's hard drive before they occur is key. That's where Apple's Disk Utility tool and other apps come in.",
+        "publisher": "Engadget",
+        "publisherDomain": "engadget.com",
+        "publishedAt": "2026-09-05T13:30:00.000Z",
+        "url": "https://www.engadget.com/2247782/how-to-check-hard-drive-health-macbook",
+        "imageUrl": "https://www.engadget.com/img/gallery/how-to-check-your-macbooks-hard-drive-health/l-intro-1787932638.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-cb6f9a44-5fa3-5d20-8af4-1ac9b887b673",
+        "title": "AI has a safety problem nobody is ready for",
+        "description": "AI companies are racing to make their models safer, but those protections don’t appear to work equally well everywhere.",
+        "publisher": "Digitaltrends",
+        "publisherDomain": "digitaltrends.com",
+        "publishedAt": "2026-09-05T13:36:20.000Z",
+        "url": "https://www.digitaltrends.com/cool-tech/ai-has-a-safety-problem-nobody-is-ready-for",
+        "imageUrl": "https://www.digitaltrends.com/tachyon/2026/09/AI-tokens-for-ChatGPT.jpg?resize=1200%2C630",
         "categories": [
           "Top",
           "Technology",
@@ -944,14 +923,92 @@
         ]
       },
       {
-        "id": "currents-3e2f9f7e-d461-552e-8e1f-d94b46ea5e05",
-        "title": "I thought the Pixel 11 Pro was perfect. Then I got one",
-        "description": "On paper, Google's latest compact flagship is everything I want in a phone. Real-world use tells a different story",
-        "publisher": "Techadvisor",
-        "publisherDomain": "techadvisor.com",
-        "publishedAt": "2026-09-05T10:41:47.000Z",
-        "url": "https://www.techadvisor.com/article/3224358/i-thought-the-pixel-11-pro-was-perfect-then-i-got-one.html",
-        "imageUrl": "https://www.techadvisor.com/wp-content/uploads/2026/09/3224358-0-16611800-1788604911-google-pixel-11-pro.jpg?quality=50&strip=all&w=1024",
+        "id": "currents-9eaf1f26-71af-5696-8fdb-18b900383e5e",
+        "title": "This Week In Space podcast: Episode 226 — Who Owns The Moon?",
+        "description": "Capitalism and Property Rights in Space",
+        "publisher": "Space",
+        "publisherDomain": "space.com",
+        "publishedAt": "2026-09-05T13:30:52.000Z",
+        "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-226-who-owns-the-moon",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/wQ2tCNvqUmHxZr63qbgbx5-720-80.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-5cb154e1-231f-5136-9698-f05428c6897a",
+        "title": "I built PadForward because sometimes you just need a pad",
+        "description": "This is a submission for Weekend Challenge: Generosity Edition 💗 Live demo:...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-05T13:39:59.000Z",
+        "url": "https://dev.to/ujja/i-built-padforward-because-sometimes-you-just-need-a-pad-1ljl",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnk5cz4r10yt7jcxpntzx.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-cfdd8495-312c-5ddb-b233-bdf9566ab9fc",
+        "title": "The Dealership Charges $180/hr for This, I Do It With an ESP32",
+        "description": "Your car is not magic. It is just a noisy network with cupholders. Let me tell you how a service...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-05T13:35:06.000Z",
+        "url": "https://dev.to/numbpill3d/the-dealership-charges-180hr-for-this-i-do-it-with-an-esp32-off",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F566y2mffictoct06970x.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-f60a9a75-b7a0-588f-bc41-96fe53436356",
+        "title": "I automated Dependabot PR cleanup — and drew a hard line on what NOT to automate",
+        "description": "If you use GitHub, you know the rhythm: Dependabot opens a PR, CI runs green, and then a human has to...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-05T13:30:12.000Z",
+        "url": "https://dev.to/sunnydachs/i-automated-dependabot-pr-cleanup-and-drew-a-hard-line-on-what-not-to-automate-4jm1",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fsunnydachs%2Fdep-triage%2Fmain%2Fassets%2Fnote-cover-v2.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-3aeaf72a-3a7a-577a-9e8f-221b6dcd87ec",
+        "title": "Key path to Alzheimer’s-like brain damage starts outside the brain. Researchers have found that blocking immune cells in the body’s lymph nodes significantly reduces Alzheimer’s-like neurodegeneration in mice.",
+        "description": "submitted by /u/mvea [link] [comments]",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-09-05T13:34:09.000Z",
+        "url": "https://www.reddit.com/r/science/comments/1w80x4f/key_path_to_alzheimerslike_brain_damage_starts",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-2ecfd264-3d3d-5ecb-96f4-d15d103f0a6c",
+        "title": "Latent Powers",
+        "description": "Latent Powers",
+        "publisher": "Unsafe",
+        "publisherDomain": "unsafe.sh",
+        "publishedAt": "2026-09-05T13:45:37.000Z",
+        "url": "https://unsafe.sh/go-440364.html",
         "categories": [
           "Top",
           "Technology",
@@ -961,14 +1018,46 @@
     ],
     "Science": [
       {
-        "id": "currents-dea3c3cd-7730-55cc-a206-c59c548221c0",
-        "title": "Beyond Zero: Google Publishes Successor to BeyondCorp",
-        "description": "In a recent research paper, Google introduced Beyond Zero, a “security model for the AI era” that extends Zero Trust to autonomous AI agents. The new approach moves access decisions from the application level to individual resources and actions, combining static authorization controls with dynamic A...",
-        "publisher": "Infoq",
-        "publisherDomain": "infoq.com",
-        "publishedAt": "2026-09-05T10:40:00.000Z",
-        "url": "https://www.infoq.com/news/2026/09/google-beyond-zero",
-        "imageUrl": "https://res.infoq.com/news/2026/09/google-beyond-zero/en/headerimage/generatedHeaderImage-1787655112500.jpg",
+        "id": "currents-ae8e2eb7-9a97-59ed-a19d-245da4097d7f",
+        "title": "Node.js Security Essentials: The Checklist I Use in Production",
+        "description": "Every middleware, header, and validation rule that has actually stopped an attack — from a 7-year...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-05T13:30:00.000Z",
+        "url": "https://dev.to/mryadavgulshan/nodejs-security-essentials-the-checklist-i-use-in-production-13k0",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.pexels.com%2Fphotos%2F19399416%2Fpexels-photo-19399416.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26fit%3Dcrop%26h%3D627%26w%3D1200",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-c0f9e10d-6c73-5d37-934e-f90aaf7e2b45",
+        "title": "How to check your MacBook's hard drive health",
+        "description": "Searching for potential faults with your MacBook's hard drive before they occur is key. That's where Apple's Disk Utility tool and other apps come in.",
+        "publisher": "Engadget",
+        "publisherDomain": "engadget.com",
+        "publishedAt": "2026-09-05T13:30:00.000Z",
+        "url": "https://www.engadget.com/2247782/how-to-check-hard-drive-health-macbook",
+        "imageUrl": "https://www.engadget.com/img/gallery/how-to-check-your-macbooks-hard-drive-health/l-intro-1787932638.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-cb6f9a44-5fa3-5d20-8af4-1ac9b887b673",
+        "title": "AI has a safety problem nobody is ready for",
+        "description": "AI companies are racing to make their models safer, but those protections don’t appear to work equally well everywhere.",
+        "publisher": "Digitaltrends",
+        "publisherDomain": "digitaltrends.com",
+        "publishedAt": "2026-09-05T13:36:20.000Z",
+        "url": "https://www.digitaltrends.com/cool-tech/ai-has-a-safety-problem-nobody-is-ready-for",
+        "imageUrl": "https://www.digitaltrends.com/tachyon/2026/09/AI-tokens-for-ChatGPT.jpg?resize=1200%2C630",
         "categories": [
           "Top",
           "Technology",
@@ -977,14 +1066,92 @@
         ]
       },
       {
-        "id": "currents-3e2f9f7e-d461-552e-8e1f-d94b46ea5e05",
-        "title": "I thought the Pixel 11 Pro was perfect. Then I got one",
-        "description": "On paper, Google's latest compact flagship is everything I want in a phone. Real-world use tells a different story",
-        "publisher": "Techadvisor",
-        "publisherDomain": "techadvisor.com",
-        "publishedAt": "2026-09-05T10:41:47.000Z",
-        "url": "https://www.techadvisor.com/article/3224358/i-thought-the-pixel-11-pro-was-perfect-then-i-got-one.html",
-        "imageUrl": "https://www.techadvisor.com/wp-content/uploads/2026/09/3224358-0-16611800-1788604911-google-pixel-11-pro.jpg?quality=50&strip=all&w=1024",
+        "id": "currents-9eaf1f26-71af-5696-8fdb-18b900383e5e",
+        "title": "This Week In Space podcast: Episode 226 — Who Owns The Moon?",
+        "description": "Capitalism and Property Rights in Space",
+        "publisher": "Space",
+        "publisherDomain": "space.com",
+        "publishedAt": "2026-09-05T13:30:52.000Z",
+        "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-226-who-owns-the-moon",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/wQ2tCNvqUmHxZr63qbgbx5-720-80.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-5cb154e1-231f-5136-9698-f05428c6897a",
+        "title": "I built PadForward because sometimes you just need a pad",
+        "description": "This is a submission for Weekend Challenge: Generosity Edition 💗 Live demo:...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-05T13:39:59.000Z",
+        "url": "https://dev.to/ujja/i-built-padforward-because-sometimes-you-just-need-a-pad-1ljl",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnk5cz4r10yt7jcxpntzx.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-cfdd8495-312c-5ddb-b233-bdf9566ab9fc",
+        "title": "The Dealership Charges $180/hr for This, I Do It With an ESP32",
+        "description": "Your car is not magic. It is just a noisy network with cupholders. Let me tell you how a service...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-05T13:35:06.000Z",
+        "url": "https://dev.to/numbpill3d/the-dealership-charges-180hr-for-this-i-do-it-with-an-esp32-off",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F566y2mffictoct06970x.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-f60a9a75-b7a0-588f-bc41-96fe53436356",
+        "title": "I automated Dependabot PR cleanup — and drew a hard line on what NOT to automate",
+        "description": "If you use GitHub, you know the rhythm: Dependabot opens a PR, CI runs green, and then a human has to...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-05T13:30:12.000Z",
+        "url": "https://dev.to/sunnydachs/i-automated-dependabot-pr-cleanup-and-drew-a-hard-line-on-what-not-to-automate-4jm1",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fsunnydachs%2Fdep-triage%2Fmain%2Fassets%2Fnote-cover-v2.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-3aeaf72a-3a7a-577a-9e8f-221b6dcd87ec",
+        "title": "Key path to Alzheimer’s-like brain damage starts outside the brain. Researchers have found that blocking immune cells in the body’s lymph nodes significantly reduces Alzheimer’s-like neurodegeneration in mice.",
+        "description": "submitted by /u/mvea [link] [comments]",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-09-05T13:34:09.000Z",
+        "url": "https://www.reddit.com/r/science/comments/1w80x4f/key_path_to_alzheimerslike_brain_damage_starts",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-2ecfd264-3d3d-5ecb-96f4-d15d103f0a6c",
+        "title": "Latent Powers",
+        "description": "Latent Powers",
+        "publisher": "Unsafe",
+        "publisherDomain": "unsafe.sh",
+        "publishedAt": "2026-09-05T13:45:37.000Z",
+        "url": "https://unsafe.sh/go-440364.html",
         "categories": [
           "Top",
           "Technology",
@@ -994,207 +1161,208 @@
     ],
     "Sports": [
       {
-        "id": "currents-d69c6d2b-1b62-55eb-a7d9-edb4564136bb",
-        "title": "FIA court of appeal refutes Flavio Briatore impartiality claims",
-        "description": "The FIA court of appeal refutes a claim by Alpine boss Flavio Briatore which it says \"question the independence and impartiality of the judges\".",
-        "publisher": "BBC News",
-        "publisherDomain": "bbc.co.uk",
-        "publishedAt": "2026-09-05T10:02:46.000Z",
-        "url": "https://www.bbc.co.uk/sport/formula1/articles/c4g56x1xxn3o",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5073/live/ec27db20-a90d-11f1-b101-3b8aa2acb53f.jpg",
+        "id": "currents-48fc4b1d-09ac-5322-a9fa-f6edb24afe08",
+        "title": "7 Coastlines Where the Land Is Rising Faster Than the Sea",
+        "description": "You probably hear a lot about seas swallowing cities, but far less about the places where the ground itself is quietly lifting skyward. Along a handful of unusual coasts, the land is rising faster than the water, reshaping harbors, exposing new beaches, and forcing you to rethink what climate risk l...",
+        "publisher": "Discoverwildscience",
+        "publisherDomain": "discoverwildscience.com",
+        "publishedAt": "2026-09-05T13:08:01.000Z",
+        "url": "https://discoverwildscience.com/7-coastlines-where-the-land-is-rising-faster-than-the-sea-1-415548",
+        "imageUrl": "https://discoverwildscience.com/wp-content/uploads/2026/09/1788613233542_photo-1583373871860-9ba55c3cbd54.jpeg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-70e9a406-363d-5bdf-852a-c208041a110a",
-        "title": "Nottinghamshire v Leicestershire, Essex v Sussex: county cricket, day four – live",
-        "description": "Join Tanya Aldred for updates from Trent Bridge and beyond as the latest round of County Championship matches draw to a close",
-        "publisher": "The Guardian",
-        "publisherDomain": "theguardian.com",
-        "publishedAt": "2026-09-05T10:25:23.000Z",
-        "url": "https://www.theguardian.com/sport/live/2026/sep/05/nottinghamshire-leicestershire-essex-sussex-county-cricket-day-four-live",
-        "imageUrl": "https://i.guim.co.uk/img/media/892e1013f74cd02841058c6afbb0c2fa393c47dd/583_0_2917_2333/master/2917.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=0d256f7c6bff371a34227ad0529f9a6a",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-71db890b-6896-51a1-b042-20cade49ad7d",
-        "title": "Serbian club punished by Uefa over fan chants in honour of war criminal Ratko Mladic",
-        "description": "Ratko Mladic died last week at the age of 84 while serving a life sentence for genocide",
-        "publisher": "Independent",
-        "publisherDomain": "independent.co.uk",
-        "publishedAt": "2026-09-05T10:09:56.000Z",
-        "url": "https://www.independent.co.uk/sport/football/ratko-mladic-red-star-belgrade-chants-uefa-b3045186.html",
-        "imageUrl": "https://static.independent.co.uk/2026/09/05/11/2292408449..?trim=0,0,0,0&width=1200&height=800&crop=1200:800",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-2e288209-4256-5337-8927-1e6f4e22e654",
-        "title": "Michael Higgins: Canadians are proud, angry and want answers from Parliament",
-        "description": "A majority want Carney to explain the trade war, new Leger poll finds",
-        "publisher": "Nationalpost",
-        "publisherDomain": "nationalpost.com",
-        "publishedAt": "2026-09-05T10:00:45.000Z",
-        "url": "https://nationalpost.com/opinion/michael-higgins-canadians-are-proud-angry-and-want-answers-from-parliament",
-        "imageUrl": "https://smartcdn.gprod.postmedia.digital/nationalpost/wp-content/uploads/2026/08/2291340202_304845117.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-df6fb8a2-8b36-5b00-9b9c-7216a7c8df22",
-        "title": "Steve Clarke needed to give SFA 'a little shove' for new contract",
-        "description": "Steve Clarke says he had to cajole the Scottish FA into handing him a new contract as national head coach shortly before the World Cup finals this summer because he felt the governing body was hedging its bets.",
-        "publisher": "BBC News",
-        "publisherDomain": "bbc.co.uk",
-        "publishedAt": "2026-09-05T10:14:28.000Z",
-        "url": "https://www.bbc.co.uk/sport/football/articles/c790e8dxddro",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/ce0a/live/51cc6050-a912-11f1-b109-879e35c24276.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-8bf9eb82-39ec-5d59-ac3f-a55436ca8fff",
-        "title": "Real Madrid Captain Included In Uruguay's Squad For International Friendy Vs India",
-        "description": "Uruguay announced a star-studded squad for an international friendly against India. Diego Forlán, new head coach, will lead the team including Valverde, Núñez, Araújo, and Giménez.",
-        "publisher": "News18",
-        "publisherDomain": "news18.com",
-        "publishedAt": "2026-09-05T10:46:14.000Z",
-        "url": "https://www.news18.com/sports/football/real-madrid-captain-included-in-uruguays-squad-for-international-friendy-vs-india-ws-l-10311949.html",
-        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/09/Valverde-2026-09-5ef19a98f0c47d259c637a6fe30196d2-1200x675.png",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-d03a4773-a4e0-591b-b60d-8d8d835706e7",
-        "title": "‘Naive’ Sligo Rovers need to ‘grasp position we’re in’ says manager Darren Purse after cup exit",
-        "description": "Purse feels his Sligo Rovers side lacks organisers ‘at this moment’",
-        "publisher": "Independent",
-        "publisherDomain": "independent.ie",
-        "publishedAt": "2026-09-05T10:30:00.000Z",
-        "url": "https://www.independent.ie/county/sligo/naive-sligo-rovers-need-to-grasp-position-were-in-says-manager-darren-purse-after-cup-exit/a/161020485.html",
-        "imageUrl": "https://prod-img.independent.ie/public/incoming/hd57kc-3557989.jpg/alternates/SIXTEEN_NINE_1200/3557989.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-2316d109-4791-51df-b894-440fdadf0c75",
-        "title": "Iran accuses the US of targeting a tanker near Kharg Island, and other Mideast news",
-        "description": "Iran on Saturday accused the U.S. of attacking an Iranian tanker near Kharg Island in the Persian Gulf. The U.S. did not immediately comment, but a new strike would raise the risk of sparking a new round of Iranian attacks on U.S. allies and interests in the region.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-09-05T10:14:18.000Z",
-        "url": "https://www.winnipegfreepress.com/world/2026/09/05/iran-accuses-the-us-of-targeting-a-tanker-near-kharg-island-and-other-mideast-news",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a9a9052d98934d156906346jpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-38320243-5770-560e-95cd-e58e42d5b57c",
-        "title": "Swans fear worst after ‘devastating’ Mills injury mars epic victory over Lions",
-        "description": "Swans coach Dean Cox says he “always believed” his side could upset the odds and beat Brisbane in Saturday’s qualifying final. But whatever happens next, their captain won’t be involved.",
-        "publisher": "Smh",
-        "publisherDomain": "smh.com.au",
-        "publishedAt": "2026-09-05T10:13:44.000Z",
-        "url": "https://www.smh.com.au/sport/afl/swans-fear-worst-after-devastating-mills-injury-tempers-joy-of-epic-victory-over-lions-20260905-p60uqt.html",
-        "imageUrl": "https://static.ffx.io/images/$zoom_0.7004%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_77/t_crop_custom/q_86%2Cf_auto/7524be4bc0581bae33bec17208b4a0c33db9177516f4401eade1a9a4d8284f75",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-c48c844f-2217-5d48-ae79-0ef07378412e",
-        "title": "World No.1 Aryna Sabalenka forced to stop US Open match to complain about fan smoking cannabis",
-        "description": "World No.1 Aryna Sabalenka broke off from her third-round match at the US Open to ask the chair umpire to deal with a fan smoking cannabis in the stands of Louis Armstrong Stadium.",
-        "publisher": "Independent",
-        "publisherDomain": "independent.ie",
-        "publishedAt": "2026-09-05T10:11:00.000Z",
-        "url": "https://www.independent.ie/sport/other-sports/tennis/world-no.1-aryna-sabalenka-forced-to-stop-us-open-match-to-complain-about-fan-smoking-cannabis/a/161022180.html",
-        "imageUrl": "https://prod-img.independent.ie/public/incoming/uwk9y4-usopen-1427.jpg/alternates/SIXTEEN_NINE_1200/-USOPEN%201427.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-c479c047-4dab-5047-bcbe-91ba67fa6aa1",
-        "title": "Pharmacist says people are taking vitamin D wrong and 'wasting' the pills",
-        "description": "Everyone is supposed to take the daily pill as we head into autumn",
+        "id": "currents-ac6ba0eb-dd9e-54f8-ba9d-f09abd03d400",
+        "title": "Chef who feared death at 23 stone turns life around after binge-eating battle",
+        "description": "\"I just thought something has got to change. Otherwise I’m going to have a major heart attack and die, my kids are going to grow up without a father.\"",
         "publisher": "Belfastlive",
         "publisherDomain": "belfastlive.co.uk",
-        "publishedAt": "2026-09-05T10:05:14.000Z",
-        "url": "https://www.belfastlive.co.uk/news/health/pharmacist-says-poeople-taking-vitamin-34572364",
-        "imageUrl": "https://i2-prod.belfastlive.co.uk/article34572369.ece/ALTERNATES/s1200d/0_GettyImages-1432823897-1.jpg",
+        "publishedAt": "2026-09-05T13:36:17.000Z",
+        "url": "https://www.belfastlive.co.uk/news/uk-world-news/chef-who-feared-death-23-34573110",
+        "imageUrl": "https://i2-prod.belfastlive.co.uk/article34573120.ece/ALTERNATES/s1200d/0_01M1NGBCW6V1DJW1F5NJ64MWCD.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-7019adcd-977c-5a9d-802d-b198ea4f5dce",
-        "title": "Jashari shares background on Amorim call and season targets: \"That’s a promise\"",
-        "description": "Ardon Jashari has opened up about his second season with Milan and the transfer rumours in the summer, opting to stay after talking with Ruben Amorim.",
-        "publisher": "Sempremilan",
-        "publisherDomain": "sempremilan.com",
-        "publishedAt": "2026-09-05T10:05:00.000Z",
-        "url": "https://sempremilan.com/jashari-background-amorim-season-promise",
-        "imageUrl": "https://icdn.sempremilan.com/wp-content/uploads/2026/09/jashari-interview-gds.jpg",
+        "id": "currents-ef7498dc-5e4f-5ce3-84b1-7e0f351a80dd",
+        "title": "‘Emotional’ Taylor Walker backs in coach with pointed comment",
+        "description": "The Adelaide legend capped a fitting farewell before addressing the elephant in the room.",
+        "publisher": "Thewest",
+        "publisherDomain": "thewest.com.au",
+        "publishedAt": "2026-09-05T13:35:53.000Z",
+        "url": "https://thewest.com.au/sport/afl/emotional-taylor-walker-backs-in-coach-matthew-nicks-with-pointed-comment-after-win-over-western-bulldogs-c-22829496",
+        "imageUrl": "https://images.thewest.com.au/publication/C-22829496/6cb44ce90de6ffe313cedafa0ca7d7efd4dfdc7a-16x9-x0y2w1280h720.jpg?imwidth=1200",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-0183e49e-a802-5fc3-9feb-cb3d9aabd3ac",
-        "title": "Teenage boy on e-bike killed in hit-and-run crash",
-        "description": "The fatal road traffic incident occurred shortly after 11pm on Friday evening, September 4",
-        "publisher": "Belfastlive",
-        "publisherDomain": "belfastlive.co.uk",
-        "publishedAt": "2026-09-05T10:03:00.000Z",
-        "url": "https://www.belfastlive.co.uk/news/uk-world-news/teenage-boy-e-bike-killed-34572345",
-        "imageUrl": "https://i2-prod.belfastlive.co.uk/article33915377.ece/ALTERNATES/s1200d/1_Emergency-Services-Stock.jpg",
+        "id": "currents-2d13b83e-40e8-59d8-bc04-4c274e66a83b",
+        "title": "Miami Has a New Star QB, a New Superstar Receiver and Two Heisman Candidates",
+        "description": "Darian Mensah threw for 400 yards and five touchdowns while Malachi Toney erupted for 233 yards and three scores in Miami's Week 1 win.",
+        "publisher": "Deadspin",
+        "publisherDomain": "deadspin.com",
+        "publishedAt": "2026-09-05T13:25:35.000Z",
+        "url": "https://deadspin.com/miami-has-a-new-star-qb-a-new-superstar-receiver-and-two-heisman-candidates",
+        "imageUrl": "https://images.deadspin.com/tr:w-1200,h-675,fo-auto/1788614571465",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-a8d2c52f-a986-5c77-8b8c-49660c770a56",
-        "title": "Rhode Island Gov. Dan McKee faces rematch with Helena Foulkes amid turmoil over Washington Bridge",
-        "description": "PROVIDENCE, R.I. (AP) — Four years ago, Rhode Island Gov. Dan McKee was celebrating his narrow victory in the Democratic primary surrounded by supporters, when someone handed him phone — it was his opponent simply calling to concede.",
+        "id": "currents-9282d15d-0490-5af6-a13f-047589434f69",
+        "title": "Police launch witness appeal after girl, 12, hit by car outside West Lothian school",
+        "description": "West Main Street in Armadale was closed for a number of hours following the incident on Thursday afternoon (September 3)",
+        "publisher": "Scotsman",
+        "publisherDomain": "edinburghnews.scotsman.com",
+        "publishedAt": "2026-09-05T13:24:53.000Z",
+        "url": "https://www.edinburghnews.scotsman.com/news/police-issue-appeal-for-witnesses-after-12-year-old-girl-hit-by-car-outside-armadale-academy-8962084",
+        "imageUrl": "https://www.edinburghnews.scotsman.com/jpim-static/image/2026/09/03/15/49/Armadale-Academy-Incident.jpeg?trim=85,0,85,0&crop=&width=1200&auto=webp&quality=75",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-f7b1256a-f174-5d12-bcf1-faa1b1c98c81",
+        "title": "Man, 26, in 'serious' condition after being found injured near Asda supermarket",
+        "description": "Emergency services raced to the scene after the 26-year-old was found injured near the Asda supermarket in Chesser",
+        "publisher": "Scotsman",
+        "publisherDomain": "edinburghnews.scotsman.com",
+        "publishedAt": "2026-09-05T13:24:36.000Z",
+        "url": "https://www.edinburghnews.scotsman.com/news/man-serious-condition-found-injured-asda-supermarket-slateford-road-8962021",
+        "imageUrl": "https://www.edinburghnews.scotsman.com/jpim-static/image/2026/09/05/11/30/Untitled-design-2026-09-05T124203-923.png?trim=0,0,0,0&crop=&width=1200&auto=webp&quality=75",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-d01d9b54-c3b3-5356-a98d-7280c3ef87bb",
+        "title": "Car deliberately set on fire in Bathgate as police probe 'suspicious' incident",
+        "description": "The incident saw a Jeep vehicle deliberately set alight with another car also damaged in theblaze",
+        "publisher": "Scotsman",
+        "publisherDomain": "edinburghnews.scotsman.com",
+        "publishedAt": "2026-09-05T13:24:20.000Z",
+        "url": "https://www.edinburghnews.scotsman.com/news/crime/car-deliberately-set-on-fire-in-bathgate-as-police-probe-incident-8961956",
+        "imageUrl": "https://www.edinburghnews.scotsman.com/jpim-static/image/2026/09/05/10/33/Untitled-design-2026-09-05T102853-841.png?trim=0,0,0,0&crop=&width=1200&auto=webp&quality=75",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-e05c1f4e-0e52-5016-bbe9-3ee89676b0c1",
+        "title": "5-time Tour de France winner Tadej Pogacar ends season after injury, extends contract",
+        "description": "SIERRA DE LA PANDERA, Spain (AP) — Tadej Pogacar has confirmed his season is over after his heavy crash in the Spanish Vuelta and that he extended his contract with UAE Team Emirates-XRG for another two years through 2032.",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-09-05T10:00:48.000Z",
-        "url": "https://www.winnipegfreepress.com/world/2026/09/05/rhode-island-gov-dan-mckee-faces-rematch-with-helena-foulkes-amid-turmoil-over-washington-bridge",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a9be847d98934d1569186c2jpeg.jpg?w=1600",
+        "publishedAt": "2026-09-05T13:20:09.000Z",
+        "url": "https://www.winnipegfreepress.com/uncategorized/2026/09/05/5-time-tour-de-france-winner-tadej-pogacar-ends-season-after-injury-extends-contract",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a89ec9e270eb4db4d5ef853jpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-84b6c467-a3a5-575c-8695-973bf5c30ccc",
-        "title": "2026 Italian GP - Free Practice 3 Discussion",
-        "description": "ROUND 13 - ITALIAN FORMULA 1 PIRELLI GRAN PREMIO D'ITALIA 2026 🕒 SESSION TIMES Day Session Time (UTC) FRI Free Practice 1 10:30 FRI Free Practice 2 14:00 SAT Free Practice 3 10:30 SAT Qualifying 14:00 SUN Race 13:00 🏁 RACE INFORMATION Track: Autodromo Nazionale Monza Location: Monza,...",
+        "id": "currents-13b59a4d-d4f4-57ed-9871-083991831af3",
+        "title": "Juan Soto, Mets strive to claim series against Rafael Devers and Giants",
+        "description": "Deadspin | Juan Soto, Mets strive to claim series against Rafael Devers and Giants",
+        "publisher": "Deadspin",
+        "publisherDomain": "deadspin.com",
+        "publishedAt": "2026-09-05T13:17:41.000Z",
+        "url": "https://deadspin.com/juan-soto-mets-strive-to-claim-series-against-rafael-devers-and-giants",
+        "imageUrl": "https://images.deadspin.com/tr:w-1200,h-675,fo-auto/29739364.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-b7b5f253-1530-5c4c-a043-65bd44e1c630",
+        "title": "Popular Belfast sandwich shop temporarily closed after fire",
+        "description": "\"We hope to be back open as soon as we can\"",
+        "publisher": "Belfastlive",
+        "publisherDomain": "belfastlive.co.uk",
+        "publishedAt": "2026-09-05T13:16:01.000Z",
+        "url": "https://www.belfastlive.co.uk/news/belfast-news/north-belfast-sandwich-shop-temporarily-34572966",
+        "imageUrl": "https://i2-prod.belfastlive.co.uk/article34573005.ece/ALTERNATES/s1200d/125840930_3651041501582687_8330560849133516833_n.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-11102aac-432b-5d0c-b411-7a27213722f3",
+        "title": "UFC Paris: Everything to Watch as Salahdine Parnasse Debuts Against Dan Hooker",
+        "description": "UFC Paris is headlined by Salahdine Parnasse's highly anticipated debut against Dan Hooker. Here's everything to watch on the full card.",
+        "publisher": "Deadspin",
+        "publisherDomain": "deadspin.com",
+        "publishedAt": "2026-09-05T13:08:11.000Z",
+        "url": "https://deadspin.com/ufc-paris-everything-to-watch-as-salahdine-parnasse-debuts-against-dan-hooker",
+        "imageUrl": "https://images.deadspin.com/tr:w-1200,h-675,fo-auto/1788613573218",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-8ad3815e-a8fe-578b-9987-2f11f8232aab",
+        "title": "At their home away from home, Brewers pursue another win against Reds",
+        "description": "Deadspin | At their home away from home, Brewers pursue another win against Reds",
+        "publisher": "Deadspin",
+        "publisherDomain": "deadspin.com",
+        "publishedAt": "2026-09-05T13:07:50.000Z",
+        "url": "https://deadspin.com/at-their-home-away-from-home-brewers-pursue-another-win-against-reds",
+        "imageUrl": "https://images.deadspin.com/tr:w-1200,h-675,fo-auto/29740525.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-18b4443f-365d-5061-a5b8-455f9a2f35cb",
+        "title": "Wanyonyi's record ratified as he got ready for Brussels final",
+        "description": "During the historic July moment, Wanyonyi became the first athlete in almost 27 years to break the men’s 1000m world record.",
+        "publisher": "Co",
+        "publisherDomain": "standardmedia.co.ke",
+        "publishedAt": "2026-09-05T13:05:48.000Z",
+        "url": "https://www.standardmedia.co.ke/sports/article/2001557065/wanyonyi-s-record-ratified-as-he-got-ready-for-brussels-final",
+        "imageUrl": "https://cdn.standardmedia.co.ke/images/articles/thumbnails/2IehtRU8je1Y0hdE8CcUon5ZxTp7K5ZKw286P1Y7.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-511f7512-41c8-5453-a9f3-426db154fc35",
+        "title": "UFC Paris Odds: The Biggest Line Moves Bettors Need to Know",
+        "description": "UFC Paris betting lines have moved dramatically, with Luis Felipe Dias falling from a -300 favorite to a near pick'em against Matthieu Duclos.",
+        "publisher": "Deadspin",
+        "publisherDomain": "deadspin.com",
+        "publishedAt": "2026-09-05T13:04:57.000Z",
+        "url": "https://deadspin.com/ufc-paris-odds-the-biggest-line-moves-bettors-need-to-know",
+        "imageUrl": "https://images.deadspin.com/tr:w-1200,h-675,fo-auto/1788613428063",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-25061b63-4905-560e-9975-cf38c11bbdaa",
+        "title": "After years of defying the odds, California's David Valadao faces new test as Latinos turn on Trump",
+        "description": "HANFORD, Calif. (AP) — For years, Rep. David Valadao benefited from voting patterns that shifted toward Republicans in his rural, heavily Latino district in Central California, deep in the state’s farm belt where highways crisscross boundless stretches of almond groves, cornfields and dairy feed lot...",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-09-05T13:03:53.000Z",
+        "url": "https://www.winnipegfreepress.com/world/2026/09/05/after-years-of-defying-the-odds-californias-david-valadao-faces-new-test-as-latinos-turn-on-trump",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/08/6a9c13271a2657928f8aee06jpeg.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-ee286a35-42ef-5e0b-b6f7-3324181ea519",
+        "title": "Liam Lawson will start from the back of the grid",
+        "description": "submitted by /u/Luffy710j [link] [comments]",
         "publisher": "Reddit",
         "publisherDomain": "reddit.com",
-        "publishedAt": "2026-09-05T10:20:20.000Z",
-        "url": "https://www.reddit.com/r/formula1/comments/1w7wxzu/2026_italian_gp_free_practice_3_discussion",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-00f204fb-7009-584e-9c86-47a5e67a2f88",
-        "title": "Storm winger leaves on a stretcher before sin bin",
-        "description": "Michael Gabrael heads to the sin bin as Storm winger Siulagi Tuimalatu-Brown is stretchered off.",
-        "publisher": "Theage",
-        "publisherDomain": "theage.com.au",
-        "publishedAt": "2026-09-05T10:16:28.000Z",
-        "url": "https://www.theage.com.au/sport/nrl/storm-winger-leaves-on-a-stretcher-before-sin-bin-20260905-p60ur1.html?ref=rss",
+        "publishedAt": "2026-09-05T13:04:56.000Z",
+        "url": "https://www.reddit.com/r/formula1/comments/1w8090v/liam_lawson_will_start_from_the_back_of_the_grid",
         "categories": [
           "Sports"
         ]
@@ -1202,40 +1370,27 @@
     ],
     "Entertainment": [
       {
-        "id": "currents-4639805d-317e-579c-9880-55cbf395d673",
-        "title": "The Darkness announce surprise 'Crock Of Hits' intimate London Moth Club show",
-        "description": "The Darkness announce surprise 'Crock Of Hits' intimate London Moth Club show. Click here to see how to get tickets.",
-        "publisher": "Nme",
-        "publisherDomain": "nme.com",
-        "publishedAt": "2026-09-05T10:42:26.000Z",
-        "url": "https://www.nme.com/news/music/the-darkness-announce-surprise-crock-of-hits-intimate-london-moth-club-show-3967167",
-        "imageUrl": "https://www.nme.com/wp-content/uploads/2026/09/Justin-Hawkins-of-The-Darkness.-CREDIT_-Jim-Dyson_Getty-Images.jpg",
+        "id": "currents-0959ea32-c51a-508c-9a2d-5d0f245cfe42",
+        "title": "Pussycat Dolls' Kimberly Wyatt hints this reunion will 'be their last'",
+        "description": "The singer, 44, along with two other members of the noughties girl group - Nicole Scherzinger and Ashley Roberts - announced their return with a new single and world tour earlier this year.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-09-05T13:04:17.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16066401/Pussycat-Dolls-Kimberly-Wyatt-reunion-cancelling-US-dates.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/08/27/16/108745065-0-image-m-16_1787842822234.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-b0436e6b-0558-500d-8c74-9fe2447558c4",
-        "title": "Farah Khan Reveals 'Masakali' Was Originally Made For Shah Rukh Khan, Deepika Padukone's Om Shanti Om",
-        "description": "Farah Khan said she didn't know where she'd put the song in the film.",
-        "publisher": "News18",
-        "publisherDomain": "news18.com",
-        "publishedAt": "2026-09-05T10:33:07.000Z",
-        "url": "https://www.news18.com/movies/bollywood/farah-khan-reveals-masakali-was-originally-made-for-shah-rukh-khan-deepika-padukones-om-shanti-om-ws-l-10311878.html",
-        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/06/om-shanti-om-2026-06-083c870dda9621f27f75032c57d163d6-1200x675.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-ec805f66-75e3-5eff-ad3a-0d7f670f4159",
-        "title": "People Are Warning Others About The Hobbies That Will Drain Your Wallet And Soul",
-        "description": "\"It's one of my great loves – don't do it.\"",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-09-05T10:31:05.000Z",
-        "url": "https://www.buzzfeed.com/jennaguillaume/expensive-hobbies",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/21/01/thumb/ZPBcHU7hO.jpg?crop=1250:654;0,126%26downsize=1250:*",
+        "id": "currents-91959896-2265-5b3e-a2b9-b3af089ed3d9",
+        "title": "2-Year-Old Girl Falls From Jersey Shore Amusement Park Ride",
+        "description": "A 2-year-old girl fell from a chairlift-style amusement park ride on the Jersey Shore.",
+        "publisher": "Tmz",
+        "publisherDomain": "tmz.com",
+        "publishedAt": "2026-09-05T13:35:01.000Z",
+        "url": "https://www.tmz.com/2026/09/05/toddler-falls-off-jersey-shore-amusement-park-ride",
+        "imageUrl": "https://imagez.tmz.com/image/0e/16by9/2026/09/05/0e6e0c7f18a84f5fbd56b5d2d308325f_xl.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1243,27 +1398,14 @@
         ]
       },
       {
-        "id": "currents-3e0159ec-413c-5794-893e-d6c1df3e236a",
-        "title": "Paul Thomas Anderson ‘has chosen’ his next film – but what is it?",
-        "description": "Filmmaker won Best Director and Best Picture at the Oscars this year for ‘One Battle After Another’",
-        "publisher": "Independent",
-        "publisherDomain": "independent.co.uk",
-        "publishedAt": "2026-09-05T10:07:21.000Z",
-        "url": "https://www.independent.co.uk/arts-entertainment/films/news/paul-thomas-anderson-next-film-one-battle-after-another-b3045188.html",
-        "imageUrl": "https://static.independent.co.uk/2026/09/04/12/21/GettyImages-2266341530.jpeg?trim=161,0,2359,483&width=1200&height=800&crop=1200:800",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-c5ba2d04-7e80-537e-994f-ba1325b7d08a",
-        "title": "Just 22 “Little Treats” From Etsy To Buy Yourself If You Could Use A Budget-Friendly Pick-Me-Up",
-        "description": "Whimsical? Yes. Under $30? Also yes!",
+        "id": "currents-7140ea6d-ca27-5c82-9f2b-251e6046e217",
+        "title": "Hey You, These 27 Skincare Products Have Been Missing From Your Life All These Years",
+        "description": "How you've gone your whole adult life without this caffeinated eye cream, you'll never understand.",
         "publisher": "Buzzfeed",
         "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-09-05T10:31:03.000Z",
-        "url": "https://www.buzzfeed.com/danielboan/budget-friendly-etsy-treats-september-2026-an",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-03/18/20/thumb/8EKfki7_G.jpg?crop=3000:1571;0,211%26downsize=1250:*",
+        "publishedAt": "2026-09-05T13:31:02.000Z",
+        "url": "https://www.buzzfeed.com/jessicahall2/skincare-products-youve-been-missing-an",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/05/14/thumb/jPaEJ7vw-.jpg",
         "categories": [
           "Top",
           "U.S.",
@@ -1271,144 +1413,171 @@
         ]
       },
       {
-        "id": "currents-c2414123-7500-5708-8325-edf22c84b6b5",
-        "title": "Which Ivy League School Should You Attend?",
-        "description": "Pick some interesting electives and find out!",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-09-05T10:21:02.000Z",
-        "url": "https://www.buzzfeed.com/jbennett300/which-ivy-league-school-should-you-attend",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-09/02/21/thumb/XhtED85x9.jpg?crop=2500:1309;0,0%26downsize=1250:*",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-c1affd67-f63d-5aca-8e1d-6d9b2b3d6471",
-        "title": "Jaanwar Director Recalls Akshay Kumar And Shilpa Shetty 'Were Almost Getting Married, But...'",
-        "description": "Suneel Darshan recalled Akshay Kumar and Shilpa Shetty were almost getting married before misunderstandings led to their breakup.",
+        "id": "currents-955e25cf-36e7-5511-9335-74f242f56d49",
+        "title": "Shah Rukh Khan Told Underworld ‘Just Shoot Me’ After Being Threatened, Sanjay Gupta Recalls: 'I Am A Pathaan'",
+        "description": "Sanjay Gupta recalls Shah Rukh Khan refusing underworld demands despite threats, saying, ‘I am a Pathaan, just shoot me if you want.’",
         "publisher": "News18",
         "publisherDomain": "news18.com",
-        "publishedAt": "2026-09-05T10:20:34.000Z",
-        "url": "https://www.news18.com/movies/bollywood/jaanwar-director-recalls-akshay-kumar-and-shilpa-shetty-were-almost-getting-married-but-ws-l-10311920.html",
-        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/09/FotoJet-2026-09-05T154025.097-2026-09-209c5280cf04d2be63dc7371ab0cf320-1200x675.jpg",
+        "publishedAt": "2026-09-05T13:26:40.000Z",
+        "url": "https://www.news18.com/movies/bollywood/shah-rukh-khan-told-underworld-just-shoot-me-after-being-threatened-sanjay-gupta-recalls-i-am-a-pathaan-ws-l-10312211.html",
+        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/04/FotoJet-2026-04-01T140235.924-2026-04-8a464d70154792ac726691baf806ecf2-1200x675.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-5288e43a-cd83-5795-a6f8-b7e1a0fbad5f",
-        "title": "Answer These 15 Questions And We'll Tell You Which Disney Sidekick Is Your True Bestie",
-        "description": "Your perfect partner in crime might have been hiding in a Disney movie this whole time.",
+        "id": "currents-0c7b5370-2bb5-574a-8e7f-9626021be335",
+        "title": "Hollywood makes more racy movies after Gen Z 'killed off' bonkbusters",
+        "description": "It's a bold move for Hollywood, who were said to be shying away from racy content in recent years in a bid to lure in Gen Z viewers.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-09-05T13:02:52.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16095499/Gen-Z-killed-bonkbuster-sex-cinema-summer.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/09/01/14/110973145-0-image-m-63_1788270105243.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-b407d983-456b-5717-b527-3c0ea1983a85",
+        "title": "Women Share \"Zero-Effort Habits\" That Make Them Feel Totally Put Together",
+        "description": "\"It's something I passed on to a few roommates and friends over the years, and they always said it helps them, too.\"",
         "publisher": "Buzzfeed",
         "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-09-05T10:16:04.000Z",
-        "url": "https://www.buzzfeed.com/syd_mills/your-disney-sidekick-bff-personality-quiz",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/27/20/thumb/LQfq8TqLT.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+        "publishedAt": "2026-09-05T13:30:02.000Z",
+        "url": "https://www.buzzfeed.com/ravenishak/micro-habits-zero-energy",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-09/01/19/thumb/-AvRR-gJq.jpg?crop=1250:654;0,21%26downsize=1250:*",
         "categories": [
+          "Top",
+          "U.S.",
           "Entertainment"
         ]
       },
       {
-        "id": "currents-3c230c00-0157-5642-9c88-ae703e3fd461",
-        "title": "Are You Clever Enough To Solve Your Way Out Of This Word Game? Sorry, But I Doubt It",
-        "description": "How many words can you make from A, D, E, M, N, S, and Y?",
+        "id": "currents-3e55192f-3ca8-570c-8e11-59325cb4c839",
+        "title": "This Word Association Quiz Will Reveal Where You’ll Be In 5 Years",
+        "description": "Finally, an answer you can use in your next job interview.",
         "publisher": "Buzzfeed",
         "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-09-05T10:16:03.000Z",
-        "url": "https://www.buzzfeed.com/sarathompson1/soup-of-the-day-september-5-2026",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-09/04/13/thumb/sToK-DNI5.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+        "publishedAt": "2026-09-05T13:16:02.000Z",
+        "url": "https://www.buzzfeed.com/pernellquilon/word-association-5-year-reveal-quiz",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/14/00/thumb/gMhrTE-lZ.png?crop=1458:763;0,68%26downsize=1250:*",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-e43d9b75-cd4b-55b9-b62e-5c07e1699ab0",
-        "title": "Hanuman Ansh To Get Tax-Free Status In Uttarakhand, CM Pushkar Singh Dhami Congratulates Entire Team",
-        "description": "Uttarakhand Chief Minister Pushkar Singh Dhami watched Hanuman Ansh at a cinema hall in Dehradun on Friday along with his wife Geeta Dhami.",
+        "id": "currents-60715990-8d97-5fc1-830e-0ddfb078c435",
+        "title": "Kamal Haasan Meets Bethlehem Kudumba Unit Team, Congratulates Them On ₹200 Crore-Plus Success",
+        "description": "Kamal Haasan congratulated the team of blockbuster Malayalam film 'Bethlehem Kudumba Unit', featuring Nivin Pauly and Mamitha Baiju.",
         "publisher": "News18",
         "publisherDomain": "news18.com",
-        "publishedAt": "2026-09-05T10:13:24.000Z",
-        "url": "https://www.news18.com/movies/bollywood/hanuman-ansh-to-get-tax-free-status-in-uttarakhand-cm-pushkar-singh-dhami-congratulates-entire-team-10311927.html",
-        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/09/Hanuman-Ansh-2-2026-09-b2dd422b3bd1541d4dd59e497cdf2ac1-1200x675.jpg",
+        "publishedAt": "2026-09-05T13:10:50.000Z",
+        "url": "https://www.news18.com/movies/regional-cinema/kamal-haasan-meets-bethlehem-kudumba-unit-team-congratulates-them-on-200-crore-plus-success-ws-l-10312137.html",
+        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/09/BeFunky-collage-2026-09-2b671489d567f89eb45c630badd141a4-1200x675.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-427d3c66-1be4-59fc-a3eb-a2fa1be0b76c",
-        "title": "Jay-Z serenades Beyonce as he returns to London for first time in a decade",
-        "description": "Jay-Z's opening night at Tottenham Hotspur Stadium featured unannounced guest appearances from US hip-hop group Fugees, actor Idris Elba, DJ Khaled and UK rapper Giggs as well as a birthday shout out to Beyonce",
+        "id": "currents-a3a56cfd-33c0-5fc3-9228-a917601d5b06",
+        "title": "First I'm a Celebrity campmates spotted jetting off to Canada for spin-off",
+        "description": "The first set of campmates are making their way to Canada for the I'm A Celebrity... Get Me Out of Here Canadian spin off",
         "publisher": "Mirror",
         "publisherDomain": "mirror.co.uk",
-        "publishedAt": "2026-09-05T10:03:26.000Z",
-        "url": "https://www.mirror.co.uk/3am/celebrity-news/jay-z-beyonce-tottenham-special-37630338",
-        "imageUrl": "https://i2-prod.mirror.co.uk/article37630363.ece/ALTERNATES/s1200d/0_Night-one-of-Jay-Z-30-Concert-at-Tottenham-Hotspur-Stadium-London-UK-04-Sep-2026.jpg",
+        "publishedAt": "2026-09-05T13:09:49.000Z",
+        "url": "https://www.mirror.co.uk/tv/tv-news/first-im-celebrity-campmates-spotted-37630274",
+        "imageUrl": "https://i2-prod.mirror.co.uk/article37630293.ece/ALTERNATES/s1200d/1_JS416661116.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-70b4ce36-1f0e-55df-b5c8-9c9e4db89f77",
-        "title": "Maithili Thakur Calls Out Swara Bhasker Over Padmaavat Jauhar Remark: ‘First Study It, Then Speak’",
-        "description": "Maithili Thakur slams Swara Bhasker over her Padmaavat Jauhar remarks, calling them ‘ugly’ and saying she should study the subject before speaking.",
-        "publisher": "News18",
-        "publisherDomain": "news18.com",
-        "publishedAt": "2026-09-05T10:02:50.000Z",
-        "url": "https://www.news18.com/movies/bollywood/maithili-thakur-calls-out-swara-bhasker-over-padmaavat-jauhar-remark-first-study-it-then-speak-ws-kl-10311908.html",
-        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/09/Maithili-Thakur-Swara-Bhasker-2026-09-abde8cb139353bd1f8db83e3b74dfa8e-1200x675.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-1e8d3534-bb30-5bc9-9aad-687b2d0c840f",
-        "title": "It’s Worth Celebrating The Creators Of These 35 Ingenious Products",
-        "description": "Three cheers for the creator of the Catsumo wrestling glove.",
+        "id": "currents-3450647e-e4a1-5b95-8f56-01f478395864",
+        "title": "38 Newer Products You’re Going To Want To Try Soooo Badly This Fall",
+        "description": "The leaves are falling and the tiny cute skeleton night-lights and chic \"fig\" nail protectant must be bought.",
         "publisher": "Buzzfeed",
         "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-09-05T10:01:02.000Z",
-        "url": "https://www.buzzfeed.com/melanie_aman/its-worth-celebrating-the-creators-of-these-products",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/24/19/thumb/KkqbQTvu5.jpg?crop=1250:654;0,52%26downsize=1250:*",
+        "publishedAt": "2026-09-05T13:01:02.000Z",
+        "url": "https://www.buzzfeed.com/emmalord9/newer-products-this-fall",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/24/18/thumb/OM0kLzNWD.jpg?crop=2999:1570;0,2%26downsize=1250:*",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-7ada5e40-a139-5bee-b494-b7d23cdbec30",
-        "title": "Can You Survive 24 Hours In Ancient Greece?",
-        "description": "One wrong move and you're cooked.",
+        "id": "currents-546a377a-5b29-5234-9450-707f9888e509",
+        "title": "Less Than 50% Of People Can Complete The Weekend Word Chain — Can You?",
+        "description": "Yay! It's the Weekend Word Chain! ✊",
         "publisher": "Buzzfeed",
         "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-09-05T10:01:02.000Z",
-        "url": "https://www.buzzfeed.com/pernellquilon/survive-24-hours-in-ancient-greece",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-07/16/01/thumb/jECt2t5et.jpg?crop=3000:1571;0,149%26downsize=1250:*",
+        "publishedAt": "2026-09-05T13:01:02.000Z",
+        "url": "https://www.buzzfeed.com/sarahwainschel/weekend-word-chain-september-5-2026",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-09/01/18/thumb/ulnihVuR8.jpg?crop=3000:1571;0,32%26downsize=1250:*",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-412e55a4-e3f7-5b00-962b-9ab86b0a6363",
-        "title": "What channel is Brighton v Leeds Premier League match on? TV details and kick-off time",
-        "description": "Check out how to watch Brighton v Leeds in the Premier League, including TV channel, radio coverage and kick-off time.",
-        "publisher": "Radiotimes",
-        "publisherDomain": "radiotimes.com",
-        "publishedAt": "2026-09-05T10:00:54.000Z",
-        "url": "https://www.radiotimes.com/tv/sport/football/brighton-leeds-premier-league-2026-27-preview",
-        "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2026/09/GettyImages-2291696344-b40e7d5.jpg?resize=1200%2C630",
+        "id": "currents-e49f96ce-7fa2-5a2d-83e0-4b081723eda5",
+        "title": "If You Can Fully Solve This Fandom Game, You're A Walking Pop Culture Encyclopedia",
+        "description": "Knowing the characters is only half the battle. You’re going to need some serious pop culture knowledge for this one.",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-09-05T13:01:02.000Z",
+        "url": "https://www.buzzfeed.com/syd_mills/fandom-4x4-daily-vol-9",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-09/04/15/thumb/B1SDT5pFJ.jpg?crop=2999:1570;0,2%26downsize=1250:*",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-e217a827-7f39-57e5-b220-e313a1b8fc8f",
-        "title": "In What Ways Are We Not Prepared for the Big One?",
-        "description": "One day, a catastrophic earthquake will rock the U.S. West Coast. Experts weigh in on whether we're truly ready.",
-        "publisher": "Gizmodo",
-        "publisherDomain": "gizmodo.com",
-        "publishedAt": "2026-09-05T10:00:49.000Z",
-        "url": "https://gizmodo.com/in-what-ways-are-we-not-prepared-for-the-big-one-2000807446",
-        "imageUrl": "https://gizmodo.com/app/uploads/2026/09/venezuela-earthquake-damage-1-1200x675.jpg",
+        "id": "currents-ebc9ab2e-cabf-5532-8cc9-7a0be8fb1a13",
+        "title": "Why Japan’s Art Market Is Growing Steadily Even as Other Markets Stall",
+        "description": "A new generation of galleries, now roughly a fifth of the market, is drawing international attention even as domestic collectors remain the market’s foundation.",
+        "publisher": "Observer",
+        "publisherDomain": "observer.com",
+        "publishedAt": "2026-09-05T13:00:58.000Z",
+        "url": "https://observer.com/2026/09/analysis-japan-art-market-growth-tokyo-gendai-2026",
+        "imageUrl": "https://observer.com/wp-content/uploads/sites/2/2026/08/Tokyo-Gendai-2025-3.jpg?quality=80",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-5a550e6c-ce0c-535c-99b6-5ee0d983a109",
+        "title": "7-Eleven Japan releases new Tsukimi Moon-Viewing range for autumn, with a must-try daifuku and teriyaki burger",
+        "description": "Japanese convenience store chain brings the moon and rabbits to a new range of food for a limited time.",
+        "publisher": "Soranews24",
+        "publisherDomain": "soranews24.com",
+        "publishedAt": "2026-09-05T13:00:44.000Z",
+        "url": "https://soranews24.com/2026/09/05/7-eleven-japan-releases-new-tsukimi-moon-viewing-range-for-autumn-with-a-must-try-daifuku-and-teriyaki-burger",
+        "imageUrl": "https://soranews24.com/wp-content/uploads/sites/3/2026/09/7-Eleven-Japan-moon-viewing-tsukimi-burger-sweets-convenience-store-food-must-buy-exclusive-limited-edition-viral-social-media-Instagram-cake-crepe-zenzai-news-1.jpg?w=1200&h=630&crop=1",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-335d5abe-1476-5569-9b5d-5c51e0d52ba7",
+        "title": "Kiss are readying new material, says Tommy Thayer: “We recorded a great new song that Paul wrote”",
+        "description": "Thayer says rumors that Kiss are busy working on new songs behind the scenes are true",
+        "publisher": "Guitarworld",
+        "publisherDomain": "guitarworld.com",
+        "publishedAt": "2026-09-05T13:00:00.000Z",
+        "url": "https://www.guitarworld.com/artists/guitarists/kiss-new-material-confirmed",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/49QfaWicSZEpmTDHriMrcZ-1200-80.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-1492e473-2444-54c3-8bd6-4fa9af7d2aac",
+        "title": "Aerosmith Finally Scored Their Only No. 1 Hit With a Song Nobody Expected",
+        "description": "Their biggest Hot 100 moment came courtesy of a blockbuster movie. Aerosmith had already spent more than two decades building one of the most …",
+        "publisher": "Mensjournal",
+        "publisherDomain": "mensjournal.com",
+        "publishedAt": "2026-09-05T13:00:00.000Z",
+        "url": "https://www.mensjournal.com/entertainment/aerosmith-only-no-1-hit-i-dont-want-to-miss-a-thing",
         "categories": [
           "Entertainment"
         ]
@@ -1420,6 +1589,6 @@
     "successfulRequests": 5,
     "failedRequests": 0,
     "articleCountBeforeDeduplication": 100,
-    "articleCountAfterDeduplication": 88
+    "articleCountAfterDeduplication": 81
   }
 }
