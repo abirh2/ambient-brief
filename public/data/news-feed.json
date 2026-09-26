@@ -1,47 +1,152 @@
 {
   "schemaVersion": 1,
   "provider": "currents",
-  "generatedAt": "2026-09-25T21:27:39.428Z",
-  "sourceFetchedAt": "2026-09-25T21:27:39.428Z",
+  "generatedAt": "2026-09-26T00:05:51.049Z",
+  "sourceFetchedAt": "2026-09-26T00:05:51.049Z",
   "status": "success",
   "categories": {
     "Top": [
       {
-        "id": "currents-dab52896-5484-5690-9126-6eea2de3cfe2",
-        "title": "U.S. Troops Are Now Fighting the Drug War on the Ground in Ecuador",
-        "description": "Dozens of American military personnel joined Ecuadorean police in raids, marking a new level of direct U.S. involvement Ecuador’s security forces carried out a series of raids this week around the country, killing three alleged drug traffickers and capturing dozens more. At their side was a …",
-        "publisher": "The Wall Street Journal",
-        "publisherDomain": "wsj.com",
-        "publishedAt": "2026-09-25T20:53:00.000Z",
-        "url": "https://www.wsj.com/world/americas/u-s-troops-are-now-fighting-the-drug-war-on-the-ground-in-ecuador-8d0f439c",
+        "id": "currents-a2b050cb-3e58-5ce9-878a-1943b81093dc",
+        "title": "Trump hails ‘very productive’ talks with China’s Xi Jinping",
+        "description": "Xi says China and US have a relationship of 'strategic stability' during three-day state visit to Washington, DC.",
+        "publisher": "Al Jazeera",
+        "publisherDomain": "aljazeera.com",
+        "publishedAt": "2026-09-25T23:51:01.000Z",
+        "url": "https://www.aljazeera.com/news/2026/9/25/trump-hails-very-productive-talks-with-chinas-xi",
+        "imageUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6ab6804b91f8-1790345291.jpg?resize=1920%2C1440",
         "categories": [
           "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-f8941e6d-07cc-5a00-b866-d9d05a9b6521",
+        "title": "Supreme Court denies Trump-backed Missouri congressional map for the third time",
+        "description": "The Supreme Court rejected a Trump-backed Missouri congressional map, ensuring the state will use its 2022 districts for the midterm elections.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-09-25T23:48:04.000Z",
+        "url": "https://nypost.com/2026/09/25/us-news/supreme-court-denies-trump-backed-missouri-congressional-map-for-the-third-time",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/ODLEDL.jpg?quality=75&strip=all&w=1200",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-17182def-cfc6-59af-b065-2c922e18b0ea",
+        "title": "How the government’s digital economy bill aims to reduce cash use in everyday payments",
+        "description": "The Mexican government's proposed new law would accelerate the use of digital transfers as it gradually reduces everyday cash use..",
+        "publisher": "Mexiconewsdaily",
+        "publisherDomain": "mexiconewsdaily.com",
+        "publishedAt": "2026-09-25T23:44:37.000Z",
+        "url": "https://mexiconewsdaily.com/news/how-governments-digital-economy-bill-aims-reduce-cash-use-everyday-payments",
+        "imageUrl": "https://mexiconewsdaily.com/wp-content/uploads/2026/09/shutterstock_2318454381-1-1.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-494b8f40-d134-59d3-8b98-41e706065c8d",
+        "title": "Groups Sue TVA Over Clean Air Act Violations at Kingston Site",
+        "description": "Support CleanTechnica's work through a Substack subscription, on Patreon, or on Stripe. Help us produce all of the high-quality, original content we publish week after week despite the challenges of content-scraping AI, antisocial media, inflation, and other hurdles. Harriman, Tennessee — On Thursda...",
+        "publisher": "Cleantechnica",
+        "publisherDomain": "cleantechnica.com",
+        "publishedAt": "2026-09-25T23:44:32.000Z",
+        "url": "https://cleantechnica.com/2026/09/25/groups-sue-tva-over-clean-air-act-violations-at-kingston-site",
+        "imageUrl": "https://cleantechnica.com/wp-content/uploads/2023/04/Judge-Gavel-Court-CleanTechnica-Watermark.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-5116f78e-4e73-5172-a728-ae7eb2cb1ee1",
+        "title": "Trump administration uses rare authority to claw back nearly $1B in spending approved by Congress",
+        "description": "WASHINGTON (AP) — President Donald Trump is canceling nearly $1 billion in spending approved by Congress, the White House announced on Friday, using a rare and contested power to axe funding for immigrant services and diversity-focused initiatives. Trump's Office of Management and Budget described t...",
+        "publisher": "Wric",
+        "publisherDomain": "wric.com",
+        "publishedAt": "2026-09-25T23:59:18.000Z",
+        "url": "https://www.wric.com/news/politics/ap-trump-administration-uses-rare-authority-to-claw-back-nearly-1b-in-spending-approved-by-congress",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-4447a80b-8907-5b17-902e-41db86f0ffd8",
+        "title": "MediaAlpha CTO Kuanling Amy Yeh sells $28,200 of Max shares By Investing.com",
+        "description": "MediaAlpha CTO Kuanling Amy Yeh sells $28,200 of Max shares",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-09-25T23:45:59.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/mediaalpha-cto-kuanling-amy-yeh-sells-28200-of-max-shares-93CH-4918325",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM40318_1200_L.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
           "Business"
         ]
       },
       {
-        "id": "currents-a4700344-f293-5572-bfb6-86465ebfce1e",
-        "title": "Have I Got News For You rapped over vile slur at Victoria Beckham",
-        "description": "The BBC has upheld complaints about comedian Katherine Ryan linking an obscene term to Victoria Beckham on Have I Got News For You.",
+        "id": "currents-38734d0b-5d78-59bb-bec1-3b296a18ecc6",
+        "title": "DoubleLine VP Jeffrey Sherman buys $130,300 in fund shares By Investing.com",
+        "description": "DoubleLine VP Jeffrey Sherman buys $130,300 in fund shares",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-09-25T23:45:53.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/doubleline-vp-jeffrey-sherman-buys-130300-in-fund-shares-93CH-4918324",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM3T1K3_1200_L.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-6a86ba4d-7644-5174-8458-5ce8492789a4",
+        "title": "Half of teenage girls missing out on sports due to phone addiction",
+        "description": "Two in five 15-year-old girls said they hardly ever leave their bedroom except to go to school, while one in five now spends no evenings out with friends during a typical week.",
         "publisher": "Daily Mail",
         "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-09-25T21:21:19.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16161491/Have-Got-News-You-complaints-Victoria-Beckham-slur-upheld-BBC-bosses-Katherine-Ryan-apologises-stupid-joke.html?ito=1490&ns_campaign=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/09/25/21/111478067-0-image-m-90_1790368994829.jpg",
+        "publishedAt": "2026-09-25T23:54:25.000Z",
+        "url": "https://www.dailymail.com/news/article-16161671/teenage-girls-sports-social-activities-phone-addiction.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/09/26/00/111480485-0-image-a-133_1790380418801.jpg",
         "categories": [
           "Top",
           "World"
         ]
       },
       {
-        "id": "currents-dd5e21e1-0716-50b9-aa40-98c287278765",
-        "title": "San Francisco reveals ridiculous replacements for alleged rapist lefty hero street name: ‘Virtue-signalers’",
-        "description": "Both names seek to honor female farmworkers, the farmworker movement as a whole, and the Latino community.",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-09-25T21:23:52.000Z",
-        "url": "https://nypost.com/2026/09/25/us-news/san-francisco-unveils-two-new-names-for-cesar-chavez-street",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/142516408.jpg?quality=75&strip=all&w=1200",
+        "id": "currents-6fbf582d-36f2-5058-a9f4-4ac0c8e3f62c",
+        "title": "Medic accused of backing Hamas tells judge to refer to her as doctor",
+        "description": "Rehiana Ali, 46, is charged with four counts of expressing belief in support of a proscribed organisation and seven counts of publishing written material to stir up racial hatred.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-09-25T23:53:48.000Z",
+        "url": "https://www.dailymail.com/news/article-16161727/NHS-medic-Hamas-judge-doctor.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/09/26/00/111480483-0-image-m-47_1790380358032.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-00c8f42d-8865-55b4-8697-69e095909162",
+        "title": "Kieran Culkin guest stars as the Devil in Hulu's 'Family Guy: Happy Hell-o-ween' special",
+        "description": "Brian and Stewie accidentally take over hell after the Devil quits in Hulu's brand-new Halloween special, \"Family Guy: Happy Hell-o-ween,\" streaming Oct. 5!",
+        "publisher": "Abc7",
+        "publisherDomain": "abc7.com",
+        "publishedAt": "2026-09-26T00:01:11.000Z",
+        "url": "https://abc7.com/post/family-guy-happy-hell-ween-premieres-oct-5-hulu-guest-star-kieran-culkin-devil/19873528",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/19873531_092526-otrc-familyguyhuluween-vid.png?w=1600",
         "categories": [
           "Top",
           "World",
@@ -49,206 +154,149 @@
         ]
       },
       {
-        "id": "currents-aa6e9578-7fc0-5caf-94ad-5501bbf78a61",
-        "title": "Vikings' Aaron Jones Sr. (knee) cleared to play vs. Buccaneers",
-        "description": "Vikings RB Aaron Jones Sr. has been cleared to start Sunday against the Tampa Bay Buccaneers after leaving Week 2's win over the Bears in a knee brace.",
+        "id": "currents-70094521-408c-5b4f-a55e-60ffeb9d0e54",
+        "title": "Hollywood sign hijacked by daredevil artist and mummified man",
+        "description": "Police ended up detaining artist Sabine Tautou and citing her for trespassing.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-09-25T23:59:09.000Z",
+        "url": "https://nypost.com/2026/09/25/us-news/hollywood-sign-hijacked-by-daredevil-artist-and-mummified-man",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/142548926.jpg?quality=75&strip=all&w=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-f30827b4-f622-5cef-98c4-6f64d0d0a0c0",
+        "title": "Switch to Metro and get unlimited 5G at $25 and a free Samsung phone",
+        "description": "Metro by T-Mobile is offering unlimited 5G service for $25 a month with a 5-year price guarantee, plus a free Samsung Galaxy A37.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-09-25T23:57:55.000Z",
+        "url": "https://www.usatoday.com/story/shopping/deals/tech/2026/09/25/metro-by-tmobile-unlimited-plan-free-samsung/91937192007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/09/25/USAT/91938942007-metro-by-t-mobile-samsung-a-37-deal.png?auto=webp&crop=2999,1687,x0,y0&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-34fc4fd8-e870-5f9b-97be-6727399a21c9",
+        "title": "All 5 Seasons of ‘Sailor Moon’ Are Streaming for Free Right Now: Here's How to Watch",
+        "description": "The beloved ’90s anime remains a pop-culture staple, and all five seasons are currently available to stream free on Tubi and Pluto TV.",
+        "publisher": "Vice",
+        "publisherDomain": "vice.com",
+        "publishedAt": "2026-09-25T23:57:49.000Z",
+        "url": "https://www.vice.com/en/article/a-90s-classic-sailor-moon-is-finally-available-to-stream-for-free",
+        "imageUrl": "https://www.vice.com/wp-content/uploads/sites/2/2026/09/All-5-Seasons-of-%E2%80%98Sailor-Moon-Are-Streaming-for-Free-Right-Now-Heres-How-to-Watch.jpg?w=2000",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-cb2d4cea-c84a-559e-a921-c5d99f6228e6",
+        "title": "Leimert Park woman turns her struggles into hope",
+        "description": "In Leimert Park, Lilian Raven welcomes everyone taking part in her Love Craft Social event.",
+        "publisher": "Abc7",
+        "publisherDomain": "abc7.com",
+        "publishedAt": "2026-09-25T23:50:52.000Z",
+        "url": "https://abc7.com/story/leimert-parks-love-quilts-stitches-together-hope-healing/19873313",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/19872827_092426-kabc-4pm-gn-lovequilts-vid.jpg?w=1600",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-f03406c0-2bc3-5c08-b115-0f0ff8781a3a",
+        "title": "SEC irked LSU is trying to dismiss suit with issue 'unresolved'",
+        "description": "The SEC is \"deeply disappointed\" in LSU's attempt to dismiss its lawsuit against the university stemming from an attempt to add former NFL players to the Tigers' roster.",
         "publisher": "ESPN",
         "publisherDomain": "espn.com",
-        "publishedAt": "2026-09-25T21:22:47.000Z",
-        "url": "https://www.espn.com/nfl/story/_/id/50028887/vikings-aaron-jones-sr-knee-cleared-play-vs-buccaneers",
-        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0924%2Fr1721329_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-09-25T23:50:40.000Z",
+        "url": "https://www.espn.com/college-football/story/_/id/50029872/sec-irked-lsu-trying-dismiss-suit-issue-unresolved",
+        "imageUrl": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2025%2F1031%2Fr1568834_1296x729_16%2D9.jpg",
         "categories": [
           "Top",
           "U.S."
         ]
       },
       {
-        "id": "currents-a6e5443d-61c7-544c-8aa3-8a0f6bf26e1b",
-        "title": "Pentagon-Backed Oil Company Is Set to Vie for Chevron’s Crown in Venezuela",
-        "description": "The rise of a U.S.-backed oil company in Venezuela has frustrated executives at Chevron, which has long been the dominant producer there.",
-        "publisher": "The Wall Street Journal",
-        "publisherDomain": "wsj.com",
-        "publishedAt": "2026-09-25T21:02:00.000Z",
-        "url": "https://www.wsj.com/business/energy-oil/pentagon-backed-oil-company-is-set-to-vie-for-chevrons-crown-in-venezuela-f8e4300a",
+        "id": "currents-6e3591c4-e7a1-5387-ab64-32df0ca31996",
+        "title": "Massive fire at SW Michigan plastics plant causes widespread outages",
+        "description": "A blaze at East Jordan Plastics in South Haven has canceled Homecoming festivities, knocked out power and left a key city bridge out of service.",
+        "publisher": "Detroitnews",
+        "publisherDomain": "detroitnews.com",
+        "publishedAt": "2026-09-25T23:44:22.000Z",
+        "url": "https://www.detroitnews.com/story/news/local/michigan/2026/09/25/black-smoke-fills-south-haven-as-plastics-plant-erupts-in-flames/91944891007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/08/05/PDTN/91175624007-getty-images-172196644.jpg?auto=webp&crop=3007,1692,x0,y200&format=pjpg&width=1200",
         "categories": [
           "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-373684df-d76c-57f5-b819-3b8ea24729bd",
-        "title": "UNC Asheville’s new baking club brings students together through food",
-        "description": "UNC Asheville’s new baking club is giving students a chance to try something new, from decorating cookies to preparing food for those in need, or even just hanging out with other students and enjoying some free food. “I believe sharing food is one of the most important things you could do as a perso...",
-        "publisher": "Thebluebanner",
-        "publisherDomain": "thebluebanner.net",
-        "publishedAt": "2026-09-25T21:22:46.000Z",
-        "url": "https://thebluebanner.net/21236/arts-features/unc-ashevilles-new-baking-club-brings-students-together-through-food",
-        "imageUrl": "https://thebluebanner.net/wp-content/uploads/2026/09/Chocolate-chip-scones-prepared-at-the-Baking-Clubs-last-meeting-captured-by-Colin-Rivenbark.jpeg",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-05ff49f8-2e1f-5705-8a97-451ec8cb0a46",
-        "title": "Teach Claude your workflow: build an Agent Skill with SKILL.md",
-        "description": "Originally published at AI Frontier Post. Every regular Claude user eventually hits the same...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-09-25T21:21:33.000Z",
-        "url": "https://dev.to/aifrontierpost/teach-claude-your-workflow-build-an-agent-skill-with-skillmd-2c28",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdtlzpk80n5ekgyea3y4q.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-80239ba5-6672-587b-aade-354785acd854",
-        "title": "California firefighters bust out pool skimmer for backyard owl rescue",
-        "description": "“Glad this little guy is safe and back on his way,” firefighters said on Facebook.",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-09-25T21:19:36.000Z",
-        "url": "https://nypost.com/2026/09/25/science/california-firefighters-use-pool-skimmer-for-unusual-backyard-animal-rescue",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/142433327.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-80214345-7843-5477-8180-f1ae07d33774",
-        "title": "Coloring in: Getting to know Dupont Pavilion",
-        "description": "Milo Leonardo Bogas Davis, aka “Dupont Pavilion,” built his brand around Asheville. Davis lived in Asheville for around seven years but has now moved to Detroit for graduate school. During that time Dupont Pavilion became a part of Asheville’s local music scene. More recently, however, his music has...",
-        "publisher": "Thebluebanner",
-        "publisherDomain": "thebluebanner.net",
-        "publishedAt": "2026-09-25T21:18:53.000Z",
-        "url": "https://thebluebanner.net/21254/arts-features/coloring-in-getting-to-know-dupont-pavilion",
-        "imageUrl": "https://thebluebanner.net/wp-content/uploads/2026/09/coloring-in-dupont-pavilion.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-e78abe14-0200-548c-928d-f84e7639bf1e",
-        "title": "After one month at UNC Asheville, international exchange students reflect on their experience",
-        "description": "Editor’s note: William Renaud is one of the students featured in the story. This fall semester, I am one of five exchange students who are discovering UNC Asheville and North Carolina. It’s already been one month since we arrived and we have discovered a wonderful place where we can fully enjoy our ...",
-        "publisher": "Thebluebanner",
-        "publisherDomain": "thebluebanner.net",
-        "publishedAt": "2026-09-25T21:18:46.000Z",
-        "url": "https://thebluebanner.net/21251/arts-features/after-one-month-at-unc-asheville-exchange-students-reflect-on-their-experience",
-        "imageUrl": "https://thebluebanner.net/wp-content/uploads/2026/09/exchange-students-William-Renaud-2.jpeg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-2ffad352-cf27-5c4b-813b-af81576eb4d3",
-        "title": "US, Iran reportedly discussing phased deal to reopen Hormuz and end blockade",
-        "description": "US and Iranian officials are discussing a phased deal to reopen the Strait of Hormuz, driving Brent crude oil prices down to $105.46.",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-09-25T21:18:36.000Z",
-        "url": "https://nypost.com/2026/09/25/world-news/us-iran-reportedly-discussing-phased-deal-to-reopen-hormuz-and-end-blockade",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/142510635.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-65808ee1-d0c8-5010-bc3a-01f623995d9d",
-        "title": "Columbia University student fatally stabbed in Central Park remembered as ‘brilliant mind’ – as killer learns his fate",
-        "description": "The Columbia University doctoral student fatally knifed by a sadistic gang member during a 2021 stabbing spree in Central Park was remembered as a “brilliant mind” robbed of a bright fu…",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-09-25T21:18:02.000Z",
-        "url": "https://nypost.com/2026/09/25/us-news/columbia-university-student-fatally-stabbed-in-central-park-remembered-as-brilliant-mind-as-killer-learns-his-fate",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/Vincent-Pinkney-Sentencing.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-2a2abcda-a0e8-54f2-bc21-05d6e4ba45c0",
-        "title": "Why you need Campfire Red Ember in your garden - Savannah Morning News",
-        "description": "The Campfire series of Bidens plants includes Red Ember, Marshmallow, and Flame varieties. Native to Mexico and the Southwest, these plants are also ...",
-        "publisher": "Onlineathens",
-        "publisherDomain": "onlineathens.com",
-        "publishedAt": "2026-09-25T21:27:16.000Z",
-        "url": "https://www.onlineathens.com/story/lifestyle/home-garden/2026/09/25/why-you-need-campfire-red-ember-in-your-garden/91868454007",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-b59d6f38-ee6a-5d2e-bda0-b7d01a6fd2b9",
-        "title": "This yellow flower is a fall garden MVP that brings the 'Fireworks' - Wilmington Star-News",
-        "description": "Stop blaming this fall bloom for your allergies. This native plant is a vital late-season lifeline for pollinators.",
-        "publisher": "Onlineathens",
-        "publisherDomain": "onlineathens.com",
-        "publishedAt": "2026-09-25T21:27:16.000Z",
-        "url": "https://www.onlineathens.com/story/lifestyle/home-garden/2026/09/25/add-color-to-wilmington-nc-area-gardens-with-this-fall-bloom/91880077007",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-4b71ffea-ff22-563d-a8bc-2128f17031d8",
-        "title": "Has Trump done anything for the people of East Palestine, Ohio?",
-        "description": "submitted by /u/Impressive-Curve8610 [link] [comments]",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-09-25T21:23:51.000Z",
-        "url": "https://www.reddit.com/r/IRstudies/comments/1wq8dad/has_trump_done_anything_for_the_people_of_east",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-2de4f89b-021c-50c6-b709-bd4b106e80a6",
-        "title": "How cells rapidly detect viruses that fuse with their membranes",
-        "description": "Researchers have figured out a missing piece of the puzzle of how human cells detect invading viruses and mount an immune response within an hour.",
-        "publisher": "Phys",
-        "publisherDomain": "phys.org",
-        "publishedAt": "2026-09-25T21:20:13.000Z",
-        "url": "https://phys.org/news/2026-09-cells-rapidly-viruses-fuse-membranes.html",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
           "U.S."
         ]
       }
     ],
     "U.S.": [
       {
-        "id": "currents-dd5e21e1-0716-50b9-aa40-98c287278765",
-        "title": "San Francisco reveals ridiculous replacements for alleged rapist lefty hero street name: ‘Virtue-signalers’",
-        "description": "Both names seek to honor female farmworkers, the farmworker movement as a whole, and the Latino community.",
+        "id": "currents-f8941e6d-07cc-5a00-b866-d9d05a9b6521",
+        "title": "Supreme Court denies Trump-backed Missouri congressional map for the third time",
+        "description": "The Supreme Court rejected a Trump-backed Missouri congressional map, ensuring the state will use its 2022 districts for the midterm elections.",
         "publisher": "Nypost",
         "publisherDomain": "nypost.com",
-        "publishedAt": "2026-09-25T21:23:52.000Z",
-        "url": "https://nypost.com/2026/09/25/us-news/san-francisco-unveils-two-new-names-for-cesar-chavez-street",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/142516408.jpg?quality=75&strip=all&w=1200",
+        "publishedAt": "2026-09-25T23:48:04.000Z",
+        "url": "https://nypost.com/2026/09/25/us-news/supreme-court-denies-trump-backed-missouri-congressional-map-for-the-third-time",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/ODLEDL.jpg?quality=75&strip=all&w=1200",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-17182def-cfc6-59af-b065-2c922e18b0ea",
+        "title": "How the government’s digital economy bill aims to reduce cash use in everyday payments",
+        "description": "The Mexican government's proposed new law would accelerate the use of digital transfers as it gradually reduces everyday cash use..",
+        "publisher": "Mexiconewsdaily",
+        "publisherDomain": "mexiconewsdaily.com",
+        "publishedAt": "2026-09-25T23:44:37.000Z",
+        "url": "https://mexiconewsdaily.com/news/how-governments-digital-economy-bill-aims-reduce-cash-use-everyday-payments",
+        "imageUrl": "https://mexiconewsdaily.com/wp-content/uploads/2026/09/shutterstock_2318454381-1-1.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-494b8f40-d134-59d3-8b98-41e706065c8d",
+        "title": "Groups Sue TVA Over Clean Air Act Violations at Kingston Site",
+        "description": "Support CleanTechnica's work through a Substack subscription, on Patreon, or on Stripe. Help us produce all of the high-quality, original content we publish week after week despite the challenges of content-scraping AI, antisocial media, inflation, and other hurdles. Harriman, Tennessee — On Thursda...",
+        "publisher": "Cleantechnica",
+        "publisherDomain": "cleantechnica.com",
+        "publishedAt": "2026-09-25T23:44:32.000Z",
+        "url": "https://cleantechnica.com/2026/09/25/groups-sue-tva-over-clean-air-act-violations-at-kingston-site",
+        "imageUrl": "https://cleantechnica.com/wp-content/uploads/2023/04/Judge-Gavel-Court-CleanTechnica-Watermark.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-5116f78e-4e73-5172-a728-ae7eb2cb1ee1",
+        "title": "Trump administration uses rare authority to claw back nearly $1B in spending approved by Congress",
+        "description": "WASHINGTON (AP) — President Donald Trump is canceling nearly $1 billion in spending approved by Congress, the White House announced on Friday, using a rare and contested power to axe funding for immigrant services and diversity-focused initiatives. Trump's Office of Management and Budget described t...",
+        "publisher": "Wric",
+        "publisherDomain": "wric.com",
+        "publishedAt": "2026-09-25T23:59:18.000Z",
+        "url": "https://www.wric.com/news/politics/ap-trump-administration-uses-rare-authority-to-claw-back-nearly-1b-in-spending-approved-by-congress",
         "categories": [
           "Top",
           "World",
@@ -256,28 +304,58 @@
         ]
       },
       {
-        "id": "currents-aa6e9578-7fc0-5caf-94ad-5501bbf78a61",
-        "title": "Vikings' Aaron Jones Sr. (knee) cleared to play vs. Buccaneers",
-        "description": "Vikings RB Aaron Jones Sr. has been cleared to start Sunday against the Tampa Bay Buccaneers after leaving Week 2's win over the Bears in a knee brace.",
+        "id": "currents-4447a80b-8907-5b17-902e-41db86f0ffd8",
+        "title": "MediaAlpha CTO Kuanling Amy Yeh sells $28,200 of Max shares By Investing.com",
+        "description": "MediaAlpha CTO Kuanling Amy Yeh sells $28,200 of Max shares",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-09-25T23:45:59.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/mediaalpha-cto-kuanling-amy-yeh-sells-28200-of-max-shares-93CH-4918325",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM40318_1200_L.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-38734d0b-5d78-59bb-bec1-3b296a18ecc6",
+        "title": "DoubleLine VP Jeffrey Sherman buys $130,300 in fund shares By Investing.com",
+        "description": "DoubleLine VP Jeffrey Sherman buys $130,300 in fund shares",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-09-25T23:45:53.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/doubleline-vp-jeffrey-sherman-buys-130300-in-fund-shares-93CH-4918324",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM3T1K3_1200_L.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-4d733cf0-e8f8-545e-863b-d19942b70b49",
+        "title": "Altman: Cavs built for 'sustainable run' despite missing on LeBron",
+        "description": "Cavs president of basketball operations Koby Altman said he wasn't fazed when LeBron James chose to sign with the Sixers, saying, \"We're built for a sustainable run here regardless of one outcome.\"",
         "publisher": "ESPN",
         "publisherDomain": "espn.com",
-        "publishedAt": "2026-09-25T21:22:47.000Z",
-        "url": "https://www.espn.com/nfl/story/_/id/50028887/vikings-aaron-jones-sr-knee-cleared-play-vs-buccaneers",
-        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0924%2Fr1721329_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-09-26T00:05:27.000Z",
+        "url": "https://www.espn.com/nba/story/_/id/50029817/altman-cavs-built-sustainable-run-missing-lebron",
+        "imageUrl": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0512%2Fr1656998_1296x729_16%2D9.jpg",
         "categories": [
           "Top",
           "U.S."
         ]
       },
       {
-        "id": "currents-373684df-d76c-57f5-b819-3b8ea24729bd",
-        "title": "UNC Asheville’s new baking club brings students together through food",
-        "description": "UNC Asheville’s new baking club is giving students a chance to try something new, from decorating cookies to preparing food for those in need, or even just hanging out with other students and enjoying some free food. “I believe sharing food is one of the most important things you could do as a perso...",
-        "publisher": "Thebluebanner",
-        "publisherDomain": "thebluebanner.net",
-        "publishedAt": "2026-09-25T21:22:46.000Z",
-        "url": "https://thebluebanner.net/21236/arts-features/unc-ashevilles-new-baking-club-brings-students-together-through-food",
-        "imageUrl": "https://thebluebanner.net/wp-content/uploads/2026/09/Chocolate-chip-scones-prepared-at-the-Baking-Clubs-last-meeting-captured-by-Colin-Rivenbark.jpeg",
+        "id": "currents-00c8f42d-8865-55b4-8697-69e095909162",
+        "title": "Kieran Culkin guest stars as the Devil in Hulu's 'Family Guy: Happy Hell-o-ween' special",
+        "description": "Brian and Stewie accidentally take over hell after the Devil quits in Hulu's brand-new Halloween special, \"Family Guy: Happy Hell-o-ween,\" streaming Oct. 5!",
+        "publisher": "Abc7",
+        "publisherDomain": "abc7.com",
+        "publishedAt": "2026-09-26T00:01:11.000Z",
+        "url": "https://abc7.com/post/family-guy-happy-hell-ween-premieres-oct-5-hulu-guest-star-kieran-culkin-devil/19873528",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/19873531_092526-otrc-familyguyhuluween-vid.png?w=1600",
         "categories": [
           "Top",
           "World",
@@ -285,30 +363,14 @@
         ]
       },
       {
-        "id": "currents-05ff49f8-2e1f-5705-8a97-451ec8cb0a46",
-        "title": "Teach Claude your workflow: build an Agent Skill with SKILL.md",
-        "description": "Originally published at AI Frontier Post. Every regular Claude user eventually hits the same...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-09-25T21:21:33.000Z",
-        "url": "https://dev.to/aifrontierpost/teach-claude-your-workflow-build-an-agent-skill-with-skillmd-2c28",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdtlzpk80n5ekgyea3y4q.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-80239ba5-6672-587b-aade-354785acd854",
-        "title": "California firefighters bust out pool skimmer for backyard owl rescue",
-        "description": "“Glad this little guy is safe and back on his way,” firefighters said on Facebook.",
+        "id": "currents-70094521-408c-5b4f-a55e-60ffeb9d0e54",
+        "title": "Hollywood sign hijacked by daredevil artist and mummified man",
+        "description": "Police ended up detaining artist Sabine Tautou and citing her for trespassing.",
         "publisher": "Nypost",
         "publisherDomain": "nypost.com",
-        "publishedAt": "2026-09-25T21:19:36.000Z",
-        "url": "https://nypost.com/2026/09/25/science/california-firefighters-use-pool-skimmer-for-unusual-backyard-animal-rescue",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/142433327.jpg?quality=75&strip=all&w=1200",
+        "publishedAt": "2026-09-25T23:59:09.000Z",
+        "url": "https://nypost.com/2026/09/25/us-news/hollywood-sign-hijacked-by-daredevil-artist-and-mummified-man",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/142548926.jpg?quality=75&strip=all&w=1200",
         "categories": [
           "Top",
           "World",
@@ -316,44 +378,88 @@
         ]
       },
       {
-        "id": "currents-80214345-7843-5477-8180-f1ae07d33774",
-        "title": "Coloring in: Getting to know Dupont Pavilion",
-        "description": "Milo Leonardo Bogas Davis, aka “Dupont Pavilion,” built his brand around Asheville. Davis lived in Asheville for around seven years but has now moved to Detroit for graduate school. During that time Dupont Pavilion became a part of Asheville’s local music scene. More recently, however, his music has...",
-        "publisher": "Thebluebanner",
-        "publisherDomain": "thebluebanner.net",
-        "publishedAt": "2026-09-25T21:18:53.000Z",
-        "url": "https://thebluebanner.net/21254/arts-features/coloring-in-getting-to-know-dupont-pavilion",
-        "imageUrl": "https://thebluebanner.net/wp-content/uploads/2026/09/coloring-in-dupont-pavilion.png",
+        "id": "currents-d05a0639-a076-5136-80f4-d602df19f414",
+        "title": "'A gentle giant': Legendary Commerce football coach Ray Lamb dies at 90",
+        "description": "Legendary Commerce football coach Ray Lamb, whom the stadium at Commerce High School is named after, died on Thursday, Sept. 24.",
+        "publisher": "Onlineathens",
+        "publisherDomain": "onlineathens.com",
+        "publishedAt": "2026-09-25T23:57:56.000Z",
+        "url": "https://www.onlineathens.com/story/sports/high-school/football/2026/09/25/commerce-football-coaching-legend-ray-lamb-dies-at-90/91943691007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/2013/12/20/NABH/ghows_image-GA-fc36e024-7730-4f75-b0f8-c30e8c5c8590.jpeg?auto=webp&crop=649,368,x0,y32&format=pjpg&width=1200",
         "categories": [
           "Top",
-          "U.S.",
-          "World"
+          "World",
+          "U.S."
         ]
       },
       {
-        "id": "currents-e78abe14-0200-548c-928d-f84e7639bf1e",
-        "title": "After one month at UNC Asheville, international exchange students reflect on their experience",
-        "description": "Editor’s note: William Renaud is one of the students featured in the story. This fall semester, I am one of five exchange students who are discovering UNC Asheville and North Carolina. It’s already been one month since we arrived and we have discovered a wonderful place where we can fully enjoy our ...",
-        "publisher": "Thebluebanner",
-        "publisherDomain": "thebluebanner.net",
-        "publishedAt": "2026-09-25T21:18:46.000Z",
-        "url": "https://thebluebanner.net/21251/arts-features/after-one-month-at-unc-asheville-exchange-students-reflect-on-their-experience",
-        "imageUrl": "https://thebluebanner.net/wp-content/uploads/2026/09/exchange-students-William-Renaud-2.jpeg",
+        "id": "currents-f30827b4-f622-5cef-98c4-6f64d0d0a0c0",
+        "title": "Switch to Metro and get unlimited 5G at $25 and a free Samsung phone",
+        "description": "Metro by T-Mobile is offering unlimited 5G service for $25 a month with a 5-year price guarantee, plus a free Samsung Galaxy A37.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-09-25T23:57:55.000Z",
+        "url": "https://www.usatoday.com/story/shopping/deals/tech/2026/09/25/metro-by-tmobile-unlimited-plan-free-samsung/91937192007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/09/25/USAT/91938942007-metro-by-t-mobile-samsung-a-37-deal.png?auto=webp&crop=2999,1687,x0,y0&format=pjpg&width=1200",
         "categories": [
           "Top",
-          "U.S.",
-          "World"
+          "World",
+          "U.S."
         ]
       },
       {
-        "id": "currents-2ffad352-cf27-5c4b-813b-af81576eb4d3",
-        "title": "US, Iran reportedly discussing phased deal to reopen Hormuz and end blockade",
-        "description": "US and Iranian officials are discussing a phased deal to reopen the Strait of Hormuz, driving Brent crude oil prices down to $105.46.",
+        "id": "currents-34fc4fd8-e870-5f9b-97be-6727399a21c9",
+        "title": "All 5 Seasons of ‘Sailor Moon’ Are Streaming for Free Right Now: Here's How to Watch",
+        "description": "The beloved ’90s anime remains a pop-culture staple, and all five seasons are currently available to stream free on Tubi and Pluto TV.",
+        "publisher": "Vice",
+        "publisherDomain": "vice.com",
+        "publishedAt": "2026-09-25T23:57:49.000Z",
+        "url": "https://www.vice.com/en/article/a-90s-classic-sailor-moon-is-finally-available-to-stream-for-free",
+        "imageUrl": "https://www.vice.com/wp-content/uploads/sites/2/2026/09/All-5-Seasons-of-%E2%80%98Sailor-Moon-Are-Streaming-for-Free-Right-Now-Heres-How-to-Watch.jpg?w=2000",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-cb2d4cea-c84a-559e-a921-c5d99f6228e6",
+        "title": "Leimert Park woman turns her struggles into hope",
+        "description": "In Leimert Park, Lilian Raven welcomes everyone taking part in her Love Craft Social event.",
+        "publisher": "Abc7",
+        "publisherDomain": "abc7.com",
+        "publishedAt": "2026-09-25T23:50:52.000Z",
+        "url": "https://abc7.com/story/leimert-parks-love-quilts-stitches-together-hope-healing/19873313",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/19872827_092426-kabc-4pm-gn-lovequilts-vid.jpg?w=1600",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-f03406c0-2bc3-5c08-b115-0f0ff8781a3a",
+        "title": "SEC irked LSU is trying to dismiss suit with issue 'unresolved'",
+        "description": "The SEC is \"deeply disappointed\" in LSU's attempt to dismiss its lawsuit against the university stemming from an attempt to add former NFL players to the Tigers' roster.",
+        "publisher": "ESPN",
+        "publisherDomain": "espn.com",
+        "publishedAt": "2026-09-25T23:50:40.000Z",
+        "url": "https://www.espn.com/college-football/story/_/id/50029872/sec-irked-lsu-trying-dismiss-suit-issue-unresolved",
+        "imageUrl": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2025%2F1031%2Fr1568834_1296x729_16%2D9.jpg",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-b49f14a8-6b2a-57fd-8842-bad2a92b4b31",
+        "title": "Bijan Robinson says Kevin Stefanski Falcons speech was ‘like Martin Luther King was in there’",
+        "description": "Can an NFL head coach compare to Martin Luther King Jr.?",
         "publisher": "Nypost",
         "publisherDomain": "nypost.com",
-        "publishedAt": "2026-09-25T21:18:36.000Z",
-        "url": "https://nypost.com/2026/09/25/world-news/us-iran-reportedly-discussing-phased-deal-to-reopen-hormuz-and-end-blockade",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/142510635.jpg?quality=75&strip=all&w=1200",
+        "publishedAt": "2026-09-25T23:47:04.000Z",
+        "url": "https://nypost.com/2026/09/25/sports/falcons-bijan-robinson-kevin-stefanski-speech-was-like-martin-luther-king-was-in-there",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/newspress-collage-cmbpeinj0-1790377793988.jpg?quality=75&strip=all&1790363416&w=1200",
         "categories": [
           "Top",
           "U.S.",
@@ -361,144 +467,101 @@
         ]
       },
       {
-        "id": "currents-65808ee1-d0c8-5010-bc3a-01f623995d9d",
-        "title": "Columbia University student fatally stabbed in Central Park remembered as ‘brilliant mind’ – as killer learns his fate",
-        "description": "The Columbia University doctoral student fatally knifed by a sadistic gang member during a 2021 stabbing spree in Central Park was remembered as a “brilliant mind” robbed of a bright fu…",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-09-25T21:18:02.000Z",
-        "url": "https://nypost.com/2026/09/25/us-news/columbia-university-student-fatally-stabbed-in-central-park-remembered-as-brilliant-mind-as-killer-learns-his-fate",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/Vincent-Pinkney-Sentencing.jpg?quality=75&strip=all&w=1200",
+        "id": "currents-6e3591c4-e7a1-5387-ab64-32df0ca31996",
+        "title": "Massive fire at SW Michigan plastics plant causes widespread outages",
+        "description": "A blaze at East Jordan Plastics in South Haven has canceled Homecoming festivities, knocked out power and left a key city bridge out of service.",
+        "publisher": "Detroitnews",
+        "publisherDomain": "detroitnews.com",
+        "publishedAt": "2026-09-25T23:44:22.000Z",
+        "url": "https://www.detroitnews.com/story/news/local/michigan/2026/09/25/black-smoke-fills-south-haven-as-plastics-plant-erupts-in-flames/91944891007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/08/05/PDTN/91175624007-getty-images-172196644.jpg?auto=webp&crop=3007,1692,x0,y200&format=pjpg&width=1200",
         "categories": [
           "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-0372cf9d-321c-5ea7-b5cc-324baa180ea2",
-        "title": "Jessica Lange’s Comeback Project That Isn’t AHS Hits Theaters Today, Ed Harris Also Stars",
-        "description": "Jessica Lange returns to the big screen in a new drama starring Ed Harris and Ben Foster. It arrives in select theaters today.",
-        "publisher": "Comingsoon",
-        "publisherDomain": "comingsoon.net",
-        "publishedAt": "2026-09-25T21:15:59.000Z",
-        "url": "https://www.comingsoon.net/movies/news/2197697-jessica-lange-ed-harris-ben-foster-classic-family-drama-theaters-today",
-        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/09/Deepesh-personal-1200-675-10.png?resize=1200,630",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-2a2abcda-a0e8-54f2-bc21-05d6e4ba45c0",
-        "title": "Why you need Campfire Red Ember in your garden - Savannah Morning News",
-        "description": "The Campfire series of Bidens plants includes Red Ember, Marshmallow, and Flame varieties. Native to Mexico and the Southwest, these plants are also ...",
-        "publisher": "Onlineathens",
-        "publisherDomain": "onlineathens.com",
-        "publishedAt": "2026-09-25T21:27:16.000Z",
-        "url": "https://www.onlineathens.com/story/lifestyle/home-garden/2026/09/25/why-you-need-campfire-red-ember-in-your-garden/91868454007",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-2b26273c-8032-51ea-a44b-9e8de9d7195a",
-        "title": "This viral Dyson Airwrap dupe is on sale for $90 off right now",
-        "description": "The Dreame AirStyle Era Multi-Styler is $90 off on Amazon. Here's why this budget-friendly styling tool is worth adding to your beauty routine.",
-        "publisher": "Onlineathens",
-        "publisherDomain": "onlineathens.com",
-        "publishedAt": "2026-09-25T21:27:16.000Z",
-        "url": "https://www.onlineathens.com/story/shopping/deals/prime-day/2026/09/25/this-viral-dyson-airwrap-dupe-is-on-sale-for-90-off-right-now/91939021007",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-b59d6f38-ee6a-5d2e-bda0-b7d01a6fd2b9",
-        "title": "This yellow flower is a fall garden MVP that brings the 'Fireworks' - Wilmington Star-News",
-        "description": "Stop blaming this fall bloom for your allergies. This native plant is a vital late-season lifeline for pollinators.",
-        "publisher": "Onlineathens",
-        "publisherDomain": "onlineathens.com",
-        "publishedAt": "2026-09-25T21:27:16.000Z",
-        "url": "https://www.onlineathens.com/story/lifestyle/home-garden/2026/09/25/add-color-to-wilmington-nc-area-gardens-with-this-fall-bloom/91880077007",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-4b71ffea-ff22-563d-a8bc-2128f17031d8",
-        "title": "Has Trump done anything for the people of East Palestine, Ohio?",
-        "description": "submitted by /u/Impressive-Curve8610 [link] [comments]",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-09-25T21:23:51.000Z",
-        "url": "https://www.reddit.com/r/IRstudies/comments/1wq8dad/has_trump_done_anything_for_the_people_of_east",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-36e222e7-6e51-58cc-a96b-57d0fdb84405",
-        "title": "Man gets life under three-strikes law for smuggling drugs into South Carolina jail",
-        "description": "Nevelle Reid, 42, has a criminal record dating back more than two decades. Smuggling fentanyl and meth into jail triggered his latest conviction.",
-        "publisher": "Wltx",
-        "publisherDomain": "wltx.com",
-        "publishedAt": "2026-09-25T21:20:42.000Z",
-        "url": "https://www.wltx.com/article/news/crime/life-sentence-three-strikes-law-smuggling-drugs-south-carolina-jail/101-c8ac46a6-d108-4d77-b31e-cc321b0cd359",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-2de4f89b-021c-50c6-b709-bd4b106e80a6",
-        "title": "How cells rapidly detect viruses that fuse with their membranes",
-        "description": "Researchers have figured out a missing piece of the puzzle of how human cells detect invading viruses and mount an immune response within an hour.",
-        "publisher": "Phys",
-        "publisherDomain": "phys.org",
-        "publishedAt": "2026-09-25T21:20:13.000Z",
-        "url": "https://phys.org/news/2026-09-cells-rapidly-viruses-fuse-membranes.html",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
           "U.S."
         ]
       }
     ],
     "World": [
       {
-        "id": "currents-a4700344-f293-5572-bfb6-86465ebfce1e",
-        "title": "Have I Got News For You rapped over vile slur at Victoria Beckham",
-        "description": "The BBC has upheld complaints about comedian Katherine Ryan linking an obscene term to Victoria Beckham on Have I Got News For You.",
+        "id": "currents-a2b050cb-3e58-5ce9-878a-1943b81093dc",
+        "title": "Trump hails ‘very productive’ talks with China’s Xi Jinping",
+        "description": "Xi says China and US have a relationship of 'strategic stability' during three-day state visit to Washington, DC.",
+        "publisher": "Al Jazeera",
+        "publisherDomain": "aljazeera.com",
+        "publishedAt": "2026-09-25T23:51:01.000Z",
+        "url": "https://www.aljazeera.com/news/2026/9/25/trump-hails-very-productive-talks-with-chinas-xi",
+        "imageUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6ab6804b91f8-1790345291.jpg?resize=1920%2C1440",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-6a86ba4d-7644-5174-8458-5ce8492789a4",
+        "title": "Half of teenage girls missing out on sports due to phone addiction",
+        "description": "Two in five 15-year-old girls said they hardly ever leave their bedroom except to go to school, while one in five now spends no evenings out with friends during a typical week.",
         "publisher": "Daily Mail",
         "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-09-25T21:21:19.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16161491/Have-Got-News-You-complaints-Victoria-Beckham-slur-upheld-BBC-bosses-Katherine-Ryan-apologises-stupid-joke.html?ito=1490&ns_campaign=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/09/25/21/111478067-0-image-m-90_1790368994829.jpg",
+        "publishedAt": "2026-09-25T23:54:25.000Z",
+        "url": "https://www.dailymail.com/news/article-16161671/teenage-girls-sports-social-activities-phone-addiction.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/09/26/00/111480485-0-image-a-133_1790380418801.jpg",
         "categories": [
           "Top",
           "World"
         ]
       },
       {
-        "id": "currents-dd5e21e1-0716-50b9-aa40-98c287278765",
-        "title": "San Francisco reveals ridiculous replacements for alleged rapist lefty hero street name: ‘Virtue-signalers’",
-        "description": "Both names seek to honor female farmworkers, the farmworker movement as a whole, and the Latino community.",
+        "id": "currents-f8941e6d-07cc-5a00-b866-d9d05a9b6521",
+        "title": "Supreme Court denies Trump-backed Missouri congressional map for the third time",
+        "description": "The Supreme Court rejected a Trump-backed Missouri congressional map, ensuring the state will use its 2022 districts for the midterm elections.",
         "publisher": "Nypost",
         "publisherDomain": "nypost.com",
-        "publishedAt": "2026-09-25T21:23:52.000Z",
-        "url": "https://nypost.com/2026/09/25/us-news/san-francisco-unveils-two-new-names-for-cesar-chavez-street",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/142516408.jpg?quality=75&strip=all&w=1200",
+        "publishedAt": "2026-09-25T23:48:04.000Z",
+        "url": "https://nypost.com/2026/09/25/us-news/supreme-court-denies-trump-backed-missouri-congressional-map-for-the-third-time",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/ODLEDL.jpg?quality=75&strip=all&w=1200",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-17182def-cfc6-59af-b065-2c922e18b0ea",
+        "title": "How the government’s digital economy bill aims to reduce cash use in everyday payments",
+        "description": "The Mexican government's proposed new law would accelerate the use of digital transfers as it gradually reduces everyday cash use..",
+        "publisher": "Mexiconewsdaily",
+        "publisherDomain": "mexiconewsdaily.com",
+        "publishedAt": "2026-09-25T23:44:37.000Z",
+        "url": "https://mexiconewsdaily.com/news/how-governments-digital-economy-bill-aims-reduce-cash-use-everyday-payments",
+        "imageUrl": "https://mexiconewsdaily.com/wp-content/uploads/2026/09/shutterstock_2318454381-1-1.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-6fbf582d-36f2-5058-a9f4-4ac0c8e3f62c",
+        "title": "Medic accused of backing Hamas tells judge to refer to her as doctor",
+        "description": "Rehiana Ali, 46, is charged with four counts of expressing belief in support of a proscribed organisation and seven counts of publishing written material to stir up racial hatred.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-09-25T23:53:48.000Z",
+        "url": "https://www.dailymail.com/news/article-16161727/NHS-medic-Hamas-judge-doctor.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/09/26/00/111480483-0-image-m-47_1790380358032.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-5116f78e-4e73-5172-a728-ae7eb2cb1ee1",
+        "title": "Trump administration uses rare authority to claw back nearly $1B in spending approved by Congress",
+        "description": "WASHINGTON (AP) — President Donald Trump is canceling nearly $1 billion in spending approved by Congress, the White House announced on Friday, using a rare and contested power to axe funding for immigrant services and diversity-focused initiatives. Trump's Office of Management and Budget described t...",
+        "publisher": "Wric",
+        "publisherDomain": "wric.com",
+        "publishedAt": "2026-09-25T23:59:18.000Z",
+        "url": "https://www.wric.com/news/politics/ap-trump-administration-uses-rare-authority-to-claw-back-nearly-1b-in-spending-approved-by-congress",
         "categories": [
           "Top",
           "World",
@@ -506,28 +569,28 @@
         ]
       },
       {
-        "id": "currents-6bd5abda-be6b-5b91-8ad2-5ce733c5467c",
-        "title": "Man City verdict could see four Premier League clubs land compensation worth more than Â£200m",
-        "description": "Man City intend to appeal with a reported verdict finding the club guilty of almost all of the 115 Premier League charges concerning financial breaches, leaving rivals circling in pursuit of compensation",
-        "publisher": "Independent",
-        "publisherDomain": "independent.co.uk",
-        "publishedAt": "2026-09-25T21:23:24.000Z",
-        "url": "https://www.independent.co.uk/sport/football/man-city-verdict-premier-league-man-utd-arsenal-liverpool-compensation-b3056684.html",
-        "imageUrl": "https://static.independent.co.uk/2024/01/16/13/b116ea71dd9cae52e6af202a5cfdc7d7Y29udGVudHNlYXJjaGFwaSwxNzA1NDk2ODk2-2.32965053.jpg?width=1200&height=800&crop=1200:800",
+        "id": "currents-6ce823b1-4c35-5007-93ce-a33d366d793b",
+        "title": "Lebanese prime minister: Israel-Hezbollah conflict 'imposed' on Lebanon | The Jerusalem Post",
+        "description": "Salam also condemned Iran for its attacks on Arab states in the region, saying that \"Lebanon wishes to renew its solidarity with the states of the Arab Gulf and with Jordan.\"",
+        "publisher": "Jpost",
+        "publisherDomain": "jpost.com",
+        "publishedAt": "2026-09-25T23:49:56.000Z",
+        "url": "https://www.jpost.com/middle-east/article-909748",
+        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/739367",
         "categories": [
           "Top",
           "World"
         ]
       },
       {
-        "id": "currents-373684df-d76c-57f5-b819-3b8ea24729bd",
-        "title": "UNC Asheville’s new baking club brings students together through food",
-        "description": "UNC Asheville’s new baking club is giving students a chance to try something new, from decorating cookies to preparing food for those in need, or even just hanging out with other students and enjoying some free food. “I believe sharing food is one of the most important things you could do as a perso...",
-        "publisher": "Thebluebanner",
-        "publisherDomain": "thebluebanner.net",
-        "publishedAt": "2026-09-25T21:22:46.000Z",
-        "url": "https://thebluebanner.net/21236/arts-features/unc-ashevilles-new-baking-club-brings-students-together-through-food",
-        "imageUrl": "https://thebluebanner.net/wp-content/uploads/2026/09/Chocolate-chip-scones-prepared-at-the-Baking-Clubs-last-meeting-captured-by-Colin-Rivenbark.jpeg",
+        "id": "currents-00c8f42d-8865-55b4-8697-69e095909162",
+        "title": "Kieran Culkin guest stars as the Devil in Hulu's 'Family Guy: Happy Hell-o-ween' special",
+        "description": "Brian and Stewie accidentally take over hell after the Devil quits in Hulu's brand-new Halloween special, \"Family Guy: Happy Hell-o-ween,\" streaming Oct. 5!",
+        "publisher": "Abc7",
+        "publisherDomain": "abc7.com",
+        "publishedAt": "2026-09-26T00:01:11.000Z",
+        "url": "https://abc7.com/post/family-guy-happy-hell-ween-premieres-oct-5-hulu-guest-star-kieran-culkin-devil/19873528",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/19873531_092526-otrc-familyguyhuluween-vid.png?w=1600",
         "categories": [
           "Top",
           "World",
@@ -535,14 +598,14 @@
         ]
       },
       {
-        "id": "currents-80239ba5-6672-587b-aade-354785acd854",
-        "title": "California firefighters bust out pool skimmer for backyard owl rescue",
-        "description": "“Glad this little guy is safe and back on his way,” firefighters said on Facebook.",
+        "id": "currents-70094521-408c-5b4f-a55e-60ffeb9d0e54",
+        "title": "Hollywood sign hijacked by daredevil artist and mummified man",
+        "description": "Police ended up detaining artist Sabine Tautou and citing her for trespassing.",
         "publisher": "Nypost",
         "publisherDomain": "nypost.com",
-        "publishedAt": "2026-09-25T21:19:36.000Z",
-        "url": "https://nypost.com/2026/09/25/science/california-firefighters-use-pool-skimmer-for-unusual-backyard-animal-rescue",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/142433327.jpg?quality=75&strip=all&w=1200",
+        "publishedAt": "2026-09-25T23:59:09.000Z",
+        "url": "https://nypost.com/2026/09/25/us-news/hollywood-sign-hijacked-by-daredevil-artist-and-mummified-man",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/142548926.jpg?quality=75&strip=all&w=1200",
         "categories": [
           "Top",
           "World",
@@ -550,73 +613,14 @@
         ]
       },
       {
-        "id": "currents-80214345-7843-5477-8180-f1ae07d33774",
-        "title": "Coloring in: Getting to know Dupont Pavilion",
-        "description": "Milo Leonardo Bogas Davis, aka “Dupont Pavilion,” built his brand around Asheville. Davis lived in Asheville for around seven years but has now moved to Detroit for graduate school. During that time Dupont Pavilion became a part of Asheville’s local music scene. More recently, however, his music has...",
-        "publisher": "Thebluebanner",
-        "publisherDomain": "thebluebanner.net",
-        "publishedAt": "2026-09-25T21:18:53.000Z",
-        "url": "https://thebluebanner.net/21254/arts-features/coloring-in-getting-to-know-dupont-pavilion",
-        "imageUrl": "https://thebluebanner.net/wp-content/uploads/2026/09/coloring-in-dupont-pavilion.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-e78abe14-0200-548c-928d-f84e7639bf1e",
-        "title": "After one month at UNC Asheville, international exchange students reflect on their experience",
-        "description": "Editor’s note: William Renaud is one of the students featured in the story. This fall semester, I am one of five exchange students who are discovering UNC Asheville and North Carolina. It’s already been one month since we arrived and we have discovered a wonderful place where we can fully enjoy our ...",
-        "publisher": "Thebluebanner",
-        "publisherDomain": "thebluebanner.net",
-        "publishedAt": "2026-09-25T21:18:46.000Z",
-        "url": "https://thebluebanner.net/21251/arts-features/after-one-month-at-unc-asheville-exchange-students-reflect-on-their-experience",
-        "imageUrl": "https://thebluebanner.net/wp-content/uploads/2026/09/exchange-students-William-Renaud-2.jpeg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-2ffad352-cf27-5c4b-813b-af81576eb4d3",
-        "title": "US, Iran reportedly discussing phased deal to reopen Hormuz and end blockade",
-        "description": "US and Iranian officials are discussing a phased deal to reopen the Strait of Hormuz, driving Brent crude oil prices down to $105.46.",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-09-25T21:18:36.000Z",
-        "url": "https://nypost.com/2026/09/25/world-news/us-iran-reportedly-discussing-phased-deal-to-reopen-hormuz-and-end-blockade",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/142510635.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-65808ee1-d0c8-5010-bc3a-01f623995d9d",
-        "title": "Columbia University student fatally stabbed in Central Park remembered as ‘brilliant mind’ – as killer learns his fate",
-        "description": "The Columbia University doctoral student fatally knifed by a sadistic gang member during a 2021 stabbing spree in Central Park was remembered as a “brilliant mind” robbed of a bright fu…",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-09-25T21:18:02.000Z",
-        "url": "https://nypost.com/2026/09/25/us-news/columbia-university-student-fatally-stabbed-in-central-park-remembered-as-brilliant-mind-as-killer-learns-his-fate",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/Vincent-Pinkney-Sentencing.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-2a2abcda-a0e8-54f2-bc21-05d6e4ba45c0",
-        "title": "Why you need Campfire Red Ember in your garden - Savannah Morning News",
-        "description": "The Campfire series of Bidens plants includes Red Ember, Marshmallow, and Flame varieties. Native to Mexico and the Southwest, these plants are also ...",
+        "id": "currents-d05a0639-a076-5136-80f4-d602df19f414",
+        "title": "'A gentle giant': Legendary Commerce football coach Ray Lamb dies at 90",
+        "description": "Legendary Commerce football coach Ray Lamb, whom the stadium at Commerce High School is named after, died on Thursday, Sept. 24.",
         "publisher": "Onlineathens",
         "publisherDomain": "onlineathens.com",
-        "publishedAt": "2026-09-25T21:27:16.000Z",
-        "url": "https://www.onlineathens.com/story/lifestyle/home-garden/2026/09/25/why-you-need-campfire-red-ember-in-your-garden/91868454007",
+        "publishedAt": "2026-09-25T23:57:56.000Z",
+        "url": "https://www.onlineathens.com/story/sports/high-school/football/2026/09/25/commerce-football-coaching-legend-ray-lamb-dies-at-90/91943691007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/2013/12/20/NABH/ghows_image-GA-fc36e024-7730-4f75-b0f8-c30e8c5c8590.jpeg?auto=webp&crop=649,368,x0,y32&format=pjpg&width=1200",
         "categories": [
           "Top",
           "World",
@@ -624,13 +628,14 @@
         ]
       },
       {
-        "id": "currents-2b26273c-8032-51ea-a44b-9e8de9d7195a",
-        "title": "This viral Dyson Airwrap dupe is on sale for $90 off right now",
-        "description": "The Dreame AirStyle Era Multi-Styler is $90 off on Amazon. Here's why this budget-friendly styling tool is worth adding to your beauty routine.",
-        "publisher": "Onlineathens",
-        "publisherDomain": "onlineathens.com",
-        "publishedAt": "2026-09-25T21:27:16.000Z",
-        "url": "https://www.onlineathens.com/story/shopping/deals/prime-day/2026/09/25/this-viral-dyson-airwrap-dupe-is-on-sale-for-90-off-right-now/91939021007",
+        "id": "currents-f30827b4-f622-5cef-98c4-6f64d0d0a0c0",
+        "title": "Switch to Metro and get unlimited 5G at $25 and a free Samsung phone",
+        "description": "Metro by T-Mobile is offering unlimited 5G service for $25 a month with a 5-year price guarantee, plus a free Samsung Galaxy A37.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-09-25T23:57:55.000Z",
+        "url": "https://www.usatoday.com/story/shopping/deals/tech/2026/09/25/metro-by-tmobile-unlimited-plan-free-samsung/91937192007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/09/25/USAT/91938942007-metro-by-t-mobile-samsung-a-37-deal.png?auto=webp&crop=2999,1687,x0,y0&format=pjpg&width=1200",
         "categories": [
           "Top",
           "World",
@@ -638,13 +643,14 @@
         ]
       },
       {
-        "id": "currents-b59d6f38-ee6a-5d2e-bda0-b7d01a6fd2b9",
-        "title": "This yellow flower is a fall garden MVP that brings the 'Fireworks' - Wilmington Star-News",
-        "description": "Stop blaming this fall bloom for your allergies. This native plant is a vital late-season lifeline for pollinators.",
-        "publisher": "Onlineathens",
-        "publisherDomain": "onlineathens.com",
-        "publishedAt": "2026-09-25T21:27:16.000Z",
-        "url": "https://www.onlineathens.com/story/lifestyle/home-garden/2026/09/25/add-color-to-wilmington-nc-area-gardens-with-this-fall-bloom/91880077007",
+        "id": "currents-34fc4fd8-e870-5f9b-97be-6727399a21c9",
+        "title": "All 5 Seasons of ‘Sailor Moon’ Are Streaming for Free Right Now: Here's How to Watch",
+        "description": "The beloved ’90s anime remains a pop-culture staple, and all five seasons are currently available to stream free on Tubi and Pluto TV.",
+        "publisher": "Vice",
+        "publisherDomain": "vice.com",
+        "publishedAt": "2026-09-25T23:57:49.000Z",
+        "url": "https://www.vice.com/en/article/a-90s-classic-sailor-moon-is-finally-available-to-stream-for-free",
+        "imageUrl": "https://www.vice.com/wp-content/uploads/sites/2/2026/09/All-5-Seasons-of-%E2%80%98Sailor-Moon-Are-Streaming-for-Free-Right-Now-Heres-How-to-Watch.jpg?w=2000",
         "categories": [
           "Top",
           "World",
@@ -652,13 +658,14 @@
         ]
       },
       {
-        "id": "currents-4b71ffea-ff22-563d-a8bc-2128f17031d8",
-        "title": "Has Trump done anything for the people of East Palestine, Ohio?",
-        "description": "submitted by /u/Impressive-Curve8610 [link] [comments]",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-09-25T21:23:51.000Z",
-        "url": "https://www.reddit.com/r/IRstudies/comments/1wq8dad/has_trump_done_anything_for_the_people_of_east",
+        "id": "currents-cb2d4cea-c84a-559e-a921-c5d99f6228e6",
+        "title": "Leimert Park woman turns her struggles into hope",
+        "description": "In Leimert Park, Lilian Raven welcomes everyone taking part in her Love Craft Social event.",
+        "publisher": "Abc7",
+        "publisherDomain": "abc7.com",
+        "publishedAt": "2026-09-25T23:50:52.000Z",
+        "url": "https://abc7.com/story/leimert-parks-love-quilts-stitches-together-hope-healing/19873313",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/19872827_092426-kabc-4pm-gn-lovequilts-vid.jpg?w=1600",
         "categories": [
           "Top",
           "World",
@@ -666,26 +673,43 @@
         ]
       },
       {
-        "id": "currents-32660ab5-0540-5554-934c-9eb7f3687d6e",
-        "title": "Dizon to Cayetano: No ghost projects in Taguig",
-        "description": "MANILA, Philippines — Public Works Secretary Vince Dizon said on Friday there are no “ghost” projects in Taguig City, reinforcing the earlier claims of Senate Minority Leader Alan Peter Cayetano. During the Senate finance subcommittee’s hearing on the proposed 2027 budget of the Department of Public...",
-        "publisher": "Inquirer",
-        "publisherDomain": "newsinfo.inquirer.net",
-        "publishedAt": "2026-09-25T21:22:20.000Z",
-        "url": "https://newsinfo.inquirer.net/2311939/dizon-to-cayetano-no-ghost-projects-in-taguig",
+        "id": "currents-b49f14a8-6b2a-57fd-8842-bad2a92b4b31",
+        "title": "Bijan Robinson says Kevin Stefanski Falcons speech was ‘like Martin Luther King was in there’",
+        "description": "Can an NFL head coach compare to Martin Luther King Jr.?",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-09-25T23:47:04.000Z",
+        "url": "https://nypost.com/2026/09/25/sports/falcons-bijan-robinson-kevin-stefanski-speech-was-like-martin-luther-king-was-in-there",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/newspress-collage-cmbpeinj0-1790377793988.jpg?quality=75&strip=all&1790363416&w=1200",
         "categories": [
           "Top",
+          "U.S.",
           "World"
         ]
       },
       {
-        "id": "currents-7219f2c9-6901-5c49-8009-4855ea1f8616",
-        "title": "Defense to present Romualdez in plunder case",
-        "description": "MANILA, Philippines — Former Speaker Martin Romualdez will testify in the plunder case filed against him before the Sandiganbayan, his lawyer Ade Fajardo said on Friday. “Of course, the most important [witness] is the accused himself, Congressman Romualdez,” Fajardo said. “He wants to defend himself...",
-        "publisher": "Inquirer",
-        "publisherDomain": "newsinfo.inquirer.net",
-        "publishedAt": "2026-09-25T21:22:20.000Z",
-        "url": "https://newsinfo.inquirer.net/2311895/defense-to-present-romualdez-in-plunder-case",
+        "id": "currents-c3102bba-21be-5b72-b31f-738f9f3a7ece",
+        "title": "Emergency order issued in Florida as invasive pasture mealybug spreads",
+        "description": "An emergency order was issued in Florida as the invasive pasture mealybug spreads through sugarcane and cattle grass fields and threatens sweet ...",
+        "publisher": "Onlineathens",
+        "publisherDomain": "onlineathens.com",
+        "publishedAt": "2026-09-25T23:57:55.000Z",
+        "url": "https://www.onlineathens.com/embed/video/91901772007",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-a2f8b368-2150-5ee5-94fc-8126c58b8cc9",
+        "title": "Military leaders from Pakistan, Saudi Arabia, Turkey discuss closer defense ties | The Jerusalem Post",
+        "description": "The meeting follows a Washington Post report earlier on Friday that Saudi Arabia has not ruled out developing a nuclear weapons program, according to US intelligence assessments.",
+        "publisher": "Jpost",
+        "publisherDomain": "jpost.com",
+        "publishedAt": "2026-09-25T23:49:57.000Z",
+        "url": "https://www.jpost.com/middle-east/article-909745",
+        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/735980",
         "categories": [
           "Top",
           "World"
@@ -694,81 +718,112 @@
     ],
     "Business": [
       {
-        "id": "currents-dab52896-5484-5690-9126-6eea2de3cfe2",
-        "title": "U.S. Troops Are Now Fighting the Drug War on the Ground in Ecuador",
-        "description": "Dozens of American military personnel joined Ecuadorean police in raids, marking a new level of direct U.S. involvement Ecuador’s security forces carried out a series of raids this week around the country, killing three alleged drug traffickers and capturing dozens more. At their side was a …",
-        "publisher": "The Wall Street Journal",
-        "publisherDomain": "wsj.com",
-        "publishedAt": "2026-09-25T20:53:00.000Z",
-        "url": "https://www.wsj.com/world/americas/u-s-troops-are-now-fighting-the-drug-war-on-the-ground-in-ecuador-8d0f439c",
+        "id": "currents-8b32e1ce-609e-512a-8508-9d448268139c",
+        "title": "Brazil's President Lula bans online betting ahead of presidential election",
+        "description": "RIO DE JANEIRO (AP) — Brazil’s President Luiz Inácio Lula da Silva on Friday signed an order banning fixed-odds betting just over a week ahead of the first round of the presidential election, in a move he said was designed to tackle the pervasive problem of families falling into debt.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-09-25T23:50:21.000Z",
+        "url": "https://www.winnipegfreepress.com/business/2026/09/25/brazils-president-lula-bans-online-betting-ahead-of-presidential-election",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab708b7d98934d156a9e5a3jpeg.jpg?w=1600",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-73778c90-57a3-511e-b446-11af4844ee98",
-        "title": "Treasury’s massive “intergenerational” immigration crushes democracy",
-        "description": "By Stephen Saunders Imagine a calmer and safer post-Bondi Australia. Immigration is low and less divisive. The government need not lie about it all the time or continually attack citizen-voters. Albanese Labor is never going to be that government. It’s inconceivable, simply not in their elitist and...",
-        "publisher": "Macrobusiness",
-        "publisherDomain": "macrobusiness.com.au",
-        "publishedAt": "2026-09-25T21:00:06.000Z",
-        "url": "https://www.macrobusiness.com.au/2026/09/treasurys-massive-intergenerational-immigration-crushes-democracy",
-        "imageUrl": "https://api.macrobusiness.com.au/wp-content/uploads/2025/05/Labor-Big-Australia-Ponzi.png",
+        "id": "currents-3b3f3eb4-af82-58bb-aff0-4249db248d2f",
+        "title": "US stocks: Wall Street ends higher as investors buy AI stocks; Microsoft rallies",
+        "description": "WALL Street ended higher on Friday (Sep 25), lifted by Microsoft and other AI-related technology stocks, while high oil prices and a recent surge in US Treasury yields kept investors on edge. Read more at The Business Times.",
+        "publisher": "Com",
+        "publisherDomain": "businesstimes.com.sg",
+        "publishedAt": "2026-09-25T23:35:00.000Z",
+        "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-stocks-wall-street-ends-higher-investors-buy-ai-stocks-microsoft-rallies",
+        "imageUrl": "https://cassette.sphdigital.com.sg/image/businesstimes/4a1258e30af6810579dab207468a1b0af205fff792fbef48e4eb514e8e407e51?w=1200&f=webp",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-fb1d793c-deb6-5e71-a54b-123ac4014b79",
-        "title": "Umh Properties director Mitchell buys $19,890 in shares By Investing.com",
-        "description": "Umh Properties director Mitchell buys $19,890 in shares",
+        "id": "currents-4a0c8de5-1e34-563b-bd71-0fdf420440b3",
+        "title": "Social Security's $2,086 average obscures your actual check amount",
+        "description": "Filing age creates a gap most retirees never see until their first deposit lands.",
+        "publisher": "Thestreet",
+        "publisherDomain": "thestreet.com",
+        "publishedAt": "2026-09-25T23:17:00.000Z",
+        "url": "https://www.thestreet.com/retirement/social-security-filing-age-62-70-income-gap",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-4447a80b-8907-5b17-902e-41db86f0ffd8",
+        "title": "MediaAlpha CTO Kuanling Amy Yeh sells $28,200 of Max shares By Investing.com",
+        "description": "MediaAlpha CTO Kuanling Amy Yeh sells $28,200 of Max shares",
         "publisher": "Investing.com",
         "publisherDomain": "investing.com",
-        "publishedAt": "2026-09-25T21:00:50.000Z",
-        "url": "https://www.investing.com/news/insider-trading-news/umh-properties-director-mitchell-buys-19890-in-shares-93CH-4918154",
-        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM3S10Z_1200_L.jpg",
+        "publishedAt": "2026-09-25T23:45:59.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/mediaalpha-cto-kuanling-amy-yeh-sells-28200-of-max-shares-93CH-4918325",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM40318_1200_L.jpg",
         "categories": [
           "Top",
+          "U.S.",
           "Business"
         ]
       },
       {
-        "id": "currents-9bff4225-5ce5-5b79-8b51-7fa13833f6ba",
-        "title": "I never tracked my teenagers on an app. Our relationships are better for it.",
-        "description": "I didn't use Life360 or another app to track my teens. Instead, I set clear rules and built trust. I know our relationships are stronger for it.",
-        "publisher": "Businessinsider",
-        "publisherDomain": "businessinsider.com",
-        "publishedAt": "2026-09-25T21:13:01.000Z",
-        "url": "https://www.businessinsider.com/parent-dont-use-traciking-apps-apps-teen-independence-2026-9",
-        "imageUrl": "https://i.insider.com/6ab6adfed15f8a572974ab74?width=1200&format=jpeg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-a6e5443d-61c7-544c-8aa3-8a0f6bf26e1b",
-        "title": "Pentagon-Backed Oil Company Is Set to Vie for Chevron’s Crown in Venezuela",
-        "description": "The rise of a U.S.-backed oil company in Venezuela has frustrated executives at Chevron, which has long been the dominant producer there.",
-        "publisher": "The Wall Street Journal",
-        "publisherDomain": "wsj.com",
-        "publishedAt": "2026-09-25T21:02:00.000Z",
-        "url": "https://www.wsj.com/business/energy-oil/pentagon-backed-oil-company-is-set-to-vie-for-chevrons-crown-in-venezuela-f8e4300a",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-5f22710f-ffaa-5fc2-969a-c92b110e6867",
-        "title": "BitGo Holdings chief operating officer Jody Mettler to step down in October By Investing.com",
-        "description": "BitGo Holdings chief operating officer Jody Mettler to step down in October",
+        "id": "currents-38734d0b-5d78-59bb-bec1-3b296a18ecc6",
+        "title": "DoubleLine VP Jeffrey Sherman buys $130,300 in fund shares By Investing.com",
+        "description": "DoubleLine VP Jeffrey Sherman buys $130,300 in fund shares",
         "publisher": "Investing.com",
         "publisherDomain": "investing.com",
-        "publishedAt": "2026-09-25T20:56:59.000Z",
-        "url": "https://www.investing.com/news/sec-filings/bitgo-holdings-chief-operating-officer-jody-mettler-to-step-down-in-october-93CH-4918144",
+        "publishedAt": "2026-09-25T23:45:53.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/doubleline-vp-jeffrey-sherman-buys-130300-in-fund-shares-93CH-4918324",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM3T1K3_1200_L.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-b9f4477a-f4a3-559f-acb5-e48716091de6",
+        "title": "Citigroup targets over $3 billion Banamex IPO for January - Bloomberg By Investing.com",
+        "description": "Citigroup targets over $3 billion Banamex IPO for January - Bloomberg",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-09-25T23:31:35.000Z",
+        "url": "https://www.investing.com/news/stock-market-news/citigroup-targets-over-3-billion-banamex-ipo-for-january--bloomberg-4918315",
+        "imageUrl": "https://content-media.investing.com/news/LYNXMPEA6K03L_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-51148cdb-5b50-507a-84a2-cb1caa6915cb",
+        "title": "PubMatic CEO Rajeev Goel sells $930,633 in company stock By Investing.com",
+        "description": "PubMatic CEO Rajeev Goel sells $930,633 in company stock",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-09-25T23:31:13.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/pubmatic-ceo-rajeev-goel-sells-930633-in-company-stock-93CH-4918314",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM4416N_1200_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-258bc103-c1b9-57a0-9151-cc18898ba8de",
+        "title": "Cypherpunk Technologies director Martin sells $193,000 in common stock By Investing.com",
+        "description": "Cypherpunk Technologies director Martin sells $193,000 in common stock",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-09-25T23:31:11.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/cypherpunk-technologies-director-martin-sells-193000-in-common-stock-93CH-4918313",
         "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM431A2_1200_L.jpg",
         "categories": [
           "Top",
@@ -776,136 +831,112 @@
         ]
       },
       {
-        "id": "currents-4325b5f6-c21c-5656-a863-51d16de64440",
-        "title": "Why is Circle Internet stock sliding today? By Investing.com",
-        "description": "Why is Circle Internet stock sliding today?",
+        "id": "currents-3e11370e-86c3-51e5-8798-c4aa84986a10",
+        "title": "Bakkt chief accounting officer sells $2,428 of BKKT stock By Investing.com",
+        "description": "Bakkt chief accounting officer sells $2,428 of BKKT stock",
         "publisher": "Investing.com",
         "publisherDomain": "investing.com",
-        "publishedAt": "2026-09-25T20:52:56.000Z",
-        "url": "https://www.investing.com/news/stock-market-news/why-is-circle-internet-stock-sliding-today-93CH-4918143",
-        "imageUrl": "https://content-media.investing.com/news/LYNXNPEB6U08A_L.jpg",
+        "publishedAt": "2026-09-25T23:30:54.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/bakkt-chief-accounting-officer-sells-2428-of-bkkt-stock-93CH-4918312",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM3S10Z_1200_L.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-dce90a7e-00f8-54a7-b2b8-b12c44205872",
-        "title": "Nor'easter forces Ed Sheeran to cancel Gillette Stadium shows",
-        "description": "Ed Sheeran's Loop Tour concerts at Gillette Stadium in Massachusetts were canceled due to severe weather.",
-        "publisher": "Businessinsider",
-        "publisherDomain": "businessinsider.com",
-        "publishedAt": "2026-09-25T21:11:54.000Z",
-        "url": "https://www.businessinsider.com/ed-sheeran-boston-show-canceled-weather-2026-9",
-        "imageUrl": "https://i.insider.com/6ab6e04ceb7225411267ae59?width=1200&format=jpeg",
+        "id": "currents-b1449f0c-1955-586b-bbbd-8e4d898d5f64",
+        "title": "Bakkt general counsel D’Annunzio sells $10,951 in BKKT stock By Investing.com",
+        "description": "Bakkt general counsel D’Annunzio sells $10,951 in BKKT stock",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-09-25T23:16:09.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/bakkt-general-counsel-dannunzio-sells-10951-in-bkkt-stock-93CH-4918299",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM4519D_1200_L.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-7a932b89-ff04-51a1-9950-1517b7130b1a",
-        "title": "Brookfield Real Assets Income Fund Inc. Declares Q4 2026 Distribution Schedule",
-        "description": "NEW YORK, Sept. 25, 2026 (GLOBE NEWSWIRE) -- Brookfield Real Assets Income Fund Inc. (NYSE: RA) (the “Fund”) today announced that its Board of Directors...",
-        "publisher": "Globenewswire",
-        "publisherDomain": "globenewswire.com",
-        "publishedAt": "2026-09-25T21:04:00.000Z",
-        "url": "https://www.globenewswire.com/news-release/2026/09/25/3369341/0/en/brookfield-real-assets-income-fund-inc-declares-q4-2026-distribution-schedule.html",
-        "imageUrl": "https://ml.globenewswire.com/Resource/Download/aa0a7706-aab6-4628-a9c5-823699bc9d83",
+        "id": "currents-f772eaab-d4b6-5729-a6a4-76af5f7f79f6",
+        "title": "AJB Investment Fund II increases stake in Jewett Cameron Trading, $1,588 stock buy By Investing.com",
+        "description": "AJB Investment Fund II increases stake in Jewett Cameron Trading, $1,588 stock buy",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-09-25T23:16:00.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/ajb-investment-fund-ii-increases-stake-in-jewett-cameron-trading-1588-stock-buy-93CH-4918298",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM4416N_1200_L.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-2a38522f-1148-5b89-b219-7822f9492a90",
-        "title": "Quest PharmaTech Announces Change of Chief Executive Officer",
-        "description": "EDMONTON, Alberta, Sept. 25, 2026 (GLOBE NEWSWIRE) -- Quest PharmaTech Inc. (TSX-V: QPT) (“Quest” or the “Company”), a Canadian based pharmaceutical...",
-        "publisher": "Globenewswire",
-        "publisherDomain": "globenewswire.com",
-        "publishedAt": "2026-09-25T21:00:00.000Z",
-        "url": "https://www.globenewswire.com/news-release/2026/09/25/3369337/0/en/quest-pharmatech-announces-change-of-chief-executive-officer.html",
-        "imageUrl": "https://ml.globenewswire.com/Resource/Download/fd192331-1a31-44aa-b520-5409d720a0b6",
+        "id": "currents-1947301f-2ef9-558a-8d22-a2338911b5d8",
+        "title": "Cale Hellums has 3 TD runs to rally Army over Temple 21-17 in Owls' American Conference opener",
+        "description": "PHILADELPHIA (AP) — Quarterback Cale Hellums rushed for 104 yards and three touchdowns to lead Army over Temple 21-17 on Friday in the Owls",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-09-25T23:54:46.000Z",
+        "url": "https://www.winnipegfreepress.com/uncategorized/2026/09/25/cale-hellums-has-3-td-runs-to-rally-army-over-temple-21-17-in-owls-american-conference-opener",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-814073e3-9d14-536e-81e4-ee09b13ec32b",
-        "title": "Netcapital Inc. Receives Nasdaq Notice Related to Delayed Quarterly Report on Form 10-Q",
-        "description": "BOSTON, MA, Sept. 25, 2026 (GLOBE NEWSWIRE) -- Netcapital Inc. (Nasdaq: NCPL) (the “Company”) today announced that on September 21, 2026, it received a...",
-        "publisher": "Globenewswire",
-        "publisherDomain": "globenewswire.com",
-        "publishedAt": "2026-09-25T21:00:00.000Z",
-        "url": "https://www.globenewswire.com/news-release/2026/09/25/3369339/0/en/netcapital-inc-receives-nasdaq-notice-related-to-delayed-quarterly-report-on-form-10-q.html",
-        "imageUrl": "https://ml.globenewswire.com/Resource/Download/5380deaa-47b8-4805-8ada-9528988af995",
+        "id": "currents-a37c83e2-af1f-5645-af57-fd221ede813d",
+        "title": "Senators acquire goaltender Jonas Johansson from Lightning for future considerations",
+        "description": "OTTAWA - The Ottawa Senators have acquired goaltender Jonas Johansson from the Tampa Bay Lightning in exchange for future considerations, the NHL club announced Friday.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-09-25T23:49:44.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/hockey/2026/09/25/senators-acquire-goaltender-jonas-johansson-from-lightning-for-future-considerations",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab7083974ebe8a78e63178fjpeg.jpg?w=1600",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-ba987666-225d-5754-8dc3-18e6dfb02caa",
-        "title": "Calidi Biotherapeutics Received NYSE American Notification Letter Regarding Stockholders’ Equity Deficiency",
-        "description": "SAN DIEGO, Sept. 25, 2026 (GLOBE NEWSWIRE) -- Calidi Biotherapeutics, Inc. (NYSE American: CLDI) (“Calidi” or the “Company”), a biotechnology company...",
-        "publisher": "Globenewswire",
-        "publisherDomain": "globenewswire.com",
-        "publishedAt": "2026-09-25T21:00:00.000Z",
-        "url": "https://www.globenewswire.com/news-release/2026/09/25/3369336/0/en/calidi-biotherapeutics-received-nyse-american-notification-letter-regarding-stockholders-equity-deficiency.html",
-        "imageUrl": "https://ml.globenewswire.com/Resource/Download/9e574b79-be62-4805-a4b4-cb0b7dcc5fbd",
+        "id": "currents-9653cae5-356c-573d-a237-ddd5ce600b5e",
+        "title": "Australia takes on the new-look Springboks in one-off rugby test in Perth",
+        "description": "PERTH, Australia (AP) — After a huge 3-1 rugby series win over New Zealand in the so-called “Greatest Rivalry,” South Africa plays Australia on Sunday in what should be the friendly confines of Perth stadium in Western Australia.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-09-25T23:23:18.000Z",
+        "url": "https://www.winnipegfreepress.com/uncategorized/2026/09/25/australia-takes-on-the-new-look-springboks-in-one-off-rugby-test-in-perth",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-0d2daa66-2eb0-5196-b389-60883e5e3528",
-        "title": "Gree, Haier see profits fall as Chinese appliance brands face overseas test",
-        "description": "Gree, Haier see profits fall as Chinese appliance brands face overseas test",
-        "publisher": "Nikkei",
-        "publisherDomain": "asia.nikkei.com",
-        "publishedAt": "2026-09-25T21:25:48.000Z",
-        "url": "https://asia.nikkei.com/business/companies/gree-haier-see-profits-fall-as-chinese-appliance-brands-face-overseas-test",
+        "id": "currents-cbb03542-2095-5a46-ad34-bca631e4b4fc",
+        "title": "Cavaliers president Altman shrugs off LeBron James' 76ers move, touts his team's 'sustainable' build",
+        "description": "INDEPENDENCE, Ohio (AP) — Koby Altman would have loved for LeBron James to return for a third stint with the Cleveland Cavaliers.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-09-25T23:18:45.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/basketball/2026/09/25/cavaliers-president-altman-shrugs-off-lebron-james-76ers-move-touts-his-teams-sustainable-build",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab70152d98934d156a9df3ajpeg.jpg?w=1600",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-6c39bd5c-a66c-5131-9b5a-8f887322f2f0",
-        "title": "Summits in a New York minute: Riding along with Takaichi's UN visit",
-        "description": "Summits in a New York minute: Riding along with Takaichi's UN visit",
-        "publisher": "Nikkei",
-        "publisherDomain": "asia.nikkei.com",
-        "publishedAt": "2026-09-25T21:25:48.000Z",
-        "url": "https://asia.nikkei.com/politics/international-relations/summits-in-a-new-york-minute-riding-along-with-takaichi-s-un-visit",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-ff30aa0d-8916-5be2-89aa-44c2d1ec7ca2",
-        "title": "Xi's human control or Trump's 'super intelligence': What's next for AI?",
-        "description": "Xi's human control or Trump's 'super intelligence': What's next for AI?",
-        "publisher": "Nikkei",
-        "publisherDomain": "asia.nikkei.com",
-        "publishedAt": "2026-09-25T21:25:47.000Z",
-        "url": "https://asia.nikkei.com/spotlight/trump-xi-summit/xi-s-human-control-or-trump-s-super-intelligence-what-s-next-for-ai",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-1c73aa01-0cef-5b98-acc9-f69dd81172fc",
-        "title": "Weekend Help and Victory Thread for the week of September 25, 2026",
-        "description": "If you need help, please check the PF Wiki to see if your question might be answered there. This thread is for personal finance questions, discussions, and sharing your success stories: Please make a top-level comment if you want to ask a question! Also, please don't downvote \"moronic\" questions! I...",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-09-25T21:00:02.000Z",
-        "url": "https://www.reddit.com/r/personalfinance/comments/1wq7s58/weekend_help_and_victory_thread_for_the_week_of",
+        "id": "currents-bc74a036-30b4-56ef-87f5-08eb82cab21f",
+        "title": "US coach Pochettino regrets his limited role in Balogun red-card appeal at the World Cup",
+        "description": "ORLANDO, Fla. (AP) — U.S. coach Mauricio Pochettino says he should have been more involved in the decision to appeal the red card given to star forward Folarin Balogun during the World Cup.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-09-25T23:12:45.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/soccer/2026/09/25/us-coach-pochettino-regrets-his-limited-role-in-balogun-red-card-appeal-at-the-world-cup",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6a9ef234d98934d15694042bjpeg.jpg?w=1600",
         "categories": [
           "Top",
           "Business"
@@ -914,45 +945,14 @@
     ],
     "Technology": [
       {
-        "id": "currents-05ff49f8-2e1f-5705-8a97-451ec8cb0a46",
-        "title": "Teach Claude your workflow: build an Agent Skill with SKILL.md",
-        "description": "Originally published at AI Frontier Post. Every regular Claude user eventually hits the same...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-09-25T21:21:33.000Z",
-        "url": "https://dev.to/aifrontierpost/teach-claude-your-workflow-build-an-agent-skill-with-skillmd-2c28",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdtlzpk80n5ekgyea3y4q.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-2de4f89b-021c-50c6-b709-bd4b106e80a6",
-        "title": "How cells rapidly detect viruses that fuse with their membranes",
-        "description": "Researchers have figured out a missing piece of the puzzle of how human cells detect invading viruses and mount an immune response within an hour.",
-        "publisher": "Phys",
-        "publisherDomain": "phys.org",
-        "publishedAt": "2026-09-25T21:20:13.000Z",
-        "url": "https://phys.org/news/2026-09-cells-rapidly-viruses-fuse-membranes.html",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-dbd5d627-a69d-57a7-966b-f52514f1cb3f",
-        "title": "IRS launches new mobile app, expanding digital services for taxpayers | Internal Revenue Service",
-        "description": "IR-2026-114, Sept. 25, 2026 — The IRS today announced the launch of the new IRS mobile app, replacing IRS2Go and expanding the agency’s digital services to give taxpayers more ways to securely access IRS tools and account services from their mobile devices.",
-        "publisher": "Irs",
-        "publisherDomain": "irs.gov",
-        "publishedAt": "2026-09-25T21:15:58.000Z",
-        "url": "https://www.irs.gov/newsroom/irs-launches-new-mobile-app-expanding-digital-services-for-taxpayers",
-        "imageUrl": "https://www.irs.gov/pub/image/irs_logo.jpg",
+        "id": "currents-494b8f40-d134-59d3-8b98-41e706065c8d",
+        "title": "Groups Sue TVA Over Clean Air Act Violations at Kingston Site",
+        "description": "Support CleanTechnica's work through a Substack subscription, on Patreon, or on Stripe. Help us produce all of the high-quality, original content we publish week after week despite the challenges of content-scraping AI, antisocial media, inflation, and other hurdles. Harriman, Tennessee — On Thursda...",
+        "publisher": "Cleantechnica",
+        "publisherDomain": "cleantechnica.com",
+        "publishedAt": "2026-09-25T23:44:32.000Z",
+        "url": "https://cleantechnica.com/2026/09/25/groups-sue-tva-over-clean-air-act-violations-at-kingston-site",
+        "imageUrl": "https://cleantechnica.com/wp-content/uploads/2023/04/Judge-Gavel-Court-CleanTechnica-Watermark.png",
         "categories": [
           "Top",
           "U.S.",
@@ -961,94 +961,31 @@
         ]
       },
       {
-        "id": "currents-ee7916b8-80b1-5137-a8db-92c29ce1df54",
-        "title": "Laura Bassett (@lebassett.bsky.social)",
-        "description": "Someone just sent me a Chase ad that features an AI version of me. What do I do",
-        "publisher": "Bsky",
-        "publisherDomain": "bsky.app",
-        "publishedAt": "2026-09-25T21:15:55.000Z",
-        "url": "https://bsky.app/profile/lebassett.bsky.social/post/3mwel345jr22s",
-        "imageUrl": "https://cdn.bsky.app/img/avatar_thumbnail/plain/did:plc:it4vfrn3hgrb3hsvvwfltqqa/bafkreihr53xcauif4ldgqpk6iw3jeajhko5ypbxam5kvviaywtozwzcuwm",
+        "id": "currents-86cae729-d3a5-54c3-994e-4c6e48056096",
+        "title": "Wish Apple Intelligence could block custom criteria based on call screening response",
+        "description": "Never expressed any interest in a loan, yet I get tons of these robocalls every day. I already have my carrier’s spam protection enabled, but it barely makes a difference. It’d be great if iOS could use the call screening live transcription to recognize obvious loan offers and automatically block th...",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-09-25T23:44:53.000Z",
+        "url": "https://www.reddit.com/r/iphone/comments/1wqbkj5/wish_apple_intelligence_could_block_custom",
         "categories": [
           "Top",
           "U.S.",
           "Technology",
           "Science"
-        ]
-      },
-      {
-        "id": "currents-3315d144-b8fa-532c-9619-c5d91153e970",
-        "title": "Critically endangered species in the heart of Africa: Investigating Hooded Vultures in Chad",
-        "description": "Slaughterhouses are places most people never want to go, and might seem like unlikely places to search for rare or endangered species. In West Africa, however, they are among the last places one can find a critically endangered species, the Hooded Vulture, which historically thrived as a human comme...",
-        "publisher": "Phys",
-        "publisherDomain": "phys.org",
-        "publishedAt": "2026-09-25T21:20:02.000Z",
-        "url": "https://phys.org/news/2026-09-critically-endangered-species-heart-africa.html",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-248d2c20-d3f9-56f4-9c37-daf8cf4fa12b",
-        "title": "MC/DC coverage for JavaScript",
-        "description": "A checkout function can have 100% line and branch coverage without a test for an expired session....",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-09-25T21:19:25.000Z",
-        "url": "https://dev.to/nedomas/mcdc-coverage-for-javascript-4388",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdvsg1ns6eccyqggzazu8.jpg",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
         ]
       }
     ],
     "Science": [
       {
-        "id": "currents-05ff49f8-2e1f-5705-8a97-451ec8cb0a46",
-        "title": "Teach Claude your workflow: build an Agent Skill with SKILL.md",
-        "description": "Originally published at AI Frontier Post. Every regular Claude user eventually hits the same...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-09-25T21:21:33.000Z",
-        "url": "https://dev.to/aifrontierpost/teach-claude-your-workflow-build-an-agent-skill-with-skillmd-2c28",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdtlzpk80n5ekgyea3y4q.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-2de4f89b-021c-50c6-b709-bd4b106e80a6",
-        "title": "How cells rapidly detect viruses that fuse with their membranes",
-        "description": "Researchers have figured out a missing piece of the puzzle of how human cells detect invading viruses and mount an immune response within an hour.",
-        "publisher": "Phys",
-        "publisherDomain": "phys.org",
-        "publishedAt": "2026-09-25T21:20:13.000Z",
-        "url": "https://phys.org/news/2026-09-cells-rapidly-viruses-fuse-membranes.html",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-dbd5d627-a69d-57a7-966b-f52514f1cb3f",
-        "title": "IRS launches new mobile app, expanding digital services for taxpayers | Internal Revenue Service",
-        "description": "IR-2026-114, Sept. 25, 2026 — The IRS today announced the launch of the new IRS mobile app, replacing IRS2Go and expanding the agency’s digital services to give taxpayers more ways to securely access IRS tools and account services from their mobile devices.",
-        "publisher": "Irs",
-        "publisherDomain": "irs.gov",
-        "publishedAt": "2026-09-25T21:15:58.000Z",
-        "url": "https://www.irs.gov/newsroom/irs-launches-new-mobile-app-expanding-digital-services-for-taxpayers",
-        "imageUrl": "https://www.irs.gov/pub/image/irs_logo.jpg",
+        "id": "currents-494b8f40-d134-59d3-8b98-41e706065c8d",
+        "title": "Groups Sue TVA Over Clean Air Act Violations at Kingston Site",
+        "description": "Support CleanTechnica's work through a Substack subscription, on Patreon, or on Stripe. Help us produce all of the high-quality, original content we publish week after week despite the challenges of content-scraping AI, antisocial media, inflation, and other hurdles. Harriman, Tennessee — On Thursda...",
+        "publisher": "Cleantechnica",
+        "publisherDomain": "cleantechnica.com",
+        "publishedAt": "2026-09-25T23:44:32.000Z",
+        "url": "https://cleantechnica.com/2026/09/25/groups-sue-tva-over-clean-air-act-violations-at-kingston-site",
+        "imageUrl": "https://cleantechnica.com/wp-content/uploads/2023/04/Judge-Gavel-Court-CleanTechnica-Watermark.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1057,255 +994,226 @@
         ]
       },
       {
-        "id": "currents-ee7916b8-80b1-5137-a8db-92c29ce1df54",
-        "title": "Laura Bassett (@lebassett.bsky.social)",
-        "description": "Someone just sent me a Chase ad that features an AI version of me. What do I do",
-        "publisher": "Bsky",
-        "publisherDomain": "bsky.app",
-        "publishedAt": "2026-09-25T21:15:55.000Z",
-        "url": "https://bsky.app/profile/lebassett.bsky.social/post/3mwel345jr22s",
-        "imageUrl": "https://cdn.bsky.app/img/avatar_thumbnail/plain/did:plc:it4vfrn3hgrb3hsvvwfltqqa/bafkreihr53xcauif4ldgqpk6iw3jeajhko5ypbxam5kvviaywtozwzcuwm",
+        "id": "currents-86cae729-d3a5-54c3-994e-4c6e48056096",
+        "title": "Wish Apple Intelligence could block custom criteria based on call screening response",
+        "description": "Never expressed any interest in a loan, yet I get tons of these robocalls every day. I already have my carrier’s spam protection enabled, but it barely makes a difference. It’d be great if iOS could use the call screening live transcription to recognize obvious loan offers and automatically block th...",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-09-25T23:44:53.000Z",
+        "url": "https://www.reddit.com/r/iphone/comments/1wqbkj5/wish_apple_intelligence_could_block_custom",
         "categories": [
           "Top",
           "U.S.",
           "Technology",
           "Science"
-        ]
-      },
-      {
-        "id": "currents-3315d144-b8fa-532c-9619-c5d91153e970",
-        "title": "Critically endangered species in the heart of Africa: Investigating Hooded Vultures in Chad",
-        "description": "Slaughterhouses are places most people never want to go, and might seem like unlikely places to search for rare or endangered species. In West Africa, however, they are among the last places one can find a critically endangered species, the Hooded Vulture, which historically thrived as a human comme...",
-        "publisher": "Phys",
-        "publisherDomain": "phys.org",
-        "publishedAt": "2026-09-25T21:20:02.000Z",
-        "url": "https://phys.org/news/2026-09-critically-endangered-species-heart-africa.html",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-248d2c20-d3f9-56f4-9c37-daf8cf4fa12b",
-        "title": "MC/DC coverage for JavaScript",
-        "description": "A checkout function can have 100% line and branch coverage without a test for an expired session....",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-09-25T21:19:25.000Z",
-        "url": "https://dev.to/nedomas/mcdc-coverage-for-javascript-4388",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdvsg1ns6eccyqggzazu8.jpg",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
         ]
       }
     ],
     "Sports": [
       {
-        "id": "currents-a149abe7-892d-5d5a-b931-1c2c362d9be5",
-        "title": "The Prem: Harlequins 17-33 Bath: Carreras magic lights up opening night win Bath",
-        "description": "A terrific try from full-back Santiago Carreras is the highlight of Bath's Prem opening night bonus-point victory over Harlequins.",
-        "publisher": "BBC News",
-        "publisherDomain": "bbc.co.uk",
-        "publishedAt": "2026-09-25T21:10:40.000Z",
-        "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cv4g5y8y3582o",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/e35d/live/897bc660-b918-11f1-9be9-632355708508.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-fea7957f-6f0f-5c3f-9bb2-0dc8c5d5a58a",
-        "title": "West Virginia lawmakers battle in court over the Board of Education’s independence",
-        "description": "In April 2025, the West Virginia Legislature passed a law that would give itself power over state Board of Education regulations.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-09-25T21:17:37.000Z",
-        "url": "https://www.winnipegfreepress.com/world/2026/09/25/west-virginia-lawmakers-battle-in-court-over-the-board-of-educations-independence",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-024bc109-124f-5fb0-a60e-f0f3841433f0",
-        "title": "NFL icon shares heartbreaking update on ALS battle",
-        "description": "The 49-year-old has spent the last 15 years fighting the neurodegenerative disease, which affects nerve cells in the brain and spinal cord, and provided a candid update on Friday.",
+        "id": "currents-b68ca425-5dba-5dbf-b7f5-ef7dead9890d",
+        "title": "NFL star compares head coach to Martin Luther King after speech",
+        "description": "After the Falcons secured a 35-14 win over the Green Bay Packers on Thursday Night Football, the running back waxed lyrical over the coach's inspiring speech.",
         "publisher": "Daily Mail",
         "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-09-25T21:14:52.000Z",
-        "url": "https://www.dailymail.com/sport/nfl/article-16161453/steve-gleason-als-update-new-orleans-saints.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/09/25/22/111478427-0-image-m-24_1790370726762.jpg",
+        "publishedAt": "2026-09-25T23:13:04.000Z",
+        "url": "https://www.dailymail.com/sport/nfl/article-16161575/bijan-robinson-kevin-stefanski-martin-luther-king.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/09/26/00/111479955-0-image-m-12_1790377856644.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-6b96008e-154a-5436-a834-6989242a0412",
-        "title": "Tre White returns to coach Bill Self’s Kansas Jayhawks for 5th college hoops season",
-        "description": "The 6-foot-7 forward from Dallas and 89 other college athletes were granted a preliminary injunction to play a fifth season of college sports on Thursday by an Indiana court.",
+        "id": "currents-c2f3206d-224e-5efe-b895-f0d790967ff4",
+        "title": "Unhappy Dynacare staff refuse OT shifts; doors could be closed at clinics with Saturday hours",
+        "description": "Some Winnipeg Dynacare sites normally open on Saturday were closed last week, and may continue to be because staff are refusing to pick up overtime shifts after they were forced back to work amid a labour dispute with the company.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-09-25T23:54:21.000Z",
+        "url": "https://www.winnipegfreepress.com/breakingnews/2026/09/25/unhappy-dynacare-staff-refuse-ot-shifts-doors-could-be-closed-at-clinics-with-saturday-hours",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/09/742521_web1_200110-Dynacare-00002.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-0b071bde-23c5-5610-9995-94874ff81085",
+        "title": "‘That’s just Nestor’: The ridiculous thing about Irankunda’s Brazil wondergoal",
+        "description": "Nestory Irankunda says he wants to build a career with the Socceroos that will “be remembered.” After his breathtaking strike against Brazil, that shouldn’t be a problem.",
+        "publisher": "Smh",
+        "publisherDomain": "smh.com.au",
+        "publishedAt": "2026-09-25T23:46:12.000Z",
+        "url": "https://www.smh.com.au/sport/soccer/that-s-just-nestor-the-ridiculous-thing-about-irankunda-s-brazil-wondergoal-20260926-p610o7.html",
+        "imageUrl": "https://static.ffx.io/images/$zoom_2.2063%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/3f67937a8470cadb159936efaeade9ccb7fdc2a30be30865f86769b6ccce2d86",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-302a88a5-70ba-5277-9742-83688c4464f5",
+        "title": "Nat Fyfe to do pre-game lap of honour at AFL grand final",
+        "description": "Fremantle fans will get to see Nat Fyfe up close at the MCG on grand final day with the Dockers hero preparing to take part in a lap of honour before his team chases premiership glory.",
+        "publisher": "Thewest",
+        "publisherDomain": "thewest.com.au",
+        "publishedAt": "2026-09-25T23:40:53.000Z",
+        "url": "https://thewest.com.au/sport/fremantle-dockers/former-fremantle-dockers-captain-nat-fyfe-to-do-lap-of-honour-before-afl-grand-final-c-22929323",
+        "imageUrl": "https://images.thewest.com.au/publication/C-22929323/a67cc81fb1b476e0c5197e524490aa4d8d81029b-16x9-x793y137w3023h1700.jpg?imwidth=1200",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-f57cadd4-d180-5ba7-8720-f276ed024db8",
+        "title": "Grizzlies waive D'Angelo Russell ahead of camp, sign Brendan Hausen",
+        "description": "MEMPHIS, Tenn. (AP) — The Memphis Grizzlies waived guard D",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-09-25T23:36:46.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/basketball/2026/09/25/grizzlies-waive-dangelo-russell-ahead-of-camp-sign-brendan-hausen",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab7058bd98934d156a9e388jpeg.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-14bc3d39-ebdd-59b8-ad09-c7638315201b",
+        "title": "Nuit Blanche ready to wow in Winnipeg’s core",
+        "description": "For one night each September, downtown Winnipeg becomes an art gallery — an amusement park, even.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-09-25T23:33:55.000Z",
+        "url": "https://www.winnipegfreepress.com/arts-and-life/2026/09/25/the-light-fantastic-2",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/4590303_web1_260924-Nuit-Blanche-00196.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-a022b915-d53a-5f14-950b-939ecbdf6d5e",
+        "title": "Thirty years on from their maiden World Cup, the Springboks are a team for all South Africans",
+        "description": "The Springboks cannot solve South Africa’s problems – but each time they take the field, they show what its people can achieve together.",
+        "publisher": "Smh",
+        "publisherDomain": "smh.com.au",
+        "publishedAt": "2026-09-25T23:33:00.000Z",
+        "url": "https://www.smh.com.au/sport/rugby-union/thirty-years-on-from-their-maiden-world-cup-the-springboks-are-a-team-for-all-south-africans-20260926-p60zmp.html",
+        "imageUrl": "https://static.ffx.io/images/$zoom_0.1999%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_58/t_crop_custom/q_86%2Cf_auto/62e6f8289d679785000f57e8d96d9699a13e7056",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-3d1700e5-ed76-5cd5-9a6a-3cc9c2a09758",
+        "title": "Kansas high school football scores: Wichita-area Week 4 results from Friday",
+        "description": "Week 4 is here. Follow updated Kansas high school football scores from Wichita-area games throughout Friday night.",
         "publisher": "Kansas",
         "publisherDomain": "kansas.com",
-        "publishedAt": "2026-09-25T21:04:43.000Z",
-        "url": "https://www.kansas.com/sports/article317387067.html",
-        "imageUrl": "https://www.kansascity.com/public/latest-news/s065ek/picture314321841/alternates/LANDSCAPE_1200/KCM_KUBASKETBALLTAKEAWAYS2011325TL1224copy.JPG",
+        "publishedAt": "2026-09-25T23:32:25.000Z",
+        "url": "https://www.kansas.com/sports/varsity-kansas/article317388716.html",
+        "imageUrl": "https://www.kansas.com/public/sports/college/wichita-state/4npw0u/picture317389059/alternates/LANDSCAPE_1200/Screenshot%202026-09-22%20at%208.39.50%20AM.png",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-5d6d2311-52cc-5f64-b391-9a20b799afd3",
-        "title": "Yankees retire Hall of Famer CC Sabathia's No. 52 and honor him with plaque in Monument Park",
-        "description": "NEW YORK (AP) — CC Sabathia saw many ceremonies honoring former players during 11 seasons with the New York Yankees and never envisioned he would be an honoree.",
+        "id": "currents-5b04601f-6a10-5503-8e7a-15fd615e6251",
+        "title": "The Knights declared Tom Jenkins would be a ‘long-term NRL player’. They were half right",
+        "description": "Penrith flyer Tom Jenkins can break the hearts of Newcastle officials and fans again in Sunday’s NRL preliminary final.",
+        "publisher": "Theage",
+        "publisherDomain": "theage.com.au",
+        "publishedAt": "2026-09-25T23:30:00.000Z",
+        "url": "https://www.theage.com.au/sport/nrl/the-knights-declared-tom-jenkins-would-be-a-long-term-nrl-player-they-were-half-right-20260926-p610ki.html",
+        "imageUrl": "https://static.ffx.io/images/$zoom_0.772%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_265%2C$y_126/t_crop_custom/q_86%2Cf_auto/60203ef0fc7ec6dc9bb7729ec38b898720a11d2a002714f1b53ae2c5b343a4c3",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-760f029e-0d27-555e-887d-47743b2a733e",
+        "title": "Bill Giles, longtime Philadelphia Phillies owner and executive, dies at 92",
+        "description": "PHILADELPHIA (AP) — Bill Giles, who rose from a Philadelphia Phillies business executive to become an owner and CEO during more than a half-century with the team, died Friday at his home in Gladwyne, Pennsylvania. He was 92.",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-09-25T21:17:36.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/baseball/2026/09/25/yankees-retire-hall-of-famer-cc-sabathias-no-52-and-honor-him-with-plaque-in-monument-park",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab6e4e0d98934d156a9bfd0jpeg.jpg?w=1600",
+        "publishedAt": "2026-09-25T23:29:37.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/baseball/2026/09/25/bill-giles-longtime-philadelphia-phillies-owner-and-executive-dies-at-92",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab703d8d98934d156a9e126jpeg.jpg?w=1600",
         "categories": [
-          "Sports"
+          "Sports",
+          "Entertainment"
         ]
       },
       {
-        "id": "currents-96ed4214-acbb-5902-b468-44dfaeace69f",
-        "title": "Alberta man charged with sexual assault after six women groped at big-box stores",
-        "description": "AIRDRIE - A man has been arrested and charged with half a dozen counts of sexual assault after women were groped at big-box stores in the Calgary area, RCMP said Friday.",
+        "id": "currents-23e665f7-a906-57a5-ae38-789bb2a03100",
+        "title": "Meatpacking groups say ICE arrests could lead to higher prices and revenue loss",
+        "description": "MISSION, Kan. (AP) — Meatpacking industry groups raised concerns Friday that recent heightened immigration operations in Texas, Kansas and Oklahoma have caused employees to miss work, leading to problems at meat-related businesses that could ultimately raise prices for consumers.",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-09-25T21:14:52.000Z",
-        "url": "https://www.winnipegfreepress.com/business/2026/09/25/alberta-man-charged-with-sexual-assault-after-six-women-groped-at-big-box-stores",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6aad877e0e19e4a3e2c8eab9jpeg.jpg?w=1600",
+        "publishedAt": "2026-09-25T23:26:15.000Z",
+        "url": "https://www.winnipegfreepress.com/business/2026/09/25/meatpacking-groups-say-ice-arrests-could-lead-to-higher-prices-and-revenue-loss",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab05351d98934d156a3adb1jpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-f567a0fb-a6d0-54de-98c2-016584498189",
-        "title": "Rodri responds to Man City charges: ‘Everything was deserved’",
-        "description": "The former Manchester City midfielder insists that people cannot take away their achievements",
-        "publisher": "Independent",
-        "publisherDomain": "independent.co.uk",
-        "publishedAt": "2026-09-25T21:10:19.000Z",
-        "url": "https://www.independent.co.uk/sport/football/rodri-man-city-charges-spain-b3056695.html",
-        "imageUrl": "https://static.independent.co.uk/2026/08/07/14/2276645243..?trim=214,0,214,0&width=1200&height=800&crop=1200:800",
+        "id": "currents-6db3a595-c739-5b75-92cc-47d5f85e54d8",
+        "title": "Asian Games 2026 Day 8 LIVE Updates: India Aim For Medals In Kabaddi, Shooting & Athletics",
+        "description": "Asian Games 2026, September 26 Live Updates: Follow all the latest updates from the 8th day of the event with Indian contingent in action across various sports.",
+        "publisher": "News18",
+        "publisherDomain": "news18.com",
+        "publishedAt": "2026-09-25T23:21:31.000Z",
+        "url": "https://www.news18.com/sports/other-sports/asian-games-2026-day-8-live-updates-india-medal-events-results-kabaddi-shooting-athletics-september-26-today-liveblog-ws-l-10353447.html",
+        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/09/Asian-Games-2026-2026-09-51616c1cb945acf2d62e4637e1de142e-1200x675.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-78c5a5d3-af34-5b12-99cf-a61468dc66dc",
-        "title": "Couple’s jaundiced start, 70-year bond with Victoria Hospital behind $536K memorial donation",
-        "description": "When a young engineering student named Will Tishinski was admitted to Victoria Hospital in February 1956 with jaundice, he thought it was the darkest moment of his life.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-09-25T21:07:37.000Z",
-        "url": "https://www.winnipegfreepress.com/breakingnews/2026/09/25/couples-jaundiced-start-70-year-bond-with-victoria-hospital-behind-536k-memorial-donation",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/4590503_web1_260925-Will-Tishinski-0008.jpg?w=1600",
+        "id": "currents-5505c9bf-c476-5fb5-9d9a-3bb4e35158d9",
+        "title": "Internationals stun US with 5-0 sweep to take Presidents Cup lead",
+        "description": "Sept 25 - The International Team swept the 0 in Friday's foursomes to seize a 7-3 lead in the Presidents Cup, a stunning turnaround after trailing by one point following the opening session. Read more at straitstimes.com.",
+        "publisher": "Straitstimes",
+        "publisherDomain": "straitstimes.com",
+        "publishedAt": "2026-09-25T23:17:07.000Z",
+        "url": "https://www.straitstimes.com/sport/golf/internationals-stun-us-with-5-0-sweep-to-take-presidents-cup-lead",
+        "imageUrl": "https://cassette.sphdigital.com.sg/image/straitstimes/796ce79b1a02702638815c81035f68bcd819ae88c5a9880efb7a7c9a468dd217",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-6b78d468-3a6a-56b9-a387-c1621854efff",
-        "title": "Ulster’s second-half comeback in vain as Edinburgh hold on for dramatic victory in URC season opener",
-        "description": "How crazy was that? Regardless of the second-half comeback, Ulster could hardly expect to pull this one out of the fire after being 34-5 behind, though they did manage to get close.",
-        "publisher": "Independent",
-        "publisherDomain": "independent.ie",
-        "publishedAt": "2026-09-25T21:02:48.000Z",
-        "url": "https://www.independent.ie/sport/rugby/united-rugby-championship/ulsters-second-half-comeback-in-vain-as-edinburgh-hold-on-for-dramatic-victory-in-urc-season-opener/a/162192197.html",
-        "imageUrl": "https://prod-img.belfasttelegraph.co.uk/public/incoming/p16atc-sports3576332.jpg/alternates/SIXTEEN_NINE_1200/Sports3576332.jpg",
+        "id": "currents-14fbbc7d-afcd-5796-9a44-3231b0bc2c1c",
+        "title": "S. Korean sabre fencers target 4th straight Asiad team gold - The Korea Times",
+        "description": "NAGOYA — The South Korean men's sabre fencers will seek to extend their gold medal streak in the team event to four at the Aichi-Nagoya Asian Games...",
+        "publisher": "Co",
+        "publisherDomain": "koreatimes.co.kr",
+        "publishedAt": "2026-09-25T23:17:02.000Z",
+        "url": "https://www.koreatimes.co.kr/sports/20260926/s-korean-sabre-fencers-target-4th-straight-asiad-team-gold",
+        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/09/26/af6f76ff-ad04-4970-9064-27ca137fc778.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-c62b4bb2-9dd8-58ec-84ad-a5c9d925d044",
-        "title": "Second-half rally from Ulster wasn't enough to rescue appalling opener",
-        "description": "Edinburgh led 34-5 at one stage in an underwhelming opening game for Richie Murphy’s team.",
-        "publisher": "The42",
-        "publisherDomain": "the42.ie",
-        "publishedAt": "2026-09-25T21:02:47.000Z",
-        "url": "https://www.the42.ie/ulster-edinburgh-urc-2-7174172-Sep2026",
-        "imageUrl": "https://img2.thejournal.ie/article/7174172/river/?height=400&version=7174178",
+        "id": "currents-f9805a86-7c15-51db-af59-f6d975094be0",
+        "title": "New face emerges as S. Korea fails to match 2023 success - The Korea Times",
+        "description": "TOKYO — The South Korean national swimming delegation arrived in Tokyo for the Asian Games with a goal of replicating its success from three years...",
+        "publisher": "Co",
+        "publisherDomain": "koreatimes.co.kr",
+        "publishedAt": "2026-09-25T23:17:02.000Z",
+        "url": "https://www.koreatimes.co.kr/sports/20260926/new-face-emerges-as-s-korea-fails-to-match-2023-success",
+        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/09/26/62a99636-f731-4653-a3ae-c48e21fa0eac.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-90e952db-8abd-5e50-82a6-b6e11d2251b8",
-        "title": "Connacht fall to powerful Stormers in flat URC opener",
-        "description": "Two late tries wrapped up a big win for the Cape Town side, who dominated the contest up front.",
-        "publisher": "The42",
-        "publisherDomain": "the42.ie",
-        "publishedAt": "2026-09-25T20:59:00.000Z",
-        "url": "https://www.the42.ie/connacht-stormers-report-7174105-Sep2026",
-        "imageUrl": "https://img2.thejournal.ie/article/7174105/river/?height=400&version=7174174",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-a5102a91-d738-59ff-854e-43284f603894",
-        "title": "AI ads are popular in the 2026 midterms, but state laws haven’t stopped a lack of disclosure",
-        "description": "In what appears at first to be a typical campaign advertisement, two people introduce themselves as Zohran Mamdani and Kathy Hochul while strolling through a park on a beautiful sunny day.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-09-25T20:54:50.000Z",
-        "url": "https://www.winnipegfreepress.com/arts-and-life/life/sci-tech/2026/09/25/ai-ads-are-popular-in-the-2026-midterms-but-state-laws-havent-stopped-a-lack-of-disclosure",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab6df93d98934d156a9ba68jpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-2006f4b6-790b-577d-baeb-6f7b18d3b231",
-        "title": "Italy crisis continues with home loss to Belgium before unfilled stadium on Mancini's return",
-        "description": "ROME (AP) — Six months on from failing to qualify for a third consecutive World Cup, four-time champion Italy is still struggling.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-09-25T20:47:33.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/soccer/2026/09/25/italy-crisis-continues-with-home-loss-to-belgium-before-unfilled-stadium-on-mancinis-return",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab6ddd55c59095e12ecaa34jpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-6d33b7a2-77e5-566d-afb4-aed917b1031a",
-        "title": "Scott Stinson: Doug Ford’s love affair with corporate subsidies shows no sign of waning",
-        "description": "The Ontario PCs once criticized what they called 'corporate welfare.' Now they can't get enough of it",
-        "publisher": "Nationalpost",
-        "publisherDomain": "nationalpost.com",
-        "publishedAt": "2026-09-25T21:13:38.000Z",
-        "url": "https://nationalpost.com/opinion/scott-stinson-doug-ford-corporate-subsidies",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-a4549fab-d672-5c73-86d7-1f28e74fd5f0",
-        "title": "Mipo Odubeko on target as Shelbourne and Galway share spoils",
-        "description": "Mipo Odubeko on target as Shelbourne and Galway share spoils",
-        "publisher": "Independent",
-        "publisherDomain": "independent.ie",
-        "publishedAt": "2026-09-25T21:13:09.000Z",
-        "url": "https://www.independent.ie/sport/soccer/league-of-ireland/mipo-odubeko-on-target-as-shelbourne-and-galway-share-spoils/a/162191187.html",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-4387accc-eaa6-53a2-9069-31aebe0a75c9",
-        "title": "Kerry FC climb back into play-off places after McGrath’s 67th minute winner against Wexford",
-        "description": "Kerry sit in fifth place in the division, level on 45 points with Athlone Town and just a point behind fourth-place Cobh Ramblers",
-        "publisher": "Independent",
-        "publisherDomain": "independent.ie",
-        "publishedAt": "2026-09-25T20:55:20.000Z",
-        "url": "https://www.independent.ie/county/kerry/kerry-fc-climb-back-into-play-off-places-after-mcgraths-67th-minute-winner-against-wexford/a/162191644.html",
+        "id": "currents-e02e9713-4006-5521-ba4f-f7a26598766b",
+        "title": "We’ve got mailboat jumping on the fine Friday evening on ESPN8 The Ocho",
+        "description": "submitted by /u/OtherwiseElk3037 [link] [comments]",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-09-25T23:33:46.000Z",
+        "url": "https://www.reddit.com/r/sports/comments/1wqbc1r/weve_got_mailboat_jumping_on_the_fine_friday",
         "categories": [
           "Sports"
         ]
@@ -1313,211 +1221,210 @@
     ],
     "Entertainment": [
       {
-        "id": "currents-a5fc763f-64ad-58ac-ac75-f3e37631fb96",
-        "title": "Former husband arrested in Big Bear Lake cold case after DNA identifies remains",
-        "description": "The former husband of a 29-year-old woman reported missing in 2007 has been arrested after advances in DNA technology helped investigators identify remains found beneath a California cabin.",
-        "publisher": "Abc7news",
-        "publisherDomain": "abc7news.com",
-        "publishedAt": "2026-09-25T20:46:14.000Z",
-        "url": "https://abc7news.com/post/big-bear-lake-cold-case-former-husband-arrested-murder-dna-identifies-remains-jill-maiorcain-southern-california/19872682",
-        "imageUrl": "https://cdn.abcotvs.com/dip/images/19872679_092526-kabc-big-bear-cold-case.jpg?w=1600",
+        "id": "currents-f9395ef8-4918-5487-98fa-50e3704b9444",
+        "title": "Jay-Z accuser RECANTS claim he raped her when she was 13",
+        "description": "She first filed suit in New York as Jane Doe in October 2024, claiming she was violated by Jay-Z and Sean 'Diddy' Combs at an afterparty for the 2000 MTV Video Music Awards.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-09-25T22:41:26.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16161359/jay-z-rape-accuser-recants-claim-assaulted-13-apologizes-immense-pain.html?ns_campaign=1490&ito=1490",
+        "imageUrl": "https://i.dailymail.com/1s/2026/09/25/22/111477999-0-image-m-42_1790370331561.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-0372cf9d-321c-5ea7-b5cc-324baa180ea2",
-        "title": "Jessica Lange’s Comeback Project That Isn’t AHS Hits Theaters Today, Ed Harris Also Stars",
-        "description": "Jessica Lange returns to the big screen in a new drama starring Ed Harris and Ben Foster. It arrives in select theaters today.",
-        "publisher": "Comingsoon",
-        "publisherDomain": "comingsoon.net",
-        "publishedAt": "2026-09-25T21:15:59.000Z",
-        "url": "https://www.comingsoon.net/movies/news/2197697-jessica-lange-ed-harris-ben-foster-classic-family-drama-theaters-today",
-        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/09/Deepesh-personal-1200-675-10.png?resize=1200,630",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-57c9f436-b16d-5333-9488-8a0042c660c7",
-        "title": "Lauren Sánchez Bezos Wears Giant Diamond and Plunging Gown for White House State Dinner",
-        "description": "Lauren Sánchez Bezos donned a massive diamond necklace and a gown with a plunging neckline for a Sept. 24 White House state dinner alongside husband Jeff Bezos.",
-        "publisher": "E! News",
-        "publisherDomain": "eonline.com",
-        "publishedAt": "2026-09-25T21:03:02.000Z",
-        "url": "https://www.eonline.com/news/1436464/lauren-sanchez-bezos-wore-giant-diamond-dress-for-white-house-state-dinner",
-        "imageUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20260925/da88a1a7-cda3-4b55-bf93-fc4fbc8a7c74_1790368445.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+        "id": "currents-65242d97-e533-5ddd-869a-e295c45189ce",
+        "title": "Video Burden of Proof: September 25, 2026",
+        "description": "New testimony in trial of former 'American Idol' contestant accused of murdering his wife; Jay-Z drops defamation lawsuit against rape accuser.",
+        "publisher": "Abcnews",
+        "publisherDomain": "abcnews.com",
+        "publishedAt": "2026-09-25T23:38:29.000Z",
+        "url": "https://abcnews.com/video/136770229",
+        "imageUrl": "https://i.abcnewsfe.com/a/28dadb19-2487-4f02-be06-61bb01bb4d18/BURDEN_OF_PROOF_no_subtitle_hpMain_16x9.jpg?w=992",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-ce8650f8-6a11-5818-b701-ee18a544f9cf",
-        "title": "VisionQuest’s New Trailer Offers First Look at T'Nia Miller’s Jocasta MCU Villain",
-        "description": "VisionQuest trailer offers the first look at T’Nia Miller’s Jocasta, the new MCU villain with a mysterious red-eyed appearance.",
-        "publisher": "Superherohype",
-        "publisherDomain": "superherohype.com",
-        "publishedAt": "2026-09-25T21:02:11.000Z",
-        "url": "https://www.superherohype.com/news/695789-visionquest-new-trailer-t-nia-miller-jocasta-mcu-villain",
-        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/09/Jocasta-in-Iron-Man-comic.jpg?resize=1200,630",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-690080a4-de31-5ade-8a91-0eba9dbcc53a",
-        "title": "Minion Spin-off Being Canceled After Minions & Monsters’ Disappointing Box Office",
-        "description": "After Minions & Monsters failed to impress studios at the box office, one Despicable Me-themed spin-off is shutting down for good.",
-        "publisher": "Comingsoon",
-        "publisherDomain": "comingsoon.net",
-        "publishedAt": "2026-09-25T21:08:32.000Z",
-        "url": "https://www.comingsoon.net/movies/news/2197739-minion-spin-off-canceled-after-minions-and-monsters-box-office",
-        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2024/01/new-minions-movie-2024-another-minion-spin-off-film.jpg?resize=1200,630",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-a6a9dbd6-c4ed-57fb-a177-144328b91b3f",
-        "title": "Paradise's Dan Fogelman Gives Statement on Hit Show Ending as Season 3 Wraps Filming",
-        "description": "Paradise creator Dan Fogelman confirms Season 3 has wrapped filming and teases what fans can expect from the Hulu thriller’s final season.",
-        "publisher": "Comingsoon",
-        "publisherDomain": "comingsoon.net",
-        "publishedAt": "2026-09-25T21:07:51.000Z",
-        "url": "https://www.comingsoon.net/tv/news/2197727-paradise-dan-fogelman-statement-show-ending-season-3-wraps-filming",
-        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/09/paradise.jpg?resize=1200,630",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-c9ff02e6-c13a-5c37-902f-c04d36a46a55",
-        "title": "Heart of the Beast’s Release Gives Dog Lovers Clear Answer on if Odin Dies in Brad Pitt Movie",
-        "description": "Heart of the Beast starring Brad Pitt made its theatrical debut, finally confirming whether Odin the dog survives in the movie.",
-        "publisher": "Comingsoon",
-        "publisherDomain": "comingsoon.net",
-        "publishedAt": "2026-09-25T21:07:42.000Z",
-        "url": "https://www.comingsoon.net/movies/news/2197740-heart-of-the-beast-release-dog-lovers-answer-odin-dies-brad-pitt-movie",
-        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/09/Heart-of-the-Beasts-Release-Gives-Dog-Lovers-Clear-Answer-on-if-Odin-Dies-in-Brad-Pitt-Movie.jpg?resize=1200,630",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-d962537a-c7af-5ea5-a137-2f4c5e3da034",
-        "title": "Adam Carolla & Jane Lynch’s Critically Acclaimed Comedy Movie Is Now Free to Watch",
-        "description": "A critically acclaimed comedy movie, featuring Adam Carolla and Jane Lynch, is now available to watch for free.",
-        "publisher": "Comingsoon",
-        "publisherDomain": "comingsoon.net",
-        "publishedAt": "2026-09-25T21:07:39.000Z",
-        "url": "https://www.comingsoon.net/movies/news/2197722-adam-carolla-jane-lynch-critically-acclaimed-comedy-movie-free",
-        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/09/ac.jpg?resize=1200,630",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-507940a9-14c0-5f51-a5e7-c38dea4c34e2",
-        "title": "Your Old-Ass Hairbrush Could Be Destroying Your Hair. Here Are 10 Replacements To Buy ASAP.",
-        "description": "Are my worn-down hairbrushes slicing through my strands of hair and causing split ends?",
+        "id": "currents-2c569189-0498-58a9-961d-8de384cad9db",
+        "title": "14 Deeply Unsettling Historical Sex Facts That Sound Completely Made Up, But Are Actually True",
+        "description": "From edible dildos to pubic wigs, I'll never unlearn these very graphic historical sex facts.",
         "publisher": "Buzzfeed",
         "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-09-25T21:01:02.000Z",
-        "url": "https://www.buzzfeed.com/carolinlehmann/experts-recommend-replacing-hairbrush-an",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-07/28/18/thumb/8jYYx5Xml.png?crop=800:419;0,57%26downsize=1250:*",
+        "publishedAt": "2026-09-25T23:31:02.000Z",
+        "url": "https://www.buzzfeed.com/gabriellelafrank/deeply-unsettling-historical-sex-facts",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-09/21/17/thumb/HVWOsJgXJ.jpg?crop=3000:1571;0,145%26downsize=1250:*",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-d12d98ab-26ee-5fe5-a278-5433090856d1",
-        "title": "Ween Announce Massive Box Set Revisiting 'Chocolate and Cheese' Tour",
-        "description": "Ween will revisit their tour in support of their classic 'Chocolate and Cheese' in a new box set that unearths seven full gigs from the trek.",
-        "publisher": "Rollingstone",
-        "publisherDomain": "rollingstone.com",
-        "publishedAt": "2026-09-25T21:00:58.000Z",
-        "url": "https://www.rollingstone.com/music/music-news/ween-massive-box-set-chocolate-cheese-tour-1235632118",
-        "imageUrl": "https://www.rollingstone.com/wp-content/uploads/2026/09/GettyImages-1172372869.jpg?w=1600&h=900&crop=1",
+        "id": "currents-760f029e-0d27-555e-887d-47743b2a733e",
+        "title": "Bill Giles, longtime Philadelphia Phillies owner and executive, dies at 92",
+        "description": "PHILADELPHIA (AP) — Bill Giles, who rose from a Philadelphia Phillies business executive to become an owner and CEO during more than a half-century with the team, died Friday at his home in Gladwyne, Pennsylvania. He was 92.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-09-25T23:29:37.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/baseball/2026/09/25/bill-giles-longtime-philadelphia-phillies-owner-and-executive-dies-at-92",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab703d8d98934d156a9e126jpeg.jpg?w=1600",
+        "categories": [
+          "Sports",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-5052a35d-0819-56d9-9f5d-39887a6a4cfa",
+        "title": "The Odyssey’s Box Office Helps Universal Hit Remarkable Milestone",
+        "description": "The Odyssey's worldwide box office record has successfully helped Universal hit a remarkable milestone in 2026.",
+        "publisher": "Comingsoon",
+        "publisherDomain": "comingsoon.net",
+        "publishedAt": "2026-09-25T23:23:26.000Z",
+        "url": "https://www.comingsoon.net/movies/news/2197926-the-odyssey-universal-5-billion-box-office-milestone",
+        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/09/The-Odyssey-2.jpg?resize=1200,630",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-60688783-7d1c-5313-9d95-6147f957a2e6",
-        "title": "If 'Kamen Rider' and 'Parasyte' Did a Fusion Dance, It'd Come Out Looking Like 'Jagaaan'",
-        "description": "Before 'Blue Lock' became a mega-hit, series creator Muneyuki Kaneshiro wrote a gleefully unhinged horror manga that's getting an official English release just in time for Halloween.",
-        "publisher": "Gizmodo",
-        "publisherDomain": "gizmodo.com",
-        "publishedAt": "2026-09-25T21:00:43.000Z",
-        "url": "https://gizmodo.com/jagaaan-manga-review-volume-1-horror-sci-fi-muneyuki-kaneshiro-blue-lock-2000817573",
-        "imageUrl": "https://gizmodo.com/app/uploads/2026/09/jagaaan-manga-cover-art-kensuke-nishida-muneyuki-kaneshiro-1200x675.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-cce19cc9-51c0-545a-be63-20d44f4d6ec5",
-        "title": "Blueface Sued For Putting Chrisean Rock's PPV Fight On His Live Stream",
-        "description": "Blueface is being sued for copyright infringement because a boxing promoter claims he cost them a ton of money by putting Chrisean Rock's recent pay-per-view boxing match on his stream.",
+        "id": "currents-2c9b4851-a209-5208-93ff-9f1b25e732df",
+        "title": "Carrot Top Cancels Vegas Shows for Next 3 Weeks Amid Hospitalization",
+        "description": "Carrot Top has canceled his Las Vegas shows for the next three weeks as he remains hospitalized following a suicide attempt ... TMZ has learned.",
         "publisher": "Tmz",
         "publisherDomain": "tmz.com",
-        "publishedAt": "2026-09-25T21:00:24.000Z",
-        "url": "https://www.tmz.com/2026/09/25/blueface-sued-for-streaming-chrisean-rock-fight",
-        "imageUrl": "https://imagez.tmz.com/image/ea/16by9/2026/09/25/ea3592e6dc4b486697ec430ea0843264_xl.jpg",
+        "publishedAt": "2026-09-25T23:15:36.000Z",
+        "url": "https://www.tmz.com/2026/09/25/carrot-top-cancels-more-weeks-of-performances",
+        "imageUrl": "https://imagez.tmz.com/image/b3/16by9/2026/09/20/b3856c0a2a974aaeabc758f8ee0cc287_xl.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-0b1d432a-b2bb-564c-b204-367a231a5c5f",
-        "title": "What To Watch In October: A TV Calendar Highlighting Every Premiere",
-        "description": "TVLine's monthly What to Watch guide spotlights a curated selection of English-language programming premiering or returning across broadcast, cable, and streaming — including new series, season finales, live events, major reality offerings, notable TV movies, and more. Organized below by premiere da...",
-        "publisher": "Flipboard",
-        "publisherDomain": "flipboard.com",
-        "publishedAt": "2026-09-25T21:00:04.000Z",
-        "url": "https://flipboard.com/@tvline/what-to-watch-in-october-a-tv-calendar-highlighting-every-premiere-31sap0ss04kb61iq",
-        "imageUrl": "https://ic-cdn.flipboard.com/flipboard.com/e5d32c553655a384d606f6d96da3c3894f5447b6/_medium.jpeg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-c281428e-6c94-5414-bdff-d7f8da8f116b",
-        "title": "Madison LeCroy Swears by This Jaw-Snatching Face Wrap—& It’s on Sale",
-        "description": "Want to define and contour your jawline and chin? Grab this celeb-loved face wrap now for 31% off.",
-        "publisher": "E! News",
-        "publisherDomain": "eonline.com",
-        "publishedAt": "2026-09-25T21:00:00.000Z",
-        "url": "https://www.eonline.com/news/1436414/madison-lecroy-swears-by-this-jaw-snatching-face-wrap-its-on-sale",
-        "imageUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20260925/2b5cefe5-0245-495f-b820-900ac846ba43_1790358451.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-20845164-975d-5e17-9c89-1564327f190c",
-        "title": "7 Watches That Take Yacht Life Seriously",
-        "description": "Rolex, Omega and Panerai references build in regatta-specific functions. Garmin’s Quatix 8 can control a boat’s autopilot and navigation systems. Some prioritize rugged utility; others …",
+        "id": "currents-9f50e153-b2ed-5cd0-af21-8208b3ea7bca",
+        "title": "What A.I.’s Most Powerful Leaders Said at Observer’s A.I. Power Index Party",
+        "description": "From Bloomberg’s ASKB to Candidly’s mission to bring expert financial guidance to everyone, Observer’s first A.I. Power Index Party celebrated the leaders putting A.I. to work, an…",
         "publisher": "Observer",
         "publisherDomain": "observer.com",
-        "publishedAt": "2026-09-25T20:54:37.000Z",
-        "url": "https://observer.com/list/7-watches-that-take-yacht-life-seriously",
-        "imageUrl": "https://observer.com/wp-content/uploads/sites/2/2026/09/yacht-watches-boating-watches-sailing-watches1.png?quality=80",
+        "publishedAt": "2026-09-25T23:09:17.000Z",
+        "url": "https://observer.com/2026/09/what-a-i-s-most-powerful-leaders-said-at-observers-a-i-power-index-party",
+        "imageUrl": "https://observer.com/wp-content/uploads/sites/2/2026/09/BFA_56024_8210068.jpg?quality=80",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-390bef8e-22ce-555e-a103-c908880e02bf",
-        "title": "Woman Who Accused Jay-Z of Sexual Assault in Lawsuit Says There's \"No Truth\" to Her Claim",
-        "description": "Two years after Jay-Z was accused of sexual assault by an unnamed woman, she recanted her claims in a new filing, saying there is “no truth” to her prior claims.",
-        "publisher": "E! News",
-        "publisherDomain": "eonline.com",
-        "publishedAt": "2026-09-25T20:54:30.000Z",
-        "url": "https://www.eonline.com/news/1436453/jay-z-sexual-assault-lawsuit-accuser-says-theres-no-truth-to-claim",
-        "imageUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20260925/92bd5ec6-6192-4873-9bfb-d013aeae44e0_1790359630.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+        "id": "currents-ac522e82-7d53-563a-8a16-724f994295d8",
+        "title": "Sabrina Carpenter & Margaret Qualley Join Fred Astaire Biopic Cast",
+        "description": "Sabrina Carpenter and Margaret Qualley have joined the cast of a Fred Astaire biopic, starring Tom Holland as the lauded triple-threat performer.",
+        "publisher": "Billboard",
+        "publisherDomain": "billboard.com",
+        "publishedAt": "2026-09-25T23:07:23.000Z",
+        "url": "https://www.billboard.com/culture/tv-film/sabrina-carpenter-margaret-qualley-fred-astaire-movie-cast-1236348083",
+        "imageUrl": "https://www.billboard.com/wp-content/uploads/2026/09/margaret-qualley-sabrina-carpenter-2024-billboard-1800.jpg?w=1024",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-4fdd3b55-884c-5e9b-b3f6-19fb606b6081",
+        "title": "27 Products To Keep You Entertained Now That It’s Hibernation Season Again (AKA Fall)",
+        "description": "Before you channel your inner groundhog, stock up on some books, games, and crafts to make all that indoor time more exciting.",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-09-25T23:01:03.000Z",
+        "url": "https://www.buzzfeed.com/samanthawieder/products-to-keep-you-entertained-hibernation-season",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-09/15/02/thumb/Q1C6wWiy5.jpg?crop=1250:654;0,88%26downsize=1250:*",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-721e025a-b283-5f4e-a04f-7e1cf5e4138c",
+        "title": "Presley Gerber Was Dropped Off at Rehab by Friend, Sober Coach",
+        "description": "Presley Gerber was dropped off at the rehab facility where he died by a friend, along with his personal coach on his team ... TMZ has learned.",
+        "publisher": "Tmz",
+        "publisherDomain": "tmz.com",
+        "publishedAt": "2026-09-25T23:00:58.000Z",
+        "url": "https://www.tmz.com/2026/09/25/presley-gerber-driven-to-rehab-by-a-friend-and-sober-coach",
+        "imageUrl": "https://imagez.tmz.com/image/88/16by9/2026/09/25/8894b584be37481fbda5d3232e1c1c2c_xl.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-171e846f-6092-59bb-a34a-703d033a3ecb",
+        "title": "Chadwick Boseman's Widow Says She Paid Over $1M To His Parents Despite His Brothers' Claims",
+        "description": "Chadwick Boseman's widow, Taylor Simone Ledward Boseman, says she has been generous with the late actor's family ... despite his brothers claiming she has been less than transparent with the estate's finances.",
+        "publisher": "Tmz",
+        "publisherDomain": "tmz.com",
+        "publishedAt": "2026-09-25T23:00:29.000Z",
+        "url": "https://www.tmz.com/2026/09/25/chadwick-boseman-widow-says-shes-given-a-million-to-his-parents",
+        "imageUrl": "https://imagez.tmz.com/image/87/16by9/2026/09/25/87323bd3c5964731a81ad8bfe3b91724_xl.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-e3e5c355-f3cc-5768-9eee-414e60055ecd",
+        "title": "Emmerdale spoilers for next week reveal Sadie King and Robert Sugden's scheme at threat of exposure",
+        "description": "Fresh spoilers for week commencing 28 September.",
+        "publisher": "Radiotimes",
+        "publisherDomain": "radiotimes.com",
+        "publishedAt": "2026-09-25T23:00:23.000Z",
+        "url": "https://www.radiotimes.com/tv/soaps/emmerdale/emmerdale-spoilers-sadie-king-robert-sugden-scheme-threat-exposure",
+        "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2026/09/1509emmrobertsadiecain03-8239d44.jpg?resize=1200%2C630",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-8f238fed-fcd1-5356-b724-16b0800f4fb1",
+        "title": "‘Control Resonant’ Team on ‘Reverse Symmetry’ of Switching From Jesse to Dylan as Sequel Game’s New Protagonist",
+        "description": "Following a nearly seven-year development journey, Remedy Entertainment unleashed the sequel to its 2019 hit video game \"Control.\"",
+        "publisher": "Variety",
+        "publisherDomain": "variety.com",
+        "publishedAt": "2026-09-25T23:00:00.000Z",
+        "url": "https://variety.com/2026/gaming/news/control-resonant-dylan-jesse-zoe-story-1236875720",
+        "imageUrl": "https://variety.com/wp-content/uploads/2026/09/Control-Resonant.png?w=1000&h=563&crop=1",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-9a74247a-f4b2-573f-99aa-627bdc1581f2",
+        "title": "Joshua Jackson Allegedly Had Concerns About Kid Being Around Jodie Turner-Smith's Bro",
+        "description": "Joshua Jackson raised concerns about his daughter being around Jodie Turner-Smith's brother long before three women sued the actress and her bro over his alleged drug-fueled sex parties ... according to the attorney representing the women suing the siblings.",
+        "publisher": "Tmz",
+        "publisherDomain": "tmz.com",
+        "publishedAt": "2026-09-25T22:59:56.000Z",
+        "url": "https://www.tmz.com/2026/09/25/joshua-jackson-allegedly-concerned-about-daughter-being-around-jodie-turner-smith-brother",
+        "imageUrl": "https://imagez.tmz.com/image/cc/16by9/2026/09/25/cc4cbcb4a58440feb6d25b040dcb88a6_xl.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-134b0659-69d1-5c90-97b7-b7ab1a5d1d40",
+        "title": "AFI Fest lineup adds films starring Pedro Pascal, Andrew Scott, Ava DuVernay, Sam Rockwell",
+        "description": "AFI Fest announced its lineup of red carpets and special screenings, featuring films starring Pedro Pascal, Andrew Scott, Ava DuVernay, Sam Rockwell and more.",
+        "publisher": "Abc7",
+        "publisherDomain": "abc7.com",
+        "publishedAt": "2026-09-25T22:54:45.000Z",
+        "url": "https://abc7.com/post/afi-fest-announces-special-screenings-films-starring-pedro-pascal-andrew-scott-ava-duvernay-sam-rockwell/19872218",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/19873232_092526-otrc-afibehemoth-vid.jpg?w=1600",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-13a89a5e-51f4-5ce4-acc5-749ffc9b99ba",
+        "title": "Driver caught on video using sidewalk to pass stopped school bus in Bridgeport, Pa.",
+        "description": "Deb Brooks of Bridgeport said the incident was especially alarming because of the danger it poses to children.",
+        "publisher": "6abc",
+        "publisherDomain": "6abc.com",
+        "publishedAt": "2026-09-25T22:48:18.000Z",
+        "url": "https://6abc.com/post/driver-caught-video-using-sidewalk-pass-stopped-school-bus-bridgeport-pa/19872916",
+        "imageUrl": "https://cdn.abcotvs.net/abcotv/assets/news/wpvi/images/logos/default_1280x720.jpg?w=1600",
         "categories": [
           "Entertainment"
         ]
