@@ -1,19 +1,81 @@
 {
   "schemaVersion": 1,
   "provider": "currents",
-  "generatedAt": "2026-09-27T21:32:26.047Z",
-  "sourceFetchedAt": "2026-09-27T21:32:26.047Z",
+  "generatedAt": "2026-09-27T23:54:25.053Z",
+  "sourceFetchedAt": "2026-09-27T23:54:25.053Z",
   "status": "success",
   "categories": {
     "Top": [
       {
-        "id": "currents-3097a139-c811-5d4e-af20-36aa711286da",
-        "title": "Did Anthropic’s A.I. Really Make a Scientific Discovery on Its Own?",
-        "description": "An expert at the University of Copenhagen said his team had been sharing its research with the company’s A.I. model, Claude, and that its new finding matched their work. When Anthropic, the artificial intelligence giant, unveiled findings from its new biology lab last week, its scientists claimed to...",
-        "publisher": "The New York Times",
-        "publisherDomain": "nytimes.com",
-        "publishedAt": "2026-09-27T21:14:41.000Z",
-        "url": "https://www.nytimes.com/2026/09/27/science/anthropic-biology-enzyme-mestre.html",
+        "id": "currents-4872857b-960b-5f40-9321-b6b95e8453cb",
+        "title": "Quantitative analysis of proteostasis disruption following siRNA-mediated HSP70 depletion in HeLa cells",
+        "description": "IntroductionHeat shock protein 70 (HSP70) is a central molecular chaperone that maintains proteostasis by supporting protein folding, preventing protein aggr...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-09-27T23:45:24.000Z",
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1856671/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/12AFEC62-10F2-4A9B-900C8422E4B53D54/511D4207-6085-4D24-9E5E56EBCA9EBCD2/WebsiteWebP_XL-FGENE_Main%20Visual_Purple_Website.webp",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-c4b81e18-0dd3-5c42-944a-8853ce832b22",
+        "title": "NFL fans blast refs for blatant Patrick Mahomes favoritism",
+        "description": "A controversial call against the Dolphins drew backlash from fans claiming NFL referees favor the Chiefs' Patrick Mahomes.",
+        "publisher": "Newsweek",
+        "publisherDomain": "newsweek.com",
+        "publishedAt": "2026-09-27T23:39:48.000Z",
+        "url": "https://www.newsweek.com/sports/nfl/nfl-fans-blast-refs-for-blatant-patrick-mahomes-favoritism-12494627",
+        "imageUrl": "https://assets.newsweek.com/wp-content/uploads/2026/09/GettyImages-2297409231.jpg?w=1200&crop=1",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-479cb937-7dd9-5c3e-8f72-9779ed4b9bbe",
+        "title": "Super Pit owner Northern Star knocks back $39B takeover bid",
+        "description": "The owner of Kalgoorlie’s famous super pit, Northern Star said it had “received, considered and rejected a confidential, opportunistic, unsolicited and conditional non-binding indicative proposal from Gold Fields,” in a statement on Monday morning.",
+        "publisher": "Brisbanetimes",
+        "publisherDomain": "brisbanetimes.com.au",
+        "publishedAt": "2026-09-27T23:47:28.000Z",
+        "url": "https://www.brisbanetimes.com.au/national/western-australia/super-pit-owner-northern-star-knocks-back-39b-takeover-bid-20260928-p610zq.html",
+        "imageUrl": "https://static.ffx.io/images/$zoom_0.1293%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_96/t_crop_custom/q_86%2Cf_auto/c9be2d34fa288ff19b0b97903f13cfc05bc7cb10",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-a30d4e86-fdf3-5b12-b322-490649e542da",
+        "title": "Preserve First: Recovery Design for Local Creative Data",
+        "description": "The default failure mode of creative tools is data loss via helpful recovery. A look at typed refusals, scoped quarantine authority, and a reset path that fails closed in a local-first writing app.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-27T23:47:22.000Z",
+        "url": "https://dev.to/qnbs/preserve-first-recovery-design-for-local-creative-data-6o9",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.kimi.com%2Fapiv2-files%2Fsign-obj%2Fkimi-fs%252Ffiles%252Fblob%252Fa8ac5c7a2f06e2982498be98dd88ef9d9c92d1ebe79143b7beb365c6331484cd%3Ffilename%3Dcover_1000x420.png%26sig%3DxjrJEYMp9pvmZWTJ8uz6p4e5YK7p2oTwqDHSL4aAUJ0%3D%26t%3Do",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-148255a4-2d35-51a9-8ce7-acc218494bbe",
+        "title": "Alzheimer’s disease diagnosis based on gene selection and cross-tissue validation",
+        "description": "BackgroundEarly and accurate diagnosis is critical for intervening in the progression of Alzheimer’s disease (AD). However, traditional clinical diagnostic t...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-09-27T23:45:22.000Z",
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1890236/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/12AFEC62-10F2-4A9B-900C8422E4B53D54/511D4207-6085-4D24-9E5E56EBCA9EBCD2/WebsiteWebP_XL-FGENE_Main%20Visual_Purple_Website.webp",
         "categories": [
           "Top",
           "U.S.",
@@ -22,115 +84,61 @@
         ]
       },
       {
-        "id": "currents-b551af5c-35f7-5ca6-b411-0fdb7385d14d",
-        "title": "Inside Yemen's front-line city as Houthis battle for control",
-        "description": "In rare access to Yemen's conflict zone the BBC travels to the front line with pro-government soldiers.",
-        "publisher": "BBC News",
-        "publisherDomain": "bbc.co.uk",
-        "publishedAt": "2026-09-27T21:16:31.000Z",
-        "url": "https://www.bbc.co.uk/news/articles/cw98005ndz7no",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/b03e/live/dca633d0-bab6-11f1-aa85-8f10bc212c53.jpg",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-b0b20f61-a284-5051-a591-c67d01f911ac",
-        "title": "Australia news live: Chalmers and Gallagher to present final budget outcome; RBA interest rate hike looms",
-        "description": "Follow the day’s news live.",
-        "publisher": "The Guardian",
-        "publisherDomain": "theguardian.com",
-        "publishedAt": "2026-09-27T21:16:11.000Z",
-        "url": "https://www.theguardian.com/australia-news/live/2026/sep/28/labor-anthony-albanese-openai-ai-hacks-coalition-one-nation-medicare-budget-ntwnfb",
-        "imageUrl": "https://i.guim.co.uk/img/media/a1f4b3035cc43c52775967b52d4bf5fa7245f8b4/1266_754_5164_4131/master/5164.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=aa3a8c8c4e75a6798b6274a9430daaa3",
+        "id": "currents-7a080680-ce19-51e1-a5fc-ae9970fa9752",
+        "title": "Copy number variants in fetuses with non-structural ultrasound abnormalities among pregnant women without adverse pregnancy history",
+        "description": "ObjectiveTo analyze fetal copy number variants (CNVs) in pregnant women without adverse pregnancy history whose fetuses presented non-structural ultrasound a...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-09-27T23:45:21.000Z",
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1908680/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/12AFEC62-10F2-4A9B-900C8422E4B53D54/511D4207-6085-4D24-9E5E56EBCA9EBCD2/WebsiteWebP_XL-FGENE_Main%20Visual_Purple_Website.webp",
         "categories": [
           "Top",
           "U.S.",
-          "World"
+          "Technology",
+          "Science"
         ]
       },
       {
-        "id": "currents-726488ac-8da0-5b0b-8777-558eafaba795",
-        "title": "Taylor Swift to make 'special' appearance at VMAs",
-        "description": "Taylor Swift will make history at the MTV Video Music Awards tonight as the first artist to receive the Artist Director Honors award at the Peacock Theater in Los Angeles.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-09-27T21:17:11.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16164873/mtv-video-music-awards-2026-live-updates.html?ns_campaign=1490&ito=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/09/27/21/111503867-0-image-a-15_1790542793882.jpg",
+        "id": "currents-30548b0f-ba91-5176-b9d2-b4de8f4c01cf",
+        "title": "Integrative bioinformatics screening of a M2 macrophage-associated gene signature for osimertinib resistance",
+        "description": "IntroductionAlthough the third-generation epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI) Osimertinib is widely used in lung adenocarcinoma (LUAD), acquired resistance to this agent remains a major clinical challenge perplexing the academic community. While the genomic drivers ...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-09-27T23:45:27.000Z",
+        "url": "https://www.frontiersin.org/articles/10.3389/fgene.2026.1928986",
         "categories": [
           "Top",
-          "World",
+          "Technology",
+          "Science",
           "U.S."
         ]
       },
       {
-        "id": "currents-8853039a-6c34-5914-bd7d-12fb25c66193",
-        "title": "Family of woman vanished during hike says death must be investigated",
-        "description": "Lorna McSorley, 71, from Teignmouth, Devon, disappeared in September 2025 after she went on a walk with her partner of 30 years, 82-year-old Leon Probert.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-09-27T21:16:31.000Z",
-        "url": "https://www.dailymail.com/news/article-16164767/Family-British-woman-vanished-hiking-South-Africa-say-witchcraft-death-investigated-murder.html?ns_campaign=1490&ito=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/09/27/21/106165715-0-image-m-47_1790541605898.jpg",
+        "id": "currents-8b89c5bf-7424-52c2-a217-73ce121bb8c8",
+        "title": "The mutational and clinical spectrum of EYS-associated retinitis pigmentosa in an Eastern European and Northern Asian cohort: two recurrent founder alleles",
+        "description": "PurposeBiallelic EYS variants are one of the frequent causes of autosomal recessive inherited retinal disease worldwide, yet the EYS mutational landscape of ...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-09-27T23:45:25.000Z",
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1951476/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/12AFEC62-10F2-4A9B-900C8422E4B53D54/511D4207-6085-4D24-9E5E56EBCA9EBCD2/WebsiteWebP_XL-FGENE_Main%20Visual_Purple_Website.webp",
         "categories": [
           "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-39eb157f-a29a-5efc-bb5f-071cdff87c80",
-        "title": "The SAVE Act, Plato's Philosopher Kings, and Voter Fraud",
-        "description": "Plato thinks philosopher-kings should be the rulers, because they have enough self-awareness and ins",
-        "publisher": "Pjmedia",
-        "publisherDomain": "pjmedia.com",
-        "publishedAt": "2026-09-27T21:24:00.000Z",
-        "url": "https://pjmedia.com/ashli-meghan-eskeldson/2026/09/27/the-save-act-platos-philosopher-kings-and-voter-fraud-n4957694",
-        "imageUrl": "https://media.townhall.com/cdn/hodl/2018/246/9befe9be-7564-4321-acb9-9e2f6a2b40f5-1200x630.jpg",
-        "categories": [
-          "Top",
+          "Technology",
+          "Science",
           "U.S."
         ]
       },
       {
-        "id": "currents-f0e2755a-30b1-57e3-9271-364ad2890fb5",
-        "title": "Willson Contreras back in Red Sox lineup ahead of playoffs",
-        "description": "Willson Contreras returned to the Boston Red Sox lineup for Sunday's regular-season finale after missing eight games because of an injured right hand, raising hopes he will be ready for the playoffs after he cast doubt on his status just days earlier.",
-        "publisher": "ESPN",
-        "publisherDomain": "espn.com",
-        "publishedAt": "2026-09-27T21:19:51.000Z",
-        "url": "https://www.espn.com/mlb/story/_/id/50045729/willson-contreras-back-red-sox-lineup-ahead-playoffs",
-        "imageUrl": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0918%2Fr1718407_1296x729_16%2D9.jpg",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-dfb2ebad-a5d3-5d05-a84a-332b00a6746c",
-        "title": "Tropical Storm Rachel forms off Mexico's southwest coast, forecasters say",
-        "description": "Tropical Storm Rachel forms off Mexico's southwest coast, forecasters say",
-        "publisher": "Abcnews",
-        "publisherDomain": "abcnews.com",
-        "publishedAt": "2026-09-27T21:18:49.000Z",
-        "url": "https://abcnews.com/US/wireStory/tropical-storm-rachel-forms-off-mexicos-southwest-coast-136803061",
-        "imageUrl": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-4490f9dc-a5c8-5cfa-acb9-7eee1712ecbf",
-        "title": "Power BI Data Modelling, Relationships and Joins: A Practical Guide to Building Effective BI Models",
-        "description": "Introduction Businesses and organisations collect large volumes of data in their day to...",
+        "id": "currents-4682857c-471c-5ac6-b4f5-b65afe50246a",
+        "title": "Mistral AI raises €3B led by Samsung: how sovereign is it?",
+        "description": "Mistral AI raised €3B at a €21B+ valuation, led by Samsung, to build sovereign AI in Europe. Who pays, what it sells, what the benchmarks say.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-09-27T21:18:17.000Z",
-        "url": "https://dev.to/samuelmwaurandungu/power-bi-data-modelling-relationships-and-joins-a-practical-guide-to-building-effective-bi-models-5g9",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcuxbb3s2aej6gaa5ats5.png",
+        "publishedAt": "2026-09-27T23:46:44.000Z",
+        "url": "https://dev.to/axrisi/mistral-ai-raises-eu3b-led-by-samsung-how-sovereign-is-it-3dc",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fs91jh9yyokkdmx4icn19.jpg",
         "categories": [
           "Top",
           "Technology",
@@ -139,72 +147,58 @@
         ]
       },
       {
-        "id": "currents-715d3831-ca6d-55ff-ad79-9c6db45cdf7b",
-        "title": "Week 3 NFL highlights: Best plays, moments, touchdowns, more",
-        "description": "Sunday of Week 3 will feature 14 games, including an international game in Rio de Janeiro between the Ravens and Cowboys.",
+        "id": "currents-ff890d19-778e-588a-857c-a328639f9f82",
+        "title": "RB Breece Hall suffers thigh injury as Jets lose late again",
+        "description": "Jets running back Breece Hall suffered an injury to his right thigh late in Sunday's loss to the Lions.",
         "publisher": "ESPN",
         "publisherDomain": "espn.com",
-        "publishedAt": "2026-09-27T21:16:30.000Z",
-        "url": "https://www.espn.com/nfl/story/_/id/50034932/best-plays-moments-touchdowns-more",
-        "imageUrl": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0927%2Fr1722625_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-09-27T23:40:48.000Z",
+        "url": "https://www.espn.com/nfl/story/_/id/50047576/rb-breece-hall-suffers-thigh-injury-jets-lose-late-once-again",
+        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0927%2Fr1722717_1296x729_16%2D9.jpg",
         "categories": [
           "Top",
           "U.S."
         ]
       },
       {
-        "id": "currents-ec5e5ea0-2df3-5430-a917-574f15b77eb8",
-        "title": "Panthers D, special teams played well enough to win. Bryce Young, offense did not",
-        "description": "The Cleveland Browns edged the Panthers Sunday, 21-18, as a Carolina team averaging 35.5 points per game coming in managed just one TD.",
-        "publisher": "Thestate",
-        "publisherDomain": "thestate.com",
-        "publishedAt": "2026-09-27T21:15:59.000Z",
-        "url": "https://www.thestate.com/sports/nfl/article317308375.html",
-        "imageUrl": "https://www.charlotteobserver.com/public/latest-news/1fhdp8/picture317403744/alternates/LANDSCAPE_1200/2026-09-27T195131Z_2131162018_MT1USATODAY29933957_RTRMADP_3_NFL-CAROLINA-PANTHERS-AT-CLEVELAND-BROWNS.JPG",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-b079c87f-6c3b-5d06-bec6-e3c2bb13b3b5",
-        "title": "Dylan Stewart suspended indefinitely after Alabama game. Shane Beamer explains why",
-        "description": "The Gamecocks edge punched an Alabama player and pushed a teammate.",
-        "publisher": "Thestate",
-        "publisherDomain": "thestate.com",
-        "publishedAt": "2026-09-27T21:13:55.000Z",
-        "url": "https://www.thestate.com/sports/college/university-of-south-carolina/usc-football/article317403868.html",
-        "imageUrl": "https://www.thestate.com/public/latest-news/hhp045/picture317310846/alternates/LANDSCAPE_1200/USC%20MS027.JPG",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-e39fc919-46bf-514c-95d6-9f7aa6b014a0",
-        "title": "Liberty push No. 1-seed Lynx to brink in stunning Game 1 upset",
-        "description": "Breanna Stewart put up 34 points and 12 rebounds to help the Liberty to a Game 1 upset of the No. 1-seeded Lynx.",
+        "id": "currents-58fbbeb0-c8b4-502c-aaab-45da15f21a7e",
+        "title": "Marcus Mariota, in for hurt Jayden Daniels, leads Commanders",
+        "description": "Commanders quarterback Marcus Mariota, subbing for the injured Jayden Daniels, reminded the NFL that the organization has another former Heisman Trophy winner -- and former No. 2 pick -- who still can play.",
         "publisher": "ESPN",
         "publisherDomain": "espn.com",
-        "publishedAt": "2026-09-27T21:12:35.000Z",
-        "url": "https://www.espn.com/wnba/story/_/id/50045232/liberty-push-no-1-seed-lynx-brink-stunning-game-1-upset",
-        "imageUrl": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0927%2Fr1722577_1024x576_16%2D9.jpg",
+        "publishedAt": "2026-09-27T23:40:47.000Z",
+        "url": "https://www.espn.com/nfl/story/_/id/50047817/marcus-mariota-hurt-jayden-daniels-leads-commanders",
+        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0927%2Fr1722735_1296x729_16%2D9.jpg",
         "categories": [
           "Top",
           "U.S."
         ]
       },
       {
-        "id": "currents-e999b1b6-ab9b-5bb2-81fb-1ea8ea2bf841",
-        "title": "Homicide cops take woman into custody after man hit by vehicle dies",
-        "description": "A woman known the man was arrested at the scene, west of Brisbane.",
-        "publisher": "Brisbanetimes",
-        "publisherDomain": "brisbanetimes.com.au",
-        "publishedAt": "2026-09-27T21:06:23.000Z",
-        "url": "https://www.brisbanetimes.com.au/national/queensland/homicide-cops-take-woman-into-custody-after-man-hit-by-vehicle-dies-20260928-p610xl.html",
-        "imageUrl": "https://static.ffx.io/images/$zoom_0.2585%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_111/t_crop_custom/q_86%2Cf_auto/317dc1caa5923a4e964a611d3105a12f9ad916ea81e7c4f1686a9531087daa1f",
+        "id": "currents-8194c8d7-5763-5c7e-b085-0dd6c865340a",
+        "title": "Week 15 of #100DaysOfCode: 100 Days of Learning, Building, and Becoming a Better Engineer",
+        "description": "Introduction About 100 days ago, I reached out to my mentor because I was confused about...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-27T23:35:25.000Z",
+        "url": "https://dev.to/onatade_abdulmajeed/week-15-of-100daysofcode-100-days-of-learning-building-and-becoming-a-better-engineer-2pl3",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxy0qebb97xnxvwu93hpz.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-3f79f564-57e5-5c82-af8f-747aedb03f2c",
+        "title": "Enraged soccer player slashes rival in head after heated fight in NYC park: cops",
+        "description": "NYPD is searching for a suspect who slashed a rival soccer player in the face during an argument in the Bronx’s St. Mary’s Park.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-09-27T23:35:02.000Z",
+        "url": "https://nypost.com/2026/09/27/us-news/enraged-soccer-player-slashes-rival-in-head-in-nyc-park-cops",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/142819184.jpg?quality=75&strip=all&w=1200",
         "categories": [
           "Top",
           "U.S.",
@@ -212,44 +206,117 @@
         ]
       },
       {
-        "id": "currents-6d420d66-82d8-58d1-b27b-d9fc653b969d",
-        "title": "Little and Pratt clash on Trump’s agenda in race to replace Rep. Angie Craig",
-        "description": "Recent debates give Minnesotans the clearest picture yet of how each would govern.",
-        "publisher": "Startribune",
-        "publisherDomain": "startribune.com",
-        "publishedAt": "2026-09-27T21:22:17.000Z",
-        "url": "https://www.startribune.com/mn-cd2-debates-eric-pratt-matt-little-trump-policy-angie-craig-seat-congress/601892313",
+        "id": "currents-92f0a413-2e88-55a1-a4d2-5193956f039b",
+        "title": "PNP launches gun safety drive amid firearm incidents involving minors",
+        "description": "MANILA, Philippines – The Philippine National Police (PNP) is urging licensed firearm holders across the country to make responsible gun handling and secure storage a constant practice to prevent unauthorized access and help protect families and communities. The PNP Civil Security Group (CSG) has ro...",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-09-27T23:51:08.000Z",
+        "url": "https://newsinfo.inquirer.net/2312616/pnp-launches-gun-safety-drive-amid-firearm-incidents-involving-minors",
         "categories": [
           "Top",
-          "World",
-          "U.S."
+          "World"
         ]
       },
       {
-        "id": "currents-fe21717a-ec5d-54de-9407-a3aa08e2ee33",
-        "title": "China reveals military capabilities in new space solar power plant design",
-        "description": "A senior architect of China's \"Zhuri\" (sun-chasing) space solar power program, Duan Baoyan of Xidian University, published a paper describing a redesigned system meant to support communication, navigation, reconnaissance, interference and remote control, in addition to its core role of beaming down ...",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-09-27T21:17:37.000Z",
-        "url": "https://www.reddit.com/r/space/comments/1wrvyl2/china_reveals_military_capabilities_in_new_space",
+        "id": "currents-a598a0e0-f8d6-5532-9727-b97cf0439846",
+        "title": "Firefighters rescue window washer stranded 60 feet in air",
+        "description": "Firefighters with the Orange County Fire Authority rescued a window washer who became stuck 60 feet in the air while cleaning a building in Irvine Sunday morning. The window washer got stuck after his harness and lowering system malfunctioned. Photos of the rescue show the man dangling near the roof...",
+        "publisher": "Ktla",
+        "publisherDomain": "ktla.com",
+        "publishedAt": "2026-09-27T23:40:12.000Z",
+        "url": "https://ktla.com/news/orange-county/firefighters-rescue-window-washer-stranded-60-feet-in-air",
         "categories": [
           "Top",
-          "Technology",
-          "Science",
-          "U.S."
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-f6fa9af1-e72e-53ac-a94c-fb5e18c09723",
+        "title": "Trump to travel to Ohio to stump for Sen. Jon Husted as the Republican faces competitive challenge",
+        "description": "WASHINGTON (AP) — President Donald Trump plans to visit Ohio on Saturday in support of Sen. Jon Husted as the Republican tries to fend off a competitive challenge from Democratic former Sen. Sherrod Brown. The trip to Vandalia, just north of Dayton, is scheduled to come after stops in Ok...",
+        "publisher": "Timesunion",
+        "publisherDomain": "timesunion.com",
+        "publishedAt": "2026-09-27T23:39:41.000Z",
+        "url": "https://www.timesunion.com/news/politics/article/trump-to-travel-to-ohio-to-stump-for-sen-jon-22451854.php",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
         ]
       }
     ],
     "U.S.": [
       {
-        "id": "currents-3097a139-c811-5d4e-af20-36aa711286da",
-        "title": "Did Anthropic’s A.I. Really Make a Scientific Discovery on Its Own?",
-        "description": "An expert at the University of Copenhagen said his team had been sharing its research with the company’s A.I. model, Claude, and that its new finding matched their work. When Anthropic, the artificial intelligence giant, unveiled findings from its new biology lab last week, its scientists claimed to...",
-        "publisher": "The New York Times",
-        "publisherDomain": "nytimes.com",
-        "publishedAt": "2026-09-27T21:14:41.000Z",
-        "url": "https://www.nytimes.com/2026/09/27/science/anthropic-biology-enzyme-mestre.html",
+        "id": "currents-4872857b-960b-5f40-9321-b6b95e8453cb",
+        "title": "Quantitative analysis of proteostasis disruption following siRNA-mediated HSP70 depletion in HeLa cells",
+        "description": "IntroductionHeat shock protein 70 (HSP70) is a central molecular chaperone that maintains proteostasis by supporting protein folding, preventing protein aggr...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-09-27T23:45:24.000Z",
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1856671/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/12AFEC62-10F2-4A9B-900C8422E4B53D54/511D4207-6085-4D24-9E5E56EBCA9EBCD2/WebsiteWebP_XL-FGENE_Main%20Visual_Purple_Website.webp",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-c4b81e18-0dd3-5c42-944a-8853ce832b22",
+        "title": "NFL fans blast refs for blatant Patrick Mahomes favoritism",
+        "description": "A controversial call against the Dolphins drew backlash from fans claiming NFL referees favor the Chiefs' Patrick Mahomes.",
+        "publisher": "Newsweek",
+        "publisherDomain": "newsweek.com",
+        "publishedAt": "2026-09-27T23:39:48.000Z",
+        "url": "https://www.newsweek.com/sports/nfl/nfl-fans-blast-refs-for-blatant-patrick-mahomes-favoritism-12494627",
+        "imageUrl": "https://assets.newsweek.com/wp-content/uploads/2026/09/GettyImages-2297409231.jpg?w=1200&crop=1",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-faee23d5-a174-5be1-8992-6d4ec7ef060e",
+        "title": "Self-described ‘intuitive healer’ makes chilling admission after fatally stabbing his mom in gated Florida neighborhood: cops",
+        "description": "Alexander Harrington, 50, was charged with first-degree premeditated murder for allegedly stabbing his 77-year-old mom, Susan Baratto to death in the gated Monterey Lake community in Delray Beach.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-09-27T23:49:50.000Z",
+        "url": "https://nypost.com/2026/09/27/us-news/self-described-intuitive-healer-makes-chilling-admission-after-fatally-stabbing-his-mom-in-gated-florida-neighborhood",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/mom-son-stabbing-2.jpg?quality=75&strip=all&w=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-479cb937-7dd9-5c3e-8f72-9779ed4b9bbe",
+        "title": "Super Pit owner Northern Star knocks back $39B takeover bid",
+        "description": "The owner of Kalgoorlie’s famous super pit, Northern Star said it had “received, considered and rejected a confidential, opportunistic, unsolicited and conditional non-binding indicative proposal from Gold Fields,” in a statement on Monday morning.",
+        "publisher": "Brisbanetimes",
+        "publisherDomain": "brisbanetimes.com.au",
+        "publishedAt": "2026-09-27T23:47:28.000Z",
+        "url": "https://www.brisbanetimes.com.au/national/western-australia/super-pit-owner-northern-star-knocks-back-39b-takeover-bid-20260928-p610zq.html",
+        "imageUrl": "https://static.ffx.io/images/$zoom_0.1293%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_96/t_crop_custom/q_86%2Cf_auto/c9be2d34fa288ff19b0b97903f13cfc05bc7cb10",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-148255a4-2d35-51a9-8ce7-acc218494bbe",
+        "title": "Alzheimer’s disease diagnosis based on gene selection and cross-tissue validation",
+        "description": "BackgroundEarly and accurate diagnosis is critical for intervening in the progression of Alzheimer’s disease (AD). However, traditional clinical diagnostic t...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-09-27T23:45:22.000Z",
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1890236/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/12AFEC62-10F2-4A9B-900C8422E4B53D54/511D4207-6085-4D24-9E5E56EBCA9EBCD2/WebsiteWebP_XL-FGENE_Main%20Visual_Purple_Website.webp",
         "categories": [
           "Top",
           "U.S.",
@@ -258,101 +325,61 @@
         ]
       },
       {
-        "id": "currents-b0b20f61-a284-5051-a591-c67d01f911ac",
-        "title": "Australia news live: Chalmers and Gallagher to present final budget outcome; RBA interest rate hike looms",
-        "description": "Follow the day’s news live.",
-        "publisher": "The Guardian",
-        "publisherDomain": "theguardian.com",
-        "publishedAt": "2026-09-27T21:16:11.000Z",
-        "url": "https://www.theguardian.com/australia-news/live/2026/sep/28/labor-anthony-albanese-openai-ai-hacks-coalition-one-nation-medicare-budget-ntwnfb",
-        "imageUrl": "https://i.guim.co.uk/img/media/a1f4b3035cc43c52775967b52d4bf5fa7245f8b4/1266_754_5164_4131/master/5164.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=aa3a8c8c4e75a6798b6274a9430daaa3",
+        "id": "currents-7a080680-ce19-51e1-a5fc-ae9970fa9752",
+        "title": "Copy number variants in fetuses with non-structural ultrasound abnormalities among pregnant women without adverse pregnancy history",
+        "description": "ObjectiveTo analyze fetal copy number variants (CNVs) in pregnant women without adverse pregnancy history whose fetuses presented non-structural ultrasound a...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-09-27T23:45:21.000Z",
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1908680/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/12AFEC62-10F2-4A9B-900C8422E4B53D54/511D4207-6085-4D24-9E5E56EBCA9EBCD2/WebsiteWebP_XL-FGENE_Main%20Visual_Purple_Website.webp",
         "categories": [
           "Top",
           "U.S.",
-          "World"
+          "Technology",
+          "Science"
         ]
       },
       {
-        "id": "currents-d956a136-a227-59ad-893a-b868fc7751d4",
-        "title": "Mike Vrabel's concern level 'high' following Patriots' ugly loss",
-        "description": "New England Patriots head coach Mike Vrabel has a high level of concern about his team following Sunday's loss to the Jacksonville Jaguars.",
-        "publisher": "Newsweek",
-        "publisherDomain": "newsweek.com",
-        "publishedAt": "2026-09-27T21:17:29.000Z",
-        "url": "https://www.newsweek.com/sports/nfl/mike-vrabels-concern-level-high-following-patriots-ugly-loss-12494523",
-        "imageUrl": "https://assets.newsweek.com/wp-content/uploads/2026/09/Mike-Vrabel-29.jpg?w=1200&crop=1",
+        "id": "currents-30548b0f-ba91-5176-b9d2-b4de8f4c01cf",
+        "title": "Integrative bioinformatics screening of a M2 macrophage-associated gene signature for osimertinib resistance",
+        "description": "IntroductionAlthough the third-generation epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI) Osimertinib is widely used in lung adenocarcinoma (LUAD), acquired resistance to this agent remains a major clinical challenge perplexing the academic community. While the genomic drivers ...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-09-27T23:45:27.000Z",
+        "url": "https://www.frontiersin.org/articles/10.3389/fgene.2026.1928986",
         "categories": [
           "Top",
+          "Technology",
+          "Science",
           "U.S."
         ]
       },
       {
-        "id": "currents-726488ac-8da0-5b0b-8777-558eafaba795",
-        "title": "Taylor Swift to make 'special' appearance at VMAs",
-        "description": "Taylor Swift will make history at the MTV Video Music Awards tonight as the first artist to receive the Artist Director Honors award at the Peacock Theater in Los Angeles.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-09-27T21:17:11.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16164873/mtv-video-music-awards-2026-live-updates.html?ns_campaign=1490&ito=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/09/27/21/111503867-0-image-a-15_1790542793882.jpg",
+        "id": "currents-8b89c5bf-7424-52c2-a217-73ce121bb8c8",
+        "title": "The mutational and clinical spectrum of EYS-associated retinitis pigmentosa in an Eastern European and Northern Asian cohort: two recurrent founder alleles",
+        "description": "PurposeBiallelic EYS variants are one of the frequent causes of autosomal recessive inherited retinal disease worldwide, yet the EYS mutational landscape of ...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-09-27T23:45:25.000Z",
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1951476/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/12AFEC62-10F2-4A9B-900C8422E4B53D54/511D4207-6085-4D24-9E5E56EBCA9EBCD2/WebsiteWebP_XL-FGENE_Main%20Visual_Purple_Website.webp",
         "categories": [
           "Top",
-          "World",
+          "Technology",
+          "Science",
           "U.S."
         ]
       },
       {
-        "id": "currents-39eb157f-a29a-5efc-bb5f-071cdff87c80",
-        "title": "The SAVE Act, Plato's Philosopher Kings, and Voter Fraud",
-        "description": "Plato thinks philosopher-kings should be the rulers, because they have enough self-awareness and ins",
-        "publisher": "Pjmedia",
-        "publisherDomain": "pjmedia.com",
-        "publishedAt": "2026-09-27T21:24:00.000Z",
-        "url": "https://pjmedia.com/ashli-meghan-eskeldson/2026/09/27/the-save-act-platos-philosopher-kings-and-voter-fraud-n4957694",
-        "imageUrl": "https://media.townhall.com/cdn/hodl/2018/246/9befe9be-7564-4321-acb9-9e2f6a2b40f5-1200x630.jpg",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-f0e2755a-30b1-57e3-9271-364ad2890fb5",
-        "title": "Willson Contreras back in Red Sox lineup ahead of playoffs",
-        "description": "Willson Contreras returned to the Boston Red Sox lineup for Sunday's regular-season finale after missing eight games because of an injured right hand, raising hopes he will be ready for the playoffs after he cast doubt on his status just days earlier.",
-        "publisher": "ESPN",
-        "publisherDomain": "espn.com",
-        "publishedAt": "2026-09-27T21:19:51.000Z",
-        "url": "https://www.espn.com/mlb/story/_/id/50045729/willson-contreras-back-red-sox-lineup-ahead-playoffs",
-        "imageUrl": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0918%2Fr1718407_1296x729_16%2D9.jpg",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-dfb2ebad-a5d3-5d05-a84a-332b00a6746c",
-        "title": "Tropical Storm Rachel forms off Mexico's southwest coast, forecasters say",
-        "description": "Tropical Storm Rachel forms off Mexico's southwest coast, forecasters say",
-        "publisher": "Abcnews",
-        "publisherDomain": "abcnews.com",
-        "publishedAt": "2026-09-27T21:18:49.000Z",
-        "url": "https://abcnews.com/US/wireStory/tropical-storm-rachel-forms-off-mexicos-southwest-coast-136803061",
-        "imageUrl": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-4490f9dc-a5c8-5cfa-acb9-7eee1712ecbf",
-        "title": "Power BI Data Modelling, Relationships and Joins: A Practical Guide to Building Effective BI Models",
-        "description": "Introduction Businesses and organisations collect large volumes of data in their day to...",
+        "id": "currents-a30d4e86-fdf3-5b12-b322-490649e542da",
+        "title": "Preserve First: Recovery Design for Local Creative Data",
+        "description": "The default failure mode of creative tools is data loss via helpful recovery. A look at typed refusals, scoped quarantine authority, and a reset path that fails closed in a local-first writing app.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-09-27T21:18:17.000Z",
-        "url": "https://dev.to/samuelmwaurandungu/power-bi-data-modelling-relationships-and-joins-a-practical-guide-to-building-effective-bi-models-5g9",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcuxbb3s2aej6gaa5ats5.png",
+        "publishedAt": "2026-09-27T23:47:22.000Z",
+        "url": "https://dev.to/qnbs/preserve-first-recovery-design-for-local-creative-data-6o9",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.kimi.com%2Fapiv2-files%2Fsign-obj%2Fkimi-fs%252Ffiles%252Fblob%252Fa8ac5c7a2f06e2982498be98dd88ef9d9c92d1ebe79143b7beb365c6331484cd%3Ffilename%3Dcover_1000x420.png%26sig%3DxjrJEYMp9pvmZWTJ8uz6p4e5YK7p2oTwqDHSL4aAUJ0%3D%26t%3Do",
         "categories": [
           "Top",
           "Technology",
@@ -361,86 +388,30 @@
         ]
       },
       {
-        "id": "currents-715d3831-ca6d-55ff-ad79-9c6db45cdf7b",
-        "title": "Week 3 NFL highlights: Best plays, moments, touchdowns, more",
-        "description": "Sunday of Week 3 will feature 14 games, including an international game in Rio de Janeiro between the Ravens and Cowboys.",
-        "publisher": "ESPN",
-        "publisherDomain": "espn.com",
-        "publishedAt": "2026-09-27T21:16:30.000Z",
-        "url": "https://www.espn.com/nfl/story/_/id/50034932/best-plays-moments-touchdowns-more",
-        "imageUrl": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0927%2Fr1722625_1296x729_16%2D9.jpg",
+        "id": "currents-4682857c-471c-5ac6-b4f5-b65afe50246a",
+        "title": "Mistral AI raises €3B led by Samsung: how sovereign is it?",
+        "description": "Mistral AI raised €3B at a €21B+ valuation, led by Samsung, to build sovereign AI in Europe. Who pays, what it sells, what the benchmarks say.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-27T23:46:44.000Z",
+        "url": "https://dev.to/axrisi/mistral-ai-raises-eu3b-led-by-samsung-how-sovereign-is-it-3dc",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fs91jh9yyokkdmx4icn19.jpg",
         "categories": [
           "Top",
+          "Technology",
+          "Science",
           "U.S."
         ]
       },
       {
-        "id": "currents-ec5e5ea0-2df3-5430-a917-574f15b77eb8",
-        "title": "Panthers D, special teams played well enough to win. Bryce Young, offense did not",
-        "description": "The Cleveland Browns edged the Panthers Sunday, 21-18, as a Carolina team averaging 35.5 points per game coming in managed just one TD.",
-        "publisher": "Thestate",
-        "publisherDomain": "thestate.com",
-        "publishedAt": "2026-09-27T21:15:59.000Z",
-        "url": "https://www.thestate.com/sports/nfl/article317308375.html",
-        "imageUrl": "https://www.charlotteobserver.com/public/latest-news/1fhdp8/picture317403744/alternates/LANDSCAPE_1200/2026-09-27T195131Z_2131162018_MT1USATODAY29933957_RTRMADP_3_NFL-CAROLINA-PANTHERS-AT-CLEVELAND-BROWNS.JPG",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-b079c87f-6c3b-5d06-bec6-e3c2bb13b3b5",
-        "title": "Dylan Stewart suspended indefinitely after Alabama game. Shane Beamer explains why",
-        "description": "The Gamecocks edge punched an Alabama player and pushed a teammate.",
-        "publisher": "Thestate",
-        "publisherDomain": "thestate.com",
-        "publishedAt": "2026-09-27T21:13:55.000Z",
-        "url": "https://www.thestate.com/sports/college/university-of-south-carolina/usc-football/article317403868.html",
-        "imageUrl": "https://www.thestate.com/public/latest-news/hhp045/picture317310846/alternates/LANDSCAPE_1200/USC%20MS027.JPG",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-d3662488-3336-5be2-8262-0135ca713f15",
-        "title": "Republic of Ireland beat Israel after skipping pregame handshakes",
-        "description": "The Republic of Ireland wore black armbands and skipped the typical prematch handshakes before securing a dominant 3-0 victory over Israel in their contentious UEFA Nations League match Sunday.",
-        "publisher": "ESPN",
-        "publisherDomain": "espn.com",
-        "publishedAt": "2026-09-27T21:12:35.000Z",
-        "url": "https://www.espn.com/soccer/story/_/id/50045283/republic-ireland-israel-handshakes-nations-league-anthem-armbands",
-        "imageUrl": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0927%2Fr1722602_1296x729_16%2D9.jpg",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-e39fc919-46bf-514c-95d6-9f7aa6b014a0",
-        "title": "Liberty push No. 1-seed Lynx to brink in stunning Game 1 upset",
-        "description": "Breanna Stewart put up 34 points and 12 rebounds to help the Liberty to a Game 1 upset of the No. 1-seeded Lynx.",
-        "publisher": "ESPN",
-        "publisherDomain": "espn.com",
-        "publishedAt": "2026-09-27T21:12:35.000Z",
-        "url": "https://www.espn.com/wnba/story/_/id/50045232/liberty-push-no-1-seed-lynx-brink-stunning-game-1-upset",
-        "imageUrl": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0927%2Fr1722577_1024x576_16%2D9.jpg",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-e999b1b6-ab9b-5bb2-81fb-1ea8ea2bf841",
-        "title": "Homicide cops take woman into custody after man hit by vehicle dies",
-        "description": "A woman known the man was arrested at the scene, west of Brisbane.",
-        "publisher": "Brisbanetimes",
-        "publisherDomain": "brisbanetimes.com.au",
-        "publishedAt": "2026-09-27T21:06:23.000Z",
-        "url": "https://www.brisbanetimes.com.au/national/queensland/homicide-cops-take-woman-into-custody-after-man-hit-by-vehicle-dies-20260928-p610xl.html",
-        "imageUrl": "https://static.ffx.io/images/$zoom_0.2585%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_111/t_crop_custom/q_86%2Cf_auto/317dc1caa5923a4e964a611d3105a12f9ad916ea81e7c4f1686a9531087daa1f",
+        "id": "currents-69a23182-a3ef-53d3-ba22-63695c20a759",
+        "title": "Chloe Bailey Teases Her \"Resurrection Era\" at the 2026 VMAs",
+        "description": "Chloe Bailey opened up about entering her “resurrection era” in both her music and personal life during an exclusive interview with E! News at the 2026 Video Music Awards Sept. 27.",
+        "publisher": "E! News",
+        "publisherDomain": "eonline.com",
+        "publishedAt": "2026-09-27T23:41:09.000Z",
+        "url": "https://www.eonline.com/news/1436499/vmas-2026-chloe-bailey-teases-resurrection-era",
+        "imageUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20260927/e88dc181-f833-4325-93bb-241681a6bcc2_1790552328.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
         "categories": [
           "Top",
           "U.S.",
@@ -448,74 +419,103 @@
         ]
       },
       {
-        "id": "currents-6d420d66-82d8-58d1-b27b-d9fc653b969d",
-        "title": "Little and Pratt clash on Trump’s agenda in race to replace Rep. Angie Craig",
-        "description": "Recent debates give Minnesotans the clearest picture yet of how each would govern.",
-        "publisher": "Startribune",
-        "publisherDomain": "startribune.com",
-        "publishedAt": "2026-09-27T21:22:17.000Z",
-        "url": "https://www.startribune.com/mn-cd2-debates-eric-pratt-matt-little-trump-policy-angie-craig-seat-congress/601892313",
+        "id": "currents-ff890d19-778e-588a-857c-a328639f9f82",
+        "title": "RB Breece Hall suffers thigh injury as Jets lose late again",
+        "description": "Jets running back Breece Hall suffered an injury to his right thigh late in Sunday's loss to the Lions.",
+        "publisher": "ESPN",
+        "publisherDomain": "espn.com",
+        "publishedAt": "2026-09-27T23:40:48.000Z",
+        "url": "https://www.espn.com/nfl/story/_/id/50047576/rb-breece-hall-suffers-thigh-injury-jets-lose-late-once-again",
+        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0927%2Fr1722717_1296x729_16%2D9.jpg",
         "categories": [
           "Top",
-          "World",
           "U.S."
         ]
       },
       {
-        "id": "currents-fe21717a-ec5d-54de-9407-a3aa08e2ee33",
-        "title": "China reveals military capabilities in new space solar power plant design",
-        "description": "A senior architect of China's \"Zhuri\" (sun-chasing) space solar power program, Duan Baoyan of Xidian University, published a paper describing a redesigned system meant to support communication, navigation, reconnaissance, interference and remote control, in addition to its core role of beaming down ...",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-09-27T21:17:37.000Z",
-        "url": "https://www.reddit.com/r/space/comments/1wrvyl2/china_reveals_military_capabilities_in_new_space",
+        "id": "currents-58fbbeb0-c8b4-502c-aaab-45da15f21a7e",
+        "title": "Marcus Mariota, in for hurt Jayden Daniels, leads Commanders",
+        "description": "Commanders quarterback Marcus Mariota, subbing for the injured Jayden Daniels, reminded the NFL that the organization has another former Heisman Trophy winner -- and former No. 2 pick -- who still can play.",
+        "publisher": "ESPN",
+        "publisherDomain": "espn.com",
+        "publishedAt": "2026-09-27T23:40:47.000Z",
+        "url": "https://www.espn.com/nfl/story/_/id/50047817/marcus-mariota-hurt-jayden-daniels-leads-commanders",
+        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0927%2Fr1722735_1296x729_16%2D9.jpg",
         "categories": [
           "Top",
-          "Technology",
-          "Science",
           "U.S."
+        ]
+      },
+      {
+        "id": "currents-c3c0dbfb-e4de-5376-9397-23639d2ec302",
+        "title": "Man shot and killed by LA County deputies after woman found dead in Bellflower home, department says",
+        "description": "A man was shot and killed by L.A. County sheriff's deputies as they responded to a medical emergency at a Bellflower home and found a woman dead.",
+        "publisher": "Abc7",
+        "publisherDomain": "abc7.com",
+        "publishedAt": "2026-09-27T23:40:15.000Z",
+        "url": "https://abc7.com/story/man-shot-killed-los-angeles-county-deputies-woman-found-dead-bellflower-home-department-says/19881489",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/19881523_092726-kabc-bellflower-dis-tn-img.jpg?w=1600",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-cf8f26ed-dc25-56b0-9b8d-b4e6e1340c20",
+        "title": "Taylor Swift Channels \"Patient Zero\" in Daring VMAs 2026 Red Carpet Look",
+        "description": "Taylor Swift stepped out for the 2026 MTV VMAs in Los Angeles Sept. 27 wearing a dress that was better than revenge. See the \"Patient Zero\" singer's red carpet look.",
+        "publisher": "E! News",
+        "publisherDomain": "eonline.com",
+        "publishedAt": "2026-09-27T23:39:58.000Z",
+        "url": "https://www.eonline.com/news/1436416/taylor-swift-channels-patient-zero-at-vmas-2026",
+        "imageUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20260927/18b5b698-cca7-47a5-af28-8f1a84e108c1_1790551700.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-8194c8d7-5763-5c7e-b085-0dd6c865340a",
+        "title": "Week 15 of #100DaysOfCode: 100 Days of Learning, Building, and Becoming a Better Engineer",
+        "description": "Introduction About 100 days ago, I reached out to my mentor because I was confused about...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-27T23:35:25.000Z",
+        "url": "https://dev.to/onatade_abdulmajeed/week-15-of-100daysofcode-100-days-of-learning-building-and-becoming-a-better-engineer-2pl3",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxy0qebb97xnxvwu93hpz.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
         ]
       }
     ],
     "World": [
       {
-        "id": "currents-b551af5c-35f7-5ca6-b411-0fdb7385d14d",
-        "title": "Inside Yemen's front-line city as Houthis battle for control",
-        "description": "In rare access to Yemen's conflict zone the BBC travels to the front line with pro-government soldiers.",
-        "publisher": "BBC News",
-        "publisherDomain": "bbc.co.uk",
-        "publishedAt": "2026-09-27T21:16:31.000Z",
-        "url": "https://www.bbc.co.uk/news/articles/cw98005ndz7no",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/b03e/live/dca633d0-bab6-11f1-aa85-8f10bc212c53.jpg",
+        "id": "currents-92f0a413-2e88-55a1-a4d2-5193956f039b",
+        "title": "PNP launches gun safety drive amid firearm incidents involving minors",
+        "description": "MANILA, Philippines – The Philippine National Police (PNP) is urging licensed firearm holders across the country to make responsible gun handling and secure storage a constant practice to prevent unauthorized access and help protect families and communities. The PNP Civil Security Group (CSG) has ro...",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-09-27T23:51:08.000Z",
+        "url": "https://newsinfo.inquirer.net/2312616/pnp-launches-gun-safety-drive-amid-firearm-incidents-involving-minors",
         "categories": [
           "Top",
           "World"
         ]
       },
       {
-        "id": "currents-b0b20f61-a284-5051-a591-c67d01f911ac",
-        "title": "Australia news live: Chalmers and Gallagher to present final budget outcome; RBA interest rate hike looms",
-        "description": "Follow the day’s news live.",
-        "publisher": "The Guardian",
-        "publisherDomain": "theguardian.com",
-        "publishedAt": "2026-09-27T21:16:11.000Z",
-        "url": "https://www.theguardian.com/australia-news/live/2026/sep/28/labor-anthony-albanese-openai-ai-hacks-coalition-one-nation-medicare-budget-ntwnfb",
-        "imageUrl": "https://i.guim.co.uk/img/media/a1f4b3035cc43c52775967b52d4bf5fa7245f8b4/1266_754_5164_4131/master/5164.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=aa3a8c8c4e75a6798b6274a9430daaa3",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-726488ac-8da0-5b0b-8777-558eafaba795",
-        "title": "Taylor Swift to make 'special' appearance at VMAs",
-        "description": "Taylor Swift will make history at the MTV Video Music Awards tonight as the first artist to receive the Artist Director Honors award at the Peacock Theater in Los Angeles.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-09-27T21:17:11.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16164873/mtv-video-music-awards-2026-live-updates.html?ns_campaign=1490&ito=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/09/27/21/111503867-0-image-a-15_1790542793882.jpg",
+        "id": "currents-faee23d5-a174-5be1-8992-6d4ec7ef060e",
+        "title": "Self-described ‘intuitive healer’ makes chilling admission after fatally stabbing his mom in gated Florida neighborhood: cops",
+        "description": "Alexander Harrington, 50, was charged with first-degree premeditated murder for allegedly stabbing his 77-year-old mom, Susan Baratto to death in the gated Monterey Lake community in Delray Beach.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-09-27T23:49:50.000Z",
+        "url": "https://nypost.com/2026/09/27/us-news/self-described-intuitive-healer-makes-chilling-admission-after-fatally-stabbing-his-mom-in-gated-florida-neighborhood",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/mom-son-stabbing-2.jpg?quality=75&strip=all&w=1200",
         "categories": [
           "Top",
           "World",
@@ -523,71 +523,28 @@
         ]
       },
       {
-        "id": "currents-dfb2ebad-a5d3-5d05-a84a-332b00a6746c",
-        "title": "Tropical Storm Rachel forms off Mexico's southwest coast, forecasters say",
-        "description": "Tropical Storm Rachel forms off Mexico's southwest coast, forecasters say",
-        "publisher": "Abcnews",
-        "publisherDomain": "abcnews.com",
-        "publishedAt": "2026-09-27T21:18:49.000Z",
-        "url": "https://abcnews.com/US/wireStory/tropical-storm-rachel-forms-off-mexicos-southwest-coast-136803061",
-        "imageUrl": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-8853039a-6c34-5914-bd7d-12fb25c66193",
-        "title": "Family of woman vanished during hike says death must be investigated",
-        "description": "Lorna McSorley, 71, from Teignmouth, Devon, disappeared in September 2025 after she went on a walk with her partner of 30 years, 82-year-old Leon Probert.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-09-27T21:16:31.000Z",
-        "url": "https://www.dailymail.com/news/article-16164767/Family-British-woman-vanished-hiking-South-Africa-say-witchcraft-death-investigated-murder.html?ns_campaign=1490&ito=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/09/27/21/106165715-0-image-m-47_1790541605898.jpg",
+        "id": "currents-77c4c19c-5f8d-5c02-8041-1fda4f34373c",
+        "title": "Netanyahu meets UAE president in Abu Dhabi amid Oct 7 warning controversy",
+        "description": "Benjamin Netanyahu visited Abu Dhabi and met UAE President Sheikh Mohammed bin Zayed Al Nahyan on Sunday. The meeting comes as scrutiny intensifies over a report about a pre-October 7 warning and Israel-UAE communication.",
+        "publisher": "Indiatoday",
+        "publisherDomain": "indiatoday.in",
+        "publishedAt": "2026-09-27T23:48:27.000Z",
+        "url": "https://www.indiatoday.in/world/story/benjamin-netanyahu-abu-dhabi-meeting-sheikh-mohammed-haaretz-warning-row-3004449-2026-09-28",
+        "imageUrl": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202609/mohamed-bin-zayed-al-nahyan--benjamin-netanyahu-045229443-16x9_0.jpg?VersionId=SeuIyRg9G4edA07z7M_6KXYlcfWfQuC.",
         "categories": [
           "Top",
           "World"
         ]
       },
       {
-        "id": "currents-daaf253d-1d8c-5bd1-a210-8d61eb16d7f7",
-        "title": "Victims of Quebec helicopter crash remembered as TSB launches probe - Montreal",
-        "description": "Four people died after a helicopter crashed in Quebec on Saturday, though it's not yet known if a fire that occurred erupted before or after the crash.",
-        "publisher": "Global News",
-        "publisherDomain": "globalnews.ca",
-        "publishedAt": "2026-09-27T21:16:50.000Z",
-        "url": "https://globalnews.ca/news/12074999/quebec-helicopter-fatal-crash-pilot-remembered",
-        "imageUrl": "https://globalnews.ca/wp-content/uploads/2026/09/quebec-helicopter-crash.jpg?quality=65&strip=all&w=720&h=379&crop=1",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-e999b1b6-ab9b-5bb2-81fb-1ea8ea2bf841",
-        "title": "Homicide cops take woman into custody after man hit by vehicle dies",
-        "description": "A woman known the man was arrested at the scene, west of Brisbane.",
+        "id": "currents-479cb937-7dd9-5c3e-8f72-9779ed4b9bbe",
+        "title": "Super Pit owner Northern Star knocks back $39B takeover bid",
+        "description": "The owner of Kalgoorlie’s famous super pit, Northern Star said it had “received, considered and rejected a confidential, opportunistic, unsolicited and conditional non-binding indicative proposal from Gold Fields,” in a statement on Monday morning.",
         "publisher": "Brisbanetimes",
         "publisherDomain": "brisbanetimes.com.au",
-        "publishedAt": "2026-09-27T21:06:23.000Z",
-        "url": "https://www.brisbanetimes.com.au/national/queensland/homicide-cops-take-woman-into-custody-after-man-hit-by-vehicle-dies-20260928-p610xl.html",
-        "imageUrl": "https://static.ffx.io/images/$zoom_0.2585%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_111/t_crop_custom/q_86%2Cf_auto/317dc1caa5923a4e964a611d3105a12f9ad916ea81e7c4f1686a9531087daa1f",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-6d420d66-82d8-58d1-b27b-d9fc653b969d",
-        "title": "Little and Pratt clash on Trump’s agenda in race to replace Rep. Angie Craig",
-        "description": "Recent debates give Minnesotans the clearest picture yet of how each would govern.",
-        "publisher": "Startribune",
-        "publisherDomain": "startribune.com",
-        "publishedAt": "2026-09-27T21:22:17.000Z",
-        "url": "https://www.startribune.com/mn-cd2-debates-eric-pratt-matt-little-trump-policy-angie-craig-seat-congress/601892313",
+        "publishedAt": "2026-09-27T23:47:28.000Z",
+        "url": "https://www.brisbanetimes.com.au/national/western-australia/super-pit-owner-northern-star-knocks-back-39b-takeover-bid-20260928-p610zq.html",
+        "imageUrl": "https://static.ffx.io/images/$zoom_0.1293%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_96/t_crop_custom/q_86%2Cf_auto/c9be2d34fa288ff19b0b97903f13cfc05bc7cb10",
         "categories": [
           "Top",
           "World",
@@ -595,13 +552,100 @@
         ]
       },
       {
-        "id": "currents-1598cda9-67f4-569a-982c-9f1013660640",
-        "title": "Man arrested for fatal shooting in Arden-Arcade",
-        "description": "(FOX40.COM) — A man was arrested Sunday for a deadly shooting in Arden-Arcade that left one person dead and another injured, police said. Just after 3:30 p.m. Saturday, the Sacramento Police Department responded to reports of a shooting near the Urban Air Trampoline and Adventure Park in the 1700 bl...",
-        "publisher": "Fox40",
-        "publisherDomain": "fox40.com",
-        "publishedAt": "2026-09-27T21:06:52.000Z",
-        "url": "https://fox40.com/arden-arcade-3/man-arrested-arden-arcade-shooting",
+        "id": "currents-69a23182-a3ef-53d3-ba22-63695c20a759",
+        "title": "Chloe Bailey Teases Her \"Resurrection Era\" at the 2026 VMAs",
+        "description": "Chloe Bailey opened up about entering her “resurrection era” in both her music and personal life during an exclusive interview with E! News at the 2026 Video Music Awards Sept. 27.",
+        "publisher": "E! News",
+        "publisherDomain": "eonline.com",
+        "publishedAt": "2026-09-27T23:41:09.000Z",
+        "url": "https://www.eonline.com/news/1436499/vmas-2026-chloe-bailey-teases-resurrection-era",
+        "imageUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20260927/e88dc181-f833-4325-93bb-241681a6bcc2_1790552328.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-c3c0dbfb-e4de-5376-9397-23639d2ec302",
+        "title": "Man shot and killed by LA County deputies after woman found dead in Bellflower home, department says",
+        "description": "A man was shot and killed by L.A. County sheriff's deputies as they responded to a medical emergency at a Bellflower home and found a woman dead.",
+        "publisher": "Abc7",
+        "publisherDomain": "abc7.com",
+        "publishedAt": "2026-09-27T23:40:15.000Z",
+        "url": "https://abc7.com/story/man-shot-killed-los-angeles-county-deputies-woman-found-dead-bellflower-home-department-says/19881489",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/19881523_092726-kabc-bellflower-dis-tn-img.jpg?w=1600",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-cf8f26ed-dc25-56b0-9b8d-b4e6e1340c20",
+        "title": "Taylor Swift Channels \"Patient Zero\" in Daring VMAs 2026 Red Carpet Look",
+        "description": "Taylor Swift stepped out for the 2026 MTV VMAs in Los Angeles Sept. 27 wearing a dress that was better than revenge. See the \"Patient Zero\" singer's red carpet look.",
+        "publisher": "E! News",
+        "publisherDomain": "eonline.com",
+        "publishedAt": "2026-09-27T23:39:58.000Z",
+        "url": "https://www.eonline.com/news/1436416/taylor-swift-channels-patient-zero-at-vmas-2026",
+        "imageUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20260927/18b5b698-cca7-47a5-af28-8f1a84e108c1_1790551700.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-3f79f564-57e5-5c82-af8f-747aedb03f2c",
+        "title": "Enraged soccer player slashes rival in head after heated fight in NYC park: cops",
+        "description": "NYPD is searching for a suspect who slashed a rival soccer player in the face during an argument in the Bronx’s St. Mary’s Park.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-09-27T23:35:02.000Z",
+        "url": "https://nypost.com/2026/09/27/us-news/enraged-soccer-player-slashes-rival-in-head-in-nyc-park-cops",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/142819184.jpg?quality=75&strip=all&w=1200",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-5de6fb61-f7bd-5fe2-b470-ecc5719a4d88",
+        "title": "ITCZ to bring rains, thunderstorms to Visayas, Mindanao on Monday",
+        "description": "MANILA, Philippines — Rain showers and thunderstorms are expected to persist in Palawan, Visayas, and Mindanao on Monday due to the effect of the Intertropical Convergence Zone (ITCZ), the state weather bureau reported. Based on its morning forecast, the Philippine Atmospheric, Geophysical, and Astr...",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-09-27T23:51:08.000Z",
+        "url": "https://newsinfo.inquirer.net/2312618/itcz-to-bring-rains-thunderstorms-to-visayas-mindanao-on-monday",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-a598a0e0-f8d6-5532-9727-b97cf0439846",
+        "title": "Firefighters rescue window washer stranded 60 feet in air",
+        "description": "Firefighters with the Orange County Fire Authority rescued a window washer who became stuck 60 feet in the air while cleaning a building in Irvine Sunday morning. The window washer got stuck after his harness and lowering system malfunctioned. Photos of the rescue show the man dangling near the roof...",
+        "publisher": "Ktla",
+        "publisherDomain": "ktla.com",
+        "publishedAt": "2026-09-27T23:40:12.000Z",
+        "url": "https://ktla.com/news/orange-county/firefighters-rescue-window-washer-stranded-60-feet-in-air",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-f6fa9af1-e72e-53ac-a94c-fb5e18c09723",
+        "title": "Trump to travel to Ohio to stump for Sen. Jon Husted as the Republican faces competitive challenge",
+        "description": "WASHINGTON (AP) — President Donald Trump plans to visit Ohio on Saturday in support of Sen. Jon Husted as the Republican tries to fend off a competitive challenge from Democratic former Sen. Sherrod Brown. The trip to Vandalia, just north of Dayton, is scheduled to come after stops in Ok...",
+        "publisher": "Timesunion",
+        "publisherDomain": "timesunion.com",
+        "publishedAt": "2026-09-27T23:39:41.000Z",
+        "url": "https://www.timesunion.com/news/politics/article/trump-to-travel-to-ohio-to-stump-for-sen-jon-22451854.php",
         "categories": [
           "Top",
           "U.S.",
@@ -611,212 +655,224 @@
     ],
     "Business": [
       {
-        "id": "currents-f73968c6-62ba-544e-af5e-35d24a8e7fb6",
-        "title": "Wall Street ends higher as investors buy AI stocks",
-        "description": "US stocks have closed higher as investors monitored developments in the Middle East and picked up shares in technology companies.",
-        "publisher": "Thewest",
-        "publisherDomain": "thewest.com.au",
-        "publishedAt": "2026-09-27T21:01:45.000Z",
-        "url": "https://thewest.com.au/business/markets/wall-street-ends-higher-as-investors-buy-ai-stocks-c-22935073",
-        "imageUrl": "https://images.thewest.com.au/publication/C-22935073/232afe38e328bb063f2956981784fa74fea4afbd-16x9-x0y0w1280h720.jpg?imwidth=1200",
+        "id": "currents-88dd8ad7-7957-56db-89e1-d953184eb3f3",
+        "title": "Synlait FY26 slides detail turnaround progress, operational gains By Investing.com",
+        "description": "Synlait FY26 slides detail turnaround progress, operational gains",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-09-27T23:16:29.000Z",
+        "url": "https://www.investing.com/news/company-news/synlait-fy26-slides-detail-turnaround-progress-operational-gains-93CH-4919201",
+        "imageUrl": "https://content-media.investing.com/news/LYNXMPEM1B112_1200_L.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-7642d4b6-0bc3-58e1-a248-8cfa8b3817cf",
-        "title": "Taurus Moon has a reward waiting for 3 zodiac signs on Monday, their hard work finally gets noticed",
-        "description": "In astrology, Taurus is closely tied to stability, financial security and a sense of personal worth. On September 28, 2026, the Moon moves through this earth sign, bringing those themes into greater focus.",
+        "id": "currents-3a04503e-3776-515c-a528-efd8fbaa0d9c",
+        "title": "Morning kayakers treated to rare dolphin sighting in Sydney Harbour",
+        "description": "A pod of about 10 dolphins delights kayakers in Sydney Harbour this morning, with one kayak tour operator saying it's rare to see the animals that far west.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-09-27T23:45:40.000Z",
+        "url": "https://www.abc.net.au/news/2026-09-28/sydney-harbour-dolphins-spotted-west-of-bridge/107202526",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/c33e95cba504fbeed240a0c0f949e2a9?impolicy=wcms_watermark_news&cropH=615&cropW=1093&xPos=595&yPos=189&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-a6667479-ccf6-5935-b4b7-243113fbf883",
+        "title": "Whodunit: Chance to solve a mystery and win a gold coin as Cluedo coins launch",
+        "description": "The Royal Mint is also inviting people to become ‘detectives’ with the possibility of winning a gold Cluedo 50p.",
+        "publisher": "Independent",
+        "publisherDomain": "independent.co.uk",
+        "publishedAt": "2026-09-27T23:31:59.000Z",
+        "url": "https://www.independent.co.uk/money/royal-mint-ellie-leach-peacock-plum-birmingham-b3057263.html",
+        "imageUrl": "https://static.independent.co.uk/2026/09/28/00/25102715-e21dbc1e-27e4-41ab-be9d-6361ab233cb9.jpg?width=1200&height=800&crop=1200:800",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-4c88e39e-e6e2-5b3b-8a28-611410367e87",
+        "title": "Dan Wilson out as Seattle Mariners manager",
+        "description": "SEATTLE (AP) — Dan Wilson will not return as the Seattle Mariners",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-09-27T23:23:31.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/baseball/2026/09/27/dan-wilson-out-as-seattle-mariners-manager",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab9a562c9a729daf107596ejpeg.jpg?w=1600",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-4ca174f1-aba3-53b5-afff-a41dfd0bc4e5",
+        "title": "Horizon Kinetics asset management, 10% owner, buys $351 in Texas Pacific Land stock By Investing.com",
+        "description": "Horizon Kinetics asset management, 10% owner, buys $351 in Texas Pacific Land stock",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-09-27T23:16:18.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/horizon-kinetics-asset-management-10-owner-buys-351-in-texas-pacific-land-stock-93CH-4919200",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM3S10Z_1200_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-434f8f79-ac81-5a16-aef6-b9e503f5f67e",
+        "title": "Australian middle order collapses again as South Africa claims ODI",
+        "description": "Mitch Marsh and Travis Head pile on the runs in their opening partnership, but the middle order fails again in South Africa.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-09-27T23:45:40.000Z",
+        "url": "https://www.abc.net.au/news/2026-09-28/australia-loses-second-odi-against-south-africa-after-collapse/107202556",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/1f8b75fd3c02b02a6c13386613da3689?impolicy=wcms_watermark_news&cropH=1856&cropW=3300&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-5a0e5050-7ab7-539a-8760-41a034d90435",
+        "title": "South Korea demands Ukraine apologise for announcing POW transfer",
+        "description": "Seoul accuses Ukraine of announcing the transfer of North Korean soldiers caught fighting for Russia to South Korea in breach of a non-disclosure agreement.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-09-27T23:45:40.000Z",
+        "url": "https://www.abc.net.au/news/2026-09-28/south-korea-demands-apology-from-ukraine-over-pow-announcement/107202624",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/805aba9a38d8bde62f207ec3a321cb3e?impolicy=wcms_watermark_news&cropH=811&cropW=1442&xPos=244&yPos=103&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-84922bf5-19b3-54c2-8f74-69ad1a62e0cc",
+        "title": "Young Arrernte boxer sets sights on Olympics after AIS opportunity",
+        "description": "Twelve-year-old Leela Lord has returned from a national Indigenous boxing camp at the Australian Institute of Sport with bigger ambitions for her future in the ring.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-09-27T23:45:40.000Z",
+        "url": "https://www.abc.net.au/news/2026-09-28/arrernte-boxer-12-impresses-ais-after-age-exemption/107187132",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/8bf4918cc5d1ca2c311bdf8d7d0b540a?impolicy=wcms_watermark_news&cropH=2810&cropW=4995&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-a86f6b94-b500-568d-8233-498bfe4f6b66",
+        "title": "Men accused of planning terrorist attack near RAF base used to strike Iran",
+        "description": "Five men are suspected of preparing a terrorist act near an English air base the United States is using to strike Iranian targets.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-09-27T23:45:40.000Z",
+        "url": "https://www.abc.net.au/news/2026-09-28/uk-counterterror-investigation-after-men-arrested-near-airbase/107202334",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/ca08c9d30485618006df2a5691ecb990?impolicy=wcms_watermark_news&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-b331ace8-69c4-5de3-93c2-c2cb1f6cfd21",
+        "title": "Marchers condemn violence, remember lost community members",
+        "description": "Latrobe Valley families unite in a peace march to condemn violence a year on from a teenager's death",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-09-27T23:45:40.000Z",
+        "url": "https://www.abc.net.au/news/2026-09-28/morwell-violence-march-kaiden-morgan-johnston/107200748",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/3467f79be36931b5f02ef94cab6cc400?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-dffa5a97-600c-5a71-84e0-edc8a7f1c80e",
+        "title": "Birrell claims long-awaited WTA title, but loses top Aussie ranking",
+        "description": "Kim Birrell downs compatriot Maya Joint to claim her first WTA title, but loses her number one ranking as another Australian performs well in Singapore.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-09-27T23:45:40.000Z",
+        "url": "https://www.abc.net.au/news/2026-09-28/tennis-kim-birrell-claims-first-wta-title-but-loses-top-spot/107202476",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/61ddbaa816686cb89cbd76e6c422dc48?impolicy=wcms_watermark_news&cropH=2644&cropW=4701&xPos=0&yPos=92&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-c39c5ef7-1062-58ab-a03e-6bbf913880fe",
+        "title": "Global Validation of EOP Sound and #1 Chart Success of \"Music in My Mind\"",
+        "description": "Eylsia Nicolas' EOP sound gains global validation as",
+        "publisher": "Newswire",
+        "publisherDomain": "newswire.com",
+        "publishedAt": "2026-09-27T23:20:00.000Z",
+        "url": "https://www.newswire.com/news/global-validation-of-eop-sound-and-1-chart-success-of-music-in-my-mind",
+        "imageUrl": "https://cdn.nwe.io/files/x/ad/3e/2d82203c067460b13a15b7687e99.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-25a28118-1639-53e4-9300-ffaf59bdd818",
+        "title": "Geopolitical developments, oil prices to steer markets this week",
+        "description": "Investors will focus on geopolitical developments, crude oil prices, bond yields and macroeconomic data announcements to determine market trends during the holiday-shortened week ahead, analysts said.",
         "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-09-27T20:20:00.000Z",
-        "url": "https://economictimes.indiatimes.com/news/international/us/taurus-moon-has-a-reward-waiting-for-3-zodiac-signs-on-monday-their-hard-work-finally-gets-noticed/articleshow/134525847.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-134525949,width-1200,height-630,imgsize-41716,overlay-economictimes/articleshow.jpg",
+        "publisherDomain": "timesofindia.indiatimes.com",
+        "publishedAt": "2026-09-27T23:12:57.000Z",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/geopolitical-developments-oil-prices-to-steer-mkts-this-week/articleshow/134528849.cms",
+        "imageUrl": "https://static.toiimg.com/thumb/msid-134528880,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-cec8f58c-d92d-5d3f-bf32-a078571092dc",
-        "title": "askST Jobs: My CPF contributions are missing or late. What should I do?",
-        "description": "Learn what steps to take if your CPF contributions are missing or late, including how to resolve issues and report to the CPF Board for enforcement. Read more at straitstimes.com.",
-        "publisher": "Straitstimes",
-        "publisherDomain": "straitstimes.com",
-        "publishedAt": "2026-09-27T21:00:00.000Z",
-        "url": "https://www.straitstimes.com/business/askst-jobs-my-cpf-contributions-are-missing-or-late-what-should-i-do",
-        "imageUrl": "https://cassette.sphdigital.com.sg/image/straitstimes/0b86319deed60c30d6c56ce69fd3db39d3a9ce2f39c4700ed569f66a2e4485ae",
+        "id": "currents-6dff8913-8ac2-5878-aa05-22556b5c6bd7",
+        "title": "Trump says he’s ‘very seriously’ looking at diesel export ban",
+        "description": "If a ban takes place, US diesel prices are widely expected to fall, at least in the short term Read more at The Business Times.",
+        "publisher": "Com",
+        "publisherDomain": "businesstimes.com.sg",
+        "publishedAt": "2026-09-27T23:12:02.000Z",
+        "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/trump-says-hes-very-seriously-looking-diesel-export-ban",
+        "imageUrl": "https://cassette.sphdigital.com.sg/image/businesstimes/af0dc82f75ab05b1545d4487f371e2513f7c27f6f252bea3ef719bf8b561f9a5?w=1200&f=webp",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-8e4b7a9c-f325-581e-9de4-cf846febcd9d",
-        "title": "California Farmers Are Struggling to Sell Grapes as Demand for Wine Drops",
-        "description": "Many California growers can’t find buyers as the industry produces more wine grapes than the market wants. Wine consumption is declining globally as people drink less.",
-        "publisher": "Kqed",
-        "publisherDomain": "kqed.org",
-        "publishedAt": "2026-09-27T20:30:00.000Z",
-        "url": "https://www.kqed.org/news/12101534/california-farmers-are-struggling-to-sell-grapes-as-demand-for-wine-drops",
-        "imageUrl": "https://cdn.kqed.org/wp-content/uploads/sites/10/2026/06/20260610_LodiWine_GC-26-KQED.jpg",
+        "id": "currents-2b5e2470-bb8e-58e8-8355-c5980c7494a2",
+        "title": "Edible oil duty cut may lift margins of snack makers",
+        "description": "The cut in edible oil import duties could ease costs for makers of biscuits, noodles and fried snacks, but cheaper packs may not follow immediately. Analysts said the benefit would take time to flow through to manufacturers, with companies likely to first use the savings to recover margins squeezed ...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "timesofindia.indiatimes.com",
+        "publishedAt": "2026-09-27T23:10:21.000Z",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/edible-oil-duty-cut-may-lift-margins-of-snack-makers/articleshow/134528847.cms",
+        "imageUrl": "https://static.toiimg.com/thumb/msid-134528846,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-d68918fe-3810-564a-8b1b-9aad5943a7c1",
-        "title": "Spot electricity prices have hit a 2026 high. Will this raise my household bill?",
-        "description": "Wholesale electricity prices in Singapore hit a 2026 high, driven by fuel costs and Middle East tensions, impacting tariffs and household electricity bills. Read more at straitstimes.com.",
-        "publisher": "Straitstimes",
-        "publisherDomain": "straitstimes.com",
-        "publishedAt": "2026-09-27T21:00:00.000Z",
-        "url": "https://www.straitstimes.com/business/spot-electricity-prices-have-hit-a-2026-high-will-this-raise-my-household-bill",
-        "imageUrl": "https://cassette.sphdigital.com.sg/image/straitstimes/6ccba1c52679ea68b402137cadb140d4b6d10cae3822a4c32f9a587bce73f989",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-8f8aecca-79a0-5a37-931f-0652d331a84c",
-        "title": "ASX set for a flat start to the week ahead of RBA’s rate decision",
-        "description": "The Australian sharemarket is set to start the new trading week on a cautious note, with futures indicating a flat open ahead of the Reserve Bank’s likely decision to raise interest rates to a 15-year-high on Tuesday.",
-        "publisher": "Smh",
-        "publisherDomain": "smh.com.au",
-        "publishedAt": "2026-09-27T20:16:56.000Z",
-        "url": "https://www.smh.com.au/business/markets/asx-set-for-a-flat-start-to-the-week-ahead-of-rba-s-rate-decision-20260928-p610x3.html",
-        "imageUrl": "https://static.ffx.io/images/$zoom_0.596%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_133%2C$y_0/t_crop_custom/q_86%2Cf_auto/37dd6f6e0915ddbd1be858d8dd34d5b459c294db",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-1604aa3a-22b7-50b8-93d9-ddb384b0a47e",
-        "title": "2026 VMAs: Madonna, Lisa, Tyla Lead Full Performer, Presenter List",
-        "description": "Madonna opens the 2026 VMAs on Sept. 27, with LISA, RAYE and more performing plus Charli xcx and Tyla among presenters. Taylor Swift's \"Patient Zero\" video premieres.",
-        "publisher": "Forbes",
-        "publisherDomain": "forbes.com",
-        "publishedAt": "2026-09-27T21:05:33.000Z",
-        "url": "https://www.forbes.com/sites/jeffbenjamin/2026/09/27/2026-vmas-madonna-lisa-tyla-lead-full-performer-presenter-list",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-ff8aea20-7a6e-5086-8b46-ad66de57ba82",
-        "title": "Feels like my money is being managed poorly.",
-        "description": "For context, me and my wife combined make about 8200 after taxes a month. We both have student debt, mine being around 80k and her's around 25k. We also have a 300k mortgage, along with a credit card each with 8k on mine, and around 3k on hers. Our savings has slowly building, but I feel like our de...",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-09-27T20:51:10.000Z",
-        "url": "https://www.reddit.com/r/personalfinance/comments/1wrvass/feels_like_my_money_is_being_managed_poorly",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-4cb19d21-1d8b-56c0-bac9-c543bad46966",
-        "title": "TikTok’s ‘It’s Me, It’s Verity’ Meme, Explained",
-        "description": "Verity is viral on TikTok, with Gen Z and Gen Alpha yelling the name when they see a yellow smiley face—but what is it? Here’s the meme, explained.",
-        "publisher": "Forbes",
-        "publisherDomain": "forbes.com",
-        "publishedAt": "2026-09-27T20:34:36.000Z",
-        "url": "https://www.forbes.com/sites/danidiplacido/2026/09/27/tiktoks-its-me-its-verity-meme-explained",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-78bbbff7-add1-560a-9663-48c911e0431c",
-        "title": "Over 60% Of LaGuardia Flights Delayed Sunday As Nor’easter Wallops East Coast: See Impacts",
-        "description": "A nor’easter is expected to continue bringing rainfall and gusty winds to the region through Monday.",
-        "publisher": "Forbes",
-        "publisherDomain": "forbes.com",
-        "publishedAt": "2026-09-27T20:33:33.000Z",
-        "url": "https://www.forbes.com/sites/zacharyfolk/2026/09/27/over-60-of-laguardia-flights-delayed-sunday-as-noreaster-wallops-east-coast-see-impacts",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-b1c4f765-2eba-5340-b994-7db90395f733",
-        "title": "How much savings should I have left after a downpayment on a home?",
-        "description": "Hey everyone, so I am 23 and am preparing to purchase my first home. Ive lived with my parents my entire life and am finally looking to move out. Initially, my plan was to rent an apartment until I figured things out but my parents convinced me that paying a mortgage is a better idea than paying ren...",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-09-27T20:31:55.000Z",
-        "url": "https://www.reddit.com/r/personalfinance/comments/1wrut96/how_much_savings_should_i_have_left_after_a",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-8c4bf45a-123b-5720-9710-a5a010c9cd41",
-        "title": "DEP - Day 700: Seneca Resources Continues To Manage Contaminated Water From Taft ...",
-        "description": "On September 23, 2026, the Department of Environmental Protection did a follow-up inspection of the Seneca Resources Taft 851 shale gas well pad ...",
-        "publisher": "Blogspot",
-        "publisherDomain": "paenvironmentdaily.blogspot.com",
-        "publishedAt": "2026-09-27T20:18:48.000Z",
-        "url": "http://paenvironmentdaily.blogspot.com/2026/09/dep-day-700-continues-to-collect.html",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-db89d82f-562a-58e9-8f18-2e6deb0b0628",
-        "title": "How ethanol is expanding shipping’s fuel choices",
-        "publisher": "Hellenicshippingnews",
-        "publisherDomain": "hellenicshippingnews.com",
-        "publishedAt": "2026-09-27T21:00:57.000Z",
-        "url": "https://www.hellenicshippingnews.com/how-ethanol-is-expanding-shippings-fuel-choices",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-abd3bc7c-8f5d-56e6-b09e-b61e359aba2a",
-        "title": "Remuneration review & self-benchmarking advice",
-        "description": "Hi all, recently went through a restructure at work and had my PD and reporting line changed. All positive things, but one thing I asked was that my remuneration be reviewed (even if it wasn't part of the restructure.) And they've agreed to do this at the beginning of 2027, and they've asked me to p...",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-09-27T20:33:59.000Z",
-        "url": "https://www.reddit.com/r/personalfinance/comments/1wruv7h/remuneration_review_selfbenchmarking_advice",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-5c11fe6a-528b-5554-aa5a-6c9dd800e938",
-        "title": "Product Tanker Rates on the Rise",
-        "publisher": "Hellenicshippingnews",
-        "publisherDomain": "hellenicshippingnews.com",
-        "publishedAt": "2026-09-27T21:00:59.000Z",
-        "url": "https://www.hellenicshippingnews.com/product-tanker-rates-on-the-rise",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-42bf9179-9275-580d-b48b-1244c42c7ac8",
-        "title": "Dry Bulk Market Trending Higher Again",
-        "publisher": "Hellenicshippingnews",
-        "publisherDomain": "hellenicshippingnews.com",
-        "publishedAt": "2026-09-27T21:00:58.000Z",
-        "url": "https://www.hellenicshippingnews.com/dry-bulk-market-trending-higher-again",
+        "id": "currents-bf3cdb4e-af95-58e5-882b-ba97649f768c",
+        "title": "IITM-backed deeptech fund raises Rs 453 cr in first close",
+        "description": "IIT Madras and venture capital firm Unicorn India Ventures have announced the first close of about Rs 450 crore for their Rs 1,000-crore deeptech fund, with roughly a third of the capital coming from overseas investors. The fund will back capital-intensive startups that can take years to reach comme...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "timesofindia.indiatimes.com",
+        "publishedAt": "2026-09-27T23:07:52.000Z",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/iitm-backed-deeptech-fund-raises-rs-453-cr-in-first-close/articleshow/134528850.cms",
+        "imageUrl": "https://static.toiimg.com/thumb/msid-134528874,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
         "categories": [
           "Top",
           "Business"
@@ -825,13 +881,46 @@
     ],
     "Technology": [
       {
-        "id": "currents-3097a139-c811-5d4e-af20-36aa711286da",
-        "title": "Did Anthropic’s A.I. Really Make a Scientific Discovery on Its Own?",
-        "description": "An expert at the University of Copenhagen said his team had been sharing its research with the company’s A.I. model, Claude, and that its new finding matched their work. When Anthropic, the artificial intelligence giant, unveiled findings from its new biology lab last week, its scientists claimed to...",
-        "publisher": "The New York Times",
-        "publisherDomain": "nytimes.com",
-        "publishedAt": "2026-09-27T21:14:41.000Z",
-        "url": "https://www.nytimes.com/2026/09/27/science/anthropic-biology-enzyme-mestre.html",
+        "id": "currents-4872857b-960b-5f40-9321-b6b95e8453cb",
+        "title": "Quantitative analysis of proteostasis disruption following siRNA-mediated HSP70 depletion in HeLa cells",
+        "description": "IntroductionHeat shock protein 70 (HSP70) is a central molecular chaperone that maintains proteostasis by supporting protein folding, preventing protein aggr...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-09-27T23:45:24.000Z",
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1856671/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/12AFEC62-10F2-4A9B-900C8422E4B53D54/511D4207-6085-4D24-9E5E56EBCA9EBCD2/WebsiteWebP_XL-FGENE_Main%20Visual_Purple_Website.webp",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-a30d4e86-fdf3-5b12-b322-490649e542da",
+        "title": "Preserve First: Recovery Design for Local Creative Data",
+        "description": "The default failure mode of creative tools is data loss via helpful recovery. A look at typed refusals, scoped quarantine authority, and a reset path that fails closed in a local-first writing app.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-27T23:47:22.000Z",
+        "url": "https://dev.to/qnbs/preserve-first-recovery-design-for-local-creative-data-6o9",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.kimi.com%2Fapiv2-files%2Fsign-obj%2Fkimi-fs%252Ffiles%252Fblob%252Fa8ac5c7a2f06e2982498be98dd88ef9d9c92d1ebe79143b7beb365c6331484cd%3Ffilename%3Dcover_1000x420.png%26sig%3DxjrJEYMp9pvmZWTJ8uz6p4e5YK7p2oTwqDHSL4aAUJ0%3D%26t%3Do",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-148255a4-2d35-51a9-8ce7-acc218494bbe",
+        "title": "Alzheimer’s disease diagnosis based on gene selection and cross-tissue validation",
+        "description": "BackgroundEarly and accurate diagnosis is critical for intervening in the progression of Alzheimer’s disease (AD). However, traditional clinical diagnostic t...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-09-27T23:45:22.000Z",
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1890236/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/12AFEC62-10F2-4A9B-900C8422E4B53D54/511D4207-6085-4D24-9E5E56EBCA9EBCD2/WebsiteWebP_XL-FGENE_Main%20Visual_Purple_Website.webp",
         "categories": [
           "Top",
           "U.S.",
@@ -840,14 +929,61 @@
         ]
       },
       {
-        "id": "currents-4490f9dc-a5c8-5cfa-acb9-7eee1712ecbf",
-        "title": "Power BI Data Modelling, Relationships and Joins: A Practical Guide to Building Effective BI Models",
-        "description": "Introduction Businesses and organisations collect large volumes of data in their day to...",
+        "id": "currents-7a080680-ce19-51e1-a5fc-ae9970fa9752",
+        "title": "Copy number variants in fetuses with non-structural ultrasound abnormalities among pregnant women without adverse pregnancy history",
+        "description": "ObjectiveTo analyze fetal copy number variants (CNVs) in pregnant women without adverse pregnancy history whose fetuses presented non-structural ultrasound a...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-09-27T23:45:21.000Z",
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1908680/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/12AFEC62-10F2-4A9B-900C8422E4B53D54/511D4207-6085-4D24-9E5E56EBCA9EBCD2/WebsiteWebP_XL-FGENE_Main%20Visual_Purple_Website.webp",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-30548b0f-ba91-5176-b9d2-b4de8f4c01cf",
+        "title": "Integrative bioinformatics screening of a M2 macrophage-associated gene signature for osimertinib resistance",
+        "description": "IntroductionAlthough the third-generation epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI) Osimertinib is widely used in lung adenocarcinoma (LUAD), acquired resistance to this agent remains a major clinical challenge perplexing the academic community. While the genomic drivers ...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-09-27T23:45:27.000Z",
+        "url": "https://www.frontiersin.org/articles/10.3389/fgene.2026.1928986",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-8b89c5bf-7424-52c2-a217-73ce121bb8c8",
+        "title": "The mutational and clinical spectrum of EYS-associated retinitis pigmentosa in an Eastern European and Northern Asian cohort: two recurrent founder alleles",
+        "description": "PurposeBiallelic EYS variants are one of the frequent causes of autosomal recessive inherited retinal disease worldwide, yet the EYS mutational landscape of ...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-09-27T23:45:25.000Z",
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1951476/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/12AFEC62-10F2-4A9B-900C8422E4B53D54/511D4207-6085-4D24-9E5E56EBCA9EBCD2/WebsiteWebP_XL-FGENE_Main%20Visual_Purple_Website.webp",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-4682857c-471c-5ac6-b4f5-b65afe50246a",
+        "title": "Mistral AI raises €3B led by Samsung: how sovereign is it?",
+        "description": "Mistral AI raised €3B at a €21B+ valuation, led by Samsung, to build sovereign AI in Europe. Who pays, what it sells, what the benchmarks say.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-09-27T21:18:17.000Z",
-        "url": "https://dev.to/samuelmwaurandungu/power-bi-data-modelling-relationships-and-joins-a-practical-guide-to-building-effective-bi-models-5g9",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcuxbb3s2aej6gaa5ats5.png",
+        "publishedAt": "2026-09-27T23:46:44.000Z",
+        "url": "https://dev.to/axrisi/mistral-ai-raises-eu3b-led-by-samsung-how-sovereign-is-it-3dc",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fs91jh9yyokkdmx4icn19.jpg",
         "categories": [
           "Top",
           "Technology",
@@ -856,28 +992,14 @@
         ]
       },
       {
-        "id": "currents-fe21717a-ec5d-54de-9407-a3aa08e2ee33",
-        "title": "China reveals military capabilities in new space solar power plant design",
-        "description": "A senior architect of China's \"Zhuri\" (sun-chasing) space solar power program, Duan Baoyan of Xidian University, published a paper describing a redesigned system meant to support communication, navigation, reconnaissance, interference and remote control, in addition to its core role of beaming down ...",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-09-27T21:17:37.000Z",
-        "url": "https://www.reddit.com/r/space/comments/1wrvyl2/china_reveals_military_capabilities_in_new_space",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-42e5874e-ed13-54a9-9a8a-b8095fded7bf",
-        "title": "How to get an \"Unhook\" style experience on Android? Need complete distraction-free YouTube for studying.",
-        "description": "Hey everyone, I’m preparing for my university exams and usually study at school or the library using my Android tablet. On my laptop, I relied heavily on the Unhook extension combined with uBlock Origin to strip away YouTube distractions (Shorts, recommendations, homepage, etc.) and stay focused. Ri...",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-09-27T21:10:51.000Z",
-        "url": "https://www.reddit.com/r/androiddev/comments/1wrvsi2/how_to_get_an_unhook_style_experience_on_android",
+        "id": "currents-8194c8d7-5763-5c7e-b085-0dd6c865340a",
+        "title": "Week 15 of #100DaysOfCode: 100 Days of Learning, Building, and Becoming a Better Engineer",
+        "description": "Introduction About 100 days ago, I reached out to my mentor because I was confused about...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-27T23:35:25.000Z",
+        "url": "https://dev.to/onatade_abdulmajeed/week-15-of-100daysofcode-100-days-of-learning-building-and-becoming-a-better-engineer-2pl3",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxy0qebb97xnxvwu93hpz.png",
         "categories": [
           "Top",
           "U.S.",
@@ -888,13 +1010,46 @@
     ],
     "Science": [
       {
-        "id": "currents-3097a139-c811-5d4e-af20-36aa711286da",
-        "title": "Did Anthropic’s A.I. Really Make a Scientific Discovery on Its Own?",
-        "description": "An expert at the University of Copenhagen said his team had been sharing its research with the company’s A.I. model, Claude, and that its new finding matched their work. When Anthropic, the artificial intelligence giant, unveiled findings from its new biology lab last week, its scientists claimed to...",
-        "publisher": "The New York Times",
-        "publisherDomain": "nytimes.com",
-        "publishedAt": "2026-09-27T21:14:41.000Z",
-        "url": "https://www.nytimes.com/2026/09/27/science/anthropic-biology-enzyme-mestre.html",
+        "id": "currents-4872857b-960b-5f40-9321-b6b95e8453cb",
+        "title": "Quantitative analysis of proteostasis disruption following siRNA-mediated HSP70 depletion in HeLa cells",
+        "description": "IntroductionHeat shock protein 70 (HSP70) is a central molecular chaperone that maintains proteostasis by supporting protein folding, preventing protein aggr...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-09-27T23:45:24.000Z",
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1856671/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/12AFEC62-10F2-4A9B-900C8422E4B53D54/511D4207-6085-4D24-9E5E56EBCA9EBCD2/WebsiteWebP_XL-FGENE_Main%20Visual_Purple_Website.webp",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-a30d4e86-fdf3-5b12-b322-490649e542da",
+        "title": "Preserve First: Recovery Design for Local Creative Data",
+        "description": "The default failure mode of creative tools is data loss via helpful recovery. A look at typed refusals, scoped quarantine authority, and a reset path that fails closed in a local-first writing app.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-27T23:47:22.000Z",
+        "url": "https://dev.to/qnbs/preserve-first-recovery-design-for-local-creative-data-6o9",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.kimi.com%2Fapiv2-files%2Fsign-obj%2Fkimi-fs%252Ffiles%252Fblob%252Fa8ac5c7a2f06e2982498be98dd88ef9d9c92d1ebe79143b7beb365c6331484cd%3Ffilename%3Dcover_1000x420.png%26sig%3DxjrJEYMp9pvmZWTJ8uz6p4e5YK7p2oTwqDHSL4aAUJ0%3D%26t%3Do",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-148255a4-2d35-51a9-8ce7-acc218494bbe",
+        "title": "Alzheimer’s disease diagnosis based on gene selection and cross-tissue validation",
+        "description": "BackgroundEarly and accurate diagnosis is critical for intervening in the progression of Alzheimer’s disease (AD). However, traditional clinical diagnostic t...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-09-27T23:45:22.000Z",
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1890236/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/12AFEC62-10F2-4A9B-900C8422E4B53D54/511D4207-6085-4D24-9E5E56EBCA9EBCD2/WebsiteWebP_XL-FGENE_Main%20Visual_Purple_Website.webp",
         "categories": [
           "Top",
           "U.S.",
@@ -903,14 +1058,61 @@
         ]
       },
       {
-        "id": "currents-4490f9dc-a5c8-5cfa-acb9-7eee1712ecbf",
-        "title": "Power BI Data Modelling, Relationships and Joins: A Practical Guide to Building Effective BI Models",
-        "description": "Introduction Businesses and organisations collect large volumes of data in their day to...",
+        "id": "currents-7a080680-ce19-51e1-a5fc-ae9970fa9752",
+        "title": "Copy number variants in fetuses with non-structural ultrasound abnormalities among pregnant women without adverse pregnancy history",
+        "description": "ObjectiveTo analyze fetal copy number variants (CNVs) in pregnant women without adverse pregnancy history whose fetuses presented non-structural ultrasound a...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-09-27T23:45:21.000Z",
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1908680/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/12AFEC62-10F2-4A9B-900C8422E4B53D54/511D4207-6085-4D24-9E5E56EBCA9EBCD2/WebsiteWebP_XL-FGENE_Main%20Visual_Purple_Website.webp",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-30548b0f-ba91-5176-b9d2-b4de8f4c01cf",
+        "title": "Integrative bioinformatics screening of a M2 macrophage-associated gene signature for osimertinib resistance",
+        "description": "IntroductionAlthough the third-generation epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI) Osimertinib is widely used in lung adenocarcinoma (LUAD), acquired resistance to this agent remains a major clinical challenge perplexing the academic community. While the genomic drivers ...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-09-27T23:45:27.000Z",
+        "url": "https://www.frontiersin.org/articles/10.3389/fgene.2026.1928986",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-8b89c5bf-7424-52c2-a217-73ce121bb8c8",
+        "title": "The mutational and clinical spectrum of EYS-associated retinitis pigmentosa in an Eastern European and Northern Asian cohort: two recurrent founder alleles",
+        "description": "PurposeBiallelic EYS variants are one of the frequent causes of autosomal recessive inherited retinal disease worldwide, yet the EYS mutational landscape of ...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-09-27T23:45:25.000Z",
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1951476/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/12AFEC62-10F2-4A9B-900C8422E4B53D54/511D4207-6085-4D24-9E5E56EBCA9EBCD2/WebsiteWebP_XL-FGENE_Main%20Visual_Purple_Website.webp",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-4682857c-471c-5ac6-b4f5-b65afe50246a",
+        "title": "Mistral AI raises €3B led by Samsung: how sovereign is it?",
+        "description": "Mistral AI raised €3B at a €21B+ valuation, led by Samsung, to build sovereign AI in Europe. Who pays, what it sells, what the benchmarks say.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-09-27T21:18:17.000Z",
-        "url": "https://dev.to/samuelmwaurandungu/power-bi-data-modelling-relationships-and-joins-a-practical-guide-to-building-effective-bi-models-5g9",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcuxbb3s2aej6gaa5ats5.png",
+        "publishedAt": "2026-09-27T23:46:44.000Z",
+        "url": "https://dev.to/axrisi/mistral-ai-raises-eu3b-led-by-samsung-how-sovereign-is-it-3dc",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fs91jh9yyokkdmx4icn19.jpg",
         "categories": [
           "Top",
           "Technology",
@@ -919,28 +1121,14 @@
         ]
       },
       {
-        "id": "currents-fe21717a-ec5d-54de-9407-a3aa08e2ee33",
-        "title": "China reveals military capabilities in new space solar power plant design",
-        "description": "A senior architect of China's \"Zhuri\" (sun-chasing) space solar power program, Duan Baoyan of Xidian University, published a paper describing a redesigned system meant to support communication, navigation, reconnaissance, interference and remote control, in addition to its core role of beaming down ...",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-09-27T21:17:37.000Z",
-        "url": "https://www.reddit.com/r/space/comments/1wrvyl2/china_reveals_military_capabilities_in_new_space",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-42e5874e-ed13-54a9-9a8a-b8095fded7bf",
-        "title": "How to get an \"Unhook\" style experience on Android? Need complete distraction-free YouTube for studying.",
-        "description": "Hey everyone, I’m preparing for my university exams and usually study at school or the library using my Android tablet. On my laptop, I relied heavily on the Unhook extension combined with uBlock Origin to strip away YouTube distractions (Shorts, recommendations, homepage, etc.) and stay focused. Ri...",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-09-27T21:10:51.000Z",
-        "url": "https://www.reddit.com/r/androiddev/comments/1wrvsi2/how_to_get_an_unhook_style_experience_on_android",
+        "id": "currents-8194c8d7-5763-5c7e-b085-0dd6c865340a",
+        "title": "Week 15 of #100DaysOfCode: 100 Days of Learning, Building, and Becoming a Better Engineer",
+        "description": "Introduction About 100 days ago, I reached out to my mentor because I was confused about...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-09-27T23:35:25.000Z",
+        "url": "https://dev.to/onatade_abdulmajeed/week-15-of-100daysofcode-100-days-of-learning-building-and-becoming-a-better-engineer-2pl3",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxy0qebb97xnxvwu93hpz.png",
         "categories": [
           "Top",
           "U.S.",
@@ -951,213 +1139,209 @@
     ],
     "Sports": [
       {
-        "id": "currents-8ce99bfe-ac6e-5fbd-830d-240ff05e7312",
-        "title": "USA’s McNulty transcends chaos of brutal Montreal road race to claim ‘miracle’ world championship",
-        "description": "Brandon McNulty, a UAE Emirates teammate of Tadej Pogacar, succeeded the Slovenian as world champion with an unexpected solo win in the men’s UCI road race in Montreal",
+        "id": "currents-6ca3231c-7f1d-5c1f-a299-59e2aebf7c30",
+        "title": "Mighty Sparrow, the Trinidad and Tobago singer known as the ‘calypso king of the world’, dies aged 91",
+        "description": "Slinger Francisco, who performed as the Mighty Sparrow, died on Sunday surrounded by family in New York",
         "publisher": "The Guardian",
         "publisherDomain": "theguardian.com",
-        "publishedAt": "2026-09-27T20:59:46.000Z",
-        "url": "https://www.theguardian.com/sport/2026/sep/27/brandon-mcnulty-uci-world-championship-road-race-2026-lance-armstrong-cycling",
-        "imageUrl": "https://i.guim.co.uk/img/media/da2edb4d2eb5d1b46723293fcfebfeb7bfb6e1e5/0_0_4499_3599/master/4499.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9b759d2200f7cb05408aea427c70e401",
+        "publishedAt": "2026-09-27T23:24:10.000Z",
+        "url": "https://www.theguardian.com/music/2026/sep/28/mighty-sparrow-the-trinidad-and-tobago-singer-known-as-the-calypso-king-of-the-world-dies-aged-91",
+        "imageUrl": "https://i.guim.co.uk/img/media/74b6a885bc3c58cc39914fa6b447b1264514314a/452_0_4515_3612/master/4515.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=054280676d9ffebd46c3a65c880e58cc",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-d0ce33e9-2abd-58d1-af45-6e558efe852b",
-        "title": "Israel 0-3 Republic of Ireland: Irish impress in Debrecen victory",
-        "description": "Republic of Ireland claim the first win of their Nations League B3 campaign with an impressive showing in a 3-0 victory against Israel in Debrecen.",
-        "publisher": "BBC News",
-        "publisherDomain": "bbc.co.uk",
-        "publishedAt": "2026-09-27T20:45:46.000Z",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cqlyk0141lelo",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/f8e3/live/b633cd00-baae-11f1-9187-91209312861a.jpg",
+        "id": "currents-143d82db-fa6e-56d3-9acc-dfacd803d2b9",
+        "title": "Asian Games 2026 Day 10 LIVE Updates: Indian Duo Sahil & Ganesh Clear Opening Knockouts In Compound Archery",
+        "description": "Asian Games 2026, September 28 Live Updates: Follow all the latest updates from the 10th day of the event with Indian contingent in action across 13 sports.",
+        "publisher": "News18",
+        "publisherDomain": "news18.com",
+        "publishedAt": "2026-09-27T23:51:23.000Z",
+        "url": "https://www.news18.com/sports/other-sports/asian-games-2026-day-10-live-updates-results-india-medal-tally-liveblog-ws-l-10355874.html",
+        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/07/Untitled-design-7-2026-07-0b696648a42759e47f5a2a52e797d9ce-1200x675.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-9e6f243b-17ef-5900-8be6-e693c3115e46",
-        "title": "Trump administration begins airing 2024 Trump campaign ad in latest taxpayer-funded messaging",
-        "description": "WASHINGTON (AP) — The Trump administration is using taxpayer funds to air a television advertisement from Donald Trump",
+        "id": "currents-6ded4e97-d4b4-5549-b67b-f9804eec52d3",
+        "title": "Muslim Winnipeggers, Indigenous people hold interfaith event at Canadian Mennonite University",
+        "description": "Bannock with wild rice and samosas with halal beef stew were served in equal measure as Indigenous and Muslim Winnipeggers sought common ground at an interfaith event discussing truth and reconciliation Sunday.",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-09-27T21:20:25.000Z",
-        "url": "https://www.winnipegfreepress.com/world/2026/09/27/trump-administration-begins-airing-2024-trump-campaign-ad-in-latest-taxpayer-funded-messaging",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab98890d98934d156ac0edejpeg.jpg?w=1600",
+        "publishedAt": "2026-09-27T23:42:55.000Z",
+        "url": "https://www.winnipegfreepress.com/breakingnews/2026/09/27/local-muslims-indigenous-people-hold-interfaith-event",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/4593490_web1_260927_muslim_indigenous_1.JPG?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-efe39159-3a7f-5ed0-bc8b-f7d2b1848692",
-        "title": "Lawrence throws 3 TD passes as Jaguars rout Patriots and raise more questions about Maye",
-        "description": "Trevor Lawrence threw three touchdown passes, including one on which Parker Washington made a fingertip catch in the end zone, and the Jacksonville Jaguars bounced back from their worst offensive performance in nearly a year to dominate New England 35-6",
-        "publisher": "Abcnews",
-        "publisherDomain": "abcnews.com",
-        "publishedAt": "2026-09-27T21:19:37.000Z",
-        "url": "https://abcnews.com/Sports/wireStory/lawrence-throws-3-td-passes-jaguars-rout-patriots-136802405",
-        "imageUrl": "https://i.abcnewsfe.com/a/f86dd2db-8708-4c6f-9392-a5a818cbc07e/wirestory_b8689f21171b4a500322f760acbfcad2_16x9.jpg?w=1600",
+        "id": "currents-baee9703-17fa-5815-b161-ca78f1d1b330",
+        "title": "Kyle Larson roars to NASCAR Chase win in Hollywood Casino 400 at Kansas Speedway",
+        "description": "The points leader in the NASCAR postseason and defending champ was rarely tested on Sunday in Kansas.",
+        "publisher": "Kansas",
+        "publisherDomain": "kansas.com",
+        "publishedAt": "2026-09-27T23:26:40.000Z",
+        "url": "https://www.kansas.com/sports/article317367340.html",
+        "imageUrl": "https://www.kansascity.com/public/latest-news/m1rlxo/picture317404549/alternates/LANDSCAPE_1200/BeFunky-collage%20(77).jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-b0d825fc-1f39-5c40-ac34-bf4fe8de472a",
-        "title": "Ireland’s comfortable win over Israel cannot dispel controversy",
-        "description": "First-half goals from Troy Parrott, Adam Idah and Jack Moylan gave Ireland a 3-0 win against Israel in a near-empty stadium in Debrecen",
+        "id": "currents-b97e423e-6158-5d78-abd6-4070f83fefe5",
+        "title": "Korea review – a nirvana of wild beauty shattered by the 20th century",
+        "description": "The staggering resourcefulness and fantastic originality of bygone artisans is showcased in earthenware so exquisite it will soothe your soul. But a lurch into the modern breaks the spell",
         "publisher": "The Guardian",
         "publisherDomain": "theguardian.com",
-        "publishedAt": "2026-09-27T20:51:57.000Z",
-        "url": "https://www.theguardian.com/football/2026/sep/27/israel-republic-ireland-nations-league-group-3-match-report",
-        "imageUrl": "https://i.guim.co.uk/img/media/bb1bba5e8d9b55a1c50a2f9e52aeafd6c155d459/598_0_5970_4777/master/5970.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=cebff8d759c4acf4b09b913efbe31d6e",
+        "publishedAt": "2026-09-27T23:01:17.000Z",
+        "url": "https://www.theguardian.com/artanddesign/2026/sep/28/korea-review-british-museum-london",
+        "imageUrl": "https://i.guim.co.uk/img/media/0861d3f2bd764020531ddfeed14d9d018d1022b6/1492_0_3763_3013/master/3763.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctcmV2aWV3LTMucG5n&enable=upscale&s=fa8da33d53f8ecfaf82edc842d6a05fa",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-ec5e5ea0-2df3-5430-a917-574f15b77eb8",
-        "title": "Panthers D, special teams played well enough to win. Bryce Young, offense did not",
-        "description": "The Cleveland Browns edged the Panthers Sunday, 21-18, as a Carolina team averaging 35.5 points per game coming in managed just one TD.",
-        "publisher": "Thestate",
-        "publisherDomain": "thestate.com",
-        "publishedAt": "2026-09-27T21:15:59.000Z",
-        "url": "https://www.thestate.com/sports/nfl/article317308375.html",
-        "imageUrl": "https://www.charlotteobserver.com/public/latest-news/1fhdp8/picture317403744/alternates/LANDSCAPE_1200/2026-09-27T195131Z_2131162018_MT1USATODAY29933957_RTRMADP_3_NFL-CAROLINA-PANTHERS-AT-CLEVELAND-BROWNS.JPG",
+        "id": "currents-b5b33334-9eb1-5821-9bfe-189154ad5906",
+        "title": "Hurricane Nolo still threatens Hawaii as Mexico's Baja braces for major Hurricane Polo",
+        "description": "Hurricane Nolo moving away from Hawaiian islands but the threat of heavy rain, flash floods and strong winds persists",
+        "publisher": "The Guardian",
+        "publisherDomain": "theguardian.com",
+        "publishedAt": "2026-09-27T22:59:25.000Z",
+        "url": "https://www.theguardian.com/us-news/2026/sep/27/hurricane-nolo-hawaii-hurricane-polo-mexico",
+        "imageUrl": "https://i.guim.co.uk/img/media/47ae21d63513b15f6de6167778fb08cdb4cc2592/565_0_4030_3224/master/4030.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1dd3d308ad83c609ea8b8203852ce929",
         "categories": [
-          "Top",
-          "U.S.",
           "Sports"
         ]
       },
       {
-        "id": "currents-a6a98ac5-572f-5ed0-b928-43177e69c41e",
-        "title": "Vikings' Justin Jefferson leaves game at Buccaneers with an ankle injury",
-        "description": "TAMPA, Fla. (AP) — Two-time All-Pro wide receiver Justin Jefferson left Minnesota",
+        "id": "currents-0b66b54e-f3b8-5e62-adcf-9dfd7f787ca0",
+        "title": "Seattle's winning streak is over after turnovers by both a rookie and a veteran",
+        "description": "LANDOVER, Md. (AP) — Jadarian Price fumbled early in the first quarter, then didn",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-09-27T21:15:14.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/09/27/vikings-justin-jefferson-leaves-game-at-buccaneers-with-an-ankle-injury",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab98759d98934d156ac0dd7jpeg.jpg?w=1600",
+        "publishedAt": "2026-09-27T23:35:37.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/09/27/seattles-winning-streak-is-over-after-turnovers-by-both-a-rookie-and-a-veteran",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab9a843d98934d156ac3fbejpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-b079c87f-6c3b-5d06-bec6-e3c2bb13b3b5",
-        "title": "Dylan Stewart suspended indefinitely after Alabama game. Shane Beamer explains why",
-        "description": "The Gamecocks edge punched an Alabama player and pushed a teammate.",
-        "publisher": "Thestate",
-        "publisherDomain": "thestate.com",
-        "publishedAt": "2026-09-27T21:13:55.000Z",
-        "url": "https://www.thestate.com/sports/college/university-of-south-carolina/usc-football/article317403868.html",
-        "imageUrl": "https://www.thestate.com/public/latest-news/hhp045/picture317310846/alternates/LANDSCAPE_1200/USC%20MS027.JPG",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-f773b2a8-3fa1-524a-8011-a4e94cc857a2",
-        "title": "Giants manager Tony Vitello ejected for MLB-leading 7th time this season",
-        "description": "SAN FRANCISCO (AP) — San Francisco Giants manager Tony Vitello finished his first season in the clubhouse on Sunday after being ejected an MLB-leading seventh time.",
+        "id": "currents-e34bbead-7325-5a4f-97f3-814caac6f135",
+        "title": "Vikings beat Buccaneers 23-16 but lose Jefferson to an ankle injury. Bucs' Mayfield also hurt",
+        "description": "TAMPA, Fla. (AP) — Myles Price returned a punt 86 yards for a score, Kyler Murray threw a 41-yard TD pass to Jordan Addison and the Minnesota Vikings beat the Tampa Bay Buccaneers 23-16 on Sunday.",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-09-27T21:12:55.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/baseball/2026/09/27/giants-manager-tony-vitello-ejected-for-mlb-leading-7th-time-this-season",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab986d0d98934d156ac0aa8jpeg.jpg?w=1600",
+        "publishedAt": "2026-09-27T23:35:31.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/09/27/vikings-beat-buccaneers-23-16-but-lose-jefferson-to-an-ankle-injury-bucs-mayfield-also-hurt",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab9a676d98934d156ac3c88jpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-cb257c15-b2c4-57f0-a922-fcea0541f47f",
-        "title": "Andrés Chaparro's 2-homer game lifts Nationals over Mets 6-4 in season finale",
-        "description": "WASHINGTON (AP) — Andrés Chaparro homered twice and the Washington Nationals defeated the New York Mets 6-4 on Sunday in the season finale for both teams.",
+        "id": "currents-5b949cdb-cfde-5ecf-8ed7-ecc9d8ebb9c6",
+        "title": "Bryce Young has lower-body injury but doesn't blame it for Panthers' loss to Browns",
+        "description": "CLEVELAND (AP) — Bryce Young has an unspecified lower-body injury, but he insists it had nothing to do with Carolina",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-09-27T21:11:40.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/baseball/2026/09/27/andres-chaparros-2-homer-game-lifts-nationals-over-mets-6-4-in-season-finale",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab9867dd98934d156ac09b5jpeg.jpg?w=1600",
+        "publishedAt": "2026-09-27T23:26:38.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/09/27/bryce-young-has-lower-body-injury-but-doesnt-blame-it-for-panthers-loss-to-browns",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab98026d98934d156ac01fajpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-02aeca27-5b9c-55ba-aa72-c52baa368402",
-        "title": "Jaguars' Trevor Lawrence expects fantasy football praise and ire after passing up a rushing TD",
-        "description": "JACKSONVILLE, Fla. (AP) — Jacksonville Jaguars quarterback Trevor Lawrence expects praise and ire in the fantasy football world for passing up an easy rushing touchdown against New England on Sunday.",
+        "id": "currents-d0d56b4a-db03-5d38-808b-79f36a97306f",
+        "title": "Purdy throws 4 TD passes to lead the injury-depleted 49ers to a 36-30 win vs. the Cardinals",
+        "description": "SANTA CLARA, Calif. (AP) — Brock Purdy threw four touchdown passes, with the first coming on a trick play, and the injury-depleted San Francisco 49ers held on for a 36-30 victory over the Arizona Cardinals on Sunday.",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-09-27T21:11:22.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/09/27/jaguars-trevor-lawrence-expects-fantasy-football-praise-and-ire-after-passing-up-a-rushing-td",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab978c1c9a729daf1071dabjpeg.jpg?w=1600",
+        "publishedAt": "2026-09-27T23:26:26.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/09/27/purdy-throws-4-td-passes-to-lead-the-injury-depleted-49ers-to-a-36-30-win-vs-the-cardinals",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab9a618d98934d156ac3b33jpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-21ea87c8-0e91-5e47-a1b5-5bb63c13d794",
-        "title": "Greece stun Germany 1-0 in losing home debut for Klopp",
-        "description": "AUGSBURG, Germany, Sept 27 : Greece scored a 74th-minute goal through Dimitris Kourbelis to stun hosts Germany 1-0 in their Nations League Group A2 on Sunday to top the group and spoil coach Juergen Klopp's home debut on the German bench.It was the first ever victory for the Greeks in 11 matches aga...",
-        "publisher": "Channelnewsasia",
-        "publisherDomain": "channelnewsasia.com",
-        "publishedAt": "2026-09-27T21:02:41.000Z",
-        "url": "https://www.channelnewsasia.com/sport/greece-stun-germany-1-0-in-losing-home-debut-klopp-6414211",
-        "imageUrl": "https://dam.mediacorp.sg/image/upload/s--hlTeNqbc--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-09-27T210241Z_1_LYNXMPEM8Q0KU_RTROPTP_3_SOCCER-UEFANATIONS-GER-GRC.JPG?itok=TZ21YPKm",
+        "id": "currents-7679c5e4-e647-555f-b765-f4ca76dd74fc",
+        "title": "Chiefs’ Spagnuolo gave defense a ‘heart check’ after 1st drive in Miami. It worked",
+        "description": "Miami’s first drive went for 17 plays and ended in a touchdown.",
+        "publisher": "Kansas",
+        "publisherDomain": "kansas.com",
+        "publishedAt": "2026-09-27T23:24:54.000Z",
+        "url": "https://www.kansas.com/sports/nfl/kansas-city-chiefs/article317402211.html",
+        "imageUrl": "https://www.kansascity.com/public/latest-news/502el/picture317404391/alternates/LANDSCAPE_1200/2026-09-27T204501Z_2078460560_MT1USATODAY29934247_RTRMADP_3_NFL-KANSAS-CITY-CHIEFS-AT-MIAMI-DOLPHINS.JPG",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-07fd8aea-40e3-5251-9091-a5fb7b1ccf82",
-        "title": "Winnipeg Symphony Orchestra season kicks off with two fateful fifths",
-        "description": "Saturday night’s Masterworks program, titled Beethoven 5 and Tchaikovsky 5 and led by Daniel Raiskin, also officially introduced the WSO’s new composer-in-residence, Kelly-Marie Murphy, to the weekend crowd of 1,720. She was met with enthusiastic applause and cheers upon taking the stage.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-09-27T20:57:34.000Z",
-        "url": "https://www.winnipegfreepress.com/arts-and-life/entertainment/music/2026/09/27/wso-season-kicks-off-with-two-fateful-fifths",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/4593345_web1_20260926-Matt-Duboff-Winnipeg-Symphony-Orchestra-002.jpg?w=1600",
+        "id": "currents-cf94406d-c28d-5e80-8e72-2c9ba05725e1",
+        "title": "Miami trip gave Patrick Mahomes some Super Bowl nostalgia. His game should, too",
+        "description": "Mahomes said this reminded him of his Super Bowl trip. But a few things about his game should have, too.",
+        "publisher": "Kansas",
+        "publisherDomain": "kansas.com",
+        "publishedAt": "2026-09-27T23:17:53.000Z",
+        "url": "https://www.kansas.com/sports/nfl/kansas-city-chiefs/article317401606.html",
+        "imageUrl": "https://www.kansascity.com/public/latest-news/yokf2r/picture317403666/alternates/LANDSCAPE_1200/2026-09-27T201420Z_634079360_MT1USATODAY29934241_RTRMADP_3_NFL-KANSAS-CITY-CHIEFS-AT-MIAMI-DOLPHINS.JPG",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-194c2b13-acc8-50e6-9a45-ad3abe070a91",
-        "title": "Commanders snap Seattle's 12-game winning streak, beat the Seahawks 33-31",
-        "description": "LANDOVER, Md. (AP) — Marcus Mariota threw three touchdown passes, and Kain Medrano returned an interception 50 yards for a touchdown to help the Washington Commanders hand Seattle its first loss since November, 33-31 on Sunday.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-09-27T20:55:02.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/09/27/commanders-snap-seattles-12-game-winning-streak-beat-the-seahawks-33-31",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab98297c9a729daf1072c10jpeg.jpg?w=1600",
+        "id": "currents-9651392d-fcbf-537c-bf80-ff8c80eb3bd4",
+        "title": "Mike Baird resigns as Cricket Australia boss amid BBL sale fallout, Boon to fill role",
+        "description": "The former NSW premier lost the support of the state’s cricket body because of his decision to push ahead with the sale of clubs in the Big Bash League. His departure will mean former Test stalwart David Boon is elevated into the role of interim chair.",
+        "publisher": "Smh",
+        "publisherDomain": "smh.com.au",
+        "publishedAt": "2026-09-27T23:16:54.000Z",
+        "url": "https://www.smh.com.au/sport/cricket/mike-baird-resigns-as-cricket-australia-boss-amid-bbl-sale-fallout-boon-to-fill-role-20260928-p610y5.html",
+        "imageUrl": "https://static.ffx.io/images/$zoom_0.4563374814814815%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_696%2C$y_245/t_crop_custom/q_86%2Cf_auto/82144e5a98ac258c0f23b518cd44d78049d62a65",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-084cad05-55ef-5ea0-a7b1-3c87871dab79",
-        "title": "Colts end 9-game skid with 19-17 victory over Texans as Shrader kicks winner with 16 seconds left",
-        "description": "INDIANAPOLIS (AP) — Spencer Shrader fought through a groin injury to make four field goals, including a 43-yarder with 16 seconds to go, and the Indianapolis Colts",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-09-27T20:50:37.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/09/27/colts-end-9-game-skid-with-19-17-victory-over-texans-as-shrader-kicks-winner-with-16-seconds-left",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab9818cd98934d156ac048fjpeg.jpg?w=1600",
+        "id": "currents-31439df9-b645-516f-9b1b-b74cbcbcc863",
+        "title": "FAI president Paul Cooke believes Israel build-up ‘went as well as could be expected’",
+        "description": "‘I haven’t heard anybody say that this decision was taken by the football community, which is what it was’",
+        "publisher": "Irishtimes",
+        "publisherDomain": "irishtimes.com",
+        "publishedAt": "2026-09-27T23:06:02.000Z",
+        "url": "https://www.irishtimes.com/sport/soccer/2026/09/28/fai-president-paul-cooke-believes-israel-build-up-went-as-well-as-could-be-expected",
+        "imageUrl": "https://www.irishtimes.com/resizer/v2/FNSNP6M2IJGTJJTK3PW3EQAXGU.jpg?smart=true&auth=9478a6c6543c195bf7cb6f2c94b8a173097838d5696ef4c72266fee913dd17e5&width=1200&height=630",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-e8e53593-124f-5a2f-b40c-0d37edcfc868",
-        "title": "The 49ers dial up a hook-and-ladder play to open scoring against the Cardinals",
-        "description": "SANTA CLARA, Calif. (AP) — The San Francisco 49ers went deep in the playbook to open up the scoring against the Arizona Cardinals.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-09-27T20:48:49.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/09/27/the-49ers-dial-up-a-hook-and-ladder-play-to-open-scoring-against-the-cardinals",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/09/6ab9807bc9a729daf10729f3jpeg.jpg?w=1600",
+        "id": "currents-4a42d0a6-de85-53e1-9aa3-d07d60ea78cd",
+        "title": "Fagan believes Freo would 'regret' Wharfie Time",
+        "description": "Chris Fagan speaks to Today following the AFL grand final win.",
+        "publisher": "Smh",
+        "publisherDomain": "smh.com.au",
+        "publishedAt": "2026-09-27T23:02:27.000Z",
+        "url": "https://www.smh.com.au/sport/afl/fagan-believes-freo-would-regret-wharfie-time-20260928-p610z3.html?ref=rss",
+        "imageUrl": "https://static.ffx.io/images/w_800%2Ch_450%2Cc_fill%2Cg_auto:faces/q_86%2Cf_auto/000a73656c2be962985de3cbfb0031662f21547f",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-2eb027e3-788a-5c6b-9f45-b9078376d0bd",
+        "title": "Thousands of University of Edinburgh staff to begin five-week strike over £140m cuts",
+        "description": "Thousands of university staff to begin strikes in cuts and redundancies dispute",
+        "publisher": "Scotsman",
+        "publisherDomain": "edinburghnews.scotsman.com",
+        "publishedAt": "2026-09-27T23:01:04.000Z",
+        "url": "https://www.edinburghnews.scotsman.com/news/university-staff-strike-cuts-redundancies-dispute-9196306",
+        "imageUrl": "https://www.edinburghnews.scotsman.com/jpim-static/image/2026/08/24/00/cs-d4eb9963-10db-488c-9d4f-274b6b723f98.jpg?crop=3:2,smart&trim=&width=1200&auto=webp&quality=75",
         "categories": [
           "Sports"
         ]
@@ -1165,209 +1349,207 @@
     ],
     "Entertainment": [
       {
-        "id": "currents-02faaa30-49f5-56d4-8d72-020120c1b1d0",
-        "title": "Julia Morris set for major TV return alongside Sophie Monk",
-        "description": "Julia Morris is preparing for a major career reinvention.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-09-27T21:07:10.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16156251/julia-morris-sophie-monk-stan-drama-career-reinvention.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/09/24/06/111436911-0-image-m-58_1790227153685.jpg",
+        "id": "currents-98f0cd43-556b-5584-8228-94a5c502948c",
+        "title": "Tru – review: a five-star performance of a three-star script about the life of Truman Capote",
+        "description": "Jesse Tyler Ferguson’s 85-minute monologue and Paul Farnsworth’s immersive set deserve better than a Broadway museum piece text on the Breakfast At Tiffany’s author",
+        "publisher": "The Guardian",
+        "publisherDomain": "theguardian.com",
+        "publishedAt": "2026-09-27T23:01:17.000Z",
+        "url": "https://www.theguardian.com/stage/2026/sep/28/tru-review-a-five-star-performance-of-a-three-star-script-about-the-life-of-truman-capote",
+        "imageUrl": "https://i.guim.co.uk/img/media/15fd8dccd5d9f745f1c3aef1b5826fc066e277f2/919_0_7200_5760/master/7200.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctcmV2aWV3LTQucG5n&enable=upscale&s=377932c6a6e1570f538aed9cfd89b61e",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-657c4a47-95eb-5f0f-96d2-5ccc067ed636",
-        "title": "These 41 Budget-Friendly Alternatives To Expensive Brands Are Truly Worth Celebrating",
-        "description": "Three cheers for this gorgeous laptop tote bag, these comfy viral sneakers, and this customizable rope light that's about to make your life ridiculously cozy.",
+        "id": "currents-2c585c26-719e-5a2c-aa3c-f5efc5eecc0b",
+        "title": "Dave Grohl and betrayed wife Jordyn present united front at MTV VMAs",
+        "description": "In September 2024, he became a lightning rod of controversy when he publicly confessed he had fathered another daughter 'outside of my marriage.'",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-09-27T23:20:50.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16165093/dave-grohl-betrayed-wife-jordyn-united-2026-vmas-love-child-drama-marriage.html?ns_campaign=1490&ito=1490",
+        "imageUrl": "https://i.dailymail.com/1s/2026/09/27/23/111505013-0-image-m-24_1790549734813.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-5681a31a-aac2-5632-aecf-6d10814c9d97",
+        "title": "I read The Poppy War Trilogy and really enjoyed it",
+        "description": "I've noticed a lot of negativity regarding The Poppy War Trilogy and RF Kuang in general on Reddit, and after reading the Poppy War Trilogy, I can say that I actually really enjoyed it and I don't know why so many people are hating on it. Prior to the Poppy war, I read Babel, another book by RF Kuan...",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-09-27T22:58:53.000Z",
+        "url": "https://www.reddit.com/r/books/comments/1wryav2/i_read_the_poppy_war_trilogy_and_really_enjoyed_it",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-7b30311f-9a63-5bdf-b4ca-e3393f5ceeaa",
+        "title": "23 Awful, Selfish, Entitled People Who Felt The World Owed Them Everything",
+        "description": "It's time for a reality check.",
         "publisher": "Buzzfeed",
         "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-09-27T21:01:02.000Z",
-        "url": "https://www.buzzfeed.com/jenae_sitzes/budget-friendly-alternatives-expensive-brands-an",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/21/16/thumb/-1rwhUAI6.jpg?crop=1250:654;0,88%26downsize=1250:*",
+        "publishedAt": "2026-09-27T23:31:02.000Z",
+        "url": "https://www.buzzfeed.com/ajanibazile/extremely-entitled-people",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-09/22/17/subbuzz/98AL-clru.jpg?crop=1206:631;0,21%26downsize=1250:*",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-902db99c-96d8-5ba5-80a4-5d2db0a1be9b",
-        "title": "NYC Subway Worker Finds Dead Body In Utility Closet",
-        "description": "A NYC subway employee made a grim discovery inside a utility closet this weekend ... the remains of a man who had been decomposing for multiple days.",
-        "publisher": "Tmz",
-        "publisherDomain": "tmz.com",
-        "publishedAt": "2026-09-27T20:56:50.000Z",
-        "url": "https://www.tmz.com/2026/09/27/subway-employee-finds-dead-body-in-closet",
-        "imageUrl": "https://imagez.tmz.com/image/20/16by9/2026/09/27/209b50e421be4734bcb2ac203895cad9_xl.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-b18ff7e7-ff58-51f4-b183-e255dc3b58fb",
-        "title": "Legendary Country Singer Johnny Cash's Acting Debut Was On An Incredibly Popular Western Series",
-        "description": "In late 1959, Johnny Cash kicked off his prolific career in television with a brief yet memorable role on the legendary NBC Western Wagon Train.",
-        "publisher": "Tvline",
-        "publisherDomain": "tvline.com",
-        "publishedAt": "2026-09-27T20:52:00.000Z",
-        "url": "https://www.tvline.com/2268584/country-singer-johnny-cash-acting-debut-western-series-wagon-train",
-        "imageUrl": "https://www.tvline.com/img/gallery/legendary-country-singer-johnny-cashs-acting-debut-was-on-an-incredibly-popular-western-series/l-intro-1790332868.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-381059df-054c-5098-85ea-8c6bab1bff3c",
-        "title": "Big Brother star Charlotte quits the show",
-        "description": "Big Brother star Charlotte Notts has officially quit the show after admitting she has 'had enough'.",
+        "id": "currents-e2e40d0e-e437-593f-bb86-640657376964",
+        "title": "Lisa Rinna, 63, stuns with peroxide blonde hair and racy dress at VMAs",
+        "description": "Along with her bold new hair, Rinna slipped her fit figure into a racy white strapless gown featuring a bodice molded to her breasts and torso.",
         "publisher": "Daily Mail",
         "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-09-27T21:02:30.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16164741/Big-Brother-Charlotte-pushed-limit-quits-quadriplegic-amputee-disability-row.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/09/27/19/111502713-0-image-m-73_1790535197277.jpg",
+        "publishedAt": "2026-09-27T23:20:08.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16165107/lisa-rinna-blonde-2026-mtv-vmas-los-angeles.html?ns_campaign=1490&ito=1490",
+        "imageUrl": "https://i.dailymail.com/1s/2026/09/27/23/111505033-0-image-m-10_1790548780780.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-2b46841b-b773-5578-b6cb-2765d3ce4df2",
-        "title": "Taylor Swift reveals creative process behind Patient Zero music video",
-        "description": "The 36-year-old singer-songwriter used Instagram Stories to upload behind-the-scenes footage discussing her thought process behind the release.",
+        "id": "currents-80df1fd0-f26b-59e5-b1d8-5a6a3c9810de",
+        "title": "Brad Pitt leads girlfriend Ines de Ramon as they leave Madrid",
+        "description": "The actor, 62, was in the sun-drenched city to premiere and promote his new movie Heart of the Beast, and De Ramon, 33, was with him every step of the away.",
         "publisher": "Daily Mail",
         "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-09-27T20:56:20.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16164779/taylor-swift-patient-zero-music-video.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/09/27/21/111503191-0-image-m-28_1790540273067.jpg",
+        "publishedAt": "2026-09-27T23:03:38.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16164827/Brad-Pitt-Ines-Ramon-leave-Madrid.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/09/27/23/111503343-0-image-m-62_1790547913639.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-edcb9dd9-89e3-514f-b06a-98f9b210bf2f",
-        "title": "Liar, Liar child star reveals he got fan mail from PRISONERS as a kid",
-        "description": "Cooper, now 37, played Max Reede, the young son of Jim Carrey's character in the 1997 hit comedy.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-09-27T20:40:23.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16164625/Liar-Liar-Justin-Cooper-fan-mail-prisoners.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/09/27/20/111502113-0-image-m-23_1790538074449.jpg",
+        "id": "currents-1c210a32-926b-5fb4-b4bf-0b10a8b0ae0c",
+        "title": "Calypso icon Slinger Francisco, dubbed 'The Mighty Sparrow,' dies at 91",
+        "description": "Calypso music has lost one of its most emblematic voices with the death of Slinger Francisco, who was known on stage as the Mighty Sparrow and dubbed the “Calypso King of the World.”",
+        "publisher": "Abcnews",
+        "publisherDomain": "abcnews.com",
+        "publishedAt": "2026-09-27T23:26:24.000Z",
+        "url": "https://abcnews.com/Entertainment/wireStory/calypso-icon-slinger-francisco-dubbed-mighty-sparrow-dies-136806152",
+        "imageUrl": "https://i.abcnewsfe.com/a/96e91b7a-fc73-498c-8c7b-77e07c9e970d/wirestory_26b420e1ba287e1e1280cd24f9a8cc67_16x9.jpg?w=1600",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-57681a62-8fdf-53be-944c-725caab42d18",
-        "title": "Venezuela Fury continues 17th birthday celebrations",
-        "description": "Venezuela Fury continued her 17th birthday celebrations on Sunday as she documented her lavish spa weekend on Instagram.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-09-27T20:40:07.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16164759/Venezuela-Fury-birthday-Noah-Price-Cheshire.html?ns_campaign=1490&ito=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/09/27/21/111503157-0-image-m-77_1790539524195.jpg",
+        "id": "currents-2e5d43ec-4a15-56ec-b92c-748249975c15",
+        "title": "Tommy Hilfiger Gets Singapore Ready For Formula 1 With Cadillac",
+        "description": "With the Singapore Grand Prix around the corner, Tommy Hilfiger is bringing Sergio “Checo” Pérez, Zhou Guanyu, Fourth Nattawat and Pond Naravit together for a pop-up that puts fashion…",
+        "publisher": "Couturetroopers",
+        "publisherDomain": "couturetroopers.com",
+        "publishedAt": "2026-09-27T23:13:45.000Z",
+        "url": "https://couturetroopers.com/2026/09/28/tommy-hilfiger-cadillac-f1-singapore-pop-up-2026",
+        "imageUrl": "https://i0.wp.com/couturetroopers.com/wp-content/uploads/2026/09/lasalle-graduate-fashion-show-presentation-43-3.jpg?fit=1024%2C768&ssl=1",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-8842d3b0-a630-5aa3-a98f-c05d7af98e04",
-        "title": "Coronation Street's Katie McGlynn wows in a skimpy blue bikini",
-        "description": "Katie McGlynn made sure to show off her jam-packed summer as she took to Instagram in her swimwear on Sunday night.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-09-27T20:07:25.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16164795/Coronation-Street-Katie-McGlynn-blue-bikini-summerreconciliation-ex-Max-Bowden.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/09/27/20/111503173-0-image-m-34_1790538766321.jpg",
+        "id": "currents-bd5dee76-cf4c-5f2c-a8ed-47e16e4372e4",
+        "title": "Adam Lambert honors fashion icons and teases VMA moment",
+        "description": "Adam Lambert honors fashion icons with his look and hints he may sing later during the VMAs.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-09-27T23:05:13.000Z",
+        "url": "https://www.usatoday.com/videos/entertainment/music/awards/2026/09/27/adam-lambert-honors-fashion-icons-and-teases-vma-moment/91978548007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/09/27/USAT/91978537007-20260927-vm-as-adam-lambert-thumb.jpg?crop=607%2C1079%2Cx672%2Cy0&quality=10",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-c26e0f3a-2730-5dc9-a182-481a93f1dd35",
-        "title": "Julianne Hough on bringing her DWTS skills to Broadway in Damn Yankees revival",
-        "description": "Hough will star alongside Neil Patrick Harris and Austin Scott in first revival of the hit musical in 30 years",
-        "publisher": "Independent",
-        "publisherDomain": "independent.co.uk",
-        "publishedAt": "2026-09-27T20:31:19.000Z",
-        "url": "https://www.independent.co.uk/arts-entertainment/theatre-dance/news/damn-yankees-revival-julianne-hough-broadway-b3057205.html",
-        "imageUrl": "https://static.independent.co.uk/2026/09/27/21/2026-09-15T010258Z_549418515_HP1EM9F02WVFG_RTRMADP_3_AWARDS-EMMYS.JPG?trim=0,0,0,0&width=1200&height=800&crop=1200:800",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-3bb85876-1b4e-5df3-be83-d378e7da5d02",
-        "title": "17 Things Women Have To Pay A \"Pink Tax” For That Men Don’t Even Think Twice About",
-        "description": "\"This is how the real world works, and yet, people can look right at that and still deny that the patriarchy is real...\"",
+        "id": "currents-3cfa9ff1-8e54-5ff6-8edf-8108c45f3912",
+        "title": "27 Inexpensive Products That’ll Make Date Night In Feel Special",
+        "description": "Because you can still have ~romance~ without dropping over $50.",
         "publisher": "Buzzfeed",
         "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-09-27T20:31:02.000Z",
-        "url": "https://www.buzzfeed.com/carleysuthers/women-share-pink-tax-items",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-09/21/07/thumb/XIRR0Lg9Z.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+        "publishedAt": "2026-09-27T23:01:01.000Z",
+        "url": "https://www.buzzfeed.com/cierracowan/inexpensive-products-date-night",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-09/17/13/thumb/jVYsJ4tMy.jpg?crop=3000:1571;0,211%26downsize=1250:*",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-06675085-9d8a-5817-a87e-6a2e8e98a981",
-        "title": "Why Travis Kelce Won't Be Attending the 2026 VMAs With Taylor Swift",
-        "description": "While Taylor Swift is set to attend the 2026 MTV VMAs Sept. 27 to premiere her “Patient Zero” music video and accept the inaugural Artist Director Honors, her husband Travis Kelce will be in Miami.",
-        "publisher": "E! News",
-        "publisherDomain": "eonline.com",
-        "publishedAt": "2026-09-27T20:22:38.000Z",
-        "url": "https://www.eonline.com/videos/2515524163564/why-travis-kelce-wont-be-attending-the-2026-vmas-with-taylor-swift",
-        "imageUrl": "https://eonlinethumbs.eonline.com/images/783/806/092726_TAYLORSWIFTTRAVISKELCEVMA_2515524163564_560x315_2515521603779.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+        "id": "currents-5d570430-bc35-5a65-a4d4-d9c2c2ce1349",
+        "title": "MTV VMAs 2026: See the Complete Winners List",
+        "description": "The biggest names in music gathered for the MTV Video Music Awards to see who would take home the night's top prizes.",
+        "publisher": "Rollingstone",
+        "publisherDomain": "rollingstone.com",
+        "publishedAt": "2026-09-27T23:00:04.000Z",
+        "url": "https://www.rollingstone.com/music/music-news/2026-vmas-winners-list-1235631232",
+        "imageUrl": "https://www.rollingstone.com/wp-content/uploads/2026/09/MTV-VMA26-winners-list.jpg?w=1600&h=900&crop=1",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-9f180e67-f027-5f67-9612-3f8b08e8a218",
-        "title": "Who Is Jalen Brunson? 5 Things About the NBA Star & ‘SNL’ Host",
-        "description": "New York Knicks star Jalen Brunson hosted the season 52 premiere of ‘Saturday Night Live.’ Learn more about his life and career here.",
-        "publisher": "Hollywoodlife",
-        "publisherDomain": "hollywoodlife.com",
-        "publishedAt": "2026-09-27T20:15:15.000Z",
-        "url": "https://hollywoodlife.com/feature/who-is-jalen-brunson-5-things-5563022",
-        "imageUrl": "https://i0.wp.com/media.hollywoodlife.com/uploads/2026/09/GettyImages-2286444448-e1790539037170.jpg?resize=1200%2C675&quality=100&ssl=1",
+        "id": "currents-bc30d356-4648-5fbd-8be3-d4ecec90bd33",
+        "title": "The singer Glenn Frey \"drifted apart\" from the most",
+        "description": "While Glenn Frey had his own agenda in Eagles, he knew when some band friendships weren't bound to last forever whenever they stopped playing.",
+        "publisher": "Faroutmagazine",
+        "publisherDomain": "faroutmagazine.co.uk",
+        "publishedAt": "2026-09-27T23:00:00.000Z",
+        "url": "https://faroutmagazine.co.uk/the-singer-glenn-frey-drifted-apart-from-the-most-most-of-the-time-i-dont-like-him",
+        "imageUrl": "https://cdn1.faroutmagazine.co.uk/uploads/1/2025/03/Glenn-Frey-1970s-Musician-The-Eagles-Far-Out-Magazine.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-188fcd1d-309b-564f-a26d-dff1d588de97",
-        "title": "5 TV Shows To Watch If You Like The Dungeon Crawler Carl Books",
-        "description": "Fans of the Dungeon Crawler Carl books can watch Squid Game, Alice in Borderland, Solo Leveling, and more while waiting for the Peacock TV adaptation.",
-        "publisher": "Tvline",
-        "publisherDomain": "tvline.com",
-        "publishedAt": "2026-09-27T20:12:00.000Z",
-        "url": "https://www.tvline.com/2268114/tv-shows-like-dungeon-crawler-carl-books",
-        "imageUrl": "https://www.tvline.com/img/gallery/5-tv-shows-to-watch-if-you-like-the-dungeon-crawler-carl-books/l-intro-1790275302.jpg",
+        "id": "currents-c57ea3bb-e39d-5750-9b56-5b5d40fc2786",
+        "title": "El Paso-bound flight makes emergency return to Houston after windshield shatters, airline says",
+        "description": "According to air traffic control recordings, the windshield glass shattered through multiple layers shortly after takeoff from Houston.",
+        "publisher": "6abc",
+        "publisherDomain": "6abc.com",
+        "publishedAt": "2026-09-27T22:57:45.000Z",
+        "url": "https://6abc.com/story/el-paso-bound-flight-makes-emergency-return-houston-windshield-shatters-airline-says/19881264",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/18445251_bush-airport-control-tower-img.png?w=1600",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-b7b2edac-bf53-5621-a4f7-904095b9b393",
-        "title": "See the Stars Arriving at the 2026 MTV VMAs Red Carpet and What They’re Wearing",
-        "description": "The MTV Video Music Awards are famously known for having the boldest, wildest and headline-worthy looks on the red carpet.",
-        "publisher": "Today",
-        "publisherDomain": "today.com",
-        "publishedAt": "2026-09-27T20:08:11.000Z",
-        "url": "https://www.today.com/popculture/awards/vmas-red-carpet-2026-looks-fashion-rcna599758",
-        "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/rockcms/2026-09/taylor-swift-2024-vmas-lc-260925-692de3.jpg",
+        "id": "currents-57d0c699-788f-5e84-bd69-574fc5459022",
+        "title": "How I Met Your Mother - Barney's Video Résumé",
+        "description": "submitted by /u/WavesAndSaves [link] [comments]",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-09-27T22:55:26.000Z",
+        "url": "https://www.reddit.com/r/television/comments/1wry88j/how_i_met_your_mother_barneys_video_r%C3%A9sum%C3%A9",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-d71eabf1-a9a9-5b11-a312-3ed71b137515",
-        "title": "Jalen Brunson Gets A Big Assist From Knicks Teammates In ‘SNL’ Opening Monologue",
-        "description": "Jalen Brunson’s monologue wasn’t complete without an appearance from the rest of the starting five, Josh Hart, OG Anunoby, Mikal Bridges and Karl-Anthony Towns.",
-        "publisher": "Today",
-        "publisherDomain": "today.com",
-        "publishedAt": "2026-09-27T20:06:28.000Z",
-        "url": "https://www.today.com/popculture/news/jalen-brunson-snl-monologue-knicks-starting-five-rcna600087",
-        "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/rockcms/2026-09/knicks-starting-five-snl-ky-260927-217546.jpg",
+        "id": "currents-ca26583a-1fdd-5c73-a057-49e6614b1b34",
+        "title": "BuzzFeed Shopping's 2026 Buzzy Awards: Home",
+        "description": "Award-winners for your abode.",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-09-27T23:31:02.000Z",
+        "url": "https://www.buzzfeed.com/buzzfeedshopping/buzzfeed-shoppings-2026-buzzy-awards-home",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-09/17/22/thumb/tc3IyLmvI.png?crop=1350:707;0,97%26downsize=1250:*",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-7eaa41a6-8107-5214-94c9-e1ac0d3c5891",
+        "title": "“I don't feel I've learnt enough” says Jonny Greenwood as he admits he used to be a “clumsy” and “lazy” guitarist",
+        "description": "Guitarist plays tribute night to Steve Reich on Sunday",
+        "publisher": "Musicradar",
+        "publisherDomain": "musicradar.com",
+        "publishedAt": "2026-09-27T22:55:00.000Z",
+        "url": "https://www.musicradar.com/artists/guitarists/i-dont-feel-ive-learnt-enough-says-jonny-greenwood-as-he-admits-he-used-to-be-a-clumsy-and-lazy-guitarist",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/A72BPsaeKuEJfC6d9AJ8K-2000-80.jpg",
         "categories": [
           "Entertainment"
         ]
@@ -1379,6 +1561,6 @@
     "successfulRequests": 5,
     "failedRequests": 0,
     "articleCountBeforeDeduplication": 100,
-    "articleCountAfterDeduplication": 85
+    "articleCountAfterDeduplication": 83
   }
 }
