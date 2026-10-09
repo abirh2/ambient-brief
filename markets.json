@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "provider": "finnhub",
+  "generatedAt": "2026-10-09T20:10:35.768Z",
+  "marketSession": "after-hours",
+  "freshness": "fresh",
+  "instruments": [
+    {
+      "symbol": "SPY",
+      "name": "S&P 500 ETF Proxy",
+      "type": "etf-proxy",
+      "proxyFor": "S&P 500",
+      "price": 778.57,
+      "previousClose": 773.93,
+      "change": 4.64,
+      "changePercent": 0.5995,
+      "providerTimestamp": "2026-10-09T20:00:00.000Z",
+      "stale": false
+    },
+    {
+      "symbol": "DIA",
+      "name": "Dow Jones ETF Proxy",
+      "type": "etf-proxy",
+      "proxyFor": "Dow Jones",
+      "price": 516.11,
+      "previousClose": 511.65,
+      "change": 4.46,
+      "changePercent": 0.8717,
+      "providerTimestamp": "2026-10-09T20:00:00.000Z",
+      "stale": false
+    },
+    {
+      "symbol": "QQQ",
+      "name": "Nasdaq-100 ETF Proxy",
+      "type": "etf-proxy",
+      "proxyFor": "Nasdaq-100",
+      "price": 751.27,
+      "previousClose": 747.58,
+      "change": 3.69,
+      "changePercent": 0.4936,
+      "providerTimestamp": "2026-10-09T20:00:00.000Z",
+      "stale": false
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple",
+      "type": "company",
+      "price": 336.681,
+      "previousClose": 340.42,
+      "change": -3.739,
+      "changePercent": -1.0983,
+      "providerTimestamp": "2026-10-09T20:00:00.000Z",
+      "stale": false
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "type": "company",
+      "price": 535.07,
+      "previousClose": 522.61,
+      "change": 12.46,
+      "changePercent": 2.3842,
+      "providerTimestamp": "2026-10-09T20:00:00.000Z",
+      "stale": false
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "type": "company",
+      "price": 229.28,
+      "previousClose": 230.48,
+      "change": -1.2,
+      "changePercent": -0.5207,
+      "providerTimestamp": "2026-10-09T20:00:00.000Z",
+      "stale": false
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "type": "company",
+      "price": 262.43,
+      "previousClose": 254.06,
+      "change": 8.37,
+      "changePercent": 3.2945,
+      "providerTimestamp": "2026-10-09T20:00:00.000Z",
+      "stale": false
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet",
+      "type": "company",
+      "price": 351.66,
+      "previousClose": 348.29,
+      "change": 3.37,
+      "changePercent": 0.9676,
+      "providerTimestamp": "2026-10-09T20:00:00.000Z",
+      "stale": false
+    },
+    {
+      "symbol": "META",
+      "name": "Meta",
+      "type": "company",
+      "price": 718.67,
+      "previousClose": 720.89,
+      "change": -2.22,
+      "changePercent": -0.308,
+      "providerTimestamp": "2026-10-09T20:00:00.000Z",
+      "stale": false
+    }
+  ],
+  "errors": []
+}
