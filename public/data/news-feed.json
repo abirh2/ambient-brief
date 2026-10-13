@@ -1,20 +1,124 @@
 {
   "schemaVersion": 1,
   "provider": "currents",
-  "generatedAt": "2026-10-13T01:57:53.695Z",
-  "sourceFetchedAt": "2026-10-13T01:57:53.695Z",
+  "generatedAt": "2026-10-13T09:16:43.984Z",
+  "sourceFetchedAt": "2026-10-13T09:16:43.984Z",
   "status": "success",
   "categories": {
     "Top": [
       {
-        "id": "currents-50a9fb4a-fd6d-5ced-95be-52dae5f45168",
-        "title": "Your AI research folder is full of opinions that never met each other",
-        "description": "Ask a hard question in five chat windows and you'll end up with five essays. Four of them will say...",
+        "id": "currents-a69c55d0-2bab-57d9-9260-dedd688acc49",
+        "title": "Trill seekers: can scientists use AI and tutors to help birds remember lost songs?",
+        "description": "When populations fall, fledglings can struggle to learn the right notes to attract mates. But research on how birds communicate offers hope for species’ survival",
+        "publisher": "The Guardian",
+        "publisherDomain": "theguardian.com",
+        "publishedAt": "2026-10-13T09:00:19.000Z",
+        "url": "https://www.theguardian.com/environment/2026/oct/13/ornithology-trill-why-birds-sing-birdsong-dialects-tutors-ai-aoe",
+        "imageUrl": "https://i.guim.co.uk/img/media/4e1bc462771d3504453cdb7719b53ba105bd9258/353_0_2639_2111/master/2639.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e784c052685f691a36b884ff03664277",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-f194af20-b4e9-5876-95c2-fc64206d5042",
+        "title": "In the AI era, coding means thinking like a systems architect",
+        "description": "Programming is still an essential skill, but how you do it needs to change, says Jacques Cornwell.",
+        "publisher": "Nature",
+        "publisherDomain": "nature.com",
+        "publishedAt": "2026-10-13T09:01:58.000Z",
+        "url": "https://www.nature.com/articles/d41586-026-02715-x",
+        "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-026-02715-x/d41586-026-02715-x_53718414.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-2c2a2f4f-ddf8-5787-9b5a-f990eb1030df",
+        "title": "Spatial lipidomics in gynecologic malignancies: molecular identification, cellular attribution, and mechanistic validation",
+        "description": "Spatial lipidomics can place lipid identities within histopathologic compartments, but ion maps are frequently interpreted beyond what their analytical and b...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-10-13T09:08:50.000Z",
+        "url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2026.1957466/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/4A5D8893-D608-48FF-ABC5878D4E4E347C/6224F3DC-E923-42CC-891365CC5EED0185/WebsiteWebP_XL-FMOLB_Main%20Visual_Orange_Website.webp",
+        "categories": [
+          "Top",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-b767c8fe-1dd6-5f1c-bf76-a256c845af1e",
+        "title": "Out of Orbán’s shadow, Hungary tries to reset how the public gets its news",
+        "description": "Under Prime Minister Viktor Orbán, Hungary hollowed out many public media outlets. Journalists are now rebuilding to restore scrutiny of government.",
+        "publisher": "Csmonitor",
+        "publisherDomain": "csmonitor.com",
+        "publishedAt": "2026-10-13T09:00:17.000Z",
+        "url": "https://www.csmonitor.com/World/Europe/2026/1013/hungary-public-media-orban-criticism-journalism",
+        "imageUrl": "https://images.csmonitor.com/csm/2026/10/1009_OHUNGARYMEDIA_lede_new.jpg?alias=standard_900x600",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-b81927a0-7414-5f99-9bd6-aa206064a303",
+        "title": "Nearly half of women with autoimmune diseases told their symptoms are psychological",
+        "description": "Female patients also endure longer delays in receiving a formal diagnosis when compared with men, research suggests",
+        "publisher": "Independent",
+        "publisherDomain": "independent.co.uk",
+        "publishedAt": "2026-10-13T09:08:06.000Z",
+        "url": "https://www.independent.co.uk/news/uk/home-news/women-autoimmune-disease-symptoms-misdiagnosis-b3065732.html",
+        "imageUrl": "https://static.independent.co.uk/2026/10/13/9/46/iStock-2222229505.jpeg?trim=0,0,0,0&width=1200&height=800&crop=1200:800",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-e49c8847-868c-5e60-804e-9d641284a578",
+        "title": "Minsk hosts Artificial Intelligence in Belarus forum",
+        "description": "The forum has brought together leading scientists, engineers and representatives of business, government and education to discuss key trends and prospects for the development of artificial intelligence technologies.",
+        "publisher": "Belta",
+        "publisherDomain": "eng.belta.by",
+        "publishedAt": "2026-10-13T09:07:14.000Z",
+        "url": "https://eng.belta.by/society/view/minsk-hosts-artificial-intelligence-in-belarus-forum-187346-2026",
+        "imageUrl": "https://eng.belta.by/images/storage/news/with_archive/2026/000022_1791879095_187346_big.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-e73cd1ae-b2e4-5d49-875a-769735936780",
+        "title": "Joint association of growth hormone and cerebral small vessel disease with antihypertensive treatment burden after stroke: an exploratory prospective study - Journal of Human Hypertension",
+        "description": "Growth hormone (GH) and cerebral small vessel disease (SVD) may influence blood pressure regulation. This study investigated the individual and joint associations of GH and SVD severity with antihypertensive management following stroke. We prospectively enrolled patients admitted for acute stroke be...",
+        "publisher": "Nature",
+        "publisherDomain": "nature.com",
+        "publishedAt": "2026-10-13T09:02:34.000Z",
+        "url": "https://www.nature.com/articles/s41371-026-01242-6",
+        "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41371-026-01242-6/MediaObjects/41371_2026_1242_Figa_HTML.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-d7aaca91-1b69-5da9-a923-906119cb4765",
+        "title": "Clockwise Shut Down: How to Move to Reclaim.ai (and How It Compares to Motion)",
+        "description": "Clockwise, the AI calendar tool that protected Focus Time and moved meetings around for teams at...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:53:59.000Z",
-        "url": "https://dev.to/neusoftware/your-ai-research-folder-is-full-of-opinions-that-never-met-each-other-3b57",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffmcshgb3s5vsxoyk8jp2.png",
+        "publishedAt": "2026-10-13T09:06:20.000Z",
+        "url": "https://dev.to/agentsforwork/clockwise-shut-down-how-to-move-to-reclaimai-and-how-it-compares-to-motion-992",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fk3ayfe53ca3snhz45wzk.png",
         "categories": [
           "Top",
           "Technology",
@@ -23,73 +127,14 @@
         ]
       },
       {
-        "id": "currents-aad0b8a6-2453-5e19-8642-8d4253cbffba",
-        "title": "California homeowners must not ignore this key election race — the choice couldn’t be easier, or more vital",
-        "description": "Once, the contest for California insurance commissioner was an afterthought, a choice between accountants and party hacks. Now, it’s one of the most important races on the ballot.",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-10-13T01:48:14.000Z",
-        "url": "https://nypost.com/2026/10/12/opinion/california-homeowners-must-not-ignore-race-for-insurance-commissioner",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/10/comp_af662f.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-153dd8da-a826-57ce-bc02-362b8015b3b3",
-        "title": "Kyle Shanahan shares promising injury update on Nick Bosa for Week 6",
-        "description": "The defensive end missed the last three games because of a calf injury.",
-        "publisher": "Newsweek",
-        "publisherDomain": "newsweek.com",
-        "publishedAt": "2026-10-13T01:47:19.000Z",
-        "url": "https://www.newsweek.com/sports/nfl/kyle-shanahan-shares-promising-injury-update-on-nick-bosa-for-week-6-12558863",
-        "imageUrl": "https://assets.newsweek.com/wp-content/uploads/2026/08/GettyImages-2236493687.jpg?w=1200&crop=1",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-1fbc7c23-3bf1-519b-aa83-8ecd04c517e0",
-        "title": "Starwood Property Trust: Expansion Into Net Lease Collides With Rising Rates (NYSE:STWD)",
-        "description": "Starwood Property remains a Hold as earnings trail its dividend after a dilutive net lease acquisition. See here for more on STWD stock.",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-10-13T01:47:07.000Z",
-        "url": "https://seekingalpha.com/article/4953625-starwood-property-trust-expansion-into-net-lease-collides-with-rising-rates",
-        "imageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2170814475/image_2170814475.jpg?io=getty-c-w1536",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-27ec3ce3-96c5-5777-89d6-ec7003ec91ca",
-        "title": "Node.js Docker Kubernetes Health Checks: Readiness, Liveness, and Startup for Nightly SaaS",
-        "description": "The hard part of monitoring a nightly healthtech pipeline with Node.js, Docker, and Kubernetes is not...",
+        "id": "currents-666ba4db-e62b-5a98-8c51-fdc9e8cadf66",
+        "title": "Which model should Dory run on? We tested eight on real questions",
+        "description": "We tested eight new AI models on real questions from Playtomic's internal Slack agent, graded by two judges from different companies.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:43:32.000Z",
-        "url": "https://dev.to/mortimernilsson7694/nodejs-docker-kubernetes-health-checks-readiness-liveness-and-startup-for-nightly-saas-1jog",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwpxuhtl1vva39g7x3348.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-80427ffb-b0af-5776-b869-4a886fbd7348",
-        "title": "A Zero Bill Is Not Evidence: Production Gates for a Free Model Allowance",
-        "description": "A zero invoice does not make an agent job production-ready. If you cannot show a token ledger, a...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:57:02.000Z",
-        "url": "https://dev.to/codecpp_5026/a-zero-bill-is-not-evidence-production-gates-for-a-free-model-allowance-4ck6",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fudntthhicegt0re81swm.png",
+        "publishedAt": "2026-10-13T09:05:10.000Z",
+        "url": "https://dev.to/playtomic/which-model-should-dory-run-on-we-tested-eight-on-real-questions-3dkm",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4891s1rqx1yfsqgvn31j.png",
         "categories": [
           "Top",
           "Technology",
@@ -98,14 +143,14 @@
         ]
       },
       {
-        "id": "currents-dcd53d05-22f6-5718-9b97-99d14ae86861",
-        "title": "How to Audit SaaS KPIs with a Node.js Metrics API (Without Dashboard Noise)",
-        "description": "For an e-commerce SaaS app, a metrics dashboard API is useful only when it preserves both the...",
+        "id": "currents-c3396cc0-d4c7-5fba-8b61-2805d23770ee",
+        "title": "AI-Powered Product Listing Generator for E-Commerce Sellers",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle ...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:52:34.000Z",
-        "url": "https://dev.to/jasperflint6947/how-to-audit-saas-kpis-with-a-nodejs-metrics-api-without-dashboard-noise-15a1",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fw372ixh806lrmagj7umq.png",
+        "publishedAt": "2026-10-13T09:05:09.000Z",
+        "url": "https://dev.to/preethiprabhu66/ai-powered-product-listing-generator-for-e-commerce-sellers-g5m",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7zr9hh0zkopytvvyf6cj.png",
         "categories": [
           "Top",
           "Technology",
@@ -114,155 +159,187 @@
         ]
       },
       {
-        "id": "currents-ec2714e7-b624-5f7a-b332-e5416bb7fde9",
-        "title": "Yoshinobu Yamamoto still searching for answers after disastrous NLCS inning",
-        "description": "The Los Angeles Dodgers are facing a 2-0 deficit in the NLCS after Yoshinobu Yamamoto was sent to the showers following the worst postseason performance of his career. After Monday’s 7-4 loss…",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-10-13T01:49:10.000Z",
-        "url": "https://nypost.com/2026/10/12/sports/yoshinobu-yamamoto-still-searching-for-answers-after-disastrous-nlcs-inning",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/10/newspress-collage-iily79lhg-1791854074520.jpg?quality=75&strip=all&1791839714&w=1200",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-f308f752-0d1a-5826-961a-eee9bcf18499",
-        "title": "shadcn's radio group allows one choice at a time, so pick the default on purpose",
-        "description": "shadcn's radio group lets one option win. Here is the plan picker, the default to pick, and the keyboard tests.",
+        "id": "currents-76d2c135-17f8-56d5-a333-1e494a1e966b",
+        "title": "Changing def to async def let one blocking call freeze an entire FastAPI app",
+        "description": "The same requests.get was harmless in a def endpoint and froze the server in an async def one: an unrelated endpoint went from 1.6 ms to 34 seconds. Plus FastAPI's 40-thread cliff, why asyncio.to_thread barely helps CPU work, and a watchdog that names the blocking line.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:47:46.000Z",
-        "url": "https://dev.to/davekurian/shadcns-radio-group-allows-one-choice-at-a-time-so-pick-the-default-on-purpose-1h4",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fcdn.otf-kit.dev%2Fblog%2Fshadcn-radio-group-howto%2Fhero-20261013.png",
+        "publishedAt": "2026-10-13T09:05:00.000Z",
+        "url": "https://dev.to/remdore/changing-def-to-async-def-let-one-blocking-call-freeze-an-entire-fastapi-app-4cjd",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftzeughkyrsegkwh5lmjm.png",
         "categories": [
           "Top",
-          "U.S.",
           "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-10006a68-37c3-57dd-8dbf-9b10d5604887",
-        "title": "Case Converter: Turning snake_case API Keys Into camelCase Without Breaking Acronyms",
-        "description": "I inherited a Go service in March that returned JSON like this: { \"user_id\": 8821, ...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:47:10.000Z",
-        "url": "https://dev.to/meng_meng_56f17e28e55f140/case-converter-turning-snakecase-api-keys-into-camelcase-without-breaking-acronyms-3iim",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsiidcd8qxlotj6t0cs93.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-63f9e0f0-1645-528a-8b52-d4a699c948e4",
-        "title": "Fresno man charged with homicide after woman found dead in Tulare, police say",
-        "description": "Police said Marcelo Rodriguez had blood on him when he was later stopped by the California Highway Patrol on suspicion of DUI.",
-        "publisher": "Fresnobee",
-        "publisherDomain": "fresnobee.com",
-        "publishedAt": "2026-10-13T01:47:02.000Z",
-        "url": "https://www.fresnobee.com/news/local/crime/article317596218.html",
-        "imageUrl": "https://www.sacbee.com/public/site-services/archives/s9gpl3/picture267205637/alternates/LANDSCAPE_1200/SAC%20homicide%20chyron%20frame%20grab%20still%20murder%20crime%20shooting%20police",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-0c9bb6ec-6d59-5121-b3c0-9bd0ec66d0eb",
-        "title": "Keri Russell and Matthew Rhys had ‘sex all the time’ in disguises on ‘Americans’ set",
-        "description": "“It was so fun and sneaky, and sexy, and so good,” the “Felicity” alum recalled.",
-        "publisher": "Pagesix",
-        "publisherDomain": "pagesix.com",
-        "publishedAt": "2026-10-13T01:46:30.000Z",
-        "url": "https://pagesix.com/2026/10/12/celebrity-news/keri-russell-and-matthew-rhys-had-sex-all-the-time-in-disguises-on-americans-set",
-        "imageUrl": "https://pagesix.com/wp-content/uploads/sites/3/2026/10/144808986.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-05840167-bc0c-5e55-aa12-f41a97011c14",
-        "title": "SQL Injection: The Bug That Refuses to Die",
-        "description": "SQL injection is older than some of the engineers shipping it today. It was written up publicly back...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:45:00.000Z",
-        "url": "https://dev.to/kstriabintang/sql-injection-the-bug-that-refuses-to-die-6dc",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.pexels.com%2Fphotos%2F4597280%2Fpexels-photo-4597280.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26w%3D1600",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-2b8933c8-34c3-592a-a909-982a14b6db19",
-        "title": "Seal the Write Fence. Abort If a Forbidden Path Moves.",
-        "description": "I do not let a free model, or a free server, write a working tree until a local fence names every...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:44:33.000Z",
-        "url": "https://dev.to/aiio_8140/seal-the-write-fence-abort-if-a-forbidden-path-moves-99",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fuwrtsk88gig5e2gd65j3.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-cb3a55e0-e932-5774-b7bc-86335669ddb0",
-        "title": "shadcn's carousel runs on Embla, and autoplay is a plugin you add",
-        "description": "shadcn's carousel runs on Embla, and autoplay is a plugin you add. Setup, a pause control and tests.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:44:17.000Z",
-        "url": "https://dev.to/davekurian/shadcns-carousel-runs-on-embla-and-autoplay-is-a-plugin-you-add-5ajb",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fcdn.otf-kit.dev%2Fblog%2Fshadcn-carousel-howto%2Fhero-20261013.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-d9586e40-2e86-508d-b423-dc087d47ccbf",
-        "title": "'Love Is Blind' couples who got married: Where are they now? - NJ.com",
-        "description": "Lauren Speed and Cameron Hamilton, season 1 · Amber Pike and Matt Barnett, season 1 · Iyanna McNeely and Jarrette Jones, season 2 · Nick Thompson and ...",
-        "publisher": "Lehighvalleylive",
-        "publisherDomain": "lehighvalleylive.com",
-        "publishedAt": "2026-10-13T01:50:54.000Z",
-        "url": "https://www.lehighvalleylive.com/entertainment/2026/10/love-is-blind-couples-who-got-married-where-are-they-now.html",
-        "categories": [
-          "Top",
-          "World",
+          "Science",
           "U.S."
+        ]
+      },
+      {
+        "id": "currents-bd372966-2d8e-50f2-9368-aded03469520",
+        "title": "Coalescing Identical In-Flight VIN Decode Requests So Duplicate Pastes Share One Upstream Call",
+        "description": "A free VIN decode form (or thin proxy) often starts DecodeVinValues as soon as a normalized...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-13T09:04:55.000Z",
+        "url": "https://dev.to/vin_lookup_8dbd4710f77e9e/coalescing-identical-in-flight-vin-decode-requests-so-duplicate-pastes-share-one-upstream-call-5fce",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0v45et7eiacs4kfsov8n.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-af461fd3-5730-5537-bc8c-407e7c11b5f6",
+        "title": "bigarrow: The Mac App That Points AI Agents at What to Click",
+        "description": "What Is bigarrow bigarrow is a Mac app that shows AI agents where to click. It puts a...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-13T09:04:31.000Z",
+        "url": "https://dev.to/unfiltered_anshul/bigarrow-the-mac-app-that-points-ai-agents-at-what-to-click-12pc",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fti3bmbsmz7ud38lyan67.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-cb7f60f9-79f6-529b-a6dd-f8b4197faaf4",
+        "title": "Duane 'Keffe D' Davis faces life in prison for orchestrating murder of Tupac Shakur",
+        "description": "Duane “Keffe D” Davis is set to be sentenced Tuesday for orchestrating the murder of rap icon Tupac Shakur",
+        "publisher": "Abcnews",
+        "publisherDomain": "abcnews.com",
+        "publishedAt": "2026-10-13T09:03:41.000Z",
+        "url": "https://abcnews.com/US/wireStory/duane-keffe-davis-faces-life-prison-orchestrating-murder-137215852",
+        "imageUrl": "https://i.abcnewsfe.com/a/7d645691-3459-4026-94b3-de3f2af1c930/wirestory_827803a315dedbf36d18b66417a74303_16x9.jpg?w=1600",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-60b7539c-0431-5684-93ed-5e06e0ecb8e6",
+        "title": "Cyberattack on European Supermarket Refrigeration Causes Food Spoilage, Disruptions, and Price Hikes",
+        "description": "Introduction: The Unprecedented Cyberattack on European Supermarket Refrigeration...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-13T09:03:38.000Z",
+        "url": "https://dev.to/olgabyte/cyberattack-on-european-supermarket-refrigeration-causes-food-spoilage-disruptions-and-price-hikes-5al9",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqbg0tevh0yif8gf19lup.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-cd0c9f09-dafa-541c-b7ac-400530b4b3e7",
+        "title": "Our commitment to open source: show the code, run the numbers",
+        "description": "Author: Tobie Morgan Hitchcock We commit to three things: show the code, run the numbers, and say...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-13T09:03:27.000Z",
+        "url": "https://dev.to/surrealdb/our-commitment-to-open-source-show-the-code-run-the-numbers-3oj7",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fadp4360a19ttobctbund.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
         ]
       }
     ],
     "U.S.": [
       {
-        "id": "currents-50a9fb4a-fd6d-5ced-95be-52dae5f45168",
-        "title": "Your AI research folder is full of opinions that never met each other",
-        "description": "Ask a hard question in five chat windows and you'll end up with five essays. Four of them will say...",
+        "id": "currents-a69c55d0-2bab-57d9-9260-dedd688acc49",
+        "title": "Trill seekers: can scientists use AI and tutors to help birds remember lost songs?",
+        "description": "When populations fall, fledglings can struggle to learn the right notes to attract mates. But research on how birds communicate offers hope for species’ survival",
+        "publisher": "The Guardian",
+        "publisherDomain": "theguardian.com",
+        "publishedAt": "2026-10-13T09:00:19.000Z",
+        "url": "https://www.theguardian.com/environment/2026/oct/13/ornithology-trill-why-birds-sing-birdsong-dialects-tutors-ai-aoe",
+        "imageUrl": "https://i.guim.co.uk/img/media/4e1bc462771d3504453cdb7719b53ba105bd9258/353_0_2639_2111/master/2639.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e784c052685f691a36b884ff03664277",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-f194af20-b4e9-5876-95c2-fc64206d5042",
+        "title": "In the AI era, coding means thinking like a systems architect",
+        "description": "Programming is still an essential skill, but how you do it needs to change, says Jacques Cornwell.",
+        "publisher": "Nature",
+        "publisherDomain": "nature.com",
+        "publishedAt": "2026-10-13T09:01:58.000Z",
+        "url": "https://www.nature.com/articles/d41586-026-02715-x",
+        "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-026-02715-x/d41586-026-02715-x_53718414.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-2c2a2f4f-ddf8-5787-9b5a-f990eb1030df",
+        "title": "Spatial lipidomics in gynecologic malignancies: molecular identification, cellular attribution, and mechanistic validation",
+        "description": "Spatial lipidomics can place lipid identities within histopathologic compartments, but ion maps are frequently interpreted beyond what their analytical and b...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-10-13T09:08:50.000Z",
+        "url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2026.1957466/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/4A5D8893-D608-48FF-ABC5878D4E4E347C/6224F3DC-E923-42CC-891365CC5EED0185/WebsiteWebP_XL-FMOLB_Main%20Visual_Orange_Website.webp",
+        "categories": [
+          "Top",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-b767c8fe-1dd6-5f1c-bf76-a256c845af1e",
+        "title": "Out of Orbán’s shadow, Hungary tries to reset how the public gets its news",
+        "description": "Under Prime Minister Viktor Orbán, Hungary hollowed out many public media outlets. Journalists are now rebuilding to restore scrutiny of government.",
+        "publisher": "Csmonitor",
+        "publisherDomain": "csmonitor.com",
+        "publishedAt": "2026-10-13T09:00:17.000Z",
+        "url": "https://www.csmonitor.com/World/Europe/2026/1013/hungary-public-media-orban-criticism-journalism",
+        "imageUrl": "https://images.csmonitor.com/csm/2026/10/1009_OHUNGARYMEDIA_lede_new.jpg?alias=standard_900x600",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-e73cd1ae-b2e4-5d49-875a-769735936780",
+        "title": "Joint association of growth hormone and cerebral small vessel disease with antihypertensive treatment burden after stroke: an exploratory prospective study - Journal of Human Hypertension",
+        "description": "Growth hormone (GH) and cerebral small vessel disease (SVD) may influence blood pressure regulation. This study investigated the individual and joint associations of GH and SVD severity with antihypertensive management following stroke. We prospectively enrolled patients admitted for acute stroke be...",
+        "publisher": "Nature",
+        "publisherDomain": "nature.com",
+        "publishedAt": "2026-10-13T09:02:34.000Z",
+        "url": "https://www.nature.com/articles/s41371-026-01242-6",
+        "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41371-026-01242-6/MediaObjects/41371_2026_1242_Figa_HTML.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-d7aaca91-1b69-5da9-a923-906119cb4765",
+        "title": "Clockwise Shut Down: How to Move to Reclaim.ai (and How It Compares to Motion)",
+        "description": "Clockwise, the AI calendar tool that protected Focus Time and moved meetings around for teams at...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:53:59.000Z",
-        "url": "https://dev.to/neusoftware/your-ai-research-folder-is-full-of-opinions-that-never-met-each-other-3b57",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffmcshgb3s5vsxoyk8jp2.png",
+        "publishedAt": "2026-10-13T09:06:20.000Z",
+        "url": "https://dev.to/agentsforwork/clockwise-shut-down-how-to-move-to-reclaimai-and-how-it-compares-to-motion-992",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fk3ayfe53ca3snhz45wzk.png",
         "categories": [
           "Top",
           "Technology",
@@ -271,73 +348,14 @@
         ]
       },
       {
-        "id": "currents-aad0b8a6-2453-5e19-8642-8d4253cbffba",
-        "title": "California homeowners must not ignore this key election race — the choice couldn’t be easier, or more vital",
-        "description": "Once, the contest for California insurance commissioner was an afterthought, a choice between accountants and party hacks. Now, it’s one of the most important races on the ballot.",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-10-13T01:48:14.000Z",
-        "url": "https://nypost.com/2026/10/12/opinion/california-homeowners-must-not-ignore-race-for-insurance-commissioner",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/10/comp_af662f.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-153dd8da-a826-57ce-bc02-362b8015b3b3",
-        "title": "Kyle Shanahan shares promising injury update on Nick Bosa for Week 6",
-        "description": "The defensive end missed the last three games because of a calf injury.",
-        "publisher": "Newsweek",
-        "publisherDomain": "newsweek.com",
-        "publishedAt": "2026-10-13T01:47:19.000Z",
-        "url": "https://www.newsweek.com/sports/nfl/kyle-shanahan-shares-promising-injury-update-on-nick-bosa-for-week-6-12558863",
-        "imageUrl": "https://assets.newsweek.com/wp-content/uploads/2026/08/GettyImages-2236493687.jpg?w=1200&crop=1",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-1fbc7c23-3bf1-519b-aa83-8ecd04c517e0",
-        "title": "Starwood Property Trust: Expansion Into Net Lease Collides With Rising Rates (NYSE:STWD)",
-        "description": "Starwood Property remains a Hold as earnings trail its dividend after a dilutive net lease acquisition. See here for more on STWD stock.",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-10-13T01:47:07.000Z",
-        "url": "https://seekingalpha.com/article/4953625-starwood-property-trust-expansion-into-net-lease-collides-with-rising-rates",
-        "imageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2170814475/image_2170814475.jpg?io=getty-c-w1536",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-27ec3ce3-96c5-5777-89d6-ec7003ec91ca",
-        "title": "Node.js Docker Kubernetes Health Checks: Readiness, Liveness, and Startup for Nightly SaaS",
-        "description": "The hard part of monitoring a nightly healthtech pipeline with Node.js, Docker, and Kubernetes is not...",
+        "id": "currents-666ba4db-e62b-5a98-8c51-fdc9e8cadf66",
+        "title": "Which model should Dory run on? We tested eight on real questions",
+        "description": "We tested eight new AI models on real questions from Playtomic's internal Slack agent, graded by two judges from different companies.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:43:32.000Z",
-        "url": "https://dev.to/mortimernilsson7694/nodejs-docker-kubernetes-health-checks-readiness-liveness-and-startup-for-nightly-saas-1jog",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwpxuhtl1vva39g7x3348.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-80427ffb-b0af-5776-b869-4a886fbd7348",
-        "title": "A Zero Bill Is Not Evidence: Production Gates for a Free Model Allowance",
-        "description": "A zero invoice does not make an agent job production-ready. If you cannot show a token ledger, a...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:57:02.000Z",
-        "url": "https://dev.to/codecpp_5026/a-zero-bill-is-not-evidence-production-gates-for-a-free-model-allowance-4ck6",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fudntthhicegt0re81swm.png",
+        "publishedAt": "2026-10-13T09:05:10.000Z",
+        "url": "https://dev.to/playtomic/which-model-should-dory-run-on-we-tested-eight-on-real-questions-3dkm",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4891s1rqx1yfsqgvn31j.png",
         "categories": [
           "Top",
           "Technology",
@@ -346,14 +364,14 @@
         ]
       },
       {
-        "id": "currents-a433169b-08c1-5d9a-be45-ca1456ed9edf",
-        "title": "shadcn's alert is a callout for attention, so match its variant to the risk",
-        "description": "shadcn's alert is a callout for user attention. Markup, the variant rule and on-screen tests in React.",
+        "id": "currents-c3396cc0-d4c7-5fba-8b61-2805d23770ee",
+        "title": "AI-Powered Product Listing Generator for E-Commerce Sellers",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle ...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:53:03.000Z",
-        "url": "https://dev.to/davekurian/shadcns-alert-is-a-callout-for-attention-so-match-its-variant-to-the-risk-1aml",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fcdn.otf-kit.dev%2Fblog%2Fshadcn-alert-howto%2Fhero-20261013.png",
+        "publishedAt": "2026-10-13T09:05:09.000Z",
+        "url": "https://dev.to/preethiprabhu66/ai-powered-product-listing-generator-for-e-commerce-sellers-g5m",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7zr9hh0zkopytvvyf6cj.png",
         "categories": [
           "Top",
           "Technology",
@@ -362,14 +380,14 @@
         ]
       },
       {
-        "id": "currents-dcd53d05-22f6-5718-9b97-99d14ae86861",
-        "title": "How to Audit SaaS KPIs with a Node.js Metrics API (Without Dashboard Noise)",
-        "description": "For an e-commerce SaaS app, a metrics dashboard API is useful only when it preserves both the...",
+        "id": "currents-76d2c135-17f8-56d5-a333-1e494a1e966b",
+        "title": "Changing def to async def let one blocking call freeze an entire FastAPI app",
+        "description": "The same requests.get was harmless in a def endpoint and froze the server in an async def one: an unrelated endpoint went from 1.6 ms to 34 seconds. Plus FastAPI's 40-thread cliff, why asyncio.to_thread barely helps CPU work, and a watchdog that names the blocking line.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:52:34.000Z",
-        "url": "https://dev.to/jasperflint6947/how-to-audit-saas-kpis-with-a-nodejs-metrics-api-without-dashboard-noise-15a1",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fw372ixh806lrmagj7umq.png",
+        "publishedAt": "2026-10-13T09:05:00.000Z",
+        "url": "https://dev.to/remdore/changing-def-to-async-def-let-one-blocking-call-freeze-an-entire-fastapi-app-4cjd",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftzeughkyrsegkwh5lmjm.png",
         "categories": [
           "Top",
           "Technology",
@@ -378,14 +396,46 @@
         ]
       },
       {
-        "id": "currents-ec2714e7-b624-5f7a-b332-e5416bb7fde9",
-        "title": "Yoshinobu Yamamoto still searching for answers after disastrous NLCS inning",
-        "description": "The Los Angeles Dodgers are facing a 2-0 deficit in the NLCS after Yoshinobu Yamamoto was sent to the showers following the worst postseason performance of his career. After Monday’s 7-4 loss…",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-10-13T01:49:10.000Z",
-        "url": "https://nypost.com/2026/10/12/sports/yoshinobu-yamamoto-still-searching-for-answers-after-disastrous-nlcs-inning",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/10/newspress-collage-iily79lhg-1791854074520.jpg?quality=75&strip=all&1791839714&w=1200",
+        "id": "currents-bd372966-2d8e-50f2-9368-aded03469520",
+        "title": "Coalescing Identical In-Flight VIN Decode Requests So Duplicate Pastes Share One Upstream Call",
+        "description": "A free VIN decode form (or thin proxy) often starts DecodeVinValues as soon as a normalized...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-13T09:04:55.000Z",
+        "url": "https://dev.to/vin_lookup_8dbd4710f77e9e/coalescing-identical-in-flight-vin-decode-requests-so-duplicate-pastes-share-one-upstream-call-5fce",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0v45et7eiacs4kfsov8n.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-af461fd3-5730-5537-bc8c-407e7c11b5f6",
+        "title": "bigarrow: The Mac App That Points AI Agents at What to Click",
+        "description": "What Is bigarrow bigarrow is a Mac app that shows AI agents where to click. It puts a...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-13T09:04:31.000Z",
+        "url": "https://dev.to/unfiltered_anshul/bigarrow-the-mac-app-that-points-ai-agents-at-what-to-click-12pc",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fti3bmbsmz7ud38lyan67.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-cb7f60f9-79f6-529b-a6dd-f8b4197faaf4",
+        "title": "Duane 'Keffe D' Davis faces life in prison for orchestrating murder of Tupac Shakur",
+        "description": "Duane “Keffe D” Davis is set to be sentenced Tuesday for orchestrating the murder of rap icon Tupac Shakur",
+        "publisher": "Abcnews",
+        "publisherDomain": "abcnews.com",
+        "publishedAt": "2026-10-13T09:03:41.000Z",
+        "url": "https://abcnews.com/US/wireStory/duane-keffe-davis-faces-life-prison-orchestrating-murder-137215852",
+        "imageUrl": "https://i.abcnewsfe.com/a/7d645691-3459-4026-94b3-de3f2af1c930/wirestory_827803a315dedbf36d18b66417a74303_16x9.jpg?w=1600",
         "categories": [
           "Top",
           "U.S.",
@@ -393,14 +443,14 @@
         ]
       },
       {
-        "id": "currents-f308f752-0d1a-5826-961a-eee9bcf18499",
-        "title": "shadcn's radio group allows one choice at a time, so pick the default on purpose",
-        "description": "shadcn's radio group lets one option win. Here is the plan picker, the default to pick, and the keyboard tests.",
+        "id": "currents-60b7539c-0431-5684-93ed-5e06e0ecb8e6",
+        "title": "Cyberattack on European Supermarket Refrigeration Causes Food Spoilage, Disruptions, and Price Hikes",
+        "description": "Introduction: The Unprecedented Cyberattack on European Supermarket Refrigeration...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:47:46.000Z",
-        "url": "https://dev.to/davekurian/shadcns-radio-group-allows-one-choice-at-a-time-so-pick-the-default-on-purpose-1h4",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fcdn.otf-kit.dev%2Fblog%2Fshadcn-radio-group-howto%2Fhero-20261013.png",
+        "publishedAt": "2026-10-13T09:03:38.000Z",
+        "url": "https://dev.to/olgabyte/cyberattack-on-european-supermarket-refrigeration-causes-food-spoilage-disruptions-and-price-hikes-5al9",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqbg0tevh0yif8gf19lup.png",
         "categories": [
           "Top",
           "U.S.",
@@ -409,14 +459,14 @@
         ]
       },
       {
-        "id": "currents-10006a68-37c3-57dd-8dbf-9b10d5604887",
-        "title": "Case Converter: Turning snake_case API Keys Into camelCase Without Breaking Acronyms",
-        "description": "I inherited a Go service in March that returned JSON like this: { \"user_id\": 8821, ...",
+        "id": "currents-cd0c9f09-dafa-541c-b7ac-400530b4b3e7",
+        "title": "Our commitment to open source: show the code, run the numbers",
+        "description": "Author: Tobie Morgan Hitchcock We commit to three things: show the code, run the numbers, and say...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:47:10.000Z",
-        "url": "https://dev.to/meng_meng_56f17e28e55f140/case-converter-turning-snakecase-api-keys-into-camelcase-without-breaking-acronyms-3iim",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsiidcd8qxlotj6t0cs93.png",
+        "publishedAt": "2026-10-13T09:03:27.000Z",
+        "url": "https://dev.to/surrealdb/our-commitment-to-open-source-show-the-code-run-the-numbers-3oj7",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fadp4360a19ttobctbund.png",
         "categories": [
           "Top",
           "U.S.",
@@ -425,94 +475,73 @@
         ]
       },
       {
-        "id": "currents-63f9e0f0-1645-528a-8b52-d4a699c948e4",
-        "title": "Fresno man charged with homicide after woman found dead in Tulare, police say",
-        "description": "Police said Marcelo Rodriguez had blood on him when he was later stopped by the California Highway Patrol on suspicion of DUI.",
-        "publisher": "Fresnobee",
-        "publisherDomain": "fresnobee.com",
-        "publishedAt": "2026-10-13T01:47:02.000Z",
-        "url": "https://www.fresnobee.com/news/local/crime/article317596218.html",
-        "imageUrl": "https://www.sacbee.com/public/site-services/archives/s9gpl3/picture267205637/alternates/LANDSCAPE_1200/SAC%20homicide%20chyron%20frame%20grab%20still%20murder%20crime%20shooting%20police",
+        "id": "currents-c9d6a844-5aa7-5c8c-8b51-f91c12e72c38",
+        "title": "South Korea Exchange Ban Hits KuCoin, MEXC and 25 Other",
+        "description": "South Korea crypto exchange ban expands as 27 exchange websites face access blocks, with users warned to withdraw assets.",
+        "publisher": "Cryptonews",
+        "publisherDomain": "cryptonews.com",
+        "publishedAt": "2026-10-13T09:01:59.000Z",
+        "url": "https://cryptonews.com/news/south-korea-crypto-regulation-exchange-ban",
+        "imageUrl": "https://cryptonews.com/wp-content/uploads/2025/07/1751349518-image-1751348759889_optimized.jpg",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-f65324d8-b7c9-50fe-85cb-618220c88e23",
+        "title": "Her Majesty the Queen of Thailand to Open the 2026 Global Wellness Summit",
+        "description": "/PRNewswire/ -- The 2026 Global Wellness Summit™ (GWS) will kick off in \"royal fashion,\" as the organization announced today that Her Majesty the Queen of...",
+        "publisher": "Prnewswire",
+        "publisherDomain": "prnewswire.com",
+        "publishedAt": "2026-10-13T09:00:00.000Z",
+        "url": "https://www.prnewswire.com/news-releases/her-majesty-the-queen-of-thailand-to-open-the-2026-global-wellness-summit-302906061.html",
+        "imageUrl": "https://mmx.prnewswire.com/media/MS674382/GWS-logo-Horizontal-RGB-Logo.jpg?id=OA3008125&p=facebook",
         "categories": [
           "Top",
           "U.S.",
           "World"
-        ]
-      },
-      {
-        "id": "currents-0c9bb6ec-6d59-5121-b3c0-9bd0ec66d0eb",
-        "title": "Keri Russell and Matthew Rhys had ‘sex all the time’ in disguises on ‘Americans’ set",
-        "description": "“It was so fun and sneaky, and sexy, and so good,” the “Felicity” alum recalled.",
-        "publisher": "Pagesix",
-        "publisherDomain": "pagesix.com",
-        "publishedAt": "2026-10-13T01:46:30.000Z",
-        "url": "https://pagesix.com/2026/10/12/celebrity-news/keri-russell-and-matthew-rhys-had-sex-all-the-time-in-disguises-on-americans-set",
-        "imageUrl": "https://pagesix.com/wp-content/uploads/sites/3/2026/10/144808986.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-05840167-bc0c-5e55-aa12-f41a97011c14",
-        "title": "SQL Injection: The Bug That Refuses to Die",
-        "description": "SQL injection is older than some of the engineers shipping it today. It was written up publicly back...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:45:00.000Z",
-        "url": "https://dev.to/kstriabintang/sql-injection-the-bug-that-refuses-to-die-6dc",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.pexels.com%2Fphotos%2F4597280%2Fpexels-photo-4597280.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26w%3D1600",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-2b8933c8-34c3-592a-a909-982a14b6db19",
-        "title": "Seal the Write Fence. Abort If a Forbidden Path Moves.",
-        "description": "I do not let a free model, or a free server, write a working tree until a local fence names every...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:44:33.000Z",
-        "url": "https://dev.to/aiio_8140/seal-the-write-fence-abort-if-a-forbidden-path-moves-99",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fuwrtsk88gig5e2gd65j3.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-cb3a55e0-e932-5774-b7bc-86335669ddb0",
-        "title": "shadcn's carousel runs on Embla, and autoplay is a plugin you add",
-        "description": "shadcn's carousel runs on Embla, and autoplay is a plugin you add. Setup, a pause control and tests.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:44:17.000Z",
-        "url": "https://dev.to/davekurian/shadcns-carousel-runs-on-embla-and-autoplay-is-a-plugin-you-add-5ajb",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fcdn.otf-kit.dev%2Fblog%2Fshadcn-carousel-howto%2Fhero-20261013.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
         ]
       }
     ],
     "World": [
       {
-        "id": "currents-aad0b8a6-2453-5e19-8642-8d4253cbffba",
-        "title": "California homeowners must not ignore this key election race — the choice couldn’t be easier, or more vital",
-        "description": "Once, the contest for California insurance commissioner was an afterthought, a choice between accountants and party hacks. Now, it’s one of the most important races on the ballot.",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-10-13T01:48:14.000Z",
-        "url": "https://nypost.com/2026/10/12/opinion/california-homeowners-must-not-ignore-race-for-insurance-commissioner",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/10/comp_af662f.jpg?quality=75&strip=all&w=1200",
+        "id": "currents-b81927a0-7414-5f99-9bd6-aa206064a303",
+        "title": "Nearly half of women with autoimmune diseases told their symptoms are psychological",
+        "description": "Female patients also endure longer delays in receiving a formal diagnosis when compared with men, research suggests",
+        "publisher": "Independent",
+        "publisherDomain": "independent.co.uk",
+        "publishedAt": "2026-10-13T09:08:06.000Z",
+        "url": "https://www.independent.co.uk/news/uk/home-news/women-autoimmune-disease-symptoms-misdiagnosis-b3065732.html",
+        "imageUrl": "https://static.independent.co.uk/2026/10/13/9/46/iStock-2222229505.jpeg?trim=0,0,0,0&width=1200&height=800&crop=1200:800",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-e49c8847-868c-5e60-804e-9d641284a578",
+        "title": "Minsk hosts Artificial Intelligence in Belarus forum",
+        "description": "The forum has brought together leading scientists, engineers and representatives of business, government and education to discuss key trends and prospects for the development of artificial intelligence technologies.",
+        "publisher": "Belta",
+        "publisherDomain": "eng.belta.by",
+        "publishedAt": "2026-10-13T09:07:14.000Z",
+        "url": "https://eng.belta.by/society/view/minsk-hosts-artificial-intelligence-in-belarus-forum-187346-2026",
+        "imageUrl": "https://eng.belta.by/images/storage/news/with_archive/2026/000022_1791879095_187346_big.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-b767c8fe-1dd6-5f1c-bf76-a256c845af1e",
+        "title": "Out of Orbán’s shadow, Hungary tries to reset how the public gets its news",
+        "description": "Under Prime Minister Viktor Orbán, Hungary hollowed out many public media outlets. Journalists are now rebuilding to restore scrutiny of government.",
+        "publisher": "Csmonitor",
+        "publisherDomain": "csmonitor.com",
+        "publishedAt": "2026-10-13T09:00:17.000Z",
+        "url": "https://www.csmonitor.com/World/Europe/2026/1013/hungary-public-media-orban-criticism-journalism",
+        "imageUrl": "https://images.csmonitor.com/csm/2026/10/1009_OHUNGARYMEDIA_lede_new.jpg?alias=standard_900x600",
         "categories": [
           "Top",
           "U.S.",
@@ -520,28 +549,166 @@
         ]
       },
       {
-        "id": "currents-a36a0a3e-b4d4-5b26-90a6-e925936651cf",
-        "title": "National plan to put electric vehicle charging on a map",
-        "description": "Electric vehicle charging bottlenecks and areas of high demand will be targeted by a $1.43 million national project as more motorists make the switch.",
-        "publisher": "Perthnow",
-        "publisherDomain": "perthnow.com.au",
-        "publishedAt": "2026-10-13T01:50:54.000Z",
-        "url": "https://www.perthnow.com.au/news/environment/national-plan-to-put-electric-vehicle-charging-on-a-map-c-23009822",
-        "imageUrl": "https://images.perthnow.com.au/publication/C-23009822/5270fc2288ccecc682505cad6dd0506283b0c386-16x9-x0y0w1280h720.jpg?imwidth=1200",
+        "id": "currents-d3caed71-0e66-55a3-9102-87a9719086c3",
+        "title": "Marcos: Pax Silica won’t displace indigenous communities, burial sites",
+        "description": "MANILA, Philippines — President Ferdinand Marcos Jr. on Tuesday said indigenous communities and their burial sites would not be displaced as the government moves forward with the U.S.-led Pax Silica initiative. During a brief question-and-answer session at Malacañang Palace, he said the government w...",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-10-13T09:12:14.000Z",
+        "url": "https://newsinfo.inquirer.net/2322996/marcos-on-pax-silica-initiative",
         "categories": [
           "Top",
           "World"
         ]
       },
       {
-        "id": "currents-63f9e0f0-1645-528a-8b52-d4a699c948e4",
-        "title": "Fresno man charged with homicide after woman found dead in Tulare, police say",
-        "description": "Police said Marcelo Rodriguez had blood on him when he was later stopped by the California Highway Patrol on suspicion of DUI.",
-        "publisher": "Fresnobee",
-        "publisherDomain": "fresnobee.com",
-        "publishedAt": "2026-10-13T01:47:02.000Z",
-        "url": "https://www.fresnobee.com/news/local/crime/article317596218.html",
-        "imageUrl": "https://www.sacbee.com/public/site-services/archives/s9gpl3/picture267205637/alternates/LANDSCAPE_1200/SAC%20homicide%20chyron%20frame%20grab%20still%20murder%20crime%20shooting%20police",
+        "id": "currents-089651f2-5205-52b5-9aac-b3c33771197e",
+        "title": "New team deployed to Antarctica to save historic UK base from climate crisis",
+        "publisher": "Independent",
+        "publisherDomain": "independent.co.uk",
+        "publishedAt": "2026-10-13T09:11:02.000Z",
+        "url": "https://www.independent.co.uk/bulletin/news/uk-antarctic-heritage-trust-penguins-b3065740.html",
+        "imageUrl": "https://static.independent.co.uk/2025/09/24/06/23175654-38e8e9bf-cb51-4a4b-a7d9-8fe7b38e8462.jpeg?width=1200&height=800&crop=1200:800",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-31cc3ee4-4e2d-5ab7-9b86-3fe9e85a8421",
+        "title": "Poundland on the brink: Union fears thousands of jobs under threat",
+        "description": "Around 12,000 jobs at 600 stores are said to be at risk at the group that was bought for just £1 in summer of 2025",
+        "publisher": "Independent",
+        "publisherDomain": "independent.co.uk",
+        "publishedAt": "2026-10-13T09:12:06.000Z",
+        "url": "https://www.independent.co.uk/news/business/poundland-shops-sale-gordon-brothers-b3065692.html",
+        "imageUrl": "https://static.independent.co.uk/2025/12/05/11/ee51a311e5d5da225ef2f78f8863807eY29udGVudHNlYXJjaGFwaSwxNzY1MDE5MDgy-2.81374660.jpg?width=1200&height=800&crop=1200:800",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-a82fb8af-2966-5fbf-906a-67492ab0b16d",
+        "title": "Sandro Marcos pushes bills on gun safety, child protection, political dynasties",
+        "description": "House Majority Leader Sandro Marcos —Photo from his Facebook account MANILA, Philippines — House Majority Leader Ferdinand Alexander “Sandro” Marcos III is backing bills to address gun",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-10-13T09:12:05.000Z",
+        "url": "https://newsinfo.inquirer.net/2322960/sandro-marcos-pushes-bills-on-gun-safety-child-protection-political-dynasties",
+        "imageUrl": "https://newsinfo.inquirer.net/files/2026/10/SandroMarcos-13Oct2026.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-6a7f8392-ac73-561a-b6ce-ded9c48a44c4",
+        "title": "VP impeachment trial: What the prosecution presented in 3 articles",
+        "description": "Batangas Rep. Gerville Luistro and other lawmakers huddle after a short break before voting on the opening of the box containing income tax records of Vice President Sara Duterte provided by the",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-10-13T09:12:02.000Z",
+        "url": "https://newsinfo.inquirer.net/2322993/vp-impeachment-trial-what-the-prosecution-presented-in-3-articles",
+        "imageUrl": "https://newsinfo.inquirer.net/files/2026/04/30april2026-impeach.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-f86e3874-1fa0-57b5-8e33-92e49e6fa221",
+        "title": "A 1960 study predicted the world will end next month. Here’s why",
+        "description": "‘Our great-great-grandchildren will not starve,’ acclaimed physicist wrote, ‘they will be squeezed to death’",
+        "publisher": "Independent",
+        "publisherDomain": "independent.co.uk",
+        "publishedAt": "2026-10-13T09:11:40.000Z",
+        "url": "https://www.independent.co.uk/news/science/doomsday-date-study-end-of-world-november-13-b3065738.html",
+        "imageUrl": "https://static.independent.co.uk/2026/10/12/11/48/end-of-the-world-study-doomsday.jpeg?trim=0,0,0,0&width=1200&height=800&crop=1200:800",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-a789d59b-8d29-56a0-8c8d-d2ea039e3629",
+        "title": "ANC's Andile Lungisa blames DA for Nelson Mandela Bay decline",
+        "description": "Andile Lungisa has blamed the DA for Nelson Mandela Bay’s decline and urged residents to vote for the ANC in the upcoming elections.",
+        "publisher": "Thesouthafrican",
+        "publisherDomain": "thesouthafrican.com",
+        "publishedAt": "2026-10-13T09:08:45.000Z",
+        "url": "https://www.thesouthafrican.com/news/elections/andile-lungisa-blames-da-for-nelson-mandela-bay-decline-mayoral-canddiates-latest",
+        "imageUrl": "https://www.thesouthafrican.com/wp-content/uploads/2026/10/2026-10-13-ancs-andile-lungisa-blames-da-for-nelson-mandela-bay-decline-1.jpg.webp",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-dc75ad6d-83db-5e1f-9fd9-61b07c7cc7fc",
+        "title": "‘This sword is double-edged.’ Lukashenko warns Europe over nuclear ambitions",
+        "description": "The head of state stressed that European countries, including Belarus’ neighbors, have taken a course towards an unprecedented increase in military spending and are constantly expanding the scale and number of military exercises.",
+        "publisher": "Belta",
+        "publisherDomain": "eng.belta.by",
+        "publishedAt": "2026-10-13T09:07:14.000Z",
+        "url": "https://eng.belta.by/president/view/this-sword-is-double-edged-lukashenko-warns-europe-over-nuclear-ambitions-187349-2026",
+        "imageUrl": "https://eng.belta.by/images/storage/news/with_archive/2026/000019_1791882414_187349_big.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-8a81512a-cf68-5e48-998b-04b62f615e1b",
+        "title": "Samsung chairman to receive Samsung Electronics shares worth $1.94 bil. from mother - The Korea Times",
+        "description": "Samsung Electronics Executive Chairman Lee Jae-yong will receive the company’s shares worth 2.6 trillion won ($1.94 billion) from his mother, forme...",
+        "publisher": "Co",
+        "publisherDomain": "koreatimes.co.kr",
+        "publishedAt": "2026-10-13T09:07:03.000Z",
+        "url": "https://www.koreatimes.co.kr/business/companies/20261013/samsung-chairman-to-receive-samsung-electronics-shares-worth-194-bil-from-mother",
+        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/10/13/91c9f8af-289f-42b5-af25-9ae80f977163.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-9f9298d6-bcfc-5fb4-bff2-431e0586667f",
+        "title": "How long does it take to drive through Kruger National Park?",
+        "description": "Planning a Kruger self-drive safari? Here’s how long it takes to travel between some of the park’s most popular gates and camps.",
+        "publisher": "Thesouthafrican",
+        "publisherDomain": "thesouthafrican.com",
+        "publishedAt": "2026-10-13T09:06:16.000Z",
+        "url": "https://www.thesouthafrican.com/travel/how-long-does-it-take-to-drive-through-kruger-national-park-gates-and-camps",
+        "imageUrl": "https://www.thesouthafrican.com/wp-content/uploads/2026/10/2026-10-13-how-long-does-it-take-to-drive-through-kruger-national-park-1.jpg.webp",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-7f1b97d0-ab6f-5878-bcd0-b79c6648fbe7",
+        "title": "Small uptick in polyclinic, emergency room visits in Singapore due to haze: MOH",
+        "description": "MOH is not aware of any deaths or haze-related cases sent to the ICUs. Read more at straitstimes.com.",
+        "publisher": "Straitstimes",
+        "publisherDomain": "straitstimes.com",
+        "publishedAt": "2026-10-13T09:05:00.000Z",
+        "url": "https://www.straitstimes.com/singapore/environment/small-uptick-in-polyclinic-emergency-room-visits-in-singapore-due-to-haze-moh",
+        "imageUrl": "https://cassette.sphdigital.com.sg/image/straitstimes/657c922741bec2e437e9a89ef6b0dfc22e18e2c90cf552e5942e6e00df88cd7e?w=1200",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-cb7f60f9-79f6-529b-a6dd-f8b4197faaf4",
+        "title": "Duane 'Keffe D' Davis faces life in prison for orchestrating murder of Tupac Shakur",
+        "description": "Duane “Keffe D” Davis is set to be sentenced Tuesday for orchestrating the murder of rap icon Tupac Shakur",
+        "publisher": "Abcnews",
+        "publisherDomain": "abcnews.com",
+        "publishedAt": "2026-10-13T09:03:41.000Z",
+        "url": "https://abcnews.com/US/wireStory/duane-keffe-davis-faces-life-prison-orchestrating-murder-137215852",
+        "imageUrl": "https://i.abcnewsfe.com/a/7d645691-3459-4026-94b3-de3f2af1c930/wirestory_827803a315dedbf36d18b66417a74303_16x9.jpg?w=1600",
         "categories": [
           "Top",
           "U.S.",
@@ -549,85 +716,14 @@
         ]
       },
       {
-        "id": "currents-0c9bb6ec-6d59-5121-b3c0-9bd0ec66d0eb",
-        "title": "Keri Russell and Matthew Rhys had ‘sex all the time’ in disguises on ‘Americans’ set",
-        "description": "“It was so fun and sneaky, and sexy, and so good,” the “Felicity” alum recalled.",
-        "publisher": "Pagesix",
-        "publisherDomain": "pagesix.com",
-        "publishedAt": "2026-10-13T01:46:30.000Z",
-        "url": "https://pagesix.com/2026/10/12/celebrity-news/keri-russell-and-matthew-rhys-had-sex-all-the-time-in-disguises-on-americans-set",
-        "imageUrl": "https://pagesix.com/wp-content/uploads/sites/3/2026/10/144808986.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-ec2714e7-b624-5f7a-b332-e5416bb7fde9",
-        "title": "Yoshinobu Yamamoto still searching for answers after disastrous NLCS inning",
-        "description": "The Los Angeles Dodgers are facing a 2-0 deficit in the NLCS after Yoshinobu Yamamoto was sent to the showers following the worst postseason performance of his career. After Monday’s 7-4 loss…",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-10-13T01:49:10.000Z",
-        "url": "https://nypost.com/2026/10/12/sports/yoshinobu-yamamoto-still-searching-for-answers-after-disastrous-nlcs-inning",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/10/newspress-collage-iily79lhg-1791854074520.jpg?quality=75&strip=all&1791839714&w=1200",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-d9586e40-2e86-508d-b423-dc087d47ccbf",
-        "title": "'Love Is Blind' couples who got married: Where are they now? - NJ.com",
-        "description": "Lauren Speed and Cameron Hamilton, season 1 · Amber Pike and Matt Barnett, season 1 · Iyanna McNeely and Jarrette Jones, season 2 · Nick Thompson and ...",
-        "publisher": "Lehighvalleylive",
-        "publisherDomain": "lehighvalleylive.com",
-        "publishedAt": "2026-10-13T01:50:54.000Z",
-        "url": "https://www.lehighvalleylive.com/entertainment/2026/10/love-is-blind-couples-who-got-married-where-are-they-now.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-e8945c84-86a1-5792-adcb-fc0b900291a2",
-        "title": "'A life threatening situation': Moab 240 participants describe dangerous conditions, rescue",
-        "description": "Participants of the Moab 240 Trail Race are recounting their experience after braving harsh weather conditions during the endurance race over the weekend.",
-        "publisher": "Abc4",
-        "publisherDomain": "abc4.com",
-        "publishedAt": "2026-10-13T01:48:29.000Z",
-        "url": "https://www.abc4.com/news/southern-utah/weather-rescues-moab-240-runners",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-4ad1394c-95bb-56ed-9704-8e59cb222a4c",
-        "title": "Big-rig crash temporarily blocks 2 Merced County highways",
-        "description": "A collision between two big rigs at the intersection of Highway 165 and Highway 140 in Merced County resulted in no injuries on Monday morning.",
-        "publisher": "Yourcentralvalley",
-        "publisherDomain": "yourcentralvalley.com",
-        "publishedAt": "2026-10-13T01:45:19.000Z",
-        "url": "https://www.yourcentralvalley.com/news/local-news/hwy-165-hwy-140-collision",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-e18e98cd-3578-57c6-a2c9-cb12f3145eaa",
-        "title": "Look for a SpaceX rocket across the sky Tuesday morning",
-        "description": "Look for a rocket launch in the morning sky Tuesday.",
-        "publisher": "Wavy",
-        "publisherDomain": "wavy.com",
-        "publishedAt": "2026-10-13T01:43:59.000Z",
-        "url": "https://www.wavy.com/video/look-for-a-spacex-rocket-across-the-sky-tuesday-morning",
+        "id": "currents-f65324d8-b7c9-50fe-85cb-618220c88e23",
+        "title": "Her Majesty the Queen of Thailand to Open the 2026 Global Wellness Summit",
+        "description": "/PRNewswire/ -- The 2026 Global Wellness Summit™ (GWS) will kick off in \"royal fashion,\" as the organization announced today that Her Majesty the Queen of...",
+        "publisher": "Prnewswire",
+        "publisherDomain": "prnewswire.com",
+        "publishedAt": "2026-10-13T09:00:00.000Z",
+        "url": "https://www.prnewswire.com/news-releases/her-majesty-the-queen-of-thailand-to-open-the-2026-global-wellness-summit-302906061.html",
+        "imageUrl": "https://mmx.prnewswire.com/media/MS674382/GWS-logo-Horizontal-RGB-Logo.jpg?id=OA3008125&p=facebook",
         "categories": [
           "Top",
           "U.S.",
@@ -637,41 +733,55 @@
     ],
     "Business": [
       {
-        "id": "currents-65824857-105b-5cb2-9431-d69831847202",
-        "title": "'It is the voice of country': INDIA bloc leaders lead march to SC over poll 'irregularities' react",
-        "description": "Thousands of people gathered in central Delhi on Monday as opposition leaders began their march to the Supreme Court to challenge Chief Election Commissioner Gyanesh Kumar over allegations of electoral irregularities. While the INDIA bloc leaders marched, their legal team filed a petition against th...",
+        "id": "currents-36b2867d-871c-5903-aea9-1ba80deac0fe",
+        "title": "Neha Bora age, education, father, family, Delhi protest: Things people are searching about AISA president on Google",
+        "description": "Neha Bora Protest: Neha Bora, the national president of AISA, has drawn attention following protests in Delhi against Chief Election Commissioner Gyanesh Kumar. Here is what to know about her age, educational qualifications, father, family background, student politics and recent protests.",
         "publisher": "Indiatimes",
         "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-10-13T01:29:46.000Z",
-        "url": "https://economictimes.indiatimes.com/news/videos/it-is-the-voice-of-country-india-bloc-leaders-lead-march-to-sc-over-poll-irregularities-react/videoshow/134905768.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-134905768,width-1200,height-900,overlay-economictimes/news/videos/it-is-the-voice-of-country-india-bloc-leaders-lead-march-to-sc-over-poll-irregularities-react.jpg",
+        "publishedAt": "2026-10-13T08:57:56.000Z",
+        "url": "https://economictimes.indiatimes.com/news/new-updates/neha-bora-age-education-father-family-delhi-protest-things-people-are-searching-about-aisa-president-on-google/articleshow/134910960.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-134913015,width-1200,height-900,imgsize-170910,overlay-economictimes/articleshow.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-99568be9-8ad1-5b69-ad6c-eda98448aa49",
-        "title": "Don’t blame Ukraine: Prices go up and up, thanks to Trump’s wars",
-        "description": "The US president’s battles with trading partners and Iran are responsible for the elevated US inflation rate - not Ukraine’s bombing of Russian oil refineries.",
-        "publisher": "Smh",
-        "publisherDomain": "smh.com.au",
-        "publishedAt": "2026-10-13T01:08:34.000Z",
-        "url": "https://www.smh.com.au/business/the-economy/don-t-blame-ukraine-prices-go-up-and-up-thanks-to-trump-s-wars-20261013-p614ze.html",
-        "imageUrl": "https://static.ffx.io/images/$zoom_0.1261%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_40%2C$y_0/t_crop_custom/q_86%2Cf_auto/t_metro_opinion_no_age_social_wm/1cfd96ed8b672f9bd073767f707eba5cfc41c2fc",
+        "id": "currents-e5b98f3d-0797-5e36-ab82-1d8d29ad7e81",
+        "title": "The giant exit clause in freight rail buyback plan",
+        "description": "It sparks the question — why include such a clause unless the Government is genuinely considering vending parts of Arc onwards to a third party?",
+        "publisher": "Thewest",
+        "publisherDomain": "thewest.com.au",
+        "publishedAt": "2026-10-13T08:45:09.000Z",
+        "url": "https://thewest.com.au/business/herd-on-the-terrace/herd-on-the-terrace-speculation-saffioti-has-a-few-cards-up-her-sleeve-in-rail-buyback-plans-c-23011690",
+        "imageUrl": "https://images.thewest.com.au/publication/C-23011690/de2133b07af5d888c1a09a120c5f88c572aedba6-16x9-x0y40w1574h885.jpg?imwidth=1200",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-fc7ee07b-c635-5121-85dc-af19bceedd00",
-        "title": "Jewett Cameron Trading Co Ltd 10% owner buys $23,066 in JCTC By Investing.com",
-        "description": "Jewett Cameron Trading Co Ltd 10% owner buys $23,066 in JCTC",
+        "id": "currents-b00903cf-df3e-5346-8a67-5cfbfcaba0da",
+        "title": "Toyah Cordingley's killer appeals murder conviction",
+        "description": "The man who murdered Toyah Cordingley has had an appeal against his conviction and sentence heard in a Brisbane court.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-10-13T08:37:33.000Z",
+        "url": "https://www.abc.net.au/news/2026-10-13/qld-rajwinder-singh-murder-conviction-appeal/107261696",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/9d2a2a5608492681320ab52bc6e3db01?impolicy=wcms_watermark_news&cropH=563&cropW=1000&xPos=0&yPos=15&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-767ee2ae-bfe2-58a6-8c47-32ddd385840c",
+        "title": "Piper Sandler upgrades VF Corp. stock rating on Vans stabilization By Investing.com",
+        "description": "Piper Sandler upgrades VF Corp. stock rating on Vans stabilization",
         "publisher": "Investing.com",
         "publisherDomain": "investing.com",
-        "publishedAt": "2026-10-13T01:31:29.000Z",
-        "url": "https://www.investing.com/news/insider-trading-news/jewett-cameron-trading-co-ltd-10-owner-buys-23066-in-jctc-93CH-4945307",
+        "publishedAt": "2026-10-13T08:42:56.000Z",
+        "url": "https://www.investing.com/news/analyst-ratings/piper-sandler-upgrades-vf-corp-stock-rating-on-vans-stabilization-93CH-4945803",
         "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM3Q0V4_1200_L.jpg",
         "categories": [
           "Top",
@@ -679,182 +789,166 @@
         ]
       },
       {
-        "id": "currents-da3d8199-fd09-52c1-b08d-9207022ece7c",
-        "title": "Hackers heat French supermarket fridges, sparking fires and spoiling food - BusinessWorld Online",
-        "description": "PARIS — Hackers raised the temperature of refrigerators and freezers at hundreds of French supermarkets to as high…",
-        "publisher": "Bworldonline",
-        "publisherDomain": "bworldonline.com",
-        "publishedAt": "2026-10-13T01:39:19.000Z",
-        "url": "https://bworldonline.com/world/2026/10/13/786498/hackers-heat-french-supermarket-fridges-sparking-fires-and-spoiling-food",
-        "imageUrl": "http://bworldonline.com/wp-content/uploads/2024/07/France-eiffel-tower.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-58244e7b-1563-5f72-bea3-a6aefa9d13d7",
-        "title": "'We are going to see': Trump on Iran's alleged link in UK's RAF Fairford incident",
-        "description": "Donald Trump stated that the United States is evaluating potential actions against Iran amid recent allegations. The UK government and allied nations condemned Iran's purported hostile activities and attributed involvement in an incident. Joint statements emphasized the need to address Iran's use of...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-10-13T01:26:16.000Z",
-        "url": "https://economictimes.indiatimes.com/news/international/world-news/we-are-going-to-see-trump-on-irans-alleged-link-in-uks-raf-fairford-incident/articleshow/134905654.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-134905653,width-1200,height-900,imgsize-89704,overlay-economictimes/articleshow.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-c1091a43-3801-51e3-be29-ebbc5f6c078c",
-        "title": "AAP leaders to observe one-day hunger strike in protest against CEC on October 15",
-        "description": "Aam Aadmi Party has organized a one-day hunger strike scheduled for October 15 against Chief Election Commissioner Gyanesh Kumar. Leaders and workers from across Delhi will gather at the party office to observe this protest. The decision was made during a meeting attended by various party leaders in...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-10-13T01:10:41.000Z",
-        "url": "https://economictimes.indiatimes.com/news/politics-and-nation/aap-leaders-to-observe-one-day-hunger-strike-in-protest-against-cec-on-october-15/articleshow/134905605.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-134905604,width-1200,height-900,imgsize-446380,overlay-economictimes/articleshow.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-dd6c45ff-9a5a-58a0-8aff-c132ed9d28b0",
-        "title": "Gold slips near $4,160 as Middle East tensions fuel rate-hike concerns By Investing.com",
-        "description": "Gold slips near $4,160 as Middle East tensions fuel rate-hike concerns",
+        "id": "currents-7be6fa46-8949-5d21-85d1-55fca43d31b6",
+        "title": "Melrose’s GKN Aerospace files settlement for Garden Grove probe By Investing.com",
+        "description": "Melrose’s GKN Aerospace files settlement for Garden Grove probe",
         "publisher": "Investing.com",
         "publisherDomain": "investing.com",
-        "publishedAt": "2026-10-13T01:20:39.000Z",
-        "url": "https://www.investing.com/news/commodities-news/gold-slips-near-4160-as-middle-east-tensions-fuel-ratehike-concerns-4945298",
-        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEHAF0OM-ORUBS_L.jpg",
+        "publishedAt": "2026-10-13T08:42:51.000Z",
+        "url": "https://www.investing.com/news/company-news/melroses-gkn-aerospace-files-settlement-for-garden-grove-probe-93CH-4945802",
+        "imageUrl": "https://content-media.investing.com/news/LYNXMPEM1H1CM_1200_L.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-3c465886-0854-5d08-a308-991c34d4d802",
-        "title": "Anthropic says new safeguards sharply reduce AI distillation attacks By Reuters",
-        "description": "Anthropic says new safeguards sharply reduce AI distillation attacks",
+        "id": "currents-f19e53ce-8d36-533a-a307-00ebae8b591b",
+        "title": "European gas jumps on Iran transit bottlenecks and Norwegian outages By Investing.com",
+        "description": "European gas jumps on Iran transit bottlenecks and Norwegian outages",
         "publisher": "Investing.com",
         "publisherDomain": "investing.com",
-        "publishedAt": "2026-10-13T01:12:26.000Z",
-        "url": "https://www.investing.com/news/stock-market-news/anthropic-says-new-safeguards-sharply-reduce-ai-distillation-attacks-4945295",
-        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXMPEM9C02Y_L.jpg",
+        "publishedAt": "2026-10-13T08:41:10.000Z",
+        "url": "https://www.investing.com/news/commodities-news/european-gas-jumps-on-iran-transit-bottlenecks-and-norwegian-outages-4945801",
+        "imageUrl": "https://content-media.investing.com/news/NaturalGas_800x533_L_1744805528.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-3f44834a-fdbd-51eb-9d28-0fcad9c1b56e",
-        "title": "Japan’s Omron to buy US industrial PC firm Onlogic for $675 million in physical AI push By Reuters",
-        "description": "Japan’s Omron to buy US industrial PC firm Onlogic for $675 million in physical AI push",
+        "id": "currents-79819459-b489-598b-8257-f7d8d7265248",
+        "title": "Mercia Asset Management grants options to finance director By Investing.com",
+        "description": "Mercia Asset Management grants options to finance director",
         "publisher": "Investing.com",
         "publisherDomain": "investing.com",
-        "publishedAt": "2026-10-13T01:06:22.000Z",
-        "url": "https://www.investing.com/news/stock-market-news/japans-omron-to-buy-us-industrial-pc-firmonlogic-for-675-million-in-physical-ai-push-4945294",
-        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXMPEM9C02Q_L.jpg",
+        "publishedAt": "2026-10-13T08:38:11.000Z",
+        "url": "https://www.investing.com/news/company-news/mercia-asset-management-grants-options-to-finance-director-93CH-4945800",
+        "imageUrl": "https://content-media.investing.com/news/LYNXMPEM5H10K_1200_L.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-e929cc3a-c891-52fa-8bf0-c6c700d036e2",
-        "title": "President Murmu appoints six Governors in major reshuffle",
-        "description": "President Droupadi Murmu appointed four new Governors for the states of Karnataka, Uttarakhand, Odisha, and Sikkim. Om Prakash Mathur has been reassigned as Governor of Keralam while Rajendra Vishwanath Arlekar is now Governor of Tamil Nadu. Sudha Yadav, an OBC leader, will head Karnataka after her ...",
+        "id": "currents-4ae2932c-33be-56be-8d64-cc9d41299653",
+        "title": "Isku Inspira Oy withdraws its request to convene an Extraordinary General Meeting",
+        "description": "Martela Corporation, stock exchange release, 13 October 2026 at 12:00 p.m. (EEST) The Board of Directors of Martela Corporation (“Martela” or the...",
+        "publisher": "Globenewswire",
+        "publisherDomain": "globenewswire.com",
+        "publishedAt": "2026-10-13T09:00:00.000Z",
+        "url": "https://www.globenewswire.com/news-release/2026/10/13/3379434/0/en/isku-inspira-oy-withdraws-its-request-to-convene-an-extraordinary-general-meeting.html",
+        "imageUrl": "https://ml-eu.globenewswire.com/Resource/Download/f51588d0-d1b0-4d61-bbd7-47292b2f12ef",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-25dffd27-6287-5d9f-aba9-c8c50d65c803",
+        "title": "India standardises names of 28 Ladakh locations, draws Chinese protest",
+        "description": "India has officially recognized and standardized the names of 28 geographical features in Ladakh. The Ministry of Home Affairs stated that this move aims to facilitate accurate public awareness. China's Foreign Ministry responded by claiming that Indias actions are illegal and invalid. However, Indi...",
         "publisher": "Indiatimes",
         "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-10-13T01:30:08.000Z",
-        "url": "https://economictimes.indiatimes.com/news/politics-and-nation/president-murmu-appoints-six-governors-in-major-reshuffle/articleshow/134905773.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-134905772,width-1200,height-900,imgsize-126180,overlay-economictimes/articleshow.jpg",
+        "publishedAt": "2026-10-13T08:54:50.000Z",
+        "url": "https://economictimes.indiatimes.com/news/india/india-standardises-names-of-28-ladakh-locations-draws-chinese-protest/articleshow/134912998.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-134913022,width-1200,height-900,imgsize-377912,overlay-economictimes/articleshow.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-fcde3466-d970-5d90-91c8-dce1b63af943",
-        "title": "NYT, AFP, The Economist join 40+ publishers to stop AI firms monetising content without permission",
-        "description": "Over 40 publishers have united in the SPUR coalition to protect their content from unauthorized AI usage. This initiative includes prominent outlets like The New York Times and the Financial Times. Recent legal actions have aimed at stopping AI companies from using copyrighted materials for training...",
+        "id": "currents-9e495d21-a6ff-5ae4-8be5-94bd42275297",
+        "title": "RBI may take further measures to curb rupee volatility: FM Sitharaman",
+        "description": "Finance Minister Nirmala Sitharaman said the RBI may take further measures to curb rupee volatility, clarifying that its aim is to stabilise the currency rather than fix its value. The rupee recorded its biggest single-day gain in six months on Monday after the central bank introduced curbs to reduc...",
         "publisher": "Indiatimes",
         "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-10-13T01:21:54.000Z",
-        "url": "https://economictimes.indiatimes.com/news/international/business/nyt-afp-the-economist-join-40-publishers-to-stop-ai-firms-monetising-content-without-permission/articleshow/134905689.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-134905688,width-1200,height-900,imgsize-183070,overlay-economictimes/articleshow.jpg",
+        "publishedAt": "2026-10-13T08:52:31.000Z",
+        "url": "https://economictimes.indiatimes.com/news/economy/finance/rbi-may-take-further-measures-to-curb-rupee-volatility-fm-sitharaman/articleshow/134912758.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-134912809,width-1200,height-900,imgsize-164562,overlay-economictimes/articleshow.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-29da28e8-2025-53fa-85e5-9efb1751e298",
-        "title": "'Breaking Bad' actor and disability rights activist RJ Mitte dead at 34",
-        "description": "RJ Mitte, best known for portraying Walter White Jr. in 'Breaking Bad', has passed away at 34. His role drew from his personal experiences with cerebral palsy, which he advocated for extensively. Mitte also acted in the 2021 film 'Triumph', showcasing a high school wrestler with disabilities. His de...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-10-13T01:15:44.000Z",
-        "url": "https://economictimes.indiatimes.com/news/international/world-news/breaking-bad-actor-and-disability-rights-activist-rj-mitte-dead-at-34/articleshow/134905664.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-134905663,width-1200,height-900,imgsize-167476,overlay-economictimes/articleshow.jpg",
+        "id": "currents-4bc70ad5-b6d8-5af7-9b45-180d45642887",
+        "title": "Vimag Labs starts production at Haryana plant, plans ₹50 crore investment",
+        "description": "Vimag, which manufactures and assembles motor and control systems and related propulsion systems, has already completed and exported its first production batch from the Jhajjar facility",
+        "publisher": "Business Standard",
+        "publisherDomain": "business-standard.com",
+        "publishedAt": "2026-10-13T08:38:58.000Z",
+        "url": "https://www.business-standard.com/companies/news/vimag-labs-starts-production-at-haryana-plant-plans-50-crore-investment-126101300565_1.html",
+        "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-07/05/thumb/fitandfill/1200X628/1783266332-9752.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-ac0b38c3-133b-53da-b953-9d2ee3eea86d",
-        "title": "Astral Resources strikes wide, high-grade gold beneath Theia as southern extensions emerge",
-        "description": "Astral Resources has struck gold beneath the resource boundary at the Theia deposit, as well as extending mineralisation to the south.",
-        "publisher": "Stockhead",
-        "publisherDomain": "stockhead.com.au",
-        "publishedAt": "2026-10-13T01:13:39.000Z",
-        "url": "https://stockhead.com.au/resources/astral-resources-strikes-wide-high-grade-gold-beneath-theia-as-southern-extensions-emerge",
-        "imageUrl": "https://stockhead.com.au/wp-content/uploads/2026/10/Picture-1-1200x675-6.jpg",
+        "id": "currents-7e65c315-dfb2-5b86-bd22-5aa81a8f483a",
+        "title": "Why the MAHA movement is turning on Trump and RFK Jr",
+        "description": "Robert F Kennedy Jr vowed to Make America Healthy Again, but his alliance with Donald Trump has left some true believers jaded.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-10-13T08:37:33.000Z",
+        "url": "https://www.abc.net.au/news/2026-10-13/make-america-healthy-again-trump-midterms/107244228",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/3d913ad2a13465513dd3862ac576ba63?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=261&width=862&height=485&imformat=generic",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-e10690f7-8ee6-56f3-a641-fb8371a945be",
-        "title": "South Korea shares fall as Asian stocks decline, tracking US chip losses",
-        "description": "The MSCI Asia Pacific Index drops 0.3% after a US gauge of chipmakers fell 2.7% on Oct 12 Read more at The Business Times.",
-        "publisher": "Com",
-        "publisherDomain": "businesstimes.com.sg",
-        "publishedAt": "2026-10-13T01:13:27.000Z",
-        "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/south-korea-shares-fall-asian-stocks-decline-tracking-us-chip-losses",
-        "imageUrl": "https://cassette.sphdigital.com.sg/image/businesstimes/18c6cf25387d44cf844d5426aeaf80b89965778ca5db38d91fec48a1bafed71f?w=1200&f=webp",
+        "id": "currents-9c80a04c-5c4c-5cef-bd93-35cacb1d5863",
+        "title": "Anne Aly accuses Liberal MP of racism after 'stoning' comment",
+        "description": "The Labor frontbencher says she has received 19 death threats this week alone while calling out Angie Bell's remarks in a social media post.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-10-13T08:37:33.000Z",
+        "url": "https://www.abc.net.au/news/2026-10-13/aly-accuses-bell-of-racism-over-stoning-comment/107262054",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/3b71ef0f93ac8fbbda98ecdf6d0a4fd6?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=1&width=862&height=485&imformat=generic",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-0d399f58-2674-506c-9742-45d459736443",
-        "title": "Rahul Gandhi to host high tea for INDIA bloc MPs, civil society members, student organisations on Tuesday",
-        "description": "Rahul Gandhi has invited INDIA bloc MPs, civil society members, and student organizations for high tea. This event is scheduled to take place at his residence on Tuesday, 13th October. A joint press conference of INDIA leaders will occur in the afternoon preceding the tea event. The invitation follo...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-10-13T01:08:12.000Z",
-        "url": "https://economictimes.indiatimes.com/news/politics-and-nation/rahul-gandhi-to-host-high-tea-for-india-bloc-mps-civil-society-members-student-organisations-on-tuesday/articleshow/134905607.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-134905634,width-1200,height-900,imgsize-181966,overlay-economictimes/articleshow.jpg",
+        "id": "currents-af61073a-ee87-586a-871d-530a3c4b1056",
+        "title": "The secret to a happy long-term relationship may not be what you expect",
+        "description": "We hear a lot about relationship challenges, but what makes happy couples tick?",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-10-13T08:37:33.000Z",
+        "url": "https://www.abc.net.au/news/2026-10-13/the-secret-to-happy-long-term-relationships/107207058",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/20a75a53bd69197ed945b6cfd754e795?impolicy=wcms_watermark_news&cropH=1836&cropW=3264&xPos=0&yPos=266&width=862&height=485&imformat=generic",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-4cf14cfd-c0a0-578a-bad2-6e18b603da5a",
-        "title": "₹2 lakh credit card dues vs ₹5 lakh personal loan: Which debt should you repay first? Experts explain | Mint",
-        "description": "Should you repay ₹2 lakh in credit card dues or a ₹5 lakh personal loan first? Experts explain why high-interest credit card debt usually takes priority, how minimum payments increase borrowing costs, and how to protect your credit score while repaying both debts.",
-        "publisher": "Livemint",
-        "publisherDomain": "livemint.com",
-        "publishedAt": "2026-10-13T01:42:04.000Z",
-        "url": "https://www.livemint.com/money/personal-finance/2-lakh-credit-card-dues-vs-5-lakh-personal-loan-which-debt-should-you-repay-first-experts-explain-11791853103561.html",
-        "imageUrl": "https://www.livemint.com/lm-img/img/2026/10/13/1600x900/logo/e73329f1-e97e-4634-b136-cdae9eb5f571_1791853543308_yQKg_1791853551187_KZ7O_4dd46534-dcd5-4c30-a5e5-bd7f7ee2e2f8_xb1o.jpg",
+        "id": "currents-8ff99d23-a803-58f1-b9c4-1766a85a0236",
+        "title": "Nantucket listing aims to set a new price record: $45 million",
+        "description": "The 23-room estate features a tunnel and widow's walk. It aims to reclaim a state record recently lost to Martha's Vineyard.",
+        "publisher": "Bizjournals",
+        "publisherDomain": "bizjournals.com",
+        "publishedAt": "2026-10-13T09:00:00.000Z",
+        "url": "https://www.bizjournals.com/boston/news/2026/10/13/nantucket-home-listed-for-45-million.html?ana=brss_1566",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-95f88990-4724-531a-bbe4-9383505c1845",
+        "title": "Howard Hughes CEO David O'Reilly: The Woodlands will continue to 'grow and evolve'",
+        "description": "As the CEO of Howard Hughes, David O'Reilly holds a role in The Woodlands that some locals liken to that of a mayor. He spoke with the Houston Business Journal about life and business in the township north of Houston.",
+        "publisher": "Bizjournals",
+        "publisherDomain": "bizjournals.com",
+        "publishedAt": "2026-10-13T09:00:00.000Z",
+        "url": "https://www.bizjournals.com/houston/news/2026/10/13/howard-hughes-ceo-david-oreilly-the-woodlands.html?ana=brss_1566",
         "categories": [
           "Top",
           "Business"
@@ -863,14 +957,30 @@
     ],
     "Technology": [
       {
-        "id": "currents-50a9fb4a-fd6d-5ced-95be-52dae5f45168",
-        "title": "Your AI research folder is full of opinions that never met each other",
-        "description": "Ask a hard question in five chat windows and you'll end up with five essays. Four of them will say...",
+        "id": "currents-f194af20-b4e9-5876-95c2-fc64206d5042",
+        "title": "In the AI era, coding means thinking like a systems architect",
+        "description": "Programming is still an essential skill, but how you do it needs to change, says Jacques Cornwell.",
+        "publisher": "Nature",
+        "publisherDomain": "nature.com",
+        "publishedAt": "2026-10-13T09:01:58.000Z",
+        "url": "https://www.nature.com/articles/d41586-026-02715-x",
+        "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-026-02715-x/d41586-026-02715-x_53718414.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-d7aaca91-1b69-5da9-a923-906119cb4765",
+        "title": "Clockwise Shut Down: How to Move to Reclaim.ai (and How It Compares to Motion)",
+        "description": "Clockwise, the AI calendar tool that protected Focus Time and moved meetings around for teams at...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:53:59.000Z",
-        "url": "https://dev.to/neusoftware/your-ai-research-folder-is-full-of-opinions-that-never-met-each-other-3b57",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffmcshgb3s5vsxoyk8jp2.png",
+        "publishedAt": "2026-10-13T09:06:20.000Z",
+        "url": "https://dev.to/agentsforwork/clockwise-shut-down-how-to-move-to-reclaimai-and-how-it-compares-to-motion-992",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fk3ayfe53ca3snhz45wzk.png",
         "categories": [
           "Top",
           "Technology",
@@ -879,45 +989,14 @@
         ]
       },
       {
-        "id": "currents-d862533c-35d1-5d31-9605-c2380045b0ea",
-        "title": "CVE-2026-6567 GitLab improper authorization",
-        "description": "A vulnerability was identified in GitLab up to 19.2.7/19.3.4/19.4.1. This vulnerability is traded as CVE-2026-6567. It is suggested to upgrade the affected component.",
-        "publisher": "Vuldb",
-        "publisherDomain": "vuldb.com",
-        "publishedAt": "2026-10-13T01:54:35.000Z",
-        "url": "https://vuldb.com/vuln/417450",
-        "imageUrl": "https://vuldb.com/_thm/preview_images/vuldb_vulnerability-7.jpg",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-27ec3ce3-96c5-5777-89d6-ec7003ec91ca",
-        "title": "Node.js Docker Kubernetes Health Checks: Readiness, Liveness, and Startup for Nightly SaaS",
-        "description": "The hard part of monitoring a nightly healthtech pipeline with Node.js, Docker, and Kubernetes is not...",
+        "id": "currents-666ba4db-e62b-5a98-8c51-fdc9e8cadf66",
+        "title": "Which model should Dory run on? We tested eight on real questions",
+        "description": "We tested eight new AI models on real questions from Playtomic's internal Slack agent, graded by two judges from different companies.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:43:32.000Z",
-        "url": "https://dev.to/mortimernilsson7694/nodejs-docker-kubernetes-health-checks-readiness-liveness-and-startup-for-nightly-saas-1jog",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwpxuhtl1vva39g7x3348.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-80427ffb-b0af-5776-b869-4a886fbd7348",
-        "title": "A Zero Bill Is Not Evidence: Production Gates for a Free Model Allowance",
-        "description": "A zero invoice does not make an agent job production-ready. If you cannot show a token ledger, a...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:57:02.000Z",
-        "url": "https://dev.to/codecpp_5026/a-zero-bill-is-not-evidence-production-gates-for-a-free-model-allowance-4ck6",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fudntthhicegt0re81swm.png",
+        "publishedAt": "2026-10-13T09:05:10.000Z",
+        "url": "https://dev.to/playtomic/which-model-should-dory-run-on-we-tested-eight-on-real-questions-3dkm",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4891s1rqx1yfsqgvn31j.png",
         "categories": [
           "Top",
           "Technology",
@@ -926,14 +1005,14 @@
         ]
       },
       {
-        "id": "currents-a433169b-08c1-5d9a-be45-ca1456ed9edf",
-        "title": "shadcn's alert is a callout for attention, so match its variant to the risk",
-        "description": "shadcn's alert is a callout for user attention. Markup, the variant rule and on-screen tests in React.",
+        "id": "currents-c3396cc0-d4c7-5fba-8b61-2805d23770ee",
+        "title": "AI-Powered Product Listing Generator for E-Commerce Sellers",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle ...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:53:03.000Z",
-        "url": "https://dev.to/davekurian/shadcns-alert-is-a-callout-for-attention-so-match-its-variant-to-the-risk-1aml",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fcdn.otf-kit.dev%2Fblog%2Fshadcn-alert-howto%2Fhero-20261013.png",
+        "publishedAt": "2026-10-13T09:05:09.000Z",
+        "url": "https://dev.to/preethiprabhu66/ai-powered-product-listing-generator-for-e-commerce-sellers-g5m",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7zr9hh0zkopytvvyf6cj.png",
         "categories": [
           "Top",
           "Technology",
@@ -942,14 +1021,14 @@
         ]
       },
       {
-        "id": "currents-dcd53d05-22f6-5718-9b97-99d14ae86861",
-        "title": "How to Audit SaaS KPIs with a Node.js Metrics API (Without Dashboard Noise)",
-        "description": "For an e-commerce SaaS app, a metrics dashboard API is useful only when it preserves both the...",
+        "id": "currents-76d2c135-17f8-56d5-a333-1e494a1e966b",
+        "title": "Changing def to async def let one blocking call freeze an entire FastAPI app",
+        "description": "The same requests.get was harmless in a def endpoint and froze the server in an async def one: an unrelated endpoint went from 1.6 ms to 34 seconds. Plus FastAPI's 40-thread cliff, why asyncio.to_thread barely helps CPU work, and a watchdog that names the blocking line.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:52:34.000Z",
-        "url": "https://dev.to/jasperflint6947/how-to-audit-saas-kpis-with-a-nodejs-metrics-api-without-dashboard-noise-15a1",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fw372ixh806lrmagj7umq.png",
+        "publishedAt": "2026-10-13T09:05:00.000Z",
+        "url": "https://dev.to/remdore/changing-def-to-async-def-let-one-blocking-call-freeze-an-entire-fastapi-app-4cjd",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftzeughkyrsegkwh5lmjm.png",
         "categories": [
           "Top",
           "Technology",
@@ -958,14 +1037,14 @@
         ]
       },
       {
-        "id": "currents-f308f752-0d1a-5826-961a-eee9bcf18499",
-        "title": "shadcn's radio group allows one choice at a time, so pick the default on purpose",
-        "description": "shadcn's radio group lets one option win. Here is the plan picker, the default to pick, and the keyboard tests.",
+        "id": "currents-bd372966-2d8e-50f2-9368-aded03469520",
+        "title": "Coalescing Identical In-Flight VIN Decode Requests So Duplicate Pastes Share One Upstream Call",
+        "description": "A free VIN decode form (or thin proxy) often starts DecodeVinValues as soon as a normalized...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:47:46.000Z",
-        "url": "https://dev.to/davekurian/shadcns-radio-group-allows-one-choice-at-a-time-so-pick-the-default-on-purpose-1h4",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fcdn.otf-kit.dev%2Fblog%2Fshadcn-radio-group-howto%2Fhero-20261013.png",
+        "publishedAt": "2026-10-13T09:04:55.000Z",
+        "url": "https://dev.to/vin_lookup_8dbd4710f77e9e/coalescing-identical-in-flight-vin-decode-requests-so-duplicate-pastes-share-one-upstream-call-5fce",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0v45et7eiacs4kfsov8n.png",
         "categories": [
           "Top",
           "U.S.",
@@ -974,14 +1053,14 @@
         ]
       },
       {
-        "id": "currents-10006a68-37c3-57dd-8dbf-9b10d5604887",
-        "title": "Case Converter: Turning snake_case API Keys Into camelCase Without Breaking Acronyms",
-        "description": "I inherited a Go service in March that returned JSON like this: { \"user_id\": 8821, ...",
+        "id": "currents-af461fd3-5730-5537-bc8c-407e7c11b5f6",
+        "title": "bigarrow: The Mac App That Points AI Agents at What to Click",
+        "description": "What Is bigarrow bigarrow is a Mac app that shows AI agents where to click. It puts a...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:47:10.000Z",
-        "url": "https://dev.to/meng_meng_56f17e28e55f140/case-converter-turning-snakecase-api-keys-into-camelcase-without-breaking-acronyms-3iim",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsiidcd8qxlotj6t0cs93.png",
+        "publishedAt": "2026-10-13T09:04:31.000Z",
+        "url": "https://dev.to/unfiltered_anshul/bigarrow-the-mac-app-that-points-ai-agents-at-what-to-click-12pc",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fti3bmbsmz7ud38lyan67.png",
         "categories": [
           "Top",
           "U.S.",
@@ -990,14 +1069,14 @@
         ]
       },
       {
-        "id": "currents-05840167-bc0c-5e55-aa12-f41a97011c14",
-        "title": "SQL Injection: The Bug That Refuses to Die",
-        "description": "SQL injection is older than some of the engineers shipping it today. It was written up publicly back...",
+        "id": "currents-60b7539c-0431-5684-93ed-5e06e0ecb8e6",
+        "title": "Cyberattack on European Supermarket Refrigeration Causes Food Spoilage, Disruptions, and Price Hikes",
+        "description": "Introduction: The Unprecedented Cyberattack on European Supermarket Refrigeration...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:45:00.000Z",
-        "url": "https://dev.to/kstriabintang/sql-injection-the-bug-that-refuses-to-die-6dc",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.pexels.com%2Fphotos%2F4597280%2Fpexels-photo-4597280.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26w%3D1600",
+        "publishedAt": "2026-10-13T09:03:38.000Z",
+        "url": "https://dev.to/olgabyte/cyberattack-on-european-supermarket-refrigeration-causes-food-spoilage-disruptions-and-price-hikes-5al9",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqbg0tevh0yif8gf19lup.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1006,14 +1085,14 @@
         ]
       },
       {
-        "id": "currents-2b8933c8-34c3-592a-a909-982a14b6db19",
-        "title": "Seal the Write Fence. Abort If a Forbidden Path Moves.",
-        "description": "I do not let a free model, or a free server, write a working tree until a local fence names every...",
+        "id": "currents-cd0c9f09-dafa-541c-b7ac-400530b4b3e7",
+        "title": "Our commitment to open source: show the code, run the numbers",
+        "description": "Author: Tobie Morgan Hitchcock We commit to three things: show the code, run the numbers, and say...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:44:33.000Z",
-        "url": "https://dev.to/aiio_8140/seal-the-write-fence-abort-if-a-forbidden-path-moves-99",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fuwrtsk88gig5e2gd65j3.png",
+        "publishedAt": "2026-10-13T09:03:27.000Z",
+        "url": "https://dev.to/surrealdb/our-commitment-to-open-source-show-the-code-run-the-numbers-3oj7",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fadp4360a19ttobctbund.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1022,14 +1101,14 @@
         ]
       },
       {
-        "id": "currents-cb3a55e0-e932-5774-b7bc-86335669ddb0",
-        "title": "shadcn's carousel runs on Embla, and autoplay is a plugin you add",
-        "description": "shadcn's carousel runs on Embla, and autoplay is a plugin you add. Setup, a pause control and tests.",
+        "id": "currents-25a97358-7841-5ba9-8a15-756ca8e39ce3",
+        "title": "The Real Cost of Agentic Coding",
+        "description": "The era of the neat, predictable $20-a-month AI subscription is pretty much dead. In its place?...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:44:17.000Z",
-        "url": "https://dev.to/davekurian/shadcns-carousel-runs-on-embla-and-autoplay-is-a-plugin-you-add-5ajb",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fcdn.otf-kit.dev%2Fblog%2Fshadcn-carousel-howto%2Fhero-20261013.png",
+        "publishedAt": "2026-10-13T09:04:19.000Z",
+        "url": "https://dev.to/cgougui/the-real-cost-of-agentic-coding-3no8",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F386vx6gqc97nhavdskgp.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1038,57 +1117,17 @@
         ]
       },
       {
-        "id": "currents-eae2d225-2e52-55ad-b00f-e8dafc27b1d7",
-        "title": "CVE-2026-16301 | GitLab up to 19.2.7/19.3.4/19.4.1 Downstream Pipeline Creation Service improper authorization",
-        "description": "A vulnerability labeled as critical has been found in GitLab up to 19.2.7/19.3.4/19.4.1. This impacts an unknown function of the component Downstream Pipeline Creation Service. Executing a manipulation can lead to improper authorization. This vulnerability appears as CVE-2026-16301. The attack may ...",
-        "publisher": "Vuldb",
-        "publisherDomain": "vuldb.com",
-        "publishedAt": "2026-10-13T01:53:53.000Z",
-        "url": "https://vuldb.com/vuln/417449",
+        "id": "currents-d3a50588-e2fc-56e8-a12b-aebb68d454ca",
+        "title": "What's new in Styx 0.4.12",
+        "description": "Release notes for Styx 0.4.12, the open-source desktop app for running coding agents.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-13T09:03:31.000Z",
+        "url": "https://dev.to/nicholasflemmer/whats-new-in-styx-0412-2364",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fuwvqpfghp55r2swp3k3p.png",
         "categories": [
           "Top",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-869f6091-10a7-5d8a-b006-fd27600100dd",
-        "title": "CVE-2026-14814 | GitLab up to 19.2.7/19.3.4/19.4.1 CI/CD Pipeline input validation",
-        "description": "A vulnerability was found in GitLab up to 19.2.7/19.3.4/19.4.1. It has been declared as problematic. Impacted is an unknown function of the component CI/CD Pipeline. The manipulation results in improper input validation. This vulnerability is cataloged as CVE-2026-14814. The attack may be launched ...",
-        "publisher": "Vuldb",
-        "publisherDomain": "vuldb.com",
-        "publishedAt": "2026-10-13T01:51:39.000Z",
-        "url": "https://vuldb.com/vuln/417445",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-9b8a4b15-23c3-5094-bebb-60813ceeb48c",
-        "title": "CVE-2026-105458 | GitLab up to 19.2.7/19.3.4/19.4.1 Duo Agent Platform permission",
-        "description": "A vulnerability was found in GitLab up to 19.2.7/19.3.4/19.4.1 and classified as problematic. This vulnerability affects unknown code of the component Duo Agent Platform. Executing a manipulation can lead to permission issues. This vulnerability is tracked as CVE-2026-105458. The attack can be laun...",
-        "publisher": "Vuldb",
-        "publisherDomain": "vuldb.com",
-        "publishedAt": "2026-10-13T01:50:14.000Z",
-        "url": "https://vuldb.com/vuln/417443",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-57430487-2a7d-5f2e-b80d-1325250c0652",
-        "title": "CVE-2026-100104 | GitLab up to 19.2.7/19.3.4/19.4.1 URL Validation race condition",
-        "description": "A vulnerability has been found in GitLab up to 19.2.7/19.3.4/19.4.1 and classified as critical. This affects an unknown part of the component URL Validation. Performing a manipulation results in race condition. This vulnerability is identified as CVE-2026-100104. The attack can be initiated remotel...",
-        "publisher": "Vuldb",
-        "publisherDomain": "vuldb.com",
-        "publishedAt": "2026-10-13T01:49:41.000Z",
-        "url": "https://vuldb.com/vuln/417442",
-        "categories": [
-          "Top",
+          "U.S.",
           "Technology",
           "Science"
         ]
@@ -1096,14 +1135,60 @@
     ],
     "Science": [
       {
-        "id": "currents-50a9fb4a-fd6d-5ced-95be-52dae5f45168",
-        "title": "Your AI research folder is full of opinions that never met each other",
-        "description": "Ask a hard question in five chat windows and you'll end up with five essays. Four of them will say...",
+        "id": "currents-a69c55d0-2bab-57d9-9260-dedd688acc49",
+        "title": "Trill seekers: can scientists use AI and tutors to help birds remember lost songs?",
+        "description": "When populations fall, fledglings can struggle to learn the right notes to attract mates. But research on how birds communicate offers hope for species’ survival",
+        "publisher": "The Guardian",
+        "publisherDomain": "theguardian.com",
+        "publishedAt": "2026-10-13T09:00:19.000Z",
+        "url": "https://www.theguardian.com/environment/2026/oct/13/ornithology-trill-why-birds-sing-birdsong-dialects-tutors-ai-aoe",
+        "imageUrl": "https://i.guim.co.uk/img/media/4e1bc462771d3504453cdb7719b53ba105bd9258/353_0_2639_2111/master/2639.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e784c052685f691a36b884ff03664277",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-f194af20-b4e9-5876-95c2-fc64206d5042",
+        "title": "In the AI era, coding means thinking like a systems architect",
+        "description": "Programming is still an essential skill, but how you do it needs to change, says Jacques Cornwell.",
+        "publisher": "Nature",
+        "publisherDomain": "nature.com",
+        "publishedAt": "2026-10-13T09:01:58.000Z",
+        "url": "https://www.nature.com/articles/d41586-026-02715-x",
+        "imageUrl": "https://media.nature.com/lw1200/magazine-assets/d41586-026-02715-x/d41586-026-02715-x_53718414.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-2c2a2f4f-ddf8-5787-9b5a-f990eb1030df",
+        "title": "Spatial lipidomics in gynecologic malignancies: molecular identification, cellular attribution, and mechanistic validation",
+        "description": "Spatial lipidomics can place lipid identities within histopathologic compartments, but ion maps are frequently interpreted beyond what their analytical and b...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-10-13T09:08:50.000Z",
+        "url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2026.1957466/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/4A5D8893-D608-48FF-ABC5878D4E4E347C/6224F3DC-E923-42CC-891365CC5EED0185/WebsiteWebP_XL-FMOLB_Main%20Visual_Orange_Website.webp",
+        "categories": [
+          "Top",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-d7aaca91-1b69-5da9-a923-906119cb4765",
+        "title": "Clockwise Shut Down: How to Move to Reclaim.ai (and How It Compares to Motion)",
+        "description": "Clockwise, the AI calendar tool that protected Focus Time and moved meetings around for teams at...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:53:59.000Z",
-        "url": "https://dev.to/neusoftware/your-ai-research-folder-is-full-of-opinions-that-never-met-each-other-3b57",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffmcshgb3s5vsxoyk8jp2.png",
+        "publishedAt": "2026-10-13T09:06:20.000Z",
+        "url": "https://dev.to/agentsforwork/clockwise-shut-down-how-to-move-to-reclaimai-and-how-it-compares-to-motion-992",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fk3ayfe53ca3snhz45wzk.png",
         "categories": [
           "Top",
           "Technology",
@@ -1112,45 +1197,29 @@
         ]
       },
       {
-        "id": "currents-d862533c-35d1-5d31-9605-c2380045b0ea",
-        "title": "CVE-2026-6567 GitLab improper authorization",
-        "description": "A vulnerability was identified in GitLab up to 19.2.7/19.3.4/19.4.1. This vulnerability is traded as CVE-2026-6567. It is suggested to upgrade the affected component.",
-        "publisher": "Vuldb",
-        "publisherDomain": "vuldb.com",
-        "publishedAt": "2026-10-13T01:54:35.000Z",
-        "url": "https://vuldb.com/vuln/417450",
-        "imageUrl": "https://vuldb.com/_thm/preview_images/vuldb_vulnerability-7.jpg",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-27ec3ce3-96c5-5777-89d6-ec7003ec91ca",
-        "title": "Node.js Docker Kubernetes Health Checks: Readiness, Liveness, and Startup for Nightly SaaS",
-        "description": "The hard part of monitoring a nightly healthtech pipeline with Node.js, Docker, and Kubernetes is not...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:43:32.000Z",
-        "url": "https://dev.to/mortimernilsson7694/nodejs-docker-kubernetes-health-checks-readiness-liveness-and-startup-for-nightly-saas-1jog",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwpxuhtl1vva39g7x3348.png",
+        "id": "currents-e73cd1ae-b2e4-5d49-875a-769735936780",
+        "title": "Joint association of growth hormone and cerebral small vessel disease with antihypertensive treatment burden after stroke: an exploratory prospective study - Journal of Human Hypertension",
+        "description": "Growth hormone (GH) and cerebral small vessel disease (SVD) may influence blood pressure regulation. This study investigated the individual and joint associations of GH and SVD severity with antihypertensive management following stroke. We prospectively enrolled patients admitted for acute stroke be...",
+        "publisher": "Nature",
+        "publisherDomain": "nature.com",
+        "publishedAt": "2026-10-13T09:02:34.000Z",
+        "url": "https://www.nature.com/articles/s41371-026-01242-6",
+        "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41371-026-01242-6/MediaObjects/41371_2026_1242_Figa_HTML.png",
         "categories": [
           "Top",
           "U.S.",
-          "Technology",
           "Science"
         ]
       },
       {
-        "id": "currents-80427ffb-b0af-5776-b869-4a886fbd7348",
-        "title": "A Zero Bill Is Not Evidence: Production Gates for a Free Model Allowance",
-        "description": "A zero invoice does not make an agent job production-ready. If you cannot show a token ledger, a...",
+        "id": "currents-666ba4db-e62b-5a98-8c51-fdc9e8cadf66",
+        "title": "Which model should Dory run on? We tested eight on real questions",
+        "description": "We tested eight new AI models on real questions from Playtomic's internal Slack agent, graded by two judges from different companies.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:57:02.000Z",
-        "url": "https://dev.to/codecpp_5026/a-zero-bill-is-not-evidence-production-gates-for-a-free-model-allowance-4ck6",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fudntthhicegt0re81swm.png",
+        "publishedAt": "2026-10-13T09:05:10.000Z",
+        "url": "https://dev.to/playtomic/which-model-should-dory-run-on-we-tested-eight-on-real-questions-3dkm",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4891s1rqx1yfsqgvn31j.png",
         "categories": [
           "Top",
           "Technology",
@@ -1159,14 +1228,14 @@
         ]
       },
       {
-        "id": "currents-a433169b-08c1-5d9a-be45-ca1456ed9edf",
-        "title": "shadcn's alert is a callout for attention, so match its variant to the risk",
-        "description": "shadcn's alert is a callout for user attention. Markup, the variant rule and on-screen tests in React.",
+        "id": "currents-c3396cc0-d4c7-5fba-8b61-2805d23770ee",
+        "title": "AI-Powered Product Listing Generator for E-Commerce Sellers",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle ...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:53:03.000Z",
-        "url": "https://dev.to/davekurian/shadcns-alert-is-a-callout-for-attention-so-match-its-variant-to-the-risk-1aml",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fcdn.otf-kit.dev%2Fblog%2Fshadcn-alert-howto%2Fhero-20261013.png",
+        "publishedAt": "2026-10-13T09:05:09.000Z",
+        "url": "https://dev.to/preethiprabhu66/ai-powered-product-listing-generator-for-e-commerce-sellers-g5m",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7zr9hh0zkopytvvyf6cj.png",
         "categories": [
           "Top",
           "Technology",
@@ -1175,14 +1244,14 @@
         ]
       },
       {
-        "id": "currents-dcd53d05-22f6-5718-9b97-99d14ae86861",
-        "title": "How to Audit SaaS KPIs with a Node.js Metrics API (Without Dashboard Noise)",
-        "description": "For an e-commerce SaaS app, a metrics dashboard API is useful only when it preserves both the...",
+        "id": "currents-76d2c135-17f8-56d5-a333-1e494a1e966b",
+        "title": "Changing def to async def let one blocking call freeze an entire FastAPI app",
+        "description": "The same requests.get was harmless in a def endpoint and froze the server in an async def one: an unrelated endpoint went from 1.6 ms to 34 seconds. Plus FastAPI's 40-thread cliff, why asyncio.to_thread barely helps CPU work, and a watchdog that names the blocking line.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:52:34.000Z",
-        "url": "https://dev.to/jasperflint6947/how-to-audit-saas-kpis-with-a-nodejs-metrics-api-without-dashboard-noise-15a1",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fw372ixh806lrmagj7umq.png",
+        "publishedAt": "2026-10-13T09:05:00.000Z",
+        "url": "https://dev.to/remdore/changing-def-to-async-def-let-one-blocking-call-freeze-an-entire-fastapi-app-4cjd",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftzeughkyrsegkwh5lmjm.png",
         "categories": [
           "Top",
           "Technology",
@@ -1191,14 +1260,14 @@
         ]
       },
       {
-        "id": "currents-f308f752-0d1a-5826-961a-eee9bcf18499",
-        "title": "shadcn's radio group allows one choice at a time, so pick the default on purpose",
-        "description": "shadcn's radio group lets one option win. Here is the plan picker, the default to pick, and the keyboard tests.",
+        "id": "currents-bd372966-2d8e-50f2-9368-aded03469520",
+        "title": "Coalescing Identical In-Flight VIN Decode Requests So Duplicate Pastes Share One Upstream Call",
+        "description": "A free VIN decode form (or thin proxy) often starts DecodeVinValues as soon as a normalized...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:47:46.000Z",
-        "url": "https://dev.to/davekurian/shadcns-radio-group-allows-one-choice-at-a-time-so-pick-the-default-on-purpose-1h4",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fcdn.otf-kit.dev%2Fblog%2Fshadcn-radio-group-howto%2Fhero-20261013.png",
+        "publishedAt": "2026-10-13T09:04:55.000Z",
+        "url": "https://dev.to/vin_lookup_8dbd4710f77e9e/coalescing-identical-in-flight-vin-decode-requests-so-duplicate-pastes-share-one-upstream-call-5fce",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0v45et7eiacs4kfsov8n.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1207,14 +1276,14 @@
         ]
       },
       {
-        "id": "currents-10006a68-37c3-57dd-8dbf-9b10d5604887",
-        "title": "Case Converter: Turning snake_case API Keys Into camelCase Without Breaking Acronyms",
-        "description": "I inherited a Go service in March that returned JSON like this: { \"user_id\": 8821, ...",
+        "id": "currents-af461fd3-5730-5537-bc8c-407e7c11b5f6",
+        "title": "bigarrow: The Mac App That Points AI Agents at What to Click",
+        "description": "What Is bigarrow bigarrow is a Mac app that shows AI agents where to click. It puts a...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:47:10.000Z",
-        "url": "https://dev.to/meng_meng_56f17e28e55f140/case-converter-turning-snakecase-api-keys-into-camelcase-without-breaking-acronyms-3iim",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsiidcd8qxlotj6t0cs93.png",
+        "publishedAt": "2026-10-13T09:04:31.000Z",
+        "url": "https://dev.to/unfiltered_anshul/bigarrow-the-mac-app-that-points-ai-agents-at-what-to-click-12pc",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fti3bmbsmz7ud38lyan67.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1223,14 +1292,14 @@
         ]
       },
       {
-        "id": "currents-05840167-bc0c-5e55-aa12-f41a97011c14",
-        "title": "SQL Injection: The Bug That Refuses to Die",
-        "description": "SQL injection is older than some of the engineers shipping it today. It was written up publicly back...",
+        "id": "currents-60b7539c-0431-5684-93ed-5e06e0ecb8e6",
+        "title": "Cyberattack on European Supermarket Refrigeration Causes Food Spoilage, Disruptions, and Price Hikes",
+        "description": "Introduction: The Unprecedented Cyberattack on European Supermarket Refrigeration...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:45:00.000Z",
-        "url": "https://dev.to/kstriabintang/sql-injection-the-bug-that-refuses-to-die-6dc",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.pexels.com%2Fphotos%2F4597280%2Fpexels-photo-4597280.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26w%3D1600",
+        "publishedAt": "2026-10-13T09:03:38.000Z",
+        "url": "https://dev.to/olgabyte/cyberattack-on-european-supermarket-refrigeration-causes-food-spoilage-disruptions-and-price-hikes-5al9",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqbg0tevh0yif8gf19lup.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1239,14 +1308,14 @@
         ]
       },
       {
-        "id": "currents-2b8933c8-34c3-592a-a909-982a14b6db19",
-        "title": "Seal the Write Fence. Abort If a Forbidden Path Moves.",
-        "description": "I do not let a free model, or a free server, write a working tree until a local fence names every...",
+        "id": "currents-cd0c9f09-dafa-541c-b7ac-400530b4b3e7",
+        "title": "Our commitment to open source: show the code, run the numbers",
+        "description": "Author: Tobie Morgan Hitchcock We commit to three things: show the code, run the numbers, and say...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:44:33.000Z",
-        "url": "https://dev.to/aiio_8140/seal-the-write-fence-abort-if-a-forbidden-path-moves-99",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fuwrtsk88gig5e2gd65j3.png",
+        "publishedAt": "2026-10-13T09:03:27.000Z",
+        "url": "https://dev.to/surrealdb/our-commitment-to-open-source-show-the-code-run-the-numbers-3oj7",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fadp4360a19ttobctbund.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1255,14 +1324,14 @@
         ]
       },
       {
-        "id": "currents-cb3a55e0-e932-5774-b7bc-86335669ddb0",
-        "title": "shadcn's carousel runs on Embla, and autoplay is a plugin you add",
-        "description": "shadcn's carousel runs on Embla, and autoplay is a plugin you add. Setup, a pause control and tests.",
+        "id": "currents-25a97358-7841-5ba9-8a15-756ca8e39ce3",
+        "title": "The Real Cost of Agentic Coding",
+        "description": "The era of the neat, predictable $20-a-month AI subscription is pretty much dead. In its place?...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-13T01:44:17.000Z",
-        "url": "https://dev.to/davekurian/shadcns-carousel-runs-on-embla-and-autoplay-is-a-plugin-you-add-5ajb",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fcdn.otf-kit.dev%2Fblog%2Fshadcn-carousel-howto%2Fhero-20261013.png",
+        "publishedAt": "2026-10-13T09:04:19.000Z",
+        "url": "https://dev.to/cgougui/the-real-cost-of-agentic-coding-3no8",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F386vx6gqc97nhavdskgp.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1271,57 +1340,17 @@
         ]
       },
       {
-        "id": "currents-eae2d225-2e52-55ad-b00f-e8dafc27b1d7",
-        "title": "CVE-2026-16301 | GitLab up to 19.2.7/19.3.4/19.4.1 Downstream Pipeline Creation Service improper authorization",
-        "description": "A vulnerability labeled as critical has been found in GitLab up to 19.2.7/19.3.4/19.4.1. This impacts an unknown function of the component Downstream Pipeline Creation Service. Executing a manipulation can lead to improper authorization. This vulnerability appears as CVE-2026-16301. The attack may ...",
-        "publisher": "Vuldb",
-        "publisherDomain": "vuldb.com",
-        "publishedAt": "2026-10-13T01:53:53.000Z",
-        "url": "https://vuldb.com/vuln/417449",
+        "id": "currents-d3a50588-e2fc-56e8-a12b-aebb68d454ca",
+        "title": "What's new in Styx 0.4.12",
+        "description": "Release notes for Styx 0.4.12, the open-source desktop app for running coding agents.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-13T09:03:31.000Z",
+        "url": "https://dev.to/nicholasflemmer/whats-new-in-styx-0412-2364",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fuwvqpfghp55r2swp3k3p.png",
         "categories": [
           "Top",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-869f6091-10a7-5d8a-b006-fd27600100dd",
-        "title": "CVE-2026-14814 | GitLab up to 19.2.7/19.3.4/19.4.1 CI/CD Pipeline input validation",
-        "description": "A vulnerability was found in GitLab up to 19.2.7/19.3.4/19.4.1. It has been declared as problematic. Impacted is an unknown function of the component CI/CD Pipeline. The manipulation results in improper input validation. This vulnerability is cataloged as CVE-2026-14814. The attack may be launched ...",
-        "publisher": "Vuldb",
-        "publisherDomain": "vuldb.com",
-        "publishedAt": "2026-10-13T01:51:39.000Z",
-        "url": "https://vuldb.com/vuln/417445",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-9b8a4b15-23c3-5094-bebb-60813ceeb48c",
-        "title": "CVE-2026-105458 | GitLab up to 19.2.7/19.3.4/19.4.1 Duo Agent Platform permission",
-        "description": "A vulnerability was found in GitLab up to 19.2.7/19.3.4/19.4.1 and classified as problematic. This vulnerability affects unknown code of the component Duo Agent Platform. Executing a manipulation can lead to permission issues. This vulnerability is tracked as CVE-2026-105458. The attack can be laun...",
-        "publisher": "Vuldb",
-        "publisherDomain": "vuldb.com",
-        "publishedAt": "2026-10-13T01:50:14.000Z",
-        "url": "https://vuldb.com/vuln/417443",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-57430487-2a7d-5f2e-b80d-1325250c0652",
-        "title": "CVE-2026-100104 | GitLab up to 19.2.7/19.3.4/19.4.1 URL Validation race condition",
-        "description": "A vulnerability has been found in GitLab up to 19.2.7/19.3.4/19.4.1 and classified as critical. This affects an unknown part of the component URL Validation. Performing a manipulation results in race condition. This vulnerability is identified as CVE-2026-100104. The attack can be initiated remotel...",
-        "publisher": "Vuldb",
-        "publisherDomain": "vuldb.com",
-        "publishedAt": "2026-10-13T01:49:41.000Z",
-        "url": "https://vuldb.com/vuln/417442",
-        "categories": [
-          "Top",
+          "U.S.",
           "Technology",
           "Science"
         ]
@@ -1329,208 +1358,208 @@
     ],
     "Sports": [
       {
-        "id": "currents-66677586-c17f-5e2c-92f1-7ead6b14fcf9",
-        "title": "Brewers two wins from first World Series since 1982 as Contreras skewers Dodgers",
-        "description": "William Contreras hit a tying homer in the fifth and singled home the go-ahead run an inning later as Milwaukee Brewers defeated Los Angeles 7-4",
-        "publisher": "The Guardian",
-        "publisherDomain": "theguardian.com",
-        "publishedAt": "2026-10-13T01:01:46.000Z",
-        "url": "https://www.theguardian.com/sport/2026/oct/12/mlb-playoffs-scores",
-        "imageUrl": "https://i.guim.co.uk/img/media/b73d9338919ebcf14ef39b4690c29240da4161a0/222_0_3969_3177/master/3969.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=99c94cf8259e5713c16dd54a82d1d81f",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-9395d3ac-9ba9-594c-a35b-534346a0edd7",
-        "title": "Colombia's new government: 2016 deal with rebel group has not brought peace - but 132,000 killings",
-        "description": "UNITED NATIONS (AP) — Colombia’s new government told the United Nations on Monday that over 132,000 people have been killed and armed group membership has increased from 6,000 to almost 30,000 in the decade since the country signed a highly touted peace agreement with its largest rebel group.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-13T01:51:31.000Z",
-        "url": "https://www.winnipegfreepress.com/world/2026/10/12/colombias-new-government-2016-deal-with-rebel-group-has-not-brought-peace-but-132000-killings",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6acd8ea0f5f2c4b475eb5153jpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-7c0086de-af24-5bad-863c-fef19ca015f6",
-        "title": "Trump jokes he is risking career with praise of 'beautiful' Cunningham",
-        "description": "WNBA star Sophie Cunningham was the subject of gushing praise over her looks from President Donald Trump as he appeared at a Republican rally in Ohio.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-10-13T01:20:48.000Z",
-        "url": "https://www.dailymail.com/sport/wnba/article-16204079/trump-sophie-cunningham-wnba-ohio.html?ns_campaign=1490&ito=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/10/13/02/111819807-0-image-m-15_1791854156437.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-b66f4396-2b66-52f6-ba28-79ed7ae564e9",
-        "title": "Ruthless Roos leap towards relevance with Blakey blockbuster",
-        "description": "Nick Blakey is not a gun midfielder or a Coleman Medal-winning spearhead, but he is a legitimate All-Australian star with two grand final appearances on his resume.",
+        "id": "currents-b3e596d4-da77-5565-b42d-2ac317c2ad22",
+        "title": "From Pullman to pulling power: How Nick Blakey profited from scandal and the AFL’s strange economy",
+        "description": "Weeks after being suspended by the Swans, Nick Blakey has secured a new contract with the Kangaroos that is effectively a pay rise at least $2 million over the next five years.",
         "publisher": "Smh",
         "publisherDomain": "smh.com.au",
-        "publishedAt": "2026-10-13T01:32:46.000Z",
-        "url": "https://www.smh.com.au/sport/afl/ruthless-roos-leap-towards-relevance-with-blakey-blockbuster-20261013-p6151t.html",
-        "imageUrl": "https://static.ffx.io/images/$zoom_0.282475326753801%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_65/t_crop_custom/q_86%2Cf_auto/t_metro_opinion_no_age_social_wm/21f5144a81d8b50a4d2068c1df6d306185713e2c",
+        "publishedAt": "2026-10-13T08:53:45.000Z",
+        "url": "https://www.smh.com.au/sport/afl/from-pullman-to-pulling-power-how-nick-blakey-profited-from-scandal-and-the-afl-s-strange-economy-20261013-p615a3.html",
+        "imageUrl": "https://static.ffx.io/images/$zoom_0.8825%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_156/t_crop_custom/q_86%2Cf_auto/t_metro_analysis_no_age_social_wm/b6ef915936e24db5b2cf32b4e22280975b62110cd77872c8ee124dfb3df9e2ce",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-e3023ee3-e7fb-5d9d-833a-1c77120652c2",
-        "title": "The 10 England bolters ready to shake up Borthwick's squad this autumn",
-        "description": "Steve Borthwick will name his first autumn training squad later this month and after a rocky 2026 he will be on the lookout for new blood, with less than a year to go until the World Cup.",
+        "id": "currents-aca49948-e2b1-5f25-a68f-b2074f4aae8c",
+        "title": "Britain's new golden couple rocked by World Championships expulsion",
+        "description": "Richardson, 27, - who once declared himself the 'fastest ever' racer - has been in a relationship with Finucane, the 23-year-old darling of British cycling, since February 2024.",
         "publisher": "Daily Mail",
         "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-10-13T01:00:46.000Z",
-        "url": "https://www.dailymail.com/sport/rugbyunion/article-16202693/England-World-Cup-bolters.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/10/12/15/111808955-0-image-m-24_1791816234789.jpg",
+        "publishedAt": "2026-10-13T08:42:45.000Z",
+        "url": "https://www.dailymail.com/sport/othersports/article-16204453/matthew-richardson-emma-finucane-british-cycling-expulsion.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/10/13/09/111823451-0-image-m-25_1791878429229.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-d46f328c-8152-5b0b-9187-2bc52bd02b5c",
-        "title": "Football fans beg NFL to sign up MNF anthem singer for the Super Bowl",
-        "description": "The singer stood on the field at SoFi Stadium ahead of kickoff on Monday night to perform the Star-Spangled Banner - at the same venue where the Super Bowl will be played in February.",
+        "id": "currents-49a96db5-6e43-5e05-baca-785f6f8c7fd5",
+        "title": "Carlos Alcaraz conqueror shuts down Spaniard's Shanghai Masters complaints",
+        "description": "Carlos Alcaraz wasn't happy with the balls and the court conditions during his Shanghai Masters exit.",
+        "publisher": "Express",
+        "publisherDomain": "express.co.uk",
+        "publishedAt": "2026-10-13T08:36:00.000Z",
+        "url": "https://www.express.co.uk/sport/tennis/2256756/Carlos-Alcaraz-Zizou-Bergs-Shanghai-Masters-complaints",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-07d7e5f8-d106-52cb-b9e3-c662dd9239c9",
+        "title": "Vrancken explains secret behind rise of 25y/o from European snub to Hearts star",
+        "description": "Tynecastle boss highlights McPake’s rise, the promise of young Scottish talent and importance of new coaching staff addition",
+        "publisher": "Scotsman",
+        "publisherDomain": "edinburghnews.scotsman.com",
+        "publishedAt": "2026-10-13T09:00:15.000Z",
+        "url": "https://www.edinburghnews.scotsman.com/sport/football/hearts/hearts-boss-explains-secret-behind-25yo-rise-from-euro-snub-to-tynecastle-stardom-how-others-can-follow-suit-9282635",
+        "imageUrl": "https://www.edinburghnews.scotsman.com/jpim-static/image/2026/10/12/14/11/21813936.jpeg?trim=0,21,0,20&crop=&width=1200&auto=webp&quality=75",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-85c2af6b-3a8f-59a2-98b3-58dfbf9d6cb9",
+        "title": "Imperfect 'nutcase' Romero has been tamed by Simeone",
+        "description": "NATHAN SALT :Whenever Cristian Romero lines up against Man United, fireworks are never too far away - now it's his chance to prove he's a different player to the one we saw at Old Trafford in February.",
         "publisher": "Daily Mail",
         "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-10-13T00:26:39.000Z",
-        "url": "https://www.dailymail.com/sport/nfl/article-16204055/Football-fans-beg-NFL-sign-Monday-Night-Football-anthem-singer-Super-Bowl-amazing-rendition.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/10/13/01/111819439-0-image-a-33_1791851157331.jpg",
+        "publishedAt": "2026-10-13T08:30:46.000Z",
+        "url": "https://www.dailymail.com/sport/football/article-16203107/Cristian-Romero-Manchester-United.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/10/12/21/111811891-0-image-m-35_1791835910633.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-52da76dd-1712-5f7a-82b5-642eae651c20",
-        "title": "A 6.1 earthquake jolts southern Panama after Friday’s destructive tremors",
-        "description": "A preliminary magnitude 6.1 earthquake hit southern Panama Monday evening, according to the U.S. Geological Survey, but there were no immediate reports of casualties or property damage.",
+        "id": "currents-c3140879-025e-546e-8da6-007f4041c3b2",
+        "title": "'Michael Carrick told me: \"Management's not for me\"': Nicky Butt'",
+        "description": "Despite a strong end to last season where he guided United to third place, Carrick already finds himself under pressure this time around after picking up six points from six matches.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-10-13T08:24:18.000Z",
+        "url": "https://www.dailymail.com/sport/football/article-16204519/Michael-Carrick-told-Managements-not-Nicky-Butts-damning-revelations-private-conversations-Man-United-boss-second-favourite-sack.html?ns_campaign=1490&ito=1490",
+        "imageUrl": "https://i.dailymail.com/1s/2026/10/13/08/111823627-0-image-m-16_1791878186334.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-3e556104-7d5a-55a7-99d4-526e20e15816",
+        "title": "With Controversial Coach Sacked, Sports Ministry Approves 166 Athletes For Para Asian Games 2026",
+        "description": "The Sports Ministry removed para-shooting coach Jai Prakash Nautiyal from the Para Asian Games contingent amid kickback allegations, replacing him with Jeevan L Rai.",
+        "publisher": "News18",
+        "publisherDomain": "news18.com",
+        "publishedAt": "2026-10-13T08:46:21.000Z",
+        "url": "https://www.news18.com/sports/other-sports/with-controversial-coach-sacked-sports-ministry-approves-166-athletes-for-2026-para-asian-games-ws-klt-10379779.html",
+        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/10/Sheetal-Devi-PTI-2026-10-392dd225ecc0b9b55db269e9a9ba6658-1200x675.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-215cad91-f728-5455-b5ff-4e086cb72d27",
+        "title": "Indonesia returns 20 green sea turtles to the ocean after Bali smuggling raid",
+        "description": "SERANGAN ISLAND, Indonesia (AP) — Indonesian authorities on the tourist island of Bali released 20 protected green sea turtles back into the ocean Tuesday after they were found and seized on an empty boat seemingly abandoned by wildlife smugglers fleeing a police raid.",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-13T01:51:35.000Z",
-        "url": "https://www.winnipegfreepress.com/world/2026/10/12/a-6-1-earthquake-jolts-southern-panama-after-fridays-destructive-tremors",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6acd8ea4f5f2c4b475eb5186jpeg.jpg?w=1600",
+        "publishedAt": "2026-10-13T08:45:32.000Z",
+        "url": "https://www.winnipegfreepress.com/arts-and-life/life/greenpage/2026/10/13/indonesia-returns-20-green-sea-turtles-to-the-ocean-after-bali-smuggling-raid",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6acdefa8f5f2c4b475eba26bjpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-71f8ea2d-b2e7-5557-9c54-b79bcfd5f888",
-        "title": "Tim Stützle and the Senators beat the Devils 4-1 to keep their hot start going",
-        "description": "NEWARK, N.J. (AP) — Tim Stützle had a goal and an assist, Shane Pinto and Stephen Halliday scored and the Ottawa Senators defeated the New Jersey Devils 4-1 on Monday night to keep their hot start going.",
+        "id": "currents-390300aa-dbbc-5fb1-b3e0-8b93afa8d7b0",
+        "title": "Northern Ireland teacher diagnosed with life-limiting condition at the age of 21",
+        "description": "Northern Ireland teacher Michelle Beagan told Good Morning Britain she was refused entry to a nightclub for being 'too drunk', despite not drinking.",
+        "publisher": "Belfastlive",
+        "publisherDomain": "belfastlive.co.uk",
+        "publishedAt": "2026-10-13T08:44:40.000Z",
+        "url": "https://www.belfastlive.co.uk/news/tv/northern-ireland-teacher-diagnosed-life-34756247",
+        "imageUrl": "https://i2-prod.belfastlive.co.uk/article34756245.ece/ALTERNATES/s1200d/3_Screenshot-2026-10-13-082333.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-2877224c-72b8-5aff-b976-76ef01117531",
+        "title": "Atal's resistance frustrates Bangladesh despite Ebadot three-for",
+        "description": "AFG vs BAN 2026/27, Afghanistan vs Bangladesh Match Report: Litton Das is now the first wicketkeeper to complete nine dismissals, score a century and a fifty in the match",
+        "publisher": "Cricinfo",
+        "publisherDomain": "cricinfo.com",
+        "publishedAt": "2026-10-13T08:39:28.000Z",
+        "url": "https://www.cricinfo.com/series/afghanistan-v-bangladesh-2026-27-1555106/afghanistan-vs-bangladesh-only-test-1555116/match-report",
+        "imageUrl": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/423700/423726.6.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-6a9209eb-aae4-5592-87ef-0f18183c1521",
+        "title": "Martin Brundle Accuses F1 Driver of Trying to 'Run His Team' From Behind the Wheel",
+        "description": "Scathing words from the F1 pundit",
+        "publisher": "Givemesport",
+        "publisherDomain": "givemesport.com",
+        "publishedAt": "2026-10-13T08:39:07.000Z",
+        "url": "https://www.givemesport.com/martin-brundle-accuses-f1-driver-trying-run-team-behind-wheel-lewis-hamilton-ferrari",
+        "imageUrl": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/09/mixcollage-16-sep-2026-08-18-am-8239.jpg?w=1600&h=900&fit=crop",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-24d17e8e-8b47-503d-a375-963c601a6d82",
+        "title": "Celtic fan banned from football after Hearts disorder involving Rangers player",
+        "description": "Police Scotland take action after pitch invasion at Celtic Park",
+        "publisher": "Scotsman",
+        "publisherDomain": "edinburghnews.scotsman.com",
+        "publishedAt": "2026-10-13T08:37:01.000Z",
+        "url": "https://www.edinburghnews.scotsman.com/sport/football/hearts/celtic-fan-banned-from-football-after-disorder-against-hearts-involving-rangers-lawrence-shankland-9283632",
+        "imageUrl": "https://www.edinburghnews.scotsman.com/jpim-static/image/2026/10/13/8/30/Celtic-Park.jpeg?trim=0,145,0,145&crop=&width=1200&auto=webp&quality=75",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-ebbee0e2-2b7f-55ac-9c41-2575d62825e4",
+        "title": "Now, FIFA President Gianni Infantino Accused Of Taking Secret Salary",
+        "description": "Gianni Infantino is facing fresh scrutiny after reports revealed an undisclosed 1.3-million-pound pay package from a US World Cup subsidiary.",
+        "publisher": "News18",
+        "publisherDomain": "news18.com",
+        "publishedAt": "2026-10-13T08:33:10.000Z",
+        "url": "https://www.news18.com/sports/football/now-fifa-president-gianni-infantino-accused-of-taking-secret-salary-ws-l-10379731.html",
+        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/10/gianni-infaninto-AP-2026-10-329594e607035068257b65b88fb7c0c6-1200x675.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-a3dec237-4a59-5631-ae47-9e028325e6fa",
+        "title": "CorSport: Gabbia’s injury accelerates Milan’s CB pursuit - the two targets in mind",
+        "description": "With Matteo Gabbia's injury, AC Milan are aware that they must sign another central defender soon to overcome their lack of depth.",
+        "publisher": "Sempremilan",
+        "publisherDomain": "sempremilan.com",
+        "publishedAt": "2026-10-13T08:30:00.000Z",
+        "url": "https://sempremilan.com/gabbia-injury-accelerates-milan-cb-pursuit",
+        "imageUrl": "https://icdn.sempremilan.com/wp-content/uploads/2026/10/Inacio-Yoro.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-3ccd2a9b-7feb-5fa3-9df5-b5511f79b0f3",
+        "title": "Samoa’s Theo McFarland welcomes ‘massive’ arrival of ex-All Blacks for World Cup run-in",
+        "description": "Theo McFarland says ex-All Blacks Shaun Stevenson, Akira Ioane and Josh Ioane will have a massive impact on Samoa's World Cup build-up. Read more at straitstimes.com.",
+        "publisher": "Straitstimes",
+        "publisherDomain": "straitstimes.com",
+        "publishedAt": "2026-10-13T08:27:00.000Z",
+        "url": "https://www.straitstimes.com/sport/samoas-theo-mcfarland-welcomes-massive-arrival-of-ex-all-blacks-for-world-cup-run-in",
+        "imageUrl": "https://cassette.sphdigital.com.sg/image/straitstimes/c719fb6de04cfb4702737f7beacee71abf2cfa128ac938e21782f7f1755275e0?w=1200",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-2cdb34e4-cffd-52c3-9dfa-b88eef8a1307",
+        "title": "Shelter in place for New Brunswick First Nation after report of person with firearm",
+        "description": "ELSIPOGTOG FIRST NATION - Residents of a First Nation in eastern New Brunswick have been urged to lock their doors after a report of a person with a weapon.",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-13T01:47:14.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/hockey/2026/10/12/tim-stutzle-and-the-senators-beat-the-devils-4-1-to-keep-their-hot-start-going",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6acd8d92c80ce63a22e81a51jpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-9e74b7b9-03e1-5f54-a142-1024359044bb",
-        "title": "Vikings playing keen game of keep-away, with hefty possession time and NFL's top turnover rate",
-        "description": "MINNEAPOLIS (AP) — The unbeaten Minnesota Vikings have built their strong start to the season around dominant defense and sterling special teams.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-13T01:35:11.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/10/12/vikings-playing-keen-game-of-keep-away-with-hefty-possession-time-and-nfls-top-turnover-rate",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6acbf081f5f2c4b475e9b1eajpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-facea502-e9b9-560b-9688-920a1d091881",
-        "title": "Seoul rivals going toe-to-toe to begin KBO postseason this week - The Korea Times",
-        "description": "Two bitter rivals who share a soon-to-be-torn-down Seoul stadium as their home will square off to start the Korean baseball postseason this week. T...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-10-13T01:32:05.000Z",
-        "url": "https://www.koreatimes.co.kr/sports/20261013/seoul-rivals-going-toe-to-toe-to-begin-kbo-postseason-this-week",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/10/13/4439bcca-4929-41cc-83ea-f9e0ff1c9c32.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-c24ceef6-a248-545d-9b3b-47896ef7c14b",
-        "title": "Battersea Power Station nears completion with £280m loan",
-        "description": "The developers behind Battersea Power Station have secured a new £280m refinancing as the £5bn regeneration project nears its final stage.",
-        "publisher": "Cityam",
-        "publisherDomain": "cityam.com",
-        "publishedAt": "2026-10-13T01:10:14.000Z",
-        "url": "https://www.cityam.com/battersea-power-station-nears-completion-with-280m-loan",
-        "imageUrl": "https://www.cityam.com/wp-content/uploads/2026/10/Electric-Boulevard-at-Battersea-Power-Station-credit-Charlie-Round-Turner.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-06e1ee4a-efc3-56c5-99b8-901c561d737d",
-        "title": "Yoshinobu Yamamoto chased early, Dodgers fall into two-game hole after Game 2 NLCS loss",
-        "description": "Yoshinobu Yamamoto can't get out of the third inning, and the Dodgers can't muster any late offense as the Milwaukee Brewers take Game 2 of the NLCS, 7-4.",
-        "publisher": "Latimes",
-        "publisherDomain": "latimes.com",
-        "publishedAt": "2026-10-13T00:56:22.000Z",
-        "url": "https://www.latimes.com/sports/dodgers/story/2026-10-12/yoshinobu-yamamoto-game-2-nlcs-dodgers-brewers",
-        "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/0d613ff/2147483647/strip/true/crop/5789x3039+0+406/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fff%2F19%2Fbc0bc4a949ed8bec50c64ff53b4c%2F1573823-sp-mlb-dodgers-brewers-nlcs-2-rcg-42.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-c6fc9ee9-fb29-54c0-9076-987c73c339ec",
-        "title": "Contreras delivers and Milwaukee's bullpen shines as the Brewers top the Dodgers 7-4 in NLCS Game 2",
-        "description": "MILWAUKEE (AP) — William Contreras hit a tying homer in the fifth and singled home the go-ahead run an inning later as the Milwaukee Brewers defeated the Los Angeles Dodgers 7-4 on Monday in Game 2 of the National League Championship Series.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-13T00:42:48.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/baseball/2026/10/12/contreras-delivers-and-milwaukees-bullpen-shines-as-the-brewers-top-the-dodgers-7-4-in-nlcs-game-2",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6acd7e76f5f2c4b475eb44c1jpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-94e25660-c650-5641-90c2-cf21d949a919",
-        "title": "Lions needed clutch 4th-down conversions to spark their blowout of the Cardinals",
-        "description": "DETROIT (AP) — When an NFL team wins a game 45-21, there",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-13T00:24:36.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/10/12/lions-needed-clutch-4th-down-conversions-to-spark-their-blowout-of-the-cardinals",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6acd7a3cf5f2c4b475eb40adjpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-c241bf8a-6db5-56af-b4ee-07a18336422f",
-        "title": "Chain reaction crash: Cyclist dies after line of cars in front brake suddenly",
-        "description": "Police now want to speak to the driver of a small white hatchback.",
-        "publisher": "Nzherald",
-        "publisherDomain": "nzherald.co.nz",
-        "publishedAt": "2026-10-13T00:21:50.000Z",
-        "url": "https://www.nzherald.co.nz/nz/governors-bay-cyclist-dies-in-chain-reaction-crash-after-sudden-braking/Z5V43HSYUNBGTPCGUXLUB36CUQ",
-        "imageUrl": "https://www.nzherald.co.nz/resizer/v2/AVGYNBJOBZHJXFKDQDCHESYOGU.jpeg?auth=d65063dd6d1c054c5e155cba16a576efb86da9b1e9d50d174f20c2d41ad31f9f&width=1200&height=675&quality=70&focal=269%2C186&smart=false",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-e8a5dde5-8395-5945-821f-9cbc41cec7a5",
-        "title": "Aaron Ashby strikes out Miguel Rojas as the Brewers take a 2-0 lead over the Dodgers",
-        "description": "submitted by /u/merrillismyidol [link] [comments]",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-10-13T00:37:47.000Z",
-        "url": "https://www.reddit.com/r/sports/comments/1x4iq29/aaron_ashby_strikes_out_miguel_rojas_as_the",
+        "publishedAt": "2026-10-13T08:24:33.000Z",
+        "url": "https://www.winnipegfreepress.com/uncategorized/2026/10/13/shelter-in-place-for-new-brunswick-first-nation-after-report-of-person-with-firearm",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6acde51617e1bdcc313668cejpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
@@ -1538,208 +1567,211 @@
     ],
     "Entertainment": [
       {
-        "id": "currents-f904b2e8-0c08-55de-8a51-cc978f824d4d",
-        "title": "Brother of alleged Philadelphia cop killer says he had an angry and troubled past",
-        "description": "Alleged cop killer Eric Lewis has a history of anger and mental health issues, says his brother Kiel Lewis.",
-        "publisher": "6abc",
-        "publisherDomain": "6abc.com",
-        "publishedAt": "2026-10-13T01:04:57.000Z",
-        "url": "https://6abc.com/post/brother-alleged-philadelphia-cop-killer-eric-lewis-says-he-had-angry-troubled-past/19933646",
-        "imageUrl": "https://cdn.abcotvs.com/dip/images/19933602_101226-wpvi-chad-pfficer-shot-suspect-brother-speaks-5pm-vid.jpg?w=1600",
+        "id": "currents-1b0eda6d-e7b0-574c-814d-bc1d7f5a76dd",
+        "title": "BBC World Service - Witness History, Harry Harlow's monkey attachment studies",
+        "description": "Harry Harlow's controversial monkey tests in the 1950s transformed ideas on attachment",
+        "publisher": "BBC News",
+        "publisherDomain": "bbc.co.uk",
+        "publishedAt": "2026-10-13T08:12:00.000Z",
+        "url": "https://www.bbc.co.uk/programmes/w3ct986j",
+        "imageUrl": "https://ichef.bbci.co.uk/images/ic/1200x675/p0pf3cls.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-8a20b5ff-670a-5b79-be46-3889b2917e04",
-        "title": "What really made Kelly Clarkson ignite ugly feud with small business",
-        "description": "When Kelly Clarkson popped into a Brooklyn toy store for a little retail therapy on Saturday, she wasn't planning to give the owners a piece of her mind - but that part came free.",
+        "id": "currents-c9ef9ed8-f1b3-588e-8a43-6db76d89bcdb",
+        "title": "Newly-single Ola Jordan, 44, stuns in a red dress on It Takes Two",
+        "description": "The professional dancer, 44, looked incredible in a plunging red dress as she made a guest appearance on Strictly's It Takes Two on Monday night.",
         "publisher": "Daily Mail",
         "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-10-13T00:36:05.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16202485/kelly-clarkson-brooklyn-magic-shop-meltdown.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/10/12/20/111807513-0-image-m-34_1791832335512.jpg",
+        "publishedAt": "2026-10-13T08:42:02.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16204587/Ola-Jordan-Strictly-spin-nine-years-exit.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/10/13/09/111823703-0-image-m-8_1791878852144.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-2d591b73-d082-5715-95b7-5a9adc76b2bc",
-        "title": "Kacey Musgraves Has Brutal Response for Kristi Noem's Criticism",
-        "description": "Kacey Musgraves is letting Kristi Noem have it after the ex-Secretary of Homeland Security threw some shade her way.",
+        "id": "currents-faf9bde4-6d0f-534f-b1c4-5de3ccecba3d",
+        "title": "How People and Planet Intersect in BCI’s Regenerative Standards System",
+        "description": "Better Cotton Initiative is transitioning to a regenerative standards system, with all participating farms committing to practices to improve nature.",
+        "publisher": "Wwd",
+        "publisherDomain": "wwd.com",
+        "publishedAt": "2026-10-13T09:00:00.000Z",
+        "url": "https://wwd.com/sourcing-journal/sustainability/better-cotton-initiative-regenerative-standards-system-1239314521",
+        "imageUrl": "https://wwd.com/wp-content/uploads/2026/10/HandofsoilBCIXepaIndia2026-e1791253193314.jpg?w=1000&h=563&crop=1",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-cb97d9fb-9a5c-5a5e-bad0-26dd235c09b0",
+        "title": "90s star admits he hated being recognised for breakout role for years",
+        "description": "Devon Sawa looks back at iconic role as Casper in cult 1995 film",
+        "publisher": "Independent",
+        "publisherDomain": "independent.co.uk",
+        "publishedAt": "2026-10-13T08:53:17.000Z",
+        "url": "https://www.independent.co.uk/arts-entertainment/films/news/devon-sawa-casper-film-recognised-coven-academy-b3065696.html",
+        "imageUrl": "https://static.independent.co.uk/2022/06/06/14/devon-sawa-casper.jpg?width=1200&height=800&crop=1200:800",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-c8d82e03-2be2-559f-a2f7-7adc687ae7b9",
+        "title": "Julianne Moore is a mother of the groom as son Caleb marries",
+        "description": "Julianne Moore was proud mother of the groom to her son Caleb Freundlich, as he married long-term girlfriend Kibriyaá Morgan over the weekend.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-10-13T08:41:13.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16204489/Julianne-Moore-proud-mother-groom-son-Caleb-Freundlich-marries-long-term-girlfriend-Kibriya-Morgan.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/10/13/09/111823733-0-image-m-20_1791879411122.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-da9ce6e7-2524-57fb-9697-3073751c2b95",
+        "title": "Raye reveals sign-up list for upcoming show will be manually reviewed",
+        "description": "Raye has revealed the sign-up list for her upcoming show will be manually reviewed so 'fans can buy tickets at face value' after 1.8 million applied for just 5,000 seats.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-10-13T08:11:03.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16204479/Raye-reveals-sign-list-upcoming-manually-reviewed.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/10/13/08/111823179-0-image-m-18_1791875964545.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-d83210f0-7e2d-5dc7-b7c8-ecbb98f982ad",
+        "title": "Courteney Cox, 62, shows off her incredible figure in a black bikini",
+        "description": "Courteney Cox showed off her incredible figure in a black bikini as she hit the beach with Kate Hudson in Hawaii this week.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-10-13T08:07:19.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16204575/Courteney-Cox-incredible-figure-black-bikini-hawaii.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/10/13/08/111823595-0-image-m-33_1791878315281.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-c91790a8-368a-5652-9833-67edbc4a4f0a",
+        "title": "Charlotte Church forced to close her healing retreat",
+        "description": "Charlotte Church, who called Ed Sheeran a greedy capitalist last month, has had to put her own business into 'hibernation'.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-10-13T08:06:37.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16204503/Charlotte-Church-forced-close-healing-retreat-Singer-puts-wacky-Welsh-wellness-centre-hibernation-just-three-years.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/10/13/09/111823775-0-image-m-18_1791878771709.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-6aedc55e-c3a9-59bb-80b3-ff9894ef6344",
+        "title": "Celebrity Traitors' Amol Rajan brands Maya Jama a 'satanic villain'",
+        "description": "Celebrity Traitors' first victim Amol Rajan has branded Maya Jama a 'satanic villain' after he was brutally murdered on the show.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-10-13T08:04:28.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16204525/Celebrity-Traitors-Amol-Rajan-Maya-Jama-satanic-villain-murdered.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/10/13/08/111823421-0-image-m-9_1791876888994.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-ae34c17b-f16f-5df5-9212-643d94e490d4",
+        "title": "\"I was forced to ship the game\" - Glen Schofield blames Krafton management for The Callisto Protocol's problems",
+        "description": "PUBG company Krafton was allegedly not ready to enter a single-player game space, and The Callisto Protocol apparently paid the price.",
+        "publisher": "Eurogamer",
+        "publisherDomain": "eurogamer.net",
+        "publishedAt": "2026-10-13T08:40:04.000Z",
+        "url": "https://www.eurogamer.net/glen-schofield-the-callisto-protocol-krafton-problems",
+        "imageUrl": "https://assetsio.gnwcdn.com/the-callisto-protocol_uARW7hC.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-a57a8f9b-9c54-5631-98c2-63071eea2e49",
+        "title": "23 Pieces Of Clothing From Walmart That’ll Keep You Cozy *And* Chic This Fall",
+        "description": "Refresh your wardrobe while leaving plenty of room in your budget for pumpkin spice everything. 🍂🎃",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-10-13T08:31:01.000Z",
+        "url": "https://www.buzzfeed.com/julialynnrubin/pieces-of-clothing-from-walmart-thatll-keep-you-cozy-an",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/03/02/thumb/-xHIQz1vs.jpg?crop=3000:1571;0,211%26downsize=1250:*",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-c4f09dd9-46c2-5c44-aa4e-b78ea207d795",
+        "title": "Bristol City v Blackburn Rovers: how to watch on TV",
+        "description": "Everything you need to know about watching Bristol City v Blackburn Rovers in the Championship, including TV channel, live stream and kick-off time.",
+        "publisher": "Radiotimes",
+        "publisherDomain": "radiotimes.com",
+        "publishedAt": "2026-10-13T08:15:14.000Z",
+        "url": "https://www.radiotimes.com/tv/sport/football/bristol-city-blackburn-rovers-championship-2026-27-preview",
+        "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2026/10/GettyImages-2298949537-e1cc109.jpg?resize=1200%2C630",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-f60aa588-72b3-58c9-b2b2-7c9d5275c6db",
+        "title": "Ben Affleck says ‘doomed’ film was ‘low point’ of his career",
+        "description": "Actor-director had a terrible experience starring in the 2017 film",
+        "publisher": "Independent",
+        "publisherDomain": "independent.co.uk",
+        "publishedAt": "2026-10-13T08:15:07.000Z",
+        "url": "https://www.independent.co.uk/arts-entertainment/films/news/ben-affleck-movies-animals-justice-league-b3065662.html",
+        "imageUrl": "https://static.independent.co.uk/2026/10/13/7/35/Screenshot-2026-10-13-at-08-16-08.png?trim=67,0,67,0&width=1200&height=800&crop=1200:800",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-3cfa5883-bb33-5cb9-b815-057d86ebf65d",
+        "title": "26 Products To Make Cleaning So Easy You *Almost* Won't Mind Doing It Anymore",
+        "description": "\"Holy banana peppers!\" if your sink cleaner doesn't have you saying stuff like that, it's time to buy a new sink cleaner.",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-10-13T08:01:02.000Z",
+        "url": "https://www.buzzfeed.com/maitlandquitmeyer/products-to-make-cleaning-easy-october-2026-an",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/02/01/thumb/xnR2kCi8G.jpg?crop=3000:1571;0,15%26downsize=1250:*",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-7df79c42-9f82-5915-b6d9-2d9da11a3095",
+        "title": "Cornell Jane Doe Didn't Look Intoxicated, Distressed At Chi Phi Frat Party, Witnesses Claim",
+        "description": "Jane Doe was coherent when she was in a room at the Chi Phi fraternity house with several other men ... and she didn't look to be in distress when she exited that same room with several frat bros hours later ... at least according to two Cornell students who say they were there.",
         "publisher": "Tmz",
         "publisherDomain": "tmz.com",
-        "publishedAt": "2026-10-13T00:29:40.000Z",
-        "url": "https://www.tmz.com/2026/10/12/kacey-musgraves-and-kristi-noem-feud-over-james-talarico",
-        "imageUrl": "https://imagez.tmz.com/image/98/16by9/2026/10/12/9804c7a4aaaf4b75a51ebda765c8821d_xl.jpg",
+        "publishedAt": "2026-10-13T08:00:54.000Z",
+        "url": "https://www.tmz.com/2026/10/13/cornell-jane-doe-allegedly-did-not-look-distressed-at-fraternity-party",
+        "imageUrl": "https://imagez.tmz.com/image/d9/16by9/2026/10/12/d94b0895ae0f4f11a062b9cf1835fc42_xl.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-79a9dfb2-b3a1-5679-820a-6bac4550a0ab",
-        "title": "Film exhibitors welcome entertainment duty exemption for local films, theatre in Federal Territories",
-        "description": "KUALA LUMPUR, Oct 13 — The Malaysian Association of Film Exhibitors (MAFE) has welcomed the exemption of entertainment duty for local film screenings and theatre performances in...",
-        "publisher": "Malaymail",
-        "publisherDomain": "malaymail.com",
-        "publishedAt": "2026-10-13T01:43:18.000Z",
-        "url": "https://www.malaymail.com/news/showbiz/2026/10/13/film-exhibitors-welcome-entertainment-duty-exemption-for-local-films-theatre-in-federal-territories/238886",
-        "imageUrl": "https://www.malaymail.com/malaymail/uploads/images/2026/10/13/368041.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-8bea8a98-552d-5291-883c-c73f9c1f8fa5",
-        "title": "Aaron Paul 'heartbroken' as Breaking Bad castmate RJ Mitte dies at 34",
-        "description": "A number of Mitte's peers spoke out amid news of his tragic passing at the age of 34.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-10-13T00:32:48.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16203817/aaron-paul-dean-norris-breaking-bad-rj-mitte-death.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/10/13/01/111819113-0-image-m-17_1791849821672.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-10b6d3d0-5866-5886-89f2-aea1deb7dc92",
-        "title": "26 Home Products That Bring As Much Drama As You Do",
-        "description": "Cuz nothing brings more drama than a *diva down* pillow and a literal dramatic exit sign.",
+        "id": "currents-d11ca69a-4e8a-5f7b-b106-8447a15b9b6e",
+        "title": "After News Broke That \"Breaking Bad\" Actor RJ Mitte Died At Age 34, His Official Cause Of Death Has Been Confirmed",
+        "description": "Like his “Breaking Bad” character, RJ lived with cerebral palsy and became a champion for disability rights throughout his career.",
         "publisher": "Buzzfeed",
         "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-10-13T01:31:01.000Z",
-        "url": "https://www.buzzfeed.com/jordanagrigs/home-products-bring-as-much-drama-as-you-do-october-2026-an",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-09/25/22/thumb/MlQ_jL8pK.jpg?crop=3000:1571;0,211%26downsize=1250:*",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-ada023a6-18d0-5628-9b66-bf683a2a0c3e",
-        "title": "Pastor Who Got the Rapture Wrong Twice Says It's Definitely Happening This Week",
-        "description": "Joshua Mhlakela says the Rapture will happen October 12 or 13, 2026, after two failed predictions and reports of costly decisions by followers.",
-        "publisher": "Vice",
-        "publisherDomain": "vice.com",
-        "publishedAt": "2026-10-13T01:17:00.000Z",
-        "url": "https://www.vice.com/en/article/pastor-who-got-the-rapture-wrong-twice-says-its-definitely-happening-this-week",
-        "imageUrl": "https://www.vice.com/wp-content/uploads/sites/2/2026/10/Pastor-Who-Got-the-Rapture-Wrong-Twice-Says-Its-Definitely-Happening-This-Week.jpg?w=2000",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-f76b6978-fdf2-5df8-80ba-aee32e434c90",
-        "title": "Vijay Deverakonda, Rashmika Mandanna Meet Tamil Nadu CM Vijay Ahead Of Ranabaali Release: 'Sir Is A Favourite'",
-        "description": "Vijay Deverakonda and Rashmika Mandanna met Tamil Nadu Chief Minister C Joseph Vijay to promote their film Ranabaali.",
-        "publisher": "News18",
-        "publisherDomain": "news18.com",
-        "publishedAt": "2026-10-13T01:15:23.000Z",
-        "url": "https://www.news18.com/movies/telugu-cinema/vijay-deverakonda-rashmika-mandanna-meet-tamil-nadu-cm-vijay-ahead-of-ranabaali-release-sir-is-a-favourite-10379045.html",
-        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/10/thalapathy-vijay-deverakonda-rashmika-2026-10-6913caad54e9400303fc87a24f4b5c73-1200x675.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-0af8e65a-8ac1-5449-bb63-9b03b8bbdc49",
-        "title": "Games Inbox: What is the next FromSoftware game?",
-        "description": "The Tuesday letters page wants to know if The Duskbloods has been delayed or not, as a reader has some advice for Activision and Call Of Duty.",
-        "publisher": "Metro",
-        "publisherDomain": "metro.co.uk",
-        "publishedAt": "2026-10-13T01:10:07.000Z",
-        "url": "https://metro.co.uk/2026/10/13/games-inbox-next-fromsoftware-game-29703219",
-        "imageUrl": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_309331234-1cb0_1791853814.jpg?quality=90&strip=all&w=1200&h=630&crop=1",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-deda75fc-6063-5f95-b38b-d4bef00f8d1d",
-        "title": "‘Breaking Bad’ actor RJ Mitte dies at 34, representatives say",
-        "description": "LOS ANGELES, Oct 13 — RJ Mitte, the young actor best known for playing Walter White Jr. in the award-winning TV series Breaking Bad, has died, his representatives told AFP on...",
-        "publisher": "Malaymail",
-        "publisherDomain": "malaymail.com",
-        "publishedAt": "2026-10-13T01:03:18.000Z",
-        "url": "https://www.malaymail.com/news/showbiz/2026/10/13/breaking-bad-actor-rj-mitte-dies-at-34-representatives-say/238876",
-        "imageUrl": "https://www.malaymail.com/malaymail/uploads/images/2026/10/13/368024.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-1e35f0a9-58d2-5cf7-bd5a-658c25d0e41a",
-        "title": "If You Hate Kitchen Cleanup, You’ll Love These 34 Problem-Solvers",
-        "description": "Cleaning is a drag, but you don't have to drag it out to a long process.",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-10-13T01:01:02.000Z",
-        "url": "https://www.buzzfeed.com/elizabethlilly/if-you-hate-kitchen-cleanup-youll-love-these-problem",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-09/24/16/thumb/e5uDEOaAn.jpg?crop=1250:654;0,88%26downsize=1250:*",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-154181fe-3c6b-5f86-a5c3-4a1ed25d7317",
-        "title": "Town in Kanagawa struggling with violent gang of monkeys",
-        "description": "Problematic monkeys appear to be moving into abandoned homes.",
-        "publisher": "Soranews24",
-        "publisherDomain": "soranews24.com",
-        "publishedAt": "2026-10-13T01:00:46.000Z",
-        "url": "https://soranews24.com/2026/10/13/town-in-kanagawa-struggling-with-violent-gang-of-monkeys",
-        "imageUrl": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/jigokudani-monkey-19.jpg.jpeg?w=580&h=305&crop=1",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-a5ff3b69-3ec0-5b68-88db-0f936492eada",
-        "title": "Kacey Musgraves Buries Kristi Noem With Snarky Clapback in Defense of James Talarico",
-        "description": "Kacey Musgraves had some choice words for Kristi Noem after she dissed her appearance with James Talarico. They may involve her dog.",
-        "publisher": "Thewrap",
-        "publisherDomain": "thewrap.com",
-        "publishedAt": "2026-10-13T01:00:09.000Z",
-        "url": "https://www.thewrap.com/media-platforms/politics/kacey-musgraves-disses-kristi-noem-james-talarico-dog-joke",
-        "imageUrl": "https://www.thewrap.com/wp-content/uploads/2026/10/KaceyTalaricoNoem.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-99383c35-6aab-56f4-b7ce-90d739e5f3ee",
-        "title": "Women Are Sharing The Subtle Early Pregnancy Signs That Made Them Know Before Any Test",
-        "description": "\"I could smell the trash can from outside even though the door was closed.\"",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-10-13T00:31:02.000Z",
-        "url": "https://www.buzzfeed.com/cmc33/first-pregnancy-signs",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/08/13/thumb/DLlP-HI_W.jpg?crop=3000:1571;0,3%26downsize=1250:*",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-1e3a4e53-f129-5f23-aa6a-aafbb7d89120",
-        "title": "'High Potential' Secures Coveted Post-Super Bowl Spot on ABC and Disney+",
-        "description": "High Potential will debut after the 2027 Super Bowl on ABC and Disney+, proof of how well the Kaitlin Olson series is performing.",
-        "publisher": "Thewrap",
-        "publisherDomain": "thewrap.com",
-        "publishedAt": "2026-10-13T00:30:00.000Z",
-        "url": "https://www.thewrap.com/creative-content/tv-shows/high-potential-super-bowl-2027-abc-disney-plus",
-        "imageUrl": "https://www.thewrap.com/wp-content/uploads/2026/10/high-potential.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-9f9beddc-efee-5530-923a-e8d27ddb37bc",
-        "title": "Tears Of The Kingdom Zelda Statue Officially Revealed, Here's A Sneak Peek",
-        "description": "Pre-orders open next week.The Legend of Zelda's 40th anniversary is well underway, and following an \"exclusive edition\" Link statue earlier this year, First 4 Figures has now revealed a Zelda figure.This \"sneak peek\" offers a brief look at a 12\" painted pvc statue based on Princess Zelda from Tears ...",
-        "publisher": "Nintendolife",
-        "publisherDomain": "nintendolife.com",
-        "publishedAt": "2026-10-13T00:39:00.000Z",
-        "url": "https://www.nintendolife.com/news/2026/10/tears-of-the-kingdom-zelda-statue-officially-revealed-heres-a-sneak-peek",
+        "publishedAt": "2026-10-13T08:38:36.000Z",
+        "url": "https://www.buzzfeed.com/leylamohammed/breaking-bad-actor-rj-mitte-cause-of-death-confirmed",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/13/08/thumb/uC8wp_ItP.jpg?crop=1250:654;0,0%26downsize=1250:*",
         "categories": [
           "Entertainment"
         ]
@@ -1751,6 +1783,6 @@
     "successfulRequests": 5,
     "failedRequests": 0,
     "articleCountBeforeDeduplication": 100,
-    "articleCountAfterDeduplication": 85
+    "articleCountAfterDeduplication": 93
   }
 }
