@@ -1,227 +1,171 @@
 {
   "schemaVersion": 1,
   "provider": "currents",
-  "generatedAt": "2026-10-18T06:30:35.487Z",
-  "sourceFetchedAt": "2026-10-18T06:30:35.487Z",
+  "generatedAt": "2026-10-18T11:36:43.603Z",
+  "sourceFetchedAt": "2026-10-18T11:36:43.603Z",
   "status": "success",
   "categories": {
     "Top": [
       {
-        "id": "currents-7533bbb5-41ba-55a5-9ede-7fcb191ccb4b",
-        "title": "US toy prices surge ahead of holiday shopping season as tariffs, Iran war bite",
-        "description": "Cash-strapped U.S. consumers face a squeeze in their shopping budgets this holiday season, hit by the double whammy of tariffs and high energy costs.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:36.000Z",
-        "url": "https://nptelegraph.com/news/nation-world/business/economy/article_79b49859-119f-5807-af45-679889330b76.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/7/9b/79b49859-119f-5807-af45-679889330b76/6ad223c6f1ba4.preview.jpg?crop=1763%2C926%2C0%2C150&resize=1200%2C630&order=crop%2Cresize",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-d880b9d2-ac75-5025-913b-b7cd81050ac8",
-        "title": "Supabase \"permission denied for table\" (42501) after 30 Oct 2026: the fix",
-        "description": "New Supabase tables need an explicit GRANT before the Data API can see them. How to read error 42501, tell it from the RLS error, and the exact SQL.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T06:19:56.000Z",
-        "url": "https://dev.to/vibefix/supabase-permission-denied-for-table-42501-after-30-oct-2026-the-fix-3jje",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyfggvusm0w75zz7rsu12.png",
+        "id": "currents-d4130938-7b1f-5ece-8dd7-36de77cd9964",
+        "title": "Funeral held for 75 Palestinians after remains recovered from Gaza ruins",
+        "description": "Most of the victims were from the Daraj neighbourhood in Gaza City, the Health Ministry says.",
+        "publisher": "Al Jazeera",
+        "publisherDomain": "aljazeera.com",
+        "publishedAt": "2026-10-18T11:24:43.000Z",
+        "url": "https://www.aljazeera.com/news/2026/10/18/funeral-held-for-75-palestinians-after-remains-recovered-from-gaza-ruins",
+        "imageUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261017__D3LF2DT__v1__HighRes__PalestinianIsraelConflictGaza-1792317318.jpg?resize=1920%2C1440",
         "categories": [
           "Top",
           "U.S.",
-          "Technology",
-          "Science"
+          "World"
         ]
       },
       {
-        "id": "currents-321b24de-8773-5ed2-815a-1873fe48ad3d",
-        "title": "AI, climate and private capital reveal Asia's diverging fortunes",
-        "description": "IMF meetings end with region's resilience increasingly uneven and under pressure",
-        "publisher": "Nikkei",
-        "publisherDomain": "asia.nikkei.com",
-        "publishedAt": "2026-10-18T06:15:50.000Z",
-        "url": "https://asia.nikkei.com/economy/ai-climate-and-private-capital-reveal-asia-s-diverging-fortunes",
-        "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F5%2F9%2F1%2F13331955-4-eng-GB%2F77fe9da1ac95-20261017-1N9A5684Photo-by-Ken-Kobayashi.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-5e265472-c1b1-5c92-86da-84ca0daaa426",
-        "title": "Minna Miners’ Deaths: NSCDC Mining Marshals Deny Role",
-        "description": "The Mining Marshals of the Nigeria Security and Civil Defence Corps (NSCDC) have distanced themselves from the September 16 operation at M.I. Wushishi",
-        "publisher": "Naijanews",
-        "publisherDomain": "naijanews.com",
-        "publishedAt": "2026-10-18T05:44:28.000Z",
-        "url": "https://www.naijanews.com/2026/10/18/nscdc-mining-marshals-deny-role",
-        "imageUrl": "https://www.naijanews.com/wp-content/uploads/2026/09/NSCDC.png",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-1205be30-21ed-5d77-9a41-2e8fe6c591c0",
-        "title": "Lincoln teen killed in crash at 84th and O streets",
-        "description": "A Lincoln teen was killed in a crash on O Street in east Lincoln on Friday night, police say.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:33.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_00495e1c-2b73-54b8-bb06-80fbab1f22ad.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/0/04/00495e1c-2b73-54b8-bb06-80fbab1f22ad/6ad35c593f990.preview.jpg?crop=1764%2C926%2C0%2C123&resize=1200%2C630&order=crop%2Cresize",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-5835a443-e20f-5ede-a3fe-f60e1cbe2902",
-        "title": "Eagle boy, 6, went looking for fossils. What he found surprised experts.",
-        "description": "Six-year-old Leo Youngdahl flipped over a rock at Schramm Park, hoping to find a fossil. What he discovered hadn't been found in Nebraska in decades.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:33.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_5974c8d8-3d4f-5d85-b827-669fc1858e51.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/5/97/5974c8d8-3d4f-5d85-b827-669fc1858e51/6ad2747d1bd2b.preview.jpg?crop=1512%2C794%2C4%2C116&resize=1200%2C630&order=crop%2Cresize",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-e44c9dba-8a7e-5fe1-80b9-f9ee53e8038f",
-        "title": "Hundreds take to Nebraska State Capitol for Lincoln's fourth No Kings protest",
-        "description": "Hundreds gathered at Nebraska State Capitol, joining nationwide No Kings protest against Trump's policies and urging people to voting ahead of the midterms.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:30.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_da80378d-b8a1-5fce-9f00-457338851d2d.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/d/a8/da80378d-b8a1-5fce-9f00-457338851d2d/6ad3c5c2acd69.preview.jpg?crop=1763%2C926%2C0%2C124&resize=1200%2C630&order=crop%2Cresize",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-7cfb5022-13af-57cc-a8ad-5716ebe931d8",
-        "title": "For 37 years, an Omaha family has wondered what happened to their missing brother",
-        "description": "Anthony Casale called his mother nearly every day. Then, in April 1989, the calls stopped. He vanished. His family has spent 37 years searching for answers.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:29.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_392a8802-34aa-5a06-882e-2e9765df6396.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/3/92/392a8802-34aa-5a06-882e-2e9765df6396/6ad270ee99cab.preview.jpg?crop=1649%2C866%2C6%2C89&resize=1200%2C630&order=crop%2Cresize",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-a27303d5-d4c0-5387-b35c-570e8c63e488",
-        "title": "Crete appoints new police chief with decades of law enforcement experience",
-        "description": "After serving as acting chief following Gary Young's death in July, Jon Pucket has been named Crete's permanent police chief.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:26.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_7a50d5ea-5ecd-52df-b1bb-c5d62a733717.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/7/a5/7a50d5ea-5ecd-52df-b1bb-c5d62a733717/6ad27f216ec25.preview.jpg?crop=1403%2C737%2C260%2C157&resize=1200%2C630&order=crop%2Cresize",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-7d2b1f62-3222-5a72-986c-17eca6ff627a",
-        "title": "From the Pulpit: A new chapter in ministry",
-        "description": "In August, I began to fulfill a quest that began five years ago: Combining quality spiritual care from chaplaincy with the proven benefits of animal-assisted therapy into a service for",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:23.000Z",
-        "url": "https://nptelegraph.com/opinion/column/article_e6dab298-b26f-4165-9ca6-3119570ad8be.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/1/af/1afa4a40-14e9-11ed-848c-9ff3243e4add/62ed5c0c89dc1.image.jpg?crop=434%2C434%2C615%2C172&resize=200%2C200&order=crop%2Cresize",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-b9061818-f14d-549a-a4d5-8123ccc012ed",
-        "title": "Handling React.lazy Chunk Load Errors After Deployment",
-        "description": "Why old browser tabs request missing chunks—and how react-lazy-chunk-recover handles the failure...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T06:19:49.000Z",
-        "url": "https://dev.to/sachith1/handling-reactlazy-chunk-load-errors-after-deployment-185a",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fc1pm3pfro3haq0if6z99.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-c80e765a-8617-5e63-a6e2-cc7a94210fd1",
-        "title": "Jim McKee: Cheyenne County, the latecomer - The North Platte Telegraph",
-        "description": "As the Nebraska Territory formed in 1854, the first settlers were frequently waiting in Iowa to be able to cross the Missouri River and legally ...",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:29.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_dcf51584-25f9-5099-9bc6-513afaf654a8.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-c11f3455-7ae2-58f1-b4f9-93c4b8230a3a",
-        "title": "Freeze Warning until SAT 9:00 AM CDT",
-        "description": "Freeze Warning Expiring at 9 AM CDT",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:32.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_6d718351-46d8-535e-a527-ac34140f77d3.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/custom/image/87556200-c86a-11e6-a34e-53c58a94921e.jpg?resize=600%2C315",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-a650e569-e37c-5e1d-8d2d-c283f6307fd2",
-        "title": "WWE stars throw support behind Royal Rumble at Optus Stadium",
-        "description": "Rumours are swirling that Perth will be rewarded for the passion it has shown the WWE by having the Royal Rumble scheduled at Opus Stadium, and two of the industry’s biggest names have backed the move.",
-        "publisher": "Thewest",
-        "publisherDomain": "thewest.com.au",
-        "publishedAt": "2026-10-18T06:22:23.000Z",
-        "url": "https://thewest.com.au/sport/wrestling/wwe-stars-aj-styles-and-nattie-throw-their-support-behind-royal-rumble-being-held-at-optus-stadium-c-23037438",
-        "imageUrl": "https://images.thewest.com.au/publication/C-23037438/1beab48a16492dff86ed81f2e62ead4acff99a20-16x9-x162y93w3700h2081.jpg?imwidth=1200",
+        "id": "currents-4a55262b-8dbc-52ae-925a-f7ff684fa825",
+        "title": "Pair of Chinese imperial vases worth £150k go on auction",
+        "description": "The blue and white porcelain vases, which stand one-metre tall, are believed to date back to the Kangxi period in 18th century China.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-10-18T11:33:50.000Z",
+        "url": "https://www.dailymail.com/news/article-16218479/chinese-soldier-vases-breamore-house-auction.html?ito=1490&ns_campaign=1490",
+        "imageUrl": "https://i.dailymail.com/1s/2026/10/18/11/111935381-0-image-m-45_1792321023431.jpg",
         "categories": [
           "Top",
           "World"
         ]
       },
       {
-        "id": "currents-7966baf1-e265-5929-b95f-56085078aa04",
-        "title": "How to watch Huskers vs. Ducks tonight. (You might want to take a nap) - The North Platte Telegraph",
-        "description": "The Huskers hit the road for a matchup with Oregon. Here's how to watch and listen.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:26.000Z",
-        "url": "https://nptelegraph.com/sports/huskers/football/article_3bf45dab-a3d5-5018-8e0e-8c598341d9ec.html",
+        "id": "currents-85ca6928-e5d7-586d-935d-4ce57c444158",
+        "title": "Building Privacy-First Patient Education Interfaces",
+        "description": "Healthcare websites increasingly use interactive forms, educational questionnaires, visual...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:30:44.000Z",
+        "url": "https://dev.to/adinaone/building-privacy-first-patient-education-interfaces-2eln",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcf0wzzl6sz997f90645u.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-98d4723a-8eb2-5633-9980-abe4d78cd031",
+        "title": "Ateneo de Zamboanga grade school beefs up security amid threat messages",
+        "description": "PAGADIAN CITY, Zamboanga del Sur — Security measures have been tightened at the Ateneo de Zamboanga University (AdZU) Grade School Department, even as school authorities assured the public on Sunday that no substantiated threat had been identified following the circulation of messages alleging a vio...",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-10-18T11:35:35.000Z",
+        "url": "https://newsinfo.inquirer.net/2326076/ateneo-de-zamboanga-grade-school-beefs-up-security-amid-threat-messages",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-ef10a3df-0968-566e-874a-93d2bc7d43e0",
+        "title": "Pope Leo cheered by thousands as he leads prayer after lung cancer op",
+        "description": "The pontiff appeared at the window of his Apostolic Palace to choruses of 'Viva il papa! (Hooray for the pope!)' before rounding off a tough week by giving his first Angelus prayer since leaving hospital.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-10-18T11:32:33.000Z",
+        "url": "https://www.dailymail.com/news/article-16218489/Pope-Leo-St-Peters-Square-prayer-service-lung-cancer-surgery.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/10/18/12/111936117-0-image-m-68_1792321894047.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-eb2312fa-a1c2-5b20-9ec9-e2e68e59263a",
+        "title": "Here's why I think this polynomial time SAT solver concept is correct",
+        "description": "Algorithm concept I've been working on a polynomial-time SAT solver concept for over a year. Here...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:32:44.000Z",
+        "url": "https://dev.to/unknown_54d6ff44213776b51/heres-why-i-think-this-polynomial-time-sat-solver-concept-is-correct-4i16",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8k46u3qzi6pxod0dkxqc.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-4d71249e-964c-5267-b318-15bef289e9e8",
+        "title": "Save JSON from a cron job or GitHub Action",
+        "description": "Save a JSON result from a scheduled job to a stable URL, then read it from a static page or another...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:32:26.000Z",
+        "url": "https://dev.to/jstashapp/save-json-from-a-cron-job-or-github-action-2b1i",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fx1pzpeavmqraw974mids.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-6f523686-650a-5e2d-9f11-7bca104221cb",
+        "title": "Cross-Site Request Forgery (CSRF): When a Trusted Browser Becomes an Attack Tool",
+        "description": "Imagine logging into your banking application, then visiting a malicious website in another browser...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:32:00.000Z",
+        "url": "https://dev.to/omeiza_ahmed/cross-site-request-forgery-csrf-when-a-trusted-browser-becomes-an-attack-tool-3l5",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgp1cir5dr4n7uqjdv8mq.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-7cd9ff04-8e60-544c-9a81-7b99087a8c5d",
+        "title": "Combining Roblox and Robotics. Playing videogames by controlling the physical world.",
+        "description": "This is a submission for the MLH x DEV Writing Challenge What We Built Roblotix is a set...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:31:41.000Z",
+        "url": "https://dev.to/kushagrakatiyar06/combining-roblox-and-robotics-playing-videogames-by-controlling-the-physical-world-50nk",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnrbdthyx4hpsxkkjt0lz.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-7a202e7b-1a6c-56f3-9191-ec0c469b5fec",
+        "title": "Search finds documents. My graph finds consequences.",
+        "description": "How I built Premise, a company brain for engineering decisions, on FalkorDB for WeMakeDevs × FalkorDB...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:29:23.000Z",
+        "url": "https://dev.to/razeef_shaik/search-finds-documents-my-graph-finds-consequences-434o",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ff19o9vo44izaxii2g6vv.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-41635689-946e-559c-9b4a-6a0e1e4ad236",
+        "title": "Your Ex's Pets - Athens Banner-Herald Events",
+        "description": "Get ready for a great night of music with Armistead's Armi and Anne Richmond at the Dead Beat Club!",
+        "publisher": "Onlineathens",
+        "publisherDomain": "onlineathens.com",
+        "publishedAt": "2026-10-18T11:35:35.000Z",
+        "url": "https://www.onlineathens.com/holiday-marketplace/local-events?_evDiscoveryPath=/event/1040545162n-your-ex-s-pets",
         "categories": [
           "Top",
           "World",
@@ -229,14 +173,69 @@
         ]
       },
       {
-        "id": "currents-82ef9aae-188b-5ba1-a49a-3f035ff5a0b0",
-        "title": "What to know about Saturday's Market to Market Relay",
-        "description": "More than 600 teams of runners are expected to arrive in Lincoln during Saturday's Market to Market Relay.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:31.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_c729f8ad-e869-5855-a083-f41f9846e937.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/c/72/c729f8ad-e869-5855-a083-f41f9846e937/6ad2516d7a8d9.preview.jpg?crop=1709%2C897%2C0%2C157&resize=1200%2C630&order=crop%2Cresize",
+        "id": "currents-3a87a340-0eb4-5f6e-a693-c3fc0ef77c7c",
+        "title": "The coziest pullovers for fall camping and chilly hikes - SFGATE",
+        "description": "The best fall pullovers for camping and hiking, including wool sweaters, alpaca hoodies, fleece and cozy layers for chilly outdoor days.",
+        "publisher": "Statesman",
+        "publisherDomain": "statesman.com",
+        "publishedAt": "2026-10-18T11:31:32.000Z",
+        "url": "https://www.statesman.com/shopping/article/best-pullovers-fall-camping-hiking-22452788.php",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-3df25026-2cf2-5b04-aa04-f5b167704c0a",
+        "title": "Rodeo Permit Parking-General in Red & Black, Reserved in Silver - Austin American-Statesman",
+        "description": "This is for parking only and is date specific. One vehicle per pass. Parking is lot specific. Black and Red Lots are open parking within the lot.",
+        "publisher": "Statesman",
+        "publisherDomain": "statesman.com",
+        "publishedAt": "2026-10-18T11:31:32.000Z",
+        "url": "https://www.statesman.com/entertainment/things-to-do?_evDiscoveryPath=/event/44772305t-rodeo-permit-parking-general-in-red-black-reserved-in-silver",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-57a43f51-79b0-5264-a3f8-bea45e235637",
+        "title": "Event not found - Austin American-Statesman",
+        "description": "Oh no! We couldn't find that event. The listing may have expired, or the link you followed to get here might be wrong. Recommended Events ...",
+        "publisher": "Statesman",
+        "publisherDomain": "statesman.com",
+        "publishedAt": "2026-10-18T11:31:32.000Z",
+        "url": "https://www.statesman.com/event/187534x-open-mic-vortex-voices-in-collaboration-with-every-word-poetry",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-d23a1783-6133-5921-90d2-13c278947a4c",
+        "title": "Alicia Gail - Austin American-Statesman Events",
+        "description": "Alicia Gail is an artist from Memphis, Tennessee. Exploring and blurring lines between character and self, daydreams and reality, pain and joy, ...",
+        "publisher": "Statesman",
+        "publisherDomain": "statesman.com",
+        "publishedAt": "2026-10-18T11:31:32.000Z",
+        "url": "https://www.statesman.com/entertainment/things-to-do?_evDiscoveryPath=/event/1040239889n-alicia-gail",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-f3981b1e-7ec5-57cd-bd1f-33ca080d5f25",
+        "title": "Lilly Dabbs, Dr. Rocket (acoustic), and Kelsi Schacht @ New World Deli - Austin American-Statesman",
+        "description": "Dr. Rocket is a Seattle-based, alt-rock project by Nick Carver, blending home-recording charm with sharp, yet playful, songwriting.",
+        "publisher": "Statesman",
+        "publisherDomain": "statesman.com",
+        "publishedAt": "2026-10-18T11:31:32.000Z",
+        "url": "https://www.statesman.com/event/108909638n-lilly-dabbs-dr-rocket-acoustic-and-kelsi-schacht-new-world-deli",
         "categories": [
           "Top",
           "World",
@@ -246,44 +245,29 @@
     ],
     "U.S.": [
       {
-        "id": "currents-7533bbb5-41ba-55a5-9ede-7fcb191ccb4b",
-        "title": "US toy prices surge ahead of holiday shopping season as tariffs, Iran war bite",
-        "description": "Cash-strapped U.S. consumers face a squeeze in their shopping budgets this holiday season, hit by the double whammy of tariffs and high energy costs.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:36.000Z",
-        "url": "https://nptelegraph.com/news/nation-world/business/economy/article_79b49859-119f-5807-af45-679889330b76.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/7/9b/79b49859-119f-5807-af45-679889330b76/6ad223c6f1ba4.preview.jpg?crop=1763%2C926%2C0%2C150&resize=1200%2C630&order=crop%2Cresize",
+        "id": "currents-d4130938-7b1f-5ece-8dd7-36de77cd9964",
+        "title": "Funeral held for 75 Palestinians after remains recovered from Gaza ruins",
+        "description": "Most of the victims were from the Daraj neighbourhood in Gaza City, the Health Ministry says.",
+        "publisher": "Al Jazeera",
+        "publisherDomain": "aljazeera.com",
+        "publishedAt": "2026-10-18T11:24:43.000Z",
+        "url": "https://www.aljazeera.com/news/2026/10/18/funeral-held-for-75-palestinians-after-remains-recovered-from-gaza-ruins",
+        "imageUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261017__D3LF2DT__v1__HighRes__PalestinianIsraelConflictGaza-1792317318.jpg?resize=1920%2C1440",
         "categories": [
           "Top",
-          "World",
-          "U.S."
+          "U.S.",
+          "World"
         ]
       },
       {
-        "id": "currents-5ac8e56e-773a-56b4-8d0b-41fdd27eb010",
-        "title": "Projecting the College Football Playoff top 12 at midseason",
-        "description": "We assess how the selection committee could stack the top teams in the country at midseason.",
-        "publisher": "ESPN",
-        "publisherDomain": "espn.com",
-        "publishedAt": "2026-10-18T06:27:57.000Z",
-        "url": "https://www.espn.com/college-football/story/_/id/50204253/projecting-2026-playoff-top-12-week-7-cfp",
-        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1017%2Fr1732189_1296x729_16%2D9.jpg",
-        "categories": [
-          "Sports",
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-d880b9d2-ac75-5025-913b-b7cd81050ac8",
-        "title": "Supabase \"permission denied for table\" (42501) after 30 Oct 2026: the fix",
-        "description": "New Supabase tables need an explicit GRANT before the Data API can see them. How to read error 42501, tell it from the RLS error, and the exact SQL.",
+        "id": "currents-85ca6928-e5d7-586d-935d-4ce57c444158",
+        "title": "Building Privacy-First Patient Education Interfaces",
+        "description": "Healthcare websites increasingly use interactive forms, educational questionnaires, visual...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T06:19:56.000Z",
-        "url": "https://dev.to/vibefix/supabase-permission-denied-for-table-42501-after-30-oct-2026-the-fix-3jje",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyfggvusm0w75zz7rsu12.png",
+        "publishedAt": "2026-10-18T11:30:44.000Z",
+        "url": "https://dev.to/adinaone/building-privacy-first-patient-education-interfaces-2eln",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcf0wzzl6sz997f90645u.jpg",
         "categories": [
           "Top",
           "U.S.",
@@ -292,14 +276,13 @@
         ]
       },
       {
-        "id": "currents-4528d214-1f03-52e9-a423-10aca761a51b",
-        "title": "Jay Pitts makes community trust central to Lancaster County sheriff campaign",
-        "description": "Jay Pitts wants to build trust between Lancaster County deputies and the people they serve. The Democratic sheriff candidate says listening is central to his approach",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:34.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_2fae09ea-133d-5eb3-b1c8-f460eda477f8.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/2/fa/2fae09ea-133d-5eb3-b1c8-f460eda477f8/6ad24e0d321ff.preview.png?crop=693%2C364%2C0%2C13",
+        "id": "currents-41635689-946e-559c-9b4a-6a0e1e4ad236",
+        "title": "Your Ex's Pets - Athens Banner-Herald Events",
+        "description": "Get ready for a great night of music with Armistead's Armi and Anne Richmond at the Dead Beat Club!",
+        "publisher": "Onlineathens",
+        "publisherDomain": "onlineathens.com",
+        "publishedAt": "2026-10-18T11:35:35.000Z",
+        "url": "https://www.onlineathens.com/holiday-marketplace/local-events?_evDiscoveryPath=/event/1040545162n-your-ex-s-pets",
         "categories": [
           "Top",
           "World",
@@ -307,149 +290,92 @@
         ]
       },
       {
-        "id": "currents-1205be30-21ed-5d77-9a41-2e8fe6c591c0",
-        "title": "Lincoln teen killed in crash at 84th and O streets",
-        "description": "A Lincoln teen was killed in a crash on O Street in east Lincoln on Friday night, police say.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:33.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_00495e1c-2b73-54b8-bb06-80fbab1f22ad.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/0/04/00495e1c-2b73-54b8-bb06-80fbab1f22ad/6ad35c593f990.preview.jpg?crop=1764%2C926%2C0%2C123&resize=1200%2C630&order=crop%2Cresize",
+        "id": "currents-3a87a340-0eb4-5f6e-a693-c3fc0ef77c7c",
+        "title": "The coziest pullovers for fall camping and chilly hikes - SFGATE",
+        "description": "The best fall pullovers for camping and hiking, including wool sweaters, alpaca hoodies, fleece and cozy layers for chilly outdoor days.",
+        "publisher": "Statesman",
+        "publisherDomain": "statesman.com",
+        "publishedAt": "2026-10-18T11:31:32.000Z",
+        "url": "https://www.statesman.com/shopping/article/best-pullovers-fall-camping-hiking-22452788.php",
         "categories": [
           "Top",
-          "World",
-          "U.S."
+          "U.S.",
+          "World"
         ]
       },
       {
-        "id": "currents-5835a443-e20f-5ede-a3fe-f60e1cbe2902",
-        "title": "Eagle boy, 6, went looking for fossils. What he found surprised experts.",
-        "description": "Six-year-old Leo Youngdahl flipped over a rock at Schramm Park, hoping to find a fossil. What he discovered hadn't been found in Nebraska in decades.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:33.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_5974c8d8-3d4f-5d85-b827-669fc1858e51.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/5/97/5974c8d8-3d4f-5d85-b827-669fc1858e51/6ad2747d1bd2b.preview.jpg?crop=1512%2C794%2C4%2C116&resize=1200%2C630&order=crop%2Cresize",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-a35ef481-c1b1-5dd5-91fe-c91e3e737685",
-        "title": "Final cost splits for East Francis return to City Council agenda",
-        "description": "In other business Tuesday, the North Platte City Council will consider naming the expanded Iron Horse Lake trail the “Miltonberger Mile” after Maj. Gen. Butler B. Miltonberger.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:31.000Z",
-        "url": "https://nptelegraph.com/news/local/government-politics/article_f8f4fe00-cec3-4982-b951-5cb6487fdde7.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/f/8f/f8f4fe00-cec3-4982-b951-5cb6487fdde7/6ad29cb1e6cea.preview.jpg?crop=1763%2C926%2C0%2C124&resize=1200%2C630&order=crop%2Cresize",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-e44c9dba-8a7e-5fe1-80b9-f9ee53e8038f",
-        "title": "Hundreds take to Nebraska State Capitol for Lincoln's fourth No Kings protest",
-        "description": "Hundreds gathered at Nebraska State Capitol, joining nationwide No Kings protest against Trump's policies and urging people to voting ahead of the midterms.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:30.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_da80378d-b8a1-5fce-9f00-457338851d2d.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/d/a8/da80378d-b8a1-5fce-9f00-457338851d2d/6ad3c5c2acd69.preview.jpg?crop=1763%2C926%2C0%2C124&resize=1200%2C630&order=crop%2Cresize",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-7cfb5022-13af-57cc-a8ad-5716ebe931d8",
-        "title": "For 37 years, an Omaha family has wondered what happened to their missing brother",
-        "description": "Anthony Casale called his mother nearly every day. Then, in April 1989, the calls stopped. He vanished. His family has spent 37 years searching for answers.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:29.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_392a8802-34aa-5a06-882e-2e9765df6396.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/3/92/392a8802-34aa-5a06-882e-2e9765df6396/6ad270ee99cab.preview.jpg?crop=1649%2C866%2C6%2C89&resize=1200%2C630&order=crop%2Cresize",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-94357ebc-d9f4-5716-bcc5-8d399f4debbe",
-        "title": "Neighborhood Extra: Revolutionary lecture, defensive driving course",
-        "description": "A look at events in the Lincoln community.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:27.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_2bac4f91-682a-5924-95d6-d3a0f0c756b2.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/2/ba/2bac4f91-682a-5924-95d6-d3a0f0c756b2/6ad25838840c2.preview.jpg?crop=1119%2C587%2C0%2C22",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-a27303d5-d4c0-5387-b35c-570e8c63e488",
-        "title": "Crete appoints new police chief with decades of law enforcement experience",
-        "description": "After serving as acting chief following Gary Young's death in July, Jon Pucket has been named Crete's permanent police chief.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:26.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_7a50d5ea-5ecd-52df-b1bb-c5d62a733717.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/7/a5/7a50d5ea-5ecd-52df-b1bb-c5d62a733717/6ad27f216ec25.preview.jpg?crop=1403%2C737%2C260%2C157&resize=1200%2C630&order=crop%2Cresize",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-69a31d6f-6a78-544e-bb54-16ab3df57000",
-        "title": "Three-and-out: Quick takes ahead of Nebraska vs. Oregon",
-        "description": "Check out quick takes from Sam McKewon, Wilson Moore and Evan Bland ahead of the Nebraska football's matchup against Oregon.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:23.000Z",
-        "url": "https://nptelegraph.com/sports/huskers/football/article_6fed287c-8001-5425-bcf6-893f0e45995e.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/6/fe/6fed287c-8001-5425-bcf6-893f0e45995e/6ad10211c96f6.preview.jpg?crop=1919%2C1007%2C0%2C35&resize=1200%2C630&order=crop%2Cresize",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-7d2b1f62-3222-5a72-986c-17eca6ff627a",
-        "title": "From the Pulpit: A new chapter in ministry",
-        "description": "In August, I began to fulfill a quest that began five years ago: Combining quality spiritual care from chaplaincy with the proven benefits of animal-assisted therapy into a service for",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:23.000Z",
-        "url": "https://nptelegraph.com/opinion/column/article_e6dab298-b26f-4165-9ca6-3119570ad8be.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/1/af/1afa4a40-14e9-11ed-848c-9ff3243e4add/62ed5c0c89dc1.image.jpg?crop=434%2C434%2C615%2C172&resize=200%2C200&order=crop%2Cresize",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-b9061818-f14d-549a-a4d5-8123ccc012ed",
-        "title": "Handling React.lazy Chunk Load Errors After Deployment",
-        "description": "Why old browser tabs request missing chunks—and how react-lazy-chunk-recover handles the failure...",
+        "id": "currents-eb2312fa-a1c2-5b20-9ec9-e2e68e59263a",
+        "title": "Here's why I think this polynomial time SAT solver concept is correct",
+        "description": "Algorithm concept I've been working on a polynomial-time SAT solver concept for over a year. Here...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T06:19:49.000Z",
-        "url": "https://dev.to/sachith1/handling-reactlazy-chunk-load-errors-after-deployment-185a",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fc1pm3pfro3haq0if6z99.png",
+        "publishedAt": "2026-10-18T11:32:44.000Z",
+        "url": "https://dev.to/unknown_54d6ff44213776b51/heres-why-i-think-this-polynomial-time-sat-solver-concept-is-correct-4i16",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8k46u3qzi6pxod0dkxqc.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-4d71249e-964c-5267-b318-15bef289e9e8",
+        "title": "Save JSON from a cron job or GitHub Action",
+        "description": "Save a JSON result from a scheduled job to a stable URL, then read it from a static page or another...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:32:26.000Z",
+        "url": "https://dev.to/jstashapp/save-json-from-a-cron-job-or-github-action-2b1i",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fx1pzpeavmqraw974mids.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-6f523686-650a-5e2d-9f11-7bca104221cb",
+        "title": "Cross-Site Request Forgery (CSRF): When a Trusted Browser Becomes an Attack Tool",
+        "description": "Imagine logging into your banking application, then visiting a malicious website in another browser...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:32:00.000Z",
+        "url": "https://dev.to/omeiza_ahmed/cross-site-request-forgery-csrf-when-a-trusted-browser-becomes-an-attack-tool-3l5",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgp1cir5dr4n7uqjdv8mq.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-7cd9ff04-8e60-544c-9a81-7b99087a8c5d",
+        "title": "Combining Roblox and Robotics. Playing videogames by controlling the physical world.",
+        "description": "This is a submission for the MLH x DEV Writing Challenge What We Built Roblotix is a set...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:31:41.000Z",
+        "url": "https://dev.to/kushagrakatiyar06/combining-roblox-and-robotics-playing-videogames-by-controlling-the-physical-world-50nk",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnrbdthyx4hpsxkkjt0lz.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-7a202e7b-1a6c-56f3-9191-ec0c469b5fec",
+        "title": "Search finds documents. My graph finds consequences.",
+        "description": "How I built Premise, a company brain for engineering decisions, on FalkorDB for WeMakeDevs × FalkorDB...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:29:23.000Z",
+        "url": "https://dev.to/razeef_shaik/search-finds-documents-my-graph-finds-consequences-434o",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ff19o9vo44izaxii2g6vv.png",
         "categories": [
           "Top",
           "U.S.",
@@ -458,13 +384,13 @@
         ]
       },
       {
-        "id": "currents-c80e765a-8617-5e63-a6e2-cc7a94210fd1",
-        "title": "Jim McKee: Cheyenne County, the latecomer - The North Platte Telegraph",
-        "description": "As the Nebraska Territory formed in 1854, the first settlers were frequently waiting in Iowa to be able to cross the Missouri River and legally ...",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:29.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_dcf51584-25f9-5099-9bc6-513afaf654a8.html",
+        "id": "currents-3df25026-2cf2-5b04-aa04-f5b167704c0a",
+        "title": "Rodeo Permit Parking-General in Red & Black, Reserved in Silver - Austin American-Statesman",
+        "description": "This is for parking only and is date specific. One vehicle per pass. Parking is lot specific. Black and Red Lots are open parking within the lot.",
+        "publisher": "Statesman",
+        "publisherDomain": "statesman.com",
+        "publishedAt": "2026-10-18T11:31:32.000Z",
+        "url": "https://www.statesman.com/entertainment/things-to-do?_evDiscoveryPath=/event/44772305t-rodeo-permit-parking-general-in-red-black-reserved-in-silver",
         "categories": [
           "Top",
           "World",
@@ -472,59 +398,199 @@
         ]
       },
       {
-        "id": "currents-44c1d5ac-7312-5ca5-91c5-77b17bcf6f1e",
-        "title": "2026 Nebraska football roster - Columbus Telegram",
-        "description": "Fans gather around the Fox Big Noon Kickoff show prior to a college football game between the Nebraska Huskers and the Indiana Hoosiers in Lincoln, on ...",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:25.000Z",
-        "url": "https://nptelegraph.com/sports/huskers/football/article_518ce081-9806-545f-a3f2-98da43027a8b.html",
+        "id": "currents-57a43f51-79b0-5264-a3f8-bea45e235637",
+        "title": "Event not found - Austin American-Statesman",
+        "description": "Oh no! We couldn't find that event. The listing may have expired, or the link you followed to get here might be wrong. Recommended Events ...",
+        "publisher": "Statesman",
+        "publisherDomain": "statesman.com",
+        "publishedAt": "2026-10-18T11:31:32.000Z",
+        "url": "https://www.statesman.com/event/187534x-open-mic-vortex-voices-in-collaboration-with-every-word-poetry",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-d23a1783-6133-5921-90d2-13c278947a4c",
+        "title": "Alicia Gail - Austin American-Statesman Events",
+        "description": "Alicia Gail is an artist from Memphis, Tennessee. Exploring and blurring lines between character and self, daydreams and reality, pain and joy, ...",
+        "publisher": "Statesman",
+        "publisherDomain": "statesman.com",
+        "publishedAt": "2026-10-18T11:31:32.000Z",
+        "url": "https://www.statesman.com/entertainment/things-to-do?_evDiscoveryPath=/event/1040239889n-alicia-gail",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-f3981b1e-7ec5-57cd-bd1f-33ca080d5f25",
+        "title": "Lilly Dabbs, Dr. Rocket (acoustic), and Kelsi Schacht @ New World Deli - Austin American-Statesman",
+        "description": "Dr. Rocket is a Seattle-based, alt-rock project by Nick Carver, blending home-recording charm with sharp, yet playful, songwriting.",
+        "publisher": "Statesman",
+        "publisherDomain": "statesman.com",
+        "publishedAt": "2026-10-18T11:31:32.000Z",
+        "url": "https://www.statesman.com/event/108909638n-lilly-dabbs-dr-rocket-acoustic-and-kelsi-schacht-new-world-deli",
         "categories": [
           "Top",
           "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-eb020aed-d731-5b79-a061-2b75c11ff8a1",
+        "title": "How to see which companies are hiring right now (and what changed this week) from Greenhouse, Lever, Ashby and Workday boards",
+        "description": "A company's open roles hint at where its money is going next. If it adds five enterprise Account...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:34:43.000Z",
+        "url": "https://dev.to/amitaviv/how-to-see-which-companies-are-hiring-right-now-and-what-changed-this-week-from-greenhouse-5gci",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgm4wwg9es0dj79pd8pri.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-878b6f74-adde-5c5f-aab9-ba2245d9a519",
+        "title": "Things to do in Austin, TX",
+        "description": "Labrinth performs on the American Express Stage during the first day of Austin City Limits Festival. Things to Do · Soupy dirt, rain ...",
+        "publisher": "Statesman",
+        "publisherDomain": "statesman.com",
+        "publishedAt": "2026-10-18T11:31:32.000Z",
+        "url": "https://www.statesman.com/entertainment/things-to-do?_evDiscoveryPath=/event/3836463-october-community-jazz-jam",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-8d1850fa-a6f1-5ee7-b716-d8ab3c563b87",
+        "title": "How important is physical attraction & intimacy compatibility in marriage? Me 30F and he 31M(Navigating this as someone with no prior relationship experience)",
+        "description": "Hello everyone, ​I’m currently in a dilemma and hoping to get some honest perspectives and advice from women who have been in similar situations or have more relationship experience. ​I am currently looking for a serious relationship/marriage and have been talking to a guy. Mentally and emotionally,...",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-10-18T11:26:35.000Z",
+        "url": "https://www.reddit.com/r/relationships/comments/1x90vls/how_important_is_physical_attraction_intimacy",
+        "categories": [
+          "Top",
           "U.S."
         ]
       }
     ],
     "World": [
       {
-        "id": "currents-7533bbb5-41ba-55a5-9ede-7fcb191ccb4b",
-        "title": "US toy prices surge ahead of holiday shopping season as tariffs, Iran war bite",
-        "description": "Cash-strapped U.S. consumers face a squeeze in their shopping budgets this holiday season, hit by the double whammy of tariffs and high energy costs.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:36.000Z",
-        "url": "https://nptelegraph.com/news/nation-world/business/economy/article_79b49859-119f-5807-af45-679889330b76.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/7/9b/79b49859-119f-5807-af45-679889330b76/6ad223c6f1ba4.preview.jpg?crop=1763%2C926%2C0%2C150&resize=1200%2C630&order=crop%2Cresize",
+        "id": "currents-d4130938-7b1f-5ece-8dd7-36de77cd9964",
+        "title": "Funeral held for 75 Palestinians after remains recovered from Gaza ruins",
+        "description": "Most of the victims were from the Daraj neighbourhood in Gaza City, the Health Ministry says.",
+        "publisher": "Al Jazeera",
+        "publisherDomain": "aljazeera.com",
+        "publishedAt": "2026-10-18T11:24:43.000Z",
+        "url": "https://www.aljazeera.com/news/2026/10/18/funeral-held-for-75-palestinians-after-remains-recovered-from-gaza-ruins",
+        "imageUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261017__D3LF2DT__v1__HighRes__PalestinianIsraelConflictGaza-1792317318.jpg?resize=1920%2C1440",
         "categories": [
           "Top",
-          "World",
-          "U.S."
+          "U.S.",
+          "World"
         ]
       },
       {
-        "id": "currents-a650e569-e37c-5e1d-8d2d-c283f6307fd2",
-        "title": "WWE stars throw support behind Royal Rumble at Optus Stadium",
-        "description": "Rumours are swirling that Perth will be rewarded for the passion it has shown the WWE by having the Royal Rumble scheduled at Opus Stadium, and two of the industry’s biggest names have backed the move.",
-        "publisher": "Thewest",
-        "publisherDomain": "thewest.com.au",
-        "publishedAt": "2026-10-18T06:22:23.000Z",
-        "url": "https://thewest.com.au/sport/wrestling/wwe-stars-aj-styles-and-nattie-throw-their-support-behind-royal-rumble-being-held-at-optus-stadium-c-23037438",
-        "imageUrl": "https://images.thewest.com.au/publication/C-23037438/1beab48a16492dff86ed81f2e62ead4acff99a20-16x9-x162y93w3700h2081.jpg?imwidth=1200",
+        "id": "currents-4a55262b-8dbc-52ae-925a-f7ff684fa825",
+        "title": "Pair of Chinese imperial vases worth £150k go on auction",
+        "description": "The blue and white porcelain vases, which stand one-metre tall, are believed to date back to the Kangxi period in 18th century China.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-10-18T11:33:50.000Z",
+        "url": "https://www.dailymail.com/news/article-16218479/chinese-soldier-vases-breamore-house-auction.html?ito=1490&ns_campaign=1490",
+        "imageUrl": "https://i.dailymail.com/1s/2026/10/18/11/111935381-0-image-m-45_1792321023431.jpg",
         "categories": [
           "Top",
           "World"
         ]
       },
       {
-        "id": "currents-4528d214-1f03-52e9-a423-10aca761a51b",
-        "title": "Jay Pitts makes community trust central to Lancaster County sheriff campaign",
-        "description": "Jay Pitts wants to build trust between Lancaster County deputies and the people they serve. The Democratic sheriff candidate says listening is central to his approach",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:34.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_2fae09ea-133d-5eb3-b1c8-f460eda477f8.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/2/fa/2fae09ea-133d-5eb3-b1c8-f460eda477f8/6ad24e0d321ff.preview.png?crop=693%2C364%2C0%2C13",
+        "id": "currents-98d4723a-8eb2-5633-9980-abe4d78cd031",
+        "title": "Ateneo de Zamboanga grade school beefs up security amid threat messages",
+        "description": "PAGADIAN CITY, Zamboanga del Sur — Security measures have been tightened at the Ateneo de Zamboanga University (AdZU) Grade School Department, even as school authorities assured the public on Sunday that no substantiated threat had been identified following the circulation of messages alleging a vio...",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-10-18T11:35:35.000Z",
+        "url": "https://newsinfo.inquirer.net/2326076/ateneo-de-zamboanga-grade-school-beefs-up-security-amid-threat-messages",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-4b89d89b-e7ff-5a5b-bd53-75426170edd9",
+        "title": "Heavy downpours flood Seoul streets, cause damage - The Korea Times",
+        "description": "Heavy downpours accompanied by strong gusts battered Seoul on Sunday, causing urban flooding and safety hazards across the capital city. According...",
+        "publisher": "Co",
+        "publisherDomain": "koreatimes.co.kr",
+        "publishedAt": "2026-10-18T11:32:04.000Z",
+        "url": "https://www.koreatimes.co.kr/southkorea/environment-animals/20261018/heavy-downpours-flood-seoul-streets-cause-damage",
+        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/10/18/8af0dcb7-938a-4276-95de-434cb2592149.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-ef10a3df-0968-566e-874a-93d2bc7d43e0",
+        "title": "Pope Leo cheered by thousands as he leads prayer after lung cancer op",
+        "description": "The pontiff appeared at the window of his Apostolic Palace to choruses of 'Viva il papa! (Hooray for the pope!)' before rounding off a tough week by giving his first Angelus prayer since leaving hospital.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-10-18T11:32:33.000Z",
+        "url": "https://www.dailymail.com/news/article-16218489/Pope-Leo-St-Peters-Square-prayer-service-lung-cancer-surgery.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/10/18/12/111936117-0-image-m-68_1792321894047.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-a4cfe181-fff3-5a59-bb56-a65b4b4d96dd",
+        "title": "Saudi landmark closes offices, chopper pilots killed near Yemen - The Korea Times",
+        "description": "RIYADH — Riyadh's Kingdom Centre skyscraper ordered remote working for office tenants on Sunday following repeated Houthi attacks on Saudi Arabia,...",
+        "publisher": "Co",
+        "publisherDomain": "koreatimes.co.kr",
+        "publishedAt": "2026-10-18T11:32:04.000Z",
+        "url": "https://www.koreatimes.co.kr/world/20261018/saudi-landmark-closes-offices-chopper-pilots-killed-near-yemen",
+        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/10/18/e6886219-6b67-4cb5-8356-e583668ecf80.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-c449e55b-5c5f-551b-902f-d6bc36b4a3eb",
+        "title": "Faithful gather to welcome Pope Leo back for Sunday blessing after cancer surgery - The Korea Times",
+        "description": "VATICAN CITY — Catholic faithful converged on St. Peter’s Square on Sunday to welcome Pope Leo XIV back to the Vatican after surgery to remove a tu...",
+        "publisher": "Co",
+        "publisherDomain": "koreatimes.co.kr",
+        "publishedAt": "2026-10-18T11:32:04.000Z",
+        "url": "https://www.koreatimes.co.kr/world/20261018/faithful-gather-to-welcome-pope-leo-back-for-sunday-blessing-after-cancer-surgery",
+        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/10/18/4a7f0e02-7d30-44d4-9f5e-d92ed25f3e12.jpg",
+        "categories": [
+          "Top",
+          "World",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-41635689-946e-559c-9b4a-6a0e1e4ad236",
+        "title": "Your Ex's Pets - Athens Banner-Herald Events",
+        "description": "Get ready for a great night of music with Armistead's Armi and Anne Richmond at the Dead Beat Club!",
+        "publisher": "Onlineathens",
+        "publisherDomain": "onlineathens.com",
+        "publishedAt": "2026-10-18T11:35:35.000Z",
+        "url": "https://www.onlineathens.com/holiday-marketplace/local-events?_evDiscoveryPath=/event/1040545162n-your-ex-s-pets",
         "categories": [
           "Top",
           "World",
@@ -532,14 +598,40 @@
         ]
       },
       {
-        "id": "currents-1205be30-21ed-5d77-9a41-2e8fe6c591c0",
-        "title": "Lincoln teen killed in crash at 84th and O streets",
-        "description": "A Lincoln teen was killed in a crash on O Street in east Lincoln on Friday night, police say.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:33.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_00495e1c-2b73-54b8-bb06-80fbab1f22ad.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/0/04/00495e1c-2b73-54b8-bb06-80fbab1f22ad/6ad35c593f990.preview.jpg?crop=1764%2C926%2C0%2C123&resize=1200%2C630&order=crop%2Cresize",
+        "id": "currents-398fdacd-196f-57c5-b7d5-62a16fba9fe2",
+        "title": "VP Duterte told: She has only herself to blame for impeachment trial",
+        "description": "MANILA, Philippines — Vice President Sara Duterte has only herself to blame for the impeachment trial she is facing, House trial spokesperson Zia Alonto Adiong of Lanao del Sur said Sunday, arguing that the proceedings would not have taken place had she not committed any wrongdoing. Alonto Adiong re...",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-10-18T11:35:27.000Z",
+        "url": "https://newsinfo.inquirer.net/2326090/vp-duterte-told-she-has-only-herself-to-blame-for-impeachment-trial",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-3a87a340-0eb4-5f6e-a693-c3fc0ef77c7c",
+        "title": "The coziest pullovers for fall camping and chilly hikes - SFGATE",
+        "description": "The best fall pullovers for camping and hiking, including wool sweaters, alpaca hoodies, fleece and cozy layers for chilly outdoor days.",
+        "publisher": "Statesman",
+        "publisherDomain": "statesman.com",
+        "publishedAt": "2026-10-18T11:31:32.000Z",
+        "url": "https://www.statesman.com/shopping/article/best-pullovers-fall-camping-hiking-22452788.php",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-3df25026-2cf2-5b04-aa04-f5b167704c0a",
+        "title": "Rodeo Permit Parking-General in Red & Black, Reserved in Silver - Austin American-Statesman",
+        "description": "This is for parking only and is date specific. One vehicle per pass. Parking is lot specific. Black and Red Lots are open parking within the lot.",
+        "publisher": "Statesman",
+        "publisherDomain": "statesman.com",
+        "publishedAt": "2026-10-18T11:31:32.000Z",
+        "url": "https://www.statesman.com/entertainment/things-to-do?_evDiscoveryPath=/event/44772305t-rodeo-permit-parking-general-in-red-black-reserved-in-silver",
         "categories": [
           "Top",
           "World",
@@ -547,14 +639,41 @@
         ]
       },
       {
-        "id": "currents-5835a443-e20f-5ede-a3fe-f60e1cbe2902",
-        "title": "Eagle boy, 6, went looking for fossils. What he found surprised experts.",
-        "description": "Six-year-old Leo Youngdahl flipped over a rock at Schramm Park, hoping to find a fossil. What he discovered hadn't been found in Nebraska in decades.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:33.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_5974c8d8-3d4f-5d85-b827-669fc1858e51.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/5/97/5974c8d8-3d4f-5d85-b827-669fc1858e51/6ad2747d1bd2b.preview.jpg?crop=1512%2C794%2C4%2C116&resize=1200%2C630&order=crop%2Cresize",
+        "id": "currents-57a43f51-79b0-5264-a3f8-bea45e235637",
+        "title": "Event not found - Austin American-Statesman",
+        "description": "Oh no! We couldn't find that event. The listing may have expired, or the link you followed to get here might be wrong. Recommended Events ...",
+        "publisher": "Statesman",
+        "publisherDomain": "statesman.com",
+        "publishedAt": "2026-10-18T11:31:32.000Z",
+        "url": "https://www.statesman.com/event/187534x-open-mic-vortex-voices-in-collaboration-with-every-word-poetry",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-d23a1783-6133-5921-90d2-13c278947a4c",
+        "title": "Alicia Gail - Austin American-Statesman Events",
+        "description": "Alicia Gail is an artist from Memphis, Tennessee. Exploring and blurring lines between character and self, daydreams and reality, pain and joy, ...",
+        "publisher": "Statesman",
+        "publisherDomain": "statesman.com",
+        "publishedAt": "2026-10-18T11:31:32.000Z",
+        "url": "https://www.statesman.com/entertainment/things-to-do?_evDiscoveryPath=/event/1040239889n-alicia-gail",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-f3981b1e-7ec5-57cd-bd1f-33ca080d5f25",
+        "title": "Lilly Dabbs, Dr. Rocket (acoustic), and Kelsi Schacht @ New World Deli - Austin American-Statesman",
+        "description": "Dr. Rocket is a Seattle-based, alt-rock project by Nick Carver, blending home-recording charm with sharp, yet playful, songwriting.",
+        "publisher": "Statesman",
+        "publisherDomain": "statesman.com",
+        "publishedAt": "2026-10-18T11:31:32.000Z",
+        "url": "https://www.statesman.com/event/108909638n-lilly-dabbs-dr-rocket-acoustic-and-kelsi-schacht-new-world-deli",
         "categories": [
           "Top",
           "World",
@@ -562,161 +681,27 @@
         ]
       },
       {
-        "id": "currents-a35ef481-c1b1-5dd5-91fe-c91e3e737685",
-        "title": "Final cost splits for East Francis return to City Council agenda",
-        "description": "In other business Tuesday, the North Platte City Council will consider naming the expanded Iron Horse Lake trail the “Miltonberger Mile” after Maj. Gen. Butler B. Miltonberger.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:31.000Z",
-        "url": "https://nptelegraph.com/news/local/government-politics/article_f8f4fe00-cec3-4982-b951-5cb6487fdde7.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/f/8f/f8f4fe00-cec3-4982-b951-5cb6487fdde7/6ad29cb1e6cea.preview.jpg?crop=1763%2C926%2C0%2C124&resize=1200%2C630&order=crop%2Cresize",
+        "id": "currents-9fcc6c5e-4d41-53a8-8016-1170f2c0ff57",
+        "title": "Blaze at St Petersburg oil sites as Kyiv launches more than 1,000 drones at Russia - The Korea Times",
+        "description": "Ukrainian attacks set an oil export terminal ablaze in St. Petersburg on Sunday, as Kyiv launched more than 1,000 drones across Russia in one of it...",
+        "publisher": "Co",
+        "publisherDomain": "koreatimes.co.kr",
+        "publishedAt": "2026-10-18T11:32:04.000Z",
+        "url": "https://www.koreatimes.co.kr/world/20261018/blaze-at-st-petersburg-oil-sites-as-kyiv-launches-more-than-1000-drones-at-russia",
+        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/10/18/353357f1-6b65-4649-b7f2-984d03106464.jpg",
         "categories": [
           "Top",
-          "World",
-          "U.S."
+          "World"
         ]
       },
       {
-        "id": "currents-e44c9dba-8a7e-5fe1-80b9-f9ee53e8038f",
-        "title": "Hundreds take to Nebraska State Capitol for Lincoln's fourth No Kings protest",
-        "description": "Hundreds gathered at Nebraska State Capitol, joining nationwide No Kings protest against Trump's policies and urging people to voting ahead of the midterms.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:30.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_da80378d-b8a1-5fce-9f00-457338851d2d.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/d/a8/da80378d-b8a1-5fce-9f00-457338851d2d/6ad3c5c2acd69.preview.jpg?crop=1763%2C926%2C0%2C124&resize=1200%2C630&order=crop%2Cresize",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-7cfb5022-13af-57cc-a8ad-5716ebe931d8",
-        "title": "For 37 years, an Omaha family has wondered what happened to their missing brother",
-        "description": "Anthony Casale called his mother nearly every day. Then, in April 1989, the calls stopped. He vanished. His family has spent 37 years searching for answers.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:29.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_392a8802-34aa-5a06-882e-2e9765df6396.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/3/92/392a8802-34aa-5a06-882e-2e9765df6396/6ad270ee99cab.preview.jpg?crop=1649%2C866%2C6%2C89&resize=1200%2C630&order=crop%2Cresize",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-94357ebc-d9f4-5716-bcc5-8d399f4debbe",
-        "title": "Neighborhood Extra: Revolutionary lecture, defensive driving course",
-        "description": "A look at events in the Lincoln community.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:27.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_2bac4f91-682a-5924-95d6-d3a0f0c756b2.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/2/ba/2bac4f91-682a-5924-95d6-d3a0f0c756b2/6ad25838840c2.preview.jpg?crop=1119%2C587%2C0%2C22",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-a27303d5-d4c0-5387-b35c-570e8c63e488",
-        "title": "Crete appoints new police chief with decades of law enforcement experience",
-        "description": "After serving as acting chief following Gary Young's death in July, Jon Pucket has been named Crete's permanent police chief.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:26.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_7a50d5ea-5ecd-52df-b1bb-c5d62a733717.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/7/a5/7a50d5ea-5ecd-52df-b1bb-c5d62a733717/6ad27f216ec25.preview.jpg?crop=1403%2C737%2C260%2C157&resize=1200%2C630&order=crop%2Cresize",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-69a31d6f-6a78-544e-bb54-16ab3df57000",
-        "title": "Three-and-out: Quick takes ahead of Nebraska vs. Oregon",
-        "description": "Check out quick takes from Sam McKewon, Wilson Moore and Evan Bland ahead of the Nebraska football's matchup against Oregon.",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:23.000Z",
-        "url": "https://nptelegraph.com/sports/huskers/football/article_6fed287c-8001-5425-bcf6-893f0e45995e.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/6/fe/6fed287c-8001-5425-bcf6-893f0e45995e/6ad10211c96f6.preview.jpg?crop=1919%2C1007%2C0%2C35&resize=1200%2C630&order=crop%2Cresize",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-7d2b1f62-3222-5a72-986c-17eca6ff627a",
-        "title": "From the Pulpit: A new chapter in ministry",
-        "description": "In August, I began to fulfill a quest that began five years ago: Combining quality spiritual care from chaplaincy with the proven benefits of animal-assisted therapy into a service for",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:23.000Z",
-        "url": "https://nptelegraph.com/opinion/column/article_e6dab298-b26f-4165-9ca6-3119570ad8be.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/assets/v3/editorial/1/af/1afa4a40-14e9-11ed-848c-9ff3243e4add/62ed5c0c89dc1.image.jpg?crop=434%2C434%2C615%2C172&resize=200%2C200&order=crop%2Cresize",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-c80e765a-8617-5e63-a6e2-cc7a94210fd1",
-        "title": "Jim McKee: Cheyenne County, the latecomer - The North Platte Telegraph",
-        "description": "As the Nebraska Territory formed in 1854, the first settlers were frequently waiting in Iowa to be able to cross the Missouri River and legally ...",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:29.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_dcf51584-25f9-5099-9bc6-513afaf654a8.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-44c1d5ac-7312-5ca5-91c5-77b17bcf6f1e",
-        "title": "2026 Nebraska football roster - Columbus Telegram",
-        "description": "Fans gather around the Fox Big Noon Kickoff show prior to a college football game between the Nebraska Huskers and the Indiana Hoosiers in Lincoln, on ...",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:25.000Z",
-        "url": "https://nptelegraph.com/sports/huskers/football/article_518ce081-9806-545f-a3f2-98da43027a8b.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-8fb05e4f-511f-55e7-8eee-bcb8769ca752",
-        "title": "Bold predictions for Week 7 of the college football season - The North Platte Telegraph",
-        "description": "When the final whistle blows on Saturday, we will officially be at the halfway mark of the college football season. What the CFP picture will look ...",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:24.000Z",
-        "url": "https://nptelegraph.com/sports/college/football/article_2ed4c439-4168-5b80-ab34-833b99e59894.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-c11f3455-7ae2-58f1-b4f9-93c4b8230a3a",
-        "title": "Freeze Warning until SAT 9:00 AM CDT",
-        "description": "Freeze Warning Expiring at 9 AM CDT",
-        "publisher": "Nptelegraph",
-        "publisherDomain": "nptelegraph.com",
-        "publishedAt": "2026-10-18T06:26:32.000Z",
-        "url": "https://nptelegraph.com/news/state-regional/nebraska/article_6d718351-46d8-535e-a527-ac34140f77d3.html",
-        "imageUrl": "https://bloximages.chicago2.vip.townnews.com/nptelegraph.com/content/tncms/custom/image/87556200-c86a-11e6-a34e-53c58a94921e.jpg?resize=600%2C315",
+        "id": "currents-878b6f74-adde-5c5f-aab9-ba2245d9a519",
+        "title": "Things to do in Austin, TX",
+        "description": "Labrinth performs on the American Express Stage during the first day of Austin City Limits Festival. Things to Do · Soupy dirt, rain ...",
+        "publisher": "Statesman",
+        "publisherDomain": "statesman.com",
+        "publishedAt": "2026-10-18T11:31:32.000Z",
+        "url": "https://www.statesman.com/entertainment/things-to-do?_evDiscoveryPath=/event/3836463-october-community-jazz-jam",
         "categories": [
           "Top",
           "World",
@@ -726,223 +711,224 @@
     ],
     "Business": [
       {
-        "id": "currents-321b24de-8773-5ed2-815a-1873fe48ad3d",
-        "title": "AI, climate and private capital reveal Asia's diverging fortunes",
-        "description": "IMF meetings end with region's resilience increasingly uneven and under pressure",
-        "publisher": "Nikkei",
-        "publisherDomain": "asia.nikkei.com",
-        "publishedAt": "2026-10-18T06:15:50.000Z",
-        "url": "https://asia.nikkei.com/economy/ai-climate-and-private-capital-reveal-asia-s-diverging-fortunes",
-        "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F5%2F9%2F1%2F13331955-4-eng-GB%2F77fe9da1ac95-20261017-1N9A5684Photo-by-Ken-Kobayashi.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+        "id": "currents-63836dfe-0ade-5250-a1e4-a0991c4aa26a",
+        "title": "Yayasan Sime Darby initiatives reach over 7.2 million Malaysians",
+        "description": "KUALA LUMPUR: Yayasan Sime Darby (YSD) has reached more than 7.2 million people nationwide through its education, community development, healthcare and environmental conservation programmes over the past four decades.",
+        "publisher": "Com",
+        "publisherDomain": "thestar.com.my",
+        "publishedAt": "2026-10-18T11:14:38.000Z",
+        "url": "https://www.thestar.com.my/business/business-news/2026/10/18/yayasan-sime-darby-initiatives-reach-over-72-million-malaysians",
+        "imageUrl": "https://apicms.thestar.com.my/uploads/images/2026/10/18/4167666.jpeg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-5e265472-c1b1-5c92-86da-84ca0daaa426",
-        "title": "Minna Miners’ Deaths: NSCDC Mining Marshals Deny Role",
-        "description": "The Mining Marshals of the Nigeria Security and Civil Defence Corps (NSCDC) have distanced themselves from the September 16 operation at M.I. Wushishi",
-        "publisher": "Naijanews",
-        "publisherDomain": "naijanews.com",
-        "publishedAt": "2026-10-18T05:44:28.000Z",
-        "url": "https://www.naijanews.com/2026/10/18/nscdc-mining-marshals-deny-role",
-        "imageUrl": "https://www.naijanews.com/wp-content/uploads/2026/09/NSCDC.png",
+        "id": "currents-4bfa08fb-f5b8-566e-96ef-e141722ae4bf",
+        "title": "IMF and World Bank meetings leave developing countries with more questions than answers",
+        "description": "The recent discussions at the International Monetary Fund and World Bank left developing nations feeling uncertain about their futures. Delegates raised alarm over growing debt, inflation, and the burgeoning influence of artificial intelligence, but found themselves without significant solutions. Th...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-10-18T11:01:50.000Z",
+        "url": "https://economictimes.indiatimes.com/news/international/world-news/imf-and-world-bank-meetings-leave-developing-countries-with-more-questions-than-answers/articleshow/135027567.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-135027698,width-1200,height-900,imgsize-90878,overlay-economictimes/articleshow.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-337fff05-cc3e-5a2a-b533-f91d8254e0cc",
-        "title": "[REPORTER'S NOTEBOOK] FTC's costly crackdown on conglomerates generates little return - The Korea Times",
-        "description": "The Fair Trade Commission’s (FTC) increasingly aggressive crackdown on major conglomerates is generating a costly cycle with little tangible return...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-10-18T06:22:03.000Z",
-        "url": "https://www.koreatimes.co.kr/business/companies/20261018/reporters-notebook-ftcs-costly-crackdown-on-conglomerates-generates-little-return",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/10/18/995c03f3-81b5-46ef-a7b4-cc4394c54e8e.jpg",
+        "id": "currents-f59edebf-0c07-50ad-80a3-0fca5795d6ac",
+        "title": "Kelly Services delivers 67% return after Fair Value signal By Investing.com",
+        "description": "Kelly Services delivers 67% return after Fair Value signal",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-10-18T11:09:26.000Z",
+        "url": "https://www.investing.com/news/investment-ideas/kelly-services-delivers-67-return-after-fair-value-signal-93CH-4955882",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM3Q0V4_1200_L.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-096e1274-4198-524b-99ec-c01dae96728c",
-        "title": "Vietnam signs free-trade pact with European countries including Norway, Switzerland",
-        "description": "Long-stalled free-trade talks were relaunched in 2025 amid global tensions over US tariffs Read more at The Business Times.",
+        "id": "currents-71a48481-ecfe-5af7-8d6e-d1907af615ed",
+        "title": "Akasa Air Suspends Flights To Riyadh, Jeddah Till Oct 27: Check Refund, Rescheduling Rules",
+        "description": "Passengers affected by Akasa Air's cancellations can opt for a full refund, which will be credited to their original source of payment within seven days.",
+        "publisher": "Ndtvprofit",
+        "publisherDomain": "ndtvprofit.com",
+        "publishedAt": "2026-10-18T11:02:40.000Z",
+        "url": "https://www.ndtvprofit.com/business/akasa-air-suspends-flights-to-riyadh-jeddah-till-oct-27-check-refund-rescheduling-rules-12202541",
+        "imageUrl": "https://c.ndtvimg.com/2026-03/1f8ahfd4_a_625x300_19_March_26.jpg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-2bda7198-cfba-574a-9a72-3e6b13565f75",
+        "title": "Malaysia’s diversified economy, fiscal buffers to cushion external shocks",
+        "description": "BANGKOK: Malaysia's diversified economy, resilient export markets and stronger fiscal buffers will help cushion external shocks and support its growth outlook for 2027, said Finance Minister II Datuk Seri Amir Hamzah Azizan.",
+        "publisher": "Com",
+        "publisherDomain": "thestar.com.my",
+        "publishedAt": "2026-10-18T11:14:37.000Z",
+        "url": "https://www.thestar.com.my/business/business-news/2026/10/18/malaysias-diversified-economy-fiscal-buffers-to-cushion-external-shocks",
+        "imageUrl": "https://apicms.thestar.com.my/uploads/images/2026/10/18/4167669.JPG",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-72d580a2-97f6-515c-868c-d09dcc5a2095",
+        "title": "InvestingPro’s Fair Value spotted Infleqtion’s 52% drop in advance By Investing.com",
+        "description": "InvestingPro’s Fair Value spotted Infleqtion’s 52% drop in advance",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-10-18T11:01:52.000Z",
+        "url": "https://www.investing.com/news/investment-ideas/investingpros-fair-value-spotted-infleqtions-52-drop-in-advance-93CH-4955881",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM3Q0V4_1200_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-8cd72f31-c5cd-5a7a-9dfe-b32ace31d1ee",
+        "title": "Ringgit expected to trade in tight range against US dollar next week",
+        "description": "KUALA LUMPUR: The ringgit is expected to trade within a tight range with an upward bias next week, between RM4.07 and RM4.09, following Malaysia's higher-than-expected advance estimate of gross domestic product (GDP) growth for the third quarter of 2026 (3Q 2026).",
+        "publisher": "Com",
+        "publisherDomain": "thestar.com.my",
+        "publishedAt": "2026-10-18T11:14:37.000Z",
+        "url": "https://www.thestar.com.my/business/business-news/2026/10/18/ringgit-expected-to-trade-in-tight-range-against-us-dollar-next-week",
+        "imageUrl": "https://apicms.thestar.com.my/uploads/images/2026/10/18/4167674.png",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-c18aabe4-2a43-5586-8cc8-0c5dd091a5e0",
+        "title": "Renault Duster Hybrid Launched at 16.99 Lakh: Mileage, Specs, Features And More",
+        "description": "Renault has added a strong hybrid powertrain to the new Duster SUV in India. The model gets a 1.8 litre petrol engine, two electric motors and a claimed fuel efficiency of 29 kmpl.",
+        "publisher": "Ndtvprofit",
+        "publisherDomain": "ndtvprofit.com",
+        "publishedAt": "2026-10-18T11:02:16.000Z",
+        "url": "https://www.ndtvprofit.com/business/renault-duster-hybrid-launched-at-16-99-lakh-mileage-specs-features-and-more-12201900",
+        "imageUrl": "https://cdn.group.renault.com/ren/master/renault-new-cars/product-plans/rb3k5/reveal/overview/duster-overview-desktop-008.jpg.ximg.largex2.webp/9910ad14bd.webp?im=FaceCrop,algorithm=dnn,width=1600,height=900",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-00ec750e-8256-54f9-a7d9-85939a2dbb46",
+        "title": "Iran urges US to accept proposal to reopen Strait of Hormuz",
+        "description": "Teheran’s conditions include, among other demands, the lifting of Washington’s blockade on its ports Read more at The Business Times.",
         "publisher": "Com",
         "publisherDomain": "businesstimes.com.sg",
-        "publishedAt": "2026-10-18T06:21:45.000Z",
-        "url": "https://www.businesstimes.com.sg/international/asean/vietnam-signs-free-trade-pact-european-countries-including-norway-switzerland",
-        "imageUrl": "https://cassette.sphdigital.com.sg/image/businesstimes/3ffc422941550cdb86a1315690e4e363815bf7a2030d9c7504a29f12de6c9a4d?w=1200&f=webp",
+        "publishedAt": "2026-10-18T11:00:08.000Z",
+        "url": "https://www.businesstimes.com.sg/international/iran-urges-us-accept-proposal-reopen-strait-hormuz",
+        "imageUrl": "https://cassette.sphdigital.com.sg/image/businesstimes/48ec213514cdb5c3ecb766a68718db6bd336512156d951e9e678bda3ecb5703b?w=1200&f=webp",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-b27c07f6-6e3c-53bc-8170-ecd16b8dab5e",
-        "title": "The US-China grand bargain remains out of reach",
-        "description": "Two sides still divided on Taiwan despite plans for more Trump-Xi meetings",
-        "publisher": "Nikkei",
-        "publisherDomain": "asia.nikkei.com",
-        "publishedAt": "2026-10-18T06:15:50.000Z",
-        "url": "https://asia.nikkei.com/spotlight/comment/the-us-china-grand-bargain-remains-out-of-reach",
-        "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F3%2F3%2F6%2F9%2F13309633-1-eng-GB%2F03109832b099-illust_SXM2026100800004722-1-d.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+        "id": "currents-5f045c5f-be35-50cd-8c6d-dd79ad060231",
+        "title": "India Women Vs Zimbabwe Women Live Streaming: When And Where To Watch 2nd T20I",
+        "description": "Zimbabwe, led by Josephine Nkomo, will look to bounce back after their four-wicket defeat in the series opener against India.",
+        "publisher": "Ndtvprofit",
+        "publisherDomain": "ndtvprofit.com",
+        "publishedAt": "2026-10-18T10:51:29.000Z",
+        "url": "https://www.ndtvprofit.com/sports/india-women-vs-zimbabwe-women-cricket-live-streaming-when-and-where-to-watch-2nd-t20i-12197144",
+        "imageUrl": "https://c.ndtvimg.com/2026-10/iu4qbgm4_ind-vs-zim_625x300_17_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-ad2443eb-fd65-5ec0-ad40-6ca82c1a212f",
-        "title": "Golden Eaglets Miss 2027 U-17 AFCON, World Cup After WAFU-B Exit",
-        "description": "The Golden Eaglets of Nigeria have been eliminated from the 2026 WAFU-B U-17 Championship after drawing 1-1 with Ivory Coast in Ouagadougou, Burkina Faso,",
+        "id": "currents-72dbe8ac-f276-5547-a9aa-a2493ce541dd",
+        "title": "5 killed as car crashes into state transport bus in Maharshtra's Beed district",
+        "description": "Five individuals, including an 11-year-old boy, were killed in a car collision with a bus in Beed district. The accident occurred while the car swerved to avoid potholes on the highway. Victims were residents of Majalgaon and were en route to Tuljapur during the incident. Locals protested the poor r...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-10-18T10:49:09.000Z",
+        "url": "https://economictimes.indiatimes.com/news/india/5-killed-as-car-crashes-into-state-transport-bus-in-maharshtras-beed-district/articleshow/135027481.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-135027535,width-1200,height-900,imgsize-100898,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-da2e4e21-eb3f-5f17-b544-e3dfa046728c",
+        "title": "FRSC Ogun Sector Commander, Ogunjobi Dies After Brief Illness",
+        "description": "The Federal Road Safety Corps (FRSC) has announced the death of its Ogun State Sector Commander, Corps Commander Oludare Ogunjobi. Naija News reports that",
         "publisher": "Naijanews",
         "publisherDomain": "naijanews.com",
-        "publishedAt": "2026-10-18T06:08:10.000Z",
-        "url": "https://www.naijanews.com/2026/10/18/golden-eaglets-miss-2027-u-17-afcon-world-cup-wafu-b-exit",
-        "imageUrl": "https://www.naijanews.com/wp-content/uploads/2026/10/1792057906298.jpg",
+        "publishedAt": "2026-10-18T10:48:48.000Z",
+        "url": "https://www.naijanews.com/2026/10/18/frsc-ogun-sector-commander-ogunjobi-dies",
+        "imageUrl": "https://www.naijanews.com/wp-content/uploads/2026/10/Oludare-Ogunjobi.png",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-8d099547-0d49-585b-b39e-2f54141a607f",
-        "title": "Gavaskar says Hardik Pandya irreplaceable, India should stop looking for like-for-like replacement",
-        "description": "Sunil Gavaskar emphasized the need for India to strengthen their bowling attack in the recent T20 series. He highlighted that Hardik Pandya is irreplaceable and suggested exploring players who can take on different roles. Gavaskar also mentioned Naman Dhir's contributions with both bat and ball, adv...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-10-18T05:58:58.000Z",
-        "url": "https://economictimes.indiatimes.com/news/sports/cricket/gavaskar-says-hardik-pandya-irreplaceable-india-should-stop-looking-for-like-for-like-replacement/articleshow/135024591.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-135024601,width-1200,height-900,imgsize-45840,overlay-economictimes/articleshow.jpg",
+        "id": "currents-b1b6e026-7af6-5d3d-a613-bfb48c7d988a",
+        "title": "Brokerage Radar: PNB Gets Target Price Hikes; Crompton Greaves And Federal Bank Stay Under Bullish Lens",
+        "description": "Kotak Institutional Equities and J.P. Morgan raised their target prices on Punjab National Bank to Rs 130 and Rs 134. Kotak also maintained its bullish stance on Crompton Greaves Consumer Electricals and Federal Bank.",
+        "publisher": "Ndtvprofit",
+        "publisherDomain": "ndtvprofit.com",
+        "publishedAt": "2026-10-18T10:45:46.000Z",
+        "url": "https://www.ndtvprofit.com/markets/brokerage-radar-pnb-gets-target-price-hikes-crompton-greaves-and-federal-bank-stay-under-bullish-lens-12202502",
+        "imageUrl": "https://c.ndtvimg.com/2026-05/na6udlmo_markets_625x300_13_May_26.jpg?im=FaceCrop,algorithm=dnn,width=1600,height=900",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-a1c41ff3-9438-55fe-9fab-30b768a14bee",
-        "title": "Musk's criticism of Samsung, SK's memory chip pricing runs counter to market logic: expert - The Korea Times",
-        "description": "Tesla CEO Elon Musk’s latest criticism of Samsung Electronics and SK hynix over their memory chip pricing defies market realities, as any chipmaker...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-10-18T05:57:04.000Z",
-        "url": "https://www.koreatimes.co.kr/business/companies/20261018/musks-criticism-of-samsung-sks-memory-chip-pricing-runs-counter-to-market-logic-expert",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/10/18/dee9e350-919e-40db-9449-3914317f5cf3.jpg",
+        "id": "currents-15c32098-04bd-518d-a737-c8102a1ae7e4",
+        "title": "Cysic crypto bridge halted after unauthorized minting",
+        "description": "Cysic crypto bridge halted after uauthorized mint of 10 million CYS",
+        "publisher": "Cointelegraph",
+        "publisherDomain": "cointelegraph.com",
+        "publishedAt": "2026-10-18T10:43:12.000Z",
+        "url": "https://cointelegraph.com/news/cysic-crypto-bridge-halted-after-unauthorized-mint-of-10m-cys",
+        "imageUrl": "https://s3-images.ctmedia.io/media/article-covers/2026/10/01M579P8BRBQSA398D6CZ7DFCZ/hi-company-halts-bridge-after-reported-exploit.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-ea2727b4-4eb7-5c35-8734-c482ee5670e0",
-        "title": "Looting reported at stores in Paris, Lille amid massive unrest in France",
-        "description": "Hundreds of thousands of people took to the streets across France, Belgium, Italy and Portugal on Saturday to protest against rising living costs, low wages and deteriorating public services, with demonstrations turning violent in several cities. In France, an estimated 550,000 people participated i...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-10-18T05:57:00.000Z",
-        "url": "https://economictimes.indiatimes.com/news/short-videos/looting-reported-at-stores-in-paris-lille-amid-massive-unrest-in-france/videoshow/135024576.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-135024576,width-1200,height-900,overlay-economictimes/news/short-videos/looting-reported-at-stores-in-paris-lille-amid-massive-unrest-in-france.jpg",
+        "id": "currents-5fb2ab0a-ba0d-5149-a567-5a753083298d",
+        "title": "Katie Zacharia and the real problem with workers embellishing their credentials",
+        "description": "In this edition of Business Insider Today, we explore the reason why workers embellishing their credentials is a major problem.",
+        "publisher": "Businessinsider",
+        "publisherDomain": "businessinsider.com",
+        "publishedAt": "2026-10-18T10:43:01.000Z",
+        "url": "https://www.businessinsider.com/trump-press-secretary-zacharia-credentials-workers-2026-10",
+        "imageUrl": "https://i.insider.com/6ad28bb4e50b02f612be481c?width=1200&format=jpeg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-ba2f59c5-9a5d-5805-bfb4-3e5b7b3722a6",
-        "title": "Saudi helicopter crash near Yemen border kills 2; Houthis claim Apache takedown",
-        "description": "Two crew members died after a Saudi AH-6i helicopter crashed in the Najran region near the Yemen border due to a technical malfunction, the Saudi-led coalition said Sunday. The Houthis had claimed a day earlier that they shot down a Saudi Apache helicopter in the area, leaving it unclear whether bot...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-10-18T05:54:46.000Z",
-        "url": "https://economictimes.indiatimes.com/news/defence/saudi-helicopter-crash-near-yemen-border-kills-2-houthis-claim-apache-takedown/articleshow/135024531.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-135024550,width-1200,height-900,imgsize-105012,overlay-etdefence/articleshow.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-8b118b1f-24c3-5ced-8b8d-4925a54fedf7",
-        "title": "Trump Leaves Russia Sanctions Waiver Uncertain as Rubio Reviews Impact",
-        "description": "Trump leaves Russia sanctions waiver unresolved as Rubio launches a 60-day review amid rising oil prices and bipartisan opposition.",
-        "publisher": "Benzinga",
-        "publisherDomain": "benzinga.com",
-        "publishedAt": "2026-10-18T05:51:52.000Z",
-        "url": "https://www.benzinga.com/news/politics/26/10/62428890/trump-russia-sanctions-waiver-rubio-review",
-        "imageUrl": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/10/18/Donald-Trump-And-Vladimir-Putin-Official.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-9a290dfd-dfb7-51af-931b-b590ae769379",
-        "title": "Historic Limoges city hall goes up in flames amid nationwide protests in France",
-        "description": "Violent protests occurred across France as people expressed their frustration over rising living costs and inadequate school conditions. Interior Minister Laurent Nunez reported about 400 arrests were made during the demonstrations. While some protests were peaceful, others involved clashes with pol...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-10-18T05:49:40.000Z",
-        "url": "https://economictimes.indiatimes.com/news/short-videos/historic-limoges-city-hall-goes-up-in-flames-amid-nationwide-protests-in-france/videoshow/135024508.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-135024508,width-1200,height-900,overlay-economictimes/news/short-videos/historic-limoges-city-hall-goes-up-in-flames-amid-nationwide-protests-in-france.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-ae58bf2c-dff0-505d-8e70-3ae95740c006",
-        "title": "Ayan Lochab emerges as top buy at Rs 17.4 lakh in Kabaddi Champions League Season 2 auction",
-        "description": "Ayan Lochab was the top buy at the KCL Season 2 auction, joining Jhajjar Jaguars for Rs 17.4 lakh. Bharat Hooda and Naveen Goyat also secured high-value contracts with Karnal Kings and Kurukshetra Knights, respectively. Other notable purchases included Rakesh Singroha by Faridabad Fighters and Sumit...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-10-18T05:44:52.000Z",
-        "url": "https://economictimes.indiatimes.com/news/sports/other-sports/ayan-lochab-emerges-as-top-buy-at-rs-17-4-lakh-in-kabaddi-champions-league-season-2-auction/articleshow/135024444.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-135024443,width-1200,height-900,imgsize-137588,overlay-economictimes/articleshow.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-9f37934f-b2ad-5538-b6d8-f58552539255",
-        "title": "Formula 1 has a great fanbase in India, it has to come here, says Finnish great Mika Hakkinen",
-        "description": "Two-time Formula One world champion Mika Hakkinen believes India deserves a return to the F1 calendar, citing the country's huge fan base and business opportunities. In an exclusive interview with PTI, he also praised Mercedes rookie Kimi Antonelli, Max Verstappen's resurgence with Red Bull and Lewi...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-10-18T05:43:04.000Z",
-        "url": "https://economictimes.indiatimes.com/news/sports/other-sports/formula-1-has-a-great-fanbase-in-india-it-has-to-come-here-says-finnish-great-mika-hakkinen/articleshow/135024416.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-135024437,width-1200,height-900,imgsize-138196,overlay-economictimes/articleshow.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-92e11f51-58d6-59ef-80ee-9794a7ab3f4d",
-        "title": "Sandisk Is Dominating the S&P 500 in 2026. Can It Repeat in 2027?",
-        "description": "Key PointsThe market hasn't priced in any of 2027's growth.",
-        "publisher": "Nasdaq",
-        "publisherDomain": "nasdaq.com",
-        "publishedAt": "2026-10-18T05:50:00.000Z",
-        "url": "https://www.nasdaq.com/articles/sandisk-dominating-sp-500-2026-can-it-repeat-2027",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-0eb4910f-c541-58ad-849d-d67853753e7a",
-        "title": "Cyprus Business Now: weekly wrap-up",
-        "description": "Here are the top business stories in Cyprus from the week starting October 12: The Cyprus economy is forecast to grow next year despite the economic headwinds due to ongoing crises abroad, the finance minister said on Monday in presenting the state budget for 2027. Makis Keravnos said GDP growth…",
-        "publisher": "Cyprus Mail",
-        "publisherDomain": "cyprus-mail.com",
-        "publishedAt": "2026-10-18T06:00:00.000Z",
-        "url": "https://cyprus-mail.com/2026/10/18/cyprus-business-now-weekly-wrap-up-183",
-        "imageUrl": "https://cyprus-mail.com/wp-content/uploads/2026/10/cyprus-business-now-nicosia-photo-by-Kyriacos-Nicolaou-cyprus-mail-e1791815162800.jpg",
+        "id": "currents-b0a97a73-3254-5518-a418-a53166f3da16",
+        "title": "Leeds United vs Man United Live Streaming: Likely Lineups; How To Watch Premier League Match On TV, Online?",
+        "description": "Leeds United takes on Manchester United at home: All you need to Know about Sunday's Premier League Match.",
+        "publisher": "Ndtvprofit",
+        "publisherDomain": "ndtvprofit.com",
+        "publishedAt": "2026-10-18T10:42:38.000Z",
+        "url": "https://www.ndtvprofit.com/sports/leeds-united-vs-man-united-live-streaming-likely-lineups-how-to-watch-premier-league-match-on-tv-online-12197094",
+        "imageUrl": "https://c.ndtvimg.com/2026-10/a9s4d5a_man-united_625x300_17_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
         "categories": [
           "Top",
           "Business"
@@ -951,14 +937,14 @@
     ],
     "Technology": [
       {
-        "id": "currents-d880b9d2-ac75-5025-913b-b7cd81050ac8",
-        "title": "Supabase \"permission denied for table\" (42501) after 30 Oct 2026: the fix",
-        "description": "New Supabase tables need an explicit GRANT before the Data API can see them. How to read error 42501, tell it from the RLS error, and the exact SQL.",
+        "id": "currents-85ca6928-e5d7-586d-935d-4ce57c444158",
+        "title": "Building Privacy-First Patient Education Interfaces",
+        "description": "Healthcare websites increasingly use interactive forms, educational questionnaires, visual...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T06:19:56.000Z",
-        "url": "https://dev.to/vibefix/supabase-permission-denied-for-table-42501-after-30-oct-2026-the-fix-3jje",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyfggvusm0w75zz7rsu12.png",
+        "publishedAt": "2026-10-18T11:30:44.000Z",
+        "url": "https://dev.to/adinaone/building-privacy-first-patient-education-interfaces-2eln",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcf0wzzl6sz997f90645u.jpg",
         "categories": [
           "Top",
           "U.S.",
@@ -967,32 +953,128 @@
         ]
       },
       {
-        "id": "currents-b9061818-f14d-549a-a4d5-8123ccc012ed",
-        "title": "Handling React.lazy Chunk Load Errors After Deployment",
-        "description": "Why old browser tabs request missing chunks—and how react-lazy-chunk-recover handles the failure...",
+        "id": "currents-eb2312fa-a1c2-5b20-9ec9-e2e68e59263a",
+        "title": "Here's why I think this polynomial time SAT solver concept is correct",
+        "description": "Algorithm concept I've been working on a polynomial-time SAT solver concept for over a year. Here...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T06:19:49.000Z",
-        "url": "https://dev.to/sachith1/handling-reactlazy-chunk-load-errors-after-deployment-185a",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fc1pm3pfro3haq0if6z99.png",
+        "publishedAt": "2026-10-18T11:32:44.000Z",
+        "url": "https://dev.to/unknown_54d6ff44213776b51/heres-why-i-think-this-polynomial-time-sat-solver-concept-is-correct-4i16",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8k46u3qzi6pxod0dkxqc.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-4d71249e-964c-5267-b318-15bef289e9e8",
+        "title": "Save JSON from a cron job or GitHub Action",
+        "description": "Save a JSON result from a scheduled job to a stable URL, then read it from a static page or another...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:32:26.000Z",
+        "url": "https://dev.to/jstashapp/save-json-from-a-cron-job-or-github-action-2b1i",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fx1pzpeavmqraw974mids.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-6f523686-650a-5e2d-9f11-7bca104221cb",
+        "title": "Cross-Site Request Forgery (CSRF): When a Trusted Browser Becomes an Attack Tool",
+        "description": "Imagine logging into your banking application, then visiting a malicious website in another browser...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:32:00.000Z",
+        "url": "https://dev.to/omeiza_ahmed/cross-site-request-forgery-csrf-when-a-trusted-browser-becomes-an-attack-tool-3l5",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgp1cir5dr4n7uqjdv8mq.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-7cd9ff04-8e60-544c-9a81-7b99087a8c5d",
+        "title": "Combining Roblox and Robotics. Playing videogames by controlling the physical world.",
+        "description": "This is a submission for the MLH x DEV Writing Challenge What We Built Roblotix is a set...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:31:41.000Z",
+        "url": "https://dev.to/kushagrakatiyar06/combining-roblox-and-robotics-playing-videogames-by-controlling-the-physical-world-50nk",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnrbdthyx4hpsxkkjt0lz.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-7a202e7b-1a6c-56f3-9191-ec0c469b5fec",
+        "title": "Search finds documents. My graph finds consequences.",
+        "description": "How I built Premise, a company brain for engineering decisions, on FalkorDB for WeMakeDevs × FalkorDB...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:29:23.000Z",
+        "url": "https://dev.to/razeef_shaik/search-finds-documents-my-graph-finds-consequences-434o",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ff19o9vo44izaxii2g6vv.png",
         "categories": [
           "Top",
           "U.S.",
           "Technology",
           "Science"
+        ]
+      },
+      {
+        "id": "currents-eb020aed-d731-5b79-a061-2b75c11ff8a1",
+        "title": "How to see which companies are hiring right now (and what changed this week) from Greenhouse, Lever, Ashby and Workday boards",
+        "description": "A company's open roles hint at where its money is going next. If it adds five enterprise Account...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:34:43.000Z",
+        "url": "https://dev.to/amitaviv/how-to-see-which-companies-are-hiring-right-now-and-what-changed-this-week-from-greenhouse-5gci",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgm4wwg9es0dj79pd8pri.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-a8c79da8-3f2e-562b-92b1-15aa8840f9b8",
+        "title": "Screen2tutorial",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle ...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:32:34.000Z",
+        "url": "https://dev.to/dharamveer_singh_281fe25f/screen2tutorial-22f4",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F3vcdoqaiykuifz4bdo46.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
         ]
       }
     ],
     "Science": [
       {
-        "id": "currents-d880b9d2-ac75-5025-913b-b7cd81050ac8",
-        "title": "Supabase \"permission denied for table\" (42501) after 30 Oct 2026: the fix",
-        "description": "New Supabase tables need an explicit GRANT before the Data API can see them. How to read error 42501, tell it from the RLS error, and the exact SQL.",
+        "id": "currents-85ca6928-e5d7-586d-935d-4ce57c444158",
+        "title": "Building Privacy-First Patient Education Interfaces",
+        "description": "Healthcare websites increasingly use interactive forms, educational questionnaires, visual...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T06:19:56.000Z",
-        "url": "https://dev.to/vibefix/supabase-permission-denied-for-table-42501-after-30-oct-2026-the-fix-3jje",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyfggvusm0w75zz7rsu12.png",
+        "publishedAt": "2026-10-18T11:30:44.000Z",
+        "url": "https://dev.to/adinaone/building-privacy-first-patient-education-interfaces-2eln",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcf0wzzl6sz997f90645u.jpg",
         "categories": [
           "Top",
           "U.S.",
@@ -1001,228 +1083,322 @@
         ]
       },
       {
-        "id": "currents-b9061818-f14d-549a-a4d5-8123ccc012ed",
-        "title": "Handling React.lazy Chunk Load Errors After Deployment",
-        "description": "Why old browser tabs request missing chunks—and how react-lazy-chunk-recover handles the failure...",
+        "id": "currents-eb2312fa-a1c2-5b20-9ec9-e2e68e59263a",
+        "title": "Here's why I think this polynomial time SAT solver concept is correct",
+        "description": "Algorithm concept I've been working on a polynomial-time SAT solver concept for over a year. Here...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T06:19:49.000Z",
-        "url": "https://dev.to/sachith1/handling-reactlazy-chunk-load-errors-after-deployment-185a",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fc1pm3pfro3haq0if6z99.png",
+        "publishedAt": "2026-10-18T11:32:44.000Z",
+        "url": "https://dev.to/unknown_54d6ff44213776b51/heres-why-i-think-this-polynomial-time-sat-solver-concept-is-correct-4i16",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8k46u3qzi6pxod0dkxqc.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-4d71249e-964c-5267-b318-15bef289e9e8",
+        "title": "Save JSON from a cron job or GitHub Action",
+        "description": "Save a JSON result from a scheduled job to a stable URL, then read it from a static page or another...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:32:26.000Z",
+        "url": "https://dev.to/jstashapp/save-json-from-a-cron-job-or-github-action-2b1i",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fx1pzpeavmqraw974mids.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-6f523686-650a-5e2d-9f11-7bca104221cb",
+        "title": "Cross-Site Request Forgery (CSRF): When a Trusted Browser Becomes an Attack Tool",
+        "description": "Imagine logging into your banking application, then visiting a malicious website in another browser...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:32:00.000Z",
+        "url": "https://dev.to/omeiza_ahmed/cross-site-request-forgery-csrf-when-a-trusted-browser-becomes-an-attack-tool-3l5",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgp1cir5dr4n7uqjdv8mq.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-7cd9ff04-8e60-544c-9a81-7b99087a8c5d",
+        "title": "Combining Roblox and Robotics. Playing videogames by controlling the physical world.",
+        "description": "This is a submission for the MLH x DEV Writing Challenge What We Built Roblotix is a set...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:31:41.000Z",
+        "url": "https://dev.to/kushagrakatiyar06/combining-roblox-and-robotics-playing-videogames-by-controlling-the-physical-world-50nk",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnrbdthyx4hpsxkkjt0lz.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-7a202e7b-1a6c-56f3-9191-ec0c469b5fec",
+        "title": "Search finds documents. My graph finds consequences.",
+        "description": "How I built Premise, a company brain for engineering decisions, on FalkorDB for WeMakeDevs × FalkorDB...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:29:23.000Z",
+        "url": "https://dev.to/razeef_shaik/search-finds-documents-my-graph-finds-consequences-434o",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ff19o9vo44izaxii2g6vv.png",
         "categories": [
           "Top",
           "U.S.",
           "Technology",
           "Science"
+        ]
+      },
+      {
+        "id": "currents-eb020aed-d731-5b79-a061-2b75c11ff8a1",
+        "title": "How to see which companies are hiring right now (and what changed this week) from Greenhouse, Lever, Ashby and Workday boards",
+        "description": "A company's open roles hint at where its money is going next. If it adds five enterprise Account...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:34:43.000Z",
+        "url": "https://dev.to/amitaviv/how-to-see-which-companies-are-hiring-right-now-and-what-changed-this-week-from-greenhouse-5gci",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgm4wwg9es0dj79pd8pri.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-a8c79da8-3f2e-562b-92b1-15aa8840f9b8",
+        "title": "Screen2tutorial",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle ...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T11:32:34.000Z",
+        "url": "https://dev.to/dharamveer_singh_281fe25f/screen2tutorial-22f4",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F3vcdoqaiykuifz4bdo46.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
         ]
       }
     ],
     "Sports": [
       {
-        "id": "currents-70e29161-1bee-58b5-84d6-da61f274c2ef",
-        "title": "Washington Spirit clinch NWSL playoff berth as Gotham miss chance to seal Shield",
-        "description": "Lucia Di Guglielmo’s first NWSL goal sent Washington into the playoffs, while San Diego, Angel City and Kansas City also claimed victories on Saturday.",
-        "publisher": "The Guardian",
-        "publisherDomain": "theguardian.com",
-        "publishedAt": "2026-10-18T06:03:37.000Z",
-        "url": "https://www.theguardian.com/football/2026/oct/18/washington-spirit-gotham-nwsl-playoffs-shield-results",
-        "imageUrl": "https://i.guim.co.uk/img/media/f34d9247686e3becc33a37fc91529894f6495945/461_23_4066_3255/master/4066.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4c5c7f16ebf8085124872fff8f75bc4d",
+        "id": "currents-e77c831a-d44b-531e-a4a7-0babd812958a",
+        "title": "Alberta nurses leaving profession as staffing contributes to longer ER waits: report",
+        "description": "For every 100 new nursing school graduates hitting Alberta’s health care workforce, 36 nurses under age 35 are leaving the field, choosing not to renew their licences. Piled on top of physician shortages, bed shortages and the respiratory season, the figures are contributing to snowballing problemat...",
+        "publisher": "Edmontonjournal",
+        "publisherDomain": "edmontonjournal.com",
+        "publishedAt": "2026-10-18T11:00:17.000Z",
+        "url": "https://edmontonjournal.com/news/local-news/alberta-nurses-staffing-emergency-health-care",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-d9fa17fb-5059-59ed-8f11-7b1faf03480a",
-        "title": "Women's Super League: Fran Kirby 'stressed' by exit of boss Dario Vidosic",
-        "description": "Former England striker Fran Kirby says the departure of Brighton head coach Dario Vidosic on the eve of the season left her feeling \"stressed\" and \"disappointed\".",
-        "publisher": "BBC News",
-        "publisherDomain": "bbc.co.uk",
-        "publishedAt": "2026-10-18T05:49:25.000Z",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cjly05yn12w5o",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/87d7/live/5703fb40-c7db-11f1-9a39-31b474234113.jpg",
+        "id": "currents-6da0ac62-3192-50c7-899c-3bf2757e5799",
+        "title": "Curva Sud announce boycott of Udinese game over pricing: \"The shame repeats itself!\"",
+        "description": "AC Milan will not have their usual vocal backing in one week for the Udinese game as the Curva Sud have announced a boycott.",
+        "publisher": "Sempremilan",
+        "publisherDomain": "sempremilan.com",
+        "publishedAt": "2026-10-18T11:30:00.000Z",
+        "url": "https://sempremilan.com/curva-sud-boycott-udinese-pricing-shame",
+        "imageUrl": "https://icdn.sempremilan.com/wp-content/uploads/2026/10/udinese-calcio-v-ac-milan-serie-a-4.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-5ac8e56e-773a-56b4-8d0b-41fdd27eb010",
-        "title": "Projecting the College Football Playoff top 12 at midseason",
-        "description": "We assess how the selection committee could stack the top teams in the country at midseason.",
+        "id": "currents-c71d95eb-122b-567f-b085-aa157c4064a4",
+        "title": "Ranking the top 10 rookie performances in Super Bowl history",
+        "description": "Which rookies made a name from themselves in the Super Bowl? We list 10 standout performances, plus honorable mentions.",
         "publisher": "ESPN",
         "publisherDomain": "espn.com",
-        "publishedAt": "2026-10-18T06:27:57.000Z",
-        "url": "https://www.espn.com/college-football/story/_/id/50204253/projecting-2026-playoff-top-12-week-7-cfp",
-        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1017%2Fr1732189_1296x729_16%2D9.jpg",
+        "publishedAt": "2026-10-18T11:24:42.000Z",
+        "url": "https://www.espn.com/nfl/story/_/id/50197687/top-10-super-bowl-rookie-performances-history",
+        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F1224%2Fr1431509_1296x729_16%2D9.jpg",
         "categories": [
-          "Sports",
-          "Top",
-          "U.S."
+          "Sports"
         ]
       },
       {
-        "id": "currents-4acfcf44-42a4-5dc2-a7dd-3eaf18c74764",
-        "title": "Liverpool still have ‘lots to improve’, says match-winner Isak",
-        "description": "The Swede said the team need to learn to just keep the ball and see out the game. Read more at straitstimes.com.",
+        "id": "currents-4b35fbb1-7c7c-525b-9e53-045ff457f661",
+        "title": "Tigers ace Oller makes strong KBO postseason debut - The Korea Times",
+        "description": "JEONNAM-GWANGJU SPECIAL METROPOLITAN CITY — Kia Tigers starting pitcher Adam Oller made his first South Korean postseason game a memorable one Sund...",
+        "publisher": "Co",
+        "publisherDomain": "koreatimes.co.kr",
+        "publishedAt": "2026-10-18T11:17:03.000Z",
+        "url": "https://www.koreatimes.co.kr/sports/20261018/tigers-ace-oller-makes-strong-kbo-postseason-debut",
+        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/10/18/c6b69dbd-bdc9-4c99-85a5-db357dd36cff.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-4c5880aa-c08f-566b-b07d-22d81aabab42",
+        "title": "Big 12 admits error in Notre Dame-BYU, says Irish had time for one more play",
+        "description": "The Big 12 said it incorrectly ended Saturday night's game between BYU and Notre Dame and that the Irish should have had another second on the clock to run a final play.",
+        "publisher": "ESPN",
+        "publisherDomain": "espn.com",
+        "publishedAt": "2026-10-18T11:22:19.000Z",
+        "url": "https://www.espn.com/college-football/story/_/id/50208529/big-12-admits-error-says-notre-dame-had-one-more-play",
+        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1018%2Fr1732327_1296x729_16%2D9.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-7ca783c2-d5b4-5bd2-81e5-1a1e4dd242fd",
+        "title": "Autumn Glow shines in King Charles III Stakes",
+        "description": "Read more at straitstimes.com.",
         "publisher": "Straitstimes",
         "publisherDomain": "straitstimes.com",
-        "publishedAt": "2026-10-18T06:14:14.000Z",
-        "url": "https://www.straitstimes.com/sport/liverpool-still-have-lots-to-improve-says-match-winner-isak",
-        "imageUrl": "https://cassette.sphdigital.com.sg/image/straitstimes/e11b8b0674eac630d485175acc63aa9560607f61f0c4aa1b9df7b9754df6bcbf?w=1200",
+        "publishedAt": "2026-10-18T11:16:20.000Z",
+        "url": "https://www.straitstimes.com/sport/racing/autumn-glow-shines-in-king-charles-iii-stakes",
+        "imageUrl": "https://cassette.sphdigital.com.sg/image/straitstimes/2c159cc43a886a122d5568ccf2142faab5e2a5a46d34550128365ab3c0e7a9ca?w=1200",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-01502dd4-4e12-5782-ab98-363b1b2d7ce8",
-        "title": "BBC Sport's daily football quizzes: Who Am I?, Five in Five and Brainteaser",
-        "description": "Test your ball knowledge against today's Who Am I?, Five in Five and Brainteaser.",
-        "publisher": "BBC News",
-        "publisherDomain": "bbc.co.uk",
-        "publishedAt": "2026-10-18T05:46:16.000Z",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cwn8dzjp41d1o",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/1fbf/live/38bd3c70-bda7-11f1-bc2e-018d645d8d21.png",
+        "id": "currents-593f9443-6fed-5fc5-95b8-0cfc91539c46",
+        "title": "Prep talk: John McLellan, 13, shows off his kart racing skills in Italy",
+        "description": "Redondo Beach eighth-grader finishes third at FIA Karting World Cup Junior Final in Italy",
+        "publisher": "Latimes",
+        "publisherDomain": "latimes.com",
+        "publishedAt": "2026-10-18T11:15:00.000Z",
+        "url": "https://www.latimes.com/sports/highschool/story/2026-10-18/prep-talk-john-mclellan-13-shows-off-kart-racing-skills",
+        "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/ebf712a/2147483647/strip/true/crop/4030x2116+0+991/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F03%2F54%2F43e5635f4334a67f5036690960b2%2Fjohnjohnjohn-johnjohn-mclellan.jpeg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-476d3c88-6fef-58b4-a9e3-c82a683077ce",
-        "title": "Gio Lopez throws 4 TD passes to lead No. 21 Wake Forest past California 41-7",
-        "description": "BERKELEY, Calif. (AP) — Gio Lopez threw three of his four touchdown passes in the first half and No. 21 Wake Forest rolled past California 41-7 on Saturday night.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-18T06:04:34.000Z",
-        "url": "https://www.winnipegfreepress.com/uncategorized/2026/10/18/gio-lopez-throws-4-td-passes-to-lead-no-21-wake-forest-past-california-41-7",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ad46163f5f2c4b475f20b94jpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-ee2b2822-2a20-519a-a448-2577a89ffb38",
-        "title": "PICTURE: Jose Canseco's daughter Josie dons multi-colored bikini, soaks up the sun with furry companions",
-        "description": "Legendary Athletics slugger Jose Canseco's daughter, Josie, has caught the attention of baseball fans by sharing her stylish outfit choices on social media.",
-        "publisher": "Sportskeeda",
-        "publisherDomain": "sportskeeda.com",
-        "publishedAt": "2026-10-18T06:04:14.000Z",
-        "url": "https://www.sportskeeda.com/baseball/news-picture-jose-canseco-s-daughter-josie-dons-multi-colored-bikini-soaks-sun-furry-companions",
-        "imageUrl": "https://staticg.sportskeeda.com/editor/2026/10/8a51f-17923030662654-1920.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-09cce977-98d4-5222-afee-742ac3893361",
-        "title": "Red-zone failures cost No. 2 Notre Dame against No. 8 BYU",
-        "description": "PROVO, Utah (AP) — Missed chances in the red zone doomed Notre Dame against BYU.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-18T06:03:00.000Z",
-        "url": "https://www.winnipegfreepress.com/uncategorized/2026/10/18/red-zone-failures-cost-no-2-notre-dame-against-no-8-byu",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ad46101f5f2c4b475f20a8bjpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-034a15aa-a9ba-57c1-8da2-e582856456a2",
-        "title": "\"There's definitely a reason\" - Dana White refuses to elaborate why 16-0 Farid Basharat was let go",
-        "description": "Dana White was asked about Farid Basharat's exit from the promotion, and the UFC CEO didn't exactly explain the decision by the company.",
-        "publisher": "Sportskeeda",
-        "publisherDomain": "sportskeeda.com",
-        "publishedAt": "2026-10-18T05:59:24.000Z",
-        "url": "https://www.sportskeeda.com/mma/news-there-s-definitely-reason-dana-white-refuses-elaborate-16-0-farid-basharat-let-go",
-        "imageUrl": "https://staticg.sportskeeda.com/editor/2026/10/85080-17923024828462-1920.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-2fc18e4b-ee46-591d-a9dc-17285c123184",
-        "title": "What Happened Behind Closed Doors? Gunner Brewer Says Coach Called Him Disrespectful",
-        "description": "Mesa quarterback Gunner Brewer says Desert Ridge’s coach cut him for changing a play in a 14-12 win. Now 12 teammates who backed him are suspended for the season, and parents are demanding answers as the school tells a different story.",
+        "id": "currents-bb627d35-cc4e-574a-83a8-cc3dfb727992",
+        "title": "East Bengal vs Churchill Brothers Free Live Streaming ISL 2026-27 Live Telecast: When And Where To Watch",
+        "description": "East Bengal vs Churchill Brothers Free Live Streaming ISL 2026-27 Live Telecast: When And Where To Watch",
         "publisher": "Ndtv",
         "publisherDomain": "sports.ndtv.com",
-        "publishedAt": "2026-10-18T05:57:00.000Z",
-        "url": "https://sports.ndtv.com/us/nfl/what-happened-behind-closed-doors-gunner-brewer-says-coach-called-him-disrespectful-12201697",
-        "imageUrl": "https://c.ndtvimg.com/2026-10/a2un98ug_what-happened-behind-closed-doors-gunner-brewers-story_625x300_18_October_26.png?im=FaceCrop,algorithm=dnn,width=1600,height=900",
+        "publishedAt": "2026-10-18T11:15:00.000Z",
+        "url": "https://sports.ndtv.com/indian-super-league/east-bengal-vs-churchill-brothers-free-live-streaming-isl-2026-27-live-telecast-when-and-where-to-watch-12202645",
+        "imageUrl": "https://c.ndtvimg.com/2026-10/trah4jcs_east-bengal-_625x300_18_October_26.jpg?im=FaceCrop,algorithm=dnn,width=1600,height=900",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-3c7b2b63-db71-556b-be30-d2a6010cd958",
-        "title": "\"Completely disrespectful\" - Iga Swiatek's physio faces fan backlash after revealing details of emotional Wuhan Open exchange",
-        "description": "Iga Swiatek's campaign at the 2026 Wuhan Open ended in tears as she struggled to compete against Maja Chwalinska in their blockbuster all-Polish semifinal.",
+        "id": "currents-6c8bb020-4be8-5627-a8aa-7f716980fdd7",
+        "title": "Where is Mohammed Shami? Veteran pacer’s absence from Ranji Trophy after New Zealand snub sparks debate",
+        "description": "Mohammed Shami’s absence from the Ranji Trophy has sparked questions following his omission from India’s plans for the New Zealand series. With the veteran fast bowler missing from the domestic cricket spotlight, attention has turned to his prospects of returning to the Indian team.",
+        "publisher": "Dnaindia",
+        "publisherDomain": "dnaindia.com",
+        "publishedAt": "2026-10-18T11:13:00.000Z",
+        "url": "https://www.dnaindia.com/cricket/report-where-is-mohammed-shami-veteran-pacer-s-absence-from-ranji-trophy-after-new-zealand-snub-sparks-debate-3222539",
+        "imageUrl": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2026/10/18/2760479-untitled-design-2026-10-18t164339.617.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-b41d2b65-5840-5362-9df7-88139c779630",
+        "title": "How to easily farm Active Mycelium in Enshrouded 1.0",
+        "description": "Active Mycelium is a material in Enshrouded used for crafting gear and consumables.",
         "publisher": "Sportskeeda",
         "publisherDomain": "sportskeeda.com",
-        "publishedAt": "2026-10-18T05:52:37.000Z",
-        "url": "https://www.sportskeeda.com/tennis/news-completely-disrespectful-iga-swiatek-s-physio-faces-fan-backlash-revealing-details-emotional-wuhan-open-exchange",
-        "imageUrl": "https://staticg.sportskeeda.com/editor/2026/10/fdd7d-17923019527163-1920.jpg",
+        "publishedAt": "2026-10-18T11:01:27.000Z",
+        "url": "https://www.sportskeeda.com/mmo/how-easily-farm-active-mycelium-enshrouded-1-0",
+        "imageUrl": "https://staticg.sportskeeda.com/editor/2026/10/a34da-17923089155431-1920.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-946f0ef9-ad7b-5d45-b3b2-49e37a0c153a",
-        "title": "Who Is Gunner Brewer? Meet The Desert Ridge Quarterback At The Center Of The Audible Dispute",
-        "description": "Desert Ridge QB Gunner Brewer changed one play in a 14-12 win and lost his spot on the team. His coach called it disrespect, and 12 teammates who backed him were suspended for the season.",
-        "publisher": "Ndtv",
-        "publisherDomain": "sports.ndtv.com",
-        "publishedAt": "2026-10-18T05:48:00.000Z",
-        "url": "https://sports.ndtv.com/us/nfl/who-is-gunner-brewer-meet-the-desert-ridge-quarterback-at-the-center-of-the-audible-dispute-12201669",
-        "imageUrl": "https://c.ndtvimg.com/2026-10/nauansjk_who-is-gunner-brewer-quarterback-at-the-center-of-audible-dispute_625x300_18_October_26.png?im=FaceCrop,algorithm=dnn,width=1600,height=900",
+        "id": "currents-6189b162-fdfd-59ac-b5d9-6f4aaa865f65",
+        "title": "Rival boss makes Hibs prediction after facing Marink Reedijk",
+        "description": "Falkirk got the better of Hibs at the weekend in a narrow win at Easter Road.",
+        "publisher": "Scotsman",
+        "publisherDomain": "edinburghnews.scotsman.com",
+        "publishedAt": "2026-10-18T11:00:57.000Z",
+        "url": "https://www.edinburghnews.scotsman.com/sport/football/hibs/rival-boss-makes-hibs-prediction-after-facing-marink-reedijk-9294390",
+        "imageUrl": "https://www.edinburghnews.scotsman.com/jpim-static/image/2026/10/18/7/49/21820915.jpg?trim=0,43,0,42&crop=&width=1200&auto=webp&quality=75",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-1807cc56-eace-50ca-b122-c282c4da9e3e",
-        "title": "Rays pitcher Nick Martinez shuts down Guardians in Game 4 of ALCS to help even series",
-        "description": "CLEVELAND (AP) — Rays pitcher Freddy Peralta affectionately referred to Nick Martinez as “a horse.” Tampa Bay outfielder Chandler Simpson praised him for being “a dog.”",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-18T05:47:50.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/baseball/2026/10/18/rays-pitcher-nick-martinez-shuts-down-guardians-in-game-4-of-alcs-to-help-even-series",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ad45d7bc9a729daf119c3eejpeg.jpg?w=1600",
+        "id": "currents-e76db910-dfa1-5cb5-a7ce-bdbfcb1c353d",
+        "title": "From village to the podium: Five unseen stories behind India's contingent",
+        "description": "Indian para athletes arrive in Aichi Nagoya for the fifth edition of the Asian Para Games with high expectations.A host of defending champions and record holders across disciplines add depth to the...",
+        "publisher": "Thebridge",
+        "publisherDomain": "thebridge.in",
+        "publishedAt": "2026-10-18T11:00:39.000Z",
+        "url": "https://thebridge.in/asian-para-games/from-village-to-the-podium-five-unseen-stories-behind-indias-contingent-58068",
+        "imageUrl": "https://thebridge.in/h-upload/2025/10/06/63709-nishad-kumar.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-ecd24ddb-8a2a-54c5-9d6c-8031104b1b10",
-        "title": "SRAM set sights on Olympic glory, build grassroots for future",
-        "description": "PETALING JAYA: Newly elected Squash Racquets Association of Malaysia (SRAM) president Tunku Zain Al-'Abidin Tuanku Muhriz is keen to build on the sport's success while strengthening its grassroots pipeline ahead of squash's Olympic debut.",
-        "publisher": "Com",
-        "publisherDomain": "thestar.com.my",
-        "publishedAt": "2026-10-18T05:43:27.000Z",
-        "url": "https://www.thestar.com.my/sport/squash/2026/10/18/sram-set-sights-on-olympic-glory-build-grassroots-for-future",
-        "imageUrl": "https://apicms.thestar.com.my/uploads/images/2026/10/18/4167421.jpg",
+        "id": "currents-5ef567cd-b917-5d61-840b-512b858a2506",
+        "title": "Former Hearts striker impressed by trio as he assesses Celtic clash",
+        "description": "The former Hearts striker has been looking ahead to the club’s clash vs Celtic.",
+        "publisher": "Scotsman",
+        "publisherDomain": "edinburghnews.scotsman.com",
+        "publishedAt": "2026-10-18T11:00:30.000Z",
+        "url": "https://www.edinburghnews.scotsman.com/sport/football/hearts/former-hearts-striker-impressed-trio-how-jambos-can-put-celtic-under-pressure-9293920",
+        "imageUrl": "https://www.edinburghnews.scotsman.com/jpim-static/image/2026/10/17/13/44/21819240.jpg?trim=0,52,0,52&crop=&width=1200&auto=webp&quality=75",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-86995e4b-b942-58b2-a96e-cf12168e9af0",
-        "title": "Military officer falls while rappelling from Alamodome rafters before UTSA game",
-        "description": "submitted by /u/804Brady [link] [comments]",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-10-18T06:14:17.000Z",
-        "url": "https://www.reddit.com/r/sports/comments/1x8vu4h/military_officer_falls_while_rappelling_from",
+        "id": "currents-3f20b8b5-5971-51ec-9d6c-d77b39028723",
+        "title": "Mercedes explains why its upgrade made its F1 car harder to drive",
+        "description": "The upgrades delivered the extra downforce Mercedes was targeting, but not the consistently across all conditions. The resulting shift in aero balance pushed the W17 too far towards the front, narrowing its operating window. The team's focus is now on set-up changes to find a better balance to unloc...",
+        "publisher": "Autosport",
+        "publisherDomain": "autosport.com",
+        "publishedAt": "2026-10-18T11:00:03.000Z",
+        "url": "https://www.autosport.com/f1/news/mercedes-explains-why-its-upgrade-made-its-f1-car-harder-to-drive/10866035",
+        "imageUrl": "https://cdn-3.motorsport.com/images/amp/2jEAGLp0/s6/andrea-kimi-antonelli-mercedes.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-d4a0af0f-d7c3-54c1-9454-9b98796e7d8d",
-        "title": "New Mexico rides Fa'Avae', Humphrey in Lobos' 21-10 win over Hawaii",
-        "description": "HONOLULULU (AP) — Toa Fa",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-18T06:17:39.000Z",
-        "url": "https://www.winnipegfreepress.com/uncategorized/2026/10/18/new-mexico-rides-faavae-humphrey-in-lobos-21-10-win-over-hawaii",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
+        "id": "currents-c9358fb3-fae5-58dc-912b-1b54c62436fa",
+        "title": "McKennah Iamaleava making name for herself in volleyball",
+        "description": "The Long Beach Poly High senior is one of eight siblings who play volleyball. She and sister Ellie, who is a junior, star for the Jackrabbits.",
+        "publisher": "Latimes",
+        "publisherDomain": "latimes.com",
+        "publishedAt": "2026-10-18T11:00:00.000Z",
+        "url": "https://www.latimes.com/sports/highschool/story/2026-10-18/mckennah-iamaleava-making-name-for-herself-in-volleyball",
+        "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/a3c3c4c/2147483647/strip/true/crop/1280x672+0+0/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F92%2Fd4%2Fd16dfbd44cc3a0b7ebdd0df2ee32%2F4l1a6853.jpeg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-efe6e48a-020e-55d6-b34a-64e8bcddb4b5",
+        "title": "\"I can't say anything negative\" - PSG boss Enrique defends Milan's record signing Ramos",
+        "description": "Luis Enrique is regarded by many as the best manager in Europe at the moment, so his words on Goncalo Ramos should be taken note of.",
+        "publisher": "Sempremilan",
+        "publisherDomain": "sempremilan.com",
+        "publishedAt": "2026-10-18T11:00:00.000Z",
+        "url": "https://sempremilan.com/psg-enrique-defends-milan-ramos",
+        "imageUrl": "https://icdn.sempremilan.com/wp-content/uploads/2026/10/paris-saint-germain-training-session-and-press-conference-uefa-super-cup-2026.jpg",
         "categories": [
           "Sports"
         ]
@@ -1230,209 +1406,208 @@
     ],
     "Entertainment": [
       {
-        "id": "currents-a13fde32-d745-5fd7-b22d-296f9b4af518",
-        "title": "Halle Berry spotted in public ahead of custody battle for 13-year-old son",
-        "description": "Halle Berry has made headlines recently after her ex, Olivier Martinez, accused her of abusing their 13-year-old son. Ahead of the custody hearing in court, the actress was spotted out and about on a rare outing with her fiancé, Van Hunt.",
-        "publisher": "Indiatimes",
-        "publisherDomain": "timesofindia.indiatimes.com",
-        "publishedAt": "2026-10-18T05:51:50.000Z",
-        "url": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/halle-berry-steps-out-with-van-hunt-amid-ongoing-custody-battle/articleshow/135024514.cms",
-        "imageUrl": "https://static.toiimg.com/thumb/msid-135024526,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-b4c2a00f-d880-53de-b8f1-529e2d6cfff9",
-        "title": "‘She lit up the room’: Oregon school shooting victim Megan Lambert remembered for helping others",
-        "description": "Megan Lambert was among four people killed when a gunman opened fire in a special education classroom at the elementary school on Thursday",
-        "publisher": "Meaww",
-        "publisherDomain": "news.meaww.com",
-        "publishedAt": "2026-10-18T05:32:55.000Z",
-        "url": "https://news.meaww.com/she-lit-up-the-room-oregon-school-shooting-victim-megan-lambert-remembered-for-helping-others",
-        "imageUrl": "https://media.pubninja.com/articles/brand-6/covers/1792298764406_ec0769697863.jpg_1200_630",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-7ef90e12-4870-5cf5-9134-36146521bb5e",
-        "title": "Jenna Dewan's new DWTS partner revealed after Val Chmerkovskiy pulled",
-        "description": "Jenna Dewan's new Dancing With The Stars partner has been revealed after Val Chmerkovskiy's suspension from the dance competition series.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-10-18T05:24:24.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16217739/jenna-dewan-new-dwts-partner-val-chmerkovskiy-suspension-joke-oscars-slap.html?ns_campaign=1490&ito=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/10/18/00/111928825-0-image-m-27_1792281384019.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-48bc4df7-3605-5a6f-a99d-2cd20d269b8f",
-        "title": "Prince William's unflattering nickname that landed Mike Tindall 'in trouble'",
-        "description": "Prince William's cousin Zara Tindall previously appeared on a podcast with her former rugby player husband Mike Tindall - and on it, Mike revealed what he likes to call the Prince of Wales when they get together",
-        "publisher": "Mirror",
-        "publisherDomain": "mirror.co.uk",
-        "publishedAt": "2026-10-18T06:11:22.000Z",
-        "url": "https://www.mirror.co.uk/news/royals/prince-william-mike-tindall-royal-37772087",
-        "imageUrl": "https://i2-prod.mirror.co.uk/article37489587.ece/ALTERNATES/s1200d/1_Royal-Ascot-Day-1-UK-18-Jun-2019.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-a93c8374-4324-5fff-83e7-bcbc424dc9f4",
-        "title": "32 Pretty Kitchen Items Under $15 To Spruce The Place Up",
-        "description": "Add a little ~something something~ with these adorable 3D flower vase magnets and the cutest rainbow-flecked drying mats you ever did see.",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-10-18T06:01:02.000Z",
-        "url": "https://www.buzzfeed.com/emmalord9/pretty-kitchen-items-under-15-an",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-09/03/15/thumb/D0cJPmuED.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-41dd020a-139e-5ff3-9089-57cadd6190b0",
-        "title": "Jo Malone fans snap up bauble with 'gorgeous' perfume in deal",
-        "description": "Early Christmas shoppers looking for the perfect Secret Santa gift or stocking filler can save nearly £12 on a beauty ornament from Jo Malone with a money-saving deal",
-        "publisher": "Mirror",
-        "publisherDomain": "mirror.co.uk",
-        "publishedAt": "2026-10-18T06:01:00.000Z",
-        "url": "https://www.mirror.co.uk/money/shopping-deals/jo-malone-christmas-beauty-bauble-37779924",
-        "imageUrl": "https://i2-prod.mirror.co.uk/article37780270.ece/ALTERNATES/s1200d/0_jo-malone-christmas-baubles.png",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-08d8f870-0858-59e8-acca-6847c7bbebff",
-        "title": "JD Vance says there’s a ‘chance’ he’ll run for president in 2028",
-        "description": "JD Vance added that he would need to give the matter more thought, particularly after the 2026 midterm elections",
-        "publisher": "Meaww",
-        "publisherDomain": "news.meaww.com",
-        "publishedAt": "2026-10-18T05:42:57.000Z",
-        "url": "https://news.meaww.com/jd-vance-says-theres-a-chance-hell-run-for-president-in-2028",
-        "imageUrl": "https://media.pubninja.com/articles/brand-6/covers/1792298660956_174658fb1e05.jpg_1200_630",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-79d72d7a-a2ab-5273-92b6-5dee5af16097",
-        "title": "Fact Check: Did millions of Americans offer Trump $90 to resign?",
-        "description": "A viral Facebook post claimed millions offered Donald Trump $90 to resign after he announced Medicare payments for seniors",
-        "publisher": "Meaww",
-        "publisherDomain": "news.meaww.com",
-        "publishedAt": "2026-10-18T05:32:56.000Z",
-        "url": "https://news.meaww.com/fact-check-did-millions-of-americans-offer-trump-90-to-resign",
-        "imageUrl": "https://media.pubninja.com/articles/brand-6/covers/1792300830341_07d5648c7b7a.jpg_1200_630",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-df0a0958-eb38-5cd7-a1e2-a4f87c92183e",
-        "title": "The Hunger Games filmmaker adapting new dystopian sci-fi series",
-        "description": "Francis Lawrence is adapting a new dystopian sci-fi series.The Hunger Games filmmaker has joined forces with Paramount Pictures and will direct the upcoming movie based on the Red Rising series from author Pierce Brown, according to The Hollywood Reporter.Justin Rhodes, who previously worked with La...",
-        "publisher": "Asiaone",
-        "publisherDomain": "asiaone.com",
-        "publishedAt": "2026-10-18T05:32:04.000Z",
-        "url": "https://www.asiaone.com/entertainment/hunger-games-filmmaker-adapting-new-dystopian-sci-fi-series",
-        "imageUrl": "https://www.asiaone.com/sites/default/files/styles/article_top_image/public/original_images/Oct2026/181026_francis_ap.jpg?itok=fz3LeRK-",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-2096e0b0-59d5-577c-8dea-1e9f31652836",
-        "title": "27 Things From Old Navy To Update Your Wardrobe Without Breaking Your Budget",
-        "description": "Old Navy: Dangerously good for your wardrobe, ridiculously safe for your wallet.",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-10-18T05:31:02.000Z",
-        "url": "https://www.buzzfeed.com/ashleyschumacher/things-from-old-navy-to-update-your-wardrobe",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/13/16/thumb/rbaXRFljA.jpg?crop=2999:1570;0,2%26downsize=1250:*",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-a198d795-0e73-5041-ad65-1838ce32c781",
-        "title": "Elizabeth Holmes’ Black Turtleneck Was About Steve Jobs and More, Fashion Experts Say",
-        "description": "With Nathan Fielder's new documentary in theaters, fashion experts explain what Elizabeth Holmes' black turtleneck was meant to convey.",
-        "publisher": "Wwd",
-        "publisherDomain": "wwd.com",
-        "publishedAt": "2026-10-18T05:30:00.000Z",
-        "url": "https://wwd.com/pop-culture/culture-news/elizabeth-holmes-black-turtleneck-you-can-see-everything-1239365769",
-        "imageUrl": "https://wwd.com/wp-content/uploads/2024/04/Elizabeth-Holmes.jpeg?w=1000&h=563&crop=1",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-5e168a17-6dc7-5670-b67f-3da6f802afd2",
-        "title": "Nayyi Navelli box office collection Day 2: Yami Gautam’s film earns over Rs 10 crore",
-        "description": "Nayyi Navelli box office collection Day 2: The Yami Gautam horror-comedy earned Rs 4 crore net in India on Saturday, taking its worldwide gross to Rs 10.13 crore.",
-        "publisher": "Indianexpress",
-        "publisherDomain": "indianexpress.com",
-        "publishedAt": "2026-10-18T05:10:19.000Z",
-        "url": "https://indianexpress.com/article/bollywood/nayyi-navelli-box-office-collection-day-2-yami-gautams-film-earns-over-rs-10-crore-10926575",
-        "imageUrl": "https://images.indianexpress.com/2026/10/Nayyi-Navelli.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-1f8c952c-cd43-52c5-9dec-2076f5e773b3",
-        "title": "Jenny McCarthy claims Tom Cruise tried to recruit her and Jim Carrey into Scientology",
-        "description": "Jenny McCarthy said Jim Carrey hesitated to visit Tom Cruise's Aspen home, fearing Cruise would try to lure them into Scientology",
-        "publisher": "Meaww",
-        "publisherDomain": "news.meaww.com",
-        "publishedAt": "2026-10-18T05:09:54.000Z",
-        "url": "https://news.meaww.com/jenny-mccarthy-claims-tom-cruise-tried-to-recruit-her-and-jim-carrey-into-scientology",
-        "imageUrl": "https://media.pubninja.com/articles/brand-5/covers/1792298426913_873acac05c60.jpg_1200_630",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-d1face20-be84-57c3-a513-b63b3a009915",
-        "title": "Olivia Rodrigo inspired by Kendrick Lamar when writing song",
-        "description": "Olivia Rodrigo was inspired by Kendrick Lamar when writing You Seem Pretty Sad for a Girl So in Love.The 23-year-old star revealed Lamar's Humble was a huge inspiration when writing the track Expectations for her latest record.She told Zane Lowe on Apple Music: \"It was kind of like a challenge to my...",
-        "publisher": "Asiaone",
-        "publisherDomain": "asiaone.com",
-        "publishedAt": "2026-10-18T05:09:21.000Z",
-        "url": "https://www.asiaone.com/entertainment/olivia-rodrigo-inspired-kendrick-lamar-when-writing-song",
-        "imageUrl": "https://media.asiaone.com/sites/default/files/styles/article_top_image/public/original_images/Oct2026/181026_celeb_ig.jpg?itok=30SyZ8Ve",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-37c68cee-0a52-5195-9c73-3840945cd143",
-        "title": "Ranbir Kapoor Sings Kabira At Mumbai Durga Puja Pandal, YJHD Fans Can't Keep Calm",
-        "description": "Ranbir Kapoor visited a Durga puja pandal in Mumbai and sang Kabira from Yeh Jawaani Hai Deewani on stage with Harshdeep Kaur, leaving fans nostalgic.",
+        "id": "currents-e8f8e70e-4e93-5185-aa3c-1e3be761ec2c",
+        "title": "Imran Khan Gets Second FRRO Notice As He Challenges ‘Leave India’ Order In Bombay HC",
+        "description": "Imran Khan has received a second FRRO notice seeking reasons against cancelling his OCI status as he challenges the ‘Leave India’ order in the Bombay High Court.",
         "publisher": "News18",
         "publisherDomain": "news18.com",
-        "publishedAt": "2026-10-18T05:06:23.000Z",
-        "url": "https://www.news18.com/movies/bollywood/ranbir-kapoor-sings-kabira-at-mumbai-durga-puja-pandal-yjhd-fans-cant-keep-calm-ws-l-10387194.html",
-        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/10/BeFunky-collage-1-2026-10-7918cbc1a2536883874cfd1e204744f5-1200x675.jpg",
+        "publishedAt": "2026-10-18T11:10:28.000Z",
+        "url": "https://www.news18.com/movies/bollywood/imran-khan-gets-second-frro-notice-as-he-challenges-leave-india-order-in-bombay-hc-ws-lr-10387571.html",
+        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/10/imran-khan-1-2026-10-f853914c2f4b4c438a50277dd814fbae-1200x675.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-d77370f6-cfc4-57db-9c15-abdf4a1f285e",
-        "title": "Salman Khan joins Shaina NC’s family celebration as daughter Shanaya Munot gets engaged to Bhavik Merchant during Navratri festivities in Mumbai",
-        "description": "View this post on Instagram A post shared by ETimes (@etimes)",
-        "publisher": "Indiatimes",
-        "publisherDomain": "timesofindia.indiatimes.com",
-        "publishedAt": "2026-10-18T05:17:27.000Z",
-        "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/salman-khan-attends-shaina-ncs-daughter-shanaya-munots-intimate-engagement-with-bhavik-merchant-in-mumbai-eknath-shinde-and-raj-thackeray-also-join-celebrations/articleshow/135024167.cms",
-        "imageUrl": "https://static.toiimg.com/thumb/msid-135024174,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+        "id": "currents-77af5655-f36d-5f51-a3ef-7c9645504881",
+        "title": "Kendall Jenner and Jacob Elordi cosy up inside star-studded Gala",
+        "description": "Kendall Jenner looked loved-up with boyfriend Jacob Elordi as they made a rare public appearance together at the Academy Museum Gala in LA on Saturday.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-10-18T10:51:04.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16218385/Kendall-Jenner-Jacob-Elordi-make-rare-public-appearance-cosy-gal-pals-Taylor-Swift-Sabrina-Carpenter-enjoy-cuddle-inside-Academy-Museum-Gala.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/10/18/11/111934651-0-image-m-5_1792320451010.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-cc49310c-b76c-5c87-95f5-877d7ef643e5",
+        "title": "Jews and Palestinians, Turks and Kurds: Pics of mixed couples in conflict zones",
+        "description": "For a decade, two photographers documented impossible love stories in realities that insist on keeping people apart",
+        "publisher": "Haaretz",
+        "publisherDomain": "haaretz.com",
+        "publishedAt": "2026-10-18T10:31:02.000Z",
+        "url": "https://www.haaretz.com/photo-blog/2026-10-18/ty-article-magazine/.premium/jews-and-palestinians-turks-and-kurds-photos-of-mixed-couples-in-conflict-zones/000001a1-4e55-d1de-a3a5-7f7d064a0000",
+        "imageUrl": "https://img.haarets.co.il/bs/000001a1-4e55-d1de-a3a5-7f7d064a0000/e0/b0/84bbf7c54fcc93be22461db4511a/640613.jpg?precrop=1651,960,x0,y362&width=1200&height=630&cmsprod",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-c449e55b-5c5f-551b-902f-d6bc36b4a3eb",
+        "title": "Faithful gather to welcome Pope Leo back for Sunday blessing after cancer surgery - The Korea Times",
+        "description": "VATICAN CITY — Catholic faithful converged on St. Peter’s Square on Sunday to welcome Pope Leo XIV back to the Vatican after surgery to remove a tu...",
+        "publisher": "Co",
+        "publisherDomain": "koreatimes.co.kr",
+        "publishedAt": "2026-10-18T11:32:04.000Z",
+        "url": "https://www.koreatimes.co.kr/world/20261018/faithful-gather-to-welcome-pope-leo-back-for-sunday-blessing-after-cancer-surgery",
+        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/10/18/4a7f0e02-7d30-44d4-9f5e-d92ed25f3e12.jpg",
+        "categories": [
+          "Top",
+          "World",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-ab1d320e-7e40-51cc-a95f-eda25512a4a6",
+        "title": "Julie Hesmondhalgh 'fights the idea of not being desirable'",
+        "description": "The Traitors star Julie Hesmondhalgh has spoken about feeling desirable and how women can be sexually attractive regardless of their looks.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-10-18T10:50:58.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16218407/The-Traitors-Julie-Hesmondhalgh-says-fights-idea-not-desirable-remember-women-sexually-attractive-without-looking-like-Maya-Jama.html?ns_campaign=1490&ito=1490",
+        "imageUrl": "https://i.dailymail.com/1s/2026/10/18/10/111934901-0-image-m-15_1792317183149.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-4aff150e-301c-51c8-8dc6-721325fa4c01",
+        "title": "\"Promises Are Meant To Be Broken\": 17 Exes Who Unknowingly Killed Their Relationship With Just One Sentence",
+        "description": "\"'Therapy is great and all, but I don't want you doing it. I want you to talk to me.'\"",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-10-18T11:16:02.000Z",
+        "url": "https://www.buzzfeed.com/remytepner/people-reveal-words-that-ended-relationships",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/15/16/thumb/6wZjkqC9Z1.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-975c1ef0-1228-5304-bca9-45b01da62255",
+        "title": "2point4 Children actress dies aged 51 as tributes pour in for Jenny Porter star",
+        "description": "2Point4 Children actress, Georgina Cates, who played Jenny Porter in the first two series of the BBC show, has sadly passed away",
+        "publisher": "Mirror",
+        "publisherDomain": "mirror.co.uk",
+        "publishedAt": "2026-10-18T11:09:10.000Z",
+        "url": "https://www.mirror.co.uk/3am/celebrity-news/2point4-children-actress-georgina-cates-37784234",
+        "imageUrl": "https://i2-prod.mirror.co.uk/article37784364.ece/ALTERNATES/s1200d/1_AHP_CHP__1327.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-5559e69c-a2dc-5f3b-aac0-51100f5446cd",
+        "title": "If You’re A New Parent, These 43 Products Will Make You Slam The “Add To Cart” Button",
+        "description": "Parenthood gets a whoooole lot easier with this viral crib soother and this pacifier medicine syringe on your side.",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-10-18T11:01:03.000Z",
+        "url": "https://www.buzzfeed.com/emmalord9/new-parent-products-add-to-cart",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/05/00/thumb/D6rjArBJA.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-32bf713a-a3d5-5de0-8fdd-9987df0c5d7a",
+        "title": "Lily Allen’s new raunchy Grammys poster is wonderfully unserious",
+        "description": "She isn’t afraid to get provocative.",
+        "publisher": "Creativebloq",
+        "publisherDomain": "creativebloq.com",
+        "publishedAt": "2026-10-18T11:00:00.000Z",
+        "url": "https://www.creativebloq.com/news/lily-allens-provocative-poster-is-a-massive-middle-finger-to-the-grammys",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/BhT6oTWDqiKTPmSFZh2gu6-1920-80.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-5e7c0567-c0b4-5de9-a72f-197360d273b0",
+        "title": "‘Hadoukens’, iconic fighters and arcade nostalgia: How ‘Street Fighter’ (2026) brings the video game to life",
+        "description": "KUALA LUMPUR, Oct 18 — Hadoukens, flying kicks and even the iconic car-smashing bonus stage — Street Fighter is back on the big screen, bringing decades of arcade nostalgia...",
+        "publisher": "Malaymail",
+        "publisherDomain": "malaymail.com",
+        "publishedAt": "2026-10-18T10:43:15.000Z",
+        "url": "https://www.malaymail.com/news/showbiz/2026/10/18/hadoukens-iconic-fighters-and-arcade-nostalgia-how-street-fighter-2026-brings-the-video-game-to-life/239634",
+        "imageUrl": "https://www.malaymail.com/malaymail/uploads/images/2026/10/18/369119.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-2d1c7a05-bb97-512c-bd59-94f844cba05f",
+        "title": "BBC categorically denies 'teasing complaints' as \"untrue\" after James Acaster rumour",
+        "description": "\"There were no incidents of this nature and there is no evidence to support these allegations.\"",
+        "publisher": "Radiotimes",
+        "publisherDomain": "radiotimes.com",
+        "publishedAt": "2026-10-18T10:43:06.000Z",
+        "url": "https://www.radiotimes.com/tv/entertainment/celebrity-traitors-james-acaster-rumour-untrue-newsupdate",
+        "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2026/09/40577981577981dup-caa6f38.jpg?resize=1200%2C630",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-13ef8be9-4033-5f03-b682-ff9a5d6b92bd",
+        "title": "If You’re Top-Tier Forgetful, You Probably Should Take A Gander At These 33 Useful Products",
+        "description": "Finally, something that'll turn off your curling iron for you in a timely manner.",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-10-18T10:31:03.000Z",
+        "url": "https://www.buzzfeed.com/elizabethlilly/products-forgetful-people",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/04/20/thumb/wEPyMdEY8.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-cdf21566-e289-5928-ab16-e733927f086f",
+        "title": "Weekly FAQ Thread October 18, 2026: How many books do you read at a time?",
+        "description": "Hello readers and welcome to our Weekly FAQ thread! Our topic this week is: How many books do you read at a time? Please use this thread to discuss whether you prefer to read one book or multiple books at once. You can view previous FAQ threads here in our wiki. Thank you and enjoy! submitted by ...",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-10-18T11:00:24.000Z",
+        "url": "https://www.reddit.com/r/books/comments/1x90f9t/weekly_faq_thread_october_18_2026_how_many_books",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-7fcc94a6-985c-5600-850e-ab9c70dea28d",
+        "title": "Strictly pro reveals Shaun Wright-Phillips 'mistake' after Ian Wright's appearance",
+        "description": "EXCLUSIVE: Shaun Wright-Phillips and Alexis Warr found themselves in the bottom two last weekend, but was saved by judge Anton Du Beke",
+        "publisher": "Express",
+        "publisherDomain": "express.co.uk",
+        "publishedAt": "2026-10-18T11:00:00.000Z",
+        "url": "https://www.express.co.uk/celebrity-news/2257848/strictly-come-dancing-shaun-wright-phillips-dad-ian-wright-mistake",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-96449455-c122-52be-b4ce-4d431f2a7574",
+        "title": "Davina McCall handed bombshell diagnosis after brain tumour battle",
+        "description": "Davina received a diagnosis after battling high cholesterol.",
+        "publisher": "Express",
+        "publisherDomain": "express.co.uk",
+        "publishedAt": "2026-10-18T10:48:00.000Z",
+        "url": "https://www.express.co.uk/celebrity-news/2258203/davina-mccall-handed-bombshell-diagnosis",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-fff106aa-2c05-53b6-bcdf-e9bca28a1715",
+        "title": "Butterfly Bangs are the best of curtain bangs and a French fringe",
+        "description": "Our kind of hair co-ord.",
+        "publisher": "Glamourmagazine",
+        "publisherDomain": "glamourmagazine.co.uk",
+        "publishedAt": "2026-10-18T11:00:00.000Z",
+        "url": "https://www.glamourmagazine.co.uk/article/butterfly-bangs",
+        "imageUrl": "https://media.glamourmagazine.co.uk/photos/6ad14ec0b54ef83682c1fc9b/16:9/w_1280,c_limit/Screenshot%202026-09-14%20at%203.41.36%E2%80%AFPM.png",
         "categories": [
           "Entertainment"
         ]
@@ -1444,6 +1619,6 @@
     "successfulRequests": 5,
     "failedRequests": 0,
     "articleCountBeforeDeduplication": 100,
-    "articleCountAfterDeduplication": 80
+    "articleCountAfterDeduplication": 83
   }
 }
