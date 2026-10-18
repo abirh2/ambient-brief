@@ -1,20 +1,36 @@
 {
   "schemaVersion": 1,
   "provider": "currents",
-  "generatedAt": "2026-10-18T17:59:39.446Z",
-  "sourceFetchedAt": "2026-10-18T17:59:39.446Z",
+  "generatedAt": "2026-10-18T20:29:24.459Z",
+  "sourceFetchedAt": "2026-10-18T20:29:24.459Z",
   "status": "success",
   "categories": {
     "Top": [
       {
-        "id": "currents-425a6580-b420-5b04-a87b-ff113443dd3d",
-        "title": "Giving AI Agents a Memory They Can Reason Over: Building AI Supervisor with FalkorDB",
-        "description": "How we used graph memory to connect failures, decisions, dependencies, and verification in an AI...",
+        "id": "currents-d78f7184-df37-50de-a90a-2bc051f2c76e",
+        "title": "Chinese researchers solve 3D Ghys conjecture with homegrown AI model",
+        "description": "A Chinese research team has fully proved the 3D Ghys conjecture, a world-class mathematical problem that had baffled the international mathematics community for more than 30 years. It is the first time Chinese scientists have relied on a domestically",
+        "publisher": "Cgtn",
+        "publisherDomain": "news.cgtn.com",
+        "publishedAt": "2026-10-18T20:19:01.000Z",
+        "url": "https://news.cgtn.com/news/2026-10-15/Chinese-researchers-solve-3D-Ghys-conjecture-with-homegrown-AI-model-1RgD8zQ3Z3a/p.html",
+        "imageUrl": "https://news.cgtn.com/news/2026-10-15/Chinese-researchers-solve-3D-Ghys-conjecture-with-homegrown-AI-model-1RgD8zQ3Z3a/img/f7e88b8efd354fd4ad9caa3e4d72a996/f7e88b8efd354fd4ad9caa3e4d72a996.gif",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-ffcc5227-19bf-5121-9dd9-af8c6f792a26",
+        "title": "How to Reduce Serverless Timeout Errors with Auditable API Polling in 2026",
+        "description": "Persist one small, immutable completion record for every scheduled import, then alert on the absence...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:56:52.000Z",
-        "url": "https://dev.to/moizz_/giving-ai-agents-a-memory-they-can-reason-over-building-ai-supervisor-with-falkordb-5768",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkd5fuiicswwwg3v3ohcs.png",
+        "publishedAt": "2026-10-18T20:23:19.000Z",
+        "url": "https://dev.to/zebedeeholloway9023/how-to-reduce-serverless-timeout-errors-with-auditable-api-polling-in-2026-kim",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fvib9qfj8im2la2q0fhfp.png",
         "categories": [
           "Top",
           "Technology",
@@ -23,14 +39,188 @@
         ]
       },
       {
-        "id": "currents-8c935201-5e04-5667-a054-5076a61c181a",
-        "title": "NFL Week 6: Big takeaways, questions and fantasy spin from Sunday's games",
-        "description": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 6.",
-        "publisher": "ESPN",
-        "publisherDomain": "espn.com",
-        "publishedAt": "2026-10-18T17:46:59.000Z",
-        "url": "https://www.espn.com/nfl/story/_/id/50181469/week-6-sunday-games-takeaways-questions-2026",
-        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1018%2Fr1732507_1296x729_16%2D9.jpg",
+        "id": "currents-58842291-7770-5bd6-9141-b2b2e0c3c082",
+        "title": "How to start your self-hosting adventure: a high-level overview",
+        "description": "Getting started is probably the hardest step.",
+        "publisher": "Ounapuu",
+        "publisherDomain": "ounapuu.ee",
+        "publishedAt": "2026-10-18T20:22:40.000Z",
+        "url": "https://ounapuu.ee/posts/2021/03/17/how-to-start-your-self-hosting-adventure",
+        "imageUrl": "https://ounapuu.ee/media/cover_hu_4fe4cf2661554252.jpg",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-b7e52c65-d20c-59d4-a11b-3cef47173a8d",
+        "title": "Jets return to familiar form in another loss to rival Patriots",
+        "description": "After stealing a win over the hapless Browns a week ago, the Jets returned to form Sunday in their first game against a divisional opponent, done in by a lack of offense following their first drive…",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-10-18T20:20:47.000Z",
+        "url": "https://nypost.com/2026/10/18/sports/jets-return-to-familiar-form-in-another-loss-to-rival-patriots",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/10/jets-patriots.jpg?quality=75&strip=all&1792339807&w=1200",
+        "categories": [
+          "Sports",
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-43999ae8-67e7-57b0-9509-487c38b570f2",
+        "title": "Batteries at U.S. solar plants slipped with their solar, never without it",
+        "description": "In February, EIA said developers planned to add 24 GW of utility-scale battery storage in 2026. Its...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T20:22:32.000Z",
+        "url": "https://dev.to/munimv2/batteries-at-us-solar-plants-slipped-with-their-solar-never-without-it-5e0i",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fh4gakkoq0nl9tgq706wx.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-fd726f73-2bf4-5ac1-83bf-2f232fc4e8a4",
+        "title": "LLMs Have No Nose, So We Built One: an AI Nose on the Arduino UNO Q",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge: Side Hustle. ▶ Demo video...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T20:22:21.000Z",
+        "url": "https://dev.to/k66inthesky/llms-have-no-nose-so-we-built-one-an-ai-nose-on-the-arduino-uno-q-3fhl",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fomafq9hn93jwd5cs4wyz.jpg",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-361ec3f6-0a94-507d-b800-80e82559294d",
+        "title": "The Silent Recall Drop: pgvector HNSW Under Concurrent Writes",
+        "description": "Two regressions in one window: HNSW lock waits during backfill, and a recall collapse caused by switching to inner-product ops without normalizing embeddings.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T20:22:14.000Z",
+        "url": "https://dev.to/samuel_oakley/the-silent-recall-drop-pgvector-hnsw-under-concurrent-writes-49jp",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fopengraph.githubassets.com%2F1%2FMadsLorentzen%2Fai-job-search",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-ea003dc5-b6d6-504c-b2d6-801f0f0976d1",
+        "title": "DukaanDraft: a local AI writing helper for small shops",
+        "description": "This is a submission for the DEV Hacktoberfest Week 2 Challenge. What I Built DukaanDraft...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T20:21:51.000Z",
+        "url": "https://dev.to/mrnowshirwan/dukaandraft-a-local-ai-writing-helper-for-small-shops-nn2",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fg0yb19mj1jc79x5puq02.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-bfe07ed7-b5e3-52f4-b757-2ee0810e4ad6",
+        "title": "DTLS on NetScaler: why the CVE-2026-88772 prerequisite is a default, not a filter",
+        "description": "DTLS on NetScaler: why the CVE-2026-88772 prerequisite is a default, not a filter",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T20:21:24.000Z",
+        "url": "https://dev.to/facilishz/dtls-on-netscaler-why-the-cve-2026-88772-prerequisite-is-a-default-not-a-filter-1ob3",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5k94afzmtlzmuwx7m2t8.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-33ab9e4d-1051-5c9e-81d8-7bccb036901e",
+        "title": "Migrating from AngularJS to React: A 30% Performance Improvement Journey",
+        "description": "Unlock significant performance gains by migrating your legacy AngularJS application to React. This guide covers strategies, challenges, and real-world",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T20:20:36.000Z",
+        "url": "https://dev.to/farukh/migrating-from-angularjs-to-react-a-30-performance-improvement-journey-the-30-performance-leap-372m",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fstorage.googleapis.com%2Fsyncapp-ai-covers%2Fuploads%2Fai-cover-migrating-from-angularjs-to-react-a-1792354748997-1792354748998-521297.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-a630a88d-c79b-54b8-a503-4f52a905d291",
+        "title": "Comparing Qwen and Gemma on the Low End: Qwen Is Faster Without Drafting, Gemma Has Better Quality",
+        "description": "Step-by-step: serving Qwen3.5-2B with llama.cpp on an 8 GB RTX 3050 and a 4 GB GTX 1650 Ti beside Gemma 4 E2B, checking that llama.cpp runs it correctly, and measuring speed, answer quality, 4-bit rounding, QAT and drafting with Qwen's own MTP head.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T20:20:20.000Z",
+        "url": "https://dev.to/gde/comparing-qwen-and-gemma-on-the-low-end-qwen-is-faster-without-drafting-gemma-has-better-quality-30bo",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fxbill9%2Fqwen-dev%2Fmain%2Flocal-llamacpp-3050oem-qwen352b-q4_0%2Fdocs%2Fqwen-vs-gemma%2Fdevto-cover.9ce8fe8e.jpg",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-f3a2606c-d52b-554a-962d-2b76887ee4bc",
+        "title": "How to watch Cowboys vs Packers for free in NFL Week 6: Time, livestream",
+        "description": "America’s Team visits Lambeau tonight.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-10-18T20:20:00.000Z",
+        "url": "https://nypost.com/2026/10/18/sports/how-to-watch-cowboys-vs-packers-live-for-free-in-nfl-week-6",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/10/newspress-collage-od9glmmi0-1792095456064.jpg?quality=75&strip=all&1792081147&w=1200",
+        "categories": [
+          "Sports",
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-cbaaf367-8324-516e-9d82-c319af0de80d",
+        "title": "The 10 AI Tools Small Businesses Actually Use in 2026",
+        "description": "Most small businesses do not need more software — they need the repetitive work to stop eating their...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T20:19:11.000Z",
+        "url": "https://dev.to/neuraitool/the-10-ai-tools-small-businesses-actually-use-in-2026-4cj9",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F34i3hc9mselk4vqvqoqi.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-07f92ab7-00a0-5983-b38a-61985c966156",
+        "title": "Ryan Fitzpatrick claims feud with Aqib Talib is over — then trolls himself",
+        "description": "Ryan Fitzpatrick and Aqib Talib are putting their differences aside. At least Fitzpatrick is. Sort of. The feud between Fitzpatrick and the former Broncos and Rams cornerback started after the Thur…",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-10-18T20:16:22.000Z",
+        "url": "https://nypost.com/2026/10/18/sports/ryan-fitzpatrick-and-aqib-talib-feud-takes-funny-turn-after-bo-nix-comments",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/10/newspress-collage-yxpl7trnf-1792352418363.jpg?quality=75&strip=all&1792338055&w=1200",
         "categories": [
           "Top",
           "U.S.",
@@ -38,184 +228,13 @@
         ]
       },
       {
-        "id": "currents-b73534c5-1c9d-5218-bff4-8d7040c9e262",
-        "title": "Everything Matt Rhule said after Nebraska's dramatic loss to Oregon",
-        "description": "The Cornhuskers had firm control of the game against the Ducks, until it all slipped away.",
-        "publisher": "Oregonlive",
-        "publisherDomain": "oregonlive.com",
-        "publishedAt": "2026-10-18T17:59:35.000Z",
-        "url": "https://www.oregonlive.com/ducks/2026/10/everything-matt-rhule-said-after-nebraskas-dramatic-loss-to-oregon.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-dcd780e9-c302-5d14-8fc0-84150066732b",
-        "title": "Audrey Adams Obituary (2026) - Milwaukee, WI - Legacy",
-        "description": "Audrey Adams – Passed away on September 29, 2026. Visitation from 10:00 AM – 11:00 AM. Funeral Service at 11:00 AM on Monday, October 19, ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-10-18T17:59:35.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/name/audrey-adams-obituary?id=62775438",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-13d30cac-fcac-56b3-a904-c17dc14e40dc",
-        "title": "A policy changed. Which company documents just became wrong?",
-        "description": "A company changes its refund window from 30 days to 14. The approved policy gets updated. But the...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:56:20.000Z",
-        "url": "https://dev.to/parthjaina2107/a-policy-changed-which-company-documents-just-became-wrong-3pdk",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgq27vm3gxhwi7zzmuqi2.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-a78a6645-23c9-5003-9278-35a7e57ae5a7",
-        "title": "What If Startups Could Find More Value in What They Already Have? The Story Behind Stack Intel",
-        "description": "From a question about startup failure to a vision for company intelligence, opportunity discovery,...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:55:52.000Z",
-        "url": "https://dev.to/hilarious_24001/what-if-startups-could-find-more-value-in-what-they-already-have-the-story-behind-stack-intel-48m9",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjru91nmurd92upwu4cdn.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-66e2357d-b4ee-5e8d-9f74-1897fb810366",
-        "title": "AI Supervisor: AI agents do the work. AI Supervisor makes sure the work gets done.",
-        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle ...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:55:08.000Z",
-        "url": "https://dev.to/moizz_/ai-supervisor-ai-agents-do-the-work-ai-supervisor-makes-sure-the-work-gets-done-39nh",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2jfjxexri9rmrjo0ldy3.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-47e05b53-d7f4-54fc-9d8b-faf979b88f68",
-        "title": "Your company's docs are lying to you. A graph can tell you which ones.",
-        "description": "# Your company's docs are lying to you. A graph can tell you which ones. At most companies, \"why do...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:54:47.000Z",
-        "url": "https://dev.to/samina_parveen_11a71af857/your-companys-docs-are-lying-to-you-a-graph-can-tell-you-which-ones-dj0",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2m96xl5q730gh8vm6x42.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-b9526b00-ae89-555d-a17d-540a4b827ea5",
-        "title": "SentinelGraph: Building a Graph-Powered AI Cybersecurity Investigation Agent with FalkorDB",
-        "description": "SentinelGraph: Building a Graph-Powered AI Cybersecurity Investigation Agent with...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:53:08.000Z",
-        "url": "https://dev.to/parnika_sm/sentinelgraph-building-a-graph-powered-ai-cybersecurity-investigation-agent-with-falkordb-59eb",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6pop4m7aku0ywv9bw9d4.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-50914469-30ac-5b06-b12b-3cc16a25447f",
-        "title": "Why ChatGPT Search & Perplexity Ignore Your Website: The Technical GEO Audit (2026)",
-        "description": "Why ChatGPT Search & Perplexity Ignore Your Website: The Technical GEO Audit...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:52:56.000Z",
-        "url": "https://dev.to/thesqb/why-chatgpt-search-perplexity-ignore-your-website-the-technical-geo-audit-2026-1e7g",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fzw3h3rz60gg0w6g94nea.jpg",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-5ea736a5-d353-5af1-b2c4-97a482a5ce99",
-        "title": "HustleCraft AI: Open-Source AI Toolkit for Freelancers & Side Hustlers",
-        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle ...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:52:48.000Z",
-        "url": "https://dev.to/chaubeydev55/hustlecraft-ai-open-source-ai-toolkit-for-freelancers-side-hustlers-2nie",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fn35yjpq2zymopymvy75c.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-87f948e5-8eb8-591f-9794-c2153bc6f065",
-        "title": "GhostLedger: The Sovereign Financial Machine — Why Our AI Bookkeeper Math Only Works Because Gemma 2 Is Open-Weight",
-        "description": "This is my submission for the Hacktoberfest Open-Source AI Challenge, Week 2: Side Hustle. I'm...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:52:17.000Z",
-        "url": "https://dev.to/polymath_arnav/ghostledger-the-sovereign-financial-machine-why-our-ai-bookkeeper-math-only-works-because-gemma-1el8",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6c3hvilqftetfvem4d6l.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-99c24d9d-1540-5e65-824b-2a92b1161b7f",
-        "title": "For those of you who have not bought any bonds (BND / VBTLX) when will you start?",
-        "description": "At what age will you consider starting? 20 years before your retirement date? 10 years before your retirement date? submitted by /u/Scorface [link] [comments]",
+        "id": "currents-8f597b70-5b92-546d-9b3f-c22718946ba2",
+        "title": "Chrome browser not letting me scroll websites",
+        "description": "Hi all. I have an iPhone 15 running 26.6.2, and sometimes when I open a website on chrome, I’ll be able to scroll for maybe 2 seconds, then it’s like the whole page greys out, and I can scroll, exit or back out unless I close the whole browser. Has anyone else experienced this or know of a fix? ...",
         "publisher": "Reddit",
         "publisherDomain": "reddit.com",
-        "publishedAt": "2026-10-18T17:50:48.000Z",
-        "url": "https://www.reddit.com/r/Bogleheads/comments/1x99izf/for_those_of_you_who_have_not_bought_any_bonds",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-53faa711-6e8b-5733-a37b-37013abdd84c",
-        "title": "Why I gave my code review agent a graph",
-        "description": "**# Why I gave my code review agent a graph By a student builder who got tired of watching AI...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:53:17.000Z",
-        "url": "https://dev.to/hemanth_saichitra_fb1bc0/why-i-gave-my-code-review-agent-a-graph-598o",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F43xze3bxi0m3v77df2ry.png",
+        "publishedAt": "2026-10-18T20:25:13.000Z",
+        "url": "https://www.reddit.com/r/iphone/comments/1x9dfd0/chrome_browser_not_letting_me_scroll_websites",
         "categories": [
           "Top",
           "Technology",
@@ -224,44 +243,46 @@
         ]
       },
       {
-        "id": "currents-4dfd4c84-1372-5fab-a18b-52b50d324192",
-        "title": "The Plastic Surgery Foundation appoints Sara R. Dickie, MD, as President",
-        "description": "Houston, Oct. 18, 2026 (GLOBE NEWSWIRE) — Sara R. Dickie, MD, has been named President of",
-        "publisher": "Financial Post",
-        "publisherDomain": "financialpost.com",
-        "publishedAt": "2026-10-18T17:03:58.000Z",
-        "url": "https://financialpost.com/globe-newswire/the-plastic-surgery-foundation-appoints-sara-r-dickie-md-as-president",
-        "imageUrl": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/10/sara-r-dickie-md.jpeg",
+        "id": "currents-008b1982-1377-57d5-bf9b-1f9973ce9eea",
+        "title": "Zelensky says Trump risks 'historic mistake' if he backs Russia - The Philadelphia Inquirer",
+        "description": "If United States will support Putin, I mean, it's unbelievable. It's a tragedy.\" the Ukrainian leader said in an interview on NBC's \"Meet the ...",
+        "publisher": "Inquirer",
+        "publisherDomain": "inquirer.com",
+        "publishedAt": "2026-10-18T20:21:26.000Z",
+        "url": "https://www.inquirer.com/news/nation-world/zelensky-ukraine-russia-us-support-trump-putin-starshield-musk-20261018.html",
         "categories": [
           "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-9a9fd88c-a4b9-570c-b088-e4d4572f0df5",
-        "title": "Port in peril — former Transnet workers recalled to cover for Durban Gateway Terminal",
-        "description": "Minister of Transport Barbara Creecy has tried to ease the concerns of a shipping industry which is losing patience with Durban harbour, but workers say they have been short-changed by Transnet’s priv…",
-        "publisher": "Co",
-        "publisherDomain": "dailymaverick.co.za",
-        "publishedAt": "2026-10-18T17:52:23.000Z",
-        "url": "https://www.dailymaverick.co.za/article/2026-10-18-port-in-peril-former-transnet-workers-recalled-to-cover-for-durban-gateway-terminal",
-        "imageUrl": "https://cdn.dailymaverick.co.za/i/FY7Au6xgu5Mft8CFK8BbyvCiO7Q=/800x0/smart/filters:strip_exif()/file/attachments/orphans/BM-Holly-durban-port-update_776463.jpg",
-        "categories": [
-          "Top",
-          "World"
+          "World",
+          "U.S."
         ]
       }
     ],
     "U.S.": [
       {
-        "id": "currents-425a6580-b420-5b04-a87b-ff113443dd3d",
-        "title": "Giving AI Agents a Memory They Can Reason Over: Building AI Supervisor with FalkorDB",
-        "description": "How we used graph memory to connect failures, decisions, dependencies, and verification in an AI...",
+        "id": "currents-d78f7184-df37-50de-a90a-2bc051f2c76e",
+        "title": "Chinese researchers solve 3D Ghys conjecture with homegrown AI model",
+        "description": "A Chinese research team has fully proved the 3D Ghys conjecture, a world-class mathematical problem that had baffled the international mathematics community for more than 30 years. It is the first time Chinese scientists have relied on a domestically",
+        "publisher": "Cgtn",
+        "publisherDomain": "news.cgtn.com",
+        "publishedAt": "2026-10-18T20:19:01.000Z",
+        "url": "https://news.cgtn.com/news/2026-10-15/Chinese-researchers-solve-3D-Ghys-conjecture-with-homegrown-AI-model-1RgD8zQ3Z3a/p.html",
+        "imageUrl": "https://news.cgtn.com/news/2026-10-15/Chinese-researchers-solve-3D-Ghys-conjecture-with-homegrown-AI-model-1RgD8zQ3Z3a/img/f7e88b8efd354fd4ad9caa3e4d72a996/f7e88b8efd354fd4ad9caa3e4d72a996.gif",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-ffcc5227-19bf-5121-9dd9-af8c6f792a26",
+        "title": "How to Reduce Serverless Timeout Errors with Auditable API Polling in 2026",
+        "description": "Persist one small, immutable completion record for every scheduled import, then alert on the absence...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:56:52.000Z",
-        "url": "https://dev.to/moizz_/giving-ai-agents-a-memory-they-can-reason-over-building-ai-supervisor-with-falkordb-5768",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkd5fuiicswwwg3v3ohcs.png",
+        "publishedAt": "2026-10-18T20:23:19.000Z",
+        "url": "https://dev.to/zebedeeholloway9023/how-to-reduce-serverless-timeout-errors-with-auditable-api-polling-in-2026-kim",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fvib9qfj8im2la2q0fhfp.png",
         "categories": [
           "Top",
           "Technology",
@@ -270,29 +291,188 @@
         ]
       },
       {
-        "id": "currents-46dc8a95-bf03-5f87-a970-26abe4ea95c0",
-        "title": "'SNL UK' Roasts Shane Gillis Over 'Whores' Joke, Calls Him a 'F***ing C***'",
-        "description": "Shane Gillis is getting roasted across the pond ... with \"Saturday Night Live UK\" taking aim at the comedian following his latest controversial appearance on the OG show.",
-        "publisher": "Tmz",
-        "publisherDomain": "tmz.com",
-        "publishedAt": "2026-10-18T17:55:35.000Z",
-        "url": "https://www.tmz.com/2026/10/18/snl-uk-criticizes-shane-gillis",
-        "imageUrl": "https://imagez.tmz.com/image/66/16by9/2026/10/18/666dc37853bc4e9a9cde5c8c316d41b1_xl.jpg",
+        "id": "currents-58842291-7770-5bd6-9141-b2b2e0c3c082",
+        "title": "How to start your self-hosting adventure: a high-level overview",
+        "description": "Getting started is probably the hardest step.",
+        "publisher": "Ounapuu",
+        "publisherDomain": "ounapuu.ee",
+        "publishedAt": "2026-10-18T20:22:40.000Z",
+        "url": "https://ounapuu.ee/posts/2021/03/17/how-to-start-your-self-hosting-adventure",
+        "imageUrl": "https://ounapuu.ee/media/cover_hu_4fe4cf2661554252.jpg",
         "categories": [
-          "Entertainment",
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-b7e52c65-d20c-59d4-a11b-3cef47173a8d",
+        "title": "Jets return to familiar form in another loss to rival Patriots",
+        "description": "After stealing a win over the hapless Browns a week ago, the Jets returned to form Sunday in their first game against a divisional opponent, done in by a lack of offense following their first drive…",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-10-18T20:20:47.000Z",
+        "url": "https://nypost.com/2026/10/18/sports/jets-return-to-familiar-form-in-another-loss-to-rival-patriots",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/10/jets-patriots.jpg?quality=75&strip=all&1792339807&w=1200",
+        "categories": [
+          "Sports",
           "Top",
           "U.S."
         ]
       },
       {
-        "id": "currents-5bd48f5e-7c1a-5c0a-981a-735079d415e9",
-        "title": "Eagles WR DeVonta Smith leads NFL Week 6's best arrivals",
-        "description": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
-        "publisher": "ESPN",
-        "publisherDomain": "espn.com",
-        "publishedAt": "2026-10-18T17:47:00.000Z",
-        "url": "https://www.espn.com/nfl/story/_/id/50193542/nfl-week-6-fashionable-arrivals",
-        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1018%2Fr1732459_1296x729_16%2D9.png",
+        "id": "currents-43999ae8-67e7-57b0-9509-487c38b570f2",
+        "title": "Batteries at U.S. solar plants slipped with their solar, never without it",
+        "description": "In February, EIA said developers planned to add 24 GW of utility-scale battery storage in 2026. Its...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T20:22:32.000Z",
+        "url": "https://dev.to/munimv2/batteries-at-us-solar-plants-slipped-with-their-solar-never-without-it-5e0i",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fh4gakkoq0nl9tgq706wx.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-fd726f73-2bf4-5ac1-83bf-2f232fc4e8a4",
+        "title": "LLMs Have No Nose, So We Built One: an AI Nose on the Arduino UNO Q",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge: Side Hustle. ▶ Demo video...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T20:22:21.000Z",
+        "url": "https://dev.to/k66inthesky/llms-have-no-nose-so-we-built-one-an-ai-nose-on-the-arduino-uno-q-3fhl",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fomafq9hn93jwd5cs4wyz.jpg",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-361ec3f6-0a94-507d-b800-80e82559294d",
+        "title": "The Silent Recall Drop: pgvector HNSW Under Concurrent Writes",
+        "description": "Two regressions in one window: HNSW lock waits during backfill, and a recall collapse caused by switching to inner-product ops without normalizing embeddings.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T20:22:14.000Z",
+        "url": "https://dev.to/samuel_oakley/the-silent-recall-drop-pgvector-hnsw-under-concurrent-writes-49jp",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fopengraph.githubassets.com%2F1%2FMadsLorentzen%2Fai-job-search",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-ea003dc5-b6d6-504c-b2d6-801f0f0976d1",
+        "title": "DukaanDraft: a local AI writing helper for small shops",
+        "description": "This is a submission for the DEV Hacktoberfest Week 2 Challenge. What I Built DukaanDraft...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T20:21:51.000Z",
+        "url": "https://dev.to/mrnowshirwan/dukaandraft-a-local-ai-writing-helper-for-small-shops-nn2",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fg0yb19mj1jc79x5puq02.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-bfe07ed7-b5e3-52f4-b757-2ee0810e4ad6",
+        "title": "DTLS on NetScaler: why the CVE-2026-88772 prerequisite is a default, not a filter",
+        "description": "DTLS on NetScaler: why the CVE-2026-88772 prerequisite is a default, not a filter",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T20:21:24.000Z",
+        "url": "https://dev.to/facilishz/dtls-on-netscaler-why-the-cve-2026-88772-prerequisite-is-a-default-not-a-filter-1ob3",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5k94afzmtlzmuwx7m2t8.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-33ab9e4d-1051-5c9e-81d8-7bccb036901e",
+        "title": "Migrating from AngularJS to React: A 30% Performance Improvement Journey",
+        "description": "Unlock significant performance gains by migrating your legacy AngularJS application to React. This guide covers strategies, challenges, and real-world",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T20:20:36.000Z",
+        "url": "https://dev.to/farukh/migrating-from-angularjs-to-react-a-30-performance-improvement-journey-the-30-performance-leap-372m",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fstorage.googleapis.com%2Fsyncapp-ai-covers%2Fuploads%2Fai-cover-migrating-from-angularjs-to-react-a-1792354748997-1792354748998-521297.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-a630a88d-c79b-54b8-a503-4f52a905d291",
+        "title": "Comparing Qwen and Gemma on the Low End: Qwen Is Faster Without Drafting, Gemma Has Better Quality",
+        "description": "Step-by-step: serving Qwen3.5-2B with llama.cpp on an 8 GB RTX 3050 and a 4 GB GTX 1650 Ti beside Gemma 4 E2B, checking that llama.cpp runs it correctly, and measuring speed, answer quality, 4-bit rounding, QAT and drafting with Qwen's own MTP head.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T20:20:20.000Z",
+        "url": "https://dev.to/gde/comparing-qwen-and-gemma-on-the-low-end-qwen-is-faster-without-drafting-gemma-has-better-quality-30bo",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fxbill9%2Fqwen-dev%2Fmain%2Flocal-llamacpp-3050oem-qwen352b-q4_0%2Fdocs%2Fqwen-vs-gemma%2Fdevto-cover.9ce8fe8e.jpg",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-f3a2606c-d52b-554a-962d-2b76887ee4bc",
+        "title": "How to watch Cowboys vs Packers for free in NFL Week 6: Time, livestream",
+        "description": "America’s Team visits Lambeau tonight.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-10-18T20:20:00.000Z",
+        "url": "https://nypost.com/2026/10/18/sports/how-to-watch-cowboys-vs-packers-live-for-free-in-nfl-week-6",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/10/newspress-collage-od9glmmi0-1792095456064.jpg?quality=75&strip=all&1792081147&w=1200",
+        "categories": [
+          "Sports",
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-cbaaf367-8324-516e-9d82-c319af0de80d",
+        "title": "The 10 AI Tools Small Businesses Actually Use in 2026",
+        "description": "Most small businesses do not need more software — they need the repetitive work to stop eating their...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-18T20:19:11.000Z",
+        "url": "https://dev.to/neuraitool/the-10-ai-tools-small-businesses-actually-use-in-2026-4cj9",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F34i3hc9mselk4vqvqoqi.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-07f92ab7-00a0-5983-b38a-61985c966156",
+        "title": "Ryan Fitzpatrick claims feud with Aqib Talib is over — then trolls himself",
+        "description": "Ryan Fitzpatrick and Aqib Talib are putting their differences aside. At least Fitzpatrick is. Sort of. The feud between Fitzpatrick and the former Broncos and Rams cornerback started after the Thur…",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-10-18T20:16:22.000Z",
+        "url": "https://nypost.com/2026/10/18/sports/ryan-fitzpatrick-and-aqib-talib-feud-takes-funny-turn-after-bo-nix-comments",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/10/newspress-collage-yxpl7trnf-1792352418363.jpg?quality=75&strip=all&1792338055&w=1200",
         "categories": [
           "Top",
           "U.S.",
@@ -300,28 +480,13 @@
         ]
       },
       {
-        "id": "currents-4b8c1d39-518f-573d-8a82-b4df557dd13f",
-        "title": "Betting line set for Oregon Ducks at Illinois",
-        "description": "Published: Oct. 18, 2026, 10:13 a.m.. Michigan State football against Illinois 2026 Michigan State hosts Illinois in a Big 10 football game at Spartan ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "oregonlive.com",
-        "publishedAt": "2026-10-18T17:59:35.000Z",
-        "url": "https://www.oregonlive.com/ducks/2026/10/betting-line-set-for-oregon-ducks-at-illinois.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-13d30cac-fcac-56b3-a904-c17dc14e40dc",
-        "title": "A policy changed. Which company documents just became wrong?",
-        "description": "A company changes its refund window from 30 days to 14. The approved policy gets updated. But the...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:56:20.000Z",
-        "url": "https://dev.to/parthjaina2107/a-policy-changed-which-company-documents-just-became-wrong-3pdk",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgq27vm3gxhwi7zzmuqi2.png",
+        "id": "currents-8f597b70-5b92-546d-9b3f-c22718946ba2",
+        "title": "Chrome browser not letting me scroll websites",
+        "description": "Hi all. I have an iPhone 15 running 26.6.2, and sometimes when I open a website on chrome, I’ll be able to scroll for maybe 2 seconds, then it’s like the whole page greys out, and I can scroll, exit or back out unless I close the whole browser. Has anyone else experienced this or know of a fix? ...",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-10-18T20:25:13.000Z",
+        "url": "https://www.reddit.com/r/iphone/comments/1x9dfd0/chrome_browser_not_letting_me_scroll_websites",
         "categories": [
           "Top",
           "Technology",
@@ -330,168 +495,13 @@
         ]
       },
       {
-        "id": "currents-a78a6645-23c9-5003-9278-35a7e57ae5a7",
-        "title": "What If Startups Could Find More Value in What They Already Have? The Story Behind Stack Intel",
-        "description": "From a question about startup failure to a vision for company intelligence, opportunity discovery,...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:55:52.000Z",
-        "url": "https://dev.to/hilarious_24001/what-if-startups-could-find-more-value-in-what-they-already-have-the-story-behind-stack-intel-48m9",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjru91nmurd92upwu4cdn.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-66e2357d-b4ee-5e8d-9f74-1897fb810366",
-        "title": "AI Supervisor: AI agents do the work. AI Supervisor makes sure the work gets done.",
-        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle ...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:55:08.000Z",
-        "url": "https://dev.to/moizz_/ai-supervisor-ai-agents-do-the-work-ai-supervisor-makes-sure-the-work-gets-done-39nh",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2jfjxexri9rmrjo0ldy3.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-47e05b53-d7f4-54fc-9d8b-faf979b88f68",
-        "title": "Your company's docs are lying to you. A graph can tell you which ones.",
-        "description": "# Your company's docs are lying to you. A graph can tell you which ones. At most companies, \"why do...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:54:47.000Z",
-        "url": "https://dev.to/samina_parveen_11a71af857/your-companys-docs-are-lying-to-you-a-graph-can-tell-you-which-ones-dj0",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2m96xl5q730gh8vm6x42.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-b9526b00-ae89-555d-a17d-540a4b827ea5",
-        "title": "SentinelGraph: Building a Graph-Powered AI Cybersecurity Investigation Agent with FalkorDB",
-        "description": "SentinelGraph: Building a Graph-Powered AI Cybersecurity Investigation Agent with...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:53:08.000Z",
-        "url": "https://dev.to/parnika_sm/sentinelgraph-building-a-graph-powered-ai-cybersecurity-investigation-agent-with-falkordb-59eb",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6pop4m7aku0ywv9bw9d4.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-50914469-30ac-5b06-b12b-3cc16a25447f",
-        "title": "Why ChatGPT Search & Perplexity Ignore Your Website: The Technical GEO Audit (2026)",
-        "description": "Why ChatGPT Search & Perplexity Ignore Your Website: The Technical GEO Audit...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:52:56.000Z",
-        "url": "https://dev.to/thesqb/why-chatgpt-search-perplexity-ignore-your-website-the-technical-geo-audit-2026-1e7g",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fzw3h3rz60gg0w6g94nea.jpg",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-5ea736a5-d353-5af1-b2c4-97a482a5ce99",
-        "title": "HustleCraft AI: Open-Source AI Toolkit for Freelancers & Side Hustlers",
-        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle ...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:52:48.000Z",
-        "url": "https://dev.to/chaubeydev55/hustlecraft-ai-open-source-ai-toolkit-for-freelancers-side-hustlers-2nie",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fn35yjpq2zymopymvy75c.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-87f948e5-8eb8-591f-9794-c2153bc6f065",
-        "title": "GhostLedger: The Sovereign Financial Machine — Why Our AI Bookkeeper Math Only Works Because Gemma 2 Is Open-Weight",
-        "description": "This is my submission for the Hacktoberfest Open-Source AI Challenge, Week 2: Side Hustle. I'm...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:52:17.000Z",
-        "url": "https://dev.to/polymath_arnav/ghostledger-the-sovereign-financial-machine-why-our-ai-bookkeeper-math-only-works-because-gemma-1el8",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6c3hvilqftetfvem4d6l.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-8c935201-5e04-5667-a054-5076a61c181a",
-        "title": "NFL Week 6: Big takeaways, questions and fantasy spin from Sunday's games",
-        "description": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 6.",
-        "publisher": "ESPN",
-        "publisherDomain": "espn.com",
-        "publishedAt": "2026-10-18T17:46:59.000Z",
-        "url": "https://www.espn.com/nfl/story/_/id/50181469/week-6-sunday-games-takeaways-questions-2026",
-        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1018%2Fr1732507_1296x729_16%2D9.jpg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-a4169e62-862f-55df-939c-c7753ecb9abf",
-        "title": "Polymarket updates $25 promo code “OREGON” for Cowboys-Packers",
-        "description": "Polymarket referral code OREGON has been updated for Cowboys-Packers on Sunday Night Football, extending a $25 referral bonus on a $10 first ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "oregonlive.com",
-        "publishedAt": "2026-10-18T17:59:35.000Z",
-        "url": "https://www.oregonlive.com/betting/2026/10/polymarket-updates-25-promo-code-oregon-for-cowboys-packers.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-b73534c5-1c9d-5218-bff4-8d7040c9e262",
-        "title": "Everything Matt Rhule said after Nebraska's dramatic loss to Oregon",
-        "description": "The Cornhuskers had firm control of the game against the Ducks, until it all slipped away.",
-        "publisher": "Oregonlive",
-        "publisherDomain": "oregonlive.com",
-        "publishedAt": "2026-10-18T17:59:35.000Z",
-        "url": "https://www.oregonlive.com/ducks/2026/10/everything-matt-rhule-said-after-nebraskas-dramatic-loss-to-oregon.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-dcd780e9-c302-5d14-8fc0-84150066732b",
-        "title": "Audrey Adams Obituary (2026) - Milwaukee, WI - Legacy",
-        "description": "Audrey Adams – Passed away on September 29, 2026. Visitation from 10:00 AM – 11:00 AM. Funeral Service at 11:00 AM on Monday, October 19, ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-10-18T17:59:35.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/name/audrey-adams-obituary?id=62775438",
+        "id": "currents-008b1982-1377-57d5-bf9b-1f9973ce9eea",
+        "title": "Zelensky says Trump risks 'historic mistake' if he backs Russia - The Philadelphia Inquirer",
+        "description": "If United States will support Putin, I mean, it's unbelievable. It's a tragedy.\" the Ukrainian leader said in an interview on NBC's \"Meet the ...",
+        "publisher": "Inquirer",
+        "publisherDomain": "inquirer.com",
+        "publishedAt": "2026-10-18T20:21:26.000Z",
+        "url": "https://www.inquirer.com/news/nation-world/zelensky-ukraine-russia-us-support-trump-putin-starshield-musk-20261018.html",
         "categories": [
           "Top",
           "World",
@@ -501,27 +511,13 @@
     ],
     "World": [
       {
-        "id": "currents-9a9fd88c-a4b9-570c-b088-e4d4572f0df5",
-        "title": "Port in peril — former Transnet workers recalled to cover for Durban Gateway Terminal",
-        "description": "Minister of Transport Barbara Creecy has tried to ease the concerns of a shipping industry which is losing patience with Durban harbour, but workers say they have been short-changed by Transnet’s priv…",
-        "publisher": "Co",
-        "publisherDomain": "dailymaverick.co.za",
-        "publishedAt": "2026-10-18T17:52:23.000Z",
-        "url": "https://www.dailymaverick.co.za/article/2026-10-18-port-in-peril-former-transnet-workers-recalled-to-cover-for-durban-gateway-terminal",
-        "imageUrl": "https://cdn.dailymaverick.co.za/i/FY7Au6xgu5Mft8CFK8BbyvCiO7Q=/800x0/smart/filters:strip_exif()/file/attachments/orphans/BM-Holly-durban-port-update_776463.jpg",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-4b8c1d39-518f-573d-8a82-b4df557dd13f",
-        "title": "Betting line set for Oregon Ducks at Illinois",
-        "description": "Published: Oct. 18, 2026, 10:13 a.m.. Michigan State football against Illinois 2026 Michigan State hosts Illinois in a Big 10 football game at Spartan ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "oregonlive.com",
-        "publishedAt": "2026-10-18T17:59:35.000Z",
-        "url": "https://www.oregonlive.com/ducks/2026/10/betting-line-set-for-oregon-ducks-at-illinois.html",
+        "id": "currents-008b1982-1377-57d5-bf9b-1f9973ce9eea",
+        "title": "Zelensky says Trump risks 'historic mistake' if he backs Russia - The Philadelphia Inquirer",
+        "description": "If United States will support Putin, I mean, it's unbelievable. It's a tragedy.\" the Ukrainian leader said in an interview on NBC's \"Meet the ...",
+        "publisher": "Inquirer",
+        "publisherDomain": "inquirer.com",
+        "publishedAt": "2026-10-18T20:21:26.000Z",
+        "url": "https://www.inquirer.com/news/nation-world/zelensky-ukraine-russia-us-support-trump-putin-starshield-musk-20261018.html",
         "categories": [
           "Top",
           "World",
@@ -529,41 +525,13 @@
         ]
       },
       {
-        "id": "currents-dcd780e9-c302-5d14-8fc0-84150066732b",
-        "title": "Audrey Adams Obituary (2026) - Milwaukee, WI - Legacy",
-        "description": "Audrey Adams – Passed away on September 29, 2026. Visitation from 10:00 AM – 11:00 AM. Funeral Service at 11:00 AM on Monday, October 19, ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "obits.oregonlive.com",
-        "publishedAt": "2026-10-18T17:59:35.000Z",
-        "url": "https://obits.oregonlive.com/us/obituaries/name/audrey-adams-obituary?id=62775438",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-a4169e62-862f-55df-939c-c7753ecb9abf",
-        "title": "Polymarket updates $25 promo code “OREGON” for Cowboys-Packers",
-        "description": "Polymarket referral code OREGON has been updated for Cowboys-Packers on Sunday Night Football, extending a $25 referral bonus on a $10 first ...",
-        "publisher": "Oregonlive",
-        "publisherDomain": "oregonlive.com",
-        "publishedAt": "2026-10-18T17:59:35.000Z",
-        "url": "https://www.oregonlive.com/betting/2026/10/polymarket-updates-25-promo-code-oregon-for-cowboys-packers.html",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-b73534c5-1c9d-5218-bff4-8d7040c9e262",
-        "title": "Everything Matt Rhule said after Nebraska's dramatic loss to Oregon",
-        "description": "The Cornhuskers had firm control of the game against the Ducks, until it all slipped away.",
-        "publisher": "Oregonlive",
-        "publisherDomain": "oregonlive.com",
-        "publishedAt": "2026-10-18T17:59:35.000Z",
-        "url": "https://www.oregonlive.com/ducks/2026/10/everything-matt-rhule-said-after-nebraskas-dramatic-loss-to-oregon.html",
+        "id": "currents-53589c84-5a37-57da-8ce5-fb16f39d234a",
+        "title": "'Can we get that back?' After school shooting, Bend questions its identity - The Philadelphia Inquirer",
+        "description": "After a teenager killed three students and a teacher before being shot by a passerby, the community mourns and comes together.",
+        "publisher": "Inquirer",
+        "publisherDomain": "inquirer.com",
+        "publishedAt": "2026-10-18T20:21:26.000Z",
+        "url": "https://www.inquirer.com/news/nation-world/fatal-school-shooting-bend-oregon-community-response-20261018.html",
         "categories": [
           "Top",
           "World",
@@ -573,216 +541,223 @@
     ],
     "Business": [
       {
-        "id": "currents-4dfd4c84-1372-5fab-a18b-52b50d324192",
-        "title": "The Plastic Surgery Foundation appoints Sara R. Dickie, MD, as President",
-        "description": "Houston, Oct. 18, 2026 (GLOBE NEWSWIRE) — Sara R. Dickie, MD, has been named President of",
-        "publisher": "Financial Post",
-        "publisherDomain": "financialpost.com",
-        "publishedAt": "2026-10-18T17:03:58.000Z",
-        "url": "https://financialpost.com/globe-newswire/the-plastic-surgery-foundation-appoints-sara-r-dickie-md-as-president",
-        "imageUrl": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/10/sara-r-dickie-md.jpeg",
+        "id": "currents-9a49b689-e1a5-5df0-9c95-75b7952ffff1",
+        "title": "Feeling 'burnt out'? Research suggests your surroundings might be to blame",
+        "description": "More than one in three Australian workers are experiencing burnout, according to a survey, and for those whose workplaces have \"high levels of system friction\" it is far more likely.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-10-18T19:44:13.000Z",
+        "url": "https://www.abc.net.au/news/2026-10-19/environmental-and-workplace-factors-make-burnout-more-likely/107273764",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/b5b66088ff6404c5c73e687dd027822f?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=431&width=862&height=485&imformat=generic",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-509eb5ad-61ea-5b60-a546-6c4f37df0354",
-        "title": "Vol Street Journal™ :: Episode 44 | Macro Ops: Unparalleled Investing Research",
-        "description": "Macro Ops: Unparalleled Investing Research | Vol Street Journal™ :: Episode 44",
-        "publisher": "Macro Ops",
-        "publisherDomain": "macro-ops.com",
-        "publishedAt": "2026-10-18T17:26:26.000Z",
-        "url": "https://macro-ops.com/vol-street-journal-episode-44",
-        "imageUrl": "https://macro-ops.com/wp-content/uploads/2025/11/vol-Street-Journal.webp",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-9f7729c2-8eb7-5f51-ae2e-dbe61f7adc2b",
-        "title": "Mining’s future hinges on global cooperation: report",
-        "description": "Three potential paths to 2050 reveal how political divisions, technological advances, and regulation could impact the industry.",
-        "publisher": "Mining",
-        "publisherDomain": "mining.com",
-        "publishedAt": "2026-10-18T17:31:14.000Z",
-        "url": "https://www.mining.com/minings-future-hinges-on-global-cooperation-report",
-        "imageUrl": "https://www.mining.com/wp-content/uploads/2026/08/salobo.png",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-5fbe6178-e9c6-5bda-a913-aab902e755f9",
-        "title": "Realty Income Recovers Slowly, But Dividend Aristocrats Still Face Real Risks - Realty Income (NYSE:O)",
-        "description": "Realty Income (NYSE: O) stock has rebounded over the past two weeks, climbing from a low of $53 to $56. This rebound may be a bull trap.",
-        "publisher": "Benzinga",
-        "publisherDomain": "benzinga.com",
-        "publishedAt": "2026-10-18T17:30:07.000Z",
-        "url": "https://www.benzinga.com/markets/equities/26/10/62429583/realty-income-recovers-slowly-but-the-dividend-aristocrat-still-faces-real-risks",
-        "imageUrl": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/10/18/Phoenix-az-usa--8-27-22--Realty-Income--.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-fe361041-dbea-5bc2-993d-185c0f0142a9",
-        "title": "Royal Canadian Legion statement: CFB Wainwright tragedy",
-        "description": "OTTAWA, Ontario, Oct. 18, 2026 (GLOBE NEWSWIRE) — The Royal Canadian Legion is profoundly saddened to learn of a tragic incident on the grounds of CFB Wainwright,…",
-        "publisher": "Financial Post",
-        "publisherDomain": "financialpost.com",
-        "publishedAt": "2026-10-18T17:12:19.000Z",
-        "url": "https://financialpost.com/globe-newswire/royal-canadian-legion-statement-cfb-wainwright-tragedy",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-1fd4ecb3-cfc9-55b9-8b33-a5ebad076e36",
-        "title": "Bitcoin Holds Above $80,000 as Saylor Signals More Buying While ETF Inflows Cool - Strategy (NASDAQ:MSTR)",
-        "description": "Bitcoin has held steady above $80,000 as Michael Saylor hints of more Bitcoin buying even as ETF inflows cool.",
-        "publisher": "Benzinga",
-        "publisherDomain": "benzinga.com",
-        "publishedAt": "2026-10-18T17:20:08.000Z",
-        "url": "https://www.benzinga.com/crypto/26/10/62429564/bitcoin-holds-above-80k-as-saylor-signals-more-buying-while-etf-inflows-cool",
-        "imageUrl": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/10/18/Bitcoin-Btc-Virtual-Cryptocurrency-In-Fr.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-fb2f2c17-7832-503e-a93a-424af4347395",
-        "title": "I was annoyed by my neighbor's noise. Months later, I'd helped raise $80,000 for her care.",
-        "description": "I was annoyed by my noisy upstairs neighbor until I learned she had Parkinson's. Helping her led to an unexpected friendship.",
-        "publisher": "Businessinsider",
-        "publisherDomain": "businessinsider.com",
-        "publishedAt": "2026-10-18T17:14:01.000Z",
-        "url": "https://www.businessinsider.com/noisy-neighbor-parkinsons-unexpected-friendship-2026-10",
-        "imageUrl": "https://i.insider.com/6acd49d2c2928e989ab95da7?width=1200&format=jpeg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-99881bc7-607a-5eac-8590-63d0fd9883c6",
-        "title": "Tiger Shroff firing incident: Check the actor’s net worth, business ventures, property investmments and other income sources",
-        "description": "Tiger Shroff was reportedly caught in a firing incident in Mumbai's Juhu on Sunday evening, prompting a police investigation. The actor, who was taken to Nanavati Hospital, was reported to be safe. Amid the incident, here's a look at his estimated net worth, film fees, brand endorsements, businesses...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-10-18T17:06:38.000Z",
-        "url": "https://economictimes.indiatimes.com/magazines/panache/tiger-shroff-firing-incident-check-the-actors-net-worth-business-ventures-property-investmments-and-other-income-sources/articleshow/135031613.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-135032343,width-1200,height-900,imgsize-155489,overlay-etpanache/articleshow.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-99c24d9d-1540-5e65-824b-2a92b1161b7f",
-        "title": "For those of you who have not bought any bonds (BND / VBTLX) when will you start?",
-        "description": "At what age will you consider starting? 20 years before your retirement date? 10 years before your retirement date? submitted by /u/Scorface [link] [comments]",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-10-18T17:50:48.000Z",
-        "url": "https://www.reddit.com/r/Bogleheads/comments/1x99izf/for_those_of_you_who_have_not_bought_any_bonds",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-04f55f68-aacd-5c7a-a96d-bff06a0a4163",
-        "title": "Do you trade options differently on earnings weeks, or keep the same playbook?",
-        "description": "I mostly sit out the day before a big earnings print now. Got burned a couple times buying calls where I was right on direction and still lost money because IV dropped right after. Now I either go defined risk or just wait a day for things to settle. Curious if anyone has a setup they actually like ...",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-10-18T17:43:54.000Z",
-        "url": "https://www.reddit.com/r/options/comments/1x99cnv/do_you_trade_options_differently_on_earnings",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-2702dc0c-f386-5533-8de0-a5492fb9bc13",
-        "title": "Elon Musk makes an odd new promise about the Tesla Roadster",
-        "description": "A familiar Musk word is back, and this time it comes with a hefty deposit and no firm delivery date.",
-        "publisher": "Thestreet",
-        "publisherDomain": "thestreet.com",
-        "publishedAt": "2026-10-18T17:33:00.000Z",
-        "url": "https://www.thestreet.com/automotive/elon-musk-makes-an-odd-new-promise-about-the-tesla-roadster",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-d1839413-2986-5b4c-804f-624b01acd820",
-        "title": "Newmont's $1.95 Billion Nevada Deal Clears Consent Hurdle for Barrick Gold IPO",
-        "description": "Newmont challenged the performance and proposed transfer of shared gold assets after Barrick outlined a North American IPO. An August agreement…",
-        "publisher": "Minelistings",
-        "publisherDomain": "minelistings.com",
-        "publishedAt": "2026-10-18T17:27:10.000Z",
-        "url": "https://minelistings.com/news/industry-news/newmonts-1-95-billion-nevada-deal-clears-consent-hurdle-for-barrick-gold-ipo",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-5bed27d5-0550-5a1f-b121-9960d3a70135",
-        "title": "Apple shares a warning for iPhone customers",
-        "description": "You might be better off looking to T-Mobile, Verizon, and AT&T for an answer.",
-        "publisher": "Thestreet",
-        "publisherDomain": "thestreet.com",
-        "publishedAt": "2026-10-18T17:23:00.000Z",
-        "url": "https://www.thestreet.com/retail/apple-shares-a-warning-for-iphone-customers",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-b43d159c-21d8-5e25-9cfc-2910c8cc480d",
-        "title": "Cartier-owner Richemont considers joining bid for De Beers - Big News Network.com",
-        "description": "Anglo American put De Beers up for sale in 2024 as part of a wider restructuring amid falling diamond prices and growing demand for synthetic stones.",
-        "publisher": "Bignewsnetwork",
-        "publisherDomain": "bignewsnetwork.com",
-        "publishedAt": "2026-10-18T17:19:46.000Z",
-        "url": "https://www.bignewsnetwork.com/news/279377192/cartier-owner-richemont-considers-joining-bid-for-de-beers",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-06dddf1c-25c6-58cb-9834-39caa7afa3fe",
-        "title": "SocGen flags relative bargains in Treasuries as yields fall",
-        "description": "SocGen flags relative bargains in Treasuries as yields fall",
+        "id": "currents-1882a4f4-cc17-54f3-8d0b-4f07eac84db9",
+        "title": "SH: A Tactical Hedge, But Not Yet A Short Call (NYSEARCA:SH)",
+        "description": "ProShares Short S&P 500 ETF (SH) rated Hold: inverse S&P 500 exposure for tactical hedging in volatile, event-driven markets.",
         "publisher": "Seekingalpha",
         "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-10-18T17:03:27.000Z",
-        "url": "https://seekingalpha.com/news/4654071-socgen-flags-relative-bargains-in-treasuries-as-yields-fall?feed_item_type=news",
+        "publishedAt": "2026-10-18T20:01:22.000Z",
+        "url": "https://seekingalpha.com/article/4955077-sh-a-tactical-hedge-but-not-yet-a-short-call",
+        "imageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1783253481/image_1783253481.jpg?io=getty-c-w1536",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-8ee03cb2-ff6a-565e-9ac5-c7aef2044c61",
-        "title": "Macy’s $500 diamond-cut ice chain bracelet crafted with 14-karat gold is 76% off",
-        "description": "\"Looks great and impresses others.\"",
-        "publisher": "Thestreet",
-        "publisherDomain": "thestreet.com",
-        "publishedAt": "2026-10-18T17:03:00.000Z",
-        "url": "https://www.thestreet.com/deals/diamond-cut-ice-chain-bracelet-macys-sale",
+        "id": "currents-85d8bbcf-65bf-5e03-9e5a-99b85425d0da",
+        "title": "Rise and Shine: Everything you need to know before the ASX opens",
+        "description": "Good morning! Here’s everything you need to know before the ASX flings open its doors and begins trading today.",
+        "publisher": "Stockhead",
+        "publisherDomain": "stockhead.com.au",
+        "publishedAt": "2026-10-18T20:00:56.000Z",
+        "url": "https://stockhead.com.au/news/rise-and-shine-everything-you-need-to-know-before-the-asx-opens-905",
+        "imageUrl": "https://stockhead.com.au/wp-content/uploads/2026/10/GettyImages-72541018-1200x675-1.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-e887d4ca-ead5-5ecd-9542-b0411bee9a00",
+        "title": "Ultra-Wealthy Americans With $25M Rank Real Estate As Best Investment For Growing Money — Above Stocks An",
+        "description": "Stocks may dominate conversations about building wealth, but the people with the biggest portfolios aren’t necessarily looking at the market the same way as everyone else. For America’s ultra-wealthy, one of the oldest",
+        "publisher": "Benzinga",
+        "publisherDomain": "benzinga.com",
+        "publishedAt": "2026-10-18T20:00:06.000Z",
+        "url": "https://www.benzinga.com/personal-finance/management/26/10/62429724/ultra-wealthy-americans-with-25m-rank-real-estate-as-best-investment-for-growing-money-above-stocks-and-private-equity",
+        "imageUrl": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/10/18/Wealth-Transfer-Can-Look-Like-Magic.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-bd1eaf0f-6d11-52c2-a7ef-e9c1988275bc",
+        "title": "Victorian Labor pledges $30-a-week public transport fare cap",
+        "description": "Premier Ben Carroll has pledged to cap public transport fares at $30 a week if the Labor government is re-elected next month, the second transport capping pledge in as many days.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-10-18T19:44:13.000Z",
+        "url": "https://www.abc.net.au/news/2026-10-19/victorian-labor-pledges-public-transport-fare-cap/107280670",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/657763d3070fe6b6e860f7fface08b09?impolicy=wcms_watermark_news&cropH=1218&cropW=2165&xPos=9&yPos=0&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-266ff278-9c54-5145-bc72-a974b5a1aa20",
+        "title": "Guy on Rocks: Alvo's Brazilian rare earth salvo",
+        "description": "Guy Le Page looks at a Brazilian REE explorer in Alvo Minerals who has put out some impressive results not far from a recently acquired mine.",
+        "publisher": "Stockhead",
+        "publisherDomain": "stockhead.com.au",
+        "publishedAt": "2026-10-18T19:50:00.000Z",
+        "url": "https://stockhead.com.au/stockhead-tv/guy-on-rocks/guy-on-rocks-alvos-brazilian-rare-earth-salvo",
+        "imageUrl": "https://stockhead.com.au/wp-content/uploads/2026/10/Guy-on-Rocks-ALV-1200x675-1.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-3a867229-9896-5ba0-adaa-dc09092f2546",
+        "title": "Challenges ahead for Fairfax's management of IDBI Bank post ₹52,878 crore stake deal approval",
+        "description": "Fairfax Financial's subsidiary has acquired a 60.7% stake in IDBI Bank for ₹52,878 crore, leading to potential operational changes. The new management faces challenges such as employee resistance and asset quality improvement. Despite having a higher profitability compared to peers, IDBI Bank's gros...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-10-18T19:49:55.000Z",
+        "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/challenges-ahead-for-fairfaxs-management-of-idbi-bank-post-52878-crore-stake-deal-approval/articleshow/135034899.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-135034963,width-1200,height-900,imgsize-38092,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-4c4ec950-2bae-5e9e-8962-136647ecb353",
+        "title": "Currently have an HDHP with HSA",
+        "description": "Currently have HDHP with HSA that I max out each year. New health plans are being introduced. The lowest cost plan is more affordable than what I have now but without an HSA. Next tier up has an HSA but more than what I’m paying currently. Granted my HSA will still grow due to being invested though ...",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-10-18T19:44:46.000Z",
+        "url": "https://www.reddit.com/r/personalfinance/comments/1x9ceum/currently_have_an_hdhp_with_hsa",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-2f11ca3b-85fa-55f9-b452-454663513a55",
+        "title": "In outer Adelaide, what do residents think of the MotoGP parklands redevelopment?",
+        "description": "The suburbs of Salisbury and Hallett Cove are a fair way from the city of Adelaide, the ABC has spoken to outer suburban residents to hear what they really think of the parklands redevelopment.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-10-18T19:44:13.000Z",
+        "url": "https://www.abc.net.au/news/2026-10-19/outer-suburbs-reflect-on-tree-removal-in-parklands/107280620",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/7494903b79456325a3145d777c216918?impolicy=wcms_watermark_news&cropH=2385&cropW=4240&xPos=0&yPos=223&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-4a83ed04-b005-535e-9ee7-2c6921e1f93d",
+        "title": "Suncorp borrower's mortgage payments could spike amid transfer to ANZ",
+        "description": "Suncorp mortgage borrowers have received an alarming email informing them ANZ's takeover could see their minimum monthly mortgage repayments increase by hundreds of dollars.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-10-18T19:44:13.000Z",
+        "url": "https://www.abc.net.au/news/2026-10-19/anz-suncorp-mortgage-repayments-to-rise/107274552",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/ddccf77a60ebc1b6e265e0ad01beafa2?impolicy=wcms_watermark_news&cropH=2121&cropW=3771&xPos=233&yPos=931&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-65739714-1efe-5bf3-b64c-ec3319ce03a7",
+        "title": "Helping snap brilliant photos of orchids all part of conservation work",
+        "description": "As part of its conservation efforts in Tasmania, the Landscape Recovery Foundation is working with photographers to help them understand how to minimise their impact when photographing orchids, and is working with a scent detection dog to help map orchids growing in the wild.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-10-18T19:44:13.000Z",
+        "url": "https://www.abc.net.au/news/2026-10-19/native-orchid-conservation-photography/107254588",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/5d6f9aa3bad4692920a7cc96f0cc95d0?impolicy=wcms_watermark_news&cropH=1500&cropW=2667&xPos=0&yPos=152&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-7daa553f-7707-5bd5-8f58-d13bfaaf55a9",
+        "title": "Quick hits: Boland's rain-soaked brilliance and a touching family moment",
+        "description": "Scott Boland makes a destructive return to the team and a South African debutant has a touching family moment as rain plays spoilsport in Gqeberha. Here are the quick hits from day one of the second Test between Australia and South Africa.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-10-18T19:44:13.000Z",
+        "url": "https://www.abc.net.au/news/2026-10-19/australia-sa-quick-hits-boland-ackerman-rain/107280916",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/80763c44e38dc33608741776e8757eb3?impolicy=wcms_watermark_news&cropH=450&cropW=800&xPos=0&yPos=39&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-898e5d41-a8bb-57b0-9817-1635afd81130",
+        "title": "Get ready to go back in time with this week's history quiz",
+        "description": "How much do you know about last year's heist at the Louvre, Britney Spears and the classic horror flick, Halloween?",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-10-18T19:44:13.000Z",
+        "url": "https://www.abc.net.au/news/2026-10-19/this-week-in-history-quiz-october-19/107272654",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/1a16af98277618b527d4c8ae828e6f03?impolicy=wcms_watermark_news&cropH=1736&cropW=3086&xPos=0&yPos=79&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-a0304a15-f8cc-5616-bedc-aa25efe3092c",
+        "title": "35 years ago, Tim Winton was broke. Then he published Cloudstreet",
+        "description": "The Western Australian author reveals the story behind his beloved 1991 novel, crowned as the nation's favourite Australian book.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-10-18T19:44:13.000Z",
+        "url": "https://www.abc.net.au/news/2026-10-19/cloudstreet-tim-winton-wins-top-100-australian-books/107275314",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/03a5301fe3dc050cb5b09869562872e9?impolicy=wcms_watermark_news&cropH=1214&cropW=2158&xPos=421&yPos=199&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-f49f65e9-6ad0-5bdf-b8a4-25f49e6cad4c",
+        "title": "Deadly military base fire among Canada's worst peacetime tragedies, PM says",
+        "description": "Prime Minister Mark Carney says the incident affected reservists and soldiers from one of Canada’s most storied military regiments.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-10-18T19:44:13.000Z",
+        "url": "https://www.abc.net.au/news/2026-10-19/canadian-military-fire-mark-carney/107281574",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/a8e328bd70458590627ebd10e00d4156?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-03c18b75-be73-5b5b-b2de-a03bb759cef1",
+        "title": "Reality shows, cricket turn advertisers' safe bets",
+        "description": "Established non-fiction shows such as Bigg Boss and Kaun Banega Crorepati have continued to attract advertisers despite the blackout. Bigg Boss has roped in 95 sponsors across its language editions, while KBC has secured 25 sponsors. Cricket is also drawing advertiser interest, with India matches pr...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-10-18T19:43:04.000Z",
+        "url": "https://economictimes.indiatimes.com/industry/services/advertising/reality-shows-cricket-turn-advertisers-safe-bets/articleshow/135034874.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-135034905,width-1200,height-900,imgsize-1691737,overlay-economictimes/articleshow.jpg",
         "categories": [
           "Top",
           "Business"
@@ -791,14 +766,45 @@
     ],
     "Technology": [
       {
-        "id": "currents-425a6580-b420-5b04-a87b-ff113443dd3d",
-        "title": "Giving AI Agents a Memory They Can Reason Over: Building AI Supervisor with FalkorDB",
-        "description": "How we used graph memory to connect failures, decisions, dependencies, and verification in an AI...",
+        "id": "currents-28dee2e6-a62e-5034-b0aa-7b7760051edd",
+        "title": "Samsung to use TSMC technology for Nvidia's next-generation memory chips, Seoul newspaper reports",
+        "description": "SEOUL, Oct 18 (Reuters) - Samsung Electronics will use TSMC's 3-nanometre process to produce base dies for Nvidia's next-generation custom high-bandwidth memory (HBM) chips, the Seoul Economic Daily reported on Sunday.",
+        "publisher": "Com",
+        "publisherDomain": "thestar.com.my",
+        "publishedAt": "2026-10-18T20:26:18.000Z",
+        "url": "https://www.thestar.com.my/tech/tech-news/2026/10/18/samsung-to-use-tsmc-technology-for-nvidia039s-next-generation-memory-chips-seoul-newspaper-reports",
+        "imageUrl": "https://apicms.thestar.com.my/uploads/images/2026/10/18/4168509.jpg",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-d78f7184-df37-50de-a90a-2bc051f2c76e",
+        "title": "Chinese researchers solve 3D Ghys conjecture with homegrown AI model",
+        "description": "A Chinese research team has fully proved the 3D Ghys conjecture, a world-class mathematical problem that had baffled the international mathematics community for more than 30 years. It is the first time Chinese scientists have relied on a domestically",
+        "publisher": "Cgtn",
+        "publisherDomain": "news.cgtn.com",
+        "publishedAt": "2026-10-18T20:19:01.000Z",
+        "url": "https://news.cgtn.com/news/2026-10-15/Chinese-researchers-solve-3D-Ghys-conjecture-with-homegrown-AI-model-1RgD8zQ3Z3a/p.html",
+        "imageUrl": "https://news.cgtn.com/news/2026-10-15/Chinese-researchers-solve-3D-Ghys-conjecture-with-homegrown-AI-model-1RgD8zQ3Z3a/img/f7e88b8efd354fd4ad9caa3e4d72a996/f7e88b8efd354fd4ad9caa3e4d72a996.gif",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-ffcc5227-19bf-5121-9dd9-af8c6f792a26",
+        "title": "How to Reduce Serverless Timeout Errors with Auditable API Polling in 2026",
+        "description": "Persist one small, immutable completion record for every scheduled import, then alert on the absence...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:56:52.000Z",
-        "url": "https://dev.to/moizz_/giving-ai-agents-a-memory-they-can-reason-over-building-ai-supervisor-with-falkordb-5768",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkd5fuiicswwwg3v3ohcs.png",
+        "publishedAt": "2026-10-18T20:23:19.000Z",
+        "url": "https://dev.to/zebedeeholloway9023/how-to-reduce-serverless-timeout-errors-with-auditable-api-polling-in-2026-kim",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fvib9qfj8im2la2q0fhfp.png",
         "categories": [
           "Top",
           "Technology",
@@ -807,14 +813,14 @@
         ]
       },
       {
-        "id": "currents-13d30cac-fcac-56b3-a904-c17dc14e40dc",
-        "title": "A policy changed. Which company documents just became wrong?",
-        "description": "A company changes its refund window from 30 days to 14. The approved policy gets updated. But the...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:56:20.000Z",
-        "url": "https://dev.to/parthjaina2107/a-policy-changed-which-company-documents-just-became-wrong-3pdk",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgq27vm3gxhwi7zzmuqi2.png",
+        "id": "currents-58842291-7770-5bd6-9141-b2b2e0c3c082",
+        "title": "How to start your self-hosting adventure: a high-level overview",
+        "description": "Getting started is probably the hardest step.",
+        "publisher": "Ounapuu",
+        "publisherDomain": "ounapuu.ee",
+        "publishedAt": "2026-10-18T20:22:40.000Z",
+        "url": "https://ounapuu.ee/posts/2021/03/17/how-to-start-your-self-hosting-adventure",
+        "imageUrl": "https://ounapuu.ee/media/cover_hu_4fe4cf2661554252.jpg",
         "categories": [
           "Top",
           "Technology",
@@ -823,14 +829,14 @@
         ]
       },
       {
-        "id": "currents-a78a6645-23c9-5003-9278-35a7e57ae5a7",
-        "title": "What If Startups Could Find More Value in What They Already Have? The Story Behind Stack Intel",
-        "description": "From a question about startup failure to a vision for company intelligence, opportunity discovery,...",
+        "id": "currents-43999ae8-67e7-57b0-9509-487c38b570f2",
+        "title": "Batteries at U.S. solar plants slipped with their solar, never without it",
+        "description": "In February, EIA said developers planned to add 24 GW of utility-scale battery storage in 2026. Its...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:55:52.000Z",
-        "url": "https://dev.to/hilarious_24001/what-if-startups-could-find-more-value-in-what-they-already-have-the-story-behind-stack-intel-48m9",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjru91nmurd92upwu4cdn.png",
+        "publishedAt": "2026-10-18T20:22:32.000Z",
+        "url": "https://dev.to/munimv2/batteries-at-us-solar-plants-slipped-with-their-solar-never-without-it-5e0i",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fh4gakkoq0nl9tgq706wx.png",
         "categories": [
           "Top",
           "Technology",
@@ -839,14 +845,14 @@
         ]
       },
       {
-        "id": "currents-66e2357d-b4ee-5e8d-9f74-1897fb810366",
-        "title": "AI Supervisor: AI agents do the work. AI Supervisor makes sure the work gets done.",
-        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle ...",
+        "id": "currents-fd726f73-2bf4-5ac1-83bf-2f232fc4e8a4",
+        "title": "LLMs Have No Nose, So We Built One: an AI Nose on the Arduino UNO Q",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge: Side Hustle. ▶ Demo video...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:55:08.000Z",
-        "url": "https://dev.to/moizz_/ai-supervisor-ai-agents-do-the-work-ai-supervisor-makes-sure-the-work-gets-done-39nh",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2jfjxexri9rmrjo0ldy3.png",
+        "publishedAt": "2026-10-18T20:22:21.000Z",
+        "url": "https://dev.to/k66inthesky/llms-have-no-nose-so-we-built-one-an-ai-nose-on-the-arduino-uno-q-3fhl",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fomafq9hn93jwd5cs4wyz.jpg",
         "categories": [
           "Top",
           "Technology",
@@ -855,14 +861,14 @@
         ]
       },
       {
-        "id": "currents-47e05b53-d7f4-54fc-9d8b-faf979b88f68",
-        "title": "Your company's docs are lying to you. A graph can tell you which ones.",
-        "description": "# Your company's docs are lying to you. A graph can tell you which ones. At most companies, \"why do...",
+        "id": "currents-361ec3f6-0a94-507d-b800-80e82559294d",
+        "title": "The Silent Recall Drop: pgvector HNSW Under Concurrent Writes",
+        "description": "Two regressions in one window: HNSW lock waits during backfill, and a recall collapse caused by switching to inner-product ops without normalizing embeddings.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:54:47.000Z",
-        "url": "https://dev.to/samina_parveen_11a71af857/your-companys-docs-are-lying-to-you-a-graph-can-tell-you-which-ones-dj0",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2m96xl5q730gh8vm6x42.png",
+        "publishedAt": "2026-10-18T20:22:14.000Z",
+        "url": "https://dev.to/samuel_oakley/the-silent-recall-drop-pgvector-hnsw-under-concurrent-writes-49jp",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fopengraph.githubassets.com%2F1%2FMadsLorentzen%2Fai-job-search",
         "categories": [
           "Top",
           "Technology",
@@ -871,14 +877,14 @@
         ]
       },
       {
-        "id": "currents-b9526b00-ae89-555d-a17d-540a4b827ea5",
-        "title": "SentinelGraph: Building a Graph-Powered AI Cybersecurity Investigation Agent with FalkorDB",
-        "description": "SentinelGraph: Building a Graph-Powered AI Cybersecurity Investigation Agent with...",
+        "id": "currents-ea003dc5-b6d6-504c-b2d6-801f0f0976d1",
+        "title": "DukaanDraft: a local AI writing helper for small shops",
+        "description": "This is a submission for the DEV Hacktoberfest Week 2 Challenge. What I Built DukaanDraft...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:53:08.000Z",
-        "url": "https://dev.to/parnika_sm/sentinelgraph-building-a-graph-powered-ai-cybersecurity-investigation-agent-with-falkordb-59eb",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6pop4m7aku0ywv9bw9d4.png",
+        "publishedAt": "2026-10-18T20:21:51.000Z",
+        "url": "https://dev.to/mrnowshirwan/dukaandraft-a-local-ai-writing-helper-for-small-shops-nn2",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fg0yb19mj1jc79x5puq02.png",
         "categories": [
           "Top",
           "Technology",
@@ -887,14 +893,14 @@
         ]
       },
       {
-        "id": "currents-50914469-30ac-5b06-b12b-3cc16a25447f",
-        "title": "Why ChatGPT Search & Perplexity Ignore Your Website: The Technical GEO Audit (2026)",
-        "description": "Why ChatGPT Search & Perplexity Ignore Your Website: The Technical GEO Audit...",
+        "id": "currents-bfe07ed7-b5e3-52f4-b757-2ee0810e4ad6",
+        "title": "DTLS on NetScaler: why the CVE-2026-88772 prerequisite is a default, not a filter",
+        "description": "DTLS on NetScaler: why the CVE-2026-88772 prerequisite is a default, not a filter",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:52:56.000Z",
-        "url": "https://dev.to/thesqb/why-chatgpt-search-perplexity-ignore-your-website-the-technical-geo-audit-2026-1e7g",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fzw3h3rz60gg0w6g94nea.jpg",
+        "publishedAt": "2026-10-18T20:21:24.000Z",
+        "url": "https://dev.to/facilishz/dtls-on-netscaler-why-the-cve-2026-88772-prerequisite-is-a-default-not-a-filter-1ob3",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5k94afzmtlzmuwx7m2t8.png",
         "categories": [
           "Top",
           "Technology",
@@ -903,14 +909,14 @@
         ]
       },
       {
-        "id": "currents-5ea736a5-d353-5af1-b2c4-97a482a5ce99",
-        "title": "HustleCraft AI: Open-Source AI Toolkit for Freelancers & Side Hustlers",
-        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle ...",
+        "id": "currents-33ab9e4d-1051-5c9e-81d8-7bccb036901e",
+        "title": "Migrating from AngularJS to React: A 30% Performance Improvement Journey",
+        "description": "Unlock significant performance gains by migrating your legacy AngularJS application to React. This guide covers strategies, challenges, and real-world",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:52:48.000Z",
-        "url": "https://dev.to/chaubeydev55/hustlecraft-ai-open-source-ai-toolkit-for-freelancers-side-hustlers-2nie",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fn35yjpq2zymopymvy75c.png",
+        "publishedAt": "2026-10-18T20:20:36.000Z",
+        "url": "https://dev.to/farukh/migrating-from-angularjs-to-react-a-30-performance-improvement-journey-the-30-performance-leap-372m",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fstorage.googleapis.com%2Fsyncapp-ai-covers%2Fuploads%2Fai-cover-migrating-from-angularjs-to-react-a-1792354748997-1792354748998-521297.png",
         "categories": [
           "Top",
           "Technology",
@@ -919,14 +925,14 @@
         ]
       },
       {
-        "id": "currents-87f948e5-8eb8-591f-9794-c2153bc6f065",
-        "title": "GhostLedger: The Sovereign Financial Machine — Why Our AI Bookkeeper Math Only Works Because Gemma 2 Is Open-Weight",
-        "description": "This is my submission for the Hacktoberfest Open-Source AI Challenge, Week 2: Side Hustle. I'm...",
+        "id": "currents-a630a88d-c79b-54b8-a503-4f52a905d291",
+        "title": "Comparing Qwen and Gemma on the Low End: Qwen Is Faster Without Drafting, Gemma Has Better Quality",
+        "description": "Step-by-step: serving Qwen3.5-2B with llama.cpp on an 8 GB RTX 3050 and a 4 GB GTX 1650 Ti beside Gemma 4 E2B, checking that llama.cpp runs it correctly, and measuring speed, answer quality, 4-bit rounding, QAT and drafting with Qwen's own MTP head.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:52:17.000Z",
-        "url": "https://dev.to/polymath_arnav/ghostledger-the-sovereign-financial-machine-why-our-ai-bookkeeper-math-only-works-because-gemma-1el8",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6c3hvilqftetfvem4d6l.png",
+        "publishedAt": "2026-10-18T20:20:20.000Z",
+        "url": "https://dev.to/gde/comparing-qwen-and-gemma-on-the-low-end-qwen-is-faster-without-drafting-gemma-has-better-quality-30bo",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fxbill9%2Fqwen-dev%2Fmain%2Flocal-llamacpp-3050oem-qwen352b-q4_0%2Fdocs%2Fqwen-vs-gemma%2Fdevto-cover.9ce8fe8e.jpg",
         "categories": [
           "Top",
           "Technology",
@@ -935,14 +941,29 @@
         ]
       },
       {
-        "id": "currents-53faa711-6e8b-5733-a37b-37013abdd84c",
-        "title": "Why I gave my code review agent a graph",
-        "description": "**# Why I gave my code review agent a graph By a student builder who got tired of watching AI...",
+        "id": "currents-cbaaf367-8324-516e-9d82-c319af0de80d",
+        "title": "The 10 AI Tools Small Businesses Actually Use in 2026",
+        "description": "Most small businesses do not need more software — they need the repetitive work to stop eating their...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:53:17.000Z",
-        "url": "https://dev.to/hemanth_saichitra_fb1bc0/why-i-gave-my-code-review-agent-a-graph-598o",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F43xze3bxi0m3v77df2ry.png",
+        "publishedAt": "2026-10-18T20:19:11.000Z",
+        "url": "https://dev.to/neuraitool/the-10-ai-tools-small-businesses-actually-use-in-2026-4cj9",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F34i3hc9mselk4vqvqoqi.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-8f597b70-5b92-546d-9b3f-c22718946ba2",
+        "title": "Chrome browser not letting me scroll websites",
+        "description": "Hi all. I have an iPhone 15 running 26.6.2, and sometimes when I open a website on chrome, I’ll be able to scroll for maybe 2 seconds, then it’s like the whole page greys out, and I can scroll, exit or back out unless I close the whole browser. Has anyone else experienced this or know of a fix? ...",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-10-18T20:25:13.000Z",
+        "url": "https://www.reddit.com/r/iphone/comments/1x9dfd0/chrome_browser_not_letting_me_scroll_websites",
         "categories": [
           "Top",
           "Technology",
@@ -951,32 +972,78 @@
         ]
       },
       {
-        "id": "currents-50c01f3e-3a9e-5a4f-aac9-3c30e2857f01",
-        "title": "How we used FalkorDB, Graph Theory (WCC, Betweenness, PageRank), and Multi-Agent simulation to catch breaking ecosystem changes before merge.",
-        "description": "What if a clean refactor breaks 32 integrations? On October 16, 2026, Home Assistant...",
+        "id": "currents-3c06132e-d426-59d5-8618-940cdfaf3544",
+        "title": "Why I didn't integrate with Messenger",
+        "description": "A fitness coach I know runs live workouts in a private Facebook group. During each workout she says a...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:53:04.000Z",
-        "url": "https://dev.to/prem_jha_e193105ad8ece2c0/how-we-used-falkordb-graph-theory-wcc-betweenness-pagerank-and-multi-agent-simulation-to-4pgi",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4iatgqtkqxc2w4fnbuaw.png",
+        "publishedAt": "2026-10-18T20:21:28.000Z",
+        "url": "https://dev.to/kolodziejczykamil/why-i-didnt-integrate-with-messenger-2l74",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwazczbtlefw2qelsgynd.png",
         "categories": [
           "Top",
           "Technology",
           "Science",
           "U.S."
+        ]
+      },
+      {
+        "id": "currents-d574ed53-13ed-50a8-89c0-e616f78f52b3",
+        "title": "Wallpaper problems",
+        "description": "iPhone 17 Pro Max 27.0.1: Sometime over the last year a software update has made it impossible to change the home screen wallpaper image. I used to be able to be in Photos, select a picture, and then assign it as the wallpaper. Then that changed to having to create a whole scheme with what the lock...",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-10-18T20:17:15.000Z",
+        "url": "https://www.reddit.com/r/iphone/comments/1x9d8ca/wallpaper_problems",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
         ]
       }
     ],
     "Science": [
       {
-        "id": "currents-425a6580-b420-5b04-a87b-ff113443dd3d",
-        "title": "Giving AI Agents a Memory They Can Reason Over: Building AI Supervisor with FalkorDB",
-        "description": "How we used graph memory to connect failures, decisions, dependencies, and verification in an AI...",
+        "id": "currents-28dee2e6-a62e-5034-b0aa-7b7760051edd",
+        "title": "Samsung to use TSMC technology for Nvidia's next-generation memory chips, Seoul newspaper reports",
+        "description": "SEOUL, Oct 18 (Reuters) - Samsung Electronics will use TSMC's 3-nanometre process to produce base dies for Nvidia's next-generation custom high-bandwidth memory (HBM) chips, the Seoul Economic Daily reported on Sunday.",
+        "publisher": "Com",
+        "publisherDomain": "thestar.com.my",
+        "publishedAt": "2026-10-18T20:26:18.000Z",
+        "url": "https://www.thestar.com.my/tech/tech-news/2026/10/18/samsung-to-use-tsmc-technology-for-nvidia039s-next-generation-memory-chips-seoul-newspaper-reports",
+        "imageUrl": "https://apicms.thestar.com.my/uploads/images/2026/10/18/4168509.jpg",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-d78f7184-df37-50de-a90a-2bc051f2c76e",
+        "title": "Chinese researchers solve 3D Ghys conjecture with homegrown AI model",
+        "description": "A Chinese research team has fully proved the 3D Ghys conjecture, a world-class mathematical problem that had baffled the international mathematics community for more than 30 years. It is the first time Chinese scientists have relied on a domestically",
+        "publisher": "Cgtn",
+        "publisherDomain": "news.cgtn.com",
+        "publishedAt": "2026-10-18T20:19:01.000Z",
+        "url": "https://news.cgtn.com/news/2026-10-15/Chinese-researchers-solve-3D-Ghys-conjecture-with-homegrown-AI-model-1RgD8zQ3Z3a/p.html",
+        "imageUrl": "https://news.cgtn.com/news/2026-10-15/Chinese-researchers-solve-3D-Ghys-conjecture-with-homegrown-AI-model-1RgD8zQ3Z3a/img/f7e88b8efd354fd4ad9caa3e4d72a996/f7e88b8efd354fd4ad9caa3e4d72a996.gif",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-ffcc5227-19bf-5121-9dd9-af8c6f792a26",
+        "title": "How to Reduce Serverless Timeout Errors with Auditable API Polling in 2026",
+        "description": "Persist one small, immutable completion record for every scheduled import, then alert on the absence...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:56:52.000Z",
-        "url": "https://dev.to/moizz_/giving-ai-agents-a-memory-they-can-reason-over-building-ai-supervisor-with-falkordb-5768",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkd5fuiicswwwg3v3ohcs.png",
+        "publishedAt": "2026-10-18T20:23:19.000Z",
+        "url": "https://dev.to/zebedeeholloway9023/how-to-reduce-serverless-timeout-errors-with-auditable-api-polling-in-2026-kim",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fvib9qfj8im2la2q0fhfp.png",
         "categories": [
           "Top",
           "Technology",
@@ -985,14 +1052,14 @@
         ]
       },
       {
-        "id": "currents-13d30cac-fcac-56b3-a904-c17dc14e40dc",
-        "title": "A policy changed. Which company documents just became wrong?",
-        "description": "A company changes its refund window from 30 days to 14. The approved policy gets updated. But the...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:56:20.000Z",
-        "url": "https://dev.to/parthjaina2107/a-policy-changed-which-company-documents-just-became-wrong-3pdk",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgq27vm3gxhwi7zzmuqi2.png",
+        "id": "currents-58842291-7770-5bd6-9141-b2b2e0c3c082",
+        "title": "How to start your self-hosting adventure: a high-level overview",
+        "description": "Getting started is probably the hardest step.",
+        "publisher": "Ounapuu",
+        "publisherDomain": "ounapuu.ee",
+        "publishedAt": "2026-10-18T20:22:40.000Z",
+        "url": "https://ounapuu.ee/posts/2021/03/17/how-to-start-your-self-hosting-adventure",
+        "imageUrl": "https://ounapuu.ee/media/cover_hu_4fe4cf2661554252.jpg",
         "categories": [
           "Top",
           "Technology",
@@ -1001,14 +1068,14 @@
         ]
       },
       {
-        "id": "currents-a78a6645-23c9-5003-9278-35a7e57ae5a7",
-        "title": "What If Startups Could Find More Value in What They Already Have? The Story Behind Stack Intel",
-        "description": "From a question about startup failure to a vision for company intelligence, opportunity discovery,...",
+        "id": "currents-43999ae8-67e7-57b0-9509-487c38b570f2",
+        "title": "Batteries at U.S. solar plants slipped with their solar, never without it",
+        "description": "In February, EIA said developers planned to add 24 GW of utility-scale battery storage in 2026. Its...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:55:52.000Z",
-        "url": "https://dev.to/hilarious_24001/what-if-startups-could-find-more-value-in-what-they-already-have-the-story-behind-stack-intel-48m9",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjru91nmurd92upwu4cdn.png",
+        "publishedAt": "2026-10-18T20:22:32.000Z",
+        "url": "https://dev.to/munimv2/batteries-at-us-solar-plants-slipped-with-their-solar-never-without-it-5e0i",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fh4gakkoq0nl9tgq706wx.png",
         "categories": [
           "Top",
           "Technology",
@@ -1017,14 +1084,14 @@
         ]
       },
       {
-        "id": "currents-66e2357d-b4ee-5e8d-9f74-1897fb810366",
-        "title": "AI Supervisor: AI agents do the work. AI Supervisor makes sure the work gets done.",
-        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle ...",
+        "id": "currents-fd726f73-2bf4-5ac1-83bf-2f232fc4e8a4",
+        "title": "LLMs Have No Nose, So We Built One: an AI Nose on the Arduino UNO Q",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge: Side Hustle. ▶ Demo video...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:55:08.000Z",
-        "url": "https://dev.to/moizz_/ai-supervisor-ai-agents-do-the-work-ai-supervisor-makes-sure-the-work-gets-done-39nh",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2jfjxexri9rmrjo0ldy3.png",
+        "publishedAt": "2026-10-18T20:22:21.000Z",
+        "url": "https://dev.to/k66inthesky/llms-have-no-nose-so-we-built-one-an-ai-nose-on-the-arduino-uno-q-3fhl",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fomafq9hn93jwd5cs4wyz.jpg",
         "categories": [
           "Top",
           "Technology",
@@ -1033,14 +1100,14 @@
         ]
       },
       {
-        "id": "currents-47e05b53-d7f4-54fc-9d8b-faf979b88f68",
-        "title": "Your company's docs are lying to you. A graph can tell you which ones.",
-        "description": "# Your company's docs are lying to you. A graph can tell you which ones. At most companies, \"why do...",
+        "id": "currents-361ec3f6-0a94-507d-b800-80e82559294d",
+        "title": "The Silent Recall Drop: pgvector HNSW Under Concurrent Writes",
+        "description": "Two regressions in one window: HNSW lock waits during backfill, and a recall collapse caused by switching to inner-product ops without normalizing embeddings.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:54:47.000Z",
-        "url": "https://dev.to/samina_parveen_11a71af857/your-companys-docs-are-lying-to-you-a-graph-can-tell-you-which-ones-dj0",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2m96xl5q730gh8vm6x42.png",
+        "publishedAt": "2026-10-18T20:22:14.000Z",
+        "url": "https://dev.to/samuel_oakley/the-silent-recall-drop-pgvector-hnsw-under-concurrent-writes-49jp",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fopengraph.githubassets.com%2F1%2FMadsLorentzen%2Fai-job-search",
         "categories": [
           "Top",
           "Technology",
@@ -1049,14 +1116,14 @@
         ]
       },
       {
-        "id": "currents-b9526b00-ae89-555d-a17d-540a4b827ea5",
-        "title": "SentinelGraph: Building a Graph-Powered AI Cybersecurity Investigation Agent with FalkorDB",
-        "description": "SentinelGraph: Building a Graph-Powered AI Cybersecurity Investigation Agent with...",
+        "id": "currents-ea003dc5-b6d6-504c-b2d6-801f0f0976d1",
+        "title": "DukaanDraft: a local AI writing helper for small shops",
+        "description": "This is a submission for the DEV Hacktoberfest Week 2 Challenge. What I Built DukaanDraft...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:53:08.000Z",
-        "url": "https://dev.to/parnika_sm/sentinelgraph-building-a-graph-powered-ai-cybersecurity-investigation-agent-with-falkordb-59eb",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6pop4m7aku0ywv9bw9d4.png",
+        "publishedAt": "2026-10-18T20:21:51.000Z",
+        "url": "https://dev.to/mrnowshirwan/dukaandraft-a-local-ai-writing-helper-for-small-shops-nn2",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fg0yb19mj1jc79x5puq02.png",
         "categories": [
           "Top",
           "Technology",
@@ -1065,14 +1132,14 @@
         ]
       },
       {
-        "id": "currents-50914469-30ac-5b06-b12b-3cc16a25447f",
-        "title": "Why ChatGPT Search & Perplexity Ignore Your Website: The Technical GEO Audit (2026)",
-        "description": "Why ChatGPT Search & Perplexity Ignore Your Website: The Technical GEO Audit...",
+        "id": "currents-bfe07ed7-b5e3-52f4-b757-2ee0810e4ad6",
+        "title": "DTLS on NetScaler: why the CVE-2026-88772 prerequisite is a default, not a filter",
+        "description": "DTLS on NetScaler: why the CVE-2026-88772 prerequisite is a default, not a filter",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:52:56.000Z",
-        "url": "https://dev.to/thesqb/why-chatgpt-search-perplexity-ignore-your-website-the-technical-geo-audit-2026-1e7g",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fzw3h3rz60gg0w6g94nea.jpg",
+        "publishedAt": "2026-10-18T20:21:24.000Z",
+        "url": "https://dev.to/facilishz/dtls-on-netscaler-why-the-cve-2026-88772-prerequisite-is-a-default-not-a-filter-1ob3",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5k94afzmtlzmuwx7m2t8.png",
         "categories": [
           "Top",
           "Technology",
@@ -1081,14 +1148,14 @@
         ]
       },
       {
-        "id": "currents-5ea736a5-d353-5af1-b2c4-97a482a5ce99",
-        "title": "HustleCraft AI: Open-Source AI Toolkit for Freelancers & Side Hustlers",
-        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle ...",
+        "id": "currents-33ab9e4d-1051-5c9e-81d8-7bccb036901e",
+        "title": "Migrating from AngularJS to React: A 30% Performance Improvement Journey",
+        "description": "Unlock significant performance gains by migrating your legacy AngularJS application to React. This guide covers strategies, challenges, and real-world",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:52:48.000Z",
-        "url": "https://dev.to/chaubeydev55/hustlecraft-ai-open-source-ai-toolkit-for-freelancers-side-hustlers-2nie",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fn35yjpq2zymopymvy75c.png",
+        "publishedAt": "2026-10-18T20:20:36.000Z",
+        "url": "https://dev.to/farukh/migrating-from-angularjs-to-react-a-30-performance-improvement-journey-the-30-performance-leap-372m",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fstorage.googleapis.com%2Fsyncapp-ai-covers%2Fuploads%2Fai-cover-migrating-from-angularjs-to-react-a-1792354748997-1792354748998-521297.png",
         "categories": [
           "Top",
           "Technology",
@@ -1097,14 +1164,14 @@
         ]
       },
       {
-        "id": "currents-87f948e5-8eb8-591f-9794-c2153bc6f065",
-        "title": "GhostLedger: The Sovereign Financial Machine — Why Our AI Bookkeeper Math Only Works Because Gemma 2 Is Open-Weight",
-        "description": "This is my submission for the Hacktoberfest Open-Source AI Challenge, Week 2: Side Hustle. I'm...",
+        "id": "currents-a630a88d-c79b-54b8-a503-4f52a905d291",
+        "title": "Comparing Qwen and Gemma on the Low End: Qwen Is Faster Without Drafting, Gemma Has Better Quality",
+        "description": "Step-by-step: serving Qwen3.5-2B with llama.cpp on an 8 GB RTX 3050 and a 4 GB GTX 1650 Ti beside Gemma 4 E2B, checking that llama.cpp runs it correctly, and measuring speed, answer quality, 4-bit rounding, QAT and drafting with Qwen's own MTP head.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:52:17.000Z",
-        "url": "https://dev.to/polymath_arnav/ghostledger-the-sovereign-financial-machine-why-our-ai-bookkeeper-math-only-works-because-gemma-1el8",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6c3hvilqftetfvem4d6l.png",
+        "publishedAt": "2026-10-18T20:20:20.000Z",
+        "url": "https://dev.to/gde/comparing-qwen-and-gemma-on-the-low-end-qwen-is-faster-without-drafting-gemma-has-better-quality-30bo",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fxbill9%2Fqwen-dev%2Fmain%2Flocal-llamacpp-3050oem-qwen352b-q4_0%2Fdocs%2Fqwen-vs-gemma%2Fdevto-cover.9ce8fe8e.jpg",
         "categories": [
           "Top",
           "Technology",
@@ -1113,14 +1180,29 @@
         ]
       },
       {
-        "id": "currents-53faa711-6e8b-5733-a37b-37013abdd84c",
-        "title": "Why I gave my code review agent a graph",
-        "description": "**# Why I gave my code review agent a graph By a student builder who got tired of watching AI...",
+        "id": "currents-cbaaf367-8324-516e-9d82-c319af0de80d",
+        "title": "The 10 AI Tools Small Businesses Actually Use in 2026",
+        "description": "Most small businesses do not need more software — they need the repetitive work to stop eating their...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:53:17.000Z",
-        "url": "https://dev.to/hemanth_saichitra_fb1bc0/why-i-gave-my-code-review-agent-a-graph-598o",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F43xze3bxi0m3v77df2ry.png",
+        "publishedAt": "2026-10-18T20:19:11.000Z",
+        "url": "https://dev.to/neuraitool/the-10-ai-tools-small-businesses-actually-use-in-2026-4cj9",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F34i3hc9mselk4vqvqoqi.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-8f597b70-5b92-546d-9b3f-c22718946ba2",
+        "title": "Chrome browser not letting me scroll websites",
+        "description": "Hi all. I have an iPhone 15 running 26.6.2, and sometimes when I open a website on chrome, I’ll be able to scroll for maybe 2 seconds, then it’s like the whole page greys out, and I can scroll, exit or back out unless I close the whole browser. Has anyone else experienced this or know of a fix? ...",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-10-18T20:25:13.000Z",
+        "url": "https://www.reddit.com/r/iphone/comments/1x9dfd0/chrome_browser_not_letting_me_scroll_websites",
         "categories": [
           "Top",
           "Technology",
@@ -1129,97 +1211,142 @@
         ]
       },
       {
-        "id": "currents-50c01f3e-3a9e-5a4f-aac9-3c30e2857f01",
-        "title": "How we used FalkorDB, Graph Theory (WCC, Betweenness, PageRank), and Multi-Agent simulation to catch breaking ecosystem changes before merge.",
-        "description": "What if a clean refactor breaks 32 integrations? On October 16, 2026, Home Assistant...",
+        "id": "currents-3c06132e-d426-59d5-8618-940cdfaf3544",
+        "title": "Why I didn't integrate with Messenger",
+        "description": "A fitness coach I know runs live workouts in a private Facebook group. During each workout she says a...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-18T17:53:04.000Z",
-        "url": "https://dev.to/prem_jha_e193105ad8ece2c0/how-we-used-falkordb-graph-theory-wcc-betweenness-pagerank-and-multi-agent-simulation-to-4pgi",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4iatgqtkqxc2w4fnbuaw.png",
+        "publishedAt": "2026-10-18T20:21:28.000Z",
+        "url": "https://dev.to/kolodziejczykamil/why-i-didnt-integrate-with-messenger-2l74",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwazczbtlefw2qelsgynd.png",
         "categories": [
           "Top",
           "Technology",
           "Science",
           "U.S."
+        ]
+      },
+      {
+        "id": "currents-d574ed53-13ed-50a8-89c0-e616f78f52b3",
+        "title": "Wallpaper problems",
+        "description": "iPhone 17 Pro Max 27.0.1: Sometime over the last year a software update has made it impossible to change the home screen wallpaper image. I used to be able to be in Photos, select a picture, and then assign it as the wallpaper. Then that changed to having to create a whole scheme with what the lock...",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-10-18T20:17:15.000Z",
+        "url": "https://www.reddit.com/r/iphone/comments/1x9d8ca/wallpaper_problems",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
         ]
       }
     ],
     "Sports": [
       {
-        "id": "currents-175df209-3ad2-534c-aa4d-d765d3a7715c",
-        "title": "British Columbia NDP Leader Eby asks Green voters to think carefully about vote",
-        "description": "VICTORIA - British Columbia NDP Leader David Eby is appealing to Green voters as the snap election slated for Oct. 24 enters its final week.",
+        "id": "currents-7d7f1fe0-b6b1-5e48-ab6f-e3b221b9e7dc",
+        "title": "Four Winnipeg councillor candidates vie for wide-open Fort Rouge-East Fort Garry ward",
+        "description": "One of Winnipeg’s most densely populated wards is up for grabs come election day.",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-18T17:47:54.000Z",
-        "url": "https://www.winnipegfreepress.com/canada/2026/10/18/british-columbia-ndp-leader-eby-asks-green-voters-to-think-carefully-about-vote",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ad5037c6aa21255886fe782jpeg.jpg?w=1600",
+        "publishedAt": "2026-10-18T20:21:42.000Z",
+        "url": "https://www.winnipegfreepress.com/breakingnews/2026/10/18/four-councillor-candidates-vie-for-wide-open-fort-rouge-east-fort-garry-ward",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/09/Forty-Rouge-East-Fort-Garry-ward-boundary-map-final.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-416dc7b0-aa6c-549a-833a-8e8878921be4",
-        "title": "Nottingham Forest X-X Arsenal: Gunners fall five points behind leaders",
-        "description": "TOM COLLOMOSSE AT THE CITY GROUND: Noni Madueke came off the bench to net a late winner for Arsenal away at Nottingham Forest.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-10-18T17:27:11.000Z",
-        "url": "https://www.dailymail.com/sport/football/article-16214375/Nottingham-Forest-0-1-Arsenal-Noni-Madueke-Premier-League.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/10/18/18/111939581-0-image-a-31_1792344020656.jpg",
+        "id": "currents-2ca198b7-1b89-594b-9da8-932cc62193a4",
+        "title": "'A shock to all of us': A day after CFB Wainwright disaster, neighbouring town is eerily silent",
+        "description": "The CFB Wainwright training incident saw ambulances flood into the town southeast of Edmonton.",
+        "publisher": "Edmontonjournal",
+        "publisherDomain": "edmontonjournal.com",
+        "publishedAt": "2026-10-18T20:27:17.000Z",
+        "url": "https://edmontonjournal.com/news/local-news/cfb-wainwright-town-response",
+        "imageUrl": "https://smartcdn.gprod.postmedia.digital/edmontonjournal/wp-content/uploads/2026/10/dave4707-copy.ej_305830475.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-a0ebde22-4b1a-5885-af5e-700a9e2004cd",
-        "title": "WWE forced to censor Cody Rhodes after he uses banned move on SmackDown",
-        "description": "Cody Rhodes faced off against Baron Corbin on WWE SmackDown this past week, and after interference from Randy Orton, he went on to deliver Orton's famous Punt Kick to Corbin.",
-        "publisher": "Sportskeeda",
-        "publisherDomain": "sportskeeda.com",
-        "publishedAt": "2026-10-18T17:55:33.000Z",
-        "url": "https://www.sportskeeda.com/wwe/news-wwe-forced-censor-cody-rhodes-used-banned-move-smackdown",
-        "imageUrl": "https://staticg.sportskeeda.com/editor/2026/10/6c279-17923460805719-1920.jpg",
+        "id": "currents-b7e52c65-d20c-59d4-a11b-3cef47173a8d",
+        "title": "Jets return to familiar form in another loss to rival Patriots",
+        "description": "After stealing a win over the hapless Browns a week ago, the Jets returned to form Sunday in their first game against a divisional opponent, done in by a lack of offense following their first drive…",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-10-18T20:20:47.000Z",
+        "url": "https://nypost.com/2026/10/18/sports/jets-return-to-familiar-form-in-another-loss-to-rival-patriots",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/10/jets-patriots.jpg?quality=75&strip=all&1792339807&w=1200",
+        "categories": [
+          "Sports",
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-2054a239-3306-52fb-8d1b-54294cf6b669",
+        "title": "‘Rusty’ Aussies survive dreadful collapse to seal tense T20 win",
+        "description": "An shocking mix-up changed the game and sent the hosts spiralling.",
+        "publisher": "7news",
+        "publisherDomain": "7news.com.au",
+        "publishedAt": "2026-10-18T20:12:03.000Z",
+        "url": "https://7news.com.au/sport/cricket/rusty-aussies-survive-dreadful-collapse-to-seal-tense-t20-win-over-new-zealand-c-23039850",
+        "imageUrl": "https://images.7news.com.au/publication/C-23039850/bc95e22a3b742db56ceac49e4579802be8b53313-16x9-x0y0w1280h720.jpg?imwidth=1200",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-d4ec0344-d62f-5b0c-ab88-985fc1c1e7aa",
-        "title": "How key Arteta decision secured Arsenal vital win over Nottm Forest",
-        "description": "Gunners struggled to break down stubborn opponents",
-        "publisher": "Standard",
-        "publisherDomain": "standard.co.uk",
-        "publishedAt": "2026-10-18T17:48:44.000Z",
-        "url": "https://www.standard.co.uk/sport/football/arsenal-fc-arteta-decision-nottm-forest-b1301369.html",
-        "imageUrl": "https://static.standard.co.uk/2026/10/18/18/2300836844..?width=1200&auto=webp&quality=75",
+        "id": "currents-a29b2485-1c90-5c22-bf0d-5ca289ad5f18",
+        "title": "Saskatchewan mother identifies son as one of four soldiers confirmed dead at CFB Wainwright",
+        "description": "One of the four Canadian soldiers killed in an incident at CFB Wainwright has been identified by his mother.",
+        "publisher": "Edmontonjournal",
+        "publisherDomain": "edmontonjournal.com",
+        "publishedAt": "2026-10-18T20:27:11.000Z",
+        "url": "https://edmontonjournal.com/news/cfb-wainwright-soldier-identified-shaun-farrell",
+        "imageUrl": "https://smartcdn.gprod.postmedia.digital/edmontonjournal/wp-content/uploads/2026/10/shaun-farrell-profile-photo_305833285.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-1ca96691-d4b3-5c62-ac2f-4bcb73735b41",
-        "title": "Kurt Warner blasts NFL referees over \"awful\" penalties against Trevor Lawrence's Jaguars in loss vs. Texans",
-        "description": "The Jacksonville Jaguars suffered a frustrating 31-34 loss against the Houston Texans in their Week 6 clash on Sunday at Wembley Stadium.",
-        "publisher": "Sportskeeda",
-        "publisherDomain": "sportskeeda.com",
-        "publishedAt": "2026-10-18T17:55:05.000Z",
-        "url": "https://www.sportskeeda.com/nfl/news-kurt-warner-blasts-nfl-referees-awful-penalties-trevor-lawrence-s-jaguars-loss-vs-texans",
-        "imageUrl": "https://staticg.sportskeeda.com/editor/2026/10/4b42d-17923457701878-1920.jpg",
+        "id": "currents-8c4c04a8-9307-5aa7-9c8f-4668056d7afa",
+        "title": "Deshaun Watson leads drive for winning field goal and Browns rally for 13-10 victory over Ravens",
+        "description": "CLEVELAND (AP) — Deshaun Watson connected with Jerry Jeudy for 33 yards to set up Andre Szmyt",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-10-18T20:22:29.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/10/18/deshaun-watson-leads-drive-for-winning-field-goal-and-browns-rally-for-13-10-victory-over-ravens",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ad52a72f5f2c4b475f29947jpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-5bd48f5e-7c1a-5c0a-981a-735079d415e9",
-        "title": "Eagles WR DeVonta Smith leads NFL Week 6's best arrivals",
-        "description": "NFL stars continue to turn game-day arrivals into their own weekly fashion showcase.",
-        "publisher": "ESPN",
-        "publisherDomain": "espn.com",
-        "publishedAt": "2026-10-18T17:47:00.000Z",
-        "url": "https://www.espn.com/nfl/story/_/id/50193542/nfl-week-6-fashionable-arrivals",
-        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1018%2Fr1732459_1296x729_16%2D9.png",
+        "id": "currents-f3a2606c-d52b-554a-962d-2b76887ee4bc",
+        "title": "How to watch Cowboys vs Packers for free in NFL Week 6: Time, livestream",
+        "description": "America’s Team visits Lambeau tonight.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-10-18T20:20:00.000Z",
+        "url": "https://nypost.com/2026/10/18/sports/how-to-watch-cowboys-vs-packers-live-for-free-in-nfl-week-6",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/10/newspress-collage-od9glmmi0-1792095456064.jpg?quality=75&strip=all&1792081147&w=1200",
+        "categories": [
+          "Sports",
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-07f92ab7-00a0-5983-b38a-61985c966156",
+        "title": "Ryan Fitzpatrick claims feud with Aqib Talib is over — then trolls himself",
+        "description": "Ryan Fitzpatrick and Aqib Talib are putting their differences aside. At least Fitzpatrick is. Sort of. The feud between Fitzpatrick and the former Broncos and Rams cornerback started after the Thur…",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-10-18T20:16:22.000Z",
+        "url": "https://nypost.com/2026/10/18/sports/ryan-fitzpatrick-and-aqib-talib-feud-takes-funny-turn-after-bo-nix-comments",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/10/newspress-collage-yxpl7trnf-1792352418363.jpg?quality=75&strip=all&1792338055&w=1200",
         "categories": [
           "Top",
           "U.S.",
@@ -1227,133 +1354,105 @@
         ]
       },
       {
-        "id": "currents-8c935201-5e04-5667-a054-5076a61c181a",
-        "title": "NFL Week 6: Big takeaways, questions and fantasy spin from Sunday's games",
-        "description": "Our NFL Nation reporters react to all the action, answering the biggest questions coming out of each Sunday game. Here's what we learned from Week 6.",
-        "publisher": "ESPN",
-        "publisherDomain": "espn.com",
-        "publishedAt": "2026-10-18T17:46:59.000Z",
-        "url": "https://www.espn.com/nfl/story/_/id/50181469/week-6-sunday-games-takeaways-questions-2026",
-        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1018%2Fr1732507_1296x729_16%2D9.jpg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-88b62b10-6523-5245-a752-ebf600dfeb2b",
-        "title": "Noni Madueke breaks Nottingham Forest’s resistance as dogged Arsenal edge to victory",
-        "description": "Defeat means Oliver Glasner’s team have still yet to register a goal at home this season",
-        "publisher": "Irishtimes",
-        "publisherDomain": "irishtimes.com",
-        "publishedAt": "2026-10-18T17:45:31.000Z",
-        "url": "https://www.irishtimes.com/sport/soccer/2026/10/18/noni-madueke-breaks-nottingham-forests-resistance-as-dogged-arsenal-edge-to-victory",
-        "imageUrl": "https://www.irishtimes.com/resizer/v2/AXER7PPVLY5VARYBVGZ227GXRA.jpg?smart=true&auth=9828c6c5f7db3bc89dcf6cbc8f508a32270f38085e541a7b3da3fc917ceb25fd&width=1200&height=630",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-fabe15be-7571-5c51-b0df-2c8465296e6e",
-        "title": "49ers QB Brock Purdy is poised to take over top spot on career passer rating list",
-        "description": "SANTA CLARA, Calif. (AP) — Brock Purdy has been one of the league",
+        "id": "currents-40c453bc-af0e-55cc-9ec9-79cd9f10908e",
+        "title": "Two-way star Travis Hunter scores TD and makes interception in Jags’ 34-31 loss in London",
+        "description": "LONDON (AP) — Travis Hunter’s wild Wembley day showcased the two-way star’s immense talent, even in a losing effort.",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-18T17:43:14.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/10/18/49ers-qb-brock-purdy-is-poised-to-take-over-top-spot-on-career-passer-rating-list",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6acc21b7f5f2c4b475e9e8a4jpeg.jpg?w=1600",
+        "publishedAt": "2026-10-18T20:10:32.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/10/18/two-way-star-travis-hunter-scores-td-and-makes-interception-in-jags-34-31-loss-in-london",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ad527a8f5f2c4b475f296b2jpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-ac1f462d-715d-57ea-a14f-cf6271f40d17",
-        "title": "UPDATE: R-Truth legitimately injured after match is abandoned on WWE SmackDown",
-        "description": "Fans were given quite a scare this week on SmackDown when the match had to be called off due to an injury to WWE legend R-Truth.",
+        "id": "currents-deeba30a-62b2-56b1-959c-f7be91924ba3",
+        "title": "“They would give it to someone else” - Ex- WWE star claims Vince McMahon stole her ideas",
+        "description": "Former WWE star CJ Perry has opened up about pitching storyline ideas to Vince McMahon during her time with the company.",
         "publisher": "Sportskeeda",
         "publisherDomain": "sportskeeda.com",
-        "publishedAt": "2026-10-18T17:36:27.000Z",
-        "url": "https://www.sportskeeda.com/wwe/news-update-r-truth-legitimately-injured-match-cancelled-wwe-smackdown",
-        "imageUrl": "https://staticg.sportskeeda.com/editor/2026/10/ebeaa-17923447745951-1920.jpg",
+        "publishedAt": "2026-10-18T20:07:33.000Z",
+        "url": "https://www.sportskeeda.com/wwe/news-they-give-someone-else-ex-wwe-star-claims-vince-mcmahon-stole-ideas",
+        "imageUrl": "https://staticg.sportskeeda.com/editor/2026/10/d9997-17923524482908-1920.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-cee6ae4b-fa63-53a9-b5eb-528128e02130",
-        "title": "As chatter around Troy Parrott lulls, everyone’s talking about Jack Moylan",
-        "description": "Irish player tracker: Cardiff City signing can do little wrong right now – and is making the case for regular starting roles with Ireland",
-        "publisher": "Irishtimes",
-        "publisherDomain": "irishtimes.com",
-        "publishedAt": "2026-10-18T17:36:02.000Z",
-        "url": "https://www.irishtimes.com/sport/soccer/2026/10/18/as-chatter-around-troy-parrott-lulls-everyones-talking-about-jack-moylan",
-        "imageUrl": "https://www.irishtimes.com/resizer/v2/M7U4GKUTIR4IVMFVXGQ6DXBRAQ.jpg?smart=true&auth=aa5b345c4255de755c47f8fc6984c50cfd2c6f9284219c6ae255bd5e9931693f&width=1200&height=630",
+        "id": "currents-0fb8f397-ce9f-5201-8fd3-c9259e688586",
+        "title": "Gary Neville says new Man Utd star is 'absolutely critical' to Michael Carrick",
+        "description": "Gary Neville believes Manchester United summer signing Carlos Baleba is already 'absolutely critical' to Michael Carrick.",
+        "publisher": "Metro",
+        "publisherDomain": "metro.co.uk",
+        "publishedAt": "2026-10-18T20:05:23.000Z",
+        "url": "https://metro.co.uk/2026/10/18/gary-neville-says-new-man-utd-star-absolutely-critical-michael-carrick-29719555",
+        "imageUrl": "https://metro.co.uk/wp-content/uploads/2026/10/gary-neville-61ee_1792353930.png?w=1200&h=630&crop=1",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-78aa3c78-b601-5b53-8eba-123de4e6c886",
-        "title": "Arsenal ratings: Surprise star delivers but fringe player scores 3/10",
-        "description": "Gunners just about stole all three points in tough test",
-        "publisher": "Standard",
-        "publisherDomain": "standard.co.uk",
-        "publishedAt": "2026-10-18T17:33:54.000Z",
-        "url": "https://www.standard.co.uk/sport/football/arsenal-fc-player-ratings-nottm-forest-madueke-gabriel-eze-b1301356.html",
-        "imageUrl": "https://static.standard.co.uk/2026/10/18/18/2300836398..?width=1200&auto=webp&quality=75",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-e535ac06-9f57-5a48-ba9a-03d9d8885848",
-        "title": "10 Super Bowl Winners Who Were Fans of Different NFL Teams Growing Up",
-        "description": "Winning the Super Bowl is a dream for every NFL player. Another is to play for the team they grew up rooting for.",
-        "publisher": "Sportskeeda",
-        "publisherDomain": "sportskeeda.com",
-        "publishedAt": "2026-10-18T17:33:23.000Z",
-        "url": "https://www.sportskeeda.com/nfl/10-super-bowl-winners-who-were-fans-different-nfl-teams-growing-up",
-        "imageUrl": "https://staticg.sportskeeda.com/editor/2026/10/fde44-17923341762333-1920.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-a1d6455a-6e20-572e-aec7-04bb0e83e859",
-        "title": "Patriots' A.J. Brown returns from IR after missing 4 games with ankle injury",
-        "description": "FOXBOROUGH, Mass. (AP) — Patriots wide receiver A.J. Brown is hoping his second time taking the field for the New England Patriots will end better than his first.",
+        "id": "currents-48e1161b-0e70-5baa-8116-d847b282ecdc",
+        "title": "Steelers coach Mike McCarthy limps into injury tent at halftime of Buccaneers game",
+        "description": "TAMPA, Fla. (AP) — Pittsburgh Steelers coach Mike McCarthy spent halftime of Sunday",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-18T17:29:41.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/10/18/patriots-a-j-brown-returns-from-ir-after-missing-4-games-with-ankle-injury",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6acff585c80ce63a22e91e50jpeg.jpg?w=1600",
+        "publishedAt": "2026-10-18T20:04:16.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/10/18/steelers-coach-mike-mccarthy-limps-into-injury-tent-at-halftime-of-buccaneers-game",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ad52639f5f2c4b475f29590jpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-425adbd8-750a-5ca0-ac4f-1d051bc45657",
-        "title": "Alexander Volkanovski predicts UFC 333 finish of Movsar Evloev: \"I think I can do it inside the five\"",
-        "description": "Alexander Volkanovski expects to leave UFC 333 without needing the judges. The featherweight champion says he will finish Movsar Evloev inside five rounds in Abu Dhabi on October 24.",
+        "id": "currents-9de3b8d9-9946-537b-a9bd-40576bfc7fcf",
+        "title": "3 Signs that Drew McIntyre will attack the Bloodline on WWE RAW",
+        "description": "Drew McIntyre is currently absent from WWE television. After losing to Jacob Fatu at WrestleMania 42, he has been absent from the company.",
         "publisher": "Sportskeeda",
         "publisherDomain": "sportskeeda.com",
-        "publishedAt": "2026-10-18T17:28:00.000Z",
-        "url": "https://www.sportskeeda.com/mma/news-alexander-volkanovski-predicts-ufc-333-finish-movsar-evloev-i-think-i-can-inside-five",
-        "imageUrl": "https://staticg.sportskeeda.com/editor/2026/10/32b06-17923438688449-1920.jpg",
+        "publishedAt": "2026-10-18T20:04:15.000Z",
+        "url": "https://www.sportskeeda.com/wwe/3-signs-drew-mcintyre-will-attack-bloodline-wwe-raw",
+        "imageUrl": "https://staticg.sportskeeda.com/editor/2026/10/99fce-17923466938330-1920.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-d6e0a338-37bd-54f5-8d97-0938e4507719",
-        "title": "NFL: Steelers-Saints in Paris still on despite civil unrest, protests in France",
-        "description": "The Week 7 game between the Saints and Steelers in Paris is still scheduled as planned despite civil unrest and protests in France, the NFL said.",
-        "publisher": "ESPN",
-        "publisherDomain": "espn.com",
-        "publishedAt": "2026-10-18T17:25:58.000Z",
-        "url": "https://www.espn.com/nfl/story/_/id/50211207/nfl-says-steelers-saints-game-paris-amid-unrest",
-        "imageUrl": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1018%2Fr1732486_1296x729_16%2D9.jpg",
+        "id": "currents-80bf6b28-04bb-5539-9732-f38395ec2dc4",
+        "title": "'Shylights': The Black Ferns rookie showing proof of pathway",
+        "description": "Shyrah Tuliau-Tua'a scored four tries in the second half of the Black Ferns' win.",
+        "publisher": "Nzherald",
+        "publisherDomain": "nzherald.co.nz",
+        "publishedAt": "2026-10-18T20:00:00.000Z",
+        "url": "https://www.nzherald.co.nz/sport/rugby/black-ferns/black-ferns-v-france-shyrah-tuliau-tuaas-progression-on-show-in-four-try-performance/FRP5IREZLZAKFJLRBPYUKCE2H4",
+        "imageUrl": "https://www.nzherald.co.nz/resizer/v2/BOQM5NSYTJDIJLC7IBN6JWQG7A.jpg?auth=82789520d91ea62a369d11c2af3287a9a3582053c8bf15d548593e2fd016c634&width=1200&height=675&quality=70&focal=791%2C633&smart=false",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-164ba739-4d3b-5ee3-ab9a-de02fdb86cfd",
+        "title": "Extra-time goal by Conor Hand secures Roscommon title for St Brigid’s",
+        "description": "Crossmaglen Rangers claim record 48th Armagh title while Gowna do a demolition job to get their hands on the cup",
+        "publisher": "Irishtimes",
+        "publisherDomain": "irishtimes.com",
+        "publishedAt": "2026-10-18T19:58:22.000Z",
+        "url": "https://www.irishtimes.com/sport/gaelic-games/2026/10/18/extra-time-goal-by-conor-hand-secures-roscommon-title-for-st-brigids",
+        "imageUrl": "https://www.irishtimes.com/resizer/v2/LUEFDKLDQVEOVAQEANFCRNJOEU.jpg?smart=true&auth=ce3f3e567c88e0228d010317cd5da9848b087467773aaecf3a3a24eece63e24e&width=1200&height=630",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-b0ae026e-6b77-5da1-9ceb-f402cd27614f",
+        "title": "WATCH: Bron Breakker's horrific injury scare at recent WWE show",
+        "description": "WWE Superstar Bron Breakker faced a massive injury scare during a recent show. The member of The Vision took a horrific blow during a match.",
+        "publisher": "Sportskeeda",
+        "publisherDomain": "sportskeeda.com",
+        "publishedAt": "2026-10-18T19:55:46.000Z",
+        "url": "https://www.sportskeeda.com/wwe/news-watch-bron-breakker-s-horrific-injury-scare-recent-wwe-show",
+        "imageUrl": "https://staticg.sportskeeda.com/editor/2026/10/35ae8-17923520664183-1920.jpg",
         "categories": [
           "Sports"
         ]
@@ -1361,207 +1460,207 @@
     ],
     "Entertainment": [
       {
-        "id": "currents-46dc8a95-bf03-5f87-a970-26abe4ea95c0",
-        "title": "'SNL UK' Roasts Shane Gillis Over 'Whores' Joke, Calls Him a 'F***ing C***'",
-        "description": "Shane Gillis is getting roasted across the pond ... with \"Saturday Night Live UK\" taking aim at the comedian following his latest controversial appearance on the OG show.",
-        "publisher": "Tmz",
-        "publisherDomain": "tmz.com",
-        "publishedAt": "2026-10-18T17:55:35.000Z",
-        "url": "https://www.tmz.com/2026/10/18/snl-uk-criticizes-shane-gillis",
-        "imageUrl": "https://imagez.tmz.com/image/66/16by9/2026/10/18/666dc37853bc4e9a9cde5c8c316d41b1_xl.jpg",
-        "categories": [
-          "Entertainment",
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-a81e2ee9-216f-591d-9cc4-d871c19cc16f",
-        "title": "Battlefield 6's five-pistol skin was no accident, say devs",
-        "description": "Battlefield Studios says a typo on a Season 5 skin will be fixed, but the outfit with five pistols was deliberate.",
-        "publisher": "Eurogamer",
-        "publisherDomain": "eurogamer.net",
-        "publishedAt": "2026-10-18T17:37:38.000Z",
-        "url": "https://www.eurogamer.net/battlefield-6-secuty-typo-five-pistol-skin-devs-respond",
-        "imageUrl": "https://assetsio.gnwcdn.com/Screenshot-2026-10-18-at-18.30.22.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+        "id": "currents-101031da-6b9b-5b3b-b755-5384013c79b7",
+        "title": "Kaia Gerber pays heartbreakingly raw tribute to late brother Presley",
+        "description": "The 25-year-old model and the late Presley are the children of supermodel Cindy Crawford, 60, and entrepreneur Rande Gerber, 64.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-10-18T20:03:07.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16219025/kaia-gerber-presley-tribute-death.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/10/18/19/111940621-0-image-m-12_1792349287086.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-04c91910-e4cf-5c25-851d-8ffbf5ad32da",
-        "title": "Why ‘The Diplomat’ Season 4 Finale Is Surprisingly Sad",
-        "description": "The series hits close to home...until it doesn’t.",
-        "publisher": "Elle",
-        "publisherDomain": "elle.com",
-        "publishedAt": "2026-10-18T17:35:35.000Z",
-        "url": "https://www.elle.com/culture/movies-tv/a74160470/the-diplomat-season-4-finale-ending-explained",
-        "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/689f91a4-9e3f-4242-b49a-0c639f134dcb.jpg?crop=1xw:0.75xh;0xw,0.086xh&resize=1200:*",
+        "id": "currents-acf33d97-67dc-5132-9a79-b4205b8fa408",
+        "title": "Anthropic is pitching Congress its own AI safety bill, report says",
+        "description": "The draft would let the government halt a frontier AI model only in extreme cases, and only through a federal judge.",
+        "publisher": "Mashable",
+        "publisherDomain": "sea.mashable.com",
+        "publishedAt": "2026-10-18T19:22:11.000Z",
+        "url": "https://sea.mashable.com/tech/56038/anthropic-is-pitching-congress-its-own-ai-safety-bill-report-says",
+        "imageUrl": "https://sm.mashable.com/t/mashable_sea/article/a/anthropic-/anthropic-is-pitching-congress-its-own-ai-safety-bill-report_7ef1.1200.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-ed7fa373-fdef-5fb1-b5f8-2cfada2cd85c",
-        "title": "It’s No Exaggeration To Say That These 35 Hair Products Are Legit Game Changers",
-        "description": "Naturally dark hair to bright burgundy with no bleach required (!!!), claw clip ponytails, and sprays that shield your hair from humidity.",
+        "id": "currents-22e5ca27-baba-5758-b0bf-5874d9780cca",
+        "title": "TikTok Restores 'Musk' Doc Account \"After An Error\"",
+        "description": "As Alex Gibney takes on Elon Musk with his latest documentary, the Bleecker/Universal project is pushing back against censorship on social platforms.",
+        "publisher": "Deadline",
+        "publisherDomain": "deadline.com",
+        "publishedAt": "2026-10-18T20:04:51.000Z",
+        "url": "https://deadline.com/2026/10/tiktok-restores-musk-doc-account-after-error-1237167167",
+        "imageUrl": "https://deadline.com/wp-content/uploads/2026/10/Musk-TikTok.jpg?w=1024",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-5f5175a4-c2d0-534d-b15b-1fce03db8825",
+        "title": "Just 23 Under-$10 Home Fixes You’ll Be Glad You Did In October Before It Gets Super Cold",
+        "description": "Ma'am, have you heard of weather stripping?",
         "publisher": "Buzzfeed",
         "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-10-18T17:31:02.000Z",
-        "url": "https://www.buzzfeed.com/jordanagrigs/hair-products-legit-game-changers-an",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-09/18/06/thumb/dgvgsdPmb.jpg",
+        "publishedAt": "2026-10-18T20:01:02.000Z",
+        "url": "https://www.buzzfeed.com/elizabethlilly/under-10-home-fixes-october",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/03/22/thumb/D8KzSIRuN.jpg?crop=1250:654;0,88%26downsize=1250:*",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-426ed1c7-39d1-5664-8fa7-218d498961e3",
-        "title": "Wichita restaurants commit to giving proceeds, food to families of Stryker victims",
-        "description": "If you've heard about any other restaurants offering to help, let us know.",
-        "publisher": "Kansas",
-        "publisherDomain": "kansas.com",
-        "publishedAt": "2026-10-18T17:21:44.000Z",
-        "url": "https://www.kansas.com/entertainment/restaurants/dining-with-denise-neil/article317674130.html",
-        "imageUrl": "https://www.kansas.com/public/latest-news/9u99v0/picture305135031/alternates/LANDSCAPE_1200/IMG_5268.jpg",
+        "id": "currents-4f1754b5-bd9c-5003-8e53-e6bd150e814c",
+        "title": "Isla Fisher arrives at Chateau Marmont Hotel with Alexander Skarsgård",
+        "description": "The 50-year-old actress and 50-year-old actor were part of a large group who migrated from the iconic Los Angeles hotel to a private party across the street.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-10-18T19:14:22.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16218867/isla-fisher-alexander-skarsgard-sacha-baron-cohen.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/10/18/18/111939037-0-image-m-44_1792343764593.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-3e223271-2fa6-5367-8ed2-79930b311cef",
-        "title": "Dave Grohl and Jack Black agree on the greatest rock band ever: “Better than the Beatles”",
-        "description": "Both Jack Black and Dave Grohl agree that this one rock band is the \"greatest\" of all time, forging their own long-term friendship as two rock lovers.",
-        "publisher": "Faroutmagazine",
-        "publisherDomain": "faroutmagazine.co.uk",
-        "publishedAt": "2026-10-18T17:17:38.000Z",
-        "url": "https://faroutmagazine.co.uk/dave-grohl-and-jack-black-agree-on-the-greatest-rock-band-ever",
-        "imageUrl": "https://cdn1.faroutmagazine.co.uk/uploads/1/2026/01/The-one-singer-Dave-Grohl-and-Jack-Black-agreed-was-the-best-in-metal-Far-Out-Magazine.jpg",
+        "id": "currents-5b0e76ce-e6e2-5e06-b04e-87884477c6cf",
+        "title": "Cindy Crawford and Rande Gerber ‘heartbroken’ over death of ‘sweet’ son Presley",
+        "description": "They paid tribute to their son in an emotional statement posted on Instagram on Sunday.",
+        "publisher": "Standard",
+        "publisherDomain": "standard.co.uk",
+        "publishedAt": "2026-10-18T19:55:16.000Z",
+        "url": "https://www.standard.co.uk/showbiz/celebrity-news/cindy-crawford-rande-gerber-instagram-los-angeles-county-suki-waterhouse-b1301378.html",
+        "imageUrl": "https://static.standard.co.uk/2026/10/18/21/84762d9d4b1ae2bdf3f7393835429e09Y29udGVudHNlYXJjaGFwaSwxNzkyNDM5MzQw-2.40159189.jpg?width=1200&auto=webp&quality=75",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-f2636b1a-8624-5939-b2a7-747c92a09cf5",
-        "title": "D'Angelo's brother confirms a posthumous album is on the way",
-        "description": "Paste Magazine is your source for the best music, movies, TV, comedy, videogames, books, comics, craft beer, politics and more. Discover your favorite albums and films.",
-        "publisher": "Pastemagazine",
-        "publisherDomain": "pastemagazine.com",
-        "publishedAt": "2026-10-18T17:13:02.000Z",
-        "url": "https://www.pastemagazine.com/article/dangelos-brother-confirms-a-posthumous-album-is-on-the-way",
-        "imageUrl": "https://img.pastemagazine.com/wp-content/uploads/2022/06/20102113/dangelo_main.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-f2ffd365-3832-5bd7-885d-48ea9e7d14a8",
-        "title": "Multiple people killed, dozens injured in explosion at Canadian military training base",
-        "description": "Multiple people were killed and dozens more were injured when a horrific explosion erupted at a Canadian military base, according to authorities and new reports.",
-        "publisher": "6abc",
-        "publisherDomain": "6abc.com",
-        "publishedAt": "2026-10-18T17:11:10.000Z",
-        "url": "https://6abc.com/story/multiple-people-killed-dozens-injured-explosion-canadian-military-training-base/19951639",
-        "imageUrl": "https://cdn.abcotvs.com/dip/images/19951661_101826-kabc-canada-military-base-explosion.jpg?w=1600",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-69534342-63a7-5572-b048-575cce11a0ae",
-        "title": "Kendall Jenner, Jacob Elordi Cozy Up at 2026 Academy Museum Gala",
-        "description": "Kendall Jenner and Jacob Elordi stepped out at the sixth annual Academy Museum Gala in Los Angeles Oct. 17, where they shared a rare glimpse into their romance.",
-        "publisher": "E! News",
-        "publisherDomain": "eonline.com",
-        "publishedAt": "2026-10-18T17:09:00.000Z",
-        "url": "https://www.eonline.com/news/1437205/kendall-jenner-jacob-elordi-attend-2026-academy-museum-gala",
-        "imageUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20261018/e5234f17-afd3-4c4b-b469-6f8d8113f077_1792342058.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-178bf2f2-c1ff-5227-9e56-9fa8a2a12b55",
-        "title": "Chaos Erupts in France as Rioters Burn Buildings and Loot Businesses, Trump Reacts",
-        "description": "France is in flames ... with shocking scenes of burning buildings, trashed businesses, and violent clashes with cops as protests spread across the country.",
+        "id": "currents-34d6e1f6-512e-5b52-8f61-926732c443aa",
+        "title": "Massachusetts Lt. Gov. Candidate Suspends Campaign After OUI Arrest, Wild Crash",
+        "description": "Shawn Oliver's campaign for Massachusetts lieutenant governor has come to a screeching halt ... after the Republican candidate was busted for allegedly driving drunk and flipping his SUV into several parked cars.",
         "publisher": "Tmz",
         "publisherDomain": "tmz.com",
-        "publishedAt": "2026-10-18T17:06:42.000Z",
-        "url": "https://www.tmz.com/2026/10/18/france-riots-cause-chaos-as-thousands-of-arrests-are-made",
-        "imageUrl": "https://imagez.tmz.com/image/1c/16by9/2026/10/18/1ca330394eaf42968aeef9b2a4ecfc92_xl.png",
+        "publishedAt": "2026-10-18T19:52:02.000Z",
+        "url": "https://www.tmz.com/2026/10/18/shawn-oliver-oui-arrest-suspends-campaign",
+        "imageUrl": "https://imagez.tmz.com/image/9f/16by9/2026/10/18/9fe8b0431a7543f194d53465052c35e9_xl.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-e612996a-f44c-5110-8b5f-5090753af670",
-        "title": "Taylor Swift Performs 'The Fate of Ophelia' Live for First Time at Academy Museum Gala",
-        "description": "Taylor Swift performed \"The Fate of Ophelia\" live for the first time Saturday at the star-studded Academy Museum Gala.",
-        "publisher": "Rollingstone",
-        "publisherDomain": "rollingstone.com",
-        "publishedAt": "2026-10-18T17:05:37.000Z",
-        "url": "https://www.rollingstone.com/music/music-news/taylor-swift-performs-the-fate-of-ophelia-live-academy-gala-1235644441",
-        "imageUrl": "https://www.rollingstone.com/wp-content/uploads/2026/10/GettyImages-2300770686.jpg?w=1600&h=900&crop=1",
+        "id": "currents-908f73a6-d589-5cc9-906f-634802de186e",
+        "title": "Taylor Swift’s ‘The Life of a Showgirl’ Spends 15th Week at No. 1 on Albums Chart",
+        "description": "Taylor Swift's 'The Life of a Showgirl' spends a 15th non-consecutive week at No. 1 following the release of an 'Encore' edition.",
+        "publisher": "Variety",
+        "publisherDomain": "variety.com",
+        "publishedAt": "2026-10-18T19:49:28.000Z",
+        "url": "https://variety.com/2026/music/news/taylor-swift-the-life-of-a-showgirl-15th-week-no-1-chart-1236915983",
+        "imageUrl": "https://variety.com/wp-content/uploads/2026/10/GF2_8744-e1792352715384.jpg?crop=0px%2C21px%2C1200px%2C675px&resize=1000%2C563",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-c845d1a5-4565-5881-a5be-f3d5893e28a3",
-        "title": "Looking for games with exploration and competitive online aspects.",
-        "description": "I've come to really enjoy the extraction shooter genre due to this, are there any other games or genres like this? Looking to kinda explore freely if I wanted to but also to have the threat of other players around. submitted by /u/C00KIEME4T [link] [comments]",
+        "id": "currents-a7f3560a-c184-57a3-917d-8ec4dce5f1b5",
+        "title": "Hurricane Trudy lashes Mexico’s Pacific coast with heavy rain and strong winds",
+        "description": "Hurricane Trudy has lashed Mexico’s Pacific coast with heavy rain and strong winds, according to the U.S. National Hurricane Center. The Category 2 hurricane is packing winds of 105 mph and moving northwest at 8 mph.",
+        "publisher": "6abc",
+        "publisherDomain": "6abc.com",
+        "publishedAt": "2026-10-18T19:44:21.000Z",
+        "url": "https://6abc.com/story/hurricane-trudy-lashes-mexicos-pacific-coast-heavy-rain-strong-winds/19951948",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/19951961_101826-kabc-hurricane-trudy-tn.png?w=1600",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-ae31e7a6-40a4-588e-af38-ab669ee8cd50",
+        "title": "Thousands gather for Run for Blue event in support of fallen Philadelphia police officer",
+        "description": "The Philadelphia Police Foundation's Market Street Run for Blue event brought together thousands Sunday morning.",
+        "publisher": "6abc",
+        "publisherDomain": "6abc.com",
+        "publishedAt": "2026-10-18T19:43:03.000Z",
+        "url": "https://6abc.com/post/thousands-gather-run-blue-event-support-fallen-philadelphia-police-officer/19951935",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/19952020_101826-wpvi-run-for-blue-sharifa-10a-vid.jpg?w=1600",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-1425e9a1-7f4e-57d5-9ef1-923b8ba2c421",
+        "title": "Betty McGuire, ‘Growing Pains’ Actress, Dies at 100",
+        "description": "Betty McGuire, the grandmother on the ABC sitcom “Growing Pains, died Oct. 8 of natural causes. She was 100.",
+        "publisher": "Variety",
+        "publisherDomain": "variety.com",
+        "publishedAt": "2026-10-18T19:38:44.000Z",
+        "url": "https://variety.com/2026/tv/people-news/betty-mcguire-dead-growing-pains-1236915890",
+        "imageUrl": "https://variety.com/wp-content/uploads/2026/10/Betty-McGuire-Headshot.jpg?crop=0px%2C37px%2C2932px%2C1649px&resize=1000%2C563",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-52a58a13-6f31-5008-ae56-8be3df213a4e",
+        "title": "Jenna Dewan’s Fiancé Steve Kazee Speaks Out After Her DWTS Partner Val Chmerkovskiy's Suspension",
+        "description": "Jenna Dewan’s fiancé Steve Kazee sent his support ahead of her upcoming DWTS performance, in which she won’t be dancing with her pro partner Val Chmerkovskiy amid his suspension from the show.",
+        "publisher": "E! News",
+        "publisherDomain": "eonline.com",
+        "publishedAt": "2026-10-18T19:31:18.000Z",
+        "url": "https://www.eonline.com/news/1437207/jenna-dewans-fiance-sends-support-amid-val-chmerkovskiys-dwts-suspension",
+        "imageUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20261018/6343e078-6c17-4a15-86e2-f558046d6222_1792351474.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-a533f2fa-64d9-52d8-b6ed-25d15458ac71",
+        "title": "Who Is RJ Mitte’s Sister? All About Lacianne Carriere & Her Relationship With the Late ‘Breaking Bad’ Star",
+        "description": "RJ Mitte was more than a big brother to Lacianne Carriere. Learn more about the actress and the bond she shared with the late ‘Breaking Bad’ star.",
+        "publisher": "Hollywoodlife",
+        "publisherDomain": "hollywoodlife.com",
+        "publishedAt": "2026-10-18T19:25:54.000Z",
+        "url": "https://hollywoodlife.com/feature/who-is-rj-mitte-sister-lacianne-carriere-5566644",
+        "imageUrl": "https://i0.wp.com/media.hollywoodlife.com/uploads/2026/10/GettyImages-1501100606-e1792345249169.jpg?resize=1200%2C675&quality=100&ssl=1",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-9cd1c04e-6142-53c3-a2ef-b66eee002567",
+        "title": "'Street Fighter' tops North American box office with $31M",
+        "description": "Noah Centineo's \"Street Fighter\" is the No. 1 movie in North America, earning $31M in receipts this weekend, BoxOfficeMojo.com announced Sunday.",
+        "publisher": "Upi",
+        "publisherDomain": "upi.com",
+        "publishedAt": "2026-10-18T19:25:50.000Z",
+        "url": "https://www.upi.com/Entertainment_News/Movies/2026/10/18/street-fighter-tops-box-office/4581792341833",
+        "imageUrl": "https://cdnph.upi.com/sv/ph/og/upi/4581792341833/2026/1/334d1c1a52ed6a43601bb6c64101b7b7/v1.5/Street-Fighter-tops-North-American-box-office-with-31M.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-47ed05ea-12d9-56f6-8d34-21d72694e877",
+        "title": "Is there a game that feels like the boardgame segment of Fable 3?",
+        "description": "I remember it being the best segment of that game tbh. Now I’m looking for a game that has that same vibe. While Katamari Damacy has that vibe in some parts, I want one where it’s an RPG and not just rolling around, sort of like American Mcgee’s Alice in areas where you shrink. To make it simple, I ...",
         "publisher": "Reddit",
         "publisherDomain": "reddit.com",
-        "publishedAt": "2026-10-18T17:31:39.000Z",
-        "url": "https://www.reddit.com/r/gaming/comments/1x991s8/looking_for_games_with_exploration_and",
+        "publishedAt": "2026-10-18T19:48:38.000Z",
+        "url": "https://www.reddit.com/r/gaming/comments/1x9ci8t/is_there_a_game_that_feels_like_the_boardgame",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-4c3cd904-2e9c-57c9-8369-a50ba6f32be0",
-        "title": "The Novel Behind Jenna Ortega's New Film Was Just Named the Best Sci-Fi Book of the Decade",
-        "description": "Klara and the Sun, directed by Taika Waititi of Thor and Jojo Rabbit fame, premiered at the BFI London Film Festival this weekend to some admittedly …",
-        "publisher": "Miamiherald",
-        "publisherDomain": "miamiherald.com",
-        "publishedAt": "2026-10-18T17:11:31.000Z",
-        "url": "https://www.miamiherald.com/entertainment/article317674526.html",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-dd3864ef-0825-587a-bd6a-a75915306be0",
-        "title": "Arbatskaya metro station in Moscow, Russia (1953)",
-        "description": "submitted by /u/archi-mature [link] [comments]",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-10-18T17:09:03.000Z",
-        "url": "https://www.reddit.com/r/architecture/comments/1x98h9g/arbatskaya_metro_station_in_moscow_russia_1953",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-4bdc0f49-6db0-54ab-830e-9a2c96f7bc0f",
-        "title": "This Pumpkin-Carving Hack From Food Network Host Jonathan Bennett is a Halloween Game-Changer",
-        "description": "With Halloween right around the corner, families across America are busy picking out pumpkins, gutting those gourds, and carving little faces or …",
-        "publisher": "Miamiherald",
-        "publisherDomain": "miamiherald.com",
-        "publishedAt": "2026-10-18T17:06:42.000Z",
-        "url": "https://www.miamiherald.com/entertainment/article317674531.html",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-fa6e5198-473a-5ea7-bd9a-186411163ab0",
-        "title": "Stray Kids, ENHYPEN, BOYNEXTDOOR, ALPHA DRIVE ONE, &TEAM, CORTIS, ILLIT, And More Sweep Top Spots On Billboard World Albums Chart",
-        "description": "Billboard has published its World Albums chart for the week ending on October 17! Stray Kids’ latest mini album “THIS & THAT” returned to the top of the World Albums chart this week, marking its seventh non-consecutive week at No. 1. “THIS & THAT” also climbed back up to No. 29 in its ninth consecut...",
-        "publisher": "Soompi",
-        "publisherDomain": "soompi.com",
-        "publishedAt": "2026-10-18T17:16:30.000Z",
-        "url": "https://www.soompi.com/article/1879304wpp/stray-kids-enhypen-boynextdoor-alpha-drive-one-team-cortis-illit-and-more-sweep-top-spots-on-billboard-world-albums-chart",
-        "imageUrl": "https://0.soompi.io/wp-content/uploads/2026/10/18235704/Stray-Kids-ENHYPEN-BOYNEXTDOOR-ALPHA-DRIVE-ONE.jpg",
+        "id": "currents-f0fe3a2b-6551-5e31-a5ad-3bf49f700158",
+        "title": "Look: Cindy Crawford remembers son Presley with touching Instagram post",
+        "description": "Supermodel Cindy Crawford honored her late son Presley Gerber with a heartfelt message and beautiful portrait on Instagram Sunday.",
+        "publisher": "Upi",
+        "publisherDomain": "upi.com",
+        "publishedAt": "2026-10-18T19:45:41.000Z",
+        "url": "https://www.upi.com/Entertainment_News/2026/10/18/cindy-crawford-son-presley-gerber-tribute/3681792351855",
         "categories": [
           "Entertainment"
         ]
@@ -1573,6 +1672,6 @@
     "successfulRequests": 5,
     "failedRequests": 0,
     "articleCountBeforeDeduplication": 100,
-    "articleCountAfterDeduplication": 77
+    "articleCountAfterDeduplication": 78
   }
 }
