@@ -1,501 +1,687 @@
 {
   "schemaVersion": 1,
   "provider": "currents",
-  "generatedAt": "2026-10-22T05:17:29.642Z",
-  "sourceFetchedAt": "2026-10-22T05:17:29.642Z",
+  "generatedAt": "2026-10-22T10:31:59.235Z",
+  "sourceFetchedAt": "2026-10-22T10:31:59.235Z",
   "status": "success",
   "categories": {
     "Top": [
       {
-        "id": "currents-69f9a2d1-4a71-5e79-a8be-7058e962400b",
-        "title": "Veteran deployed burn pits exposure: headache phenotypes, trajectories, and outcomes: a mixed-methods evaluation",
-        "description": "BackgroundExposure to open burn pit smoke and fumes during military service has been associated with a range of chronic health conditions. Little is known ab...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:26.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1899580/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
+        "id": "currents-5debdd3c-25fe-5f85-84d1-6734364f3752",
+        "title": "Heatwave-induced capacity bottlenecks in European electricity grids - Nature Energy",
+        "description": "This study models how heatwaves raise demand and reduce generation and transmission capacity across Western European power grids, showing how heatwaves can expose bottlenecks that simplified models may miss and providing a basis for resilience planning.",
+        "publisher": "Nature",
+        "publisherDomain": "nature.com",
+        "publishedAt": "2026-10-22T10:27:37.000Z",
+        "url": "https://www.nature.com/articles/s41560-026-02151-1",
+        "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41560-026-02151-1/MediaObjects/41560_2026_2151_Fig1_HTML.png",
         "categories": [
           "Top",
+          "Technology",
           "Science",
           "U.S."
         ]
       },
       {
-        "id": "currents-2f534adb-18c4-5fec-8867-a85d0b14747e",
-        "title": "Oil prices jump on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes",
-        "description": "The Middle East conflict could flare up again as the U.S. reportedly plans to resume strikes against Iran.",
-        "publisher": "CNBC",
-        "publisherDomain": "cnbc.com",
-        "publishedAt": "2026-10-22T05:12:19.000Z",
-        "url": "https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html",
-        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108421353-1792180540035-gettyimages-2300550126-_m0a2067_eredzuqs.jpeg?v=1792180665&w=1920&h=1080",
+        "id": "currents-d4dfd8fb-f4c9-5d44-9aa8-b8083779fc38",
+        "title": "'Woke madness' as museum removes Egyptian mummies from display...",
+        "description": "Bosses at one of Scotland's most popular museums are at the centre of a 'woke' row after removing mummies from display because of a lack of 'informed consent from the deceased individual'.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-10-22T10:23:57.000Z",
+        "url": "https://www.dailymail.com/news/article-16227743/Woke-madness-museum-removes-Egyptian-mummies-display-did-not-consent.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/10/21/19/112006841-0-image-a-118_1792606127778.jpg",
         "categories": [
           "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-679bb16d-e1cf-5148-81c4-cc1df10ea710",
+        "title": "A basic explanation of the 'critical' PHP flaw",
+        "description": "The cybersecurity issue does not impact everyday consumers' phones or devices but rather the popular websites they may use.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-22T10:25:39.000Z",
+        "url": "https://www.usatoday.com/story/news/nation/2026/10/21/php-critical-security-issue-what-to-know/92369505007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/21/USAT/92363183007-getty-images-1202250586.jpg?auto=webp&crop=2084,1172,x0,y0&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "World",
           "U.S."
         ]
       },
       {
-        "id": "currents-50ad3e73-d59f-519d-b988-113e3aa41270",
-        "title": "Rockets' Tari Eason ejected after shoving Mavericks' P.J. Washington in back",
-        "description": "Rockets reserve forward Tari Eason was ejected in the first quarter Wednesday night after shoving Mavericks forward P.J. Washington in the back.",
-        "publisher": "ESPN",
-        "publisherDomain": "espn.com",
-        "publishedAt": "2026-10-22T05:11:07.000Z",
-        "url": "https://www.espn.com/nba/story/_/id/50244737/rockets-tari-eason-ejected-shoving-mavericks-pj-washington-back",
-        "imageUrl": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1022%2Fr1734368_1296x729_16%2D9.jpg",
+        "id": "currents-87a0660e-6f12-576e-a7eb-4becf3fcc742",
+        "title": "Brotli on NGINX thread pools: ngx_mbrotli vs ngx_brotli",
+        "description": "On-the-fly Brotli blocks the NGINX event loop. ngx_mbrotli on a thread pool against google/ngx_brotli: p99 latency, requests per second, CPU time and memory.",
+        "publisher": "Github",
+        "publisherDomain": "m-compressors.github.io",
+        "publishedAt": "2026-10-22T10:22:17.000Z",
+        "url": "https://m-compressors.github.io/2026/ngx-mbrotli-thread-pool-benchmarks",
+        "imageUrl": "https://m-compressors.github.io/assets/img/og.png",
         "categories": [
           "Top",
           "U.S.",
-          "Sports"
+          "Technology",
+          "Science"
         ]
       },
       {
-        "id": "currents-b09ce3e1-be93-56cd-beb4-9c289c6389a7",
-        "title": "EU energy measures fall short of tackling high prices, warns Cypriot expert",
-        "description": "European Union leaders have correctly identified high energy prices as a threat to households, industry and the wider economy, but their proposed response remains inadequate, energy systems expert Andreas Poullikkas has warned. Writing after the EU summit held on October 15-16, the former Cyprus Ene...",
-        "publisher": "Cyprus Mail",
-        "publisherDomain": "cyprus-mail.com",
-        "publishedAt": "2026-10-22T05:00:00.000Z",
-        "url": "https://cyprus-mail.com/2026/10/22/eu-energy-measures-fall-short-of-tackling-high-prices-warns-cypriot-expert",
-        "imageUrl": "https://cyprus-mail.com/wp-content/uploads/2025/08/energy-grid-electricity-electric-EAC.jpg",
+        "id": "currents-12b83b29-3888-519c-a11b-d1e1a1c978c1",
+        "title": "Keratin 9 regulates mechanosensitive YAP1 signalling in palmoplantar epidermis - Nature Cell Biology",
+        "description": "Steiner et al. propose that keratin 9 (K9) interacts with 14-3-3, sequestering YAP1 in the cytoplasm and inhibiting YAP1 activity. They identify dysregulated YAP in palmoplantar keratinization diseases, with K9 as a downstream regulator of YAP.",
+        "publisher": "Nature",
+        "publisherDomain": "nature.com",
+        "publishedAt": "2026-10-22T10:16:57.000Z",
+        "url": "https://www.nature.com/articles/s41556-026-02087-4",
+        "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41556-026-02087-4/MediaObjects/41556_2026_2087_Fig1_HTML.png",
         "categories": [
           "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-771f124d-7d91-5686-8dce-000b3c4cd537",
+        "title": "Steroid hormones produced by coral-associated Endozoicomonas influence coral immune response during thermal stress - Nature Microbiology",
+        "description": "Multi-omics and laboratory experiments reveal that a coral-associated bacterium can produce testosterone and progesterone; these two hormones alter the coral host’s innate immune responses during thermal stress.",
+        "publisher": "Nature",
+        "publisherDomain": "nature.com",
+        "publishedAt": "2026-10-22T10:18:41.000Z",
+        "url": "https://www.nature.com/articles/s41564-026-02494-1",
+        "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41564-026-02494-1/MediaObjects/41564_2026_2494_Fig1_HTML.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-23eb510f-0829-5d62-81d0-3c90761a8dfa",
+        "title": "Angel Reese (again), Valkyries' turnovers among WNBA Finals winners and losers",
+        "description": "The Dream took a 2-1 lead in the 2026 WNBA Finals following a 95-71 win over the Golden State Valkyries. Here are the winners and losers.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-22T10:25:38.000Z",
+        "url": "https://www.usatoday.com/story/sports/wnba/2026/10/22/angel-reese-valkyries-starters-among-wnba-finals-winners-and-losers/92373432007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/22/USAT/92375387007-20261022-t-020723-z-1749622051-mt-1-usatoday-30149856-rtrmadp-3-wnbafinalsgoldenstatevalkyriesatatlantadream.JPG?auto=webp&crop=4863,2736,x0,y0&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-c52779f2-dd3d-5c97-bab4-3e6a5ba9f8d2",
+        "title": "El-Sayed, Rogers trade zingers: final Michigan Senate debate takeaways",
+        "description": "The second and final debate in the key Senate race was slightly less heated, but still featured sharp-edged sparring over President Trump's policies.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-22T10:25:38.000Z",
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/10/21/final-michigan-senate-debate-takeaways/92370870007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/22/USAT/92373422007-20261022-t-010321-z-996915091-mt-1-usatoday-30148528-rtrmadp-3-republicannomineemikerogersspeaksduringhissecond.JPG?auto=webp&crop=2399,1351,x0,y124&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-ce900606-205c-5561-a427-9d2783f3a41f",
+        "title": "Bobby Pulido, a Tejano star, is trying to flip a South Texas seat",
+        "description": "Latin Grammy-winner Bobby Pulido wants to flip GOP Rep. Monica De La Cruz's Rio Grande Valley seat. His viral quinceañera performances are helping.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-22T10:25:38.000Z",
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/10/22/bobby-pulido-texas-15-district-monica-de-la-cruz/92320805007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/18/USAT/92321092007-bobbypulido.jpeg?auto=webp&crop=1919,1081,x0,y179&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-186405c9-a2d7-5f4b-bae0-604ef7540966",
+        "title": "github-repo-mcp: letting an AI explore any GitHub repo without cloning it by hand",
+        "description": "A small MCP server that clones, maps, searches and reads any repository on demand, with a local cache and a symbol map built with tree-sitter.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-22T10:17:17.000Z",
+        "url": "https://dev.to/haideraniq/github-repo-mcp-letting-an-ai-explore-any-github-repo-without-cloning-it-by-hand-n2d",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Faniq-haider.vercel.app%2Fblog%2Fgithub-repo-mcp%2Fopengraph-image",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-488366a5-aba3-58ed-8df0-70b139254c93",
+        "title": "FirstCash Non-GAAP EPS of $2.68 beats by $0.05, revenue of $1.1B beats by $30M (FCFS:NASDAQ)",
+        "description": "FirstCash Q3 earnings beat estimates with 17.6% revenue growth and strong pawn segment gains.",
+        "publisher": "Seekingalpha",
+        "publisherDomain": "seekingalpha.com",
+        "publishedAt": "2026-10-22T10:17:08.000Z",
+        "url": "https://seekingalpha.com/news/4655771-firstcash-non-gaap-eps-of-2_68-beats-by-0_05-revenue-of-1_1b-beats-by-30m?feed_item_type=news",
+        "imageUrl": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+        "categories": [
+          "Top",
+          "U.S.",
           "Business"
         ]
       },
       {
-        "id": "currents-7c68e472-af52-566b-a359-bb7e72d45781",
-        "title": "Intranasal CBT101 demonstrates favorable safety and neurophysiological evidence of central activity in healthy male volunteers",
-        "description": "ObjectivesCBT101 is a creatine prodrug under development for disorders driven by impaired neuronal energy homeostasis, with initial development focused on cr...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:24.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1940627/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
+        "id": "currents-d5c4ca2e-aed4-514e-b5f2-d60662b06cfd",
+        "title": "A multi-agent pipeline that clones live sites into production components",
+        "description": "Five specialised agents turn a URL or a Figma frame into reviewed, build-verified UI, one section at a time, and learn from every run.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-22T10:16:55.000Z",
+        "url": "https://dev.to/haideraniq/a-multi-agent-pipeline-that-clones-live-sites-into-production-components-343i",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Faniq-haider.vercel.app%2Fblog%2Fagent-cloning-pipeline%2Fopengraph-image",
         "categories": [
           "Top",
-          "Science",
-          "U.S."
+          "U.S.",
+          "Technology",
+          "Science"
         ]
       },
       {
-        "id": "currents-c83a3d40-638b-52ab-9fde-f161dc23b692",
-        "title": "The association between body mass index and white matter hyperintensities: a cross-sectional analysis in a Tibetan population",
-        "description": "BackgroundWhite matter hyperintensities (WMH), an imaging hallmark of cerebral small vessel disease (CSVD), show inconsistent associations with body mass ind...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:29.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1805682/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
+        "id": "currents-8601944b-92f3-5bf0-932b-e8e734cb61b2",
+        "title": "Why Your OAuth Integration Will Fail at 3 AM (And How to Fix It Before It Does)",
+        "description": "Authentication is easy. Surviving rate limits, network partitions, and thundering herds after login? That's the hard part. Here's the production architecture.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-22T10:16:12.000Z",
+        "url": "https://dev.to/sophia_nord/why-your-oauth-integration-will-fail-at-3-am-and-how-to-fix-it-before-it-does-22i9",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fopengraph.githubassets.com%2F1%2FNoeFabris%2Fopencode-antigravity-auth",
         "categories": [
           "Top",
-          "Science",
-          "U.S."
+          "U.S.",
+          "Technology",
+          "Science"
         ]
       },
       {
-        "id": "currents-4cbdfcd9-a00d-5f81-af0f-2fc50e7e3da1",
-        "title": "Diagnostic delay and predictors of true stroke among patients with suspected in-hospital stroke: a single-center retrospective study",
-        "description": "BackgroundTimely diagnosis is essential for acute treatment of in-hospital stroke. We aimed to investigate factors associated with diagnostic delay and clini...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:28.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1979991/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
+        "id": "currents-f0733b9c-c1d0-5482-aff7-600acea46417",
+        "title": "Jeffries says Democrats 'on the verge' of winning the House. It puts speaker's gavel in reach",
+        "description": "TOLEDO, Ohio (AP) — Democratic leader Hakeem Jeffries listened from the front row at the old Ohio church as the Sunday congregation heard of scripture’s guidance for calming a gathering storm.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-10-22T10:03:12.000Z",
+        "url": "https://www.winnipegfreepress.com/world/2026/10/22/jeffries-says-democrats-on-the-verge-of-winning-the-house-it-puts-speakers-gavel-in-reach",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ad9df55e5889dc5adf4cf52jpeg.jpg?w=1600",
         "categories": [
+          "Sports",
           "Top",
-          "Science",
-          "U.S."
+          "U.S.",
+          "World"
         ]
       },
       {
-        "id": "currents-99a8552b-382f-52d7-9e42-c2a7b4429f09",
-        "title": "Physical activity trajectories after mild ischemic stroke and their association with 6-month functional outcomes",
-        "description": "BackgroundWhether post-stroke physical activity (PA) patterns are associated with stroke prognosis remains unclear. We aimed to examine the association betwe...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:27.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1919846/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
+        "id": "currents-6a582f88-b0f6-5954-8ee3-04b475be3b5a",
+        "title": "Court operations suspended in some areas in Luzon on Friday Oct. 23",
+        "description": "MANILA, Philippines — Court operations in some places in Luzon are suspended on Friday (October 23) due to various reasons, according to the Supreme Court. Here are the branches: Judicial Region (JR) 1: READ: Walang Pasok: Oct. 23 class, gov’t work suspensions due to Rosal JR 2 JR 3 JR 4-B READ: NGC...",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-10-22T10:27:55.000Z",
+        "url": "https://newsinfo.inquirer.net/2328477/court-operations-suspended-in-some-areas-in-luzon-on-friday-oct-23",
         "categories": [
           "Top",
-          "Science",
-          "U.S."
+          "World"
         ]
       },
       {
-        "id": "currents-5319b3e2-12e6-59cd-902e-69685b79e0ea",
-        "title": "Trans-sinus fracture as the gatekeeper: a two-step clinical strategy to guide venous imaging in mild-to-moderate traumatic brain injury",
-        "description": "BackgroundTraumatic cerebral venous sinus thrombosis (tCVST) is an underrecognized complication of traumatic brain injury (TBI). Despite its potential for se...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:26.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1901656/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
+        "id": "currents-2bdd9abc-58ef-5405-84ff-e783c1e83fc6",
+        "title": "POLL | Is the temporary fuel levy relief an election ploy?",
+        "description": "Finance minister Enoch Godongwana announced a cut to fuel levy by R1.50/l for petrol and R3/l for diesel from November 4",
+        "publisher": "Co",
+        "publisherDomain": "timeslive.co.za",
+        "publishedAt": "2026-10-22T10:25:59.000Z",
+        "url": "https://www.timeslive.co.za/politics/2026-10-22-poll-is-the-temporary-fuel-levy-relief-an-election-ploy",
+        "imageUrl": "https://www.timeslive.co.za/resizer/v2/W5L7OMAQ3RGY3BUWUU6JAWMXTU.jpg?smart=true&auth=69fbc9556245a8dad493d2065fc20ed2b982a7fc11a929e55a3b1dd1a8b23ee8&width=1200&height=630",
         "categories": [
           "Top",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-5a764aff-879b-57d6-899b-7d9643388a9d",
-        "title": "Cerebellar lobular morphometry in trigeminal neuralgia: cross-sectional and exploratory postoperative analyses",
-        "description": "BackgroundCerebellar morphometric findings in trigeminal neuralgia (TN) are inconsistent, and lobular volume and cortical thickness are poorly characterized....",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:23.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1964745/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
-        "categories": [
-          "Top",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-3743487e-aa60-5e1d-9fee-5911d89a7160",
-        "title": "Artificial intelligence use patterns, attitudes, and psychological distress among medical students: a cross-sectional survey",
-        "description": "BackgroundArtificial intelligence (AI) tools are widely used by medical students, but associations of general use frequency and AI-related attitudes with psy...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:01.000Z",
-        "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1965749/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/3501F557-CAFA-4218-930C20D1D930C78C/F6FF788E-26D5-4BC5-8CB92EE85A59CA4A/WebsiteWebP_XL-FMED_Main%20Visual_Purple_Website.webp",
-        "categories": [
-          "Top",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-c2f5eebb-b3b7-5e5e-a90e-3f0c54fced45",
-        "title": "Possible severe piperacillin-tazobactam–associated drug-induced liver injury after re-exposure: a case report",
-        "description": "BackgroundDrug-induced liver injury (DILI) is an important cause of acute liver failure, and antimicrobial agents are among its most frequent causes. However...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:11:58.000Z",
-        "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1977830/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/3501F557-CAFA-4218-930C20D1D930C78C/F6FF788E-26D5-4BC5-8CB92EE85A59CA4A/WebsiteWebP_XL-FMED_Main%20Visual_Purple_Website.webp",
-        "categories": [
-          "Top",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-5bcfad8a-ffc6-5ebf-b462-961e2d8e1352",
-        "title": "Medical AI: Are Osler's Principles Lost in Translation?",
-        "description": "Artificial intelligence (AI) is poised to transform clinical practice, but its adoption coincides with a longstanding decline in bedside medicine. Herein, we...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:11:57.000Z",
-        "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1991244/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/3501F557-CAFA-4218-930C20D1D930C78C/F6FF788E-26D5-4BC5-8CB92EE85A59CA4A/WebsiteWebP_XL-FMED_Main%20Visual_Purple_Website.webp",
-        "categories": [
-          "Top",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-49f31b49-50bc-583f-a408-1a55af132699",
-        "title": "Staphylococcus aureus-associated infected subclavian artery pseudoaneurysm treated with dual bare-metal stent implantation: a case report",
-        "description": "Infected subclavian artery aneurysms are exceedingly rare, life-threatening vascular lesions associated with high risks of rupture and mortality. We report a...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:15:52.000Z",
-        "url": "https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2026.1965965/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/0E097865-0E34-4E8F-84C1727DD698619A/41A3C274-4936-4899-BCC78909330BD4F9/WebsiteWebP_XL-FCVM_Main%20Visual_Red_Website.webp",
-        "categories": [
-          "Top",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-f370ccd9-6cf9-5492-a1ef-e5a2b0f7a57f",
-        "title": "Hereditary transthyretin amyloidosis in peripheral neuropathy: prevalence, clinical features, and neurology-based screening in non-endemic Japan",
-        "description": "IntroductionHereditary transthyretin amyloidosis (ATTRv) is a progressive, potentially fatal disease caused by pathogenic TTR variants. Although increasingly...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:31.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1955913/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
-        "categories": [
-          "Top",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-46d7757e-4fa7-5211-8fd0-ed98625b182f",
-        "title": "Feasibility of ultrasound-guided sacroiliac joint puncture in the treatment of inflammatory and osteoarthritis pain: a 11-years single-centre experience",
-        "description": "BackgroundSacroiliac joint inflammation is a key manifestation of spondyloarthritis; however, most sacroiliac pain arises from mechanical overload, which als...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:11:59.000Z",
-        "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1997507/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/3501F557-CAFA-4218-930C20D1D930C78C/F6FF788E-26D5-4BC5-8CB92EE85A59CA4A/WebsiteWebP_XL-FMED_Main%20Visual_Purple_Website.webp",
-        "categories": [
-          "Top",
-          "Science",
-          "U.S."
+          "World"
         ]
       }
     ],
     "U.S.": [
       {
-        "id": "currents-69f9a2d1-4a71-5e79-a8be-7058e962400b",
-        "title": "Veteran deployed burn pits exposure: headache phenotypes, trajectories, and outcomes: a mixed-methods evaluation",
-        "description": "BackgroundExposure to open burn pit smoke and fumes during military service has been associated with a range of chronic health conditions. Little is known ab...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:26.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1899580/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
+        "id": "currents-5debdd3c-25fe-5f85-84d1-6734364f3752",
+        "title": "Heatwave-induced capacity bottlenecks in European electricity grids - Nature Energy",
+        "description": "This study models how heatwaves raise demand and reduce generation and transmission capacity across Western European power grids, showing how heatwaves can expose bottlenecks that simplified models may miss and providing a basis for resilience planning.",
+        "publisher": "Nature",
+        "publisherDomain": "nature.com",
+        "publishedAt": "2026-10-22T10:27:37.000Z",
+        "url": "https://www.nature.com/articles/s41560-026-02151-1",
+        "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41560-026-02151-1/MediaObjects/41560_2026_2151_Fig1_HTML.png",
         "categories": [
           "Top",
+          "Technology",
           "Science",
           "U.S."
         ]
       },
       {
-        "id": "currents-2f534adb-18c4-5fec-8867-a85d0b14747e",
-        "title": "Oil prices jump on Middle East worries as U.S., Israel reportedly weigh fresh Iran strikes",
-        "description": "The Middle East conflict could flare up again as the U.S. reportedly plans to resume strikes against Iran.",
-        "publisher": "CNBC",
-        "publisherDomain": "cnbc.com",
-        "publishedAt": "2026-10-22T05:12:19.000Z",
-        "url": "https://www.cnbc.com/2026/10/22/oil-prices-today-wti-brent-saudi-arabia.html",
-        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108421353-1792180540035-gettyimages-2300550126-_m0a2067_eredzuqs.jpeg?v=1792180665&w=1920&h=1080",
+        "id": "currents-679bb16d-e1cf-5148-81c4-cc1df10ea710",
+        "title": "A basic explanation of the 'critical' PHP flaw",
+        "description": "The cybersecurity issue does not impact everyday consumers' phones or devices but rather the popular websites they may use.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-22T10:25:39.000Z",
+        "url": "https://www.usatoday.com/story/news/nation/2026/10/21/php-critical-security-issue-what-to-know/92369505007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/21/USAT/92363183007-getty-images-1202250586.jpg?auto=webp&crop=2084,1172,x0,y0&format=pjpg&width=1200",
         "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-2b63b84d-8c8a-586a-87b5-4cfd9bebffb4",
+        "title": "SEPTA real-time tools temporarily down as transit agency installs PHP update",
+        "description": "While those services are temporarily down, officials say real-time bus and Metro information is currently available through Google Maps and the Transit App.",
+        "publisher": "6abc",
+        "publisherDomain": "6abc.com",
+        "publishedAt": "2026-10-22T10:25:11.000Z",
+        "url": "https://6abc.com/post/septa-real-time-tracking-tools-temporarily-down-transit-agency-installs-update-amid-php-vulnerability/19968179",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/14085139_112023-wpvi-septa-logo-generic-img.jpg?w=1600",
+        "categories": [
+          "Entertainment",
           "Top",
           "U.S."
         ]
       },
       {
-        "id": "currents-50ad3e73-d59f-519d-b988-113e3aa41270",
-        "title": "Rockets' Tari Eason ejected after shoving Mavericks' P.J. Washington in back",
-        "description": "Rockets reserve forward Tari Eason was ejected in the first quarter Wednesday night after shoving Mavericks forward P.J. Washington in the back.",
-        "publisher": "ESPN",
-        "publisherDomain": "espn.com",
-        "publishedAt": "2026-10-22T05:11:07.000Z",
-        "url": "https://www.espn.com/nba/story/_/id/50244737/rockets-tari-eason-ejected-shoving-mavericks-pj-washington-back",
-        "imageUrl": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1022%2Fr1734368_1296x729_16%2D9.jpg",
+        "id": "currents-87a0660e-6f12-576e-a7eb-4becf3fcc742",
+        "title": "Brotli on NGINX thread pools: ngx_mbrotli vs ngx_brotli",
+        "description": "On-the-fly Brotli blocks the NGINX event loop. ngx_mbrotli on a thread pool against google/ngx_brotli: p99 latency, requests per second, CPU time and memory.",
+        "publisher": "Github",
+        "publisherDomain": "m-compressors.github.io",
+        "publishedAt": "2026-10-22T10:22:17.000Z",
+        "url": "https://m-compressors.github.io/2026/ngx-mbrotli-thread-pool-benchmarks",
+        "imageUrl": "https://m-compressors.github.io/assets/img/og.png",
         "categories": [
           "Top",
           "U.S.",
-          "Sports"
+          "Technology",
+          "Science"
         ]
       },
       {
-        "id": "currents-7c68e472-af52-566b-a359-bb7e72d45781",
-        "title": "Intranasal CBT101 demonstrates favorable safety and neurophysiological evidence of central activity in healthy male volunteers",
-        "description": "ObjectivesCBT101 is a creatine prodrug under development for disorders driven by impaired neuronal energy homeostasis, with initial development focused on cr...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:24.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1940627/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
+        "id": "currents-12b83b29-3888-519c-a11b-d1e1a1c978c1",
+        "title": "Keratin 9 regulates mechanosensitive YAP1 signalling in palmoplantar epidermis - Nature Cell Biology",
+        "description": "Steiner et al. propose that keratin 9 (K9) interacts with 14-3-3, sequestering YAP1 in the cytoplasm and inhibiting YAP1 activity. They identify dysregulated YAP in palmoplantar keratinization diseases, with K9 as a downstream regulator of YAP.",
+        "publisher": "Nature",
+        "publisherDomain": "nature.com",
+        "publishedAt": "2026-10-22T10:16:57.000Z",
+        "url": "https://www.nature.com/articles/s41556-026-02087-4",
+        "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41556-026-02087-4/MediaObjects/41556_2026_2087_Fig1_HTML.png",
         "categories": [
           "Top",
-          "Science",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-771f124d-7d91-5686-8dce-000b3c4cd537",
+        "title": "Steroid hormones produced by coral-associated Endozoicomonas influence coral immune response during thermal stress - Nature Microbiology",
+        "description": "Multi-omics and laboratory experiments reveal that a coral-associated bacterium can produce testosterone and progesterone; these two hormones alter the coral host’s innate immune responses during thermal stress.",
+        "publisher": "Nature",
+        "publisherDomain": "nature.com",
+        "publishedAt": "2026-10-22T10:18:41.000Z",
+        "url": "https://www.nature.com/articles/s41564-026-02494-1",
+        "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41564-026-02494-1/MediaObjects/41564_2026_2494_Fig1_HTML.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-23eb510f-0829-5d62-81d0-3c90761a8dfa",
+        "title": "Angel Reese (again), Valkyries' turnovers among WNBA Finals winners and losers",
+        "description": "The Dream took a 2-1 lead in the 2026 WNBA Finals following a 95-71 win over the Golden State Valkyries. Here are the winners and losers.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-22T10:25:38.000Z",
+        "url": "https://www.usatoday.com/story/sports/wnba/2026/10/22/angel-reese-valkyries-starters-among-wnba-finals-winners-and-losers/92373432007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/22/USAT/92375387007-20261022-t-020723-z-1749622051-mt-1-usatoday-30149856-rtrmadp-3-wnbafinalsgoldenstatevalkyriesatatlantadream.JPG?auto=webp&crop=4863,2736,x0,y0&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "World",
           "U.S."
         ]
       },
       {
-        "id": "currents-c83a3d40-638b-52ab-9fde-f161dc23b692",
-        "title": "The association between body mass index and white matter hyperintensities: a cross-sectional analysis in a Tibetan population",
-        "description": "BackgroundWhite matter hyperintensities (WMH), an imaging hallmark of cerebral small vessel disease (CSVD), show inconsistent associations with body mass ind...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:29.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1805682/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
+        "id": "currents-c52779f2-dd3d-5c97-bab4-3e6a5ba9f8d2",
+        "title": "El-Sayed, Rogers trade zingers: final Michigan Senate debate takeaways",
+        "description": "The second and final debate in the key Senate race was slightly less heated, but still featured sharp-edged sparring over President Trump's policies.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-22T10:25:38.000Z",
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/10/21/final-michigan-senate-debate-takeaways/92370870007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/22/USAT/92373422007-20261022-t-010321-z-996915091-mt-1-usatoday-30148528-rtrmadp-3-republicannomineemikerogersspeaksduringhissecond.JPG?auto=webp&crop=2399,1351,x0,y124&format=pjpg&width=1200",
         "categories": [
           "Top",
-          "Science",
+          "World",
           "U.S."
         ]
       },
       {
-        "id": "currents-4cbdfcd9-a00d-5f81-af0f-2fc50e7e3da1",
-        "title": "Diagnostic delay and predictors of true stroke among patients with suspected in-hospital stroke: a single-center retrospective study",
-        "description": "BackgroundTimely diagnosis is essential for acute treatment of in-hospital stroke. We aimed to investigate factors associated with diagnostic delay and clini...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:28.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1979991/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
+        "id": "currents-ce900606-205c-5561-a427-9d2783f3a41f",
+        "title": "Bobby Pulido, a Tejano star, is trying to flip a South Texas seat",
+        "description": "Latin Grammy-winner Bobby Pulido wants to flip GOP Rep. Monica De La Cruz's Rio Grande Valley seat. His viral quinceañera performances are helping.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-22T10:25:38.000Z",
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/10/22/bobby-pulido-texas-15-district-monica-de-la-cruz/92320805007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/18/USAT/92321092007-bobbypulido.jpeg?auto=webp&crop=1919,1081,x0,y179&format=pjpg&width=1200",
         "categories": [
           "Top",
-          "Science",
+          "World",
           "U.S."
         ]
       },
       {
-        "id": "currents-99a8552b-382f-52d7-9e42-c2a7b4429f09",
-        "title": "Physical activity trajectories after mild ischemic stroke and their association with 6-month functional outcomes",
-        "description": "BackgroundWhether post-stroke physical activity (PA) patterns are associated with stroke prognosis remains unclear. We aimed to examine the association betwe...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:27.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1919846/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
+        "id": "currents-02a45e64-789b-5c30-8061-3fc62351bce1",
+        "title": "I'm Pitting Your Favorite Fall Foods Against Each Other, And You Can Only Pick One Winner",
+        "description": "Fall into fall with these fall dishes!",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-10-22T10:21:02.000Z",
+        "url": "https://www.buzzfeed.com/gem758/this-or-that-fall-dishes-edition",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/21/14/thumb/oojGD0MMM.jpg?crop=1250:654;0,88%26downsize=1250:*",
         "categories": [
           "Top",
-          "Science",
-          "U.S."
+          "U.S.",
+          "Entertainment"
         ]
       },
       {
-        "id": "currents-5319b3e2-12e6-59cd-902e-69685b79e0ea",
-        "title": "Trans-sinus fracture as the gatekeeper: a two-step clinical strategy to guide venous imaging in mild-to-moderate traumatic brain injury",
-        "description": "BackgroundTraumatic cerebral venous sinus thrombosis (tCVST) is an underrecognized complication of traumatic brain injury (TBI). Despite its potential for se...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:26.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1901656/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
+        "id": "currents-186405c9-a2d7-5f4b-bae0-604ef7540966",
+        "title": "github-repo-mcp: letting an AI explore any GitHub repo without cloning it by hand",
+        "description": "A small MCP server that clones, maps, searches and reads any repository on demand, with a local cache and a symbol map built with tree-sitter.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-22T10:17:17.000Z",
+        "url": "https://dev.to/haideraniq/github-repo-mcp-letting-an-ai-explore-any-github-repo-without-cloning-it-by-hand-n2d",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Faniq-haider.vercel.app%2Fblog%2Fgithub-repo-mcp%2Fopengraph-image",
         "categories": [
           "Top",
-          "Science",
-          "U.S."
+          "U.S.",
+          "Technology",
+          "Science"
         ]
       },
       {
-        "id": "currents-5a764aff-879b-57d6-899b-7d9643388a9d",
-        "title": "Cerebellar lobular morphometry in trigeminal neuralgia: cross-sectional and exploratory postoperative analyses",
-        "description": "BackgroundCerebellar morphometric findings in trigeminal neuralgia (TN) are inconsistent, and lobular volume and cortical thickness are poorly characterized....",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:23.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1964745/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
+        "id": "currents-488366a5-aba3-58ed-8df0-70b139254c93",
+        "title": "FirstCash Non-GAAP EPS of $2.68 beats by $0.05, revenue of $1.1B beats by $30M (FCFS:NASDAQ)",
+        "description": "FirstCash Q3 earnings beat estimates with 17.6% revenue growth and strong pawn segment gains.",
+        "publisher": "Seekingalpha",
+        "publisherDomain": "seekingalpha.com",
+        "publishedAt": "2026-10-22T10:17:08.000Z",
+        "url": "https://seekingalpha.com/news/4655771-firstcash-non-gaap-eps-of-2_68-beats-by-0_05-revenue-of-1_1b-beats-by-30m?feed_item_type=news",
+        "imageUrl": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
         "categories": [
           "Top",
-          "Science",
-          "U.S."
+          "U.S.",
+          "Business"
         ]
       },
       {
-        "id": "currents-3743487e-aa60-5e1d-9fee-5911d89a7160",
-        "title": "Artificial intelligence use patterns, attitudes, and psychological distress among medical students: a cross-sectional survey",
-        "description": "BackgroundArtificial intelligence (AI) tools are widely used by medical students, but associations of general use frequency and AI-related attitudes with psy...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:01.000Z",
-        "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1965749/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/3501F557-CAFA-4218-930C20D1D930C78C/F6FF788E-26D5-4BC5-8CB92EE85A59CA4A/WebsiteWebP_XL-FMED_Main%20Visual_Purple_Website.webp",
+        "id": "currents-d5c4ca2e-aed4-514e-b5f2-d60662b06cfd",
+        "title": "A multi-agent pipeline that clones live sites into production components",
+        "description": "Five specialised agents turn a URL or a Figma frame into reviewed, build-verified UI, one section at a time, and learn from every run.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-22T10:16:55.000Z",
+        "url": "https://dev.to/haideraniq/a-multi-agent-pipeline-that-clones-live-sites-into-production-components-343i",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Faniq-haider.vercel.app%2Fblog%2Fagent-cloning-pipeline%2Fopengraph-image",
         "categories": [
           "Top",
-          "Science",
-          "U.S."
+          "U.S.",
+          "Technology",
+          "Science"
         ]
       },
       {
-        "id": "currents-c2f5eebb-b3b7-5e5e-a90e-3f0c54fced45",
-        "title": "Possible severe piperacillin-tazobactam–associated drug-induced liver injury after re-exposure: a case report",
-        "description": "BackgroundDrug-induced liver injury (DILI) is an important cause of acute liver failure, and antimicrobial agents are among its most frequent causes. However...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:11:58.000Z",
-        "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1977830/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/3501F557-CAFA-4218-930C20D1D930C78C/F6FF788E-26D5-4BC5-8CB92EE85A59CA4A/WebsiteWebP_XL-FMED_Main%20Visual_Purple_Website.webp",
+        "id": "currents-8601944b-92f3-5bf0-932b-e8e734cb61b2",
+        "title": "Why Your OAuth Integration Will Fail at 3 AM (And How to Fix It Before It Does)",
+        "description": "Authentication is easy. Surviving rate limits, network partitions, and thundering herds after login? That's the hard part. Here's the production architecture.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-22T10:16:12.000Z",
+        "url": "https://dev.to/sophia_nord/why-your-oauth-integration-will-fail-at-3-am-and-how-to-fix-it-before-it-does-22i9",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fopengraph.githubassets.com%2F1%2FNoeFabris%2Fopencode-antigravity-auth",
         "categories": [
           "Top",
-          "Science",
-          "U.S."
+          "U.S.",
+          "Technology",
+          "Science"
         ]
       },
       {
-        "id": "currents-5bcfad8a-ffc6-5ebf-b462-961e2d8e1352",
-        "title": "Medical AI: Are Osler's Principles Lost in Translation?",
-        "description": "Artificial intelligence (AI) is poised to transform clinical practice, but its adoption coincides with a longstanding decline in bedside medicine. Herein, we...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:11:57.000Z",
-        "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1991244/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/3501F557-CAFA-4218-930C20D1D930C78C/F6FF788E-26D5-4BC5-8CB92EE85A59CA4A/WebsiteWebP_XL-FMED_Main%20Visual_Purple_Website.webp",
+        "id": "currents-2b220f85-acce-550b-9972-d56cfa66ff55",
+        "title": "Buckle Up, Buttercup! This Word Game Is Gonna Fry Your Brain 100 Different Ways",
+        "description": "How many words can you make from A, E, G, L, P, and U?",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-10-22T10:16:04.000Z",
+        "url": "https://www.buzzfeed.com/sarathompson1/soup-of-the-day-october-22-2026",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/21/20/thumb/tENRGkcyu.jpg?crop=2999:1570;0,2%26downsize=1250:*",
         "categories": [
           "Top",
-          "Science",
-          "U.S."
+          "U.S.",
+          "Entertainment"
         ]
       },
       {
-        "id": "currents-49f31b49-50bc-583f-a408-1a55af132699",
-        "title": "Staphylococcus aureus-associated infected subclavian artery pseudoaneurysm treated with dual bare-metal stent implantation: a case report",
-        "description": "Infected subclavian artery aneurysms are exceedingly rare, life-threatening vascular lesions associated with high risks of rupture and mortality. We report a...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:15:52.000Z",
-        "url": "https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2026.1965965/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/0E097865-0E34-4E8F-84C1727DD698619A/41A3C274-4936-4899-BCC78909330BD4F9/WebsiteWebP_XL-FCVM_Main%20Visual_Red_Website.webp",
+        "id": "currents-f0733b9c-c1d0-5482-aff7-600acea46417",
+        "title": "Jeffries says Democrats 'on the verge' of winning the House. It puts speaker's gavel in reach",
+        "description": "TOLEDO, Ohio (AP) — Democratic leader Hakeem Jeffries listened from the front row at the old Ohio church as the Sunday congregation heard of scripture’s guidance for calming a gathering storm.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-10-22T10:03:12.000Z",
+        "url": "https://www.winnipegfreepress.com/world/2026/10/22/jeffries-says-democrats-on-the-verge-of-winning-the-house-it-puts-speakers-gavel-in-reach",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ad9df55e5889dc5adf4cf52jpeg.jpg?w=1600",
         "categories": [
+          "Sports",
           "Top",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-f370ccd9-6cf9-5492-a1ef-e5a2b0f7a57f",
-        "title": "Hereditary transthyretin amyloidosis in peripheral neuropathy: prevalence, clinical features, and neurology-based screening in non-endemic Japan",
-        "description": "IntroductionHereditary transthyretin amyloidosis (ATTRv) is a progressive, potentially fatal disease caused by pathogenic TTR variants. Although increasingly...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:31.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1955913/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
-        "categories": [
-          "Top",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-46d7757e-4fa7-5211-8fd0-ed98625b182f",
-        "title": "Feasibility of ultrasound-guided sacroiliac joint puncture in the treatment of inflammatory and osteoarthritis pain: a 11-years single-centre experience",
-        "description": "BackgroundSacroiliac joint inflammation is a key manifestation of spondyloarthritis; however, most sacroiliac pain arises from mechanical overload, which als...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:11:59.000Z",
-        "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1997507/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/3501F557-CAFA-4218-930C20D1D930C78C/F6FF788E-26D5-4BC5-8CB92EE85A59CA4A/WebsiteWebP_XL-FMED_Main%20Visual_Purple_Website.webp",
-        "categories": [
-          "Top",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-1f0b892f-66d8-5e31-b02f-f88826291884",
-        "title": "Glomerular TRPC5 and Palladin immunohistochemical profiling in focal segmental glomerulosclerosis: tissue heterogeneity and exploratory clinical associations (PRIME-PATH I)",
-        "description": "IntroductionFocal segmental glomerulosclerosis (FSGS) is a shared histopathologic pattern arising from biologically diverse podocyte injuries. Transient rece...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:11:56.000Z",
-        "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1924319/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/3501F557-CAFA-4218-930C20D1D930C78C/F6FF788E-26D5-4BC5-8CB92EE85A59CA4A/WebsiteWebP_XL-FMED_Main%20Visual_Purple_Website.webp",
-        "categories": [
-          "Top",
-          "Science",
-          "U.S."
+          "U.S.",
+          "World"
         ]
       }
     ],
     "World": [
       {
-        "id": "currents-7261a8de-f706-5965-a9e5-060c2bfc1e1d",
-        "title": "After Owaisi’s 'Why Has Akhilesh Abandoned Azam Khan' Jibe, SP Chief To Meet Jailed Leader Today",
-        "description": "In an interview with CNN-News18, Owaisi had questioned Akhilesh’s approach towards Azam Khan, asking why the SP chief had abandoned him.",
-        "publisher": "News18",
-        "publisherDomain": "news18.com",
-        "publishedAt": "2026-10-22T05:13:57.000Z",
-        "url": "https://www.news18.com/india/after-owaisis-why-has-akhilesh-abandoned-azam-khan-jibe-sp-chief-to-meet-jailed-leader-today-ws-l-10392347.html",
-        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/07/Akhilesh-Yadav-and-AIMIM-chief-Asaduddin-Owaisi-2026-07-31ef9d8d035c4da1f83b2c065d26ee32-1200x675.jpg",
+        "id": "currents-d4dfd8fb-f4c9-5d44-9aa8-b8083779fc38",
+        "title": "'Woke madness' as museum removes Egyptian mummies from display...",
+        "description": "Bosses at one of Scotland's most popular museums are at the centre of a 'woke' row after removing mummies from display because of a lack of 'informed consent from the deceased individual'.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-10-22T10:23:57.000Z",
+        "url": "https://www.dailymail.com/news/article-16227743/Woke-madness-museum-removes-Egyptian-mummies-display-did-not-consent.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/10/21/19/112006841-0-image-a-118_1792606127778.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-6a582f88-b0f6-5954-8ee3-04b475be3b5a",
+        "title": "Court operations suspended in some areas in Luzon on Friday Oct. 23",
+        "description": "MANILA, Philippines — Court operations in some places in Luzon are suspended on Friday (October 23) due to various reasons, according to the Supreme Court. Here are the branches: Judicial Region (JR) 1: READ: Walang Pasok: Oct. 23 class, gov’t work suspensions due to Rosal JR 2 JR 3 JR 4-B READ: NGC...",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-10-22T10:27:55.000Z",
+        "url": "https://newsinfo.inquirer.net/2328477/court-operations-suspended-in-some-areas-in-luzon-on-friday-oct-23",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-2bdd9abc-58ef-5405-84ff-e783c1e83fc6",
+        "title": "POLL | Is the temporary fuel levy relief an election ploy?",
+        "description": "Finance minister Enoch Godongwana announced a cut to fuel levy by R1.50/l for petrol and R3/l for diesel from November 4",
+        "publisher": "Co",
+        "publisherDomain": "timeslive.co.za",
+        "publishedAt": "2026-10-22T10:25:59.000Z",
+        "url": "https://www.timeslive.co.za/politics/2026-10-22-poll-is-the-temporary-fuel-levy-relief-an-election-ploy",
+        "imageUrl": "https://www.timeslive.co.za/resizer/v2/W5L7OMAQ3RGY3BUWUU6JAWMXTU.jpg?smart=true&auth=69fbc9556245a8dad493d2065fc20ed2b982a7fc11a929e55a3b1dd1a8b23ee8&width=1200&height=630",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-679bb16d-e1cf-5148-81c4-cc1df10ea710",
+        "title": "A basic explanation of the 'critical' PHP flaw",
+        "description": "The cybersecurity issue does not impact everyday consumers' phones or devices but rather the popular websites they may use.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-22T10:25:39.000Z",
+        "url": "https://www.usatoday.com/story/news/nation/2026/10/21/php-critical-security-issue-what-to-know/92369505007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/21/USAT/92363183007-getty-images-1202250586.jpg?auto=webp&crop=2084,1172,x0,y0&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-23eb510f-0829-5d62-81d0-3c90761a8dfa",
+        "title": "Angel Reese (again), Valkyries' turnovers among WNBA Finals winners and losers",
+        "description": "The Dream took a 2-1 lead in the 2026 WNBA Finals following a 95-71 win over the Golden State Valkyries. Here are the winners and losers.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-22T10:25:38.000Z",
+        "url": "https://www.usatoday.com/story/sports/wnba/2026/10/22/angel-reese-valkyries-starters-among-wnba-finals-winners-and-losers/92373432007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/22/USAT/92375387007-20261022-t-020723-z-1749622051-mt-1-usatoday-30149856-rtrmadp-3-wnbafinalsgoldenstatevalkyriesatatlantadream.JPG?auto=webp&crop=4863,2736,x0,y0&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-c52779f2-dd3d-5c97-bab4-3e6a5ba9f8d2",
+        "title": "El-Sayed, Rogers trade zingers: final Michigan Senate debate takeaways",
+        "description": "The second and final debate in the key Senate race was slightly less heated, but still featured sharp-edged sparring over President Trump's policies.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-22T10:25:38.000Z",
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/10/21/final-michigan-senate-debate-takeaways/92370870007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/22/USAT/92373422007-20261022-t-010321-z-996915091-mt-1-usatoday-30148528-rtrmadp-3-republicannomineemikerogersspeaksduringhissecond.JPG?auto=webp&crop=2399,1351,x0,y124&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-ce900606-205c-5561-a427-9d2783f3a41f",
+        "title": "Bobby Pulido, a Tejano star, is trying to flip a South Texas seat",
+        "description": "Latin Grammy-winner Bobby Pulido wants to flip GOP Rep. Monica De La Cruz's Rio Grande Valley seat. His viral quinceañera performances are helping.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-22T10:25:38.000Z",
+        "url": "https://www.usatoday.com/story/news/politics/elections/2026/10/22/bobby-pulido-texas-15-district-monica-de-la-cruz/92320805007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/18/USAT/92321092007-bobbypulido.jpeg?auto=webp&crop=1919,1081,x0,y179&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-0074bb49-d90d-5bc9-9738-6bfbc473066f",
+        "title": "SASSA announces October 2026 SRD grant payment dates",
+        "description": "SASSA Social Relief of Distress grant (SRD) recipients now know when October payments land, plus several key facts about the grant’s future.",
+        "publisher": "Thesouthafrican",
+        "publisherDomain": "thesouthafrican.com",
+        "publishedAt": "2026-10-22T10:23:50.000Z",
+        "url": "https://www.thesouthafrican.com/lifestyle/sassa/sassa-announces-october-2026-srd-grant-payment-dates",
+        "imageUrl": "https://www.thesouthafrican.com/wp-content/uploads/2026/10/2026-10-22-sassa-announces-october-2026-srd-grant-payment-dates.jpg.webp",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-f0733b9c-c1d0-5482-aff7-600acea46417",
+        "title": "Jeffries says Democrats 'on the verge' of winning the House. It puts speaker's gavel in reach",
+        "description": "TOLEDO, Ohio (AP) — Democratic leader Hakeem Jeffries listened from the front row at the old Ohio church as the Sunday congregation heard of scripture’s guidance for calming a gathering storm.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-10-22T10:03:12.000Z",
+        "url": "https://www.winnipegfreepress.com/world/2026/10/22/jeffries-says-democrats-on-the-verge-of-winning-the-house-it-puts-speakers-gavel-in-reach",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ad9df55e5889dc5adf4cf52jpeg.jpg?w=1600",
+        "categories": [
+          "Sports",
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-66ee0a9f-8c86-56c9-b913-81553efab236",
+        "title": "Senate finance panel swiftly approves 7.7B budget for chamber",
+        "description": "MANILA, Philippines — The Senate’s proposed budget for fiscal year 2027 was quickly approved at the Senate finance committee level on Thursday. Senate Secretary Atty. Renato Bantug presented the budget for the chamber. Bantug noted that the Senate is accepting the amount that the Department of Budge...",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-10-22T10:28:08.000Z",
+        "url": "https://newsinfo.inquirer.net/2328459/senate-finance-panel-swiftly-approves-7-7b-budget-for-chamber",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-d5ae2610-2d36-5fd1-98d8-7de493619780",
+        "title": "6 nabbed as cops seize P2.1-M ‘shabu’ in Metro Manila",
+        "description": "MANILA, Philippines — Authorities arrested six individuals, including two high-value individuals (HVIs), and seized P2.1 million worth of suspected shabu (methamphetamine hydrochloride) in three separate buy-bust operations across Metro Manila, police said Thursday. The operations were conducted in ...",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-10-22T10:27:59.000Z",
+        "url": "https://newsinfo.inquirer.net/2328467/6-nabbed-as-cops-seize-p2-1m-suspected-shabu-in-metro-manila",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-74746f42-c96d-559b-914b-3f6e2e694e29",
+        "title": "Subtropical Storm Josephine develops off the East Coast - WWBT",
+        "description": "Elsewhere in Eastern Virginia, a Coastal Flood Advisory continues through Friday evening for shallow flooding up to 1′ of inundation near shorelines ...",
+        "publisher": "Nbc29",
+        "publisherDomain": "nbc29.com",
+        "publishedAt": "2026-10-22T10:24:21.000Z",
+        "url": "https://www.nbc29.com/2026/10/22/subtropical-storm-josephine-develops-off-east-coast",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-ef500a86-6e04-5fcb-9484-ef6ef13267c9",
+        "title": "Turkey to buy Eurofighter Typhoon jets from Qatar, waiting for sale contract | The Jerusalem Post",
+        "description": "Under the deal with Britain, Qatar and Oman can supply Turkey with some of its own Typhoons, though that requires a separate sales contract.",
+        "publisher": "Jpost",
+        "publisherDomain": "jpost.com",
+        "publishedAt": "2026-10-22T10:26:21.000Z",
+        "url": "https://www.jpost.com/middle-east/article-912547",
+        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/743110",
         "categories": [
           "Top",
           "World"
@@ -504,467 +690,510 @@
     ],
     "Business": [
       {
-        "id": "currents-b09ce3e1-be93-56cd-beb4-9c289c6389a7",
-        "title": "EU energy measures fall short of tackling high prices, warns Cypriot expert",
-        "description": "European Union leaders have correctly identified high energy prices as a threat to households, industry and the wider economy, but their proposed response remains inadequate, energy systems expert Andreas Poullikkas has warned. Writing after the EU summit held on October 15-16, the former Cyprus Ene...",
-        "publisher": "Cyprus Mail",
-        "publisherDomain": "cyprus-mail.com",
-        "publishedAt": "2026-10-22T05:00:00.000Z",
-        "url": "https://cyprus-mail.com/2026/10/22/eu-energy-measures-fall-short-of-tackling-high-prices-warns-cypriot-expert",
-        "imageUrl": "https://cyprus-mail.com/wp-content/uploads/2025/08/energy-grid-electricity-electric-EAC.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-b9a59b32-abce-541d-b5a4-897a6790c8d5",
-        "title": "Nokia reports 9% Q3 sales growth, raises restructuring costs By Investing.com",
-        "description": "Nokia reports 9% Q3 sales growth, raises restructuring costs",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-10-22T05:02:51.000Z",
-        "url": "https://www.investing.com/news/company-news/nokia-reports-9-q3-sales-growth-raises-restructuring-costs-93CH-4964614",
-        "imageUrl": "https://content-media.investing.com/news/LYNXMPEM3E1BM_1200_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-095f0008-bc11-5c75-bbb8-2c060868231e",
-        "title": "Nokia Corporation Interim Report for Q3 2026",
-        "description": "Nokia CorporationInterim report22 October 2026 at 08:00 EEST Nokia Corporation Interim Report for Q3 2026 Nokia delivers strong net sales and profit...",
-        "publisher": "Globenewswire",
-        "publisherDomain": "globenewswire.com",
-        "publishedAt": "2026-10-22T05:00:00.000Z",
-        "url": "https://www.globenewswire.com/news-release/2026/10/22/3386019/0/en/nokia-corporation-interim-report-for-q3-2026.html",
-        "imageUrl": "https://ml-eu.globenewswire.com/Resource/Download/e6523d78-c43a-4057-8aa9-68206d3af4a8",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-967cf0a4-fa16-5e54-a367-2556191e3003",
-        "title": "China iron ore stoush puts Australian mines in the firing line",
-        "description": "One of Australia’s biggest mining companies warns deadlocked price talks with Beijing over iron ore prices may force production cuts by the year’s end.",
-        "publisher": "Theage",
-        "publisherDomain": "theage.com.au",
-        "publishedAt": "2026-10-22T04:59:51.000Z",
-        "url": "https://www.theage.com.au/business/companies/china-iron-ore-stoush-puts-australian-mines-in-the-firing-line-20261022-p617r1.html",
-        "imageUrl": "https://static.ffx.io/images/$zoom_0.2582%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/f00d46fb2c08c9ee76410b60b189882c02a22030",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-7ee5f424-5dbb-5e62-8e0f-76c1cc1bf818",
-        "title": "Elon Musk’s endorsement of SpaceX-Tesla merger sparks insider concerns- Reuters By Investing.com",
-        "description": "Elon Musk’s endorsement of SpaceX-Tesla merger sparks insider concerns- Reuters",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-10-22T04:52:16.000Z",
-        "url": "https://www.investing.com/news/stock-market-news/elon-musks-endorsement-of-spacextesla-merger-sparks-insider-concerns-reuters-4964613",
-        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM1A1H9_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-12df56bd-836a-5433-b33f-19dfb9446134",
-        "title": "Pharming Group announces third quarter 2026 revenues above market expectations",
-        "description": "Pharming announces preliminary, unaudited revenue and select financial information for Q3 2026 & full results brought forward to October 27, 2026....",
-        "publisher": "Globenewswire",
-        "publisherDomain": "globenewswire.com",
-        "publishedAt": "2026-10-22T05:00:00.000Z",
-        "url": "https://www.globenewswire.com/news-release/2026/10/22/3386017/0/en/pharming-group-announces-third-quarter-2026-revenues-above-market-expectations.html",
-        "imageUrl": "https://ml-eu.globenewswire.com/Resource/Download/f164672f-d67c-41d2-9c79-46caee419077",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-1d9364ad-c597-509c-9db7-61dfc6728238",
-        "title": "Ipsen delivers outstanding sales growth in the first nine months of 2026 and further upgrades its full-year guidance",
-        "description": "Year-to-date total sales growth of 24.6% at CER1, or 23.0% as reported, with the core portfolio2 achieving sales growth of 24.2%1 Further upgraded FY 2026...",
-        "publisher": "Globenewswire",
-        "publisherDomain": "globenewswire.com",
-        "publishedAt": "2026-10-22T05:00:00.000Z",
-        "url": "https://www.globenewswire.com/news-release/2026/10/22/3386012/0/en/ipsen-delivers-outstanding-sales-growth-in-the-first-nine-months-of-2026-and-further-upgrades-its-full-year-guidance.html",
-        "imageUrl": "https://ml-eu.globenewswire.com/Resource/Download/81292fcc-6b3a-4e4a-a083-ea4191bf920a",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-d3d7b80d-54c2-53ec-a1a8-b3ebe3470da6",
-        "title": "Nexans selected as Preferred Supplier for Strategic Mallorca-Menorca Power Cable Project with Red Eléctrica",
-        "description": "Nexans selected as Preferred Supplier for Strategic Mallorca-Menorca Power Cable Project with Red Eléctrica _PRESS RELEASE_ Preferred Supplier with...",
-        "publisher": "Globenewswire",
-        "publisherDomain": "globenewswire.com",
-        "publishedAt": "2026-10-22T05:00:00.000Z",
-        "url": "https://www.globenewswire.com/news-release/2026/10/22/3386011/0/en/nexans-selected-as-preferred-supplier-for-strategic-mallorca-menorca-power-cable-project-with-red-el%C3%A9ctrica.html",
-        "imageUrl": "https://ml-eu.globenewswire.com/Resource/Download/6992f746-d04a-47c1-ab56-c4f47722dd9a",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-f8ca8a8b-f2cf-5f94-8b16-83825a7bb786",
-        "title": "After a record first half, Kinepolis strengthens its lead in the third quarter",
-        "description": "After a record first half, Kinepolis strengthens its lead in the third quarter Regulated information 22 October 2026, 07:00 CET Kinepolis delivered...",
-        "publisher": "Globenewswire",
-        "publisherDomain": "globenewswire.com",
-        "publishedAt": "2026-10-22T05:00:00.000Z",
-        "url": "https://www.globenewswire.com/news-release/2026/10/22/3386016/0/en/after-a-record-first-half-kinepolis-strengthens-its-lead-in-the-third-quarter.html",
-        "imageUrl": "https://ml-eu.globenewswire.com/Resource/Download/c01cef56-8eea-4c0e-9dbd-f087dc0843aa",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-4f3d0bc3-f2af-53b1-b775-8eb525d07e53",
-        "title": "Thailand, Malaysia urge citizens to avoid protest-hit EU nations",
-        "description": "Thailand and Malaysia have advised their citizens to reconsider travel to Europe due to ongoing protests. The Thai Foreign Minister highlighted concerns regarding unrest in France, Italy, Spain, and other countries. As demonstrations against the cost of living continue, safety is a major priority fo...",
+        "id": "currents-01a0db10-384b-54b7-b6bc-34a29cc8fa45",
+        "title": "‘Next 30 years, you won’t get a chance’: HM Amit Shah hits at Rahul Gandhi, Kejriwal over protests",
+        "description": "Union Home Minister Amit Shah launched a sharp attack on Rahul Gandhi and the Congress over their ‘vote chori’ allegations and protests against the Election Commission. Citing election results in several states, Shah accused the Opposition of questioning electoral institutions selectively when it lo...",
         "publisher": "Indiatimes",
         "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-10-22T04:58:03.000Z",
-        "url": "https://economictimes.indiatimes.com/news/international/world-news/thailand-malaysia-urge-citizens-to-avoid-protest-hit-eu-nations/articleshow/135107729.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-135107896,width-1200,height-900,imgsize-96176,overlay-economictimes/articleshow.jpg",
+        "publishedAt": "2026-10-22T10:12:45.000Z",
+        "url": "https://economictimes.indiatimes.com/news/india/next-30-years-you-wont-get-a-chance-hm-amit-shah-hits-at-rahul-gandhi-kejriwal-over-protests/videoshow/135115682.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-135115682,width-1200,height-900,overlay-economictimes/news/india/next-30-years-you-wont-get-a-chance-hm-amit-shah-hits-at-rahul-gandhi-kejriwal-over-protests.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-823174a8-cd10-522b-97ce-a71f96df5b7f",
-        "title": "92% of Bitcoin liquidations were shorts: What happens when the squeeze ends?",
-        "description": "Bitcoin and Ethereum rise on tech optimism and short squeezes, but Fed policy and spot demand will determine if gains last",
-        "publisher": "E27",
-        "publisherDomain": "e27.co",
-        "publishedAt": "2026-10-22T04:48:10.000Z",
-        "url": "https://e27.co/92-of-bitcoin-liquidations-were-shorts-what-happens-when-the-squeeze-ends-20261022",
-        "imageUrl": "https://e27.co/wp-content/uploads/2026/10/e27-20.png",
+        "id": "currents-340c6c40-11eb-59f3-84d0-c765a9adc60d",
+        "title": "Troops Foil Terrorists’ Movement, Rescue Four Kidnap Victims In North-West",
+        "description": "Troops of Operation Fansan Yamma have rescued four kidnapped persons during separate security operations in Zamfara and Kebbi states as the military steps",
+        "publisher": "Naijanews",
+        "publisherDomain": "naijanews.com",
+        "publishedAt": "2026-10-22T10:12:13.000Z",
+        "url": "https://www.naijanews.com/2026/10/22/troops-foil-terrorists-movement-rescue-kidnap-victims",
+        "imageUrl": "https://www.naijanews.com/wp-content/uploads/2026/10/file_000000000fd08210bcfd4bb2ec210e40-1024x576.png",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-a192d838-d540-5cde-873a-5be2b357f4d6",
-        "title": "3 Reasons Why St. Louis Winning The US Open Cup Really Matters",
-        "description": "The U.S. Open Cup has weathered some rough recent years, but it still matters profoundly to the nation's soccer history, and to St. Louis as a city.",
-        "publisher": "Forbes",
-        "publisherDomain": "forbes.com",
-        "publishedAt": "2026-10-22T04:53:22.000Z",
-        "url": "https://www.forbes.com/sites/ianquillen/2026/10/22/3-reasons-why-st-louis-winning-the-us-open-cup-really-matters",
+        "id": "currents-91632560-07e6-5d9e-b2c3-858b5cd7a947",
+        "title": "Liberty Energy Inc. Reports Third Quarter 2026 Results and 1.2 GW Power Agreement",
+        "description": "Liberty Energy Inc. reported its third quarter 2026 financial results, featuring revenue of $1.2 billion, representing a 26% year-over-year increase from $0.9 billion in the third quarter of 2025. The company recorded a net loss of $39 million, or $(0.24) fully diluted earnings p",
+        "publisher": "Nasdaq",
+        "publisherDomain": "nasdaq.com",
+        "publishedAt": "2026-10-22T10:21:54.000Z",
+        "url": "https://www.nasdaq.com/articles/liberty-energy-inc-reports-third-quarter-2026-results-and-12-gw-power-agreement",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-dead810b-c52e-5c9a-88d2-997d6bf2cc7d",
-        "title": "Nexans 9M 2026: Exceptionally high momentum in PWR-Grid and PWR-Connect, PWR-Transmission continued growth normalization, 2026 guidance confirmed",
-        "description": "9M 2026 financial informationExceptionally high momentum in PWR-Grid and PWR-ConnectPWR-Transmission continued growth normalization while margin will...",
+        "id": "currents-51918ceb-d840-5f36-b086-0dfbef8f1a37",
+        "title": "DOF eyes general tax amnesty bill by year-end",
+        "description": "MANILA, Philippines — The Department of Finance (DOF) is hoping to file the long-delayed general tax amnesty program in Congress by the end of the year, according to Finance Undersecretary Rolando Ligon. “We are fine-tuning the draft. We still need more information to ensure the amnesty is successfu...",
+        "publisher": "Inquirer",
+        "publisherDomain": "business.inquirer.net",
+        "publishedAt": "2026-10-22T10:13:07.000Z",
+        "url": "https://business.inquirer.net/617337/dof-eyes-general-tax-amnesty-bill-by-year-end",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-5a276275-6920-53db-a6e5-af9f95b94c5f",
+        "title": "'It Is Not Compulsory For Tinubu To Campaign In 36 States - Otubanjo",
+        "description": "A Research Professor at the Nigerian Institute of International Affairs, Femi Otubanjo, has argued that President Bola Tinubu does not need to take his",
+        "publisher": "Naijanews",
+        "publisherDomain": "naijanews.com",
+        "publishedAt": "2026-10-22T10:11:27.000Z",
+        "url": "https://www.naijanews.com/2026/10/22/tinubu-campaign-36-states",
+        "imageUrl": "https://www.naijanews.com/wp-content/uploads/2026/10/President-Bola-Tinubu.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-341719fe-07d2-56bf-8c38-8c2cbbf48f0f",
+        "title": "Fixing of coupon rates - Nykredit Realkredit A/S",
+        "description": "To Nasdaq Copenhagen 22 October 2026 FIXING OF COUPON RATES Fixing of coupon rates effective from 26 October 2026 Effective from 26 October...",
         "publisher": "Globenewswire",
         "publisherDomain": "globenewswire.com",
-        "publishedAt": "2026-10-22T05:00:00.000Z",
-        "url": "https://www.globenewswire.com/news-release/2026/10/22/3386015/0/en/nexans-9m-2026-exceptionally-high-momentum-in-pwr-grid-and-pwr-connect-pwr-transmission-continued-growth-normalization-2026-guidance-confirmed.html",
-        "imageUrl": "https://ml-eu.globenewswire.com/Resource/Download/6992f746-d04a-47c1-ab56-c4f47722dd9a",
+        "publishedAt": "2026-10-22T10:20:00.000Z",
+        "url": "https://www.globenewswire.com/news-release/2026/10/22/3386138/0/en/fixing-of-coupon-rates-nykredit-realkredit-a-s.html",
+        "imageUrl": "https://ml-eu.globenewswire.com/Resource/Download/8d4b6c95-67cf-4128-bde2-9c93a0f894ca",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-bd6bbf67-94ad-5fdd-a191-c7f1a154cd39",
-        "title": "What to know about the Ebola outbreak that has spread from Congo to 4 other countries",
-        "description": "The Ebola outbreak from Congo has now spread to Nigeria, Uganda, and Kenya, raising urgent health concerns. Nigeria confirmed a case involving a woman who arrived from Uganda, and contact tracing is ongoing. Uganda previously reported an outbreak after Congolese patients crossed the border for treat...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-10-22T04:50:00.000Z",
-        "url": "https://economictimes.indiatimes.com/news/international/world-news/what-to-know-about-the-ebola-outbreak-that-has-spread-from-congo-to-4-other-countries/articleshow/135107601.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-135107642,width-1200,height-900,imgsize-98522,overlay-economictimes/articleshow.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-0b55fe7c-ad87-55e2-b4db-64a6fdf5dfbf",
-        "title": "Garena Free Fire MAX Redeem codes today, October 22, 2026: Check full list of codes, free rewards and how to redeem",
-        "description": "On October 22, 2026, Garena Free Fire MAX will release exclusive redeem codes for Indian players. These codes present a chance to snag valuable in-game items, including diamonds and weapon skins. Given their limited nature and potential expiration, players are urged to act quickly. To redeem, simply...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-10-22T04:48:31.000Z",
-        "url": "https://economictimes.indiatimes.com/news/new-updates/garena-free-fire-max-redeem-codes-today-october-22-2026-check-full-list-of-codes-free-rewards-and-how-to-redeem/articleshow/135107458.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-135107529,width-1200,height-900,imgsize-74980,overlay-economictimes/articleshow.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-1bc3d886-77e8-5971-8b61-a7ff0ee62067",
-        "title": "TGS Announces Q3 2026 Results",
-        "description": "OSLO, Norway (22 October 2026) - TGS today reports interim financial results for Q3 2026. Financial highlights: Revenues of USD 397 million driven by...",
+        "id": "currents-83e2920b-9d12-5718-aea4-461da42acb4d",
+        "title": "T1 Receives Commerce Department Polysilicon 232 Waiver",
+        "description": "T1 received a waiver from the Department of Commerce that supports our advanced photovoltaic module manufacturing activities....",
         "publisher": "Globenewswire",
         "publisherDomain": "globenewswire.com",
-        "publishedAt": "2026-10-22T05:00:00.000Z",
-        "url": "https://www.globenewswire.com/news-release/2026/10/22/3386018/0/en/tgs-announces-q3-2026-results.html",
-        "imageUrl": "https://ml-eu.globenewswire.com/Resource/Download/66573019-8d32-4f77-9496-1ca286cb2626",
+        "publishedAt": "2026-10-22T10:20:00.000Z",
+        "url": "https://www.globenewswire.com/news-release/2026/10/22/3386137/0/en/t1-receives-commerce-department-polysilicon-232-waiver.html",
+        "imageUrl": "https://ml.globenewswire.com/Resource/Download/61a8520f-2b43-4454-9dcd-641d24495c1c",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-488366a5-aba3-58ed-8df0-70b139254c93",
+        "title": "FirstCash Non-GAAP EPS of $2.68 beats by $0.05, revenue of $1.1B beats by $30M (FCFS:NASDAQ)",
+        "description": "FirstCash Q3 earnings beat estimates with 17.6% revenue growth and strong pawn segment gains.",
+        "publisher": "Seekingalpha",
+        "publisherDomain": "seekingalpha.com",
+        "publishedAt": "2026-10-22T10:17:08.000Z",
+        "url": "https://seekingalpha.com/news/4655771-firstcash-non-gaap-eps-of-2_68-beats-by-0_05-revenue-of-1_1b-beats-by-30m?feed_item_type=news",
+        "imageUrl": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-111cdaee-d523-5548-9128-550877b454fe",
+        "title": "PG&E misses Q3 street views, maintains outlook (PCG:NYSE)",
+        "description": "PG&E Q3 earnings missed on EPS and revenue, but 2026 and 2027 guidance was maintained.",
+        "publisher": "Seekingalpha",
+        "publisherDomain": "seekingalpha.com",
+        "publishedAt": "2026-10-22T10:12:06.000Z",
+        "url": "https://seekingalpha.com/news/4655770-pge-misses-q3-street-views-maintains-outlook",
+        "imageUrl": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-e9e44b0c-bc1e-5164-bda5-4602ad867a37",
+        "title": "TruGolf Holdings, Inc. Believes It Regained Compliance with Nasdaq Stockholders' Equity Requirement",
+        "description": "TruGolf Holdings, Inc. announced that it believes it has regained compliance with the Nasdaq minimum stockholders' equity requirement of at least $2,500,000. The company had previously received a written notification from Nasdaq on August 21, 2026, stating that its stockholders'",
+        "publisher": "Nasdaq",
+        "publisherDomain": "nasdaq.com",
+        "publishedAt": "2026-10-22T10:21:55.000Z",
+        "url": "https://www.nasdaq.com/articles/trugolf-holdings-inc-believes-it-regained-compliance-nasdaq-stockholders-equity",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-e015f182-1e2e-5994-86b0-f03ca544356f",
+        "title": "Opendoor Technologies Inc. Appoints Kaz Nejatian, 44, as President; Lucas Matheson Steps Down",
+        "description": "Opendoor Technologies Inc. announced that Lucas Matheson stepped down as the Company’s President, effective October 21, 2026. In connection with this transition, Mr. Matheson and the Company executed a transition agreement dated October 21, 2026. Under the agreement, Mr. Ma",
+        "publisher": "Nasdaq",
+        "publisherDomain": "nasdaq.com",
+        "publishedAt": "2026-10-22T10:21:54.000Z",
+        "url": "https://www.nasdaq.com/articles/opendoor-technologies-inc-appoints-kaz-nejatian-44-president-lucas-matheson-steps-down",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-c3d6fd5f-9db4-5604-8591-25625766af21",
+        "title": "FirstCash raises dividend by 10% to $0.46",
+        "description": "FirstCash raises dividend by 10% to $0.46",
+        "publisher": "Seekingalpha",
+        "publisherDomain": "seekingalpha.com",
+        "publishedAt": "2026-10-22T10:19:00.000Z",
+        "url": "https://seekingalpha.com/news/4655773-firstcash-raises-dividend-by-10-to-046?feed_item_type=news",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-3d0819b6-3fcb-5b7c-b55f-e23c00f7a78a",
+        "title": "[02429.HK] Next Day Disclosure...",
+        "description": "Next Day Disclosure Return (Equity issuer - changes in issued shares or treasury shares, share buybacks and/or on-market sales of treasury shares) Instrument: Equity issuer Status: New Submission Name of Issuer: Beijing UBOX Online Technology Corp. (a joint stock company incorporated in the Peopl...",
+        "publisher": "Hkexnews",
+        "publisherDomain": "www1.hkexnews.hk",
+        "publishedAt": "2026-10-22T10:22:00.000Z",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1022/2026102201001.pdf",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-2fb558dc-c7a8-519e-a4ac-8d53156a942c",
+        "title": "John Anderson, Country Music Hall of Famer, net worth: How ‘Swingin’’ and ‘Seminole wind’ artist built his $7 million fortune",
+        "description": "Country Music Hall of Famer John Anderson, best known for hits like “Swingin” and “Seminole Wind,” has died at 71. With an estimated net worth of $7 million, Anderson built his fortune through hit albums, music royalties, live performances and a career spanning four decades. John Andersons hit album...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-10-22T10:14:17.000Z",
+        "url": "https://economictimes.indiatimes.com/news/international/world-news/john-anderson-country-music-hall-of-famer-net-worth-how-swingin-and-seminole-wind-artist-built-his-7-million-fortune/articleshow/135115577.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-135115577,width-1200,height-900,imgsize-109552,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-7bd0c937-5dec-5eff-836d-bf688e8ec4d7",
+        "title": "Prabhas Rs 60 crore Hyderabad villa: Inside ‘Baahubali’ star’s luxurious Jubilee Hills home with grand staircase, modern interiors and lush greenery",
+        "description": "Prabhas, the renowned Telugu actor, lives in a stunning villa situated in the Jubilee Hills area of Hyderabad, valued at around Rs 60 crore. The residence boasts contemporary architecture with refined interiors, including a spacious living room and an impressive spiral staircase adorned with exquisi...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-10-22T10:12:31.000Z",
+        "url": "https://economictimes.indiatimes.com/news/new-updates/prabhas-rs-60-crore-hyderabad-villa-inside-baahubali-stars-luxurious-jubilee-hills-home-with-grand-staircase-modern-interiors-and-lush-greenery/articleshow/135115157.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-135115612,width-1200,height-900,imgsize-1091706,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-fcd135e3-45cf-56ee-97e6-871a1280ebc8",
+        "title": "[00086.HK] Next Day Disclosure...",
+        "description": "Next Day Disclosure Return (Equity issuer - changes in issued shares or treasury shares, share buybacks and/or on-market sales of treasury shares) FF305 Instrument: Equity issuer Name of Issuer: Sun Hung Kai & Co. Limited Date Submitted: 22 October 2026 Status: New Submission Section I must be co...",
+        "publisher": "Hkexnews",
+        "publisherDomain": "www1.hkexnews.hk",
+        "publishedAt": "2026-10-22T10:21:00.000Z",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1022/2026102200995.pdf",
         "categories": [
           "Top",
           "Business"
         ]
       }
     ],
-    "Technology": [],
+    "Technology": [
+      {
+        "id": "currents-5debdd3c-25fe-5f85-84d1-6734364f3752",
+        "title": "Heatwave-induced capacity bottlenecks in European electricity grids - Nature Energy",
+        "description": "This study models how heatwaves raise demand and reduce generation and transmission capacity across Western European power grids, showing how heatwaves can expose bottlenecks that simplified models may miss and providing a basis for resilience planning.",
+        "publisher": "Nature",
+        "publisherDomain": "nature.com",
+        "publishedAt": "2026-10-22T10:27:37.000Z",
+        "url": "https://www.nature.com/articles/s41560-026-02151-1",
+        "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41560-026-02151-1/MediaObjects/41560_2026_2151_Fig1_HTML.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-87a0660e-6f12-576e-a7eb-4becf3fcc742",
+        "title": "Brotli on NGINX thread pools: ngx_mbrotli vs ngx_brotli",
+        "description": "On-the-fly Brotli blocks the NGINX event loop. ngx_mbrotli on a thread pool against google/ngx_brotli: p99 latency, requests per second, CPU time and memory.",
+        "publisher": "Github",
+        "publisherDomain": "m-compressors.github.io",
+        "publishedAt": "2026-10-22T10:22:17.000Z",
+        "url": "https://m-compressors.github.io/2026/ngx-mbrotli-thread-pool-benchmarks",
+        "imageUrl": "https://m-compressors.github.io/assets/img/og.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-186405c9-a2d7-5f4b-bae0-604ef7540966",
+        "title": "github-repo-mcp: letting an AI explore any GitHub repo without cloning it by hand",
+        "description": "A small MCP server that clones, maps, searches and reads any repository on demand, with a local cache and a symbol map built with tree-sitter.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-22T10:17:17.000Z",
+        "url": "https://dev.to/haideraniq/github-repo-mcp-letting-an-ai-explore-any-github-repo-without-cloning-it-by-hand-n2d",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Faniq-haider.vercel.app%2Fblog%2Fgithub-repo-mcp%2Fopengraph-image",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-048f3bae-4e96-5dbd-8bb8-c64eb0e2a9f6",
+        "title": "Continue your chat in another AI",
+        "description": "Ran out of free messages? Paste your conversation, get a ready-made handoff message and open it in another AI chat. Everything stays in your browser.",
+        "publisher": "Aifreetoday",
+        "publisherDomain": "aifreetoday.com",
+        "publishedAt": "2026-10-22T10:16:35.000Z",
+        "url": "https://aifreetoday.com/us/transfer-chat",
+        "imageUrl": "https://aifreetoday.com/og/base_hu_d73efaf170a42fdc.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-12b83b29-3888-519c-a11b-d1e1a1c978c1",
+        "title": "Keratin 9 regulates mechanosensitive YAP1 signalling in palmoplantar epidermis - Nature Cell Biology",
+        "description": "Steiner et al. propose that keratin 9 (K9) interacts with 14-3-3, sequestering YAP1 in the cytoplasm and inhibiting YAP1 activity. They identify dysregulated YAP in palmoplantar keratinization diseases, with K9 as a downstream regulator of YAP.",
+        "publisher": "Nature",
+        "publisherDomain": "nature.com",
+        "publishedAt": "2026-10-22T10:16:57.000Z",
+        "url": "https://www.nature.com/articles/s41556-026-02087-4",
+        "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41556-026-02087-4/MediaObjects/41556_2026_2087_Fig1_HTML.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-771f124d-7d91-5686-8dce-000b3c4cd537",
+        "title": "Steroid hormones produced by coral-associated Endozoicomonas influence coral immune response during thermal stress - Nature Microbiology",
+        "description": "Multi-omics and laboratory experiments reveal that a coral-associated bacterium can produce testosterone and progesterone; these two hormones alter the coral host’s innate immune responses during thermal stress.",
+        "publisher": "Nature",
+        "publisherDomain": "nature.com",
+        "publishedAt": "2026-10-22T10:18:41.000Z",
+        "url": "https://www.nature.com/articles/s41564-026-02494-1",
+        "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41564-026-02494-1/MediaObjects/41564_2026_2494_Fig1_HTML.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-d5c4ca2e-aed4-514e-b5f2-d60662b06cfd",
+        "title": "A multi-agent pipeline that clones live sites into production components",
+        "description": "Five specialised agents turn a URL or a Figma frame into reviewed, build-verified UI, one section at a time, and learn from every run.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-22T10:16:55.000Z",
+        "url": "https://dev.to/haideraniq/a-multi-agent-pipeline-that-clones-live-sites-into-production-components-343i",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Faniq-haider.vercel.app%2Fblog%2Fagent-cloning-pipeline%2Fopengraph-image",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-8601944b-92f3-5bf0-932b-e8e734cb61b2",
+        "title": "Why Your OAuth Integration Will Fail at 3 AM (And How to Fix It Before It Does)",
+        "description": "Authentication is easy. Surviving rate limits, network partitions, and thundering herds after login? That's the hard part. Here's the production architecture.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-22T10:16:12.000Z",
+        "url": "https://dev.to/sophia_nord/why-your-oauth-integration-will-fail-at-3-am-and-how-to-fix-it-before-it-does-22i9",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fopengraph.githubassets.com%2F1%2FNoeFabris%2Fopencode-antigravity-auth",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-50ca9b1b-f064-56ae-b626-192ebcbe06d6",
+        "title": "iPhone charges TOO slow",
+        "description": "It started a few days ago. Sometimes the battery was running out while being charged and only started to charge after reaching 1%. It charges only around 50% over night. The battery is in perfect condition, my phone is relatively new and I tried all the basics things like different charger, differen...",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-10-22T10:24:30.000Z",
+        "url": "https://www.reddit.com/r/iphone/comments/1xcetge/iphone_charges_too_slow",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      }
+    ],
     "Science": [
       {
-        "id": "currents-69f9a2d1-4a71-5e79-a8be-7058e962400b",
-        "title": "Veteran deployed burn pits exposure: headache phenotypes, trajectories, and outcomes: a mixed-methods evaluation",
-        "description": "BackgroundExposure to open burn pit smoke and fumes during military service has been associated with a range of chronic health conditions. Little is known ab...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:26.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1899580/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
+        "id": "currents-5debdd3c-25fe-5f85-84d1-6734364f3752",
+        "title": "Heatwave-induced capacity bottlenecks in European electricity grids - Nature Energy",
+        "description": "This study models how heatwaves raise demand and reduce generation and transmission capacity across Western European power grids, showing how heatwaves can expose bottlenecks that simplified models may miss and providing a basis for resilience planning.",
+        "publisher": "Nature",
+        "publisherDomain": "nature.com",
+        "publishedAt": "2026-10-22T10:27:37.000Z",
+        "url": "https://www.nature.com/articles/s41560-026-02151-1",
+        "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41560-026-02151-1/MediaObjects/41560_2026_2151_Fig1_HTML.png",
         "categories": [
           "Top",
+          "Technology",
           "Science",
           "U.S."
         ]
       },
       {
-        "id": "currents-7c68e472-af52-566b-a359-bb7e72d45781",
-        "title": "Intranasal CBT101 demonstrates favorable safety and neurophysiological evidence of central activity in healthy male volunteers",
-        "description": "ObjectivesCBT101 is a creatine prodrug under development for disorders driven by impaired neuronal energy homeostasis, with initial development focused on cr...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:24.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1940627/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
+        "id": "currents-87a0660e-6f12-576e-a7eb-4becf3fcc742",
+        "title": "Brotli on NGINX thread pools: ngx_mbrotli vs ngx_brotli",
+        "description": "On-the-fly Brotli blocks the NGINX event loop. ngx_mbrotli on a thread pool against google/ngx_brotli: p99 latency, requests per second, CPU time and memory.",
+        "publisher": "Github",
+        "publisherDomain": "m-compressors.github.io",
+        "publishedAt": "2026-10-22T10:22:17.000Z",
+        "url": "https://m-compressors.github.io/2026/ngx-mbrotli-thread-pool-benchmarks",
+        "imageUrl": "https://m-compressors.github.io/assets/img/og.png",
         "categories": [
           "Top",
-          "Science",
-          "U.S."
+          "U.S.",
+          "Technology",
+          "Science"
         ]
       },
       {
-        "id": "currents-c83a3d40-638b-52ab-9fde-f161dc23b692",
-        "title": "The association between body mass index and white matter hyperintensities: a cross-sectional analysis in a Tibetan population",
-        "description": "BackgroundWhite matter hyperintensities (WMH), an imaging hallmark of cerebral small vessel disease (CSVD), show inconsistent associations with body mass ind...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:29.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1805682/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
+        "id": "currents-186405c9-a2d7-5f4b-bae0-604ef7540966",
+        "title": "github-repo-mcp: letting an AI explore any GitHub repo without cloning it by hand",
+        "description": "A small MCP server that clones, maps, searches and reads any repository on demand, with a local cache and a symbol map built with tree-sitter.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-22T10:17:17.000Z",
+        "url": "https://dev.to/haideraniq/github-repo-mcp-letting-an-ai-explore-any-github-repo-without-cloning-it-by-hand-n2d",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Faniq-haider.vercel.app%2Fblog%2Fgithub-repo-mcp%2Fopengraph-image",
         "categories": [
           "Top",
-          "Science",
-          "U.S."
+          "U.S.",
+          "Technology",
+          "Science"
         ]
       },
       {
-        "id": "currents-4cbdfcd9-a00d-5f81-af0f-2fc50e7e3da1",
-        "title": "Diagnostic delay and predictors of true stroke among patients with suspected in-hospital stroke: a single-center retrospective study",
-        "description": "BackgroundTimely diagnosis is essential for acute treatment of in-hospital stroke. We aimed to investigate factors associated with diagnostic delay and clini...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:28.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1979991/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
+        "id": "currents-048f3bae-4e96-5dbd-8bb8-c64eb0e2a9f6",
+        "title": "Continue your chat in another AI",
+        "description": "Ran out of free messages? Paste your conversation, get a ready-made handoff message and open it in another AI chat. Everything stays in your browser.",
+        "publisher": "Aifreetoday",
+        "publisherDomain": "aifreetoday.com",
+        "publishedAt": "2026-10-22T10:16:35.000Z",
+        "url": "https://aifreetoday.com/us/transfer-chat",
+        "imageUrl": "https://aifreetoday.com/og/base_hu_d73efaf170a42fdc.jpg",
         "categories": [
           "Top",
-          "Science",
-          "U.S."
+          "U.S.",
+          "Technology",
+          "Science"
         ]
       },
       {
-        "id": "currents-99a8552b-382f-52d7-9e42-c2a7b4429f09",
-        "title": "Physical activity trajectories after mild ischemic stroke and their association with 6-month functional outcomes",
-        "description": "BackgroundWhether post-stroke physical activity (PA) patterns are associated with stroke prognosis remains unclear. We aimed to examine the association betwe...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:27.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1919846/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
+        "id": "currents-12b83b29-3888-519c-a11b-d1e1a1c978c1",
+        "title": "Keratin 9 regulates mechanosensitive YAP1 signalling in palmoplantar epidermis - Nature Cell Biology",
+        "description": "Steiner et al. propose that keratin 9 (K9) interacts with 14-3-3, sequestering YAP1 in the cytoplasm and inhibiting YAP1 activity. They identify dysregulated YAP in palmoplantar keratinization diseases, with K9 as a downstream regulator of YAP.",
+        "publisher": "Nature",
+        "publisherDomain": "nature.com",
+        "publishedAt": "2026-10-22T10:16:57.000Z",
+        "url": "https://www.nature.com/articles/s41556-026-02087-4",
+        "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41556-026-02087-4/MediaObjects/41556_2026_2087_Fig1_HTML.png",
         "categories": [
           "Top",
-          "Science",
-          "U.S."
+          "U.S.",
+          "Technology",
+          "Science"
         ]
       },
       {
-        "id": "currents-5319b3e2-12e6-59cd-902e-69685b79e0ea",
-        "title": "Trans-sinus fracture as the gatekeeper: a two-step clinical strategy to guide venous imaging in mild-to-moderate traumatic brain injury",
-        "description": "BackgroundTraumatic cerebral venous sinus thrombosis (tCVST) is an underrecognized complication of traumatic brain injury (TBI). Despite its potential for se...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:26.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1901656/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
+        "id": "currents-771f124d-7d91-5686-8dce-000b3c4cd537",
+        "title": "Steroid hormones produced by coral-associated Endozoicomonas influence coral immune response during thermal stress - Nature Microbiology",
+        "description": "Multi-omics and laboratory experiments reveal that a coral-associated bacterium can produce testosterone and progesterone; these two hormones alter the coral host’s innate immune responses during thermal stress.",
+        "publisher": "Nature",
+        "publisherDomain": "nature.com",
+        "publishedAt": "2026-10-22T10:18:41.000Z",
+        "url": "https://www.nature.com/articles/s41564-026-02494-1",
+        "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41564-026-02494-1/MediaObjects/41564_2026_2494_Fig1_HTML.png",
         "categories": [
           "Top",
-          "Science",
-          "U.S."
+          "U.S.",
+          "Technology",
+          "Science"
         ]
       },
       {
-        "id": "currents-5a764aff-879b-57d6-899b-7d9643388a9d",
-        "title": "Cerebellar lobular morphometry in trigeminal neuralgia: cross-sectional and exploratory postoperative analyses",
-        "description": "BackgroundCerebellar morphometric findings in trigeminal neuralgia (TN) are inconsistent, and lobular volume and cortical thickness are poorly characterized....",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:23.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1964745/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
+        "id": "currents-d5c4ca2e-aed4-514e-b5f2-d60662b06cfd",
+        "title": "A multi-agent pipeline that clones live sites into production components",
+        "description": "Five specialised agents turn a URL or a Figma frame into reviewed, build-verified UI, one section at a time, and learn from every run.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-22T10:16:55.000Z",
+        "url": "https://dev.to/haideraniq/a-multi-agent-pipeline-that-clones-live-sites-into-production-components-343i",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Faniq-haider.vercel.app%2Fblog%2Fagent-cloning-pipeline%2Fopengraph-image",
         "categories": [
           "Top",
-          "Science",
-          "U.S."
+          "U.S.",
+          "Technology",
+          "Science"
         ]
       },
       {
-        "id": "currents-3743487e-aa60-5e1d-9fee-5911d89a7160",
-        "title": "Artificial intelligence use patterns, attitudes, and psychological distress among medical students: a cross-sectional survey",
-        "description": "BackgroundArtificial intelligence (AI) tools are widely used by medical students, but associations of general use frequency and AI-related attitudes with psy...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:01.000Z",
-        "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1965749/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/3501F557-CAFA-4218-930C20D1D930C78C/F6FF788E-26D5-4BC5-8CB92EE85A59CA4A/WebsiteWebP_XL-FMED_Main%20Visual_Purple_Website.webp",
+        "id": "currents-8601944b-92f3-5bf0-932b-e8e734cb61b2",
+        "title": "Why Your OAuth Integration Will Fail at 3 AM (And How to Fix It Before It Does)",
+        "description": "Authentication is easy. Surviving rate limits, network partitions, and thundering herds after login? That's the hard part. Here's the production architecture.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-10-22T10:16:12.000Z",
+        "url": "https://dev.to/sophia_nord/why-your-oauth-integration-will-fail-at-3-am-and-how-to-fix-it-before-it-does-22i9",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fopengraph.githubassets.com%2F1%2FNoeFabris%2Fopencode-antigravity-auth",
         "categories": [
           "Top",
-          "Science",
-          "U.S."
+          "U.S.",
+          "Technology",
+          "Science"
         ]
       },
       {
-        "id": "currents-c2f5eebb-b3b7-5e5e-a90e-3f0c54fced45",
-        "title": "Possible severe piperacillin-tazobactam–associated drug-induced liver injury after re-exposure: a case report",
-        "description": "BackgroundDrug-induced liver injury (DILI) is an important cause of acute liver failure, and antimicrobial agents are among its most frequent causes. However...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:11:58.000Z",
-        "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1977830/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/3501F557-CAFA-4218-930C20D1D930C78C/F6FF788E-26D5-4BC5-8CB92EE85A59CA4A/WebsiteWebP_XL-FMED_Main%20Visual_Purple_Website.webp",
+        "id": "currents-50ca9b1b-f064-56ae-b626-192ebcbe06d6",
+        "title": "iPhone charges TOO slow",
+        "description": "It started a few days ago. Sometimes the battery was running out while being charged and only started to charge after reaching 1%. It charges only around 50% over night. The battery is in perfect condition, my phone is relatively new and I tried all the basics things like different charger, differen...",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-10-22T10:24:30.000Z",
+        "url": "https://www.reddit.com/r/iphone/comments/1xcetge/iphone_charges_too_slow",
         "categories": [
           "Top",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-5bcfad8a-ffc6-5ebf-b462-961e2d8e1352",
-        "title": "Medical AI: Are Osler's Principles Lost in Translation?",
-        "description": "Artificial intelligence (AI) is poised to transform clinical practice, but its adoption coincides with a longstanding decline in bedside medicine. Herein, we...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:11:57.000Z",
-        "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1991244/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/3501F557-CAFA-4218-930C20D1D930C78C/F6FF788E-26D5-4BC5-8CB92EE85A59CA4A/WebsiteWebP_XL-FMED_Main%20Visual_Purple_Website.webp",
-        "categories": [
-          "Top",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-49f31b49-50bc-583f-a408-1a55af132699",
-        "title": "Staphylococcus aureus-associated infected subclavian artery pseudoaneurysm treated with dual bare-metal stent implantation: a case report",
-        "description": "Infected subclavian artery aneurysms are exceedingly rare, life-threatening vascular lesions associated with high risks of rupture and mortality. We report a...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:15:52.000Z",
-        "url": "https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2026.1965965/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/0E097865-0E34-4E8F-84C1727DD698619A/41A3C274-4936-4899-BCC78909330BD4F9/WebsiteWebP_XL-FCVM_Main%20Visual_Red_Website.webp",
-        "categories": [
-          "Top",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-f370ccd9-6cf9-5492-a1ef-e5a2b0f7a57f",
-        "title": "Hereditary transthyretin amyloidosis in peripheral neuropathy: prevalence, clinical features, and neurology-based screening in non-endemic Japan",
-        "description": "IntroductionHereditary transthyretin amyloidosis (ATTRv) is a progressive, potentially fatal disease caused by pathogenic TTR variants. Although increasingly...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:31.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1955913/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
-        "categories": [
-          "Top",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-46d7757e-4fa7-5211-8fd0-ed98625b182f",
-        "title": "Feasibility of ultrasound-guided sacroiliac joint puncture in the treatment of inflammatory and osteoarthritis pain: a 11-years single-centre experience",
-        "description": "BackgroundSacroiliac joint inflammation is a key manifestation of spondyloarthritis; however, most sacroiliac pain arises from mechanical overload, which als...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:11:59.000Z",
-        "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1997507/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/3501F557-CAFA-4218-930C20D1D930C78C/F6FF788E-26D5-4BC5-8CB92EE85A59CA4A/WebsiteWebP_XL-FMED_Main%20Visual_Purple_Website.webp",
-        "categories": [
-          "Top",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-1f0b892f-66d8-5e31-b02f-f88826291884",
-        "title": "Glomerular TRPC5 and Palladin immunohistochemical profiling in focal segmental glomerulosclerosis: tissue heterogeneity and exploratory clinical associations (PRIME-PATH I)",
-        "description": "IntroductionFocal segmental glomerulosclerosis (FSGS) is a shared histopathologic pattern arising from biologically diverse podocyte injuries. Transient rece...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:11:56.000Z",
-        "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1924319/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/3501F557-CAFA-4218-930C20D1D930C78C/F6FF788E-26D5-4BC5-8CB92EE85A59CA4A/WebsiteWebP_XL-FMED_Main%20Visual_Purple_Website.webp",
-        "categories": [
-          "Top",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-b666740d-4a55-55f4-a8fc-a7be71ca971a",
-        "title": "Admission high-sensitivity cardiac troponin T and clinical outcomes after acute ischemic stroke: a retrospective cohort study with exploratory nonlinear analysis",
-        "description": "Background: Elevated high-sensitivity cardiac troponin T (hs-cTnT) is frequently observed in patients with acute ischemic stroke (AIS) and has been associate...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:30.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1882492/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
-        "categories": [
-          "Top",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-36daac73-867e-5d09-8488-e735e92da498",
-        "title": "Establishment of reference ranges for disturbance coefficient (DC) and edema coefficient (EC) in neonates: a non-invasive cerebral edema monitoring study",
-        "description": "ObjectiveTo establish reference ranges for the disturbance coefficient (DC) and edema coefficient (EC) in neonates without traumatic brain injury, based on h...",
-        "publisher": "Frontiers",
-        "publisherDomain": "frontiersin.org",
-        "publishedAt": "2026-10-22T05:12:23.000Z",
-        "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1712487/full",
-        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/D315ADB2-2967-48B6-BE3B61009343D69E/84855035-8C7E-4727-AB7CEC390287243C/WebsiteWebP_XL-FNEUR_Main%20Visual_Cyan_Website.webp",
-        "categories": [
-          "Top",
+          "Technology",
           "Science",
           "U.S."
         ]
@@ -972,211 +1201,210 @@
     ],
     "Sports": [
       {
-        "id": "currents-50ad3e73-d59f-519d-b988-113e3aa41270",
-        "title": "Rockets' Tari Eason ejected after shoving Mavericks' P.J. Washington in back",
-        "description": "Rockets reserve forward Tari Eason was ejected in the first quarter Wednesday night after shoving Mavericks forward P.J. Washington in the back.",
-        "publisher": "ESPN",
-        "publisherDomain": "espn.com",
-        "publishedAt": "2026-10-22T05:11:07.000Z",
-        "url": "https://www.espn.com/nba/story/_/id/50244737/rockets-tari-eason-ejected-shoving-mavericks-pj-washington-back",
-        "imageUrl": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1022%2Fr1734368_1296x729_16%2D9.jpg",
+        "id": "currents-1b4f8c01-2645-55f8-890c-077ed8966f59",
+        "title": "Spain cricket stadium targets Test cricket and IPL on ground with high-tech outfield",
+        "description": "The founder of a futuristic, environmentally sustainable cricket stadium being built in Spain wants it to host a Test match one day.",
+        "publisher": "BBC News",
+        "publisherDomain": "bbc.co.uk",
+        "publishedAt": "2026-10-22T10:12:00.000Z",
+        "url": "https://www.bbc.co.uk/sport/cricket/articles/ckr5ye4g7d9qo",
+        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/35fe/live/edc7cdf0-cd48-11f1-8177-0f8bd59b54c4.png",
         "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-4d17766c-02bc-5276-bdaa-a9dd126e1d59",
+        "title": "Takeaways from the Senate debate in Kansas, an unexpected midterm battleground",
+        "description": "Kansas voters have not elected a Democrat to the Senate since 1932, but the contest between Republican Sen. Roger Marshall and Democrat Adam ...",
+        "publisher": "The Washington Post",
+        "publisherDomain": "washingtonpost.com",
+        "publishedAt": "2026-10-22T10:12:04.000Z",
+        "url": "https://www.washingtonpost.com/politics/2026/10/21/takeaways-senate-debate-kansas-an-unexpected-midterm-battleground",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-2976bb0f-4182-5c2e-b282-fb7a3d7ac96e",
+        "title": "Some schools are banning caffeine pouches. Here's what parents and students should know",
+        "description": "Coffee, energy drinks and soda are not the only ways young people are getting their caffeine fix. Another product catching the attention of health experts, school officials and parents doesn’t come in a cup or a can. It comes in a pouch.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-10-22T10:01:55.000Z",
+        "url": "https://www.winnipegfreepress.com/arts-and-life/life/2026/10/22/some-schools-are-banning-caffeine-pouches-heres-what-parents-and-students-should-know",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ad9df0ce5889dc5adf4cee1jpeg.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-1b1b7792-495b-5bee-9a33-cec98236a3da",
+        "title": "Cardiff City dealt another Dylan Lawlor blow as full extent of injury emerges",
+        "description": "Cardiff City boss Brian Barry-Murphy confirms Dylan Lawlor's hamstring injury will keep him out until after the international break, with other squad boosts",
+        "publisher": "Walesonline",
+        "publisherDomain": "walesonline.co.uk",
+        "publishedAt": "2026-10-22T10:04:30.000Z",
+        "url": "https://www.walesonline.co.uk/sport/football/football-news/cardiff-city-dealt-another-dylan-34799920",
+        "imageUrl": "https://i2-prod.walesonline.co.uk/article34800162.ece/ALTERNATES/s1200d/0_JS421137878-1jp.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-1baedfa0-a0e4-566c-a7af-4a69fc857020",
+        "title": "Children's singer Raffi on his 50-year career, screen time and Ms. Rachel",
+        "description": "Fifty years ago, Raffi was a struggling folk singer driving across Toronto, lugging boxes containing his debut children’s album, “Singable Songs for the Very Young,” hoping to convince stores to sell the record.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-10-22T10:12:42.000Z",
+        "url": "https://www.winnipegfreepress.com/arts-and-life/entertainment/2026/10/22/childrens-singer-raffi-on-his-50-year-career-screen-time-and-ms-rachel",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ad9e18ee5889dc5adf4d14ejpeg.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-86c9f341-f18c-58e8-9c2a-6b9448a697d0",
+        "title": "Venezuela claims to have 300 billion barrels of oil in the ground. But experts say that's a stretch",
+        "description": "A single figure sets Venezuela apart from the rest of the world: 303 billion barrels of so-called proven oil reserves. But experts say the country",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-10-22T10:07:39.000Z",
+        "url": "https://www.winnipegfreepress.com/business/2026/10/22/venezuela-claims-to-have-300-billion-barrels-of-oil-in-the-ground-but-experts-say-thats-a-stretch",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ad9e063518184d5779c1766jpeg.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-08664a1c-cd49-5efd-b556-e7bc75c54452",
+        "title": "Voting-related measures on November ballots include a voter ID push targeting mail-in ballots",
+        "description": "Advocates for greater voter identification requirements are pursuing a new approach in some states: a mandate to place driver",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-10-22T10:04:46.000Z",
+        "url": "https://www.winnipegfreepress.com/world/2026/10/22/voting-related-measures-on-november-ballots-include-a-voter-id-push-targeting-mail-in-ballots",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ad9dfafe5889dc5adf4cfc9jpeg.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-d43f1ad7-cb7e-53b0-966e-13923c816674",
+        "title": "O'Brien's Futurity trio look to seal trainers' title",
+        "description": "Aidan O'Brien will saddle three of the seven runners in his pursuit of a 13th victory in the William Hill Futurity Trophy at Doncaster on Saturday.",
+        "publisher": "Rte",
+        "publisherDomain": "rte.ie",
+        "publishedAt": "2026-10-22T10:04:08.000Z",
+        "url": "https://www.rte.ie/sport/racing/2026/1022/1596429-obriens-futurity-trio-look-to-seal-trainers-title",
+        "imageUrl": "https://www.rte.ie/images/0025376b-1600.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-f0733b9c-c1d0-5482-aff7-600acea46417",
+        "title": "Jeffries says Democrats 'on the verge' of winning the House. It puts speaker's gavel in reach",
+        "description": "TOLEDO, Ohio (AP) — Democratic leader Hakeem Jeffries listened from the front row at the old Ohio church as the Sunday congregation heard of scripture’s guidance for calming a gathering storm.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-10-22T10:03:12.000Z",
+        "url": "https://www.winnipegfreepress.com/world/2026/10/22/jeffries-says-democrats-on-the-verge-of-winning-the-house-it-puts-speakers-gavel-in-reach",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ad9df55e5889dc5adf4cf52jpeg.jpg?w=1600",
+        "categories": [
+          "Sports",
           "Top",
           "U.S.",
-          "Sports"
+          "World"
         ]
       },
       {
-        "id": "currents-7f03df41-e741-521f-964d-668642bb4e39",
-        "title": "Mayor apologises after wrong anthems played at Asian Para Games after mishap-marred Asian Games",
-        "description": "The Asian Para Games is taking place in the central Japanese hub city through Oct 24. Read more at straitstimes.com.",
-        "publisher": "Straitstimes",
-        "publisherDomain": "straitstimes.com",
-        "publishedAt": "2026-10-22T05:04:00.000Z",
-        "url": "https://www.straitstimes.com/sport/mayor-apologises-after-wrong-anthems-played-at-asian-para-games-after-mishap-marred-asian-games",
-        "imageUrl": "https://cassette.sphdigital.com.sg/image/straitstimes/9c237c8c7e105110d6c92e9626134caaef055f68d3325f2954ed453e847c7a2a?w=1200",
+        "id": "currents-d38f1243-db1e-5dcf-bee7-3b3554613e82",
+        "title": "Sanju Samson goes 4,6,4 against Lockie Ferguson in 22-run over in NZ vs IND 2026 1st T20I [Watch]",
+        "description": "Team India opener Sanju Samson got off to a great start in the opening T20I against New Zealand. The Men in Blue will play the Kiwis in a five-match series.",
+        "publisher": "Sportskeeda",
+        "publisherDomain": "sportskeeda.com",
+        "publishedAt": "2026-10-22T10:00:47.000Z",
+        "url": "https://www.sportskeeda.com/cricket/news-sanju-samson-goes-4-6-4-lockie-ferguson-22-run-nz-vs-ind-2026-1st-t20i-watch",
+        "imageUrl": "https://staticg.sportskeeda.com/editor/2026/10/f4b30-17926625652026-1920.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-97f186b0-397a-5bd9-8867-714b819756d1",
-        "title": "Eustace mulls Lightning Stakes aim with Colourful King ahead of key Sha Tin test",
-        "description": "David Eustace is plotting a path towards the Group One Lightning Stakes (1,000m) at Flemington and Royal Ascot with super sprinter Colourful King, with his run at Sha Tin on Sunday being a fork in the road in terms of seasonal plans....",
+        "id": "currents-e1ce6931-0ad7-5932-9075-380c6cc2f6b6",
+        "title": "Hayes plans to tinker with winkers in Ka Ying’s Everest redemption bid",
+        "description": "Still hurting from Ka Ying Rising’s agonisingly close The Everest defeat, David Hayes has flagged a gear change for the champion sprinter’s bid for redemption in the world’s richest turf race next year....",
         "publisher": "Scmp",
         "publisherDomain": "scmp.com",
-        "publishedAt": "2026-10-22T05:02:08.000Z",
-        "url": "https://www.scmp.com/sport/racing/article/3371737/david-eustace-mulls-lightning-stakes-aim-colourful-king-ahead-key-sha-tin-test",
-        "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/10/22/9151224f-e083-419f-838b-be9a947b9284_4168adc4.jpg?itok=6Mw6aRDT&v=1792645320",
+        "publishedAt": "2026-10-22T10:00:12.000Z",
+        "url": "https://www.scmp.com/sport/racing/article/3371745/david-hayes-plans-tinker-winkers-ka-ying-risings-everest-redemption-bid",
+        "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/10/22/ffbf1de0-624c-4760-88af-321901dd5d13_9b85005b.jpg?itok=OuD3fg1Z&v=1792646165",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-bf029868-5e4b-596f-94a5-5e982644950b",
-        "title": "New documentary claims Zimbabwe govt cash may have been used to fund UVF weapons",
-        "description": "The documentary examines links between Turning Point UK, the far right and loyalist paramilitaries",
-        "publisher": "Belfastlive",
-        "publisherDomain": "belfastlive.co.uk",
-        "publishedAt": "2026-10-22T05:00:00.000Z",
-        "url": "https://www.belfastlive.co.uk/news/northern-ireland/new-documentary-claims-zimbabwe-government-34798306",
-        "imageUrl": "https://i2-prod.belfastlive.co.uk/article34798308.ece/ALTERNATES/s1200d/0_IRC-report-on-Paramilitarism.jpg",
+        "id": "currents-3af99855-1c48-58da-a8ab-9f3dabe2604e",
+        "title": "The long history of runners taking shortcuts in the marathon",
+        "description": "There is an extensive track record of men and women somehow cheating their way to the finish line",
+        "publisher": "Irishtimes",
+        "publisherDomain": "irishtimes.com",
+        "publishedAt": "2026-10-22T10:00:00.000Z",
+        "url": "https://www.irishtimes.com/sport/athletics/2026/10/22/the-long-history-of-runners-taking-short-cuts-in-the-marathon",
+        "imageUrl": "https://www.irishtimes.com/resizer/v2/NLLFMQPSANDFBJM7P3SG73OIAA.jpg?smart=true&auth=d0ed2a124a4d64069d359a3d1733c3f7e11f0f7db1584efa71fc4607c01a1364&width=1200&height=630",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-2e900bc8-470a-51db-ac08-9d83f73a3c52",
-        "title": "Kawhi Leonard scores 23 points in Toronto return as Raptors rout Bulls",
-        "description": "Kawhi Leonard scored 23 points in his return to Toronto as the Raptors routed the Bulls 135-92 in their regular season opener on Wednesday.",
-        "publisher": "ESPN",
-        "publisherDomain": "espn.com",
-        "publishedAt": "2026-10-22T05:11:06.000Z",
-        "url": "https://www.espn.com/nba/story/_/id/50244547/kawhi-leonard-scores-23-points-toronto-return-raptors-rout-bulls-135-92",
-        "imageUrl": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1022%2Fr1734364_1024x576_16%2D9.jpg",
+        "id": "currents-47935211-dc2e-5eb0-8b7c-be628bde8fee",
+        "title": "GdS: Amorim expected to name six changes vs. Bournemouth after Milan-Atalanta",
+        "description": "AC Milan return to action tonight, facing Bournemouth at the Vitality Stadium in the third game of their Europa League campaign.",
+        "publisher": "Sempremilan",
+        "publisherDomain": "sempremilan.com",
+        "publishedAt": "2026-10-22T10:00:00.000Z",
+        "url": "https://sempremilan.com/amorim-expected-name-six-changes-bournemouth",
+        "imageUrl": "https://icdn.sempremilan.com/wp-content/uploads/2026/10/Ruben-Amorim-of-AC-Milan-GdS-October-22.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-ee28bed9-a7e6-51ca-88a4-4d72268504dc",
-        "title": "Anthony Davis gets 'MVP' chants from eager crowd in strong Wizards debut",
-        "description": "- How starved are the fans in Washington for watchable basketball?",
-        "publisher": "ESPN",
-        "publisherDomain": "espn.com",
-        "publishedAt": "2026-10-22T05:11:06.000Z",
-        "url": "https://www.espn.com/nba/story/_/id/50244806/anthony-davis-gets-mvp-chants-strong-wizards-debut",
-        "imageUrl": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1022%2Fr1734372_1024x576_16%2D9.jpg",
+        "id": "currents-64d091fa-5e63-5689-a5df-983ddcd08f30",
+        "title": "Report shows number of early votes cast in Kansas ahead of midterms - Hays Post",
+        "description": "KANSAS CITY (AP) —Associated Press data shows more than 13 million early votes cast ahead of the midterms. Advance Voting Data for October 20.",
+        "publisher": "Hayspost",
+        "publisherDomain": "hayspost.com",
+        "publishedAt": "2026-10-22T10:09:45.000Z",
+        "url": "https://hayspost.com/posts/f089c11f-48a8-41f8-a915-877be829652c",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-fe90be16-2bac-5e4d-b881-f52b18b8bd75",
-        "title": "Anthony Edwards joins Chamberlain, Jordan after dropping 40 in another opener",
-        "description": "Anthony Edwards joined legends Wilt Chamberlain and Michael Jordan as the only players in NBA history with multiple 40-point games in season openers.",
-        "publisher": "ESPN",
-        "publisherDomain": "espn.com",
-        "publishedAt": "2026-10-22T05:11:06.000Z",
-        "url": "https://www.espn.com/nba/story/_/id/50244919/anthony-edwards-joins-chamberlain-jordan-dropping-40-another-opener",
-        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1022%2Fr1734307_1296x729_16%2D9.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-e7eb74e2-5e4f-528b-b2bf-79666c3e476c",
-        "title": "Tyrese Haliburton leads Pacers' opening-night win in emotional return from injury",
-        "description": "An emotional Tyrese Haliburton made his long-awaited return from the Achilles tear he suffered in Game 7 of the 2025 NBA Finals, as he lead the Pacers to a gritty season-opening win over the Pelicans.",
-        "publisher": "ESPN",
-        "publisherDomain": "espn.com",
-        "publishedAt": "2026-10-22T05:11:05.000Z",
-        "url": "https://www.espn.com/nba/story/_/id/50245316/tyrese-haliburton-leads-pacers-opening-night-win-vs-pelicans-emotional-return-injury",
-        "imageUrl": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1022%2Fr1734375_1024x576_16%2D9.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-c4a0544c-4016-5394-a1f1-3c487fb1844c",
-        "title": "Judge orders man accused of storing guns and ammunition to keep out of estate",
-        "description": "Based on the offer of a £2,000 cash surety and employment in his brother's business, Ms Justice Smyth agreed to grant bail",
-        "publisher": "Belfastlive",
-        "publisherDomain": "belfastlive.co.uk",
-        "publishedAt": "2026-10-22T05:00:00.000Z",
-        "url": "https://www.belfastlive.co.uk/news/belfast-news/judge-orders-man-accused-storing-34798012",
-        "imageUrl": "https://i2-prod.belfastlive.co.uk/article33530032.ece/ALTERNATES/s1200d/4_The-hearing-is-taking-place-at-Laganside-courthouse-Liam-McBurneyPA.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-13d2ab01-4658-55ec-a3f4-ea1f11b3a247",
-        "title": "In-form Afghanistan heavy favourites in tri-series final against Zimbabwe",
-        "description": "UAE ODI Tri-Series 2026/27 Afghanistan vs Zimbabwe Match Preview: This will be the first ODI tournament final in Sharjah since 2003, and Afghanistan go into it as the team in form, while Zimbabwe will hope their batters come good",
-        "publisher": "Cricinfo",
-        "publisherDomain": "cricinfo.com",
-        "publishedAt": "2026-10-22T04:52:30.000Z",
-        "url": "https://www.cricinfo.com/series/uae-odi-tri-series-2026-27-1555109/afghanistan-vs-zimbabwe-final-1556871/match-preview",
-        "imageUrl": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/422500/422582.6.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-5da417e5-1277-5892-ba91-83b2e5275f00",
-        "title": "Walker Kessler has perfect Lakers debut with 12-for-12 shooting in 127-105 win over Warriors",
-        "description": "LOS ANGELES (AP) — Walker Kessler scored 26 points on 12-for-12 shooting and grabbed nine rebounds during his auspicious debut for the Los Angeles Lakers in a 127-105 victory over the Golden State Warriors on Wednesday night.",
+        "id": "currents-5dd4c22c-807c-5320-82b3-8cc2d82054e3",
+        "title": "A truckers’ protest halts the production of Italy's famed buffalo mozzarella",
+        "description": "ROME (AP) — A truckers",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-22T04:52:14.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/basketball/2026/10/21/walker-kessler-has-perfect-lakers-debut-with-12-for-12-shooting-in-127-105-win-over-warriors",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ad99670518184d5779bdcd9jpeg.jpg?w=1600",
+        "publishedAt": "2026-10-22T10:01:47.000Z",
+        "url": "https://www.winnipegfreepress.com/business/2026/10/22/a-truckers-protest-halts-the-production-of-italys-famed-buffalo-mozzarella",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ad833bb518184d5779a4b6fjpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-45718ab6-f08c-5ae0-b270-5839af8c7f8c",
-        "title": "China edge past US at gymnastics world championships to win first gold in 20 years",
-        "description": "Japan finish third in the Netherlands and all three countries secure direct passage to the Los Angeles Olympic Games in 2028.",
-        "publisher": "Scmp",
-        "publisherDomain": "scmp.com",
-        "publishedAt": "2026-10-22T04:51:02.000Z",
-        "url": "https://www.scmp.com/sport/china/article/3371734/china-edge-past-us-gymnastics-world-championships-win-first-gold-20-years",
-        "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/10/22/ced854ba-7a31-4120-9f78-661fa4cd90cc_8068c4cc.jpg?itok=SOz79_7f&v=1792644862",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-a4e21900-ce6e-5bef-b647-7d0b0ea4473e",
-        "title": "Asian Para Games 2026: Sheetal Devi, Toman Kumar Win Gold in Compound Mixed Team Final",
-        "description": "Sheetal Devi and Toman Kumar win compound mixed team gold at the Asian Para Games 2026, defeating Indonesia 151-148 after a record-breaking qualification round.",
-        "publisher": "Mykhel",
-        "publisherDomain": "mykhel.com",
-        "publishedAt": "2026-10-22T04:48:37.000Z",
-        "url": "https://www.mykhel.com/more-sports/asian-para-games-2026-sheetal-devi-toman-kumar-win-gold-in-compound-mixed-team-final-457003.html",
-        "imageUrl": "https://images.mykhel.com/img/2026/10/sheetal-toman-68081792644486.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-0a91f2f2-d389-528c-8623-eb08dd6f5f33",
-        "title": "Asian shares retreat after strong profits lead a rally on Wall Street",
-        "description": "Asian shares and U.S. futures retreated on Thursday after a rally on Wall Street, where U.S. stocks were lifted by strong profit reports from SpaceX, Capital One Financial and other big companies.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-22T04:47:49.000Z",
-        "url": "https://www.winnipegfreepress.com/business/2026/10/21/asian-shares-retreat-after-strong-profits-lead-a-rally-on-wall-street",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ad99562518184d5779bdb74jpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-2a4feb6c-dc9b-5159-b112-a914591a4a5b",
-        "title": "Ty Jerome's season-opening 45 points sets Grizzlies standard",
-        "description": "MEMPHIS, Tenn. (AP) — In the fourth quarter, Grizzlies guard Ty Jerome went to the line with Memphis comfortably ahead, and the faithful started a chant usually reserved for such players as LeBron James or Steph Curry.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-22T04:46:11.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/basketball/2026/10/21/ty-jeromes-season-opening-45-points-sets-grizzlies-standard",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ad99507518184d5779bdac4jpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-d6f73088-c160-5114-bd0c-ac43612bddb3",
-        "title": "Labour’s icecream truck and the Greens’ sweet ambitions: Inside the fight for Christchurch Central",
-        "description": "Candidates are turning to ice cream, gelato and a seven-scoop coalition as they fight for the tightly contested Christchurch Central seat.",
-        "publisher": "Stuff",
-        "publisherDomain": "stuff.co.nz",
-        "publishedAt": "2026-10-22T04:42:14.000Z",
-        "url": "https://www.stuff.co.nz/nz-news/361049785/labours-icecream-truck-and-greens-sweet-ambitions-inside-fight-christchurch-central",
-        "imageUrl": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYU7AtdFOvtHtxUxyXRPKsV6zxExS9idbG1ezTVhlNKd2QOVqZ3VWO0hBv+rt5BKyTCV5OF8lHgFKSpmruDDCIrs+YDgTFW1xAvw8OTE92NDnVD3I1H2y2o6zrMiOrt3btQ==",
+        "id": "currents-a19b04aa-a1d5-57a1-92cb-f290803225ac",
+        "title": "Abhishek Sharma achieves huge milestone with first-ball six off Matt Henry in NZ vs IND 2026 1st T20I [Watch]",
+        "description": "India opener Abhishek Sharma etched his name in the record books by getting off the mark with a six off the first ball he faced in the opening T20I against New Zealand.",
+        "publisher": "Sportskeeda",
+        "publisherDomain": "sportskeeda.com",
+        "publishedAt": "2026-10-22T10:01:50.000Z",
+        "url": "https://www.sportskeeda.com/cricket/news-abhishek-sharma-achieves-huge-milestone-first-ball-six-matt-henry-nz-vs-ind-2026-1st-t20i-watch",
+        "imageUrl": "https://staticg.sportskeeda.com/editor/2026/10/11632-17926627273373-1920.jpg",
         "categories": [
           "Sports"
         ]
@@ -1184,208 +1412,215 @@
     ],
     "Entertainment": [
       {
-        "id": "currents-ae4e2a9c-fbae-5903-9ee7-a3aeac9c4762",
-        "title": "Billionaire: backlash after revealing son's cake made from $100 notes",
-        "description": "Sydney's social elite are whispering again. Months after becoming the target of toxic group-chat gossip, Laura Hazzouri has found herself back in the crosshairs...",
+        "id": "currents-ec2b6a8c-0404-5eaf-a83e-f5b01d514100",
+        "title": "Khloe Kardashian shows off her gym-honed body in a racy nude dress",
+        "description": "Khloe Kardashian flaunted her gym-honed figure in a revealing nude dress as she helped celebrate sister Kim Kardashian's 46th birthday on Tuesday.",
         "publisher": "Daily Mail",
         "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-10-22T05:06:51.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16228175/Billionaire-backlash-sons-cake-dollar-notes.html?ns_campaign=1490&ito=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/10/22/02/112011707-0-image-m-16_1792633977842.jpg",
+        "publishedAt": "2026-10-22T10:08:53.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16229265/Khloe-Kardashian-gym-honed-body-nude-dress-sister-Kims-46th-birthday.html?ns_campaign=1490&ito=1490",
+        "imageUrl": "https://i.dailymail.com/1s/2026/10/22/11/112020523-0-image-m-51_1792663722064.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-fdef8cf0-5b9d-5133-a171-eedf0e969838",
-        "title": "Glenn Close addresses health concerns after being spotted walking with cane",
-        "description": "Glenn Close said that she wanted to maintain her physical well-being so she could continue taking on new challenges and enjoying future adventures",
-        "publisher": "Meaww",
-        "publisherDomain": "news.meaww.com",
-        "publishedAt": "2026-10-22T04:53:29.000Z",
-        "url": "https://news.meaww.com/glenn-close-addresses-health-concerns-after-being-spotted-walking-with-cane",
-        "imageUrl": "https://media.pubninja.com/articles/brand-5/covers/1792641546014_0d5ed7cdede4.jpg_1200_630",
+        "id": "currents-e0189357-ad48-5c4e-a247-171226d460d0",
+        "title": "Judi Dench gives bleak update over health condition - 'I can't read any more'",
+        "description": "Dame Judi Dench has admitted that she can no longer be in films or read owing to her sight loss. She was diagnosed with age-related macular degeneration (AMD) in 2012",
+        "publisher": "Mirror",
+        "publisherDomain": "mirror.co.uk",
+        "publishedAt": "2026-10-22T09:46:00.000Z",
+        "url": "https://www.mirror.co.uk/3am/celebrity-news/judi-dench-gives-bleak-health-37798703",
+        "imageUrl": "https://i2-prod.mirror.co.uk/article37798036.ece/ALTERNATES/s1200d/3_Finding-Harmony-A-Kings-Vision-Windsor-Castle-Premiere-Arrivals.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-5d877956-5955-5736-a91d-f85f178766f5",
-        "title": "Supreme Court begins hearing appeal over super junior ministers’ role at the Cabinet",
-        "description": "Influence exercised by super junior ministers attending meetings of the Government is not provided for in the Constitution and represents an …",
-        "publisher": "Independent",
-        "publisherDomain": "independent.ie",
-        "publishedAt": "2026-10-22T04:30:00.000Z",
-        "url": "https://www.independent.ie/irish-news/courts/supreme-court-begins-hearing-appeal-over-super-junior-ministers-role-at-the-cabinet/a/163422980.html",
+        "id": "currents-2b63b84d-8c8a-586a-87b5-4cfd9bebffb4",
+        "title": "SEPTA real-time tools temporarily down as transit agency installs PHP update",
+        "description": "While those services are temporarily down, officials say real-time bus and Metro information is currently available through Google Maps and the Transit App.",
+        "publisher": "6abc",
+        "publisherDomain": "6abc.com",
+        "publishedAt": "2026-10-22T10:25:11.000Z",
+        "url": "https://6abc.com/post/septa-real-time-tracking-tools-temporarily-down-transit-agency-installs-update-amid-php-vulnerability/19968179",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/14085139_112023-wpvi-septa-logo-generic-img.jpg?w=1600",
         "categories": [
-          "Entertainment"
+          "Entertainment",
+          "Top",
+          "U.S."
         ]
       },
       {
-        "id": "currents-95843b51-dc03-5542-ab80-233a49995f7f",
-        "title": "27 Snacks And Treats From Goldbelly You’ll Be So Happy You Took A Chance On",
-        "description": "If your tummy is rumbling, that means it's Goldbelly snack 'o clock.",
+        "id": "currents-02a45e64-789b-5c30-8061-3fc62351bce1",
+        "title": "I'm Pitting Your Favorite Fall Foods Against Each Other, And You Can Only Pick One Winner",
+        "description": "Fall into fall with these fall dishes!",
         "publisher": "Buzzfeed",
         "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-10-22T05:01:01.000Z",
-        "url": "https://www.buzzfeed.com/ashleyschumacher/worthwhile-snacks-and-treats-from-goldbelly-an",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-09/09/14/thumb/mE8AcGPBa.jpg?crop=1250:654;0,88%26downsize=1250:*",
+        "publishedAt": "2026-10-22T10:21:02.000Z",
+        "url": "https://www.buzzfeed.com/gem758/this-or-that-fall-dishes-edition",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/21/14/thumb/oojGD0MMM.jpg?crop=1250:654;0,88%26downsize=1250:*",
         "categories": [
+          "Top",
+          "U.S.",
           "Entertainment"
         ]
       },
       {
-        "id": "currents-bf34e796-de40-5b32-84f6-890183268af8",
-        "title": "Country singer John Anderson is dead at 71 as family mourns late star",
-        "description": "The passing of the vocalist, whose most famed tracks include Straight Tequila Night and Swingin', was announced by his family in a post on his Instagram account Wednesday evening.",
+        "id": "currents-813c2ff7-0a0e-5a1f-b9e0-b5f9b7706c1a",
+        "title": "Fans demand You Can See Everything documentary gets early UK release",
+        "description": "The three-hour documentary, featuring Amanda Seyfried, follows convicted tech fraudster Elizabeth Holmes during the month before she began an 11-year prison sentence in 2023.",
         "publisher": "Daily Mail",
         "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-10-22T04:35:44.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16228743/john-anderson-dead-country-singer.html?ns_campaign=1490&ito=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/10/22/05/112015737-0-image-m-67_1792642969072.jpg",
+        "publishedAt": "2026-10-22T09:57:31.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16229041/Fans-demand-You-documentary-Theranos-fraudster-Elizabeth-Holmes-gets-early-UK-release-unexpected-box-office-smash-featuring-Amanda-Seyfried-gets-historic-Oscars-push.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/10/22/10/112019737-0-image-m-31_1792661542284.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-4a793ac5-404a-537d-9851-518de2c34878",
-        "title": "Japanese scientists developing cute, autonomously swarming robo dogs for anti-bear patrols [Video]",
-        "description": "Hacchan is a mecha version of an Akita Inu hunting dog.",
-        "publisher": "Soranews24",
-        "publisherDomain": "soranews24.com",
-        "publishedAt": "2026-10-22T05:00:49.000Z",
-        "url": "https://soranews24.com/2026/10/22/japanese-scientists-developing-cute-autonomously-swarming-robo-dogs-for-anti-bear-patrols-video",
-        "imageUrl": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/2_4a9778.jpg?w=1000&h=525&crop=1",
+        "id": "currents-2b220f85-acce-550b-9972-d56cfa66ff55",
+        "title": "Buckle Up, Buttercup! This Word Game Is Gonna Fry Your Brain 100 Different Ways",
+        "description": "How many words can you make from A, E, G, L, P, and U?",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-10-22T10:16:04.000Z",
+        "url": "https://www.buzzfeed.com/sarathompson1/soup-of-the-day-october-22-2026",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/21/20/thumb/tENRGkcyu.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-66597bcf-0cdd-52f1-9363-1b9fee99ba09",
+        "title": "19 Child Stars You May Not Know Came Out As LGBTQ+",
+        "description": "\"When I was five, long before I understood what the word gender meant, I would always tell my mother that I wished I were a girl.\"",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-10-22T10:16:02.000Z",
+        "url": "https://www.buzzfeed.com/jamieko/lgbtq-child-stars-who-came-out",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/19/20/thumb/85vFhfn-o.jpg?crop=2999:1570;1,0%26downsize=1250:*",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-914d84ad-65ac-5d2b-9209-c6d23b643047",
-        "title": "Sophia Bush says 'One Tree Hill' co-star Hilarie Burton warned her about Chad Michael Murray",
-        "description": "Sophia Bush reflected on her past relationship with Chad Michael Murray, admitting she struggled to heed advice from one of her closest friends",
-        "publisher": "Meaww",
-        "publisherDomain": "news.meaww.com",
-        "publishedAt": "2026-10-22T04:52:28.000Z",
-        "url": "https://news.meaww.com/sophia-bush-says-one-tree-hill-co-star-hilarie-burton-warned-her-about-chad-michael-murray",
-        "imageUrl": "https://media.pubninja.com/articles/brand-5/covers/1792643032515_a4261eafdd41.jpg_1200_630",
+        "id": "currents-592425b2-5119-5095-a3ff-c45d020cd47c",
+        "title": "Spotify Hums Along in Q3, Reaching 306 Million Paid Subscribers: ‘There Is More Runway Ahead’",
+        "description": "Spotify hit its key targets in Q3 2026, packing on 6 million subscribers in the period to 306 million and posting healthier growth in ad revenue.",
+        "publisher": "Variety",
+        "publisherDomain": "variety.com",
+        "publishedAt": "2026-10-22T10:15:41.000Z",
+        "url": "https://variety.com/2026/music/news/spotify-q3-2026-earnings-results-paid-subscribers-1236919528",
+        "imageUrl": "https://variety.com/wp-content/uploads/2023/04/Spotify.jpg?w=1000&h=563&crop=1",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-c797280c-2cb0-51d0-8894-dbbe7d49865d",
-        "title": "Who went home on ‘Survivor’ Season 51 Episode 5? Double elimination ends in a dramatic standoff",
-        "description": "Both the Savu and Dina tribes went to their respective Tribal Council, and two players went home.",
-        "publisher": "Meaww",
-        "publisherDomain": "meaww.com",
-        "publishedAt": "2026-10-22T04:51:32.000Z",
-        "url": "https://meaww.com/who-went-home-on-survivor-51-episode-5-recap-double-elimination-alexis-levine-linnea-savu-dina-tribal-council-jeff-probst-field-notes",
-        "imageUrl": "https://media.pubninja.com/articles/brand-3/covers/1792642529951_75a84e9a70ab.jpg_1200_630",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-8451d067-a8fc-50e4-a90f-f2629b35cfe8",
-        "title": "Directors Raj And DK Wrap Up Shoot For Farzi 2 Starring Shahid Kapoor",
-        "description": "Filmmakers Raj and DK have wrapped up shooting for Farzi 2, starring Shahid Kapoor. The actor plays the role of Sunny in the crime thriller series.",
-        "publisher": "News18",
-        "publisherDomain": "news18.com",
-        "publishedAt": "2026-10-22T04:51:21.000Z",
-        "url": "https://www.news18.com/movies/web-series/directors-raj-and-dk-wrap-up-shoot-for-farzi-2-starring-shahid-kapoor-ws-l-10392301.html",
-        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/06/Farzi-2-Shahid-1-2026-06-28f42347b3264419a5b1b5dbcd47f9ae-1200x675.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-97dcccfe-c4ee-57d5-80e5-241ae162ecf0",
-        "title": "‘I am a public figure, not public property’: Khushbu Sundar speaks out against cyberattacks",
-        "description": "Actress Khushbu has spoken out against cyberattacks and personal abuse on social media, asserting that being a public figure does not give people the right to target her or her family. In an interview with JFW Digital, the actress questioned why people who post offensive comments about celebrities w...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "timesofindia.indiatimes.com",
-        "publishedAt": "2026-10-22T04:51:12.000Z",
-        "url": "https://timesofindia.indiatimes.com/entertainment/tamil/movies/news/i-am-a-public-figure-not-public-property-khushbu-sundar-speaks-out-against-cyberattacks/articleshow/135107696.cms",
-        "imageUrl": "https://static.toiimg.com/thumb/msid-135107711,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-f22073ed-4e71-5db5-82d7-307d379043c1",
-        "title": "Why There’s No New Coven Academy Episode This Week on Freeform",
-        "description": "Fans seeking information about why Coven Academy won’t air a new episode this week can find all the details here.",
+        "id": "currents-67665f08-c961-5809-8bc8-8a6d2b64f4cc",
+        "title": "Netflix’s Taken Trailer Shines Light on What Happened to Natalee Holloway",
+        "description": "Netflix’s latest trailer for Taken: Natalee Holloway revisits the case surrounding the teenager's disappearance.",
         "publisher": "Comingsoon",
         "publisherDomain": "comingsoon.net",
-        "publishedAt": "2026-10-22T04:42:15.000Z",
-        "url": "https://www.comingsoon.net/guides/news/2210708-coven-academy-wont-air-new-episode-this-week-why",
-        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/10/MixCollage-22-Oct-2026-10-09-AM-6678.jpg?resize=1200,630",
+        "publishedAt": "2026-10-22T10:05:51.000Z",
+        "url": "https://www.comingsoon.net/movies/news/2210857-taken-natalee-holloway-trailer-netflix",
+        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/10/edited-image-2026-10-22T152852.606.webp?resize=1200,630",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-8dcfac73-a460-530d-b9b7-47b90968c58c",
-        "title": "Ilhan Omar posts first video since DC home raid, urges supporters to donate ahead of midterms",
-        "description": "Ilhan Omar did not directly address the investigation in her video, while Donald Trump said she could face jail if the allegations against her were proven",
-        "publisher": "Meaww",
-        "publisherDomain": "news.meaww.com",
-        "publishedAt": "2026-10-22T04:38:25.000Z",
-        "url": "https://news.meaww.com/ilhan-omar-posts-first-video-since-dc-home-raid-urges-supporters-to-donate-ahead-of-midterms",
-        "imageUrl": "https://media.pubninja.com/articles/brand-6/covers/1792643637332_e643140eb151.jpg_1200_630",
+        "id": "currents-e643a67f-8b3a-5769-8740-0c97728b512f",
+        "title": "Glee reboot: the fan-favourite stars signalling a return",
+        "description": "Lea Michele is reported to be reprising Rachel Berry in the Glee reboot, with Heather Morris and Chord Overstreet hinting they're getting the band back together too.",
+        "publisher": "Radiotimes",
+        "publisherDomain": "radiotimes.com",
+        "publishedAt": "2026-10-22T10:01:51.000Z",
+        "url": "https://www.radiotimes.com/tv/drama/glee-reboot-returning-stars-revealed-lea-michele-newsupdate",
+        "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2026/10/chris-colfer-lea-michele-glee-17a2631.jpg?resize=1200%2C630",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-d739150d-d12f-5e86-8efb-5bb8e2746f4f",
-        "title": "Netflix turns everyday Korea into tourist attraction - The Korea Times",
-        "description": "On Tuesday, Zineb Baaout, a Moroccan-born travel content creator based in the U.S., posted an Instagram Reel showing her trip to Ttukseom Hangang P...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-10-22T04:37:03.000Z",
-        "url": "https://www.koreatimes.co.kr/lifestyle/trends/20261022/netflix-turns-everyday-korea-into-tourist-attraction",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/10/21/21235e60-201d-462d-85eb-d188b64a7c73.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-65da8428-b040-5c70-a10e-2aac959525c3",
-        "title": "Vishwak Sen reveals why he took over ‘Cult’ direction; says he wanted to take responsibility for his comeback",
-        "description": "Telugu actor Vishwak Sen will be next seen with this upcoming action drama ‘Cult’ which he leads as well as directs, marking his directorial debut. Recently, the actor said he decided to direct the film after the failure of his previous release, ‘Laila’, and wanted to take responsibility for his com...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "timesofindia.indiatimes.com",
-        "publishedAt": "2026-10-22T04:36:10.000Z",
-        "url": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/vishwak-sen-reveals-why-he-took-over-cult-direction-says-he-wanted-to-take-responsibility-for-his-comeback/articleshow/135107306.cms",
-        "imageUrl": "https://static.toiimg.com/thumb/msid-135107352,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-8d851877-d24f-59ce-81f2-e293704021a9",
-        "title": "38 Personal Care Products That Make Having A Human Body Feel A Little Less Exhausting",
-        "description": "When life throws you lemons (butt acne), you can snag this lotion to help make it go away.",
+        "id": "currents-4807c31b-74be-53f8-86b7-2541128a3090",
+        "title": "27 Shoes Reviewers With Bunions, Plantar Fasciitis, And Other Foot-Related Issues Swear By",
+        "description": "No rub, no squeeze, just walking with ease.",
         "publisher": "Buzzfeed",
         "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-10-22T04:31:02.000Z",
-        "url": "https://www.buzzfeed.com/diviniatarin/personal-care-products-less-exhausting-an",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-05/18/22/thumb/-6V7ySLqV.jpg?crop=3000:1571;0,211%26downsize=1250:*",
+        "publishedAt": "2026-10-22T10:01:05.000Z",
+        "url": "https://www.buzzfeed.com/bykitstone/shoes-reviewers-with-foot-issues-swear-by",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/02/20/thumb/YcVQWbnGX.jpg?crop=3000:1571;0,211%26downsize=1250:*",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-47d775c4-acfc-5767-a5c7-8d9ee97187e7",
-        "title": "What happened to Cruz on 'Chicago Fire'? Season 15 Episode 3 sees fan favorite at his lowest point",
-        "description": "The latest episode of ‘Chicago Fire’ sees Hermann and Cruz at loggerheads as the latter struggles with his injuries",
-        "publisher": "Meaww",
-        "publisherDomain": "meaww.com",
-        "publishedAt": "2026-10-22T04:18:57.000Z",
-        "url": "https://meaww.com/what-happened-to-cruz-on-chicago-fire-burke-take-the-hit-season-15-episode-3-recap-joe-minoso-hermann-severide-otis-tony-stella-kidd",
-        "imageUrl": "https://media.pubninja.com/articles/brand-3/covers/1792641834760_e85cdf658b81.jpg_1200_630",
+        "id": "currents-70e9f557-b5f7-551d-9eb4-8bc88b301aaa",
+        "title": "Word Problems About Dealing with a Friend’s Weird Boyfriend",
+        "description": "Take this helpful quiz to prepare for dealing with your friend’s weird boyfriend.",
+        "publisher": "Newyorker",
+        "publisherDomain": "newyorker.com",
+        "publishedAt": "2026-10-22T10:00:00.000Z",
+        "url": "https://www.newyorker.com/humor/shouts-murmurs/word-problems-about-dealing-with-a-friends-weird-boyfriend",
+        "imageUrl": "https://media.newyorker.com/photos/6ad7d5072ebcf2514644e798/16:9/w_1280,c_limit/Shouts%20:%20Weird%20Boyfriend-GettyImages-200225723-001.jpeg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-730d7196-625a-5b94-8284-b9cbeed87b8a",
+        "title": "Naomi Watts Reveals Fashion Advice She's Received From Her, Liv Schrieber's Daughter Kai",
+        "description": "Naomi Watts reflected on the fashion guidance her and ex Liev Schreiber's 17-year-old daughter Kai has given her during an exclusive E! News interview at Stripes Beauty's Rite of Passion gummy launch.",
+        "publisher": "E! News",
+        "publisherDomain": "eonline.com",
+        "publishedAt": "2026-10-22T10:00:00.000Z",
+        "url": "https://www.eonline.com/news/1437292/naomi-watts-reveals-fashion-advice-her-model-daughter-kai-has-given-her",
+        "imageUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20261020/d9eb0ada-c83e-46db-821d-7871e6bbfcaf_1792525786.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-e93d5fe2-f290-5b3b-914d-f3125404ccc4",
+        "title": "From the Anime to the Game — Free Update Brings Edgerunners 2 Content and More to Cyberpunk 2077!",
+        "description": "The free Edgerunners 2 Update to Cyberpunk 2077 is available now, with content inspired by the second installment of the hit anime series now streaming on Netflix",
+        "publisher": "Xbox",
+        "publisherDomain": "news.xbox.com",
+        "publishedAt": "2026-10-22T10:00:00.000Z",
+        "url": "https://news.xbox.com/en-us/2026/10/22/cyberpunk-2077-edgerunners-2-update",
+        "imageUrl": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/10/EN_CP77_ER2_badge2.5_16x9-8659829d0e6e5766ee9c.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-f528869c-e80f-5845-9f1c-273feb48447e",
+        "title": "Queens of the Stone Age Look Road-Ready In ‘Tonight Show’ Performance: Watch",
+        "description": "Queens of the Stone Age performed \"Perfecth\" track “Where The Goth Girls At?” on \"The Tonight Show.\"",
+        "publisher": "Billboard",
+        "publisherDomain": "billboard.com",
+        "publishedAt": "2026-10-22T09:55:06.000Z",
+        "url": "https://www.billboard.com/music/rock/queens-of-the-stone-age-tonight-show-performance-watch-1236365591",
+        "imageUrl": "https://www.billboard.com/wp-content/uploads/2026/10/qotsa-2026-1800-cr-andreas-neumann.jpg?w=1024",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-8e32f136-b113-59ca-b830-097d3201d5d7",
+        "title": "Eileen Mayers, Coronation Street star famed for controversial cut storyline, dies aged 94",
+        "description": "Mayers played Sheila Birtles on the long-running ITV soap.",
+        "publisher": "Radiotimes",
+        "publisherDomain": "radiotimes.com",
+        "publishedAt": "2026-10-22T09:51:57.000Z",
+        "url": "https://www.radiotimes.com/tv/soaps/coronation-street/eileen-mayers-coronation-street-dead-newsupdate",
+        "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2026/10/Eileen-Mayers-f7379d4.png?resize=1200%2C630",
         "categories": [
           "Entertainment"
         ]
@@ -1396,7 +1631,7 @@
     "requestCount": 5,
     "successfulRequests": 5,
     "failedRequests": 0,
-    "articleCountBeforeDeduplication": 100,
-    "articleCountAfterDeduplication": 79
+    "articleCountBeforeDeduplication": 99,
+    "articleCountAfterDeduplication": 84
   }
 }
