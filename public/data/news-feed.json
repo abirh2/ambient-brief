@@ -1,92 +1,19 @@
 {
   "schemaVersion": 1,
   "provider": "currents",
-  "generatedAt": "2026-10-29T18:23:16.542Z",
-  "sourceFetchedAt": "2026-10-29T18:23:16.542Z",
+  "generatedAt": "2026-10-29T22:55:40.704Z",
+  "sourceFetchedAt": "2026-10-29T22:55:40.704Z",
   "status": "success",
   "categories": {
     "Top": [
       {
-        "id": "currents-967e292e-e3cc-5c0d-ac96-04b8375b52ef",
-        "title": "Hong Kong’s leader apologises for residential fire that killed 168 people",
-        "description": "Blaze last year was deadliest housing fire globally since 1980 and some ex-residents and victims’ families say they still need justice",
-        "publisher": "The Guardian",
-        "publisherDomain": "theguardian.com",
-        "publishedAt": "2026-10-29T18:14:21.000Z",
-        "url": "https://www.theguardian.com/world/2026/oct/29/hong-kong-john-lee-apologises-wang-fuk-court-fire-killed-168-people",
-        "imageUrl": "https://i.guim.co.uk/img/media/2c5d0274ccc74eedd4d8ea37a4defaa01bc5225c/1462_16_3005_2404/master/3005.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ace7d9e4e1581939b77ea89225ab4421",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-0dd1c68f-3417-58f2-bcc2-a8e08062b46b",
-        "title": "Resilience Is the New UX: Building Offline-First Real-Time Apps That Survive Network Failure",
-        "description": "Learn to build offline-first real-time apps with sync engines, CRDTs, and conflict resolution. A practical deep-dive into network-resilient architecture.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-29T18:07:00.000Z",
-        "url": "https://dev.to/tamizuddin/resilience-is-the-new-ux-building-offline-first-real-time-apps-that-survive-network-failure-20a",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fez8qjfo3a4d1juz2vs74.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-accdf866-92f4-5c81-9c3c-63984416e8bc",
-        "title": "Pro-Kannada group to launch month-long campaign for ‘job rights’ of Kannadigas",
-        "description": "KaRaVe will launch a month-long campaign on November 1 to examine Kannadiga hiring in Karnataka's IT and BT companies. The drive follows complaints of recruitment discrimination and a government warning against deliberately sidelining locals.",
-        "publisher": "Indiatoday",
-        "publisherDomain": "indiatoday.in",
-        "publishedAt": "2026-10-29T18:19:12.000Z",
-        "url": "https://www.indiatoday.in/india/karnataka/story/kannadiga-jobs-karave-it-bt-recruitment-campaign-karnataka-bengaluru-it-biotechnology-shivakumar-3028118-2026-10-29",
-        "imageUrl": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202610/members-of-karnataka-rakshana-vedike-protesting-against-releasing-cauvery-river-water-to-tamil-nadu-291657686-16x9_0.jpg?VersionId=dz1N6m3IXpSyaLsoE4cwLNBYkzWzA7GR",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-509eb32e-e765-5cd0-bf59-b01925c0bd73",
-        "title": "Trump failed to stop inflation. Now Republicans may pay price in midterm elections - The Korea Times",
-        "description": "WASHINGTON — President Donald Trump would prefer that voters not worry about inflation. But it's hard for them to ignore. Filling up a basic Ford F...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-10-29T18:12:04.000Z",
-        "url": "https://www.koreatimes.co.kr/world/20261030/trump-failed-to-stop-inflation-now-republicans-may-pay-price-in-midterm-elections",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/10/30/d01b06dd-6e5c-4194-bce6-d4e7fe59afa4.jpg",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-c611ee23-53cc-5fbc-9dd3-6b28955f10d7",
-        "title": "Hershey warns rising living costs may spook Halloween shoppers - The Korea Times",
-        "description": "Hershey on Thursday warned that increased pressure on shoppers due to high inflation and interest rates could impact how much consumers spend on ca...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-10-29T18:12:04.000Z",
-        "url": "https://www.koreatimes.co.kr/world/20261030/hershey-warns-rising-living-costs-may-spook-halloween-shoppers",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/10/30/f5d98e5c-f075-455c-b25e-423a64ee8318.jpg",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-2cd22af7-fa13-5807-afa6-d44ad992dca9",
-        "title": "Louisiana treasurer calls for tax cuts after bond rating upgrade",
-        "description": "Louisiana Treasurer John Fleming says the state should advance tax cuts after bond rating upgrade.",
-        "publisher": "Shreveporttimes",
-        "publisherDomain": "shreveporttimes.com",
-        "publishedAt": "2026-10-29T18:19:12.000Z",
-        "url": "https://www.shreveporttimes.com/story/news/2026/10/29/louisiana-treasurer-calls-for-elimination-of-income-tax-after-bond-rating-upgrade-from-fitch/92485841007",
-        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/02/11/PSHR/88626309007-john-fleming-qualify.jpg?auto=webp&crop=3024,1701,x0,y799&format=pjpg&width=1200",
+        "id": "currents-3035d70d-80cb-5295-9863-789be40f09e5",
+        "title": "Trump on Alaska Sen. Race Controversy: It's Voter Fraud",
+        "description": "Bloomberg’s Anna Edgerton joined the show to discuss the Alaska Senate race and the potential legal and campaign-finance questions surrounding ballot stacking. She speaks with Joe Mathieu on Bloomberg’s \"Balance of Power.\" (Source: Bloomberg)",
+        "publisher": "Bloomberg",
+        "publisherDomain": "bloomberg.com",
+        "publishedAt": "2026-10-29T22:46:58.000Z",
+        "url": "https://www.bloomberg.com/news/videos/2026-10-29/trump-on-alaska-sen-race-controversy-it-s-voter-fraud-video",
         "categories": [
           "Top",
           "World",
@@ -94,28 +21,45 @@
         ]
       },
       {
-        "id": "currents-1b18f9d6-a708-52a2-8fbc-c72fae9c9e46",
-        "title": "N.C. lottery player wins $1.9M from her first-ever online game",
-        "description": "A North Carolina woman won a $1,939,727 jackpot from the very first online lottery game she ever tried to play, officials said.",
-        "publisher": "Upi",
-        "publisherDomain": "upi.com",
-        "publishedAt": "2026-10-29T18:13:42.000Z",
-        "url": "https://www.upi.com/Odd_News/2026/10/29/lotto-north-carolina-education-lottery-beginners-luck/9531793297438",
-        "imageUrl": "https://cdnph.upi.com/sv/ph/og/i/9531793297438/2026/1/17932975809669/v1.5/NC-lottery-player-wins-19M-from-her-first-ever-online-game.jpg",
+        "id": "currents-111c4c13-f817-5ab8-b39c-4344fa8ada95",
+        "title": "Binance probes potential $5.8 billion crypto-theft hack",
+        "description": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history.",
+        "publisher": "Bleepingcomputer",
+        "publisherDomain": "bleepingcomputer.com",
+        "publishedAt": "2026-10-29T22:45:23.000Z",
+        "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack",
+        "imageUrl": "https://www.bleepstatic.com/content/hl-images/2023/10/13/back.png",
         "categories": [
           "Top",
+          "Technology",
+          "Science",
           "U.S."
         ]
       },
       {
-        "id": "currents-eea889fe-1e67-5c4a-be11-9c5910797730",
-        "title": "AI uncovers lost 1970s materials to boost next-generation green tech",
-        "description": "Researchers at Sweden's Linköping University used artificial intelligence to search decades of scientific archives and uncovered 33 previously overlooked MXene forms.",
-        "publisher": "Interestingengineering",
-        "publisherDomain": "interestingengineering.com",
-        "publishedAt": "2026-10-29T18:10:30.000Z",
-        "url": "https://interestingengineering.com/innovation/researchers-use-ai-rediscover-forgotten-materials",
-        "imageUrl": "https://cms.interestingengineering.com/wp-content/uploads/2026/10/IE-75.jpg",
+        "id": "currents-d07eab86-b1be-5d1a-a2d1-8bca2c7be6c5",
+        "title": "DHS probes massive leak exposing over 40,000 Homeland Security workers",
+        "description": "A hacker group said the leak is in response to ramped up Homeland Security operations in the US. DHS 'is aware of a potential breach,' it says.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-29T22:44:40.000Z",
+        "url": "https://www.usatoday.com/story/news/nation/2026/10/29/how-did-hack-of-dhs-personnel-happen/92495757007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/09/02/USAT/91585110007-20260901-t-161054-z-913567935-rc-2-eanaky-3-mj-rtrmadp-3-usatrumpmigration.JPG?auto=webp&crop=2706,1522,x0,y141&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-21bb4fff-c2b8-57d8-9187-8457a845f7b8",
+        "title": "DualChem: Evaluating AI Safety in Dual-Use Chemistry",
+        "description": "Scale AI introduces DualChem, the first benchmark from its research collaboration with NIST CAISSI.",
+        "publisher": "Scale",
+        "publisherDomain": "scale.com",
+        "publishedAt": "2026-10-29T22:43:40.000Z",
+        "url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
+        "imageUrl": "https://scale.com/api/og/eyJ0aXRsZSI6IkludHJvZHVjaW5nIER1YWxDaGVtIiwiaW1hZ2UiOiJodHRwczovL2Nkbi5zYW5pdHkuaW8vaW1hZ2VzLzUwemJhMGVvL3Byb2R1Y3Rpb24vMmVmNjAxZGFmZmQ4YmNlMjU3ZGY2M2FkOWE2YzY3NjI0ZjNiOGFiYS0xOTIweDEwODAucG5nP2F1dG89Zm9ybWF0JnE9ODAiLCJsb2dvIjoibm9uZSIsInYiOiIxMDVlNThjYyJ9.jpg",
         "categories": [
           "Top",
           "U.S.",
@@ -124,101 +68,119 @@
         ]
       },
       {
-        "id": "currents-e58cefb5-2c1f-526c-b1ca-4d1a177adf6f",
-        "title": "3SAE's Patented, Ultra-Reliable Micro-Robotic Platform Now Offers Fast Alignment and Tracking for Silicon Photonics Test and Assembly",
-        "description": "/PRNewswire-PRWeb/ -- The alignment equipment industry has hit a ceiling. Photonic integrated circuits, fiber arrays, and co-packaged optics now ship at...",
-        "publisher": "Prweb",
-        "publisherDomain": "prweb.com",
-        "publishedAt": "2026-10-29T18:10:00.000Z",
-        "url": "https://www.prweb.com/releases/3saes-patented-ultra-reliable-micro-robotic-platform-now-offers-fast-alignment-and-tracking-for-silicon-photonics-test-and-assembly-302923958.html",
-        "imageUrl": "https://mmx.prnewswire.com/media/MS2022903/3SAE-Technologies-PentaPod-precision-moun.jpg?id=OA3045363&p=facebook",
+        "id": "currents-c422148b-6709-591f-b1db-ec23d28db9c6",
+        "title": "The relationships between noriuchi (stake, risk, time, outcome-sharing gambling) participation, gambling behavior, and problem gambling severity among Japanese gamblers",
+        "description": "IntroductionIn Japan, noriuchi refers to a collaborative gambling practice in which multiple players pool money used for betting and later split the final ne...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-10-29T22:52:03.000Z",
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1831401/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/0F39389F-DE2D-4BF1-AFE71BA9B6F25024/918D96DB-F484-4EC1-8FBF9AB5F74B20F4/WebsiteWebP_XL-FPSYG_Main%20Visual_Green_Website.webp",
         "categories": [
           "Top",
-          "U.S.",
-          "World"
+          "Technology",
+          "Science",
+          "U.S."
         ]
       },
       {
-        "id": "currents-a5a32cc2-f6fe-5f5d-8ebb-beba37d204ba",
-        "title": "Cary police standoff lasted nearly 7 hours. A town-wide alert never came",
-        "description": "Cary residents said they had no warning from officials that something was wrong during an hours-long standoff with an armed man Monday.",
-        "publisher": "Newsobserver",
-        "publisherDomain": "newsobserver.com",
-        "publishedAt": "2026-10-29T18:08:29.000Z",
-        "url": "https://www.newsobserver.com/news/local/counties/wake-county/article317819559.html",
-        "imageUrl": "https://www.newsobserver.com/public/latest-news/n8q9n7/picture317787815/alternates/LANDSCAPE_1200/RAL_102626-STANDOFF-TEL-01.JPG",
+        "id": "currents-02c36069-ad1c-58bf-b13b-26a59f42f8b3",
+        "title": "The first global food pyramid vs. RFK Jr.'s. They look nothing alike",
+        "description": "The food pyramid, developed by an international team of nutrition experts, looks starkly different from the one released by U.S. officials in January.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-29T22:44:40.000Z",
+        "url": "https://www.usatoday.com/story/news/health/2026/10/29/first-global-food-pyramid-versus-rfk-jrs-see-differences/92499611007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/29/USAT/92502834007-getty-images-861188910.jpg?auto=webp&crop=2120,1193,x0,y110&format=pjpg&width=1200",
         "categories": [
           "Top",
-          "U.S.",
-          "World"
+          "World",
+          "U.S."
         ]
       },
       {
-        "id": "currents-b1316b70-54ad-5697-a8d2-e8b84b2876f2",
-        "title": "Photos: Preparing for the Day of the Dead",
-        "description": "Images from Mexico and other Latin American communities in recent years showing preparations for Día de Muertos, or the Day of the Dead, when people pay homage to departed family members and honor death as a part of life.",
-        "publisher": "Theatlantic",
-        "publisherDomain": "theatlantic.com",
-        "publishedAt": "2026-10-29T18:07:22.000Z",
-        "url": "https://www.theatlantic.com/photography/2026/10/photos-day-of-the-dead/689204",
-        "imageUrl": "https://cdn.theatlantic.com/thumbor/TYefxUq4WRwydpvodd8IKjoyOXU=/0x0:3558x1853/1200x625/media/img/mt/2026/10/a01_G_2301418818/original.jpg",
+        "id": "currents-070858be-07e1-524d-a72d-4cca2c3d8e9c",
+        "title": "'We're technically homeless': Residential cruise ceases operations",
+        "description": "Many residents are suddenly without a place to live after cruise company Villa Vie Residences said it would cease operations this week.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-29T22:44:40.000Z",
+        "url": "https://www.usatoday.com/story/travel/cruises/2026/10/29/residential-cruise-stops-sailing-passengers-stranded/92499541007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/29/USAT/92499581007-20261029-t-065816-z-546283302-rc-2-ucoa-6-l-9-r-0-rtrmadp-3-cambodiaship.JPG?auto=webp&crop=4995,2809,x0,y127&format=pjpg&width=1200",
         "categories": [
           "Top",
-          "U.S.",
-          "World"
+          "World",
+          "U.S."
         ]
       },
       {
-        "id": "currents-2aa0fd7e-0410-5c09-8e4e-cbd7026aaf40",
-        "title": "Gwyneth Paltrow and Salma Hayek’s nepo baby kids named as the UK’s most eligible socialites",
-        "description": "The exclusive list was published by Tatler this week.",
-        "publisher": "Pagesix",
-        "publisherDomain": "pagesix.com",
-        "publishedAt": "2026-10-29T18:06:52.000Z",
-        "url": "https://pagesix.com/2026/10/29/parents/gwyneth-paltrow-and-salma-hayeks-nepo-baby-kids-named-as-the-uks-most-eligible-socialites",
-        "imageUrl": "https://pagesix.com/wp-content/uploads/sites/3/2026/10/146862437.jpg?quality=75&strip=all&w=1200",
+        "id": "currents-48036c70-0f21-57a7-ab30-20589d19a369",
+        "title": "2 college students found dead after vanishing during Colorado hike",
+        "description": "Kaden Matsuda, 19, and Jackson Donlon, 20, were experienced hikers. They went missing over the weekend amid a snowstorm.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-29T22:44:40.000Z",
+        "url": "https://www.usatoday.com/story/news/nation/2026/10/29/missing-colorado-student-hikers-found-dead/92493171007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/29/USAT/92493381007-untitled-december-18-2025-at-111506.png?auto=webp&crop=2699,1519,x0,y240&format=pjpg&width=1200",
         "categories": [
           "Top",
-          "U.S.",
-          "World"
+          "World",
+          "U.S."
         ]
       },
       {
-        "id": "currents-3db85689-77f0-5522-b4a8-0d528b995683",
-        "title": "Suspect caught after Pacific Beach stabbing",
-        "description": "San Diego police arrested 33-year-old Brian Hecox for assault with a deadly weapon following a stabbing in Pacific Beach early Thursday morning.",
-        "publisher": "Fox5sandiego",
-        "publisherDomain": "fox5sandiego.com",
-        "publishedAt": "2026-10-29T18:15:00.000Z",
-        "url": "https://fox5sandiego.com/news/local-news/san-diego-stabbing-arrest",
+        "id": "currents-20d657b0-d13b-5657-88bb-ebb507224310",
+        "title": "Trump erupts over 'sick' question about canceled midterm rally in Kansas",
+        "description": "President Trump blew up at a reporter who asked about his abrupt cancellation of a campaign rally originally set for Kansas this weekend.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-29T22:44:39.000Z",
+        "url": "https://www.usatoday.com/story/news/politics/2026/10/29/trump-canceled-kansas-rally-midterms/92503423007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/29/USAT/92503930007-20261029-t-205713-z-51018170-rc-28-doaqypoj-rtrmadp-3-usatrump.JPG?auto=webp&crop=6499,3656,x0,y0&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-b135154c-3a83-50c9-84f6-98fc418d4d9a",
+        "title": "Red Wings suspend Dylan Larkin, explore trade options",
+        "description": "The Detroit Red Wings announced Thursday that star forward Dylan Larkin has been suspended without pay after informing the team he no longer wanted to play for them.",
+        "publisher": "ESPN",
+        "publisherDomain": "espn.com",
+        "publishedAt": "2026-10-29T22:44:05.000Z",
+        "url": "https://www.espn.com/nhl/story/_/id/50322532/red-wings-suspend-dylan-larkin-explore-trade-options",
+        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1007%2Fr1727131_1296x729_16%2D9.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-de178b7d-6a8a-591d-9706-0c3884b53d5a",
+        "title": "Ashley Graham launched her wine brand and realized raising money was 'very hard and humbling'",
+        "description": "Speaking at Business Insider's The Long Play, Ashley Graham shared how she has built an impactful, lasting brand beyond modeling.",
+        "publisher": "Businessinsider",
+        "publisherDomain": "businessinsider.com",
+        "publishedAt": "2026-10-29T22:42:28.000Z",
+        "url": "https://www.businessinsider.com/ashley-graham-business-raising-money-lessons-the-long-play-2026-10",
+        "imageUrl": "https://i.insider.com/6ae3bd74911659c36c01b676?width=1200&format=jpeg",
         "categories": [
           "Top",
           "U.S."
         ]
       },
       {
-        "id": "currents-2f145271-1fe1-51ae-a5b0-0d1faf00f80d",
-        "title": "Can You Guess Which Halloween Candies Were Most Popular In 2025?",
-        "description": "Definitely not candy corn...",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-10-29T18:20:34.000Z",
-        "url": "https://www.buzzfeed.com/gem758/can-you-guess-which-halloween-candies-were-most-popular-in-2",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/29/17/thumb/kHfUud944.jpg?crop=1245:830;3,0&resize=1250:830",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-9a598e8d-654a-5fdd-81b5-5cccba22fc17",
-        "title": "Exclusive | Jennifer Lawrence likely underwent multiple plastic surgery procedures costing $30K for ‘more youthful’ look",
-        "description": "The doctors’ observations come just days after Lawrence candidly opened up about her views on plastic surgery in an interview with The Cut published Tuesday.",
-        "publisher": "Pagesix",
-        "publisherDomain": "pagesix.com",
-        "publishedAt": "2026-10-29T18:06:48.000Z",
-        "url": "https://pagesix.com/2026/10/29/celebrity-news/jennifer-lawrence-likely-underwent-multiple-plastic-surgery-procedures-costing-30k-for-more-youthful-look",
-        "imageUrl": "https://pagesix.com/wp-content/uploads/sites/3/2026/10/146863609.jpg?quality=75&strip=all&w=1200",
+        "id": "currents-08dfdd79-7c74-5df8-8d93-71a470243c2d",
+        "title": "3 Cozy Cleaning Games That Are Perfect for Relaxing After a Long Day",
+        "description": "From power-washing with a panda to unpacking a new home, these three cozy games make everyday chores surprisingly relaxing.",
+        "publisher": "Vice",
+        "publisherDomain": "vice.com",
+        "publishedAt": "2026-10-29T22:40:42.000Z",
+        "url": "https://www.vice.com/en/article/3-cozy-cleaning-games-that-are-perfect-for-relaxing-after-a-long-day",
+        "imageUrl": "https://www.vice.com/wp-content/uploads/sites/2/2026/10/3-Cozy-Cleaning-Games-That-Are-Perfect-for-Relaxing-After-a-Long-Day.jpg?w=2000",
         "categories": [
           "Top",
           "U.S.",
@@ -226,46 +188,71 @@
         ]
       },
       {
-        "id": "currents-fc14fde2-dc67-59b2-a0fa-d9244b491ea2",
-        "title": "ASX set to edge up, Alphabet’s plunge weighs down Wall Street ; ECB chief Lagarde resigns",
-        "description": "A potentially historic drop for Alphabet’s stock is dragging the US market lower after the company behind Google and YouTube reported weaker growth than analysts expected.",
-        "publisher": "Theage",
-        "publisherDomain": "theage.com.au",
-        "publishedAt": "2026-10-29T18:18:04.000Z",
-        "url": "https://www.theage.com.au/business/markets/asx-set-to-edge-up-alphabet-s-plunge-weighs-down-wall-street-ecb-chief-lagarde-resigns-20261030-p619vp.html",
-        "imageUrl": "https://static.ffx.io/images/$zoom_0.1833%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_181%2C$y_193/t_crop_custom/q_86%2Cf_auto/1c5c0f4c0e33697d44e1f0022b4fd5eea6d57ae2",
+        "id": "currents-65940b82-2549-59be-94e0-da0266f20d0b",
+        "title": "US Homeland Security cites risk to over 40,000 personnel in effort to take leaked data offline By Reuters",
+        "description": "US Homeland Security cites risk to over 40,000 personnel in effort to take leaked data offline",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-10-29T22:31:02.000Z",
+        "url": "https://www.investing.com/news/world-news/dhs-cites-doxxing-threat-to-more-than-40000-people-in-effort-to-get-leaked-personnel-data-taken-offline-4984840",
+        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXNPEM9S2A7_L.jpg",
         "categories": [
           "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-d73189b7-b2a7-5450-a7a0-17905d03bb0c",
+        "title": "Has my partner lost interest or is he comfortable?",
+        "description": "30F and my fiancé is 33M. We’ve been together for 6 years and living together for 2.5.The first few years were fun, with little discussion about the future. Just vague goals I.e kids one day. Since getting engaged, I’ve initiated conversations about children, timelines, finances and marriage. In hi...",
+        "publisher": "Reddit",
+        "publisherDomain": "reddit.com",
+        "publishedAt": "2026-10-29T22:49:20.000Z",
+        "url": "https://www.reddit.com/r/relationships/comments/1xiysdv/has_my_partner_lost_interest_or_is_he_comfortable",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-d78498a4-17d7-50a3-b587-b9ae486dcf72",
+        "title": "Escambia County residents to receive FEMA help after Hurricane Isaias",
+        "description": "Video above: ‘News 5 Now’ — Top Stories from Oct. 29, 2026 ESCAMBIA COUNTY, Fla. (WKRG) — Escambia County residents can now get assistance from FEMA after the county received a FEMA Disaster Declaration for Individual Assistance. According to a county news release, the declaration will allow residen...",
+        "publisher": "Wkrg",
+        "publisherDomain": "wkrg.com",
+        "publishedAt": "2026-10-29T22:42:46.000Z",
+        "url": "https://www.wkrg.com/northwest-florida/escambia-county/escambia-county-fema-assistance",
+        "categories": [
+          "Top",
+          "U.S.",
           "World"
+        ]
+      },
+      {
+        "id": "currents-159299f8-20d7-5020-8d7d-ac3beb620123",
+        "title": "Sex after baby: How childhood trauma can get in the way",
+        "description": "Why do some parents have more sexual difficulties than others after having a baby? Childhood trauma plays a significant role, amplifying the other factors at play.",
+        "publisher": "Phys",
+        "publisherDomain": "phys.org",
+        "publishedAt": "2026-10-29T22:40:05.000Z",
+        "url": "https://phys.org/news/2026-10-sex-baby-childhood-trauma.html",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
         ]
       }
     ],
     "U.S.": [
       {
-        "id": "currents-0dd1c68f-3417-58f2-bcc2-a8e08062b46b",
-        "title": "Resilience Is the New UX: Building Offline-First Real-Time Apps That Survive Network Failure",
-        "description": "Learn to build offline-first real-time apps with sync engines, CRDTs, and conflict resolution. A practical deep-dive into network-resilient architecture.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-29T18:07:00.000Z",
-        "url": "https://dev.to/tamizuddin/resilience-is-the-new-ux-building-offline-first-real-time-apps-that-survive-network-failure-20a",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fez8qjfo3a4d1juz2vs74.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-2cd22af7-fa13-5807-afa6-d44ad992dca9",
-        "title": "Louisiana treasurer calls for tax cuts after bond rating upgrade",
-        "description": "Louisiana Treasurer John Fleming says the state should advance tax cuts after bond rating upgrade.",
-        "publisher": "Shreveporttimes",
-        "publisherDomain": "shreveporttimes.com",
-        "publishedAt": "2026-10-29T18:19:12.000Z",
-        "url": "https://www.shreveporttimes.com/story/news/2026/10/29/louisiana-treasurer-calls-for-elimination-of-income-tax-after-bond-rating-upgrade-from-fitch/92485841007",
-        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/02/11/PSHR/88626309007-john-fleming-qualify.jpg?auto=webp&crop=3024,1701,x0,y799&format=pjpg&width=1200",
+        "id": "currents-3035d70d-80cb-5295-9863-789be40f09e5",
+        "title": "Trump on Alaska Sen. Race Controversy: It's Voter Fraud",
+        "description": "Bloomberg’s Anna Edgerton joined the show to discuss the Alaska Senate race and the potential legal and campaign-finance questions surrounding ballot stacking. She speaks with Joe Mathieu on Bloomberg’s \"Balance of Power.\" (Source: Bloomberg)",
+        "publisher": "Bloomberg",
+        "publisherDomain": "bloomberg.com",
+        "publishedAt": "2026-10-29T22:46:58.000Z",
+        "url": "https://www.bloomberg.com/news/videos/2026-10-29/trump-on-alaska-sen-race-controversy-it-s-voter-fraud-video",
         "categories": [
           "Top",
           "World",
@@ -273,28 +260,45 @@
         ]
       },
       {
-        "id": "currents-1b18f9d6-a708-52a2-8fbc-c72fae9c9e46",
-        "title": "N.C. lottery player wins $1.9M from her first-ever online game",
-        "description": "A North Carolina woman won a $1,939,727 jackpot from the very first online lottery game she ever tried to play, officials said.",
-        "publisher": "Upi",
-        "publisherDomain": "upi.com",
-        "publishedAt": "2026-10-29T18:13:42.000Z",
-        "url": "https://www.upi.com/Odd_News/2026/10/29/lotto-north-carolina-education-lottery-beginners-luck/9531793297438",
-        "imageUrl": "https://cdnph.upi.com/sv/ph/og/i/9531793297438/2026/1/17932975809669/v1.5/NC-lottery-player-wins-19M-from-her-first-ever-online-game.jpg",
+        "id": "currents-111c4c13-f817-5ab8-b39c-4344fa8ada95",
+        "title": "Binance probes potential $5.8 billion crypto-theft hack",
+        "description": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history.",
+        "publisher": "Bleepingcomputer",
+        "publisherDomain": "bleepingcomputer.com",
+        "publishedAt": "2026-10-29T22:45:23.000Z",
+        "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack",
+        "imageUrl": "https://www.bleepstatic.com/content/hl-images/2023/10/13/back.png",
         "categories": [
           "Top",
+          "Technology",
+          "Science",
           "U.S."
         ]
       },
       {
-        "id": "currents-eea889fe-1e67-5c4a-be11-9c5910797730",
-        "title": "AI uncovers lost 1970s materials to boost next-generation green tech",
-        "description": "Researchers at Sweden's Linköping University used artificial intelligence to search decades of scientific archives and uncovered 33 previously overlooked MXene forms.",
-        "publisher": "Interestingengineering",
-        "publisherDomain": "interestingengineering.com",
-        "publishedAt": "2026-10-29T18:10:30.000Z",
-        "url": "https://interestingengineering.com/innovation/researchers-use-ai-rediscover-forgotten-materials",
-        "imageUrl": "https://cms.interestingengineering.com/wp-content/uploads/2026/10/IE-75.jpg",
+        "id": "currents-d07eab86-b1be-5d1a-a2d1-8bca2c7be6c5",
+        "title": "DHS probes massive leak exposing over 40,000 Homeland Security workers",
+        "description": "A hacker group said the leak is in response to ramped up Homeland Security operations in the US. DHS 'is aware of a potential breach,' it says.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-29T22:44:40.000Z",
+        "url": "https://www.usatoday.com/story/news/nation/2026/10/29/how-did-hack-of-dhs-personnel-happen/92495757007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/09/02/USAT/91585110007-20260901-t-161054-z-913567935-rc-2-eanaky-3-mj-rtrmadp-3-usatrumpmigration.JPG?auto=webp&crop=2706,1522,x0,y141&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-21bb4fff-c2b8-57d8-9187-8457a845f7b8",
+        "title": "DualChem: Evaluating AI Safety in Dual-Use Chemistry",
+        "description": "Scale AI introduces DualChem, the first benchmark from its research collaboration with NIST CAISSI.",
+        "publisher": "Scale",
+        "publisherDomain": "scale.com",
+        "publishedAt": "2026-10-29T22:43:40.000Z",
+        "url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
+        "imageUrl": "https://scale.com/api/og/eyJ0aXRsZSI6IkludHJvZHVjaW5nIER1YWxDaGVtIiwiaW1hZ2UiOiJodHRwczovL2Nkbi5zYW5pdHkuaW8vaW1hZ2VzLzUwemJhMGVvL3Byb2R1Y3Rpb24vMmVmNjAxZGFmZmQ4YmNlMjU3ZGY2M2FkOWE2YzY3NjI0ZjNiOGFiYS0xOTIweDEwODAucG5nP2F1dG89Zm9ybWF0JnE9ODAiLCJsb2dvIjoibm9uZSIsInYiOiIxMDVlNThjYyJ9.jpg",
         "categories": [
           "Top",
           "U.S.",
@@ -303,29 +307,14 @@
         ]
       },
       {
-        "id": "currents-e58cefb5-2c1f-526c-b1ca-4d1a177adf6f",
-        "title": "3SAE's Patented, Ultra-Reliable Micro-Robotic Platform Now Offers Fast Alignment and Tracking for Silicon Photonics Test and Assembly",
-        "description": "/PRNewswire-PRWeb/ -- The alignment equipment industry has hit a ceiling. Photonic integrated circuits, fiber arrays, and co-packaged optics now ship at...",
-        "publisher": "Prweb",
-        "publisherDomain": "prweb.com",
-        "publishedAt": "2026-10-29T18:10:00.000Z",
-        "url": "https://www.prweb.com/releases/3saes-patented-ultra-reliable-micro-robotic-platform-now-offers-fast-alignment-and-tracking-for-silicon-photonics-test-and-assembly-302923958.html",
-        "imageUrl": "https://mmx.prnewswire.com/media/MS2022903/3SAE-Technologies-PentaPod-precision-moun.jpg?id=OA3045363&p=facebook",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-4458dfcb-e088-5f5c-87ea-aa1685289883",
-        "title": "Curry Barker Returns to YouTube With New Short 'Mama Bear'",
-        "description": "\"Obsession\" filmmaker Curry Barker's five-minute horror flick arrives just in time for Halloween",
-        "publisher": "Thewrap",
-        "publisherDomain": "thewrap.com",
-        "publishedAt": "2026-10-29T18:08:43.000Z",
-        "url": "https://www.thewrap.com/creative-content/movies/curry-barker-new-youtube-short-mama-bear",
-        "imageUrl": "https://www.thewrap.com/wp-content/uploads/2026/10/Curry-Barker-Mama-Bear.jpg",
+        "id": "currents-6b92a896-f643-58de-be0c-be7188323607",
+        "title": "DOJ issues grand jury subpoenas to election officials in California",
+        "description": "DOJ issues grand jury subpoenas to local election officials in California as part of its investigation into the state’s voter rolls, multiple sources told ABC News.",
+        "publisher": "6abc",
+        "publisherDomain": "6abc.com",
+        "publishedAt": "2026-10-29T22:41:20.000Z",
+        "url": "https://6abc.com/story/doj-issues-grand-jury-subpoenas-election-officials-california/19997081",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/19997073_doj-file-102926.png?w=1600",
         "categories": [
           "Top",
           "U.S.",
@@ -333,59 +322,149 @@
         ]
       },
       {
-        "id": "currents-a5a32cc2-f6fe-5f5d-8ebb-beba37d204ba",
-        "title": "Cary police standoff lasted nearly 7 hours. A town-wide alert never came",
-        "description": "Cary residents said they had no warning from officials that something was wrong during an hours-long standoff with an armed man Monday.",
-        "publisher": "Newsobserver",
-        "publisherDomain": "newsobserver.com",
-        "publishedAt": "2026-10-29T18:08:29.000Z",
-        "url": "https://www.newsobserver.com/news/local/counties/wake-county/article317819559.html",
-        "imageUrl": "https://www.newsobserver.com/public/latest-news/n8q9n7/picture317787815/alternates/LANDSCAPE_1200/RAL_102626-STANDOFF-TEL-01.JPG",
+        "id": "currents-c422148b-6709-591f-b1db-ec23d28db9c6",
+        "title": "The relationships between noriuchi (stake, risk, time, outcome-sharing gambling) participation, gambling behavior, and problem gambling severity among Japanese gamblers",
+        "description": "IntroductionIn Japan, noriuchi refers to a collaborative gambling practice in which multiple players pool money used for betting and later split the final ne...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-10-29T22:52:03.000Z",
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1831401/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/0F39389F-DE2D-4BF1-AFE71BA9B6F25024/918D96DB-F484-4EC1-8FBF9AB5F74B20F4/WebsiteWebP_XL-FPSYG_Main%20Visual_Green_Website.webp",
         "categories": [
           "Top",
-          "U.S.",
-          "World"
+          "Technology",
+          "Science",
+          "U.S."
         ]
       },
       {
-        "id": "currents-b1316b70-54ad-5697-a8d2-e8b84b2876f2",
-        "title": "Photos: Preparing for the Day of the Dead",
-        "description": "Images from Mexico and other Latin American communities in recent years showing preparations for Día de Muertos, or the Day of the Dead, when people pay homage to departed family members and honor death as a part of life.",
-        "publisher": "Theatlantic",
-        "publisherDomain": "theatlantic.com",
-        "publishedAt": "2026-10-29T18:07:22.000Z",
-        "url": "https://www.theatlantic.com/photography/2026/10/photos-day-of-the-dead/689204",
-        "imageUrl": "https://cdn.theatlantic.com/thumbor/TYefxUq4WRwydpvodd8IKjoyOXU=/0x0:3558x1853/1200x625/media/img/mt/2026/10/a01_G_2301418818/original.jpg",
+        "id": "currents-3743dec1-5d74-5f0f-b0e4-ed7d2926c18b",
+        "title": "Candy prices climb ahead of Halloween as families look for savings",
+        "description": "As Halloween approaches, some Chicago-area shoppers are looking for ways to stretch their budgets as the cost of candy and costumes rises.",
+        "publisher": "Abc7",
+        "publisherDomain": "abc7.com",
+        "publishedAt": "2026-10-29T22:50:15.000Z",
+        "url": "https://abc7.com/post/candy-prices-climb-ahead-halloween-2026-chicago-families-look-savings/19997108",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/19997141_102926-WLS-LEAH-halloween-cost-5-vid.jpg?w=1600",
         "categories": [
+          "Entertainment",
           "Top",
-          "U.S.",
-          "World"
+          "U.S."
         ]
       },
       {
-        "id": "currents-f137fced-540b-5130-a369-ca569b020d21",
-        "title": "3 Songs I Would Play if a Werewolf Asked for Music Recommendations",
-        "description": "I've prepared a selection of excellent songs so I'm ready if a werewolf comes out of the darkness and asks for music recommendations.",
+        "id": "currents-f8c4cbab-4c71-5d0b-ae4b-7ee22bc5cf17",
+        "title": "Long Island woman thanks team that saved her life after stroke",
+        "description": "A Long Island woman who survived a stroke reunited with the doctors who treated her with a lifesaving brain-clot removal procedure and thanked them for helping save her life.",
+        "publisher": "Abc7",
+        "publisherDomain": "abc7.com",
+        "publishedAt": "2026-10-29T22:46:44.000Z",
+        "url": "https://abc7.com/post/long-beach-stroke-survivor-reunites-doctors-saved-life/19996381",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/19997082_102926-wabc-mcnally-stroke-survivor-img.png?w=1600",
+        "categories": [
+          "Entertainment",
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-02c36069-ad1c-58bf-b13b-26a59f42f8b3",
+        "title": "The first global food pyramid vs. RFK Jr.'s. They look nothing alike",
+        "description": "The food pyramid, developed by an international team of nutrition experts, looks starkly different from the one released by U.S. officials in January.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-29T22:44:40.000Z",
+        "url": "https://www.usatoday.com/story/news/health/2026/10/29/first-global-food-pyramid-versus-rfk-jrs-see-differences/92499611007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/29/USAT/92502834007-getty-images-861188910.jpg?auto=webp&crop=2120,1193,x0,y110&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-070858be-07e1-524d-a72d-4cca2c3d8e9c",
+        "title": "'We're technically homeless': Residential cruise ceases operations",
+        "description": "Many residents are suddenly without a place to live after cruise company Villa Vie Residences said it would cease operations this week.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-29T22:44:40.000Z",
+        "url": "https://www.usatoday.com/story/travel/cruises/2026/10/29/residential-cruise-stops-sailing-passengers-stranded/92499541007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/29/USAT/92499581007-20261029-t-065816-z-546283302-rc-2-ucoa-6-l-9-r-0-rtrmadp-3-cambodiaship.JPG?auto=webp&crop=4995,2809,x0,y127&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-48036c70-0f21-57a7-ab30-20589d19a369",
+        "title": "2 college students found dead after vanishing during Colorado hike",
+        "description": "Kaden Matsuda, 19, and Jackson Donlon, 20, were experienced hikers. They went missing over the weekend amid a snowstorm.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-29T22:44:40.000Z",
+        "url": "https://www.usatoday.com/story/news/nation/2026/10/29/missing-colorado-student-hikers-found-dead/92493171007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/29/USAT/92493381007-untitled-december-18-2025-at-111506.png?auto=webp&crop=2699,1519,x0,y240&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-20d657b0-d13b-5657-88bb-ebb507224310",
+        "title": "Trump erupts over 'sick' question about canceled midterm rally in Kansas",
+        "description": "President Trump blew up at a reporter who asked about his abrupt cancellation of a campaign rally originally set for Kansas this weekend.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-29T22:44:39.000Z",
+        "url": "https://www.usatoday.com/story/news/politics/2026/10/29/trump-canceled-kansas-rally-midterms/92503423007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/29/USAT/92503930007-20261029-t-205713-z-51018170-rc-28-doaqypoj-rtrmadp-3-usatrump.JPG?auto=webp&crop=6499,3656,x0,y0&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-b135154c-3a83-50c9-84f6-98fc418d4d9a",
+        "title": "Red Wings suspend Dylan Larkin, explore trade options",
+        "description": "The Detroit Red Wings announced Thursday that star forward Dylan Larkin has been suspended without pay after informing the team he no longer wanted to play for them.",
+        "publisher": "ESPN",
+        "publisherDomain": "espn.com",
+        "publishedAt": "2026-10-29T22:44:05.000Z",
+        "url": "https://www.espn.com/nhl/story/_/id/50322532/red-wings-suspend-dylan-larkin-explore-trade-options",
+        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1007%2Fr1727131_1296x729_16%2D9.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-de178b7d-6a8a-591d-9706-0c3884b53d5a",
+        "title": "Ashley Graham launched her wine brand and realized raising money was 'very hard and humbling'",
+        "description": "Speaking at Business Insider's The Long Play, Ashley Graham shared how she has built an impactful, lasting brand beyond modeling.",
+        "publisher": "Businessinsider",
+        "publisherDomain": "businessinsider.com",
+        "publishedAt": "2026-10-29T22:42:28.000Z",
+        "url": "https://www.businessinsider.com/ashley-graham-business-raising-money-lessons-the-long-play-2026-10",
+        "imageUrl": "https://i.insider.com/6ae3bd74911659c36c01b676?width=1200&format=jpeg",
+        "categories": [
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-08dfdd79-7c74-5df8-8d93-71a470243c2d",
+        "title": "3 Cozy Cleaning Games That Are Perfect for Relaxing After a Long Day",
+        "description": "From power-washing with a panda to unpacking a new home, these three cozy games make everyday chores surprisingly relaxing.",
         "publisher": "Vice",
         "publisherDomain": "vice.com",
-        "publishedAt": "2026-10-29T18:06:59.000Z",
-        "url": "https://www.vice.com/en/article/3-songs-i-would-play-if-a-werewolf-asked-for-music-recommendations",
-        "imageUrl": "https://www.vice.com/wp-content/uploads/sites/2/2026/10/Werewolf-Songs.jpg?w=1200",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-2aa0fd7e-0410-5c09-8e4e-cbd7026aaf40",
-        "title": "Gwyneth Paltrow and Salma Hayek’s nepo baby kids named as the UK’s most eligible socialites",
-        "description": "The exclusive list was published by Tatler this week.",
-        "publisher": "Pagesix",
-        "publisherDomain": "pagesix.com",
-        "publishedAt": "2026-10-29T18:06:52.000Z",
-        "url": "https://pagesix.com/2026/10/29/parents/gwyneth-paltrow-and-salma-hayeks-nepo-baby-kids-named-as-the-uks-most-eligible-socialites",
-        "imageUrl": "https://pagesix.com/wp-content/uploads/sites/3/2026/10/146862437.jpg?quality=75&strip=all&w=1200",
+        "publishedAt": "2026-10-29T22:40:42.000Z",
+        "url": "https://www.vice.com/en/article/3-cozy-cleaning-games-that-are-perfect-for-relaxing-after-a-long-day",
+        "imageUrl": "https://www.vice.com/wp-content/uploads/sites/2/2026/10/3-Cozy-Cleaning-Games-That-Are-Perfect-for-Relaxing-After-a-Long-Day.jpg?w=2000",
         "categories": [
           "Top",
           "U.S.",
@@ -393,143 +472,28 @@
         ]
       },
       {
-        "id": "currents-daa291d2-9c8b-5eeb-93e6-3833bb74b0f3",
-        "title": "RHOC's Tamra Judge Strips Naked Mid-Reunion in Jaw-Dropping Bravo First",
-        "description": "The Real Housewives of Orange County's season 20 reunion became a wet and wild affair as Tamra Judge goes skinny-dipping while Heather Dubrow and Gina Kirschenheiter feud in the Oct. 29 trailer.",
-        "publisher": "E! News",
-        "publisherDomain": "eonline.com",
-        "publishedAt": "2026-10-29T18:06:39.000Z",
-        "url": "https://www.eonline.com/news/1437623/rhoc-reunion-trailer-tamra-judge-gets-naked-in-mind-blowing-moment",
-        "imageUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20261029/1580f0a5-6c8f-4f87-b4ca-fa033516f12b_1793291535.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-3db85689-77f0-5522-b4a8-0d528b995683",
-        "title": "Suspect caught after Pacific Beach stabbing",
-        "description": "San Diego police arrested 33-year-old Brian Hecox for assault with a deadly weapon following a stabbing in Pacific Beach early Thursday morning.",
-        "publisher": "Fox5sandiego",
-        "publisherDomain": "fox5sandiego.com",
-        "publishedAt": "2026-10-29T18:15:00.000Z",
-        "url": "https://fox5sandiego.com/news/local-news/san-diego-stabbing-arrest",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-2f145271-1fe1-51ae-a5b0-0d1faf00f80d",
-        "title": "Can You Guess Which Halloween Candies Were Most Popular In 2025?",
-        "description": "Definitely not candy corn...",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-10-29T18:20:34.000Z",
-        "url": "https://www.buzzfeed.com/gem758/can-you-guess-which-halloween-candies-were-most-popular-in-2",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/29/17/thumb/kHfUud944.jpg?crop=1245:830;3,0&resize=1250:830",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-9a598e8d-654a-5fdd-81b5-5cccba22fc17",
-        "title": "Exclusive | Jennifer Lawrence likely underwent multiple plastic surgery procedures costing $30K for ‘more youthful’ look",
-        "description": "The doctors’ observations come just days after Lawrence candidly opened up about her views on plastic surgery in an interview with The Cut published Tuesday.",
-        "publisher": "Pagesix",
-        "publisherDomain": "pagesix.com",
-        "publishedAt": "2026-10-29T18:06:48.000Z",
-        "url": "https://pagesix.com/2026/10/29/celebrity-news/jennifer-lawrence-likely-underwent-multiple-plastic-surgery-procedures-costing-30k-for-more-youthful-look",
-        "imageUrl": "https://pagesix.com/wp-content/uploads/sites/3/2026/10/146863609.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-71e25fcc-bd78-5f51-83ec-a4dbc3290947",
-        "title": "Pay off car or continue saving",
-        "description": "Hey all i a 23M am considering putting a substantial amount of money towards my auto loan. Currently i owe 8500$ 9% interest on a car loan and also a 8000$ for a student loan. My minimum payment for my car is 250$ a month but I’ve been doing double payments for the past couple months. The minimum pa...",
+        "id": "currents-d73189b7-b2a7-5450-a7a0-17905d03bb0c",
+        "title": "Has my partner lost interest or is he comfortable?",
+        "description": "30F and my fiancé is 33M. We’ve been together for 6 years and living together for 2.5.The first few years were fun, with little discussion about the future. Just vague goals I.e kids one day. Since getting engaged, I’ve initiated conversations about children, timelines, finances and marriage. In hi...",
         "publisher": "Reddit",
         "publisherDomain": "reddit.com",
-        "publishedAt": "2026-10-29T18:07:28.000Z",
-        "url": "https://www.reddit.com/r/personalfinance/comments/1xirh3b/pay_off_car_or_continue_saving",
+        "publishedAt": "2026-10-29T22:49:20.000Z",
+        "url": "https://www.reddit.com/r/relationships/comments/1xiysdv/has_my_partner_lost_interest_or_is_he_comfortable",
         "categories": [
           "Top",
-          "U.S.",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-2da6c25f-993c-5c17-9127-76a3bc32ba53",
-        "title": "The WNBA Scheduling Debacle Just Proved Why You Need to Plan Your Launch Like You Expect to Make the Finals",
-        "description": "The Atlanta Dream warned the WNBA two months before Game 6. Founders and marketers can run the same check on their own launches.",
-        "publisher": "Inc",
-        "publisherDomain": "inc.com",
-        "publishedAt": "2026-10-29T18:08:10.000Z",
-        "url": "https://www.inc.com/nicole-ramirez/atlanta-dream-wnba-finals-schedule-launch-strategy/91425852",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Business"
+          "U.S."
         ]
       }
     ],
     "World": [
       {
-        "id": "currents-967e292e-e3cc-5c0d-ac96-04b8375b52ef",
-        "title": "Hong Kong’s leader apologises for residential fire that killed 168 people",
-        "description": "Blaze last year was deadliest housing fire globally since 1980 and some ex-residents and victims’ families say they still need justice",
-        "publisher": "The Guardian",
-        "publisherDomain": "theguardian.com",
-        "publishedAt": "2026-10-29T18:14:21.000Z",
-        "url": "https://www.theguardian.com/world/2026/oct/29/hong-kong-john-lee-apologises-wang-fuk-court-fire-killed-168-people",
-        "imageUrl": "https://i.guim.co.uk/img/media/2c5d0274ccc74eedd4d8ea37a4defaa01bc5225c/1462_16_3005_2404/master/3005.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ace7d9e4e1581939b77ea89225ab4421",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-accdf866-92f4-5c81-9c3c-63984416e8bc",
-        "title": "Pro-Kannada group to launch month-long campaign for ‘job rights’ of Kannadigas",
-        "description": "KaRaVe will launch a month-long campaign on November 1 to examine Kannadiga hiring in Karnataka's IT and BT companies. The drive follows complaints of recruitment discrimination and a government warning against deliberately sidelining locals.",
-        "publisher": "Indiatoday",
-        "publisherDomain": "indiatoday.in",
-        "publishedAt": "2026-10-29T18:19:12.000Z",
-        "url": "https://www.indiatoday.in/india/karnataka/story/kannadiga-jobs-karave-it-bt-recruitment-campaign-karnataka-bengaluru-it-biotechnology-shivakumar-3028118-2026-10-29",
-        "imageUrl": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202610/members-of-karnataka-rakshana-vedike-protesting-against-releasing-cauvery-river-water-to-tamil-nadu-291657686-16x9_0.jpg?VersionId=dz1N6m3IXpSyaLsoE4cwLNBYkzWzA7GR",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-509eb32e-e765-5cd0-bf59-b01925c0bd73",
-        "title": "Trump failed to stop inflation. Now Republicans may pay price in midterm elections - The Korea Times",
-        "description": "WASHINGTON — President Donald Trump would prefer that voters not worry about inflation. But it's hard for them to ignore. Filling up a basic Ford F...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-10-29T18:12:04.000Z",
-        "url": "https://www.koreatimes.co.kr/world/20261030/trump-failed-to-stop-inflation-now-republicans-may-pay-price-in-midterm-elections",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/10/30/d01b06dd-6e5c-4194-bce6-d4e7fe59afa4.jpg",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-2cd22af7-fa13-5807-afa6-d44ad992dca9",
-        "title": "Louisiana treasurer calls for tax cuts after bond rating upgrade",
-        "description": "Louisiana Treasurer John Fleming says the state should advance tax cuts after bond rating upgrade.",
-        "publisher": "Shreveporttimes",
-        "publisherDomain": "shreveporttimes.com",
-        "publishedAt": "2026-10-29T18:19:12.000Z",
-        "url": "https://www.shreveporttimes.com/story/news/2026/10/29/louisiana-treasurer-calls-for-elimination-of-income-tax-after-bond-rating-upgrade-from-fitch/92485841007",
-        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/02/11/PSHR/88626309007-john-fleming-qualify.jpg?auto=webp&crop=3024,1701,x0,y799&format=pjpg&width=1200",
+        "id": "currents-3035d70d-80cb-5295-9863-789be40f09e5",
+        "title": "Trump on Alaska Sen. Race Controversy: It's Voter Fraud",
+        "description": "Bloomberg’s Anna Edgerton joined the show to discuss the Alaska Senate race and the potential legal and campaign-finance questions surrounding ballot stacking. She speaks with Joe Mathieu on Bloomberg’s \"Balance of Power.\" (Source: Bloomberg)",
+        "publisher": "Bloomberg",
+        "publisherDomain": "bloomberg.com",
+        "publishedAt": "2026-10-29T22:46:58.000Z",
+        "url": "https://www.bloomberg.com/news/videos/2026-10-29/trump-on-alaska-sen-race-controversy-it-s-voter-fraud-video",
         "categories": [
           "Top",
           "World",
@@ -537,56 +501,43 @@
         ]
       },
       {
-        "id": "currents-c611ee23-53cc-5fbc-9dd3-6b28955f10d7",
-        "title": "Hershey warns rising living costs may spook Halloween shoppers - The Korea Times",
-        "description": "Hershey on Thursday warned that increased pressure on shoppers due to high inflation and interest rates could impact how much consumers spend on ca...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-10-29T18:12:04.000Z",
-        "url": "https://www.koreatimes.co.kr/world/20261030/hershey-warns-rising-living-costs-may-spook-halloween-shoppers",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/10/30/f5d98e5c-f075-455c-b25e-423a64ee8318.jpg",
+        "id": "currents-d07eab86-b1be-5d1a-a2d1-8bca2c7be6c5",
+        "title": "DHS probes massive leak exposing over 40,000 Homeland Security workers",
+        "description": "A hacker group said the leak is in response to ramped up Homeland Security operations in the US. DHS 'is aware of a potential breach,' it says.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-29T22:44:40.000Z",
+        "url": "https://www.usatoday.com/story/news/nation/2026/10/29/how-did-hack-of-dhs-personnel-happen/92495757007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/09/02/USAT/91585110007-20260901-t-161054-z-913567935-rc-2-eanaky-3-mj-rtrmadp-3-usatrumpmigration.JPG?auto=webp&crop=2706,1522,x0,y141&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-acecb3d5-697e-5822-bfa3-80f68f1b9eca",
+        "title": "DHSUD turns over 190 housing units for disaster-hit families in Ilocos",
+        "description": "Photo courtesy of the Department of Human Settlements and Urban Development SAN ILDEFONSO, Ilocos Sur — The Department of Human Settlements and Urban Development (DHSUD) turned over 190",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-10-29T22:47:39.000Z",
+        "url": "https://newsinfo.inquirer.net/2332744/dhsud-turns-over-190-housing-units-for-disaster-hit-families-in-ilocos",
+        "imageUrl": "https://newsinfo.inquirer.net/files/2026/10/Screenshot-2026-10-30-at-6.45.11-AM.png",
         "categories": [
           "Top",
           "World"
         ]
       },
       {
-        "id": "currents-fc14fde2-dc67-59b2-a0fa-d9244b491ea2",
-        "title": "ASX set to edge up, Alphabet’s plunge weighs down Wall Street ; ECB chief Lagarde resigns",
-        "description": "A potentially historic drop for Alphabet’s stock is dragging the US market lower after the company behind Google and YouTube reported weaker growth than analysts expected.",
-        "publisher": "Theage",
-        "publisherDomain": "theage.com.au",
-        "publishedAt": "2026-10-29T18:18:04.000Z",
-        "url": "https://www.theage.com.au/business/markets/asx-set-to-edge-up-alphabet-s-plunge-weighs-down-wall-street-ecb-chief-lagarde-resigns-20261030-p619vp.html",
-        "imageUrl": "https://static.ffx.io/images/$zoom_0.1833%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_181%2C$y_193/t_crop_custom/q_86%2Cf_auto/1c5c0f4c0e33697d44e1f0022b4fd5eea6d57ae2",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-b07bc902-a026-55bd-972e-06d1399c34ad",
-        "title": "Calgary police seek record $3.1-billion four-year operating budget, citing growing public safety pressures",
-        "description": "Calgary police are seeking more than $3.1 billion in operating funding over the next four years.",
-        "publisher": "Calgaryherald",
-        "publisherDomain": "calgaryherald.com",
-        "publishedAt": "2026-10-29T18:13:37.000Z",
-        "url": "https://calgaryherald.com/news/calgary-police-seek-record-3-1-billion-four-year-operating-budget-citing-growing-public-safety-pressures",
-        "imageUrl": "https://smartcdn.gprod.postmedia.digital/calgaryherald/wp-content/uploads/2026/01/Calgary-Police-Service-6.jpg",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-e58cefb5-2c1f-526c-b1ca-4d1a177adf6f",
-        "title": "3SAE's Patented, Ultra-Reliable Micro-Robotic Platform Now Offers Fast Alignment and Tracking for Silicon Photonics Test and Assembly",
-        "description": "/PRNewswire-PRWeb/ -- The alignment equipment industry has hit a ceiling. Photonic integrated circuits, fiber arrays, and co-packaged optics now ship at...",
-        "publisher": "Prweb",
-        "publisherDomain": "prweb.com",
-        "publishedAt": "2026-10-29T18:10:00.000Z",
-        "url": "https://www.prweb.com/releases/3saes-patented-ultra-reliable-micro-robotic-platform-now-offers-fast-alignment-and-tracking-for-silicon-photonics-test-and-assembly-302923958.html",
-        "imageUrl": "https://mmx.prnewswire.com/media/MS2022903/3SAE-Technologies-PentaPod-precision-moun.jpg?id=OA3045363&p=facebook",
+        "id": "currents-08dfdd79-7c74-5df8-8d93-71a470243c2d",
+        "title": "3 Cozy Cleaning Games That Are Perfect for Relaxing After a Long Day",
+        "description": "From power-washing with a panda to unpacking a new home, these three cozy games make everyday chores surprisingly relaxing.",
+        "publisher": "Vice",
+        "publisherDomain": "vice.com",
+        "publishedAt": "2026-10-29T22:40:42.000Z",
+        "url": "https://www.vice.com/en/article/3-cozy-cleaning-games-that-are-perfect-for-relaxing-after-a-long-day",
+        "imageUrl": "https://www.vice.com/wp-content/uploads/sites/2/2026/10/3-Cozy-Cleaning-Games-That-Are-Perfect-for-Relaxing-After-a-Long-Day.jpg?w=2000",
         "categories": [
           "Top",
           "U.S.",
@@ -594,681 +545,668 @@
         ]
       },
       {
-        "id": "currents-a5a32cc2-f6fe-5f5d-8ebb-beba37d204ba",
-        "title": "Cary police standoff lasted nearly 7 hours. A town-wide alert never came",
-        "description": "Cary residents said they had no warning from officials that something was wrong during an hours-long standoff with an armed man Monday.",
-        "publisher": "Newsobserver",
-        "publisherDomain": "newsobserver.com",
-        "publishedAt": "2026-10-29T18:08:29.000Z",
-        "url": "https://www.newsobserver.com/news/local/counties/wake-county/article317819559.html",
-        "imageUrl": "https://www.newsobserver.com/public/latest-news/n8q9n7/picture317787815/alternates/LANDSCAPE_1200/RAL_102626-STANDOFF-TEL-01.JPG",
+        "id": "currents-02c36069-ad1c-58bf-b13b-26a59f42f8b3",
+        "title": "The first global food pyramid vs. RFK Jr.'s. They look nothing alike",
+        "description": "The food pyramid, developed by an international team of nutrition experts, looks starkly different from the one released by U.S. officials in January.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-29T22:44:40.000Z",
+        "url": "https://www.usatoday.com/story/news/health/2026/10/29/first-global-food-pyramid-versus-rfk-jrs-see-differences/92499611007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/29/USAT/92502834007-getty-images-861188910.jpg?auto=webp&crop=2120,1193,x0,y110&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-070858be-07e1-524d-a72d-4cca2c3d8e9c",
+        "title": "'We're technically homeless': Residential cruise ceases operations",
+        "description": "Many residents are suddenly without a place to live after cruise company Villa Vie Residences said it would cease operations this week.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-29T22:44:40.000Z",
+        "url": "https://www.usatoday.com/story/travel/cruises/2026/10/29/residential-cruise-stops-sailing-passengers-stranded/92499541007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/29/USAT/92499581007-20261029-t-065816-z-546283302-rc-2-ucoa-6-l-9-r-0-rtrmadp-3-cambodiaship.JPG?auto=webp&crop=4995,2809,x0,y127&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-48036c70-0f21-57a7-ab30-20589d19a369",
+        "title": "2 college students found dead after vanishing during Colorado hike",
+        "description": "Kaden Matsuda, 19, and Jackson Donlon, 20, were experienced hikers. They went missing over the weekend amid a snowstorm.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-29T22:44:40.000Z",
+        "url": "https://www.usatoday.com/story/news/nation/2026/10/29/missing-colorado-student-hikers-found-dead/92493171007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/29/USAT/92493381007-untitled-december-18-2025-at-111506.png?auto=webp&crop=2699,1519,x0,y240&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-20d657b0-d13b-5657-88bb-ebb507224310",
+        "title": "Trump erupts over 'sick' question about canceled midterm rally in Kansas",
+        "description": "President Trump blew up at a reporter who asked about his abrupt cancellation of a campaign rally originally set for Kansas this weekend.",
+        "publisher": "Usatoday",
+        "publisherDomain": "usatoday.com",
+        "publishedAt": "2026-10-29T22:44:39.000Z",
+        "url": "https://www.usatoday.com/story/news/politics/2026/10/29/trump-canceled-kansas-rally-midterms/92503423007",
+        "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/29/USAT/92503930007-20261029-t-205713-z-51018170-rc-28-doaqypoj-rtrmadp-3-usatrump.JPG?auto=webp&crop=6499,3656,x0,y0&format=pjpg&width=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-d78498a4-17d7-50a3-b587-b9ae486dcf72",
+        "title": "Escambia County residents to receive FEMA help after Hurricane Isaias",
+        "description": "Video above: ‘News 5 Now’ — Top Stories from Oct. 29, 2026 ESCAMBIA COUNTY, Fla. (WKRG) — Escambia County residents can now get assistance from FEMA after the county received a FEMA Disaster Declaration for Individual Assistance. According to a county news release, the declaration will allow residen...",
+        "publisher": "Wkrg",
+        "publisherDomain": "wkrg.com",
+        "publishedAt": "2026-10-29T22:42:46.000Z",
+        "url": "https://www.wkrg.com/northwest-florida/escambia-county/escambia-county-fema-assistance",
         "categories": [
           "Top",
           "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-b1316b70-54ad-5697-a8d2-e8b84b2876f2",
-        "title": "Photos: Preparing for the Day of the Dead",
-        "description": "Images from Mexico and other Latin American communities in recent years showing preparations for Día de Muertos, or the Day of the Dead, when people pay homage to departed family members and honor death as a part of life.",
-        "publisher": "Theatlantic",
-        "publisherDomain": "theatlantic.com",
-        "publishedAt": "2026-10-29T18:07:22.000Z",
-        "url": "https://www.theatlantic.com/photography/2026/10/photos-day-of-the-dead/689204",
-        "imageUrl": "https://cdn.theatlantic.com/thumbor/TYefxUq4WRwydpvodd8IKjoyOXU=/0x0:3558x1853/1200x625/media/img/mt/2026/10/a01_G_2301418818/original.jpg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-2aa0fd7e-0410-5c09-8e4e-cbd7026aaf40",
-        "title": "Gwyneth Paltrow and Salma Hayek’s nepo baby kids named as the UK’s most eligible socialites",
-        "description": "The exclusive list was published by Tatler this week.",
-        "publisher": "Pagesix",
-        "publisherDomain": "pagesix.com",
-        "publishedAt": "2026-10-29T18:06:52.000Z",
-        "url": "https://pagesix.com/2026/10/29/parents/gwyneth-paltrow-and-salma-hayeks-nepo-baby-kids-named-as-the-uks-most-eligible-socialites",
-        "imageUrl": "https://pagesix.com/wp-content/uploads/sites/3/2026/10/146862437.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-daa291d2-9c8b-5eeb-93e6-3833bb74b0f3",
-        "title": "RHOC's Tamra Judge Strips Naked Mid-Reunion in Jaw-Dropping Bravo First",
-        "description": "The Real Housewives of Orange County's season 20 reunion became a wet and wild affair as Tamra Judge goes skinny-dipping while Heather Dubrow and Gina Kirschenheiter feud in the Oct. 29 trailer.",
-        "publisher": "E! News",
-        "publisherDomain": "eonline.com",
-        "publishedAt": "2026-10-29T18:06:39.000Z",
-        "url": "https://www.eonline.com/news/1437623/rhoc-reunion-trailer-tamra-judge-gets-naked-in-mind-blowing-moment",
-        "imageUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20261029/1580f0a5-6c8f-4f87-b4ca-fa033516f12b_1793291535.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-7fedcf7a-c2d8-53ee-bbc3-9e4023fd9b0f",
-        "title": "ADL-Boundless study finds simple messaging helps Americans spot antisemitism | The Jerusalem Post",
-        "description": "The study, entitled “Bridging the Gap: What Young Americans Miss About Online Antisemitism,” was conducted to examine how young adults interact with hateful online content.",
-        "publisher": "Jpost",
-        "publisherDomain": "jpost.com",
-        "publishedAt": "2026-10-29T18:13:36.000Z",
-        "url": "https://www.jpost.com/diaspora/antisemitism/article-913287",
-        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/704984",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-e402f874-2e15-58b2-b726-cc35b3b8bae4",
-        "title": "Who is Levi Salem Musa Marhabi, the Yemeni Jew held hostage by the Houthis? | The Jerusalem Post",
-        "description": "Marhabi was arrested in March 2016 for helping a Jewish family and an 800-year-old Torah leave Yemen. In March 2018, he was sentenced to three and a half years in prison.",
-        "publisher": "Jpost",
-        "publisherDomain": "jpost.com",
-        "publishedAt": "2026-10-29T18:13:36.000Z",
-        "url": "https://www.jpost.com/middle-east/article-913283",
-        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/744244",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-9a598e8d-654a-5fdd-81b5-5cccba22fc17",
-        "title": "Exclusive | Jennifer Lawrence likely underwent multiple plastic surgery procedures costing $30K for ‘more youthful’ look",
-        "description": "The doctors’ observations come just days after Lawrence candidly opened up about her views on plastic surgery in an interview with The Cut published Tuesday.",
-        "publisher": "Pagesix",
-        "publisherDomain": "pagesix.com",
-        "publishedAt": "2026-10-29T18:06:48.000Z",
-        "url": "https://pagesix.com/2026/10/29/celebrity-news/jennifer-lawrence-likely-underwent-multiple-plastic-surgery-procedures-costing-30k-for-more-youthful-look",
-        "imageUrl": "https://pagesix.com/wp-content/uploads/sites/3/2026/10/146863609.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-1a8534e7-f095-5749-88c7-fc130dd4bec6",
-        "title": "EC extends SIR deadline in five states, final voter rolls on Nov 30; Delhi's final list due on Dec 22",
-        "description": "EC extends SIR deadline in five states, final voter rolls on Nov 30; Delhi's final list due on Dec 22",
-        "publisher": "Indiatoday",
-        "publisherDomain": "indiatoday.in",
-        "publishedAt": "2026-10-29T18:17:53.000Z",
-        "url": "https://www.indiatoday.in/india/story/ec-extends-sir-deadline-in-five-states-final-voter-rolls-on-nov-30-delhis-final-list-due-on-dec-22-3028124-2026-10-29",
-        "imageUrl": "https://akm-img-a-in.tosshub.com/indiatoday/images/breaking_story_image/202610/WhatsApp%2520Image%25202026-10-26%2520at%252021.03.22_0.jpeg%3FVersionId%3DR.1bmVUu7ABG2MZBoV1K50hrYyjRT0YU?VersionId=9ZBbAjrZij3xACDbjfzDwDcqhEhA0I0s",
-        "categories": [
-          "Top",
           "World"
         ]
       }
     ],
     "Business": [
       {
-        "id": "currents-fa60e3b4-8c91-5ee9-95b5-abd273c43324",
-        "title": "Italy–Canada Business Forum in Toronto: Strengthening Bilateral Relations with the Support of the OpportunItaly Platform",
-        "description": "The high-level Toronto gathering serves as a strategic catalyst for joint industrial ventures, bridging North American industrial demand with advanced European manu…",
+        "id": "currents-65940b82-2549-59be-94e0-da0266f20d0b",
+        "title": "US Homeland Security cites risk to over 40,000 personnel in effort to take leaked data offline By Reuters",
+        "description": "US Homeland Security cites risk to over 40,000 personnel in effort to take leaked data offline",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-10-29T22:31:02.000Z",
+        "url": "https://www.investing.com/news/world-news/dhs-cites-doxxing-threat-to-more-than-40000-people-in-effort-to-get-leaked-personnel-data-taken-offline-4984840",
+        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXNPEM9S2A7_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-aa0e62e1-098b-5c2e-8cbc-0728fcbbb56d",
+        "title": "Binance Hacked? Tether, Circle freeze $2.38 billion after world's largest cryptocurrency exchange probes security issue",
+        "description": "Binance.US, a separate cryptocurrency exchange, said it was not affected by the security incident.",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-10-29T22:45:00.000Z",
+        "url": "https://economictimes.indiatimes.com/news/international/us/binance-hacked-tether-circle-freeze-2-38-billion-after-worlds-largest-cryptocurrency-exchange-probes-security-issue/articleshow/135335286.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-135335322,width-1200,height-900,imgsize-172764,overlay-economictimes/articleshow.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-ed0f36e6-df60-58e8-b987-4d14e4b206ca",
+        "title": "Aetherion to Issue Q3 2026 Financial Results on November 12, 2026",
+        "description": "VANCOUVER, British Columbia, Oct. 29, 2026 (GLOBE NEWSWIRE) — Aetherion Technologies Inc. (“Aetherion”) (TSX: AETR / Nasdaq: AETR), announces that the Company wil…",
         "publisher": "Financial Post",
         "publisherDomain": "financialpost.com",
-        "publishedAt": "2026-10-29T18:00:44.000Z",
-        "url": "https://financialpost.com/globe-newswire/italy-canada-business-forum-in-toronto-strengthening-bilateral-relations-with-the-support-of-the-opportunitaly-platform",
+        "publishedAt": "2026-10-29T22:31:14.000Z",
+        "url": "https://financialpost.com/globe-newswire/aetherion-to-issue-q3-2026-financial-results-on-november-12-2026",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-cb598fc9-13e1-5f34-947d-25a816a4518f",
-        "title": "Early Anthropic member recalls burnout and big ambitions in the AI lab's early days",
-        "description": "An early Anthropic employee wrote a lengthy post, describing the AI lab's early safety culture, equity pledges, an FBI visit, and burnout.",
-        "publisher": "Businessinsider",
-        "publisherDomain": "businessinsider.com",
-        "publishedAt": "2026-10-29T18:13:55.000Z",
-        "url": "https://www.businessinsider.com/early-anthropic-employee-dishes-ai-lab-2026-10",
-        "imageUrl": "https://i.insider.com/6ae35dcdaadfd0d73e92d752?width=1200&format=jpeg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-852fee12-53b7-5c2d-a619-abbf7d838c73",
-        "title": "Japan's Upbond to offer tax-free shopping refunds in JPYC stablecoin",
-        "description": "Wallet platform to speed repayments to foreign travelers after move away from exemptions",
-        "publisher": "Nikkei",
-        "publisherDomain": "asia.nikkei.com",
-        "publishedAt": "2026-10-29T18:11:42.000Z",
-        "url": "https://asia.nikkei.com/spotlight/cryptocurrencies/japan-s-upbond-to-offer-tax-free-shopping-refunds-in-jpyc-stablecoin",
-        "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F3%2F2%2F0%2F0%2F13380023-2-eng-GB%2F20eadf4fca5e-photo_SXM2026102800008826.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-2b5f3e7a-9dfe-5e79-9fc3-a145af2ca9a2",
-        "title": "Archer Aviation Stock Moves Higher: What's Happening? - Archer Aviation (NYSE:ACHR)",
-        "description": "Archer Aviation shares are rising Thursday. The company signed a partnership with ITA Airways to build an electric air taxi network in Italy.",
+        "id": "currents-e12e5931-b3e3-56aa-9857-766ac4214ea2",
+        "title": "Arthur J. Gallagher Q3 2026 Earnings Call Transcript - Arthur J. Gallagher (NYSE:AJG)",
+        "description": "Arthur J. Gallagher (NYSE:AJG) reported third-quarter financial results on Thursday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga",
         "publisher": "Benzinga",
         "publisherDomain": "benzinga.com",
-        "publishedAt": "2026-10-29T18:05:34.000Z",
-        "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62711103/archer-aviation-stock-moves-higher-whats-happening",
-        "imageUrl": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/10/29/San-Jose--California-Us---February-14--2.jpg",
+        "publishedAt": "2026-10-29T22:38:05.000Z",
+        "url": "https://www.benzinga.com/news/26/10/62725467/arthur-j-gallagher-q3-2026-earnings-call-transcript",
+        "imageUrl": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/10/29/Stock-market-chart-with-green-candlestic.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-6c45a5b1-407a-58d0-9241-1fe9b524ea16",
-        "title": "2027: Makinde Queries Wike Over APM Inclusion In Rainbow Coalition",
-        "description": "The Allied Peoples Movement (APM) presidential candidate, Seyi Makinde, has berated the Minister of the Federal Capital Territory (FCT), Nyesom Wike, for",
-        "publisher": "Naijanews",
-        "publisherDomain": "naijanews.com",
-        "publishedAt": "2026-10-29T18:03:24.000Z",
-        "url": "https://www.naijanews.com/2026/10/29/2027-makinde-queries-wike-over-apm-inclusion-in-rainbow-coalition",
-        "imageUrl": "https://www.naijanews.com/wp-content/uploads/2026/10/Nyesom-Wike-and-Seyi-Makinde.jpeg",
+        "id": "currents-2b1b5435-e952-5313-8752-768cac6eb8f7",
+        "title": "Earnings call transcript: Alignment Healthcare Q3 2026 revenue beats as shares slide By Investing.com",
+        "description": "Earnings call transcript: Alignment Healthcare Q3 2026 revenue beats as shares slide",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-10-29T22:33:57.000Z",
+        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-alignment-healthcare-q3-2026-revenue-beats-as-shares-slide-93CH-4985518",
+        "imageUrl": "https://content-media.investing.com/news/LYNXMPECBE0OL_L.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-4ac680ee-e772-5ef9-920e-53cb0120bb19",
-        "title": "Flamingos Of Nigeria Beat Mexico To Reach U-17 Women’s World Cup Quarter-Finals",
-        "description": "The Flamingos of Nigeria reached the quarter-finals of the FIFA U-17 Women’s World Cup after defeating Mexico 2-1 in their round-of-16 clash in Sale,",
-        "publisher": "Naijanews",
-        "publisherDomain": "naijanews.com",
-        "publishedAt": "2026-10-29T18:02:08.000Z",
-        "url": "https://www.naijanews.com/2026/10/29/flamingos-nigeria-beat-mexico-reach-u-17-womens-world-cup-quarter-finals",
-        "imageUrl": "https://www.naijanews.com/wp-content/uploads/2026/10/1792563190259.jpg",
+        "id": "currents-ffaf98e7-8284-54c1-baa2-9074cdb92fad",
+        "title": "Intel Q3 2026 slides: record data center growth, stock tumbles on outlook By Investing.com",
+        "description": "Intel Q3 2026 slides: record data center growth, stock tumbles on outlook",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-10-29T22:32:45.000Z",
+        "url": "https://www.investing.com/news/company-news/intel-q3-2026-slides-record-data-center-growth-stock-tumbles-on-outlook-93CH-4985517",
+        "imageUrl": "https://content-media.investing.com/news/LYNXMPEM4J1W2_1200_L.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-61618a82-6dd7-511e-8190-884a26293f4d",
-        "title": "Establishment Labs Holdings Reports Wider Than Expected Q3 2026 Loss",
-        "description": "Establishment Labs Holdings Reports Wider Than Expected Q3 2026 Loss",
-        "publisher": "Alphastreet",
-        "publisherDomain": "news.alphastreet.com",
-        "publishedAt": "2026-10-29T18:01:41.000Z",
-        "url": "https://news.alphastreet.com/establishment-labs-holdings-reports-wider-than-expected-q3-2026-loss",
-        "imageUrl": "https://cdn.news.alphastreet.com/wp-content/uploads/2026/10/29125237/ESTA-earnings_flash-chart.png",
+        "id": "currents-0de54e77-4700-5be3-b9b8-6fbc05bc059d",
+        "title": "Enova International CSO Kirk Chartier sells $4.8M in shares By Investing.com",
+        "description": "Enova International CSO Kirk Chartier sells $4.8M in shares",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-10-29T22:31:48.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/enova-international-cso-kirk-chartier-sells-48m-in-shares-93CH-4985516",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM431A2_1200_L.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-c38732f2-eb96-5097-afef-74a4735c6c07",
-        "title": "AGCO Gains Despite Sales Miss, Cut Guidance As Management Points To 2027 Recovery - AGCO (NYSE:AGCO)",
-        "description": "AGCO earnings beat estimates as shares rise, while management sees the farm equipment cycle near a trough and targets 2027 recovery.",
+        "id": "currents-62113b50-fa2e-50ff-bdba-7a8d4802ac87",
+        "title": "HP president Anneliese Olson sells $618,542 in company stock By Investing.com",
+        "description": "HP president Anneliese Olson sells $618,542 in company stock",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-10-29T22:31:13.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/hp-president-anneliese-olson-sells-618542-in-company-stock-93CH-4985515",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM4519D_1200_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-8597004d-17ee-585e-bcbc-466362c6e485",
+        "title": "Enova International executive chairman sells $4m in shares By Investing.com",
+        "description": "Enova International executive chairman sells $4m in shares",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-10-29T22:31:07.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/enova-international-executive-chairman-sells-4m-in-shares-93CH-4985513",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM4416N_1200_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-d4c977de-07ee-544c-aec1-6cb853f4e278",
+        "title": "Enova International CEO Steven Cunningham sells $2.63M in stock By Investing.com",
+        "description": "Enova International CEO Steven Cunningham sells $2.63M in stock",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-10-29T22:31:07.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/enova-international-ceo-steven-cunningham-sells-263m-in-stock-93CH-4985514",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM3Q0WG_1200_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-e1c13528-1d56-549f-a9fe-909fac93ddad",
+        "title": "Alignment Healthcare Q3 2026 Earnings Call Transcript - Alignment Healthcare (NASDAQ:ALHC)",
+        "description": "Alignment Healthcare (NASDAQ:ALHC) reported third-quarter financial results on Thursday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you by",
         "publisher": "Benzinga",
         "publisherDomain": "benzinga.com",
-        "publishedAt": "2026-10-29T18:01:34.000Z",
-        "url": "https://www.benzinga.com/markets/earnings/26/10/62710959/agco-gains-despite-sales-miss-cut-guidance-as-management-points-to-2027-recovery",
-        "imageUrl": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/10/29/AGCO-Corp.jpg",
+        "publishedAt": "2026-10-29T22:37:25.000Z",
+        "url": "https://www.benzinga.com/news/26/10/62725443/alignment-healthcare-q3-2026-earnings-call-transcript",
+        "imageUrl": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/10/29/Stock-market-chart-with-green-candlestic.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-cc2d9119-97ef-5db6-9c9d-32b5cb18db63",
-        "title": "ProStar CEO Michael Wolff Outlines Growth Strategy After First 90 Days",
-        "description": "In his first months, Mr. Wolff has followed a clear order of priorities: Team, Customer, Product, then Growth. That approach shaped his first 90 days and...",
+        "id": "currents-0f4978cb-086b-5919-8b95-f077a6e0616e",
+        "title": "Pinterest Q3 2026 Earnings Call Transcript - Pinterest (NYSE:PINS)",
+        "description": "Pinterest (NYSE:PINS) reported third-quarter financial results on Thursday. The transcript from the company’s third-quarter earnings call has been provided below.This transcript is brought to you by Benzinga APIs. For",
+        "publisher": "Benzinga",
+        "publisherDomain": "benzinga.com",
+        "publishedAt": "2026-10-29T22:35:43.000Z",
+        "url": "https://www.benzinga.com/news/26/10/62725420/pinterest-q3-2026-earnings-call-transcript",
+        "imageUrl": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/10/29/Stock-Market-Trading-Chart-And-Analyzing.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-e8657dcf-8ab8-5c78-a847-be4214dbf82e",
+        "title": "Black Diamond Reports Strong Third Quarter Results with Record Consolidated Revenue and Increases Dividend by 22%",
+        "description": "CALGARY, Alberta, Oct. 29, 2026 (GLOBE NEWSWIRE) -- Black Diamond Group Limited (",
         "publisher": "Globenewswire",
         "publisherDomain": "globenewswire.com",
-        "publishedAt": "2026-10-29T18:01:00.000Z",
-        "url": "https://www.globenewswire.com/news-release/2026/10/29/3391757/0/en/prostar-ceo-michael-wolff-outlines-growth-strategy-after-first-90-days.html",
-        "imageUrl": "https://ml.globenewswire.com/Resource/Download/96353a7f-6906-43e5-bb9d-b92448cd90a1",
+        "publishedAt": "2026-10-29T22:32:00.000Z",
+        "url": "https://www.globenewswire.com/news-release/2026/10/29/3391959/0/en/black-diamond-reports-strong-third-quarter-results-with-record-consolidated-revenue-and-increases-dividend-by-22.html",
+        "imageUrl": "https://ml.globenewswire.com/Resource/Download/659a5e3f-2817-453a-a50e-9b13d6d1bfdc",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-59ed5a32-80fc-51d8-9ea7-207853b394b7",
-        "title": "HII targets $10.5B-$10.7B 2026 shipbuilding revenue while forecasting $1.2B-$1.3B cumulative free cash flow for 2026-27 (NYSE:HII)",
-        "description": "Huntington Ingalls Q3 2026 earnings showed record sales, $32B in awards, and higher guidance.",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-10-29T18:00:49.000Z",
-        "url": "https://seekingalpha.com/news/4660624-hii-targets-10_5b-10_7b-2026-shipbuilding-revenue-while-forecasting-1_2b-1_3b-cumulative-free?feed_item_type=news",
-        "imageUrl": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+        "id": "currents-2fdaf5f8-9aec-5d23-8ed3-4b99ba6605b2",
+        "title": "KALDVIK AS (KLDVK): Update on refinancing process and extension of waiver period",
+        "description": "Frøya, 29 October 2026 – Reference is made to Kaldvik AS’ (“Kaldvik” or the “Company”) stock exchange announcements of 1, 25, 26 and 28 October 2026...",
+        "publisher": "Globenewswire",
+        "publisherDomain": "globenewswire.com",
+        "publishedAt": "2026-10-29T22:35:00.000Z",
+        "url": "https://www.globenewswire.com/news-release/2026/10/29/3391961/0/en/kaldvik-as-kldvk-update-on-refinancing-process-and-extension-of-waiver-period.html",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-3796d8a8-d5af-50c8-a618-de4ff31e10ea",
-        "title": "Patrick outlines 2027 adjusted operating margin up 30-50 bps while launching Patrick 2.0 restructuring (NASDAQ:PATK)",
-        "description": "Patrick Industries Q3 2026 earnings show resilient margins, Patrick 2.0 savings, and cautious 2027 guidance.",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-10-29T18:00:43.000Z",
-        "url": "https://seekingalpha.com/news/4660623-patrick-outlines-2027-adjusted-operating-margin-up-30minus-50-bps-while-launching-patrick-2_0",
-        "imageUrl": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+        "id": "currents-184c8ffe-602b-5cfc-9dfe-862d5fb32e5d",
+        "title": "Stocks Close Lower as Alphabet Disappoints and Chip Stocks Fall",
+        "description": "The S&P 500 Index ($SPX ) (SPY ) fell -0.30%, the Dow Jones Industrial Average ($DOWI ) (DIA ) fell -0.25%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) fell -1.38%. December E-mini S&P futures (ESZ26 ) fell -0.87%, and December E-mini Nasdaq futures (NQZ26 ) fell -2.67%. US...",
+        "publisher": "Nasdaq",
+        "publisherDomain": "nasdaq.com",
+        "publishedAt": "2026-10-29T22:34:05.000Z",
+        "url": "https://www.nasdaq.com/articles/stocks-close-lower-alphabet-disappoints-and-chip-stocks-fall",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-6b02e3b8-4b4e-5bf4-a38e-de599a0fad20",
-        "title": "Darling Ingredients reaffirms $2.2B-$2.3B 2026 adjusted EBITDA, targets net debt at or below $3B by year-end (NYSE:DAR)",
-        "description": "Darling Ingredients Q3 2026 earnings: EBITDA beat, debt fell $420M, and 2026 guidance held.",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-10-29T18:00:43.000Z",
-        "url": "https://seekingalpha.com/news/4660621-darling-ingredients-reaffirms-2_2b-2_3b-2026-adjusted-ebitda-targets-net-debt-at-or-below-3b?feed_item_type=news",
-        "imageUrl": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+        "id": "currents-f044ff9a-f3f3-5612-be42-acdd84679010",
+        "title": "Soybeans On the Lower Side of Unchanged on Thursday",
+        "description": "Soybeans are down 1 to 3 cents in the front months on Thursday with some deferreds showing strength. First notice day for November is on Friday. The cmdtyView national average Cash Bean price is down 2 3/4 cents at $11.64 1/4. Soymeal futures are $5.20 to $6.50 lower, as Soy...",
+        "publisher": "Nasdaq",
+        "publisherDomain": "nasdaq.com",
+        "publishedAt": "2026-10-29T22:34:04.000Z",
+        "url": "https://www.nasdaq.com/articles/soybeans-lower-side-unchanged-thursday",
         "categories": [
           "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-150000af-202b-5365-867a-0da1858a5040",
-        "title": "Forbright anticipates wider Q4 NIM while preparing a phased checking launch in Q1 2027 (NASDAQ:FRBT)",
-        "description": "Forbright Q3 2026 earnings: loan growth, $1B in digital deposits, wider Q4 NIM outlook, and branch sale updates.",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-10-29T18:00:33.000Z",
-        "url": "https://seekingalpha.com/news/4660620-forbright-anticipates-wider-q4-nim-while-preparing-a-phased-checking-launch-in-q1-2027?feed_item_type=news",
-        "imageUrl": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-eb581b0b-b01d-56e2-975b-12e1a8293386",
-        "title": "Wesco raises 2026 outlook to $26.8B-$27B sales and $18-$18.50 adjusted EPS amid 13%-14% organic growth forecast (NYSE:WCC)",
-        "description": "Wesco Q3 2026 earnings: record sales, backlog and EPS, fueled by data center growth and raised outlook.",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-10-29T18:00:32.000Z",
-        "url": "https://seekingalpha.com/news/4660619-wesco-raises-2026-outlook-to-26_8b-27b-sales-and-18-18_50-adjusted-eps-amid-13-percentminus",
-        "imageUrl": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-71e25fcc-bd78-5f51-83ec-a4dbc3290947",
-        "title": "Pay off car or continue saving",
-        "description": "Hey all i a 23M am considering putting a substantial amount of money towards my auto loan. Currently i owe 8500$ 9% interest on a car loan and also a 8000$ for a student loan. My minimum payment for my car is 250$ a month but I’ve been doing double payments for the past couple months. The minimum pa...",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-10-29T18:07:28.000Z",
-        "url": "https://www.reddit.com/r/personalfinance/comments/1xirh3b/pay_off_car_or_continue_saving",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-2da6c25f-993c-5c17-9127-76a3bc32ba53",
-        "title": "The WNBA Scheduling Debacle Just Proved Why You Need to Plan Your Launch Like You Expect to Make the Finals",
-        "description": "The Atlanta Dream warned the WNBA two months before Game 6. Founders and marketers can run the same check on their own launches.",
-        "publisher": "Inc",
-        "publisherDomain": "inc.com",
-        "publishedAt": "2026-10-29T18:08:10.000Z",
-        "url": "https://www.inc.com/nicole-ramirez/atlanta-dream-wnba-finals-schedule-launch-strategy/91425852",
-        "categories": [
-          "Top",
-          "U.S.",
           "Business"
         ]
       }
     ],
     "Technology": [
       {
-        "id": "currents-0dd1c68f-3417-58f2-bcc2-a8e08062b46b",
-        "title": "Resilience Is the New UX: Building Offline-First Real-Time Apps That Survive Network Failure",
-        "description": "Learn to build offline-first real-time apps with sync engines, CRDTs, and conflict resolution. A practical deep-dive into network-resilient architecture.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-29T18:07:00.000Z",
-        "url": "https://dev.to/tamizuddin/resilience-is-the-new-ux-building-offline-first-real-time-apps-that-survive-network-failure-20a",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fez8qjfo3a4d1juz2vs74.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-45d7b827-2c55-5eb5-997a-d448e8bc2535",
-        "title": "CVE-2026-51863 eosphoros-ai DB-GPT examples_api.py use_example_file path traversal",
-        "description": "A vulnerability was determined in eosphoros-ai DB-GPT 0.7.5/0.8.0. This vulnerability is tracked as CVE-2026-51863.",
-        "publisher": "Vuldb",
-        "publisherDomain": "vuldb.com",
-        "publishedAt": "2026-10-29T18:11:47.000Z",
-        "url": "https://vuldb.com/vuln/428708",
-        "imageUrl": "https://vuldb.com/_thm/preview_images/vuldb_vulnerability-10.jpg",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-eea889fe-1e67-5c4a-be11-9c5910797730",
-        "title": "AI uncovers lost 1970s materials to boost next-generation green tech",
-        "description": "Researchers at Sweden's Linköping University used artificial intelligence to search decades of scientific archives and uncovered 33 previously overlooked MXene forms.",
-        "publisher": "Interestingengineering",
-        "publisherDomain": "interestingengineering.com",
-        "publishedAt": "2026-10-29T18:10:30.000Z",
-        "url": "https://interestingengineering.com/innovation/researchers-use-ai-rediscover-forgotten-materials",
-        "imageUrl": "https://cms.interestingengineering.com/wp-content/uploads/2026/10/IE-75.jpg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-51010e8f-1dc9-575f-a945-bca3d03ed597",
-        "title": "Celebrating SIM Cards",
-        "description": "It’s time to celebrate a little win. The other day, my mom contacted me saying her 10-year-old iPhone wouldn’t turn on. After getting a hold of the device and…",
-        "publisher": "Jim Nielsen",
-        "publisherDomain": "blog.jim-nielsen.com",
-        "publishedAt": "2026-10-29T18:18:35.000Z",
-        "url": "https://blog.jim-nielsen.com/2026/celebrating-sim-cards",
+        "id": "currents-111c4c13-f817-5ab8-b39c-4344fa8ada95",
+        "title": "Binance probes potential $5.8 billion crypto-theft hack",
+        "description": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history.",
+        "publisher": "Bleepingcomputer",
+        "publisherDomain": "bleepingcomputer.com",
+        "publishedAt": "2026-10-29T22:45:23.000Z",
+        "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack",
+        "imageUrl": "https://www.bleepstatic.com/content/hl-images/2023/10/13/back.png",
         "categories": [
           "Top",
           "Technology",
           "Science",
           "U.S."
+        ]
+      },
+      {
+        "id": "currents-21bb4fff-c2b8-57d8-9187-8457a845f7b8",
+        "title": "DualChem: Evaluating AI Safety in Dual-Use Chemistry",
+        "description": "Scale AI introduces DualChem, the first benchmark from its research collaboration with NIST CAISSI.",
+        "publisher": "Scale",
+        "publisherDomain": "scale.com",
+        "publishedAt": "2026-10-29T22:43:40.000Z",
+        "url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
+        "imageUrl": "https://scale.com/api/og/eyJ0aXRsZSI6IkludHJvZHVjaW5nIER1YWxDaGVtIiwiaW1hZ2UiOiJodHRwczovL2Nkbi5zYW5pdHkuaW8vaW1hZ2VzLzUwemJhMGVvL3Byb2R1Y3Rpb24vMmVmNjAxZGFmZmQ4YmNlMjU3ZGY2M2FkOWE2YzY3NjI0ZjNiOGFiYS0xOTIweDEwODAucG5nP2F1dG89Zm9ybWF0JnE9ODAiLCJsb2dvIjoibm9uZSIsInYiOiIxMDVlNThjYyJ9.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-c422148b-6709-591f-b1db-ec23d28db9c6",
+        "title": "The relationships between noriuchi (stake, risk, time, outcome-sharing gambling) participation, gambling behavior, and problem gambling severity among Japanese gamblers",
+        "description": "IntroductionIn Japan, noriuchi refers to a collaborative gambling practice in which multiple players pool money used for betting and later split the final ne...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-10-29T22:52:03.000Z",
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1831401/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/0F39389F-DE2D-4BF1-AFE71BA9B6F25024/918D96DB-F484-4EC1-8FBF9AB5F74B20F4/WebsiteWebP_XL-FPSYG_Main%20Visual_Green_Website.webp",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-159299f8-20d7-5020-8d7d-ac3beb620123",
+        "title": "Sex after baby: How childhood trauma can get in the way",
+        "description": "Why do some parents have more sexual difficulties than others after having a baby? Childhood trauma plays a significant role, amplifying the other factors at play.",
+        "publisher": "Phys",
+        "publisherDomain": "phys.org",
+        "publishedAt": "2026-10-29T22:40:05.000Z",
+        "url": "https://phys.org/news/2026-10-sex-baby-childhood-trauma.html",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-2bb8a4be-8e80-5205-8b03-2ed1102c3eab",
+        "title": "Measuring multiple reactions on a single electrode with extraordinary sensitivity",
+        "description": "A reaction on a single electrode can tell scientists a remarkable amount about the chemical nature and number of analytes involved. The challenge comes when they want to distinguish many reactions on the same electrode. After more than a decade of trying to overcome that limitation, Ravi Saraf and h...",
+        "publisher": "Phys",
+        "publisherDomain": "phys.org",
+        "publishedAt": "2026-10-29T22:40:01.000Z",
+        "url": "https://phys.org/news/2026-10-multiple-reactions-electrode-extraordinary-sensitivity.html",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
         ]
       }
     ],
     "Science": [
       {
-        "id": "currents-0dd1c68f-3417-58f2-bcc2-a8e08062b46b",
-        "title": "Resilience Is the New UX: Building Offline-First Real-Time Apps That Survive Network Failure",
-        "description": "Learn to build offline-first real-time apps with sync engines, CRDTs, and conflict resolution. A practical deep-dive into network-resilient architecture.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-10-29T18:07:00.000Z",
-        "url": "https://dev.to/tamizuddin/resilience-is-the-new-ux-building-offline-first-real-time-apps-that-survive-network-failure-20a",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fez8qjfo3a4d1juz2vs74.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-45d7b827-2c55-5eb5-997a-d448e8bc2535",
-        "title": "CVE-2026-51863 eosphoros-ai DB-GPT examples_api.py use_example_file path traversal",
-        "description": "A vulnerability was determined in eosphoros-ai DB-GPT 0.7.5/0.8.0. This vulnerability is tracked as CVE-2026-51863.",
-        "publisher": "Vuldb",
-        "publisherDomain": "vuldb.com",
-        "publishedAt": "2026-10-29T18:11:47.000Z",
-        "url": "https://vuldb.com/vuln/428708",
-        "imageUrl": "https://vuldb.com/_thm/preview_images/vuldb_vulnerability-10.jpg",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-eea889fe-1e67-5c4a-be11-9c5910797730",
-        "title": "AI uncovers lost 1970s materials to boost next-generation green tech",
-        "description": "Researchers at Sweden's Linköping University used artificial intelligence to search decades of scientific archives and uncovered 33 previously overlooked MXene forms.",
-        "publisher": "Interestingengineering",
-        "publisherDomain": "interestingengineering.com",
-        "publishedAt": "2026-10-29T18:10:30.000Z",
-        "url": "https://interestingengineering.com/innovation/researchers-use-ai-rediscover-forgotten-materials",
-        "imageUrl": "https://cms.interestingengineering.com/wp-content/uploads/2026/10/IE-75.jpg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-51010e8f-1dc9-575f-a945-bca3d03ed597",
-        "title": "Celebrating SIM Cards",
-        "description": "It’s time to celebrate a little win. The other day, my mom contacted me saying her 10-year-old iPhone wouldn’t turn on. After getting a hold of the device and…",
-        "publisher": "Jim Nielsen",
-        "publisherDomain": "blog.jim-nielsen.com",
-        "publishedAt": "2026-10-29T18:18:35.000Z",
-        "url": "https://blog.jim-nielsen.com/2026/celebrating-sim-cards",
+        "id": "currents-111c4c13-f817-5ab8-b39c-4344fa8ada95",
+        "title": "Binance probes potential $5.8 billion crypto-theft hack",
+        "description": "Cryptocurrency exchange Binance is investigating a potential security breach involving up to $5.8 billion in digital assets, in what could become the largest cryptocurrency hack in history.",
+        "publisher": "Bleepingcomputer",
+        "publisherDomain": "bleepingcomputer.com",
+        "publishedAt": "2026-10-29T22:45:23.000Z",
+        "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack",
+        "imageUrl": "https://www.bleepstatic.com/content/hl-images/2023/10/13/back.png",
         "categories": [
           "Top",
           "Technology",
           "Science",
           "U.S."
         ]
+      },
+      {
+        "id": "currents-21bb4fff-c2b8-57d8-9187-8457a845f7b8",
+        "title": "DualChem: Evaluating AI Safety in Dual-Use Chemistry",
+        "description": "Scale AI introduces DualChem, the first benchmark from its research collaboration with NIST CAISSI.",
+        "publisher": "Scale",
+        "publisherDomain": "scale.com",
+        "publishedAt": "2026-10-29T22:43:40.000Z",
+        "url": "https://scale.com/blog/dualchem-evaluating-ai-models-dual-use-chemistry-risks",
+        "imageUrl": "https://scale.com/api/og/eyJ0aXRsZSI6IkludHJvZHVjaW5nIER1YWxDaGVtIiwiaW1hZ2UiOiJodHRwczovL2Nkbi5zYW5pdHkuaW8vaW1hZ2VzLzUwemJhMGVvL3Byb2R1Y3Rpb24vMmVmNjAxZGFmZmQ4YmNlMjU3ZGY2M2FkOWE2YzY3NjI0ZjNiOGFiYS0xOTIweDEwODAucG5nP2F1dG89Zm9ybWF0JnE9ODAiLCJsb2dvIjoibm9uZSIsInYiOiIxMDVlNThjYyJ9.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-c422148b-6709-591f-b1db-ec23d28db9c6",
+        "title": "The relationships between noriuchi (stake, risk, time, outcome-sharing gambling) participation, gambling behavior, and problem gambling severity among Japanese gamblers",
+        "description": "IntroductionIn Japan, noriuchi refers to a collaborative gambling practice in which multiple players pool money used for betting and later split the final ne...",
+        "publisher": "Frontiers",
+        "publisherDomain": "frontiersin.org",
+        "publishedAt": "2026-10-29T22:52:03.000Z",
+        "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1831401/full",
+        "imageUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/0F39389F-DE2D-4BF1-AFE71BA9B6F25024/918D96DB-F484-4EC1-8FBF9AB5F74B20F4/WebsiteWebP_XL-FPSYG_Main%20Visual_Green_Website.webp",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-159299f8-20d7-5020-8d7d-ac3beb620123",
+        "title": "Sex after baby: How childhood trauma can get in the way",
+        "description": "Why do some parents have more sexual difficulties than others after having a baby? Childhood trauma plays a significant role, amplifying the other factors at play.",
+        "publisher": "Phys",
+        "publisherDomain": "phys.org",
+        "publishedAt": "2026-10-29T22:40:05.000Z",
+        "url": "https://phys.org/news/2026-10-sex-baby-childhood-trauma.html",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-2bb8a4be-8e80-5205-8b03-2ed1102c3eab",
+        "title": "Measuring multiple reactions on a single electrode with extraordinary sensitivity",
+        "description": "A reaction on a single electrode can tell scientists a remarkable amount about the chemical nature and number of analytes involved. The challenge comes when they want to distinguish many reactions on the same electrode. After more than a decade of trying to overcome that limitation, Ravi Saraf and h...",
+        "publisher": "Phys",
+        "publisherDomain": "phys.org",
+        "publishedAt": "2026-10-29T22:40:01.000Z",
+        "url": "https://phys.org/news/2026-10-multiple-reactions-electrode-extraordinary-sensitivity.html",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
       }
     ],
     "Sports": [
       {
-        "id": "currents-ca5b20eb-be1f-5a24-90a6-fae796477376",
-        "title": "Justice Department appeals ruling allowing California to count disputed ballots",
-        "description": "Los Angeles (AP) — The Trump administration has asked a federal appeals court to quickly weigh in on whether it can temporarily prevent California from counting the ballots of up to 20,000 people it alleges are likely noncitizens after a lower court judge forcefully rejected the request.",
+        "id": "currents-42ae514d-7e6c-5558-92ff-162306aa09b6",
+        "title": "PSG score late to hold struggling Man City",
+        "description": "Manchester City concede late to a draw 1-1 with Paris St-Germain, as their wait for a win in the Women's Champions League this season continues.",
+        "publisher": "BBC News",
+        "publisherDomain": "bbc.co.uk",
+        "publishedAt": "2026-10-29T22:40:17.000Z",
+        "url": "https://www.bbc.co.uk/sport/football/videos/ckeq3v1wgxy4o?at_medium=RSS&at_campaign=rss",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-bd1f735c-c3a1-55fe-9c2a-3a7f92db5180",
+        "title": "Ohio Supreme Court keeps two dozen basketball players eligible as season looms",
+        "description": "The Ohio Supreme Court filed an order Thursday that will keep the two dozen players involved in an eligibility case in that state available to play for teams across the country, with the start of college basketball season beginning next week.",
+        "publisher": "ESPN",
+        "publisherDomain": "espn.com",
+        "publishedAt": "2026-10-29T22:27:27.000Z",
+        "url": "https://www.espn.com/mens-college-basketball/story/_/id/50321544/ohio-supreme-court-keeps-two-dozen-basketball-players-eligible",
+        "imageUrl": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0730%2Fr1695673_1296x729_16%2D9.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-e5097ce7-d4a2-5deb-8b4b-affbabd7b903",
+        "title": "Alonso doubles down on backmarker driving standards, F1 rivals disagree",
+        "description": "MEXICO CITY, Oct 29 : Fernando Alonso doubled down on his criticism of driving standards among Formula One's backmarkers on Thursday as Williams drivers Carlos Sainz and Alex Albon hit back.Double world champion Alonso, whose Aston Martin team are second from last overall and one place behind Willia...",
+        "publisher": "Channelnewsasia",
+        "publisherDomain": "channelnewsasia.com",
+        "publishedAt": "2026-10-29T22:41:09.000Z",
+        "url": "https://www.channelnewsasia.com/sport/alonso-doubles-down-backmarker-driving-standards-f1-rivals-disagree-6505111",
+        "imageUrl": "https://dam.mediacorp.sg/image/upload/s--3VfCCy5t--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-10-29T224017Z_1_LYNXNPEM9S2OC_RTROPTP_3_MOTOR-F1-MEXICO.JPG?itok=B_yyALLw",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-144cd348-bb8b-541e-b064-2aebaaf10e71",
+        "title": "UCLA QB Nico Iamaleava 'heartbroken' as injury ends his season",
+        "description": "LOS ANGELES (AP) — UCLA quarterback Nico Iamaleava says he",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-29T18:14:31.000Z",
-        "url": "https://www.winnipegfreepress.com/world/2026/10/29/justice-department-appeals-ruling-allowing-california-to-count-disputed-ballots",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6acfac69f5f2c4b475ed989ajpeg.jpg?w=1600",
+        "publishedAt": "2026-10-29T22:38:31.000Z",
+        "url": "https://www.winnipegfreepress.com/uncategorized/2026/10/29/ucla-qb-nico-iamaleava-heartbroken-as-injury-ends-his-season",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6acaba10f5f2c4b475e88fb5jpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-e504757d-7cef-5b96-9486-d3ef79cf8acb",
-        "title": "10 NFL trades that proved unsuccessful for both teams involved",
-        "description": "Trades are an important part of NFL roster building. A strong set of trades could separate a fringe playoff team from a perennial Super Bowl contender.",
-        "publisher": "Sportskeeda",
-        "publisherDomain": "sportskeeda.com",
-        "publishedAt": "2026-10-29T18:04:16.000Z",
-        "url": "https://www.sportskeeda.com/nfl/10-nfl-trades-proved-unsuccessful-teams-involved",
-        "imageUrl": "https://staticg.sportskeeda.com/editor/2026/10/86a82-17932896709192-1920.jpg",
+        "id": "currents-b135154c-3a83-50c9-84f6-98fc418d4d9a",
+        "title": "Red Wings suspend Dylan Larkin, explore trade options",
+        "description": "The Detroit Red Wings announced Thursday that star forward Dylan Larkin has been suspended without pay after informing the team he no longer wanted to play for them.",
+        "publisher": "ESPN",
+        "publisherDomain": "espn.com",
+        "publishedAt": "2026-10-29T22:44:05.000Z",
+        "url": "https://www.espn.com/nhl/story/_/id/50322532/red-wings-suspend-dylan-larkin-explore-trade-options",
+        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1007%2Fr1727131_1296x729_16%2D9.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-191bfbf5-5b35-5403-8e9a-c09247b759e5",
+        "title": "Commanders and Eagles head into 'Sunday Night Football' with season-defining matchup on deck",
+        "description": "ASHBURN, Va. (AP) — The Washington Commanders and Philadelphia Eagles are each facing a potentially season-defining game on Sunday night.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-10-29T22:34:10.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/10/29/commanders-and-eagles-head-into-sunday-night-football-with-season-defining-matchup-on-deck",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ae0e7b3518184d577a3efe7jpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-51c6e404-6394-519e-bfec-8384428bf6a3",
-        "title": "Clemson excited about potential entering opener vs. Stetson",
-        "description": "Deadspin | Clemson excited about potential entering opener vs. Stetson",
+        "id": "currents-10e92268-ef6f-5c88-89d2-ba4bfed58086",
+        "title": "Winnipeg's newest city councillors face steep learning curve",
+        "description": "The next Winnipeg city council will have the most new members in decades, all of whom will face a steep learning curve on the job.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-10-29T22:33:47.000Z",
+        "url": "https://www.winnipegfreepress.com/breakingnews/2026/10/29/their-minds-will-explode",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/4678722_web1_261028-Lukes-heads-out-1--.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-ac8ce8de-2747-505b-a7af-ca3dcad3dd47",
+        "title": "Jeffery Simmons traded to Bears: Does dealing multiple first-round picks work?",
+        "description": "The Bears' aggressive move for Simmons marks the 10th time in the past decade that a team has traded multiple first-round picks for a star player. But the hit rate isn't great.",
+        "publisher": "ESPN",
+        "publisherDomain": "espn.com",
+        "publishedAt": "2026-10-29T22:30:32.000Z",
+        "url": "https://www.espn.com/nfl/story/_/id/50319184/jeffery-simmons-trade-two-first-round-picks-bears-titans",
+        "imageUrl": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1029%2Fr1738106_1296x729_16%2D9.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-f66fd1c3-05d9-5db1-9b00-3a79513b346e",
+        "title": "MLB's 2027 season threatened with lockout looming when labor deal expires Dec. 1",
+        "description": "NEW YORK (AP) — When Jake Bauers gloved the final out of the Milwaukee Brewers",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-10-29T22:28:01.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/baseball/2026/10/29/mlbs-2027-season-threatened-with-lockout-looming-when-labor-deal-expires-dec-1",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6adbf5b7518184d5779e8ed4jpeg.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-02a52db5-e3fd-5be4-8589-7fd23c6d88d2",
+        "title": "LSU coach Will Wade refuses to discuss RJ Luis Jr.'s eligibility status",
+        "description": "LSU coach Will Wade declined to take questions Thursday on the status of RJ Luis Jr., who a day earlier won a temporary restraining order opening the door to play for the Tigers.",
+        "publisher": "ESPN",
+        "publisherDomain": "espn.com",
+        "publishedAt": "2026-10-29T22:27:27.000Z",
+        "url": "https://www.espn.com/mens-college-basketball/story/_/id/50321858/lsu-coach-wade-refuses-discuss-rj-luis-jr-status",
+        "imageUrl": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1029%2Fr1738287_1296x729_16%2D9.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-a21a5f25-b08e-5251-97f8-3f5967a4cc26",
+        "title": "City of Victoria issues warning after owl attacks same person twice in three days",
+        "description": "VICTORIA - The City of Victoria has issued a warning after the same person was attacked by an owl at a park twice in three days.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-10-29T22:27:12.000Z",
+        "url": "https://www.winnipegfreepress.com/arts-and-life/life/greenpage/2026/10/29/city-of-victoria-issues-warning-after-owl-attacks-same-person-twice-in-three-days",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/79f4d7bf0090625976e0cba124b11299152db0065ec657ec43ea37ae7cb436fb.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-72c75fb7-31e3-52d6-861f-7c9f7b3628c6",
+        "title": "Why NBC is betting big on Lincoln Riley orchestrating a USC turnaround",
+        "description": "NBC has shown its share of USC football games in prime time this season, but will Lincoln Riley and USC make it \"must-see\" college football TV?",
+        "publisher": "Latimes",
+        "publisherDomain": "latimes.com",
+        "publishedAt": "2026-10-29T22:27:02.000Z",
+        "url": "https://www.latimes.com/sports/usc/story/2026-10-29/nbc-betting-big-lincoln-riley-usc-turnaround",
+        "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/6cc899a/2147483647/strip/true/crop/5475x2874+0+0/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F19%2Fa8%2F6ff2d2314dfe98a1b6055465a949%2F1568029-sp-ncaa-fbc-usc-sjsu-0657-rb.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-3c3e3173-dcb6-5a54-8612-339a16de0361",
+        "title": "Vikings and Lions match up NFL's stingiest defense vs. high-scoring offense in NFC North showdown",
+        "description": "DETROIT (AP) — The Minnesota Vikings are the NFL",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-10-29T22:23:36.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/10/29/vikings-and-lions-match-up-nfls-stingiest-defense-vs-high-scoring-offense-in-nfc-north-showdown",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6adecd95518184d577a18822jpeg.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-373be6fa-3c99-5708-b7d1-fc570cdf4f79",
+        "title": "Barcelona thrash Koge in Women's Champions League, Man City and PSG draw",
+        "description": "The Spanish side remain the only team with a 100% record in the competition.",
+        "publisher": "The42",
+        "publisherDomain": "the42.ie",
+        "publishedAt": "2026-10-29T22:22:31.000Z",
+        "url": "https://www.the42.ie/barcelona-koge-champions-league-7209581-Oct2026",
+        "imageUrl": "https://img2.thejournal.ie/article/7209581/river/?height=400&version=7209582",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-62c9f5b1-1592-517c-8f03-126af27bbfbb",
+        "title": "New-look Cal opens season with optimism against Adams State",
+        "description": "Deadspin | New-look Cal opens season with optimism against Adams State",
         "publisher": "Deadspin",
         "publisherDomain": "deadspin.com",
-        "publishedAt": "2026-10-29T18:01:53.000Z",
-        "url": "https://deadspin.com/clemson-excited-about-potential-entering-opener-vs-stetson",
-        "imageUrl": "https://images.deadspin.com/30022137.jpg?tr=w-1200,h-675,fo-auto,f-jpg",
+        "publishedAt": "2026-10-29T22:21:47.000Z",
+        "url": "https://deadspin.com/new-look-cal-opens-season-with-optimism-against-adams-state",
+        "imageUrl": "https://images.deadspin.com/28402230.jpg?tr=w-1200,h-675,fo-auto,f-jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-02a575e3-e6b1-5eb4-ad8f-d8f22e617dae",
-        "title": "Opinion: Blanket infill rollback ignores differences in Edmonton neighbourhoods",
-        "description": "Edmonton’s neighbourhoods are changing, but at very different rates. Its housing policies should reflect those differences.",
-        "publisher": "Edmontonjournal",
-        "publisherDomain": "edmontonjournal.com",
-        "publishedAt": "2026-10-29T18:00:19.000Z",
-        "url": "https://edmontonjournal.com/opinion/columnists/opinion-infill-blanket-rollback",
-        "imageUrl": "https://smartcdn.gprod.postmedia.digital/edmontonjournal/wp-content/uploads/2026/02/mg_7001.ej_299869748.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-2dcd68d7-e2af-5412-9f64-bb2c26002f46",
-        "title": "Criminal charges stopped Russ Wyatt from running for mayor, defeated Transcona councillor says",
-        "description": "Longtime city councillor Russ Wyatt wanted to take a run at the mayor’s office in Wednesday’s civic election rather than running to retain his seat in the ward he’s held for the better part of 24 years.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-29T18:09:44.000Z",
-        "url": "https://www.winnipegfreepress.com/breakingnews/2026/10/29/russ-wyatt-transcona-results-criminal-charges",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/4677590_web1_260813-Russ-Wyatt-gl-door-.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-c5756cb0-de4b-55e8-bf54-f7039aa3f318",
-        "title": "Houston Texans try to regroup at bye after getting off to 2-5 start",
-        "description": "HOUSTON (AP) — The Houston Texans opened their 25th season with Super Bowl hopes.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-29T18:19:31.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/10/29/houston-texans-try-to-regroup-at-bye-after-getting-off-to-2-5-start",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ae38e2b518184d577a7196djpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-132b327e-2263-56a6-b8b5-20b93d735aec",
-        "title": "Raiders and Jets will try to stop struggles and quiet some outside noise when they square off Sunday",
-        "description": "EAST RUTHERFORD, N.J. (AP) — Las Vegas Raiders fans are getting restless, while New York Jets fans are fully frustrated.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-29T18:19:22.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/10/29/raiders-and-jets-will-try-to-stop-struggles-and-quiet-some-outside-noise-when-they-square-off-sunday",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ae38e1d518184d577a718e5jpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-f99543a1-8d03-5890-806e-44e57c880d68",
-        "title": "Chiefs coach: Harrison Butker still the preferred kicker as Justin Tucker joins the practice squad",
-        "description": "KANSAS CITY, Mo. (AP) — Kansas City Chiefs special teams coach Dave Toub was unequivocal Thursday that Harrison Butker remains their preferred kicker, one day after the team signed five-time All-Pro Justin Tucker to its practice squad after a season spent out of the NFL.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-29T18:03:05.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/10/29/chiefs-coach-harrison-butker-still-the-preferred-kicker-as-justin-tucker-joins-the-practice-squad",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6adf984b518184d577a24f31jpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-c8c48d0d-99ab-5ac9-9bc2-c1671713f170",
-        "title": "'Derby games are never about league position' - Hibs ace delivers Hearts promise",
-        "description": "Reedijk’s men take encouragement ahead of all-Edinburgh semi-final",
-        "publisher": "Scotsman",
-        "publisherDomain": "edinburghnews.scotsman.com",
-        "publishedAt": "2026-10-29T18:00:05.000Z",
-        "url": "https://www.edinburghnews.scotsman.com/sport/football/hibs/ignore-the-gap-league-table-nothing-hibs-hearts-hampden-all-or-nothing-semi-final-9318410",
-        "imageUrl": "https://www.edinburghnews.scotsman.com/jpim-static/image/2026/10/29/13/13/21832145.jpeg?trim=0,156,0,156&crop=&width=1200&auto=webp&quality=75",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-4b0d1a8b-fff7-57af-8b85-327a83242cc7",
-        "title": "Colorado QB Julian Lewis was taken to hospital after medical emergency, father says on social media",
-        "description": "Colorado backup quarterback Julian “JuJu” Lewis suffered a medical emergency at the school",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-29T18:00:04.000Z",
-        "url": "https://www.winnipegfreepress.com/uncategorized/2026/10/29/colorado-qb-julian-lewis-was-taken-to-hospital-after-medical-emergency-father-says-on-social-media",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ae389a1518184d577a713e9jpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-ad83dc7c-a60d-5f7d-b24d-96f917aa149f",
-        "title": "MLS releases 14-game schedule for shortened 2027 season ahead of calendar switch",
-        "description": "VANCOUVER - Major League Soccer",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-29T18:00:04.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/soccer/2026/10/29/mls-releases-14-game-schedule-for-shortened-2027-season-ahead-of-calendar-switch",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ae38183ec663647685f2ed1jpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-25301aa7-f755-5b2b-85c8-8d27e14ea7fc",
-        "title": "Five get below half-marks: Fan player ratings for Milan 2-4 Bologna",
-        "description": "AC Milan's unbeaten record in Serie A fell on Thursday night after a disastrous second-half performance against Bologna.",
-        "publisher": "Sempremilan",
-        "publisherDomain": "sempremilan.com",
-        "publishedAt": "2026-10-29T18:00:00.000Z",
-        "url": "https://sempremilan.com/fan-player-ratings-milan-2-4-bologna",
-        "imageUrl": "https://icdn.sempremilan.com/wp-content/uploads/2026/10/ac-milan-v-bologna-fc-serie-a-2026-27-8.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-7ca5a46d-7501-532d-aee3-3c8cd16958d0",
-        "title": "Triathlons, broken backs and Pendlebury: Inside breakout Sun’s quest for redemption",
-        "description": "There was a time when Bodhi Uwland started to forget what it even felt like to run, let alone kick a ball, and feared his AFL dreams would never eventuate.",
-        "publisher": "Theage",
-        "publisherDomain": "theage.com.au",
-        "publishedAt": "2026-10-29T18:00:00.000Z",
-        "url": "https://www.theage.com.au/sport/afl/triathlons-broken-backs-and-pendlebury-inside-breakout-sun-s-quest-for-redemption-20261030-p617fw.html",
-        "imageUrl": "https://static.ffx.io/images/$zoom_0.2882%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_9%2C$y_1/t_crop_custom/q_86%2Cf_auto/d10cf0f9b8f0aa41cd14ea5531c3628869c65b5b",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-80be5ca9-98d2-59e9-82d8-79fdbf41913c",
-        "title": "Scotland's rugby clubhouses in the spotlight with £10,000 prize up for grabs",
-        "description": "Scotland's rugby clubhouses in the spotlight with £10,000 prize up for grabs",
-        "publisher": "Scotsman",
-        "publisherDomain": "edinburghnews.scotsman.com",
-        "publishedAt": "2026-10-29T17:59:45.000Z",
-        "url": "https://www.edinburghnews.scotsman.com/your-world/scotlands-rugby-clubhouses-in-the-spotlight-with-ps10000-prize-up-for-grabs-9319324",
-        "imageUrl": "https://www.edinburghnews.scotsman.com/jpim-static/image/ugc/2026/10/29/17/Meryl_Smith_and_her_dad_Ed_support_The_Famous_Grouse_s_Characterful_Clubhouse_1793203837_860b1d97-9e4025acb6a5a7bd.jpg?crop=3:2,smart&trim=&width=1200&auto=webp&quality=75",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-fa062f98-d024-5c43-a34b-8233c55f8791",
-        "title": "Calderwood Show Home Wins International Award",
-        "description": "Calderwood Show Home Wins International Award",
-        "publisher": "Scotsman",
-        "publisherDomain": "edinburghnews.scotsman.com",
-        "publishedAt": "2026-10-29T17:58:43.000Z",
-        "url": "https://www.edinburghnews.scotsman.com/your-world/calderwood-show-home-wins-international-award-9319322",
-        "imageUrl": "https://www.edinburghnews.scotsman.com/jpim-static/image/ugc/2026/10/29/17/The_Murray_Garden_Room_at_Almondell_was_described_as__subtle__understated_elegance_._1793277659_20b1-12813580d64e9b6d.jpg?crop=3:2,smart&trim=&width=1200&auto=webp&quality=75",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-4287236e-49d4-5fdd-abc2-6c3fb77d6fca",
-        "title": "Rebuilt Xavier squad opens season against Mount St. Mary's",
-        "description": "Deadspin | Rebuilt Xavier squad opens season against Mount St. Mary's",
-        "publisher": "Deadspin",
-        "publisherDomain": "deadspin.com",
-        "publishedAt": "2026-10-29T17:56:47.000Z",
-        "url": "https://deadspin.com/rebuilt-xavier-squad-opens-season-against-mount-st-marys",
-        "imageUrl": "https://images.deadspin.com/30023729.jpg?tr=w-1200,h-675,fo-auto,f-jpg",
+        "id": "currents-8c267f8a-4512-59ec-8668-d2cb4240a64e",
+        "title": "Jets' Brownlee says he was benched for missing meetings, but 'good' for Sunday",
+        "description": "Jets nickelback Jarvis Brownlee Jr. was benched last Sunday and fined by the team because he missed multiple mandatory meetings.",
+        "publisher": "ESPN",
+        "publisherDomain": "espn.com",
+        "publishedAt": "2026-10-29T22:21:46.000Z",
+        "url": "https://www.espn.com/nfl/story/_/id/50322007/jets-jarvis-brownlee-says-was-benched-missing-meetings",
+        "imageUrl": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1029%2Fr1738291_1296x729_16%2D9.jpg",
         "categories": [
           "Sports"
         ]
@@ -1276,27 +1214,14 @@
     ],
     "Entertainment": [
       {
-        "id": "currents-cbfac244-9780-5c2f-b974-74c2a45c4c71",
-        "title": "90s British Rock Frontman Steps Away From Music Amid Ongoing Health Concerns",
-        "description": "Chris Helme, known as the frontman of 90s British rock group The Seahorses, has cancelled multiple 2026 shows due to health concerns.",
-        "publisher": "Vice",
-        "publisherDomain": "vice.com",
-        "publishedAt": "2026-10-29T18:06:31.000Z",
-        "url": "https://www.vice.com/en/article/90s-british-rock-frontman-steps-away-from-music-amid-ongoing-health-concerns",
-        "imageUrl": "https://www.vice.com/wp-content/uploads/sites/2/2026/10/Web_Photo_Editor-2026-10-29T123204.399.jpg?w=1200",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-4458dfcb-e088-5f5c-87ea-aa1685289883",
-        "title": "Curry Barker Returns to YouTube With New Short 'Mama Bear'",
-        "description": "\"Obsession\" filmmaker Curry Barker's five-minute horror flick arrives just in time for Halloween",
-        "publisher": "Thewrap",
-        "publisherDomain": "thewrap.com",
-        "publishedAt": "2026-10-29T18:08:43.000Z",
-        "url": "https://www.thewrap.com/creative-content/movies/curry-barker-new-youtube-short-mama-bear",
-        "imageUrl": "https://www.thewrap.com/wp-content/uploads/2026/10/Curry-Barker-Mama-Bear.jpg",
+        "id": "currents-6b92a896-f643-58de-be0c-be7188323607",
+        "title": "DOJ issues grand jury subpoenas to election officials in California",
+        "description": "DOJ issues grand jury subpoenas to local election officials in California as part of its investigation into the state’s voter rolls, multiple sources told ABC News.",
+        "publisher": "6abc",
+        "publisherDomain": "6abc.com",
+        "publishedAt": "2026-10-29T22:41:20.000Z",
+        "url": "https://6abc.com/story/doj-issues-grand-jury-subpoenas-election-officials-california/19997081",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/19997073_doj-file-102926.png?w=1600",
         "categories": [
           "Top",
           "U.S.",
@@ -1304,184 +1229,198 @@
         ]
       },
       {
-        "id": "currents-5aa2ceca-038f-53dd-ba59-367b7ab24f07",
-        "title": "Alison Hammond hits back at trolls judging age-gap relationship with David Putman",
-        "description": "The presenter said that she does not pay attention to the criticism surrounding her relationship with Putman who is 22 years younger than her",
-        "publisher": "Independent",
-        "publisherDomain": "independent.co.uk",
-        "publishedAt": "2026-10-29T18:03:58.000Z",
-        "url": "https://www.independent.co.uk/arts-entertainment/tv/news/alison-hammond-david-putman-relationship-age-gap-b3075931.html",
-        "imageUrl": "https://static.independent.co.uk/2026/07/14/9/38/GettyImages-2234721308.jpeg?trim=0,0,0,0&width=1200&height=800&crop=1200:800",
+        "id": "currents-3743dec1-5d74-5f0f-b0e4-ed7d2926c18b",
+        "title": "Candy prices climb ahead of Halloween as families look for savings",
+        "description": "As Halloween approaches, some Chicago-area shoppers are looking for ways to stretch their budgets as the cost of candy and costumes rises.",
+        "publisher": "Abc7",
+        "publisherDomain": "abc7.com",
+        "publishedAt": "2026-10-29T22:50:15.000Z",
+        "url": "https://abc7.com/post/candy-prices-climb-ahead-halloween-2026-chicago-families-look-savings/19997108",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/19997141_102926-WLS-LEAH-halloween-cost-5-vid.jpg?w=1600",
         "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-978c4ece-8241-50ba-8f6f-81ac7c42ff40",
-        "title": "Kim Kardashian undergoes surgery for esophagus ‘irregularity’",
-        "description": "Kardashian’s father died from esophageal cancer in 2003.",
-        "publisher": "Nydailynews",
-        "publisherDomain": "nydailynews.com",
-        "publishedAt": "2026-10-29T18:01:57.000Z",
-        "url": "https://www.nydailynews.com/2026/10/29/kim-kardashian-esoghagus-surgery",
-        "imageUrl": "https://www.mercurynews.com/wp-content/uploads/2026/10/GettyImages-2301799998.jpg?w=2000&h=1333",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-f137fced-540b-5130-a369-ca569b020d21",
-        "title": "3 Songs I Would Play if a Werewolf Asked for Music Recommendations",
-        "description": "I've prepared a selection of excellent songs so I'm ready if a werewolf comes out of the darkness and asks for music recommendations.",
-        "publisher": "Vice",
-        "publisherDomain": "vice.com",
-        "publishedAt": "2026-10-29T18:06:59.000Z",
-        "url": "https://www.vice.com/en/article/3-songs-i-would-play-if-a-werewolf-asked-for-music-recommendations",
-        "imageUrl": "https://www.vice.com/wp-content/uploads/sites/2/2026/10/Werewolf-Songs.jpg?w=1200",
-        "categories": [
+          "Entertainment",
           "Top",
-          "U.S.",
-          "Entertainment"
+          "U.S."
         ]
       },
       {
-        "id": "currents-15fd22cd-8d82-524d-872a-e8f752f7737c",
-        "title": "My Chemical Romance Fans Discover Secret Horror-Themed Surprises Hidden in Their Albums",
-        "description": "My Chemical Romance fans are finding some unique artwork in their 'Black Parade' 20th anniversary vinyls, all thanks to one member.",
+        "id": "currents-c9afc7fc-cab0-5414-8f63-3e437e4cb726",
+        "title": "Nintendo's Original 'Donkey Kong' Artwork Just Sold for an Absolutely Insane Amount",
+        "description": "A rare 1981 Donkey Kong poster featuring Mario's debut was nearly thrown away before selling for a record-breaking $329,400.",
         "publisher": "Vice",
         "publisherDomain": "vice.com",
-        "publishedAt": "2026-10-29T18:05:53.000Z",
-        "url": "https://www.vice.com/en/article/my-chemical-romance-fans-discover-secret-horror-themed-surprises-hidden-in-their-albums",
-        "imageUrl": "https://www.vice.com/wp-content/uploads/sites/2/2025/09/My-Chemical-Romance-4.jpg?w=1202",
+        "publishedAt": "2026-10-29T22:35:17.000Z",
+        "url": "https://www.vice.com/en/article/nintendos-original-donkey-kong-artwork-just-sold-for-an-absolutely-insane-amount",
+        "imageUrl": "https://www.vice.com/wp-content/uploads/sites/2/2026/10/Nintendos-Original-Donkey-Kong-Artwork-Just-Sold-for-an-Absolutely-Insane-Amount.jpg?w=2000",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-762038d0-0fcd-524a-bcb8-6506ce8d119a",
-        "title": "Post Malone Teases Return to Hip-Hop After Spending Years in Country Music",
-        "description": "After spending years away in country music, Post Malone teases a return to the melodic rap he started out making.",
-        "publisher": "Vice",
-        "publisherDomain": "vice.com",
-        "publishedAt": "2026-10-29T18:05:24.000Z",
-        "url": "https://www.vice.com/en/article/post-malone-teases-return-to-hip-hop-after-spending-years-in-country-music",
-        "imageUrl": "https://www.vice.com/wp-content/uploads/sites/2/2026/10/Post-Malone-Teases-Return-to-Hip-Hop-After-Spending-Years-in-Country-Music.jpg?w=1200",
+        "id": "currents-bfd3fd6d-3ab1-5fa4-ab18-ad3f393fee1e",
+        "title": "\"Delete The Thread\": Kevin Jonas Accidentally Sent A NSFW Photo To A Group Chat With His Brothers",
+        "description": "“This is my trauma,” Kevin Jonas said on the “Hey Jonas!” podcast.",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-10-29T22:31:02.000Z",
+        "url": "https://www.buzzfeed.com/jazmintolliver/kevin-jonas-accidentally-sent-penis-photo-to-group-chat",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/29/20/thumb/cRT3NMfMd.jpg?crop=1250:654;0,166%26downsize=1250:*",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-a39daed7-6395-5cd3-bcc7-00f8f09923b0",
-        "title": "Apple TV's 'Monarch: Legacy of Monsters' Eyes Revamped Season 3",
-        "description": "Apple TV and Legendary are in talks for Season 3 of Monarch: Legacy of Monsters that would take it in a new direction with new Titans and new writers.",
-        "publisher": "Deadline",
-        "publisherDomain": "deadline.com",
-        "publishedAt": "2026-10-29T18:00:19.000Z",
-        "url": "https://deadline.com/2026/10/monarch-legacy-of-monsters-season-3-revamp-new-titans-apple-1237208421",
-        "imageUrl": "https://deadline.com/wp-content/uploads/2024/10/Monarch-Legacy-of-Monsters.jpg?w=1024",
+        "id": "currents-f8c4cbab-4c71-5d0b-ae4b-7ee22bc5cf17",
+        "title": "Long Island woman thanks team that saved her life after stroke",
+        "description": "A Long Island woman who survived a stroke reunited with the doctors who treated her with a lifesaving brain-clot removal procedure and thanked them for helping save her life.",
+        "publisher": "Abc7",
+        "publisherDomain": "abc7.com",
+        "publishedAt": "2026-10-29T22:46:44.000Z",
+        "url": "https://abc7.com/post/long-beach-stroke-survivor-reunites-doctors-saved-life/19996381",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/19997082_102926-wabc-mcnally-stroke-survivor-img.png?w=1600",
         "categories": [
-          "Entertainment"
+          "Entertainment",
+          "Top",
+          "U.S."
         ]
       },
       {
-        "id": "currents-d45c84f6-a8d8-50b9-89e6-a8adfe7cfb6b",
-        "title": "Let’s Talk About the Shocking Tony Stark Revelation on 'VisionQuest'",
-        "description": "The origins of Stark's AI, J.A.R.V.I.S., came into question during the show's sixth episode, 'Deadlock.'",
-        "publisher": "Gizmodo",
-        "publisherDomain": "gizmodo.com",
-        "publishedAt": "2026-10-29T18:00:00.000Z",
-        "url": "https://gizmodo.com/lets-talk-about-the-shocking-tony-stark-revelation-on-visionquest-2000832506",
-        "imageUrl": "https://gizmodo.com/app/uploads/2026/10/VisionQuest-JARVIS-code-1200x675.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-e803e90f-4646-56f0-a95d-1370b61f6063",
-        "title": "'Monarch' Season 3 Taps New Writers – and New Titans – for Soft Reboot",
-        "description": "Monarch: Legacy of Monsters, Apple TV's Godzilla-led series, is getting a soft reboot for season 3 with new writers.",
-        "publisher": "Thewrap",
-        "publisherDomain": "thewrap.com",
-        "publishedAt": "2026-10-29T18:00:00.000Z",
-        "url": "https://www.thewrap.com/creative-content/tv-shows/monarch-season-3-new-writers-reboot",
-        "imageUrl": "https://www.thewrap.com/wp-content/uploads/2026/10/Monarch-legacy-of-Monsters.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-e03a5c9b-e85a-5f7c-8fee-4ea0028a81b6",
-        "title": "Jimmy Fallon Jokes Trump's James Talarico Impression Just Cost Him Texas and His Hot Dog Eating Contest Invite",
-        "description": "\"Tonight Show\" host Jimmy Fallon lambasted Trump's suggestive impression of Democratic Texas senate candidate James Talarico.",
-        "publisher": "Thewrap",
-        "publisherDomain": "thewrap.com",
-        "publishedAt": "2026-10-29T17:58:55.000Z",
-        "url": "https://www.thewrap.com/creative-content/tv-shows/tonight-show-jimmy-fallon-monologue-trump-james-talarico-impression",
-        "imageUrl": "https://www.thewrap.com/wp-content/uploads/2026/10/Tonight-Show-10-28-26.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-944d4a00-3ce6-5752-87b3-94301b4df01e",
-        "title": "Guess The Sexy Singer In This Skin-Tight Corset!",
-        "description": "Can you score which sexy singer put her rockin' hot bod on full display in this sexy social media shot?!",
+        "id": "currents-fd94f9a1-8802-5a37-82a1-eefe640acefe",
+        "title": "NYC Driver Plows Through Halloween Event, Injuring Several People",
+        "description": "A driver in New York City hopped a curb and plowed into a Halloween event hosted by the NYPD ... injuring several people, including a child.",
         "publisher": "Tmz",
         "publisherDomain": "tmz.com",
-        "publishedAt": "2026-10-29T17:54:54.000Z",
-        "url": "https://www.tmz.com/2026/10/29/karol-g-in-sexy-corset",
-        "imageUrl": "https://imagez.tmz.com/image/8e/16by9/2026/10/21/8e17054d91f34e0f9fe62f0613da9f37_xl.jpg",
+        "publishedAt": "2026-10-29T22:29:49.000Z",
+        "url": "https://www.tmz.com/2026/10/29/motorist-drives-into-halloween-event-causing-injuries-new-york-city",
+        "imageUrl": "https://imagez.tmz.com/image/9f/16by9/2026/10/29/9f4f275c784340ef99b3b92df147bf3a_xl.png",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-9be6dee5-6c2d-52bc-83fa-a28a91d5f678",
-        "title": "New Hunger Games Movie Understands What Hollywood Gets Wrong About Nostalgia",
-        "description": "The new Hunger Games movie succeeds where so many other franchises fail because of how it handles nostalgia.",
+        "id": "currents-4b9d6043-9ce1-5e07-8530-77ceb376f8ca",
+        "title": "Hackers Are Using Fake PS5 Emulators to Steal Gamers' Personal Information",
+        "description": "Scammers are reportedly disguising dangerous malware as PS5 emulators, putting gamers' passwords and financial data at risk.",
+        "publisher": "Vice",
+        "publisherDomain": "vice.com",
+        "publishedAt": "2026-10-29T22:29:29.000Z",
+        "url": "https://www.vice.com/en/article/hackers-are-using-fake-ps5-emulators-to-steal-gamers-personal-information",
+        "imageUrl": "https://www.vice.com/wp-content/uploads/sites/2/2026/10/Hackers-Are-Using-Fake-PS5-Emulators-to-Steal-Gamers-Personal-Information.jpg?w=2000",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-fcfa54a7-639d-5440-adf0-3e3b3ca112c9",
+        "title": "GTA 6 Dog Poop Gameplay Revealed On South Park",
+        "description": "IGN Shorts is a fully native vertical video feed built directly into IGN. Fans can expect rapid-fire news, bite-sized reviews, gameplay tips, and more.",
+        "publisher": "Ign",
+        "publisherDomain": "ign.com",
+        "publishedAt": "2026-10-29T22:27:29.000Z",
+        "url": "https://www.ign.com/videos/gta-6-dog-poop-gameplay-revealed-on-south-park",
+        "imageUrl": "https://assets-prd.ignimgs.com/2026/10/29/screenshot-2026-10-29-at-3-27-21-pm-1793312843532.png?width=1280&format=jpg&auto=webp&quality=80",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-fdac0a4f-ddb5-5964-b249-3bd1337af0c0",
+        "title": "Kim Kardashian Unveils Her New Haircut & Fans Are Absolutely Loving It",
+        "description": "Kim Kardashian debuted her latest haircut at the All's Fair Season 2 press tour, and fans are absolutely loving it.",
         "publisher": "Comingsoon",
         "publisherDomain": "comingsoon.net",
-        "publishedAt": "2026-10-29T17:51:41.000Z",
-        "url": "https://www.comingsoon.net/movies/features/2214926-new-hunger-games-movie-hollywood-gets-wrong-nostalgia",
-        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/10/Joseph-zada-hunger-games-1.jpg?resize=1200,630",
+        "publishedAt": "2026-10-29T22:23:38.000Z",
+        "url": "https://www.comingsoon.net/tv/news/2215357-kim-kardashian-chic-new-haircut-alls-fair-press-tour",
+        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/10/kk.jpg?resize=1200,630",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-50483f9a-e6a7-557b-9ebf-5bdcd787264e",
-        "title": "Michael Douglas opens up about relationship with Kirk",
-        "description": "Two-time Academy Award winning actor Michael Douglas has opened up about his fraught relationship with his screen legend father Kirk.",
-        "publisher": "Rte",
-        "publisherDomain": "rte.ie",
-        "publishedAt": "2026-10-29T17:49:04.000Z",
-        "url": "https://www.rte.ie/entertainment/2026/1029/1597266-michael-douglas-opens-up-about-relationship-with-kirk",
-        "imageUrl": "https://www.rte.ie/images/00051bc5-1600.jpg",
+        "id": "currents-f4a37115-82a7-5ff6-8261-b22c03229343",
+        "title": "DC’s Next Big Green Lantern Show Gets Important Update As Fans Beg for Lanterns Season 2",
+        "description": "DC Studios confirms a key detail about My Adventures with Green Lantern as fans await updates on the animated series and Lanterns Season 2.",
+        "publisher": "Superherohype",
+        "publisherDomain": "superherohype.com",
+        "publishedAt": "2026-10-29T22:21:02.000Z",
+        "url": "https://www.superherohype.com/tv/702945-my-adventures-with-green-lantern-episode-count-jessica-cruz",
+        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/10/Deepesh-personal-1200-_-675-55.png?resize=1200,630",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-125d2ba0-6c4a-5b0d-b5fd-c63094c4f4dc",
-        "title": "Brooks Touts Growth in Q3 as Demand for Its Performance Shoes, Apparel ‘Remains Strong’",
-        "description": "Brooks Running said it delivered 12 percent revenue growth through the first three quarters of 2026, its 13th consecutive quarter of revenue growth.",
-        "publisher": "Wwd",
-        "publisherDomain": "wwd.com",
-        "publishedAt": "2026-10-29T17:48:25.000Z",
-        "url": "https://wwd.com/footwear-news/shoe-industry-news/brooks-running-third-quarter-2026-earnings-growth-1239391931",
-        "imageUrl": "https://wwd.com/wp-content/uploads/2026/10/Brooks.jpg?w=1000&h=563&crop=1",
+        "id": "currents-230a2cb2-4a83-5484-b132-ddd8a8e55360",
+        "title": "Savannah Chrisley & Jason Galanis Married in Cayman Islands in July",
+        "description": "Savannah Chrisley and Jason Galanis aren't getting married soon ... because they've apparently already tied the knot.",
+        "publisher": "Tmz",
+        "publisherDomain": "tmz.com",
+        "publishedAt": "2026-10-29T22:20:21.000Z",
+        "url": "https://www.tmz.com/2026/10/29/savannah-chrisley-and-jason-galanis-married",
+        "imageUrl": "https://imagez.tmz.com/image/cc/16by9/2026/10/29/ccd61c170e8a44f5933f96de28e858e7_xl.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-4fe97c69-e87c-5f6b-acb8-cee9b203357d",
-        "title": "Here Is Why You Don’t Blindly Accept A Chatbot’s Financial Advice",
-        "description": "An unusual dynamic has developed online. People have always looked for answers. I recently came across a post from a genuine mathematician who said that decades ago, in college, when facing a tough problem beyond their knowledge, they used a search engine to find the answer. Not surprising. Students...",
-        "publisher": "Forbes",
-        "publisherDomain": "forbes.com",
-        "publishedAt": "2026-10-29T17:57:57.000Z",
-        "url": "https://www.forbes.com/sites/eriksherman/2026/10/29/here-is-why-you-dont-blindly-accept-a-chatbots-financial-advice",
+        "id": "currents-e0344e47-8f93-57ae-b1ae-715f768dcaea",
+        "title": "Seniors form 'The Golden Kazoos' band in Haddonfield, New Jersey",
+        "description": "South Jersey seniors formed 'The Golden Kazoos' band, humming along with a new talent and new friends they made along the way.",
+        "publisher": "6abc",
+        "publisherDomain": "6abc.com",
+        "publishedAt": "2026-10-29T22:18:25.000Z",
+        "url": "https://6abc.com/post/seniors-form-golden-kazoos-band-haddonfield-new-jersey/19996981",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/19996962_102126-wpvi-GOLDENKAZOOS-thumb.jpg?w=1600",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-a6525c63-653a-5972-88d1-b120bd2b01fd",
+        "title": "Forget Chicago for a Moment — Here's What Else Makes Illinois Famous",
+        "description": "What is Illinois famous for? Chicago, the Land of Lincoln, Willis Tower, corn and Frank Lloyd Wright's architecture are on the list.",
+        "publisher": "Travel2next",
+        "publisherDomain": "travel2next.com",
+        "publishedAt": "2026-10-29T22:15:33.000Z",
+        "url": "https://travel2next.com/what-illinois-known-famous-for",
+        "imageUrl": "https://travel2next.com/wp-content/uploads/what-is-illinois-known-for.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-43b2d31e-a3ca-5440-92eb-7b9eebeed58d",
+        "title": "Star Trek's William Shatner flooded with support as he shares Patrick Stewart 'heartbreak'",
+        "description": "The original Star Trek actor shared a moving tribute to Patrick Stewart.",
+        "publisher": "Express",
+        "publisherDomain": "express.co.uk",
+        "publishedAt": "2026-10-29T22:33:00.000Z",
+        "url": "https://www.express.co.uk/celebrity-news/2261725/william-shatner-patrick-stewart-heartbreak-tribute",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-389758d9-8435-5c4a-8015-770ccd11442a",
+        "title": "Patrick Stewart: A life in pictures",
+        "description": "Patrick Stewart made his acting debut in the 1950s and went on to make a name for himself in \"Star Trek: The Next Generation\" and \"X-Men.\" Here is his life in photos.",
+        "publisher": "Fox News",
+        "publisherDomain": "foxnews.com",
+        "publishedAt": "2026-10-29T22:23:43.000Z",
+        "url": "https://www.foxnews.com/entertainment/patrick-stewart-life-pictures",
+        "imageUrl": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/patrick-stewart-dies-86-years-old-fox-news166.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-4150c949-eb3c-5dd6-aab0-1a6509ceb7a6",
+        "title": "Superman could change the colour of her eyes by just looking at her",
+        "description": "34 points, 13 comments.",
+        "publisher": "9gag",
+        "publisherDomain": "9gag.com",
+        "publishedAt": "2026-10-29T22:50:30.000Z",
+        "url": "http://9gag.com/gag/awgNDZR",
         "categories": [
           "Entertainment"
         ]
@@ -1492,7 +1431,7 @@
     "requestCount": 5,
     "successfulRequests": 5,
     "failedRequests": 0,
-    "articleCountBeforeDeduplication": 98,
-    "articleCountAfterDeduplication": 81
+    "articleCountBeforeDeduplication": 100,
+    "articleCountAfterDeduplication": 80
   }
 }
