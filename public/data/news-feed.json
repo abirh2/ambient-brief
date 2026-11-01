@@ -1,127 +1,20 @@
 {
   "schemaVersion": 1,
   "provider": "currents",
-  "generatedAt": "2026-11-01T00:22:58.268Z",
-  "sourceFetchedAt": "2026-11-01T00:22:58.268Z",
+  "generatedAt": "2026-11-01T06:43:44.894Z",
+  "sourceFetchedAt": "2026-11-01T06:43:44.894Z",
   "status": "success",
   "categories": {
     "Top": [
       {
-        "id": "currents-8f2edd2d-38a8-553e-abee-bd16290a36f4",
-        "title": "African lenders formally establish $5 billion energy bank",
-        "description": "African refiners meet in Cape Town as global oil risks loom. Smoke rises at the Natref oil refinery, South Africa's only inland crude oil refinery ...",
-        "publisher": "Reuters",
-        "publisherDomain": "reuters.com",
-        "publishedAt": "2026-10-31T23:28:04.000Z",
-        "url": "https://www.reuters.com/business/energy/african-lenders-formally-establish-5-billion-energy-bank-2026-10-31",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-08e274ae-a9c5-5b6d-a1b4-75b2978419be",
-        "title": "Fury as Dem senator remains lone lawmaker to spill on Trump's 'insane' post-midterm plan",
-        "description": "Sen. Chris Murphy (D-CT) warned this week that the Trump administration plans to resume its war on Iran after the midterms — an “insane” scheme he said he learned of in confidential briefings. By Saturday night, he was still the only lawmaker to speak out about those briefings, leaving one independe...",
-        "publisher": "Rawstory",
-        "publisherDomain": "rawstory.com",
-        "publishedAt": "2026-11-01T00:14:26.000Z",
-        "url": "https://www.rawstory.com/trump-iran-2678178593",
-        "imageUrl": "https://www.rawstory.com/media-library/image.jpg?id=68570748&width=1200&height=600&coordinates=0%2C158%2C0%2C158",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-49720cb1-9f88-529f-a166-43d25a79708e",
-        "title": "Cam Wallace leads Penn State past Purdue to snap 4-game skid",
-        "description": "Deadspin | Cam Wallace leads Penn State past Purdue to snap 4-game skid",
-        "publisher": "Deadspin",
-        "publisherDomain": "deadspin.com",
-        "publishedAt": "2026-11-01T00:11:51.000Z",
-        "url": "https://deadspin.com/cam-wallace-leads-penn-state-past-purdue-to-snap-4-game-skid",
-        "imageUrl": "https://images.deadspin.com/30239444.jpg?tr=w-1200,h-675,fo-auto,f-jpg",
-        "categories": [
-          "Sports",
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-a42dc172-99e6-5db8-ac09-4696bb0185ab",
-        "title": "How artificial intelligence skyrocketed memory prices and changed Apple's position",
-        "description": "An in-depth look at how a 550% surge in flash memory prices since 2023 is reshaping hardware economics, shifting supplier leverage away from Apple as cloud",
+        "id": "currents-2b76b929-dc5d-53a2-96ef-fe93d2687f2e",
+        "title": "A ChatGPT share link leaked your private conversations",
+        "description": "In October 2026, a research team at parameter.ai turned an ordinary public ChatGPT share link into...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:09:30.000Z",
-        "url": "https://dev.to/hacksgr/how-artificial-intelligence-skyrocketed-memory-prices-and-changed-apples-position-3b6a",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fhacks.gr%2Fwp-content%2Fuploads%2F2026%2F11%2Fapple2-scaled-1.webp",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-c6d07e77-35f3-5d56-b0c2-7e914bbdd174",
-        "title": "Free AI From A Startup Reads Photos And Text On Ordinary Laptops",
-        "description": "Rock Matrix open-sourced EdgeRock-4B, a 4 billion parameter text-and-image reasoning model that fixes its attention KV cache during inference to enabl",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:09:27.000Z",
-        "url": "https://dev.to/fathomnews/free-ai-from-a-startup-reads-photos-and-text-on-ordinary-laptops-24ef",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fwww.fathom.news%2Fwp-content%2Fuploads%2F2026%2F10%2Frock-matrix-gives-away-4-billion-ai-model-that-caps-memory-u.webp",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-c802ec74-f283-5522-8092-ec2f0217ecff",
-        "title": "Paperclip's Agent Orchestration Stack: How Multi-Agent Teams Track Work, Budgets, and Tool Permissions in Production",
-        "description": "Paperclip exposes the operational plumbing for managing AI agent teams like employees: org charts, budget caps, permission boundaries, and audit trails.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:08:20.000Z",
-        "url": "https://dev.to/mech_app_ai/paperclips-agent-orchestration-stack-how-multi-agent-teams-track-work-budgets-and-tool-hkl",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.unsplash.com%2Fphoto-1668435074864-524b7424b8e2%3Fcrop%3Dentropy%26cs%3Dtinysrgb%26fit%3Dmax%26fm%3Djpg%26ixid%3DM3w4Njk2ODR8MHwxfHNlYXJjaHwxfHxQYXBlcmNsaXAlMjdzJTIwQWdlbnQlMjBPcmNoZXN0cmF0aW9uJTIwU3RhY2slM0ElMjBIb3clMjBNdWx0aS1BZ2VudCUyMFRlYW1zJTIwVHJhY2slMjBXb3JrJTJDJTIwQnVkZ2V0cyUyQyUyMGFuZCUyMFRvb2wlMjBQZXJtaXNzaW9ucyUyMGluJTIwUHJvZHVjdGlvbiUyMHNvZnR3YXJlJTIwaW5mcmFzdHJ1Y3R1cmUlMjBkYXNoYm9hcmR8ZW58MXwwfHx8MTc5MzQ5MTYwNHww%26ixlib%3Drb-4.1.0%26q%3D80%26w%3D1080",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-8d5b3cfe-cf5c-5ce1-88e4-a0c3e59bd3ef",
-        "title": "OpenAI Boss Sam Altman Says AI On Your PC Wastes Precious Memory",
-        "description": "OpenAI CEO Sam Altman said people should not run large AI models locally and called desktop inference a waste of memory, arguing scarce DRAM is better",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:08:12.000Z",
-        "url": "https://dev.to/fathomnews/openai-boss-sam-altman-says-ai-on-your-pc-wastes-precious-memory-2ohl",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fwww.fathom.news%2Fwp-content%2Fuploads%2F2026%2F10%2Fsam-altman-issues-warning-running-large-ai-on-pcs-wastes-mem.webp",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-833f35f3-cd06-5ea5-aba4-1c1ce95f95bd",
-        "title": "Cognizant Sends 25,000 Staff To Put OpenAI To Work For Big Firms",
-        "description": "Cognizant committed more than 25,000 professionals to deliver OpenAI services for enterprise customers, bundling training, migration playbooks and glo",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:06:54.000Z",
-        "url": "https://dev.to/fathomnews/cognizant-sends-25000-staff-to-put-openai-to-work-for-big-firms-1pgk",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fwww.fathom.news%2Fwp-content%2Fuploads%2F2026%2F10%2F25-000-cognizant-staff-drive-openai-from-test-runs-to-real-u.webp",
+        "publishedAt": "2026-11-01T06:25:48.000Z",
+        "url": "https://dev.to/randomchaos/a-chatgpt-share-link-leaked-your-private-conversations-4oia",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2mqda9g331qmk5cc36r1.png",
         "categories": [
           "Top",
           "U.S.",
@@ -130,661 +23,944 @@
         ]
       },
       {
-        "id": "currents-57e3cba9-01fc-5130-bd8c-f271fa558188",
-        "title": "No. 7 UCLA's defense stifles Nevada to remain undefeated",
-        "description": "Deadspin | No. 7 UCLA's defense stifles Nevada to remain undefeated",
-        "publisher": "Deadspin",
-        "publisherDomain": "deadspin.com",
-        "publishedAt": "2026-11-01T00:06:51.000Z",
-        "url": "https://deadspin.com/no-7-uclas-defense-stifles-nevada-to-remain-undefeated",
-        "imageUrl": "https://images.deadspin.com/30239296.jpg?tr=w-1200,h-675,fo-auto,f-jpg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-f6e6b2ca-b404-5b55-918a-488b31f41849",
-        "title": "No. 8 BYU holds off upset-minded Arizona State",
-        "description": "Deadspin | No. 8 BYU holds off upset-minded Arizona State",
-        "publisher": "Deadspin",
-        "publisherDomain": "deadspin.com",
-        "publishedAt": "2026-11-01T00:06:47.000Z",
-        "url": "https://deadspin.com/no-8-byu-holds-off-upset-minded-arizona-state",
-        "imageUrl": "https://images.deadspin.com/30238613.jpg?tr=w-1200,h-675,fo-auto,f-jpg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-a1d2d41d-df84-5a31-9c74-eb8f809ed784",
-        "title": "Command Casperr: a tiny hand-drawn ghost that haunts your PowerShell terminal 👻",
-        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:05:56.000Z",
-        "url": "https://dev.to/misbah_bagwan/command-casperr-a-tiny-hand-drawn-ghost-that-haunts-your-powershell-terminal-3251",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fp33xxhedjvrar4x6uvib.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-3fbca79e-0e51-5fc7-937c-5379ab69f399",
-        "title": "GitHub's New Webhook IP Ranges: An Allowlist Is Not a Signature",
-        "description": "Your app stops receiving GitHub events. An AI assistant spots a changed network range and suggests...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:05:53.000Z",
-        "url": "https://dev.to/marcusykim/githubs-new-webhook-ip-ranges-an-allowlist-is-not-a-signature-50i8",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhsdicenmxosogo2hzmkk.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-8168bd7a-83c7-50ff-9ad6-973f1d669f58",
-        "title": "Google Cloud Gives Firms 3 Spending Brakes Before AI Bills Explode",
-        "description": "Google Cloud rolled out three spend caps budget controls generally available to stop runaway cloud bills without shutting down customer resources by",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:05:33.000Z",
-        "url": "https://dev.to/fathomnews/google-cloud-gives-firms-3-spending-brakes-before-ai-bills-explode-kf9",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fwww.fathom.news%2Fwp-content%2Fuploads%2F2026%2F10%2Fgoogle-cloud-hands-companies-3-spending-brakes-to-stop-runaw.webp",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-0871cdca-367d-5060-91df-b2ee1c38dbb2",
-        "title": "'Feels like he's still on leave': Families mourning after crash that killed 3 Navy sailors",
-        "description": "PENSACOLA, Fla. (WWSB/Gray News) - Three service members assigned to Naval Air Station Pensacola died in an Oct. 24 crash in Florida, the Navy ...",
-        "publisher": "Kait8",
-        "publisherDomain": "kait8.com",
-        "publishedAt": "2026-11-01T00:15:08.000Z",
-        "url": "https://www.kait8.com/2026/10/31/feels-like-hes-still-leave-families-mourning-after-crash-that-killed-3-navy-sailors",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-11a1ec9a-3644-5a44-94b0-8bd0851516aa",
-        "title": "60-year-old rescued from Adirondacks stood in same spot for 7 hours, rangers say - KAIT",
-        "description": "21 on the Mount Colden Trap Dike. Satellite beacon sent after loss of crampons. Forest rangers said the man sent a satellite beacon around 6:30 p.m. ...",
-        "publisher": "Kait8",
-        "publisherDomain": "kait8.com",
-        "publishedAt": "2026-11-01T00:15:08.000Z",
-        "url": "https://www.kait8.com/2026/10/31/60-year-old-rescued-adirondacks-stood-same-spot-7-hours-rangers-say?outputType=amp",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-5848dd9b-729f-5669-b0ed-8f039dc6df6b",
-        "title": "Cleveland ambulance driver accused of leaving patient during trip to hospital - KAIT",
-        "description": "An Ohio ambulance driver is accused of leaving a patient with chest pain during a trip to the Cleveland Clinic after reportedly getting lost in ...",
-        "publisher": "Kait8",
-        "publisherDomain": "kait8.com",
-        "publishedAt": "2026-11-01T00:15:08.000Z",
-        "url": "https://www.kait8.com/2026/10/31/ambulance-driver-accused-abandoning-patient-said-he-was-done-driving-day-called-an-uber-home",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      }
-    ],
-    "U.S.": [
-      {
-        "id": "currents-08e274ae-a9c5-5b6d-a1b4-75b2978419be",
-        "title": "Fury as Dem senator remains lone lawmaker to spill on Trump's 'insane' post-midterm plan",
-        "description": "Sen. Chris Murphy (D-CT) warned this week that the Trump administration plans to resume its war on Iran after the midterms — an “insane” scheme he said he learned of in confidential briefings. By Saturday night, he was still the only lawmaker to speak out about those briefings, leaving one independe...",
-        "publisher": "Rawstory",
-        "publisherDomain": "rawstory.com",
-        "publishedAt": "2026-11-01T00:14:26.000Z",
-        "url": "https://www.rawstory.com/trump-iran-2678178593",
-        "imageUrl": "https://www.rawstory.com/media-library/image.jpg?id=68570748&width=1200&height=600&coordinates=0%2C158%2C0%2C158",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-49720cb1-9f88-529f-a166-43d25a79708e",
-        "title": "Cam Wallace leads Penn State past Purdue to snap 4-game skid",
-        "description": "Deadspin | Cam Wallace leads Penn State past Purdue to snap 4-game skid",
-        "publisher": "Deadspin",
-        "publisherDomain": "deadspin.com",
-        "publishedAt": "2026-11-01T00:11:51.000Z",
-        "url": "https://deadspin.com/cam-wallace-leads-penn-state-past-purdue-to-snap-4-game-skid",
-        "imageUrl": "https://images.deadspin.com/30239444.jpg?tr=w-1200,h-675,fo-auto,f-jpg",
-        "categories": [
-          "Sports",
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-a42dc172-99e6-5db8-ac09-4696bb0185ab",
-        "title": "How artificial intelligence skyrocketed memory prices and changed Apple's position",
-        "description": "An in-depth look at how a 550% surge in flash memory prices since 2023 is reshaping hardware economics, shifting supplier leverage away from Apple as cloud",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:09:30.000Z",
-        "url": "https://dev.to/hacksgr/how-artificial-intelligence-skyrocketed-memory-prices-and-changed-apples-position-3b6a",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fhacks.gr%2Fwp-content%2Fuploads%2F2026%2F11%2Fapple2-scaled-1.webp",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-0871cdca-367d-5060-91df-b2ee1c38dbb2",
-        "title": "'Feels like he's still on leave': Families mourning after crash that killed 3 Navy sailors",
-        "description": "PENSACOLA, Fla. (WWSB/Gray News) - Three service members assigned to Naval Air Station Pensacola died in an Oct. 24 crash in Florida, the Navy ...",
-        "publisher": "Kait8",
-        "publisherDomain": "kait8.com",
-        "publishedAt": "2026-11-01T00:15:08.000Z",
-        "url": "https://www.kait8.com/2026/10/31/feels-like-hes-still-leave-families-mourning-after-crash-that-killed-3-navy-sailors",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-c6d07e77-35f3-5d56-b0c2-7e914bbdd174",
-        "title": "Free AI From A Startup Reads Photos And Text On Ordinary Laptops",
-        "description": "Rock Matrix open-sourced EdgeRock-4B, a 4 billion parameter text-and-image reasoning model that fixes its attention KV cache during inference to enabl",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:09:27.000Z",
-        "url": "https://dev.to/fathomnews/free-ai-from-a-startup-reads-photos-and-text-on-ordinary-laptops-24ef",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fwww.fathom.news%2Fwp-content%2Fuploads%2F2026%2F10%2Frock-matrix-gives-away-4-billion-ai-model-that-caps-memory-u.webp",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-c802ec74-f283-5522-8092-ec2f0217ecff",
-        "title": "Paperclip's Agent Orchestration Stack: How Multi-Agent Teams Track Work, Budgets, and Tool Permissions in Production",
-        "description": "Paperclip exposes the operational plumbing for managing AI agent teams like employees: org charts, budget caps, permission boundaries, and audit trails.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:08:20.000Z",
-        "url": "https://dev.to/mech_app_ai/paperclips-agent-orchestration-stack-how-multi-agent-teams-track-work-budgets-and-tool-hkl",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.unsplash.com%2Fphoto-1668435074864-524b7424b8e2%3Fcrop%3Dentropy%26cs%3Dtinysrgb%26fit%3Dmax%26fm%3Djpg%26ixid%3DM3w4Njk2ODR8MHwxfHNlYXJjaHwxfHxQYXBlcmNsaXAlMjdzJTIwQWdlbnQlMjBPcmNoZXN0cmF0aW9uJTIwU3RhY2slM0ElMjBIb3clMjBNdWx0aS1BZ2VudCUyMFRlYW1zJTIwVHJhY2slMjBXb3JrJTJDJTIwQnVkZ2V0cyUyQyUyMGFuZCUyMFRvb2wlMjBQZXJtaXNzaW9ucyUyMGluJTIwUHJvZHVjdGlvbiUyMHNvZnR3YXJlJTIwaW5mcmFzdHJ1Y3R1cmUlMjBkYXNoYm9hcmR8ZW58MXwwfHx8MTc5MzQ5MTYwNHww%26ixlib%3Drb-4.1.0%26q%3D80%26w%3D1080",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-8d5b3cfe-cf5c-5ce1-88e4-a0c3e59bd3ef",
-        "title": "OpenAI Boss Sam Altman Says AI On Your PC Wastes Precious Memory",
-        "description": "OpenAI CEO Sam Altman said people should not run large AI models locally and called desktop inference a waste of memory, arguing scarce DRAM is better",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:08:12.000Z",
-        "url": "https://dev.to/fathomnews/openai-boss-sam-altman-says-ai-on-your-pc-wastes-precious-memory-2ohl",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fwww.fathom.news%2Fwp-content%2Fuploads%2F2026%2F10%2Fsam-altman-issues-warning-running-large-ai-on-pcs-wastes-mem.webp",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-833f35f3-cd06-5ea5-aba4-1c1ce95f95bd",
-        "title": "Cognizant Sends 25,000 Staff To Put OpenAI To Work For Big Firms",
-        "description": "Cognizant committed more than 25,000 professionals to deliver OpenAI services for enterprise customers, bundling training, migration playbooks and glo",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:06:54.000Z",
-        "url": "https://dev.to/fathomnews/cognizant-sends-25000-staff-to-put-openai-to-work-for-big-firms-1pgk",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fwww.fathom.news%2Fwp-content%2Fuploads%2F2026%2F10%2F25-000-cognizant-staff-drive-openai-from-test-runs-to-real-u.webp",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-57e3cba9-01fc-5130-bd8c-f271fa558188",
-        "title": "No. 7 UCLA's defense stifles Nevada to remain undefeated",
-        "description": "Deadspin | No. 7 UCLA's defense stifles Nevada to remain undefeated",
-        "publisher": "Deadspin",
-        "publisherDomain": "deadspin.com",
-        "publishedAt": "2026-11-01T00:06:51.000Z",
-        "url": "https://deadspin.com/no-7-uclas-defense-stifles-nevada-to-remain-undefeated",
-        "imageUrl": "https://images.deadspin.com/30239296.jpg?tr=w-1200,h-675,fo-auto,f-jpg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-f6e6b2ca-b404-5b55-918a-488b31f41849",
-        "title": "No. 8 BYU holds off upset-minded Arizona State",
-        "description": "Deadspin | No. 8 BYU holds off upset-minded Arizona State",
-        "publisher": "Deadspin",
-        "publisherDomain": "deadspin.com",
-        "publishedAt": "2026-11-01T00:06:47.000Z",
-        "url": "https://deadspin.com/no-8-byu-holds-off-upset-minded-arizona-state",
-        "imageUrl": "https://images.deadspin.com/30238613.jpg?tr=w-1200,h-675,fo-auto,f-jpg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-a1d2d41d-df84-5a31-9c74-eb8f809ed784",
-        "title": "Command Casperr: a tiny hand-drawn ghost that haunts your PowerShell terminal 👻",
-        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:05:56.000Z",
-        "url": "https://dev.to/misbah_bagwan/command-casperr-a-tiny-hand-drawn-ghost-that-haunts-your-powershell-terminal-3251",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fp33xxhedjvrar4x6uvib.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-3fbca79e-0e51-5fc7-937c-5379ab69f399",
-        "title": "GitHub's New Webhook IP Ranges: An Allowlist Is Not a Signature",
-        "description": "Your app stops receiving GitHub events. An AI assistant spots a changed network range and suggests...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:05:53.000Z",
-        "url": "https://dev.to/marcusykim/githubs-new-webhook-ip-ranges-an-allowlist-is-not-a-signature-50i8",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhsdicenmxosogo2hzmkk.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-8168bd7a-83c7-50ff-9ad6-973f1d669f58",
-        "title": "Google Cloud Gives Firms 3 Spending Brakes Before AI Bills Explode",
-        "description": "Google Cloud rolled out three spend caps budget controls generally available to stop runaway cloud bills without shutting down customer resources by",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:05:33.000Z",
-        "url": "https://dev.to/fathomnews/google-cloud-gives-firms-3-spending-brakes-before-ai-bills-explode-kf9",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fwww.fathom.news%2Fwp-content%2Fuploads%2F2026%2F10%2Fgoogle-cloud-hands-companies-3-spending-brakes-to-stop-runaw.webp",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-11a1ec9a-3644-5a44-94b0-8bd0851516aa",
-        "title": "60-year-old rescued from Adirondacks stood in same spot for 7 hours, rangers say - KAIT",
-        "description": "21 on the Mount Colden Trap Dike. Satellite beacon sent after loss of crampons. Forest rangers said the man sent a satellite beacon around 6:30 p.m. ...",
-        "publisher": "Kait8",
-        "publisherDomain": "kait8.com",
-        "publishedAt": "2026-11-01T00:15:08.000Z",
-        "url": "https://www.kait8.com/2026/10/31/60-year-old-rescued-adirondacks-stood-same-spot-7-hours-rangers-say?outputType=amp",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-5848dd9b-729f-5669-b0ed-8f039dc6df6b",
-        "title": "Cleveland ambulance driver accused of leaving patient during trip to hospital - KAIT",
-        "description": "An Ohio ambulance driver is accused of leaving a patient with chest pain during a trip to the Cleveland Clinic after reportedly getting lost in ...",
-        "publisher": "Kait8",
-        "publisherDomain": "kait8.com",
-        "publishedAt": "2026-11-01T00:15:08.000Z",
-        "url": "https://www.kait8.com/2026/10/31/ambulance-driver-accused-abandoning-patient-said-he-was-done-driving-day-called-an-uber-home",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-f498f97d-16ca-5f9f-8ed6-5c6f7055c090",
-        "title": "Which \"Green\" rated 403(b) (Roth) vendors should we choose?",
-        "description": "My wife and I are both teachers want to supplement our California State Teacher Retirement pension and Roth IRAs with some Roth 403(b) funds. We work for different districts but have some overlap on the well-rated choices of vendors as seen at https://403bwise.org/advocacy/rating_system. My choices:...",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-11-01T00:06:19.000Z",
-        "url": "https://www.reddit.com/r/personalfinance/comments/1xkp7vn/which_green_rated_403b_roth_vendors_should_we",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Business"
-        ]
-      }
-    ],
-    "World": [
-      {
-        "id": "currents-08e274ae-a9c5-5b6d-a1b4-75b2978419be",
-        "title": "Fury as Dem senator remains lone lawmaker to spill on Trump's 'insane' post-midterm plan",
-        "description": "Sen. Chris Murphy (D-CT) warned this week that the Trump administration plans to resume its war on Iran after the midterms — an “insane” scheme he said he learned of in confidential briefings. By Saturday night, he was still the only lawmaker to speak out about those briefings, leaving one independe...",
-        "publisher": "Rawstory",
-        "publisherDomain": "rawstory.com",
-        "publishedAt": "2026-11-01T00:14:26.000Z",
-        "url": "https://www.rawstory.com/trump-iran-2678178593",
-        "imageUrl": "https://www.rawstory.com/media-library/image.jpg?id=68570748&width=1200&height=600&coordinates=0%2C158%2C0%2C158",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-3d4f543e-3a3e-57ca-9fb3-3b8ebd993c0b",
-        "title": "Syria weighing whether to join Mecca pact: foreign minister - The Korea Times",
-        "description": "MANAMA — Syria's top diplomat on Saturday said Damascus was considering whether to join the NATO-style Mecca defense alliance that binds Turkey, Sa...",
-        "publisher": "Co",
-        "publisherDomain": "koreatimes.co.kr",
-        "publishedAt": "2026-11-01T00:07:03.000Z",
-        "url": "https://www.koreatimes.co.kr/world/20261101/syria-weighing-whether-to-join-mecca-pact-foreign-minister",
-        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/11/01/f601b84c-4037-4ce6-b5e1-c064a20037a1.jpg",
+        "id": "currents-816f3a70-af5e-573d-9bff-f40b3c2bdd32",
+        "title": "From innovation to research: What do AICTE's 4 new schemes offer technical colleges?",
+        "description": "AICTE has launched four schemes for the 2026-27 academic session, covering hands-on innovation, infrastructure modernisation, institutional mentoring and support for academic conferences. The initiatives seek to strengthen technical colleges, although funding, application schedules and institution-w...",
+        "publisher": "Indiatoday",
+        "publisherDomain": "indiatoday.in",
+        "publishedAt": "2026-11-01T06:34:45.000Z",
+        "url": "https://www.indiatoday.in/education-today/news/story/aicte-schemes-how-will-idea-lab-modrobs-margdarshan-and-goc-improve-technical-education-3029746-2026-11-01",
+        "imageUrl": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202611/from-innovation-to-research-what-do-aictes-4-new-schemes-offer-technical-colleges-ai-generated-i-013219202-16x9_0.jpg?VersionId=ZTJZW.oZogiCf2Ch9D.PBcUlUPWzx.Ed",
         "categories": [
           "Top",
           "World"
         ]
       },
       {
-        "id": "currents-0871cdca-367d-5060-91df-b2ee1c38dbb2",
-        "title": "'Feels like he's still on leave': Families mourning after crash that killed 3 Navy sailors",
-        "description": "PENSACOLA, Fla. (WWSB/Gray News) - Three service members assigned to Naval Air Station Pensacola died in an Oct. 24 crash in Florida, the Navy ...",
-        "publisher": "Kait8",
-        "publisherDomain": "kait8.com",
-        "publishedAt": "2026-11-01T00:15:08.000Z",
-        "url": "https://www.kait8.com/2026/10/31/feels-like-hes-still-leave-families-mourning-after-crash-that-killed-3-navy-sailors",
+        "id": "currents-00f729ca-79ec-5e67-9361-7ba42b76da4b",
+        "title": "At least three injured after grandstand collapses at music festival",
+        "description": "A temporary grandstand for the Red Hot Summer Tour collapsed about 2.50pm on Sunday.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-11-01T06:31:27.000Z",
+        "url": "https://www.dailymail.com/news/article-16256255/grandstand-Coolangatta-Gold-Coast-Red-Hot-Summer.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/11/01/06/112224427-0-image-a-7_1793514451674.jpg",
         "categories": [
           "Top",
-          "World",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-0bd22f72-93df-5828-a4cf-2286d9619092",
+        "title": "Guess the Number: daily number puzzle from The Week",
+        "description": "Use logic and deduction to work out the four-digit number",
+        "publisher": "Theweek",
+        "publisherDomain": "theweek.com",
+        "publishedAt": "2026-11-01T06:30:00.000Z",
+        "url": "https://theweek.com/puzzles/guess-the-number-november-2026",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/n42gdbsgQX5tb6tCbBJdgP-2000-80.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-092dcaec-e593-52b4-8b64-a4c318cff695",
+        "title": "# Anima Memory Vault: Keeping Family Stories Alive with a Local Spirit Guardian",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:31:01.000Z",
+        "url": "https://dev.to/archita06sharma/-anima-memory-vault-keeping-family-stories-alive-with-a-local-spirit-guardian-3l07",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgttud8rnb3328h1p4hw8.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-1416840e-a0f6-5162-9025-2d692f7d9c4b",
+        "title": "On 21 Nov 2024 Adani fell 22.61%. My model didn't know why, and it wasn't allowed to guess.",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge: Week 4: Ghost in the Machine In...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:30:33.000Z",
+        "url": "https://dev.to/kareliya_bhakti_78f0fdb58/on-21-nov-2024-adani-fell-2261-my-model-didnt-know-why-and-it-wasnt-allowed-to-guess-ced",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F70l2pm8q5as1llvx4187.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-a8c15259-e982-5ca0-b2af-eabcf496975b",
+        "title": "Wraith: a ghost in my zsh that stops your hand before the dangerous command runs",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:30:00.000Z",
+        "url": "https://dev.to/aakash_mehta_48e67c642976/wraith-a-ghost-in-my-zsh-that-stops-your-hand-before-the-dangerous-command-runs-43nj",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhhdg2qds123dnzg7hja0.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-576675c6-df74-5756-94c2-4d1ddacfe536",
+        "title": "I Built a Healthcare Platform Where AI Is Never Allowed to Have the Final Word.",
+        "description": "🧩 What I Built Healthcare information is dangerously fragmented across short...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:29:25.000Z",
+        "url": "https://dev.to/khushalgoel/i-built-a-healthcare-platform-where-ai-is-never-allowed-to-have-the-final-word-3lc5",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffg9mcwffa4r0vvc0y7r3.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-5ef8a056-2dd2-5db5-86a1-c157c8790070",
+        "title": "How We Built Metis in 7 Hours: Recovering Hidden Decisions from Open-Source Projects",
+        "description": "Hackathons are exciting, but the real experience begins when you have to turn an idea into...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:29:00.000Z",
+        "url": "https://dev.to/shreyas_mohite2211/how-we-built-metis-in-7-hours-recovering-hidden-decisions-from-open-source-projects-3mgl",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjv90aezxp7s5v2cg0nxe.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-83198246-3c5e-5e61-a426-babf8997fe8c",
+        "title": "Lumbre: a Día de los Muertos altar that only remembers what you tell it",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:25:56.000Z",
+        "url": "https://dev.to/ashrafahm/lumbre-a-dia-de-los-muertos-altar-that-only-remembers-what-you-tell-it-6hc",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftt0prxk7jc1bqj02g114.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-fd385de0-2dfe-59a3-87f2-cab5f394d3b3",
+        "title": "Missouri's Ahmad Hardy returns nearly 6 months after being shot in leg",
+        "description": "Missouri RB Ahmad Hardy returned to the field on Saturday night, nearly six months after being wounded in the leg during a shooting at an outdoor concert.",
+        "publisher": "ESPN",
+        "publisherDomain": "espn.com",
+        "publishedAt": "2026-11-01T06:25:53.000Z",
+        "url": "https://www.espn.com/college-football/story/_/id/50344541/missouri-ahmad-hardy-returns-nearly-6-months-being-shot-leg",
+        "imageUrl": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1101%2Fr1739333_1296x729_16%2D9.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-e35ea583-8014-574d-ac48-2c9d500dc4ef",
+        "title": "I built a coroner for dead software. It issues death certificates, and it refuses to lie.",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:25:39.000Z",
+        "url": "https://dev.to/dmustapha/i-built-a-coroner-for-dead-software-it-issues-death-certificates-and-it-refuses-to-lie-2o07",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Ffiles.catbox.moe%2Fciktz2.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-37f2e14c-06c8-57e9-ab92-2f4e475ad7df",
+        "title": "Count a Recovered Dollar Once, or Stop Counting",
+        "description": "Every recovery vendor's homepage carries a number: dollars recovered, subscribers saved, revenue...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:24:50.000Z",
+        "url": "https://dev.to/swipe-again/count-a-recovered-dollar-once-or-stop-counting-c3k",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fa39kqu2z26zzgr2p70hj.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-1cc0d6a7-1e57-5f1e-9949-5965606f8f68",
+        "title": "For vegans, it's not just what's on the dinner plate, but also what happens after the dinner date",
+        "description": "AMSTERDAM (AP) — Worries about the environment and concerns about animal welfare are on the rise, and on World Vegan Day, some are looking for alternatives not just at the dining table but also in the bedroom.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-11-01T06:24:07.000Z",
+        "url": "https://www.winnipegfreepress.com/arts-and-life/life/2026/11/01/for-vegans-its-not-just-whats-on-the-dinner-plate-but-also-what-happens-after-the-dinner-date",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ae6daf5fa84d60e55ce1f85jpeg.jpg?w=1600",
+        "categories": [
+          "Sports",
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-49d7afed-c007-5d46-a21a-46e120aabc4e",
+        "title": "It's not a sprint, it's a marathon",
+        "description": "Scrum calls its steady rhythm a sprint, and agents now sprint for us without ever getting tired. We can't. The pace has to live in the system, so it holds when nobody is watching.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:33:40.000Z",
+        "url": "https://dev.to/hayatibis/its-not-a-sprint-its-a-marathon-4p4",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fhayatibis.dev%2Fog%2Fits-not-a-sprint-its-a-marathon.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
           "U.S."
         ]
       },
       {
-        "id": "currents-11a1ec9a-3644-5a44-94b0-8bd0851516aa",
-        "title": "60-year-old rescued from Adirondacks stood in same spot for 7 hours, rangers say - KAIT",
-        "description": "21 on the Mount Colden Trap Dike. Satellite beacon sent after loss of crampons. Forest rangers said the man sent a satellite beacon around 6:30 p.m. ...",
-        "publisher": "Kait8",
-        "publisherDomain": "kait8.com",
-        "publishedAt": "2026-11-01T00:15:08.000Z",
-        "url": "https://www.kait8.com/2026/10/31/60-year-old-rescued-adirondacks-stood-same-spot-7-hours-rangers-say?outputType=amp",
+        "id": "currents-1aca27a9-6bc7-5dda-b031-9ab72a970487",
+        "title": "Easy sudoku: daily puzzle from The Week",
+        "description": "Test your logic every day with our number challenge",
+        "publisher": "Theweek",
+        "publisherDomain": "theweek.com",
+        "publishedAt": "2026-11-01T06:30:00.000Z",
+        "url": "https://theweek.com/puzzles/easy-sudoku-november-2026",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/KUMCq65YznEh2fiwXuLcgP-2000-80.jpg",
         "categories": [
           "Top",
-          "World",
+          "U.S.",
+          "World"
+        ]
+      }
+    ],
+    "U.S.": [
+      {
+        "id": "currents-2b76b929-dc5d-53a2-96ef-fe93d2687f2e",
+        "title": "A ChatGPT share link leaked your private conversations",
+        "description": "In October 2026, a research team at parameter.ai turned an ordinary public ChatGPT share link into...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:25:48.000Z",
+        "url": "https://dev.to/randomchaos/a-chatgpt-share-link-leaked-your-private-conversations-4oia",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2mqda9g331qmk5cc36r1.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-0bd22f72-93df-5828-a4cf-2286d9619092",
+        "title": "Guess the Number: daily number puzzle from The Week",
+        "description": "Use logic and deduction to work out the four-digit number",
+        "publisher": "Theweek",
+        "publisherDomain": "theweek.com",
+        "publishedAt": "2026-11-01T06:30:00.000Z",
+        "url": "https://theweek.com/puzzles/guess-the-number-november-2026",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/n42gdbsgQX5tb6tCbBJdgP-2000-80.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-fd385de0-2dfe-59a3-87f2-cab5f394d3b3",
+        "title": "Missouri's Ahmad Hardy returns nearly 6 months after being shot in leg",
+        "description": "Missouri RB Ahmad Hardy returned to the field on Saturday night, nearly six months after being wounded in the leg during a shooting at an outdoor concert.",
+        "publisher": "ESPN",
+        "publisherDomain": "espn.com",
+        "publishedAt": "2026-11-01T06:25:53.000Z",
+        "url": "https://www.espn.com/college-football/story/_/id/50344541/missouri-ahmad-hardy-returns-nearly-6-months-being-shot-leg",
+        "imageUrl": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1101%2Fr1739333_1296x729_16%2D9.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-1cc0d6a7-1e57-5f1e-9949-5965606f8f68",
+        "title": "For vegans, it's not just what's on the dinner plate, but also what happens after the dinner date",
+        "description": "AMSTERDAM (AP) — Worries about the environment and concerns about animal welfare are on the rise, and on World Vegan Day, some are looking for alternatives not just at the dining table but also in the bedroom.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-11-01T06:24:07.000Z",
+        "url": "https://www.winnipegfreepress.com/arts-and-life/life/2026/11/01/for-vegans-its-not-just-whats-on-the-dinner-plate-but-also-what-happens-after-the-dinner-date",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ae6daf5fa84d60e55ce1f85jpeg.jpg?w=1600",
+        "categories": [
+          "Sports",
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-092dcaec-e593-52b4-8b64-a4c318cff695",
+        "title": "# Anima Memory Vault: Keeping Family Stories Alive with a Local Spirit Guardian",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:31:01.000Z",
+        "url": "https://dev.to/archita06sharma/-anima-memory-vault-keeping-family-stories-alive-with-a-local-spirit-guardian-3l07",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgttud8rnb3328h1p4hw8.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-1416840e-a0f6-5162-9025-2d692f7d9c4b",
+        "title": "On 21 Nov 2024 Adani fell 22.61%. My model didn't know why, and it wasn't allowed to guess.",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge: Week 4: Ghost in the Machine In...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:30:33.000Z",
+        "url": "https://dev.to/kareliya_bhakti_78f0fdb58/on-21-nov-2024-adani-fell-2261-my-model-didnt-know-why-and-it-wasnt-allowed-to-guess-ced",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F70l2pm8q5as1llvx4187.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-a8c15259-e982-5ca0-b2af-eabcf496975b",
+        "title": "Wraith: a ghost in my zsh that stops your hand before the dangerous command runs",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:30:00.000Z",
+        "url": "https://dev.to/aakash_mehta_48e67c642976/wraith-a-ghost-in-my-zsh-that-stops-your-hand-before-the-dangerous-command-runs-43nj",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhhdg2qds123dnzg7hja0.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-576675c6-df74-5756-94c2-4d1ddacfe536",
+        "title": "I Built a Healthcare Platform Where AI Is Never Allowed to Have the Final Word.",
+        "description": "🧩 What I Built Healthcare information is dangerously fragmented across short...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:29:25.000Z",
+        "url": "https://dev.to/khushalgoel/i-built-a-healthcare-platform-where-ai-is-never-allowed-to-have-the-final-word-3lc5",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffg9mcwffa4r0vvc0y7r3.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-5ef8a056-2dd2-5db5-86a1-c157c8790070",
+        "title": "How We Built Metis in 7 Hours: Recovering Hidden Decisions from Open-Source Projects",
+        "description": "Hackathons are exciting, but the real experience begins when you have to turn an idea into...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:29:00.000Z",
+        "url": "https://dev.to/shreyas_mohite2211/how-we-built-metis-in-7-hours-recovering-hidden-decisions-from-open-source-projects-3mgl",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjv90aezxp7s5v2cg0nxe.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-83198246-3c5e-5e61-a426-babf8997fe8c",
+        "title": "Lumbre: a Día de los Muertos altar that only remembers what you tell it",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:25:56.000Z",
+        "url": "https://dev.to/ashrafahm/lumbre-a-dia-de-los-muertos-altar-that-only-remembers-what-you-tell-it-6hc",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftt0prxk7jc1bqj02g114.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-e35ea583-8014-574d-ac48-2c9d500dc4ef",
+        "title": "I built a coroner for dead software. It issues death certificates, and it refuses to lie.",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:25:39.000Z",
+        "url": "https://dev.to/dmustapha/i-built-a-coroner-for-dead-software-it-issues-death-certificates-and-it-refuses-to-lie-2o07",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Ffiles.catbox.moe%2Fciktz2.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-37f2e14c-06c8-57e9-ab92-2f4e475ad7df",
+        "title": "Count a Recovered Dollar Once, or Stop Counting",
+        "description": "Every recovery vendor's homepage carries a number: dollars recovered, subscribers saved, revenue...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:24:50.000Z",
+        "url": "https://dev.to/swipe-again/count-a-recovered-dollar-once-or-stop-counting-c3k",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fa39kqu2z26zzgr2p70hj.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-49d7afed-c007-5d46-a21a-46e120aabc4e",
+        "title": "It's not a sprint, it's a marathon",
+        "description": "Scrum calls its steady rhythm a sprint, and agents now sprint for us without ever getting tired. We can't. The pace has to live in the system, so it holds when nobody is watching.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:33:40.000Z",
+        "url": "https://dev.to/hayatibis/its-not-a-sprint-its-a-marathon-4p4",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fhayatibis.dev%2Fog%2Fits-not-a-sprint-its-a-marathon.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
           "U.S."
         ]
       },
       {
-        "id": "currents-5848dd9b-729f-5669-b0ed-8f039dc6df6b",
-        "title": "Cleveland ambulance driver accused of leaving patient during trip to hospital - KAIT",
-        "description": "An Ohio ambulance driver is accused of leaving a patient with chest pain during a trip to the Cleveland Clinic after reportedly getting lost in ...",
-        "publisher": "Kait8",
-        "publisherDomain": "kait8.com",
-        "publishedAt": "2026-11-01T00:15:08.000Z",
-        "url": "https://www.kait8.com/2026/10/31/ambulance-driver-accused-abandoning-patient-said-he-was-done-driving-day-called-an-uber-home",
+        "id": "currents-1aca27a9-6bc7-5dda-b031-9ab72a970487",
+        "title": "Easy sudoku: daily puzzle from The Week",
+        "description": "Test your logic every day with our number challenge",
+        "publisher": "Theweek",
+        "publisherDomain": "theweek.com",
+        "publishedAt": "2026-11-01T06:30:00.000Z",
+        "url": "https://theweek.com/puzzles/easy-sudoku-november-2026",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/KUMCq65YznEh2fiwXuLcgP-2000-80.jpg",
         "categories": [
           "Top",
-          "World",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-30a6cdb6-e72b-5469-a808-79cb951ed93f",
+        "title": "An honest x402 seller earned $0.18 in two weeks and shut down. We now host sellers like it for free.",
+        "description": "It answered correctly, charged less than we do, earned $0.18 in two weeks and went offline. Why small x402 sellers fold, and the free hosting we now offer them.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:25:05.000Z",
+        "url": "https://dev.to/alexar76/an-honest-x402-seller-earned-018-in-two-weeks-and-shut-down-we-now-host-sellers-like-it-for-free-41c2",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fmodelmarket.dev%2Fblog%2Fan-honest-x402-seller-earned-018-in-two-weeks-and-shut-down-we-now-host-sellers-like-it-for-free%2Fcover.webp",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-f67cb70b-6282-5a21-9c8d-07be21706d4b",
+        "title": "Somewhere Out There, Forgotten Accounts Still Have My Name, I Went Looking: So I built Ghostbook, a Gemma-Powered Map of Your Forgotten Accounts.",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:32:30.000Z",
+        "url": "https://dev.to/amyy22/somewhere-out-there-forgotten-accounts-still-have-my-name-i-went-looking-so-i-built-ghostbook-a-2g3p",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fp9g1zllp1am9i168g32f.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
           "U.S."
+        ]
+      }
+    ],
+    "World": [
+      {
+        "id": "currents-816f3a70-af5e-573d-9bff-f40b3c2bdd32",
+        "title": "From innovation to research: What do AICTE's 4 new schemes offer technical colleges?",
+        "description": "AICTE has launched four schemes for the 2026-27 academic session, covering hands-on innovation, infrastructure modernisation, institutional mentoring and support for academic conferences. The initiatives seek to strengthen technical colleges, although funding, application schedules and institution-w...",
+        "publisher": "Indiatoday",
+        "publisherDomain": "indiatoday.in",
+        "publishedAt": "2026-11-01T06:34:45.000Z",
+        "url": "https://www.indiatoday.in/education-today/news/story/aicte-schemes-how-will-idea-lab-modrobs-margdarshan-and-goc-improve-technical-education-3029746-2026-11-01",
+        "imageUrl": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202611/from-innovation-to-research-what-do-aictes-4-new-schemes-offer-technical-colleges-ai-generated-i-013219202-16x9_0.jpg?VersionId=ZTJZW.oZogiCf2Ch9D.PBcUlUPWzx.Ed",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-00f729ca-79ec-5e67-9361-7ba42b76da4b",
+        "title": "At least three injured after grandstand collapses at music festival",
+        "description": "A temporary grandstand for the Red Hot Summer Tour collapsed about 2.50pm on Sunday.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-11-01T06:31:27.000Z",
+        "url": "https://www.dailymail.com/news/article-16256255/grandstand-Coolangatta-Gold-Coast-Red-Hot-Summer.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/11/01/06/112224427-0-image-a-7_1793514451674.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-04857b34-bf36-53f0-af8c-ed1b33203e05",
+        "title": "US visa issuance delay emerges as political wrangling over alliance - The Korea Times",
+        "description": "The delay of U.S. visa issuance for a ruling party lawmaker has become a topic of debate between rival parties over whether it is a sign of growing...",
+        "publisher": "Co",
+        "publisherDomain": "koreatimes.co.kr",
+        "publishedAt": "2026-11-01T06:37:02.000Z",
+        "url": "https://www.koreatimes.co.kr/foreignaffairs/20261101/us-visa-issuance-delay-emerges-as-political-wrangling-over-alliance",
+        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/11/01/b211749b-efba-4918-98e4-40ebd0fedc0f.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-b76950b6-33a0-5843-baf4-2d16e44a1b63",
+        "title": "€2 here, €3 there: EU adds another charge to cheap online shopping",
+        "description": "BRUSSELS, Nov 1 — The European Union slapped a €2 (RM9) handling fee on packages from outside the 27-nation bloc today in a bid to curb the influx from China.The new levy —...",
+        "publisher": "Malaymail",
+        "publisherDomain": "malaymail.com",
+        "publishedAt": "2026-11-01T06:35:56.000Z",
+        "url": "https://www.malaymail.com/news/money/2026/11/01/2-here-3-there-eu-adds-another-charge-to-cheap-online-shopping/241572",
+        "imageUrl": "https://www.malaymail.com/malaymail/uploads/images/2026/11/01/371771.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-83387788-d3a8-5113-869d-1bf5016f7dc9",
+        "title": "Overseas trips add to debate over Korea's shifting political standards - The Korea Times",
+        "description": "President Lee Jae Myung’s overseas trips have again drawn attention to Korea’s shifting political standards, adding to a familiar cycle of disputes...",
+        "publisher": "Co",
+        "publisherDomain": "koreatimes.co.kr",
+        "publishedAt": "2026-11-01T06:37:02.000Z",
+        "url": "https://www.koreatimes.co.kr/southkorea/politics/20261101/overseas-trips-add-to-debate-over-koreas-shifting-political-standards",
+        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/11/01/b6395c4a-fa8d-4f0f-9789-bb3b424b8425.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-567d02ee-0e87-567b-b17a-708ce5f84762",
+        "title": "RM425 a month to make clothes for the world? Bangladesh workers want better pay",
+        "description": "DHAKA, Nov 1 — Bangladesh will form a new board today to review the minimum wage for garment workers, as authorities sought to quell protests that have disrupted key industrial...",
+        "publisher": "Malaymail",
+        "publisherDomain": "malaymail.com",
+        "publishedAt": "2026-11-01T06:35:44.000Z",
+        "url": "https://www.malaymail.com/news/money/2026/11/01/rm425-a-month-to-make-clothes-for-the-world-bangladesh-workers-want-better-pay/241571",
+        "imageUrl": "https://www.malaymail.com/malaymail/uploads/images/2026/11/01/371769.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-e57297c0-b41d-5713-9e42-78a12872f1bc",
+        "title": "Trouble for anyone playing fast and loose with SARS",
+        "description": "SARS has tweaked its third-party processes and now has the power to collect what you owe straight from them. Here’s how …",
+        "publisher": "Thesouthafrican",
+        "publisherDomain": "thesouthafrican.com",
+        "publishedAt": "2026-11-01T06:32:00.000Z",
+        "url": "https://www.thesouthafrican.com/business/trouble-fast-and-loose-with-sars",
+        "imageUrl": "https://www.thesouthafrican.com/wp-content/uploads/2026/10/2026-10-30-auto-draft-1.jpg.webp",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-e9cac273-754f-51d4-b744-4b69f98df8fe",
+        "title": "Anwar pledges RM1m boost for hawkers and urges an end to tedious loan paperwork",
+        "description": "KAJANG, Nov 1 — Prime Minister Datuk Seri Anwar Ibrahim has announced an allocation of RM1 million to the Ministry of Entrepreneur Development and Cooperatives (KUSKOP) to...",
+        "publisher": "Malaymail",
+        "publisherDomain": "malaymail.com",
+        "publishedAt": "2026-11-01T06:31:53.000Z",
+        "url": "https://www.malaymail.com/news/malaysia/2026/11/01/anwar-pledges-rm1m-boost-for-hawkers-and-urges-an-end-to-tedious-loan-paperwork/241570",
+        "imageUrl": "https://www.malaymail.com/malaymail/uploads/images/2026/11/01/371770.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-0bd22f72-93df-5828-a4cf-2286d9619092",
+        "title": "Guess the Number: daily number puzzle from The Week",
+        "description": "Use logic and deduction to work out the four-digit number",
+        "publisher": "Theweek",
+        "publisherDomain": "theweek.com",
+        "publishedAt": "2026-11-01T06:30:00.000Z",
+        "url": "https://theweek.com/puzzles/guess-the-number-november-2026",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/n42gdbsgQX5tb6tCbBJdgP-2000-80.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-1cc0d6a7-1e57-5f1e-9949-5965606f8f68",
+        "title": "For vegans, it's not just what's on the dinner plate, but also what happens after the dinner date",
+        "description": "AMSTERDAM (AP) — Worries about the environment and concerns about animal welfare are on the rise, and on World Vegan Day, some are looking for alternatives not just at the dining table but also in the bedroom.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-11-01T06:24:07.000Z",
+        "url": "https://www.winnipegfreepress.com/arts-and-life/life/2026/11/01/for-vegans-its-not-just-whats-on-the-dinner-plate-but-also-what-happens-after-the-dinner-date",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ae6daf5fa84d60e55ce1f85jpeg.jpg?w=1600",
+        "categories": [
+          "Sports",
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-2e1139ce-0fb2-5944-9069-a60598e294c1",
+        "title": "Heavy traffic expected at Woodlands, Tuas checkpoints during Deepavali long weekend",
+        "description": "A single-day record of 599,000 travellers was set on Sept 4 during the recent school holidays.",
+        "publisher": "Straitstimes",
+        "publisherDomain": "straitstimes.com",
+        "publishedAt": "2026-11-01T06:34:00.000Z",
+        "url": "https://www.straitstimes.com/singapore/heavy-traffic-expected-at-woodlands-tuas-checkpoints-during-deepavali-long-weekend",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-0f4ee71d-c3a5-52ba-a2b6-3fd5a3b4a1da",
+        "title": "Israeli, US flags burned in Lyon as economic protests turn violent in Europe | The Jerusalem Post",
+        "description": "Demonstrations across Germany, France, Italy and other European countries on Saturday saw clashes with police, arrests and calls for greater investment in public services.",
+        "publisher": "Jpost",
+        "publisherDomain": "jpost.com",
+        "publishedAt": "2026-11-01T06:37:06.000Z",
+        "url": "https://www.jpost.com/international/article-913429",
+        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/744392",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-1a6cebeb-4df1-5ef7-89c2-6c6e1e302868",
+        "title": "Ancient Canaanite fortress from biblical Book of Judges era reopens in Israel | The Jerusalem Post",
+        "description": "The fortress, located in the heart of the Guvrin Forest in the Judean Lowlands, was discovered during 2018-2019 excavations by IAA archaeologists Dr. Saar Ganor and Dr. Itamar Weissbein.",
+        "publisher": "Jpost",
+        "publisherDomain": "jpost.com",
+        "publishedAt": "2026-11-01T06:37:06.000Z",
+        "url": "https://www.jpost.com/archaeology/article-913213",
+        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/744148",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-afe371e0-3c1c-5e4a-b061-32ecf44f0cfd",
+        "title": "Haredi protesters block traffic near Tel Hashomer IDF base | The Jerusalem Post",
+        "description": "The public was advised to find alternate routes around the area until the matter was resolved.",
+        "publisher": "Jpost",
+        "publisherDomain": "jpost.com",
+        "publishedAt": "2026-11-01T06:37:06.000Z",
+        "url": "https://www.jpost.com/israel-news/article-913428",
+        "imageUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/744396",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-1aca27a9-6bc7-5dda-b031-9ab72a970487",
+        "title": "Easy sudoku: daily puzzle from The Week",
+        "description": "Test your logic every day with our number challenge",
+        "publisher": "Theweek",
+        "publisherDomain": "theweek.com",
+        "publishedAt": "2026-11-01T06:30:00.000Z",
+        "url": "https://theweek.com/puzzles/easy-sudoku-november-2026",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/KUMCq65YznEh2fiwXuLcgP-2000-80.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-77acca81-3cfe-580a-bd22-cfdf97f1de6c",
+        "title": "Chain Word: daily word puzzle",
+        "description": "You have six tries to find the hidden five-letter word",
+        "publisher": "Theweek",
+        "publisherDomain": "theweek.com",
+        "publishedAt": "2026-11-01T06:30:00.000Z",
+        "url": "https://theweek.com/puzzles/chain-word-november-2026",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/FcZ48YeSjzcJzWneqRZCYP-2000-80.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
         ]
       }
     ],
     "Business": [
       {
-        "id": "currents-8f2edd2d-38a8-553e-abee-bd16290a36f4",
-        "title": "African lenders formally establish $5 billion energy bank",
-        "description": "African refiners meet in Cape Town as global oil risks loom. Smoke rises at the Natref oil refinery, South Africa's only inland crude oil refinery ...",
-        "publisher": "Reuters",
-        "publisherDomain": "reuters.com",
-        "publishedAt": "2026-10-31T23:28:04.000Z",
-        "url": "https://www.reuters.com/business/energy/african-lenders-formally-establish-5-billion-energy-bank-2026-10-31",
+        "id": "currents-8871d398-3d9e-5ae2-927b-b85ea90a8d18",
+        "title": "Pakistan refineries report 1,860% jump in profit amid war windfall",
+        "description": "Islamabad introduces cap on refinery margins as retail prices hit consumers hard",
+        "publisher": "Nikkei",
+        "publisherDomain": "asia.nikkei.com",
+        "publishedAt": "2026-11-01T06:29:53.000Z",
+        "url": "https://asia.nikkei.com/business/energy/pakistan-refineries-report-1-860-jump-in-profit-amid-war-windfall2",
+        "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F6%2F6%2F0%2F4%2F13384066-2-eng-GB%2F288af65a9871-2026-03-18T144331Z_598600547_RC2S6KA5JUB5_RTRMADP_3_IRAN-CRISIS-OIL-PAKISTAN.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-d90c78bc-78fc-57af-ad16-7cf7f3a4e1e5",
-        "title": "Changing tastes, warming climate push winemakers to extinct volcano",
-        "description": "The Hunter Valley's climate has become increasingly compromised with the region's producers looking elsewhere for grapes.",
-        "publisher": "Net",
-        "publisherDomain": "abc.net.au",
-        "publishedAt": "2026-11-01T00:16:20.000Z",
-        "url": "https://www.abc.net.au/news/2026-11-01/orange-wineries-export-grapes-amid-changing-tastes-climate/107246582",
-        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/cf1a6451a4a04e5e196a887bc77ed969?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=259&width=862&height=485&imformat=generic",
+        "id": "currents-16e33e8d-ac05-5522-a994-5c65d683e7f0",
+        "title": "Europeans remain wary of innovative foods despite recognising benefits",
+        "description": "A majority of Europeans have a negative view of innovative food products, despite recognising their potential to help farmers tackle climate change and other challenges, according to a European Commission survey published on Monday that highlights widespread gaps in public awareness and understandin...",
+        "publisher": "Cyprus Mail",
+        "publisherDomain": "cyprus-mail.com",
+        "publishedAt": "2026-11-01T06:00:00.000Z",
+        "url": "https://cyprus-mail.com/2026/11/01/europeans-remain-wary-of-innovative-foods-despite-recognising-benefits",
+        "imageUrl": "https://cyprus-mail.com/wp-content/uploads/2026/10/fresh-food-vegetables-fruit.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-f96cdb08-27bf-5077-b8fa-f0f2f84a0fce",
-        "title": "China Fielding Robotic Space Weapons That Can Attack Other Satellites",
-        "description": "As China has more than tripled its space launches, satellites that can function as weapons pose a big security risk, according to the U.S. Defense Intelligence Agency.",
-        "publisher": "Forbes",
-        "publisherDomain": "forbes.com",
-        "publishedAt": "2026-10-31T23:34:50.000Z",
-        "url": "https://www.forbes.com/sites/zitaballingerfletcher/2026/10/31/china-fielding-robotic-space-weapons-that-can-attack-other-satellites",
+        "id": "currents-877a9741-4e6d-5a5a-b269-b12ca532bdf7",
+        "title": "Steve Bannon Warns of Republican Civil War After Midterms - SpaceX (NASDAQ:SPCX)",
+        "description": "Steve Bannon predicts a Republican Party civil war after midterm elections, with major battles over spending, debt and AI regulation.",
+        "publisher": "Benzinga",
+        "publisherDomain": "benzinga.com",
+        "publishedAt": "2026-11-01T05:57:58.000Z",
+        "url": "https://www.benzinga.com/news/politics/26/11/62765377/steve-bannon-predicts-gop-civil-war-after-midterms-says-elon-musks-spending-is-a-wake-up-call-for-trump",
+        "imageUrl": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/11/01/Steve-Bannon-Speaks-On-The-2nd-Day-Of-Cp.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-12d9db94-9b04-508c-b169-9b60df04a709",
-        "title": "FBI blames North Korea for stolen billions from Binance in biggest hack in history",
-        "description": "The FBI says the billions of dollars stolen from Binance within minutes in the biggest crypto heist in history was orchestrated by North Korean hackers",
-        "publisher": "Abcnews",
-        "publisherDomain": "abcnews.com",
-        "publishedAt": "2026-10-31T23:57:14.000Z",
-        "url": "https://abcnews.com/Business/wireStory/fbi-blames-north-korea-stolen-billions-binance-biggest-137741287",
-        "imageUrl": "https://i.abcnewsfe.com/a/02036d29-ecc9-4c29-ba6b-aea9dd5a6211/wirestory_883f18140c1e21ce0c38781e72cbe315_16x9.jpg?w=1600",
+        "id": "currents-4117134d-3f3d-54ea-bcb0-a87cf7570ee0",
+        "title": "Soaring jet fuel prices are a headwind for Australia’s newest airport",
+        "description": "Qatar Airways, which has committed to Western Sydney International, has reduced the number of passengers it flies daily around the world by about 25,000 since the US and Israel-Iran War erupted.",
+        "publisher": "Theage",
+        "publisherDomain": "theage.com.au",
+        "publishedAt": "2026-11-01T05:44:17.000Z",
+        "url": "https://www.theage.com.au/business/companies/soaring-jet-fuel-prices-are-a-headwind-for-australia-s-newest-airport-20261101-p61a2j.html",
+        "imageUrl": "https://static.ffx.io/images/$zoom_0.4236%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_55/t_crop_custom/q_86%2Cf_auto/5d6652fc05d5fb86c47d43f22a80abcf0e653101",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-19ca4753-b003-506e-a625-a1dff765a441",
-        "title": "Country town reliant on backpackers warns visa changes will cripple business",
-        "description": "Backpackers like Valerie Casto are the lifeblood of businesses and farms across Manjimup, with locals arguing proposed changes to working holiday visas will hurt the community.",
-        "publisher": "Net",
-        "publisherDomain": "abc.net.au",
-        "publishedAt": "2026-11-01T00:16:20.000Z",
-        "url": "https://www.abc.net.au/news/2026-11-01/business-and-backpackers-oppose-restrictions-on-visas/107323832",
-        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/856b64915eea6d0bece6cfd956cb8682?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+        "id": "currents-5541713a-d95f-568f-88de-1091cbd4436e",
+        "title": "'Fire Them By Friday': Chennai IT Manager's Anonymous Account Hits A Nerve",
+        "description": "On Reddit, the account became the backdrop to a familiar Indian employment debate: how much is job security worth?",
+        "publisher": "Ndtvprofit",
+        "publisherDomain": "ndtvprofit.com",
+        "publishedAt": "2026-11-01T05:39:03.000Z",
+        "url": "https://www.ndtvprofit.com/business/it-layoffs-fire-them-by-friday-chennai-it-managers-anonymous-account-hits-a-nerve-12266149",
+        "imageUrl": "https://c.ndtvimg.com/2026-07/u8ep0j1c_layoffs_625x300_31_July_26.png?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-2ccd4d87-7c3f-5786-81ce-5ba834dfd8df",
-        "title": "Hamilton takes F1 pole in Mexico, Piastri down in 13th",
-        "description": "Lewis Hamilton turns back the clock by taking pole for the F1 Mexico City Grand Prix, while Australian Oscar Piastri's disastrous day sees him miss out on the top 10.",
-        "publisher": "Net",
-        "publisherDomain": "abc.net.au",
-        "publishedAt": "2026-11-01T00:16:20.000Z",
-        "url": "https://www.abc.net.au/news/2026-11-01/lewis-hamilton-on-pole-f1-mexico-city-gp-oscar-piastri-13th/106998724",
-        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/ebb9710b194b7042b2b6a641a4767096?impolicy=wcms_watermark_news&cropH=2250&cropW=4000&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+        "id": "currents-0f1629e2-2974-5cee-8504-6bae2c80f6b0",
+        "title": "Mike Johnson Slams Democrats Over Inflation, Border Crisis and Crime: 'Never Forget What They Actually Di",
+        "description": "Mike Johnson defended Trump, crediting Republicans with lowering inflation, securing the border and reducing crime while pledging more work.",
+        "publisher": "Benzinga",
+        "publisherDomain": "benzinga.com",
+        "publishedAt": "2026-11-01T05:37:42.000Z",
+        "url": "https://www.benzinga.com/news/politics/26/11/62765362/mike-johnson-slams-democrats-inflation-border-crisis-crime-trump-record",
+        "imageUrl": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/11/01/Washington--March-4-2025-House-Speaker-M.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-5cb73971-2b80-537c-b2fd-6d011d828c47",
-        "title": "The unexpected neighbourhood pest terrorising this pensioner",
-        "description": "Every morning pensioner Mal Richards walks down his driveway to collect the day's newspaper and meet his nemesis, Eric the emu.",
-        "publisher": "Net",
-        "publisherDomain": "abc.net.au",
-        "publishedAt": "2026-11-01T00:16:20.000Z",
-        "url": "https://www.abc.net.au/news/2026-11-01/eric-the-emu-terrorising-pensioner/107288146",
-        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/c9c4e081c39c372a8498e084b6595b99?impolicy=wcms_watermark_news&cropH=909&cropW=1616&xPos=0&yPos=86&width=862&height=485&imformat=generic",
+        "id": "currents-58accb23-c7ea-56d4-a1fe-dce6be2d14ea",
+        "title": "LIVE | INDIA Bloc’s ‘chalo dilli’ march: Opposition steps up ‘Vote Chori’ campaign against CEC",
+        "description": "Ramlila Maidan in Delhi gears up for the INDIA Bloc's ‘Chalo Dilli’ march with preparations underway ahead of today's gathering. Posters announcing the INDIA Bloc's ‘Chalo Dilli’ march have been displayed prominently across the Ramlila Maidan venue in New Delhi. Security arrangements are visible at ...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-11-01T05:45:26.000Z",
+        "url": "https://economictimes.indiatimes.com/news/politics-and-nation/live-india-blocs-chalo-dilli-march-opposition-steps-up-vote-chori-campaign-against-cec/videoshow/135419065.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-135419065,width-1200,height-900,overlay-economictimes/news/politics-and-nation/live-india-blocs-chalo-dilli-march-opposition-steps-up-vote-chori-campaign-against-cec.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-c98af588-bac2-5456-8f08-1ea5e6a18e11",
-        "title": "Losing our baby shaped us in ways we never expected",
-        "description": "The excitement of welcoming their first baby quickly turned to devastation for Heidy and Robert. But the couple say they have grown around the grief of losing their son.",
-        "publisher": "Net",
-        "publisherDomain": "abc.net.au",
-        "publishedAt": "2026-11-01T00:16:20.000Z",
-        "url": "https://www.abc.net.au/news/2026-11-01/love-story-robert-yeomans-heidy-perez-stillbirth/107288004",
-        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/4e5b3b4300151533967152deb67990f3?impolicy=wcms_watermark_news&cropH=1170&cropW=2080&xPos=0&yPos=753&width=862&height=485&imformat=generic",
+        "id": "currents-e1419672-803d-5bac-983c-5f278444f1ac",
+        "title": "After US midterms, democracy will face test of ability to self-correct",
+        "description": "Two years until post-Trump presidential race mark crossroads for growing global divisions",
+        "publisher": "Nikkei",
+        "publisherDomain": "asia.nikkei.com",
+        "publishedAt": "2026-11-01T06:29:53.000Z",
+        "url": "https://asia.nikkei.com/spotlight/comment/after-us-midterms-democracy-will-face-test-of-ability-to-self-correct",
+        "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F6%2F6%2F4%2F13384660-1-eng-GB%2F0687a7caa0d5-photo_SXM2026103000006614.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-cde373f8-4cb8-5a90-8117-1fa7a2b01cde",
-        "title": "Tornado-like storm hits NSW Southern Tablelands",
-        "description": "A violent \"tornado-like\" storm cell has torn roofs from buildings, toppled trees and brought \"golf-ball-sized hail\" to a small rural community on the New South Wales Southern Tablelands.",
-        "publisher": "Net",
-        "publisherDomain": "abc.net.au",
-        "publishedAt": "2026-11-01T00:16:20.000Z",
-        "url": "https://www.abc.net.au/news/2026-11-01/violent-storm-tears-roof-from-buildings-toppled-tree-near-yass/107333182",
-        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/b99e046e6d1ba94aa6aa36ccbbadc051?impolicy=wcms_watermark_news&cropH=332&cropW=590&xPos=0&yPos=55&width=862&height=485&imformat=generic",
+        "id": "currents-8c6b6dd3-adb0-5062-acfe-ca42b5278904",
+        "title": "Kevin O'Leary Says Young Adults Don't Need to Spend Thousands to Build Credit: ‘Any Small Amount Works’",
+        "description": "Kevin O'Leary advises young adults to use one credit card for small monthly purchases—about $50—and pay it off on time to build credit.",
+        "publisher": "Benzinga",
+        "publisherDomain": "benzinga.com",
+        "publishedAt": "2026-11-01T06:18:11.000Z",
+        "url": "https://www.benzinga.com/personal-finance/financial-advisors/26/11/62765412/kevin-oleary-says-young-adults-dont-need-to-spend-thousands-to-build-credit-any-small-amount-works",
+        "imageUrl": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/11/01/First-Film-Role-Treated-Like-New-Investm.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-f47fc38b-9682-5e64-83d3-8c2face2309e",
-        "title": "Passengers give their verdicts on new Spirit of Tasmania",
-        "description": "With the long-awaited first voyage done, passengers aboard one of the new Spirit of Tasmania ferries give their verdicts.",
-        "publisher": "Net",
-        "publisherDomain": "abc.net.au",
-        "publishedAt": "2026-11-01T00:16:20.000Z",
-        "url": "https://www.abc.net.au/news/2026-11-01/passengers-give-their-verdicts-on-new-spirit-of-tasmania/107333176",
-        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/9528297d901a6dea4e8cd00414b61435?impolicy=wcms_watermark_news&cropH=660&cropW=1173&xPos=0&yPos=590&width=862&height=485&imformat=generic",
+        "id": "currents-23642524-2c59-50b1-8554-87cf4ecc25be",
+        "title": "Pink rock found in Sahara turns out to be 4.1-billion-year-old Martian meteorite, reveals clues to ancient Mars",
+        "description": "A meteorite named Teghaza 001, discovered in the Sahara Desert, reveals insights into ancient Martian geology. Scientists determined it originated on Mars over 4.1 billion years ago and underwent volcanic processes. Detailed analysis of zircon crystals indicated interactions with water, suggesting a...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-11-01T06:02:49.000Z",
+        "url": "https://economictimes.indiatimes.com/news/new-updates/pink-rock-found-in-sahara-turns-out-to-be-4-1-billion-year-old-martian-meteorite-reveals-clues-to-ancient-mars/articleshow/135418750.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-135419357,width-1200,height-900,imgsize-86004,overlay-economictimes/articleshow.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-1b8ffb35-5b68-5e2c-b622-710fa490e147",
-        "title": "Top Nigerian Newspaper Headlines For Today, Sunday, 1st November, 2026",
-        "description": "Good morning Nigeria. Welcome to the Naija News roundup of top newspaper headlines in Nigeria for today, Sunday, 1st November, 2026. 1. NCDC Identifies",
-        "publisher": "Naijanews",
-        "publisherDomain": "naijanews.com",
-        "publishedAt": "2026-10-31T23:36:15.000Z",
-        "url": "https://www.naijanews.com/2026/11/01/top-nigerian-newspaper-headlines-for-today-1st-november-2026",
-        "imageUrl": "https://www.naijanews.com/wp-content/uploads/2024/08/Nigerian-Newspaper-Headlines.png",
+        "id": "currents-6e86d335-93f0-56b5-9ab1-b8d6f88eda4c",
+        "title": "Fuel, forex and farmers: Why India is betting big on maize",
+        "description": "A grain that once fed chickens now fuels cars and, soon, planes. The harder question is whether Indian farms can keep up with the demand it has created.",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-11-01T06:01:03.000Z",
+        "url": "https://economictimes.indiatimes.com/news/economy/agriculture/fuel-forex-and-farmers-why-india-is-betting-big-on-maize/articleshow/135419163.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-135419245,width-1200,height-900,imgsize-164310,overlay-economictimes/articleshow.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-1b10d217-f016-50f7-b442-8a69bb0e37c8",
-        "title": "Matsui Securities Co., Ltd. 2027 Q2 - Results - Earnings Call Presentation (OTCMKTS:MAUSY) 2026-10-31",
-        "description": "2026-10-31. The following slide deck was published by Matsui Securities Co., Ltd.",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-10-31T23:17:20.000Z",
-        "url": "https://seekingalpha.com/article/4960684-matsui-securities-co-ltd-2027-q2-results-earnings-call-presentation?source=feed_all_articles",
-        "imageUrl": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+        "id": "currents-8ace0fb7-cd55-5e1b-b738-49f07dc1ada2",
+        "title": "‘Seville is still a lot cheaper than Ireland. You can still buy a coffee for €1.80’",
+        "description": "Wild Geese: Gráinne Walsh, Seville",
+        "publisher": "Irishtimes",
+        "publisherDomain": "irishtimes.com",
+        "publishedAt": "2026-11-01T06:00:00.000Z",
+        "url": "https://www.irishtimes.com/business/work/2026/11/01/seville-is-still-a-lot-cheaper-than-ireland-you-can-still-buy-a-coffee-for-180",
+        "imageUrl": "https://www.irishtimes.com/resizer/v2/YZ5QNLU775BVRPPVUXPTIGYWB4.jpg?smart=true&auth=faba372c09b9a06f4d72881b123b3bbcb6edff5c3ca2c88ea062cad5bd938562&width=1200&height=630",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-f498f97d-16ca-5f9f-8ed6-5c6f7055c090",
-        "title": "Which \"Green\" rated 403(b) (Roth) vendors should we choose?",
-        "description": "My wife and I are both teachers want to supplement our California State Teacher Retirement pension and Roth IRAs with some Roth 403(b) funds. We work for different districts but have some overlap on the well-rated choices of vendors as seen at https://403bwise.org/advocacy/rating_system. My choices:...",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-11-01T00:06:19.000Z",
-        "url": "https://www.reddit.com/r/personalfinance/comments/1xkp7vn/which_green_rated_403b_roth_vendors_should_we",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-0b3af8bb-8bd8-5e04-a204-cb5ec4d18dfe",
-        "title": "Should I withdraw my money from my Fidelity 401k if I really need it?",
-        "description": "I recently got terminated from my job, and I'm running low on money, I have less than $100 cash, about $12 in my account and my last paycheck hasn't arrived yet but it's only going to be about $500-600. I've been applying at jobs but haven't gotten hired yet, and my Netbenefits 401k has about $6k sa...",
-        "publisher": "Reddit",
-        "publisherDomain": "reddit.com",
-        "publishedAt": "2026-11-01T00:05:27.000Z",
-        "url": "https://www.reddit.com/r/personalfinance/comments/1xkp75n/should_i_withdraw_my_money_from_my_fidelity_401k",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-3a7e4d4f-d298-5582-b662-9ff14ee6c26f",
-        "title": "PHOTOS: How Sacramento-area offices celebrated Halloween 2026",
-        "description": "The Sacramento Business Journal issued its annual call for office Halloween photos, and you impressed us as usual.",
-        "publisher": "Bizjournals",
-        "publisherDomain": "bizjournals.com",
-        "publishedAt": "2026-10-31T23:52:38.000Z",
-        "url": "https://www.bizjournals.com/sacramento/news/2026/10/31/halloween-office-photos-sacramento-2026.html?ana=brss_1566",
+        "id": "currents-da50243c-da3a-5571-9638-79a27ed68320",
+        "title": "Audi looks west amid slump in Chinese demand",
+        "description": "CEO Döllner’s decision to appear with Donald Trump to announce €4bn Georgia plant ciriticised",
+        "publisher": "Irishtimes",
+        "publisherDomain": "irishtimes.com",
+        "publishedAt": "2026-11-01T06:00:00.000Z",
+        "url": "https://www.irishtimes.com/business/2026/10/31/audi-looks-west-amid-slump-in-chinese-demand",
+        "imageUrl": "https://www.irishtimes.com/resizer/v2/6NJLWOFYERGZJHCRBCBHDQRPDM.jpg?smart=true&auth=2533811bb7618eb011f97723e545e10b731588e785d12493fcb7f61046c04ab1&width=1200&height=630",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-d986a057-c9f8-5c25-8fcf-5bf64b35044b",
-        "title": "Macy’s is selling an $850 cultured freshwater pearl necklace for 65% off",
-        "description": "\"A timeless, elegant pearl necklace that accentuates the neckline.\"",
-        "publisher": "Thestreet",
-        "publisherDomain": "thestreet.com",
-        "publishedAt": "2026-10-31T23:30:00.000Z",
-        "url": "https://www.thestreet.com/deals/effy-cultured-freshwater-pearl-station-necklace-macys-sale",
+        "id": "currents-16d22d0b-5f31-52b2-83c9-63bc37783f49",
+        "title": "Crypto Heist: Binance To Resume Withdrawals After Covering 95% Of $6.3 Billion Theft",
+        "description": "The largest cryptocurrency exchange has said that it will restart phase 1 of withdrawals on Sunday after the Federal Bureau of Investigation (FBI) linked the theft to North Korea.",
+        "publisher": "Ndtvprofit",
+        "publisherDomain": "ndtvprofit.com",
+        "publishedAt": "2026-11-01T05:58:11.000Z",
+        "url": "https://www.ndtvprofit.com/markets/binance-to-resume-withdrawals-after-covering-95-of-6-3-billion-theft-12266113",
+        "imageUrl": "https://c.ndtvimg.com/2026-11/sqjm3j8k_vv_625x300_01_November_26.jpg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-d19efa59-2989-57a8-9522-b380afc0bf37",
+        "title": "NCERT To Release Class 10 Textbooks By December 2026 For Students To Prep In Advance",
+        "description": "The early release of the CBSE Class 10 text books will be useful for students in Class 9 as they will get to explore the revised Class 10 syllabus and begin studying important topics earlier",
+        "publisher": "Ndtvprofit",
+        "publisherDomain": "ndtvprofit.com",
+        "publishedAt": "2026-11-01T05:56:52.000Z",
+        "url": "https://www.ndtvprofit.com/education/ncert-to-release-class-10-textbooks-by-december-2026-for-students-to-prep-in-advance-12266194",
+        "imageUrl": "https://c.ndtvimg.com/2026-08/osmip6uk_cbse-ncert-jobs_625x300_13_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-b150f214-a744-582a-a44b-d7c328d74f61",
+        "title": "Ranabaali Box Office Collection Day 10: Vijay Deverakonda Film Recovers, Worldwide Gross Nears Rs 80 Crore",
+        "description": "Ranabaali is set in South India in the 1870s and follows a warrior who fights against colonial rule during a time of famine.",
+        "publisher": "Ndtvprofit",
+        "publisherDomain": "ndtvprofit.com",
+        "publishedAt": "2026-11-01T05:55:57.000Z",
+        "url": "https://www.ndtvprofit.com/business/ranabaali-box-office-collection-day-10-vijay-deverakonda-film-recovers-worldwide-gross-nears-rs-80-crore-12266184",
+        "imageUrl": "https://c.ndtvimg.com/2026-10/19v0lvcs_ranabaali-_625x300_26_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
         "categories": [
           "Top",
           "Business"
@@ -793,78 +969,14 @@
     ],
     "Technology": [
       {
-        "id": "currents-a42dc172-99e6-5db8-ac09-4696bb0185ab",
-        "title": "How artificial intelligence skyrocketed memory prices and changed Apple's position",
-        "description": "An in-depth look at how a 550% surge in flash memory prices since 2023 is reshaping hardware economics, shifting supplier leverage away from Apple as cloud",
+        "id": "currents-2b76b929-dc5d-53a2-96ef-fe93d2687f2e",
+        "title": "A ChatGPT share link leaked your private conversations",
+        "description": "In October 2026, a research team at parameter.ai turned an ordinary public ChatGPT share link into...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:09:30.000Z",
-        "url": "https://dev.to/hacksgr/how-artificial-intelligence-skyrocketed-memory-prices-and-changed-apples-position-3b6a",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fhacks.gr%2Fwp-content%2Fuploads%2F2026%2F11%2Fapple2-scaled-1.webp",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-c6d07e77-35f3-5d56-b0c2-7e914bbdd174",
-        "title": "Free AI From A Startup Reads Photos And Text On Ordinary Laptops",
-        "description": "Rock Matrix open-sourced EdgeRock-4B, a 4 billion parameter text-and-image reasoning model that fixes its attention KV cache during inference to enabl",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:09:27.000Z",
-        "url": "https://dev.to/fathomnews/free-ai-from-a-startup-reads-photos-and-text-on-ordinary-laptops-24ef",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fwww.fathom.news%2Fwp-content%2Fuploads%2F2026%2F10%2Frock-matrix-gives-away-4-billion-ai-model-that-caps-memory-u.webp",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-c802ec74-f283-5522-8092-ec2f0217ecff",
-        "title": "Paperclip's Agent Orchestration Stack: How Multi-Agent Teams Track Work, Budgets, and Tool Permissions in Production",
-        "description": "Paperclip exposes the operational plumbing for managing AI agent teams like employees: org charts, budget caps, permission boundaries, and audit trails.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:08:20.000Z",
-        "url": "https://dev.to/mech_app_ai/paperclips-agent-orchestration-stack-how-multi-agent-teams-track-work-budgets-and-tool-hkl",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.unsplash.com%2Fphoto-1668435074864-524b7424b8e2%3Fcrop%3Dentropy%26cs%3Dtinysrgb%26fit%3Dmax%26fm%3Djpg%26ixid%3DM3w4Njk2ODR8MHwxfHNlYXJjaHwxfHxQYXBlcmNsaXAlMjdzJTIwQWdlbnQlMjBPcmNoZXN0cmF0aW9uJTIwU3RhY2slM0ElMjBIb3clMjBNdWx0aS1BZ2VudCUyMFRlYW1zJTIwVHJhY2slMjBXb3JrJTJDJTIwQnVkZ2V0cyUyQyUyMGFuZCUyMFRvb2wlMjBQZXJtaXNzaW9ucyUyMGluJTIwUHJvZHVjdGlvbiUyMHNvZnR3YXJlJTIwaW5mcmFzdHJ1Y3R1cmUlMjBkYXNoYm9hcmR8ZW58MXwwfHx8MTc5MzQ5MTYwNHww%26ixlib%3Drb-4.1.0%26q%3D80%26w%3D1080",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-8d5b3cfe-cf5c-5ce1-88e4-a0c3e59bd3ef",
-        "title": "OpenAI Boss Sam Altman Says AI On Your PC Wastes Precious Memory",
-        "description": "OpenAI CEO Sam Altman said people should not run large AI models locally and called desktop inference a waste of memory, arguing scarce DRAM is better",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:08:12.000Z",
-        "url": "https://dev.to/fathomnews/openai-boss-sam-altman-says-ai-on-your-pc-wastes-precious-memory-2ohl",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fwww.fathom.news%2Fwp-content%2Fuploads%2F2026%2F10%2Fsam-altman-issues-warning-running-large-ai-on-pcs-wastes-mem.webp",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-833f35f3-cd06-5ea5-aba4-1c1ce95f95bd",
-        "title": "Cognizant Sends 25,000 Staff To Put OpenAI To Work For Big Firms",
-        "description": "Cognizant committed more than 25,000 professionals to deliver OpenAI services for enterprise customers, bundling training, migration playbooks and glo",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:06:54.000Z",
-        "url": "https://dev.to/fathomnews/cognizant-sends-25000-staff-to-put-openai-to-work-for-big-firms-1pgk",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fwww.fathom.news%2Fwp-content%2Fuploads%2F2026%2F10%2F25-000-cognizant-staff-drive-openai-from-test-runs-to-real-u.webp",
+        "publishedAt": "2026-11-01T06:25:48.000Z",
+        "url": "https://dev.to/randomchaos/a-chatgpt-share-link-leaked-your-private-conversations-4oia",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2mqda9g331qmk5cc36r1.png",
         "categories": [
           "Top",
           "U.S.",
@@ -873,14 +985,14 @@
         ]
       },
       {
-        "id": "currents-a1d2d41d-df84-5a31-9c74-eb8f809ed784",
-        "title": "Command Casperr: a tiny hand-drawn ghost that haunts your PowerShell terminal 👻",
+        "id": "currents-092dcaec-e593-52b4-8b64-a4c318cff695",
+        "title": "# Anima Memory Vault: Keeping Family Stories Alive with a Local Spirit Guardian",
         "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:05:56.000Z",
-        "url": "https://dev.to/misbah_bagwan/command-casperr-a-tiny-hand-drawn-ghost-that-haunts-your-powershell-terminal-3251",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fp33xxhedjvrar4x6uvib.png",
+        "publishedAt": "2026-11-01T06:31:01.000Z",
+        "url": "https://dev.to/archita06sharma/-anima-memory-vault-keeping-family-stories-alive-with-a-local-spirit-guardian-3l07",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgttud8rnb3328h1p4hw8.png",
         "categories": [
           "Top",
           "U.S.",
@@ -889,14 +1001,14 @@
         ]
       },
       {
-        "id": "currents-3fbca79e-0e51-5fc7-937c-5379ab69f399",
-        "title": "GitHub's New Webhook IP Ranges: An Allowlist Is Not a Signature",
-        "description": "Your app stops receiving GitHub events. An AI assistant spots a changed network range and suggests...",
+        "id": "currents-1416840e-a0f6-5162-9025-2d692f7d9c4b",
+        "title": "On 21 Nov 2024 Adani fell 22.61%. My model didn't know why, and it wasn't allowed to guess.",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge: Week 4: Ghost in the Machine In...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:05:53.000Z",
-        "url": "https://dev.to/marcusykim/githubs-new-webhook-ip-ranges-an-allowlist-is-not-a-signature-50i8",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhsdicenmxosogo2hzmkk.png",
+        "publishedAt": "2026-11-01T06:30:33.000Z",
+        "url": "https://dev.to/kareliya_bhakti_78f0fdb58/on-21-nov-2024-adani-fell-2261-my-model-didnt-know-why-and-it-wasnt-allowed-to-guess-ced",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F70l2pm8q5as1llvx4187.png",
         "categories": [
           "Top",
           "U.S.",
@@ -905,96 +1017,176 @@
         ]
       },
       {
-        "id": "currents-8168bd7a-83c7-50ff-9ad6-973f1d669f58",
-        "title": "Google Cloud Gives Firms 3 Spending Brakes Before AI Bills Explode",
-        "description": "Google Cloud rolled out three spend caps budget controls generally available to stop runaway cloud bills without shutting down customer resources by",
+        "id": "currents-a8c15259-e982-5ca0-b2af-eabcf496975b",
+        "title": "Wraith: a ghost in my zsh that stops your hand before the dangerous command runs",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:05:33.000Z",
-        "url": "https://dev.to/fathomnews/google-cloud-gives-firms-3-spending-brakes-before-ai-bills-explode-kf9",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fwww.fathom.news%2Fwp-content%2Fuploads%2F2026%2F10%2Fgoogle-cloud-hands-companies-3-spending-brakes-to-stop-runaw.webp",
+        "publishedAt": "2026-11-01T06:30:00.000Z",
+        "url": "https://dev.to/aakash_mehta_48e67c642976/wraith-a-ghost-in-my-zsh-that-stops-your-hand-before-the-dangerous-command-runs-43nj",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhhdg2qds123dnzg7hja0.png",
         "categories": [
           "Top",
           "U.S.",
           "Technology",
           "Science"
+        ]
+      },
+      {
+        "id": "currents-576675c6-df74-5756-94c2-4d1ddacfe536",
+        "title": "I Built a Healthcare Platform Where AI Is Never Allowed to Have the Final Word.",
+        "description": "🧩 What I Built Healthcare information is dangerously fragmented across short...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:29:25.000Z",
+        "url": "https://dev.to/khushalgoel/i-built-a-healthcare-platform-where-ai-is-never-allowed-to-have-the-final-word-3lc5",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffg9mcwffa4r0vvc0y7r3.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-5ef8a056-2dd2-5db5-86a1-c157c8790070",
+        "title": "How We Built Metis in 7 Hours: Recovering Hidden Decisions from Open-Source Projects",
+        "description": "Hackathons are exciting, but the real experience begins when you have to turn an idea into...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:29:00.000Z",
+        "url": "https://dev.to/shreyas_mohite2211/how-we-built-metis-in-7-hours-recovering-hidden-decisions-from-open-source-projects-3mgl",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjv90aezxp7s5v2cg0nxe.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-83198246-3c5e-5e61-a426-babf8997fe8c",
+        "title": "Lumbre: a Día de los Muertos altar that only remembers what you tell it",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:25:56.000Z",
+        "url": "https://dev.to/ashrafahm/lumbre-a-dia-de-los-muertos-altar-that-only-remembers-what-you-tell-it-6hc",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftt0prxk7jc1bqj02g114.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-e35ea583-8014-574d-ac48-2c9d500dc4ef",
+        "title": "I built a coroner for dead software. It issues death certificates, and it refuses to lie.",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:25:39.000Z",
+        "url": "https://dev.to/dmustapha/i-built-a-coroner-for-dead-software-it-issues-death-certificates-and-it-refuses-to-lie-2o07",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Ffiles.catbox.moe%2Fciktz2.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-37f2e14c-06c8-57e9-ab92-2f4e475ad7df",
+        "title": "Count a Recovered Dollar Once, or Stop Counting",
+        "description": "Every recovery vendor's homepage carries a number: dollars recovered, subscribers saved, revenue...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:24:50.000Z",
+        "url": "https://dev.to/swipe-again/count-a-recovered-dollar-once-or-stop-counting-c3k",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fa39kqu2z26zzgr2p70hj.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-49d7afed-c007-5d46-a21a-46e120aabc4e",
+        "title": "It's not a sprint, it's a marathon",
+        "description": "Scrum calls its steady rhythm a sprint, and agents now sprint for us without ever getting tired. We can't. The pace has to live in the system, so it holds when nobody is watching.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:33:40.000Z",
+        "url": "https://dev.to/hayatibis/its-not-a-sprint-its-a-marathon-4p4",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fhayatibis.dev%2Fog%2Fits-not-a-sprint-its-a-marathon.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-30a6cdb6-e72b-5469-a808-79cb951ed93f",
+        "title": "An honest x402 seller earned $0.18 in two weeks and shut down. We now host sellers like it for free.",
+        "description": "It answered correctly, charged less than we do, earned $0.18 in two weeks and went offline. Why small x402 sellers fold, and the free hosting we now offer them.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:25:05.000Z",
+        "url": "https://dev.to/alexar76/an-honest-x402-seller-earned-018-in-two-weeks-and-shut-down-we-now-host-sellers-like-it-for-free-41c2",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fmodelmarket.dev%2Fblog%2Fan-honest-x402-seller-earned-018-in-two-weeks-and-shut-down-we-now-host-sellers-like-it-for-free%2Fcover.webp",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-f67cb70b-6282-5a21-9c8d-07be21706d4b",
+        "title": "Somewhere Out There, Forgotten Accounts Still Have My Name, I Went Looking: So I built Ghostbook, a Gemma-Powered Map of Your Forgotten Accounts.",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:32:30.000Z",
+        "url": "https://dev.to/amyy22/somewhere-out-there-forgotten-accounts-still-have-my-name-i-went-looking-so-i-built-ghostbook-a-2g3p",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fp9g1zllp1am9i168g32f.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-23da585f-b8ad-531d-8e9d-7322cf136fd5",
+        "title": "Halloween's Ruko",
+        "description": "👻 Ruko AI — Stop. Check Before You Tap. This is a submission for the Hacktoberfest...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:32:45.000Z",
+        "url": "https://dev.to/vedant_satbhai_b39e039993/halloweens-ruko-12k2",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8dd8y5fqfvripjad12o0.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
         ]
       }
     ],
     "Science": [
       {
-        "id": "currents-a42dc172-99e6-5db8-ac09-4696bb0185ab",
-        "title": "How artificial intelligence skyrocketed memory prices and changed Apple's position",
-        "description": "An in-depth look at how a 550% surge in flash memory prices since 2023 is reshaping hardware economics, shifting supplier leverage away from Apple as cloud",
+        "id": "currents-2b76b929-dc5d-53a2-96ef-fe93d2687f2e",
+        "title": "A ChatGPT share link leaked your private conversations",
+        "description": "In October 2026, a research team at parameter.ai turned an ordinary public ChatGPT share link into...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:09:30.000Z",
-        "url": "https://dev.to/hacksgr/how-artificial-intelligence-skyrocketed-memory-prices-and-changed-apples-position-3b6a",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fhacks.gr%2Fwp-content%2Fuploads%2F2026%2F11%2Fapple2-scaled-1.webp",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-c6d07e77-35f3-5d56-b0c2-7e914bbdd174",
-        "title": "Free AI From A Startup Reads Photos And Text On Ordinary Laptops",
-        "description": "Rock Matrix open-sourced EdgeRock-4B, a 4 billion parameter text-and-image reasoning model that fixes its attention KV cache during inference to enabl",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:09:27.000Z",
-        "url": "https://dev.to/fathomnews/free-ai-from-a-startup-reads-photos-and-text-on-ordinary-laptops-24ef",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fwww.fathom.news%2Fwp-content%2Fuploads%2F2026%2F10%2Frock-matrix-gives-away-4-billion-ai-model-that-caps-memory-u.webp",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-c802ec74-f283-5522-8092-ec2f0217ecff",
-        "title": "Paperclip's Agent Orchestration Stack: How Multi-Agent Teams Track Work, Budgets, and Tool Permissions in Production",
-        "description": "Paperclip exposes the operational plumbing for managing AI agent teams like employees: org charts, budget caps, permission boundaries, and audit trails.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:08:20.000Z",
-        "url": "https://dev.to/mech_app_ai/paperclips-agent-orchestration-stack-how-multi-agent-teams-track-work-budgets-and-tool-hkl",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.unsplash.com%2Fphoto-1668435074864-524b7424b8e2%3Fcrop%3Dentropy%26cs%3Dtinysrgb%26fit%3Dmax%26fm%3Djpg%26ixid%3DM3w4Njk2ODR8MHwxfHNlYXJjaHwxfHxQYXBlcmNsaXAlMjdzJTIwQWdlbnQlMjBPcmNoZXN0cmF0aW9uJTIwU3RhY2slM0ElMjBIb3clMjBNdWx0aS1BZ2VudCUyMFRlYW1zJTIwVHJhY2slMjBXb3JrJTJDJTIwQnVkZ2V0cyUyQyUyMGFuZCUyMFRvb2wlMjBQZXJtaXNzaW9ucyUyMGluJTIwUHJvZHVjdGlvbiUyMHNvZnR3YXJlJTIwaW5mcmFzdHJ1Y3R1cmUlMjBkYXNoYm9hcmR8ZW58MXwwfHx8MTc5MzQ5MTYwNHww%26ixlib%3Drb-4.1.0%26q%3D80%26w%3D1080",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-8d5b3cfe-cf5c-5ce1-88e4-a0c3e59bd3ef",
-        "title": "OpenAI Boss Sam Altman Says AI On Your PC Wastes Precious Memory",
-        "description": "OpenAI CEO Sam Altman said people should not run large AI models locally and called desktop inference a waste of memory, arguing scarce DRAM is better",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:08:12.000Z",
-        "url": "https://dev.to/fathomnews/openai-boss-sam-altman-says-ai-on-your-pc-wastes-precious-memory-2ohl",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fwww.fathom.news%2Fwp-content%2Fuploads%2F2026%2F10%2Fsam-altman-issues-warning-running-large-ai-on-pcs-wastes-mem.webp",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-833f35f3-cd06-5ea5-aba4-1c1ce95f95bd",
-        "title": "Cognizant Sends 25,000 Staff To Put OpenAI To Work For Big Firms",
-        "description": "Cognizant committed more than 25,000 professionals to deliver OpenAI services for enterprise customers, bundling training, migration playbooks and glo",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:06:54.000Z",
-        "url": "https://dev.to/fathomnews/cognizant-sends-25000-staff-to-put-openai-to-work-for-big-firms-1pgk",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fwww.fathom.news%2Fwp-content%2Fuploads%2F2026%2F10%2F25-000-cognizant-staff-drive-openai-from-test-runs-to-real-u.webp",
+        "publishedAt": "2026-11-01T06:25:48.000Z",
+        "url": "https://dev.to/randomchaos/a-chatgpt-share-link-leaked-your-private-conversations-4oia",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2mqda9g331qmk5cc36r1.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1003,14 +1195,14 @@
         ]
       },
       {
-        "id": "currents-a1d2d41d-df84-5a31-9c74-eb8f809ed784",
-        "title": "Command Casperr: a tiny hand-drawn ghost that haunts your PowerShell terminal 👻",
+        "id": "currents-092dcaec-e593-52b4-8b64-a4c318cff695",
+        "title": "# Anima Memory Vault: Keeping Family Stories Alive with a Local Spirit Guardian",
         "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:05:56.000Z",
-        "url": "https://dev.to/misbah_bagwan/command-casperr-a-tiny-hand-drawn-ghost-that-haunts-your-powershell-terminal-3251",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fp33xxhedjvrar4x6uvib.png",
+        "publishedAt": "2026-11-01T06:31:01.000Z",
+        "url": "https://dev.to/archita06sharma/-anima-memory-vault-keeping-family-stories-alive-with-a-local-spirit-guardian-3l07",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgttud8rnb3328h1p4hw8.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1019,14 +1211,14 @@
         ]
       },
       {
-        "id": "currents-3fbca79e-0e51-5fc7-937c-5379ab69f399",
-        "title": "GitHub's New Webhook IP Ranges: An Allowlist Is Not a Signature",
-        "description": "Your app stops receiving GitHub events. An AI assistant spots a changed network range and suggests...",
+        "id": "currents-1416840e-a0f6-5162-9025-2d692f7d9c4b",
+        "title": "On 21 Nov 2024 Adani fell 22.61%. My model didn't know why, and it wasn't allowed to guess.",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge: Week 4: Ghost in the Machine In...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:05:53.000Z",
-        "url": "https://dev.to/marcusykim/githubs-new-webhook-ip-ranges-an-allowlist-is-not-a-signature-50i8",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhsdicenmxosogo2hzmkk.png",
+        "publishedAt": "2026-11-01T06:30:33.000Z",
+        "url": "https://dev.to/kareliya_bhakti_78f0fdb58/on-21-nov-2024-adani-fell-2261-my-model-didnt-know-why-and-it-wasnt-allowed-to-guess-ced",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F70l2pm8q5as1llvx4187.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1035,232 +1227,376 @@
         ]
       },
       {
-        "id": "currents-8168bd7a-83c7-50ff-9ad6-973f1d669f58",
-        "title": "Google Cloud Gives Firms 3 Spending Brakes Before AI Bills Explode",
-        "description": "Google Cloud rolled out three spend caps budget controls generally available to stop runaway cloud bills without shutting down customer resources by",
+        "id": "currents-a8c15259-e982-5ca0-b2af-eabcf496975b",
+        "title": "Wraith: a ghost in my zsh that stops your hand before the dangerous command runs",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-01T00:05:33.000Z",
-        "url": "https://dev.to/fathomnews/google-cloud-gives-firms-3-spending-brakes-before-ai-bills-explode-kf9",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fwww.fathom.news%2Fwp-content%2Fuploads%2F2026%2F10%2Fgoogle-cloud-hands-companies-3-spending-brakes-to-stop-runaw.webp",
+        "publishedAt": "2026-11-01T06:30:00.000Z",
+        "url": "https://dev.to/aakash_mehta_48e67c642976/wraith-a-ghost-in-my-zsh-that-stops-your-hand-before-the-dangerous-command-runs-43nj",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhhdg2qds123dnzg7hja0.png",
         "categories": [
           "Top",
           "U.S.",
           "Technology",
           "Science"
+        ]
+      },
+      {
+        "id": "currents-576675c6-df74-5756-94c2-4d1ddacfe536",
+        "title": "I Built a Healthcare Platform Where AI Is Never Allowed to Have the Final Word.",
+        "description": "🧩 What I Built Healthcare information is dangerously fragmented across short...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:29:25.000Z",
+        "url": "https://dev.to/khushalgoel/i-built-a-healthcare-platform-where-ai-is-never-allowed-to-have-the-final-word-3lc5",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffg9mcwffa4r0vvc0y7r3.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-5ef8a056-2dd2-5db5-86a1-c157c8790070",
+        "title": "How We Built Metis in 7 Hours: Recovering Hidden Decisions from Open-Source Projects",
+        "description": "Hackathons are exciting, but the real experience begins when you have to turn an idea into...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:29:00.000Z",
+        "url": "https://dev.to/shreyas_mohite2211/how-we-built-metis-in-7-hours-recovering-hidden-decisions-from-open-source-projects-3mgl",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjv90aezxp7s5v2cg0nxe.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-83198246-3c5e-5e61-a426-babf8997fe8c",
+        "title": "Lumbre: a Día de los Muertos altar that only remembers what you tell it",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:25:56.000Z",
+        "url": "https://dev.to/ashrafahm/lumbre-a-dia-de-los-muertos-altar-that-only-remembers-what-you-tell-it-6hc",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftt0prxk7jc1bqj02g114.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-e35ea583-8014-574d-ac48-2c9d500dc4ef",
+        "title": "I built a coroner for dead software. It issues death certificates, and it refuses to lie.",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:25:39.000Z",
+        "url": "https://dev.to/dmustapha/i-built-a-coroner-for-dead-software-it-issues-death-certificates-and-it-refuses-to-lie-2o07",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Ffiles.catbox.moe%2Fciktz2.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-37f2e14c-06c8-57e9-ab92-2f4e475ad7df",
+        "title": "Count a Recovered Dollar Once, or Stop Counting",
+        "description": "Every recovery vendor's homepage carries a number: dollars recovered, subscribers saved, revenue...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:24:50.000Z",
+        "url": "https://dev.to/swipe-again/count-a-recovered-dollar-once-or-stop-counting-c3k",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fa39kqu2z26zzgr2p70hj.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-49d7afed-c007-5d46-a21a-46e120aabc4e",
+        "title": "It's not a sprint, it's a marathon",
+        "description": "Scrum calls its steady rhythm a sprint, and agents now sprint for us without ever getting tired. We can't. The pace has to live in the system, so it holds when nobody is watching.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:33:40.000Z",
+        "url": "https://dev.to/hayatibis/its-not-a-sprint-its-a-marathon-4p4",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fhayatibis.dev%2Fog%2Fits-not-a-sprint-its-a-marathon.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-30a6cdb6-e72b-5469-a808-79cb951ed93f",
+        "title": "An honest x402 seller earned $0.18 in two weeks and shut down. We now host sellers like it for free.",
+        "description": "It answered correctly, charged less than we do, earned $0.18 in two weeks and went offline. Why small x402 sellers fold, and the free hosting we now offer them.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:25:05.000Z",
+        "url": "https://dev.to/alexar76/an-honest-x402-seller-earned-018-in-two-weeks-and-shut-down-we-now-host-sellers-like-it-for-free-41c2",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fmodelmarket.dev%2Fblog%2Fan-honest-x402-seller-earned-018-in-two-weeks-and-shut-down-we-now-host-sellers-like-it-for-free%2Fcover.webp",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-f67cb70b-6282-5a21-9c8d-07be21706d4b",
+        "title": "Somewhere Out There, Forgotten Accounts Still Have My Name, I Went Looking: So I built Ghostbook, a Gemma-Powered Map of Your Forgotten Accounts.",
+        "description": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:32:30.000Z",
+        "url": "https://dev.to/amyy22/somewhere-out-there-forgotten-accounts-still-have-my-name-i-went-looking-so-i-built-ghostbook-a-2g3p",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fp9g1zllp1am9i168g32f.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-23da585f-b8ad-531d-8e9d-7322cf136fd5",
+        "title": "Halloween's Ruko",
+        "description": "👻 Ruko AI — Stop. Check Before You Tap. This is a submission for the Hacktoberfest...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-01T06:32:45.000Z",
+        "url": "https://dev.to/vedant_satbhai_b39e039993/halloweens-ruko-12k2",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8dd8y5fqfvripjad12o0.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
         ]
       }
     ],
     "Sports": [
       {
-        "id": "currents-a4cf3c82-d04a-5213-b1d5-e07c4b5c88e0",
-        "title": "Abdul El-Sayed’s campaign disinvites Haley Stevens from events to limit ‘distractions’",
-        "description": "A public spat has cast Democratic tensions in the spotlight as the close US Senate race draws to a head",
-        "publisher": "The Guardian",
-        "publisherDomain": "theguardian.com",
-        "publishedAt": "2026-10-31T23:58:44.000Z",
-        "url": "https://www.theguardian.com/us-news/2026/oct/31/abdul-el-sayed-haley-stevens-disinvited-from-events",
-        "imageUrl": "https://i.guim.co.uk/img/media/caeaea960a76da981f528171c51ccb376fbd0424/0_0_1500_1200/master/1500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=453102c922e819354651d0fb59e8efa2",
+        "id": "currents-014e4f15-0d85-5eee-9295-6146a55abf25",
+        "title": "10 Free Agents Who Could Bag The Biggest Contracts In 2026 MLB Offseason",
+        "description": "The 2026 season is in the books. The Milwaukee Brewers defeated the Tampa Bay Rays in the Fall Classic to clinch their first World Series title this week.",
+        "publisher": "Sportskeeda",
+        "publisherDomain": "sportskeeda.com",
+        "publishedAt": "2026-11-01T06:32:29.000Z",
+        "url": "https://www.sportskeeda.com/baseball/10-free-agents-who-could-bag-the-biggest-contracts-in-2026-mlb-offseason",
+        "imageUrl": "https://staticg.sportskeeda.com/editor/2026/10/82bf5-17934707469747-1920.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-a734519b-c8f3-5ce9-aa56-06449231ee39",
-        "title": "Has Martinez become a liability for Man Utd?",
-        "description": "Match of the Day pundits Danny Murphy and Stephan Warnock analyse Lisandro Martinez's performance in Manchester United's 2-0 defeat to Chelsea, where the Argentinian defender was sent off.",
-        "publisher": "BBC News",
-        "publisherDomain": "bbc.co.uk",
-        "publishedAt": "2026-10-31T23:59:22.000Z",
-        "url": "https://www.bbc.co.uk/sport/football/videos/c9vgrjej28dvo?at_medium=RSS&at_campaign=rss",
+        "id": "currents-9b14fa0f-27bf-5c3d-8da2-e9e59eb87d77",
+        "title": "No. 20 Boise State rallies to beat Texas State 46-45 after blowing a 25-point halftime lead",
+        "description": "BOISE, Idaho (AP) — Max Cutforth threw three touchdown passes in the final seven minutes in relief of injured starter Maddux Madsen, and No. 20 Boise State rallied to beat Texas State 46-45 on Saturday night after blowing a 25-point halftime lead.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-11-01T06:27:15.000Z",
+        "url": "https://www.winnipegfreepress.com/uncategorized/2026/11/01/no-20-boise-state-rallies-to-beat-texas-state-46-45-after-blowing-a-25-point-halftime-lead",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ae6dbb544c5d5198dece428jpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-73407954-d2b6-538c-b1ef-066031fa4c5f",
-        "title": "Burnham’s Government ‘failing’ to deliver change, SNP Westminster leader claims | ITV News",
-        "description": "Dave Doogan says the UK has reached ‘crisis point’ under the UK Labour Government. | ITV National News",
-        "publisher": "Itv",
-        "publisherDomain": "itv.com",
-        "publishedAt": "2026-11-01T00:01:00.000Z",
-        "url": "https://www.itv.com/news/article",
-        "imageUrl": "https://images.ctfassets.net/pjshm78m9jt4/headerImage-b9a1046c-8e8d-4837-acb9-28b0e4dcf59b/87624af2b577c815f1e04133e8bb5bd3/headerImage-b9a1046c-8e8d-4837-acb9-28b0e4dcf59b?fm=jpg&fit=fill&f=faces&w=1600&h=1067&q=80",
+        "id": "currents-fd385de0-2dfe-59a3-87f2-cab5f394d3b3",
+        "title": "Missouri's Ahmad Hardy returns nearly 6 months after being shot in leg",
+        "description": "Missouri RB Ahmad Hardy returned to the field on Saturday night, nearly six months after being wounded in the leg during a shooting at an outdoor concert.",
+        "publisher": "ESPN",
+        "publisherDomain": "espn.com",
+        "publishedAt": "2026-11-01T06:25:53.000Z",
+        "url": "https://www.espn.com/college-football/story/_/id/50344541/missouri-ahmad-hardy-returns-nearly-6-months-being-shot-leg",
+        "imageUrl": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1101%2Fr1739333_1296x729_16%2D9.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-a9c04649-9be9-53c2-94e4-f8cbb0a3188c",
+        "title": "Tullamore due: midlanders eye statement win against east coast Cuala",
+        "description": "Offaly champions for the past four years want to kick on in Leinster.",
+        "publisher": "The42",
+        "publisherDomain": "the42.ie",
+        "publishedAt": "2026-11-01T06:15:37.000Z",
+        "url": "https://www.the42.ie/tullamore-cuala-7210178-Nov2026",
+        "imageUrl": "https://img2.thejournal.ie/article/7210178/river/?height=400&version=7210255",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-49720cb1-9f88-529f-a166-43d25a79708e",
-        "title": "Cam Wallace leads Penn State past Purdue to snap 4-game skid",
-        "description": "Deadspin | Cam Wallace leads Penn State past Purdue to snap 4-game skid",
-        "publisher": "Deadspin",
-        "publisherDomain": "deadspin.com",
-        "publishedAt": "2026-11-01T00:11:51.000Z",
-        "url": "https://deadspin.com/cam-wallace-leads-penn-state-past-purdue-to-snap-4-game-skid",
-        "imageUrl": "https://images.deadspin.com/30239444.jpg?tr=w-1200,h-675,fo-auto,f-jpg",
+        "id": "currents-d7d2fd34-d93c-5938-8a86-40081e64e362",
+        "title": "Michael Bisping wants Islam Makhachev to chase middleweight gold: \"If anyone deserves it, it is Islam Makhachev\"",
+        "description": "Former UFC middleweight champion Michael Bisping wants Islam Makhachev to get a shot at a third UFC title, and he likes the sound of it happening at 185 pounds.",
+        "publisher": "Sportskeeda",
+        "publisherDomain": "sportskeeda.com",
+        "publishedAt": "2026-11-01T06:30:00.000Z",
+        "url": "https://www.sportskeeda.com/mma/news-michael-bisping-wants-islam-makhachev-chase-middleweight-gold-if-anyone-deserves-it-islam-makhachev",
+        "imageUrl": "https://staticg.sportskeeda.com/editor/2026/11/e4df4-17935015872188-1920.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-1cc0d6a7-1e57-5f1e-9949-5965606f8f68",
+        "title": "For vegans, it's not just what's on the dinner plate, but also what happens after the dinner date",
+        "description": "AMSTERDAM (AP) — Worries about the environment and concerns about animal welfare are on the rise, and on World Vegan Day, some are looking for alternatives not just at the dining table but also in the bedroom.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-11-01T06:24:07.000Z",
+        "url": "https://www.winnipegfreepress.com/arts-and-life/life/2026/11/01/for-vegans-its-not-just-whats-on-the-dinner-plate-but-also-what-happens-after-the-dinner-date",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ae6daf5fa84d60e55ce1f85jpeg.jpg?w=1600",
         "categories": [
           "Sports",
           "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-38255789-2c20-580e-9755-b6b356521733",
-        "title": "Not With AEW Anymore: WWE Legend Confirms Return",
-        "description": "A major Legend has confirmed that he's no longer with AEW and has officially returned to the Stamford-based company.",
-        "publisher": "Sportskeeda",
-        "publisherDomain": "sportskeeda.com",
-        "publishedAt": "2026-11-01T00:07:00.000Z",
-        "url": "https://www.sportskeeda.com/aew/news-not-with-aew-anymore-wwe-legend-confirms-return",
-        "imageUrl": "https://staticg.sportskeeda.com/editor/2026/11/1797c-17934915041334-1920.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-57e3cba9-01fc-5130-bd8c-f271fa558188",
-        "title": "No. 7 UCLA's defense stifles Nevada to remain undefeated",
-        "description": "Deadspin | No. 7 UCLA's defense stifles Nevada to remain undefeated",
-        "publisher": "Deadspin",
-        "publisherDomain": "deadspin.com",
-        "publishedAt": "2026-11-01T00:06:51.000Z",
-        "url": "https://deadspin.com/no-7-uclas-defense-stifles-nevada-to-remain-undefeated",
-        "imageUrl": "https://images.deadspin.com/30239296.jpg?tr=w-1200,h-675,fo-auto,f-jpg",
-        "categories": [
-          "Top",
           "U.S.",
-          "Sports"
+          "World"
         ]
       },
       {
-        "id": "currents-f6e6b2ca-b404-5b55-918a-488b31f41849",
-        "title": "No. 8 BYU holds off upset-minded Arizona State",
-        "description": "Deadspin | No. 8 BYU holds off upset-minded Arizona State",
-        "publisher": "Deadspin",
-        "publisherDomain": "deadspin.com",
-        "publishedAt": "2026-11-01T00:06:47.000Z",
-        "url": "https://deadspin.com/no-8-byu-holds-off-upset-minded-arizona-state",
-        "imageUrl": "https://images.deadspin.com/30238613.jpg?tr=w-1200,h-675,fo-auto,f-jpg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-eb8d26bc-f44a-5a2e-8d94-34d41f356053",
-        "title": "Crimson Desert: Compelte Elowen Romance walkthrough",
-        "description": "With the romance feature now available in Crimson Desert’s Charting the Unknown DLC, many of you may have set your eyes on Elowen, the Witch of Wisdom.",
+        "id": "currents-8aae8f49-07ef-54fe-9956-1b7bc9f5aa49",
+        "title": "How to get Knight of the Void Armor set in Crimson Desert (all part locations)",
+        "description": "When it comes to one of the stronger gear options in the Crimson Desert DLC, the Knight of the Void Armor set is a solid pick.",
         "publisher": "Sportskeeda",
         "publisherDomain": "sportskeeda.com",
-        "publishedAt": "2026-11-01T00:03:45.000Z",
-        "url": "https://www.sportskeeda.com/esports/crimson-desert-complete-elowen-romance-walkthrough",
-        "imageUrl": "https://staticg.sportskeeda.com/editor/2026/11/43e66-17934889743745-1920.jpg",
+        "publishedAt": "2026-11-01T06:17:22.000Z",
+        "url": "https://www.sportskeeda.com/esports/how-get-knight-void-armor-set-crimson-desert-all-part-locations",
+        "imageUrl": "https://staticg.sportskeeda.com/editor/2026/11/8424d-17935131362521-1920.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-5b7278be-2ed2-5502-a907-e9948cf499fb",
-        "title": "Mistake: Shawn Michaels Regrets Major WWE Decision Minutes Before Halloween Havoc [VIDEO]",
-        "description": "The 2026 edition of Halloween Havoc is underway, but Shawn Michaels was regretting a major WWE decision minutes before the show went on air.",
+        "id": "currents-950c051a-fb28-56e3-8aaa-918dda60426b",
+        "title": "Ride A Pet Void Boss Event guide: How to enter and rewards",
+        "description": "The Void Boss Event in Ride A Pet has brought a significant challenge for late-game players who possess flying mounts.",
         "publisher": "Sportskeeda",
         "publisherDomain": "sportskeeda.com",
-        "publishedAt": "2026-11-01T00:01:58.000Z",
-        "url": "https://www.sportskeeda.com/wwe/news-mistake-shawn-michaels-regrets-major-wwe-decision-minutes-before-halloween-havoc-video",
-        "imageUrl": "https://staticg.sportskeeda.com/editor/2026/11/c1f25-17934909340237-1920.jpg",
+        "publishedAt": "2026-11-01T06:14:22.000Z",
+        "url": "https://www.sportskeeda.com/roblox-news/ride-a-pet-void-boss-event-guide-how-enter-rewards",
+        "imageUrl": "https://staticg.sportskeeda.com/editor/2026/11/d7e88-17935093394711-1920.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-a60485dd-2737-5be8-9b09-6225519c8711",
-        "title": "Between Margate And Ramsgate Is A Charming Coastal Town With Markets, History, And Award-Winning Beaches",
-        "description": "Escape the crowds in Broadstairs. Discover a charming seaside town between Margate and Ramsgate, rich in history, local markets, and top beaches.",
-        "publisher": "Islands",
-        "publisherDomain": "islands.com",
-        "publishedAt": "2026-11-01T00:00:00.000Z",
-        "url": "https://www.islands.com/2301592/broadstairs-united-kingdom-between-margate-ramsgate-charming-coastal-town-markets-history-award-winning-beaches",
-        "imageUrl": "https://www.islands.com/img/gallery/between-margate-and-ramsgate-is-a-charming-coastal-town-with-markets-history-and-award-winning-beaches/l-intro-1793302425.jpg",
+        "id": "currents-6b354577-dcc8-5c41-ab08-93d26f09b39b",
+        "title": "IND vs NZ Toss Report: India vs New Zealand 5th T20I Who Won Toss, Playing 11",
+        "description": "India vs New Zealand Toss Result, Playing 11: Who won the Toss in the IND vs NZ 5th T20I match? Check out the coin toss outcome, playing 11, squads of both teams.",
+        "publisher": "Mykhel",
+        "publisherDomain": "mykhel.com",
+        "publishedAt": "2026-11-01T06:12:06.000Z",
+        "url": "https://www.mykhel.com/cricket/ind-vs-nz-toss-report-india-vs-new-zealand-5th-t20i-who-won-toss-playing-11-latest-news-457745.html",
+        "imageUrl": "https://images.mykhel.com/img/2026/11/ind-vs-nz-t20is-41461793513490.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-53d3a983-6f51-5bef-84f4-a28a3918ac52",
-        "title": "Dupuis seventh in women's short program at Figure Skating Grand Prix in Kelowna",
-        "description": "KELOWNA - Mao Shimada of Japan won the women",
+        "id": "currents-c5b0ca18-be8c-58f5-8045-f110896cafa6",
+        "title": "Jackson Arnold throws 3 TD passes, UNLV hands Northern Illinois its 10th straight loss, 31-24",
+        "description": "LAS VEGAS (AP) — Jackson Arnold threw three touchdown passes, Jai’Den Thomas had 114 yards rushing and a touchdown on 16 carries, and UNLV beat Northern Illinois 31-24 on Saturday night, the Huskies 10th consecutive loss.",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-10-31T23:57:02.000Z",
-        "url": "https://www.winnipegfreepress.com/uncategorized/2026/10/31/dupuis-seventh-in-womens-short-program-at-figure-skating-grand-prix-in-kelowna",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6b6c5494fd04861f165daade1f331664377c21f71b1053253bfa91890752f693.jpg?w=1600",
+        "publishedAt": "2026-11-01T06:07:21.000Z",
+        "url": "https://www.winnipegfreepress.com/uncategorized/2026/11/01/jackson-arnold-throws-3-td-passes-unlv-hands-northern-illinois-its-10th-straight-loss-31-24",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ae6d71623b3fc900bcf3ec7jpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-ee3d42db-ad81-56a1-887c-3fd3b83ee380",
-        "title": "Canelo Alvarez beats Christian Mbilli to regain WBC super middleweight title",
-        "description": "Deadspin | Canelo Alvarez beats Christian Mbilli to regain WBC super middleweight title",
+        "id": "currents-8aebe926-958d-5e02-b00a-626b9a093112",
+        "title": "Clemson's Swinney irked by plane banner urging FSU to fire Norvell",
+        "description": "Before Florida State's 36-24 loss to Clemson on Saturday night, a plane carrying a banner urging the school to fire Seminoles coach Mike Norvell hovered over Doak Campbell Stadium, a move Tigers coach Dabo Swinney called \"embarrassing\" and \"shameful.\"",
+        "publisher": "ESPN",
+        "publisherDomain": "espn.com",
+        "publishedAt": "2026-11-01T06:02:18.000Z",
+        "url": "https://www.espn.com/college-football/story/_/id/50345120/clemson-swinney-irked-banner-urging-fsu-fire-norvell",
+        "imageUrl": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1101%2Fr1739349_1296x729_16%2D9.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-d4617f85-8e8d-5a4d-99b4-22bc018ccb58",
+        "title": "Eight cases before the Northern Irish courts this week",
+        "description": "These are some of the cases in the Northern Irish courts in the week of October 26 to 30",
+        "publisher": "Belfastlive",
+        "publisherDomain": "belfastlive.co.uk",
+        "publishedAt": "2026-11-01T06:00:00.000Z",
+        "url": "https://www.belfastlive.co.uk/news/belfast-news/eight-cases-before-northern-irish-34842077",
+        "imageUrl": "https://i2-prod.belfastlive.co.uk/article34810410.ece/ALTERNATES/s1200d/0_7C0A1845.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-fd5193be-0773-54ce-b35f-fc732f4fd6b5",
+        "title": "Black Caps win toss, bowl first in India T20 series finale",
+        "description": "All the action from the T20 series finale in Hamilton.",
+        "publisher": "Nzherald",
+        "publisherDomain": "nzherald.co.nz",
+        "publishedAt": "2026-11-01T06:00:00.000Z",
+        "url": "https://www.nzherald.co.nz/sport/cricket/black-caps/black-caps-v-india-live-updates-fifth-twenty20-international-from-hamiltons-seddon-park/KFR65H7TNJGERMCGSLW6JZOCBE",
+        "imageUrl": "https://www.nzherald.co.nz/resizer/v2/3Q4TRLOT6BFRBDJLIUGEVDMRTY.jpg?auth=5d93e3c452ca9d795c39cee34bd07ec1d63a4c438bd70c0465100def3ba1c786&width=1200&height=675&quality=70&focal=1172%2C594&smart=false",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-530afb20-0aa8-55f0-83e7-be3f2ade8716",
+        "title": "Fernandez loses three-set singles showdown to Shnaider in Japan Open final",
+        "description": "TOKYO - Russian Diana Shnaider had to dig deep on Sunday in Tokyo, but she was able to fend off Canadian challenger Leylah Fernandez to win the women",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-11-01T05:56:49.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/tennis/2026/11/01/fernandez-loses-three-set-singles-showdown-to-shnaider-in-japan-open-final",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/10/6ae6d3032e157ac61bf7ecf0jpeg.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-0ff37b6d-fa6a-558b-beec-1536063fb3af",
+        "title": "Josh Anderson, Canadiens edge Pens for fifth straight win",
+        "description": "Deadspin | Josh Anderson, Canadiens edge Pens for fifth straight win",
         "publisher": "Deadspin",
         "publisherDomain": "deadspin.com",
-        "publishedAt": "2026-10-31T23:56:47.000Z",
-        "url": "https://deadspin.com/canelo-alvarez-beats-christian-mbilli-to-regain-wbc-super-middleweight-title",
-        "imageUrl": "https://images.deadspin.com/27080832.jpg?tr=w-1200,h-675,fo-auto,f-jpg",
+        "publishedAt": "2026-11-01T05:56:48.000Z",
+        "url": "https://deadspin.com/josh-anderson-canadiens-edge-pens-for-fifth-straight-win",
+        "imageUrl": "https://images.deadspin.com/30242308.jpg?tr=w-1200,h-675,fo-auto,f-jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-2ae23cf8-ffc4-5aee-818b-b0ce7a6c73cd",
-        "title": "No. 6 Utah improves to 8-0 with 49-25 win over Cincinnati",
-        "description": "Devon Dampier threw for 260 yards and two touchdowns and No. 6 Utah extended the nation’s longest active winning streak with a 49-25 victory over Cincinnati",
-        "publisher": "Abcnews",
-        "publisherDomain": "abcnews.com",
-        "publishedAt": "2026-10-31T23:56:06.000Z",
-        "url": "https://abcnews.com/Sports/wireStory/6-utah-improves-8-0-49-25-win-137742023",
-        "imageUrl": "https://i.abcnewsfe.com/a/6975fc31-5b30-40ad-a81d-08611da59c6d/wirestory_a711f05301b7d9b0f7233e85230a69e8_16x9.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-e5a7e849-fd02-518c-9aa7-f752d4cb95c0",
-        "title": "Leatherwood's late TD run lifts Tennessee Tech over ETSU 24-17",
-        "description": "Jax Leatherwood throws for 218 yards and runs for a touchdown, leading Tennessee Tech to a 24-17 victory over East Tennessee State on Saturday",
-        "publisher": "Abcnews",
-        "publisherDomain": "abcnews.com",
-        "publishedAt": "2026-10-31T23:56:01.000Z",
-        "url": "https://abcnews.com/Sports/wireStory/leatherwoods-late-td-run-lifts-tennessee-tech-etsu-137742024",
-        "imageUrl": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-8fd8cf81-6623-5444-bf15-0cfdb10105f8",
-        "title": "Robinson, Wilder combine for 255 yards rushing and 3 scores to lead Southern Miss over UL Monroe",
-        "description": "Southern Miss defeats Louisiana-Monroe 35-21, thanks to standout performances by Steven Robinson and Jamarice Wilder",
-        "publisher": "Abcnews",
-        "publisherDomain": "abcnews.com",
-        "publishedAt": "2026-10-31T23:55:53.000Z",
-        "url": "https://abcnews.com/Sports/wireStory/robinson-wilder-combine-255-yards-rushing-3-scores-137742025",
-        "imageUrl": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-34652f0c-12fd-52ce-86ac-1e58625db9ea",
-        "title": "Wallace's big rushing day leads Penn State over Purdue 31-17, 1st Big Ten win under Matt Campbell",
-        "description": "Cam Wallace ran for 135 yards with a touchdown, and Penn State beat Purdue 31-17 on Saturday for its first Big Ten win of the Matt Campbell era",
-        "publisher": "Abcnews",
-        "publisherDomain": "abcnews.com",
-        "publishedAt": "2026-10-31T23:55:47.000Z",
-        "url": "https://abcnews.com/Sports/wireStory/wallaces-big-rushing-day-leads-penn-state-purdue-137742027",
-        "imageUrl": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg",
+        "id": "currents-63c9b40c-ce7b-532b-a5ce-f6012b94b28d",
+        "title": "Broncos lose RB RJ Harvey to injured reserve after a knee injury at practice",
+        "description": "DENVER (AP) — Denver Broncos second-year running back RJ Harvey went on short-term injured reserve Saturday after sustaining a knee injury at practice 48 hours earlier.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-11-01T05:46:18.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/11/01/broncos-lose-rb-rj-harvey-to-injured-reserve-after-a-knee-injury-at-practice",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
         "categories": [
           "Sports"
         ]
@@ -1268,209 +1604,207 @@
     ],
     "Entertainment": [
       {
-        "id": "currents-11c92694-b6d9-52ed-8004-1218dccef9a0",
-        "title": "Madonna and beau Akeem Morris sport bizarre Halloween costumes",
-        "description": "Madonna looked back to Shakespeare for her and her much-younger boyfriend Akeem Morris's costumes on Halloween.",
+        "id": "currents-3b18d470-ec79-5d98-a4e1-72faa0d75cce",
+        "title": "Super rich buyers arrive for The Block auctions",
+        "description": "The Block auctions are getting underway in Mount Eliza, Victoria on Sunday night.",
         "publisher": "Daily Mail",
         "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-10-31T23:58:11.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16255673/Madonna-Akeem-Morris-bizarre-costume-London-Halloween-party.html?ns_campaign=1490&ito=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/10/31/23/112220641-0-image-m-13_1793489040439.jpg",
+        "publishedAt": "2026-11-01T06:37:58.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16256245/the-block-mount-eliza-danny-wallis-adrian-portelli.html?ns_campaign=1490&ito=1490",
+        "imageUrl": "https://i.dailymail.com/1s/2026/11/01/06/112224429-0-image-a-12_1793514968805.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-3eb2678f-74a4-59d1-b034-1d1de082b51b",
-        "title": "\"Everyone Around Me Flipped Out\": 31 Untrue Health Myths That Have Been Living Rent-Free In Our Brains For Far Too Long",
-        "description": "\"Quite common, but crackling your knuckles does not give you arthritis.\"",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-10-31T23:31:03.000Z",
-        "url": "https://www.buzzfeed.com/gabriellelafrank/untrue-health-facts-and-myths",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/26/20/thumb/Pqt9vDpCK.jpg?crop=1250:654;0,88%26downsize=1250:*",
+        "id": "currents-359bdd74-e7c8-588d-a720-eab2d39275d8",
+        "title": "‘Ideal Mrs Abhishek Bachchan’: When Jaya Bachchan praised Aishwarya Rai’s quiet presence",
+        "description": "From husband Abhishek Bachchan calling their marriage a partnership to Jaya Bachchan describing her as the ‘ideal Mrs Abhishek Bachchan’, here’s what the Bachchan family has said about Aishwarya Rai over the years.",
+        "publisher": "Indianexpress",
+        "publisherDomain": "indianexpress.com",
+        "publishedAt": "2026-11-01T06:17:29.000Z",
+        "url": "https://indianexpress.com/article/entertainment/bollywood/ideal-mrs-abhishek-bachchan-when-jaya-bachchan-praised-aishwarya-rais-quiet-presence-10945683",
+        "imageUrl": "https://images.indianexpress.com/2026/11/aishwarya-birthday.png",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-f02c57d6-6091-52a2-80b9-99ccc5aa5b17",
-        "title": "Best Christmas adverts 2026: Richard Ayoade stars for Argos",
-        "description": "From Richard Ayoade stepping into the '90s for Argos to Very's pink flamingo, explore the best Christmas adverts of 2026 so far.",
-        "publisher": "Radiotimes",
-        "publisherDomain": "radiotimes.com",
-        "publishedAt": "2026-11-01T00:01:45.000Z",
-        "url": "https://www.radiotimes.com/tv/entertainment/best-christmas-adverts-2026",
-        "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2026/10/Roisin-Conaty-as-Polly-the-Tesco-delivery-driver-in-The-Wrong-Address-1aa035a.jpg?resize=1200%2C630",
+        "id": "currents-0812ac8d-46ee-57d2-8ba4-52673dd04a20",
+        "title": "TV guide: The best new shows to watch, starting tonight",
+        "description": "November 1st-6th TV highlights, including Ireland’s Fittest Family, Crá and Blue Planet III",
+        "publisher": "Irishtimes",
+        "publisherDomain": "irishtimes.com",
+        "publishedAt": "2026-11-01T06:15:00.000Z",
+        "url": "https://www.irishtimes.com/culture/tv-radio/2026/11/01/tv-guide-the-best-new-shows-to-watch-starting-tonight",
+        "imageUrl": "https://www.irishtimes.com/resizer/v2/WUBDKEPN3VAIRHNQTAIQ3O5PIQ.png?smart=true&auth=420cf0e171d1609cd3c5d6060755f0c3e33b3a1025be0de11970ad5bf8fdd614&width=1200&height=630",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-4d1ba1f3-0106-5ff6-8baf-f920eac44608",
-        "title": "Gilligan's Island Actor Bob Denver's Acting Debut Was On A Military Submarine Drama",
-        "description": "Bob Denver's first acting role was in The Silent Service, a late '50s military drama that was created in full cooperation with the U.S. Navy.",
-        "publisher": "Tvline",
-        "publisherDomain": "tvline.com",
-        "publishedAt": "2026-10-31T23:52:00.000Z",
-        "url": "https://www.tvline.com/2299669/gilligans-island-actor-bob-denver-acting-debut-submarine-military-drama",
-        "imageUrl": "https://www.tvline.com/img/gallery/gilligans-island-actor-bob-denvers-acting-debut-was-on-a-military-submarine-drama/l-intro-1793202745.jpg",
+        "id": "currents-598d8068-f14b-53ee-ac31-554cb979405f",
+        "title": "Heidi Klum becomes 8-foot version of her left hand for Halloween 2026",
+        "description": "The giant hand featured red nails, visible veins, palm lines, her rings and a tattoo of Heidi Klum's husband Tom Kaulitz's name",
+        "publisher": "Meaww",
+        "publisherDomain": "news.meaww.com",
+        "publishedAt": "2026-11-01T06:07:38.000Z",
+        "url": "https://news.meaww.com/heidi-klum-becomes-8-foot-version-of-her-left-hand-for-halloween-2026",
+        "imageUrl": "https://media.pubninja.com/articles/brand-5/covers/1793508145553_07bc5a4e602b.jpg_1200_630",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-701c492f-2adf-52e6-8634-8e284804b069",
-        "title": "Zendaya snaps up £9m love nest with Tom in the heart of Wimbledon",
-        "description": "The couple, who met on the set of Spider-Man and married earlier this year, have bought a house in the heart of leafy Wimbledon.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-10-31T23:56:03.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16255301/Oh-say-Zendaya-Star-hit-tennis-movie-snaps-9m-love-nest-Tom-Holland-just-topspin-lob-Centre-Court.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/10/31/21/112219801-0-image-m-63_1793482550427.jpg",
+        "id": "currents-a21a177c-4919-5586-a19b-70127825fe15",
+        "title": "“The Silk Road with Many Faces: Sogdian Immigrants in Early Medieval China”",
+        "description": "The Silk Road with Many Faces focuses on a distinguished immigrant community in early medieval China (220-589 CE): the Central Asian people known as the Sogdians. Originating in present-day Uzbekistan and Tajikistan, Sogdian merchants dominated the luxury trade along the inland Silk Road from the th...",
+        "publisher": "Asianreviewofbooks",
+        "publisherDomain": "asianreviewofbooks.com",
+        "publishedAt": "2026-11-01T06:00:00.000Z",
+        "url": "https://asianreviewofbooks.com/the-silk-road-with-many-faces-sogdian-immigrants-in-early-medieval-china",
+        "imageUrl": "https://asianreviewofbooks.com/wp-content/uploads/2026/10/SilkRoad_Many_Face_Cover.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-62f1fecb-4d7c-52f9-a581-6adb6564ad21",
-        "title": "Halloween goes Hollywood as Zendaya and more show festive costumes",
-        "description": "It's spooky season in Hollywood, and stars did not disappoint! Zendaya wowed as she dressed as Halle Berry for Halloween 2026, while Heidi Klum teased her gory costume.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-10-31T23:54:43.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16255623/Halloween-Hollywood-Zendaya-Heidi-Klum-Paris-Hilton-festive-costumes.html?ns_campaign=1490&ito=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/10/31/23/112221493-0-image-m-47_1793490403390.jpg",
+        "id": "currents-a34f44c4-bd5a-5271-889b-1a35ad829499",
+        "title": "Telangana labour department issues notice to Ravi Teja starrer ‘Irumudi’ makers over child actor Nakshathra’s working conditions",
+        "description": "The makers of Ravi Teja starrer ‘Irumudi’ have received a notice from the Telangana labour department over a complaint concerning child actor Baby Nakshathra’s participation in the film’s shooting and promotional activities. According to the updates, the makers are now set to meet the department nex...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "timesofindia.indiatimes.com",
+        "publishedAt": "2026-11-01T05:56:19.000Z",
+        "url": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/telangana-labour-department-issues-notice-to-ravi-teja-starrer-irumudi-makers-over-child-actor-nakshathras-working-conditions/articleshow/135419149.cms",
+        "imageUrl": "https://static.toiimg.com/thumb/msid-135419159,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-cea64143-5363-5bd2-81b3-16196a555d8b",
-        "title": "Cindy Crawford and Rande Gerber visit daughter Kaia at home",
-        "description": "The couple were seen arriving to the Hollywood Hills residence with a large tote bag and what looked like a personal item.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-10-31T23:54:19.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16255507/Cindy-Crawford-Rande-Gerber-Kaia-home-Presley.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/10/31/23/112219463-0-image-m-93_1793487980119.jpg",
+        "id": "currents-9efeb242-9e75-5cc5-9987-1d9bbee16d62",
+        "title": "‘We could lose Texas’: Cruz warns GOP of Senate losses as Paxton faces tight race against Talarico",
+        "description": "Ted Cruz dismissed claims that polls were inaccurate, warning that Democrats were significantly outpacing Republicans in voter turnout",
+        "publisher": "Meaww",
+        "publisherDomain": "news.meaww.com",
+        "publishedAt": "2026-11-01T05:53:38.000Z",
+        "url": "https://news.meaww.com/we-could-lose-texas-cruz-warns-gop-of-senate-losses-as-paxton-faces-tight-race-against-talarico",
+        "imageUrl": "https://media.pubninja.com/articles/brand-6/covers/1793505942057_2ef634decfb9.jpg_1200_630",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-b5bf68bb-41fe-512c-b560-c4414372d8c8",
-        "title": "Loadsacash Bash! Family so rich they bought a flat next to his theatre",
-        "description": "When Sebastian Croft was named as part of this year's star-studded Celebrity Traitors line-up, fans could be forgiven for underestimating him. After all, most had no idea who he was.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-10-31T23:45:03.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16255655/Loadsacash-Bash-boy-family-rich-bought-flat-door-theatre.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/10/31/23/112220379-0-image-m-5_1793490275556.jpg",
+        "id": "currents-211a69cc-f551-59fa-a2c7-56e2c2e2203c",
+        "title": "King: Sachin-Jigar Replace Anirudh Ravichander As Music Composers For Shah Rukh Khan-Starrer?",
+        "description": "Sachin-Jigar reportedly replace Anirudh Ravichander as music composers for Shah Rukh Khan and Suhana Khan's upcoming action thriller, King, due to scheduling issues.",
+        "publisher": "News18",
+        "publisherDomain": "news18.com",
+        "publishedAt": "2026-11-01T05:50:33.000Z",
+        "url": "https://www.news18.com/movies/bollywood/king-sachin-jigar-replace-anirudh-ravichander-as-music-composers-for-shah-rukh-khan-starrer-ws-l-10407300.html",
+        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/07/FotoJet-2026-07-21T135029.599-2026-07-4caa397031ee652585f6f08e1d95e59c-1200x675.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-ceec3385-1a03-5101-ad34-791fca35f92e",
-        "title": "Maura Higgins says she's 'struggling so much' in DWTS rehearsals",
-        "description": "The Love Island star, 35, looked downcast as she admitted she is 'struggling so much this week'.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-10-31T23:23:42.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16255739/Maura-Higgins-says-shes-struggling-shares-glum-selfie-Dancing-Stars-rehearsals.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/10/31/23/112220907-0-image-m-5_1793487735367.jpg",
+        "id": "currents-1a428ea2-f18f-5bf0-834b-b780295b6849",
+        "title": "Rajpal Yadav breaks down as Bollywood bids farewell to Sanjay Gupta, says death is 'shocking... no words'",
+        "description": "Filmmaker Sanjay Gupta, known for 'Kaante', 'Shootout at Lokhandwala' and 'Kaabil', was cremated on October 31 after his sudden death, which has left the film industry in shock. He reportedly died following a fall at his Versova residence.",
+        "publisher": "Indiatimes",
+        "publisherDomain": "timesofindia.indiatimes.com",
+        "publishedAt": "2026-11-01T05:46:58.000Z",
+        "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/rajpal-yadav-breaks-down-as-bollywood-bids-farewell-to-sanjay-gupta-says-death-is-shocking-no-words/articleshow/135419059.cms",
+        "imageUrl": "https://static.toiimg.com/thumb/msid-135419072,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-8312c607-896c-5a6f-b36e-7ed7fbf0422b",
-        "title": "Megan Fox transforms into deadly siren in revealing Halloween look",
-        "description": "The actress, 40, transformed into a gothic mermaid in a series of sizzling snaps shared to her Instagram on Saturday.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-10-31T23:20:19.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16255743/Megan-Fox-transforms-siren-Halloween-look.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/10/31/22/112220867-0-image-m-11_1793487242358.jpg",
+        "id": "currents-766fa9cc-7523-50ca-ac89-0dc21209b653",
+        "title": "Harry Styles dresses as NYC 'Pizza Rat' for Harryween Night 2 at Madison Square Garden",
+        "description": "For the first Harryween show on October 30, Harry Styles paid tribute to the King of Rock and Roll, Elvis Presley",
+        "publisher": "Meaww",
+        "publisherDomain": "news.meaww.com",
+        "publishedAt": "2026-11-01T05:39:37.000Z",
+        "url": "https://news.meaww.com/harry-styles-dresses-as-nyc-pizza-rat-for-harryween-night-2-at-madison-square-garden",
+        "imageUrl": "https://media.pubninja.com/articles/brand-5/covers/1793505827344_e24eedd479dc.jpg_1200_630",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-85453a96-0d3d-51cd-abc4-6c977cab7d5b",
-        "title": "G Flip puts on brave face in 1st sighting since Chrishell Stause split",
-        "description": "G Flip looked to be in good spirits on Friday when they were spotted strolling through Perth Airport, in their first public appearance since split from Chrishell Stause.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-10-31T23:05:40.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16254179/G-Flip-appearance-Chrishell-Stause-split.html?ns_campaign=1490&ito=1490",
-        "imageUrl": "https://i.dailymail.com/1s/2026/10/31/22/112220505-0-image-m-6_1793486523306.jpg",
+        "id": "currents-fa1f3b47-e4fc-55cb-812a-94f2a04add4e",
+        "title": "Robert Downey Jr. & Pedro Pascal Swap MCU Roles For Halloween",
+        "description": "With less than two months left on the 'Avengers: Doomsday' clock, Robert Downey Jr. and Pedro Pascal swapped sides for Halloween.",
+        "publisher": "Deadline",
+        "publisherDomain": "deadline.com",
+        "publishedAt": "2026-11-01T05:35:33.000Z",
+        "url": "https://deadline.com/2026/10/robert-downey-jr-pedro-pascal-mcu-role-reversal-halloween-1237210827",
+        "imageUrl": "https://deadline.com/wp-content/uploads/2026/10/Screenshot-2026-10-31-at-10.24.22-PM.png?w=940",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-dd0b2552-4fa8-5cde-81c8-901769872683",
-        "title": "Japan’s TeamLab digital art group is opening a permanent museum in America",
-        "description": "Internationally acclaimed art collective will have a new home not far from Disneyland.",
-        "publisher": "Soranews24",
-        "publisherDomain": "soranews24.com",
-        "publishedAt": "2026-10-31T23:30:58.000Z",
-        "url": "https://soranews24.com/2026/11/01/japans-teamlab-digital-art-group-is-opening-a-permanent-museum-in-america",
-        "imageUrl": "https://soranews24.com/wp-content/uploads/sites/3/2026/10/21_5897a5.jpg?w=1000&h=525&crop=1",
+        "id": "currents-485a8ad7-850d-5be5-bdc1-b957849340bf",
+        "title": "Mike Rogers mocks El-Sayed with Dubai chocolates in birthday gift basket amid Michigan Senate race",
+        "description": "Mike Rogers mocked Abdul El-Sayed’s Michigan ties with a birthday basket containing Dubai chocolates, a football, a toy truck and a black T-shirt",
+        "publisher": "Meaww",
+        "publisherDomain": "news.meaww.com",
+        "publishedAt": "2026-11-01T05:30:36.000Z",
+        "url": "https://news.meaww.com/mike-rogers-mocks-el-sayed-with-dubai-chocolates-in-birthday-gift-basket-amid-michigan-senate-race",
+        "imageUrl": "https://media.pubninja.com/articles/brand-6/covers/1793509852466_79c065ae49f0.jpg_1200_630",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-ce6ca204-2d4f-546d-8e13-7aeb5583f594",
-        "title": "Judge Dismisses Trump’s Wall Street Journal Defamation Lawsuit Over Published Epstein ‘Birthday Book’ for a Second Time",
-        "description": "A federal judge has once again dismissed President Donald Trump’s defamation claims against the Wall Street Journal.",
-        "publisher": "Variety",
-        "publisherDomain": "variety.com",
-        "publishedAt": "2026-10-31T23:23:28.000Z",
-        "url": "https://variety.com/2026/biz/news/judge-dismisses-trump-wsj-defamation-lawsuit-epstein-1236936423",
-        "imageUrl": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2280583841.jpg?w=1000&h=563&crop=1",
+        "id": "currents-02e8e534-c886-5561-9a01-a71cd578ea85",
+        "title": "Heidi Klum reveals Halloween costume as her iconic party marks 25 years",
+        "description": "Heidi Klum underwent a bloody transformation to become a giant, gruesome severed hand for Halloween",
+        "publisher": "Abcnews",
+        "publisherDomain": "abcnews.com",
+        "publishedAt": "2026-11-01T05:30:18.000Z",
+        "url": "https://abcnews.com/Entertainment/wireStory/heidi-klum-reveals-halloween-costume-iconic-party-marks-137743953",
+        "imageUrl": "https://i.abcnewsfe.com/a/2788547f-a386-4d89-ab64-27d2be605e22/wirestory_a98b859d0e60532a9f7b4ee851bc507d_16x9.jpg?w=1600",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-4dc40df1-5770-5037-876f-f2a98ffe9633",
-        "title": "Patrick Mahomes' family revealed an adorable Halloween group costume",
-        "description": "The Halloween spirit is taking over, and that certainly includes NFL stars and their families. Brittany Mahomes, the wife of Kansas City Chiefs quarterback Patrick Mahomes, posted a series of pictures to her Instagram -- complete with Taylor Swift's \"I Knew It, I Knew You\" from Toy Story 5 -- that f...",
-        "publisher": "Miamiherald",
-        "publisherDomain": "miamiherald.com",
-        "publishedAt": "2026-10-31T23:20:42.000Z",
-        "url": "https://www.miamiherald.com/entertainment/article317867554.html",
-        "imageUrl": "https://www.miamiherald.com/wps/build/images/miamiherald/facebook.jpg",
+        "id": "currents-c493a161-3234-5c29-84c4-fb07e994a14f",
+        "title": "‘When I heard Glen Hansard was dead, I felt like I was choking’ – Mundy",
+        "description": "Offaly singer-songwriter on panic attacks and how he lost his mother and friend within just months of each other",
+        "publisher": "Independent",
+        "publisherDomain": "independent.ie",
+        "publishedAt": "2026-11-01T05:30:00.000Z",
+        "url": "https://www.independent.ie/entertainment/music/when-i-heard-glen-hansard-was-dead-i-felt-like-i-was-choking-mundy/a/163557556.html",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-2d710320-31f6-5612-a549-674dec274c05",
-        "title": "Leonard Nimoy Donated An Important (And Unusual) Prop To The Big Bang Theory",
-        "description": "\"The Big Bang Theory\" is no stranger to \"Star Trek\" jokes and references, but Spock himself (Leonard Nimoy) actually donated a used napkin to the show.",
-        "publisher": "Tvline",
-        "publisherDomain": "tvline.com",
-        "publishedAt": "2026-10-31T23:12:00.000Z",
-        "url": "https://www.tvline.com/2295589/leonard-nimoy-the-big-bang-theory-prop-donation",
-        "imageUrl": "https://www.tvline.com/img/gallery/leonard-nimoy-donated-an-important-and-unusual-prop-to-the-big-bang-theory/l-intro-1792777457.jpg",
+        "id": "currents-ca643fcc-80b2-55f0-899b-44632ad9f65f",
+        "title": "U2 to play Slane? ‘The door is always open,’ says castle owner Alex Conyngham",
+        "description": "Band due to end Greatest Show on Earth tour in Ireland next year",
+        "publisher": "Independent",
+        "publisherDomain": "independent.ie",
+        "publishedAt": "2026-11-01T05:30:00.000Z",
+        "url": "https://www.independent.ie/irish-news/u2-to-play-slane-the-door-is-always-open-says-castle-owner-alex-conyngham/a/163894919.html",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-9de8667b-c3bc-54e9-90bd-64aae34458e3",
-        "title": "EA Building's Front Lawn Reportedly Graffitied With Save Mass Effect Slogan as Online Campaign Reaches New Level",
-        "description": "An EA office building in Madrid was vandalized with the words \"Save Mass Effect\" just days after the company announced it had shuttered series developer BioWare.",
-        "publisher": "Ign",
-        "publisherDomain": "ign.com",
-        "publishedAt": "2026-10-31T23:08:02.000Z",
-        "url": "https://www.ign.com/articles/save-mass-effect-graffiti-reportedly-spray-painted-outside-ea-building",
-        "imageUrl": "https://assets-prd.ignimgs.com/2026/04/04/ss-2358d92931529dba0cadecadca4137860e6304b1-1920x1080-1775300343877.jpg?width=1280&format=jpg&auto=webp&quality=80",
+        "id": "currents-af6f6a04-8869-540f-9c5c-b2e4e69814a8",
+        "title": "King: Shah Rukh Khan's 61st Birthday To Bring A Special Surprise For Fans | Here's What We Know",
+        "description": "Shah Rukh Khan's upcoming project King is confirmed to release on his birthday, according to recent reports.",
+        "publisher": "News18",
+        "publisherDomain": "news18.com",
+        "publishedAt": "2026-11-01T05:40:40.000Z",
+        "url": "https://www.news18.com/movies/bollywood/king-shah-rukh-khans-61st-birthday-to-bring-a-special-surprise-for-fans-heres-what-we-know-ws-l-10407267.html",
+        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/07/FotoJet-2026-07-21T135029.599-2026-07-4caa397031ee652585f6f08e1d95e59c-1200x675.jpg",
         "categories": [
           "Entertainment"
         ]
@@ -1482,6 +1816,6 @@
     "successfulRequests": 5,
     "failedRequests": 0,
     "articleCountBeforeDeduplication": 100,
-    "articleCountAfterDeduplication": 74
+    "articleCountAfterDeduplication": 91
   }
 }
