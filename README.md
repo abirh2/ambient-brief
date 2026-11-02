@@ -2,6 +2,8 @@
 
 Ambient Brief is a single-page ambient information dashboard built with React 19, strict TypeScript, Tailwind CSS, and Vite. This repository currently contains the application foundation and existing prototype integrations; it does not require an application server.
 
+For engineering and agent guidance, start with [AGENTS.md](AGENTS.md) and the [development workflow](docs/development-workflow.md). Living World 2.0's confirmed direction is recorded there; substantial work requires reviewed specifications in [specs/](specs/README.md) and implementation plans in [plans/](plans/README.md).
+
 ## Requirements
 
 - Node.js 22 or newer

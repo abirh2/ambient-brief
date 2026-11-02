@@ -1,0 +1,248 @@
+{
+  "verified_date": "2026-11-02",
+  "mechanism": "Codex app-server skills/list(forceReload=true); no model turn started",
+  "skills": [
+    {
+      "name": "caveman",
+      "path": "/Users/ahossain/Documents/GitHub/ambient-brief/.agents/skills/caveman/SKILL.md",
+      "enabled": true,
+      "scope": "repo"
+    },
+    {
+      "name": "design-review",
+      "path": "/Users/ahossain/Documents/GitHub/ambient-brief/.agents/skills/design-review/SKILL.md",
+      "enabled": true,
+      "scope": "repo"
+    },
+    {
+      "name": "graphify",
+      "path": "/Users/ahossain/Documents/GitHub/ambient-brief/.agents/skills/graphify/SKILL.md",
+      "enabled": true,
+      "scope": "repo"
+    },
+    {
+      "name": "impeccable",
+      "path": "/Users/ahossain/Documents/GitHub/ambient-brief/.agents/skills/impeccable/SKILL.md",
+      "enabled": true,
+      "scope": "repo"
+    },
+    {
+      "name": "karpathy-guidelines",
+      "path": "/Users/ahossain/Documents/GitHub/ambient-brief/.agents/skills/karpathy-guidelines/SKILL.md",
+      "enabled": true,
+      "scope": "repo"
+    },
+    {
+      "name": "agent-skills:api-and-interface-design",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/api-and-interface-design/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:browser-testing-with-devtools",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/browser-testing-with-devtools/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:ci-cd-and-automation",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/ci-cd-and-automation/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:code-review-and-quality",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/code-review-and-quality/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:code-simplification",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/code-simplification/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:constraint-driven-development",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/constraint-driven-development/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:context-engineering",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/context-engineering/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:debugging-and-error-recovery",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/debugging-and-error-recovery/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:deprecation-and-migration",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/deprecation-and-migration/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:documentation-and-adrs",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/documentation-and-adrs/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:doubt-driven-development",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/doubt-driven-development/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:frontend-ui-engineering",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/frontend-ui-engineering/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:git-workflow-and-versioning",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/git-workflow-and-versioning/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:idea-refine",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/idea-refine/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:incremental-implementation",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/incremental-implementation/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:interview-me",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/interview-me/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:observability-and-instrumentation",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/observability-and-instrumentation/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:performance-optimization",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/performance-optimization/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:planning-and-task-breakdown",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/planning-and-task-breakdown/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:security-and-hardening",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/security-and-hardening/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:shipping-and-launch",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/shipping-and-launch/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:source-driven-development",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/source-driven-development/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:spec-driven-development",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/spec-driven-development/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:test-driven-development",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/test-driven-development/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "agent-skills:using-agent-skills",
+      "path": "/Users/ahossain/.codex/plugins/cache/agent-skills/agent-skills/0.6.15/skills/using-agent-skills/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "ponytail:ponytail",
+      "path": "/Users/ahossain/.codex/plugins/cache/ponytail/ponytail/5.3.3/skills/ponytail/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "ponytail:ponytail-audit",
+      "path": "/Users/ahossain/.codex/plugins/cache/ponytail/ponytail/5.3.3/skills/ponytail-audit/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "ponytail:ponytail-debt",
+      "path": "/Users/ahossain/.codex/plugins/cache/ponytail/ponytail/5.3.3/skills/ponytail-debt/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "ponytail:ponytail-gain",
+      "path": "/Users/ahossain/.codex/plugins/cache/ponytail/ponytail/5.3.3/skills/ponytail-gain/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "ponytail:ponytail-help",
+      "path": "/Users/ahossain/.codex/plugins/cache/ponytail/ponytail/5.3.3/skills/ponytail-help/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "ponytail:ponytail-review",
+      "path": "/Users/ahossain/.codex/plugins/cache/ponytail/ponytail/5.3.3/skills/ponytail-review/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    },
+    {
+      "name": "taste-skill:design-taste-frontend",
+      "path": "/Users/ahossain/.codex/plugins/cache/taste-skill/taste-skill/2.1.5/skills/taste-skill/SKILL.md",
+      "enabled": true,
+      "scope": "user"
+    }
+  ],
+  "discovery_errors": [
+    {
+      "path": "/Users/ahossain/.codex/skills/export-for-kiro/SKILL.md",
+      "message": "invalid YAML: invalid type: string \"Run this as a read-only exporter from Codex. Inventory Cursor configuration as described below, but do not attempt to invoke Cursor-only `migrate-to-skills`. Record it as unavailable and preserve eligible files unchanged so Kiro can perform its own conversion. Do not treat Codex configuration as Cursor input.\\nPrepare the current Cursor workspace for migration to Amazon Kiro.\\nThe goal is NOT to configure Kiro directly.\\nThe goal is to\", expected struct SkillFrontmatter at line 6 column 1"
+    }
+  ],
+  "legacy_exclusions": "config/read confirms seven project exclusions; skills/list still reports legacy entries enabled. Restart and check selector before relying on exclusion.",
+  "runtime_checks": {
+    "graphify --version": "graphify 0.9.99",
+    "TypeScript AST parser": "import passed",
+    "impeccable engine-probe": "impeccable-engine 0.1.18",
+    "impeccable hooks status": "disabled",
+    "Taste inspect.mjs --help": "passed; Node 26.13.0 and Google Chrome present"
+  },
+  "application_checks": {
+    "test": "31 files / 160 tests passed",
+    "lint": "passed",
+    "typecheck": "passed",
+    "build": "passed"
+  }
+}

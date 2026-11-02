@@ -1,0 +1,30 @@
+# Prefer project Impeccable and the native Ponytail plugin over legacy user copies.
+# Local-machine absolute paths are required by Codex path-based skill selectors.
+
+[[skills.config]]
+path = "/Users/ahossain/.codex/skills/impeccable/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/Users/ahossain/.codex/skills/ponytail/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/Users/ahossain/.codex/skills/ponytail-audit/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/Users/ahossain/.codex/skills/ponytail-debt/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/Users/ahossain/.codex/skills/ponytail-gain/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/Users/ahossain/.codex/skills/ponytail-help/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/Users/ahossain/.codex/skills/ponytail-review/SKILL.md"
+enabled = false
