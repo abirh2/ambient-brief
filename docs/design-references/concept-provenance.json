@@ -1,0 +1,22 @@
+{
+  "created": "2026-11-02",
+  "tool": "Built-in image_gen.imagegen",
+  "purpose": "Generated art-direction references, not application screenshots or final production assets",
+  "approval": "Not approved as final visual compositions or runtime assets",
+  "images": [
+    {
+      "file": "living-world-overview-concept.png",
+      "prompt": "Use case: stylized-concept. Create an art-direction reference for Ambient Brief 2.0 Living World, a premium indie-game stylized 3D temperate Atlantic island. Landscape 16:9. No text or UI; this is concept art, not a screenshot. Composed stable three-quarter aerial from south looking north, restrained perspective, horizon in upper fifth. Asymmetric crescent island with layered pale limestone cliffs, grass, wind-shaped maritime pines, weathered cedar, dark bronze and blue-green ocean. Four unmistakably different connected landmarks: central elevated contemporary oval glass observatory with thin bronze roof and stone terrace; slender pale eastern cliff lighthouse at right with bronze lantern cap, tallest silhouette; western low cedar signal station at left with small elegant mast; southern foreground harbor market pavilion with broad shallow cedar roof and stone quay. Visible narrow footpaths connect all four; beach in southwest, rocky eastern promontory, no floating island cutaway. Sophisticated rough materials, bevels, subdued reflections, soft ambient occlusion, warm morning side light, cool atmospheric depth. Clear negative ocean/sky space at left 27 percent for a later HTML clock/news rail; island occupies right 65 percent with every building silhouette separated. Preserve 12 percent quiet bottom space for later HTML context. Peaceful, inhabited through crafted architecture, no people needed, no fantasy towers, no neon, Minecraft blocks, default primitives, photographic asset-kit mismatch, text, logos, charts or interface cards. Art quality target: authored environmental game art with legible large shapes and tactile medium detail.",
+      "input": [],
+      "review": "Four landmarks and coastal palette established; too much photoreal microdetail; full-frame art does not validate HTML safe areas."
+    },
+    {
+      "file": "weather-observatory-concept.png",
+      "prompt": "Use case: stylized-concept. Create the Weather Observatory focused composition for Ambient Brief 2.0 Living World. The attached overview is a style and island-identity reference, not an edit target. Landscape 16:9, no UI or text. Keep the same temperate Atlantic coastal island, pale limestone terrace, central oval glass observatory with thin bronze canopy and weathered cedar interior, wind-shaped pines, blue-green ocean. Camera from south-southwest outside the terrace at a moderate 22-degree downward angle; observatory occupies center-left, entire roof silhouette visible, terrace path leads from lower left to the doorway. Far-right background contains the same eastern lighthouse, smaller and separated from roof, proving this is one continuous island. Reserve right 30 percent as simple quiet pale sea/sky for a later HTML weather detail sheet; do not put important geometry there. Reserve leftmost 22 percent as low-contrast ocean for a later compact persistent clock/news rail. The building is visually dominant in the central remaining region. Soft overcast morning light, silver sky and cool stone shadows with warm cedar visible through subdued blue glass. Make this clearly premium stylized indie-game environmental art: broad sculpted rock strata, simplified clustered pine foliage, carefully beveled geometry, authored rough materials; reduce photographic microtexture and tiny scattered rubble compared with the reference. Not a toy, not low-poly stock primitives. No weather instruments with readable invented measurements, no rain unless requested, no fantasy architecture, neon, UI cards, text, logos or people. A still art-direction plate only, not a working app screenshot.",
+      "input": [
+        "living-world-overview-concept.png (island/style reference)"
+      ],
+      "review": "Architecture continuity useful; reserved rail/sheet space insufficient; far lighthouse connection ambiguous; simplify foliage/stone/water."
+    }
+  ]
+}
