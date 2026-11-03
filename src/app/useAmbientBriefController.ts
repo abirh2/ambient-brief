@@ -1,3 +1,4 @@
+import { buildBriefSnapshot } from './presentation/buildBriefSnapshot';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useWeather } from '../features/weather/hooks/useWeather';
 import { useNews } from '../features/news/hooks/useNews';
@@ -35,6 +36,14 @@ export function useAmbientBriefController() {
   const [isRefreshing, setIsRefreshing] = useState(false);
   const [isOnline, setIsOnline] = useState(() => typeof navigator === 'undefined' || navigator.onLine !== false);
   const [manualSummary, setManualSummary] = useState<RefreshSummary | null>(null);
+  const [presentationNow, setPresentationNow] = useState(Date.now);
+  useEffect(() => {
+    const reconcile = () => { if (!document.hidden) setPresentationNow(Date.now()); };
+    const timer = setInterval(reconcile, 60_000);
+    document.addEventListener('visibilitychange', reconcile);
+    return () => { clearInterval(timer); document.removeEventListener('visibilitychange', reconcile); };
+  }, []);
+  const snapshot = buildBriefSnapshot({ settings, weather, airQuality, nws, news, currency, islamic, marketState }, presentationNow);
   const settingsButtonRef = useRef<HTMLButtonElement>(null);
 
   const latest = useRef({ settings, weather, news, nws, airQuality, currency, islamic, marketState, loadMarkets, isMarketStale });
@@ -83,7 +92,10 @@ export function useAmbientBriefController() {
         {
           id: 'currency',
           enabled: () => latest.current.settings.currencyEnabled,
-          isStale: () => latest.current.currency.isStale || !latest.current.currency.rate,
+          isStale: () => {
+            const [base, quote] = latest.current.settings.currencyPair.split('/');
+            return latest.current.currency.isRateStale(base, quote);
+          },
           refresh: async ({ force, signal }) => {
             const [base, quote] = latest.current.settings.currencyPair.split('/');
             if (!base || !quote) return 'skipped';
@@ -193,11 +205,15 @@ export function useAmbientBriefController() {
     || marketState.status === 'stale'
     || currency.isStale
     || islamic.isStale;
-  const globalStatus = getGlobalStatus(isOnline, isRefreshing, hasCachedData, manualSummary);
+  const hasRetainedData = Boolean(weatherData || ('data' in airQuality.aqiState) || ('featured' in news.newsState) || ('snapshot' in marketState) || snapshot.currency.value || snapshot.prayer.value);
+  const globalStatus = getGlobalStatus(isOnline, isRefreshing, hasCachedData, manualSummary, hasRetainedData);
 
   return {
     settings,
     updateSettings,
+    snapshot,
+    alertCoverage: nws.coverage,
+    alertCached: nws.metadata?.origin === 'cache' || nws.metadata?.freshness === 'stale',
     weatherState: weather.weatherState,
     weatherData,
     aqiState: airQuality.aqiState,
@@ -275,8 +291,9 @@ function getGlobalStatus(
   refreshing: boolean,
   hasCachedData: boolean,
   manualSummary: RefreshSummary | null,
+  hasRetainedData: boolean,
 ): GlobalRefreshStatus {
-  if (!online) return { state: 'offline', label: 'Offline · cached data' };
+  if (!online) return { state: 'offline', label: hasRetainedData ? 'Offline · cached data' : 'Offline · data unavailable' };
   if (refreshing) return { state: 'refreshing', label: 'Refreshing' };
   if (manualSummary && (manualSummary.failed.length > 0 || manualSummary.cached.length > 0)) {
     const refreshed = manualSummary.succeeded.length;

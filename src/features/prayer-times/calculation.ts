@@ -18,7 +18,7 @@ export function calculateNextPrayer(
     (prayer) => prayer.timestamp.getTime() > now.getTime(),
   );
   const next = nextToday ?? prayerCandidates(tomorrowSchedule).find(
-    (prayer) => prayer.name === 'fajr',
+    (prayer) => prayer.name === 'fajr' && prayer.timestamp.getTime() > now.getTime(),
   );
   if (!next) return null;
 

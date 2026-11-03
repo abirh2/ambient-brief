@@ -1,6 +1,8 @@
 # Living World — progress and evidence
 
-Updated: **2026-11-02**, architecture/roadmap authoring session. Documentation package: **complete, ready for review**. Architecture/design/product approval record: **pending reconciliation**. Production implementation: **not started**. This record reports evidence; implementation task checkboxes remain only in [the roadmap](implementation-roadmap.md).
+Updated: **2026-11-02**, high-priority data-integrity milestone. **Scoped implementation complete and verified** for R01–R04 and necessary R09 cache semantics, authorized by the product owner's implementation request. Broader Living World architecture/design/presentation gates remain open. [Milestone changes, before/after evidence and limitations](data-integrity-remediation.md). Task registry: [roadmap](implementation-roadmap.md).
+
+The architecture-authoring record below is historical; its “not started” statements describe that earlier session. The integrity implementation entry at the end supersedes them for the approved scope only.
 
 ## Scope and preserved work
 
@@ -68,3 +70,14 @@ No blocking issue prevents delivery of these architecture documents. The conditi
 [ADR-LW-01](../specs/03-technical-architecture.md#architecture-decision-record--adr-lw-01) proposes a lazy persistent Fiber/Three island, authored assets, renderer-neutral accepted-state projection, semantic sibling HTML, one cancelable camera driver and isolated still/DOM recovery. It rejects overlapping helper/animation dependencies initially and preserves current pipelines. Exact dependency choices are proposals pending review; no runtime install was performed.
 
 The authoritative [implementation readiness checklist](../specs/03-technical-architecture.md#implementation-readiness-checklist) distinguishes completed architecture work from unapproved/unverified implementation gates. Review that concrete package next; all implementation checkboxes remain open.
+
+
+## High-priority integrity implementation — 2026-11-02
+
+Completed the product owner's approved R01–R04 remediation and necessary R09 cache validation with incumbent components. The focused [milestone report](data-integrity-remediation.md) maps before/after behavior and tests to each risk. Contracts and scoped approval records were updated; public provider/producer schemas, dependencies, pipelines, deployment and settings migrations were preserved. No commit or renderer work.
+
+Verification: **36 test files / 215 tests passed**, lint zero warnings, strict typecheck and production build passed. Node26.13.0/npm11.20.0; Vite6.4.3/Vitest4.1.10. Node emits its experimental unavailable-localStorage warning in tests that import stores without a browser; tests use isolated memory storage where required and no checks were suppressed. A currency identity-guard mutation was caught by two provider tests and restored before the full run.
+
+Real Chromium browser harness: **14 scenarios passed** with mounted React owners, including rapid A→B→A, units, valid fallback/original fetch time, aborts, US→non-US, late alerts, ≤1s expiry, none vs failed, dismissals, simulated visibility restoration, AQI identity, corrupt cache and mounted retention cutoff. Official fixture dialog: Enter opens; original description/instructions remain; focus enters Close; Escape closes and returns focus. Incumbent Weather Details keyboard disclosure retains source-local time and timing qualification. Test page saves/restores local test settings/storage.
+
+Live Frankfurter checks, independent of mocks: existing v1 from/to aliases returned HTTP200 with USD/EUR (returned baseUSD, date2026-11-02) and HTTP404 USD/BDT; localhost browser could read both JSON bodies. Existing endpoint/provider/default saved pair retained. Deployed-origin CORS, full engine/device matrix and physical multi-day sleep remain unverified. See milestone report for exact scope and remaining limits.

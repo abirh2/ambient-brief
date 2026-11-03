@@ -36,3 +36,8 @@ export type NewsState =
 export type NewsStateStatus = NewsState['status'];
 
 export type { GeneratedNewsFeed } from './generatedFeedSchemas.ts';
+
+export const GENERATED_FEED_STALE_AFTER_MS = 75 * 60 * 1_000;
+export function isGeneratedFeedStale(feed: { generatedAt: string }, now = Date.now()): boolean {
+  return now - Date.parse(feed.generatedAt) > GENERATED_FEED_STALE_AFTER_MS;
+}

@@ -43,5 +43,6 @@ export async function fetchOpenMeteoAirQuality(
     pm10: current.pm10 !== null && current.pm10 !== undefined ? Math.round(current.pm10) : undefined,
     ozone: current.ozone !== null && current.ozone !== undefined ? Math.round(current.ozone) : undefined,
     measuredAt: current.time,
+    timezone: rawResponse.timezone,
   };
 }

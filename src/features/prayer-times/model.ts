@@ -3,6 +3,7 @@ export type PrayerName = 'fajr' | 'sunrise' | 'dhuhr' | 'asr' | 'maghrib' | 'ish
 export interface PrayerTime { name: PrayerName; time: string; timestamp: Date }
 
 export interface DailyPrayerSchedule {
+  provenance?: { successfulFetchAt: string; origin: 'network' | 'cache' };
   gregorianDate: string;
   hijriDate: { day: number; monthName: string; year: number } | null;
   timezone: string;

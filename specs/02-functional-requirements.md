@@ -180,3 +180,7 @@ Global status stays readable in all modes and differentiates checking, cached/pa
 ## Change history
 
 2026-11-02 — v0.1 draft. F01–F16 mapped, with preservation versus new safeguards explicit. No application behavior modified; no visual review or implementation acceptance claimed. [08](08-acceptance-criteria.md) owns verification and unresolved decisions.
+
+## Scoped integrity approval — 2026-11-02
+
+The product owner's implementation request authorizes the incumbent-UI corrections for R01–R04 and necessary R09 cache validation: IG-01–IG-04, context/cache acceptance, truthful provenance, alert coverage/expiry, and bounded refresh/cancellation. This approval does not authorize the Living World presentation. See [implementation and verification](../plans/data-integrity-remediation.md).

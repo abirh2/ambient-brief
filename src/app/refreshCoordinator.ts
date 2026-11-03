@@ -52,6 +52,7 @@ export class RefreshCoordinator {
   private readonly abortControllers = new Map<RefreshProviderId, AbortController>();
   private timer: ReturnType<typeof globalThis.setInterval> | null = null;
   private stopped = false;
+  private generation = 0;
 
   constructor(options: RefreshCoordinatorOptions) {
     this.providers = options.providers;
@@ -72,6 +73,7 @@ export class RefreshCoordinator {
   }
 
   stop(): void {
+    this.generation += 1;
     this.stopped = true;
     if (this.timer) this.destroyInterval(this.timer);
     this.timer = null;
@@ -79,6 +81,7 @@ export class RefreshCoordinator {
   }
 
   handleOffline(): void {
+    this.generation += 1;
     this.abortAll();
   }
 
@@ -87,7 +90,7 @@ export class RefreshCoordinator {
   }
 
   async handleVisibilityChange(): Promise<RefreshSummary | null> {
-    if (this.isHidden()) return null;
+    if (this.isHidden()) { this.generation += 1; this.abortAll(); return null; }
     return this.refreshStale('visible');
   }
 
@@ -101,6 +104,7 @@ export class RefreshCoordinator {
   }
 
   async settingsChanged(providerIds: RefreshProviderId[]): Promise<RefreshSummary> {
+    this.generation += 1;
     this.abort(providerIds);
     const providers = providerIds
       .map((id) => this.providersById.get(id))
@@ -114,9 +118,10 @@ export class RefreshCoordinator {
     force: boolean,
     staleOnly: boolean,
   ): Promise<RefreshSummary> {
+    const generation = this.generation;
     const summary: RefreshSummary = { cause, succeeded: [], cached: [], failed: [], skipped: [] };
     for (const provider of providers) {
-      if (this.stopped || !provider.enabled() || (staleOnly && !provider.isStale())) {
+      if (generation !== this.generation || this.stopped || !provider.enabled() || (staleOnly && !provider.isStale())) {
         summary.skipped.push(provider.id);
         continue;
       }
@@ -143,7 +148,10 @@ export class RefreshCoordinator {
 
     const controller = new AbortController();
     this.abortControllers.set(provider.id, controller);
-    const request = provider.refresh({ force, signal: controller.signal, cause });
+    const request = provider.refresh({ force, signal: controller.signal, cause }).then((result) => {
+      if (controller.signal.aborted) throw new DOMException('Aborted', 'AbortError');
+      return result;
+    });
     this.inFlight.set(provider.id, request);
     void request.finally(() => {
       if (this.inFlight.get(provider.id) === request) this.inFlight.delete(provider.id);
@@ -174,5 +182,5 @@ function emptySummary(cause: RefreshCause, skipped: RefreshProviderId[]): Refres
 }
 
 function isAbortError(error: unknown): boolean {
-  return error instanceof Error && error.name === 'AbortError';
+  return error instanceof Error && (error.name === 'AbortError' || ('code' in error && error.code === 'aborted'));
 }

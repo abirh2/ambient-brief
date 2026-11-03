@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react';
+import { useCallback, useState, useRef } from 'react';
 import { cacheService } from '../../../lib/api/cacheService';
 import { useDevStateStore } from '../../../lib/stores/useDevStateStore';
 import { useSettingsStore } from '../../../lib/stores/useSettingsStore';
@@ -12,7 +12,8 @@ const NEWS_CACHE_POLICY = {
   freshForMs: 25 * 60 * 1_000,
   staleForMs: 24 * 60 * 60 * 1_000,
 };
-export const GENERATED_FEED_STALE_AFTER_MS = 75 * 60 * 1_000;
+export { GENERATED_FEED_STALE_AFTER_MS, isGeneratedFeedStale } from '../model';
+import { isGeneratedFeedStale } from '../model';
 
 function getRelativeTimeString(isoString: string, now = Date.now()): string {
   const fetched = Date.parse(isoString);
@@ -27,9 +28,6 @@ function getRelativeTimeString(isoString: string, now = Date.now()): string {
   return new Intl.DateTimeFormat(undefined, { month: 'short', day: 'numeric' }).format(new Date(fetched));
 }
 
-export function isGeneratedFeedStale(feed: GeneratedNewsFeed, now = Date.now()): boolean {
-  return now - Date.parse(feed.generatedAt) > GENERATED_FEED_STALE_AFTER_MS;
-}
 
 export function stateFromFeed(
   feed: GeneratedNewsFeed,
@@ -92,9 +90,15 @@ export function useNews() {
     const parsed = cached ? GeneratedNewsFeedSchema.safeParse(cached.data) : undefined;
     return parsed?.success ? stateFromFeed(parsed.data, settings.newsCategories, 'cache') : { status: 'loading' };
   });
+  const identity = useRef({ key: categoriesKey, generation: 0 });
+  if (identity.current.key !== categoriesKey) identity.current = { key: categoriesKey, generation: identity.current.generation + 1 };
+  const [feedMetadata, setFeedMetadata] = useState<{ generatedAt: string; partial: boolean; successfulFetchAt: string | null; origin: 'network' | 'cache'; contextKey: string } | null>(null);
   const [isRefreshing, setIsRefreshing] = useState(false);
 
   const loadNews = useCallback(async (forceRefresh = false, signal?: AbortSignal): Promise<'success' | 'cached' | 'skipped'> => {
+    signal?.throwIfAborted();
+    const generation = ++identity.current.generation;
+    const current = () => identity.current.key === categoriesKey && identity.current.generation === generation && !signal?.aborted;
     if (import.meta.env.DEV && devNewsStatus !== 'loaded') {
       if (devNewsStatus === 'loading') setNewsState({ status: 'loading' });
       if (devNewsStatus === 'empty') setNewsState({ status: 'empty' });
@@ -128,18 +132,20 @@ export function useNews() {
       cachedFeed: cachedRecord?.data,
       load: async () => fetchNewsHeadlines(settings.newsCategories, signal),
     });
-    if (!signal?.aborted) {
+    if (current()) {
       if (resolved.validatedFeed) cacheService.setCache(cacheKey, resolved.validatedFeed, NEWS_CACHE_POLICY);
+      const feed = resolved.validatedFeed ?? cachedRecord?.data;
+      if (feed) setFeedMetadata({ generatedAt: feed.generatedAt, partial: feed.status === 'partial', successfulFetchAt: resolved.validatedFeed ? new Date().toISOString() : cachedRecord?.fetchedAt ?? null, origin: resolved.validatedFeed ? 'network' : 'cache', contextKey: categoriesKey });
       setNewsState(resolved.state);
     }
-    setIsRefreshing(false);
-    if (signal?.aborted) throw new DOMException('Aborted', 'AbortError');
+    if (identity.current.key === categoriesKey && identity.current.generation === generation) setIsRefreshing(false);
+    if (!current()) throw new DOMException('Aborted', 'AbortError');
     if (!resolved.validatedFeed) {
       if (cachedRecord) return 'cached';
       throw new Error('News temporarily unavailable');
     }
     return resolved.state.status === 'cached' ? 'cached' : 'success';
-  }, [cacheKey, devNewsStatus, settings.newsCategories]);
+  }, [cacheKey, categoriesKey, devNewsStatus, settings.newsCategories]);
 
   const refreshNews = useCallback((signal?: AbortSignal) => {
     setIsRefreshing(true);
@@ -152,5 +158,5 @@ export function useNews() {
     return !cached || !validated?.success || cached.isStale || isGeneratedFeedStale(validated.data);
   }, [cacheKey]);
 
-  return { newsState, isRefreshing, refreshNews, loadNews, isNewsStale };
+  return { newsState, feedMetadata: feedMetadata?.contextKey === categoriesKey ? feedMetadata : null, isRefreshing, refreshNews, loadNews, isNewsStale };
 }

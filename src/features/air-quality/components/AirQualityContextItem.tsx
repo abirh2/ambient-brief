@@ -23,7 +23,7 @@ export function AirQualityContextItem({ aqiState }: { aqiState: AirQualityState 
   const interpretation = interpretAqi(aqiState.data.usAqi);
   return <div className="relative" ref={ref}>
     <button type="button" onClick={() => setOpen(!open)} className="compact-control context-reading" aria-haspopup="true" aria-expanded={open}>
-      <span className="context-label">AQI</span><span className="context-value">{aqiState.data.usAqi ?? '--'}</span><span className={`context-qualifier ${interpretation.textClass}`}>· {interpretation.label}</span>
+      <span className="context-label">AQI</span><span className="context-value">{aqiState.data.usAqi ?? '--'}</span><span className={`context-qualifier ${interpretation.textClass}`}>· {interpretation.label}</span><span className="context-qualifier">· {aqiState.status === 'cached' ? 'cached' : 'source timing unverified'}</span>
     </button>
     {open && <AirQualityPopover data={aqiState.data} onClose={() => setOpen(false)} lastUpdatedText={aqiState.status === 'cached' ? aqiState.lastUpdatedText : undefined} />}
   </div>;

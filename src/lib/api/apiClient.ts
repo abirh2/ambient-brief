@@ -1,3 +1,4 @@
+import { withRequestDeadline } from './requestDeadline';
 import { useDiagnosticsStore } from './diagnosticsStore';
 import { AppApiError, FetchOptions } from './types';
 
@@ -9,6 +10,14 @@ const TRANSIENT_STATUSES = new Set([408, 425, 429, 500, 502, 503, 504]);
 
 /** Typed JSON fetch with bounded retries and normalized browser/network errors. */
 export async function apiFetch<T>(url: string, options: FetchOptions<T> = {}): Promise<T> {
+  try {
+    return await withRequestDeadline((signal) => apiFetchWithinDeadline(url, { ...options, signal }), options.signal, 30_000);
+  } catch (cause) {
+    throw normalizeError(cause, options.signal, options.timeoutMs ?? DEFAULT_TIMEOUT_MS);
+  }
+}
+
+async function apiFetchWithinDeadline<T>(url: string, options: FetchOptions<T>): Promise<T> {
   const configError = validateConfiguration(url, options);
   if (configError) throw configError;
 
@@ -32,25 +41,15 @@ export async function apiFetch<T>(url: string, options: FetchOptions<T> = {}): P
 
   for (let attempt = 0; attempt <= retries; attempt += 1) {
     try {
-      const response = await fetchOnce(url, {
-        ...requestInit,
-        method: normalizedMethod,
-        headers: requestHeaders,
-        signal,
-        timeoutMs,
-      });
-
-      if (!response.ok) throw createHttpError(response);
-
-      let body: unknown;
-      try {
-        body = await response.json();
-      } catch (cause) {
-        throw new AppApiError('invalid-response', 'The response body is not valid JSON.', {
-          status: response.status,
-          cause,
-        });
-      }
+      const { response, body } = await withRequestDeadline(async (requestSignal) => {
+        const response = await fetch(url, { ...requestInit, method: normalizedMethod, headers: requestHeaders, signal: requestSignal });
+        if (!response.ok) throw createHttpError(response);
+        try { return { response, body: await response.json() as unknown }; }
+        catch (cause) {
+          requestSignal.throwIfAborted();
+          throw new AppApiError('invalid-response', 'The response body is not valid JSON.', { status: response.status, cause });
+        }
+      }, signal, timeoutMs);
 
       if (schema) {
         const result = schema.safeParse(body);
@@ -85,43 +84,6 @@ export async function apiFetch<T>(url: string, options: FetchOptions<T> = {}): P
   }
 
   throw new AppApiError('unknown', 'The request failed unexpectedly.');
-}
-
-interface FetchOnceOptions extends RequestInit {
-  timeoutMs: number;
-  signal?: AbortSignal;
-}
-
-async function fetchOnce(url: string, options: FetchOnceOptions): Promise<Response> {
-  const { timeoutMs, signal, ...requestInit } = options;
-  const controller = new AbortController();
-  let timedOut = false;
-  const onAbort = () => controller.abort(signal?.reason);
-
-  if (signal?.aborted) {
-    throw new AppApiError('aborted', 'The request was cancelled.');
-  }
-  signal?.addEventListener('abort', onAbort, { once: true });
-
-  const timeoutId = globalThis.setTimeout(() => {
-    timedOut = true;
-    controller.abort();
-  }, timeoutMs);
-
-  try {
-    return await fetch(url, { ...requestInit, signal: controller.signal });
-  } catch (cause) {
-    if (signal?.aborted) {
-      throw new AppApiError('aborted', 'The request was cancelled.', { cause });
-    }
-    if (timedOut) {
-      throw new AppApiError('timeout', `The request timed out after ${timeoutMs}ms.`, { cause });
-    }
-    throw cause;
-  } finally {
-    globalThis.clearTimeout(timeoutId);
-    signal?.removeEventListener('abort', onAbort);
-  }
 }
 
 function validateConfiguration<T>(url: string, options: FetchOptions<T>): AppApiError | null {

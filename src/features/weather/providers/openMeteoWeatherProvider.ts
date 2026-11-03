@@ -138,6 +138,8 @@ export async function fetchOpenMeteoWeather(
   }));
 
   const weatherData: WeatherData = {
+    observedAt: current.time,
+    weatherCode: current.weather_code,
     temperature: normalizedCurrent.temperature,
     feelsLike: normalizedCurrent.apparentTemperature,
     high: normalizedCurrent.high,

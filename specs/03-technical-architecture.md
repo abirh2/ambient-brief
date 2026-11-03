@@ -294,3 +294,7 @@ All meaningful implementation slices require tests, zero-warning lint, typecheck
 - [ ] Appoint asset/license owner, verify toolchain, export recipes and approved fallback/font assets.
 - [ ] Resolve operational/default-pair/CORS/entitlement gates or obtain explicit reviewed scope resolution.
 - [ ] Execute future acceptance, visual/accessibility, failure/retry and eight-hour evidence; none is implied by this architecture.
+
+## Scoped integrity implementation approval — 2026-11-02
+
+The product owner's chat request, “Implement the approved high-priority data-integrity remediation milestone for Ambient Brief 2.0,” authorizes R01–R04 and R09 only where required for cache correctness. This records approval of IG-01–IG-04, the TA-04 acceptance/projection boundary, and the direct15s/shared30s request ceilings for this milestone. It does not approve renderer dependencies, island work, dashboard migration, new providers, public producer schemas or deployment changes. The broader architecture/design review gates above remain open. Implementation and evidence: [integrity milestone](../plans/data-integrity-remediation.md).

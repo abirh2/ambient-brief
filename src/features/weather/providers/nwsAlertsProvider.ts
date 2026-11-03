@@ -1,3 +1,4 @@
+import { withRequestDeadline } from '../../../lib/api/requestDeadline';
 import { z } from 'zod';
 import { WeatherAlert } from '../../../lib/types';
 
@@ -61,7 +62,7 @@ function normalizedValue(value: string | null | undefined): string {
   return value?.trim().toLowerCase() ?? '';
 }
 
-function firstEndTime(alert: Pick<WeatherAlert, 'expires' | 'ends'>): number | null {
+export function firstEndTime(alert: Pick<WeatherAlert, 'expires' | 'ends'>): number | null {
   const times = [alert.expires, alert.ends]
     .filter((value): value is string => Boolean(value))
     .map((value) => Date.parse(value))
@@ -95,6 +96,7 @@ export function normalizeNWSAlert(feature: NwsAlertFeature): WeatherAlert {
 }
 
 export function isActiveNWSAlert(alert: WeatherAlert, now = Date.now()): boolean {
+  if ([alert.expires, alert.ends].some((value) => value !== undefined && !Number.isFinite(Date.parse(value)))) return false;
   const status = normalizedValue(alert.status);
   const messageType = normalizedValue(alert.messageType);
   if (status === 'test' || status === 'cancelled' || messageType === 'test' || messageType === 'cancel') {
@@ -124,8 +126,9 @@ export function buildNWSAlertsUrl(latitude: number, longitude: number): string {
 
 /** Fetches and validates NWS GeoJSON. US-only gating belongs to the location-aware hook. */
 export async function fetchNWSAlerts(latitude: number, longitude: number, signal?: AbortSignal): Promise<WeatherAlert[]> {
+  return withRequestDeadline(async (requestSignal) => {
   const response = await fetch(buildNWSAlertsUrl(latitude, longitude), {
-    signal,
+    signal: requestSignal,
     headers: { Accept: 'application/geo+json' },
   });
   if (!response.ok) throw new Error(`NWS alerts request failed (${response.status} ${response.statusText})`);
@@ -133,4 +136,5 @@ export async function fetchNWSAlerts(latitude: number, longitude: number, signal
   const responseBody: unknown = await response.json();
   const data = NwsAlertsResponseSchema.parse(responseBody);
   return sortNWSAlerts(data.features.map(normalizeNWSAlert).filter((alert) => isActiveNWSAlert(alert)));
+  }, signal);
 }

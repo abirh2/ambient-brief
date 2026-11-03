@@ -2,6 +2,9 @@
 
 Status: **proposed**, v0.1, 2026-11-02. No implementation authorized or performed in this session. Task checkboxes live here; [progress](progress.md) records results/evidence without a second task registry. Dependencies: [technical architecture](../specs/03-technical-architecture.md), [performance/accessibility](../specs/07-performance-and-accessibility.md), [product](../specs/00-product-vision.md), [functional](../specs/02-functional-requirements.md), [world/art](../specs/04-world-and-art-direction.md), [camera](../specs/05-camera-and-motion.md), [data/interactions](../specs/06-data-and-interactions.md), [acceptance](../specs/08-acceptance-criteria.md) and [DESIGN.md](../DESIGN.md). All upstream detailed approvals remain unrecorded; do not infer approval from this plan.
 
+
+**Integrity update — 2026-11-02:** the product owner's request approves only R01–R04 and necessary R09 corrections. M01–M03 owner fixes, scoped M04 metadata/projection, M05 deadlines/generations/FX age, and scoped M06a cache validation are implemented with the incumbent UI; see [milestone evidence](data-integrity-remediation.md) and [progress](progress.md). Broader checkboxes below retain their full Living World acceptance/browser scope and are not blanket-completed by this targeted milestone. M04c WorldTargets, M06b privacy/persistence redesign, M06c host and M07–M15 remain out of scope. Earlier documentation-only wording is historical.
+
 ## Execution rules and dependency order
 
 One checkbox is a focused implementation session; split again if source inspection reveals wider independent work. Named files below are likely scope, not permission for unrelated cleanup; `new:` marks proposed files. Read callers/tests first. Preserve existing work, compatibility exports, provider/public schemas, settings schema and deployment/secret ownership. No automatic commits. No production code, dependency or tooling installation is part of the current documentation task.

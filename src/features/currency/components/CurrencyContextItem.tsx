@@ -6,7 +6,10 @@ import { formatCurrencyValue, formatRelativeTime } from '../../../lib/formatting
 
 export function CurrencyContextItem() {
   const { settings } = useSettingsStore();
-  const { rate, rateLoading, rateError, isStale } = useCurrencyStore();
+  const { rate: storedRate, rateLoading, rateError: storedError, isStale, rateOrigin } = useCurrencyStore();
+  const expired = storedRate && Date.now() - Date.parse(storedRate.fetchedAt) > 36 * 60 * 60_000;
+  const rateError = expired ? 'Cached reference rate expired' : storedError;
+  const rate = !expired && storedRate && `${storedRate.base}/${storedRate.quote}` === settings.currencyPair ? storedRate : null;
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
   useEffect(() => {
@@ -24,7 +27,7 @@ export function CurrencyContextItem() {
   return <div className="relative w-fit" ref={ref} id="context-bar-currency">
     <button type="button" onClick={() => setOpen(!open)} className="compact-control context-reading" aria-haspopup="true" aria-expanded={open}>
       <span className="context-label numeric">{settings.currencyPair}</span>
-      {rateLoading && !rate ? <Loader2 className="w-3 h-3 animate-spin" /> : rateError ? <span className="semantic-negative">Unavailable</span> : rate ? <span className="context-value numeric">{formatCurrencyValue(rate.rate)}{isStale && <span className="type-metadata semantic-warning ml-1 font-sans font-normal">(stale)</span>}</span> : <span className="context-value">--</span>}
+      {rateLoading && !rate ? <Loader2 className="w-3 h-3 animate-spin" /> : rateError ? <span className="semantic-negative">Unavailable</span> : rate ? <span className="context-value numeric">{formatCurrencyValue(rate.rate)}{<span className="type-metadata semantic-warning ml-1 font-sans font-normal">{isStale ? '(stale)' : rateOrigin === 'cache' ? '(cached reference)' : '(reference)'}</span>}</span> : <span className="context-value">--</span>}
     </button>
     {open && <div data-variant="secondary" className="glass-panel absolute bottom-full left-0 mb-2 w-72 p-4 text-xs z-50 flex flex-col gap-3">
       <div className="flex justify-between border-b border-white/10 pb-2"><strong className="text-sm">Exchange Rate Details</strong><button type="button" onClick={() => setOpen(false)} aria-label="Close details"><X className="w-3.5 h-3.5" /></button></div>

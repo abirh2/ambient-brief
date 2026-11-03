@@ -1,5 +1,7 @@
 import { DailyPrayerSchedule, PrayerName, PrayerTime } from '../../lib/types';
 import { cacheService } from '../../lib/api/cacheService';
+import { withRequestDeadline } from '../../lib/api/requestDeadline';
+import { readContextCache } from '../../lib/api/contextCache';
 import { z } from 'zod';
 import { createDateInTimeZone } from '../../lib/formatting';
 
@@ -26,7 +28,7 @@ const AladhanEnvelopeSchema = z.object({
 });
 
 const SerializedPrayerScheduleSchema = z.object({
-  gregorianDate: z.string(),
+  gregorianDate: z.string().regex(/^\d{2}-\d{2}-\d{4}$/),
   hijriDate: z.object({
     day: z.number(),
     monthName: z.string(),
@@ -43,8 +45,9 @@ const SerializedPrayerScheduleSchema = z.object({
     time: z.string(),
     timestamp: z.coerce.date(),
   })),
-  calculationMethod: z.string(),
+  calculationMethod: z.enum(['ISNA', 'MWL', 'Egyptian', 'Karachi', 'Makkah']),
   asrMethod: z.enum(['standard', 'hanafi']),
+  provenance: z.object({ successfulFetchAt: z.iso.datetime(), origin: z.enum(['network', 'cache']) }).optional(),
 });
 
 // Centralized calculation methods and school types mappings as requested
@@ -198,7 +201,19 @@ function normalizeHijriMonthName(value: string): string {
  * Deserializes date strings in Cached schedules back to JavaScript Date objects.
  */
 export function deserializeSchedule(data: unknown): DailyPrayerSchedule {
-  return SerializedPrayerScheduleSchema.parse(data);
+  const schedule = SerializedPrayerScheduleSchema.parse(data);
+  new Intl.DateTimeFormat('en', { timeZone: schedule.timezone });
+  const [day, month, year] = schedule.gregorianDate.split('-').map(Number);
+  const date = new Date(Date.UTC(year, month - 1, day));
+  if (date.getUTCDate() !== day || date.getUTCMonth() !== month - 1 || date.getUTCFullYear() !== year) throw new Error('Invalid schedule date');
+  if (new Set(schedule.prayers.map((prayer) => prayer.name)).size !== 6 || schedule.prayers.length !== 6) throw new Error('Incomplete schedule');
+  for (const prayer of schedule.prayers) {
+    const normalized = normalizeTimeStr(prayer.time);
+    const [hour, minute] = normalized.split(':').map(Number);
+    if (prayer.timestamp.getTime() !== createDateInTimeZone(year, month, day, hour, minute, schedule.timezone).getTime()) throw new Error('Mismatched schedule timestamp');
+  }
+  if (schedule.provenance && Date.parse(schedule.provenance.successfulFetchAt) > Date.now()) throw new Error('Future schedule fetch');
+  return schedule;
 }
 
 /**
@@ -211,21 +226,29 @@ export async function fetchScheduleForDate(
   methodKey: string,
   schoolKey: string,
   signal?: AbortSignal,
+  timezone?: string,
 ): Promise<DailyPrayerSchedule> {
+  if (!(methodKey in ALADHAN_CALCULATION_METHODS) || !(schoolKey in ALADHAN_ASR_METHODS)) throw new Error('Unsupported prayer calculation');
+  signal?.throwIfAborted();
   const methodId = ALADHAN_CALCULATION_METHODS[methodKey as keyof typeof ALADHAN_CALCULATION_METHODS]?.id ?? 2;
   const schoolId = ALADHAN_ASR_METHODS[schoolKey as keyof typeof ALADHAN_ASR_METHODS]?.id ?? 1;
 
   const cacheKey = `prayers_${lat.toFixed(3)}_${lng.toFixed(3)}_${dateStr}_${methodId}_${schoolId}`;
   
-  // Try to load from Cache first
-  const cached = cacheService.getCache<unknown>(cacheKey);
-  if (cached && cached.data) {
-    return deserializeSchedule(cached.data);
+  const contextKey = JSON.stringify([lat, lng, dateStr, methodKey, schoolKey, timezone ?? null]);
+  const cached = readContextCache(cacheKey, contextKey, z.unknown());
+  if (cached) {
+    try {
+      const schedule = deserializeSchedule(cached.data);
+      if (schedule.gregorianDate !== dateStr || schedule.calculationMethod !== methodKey || schedule.asrMethod !== schoolKey.toLowerCase()) throw new Error('Mismatched schedule');
+      return { ...schedule, provenance: { successfulFetchAt: schedule.provenance?.successfulFetchAt ?? cached.fetchedAt, origin: 'cache' } };
+    } catch { cacheService.clearKey(cacheKey); }
   }
 
   // Live fetch from AlAdhan API
   const url = `https://api.aladhan.com/v1/timings/${dateStr}?latitude=${lat}&longitude=${lng}&method=${methodId}&school=${schoolId}`;
-  const res = await fetch(url, { signal });
+  return withRequestDeadline(async (requestSignal) => {
+  const res = await fetch(url, { signal: requestSignal });
   if (!res.ok) {
     throw new Error(`HTTP error! status: ${res.status}`);
   }
@@ -235,10 +258,14 @@ export async function fetchScheduleForDate(
     throw new Error(`AlAdhan API error: ${json.status || 'Invalid response format'}`);
   }
 
-  const schedule = parseAladhanResponse(json.data, methodKey, schoolKey);
+  const schedule = deserializeSchedule(parseAladhanResponse(json.data, methodKey, schoolKey));
+  if (schedule.gregorianDate !== dateStr) throw new Error('Mismatched prayer date');
+  requestSignal.throwIfAborted();
+  schedule.provenance = { successfulFetchAt: new Date().toISOString(), origin: 'network' };
   
   // Cache for 24 hours
-  cacheService.setCache(cacheKey, schedule, 24 * 60 * 60 * 1000);
+  cacheService.setCache(cacheKey, { contextKey, value: schedule }, 24 * 60 * 60 * 1000);
 
   return schedule;
+  }, signal);
 }

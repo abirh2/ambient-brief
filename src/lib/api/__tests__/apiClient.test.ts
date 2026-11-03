@@ -9,6 +9,7 @@ describe('apiFetch', () => {
   beforeEach(() => vi.restoreAllMocks());
   afterEach(() => {
     globalThis.fetch = originalFetch;
+    vi.useRealTimers();
   });
 
   it('returns a valid response parsed by its schema', async () => {
@@ -99,5 +100,34 @@ describe('apiFetch', () => {
     await expect(request).rejects.toBeInstanceOf(AppApiError);
     await expect(request).rejects.toMatchObject({ code: 'configuration' });
     expect(globalThis.fetch).not.toHaveBeenCalled();
+  });
+
+  it('includes a stalled response body in the request deadline', async () => {
+    vi.useFakeTimers();
+    const response = new Response(null, { status: 200 });
+    vi.spyOn(response, 'json').mockImplementation(() => new Promise(() => undefined));
+    globalThis.fetch = vi.fn().mockResolvedValue(response);
+    let outcome: unknown;
+    void apiFetch('https://example.test/stalled-body', { timeoutMs: 100, retries: 0 })
+      .then((value) => { outcome = value; }, (error: unknown) => { outcome = error; });
+
+    await vi.advanceTimersByTimeAsync(101);
+
+    expect(outcome).toMatchObject({ code: 'timeout' });
+  });
+
+  it('does not let Retry-After extend an invocation beyond thirty seconds', async () => {
+    vi.useFakeTimers();
+    globalThis.fetch = vi.fn().mockResolvedValue(
+      new Response(null, { status: 429, headers: { 'Retry-After': '3600' } }),
+    );
+    let outcome: unknown;
+    void apiFetch('https://example.test/rate-limited', { retries: 2 })
+      .then((value) => { outcome = value; }, (error: unknown) => { outcome = error; });
+
+    await vi.advanceTimersByTimeAsync(30_001);
+
+    expect(outcome).toBeInstanceOf(AppApiError);
+    expect(globalThis.fetch).toHaveBeenCalledOnce();
   });
 });

@@ -75,7 +75,7 @@ export const cacheService = {
       const fetchedAtMs = Date.parse(parsed.fetchedAt);
       const freshUntilMs = Date.parse(parsed.freshUntil);
       const expiresAtMs = Date.parse(parsed.expiresAt);
-      if ([fetchedAtMs, freshUntilMs, expiresAtMs].some(Number.isNaN)) {
+      if ([fetchedAtMs, freshUntilMs, expiresAtMs].some(Number.isNaN) || fetchedAtMs > Date.now() || freshUntilMs < fetchedAtMs || expiresAtMs < freshUntilMs) {
         storage.removeItem(fullKey(key));
         return { state: 'miss' };
       }

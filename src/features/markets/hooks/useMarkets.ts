@@ -3,28 +3,22 @@ import type { ProviderRefreshResult } from '../../../app/refreshCoordinator';
 import type { MarketSnapshot, MarketState } from '../model';
 import { clearMarketCache, isMarketCacheStale, loadMarketSnapshot } from '../marketSnapshotClient';
 
-const ACTIVE_SESSION_STALE_AFTER_MS = 90 * 60 * 1_000;
-const CLOSED_SESSION_STALE_AFTER_MS = 24 * 60 * 60 * 1_000;
-
-export function isSnapshotStale(snapshot: MarketSnapshot, now = Date.now()): boolean {
-  const generatedAt = Date.parse(snapshot.generatedAt);
-  if (Number.isNaN(generatedAt)) return true;
-  const active = snapshot.marketSession === 'pre-market'
-    || snapshot.marketSession === 'regular'
-    || snapshot.marketSession === 'after-hours';
-  return now - generatedAt > (active ? ACTIVE_SESSION_STALE_AFTER_MS : CLOSED_SESSION_STALE_AFTER_MS);
-}
+import { isSnapshotStale } from '../model';
+export { isSnapshotStale } from '../model';
 
 export function useMarkets() {
   const [marketState, setMarketState] = useState<MarketState>({ status: 'loading' });
   const currentSnapshotRef = useRef<MarketSnapshot | undefined>(undefined);
 
+  const generation = useRef(0);
   const loadMarkets = useCallback(async (
     forceRefresh = false,
     signal?: AbortSignal,
   ): Promise<ProviderRefreshResult> => {
+    const request = ++generation.current;
     const previousGeneratedAt = currentSnapshotRef.current?.generatedAt;
     const result = await loadMarketSnapshot(forceRefresh, signal);
+    if (signal?.aborted || request !== generation.current) throw new DOMException('Aborted', 'AbortError');
     if (result.status === 'success') {
       const snapshot = result.data;
       currentSnapshotRef.current = snapshot;
@@ -41,13 +35,14 @@ export function useMarkets() {
         status,
         snapshot,
         browserFetchedAt: result.fetchedAt,
+        origin: result.source,
         ...(forceRefresh ? {
           notice: unchanged
             ? 'Already showing the latest available market snapshot.'
             : 'Checked for a newer market snapshot.',
         } : {}),
       });
-      return result.source === 'cache' ? 'cached' : 'success';
+      return result.source === 'cache' || status !== 'loaded' ? 'cached' : 'success';
     }
 
     setMarketState((current) => {
@@ -65,6 +60,8 @@ export function useMarkets() {
   }, []);
 
   const clearCache = useCallback(() => {
+    generation.current += 1;
+    currentSnapshotRef.current = undefined;
     clearMarketCache();
     setMarketState({
       status: 'unavailable',

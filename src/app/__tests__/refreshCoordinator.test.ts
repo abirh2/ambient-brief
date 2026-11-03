@@ -146,4 +146,75 @@ describe('RefreshCoordinator', () => {
     expect(summary.cached).toEqual(['currency']);
     expect(summary.succeeded).toEqual(['weather', 'alerts', 'prayerTimes', 'news']);
   });
+
+  it('does not continue the obsolete startup sweep after a StrictMode stop and restart', async () => {
+    const calls: RefreshProviderId[] = [];
+    let finishFirstWeather: ((result: ProviderRefreshResult) => void) | undefined;
+    let weatherCalls = 0;
+    const coordinator = new RefreshCoordinator({
+      providers: [
+        {
+          id: 'weather', enabled: () => true, isStale: () => true,
+          refresh: () => {
+            calls.push('weather');
+            weatherCalls += 1;
+            if (weatherCalls === 1) return new Promise((resolve) => { finishFirstWeather = resolve; });
+            return Promise.resolve('success');
+          },
+        },
+        {
+          id: 'news', enabled: () => true, isStale: () => true,
+          refresh: async () => { calls.push('news'); return 'success'; },
+        },
+      ],
+      setInterval: () => 1 as unknown as ReturnType<typeof globalThis.setInterval>,
+      clearInterval: () => undefined,
+    });
+    const obsoleteSweep = coordinator.start();
+    coordinator.stop();
+    await coordinator.start();
+    finishFirstWeather?.('success');
+    await obsoleteSweep;
+
+    expect(calls).toEqual(['weather', 'weather', 'news']);
+  });
+
+  it('does not advance the initial sweep while replacement settings work is pending', async () => {
+    const calls: RefreshProviderId[] = [];
+    let finishReplacement: ((result: ProviderRefreshResult) => void) | undefined;
+    let weatherCalls = 0;
+    const coordinator = new RefreshCoordinator({
+      providers: [
+        {
+          id: 'weather', enabled: () => true, isStale: () => true,
+          refresh: ({ signal }) => {
+            calls.push('weather');
+            weatherCalls += 1;
+            if (weatherCalls === 1) {
+              return new Promise((_resolve, reject) => {
+                signal.addEventListener('abort', () => reject(new DOMException('Aborted', 'AbortError')), { once: true });
+              });
+            }
+            return new Promise((resolve) => { finishReplacement = resolve; });
+          },
+        },
+        {
+          id: 'airQuality', enabled: () => true, isStale: () => true,
+          refresh: async () => { calls.push('airQuality'); return 'success'; },
+        },
+      ],
+      setInterval: () => 1 as unknown as ReturnType<typeof globalThis.setInterval>,
+      clearInterval: () => undefined,
+    });
+    const initial = coordinator.start();
+    const replacement = coordinator.settingsChanged(['weather', 'airQuality']);
+    // Let cancellation and any obsolete continuation drain before completing the replacement.
+    await new Promise<void>((resolve) => setTimeout(resolve, 0));
+    const callsBeforeReplacementFinished = [...calls];
+    finishReplacement?.('success');
+    await Promise.all([initial, replacement]);
+
+    expect(callsBeforeReplacementFinished).toEqual(['weather', 'weather']);
+    expect(calls).toEqual(['weather', 'weather', 'airQuality']);
+  });
 });

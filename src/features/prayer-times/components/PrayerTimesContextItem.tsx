@@ -63,11 +63,12 @@ export function PrayerTimesContextItem() {
             <div className="prayer-countdown numeric tabular-data">in {nextPrayer.timeRemainingText}</div>
           </div>
 
+          {isStale && <span className="type-metadata semantic-warning">Cached prayer times</span>}
           {settings.islamic.showHijriDate && todaySchedule?.hijriDate && (
             <div className="prayer-hijri type-metadata">
               <CalendarDays className="h-3.5 w-3.5" aria-hidden="true" />
               <span>{formatHijriDate(todaySchedule.hijriDate)}</span>
-              {isStale && <span className="semantic-warning">Cached</span>}
+
             </div>
           )}
 
@@ -93,7 +94,7 @@ export function PrayerTimesContextItem() {
           )}
         </>
       ) : (
-        <div className="prayer-status" role="status">Calculating the next prayer…</div>
+        <div className="prayer-status" role="status">Next prayer unavailable</div>
       )}
     </section>
   );

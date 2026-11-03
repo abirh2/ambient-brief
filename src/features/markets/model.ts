@@ -40,8 +40,21 @@ export type MarketState =
       status: 'loaded' | 'cached' | 'stale' | 'partial';
       snapshot: MarketSnapshot;
       browserFetchedAt: string;
+      origin?: 'network' | 'cache';
       notice?: string;
     }
   | { status: 'unavailable'; message: string; notice?: string };
 
 export type MarketStateStatus = MarketState['status'];
+
+const ACTIVE_SESSION_STALE_AFTER_MS = 90 * 60 * 1_000;
+const CLOSED_SESSION_STALE_AFTER_MS = 24 * 60 * 60 * 1_000;
+
+export function isSnapshotStale(snapshot: MarketSnapshot, now = Date.now()): boolean {
+  const generatedAt = Date.parse(snapshot.generatedAt);
+  if (Number.isNaN(generatedAt)) return true;
+  const active = snapshot.marketSession === 'pre-market'
+    || snapshot.marketSession === 'regular'
+    || snapshot.marketSession === 'after-hours';
+  return now - generatedAt > (active ? ACTIVE_SESSION_STALE_AFTER_MS : CLOSED_SESSION_STALE_AFTER_MS);
+}

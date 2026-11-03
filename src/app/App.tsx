@@ -59,6 +59,9 @@ export function App() {
                 <WeatherAlertBanner alert={primaryAlert} allAlerts={dashboard.alerts} onDismiss={() => dashboard.dismissAlert(primaryAlert.id)} onDismissAlert={dashboard.dismissAlert} />
               </div>
             )}
+            <p className="type-metadata text-[color:var(--text-muted)]" role="status">
+              {dashboard.alertCoverage === 'active' ? dashboard.alertCached ? 'Cached NWS alerts; current check unavailable' : 'Official NWS alerts' : dashboard.alertCoverage === 'none' ? 'No active NWS alerts at last check' : dashboard.alertCoverage === 'checking' ? 'Checking NWS alerts' : dashboard.alertCoverage === 'unsupported' ? 'NWS alerts unsupported outside the US' : dashboard.alertCoverage === 'unknown' ? 'NWS alert coverage unknown' : 'NWS alerts unavailable'}
+            </p>
             <section className="ambient-weather" aria-label="Current weather and hourly forecast">
               <WeatherHero embedded state={dashboard.weatherState} aqiState={dashboard.aqiState} onOpenSettings={dashboard.openSettings} onRetry={dashboard.refreshWeather} />
             </section>
@@ -73,7 +76,7 @@ export function App() {
             uvIndex={uvIndex}
             uvLabel={formatUvLabel(uvIndex)}
             sunset={dashboard.weatherData?.sunset ?? null}
-            weatherFreshness={dashboard.weatherState.status === 'cached' ? 'Cached' : dashboard.weatherState.status === 'loaded' ? 'Live' : 'Unavailable'}
+            weatherFreshness={dashboard.snapshot.weather.freshness}
             aqiState={dashboard.aqiState}
           />
         </main>

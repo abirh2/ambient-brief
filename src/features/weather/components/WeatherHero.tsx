@@ -173,6 +173,7 @@ export const WeatherHero: React.FC<WeatherHeroProps> = ({
         {detailsExpanded && (
           <div className="type-metadata flex flex-wrap items-center gap-x-4 gap-y-1 text-[color:var(--text-muted)]" aria-label="Additional weather details">
             <span className="inline-flex items-center gap-1.5"><Droplets className="w-3.5 h-3.5 text-sky-300" />Humidity <strong className="font-mono font-medium text-slate-200">{weatherData.humidity}%</strong></span>
+            <span>Open-Meteo · Source time: {weatherData.observedAt ?? 'unknown'} {weatherData.timezone ?? 'timezone unknown'}; observation timing unverified</span>
             <span className="inline-flex items-center gap-1.5"><Wind className="w-3.5 h-3.5 text-slate-300" />Wind <strong className="font-mono font-medium text-slate-200">{Math.round(weatherData.windSpeed)} {weatherData.windSpeedUnit}</strong></span>
           </div>
         )}

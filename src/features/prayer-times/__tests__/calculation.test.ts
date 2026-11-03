@@ -51,4 +51,12 @@ describe('next prayer calculation', () => {
     expect(beforeMidnight?.timestamp.toISOString()).toBe(afterMidnight?.timestamp.toISOString());
     expect(afterMidnight?.name).toBe('fajr');
   });
+
+  it('does not present an expired tomorrow Fajr as now after a multi-day sleep', () => {
+    expect(calculateNextPrayer(schedule(5), schedule(6), at(8, 12, 0))).toBeNull();
+  });
+
+  it('does not present past Fajr as now when the next day schedule is missing', () => {
+    expect(calculateNextPrayer(schedule(5), schedule(5), at(5, 22, 0))).toBeNull();
+  });
 });

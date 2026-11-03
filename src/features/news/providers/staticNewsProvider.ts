@@ -1,3 +1,4 @@
+import { withRequestDeadline } from '../../../lib/api/requestDeadline';
 import { GeneratedNewsFeedSchema } from '../generatedFeedSchemas';
 import { NEWS_CATEGORIES, type Headline, type NewsCategory } from '../model';
 import { deduplicateHeadlines, stripPublisherSuffix } from '../utils/deduplication';
@@ -52,14 +53,16 @@ export class StaticNewsProvider implements NewsProvider {
   }
 
   async fetchHeadlines(categories: NewsCategory[], signal?: AbortSignal) {
+    return withRequestDeadline(async (requestSignal) => {
     const response = await fetch(resolveNewsFeedUrl(), {
-      signal,
+      signal: requestSignal,
       headers: { Accept: 'application/json' },
       cache: 'no-cache',
     });
     if (!response.ok) throw new Error('Static news feed is unavailable');
     const feed = GeneratedNewsFeedSchema.parse(await response.json());
     return { feed, headlines: selectFeedHeadlines(categories, feed) };
+    }, signal);
   }
 }
 

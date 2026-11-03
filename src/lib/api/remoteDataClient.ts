@@ -25,6 +25,7 @@ let visibilityListenerInstalled = false;
  * Stale data resolves immediately; onRevalidated receives the later network value.
  */
 export async function loadRemoteData<T>(options: RemoteRequestOptions<T>): Promise<RemoteData<T>> {
+  if (options.signal?.aborted) return { status: 'error', error: new AppApiError('aborted', 'The request was cancelled.') };
   const cached = cacheService.readCache<T>(options.cacheKey, options.cachePolicy);
 
   if (!options.forceRefresh && cached.state === 'fresh') {
@@ -46,6 +47,7 @@ export async function loadRemoteData<T>(options: RemoteRequestOptions<T>): Promi
 export async function revalidateRemoteData<T>(
   options: Omit<RemoteRequestOptions<T>, 'forceRefresh'>,
 ): Promise<RemoteData<T>> {
+  if (options.signal?.aborted) return { status: 'error', error: new AppApiError('aborted', 'The request was cancelled.') };
   const cached = cacheService.readCache<T>(options.cacheKey, options.cachePolicy);
   if (!isOnline()) return offlineResult(cached);
   return fetchAndCache(options, cached);
@@ -56,7 +58,7 @@ function scheduleRevalidation<T>(options: RemoteRequestOptions<T>): void {
 
   const run = () => {
     void revalidateRemoteData(options).then((result) => {
-      options.onRevalidated?.(result);
+      if (!options.signal?.aborted) options.onRevalidated?.(result);
     });
   };
 
@@ -75,11 +77,13 @@ async function fetchAndCache<T>(
 ): Promise<RemoteData<T>> {
   try {
     const data = await runDeduplicated(options.cacheKey, options.fetcher, options.signal);
+    if (options.signal?.aborted) throw new AppApiError('aborted', 'The request was cancelled.');
     const fetchedAt = new Date().toISOString();
     cacheService.setCache(options.cacheKey, data, options.cachePolicy);
     return { status: 'success', data, fetchedAt, source: 'network', freshness: 'fresh' };
   } catch (cause) {
     const error = normalizeRemoteError(cause);
+    if (error.code === 'aborted' || options.signal?.aborted) return { status: 'error', error: new AppApiError('aborted', 'The request was cancelled.') };
     if (fallback.state !== 'miss') return cacheSuccess(fallback, 'stale');
     return { status: 'error', error };
   }
@@ -95,10 +99,11 @@ async function runDeduplicated<T>(
   }
 
   let entry = inFlightRequests.get(key);
+  if (entry?.controller.signal.aborted) { inFlightRequests.delete(key); entry = undefined; }
   if (!entry) {
     const controller = new AbortController();
     const promise = fetcher(controller.signal).finally(() => {
-      inFlightRequests.delete(key);
+      if (inFlightRequests.get(key)?.promise === promise) inFlightRequests.delete(key);
     });
     entry = { controller, promise, consumers: 0 };
     inFlightRequests.set(key, entry);
@@ -111,7 +116,7 @@ async function runDeduplicated<T>(
     return await waitForConsumer(entry.promise as Promise<T>, consumerSignal);
   } finally {
     entry.consumers -= 1;
-    if (entry.consumers === 0 && inFlightRequests.get(key) === entry) entry.controller.abort();
+    if (entry.consumers === 0 && inFlightRequests.get(key) === entry) { entry.controller.abort(); inFlightRequests.delete(key); }
   }
 }
 

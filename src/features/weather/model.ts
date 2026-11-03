@@ -1,3 +1,5 @@
+import { z } from 'zod';
+
 export type TemperatureUnit = 'fahrenheit' | 'celsius';
 
 export interface HourlyForecast {
@@ -9,6 +11,8 @@ export interface HourlyForecast {
 }
 
 export interface WeatherData {
+  observedAt?: string;
+  weatherCode?: number;
   temperature: number;
   feelsLike: number;
   high: number;
@@ -35,3 +39,12 @@ export type WeatherState =
   | { status: 'cached'; data: WeatherData; lastUpdatedText: string };
 
 export type WeatherStateStatus = WeatherState['status'];
+
+export const WeatherDataSchema = z.object({
+  observedAt: z.string().optional(), weatherCode: z.number().finite().optional(),
+  temperature: z.number().finite(), feelsLike: z.number().finite(), high: z.number().finite(), low: z.number().finite(),
+  condition: z.string(), iconName: z.string(), humidity: z.number().finite().min(0).max(100),
+  windSpeed: z.number().finite().nonnegative(), windSpeedUnit: z.enum(['mph', 'km/h']), uvIndex: z.number().finite().nonnegative().nullable(),
+  hourly: z.array(z.object({ time: z.string(), temp: z.number().finite(), pop: z.number().min(0).max(100), iconName: z.string(), isoTime: z.string().optional() })).min(1),
+  summaryNote: z.string().optional(), sunrise: z.string().optional(), sunset: z.string().optional(), isDay: z.boolean().optional(), timezone: z.string().optional(),
+});

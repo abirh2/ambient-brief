@@ -1,9 +1,11 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useRef } from 'react';
 import { useAppLocation } from '../../../hooks/useAppLocation';
 import { cacheService } from '../../../lib/api/cacheService';
 import { REQUEST_POLICIES } from '../../../lib/api/policies';
 import { fetchOpenMeteoAirQuality } from '../providers/openMeteoAirQualityProvider';
 import { AirQualitySnapshot } from '../types';
+import { AirQualitySnapshotSchema } from '../model';
+import { readContextCache, type AcceptedMetadata } from '../../../lib/api/contextCache';
 
 export type AirQualityState =
   | { status: 'loading' }
@@ -15,22 +17,46 @@ export function useAirQuality() {
   const { activeLocation } = useAppLocation();
   // Cache key based on location coordinates (independent of temp units)
   const cacheKey = `aqi_v2_${activeLocation.latitude.toFixed(2)}_${activeLocation.longitude.toFixed(2)}`;
-  const [aqiState, setAqiState] = useState<AirQualityState>(() => {
-    const cached = cacheService.getCache<AirQualitySnapshot>(cacheKey);
-    if (!cached) return { status: 'loading' };
-    return cached.isStale
-      ? { status: 'cached', data: cached.data, lastUpdatedText: `Showing cached AQI · Updated ${getRelativeTimeString(cached.fetchedAt)}` }
-      : { status: 'loaded', data: cached.data };
+  const contextKey = JSON.stringify(activeLocation);
+  const identity = useRef({ key: contextKey, generation: 0 });
+  if (identity.current.key !== contextKey) identity.current = { key: contextKey, generation: identity.current.generation + 1 };
+  const retained = useRef<{ contextKey: string; data: AirQualitySnapshot; fetchedAt: string } | null>(null);
+  const readCache = useCallback(() => {
+    const cached = readContextCache(cacheKey, contextKey, AirQualitySnapshotSchema);
+    if (cached) return cached;
+    const previous = retained.current;
+    const age = previous ? Date.now() - Date.parse(previous.fetchedAt) : Number.POSITIVE_INFINITY;
+    return previous?.contextKey === contextKey && age >= 0 && age <= 30 * 60_000 + 24 * 60 * 60_000
+      ? { data: previous.data, fetchedAt: previous.fetchedAt, isStale: age > 30 * 60_000 } : null;
+  }, [cacheKey, contextKey]);
+  const [accepted, setAccepted] = useState<{ key: string; state: AirQualityState; metadata: AcceptedMetadata | null }>(() => {
+    const cached = readCache();
+    return { key: contextKey, state: cached ? { status: 'cached', data: cached.data, lastUpdatedText: 'Showing cached AQI' } : { status: 'loading' }, metadata: cached ? { contextKey, origin: 'cache', freshness: cached.isStale ? 'stale' : 'cached', successfulFetchAt: cached.fetchedAt } : null };
   });
   const [isRefreshing, setIsRefreshing] = useState(false);
+  const cachedNow = readCache();
+  const acceptedExpired = accepted.metadata?.origin !== 'demo' && accepted.metadata?.successfulFetchAt && Date.now() - Date.parse(accepted.metadata.successfulFetchAt) > 24 * 60 * 60_000 + 30 * 60_000;
+  const aqiState: AirQualityState = accepted.key === contextKey ? acceptedExpired ? { status: 'unavailable', message: 'Cached AQI expired.' } : accepted.state : cachedNow
+    ? { status: 'cached', data: cachedNow.data, lastUpdatedText: 'Showing cached AQI' } : { status: 'loading' };
 
   const loadAirQuality = useCallback(
     async (forceRefresh = false, signal?: AbortSignal): Promise<'success' | 'cached'> => {
-      const cachedRecord = cacheService.getCache<AirQualitySnapshot>(cacheKey);
+      signal?.throwIfAborted();
+      const generation = ++identity.current.generation;
+      const current = () => identity.current.key === contextKey && identity.current.generation === generation && !signal?.aborted;
+      const setAqiState = (state: AirQualityState, metadata: AcceptedMetadata | null = null) => {
+        if (current()) {
+          const cached = readCache();
+          const effectiveMetadata = metadata ?? (state.status === 'cached' && cached ? { contextKey, origin: 'cache' as const, freshness: cached.isStale ? 'stale' as const : 'cached' as const, successfulFetchAt: cached.fetchedAt } : null);
+          if ('data' in state && effectiveMetadata?.successfulFetchAt && effectiveMetadata.origin !== 'demo') retained.current = { contextKey, data: state.data, fetchedAt: effectiveMetadata.successfulFetchAt };
+          setAccepted({ key: contextKey, state, metadata: effectiveMetadata });
+        }
+      };
+      const cachedRecord = readCache();
 
       // Paint any valid cache immediately, then revalidate in the background.
       if (cachedRecord && !cachedRecord.isStale && !forceRefresh) {
-        setAqiState({ status: 'loaded', data: cachedRecord.data });
+        setAqiState({ status: 'cached', data: cachedRecord.data, lastUpdatedText: 'Showing cached AQI' }, { contextKey, origin: 'cache', freshness: 'cached', successfulFetchAt: cachedRecord.fetchedAt });
       }
 
       if (cachedRecord?.isStale && !forceRefresh) {
@@ -50,21 +76,22 @@ export function useAirQuality() {
           signal,
         });
 
-        if (!signal?.aborted) {
-          cacheService.setCache(cacheKey, liveData, REQUEST_POLICIES.airQuality.ttlMs);
+        if (current()) {
+          cacheService.setCache(cacheKey, { contextKey, value: liveData }, REQUEST_POLICIES.airQuality.ttlMs);
           setAqiState({
             status: 'loaded',
             data: liveData,
-          });
+          }, { contextKey, origin: 'network', freshness: 'delayed', successfulFetchAt: new Date().toISOString(), lastCheck: { at: new Date().toISOString(), outcome: 'new' } });
         }
+        if (!current()) throw new DOMException('Aborted', 'AbortError');
         return 'success';
       } catch (error: unknown) {
-        if (error instanceof Error && error.name === 'AbortError') {
+        if (!current() || (error instanceof Error && error.name === 'AbortError')) {
           throw error;
         }
 
         // On failure: fallback to existing cache if available
-        const fallbackCache = cacheService.getCache<AirQualitySnapshot>(cacheKey);
+        const fallbackCache = readCache();
         if (fallbackCache) {
           setAqiState({
             status: 'cached',
@@ -72,7 +99,7 @@ export function useAirQuality() {
             lastUpdatedText: `Showing cached AQI · Connection failed · Updated ${getRelativeTimeString(
               fallbackCache.fetchedAt
             )}`,
-          });
+          }, { contextKey, origin: 'cache', freshness: 'stale', successfulFetchAt: fallbackCache.fetchedAt, lastCheck: { at: new Date().toISOString(), outcome: 'failed' } });
           return 'cached';
         } else {
           setAqiState({
@@ -82,10 +109,10 @@ export function useAirQuality() {
           throw error;
         }
       } finally {
-        setIsRefreshing(false);
+        if (identity.current.key === contextKey && identity.current.generation === generation) setIsRefreshing(false);
       }
     },
-    [activeLocation, cacheKey]
+    [activeLocation, cacheKey, contextKey, readCache]
   );
 
   const refreshAirQuality = useCallback((signal?: AbortSignal) => {
@@ -95,10 +122,11 @@ export function useAirQuality() {
 
   return {
     aqiState,
+    metadata: accepted.key === contextKey ? accepted.metadata : cachedNow ? { contextKey, origin: 'cache' as const, freshness: cachedNow.isStale ? 'stale' as const : 'cached' as const, successfulFetchAt: cachedNow.fetchedAt } : null,
     isRefreshing,
     refreshAirQuality,
     loadAirQuality,
-    isAirQualityStale: () => cacheService.getCache<AirQualitySnapshot>(cacheKey)?.isStale ?? true,
+    isAirQualityStale: () => readCache()?.isStale ?? true,
   };
 }
 
