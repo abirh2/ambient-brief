@@ -45,6 +45,8 @@ Static renderer research may proceed after M00 without domain dependence; accept
 
 ## M00 — Review record, reproducible baseline and verification capability
 
+**Scoped prototype update — 2026-11-02:** the product owner's subsequent first-slice implementation request authorizes a development-only M07/M08 subset: one original island/observatory, minimal HTML, explicit Overview↔Observatory camera, motion/error/asset recovery, rendered review and preliminary profiling. It explicitly excludes the four-station/data-binding/dashboard migration scope below. This subset has its own [execution/evidence record](living-world-first-slice.md); broad M00–M15 checkboxes still require their full named-device/product acceptance. Exact renderer packages are installed and peer/strict-build tested; production rollout stays off.
+
 - [ ] **Scope:** reconcile approval gap C01/C02, confirm C03/C04 staging questions, numeric budgets/browser policy/reference-device access; approve exact dependency recommendation and internal integrity changes before implementation. Inventory existing tests/available browsers and select a verification harness without assuming installed tools.
   - **Dependencies:** none; architecture review first. Missing approvals block dependent implementation, not writing/reviewing this plan.
   - **Likely files:** specs03/07 approval/change history, upstream approval records as authorized, this plan/progress; possible later dev-only browser test configuration/package files in a separate reviewed tooling slice.

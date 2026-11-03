@@ -31,6 +31,14 @@ npm run build
 
 Use `npm run preview` to serve the completed production build locally.
 
+## Isolated Living World prototype
+
+Run `npm run dev` and open `/?world=observatory` at the printed local URL. The original dashboard remains at `/`. The prototype is an independent art study: one authored Atlantic island/observatory, Overview and guided observatory navigation, semantic controls, still/reduced-motion treatment and isolated renderer recovery. Its fixed daylight is explicitly illustrative; it mounts no domain requests.
+
+Normal production builds exclude the prototype JavaScript, including when that query is present. For an **explicit local production-preview test only**, build with `VITE_WORLD_PROTOTYPE=true BASE_PATH=/ambient-brief/ npm run build`, then `npm run preview -- --base /ambient-brief/`. No deployment workflow enables this flag.
+
+Original assets and reproducible export: [asset ledger](docs/world-assets/README.md). Scope, screenshots, verification and remaining release gates: [first-slice report](plans/living-world-first-slice.md) and [progress](plans/progress.md). Append `&profile=1` to the prototype URL to collect bounded, local rendered-frame diagnostics; no telemetry is sent.
+
 ## Optional configuration
 
 `BASE_PATH` changes the Vite asset base for static hosting outside the automatic GitHub Pages configuration. Copy `.env.example` to `.env.local` only when this override is needed.

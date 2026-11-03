@@ -15,10 +15,12 @@
     "test:watch": "vitest"
   },
   "dependencies": {
+    "@react-three/fiber": "9.8.2",
     "date-fns": "^4.4.0",
     "lucide-react": "^0.546.0",
     "react": "^19.0.1",
     "react-dom": "^19.0.1",
+    "three": "0.187.0",
     "zod": "^4.4.3",
     "zustand": "^5.0.14"
   },
@@ -27,6 +29,7 @@
     "@types/node": "^22.14.0",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
+    "@types/three": "0.187.0",
     "@typescript-eslint/eslint-plugin": "^8.65.0",
     "@typescript-eslint/parser": "^8.65.0",
     "@vitejs/plugin-react": "^5.2.0",

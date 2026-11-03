@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "seed": 2164,
+  "source": "scripts/world/author-island.mjs",
+  "sourceSha256": "86f6aaee7a6a73f84ed5b5c042f11820b178836b0edffc0824352aaf210f999a",
+  "file": "public/world/v1/atlantic-observatory-1dd2a9d56785.glb",
+  "sha256": "1dd2a9d56785e495126094543ce15347898a560a0589f9033eebf7f8dfd7f43c",
+  "bytes": 2018148,
+  "triangles": 45796,
+  "geometryBytes": 1987584,
+  "meshes": 32,
+  "textures": 0,
+  "inventory": [
+    {
+      "name": "terrain_meadow_Sage_meadow",
+      "triangles": 4928
+    },
+    {
+      "name": "terrain_cliff_strata_Stratified_limestone",
+      "triangles": 1120
+    },
+    {
+      "name": "coast_tide_shelf_Tide_lines",
+      "triangles": 300
+    },
+    {
+      "name": "observatory_terrace_Honed_limestone",
+      "triangles": 1016
+    },
+    {
+      "name": "observatory_terrace_Limestone_cut_edges",
+      "triangles": 508
+    },
+    {
+      "name": "observatory_coping_Limestone_cut_edges",
+      "triangles": 800
+    },
+    {
+      "name": "observatory_approach_steps_Limestone_cut_edges",
+      "triangles": 72
+    },
+    {
+      "name": "observatory_approach_steps_Honed_limestone",
+      "triangles": 144
+    },
+    {
+      "name": "island_limestone_walk_Honed_limestone",
+      "triangles": 600
+    },
+    {
+      "name": "observatory_floor_Warm_interior",
+      "triangles": 508
+    },
+    {
+      "name": "observatory_glazing_Slate_glazing",
+      "triangles": 88
+    },
+    {
+      "name": "observatory_mullions_Weathered_bronze",
+      "triangles": 2832
+    },
+    {
+      "name": "observatory_canopy_Weathered_bronze",
+      "triangles": 508
+    },
+    {
+      "name": "observatory_canopy_Patinated_canopy",
+      "triangles": 508
+    },
+    {
+      "name": "observatory_clerestory_Weathered_bronze",
+      "triangles": 1308
+    },
+    {
+      "name": "observatory_skylight_Slate_glazing",
+      "triangles": 672
+    },
+    {
+      "name": "observatory_roof_seams_Weathered_bronze",
+      "triangles": 144
+    },
+    {
+      "name": "observatory_door_Weathered_bronze",
+      "triangles": 24
+    },
+    {
+      "name": "observatory_door_Warm_interior",
+      "triangles": 12
+    },
+    {
+      "name": "observatory_cedar_louvres_Silvered_cedar",
+      "triangles": 228
+    },
+    {
+      "name": "observatory_benches_Silvered_cedar",
+      "triangles": 24
+    },
+    {
+      "name": "observatory_benches_Weathered_bronze",
+      "triangles": 48
+    },
+    {
+      "name": "observatory_rail_Weathered_bronze",
+      "triangles": 560
+    },
+    {
+      "name": "observatory_instruments_Weathered_bronze",
+      "triangles": 56
+    },
+    {
+      "name": "observatory_instruments_Limestone_cut_edges",
+      "triangles": 140
+    },
+    {
+      "name": "observatory_instruments_Honed_limestone",
+      "triangles": 60
+    },
+    {
+      "name": "pine_trunks_Pine_bark",
+      "triangles": 1176
+    },
+    {
+      "name": "pine_branches_Pine_bark",
+      "triangles": 4900
+    },
+    {
+      "name": "pine_boughs_Pine_boughs",
+      "triangles": 15120
+    },
+    {
+      "name": "coastal_rock_clusters_Stratified_limestone",
+      "triangles": 4000
+    },
+    {
+      "name": "coastal_scrub_Coastal_scrub",
+      "triangles": 3200
+    },
+    {
+      "name": "dune_grass_Coastal_scrub",
+      "triangles": 192
+    }
+  ]
+}

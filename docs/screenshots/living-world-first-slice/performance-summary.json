@@ -1,0 +1,230 @@
+{
+  "browser": "Chrome/156.0.8078.80",
+  "scenarios": 23,
+  "errors": null,
+  "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M4 Pro, Unspecified Version)",
+  "frames": 454,
+  "durationMs": 14949.099999904633,
+  "fps": 30.30282759516559,
+  "intervalsMs": {
+    "mean": 33.00022075034135,
+    "p95": 34.80000019073486,
+    "p99": 35.299999713897705,
+    "max": 35.40000009536743
+  },
+  "cpuSubmitMs": {
+    "mean": 0.39955945582116753,
+    "p95": 0.6999998092651367,
+    "p99": 0.8000001907348633,
+    "max": 0.8000001907348633
+  },
+  "calls": 34,
+  "triangles": 66756,
+  "buffer": [
+    3456,
+    1446
+  ],
+  "cold": {
+    "shell": [
+      620.1999998092651,
+      622.5999999046326,
+      623.4000000953674,
+      622.8000001907349,
+      632.5
+    ],
+    "world": [
+      1995.5999999046326,
+      2024.5,
+      2009.0999999046326,
+      2003,
+      2005.5
+    ],
+    "worldP75": 2009.0999999046326,
+    "shellP75": 623.4000000953674,
+    "LCP": [
+      636,
+      640,
+      644,
+      644,
+      652
+    ],
+    "CLS": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "requests": [
+      {
+        "name": "http://127.0.0.1:4174/ambient-brief/assets/index-CV6PIPDA.js",
+        "transfer": 134963,
+        "encoded": 134663
+      },
+      {
+        "name": "http://127.0.0.1:4174/ambient-brief/assets/index-BxDLEXgh.css",
+        "transfer": 19299,
+        "encoded": 18999
+      },
+      {
+        "name": "http://127.0.0.1:4174/ambient-brief/assets/WorldPrototype-irTrImR2.js",
+        "transfer": 4275,
+        "encoded": 3975
+      },
+      {
+        "name": "http://127.0.0.1:4174/ambient-brief/assets/rotate-ccw-BxwurHiB.js",
+        "transfer": 673,
+        "encoded": 373
+      },
+      {
+        "name": "http://127.0.0.1:4174/ambient-brief/assets/WorldPrototype-C-VDGJeH.css",
+        "transfer": 2059,
+        "encoded": 1759
+      },
+      {
+        "name": "http://127.0.0.1:4174/ambient-brief/world/v1/overview.webp",
+        "transfer": 45682,
+        "encoded": 45382
+      },
+      {
+        "name": "http://127.0.0.1:4174/ambient-brief/assets/WorldEntry-B8FFr41Z.js",
+        "transfer": 268254,
+        "encoded": 267954
+      },
+      {
+        "name": "http://127.0.0.1:4174/ambient-brief/world/v1/atlantic-observatory-1dd2a9d56785.glb",
+        "transfer": 2018448,
+        "encoded": 2018148
+      }
+    ],
+    "totalTransfer": [
+      2493653,
+      2493653,
+      2493653,
+      2493653,
+      2493653
+    ]
+  },
+  "retry": [
+    {
+      "geometries": 34,
+      "textures": 1,
+      "calls": 34,
+      "triangles": 66756
+    },
+    {
+      "geometries": 34,
+      "textures": 1,
+      "calls": 34,
+      "triangles": 66756
+    },
+    {
+      "geometries": 34,
+      "textures": 1,
+      "calls": 34,
+      "triangles": 66756
+    },
+    {
+      "geometries": 34,
+      "textures": 1,
+      "calls": 34,
+      "triangles": 66756
+    },
+    {
+      "geometries": 34,
+      "textures": 1,
+      "calls": 34,
+      "triangles": 66756
+    },
+    {
+      "geometries": 34,
+      "textures": 1,
+      "calls": 34,
+      "triangles": 66756
+    },
+    {
+      "geometries": 34,
+      "textures": 1,
+      "calls": 34,
+      "triangles": 66756
+    },
+    {
+      "geometries": 34,
+      "textures": 1,
+      "calls": 34,
+      "triangles": 66756
+    },
+    {
+      "geometries": 34,
+      "textures": 1,
+      "calls": 34,
+      "triangles": 66756
+    },
+    {
+      "geometries": 34,
+      "textures": 1,
+      "calls": 34,
+      "triangles": 66756
+    },
+    {
+      "geometries": 34,
+      "textures": 1,
+      "calls": 34,
+      "triangles": 66756
+    },
+    {
+      "geometries": 34,
+      "textures": 1,
+      "calls": 34,
+      "triangles": 66756
+    },
+    {
+      "geometries": 34,
+      "textures": 1,
+      "calls": 34,
+      "triangles": 66756
+    },
+    {
+      "geometries": 34,
+      "textures": 1,
+      "calls": 34,
+      "triangles": 66756
+    },
+    {
+      "geometries": 34,
+      "textures": 1,
+      "calls": 34,
+      "triangles": 66756
+    },
+    {
+      "geometries": 34,
+      "textures": 1,
+      "calls": 34,
+      "triangles": 66756
+    },
+    {
+      "geometries": 34,
+      "textures": 1,
+      "calls": 34,
+      "triangles": 66756
+    },
+    {
+      "geometries": 34,
+      "textures": 1,
+      "calls": 34,
+      "triangles": 66756
+    },
+    {
+      "geometries": 34,
+      "textures": 1,
+      "calls": 34,
+      "triangles": 66756
+    },
+    {
+      "geometries": 34,
+      "textures": 1,
+      "calls": 34,
+      "triangles": 66756
+    }
+  ]
+}

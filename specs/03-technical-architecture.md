@@ -298,3 +298,9 @@ All meaningful implementation slices require tests, zero-warning lint, typecheck
 ## Scoped integrity implementation approval — 2026-11-02
 
 The product owner's chat request, “Implement the approved high-priority data-integrity remediation milestone for Ambient Brief 2.0,” authorizes R01–R04 and R09 only where required for cache correctness. This records approval of IG-01–IG-04, the TA-04 acceptance/projection boundary, and the direct15s/shared30s request ceilings for this milestone. It does not approve renderer dependencies, island work, dashboard migration, new providers, public producer schemas or deployment changes. The broader architecture/design review gates above remain open. Implementation and evidence: [integrity milestone](../plans/data-integrity-remediation.md).
+
+## Scoped observatory prototype approval — 2026-11-02
+
+The product owner's subsequent request, “Implement the first approved Living World vertical slice,” authorizes the selected Fiber 9.8.2 / Three 0.187.0 / types 0.187.0 architecture for an isolated island/observatory prototype. The explicit no-migration/no-extra-landmarks/no-domain-integrations boundary narrows M08's earlier four-landmark/data-driven milestone. Original geometry is authored offline in a versioned source recipe and exported with the selected Three GLTFExporter; runtime consumes a fixed GLB. No runtime procedural terrain or remote asset is introduced. Daylight is a labeled art study, without a weather/time-to-scene adapter.
+
+This approval permits the development entry and explicit local preview flag, renderer isolation, accessible camera controls and fallback/performance verification. It does not approve production rollout, all-mode HTML migration, complete four-station art, new provider ownership or relaxed budgets. C03/C04's full summary/sheet feasibility and reference A/B release gates remain open. [Implementation and evidence](../plans/living-world-first-slice.md).
