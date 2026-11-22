@@ -1,36 +1,64 @@
 {
   "schemaVersion": 1,
   "provider": "currents",
-  "generatedAt": "2026-11-21T23:45:23.417Z",
-  "sourceFetchedAt": "2026-11-21T23:45:23.417Z",
+  "generatedAt": "2026-11-22T06:29:25.036Z",
+  "sourceFetchedAt": "2026-11-22T06:29:25.036Z",
   "status": "success",
   "categories": {
     "Top": [
       {
-        "id": "currents-c56ba1f0-f2e0-52a9-ae68-e9cfd02b4e5e",
-        "title": "German e-invoicing for developers: XRechnung and ZUGFeRD via REST API and MCP",
-        "description": "From 2027, many German businesses have to send structured e-invoices to other businesses, and from...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:32:15.000Z",
-        "url": "https://dev.to/dominikschroeter/german-e-invoicing-for-developers-xrechnung-and-zugferd-via-rest-api-and-mcp-16dl",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Frbjabkehkdvymcf1lkb7.png",
+        "id": "currents-3e39efc8-f54a-5037-acbc-eee11d6d2bdc",
+        "title": "Quantum computing’s first real-world payoff may come in energy, not drug discovery",
+        "description": "Quantum computing firms are testing energy-grid optimization, solar materials and hydrogen catalysts as they pursue practical uses.",
+        "publisher": "CNBC",
+        "publisherDomain": "cnbc.com",
+        "publishedAt": "2026-11-22T06:00:01.000Z",
+        "url": "https://www.cnbc.com/2026/11/22/quantum-computing-energy-applications.html",
+        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108554063-1795006580677-gettyimages-2271702239-futuristic-microchip-glowing-data-connections.jpeg?v=1795006768&w=1920&h=1080",
         "categories": [
           "Top",
-          "U.S.",
-          "Technology",
-          "Science"
+          "Business"
         ]
       },
       {
-        "id": "currents-9c43b886-fc8c-53a8-b410-679f34525808",
-        "title": "76ers survive in clutch again despite Herro's 50: 'Got to finish better'",
-        "description": "The 76ers survived 50 points from Tyler Herro, nearly blowing a 10-point lead late, before once again coming out on top in the clutch.",
+        "id": "currents-5b8ecf75-680f-57a9-8d11-8319a511c28b",
+        "title": "Health advocates push funding for smoke-free, vape-free bill",
+        "description": "A man smokes a disposable vape, Newcastle-under-Lyme, Britain, September 14, 2023. REUTERS/Carl Recine/File Photo MANILA, Philippines — Health advocates have urged lawmakers to retain the funding",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-11-22T06:21:57.000Z",
+        "url": "https://newsinfo.inquirer.net/2345227/health-advocates-push-funding-for-smoke-free-vape-free-bill",
+        "imageUrl": "https://newsinfo.inquirer.net/files/2024/01/vape-compositefilephoto-01222024.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-c5b4f8b2-daaf-5096-81b3-ba8136e81dd8",
+        "title": "Building Slip Away: a fake call that looks completely real",
+        "description": "TL;DR: Slip Away makes your phone ring with a call that looks exactly like a real one, so you can...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:23:44.000Z",
+        "url": "https://dev.to/three/building-slip-away-a-fake-call-that-looks-completely-real-33mm",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fx0koqq88bk130nedp4fj.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-b39f7367-46b2-55bf-b891-a5f2d88db1e6",
+        "title": "Wembanyama makes history in 18 minutes, finishes game with 50 points",
+        "description": "Victor Wembanyama had his third career 50-point outing in Sunday's win vs. the Pelicans, to go along with 19 rebounds, five blocks and four steals.",
         "publisher": "ESPN",
         "publisherDomain": "espn.com",
-        "publishedAt": "2026-11-21T23:30:54.000Z",
-        "url": "https://www.espn.com/nba/story/_/id/50555316/76ers-survive-clutch-again-tyler-herro-50",
-        "imageUrl": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1121%2Fr1749277_1024x576_16%2D9.jpg",
+        "publishedAt": "2026-11-22T06:07:01.000Z",
+        "url": "https://www.espn.com/nba/story/_/id/50559763/victor-wembanyama-shows-50-point-5-block-performance",
+        "imageUrl": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1122%2Fr1749474_1024x576_16%2D9.jpg",
         "categories": [
           "Top",
           "U.S.",
@@ -38,43 +66,158 @@
         ]
       },
       {
-        "id": "currents-6295fed5-2132-5bbe-89e3-39662a02b069",
-        "title": "Las Vegas Grand Prix betting guide: How to bet Saturday night's race on the strip",
-        "description": "Las Vegas Grand Prix betting picks: Kimi Antonelli to win at +470, Lando Norris podium, Charles Leclerc podium at +350 and Oscar Piastri as biggest mover.",
-        "publisher": "Fox News",
-        "publisherDomain": "foxnews.com",
-        "publishedAt": "2026-11-21T23:25:45.000Z",
-        "url": "https://www.foxnews.com/outkick-betting/las-vegas-grand-prix-betting-guide-bet-saturday-nights-race-strip",
-        "imageUrl": "https://static.foxnews.com/foxnews.com/content/uploads/2025/11/f1-racing-us-grand-prix-auto-racing-las-vegas-002.jpg",
+        "id": "currents-f45a6a99-15c4-596e-957f-a08ae6328d0b",
+        "title": "Runway vs Pika in 2026: $35 buys 187 seconds on one card and 650 on the other",
+        "description": "Both sell credits. Neither defines them the same way. Priced per second of finished video, the same $35 buys 187 seconds on Runway and 650 on Pika - or 107, depending on the model.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:23:01.000Z",
+        "url": "https://dev.to/saasradarai/runway-vs-pika-in-2026-what-35-buys-in-seconds-on-two-credit-systems-1mcl",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fiili.io%2FoKa5Wpp.jpg",
         "categories": [
           "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-fb64b5a3-4652-515f-bd78-d5ecd9d1440a",
-        "title": "Put To The Test, Those Special Engine Cleaning Oils Do Some Lifting",
-        "description": "Plenty of products claim to clean your engine, but some engine oils can do the job. The Motor Oil Geek shows us how.",
-        "publisher": "Jalopnik",
-        "publisherDomain": "jalopnik.com",
-        "publishedAt": "2026-11-21T23:25:00.000Z",
-        "url": "https://www.jalopnik.com/2318213/engine-cleaning-oils-test-how-they-work",
-        "imageUrl": "https://www.jalopnik.com/img/gallery/put-to-the-test-those-special-engine-cleaning-oils-do-some-lifting/l-intro-1794499031.jpg",
-        "categories": [
-          "Top",
+          "Technology",
+          "Science",
           "U.S."
         ]
       },
       {
-        "id": "currents-ffeb92b0-3dd4-512f-9601-c975ac3ad0b3",
-        "title": "Introducing Draft Wink — My AI Website Builder Project",
-        "description": "Introducing Draft Wink — My AI Website Builder Project Hi everyone! 👋 I'm Ferid Oci, a...",
+        "id": "currents-99e2ba67-199c-55e1-8013-f2112bfe3ab5",
+        "title": "llm-gemini plugin adds xhigh reasoning for Gemini 4 models",
+        "description": "Simon Willison has published llm-gemini 0.38.1, a dot release of his plugin that connects the LLM...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:32:06.000Z",
-        "url": "https://dev.to/feridoci/introducing-draft-wink-my-ai-website-builder-project-1mco",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6g9qznh0f7h8v8qqo4yk.png",
+        "publishedAt": "2026-11-22T06:22:32.000Z",
+        "url": "https://dev.to/mikefluff/llm-gemini-plugin-adds-xhigh-reasoning-for-gemini-4-models-3k48",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcutclmledlsyxknbus7o.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-a73102d5-28e0-5259-a8c2-97ae6a394dd3",
+        "title": "Two new video tools: pull any frame out of a video, right in your browser",
+        "description": "This week's batch on RozKaTool — free, no sign-up, everything runs in your browser — is different...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:22:32.000Z",
+        "url": "https://dev.to/zaidi617796/two-new-video-tools-pull-any-frame-out-of-a-video-right-in-your-browser-56en",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgtmvwhz4rdcjdgt72555.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-afe5040b-ba60-5ddd-bf2f-fa42f126953d",
+        "title": "Vimium injected a subframe message into the top-level page",
+        "description": "Technical analysis of Vimium injected a subframe message into the top-level page.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:21:48.000Z",
+        "url": "https://dev.to/bianliang/vimium-injected-a-subframe-message-into-the-top-level-page-2aj1",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fv75wxnoopgdoxrxf3wx8.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-bd1be2b3-1285-524b-a86c-26b4c22e3c3a",
+        "title": "Design a 3D Printed Clay Stamp With Mirrored Text",
+        "description": "Fully Autonomous / AI-generated adaptation. A clay impression reverses the face that makes it. This...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:21:42.000Z",
+        "url": "https://dev.to/shawn_lee_8d4afa8d6ff67ad/design-a-3d-printed-clay-stamp-with-mirrored-text-4ei9",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5ivb99evrot72eldj9ur.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-b61efecf-4c20-5762-a10c-68e35261d81b",
+        "title": "Building a QR Scanner That Does Both Jobs: Lessons from Shipping Scanqra",
+        "description": "Most QR scanner apps treat creating codes as an afterthought. You get a fast camera scanner, and then...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:20:13.000Z",
+        "url": "https://dev.to/saqib2619/building-a-qr-scanner-that-does-both-jobs-lessons-from-shipping-scanqra-2k7l",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9ljg6dhqj5f1x1thx56q.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-cb1993d9-fb7e-51af-9cd1-71e1a75a565e",
+        "title": "Building a Copilot Studio Agent That Writes to Dataverse via Power Automate",
+        "description": "The problem A canvas app I kept coming back to had the same shape every time: a user opens...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:19:43.000Z",
+        "url": "https://dev.to/pamarthi_dhanush_41e91011/building-a-copilot-studio-agent-that-writes-to-dataverse-via-power-automate-5dbo",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6odt7miy995jl9tzlfsj.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-02c84b17-2332-58b5-bd87-53075058d759",
+        "title": "requests vs httpx vs aiohttp in 2026: Real-World Concurrency & Memory Benchmarks",
+        "description": "Choosing the right HTTP client in Python seems straightforward until your script moves from fetching...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:19:35.000Z",
+        "url": "https://dev.to/alex_mercer_321994/requests-vs-httpx-vs-aiohttp-in-2026-real-world-concurrency-memory-benchmarks-4la5",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu6mbu5scp2epg9yw1pbx.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-d9e0880a-e71d-547d-9ea6-8227d2319985",
+        "title": "Keep outfit references attached to shots when users reorder a video",
+        "description": "A three-beat outfit-change edit can be represented as three shots. Each shot has a timing range, a...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:18:42.000Z",
+        "url": "https://dev.to/_19ec095744cd8d9cce9ae/keep-outfit-references-attached-to-shots-when-users-reorder-a-video-p1l",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fm4r40j9d2nrl208sqj5b.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-cf82a4b6-b934-5a1f-baa9-bafbd4183467",
+        "title": "I got tired of babysitting five coding agents, so I built a supervisor for them",
+        "description": "I don't use one coding agent anymore. Depending on the task, I switch between Claude Code, Codex,...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:12:14.000Z",
+        "url": "https://dev.to/codego-ai/i-got-tired-of-babysitting-five-coding-agents-so-i-built-a-supervisor-for-them-ko4",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fy84uuxncckmp7y4st0u1.png",
         "categories": [
           "Top",
           "U.S.",
@@ -83,14 +226,14 @@
         ]
       },
       {
-        "id": "currents-a925d759-ef8b-5906-92da-63e13b32fc0c",
-        "title": "Transactional SMS Alerts: Compare Europe Provider Templates Before Pricing Reviews",
-        "description": "A receipt template becomes a production dependency the moment a settled payment needs it. TL;DR:...",
+        "id": "currents-ee23b539-dfb3-50c4-b71a-62cc06a4cd14",
+        "title": "A Field Guide to Putting Compression at the Front of a Document Pipeline",
+        "description": "This is a practitioner's note about one specific piece of infrastructure: making document...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:30:41.000Z",
-        "url": "https://dev.to/rasmusberg6592/transactional-sms-alerts-compare-europe-provider-templates-before-pricing-reviews-30gi",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F29z74mf70vs6y730p7p8.png",
+        "publishedAt": "2026-11-22T06:11:52.000Z",
+        "url": "https://dev.to/uglypeardata/a-field-guide-to-putting-compression-at-the-front-of-a-document-pipeline-3lgm",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fs3mo5zw9qq4qx93nkg7o.png",
         "categories": [
           "Top",
           "U.S.",
@@ -99,296 +242,62 @@
         ]
       },
       {
-        "id": "currents-973b4707-e1b0-5299-97a6-2c0b12413e3a",
-        "title": "One Request Froze Our API for 26 Minutes. Its Timeout Never Fired.",
-        "description": "The request log said 1,593,543 ms. That's one request taking 26 and a half minutes. For those 26...",
+        "id": "currents-581f83f7-5590-51fe-86ed-6cf3c888dbc2",
+        "title": "Pay transparency in 2026: what 202,628 job postings with a salary range show",
+        "description": "I run Jobs Every Hour, a free job search that reads open jobs from about 20,000 employers' own career...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:30:00.000Z",
-        "url": "https://dev.to/nabil_since_dev/one-request-froze-our-api-for-26-minutes-its-timeout-never-fired-49l2",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8xirpj0is6b56foz6lor.png",
+        "publishedAt": "2026-11-22T06:10:56.000Z",
+        "url": "https://dev.to/hypestkey/pay-transparency-in-2026-what-202628-job-postings-with-a-salary-range-show-31al",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftga7znw42lmexm9pys9o.png",
         "categories": [
           "Top",
           "U.S.",
           "Technology",
           "Science"
-        ]
-      },
-      {
-        "id": "currents-815897bb-b1b4-593c-ba16-c44d5aec9656",
-        "title": "E-commerce Product Search Retrieval Architecture — Setting Safe Crawl Boundaries",
-        "description": "Short answer: keep the crawl boundary at canonical product records and their current availability,...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:27:06.000Z",
-        "url": "https://dev.to/mitchellcross2134/e-commerce-product-search-retrieval-architecture-setting-safe-crawl-boundaries-16d9",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fro9nz32iposj2e768ghc.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-851eb201-0c5e-5cc0-98f6-c46960359b9c",
-        "title": "An Alzheimer’s Antibody Binds Its Receptor. How Do You Know It Reaches the Brain?",
-        "description": "Two experimental antibody shuttles reached the same average concentration in mouse brain one day...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:23:35.000Z",
-        "url": "https://dev.to/dessygil/an-alzheimers-antibody-binds-its-receptor-how-do-you-know-it-reaches-the-brain-5c4n",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Feptzfd233wnnb72fx5r3.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-9175e794-c3ab-50d6-a339-c8e3e0d8dc22",
-        "title": "UG32 raster processing in Python: give each output pixel one owner",
-        "description": "Plan overlapping input windows and nonoverlapping output cores, then reconstruct a synthetic raster to catch crop and boundary errors.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:23:32.000Z",
-        "url": "https://dev.to/united_uav/ug32-raster-processing-in-python-give-each-output-pixel-one-owner-3f8c",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0750%2F8112%2F2008%2Ffiles%2Fvtol-drones-long-endurance-flight.webp%3Fv%3D1784546067",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-10a69efb-731d-5324-8863-320e37e3ffb5",
-        "title": "Python SMS Alert Service in 2026 — US/EU Account Notifications After Settlement",
-        "description": "Choose an SMS alert service by the application work needed to turn a settled payment into one...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:23:26.000Z",
-        "url": "https://dev.to/magnusnilsson2124/python-sms-alert-service-in-2026-useu-account-notifications-after-settlement-4njm",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fv6o7hw0uz0ymod19siyc.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-de6e5850-801c-555f-a8a0-dce8b1474b98",
-        "title": "Docker CI: Isolate Email Fixtures by Build",
-        "description": "A practical Docker and CI/CD pattern for isolated email fixtures, safer secrets, useful artifacts, and reliable verification tests.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:23:26.000Z",
-        "url": "https://dev.to/jasonmills94/docker-ci-isolate-email-fixtures-by-build-5eeg",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6ps8hy4agm7qz5ggnt7j.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-0059079b-9feb-5b63-90e4-49ca44c18f1e",
-        "title": "Unskipped: see where your beta reader stopped caring, as page flags in your own manuscript",
-        "description": "This is a submission for the Presage SmartSpectra SDK Challenge. What I Built Every...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:21:06.000Z",
-        "url": "https://dev.to/jonathansolvesstuff/unskipped-see-where-your-beta-reader-stopped-caring-as-page-flags-in-your-own-manuscript-18b2",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgfztb8h6m4ztbt5wdyzj.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-a4d20bcd-8faf-5ccb-b235-fbc3b98bef44",
-        "title": "Homepage: 45 App Matches Are Useful, 617,479 Title Matches Are Not a Product Count",
-        "description": "Homepage: 45 App Matches Are Useful, 617,479 Title Matches Are Not a Product Count",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:20:29.000Z",
-        "url": "https://dev.to/onaeiuspkz/homepage-45-app-matches-are-useful-617479-title-matches-are-not-a-product-count-1l80",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkkijfyecwwhj96vreeyr.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-4ba02038-6004-5a1f-92d3-9633cef6f89f",
-        "title": "Amazon's rechargeable flashlights with 5 lighting modes are only $17 for 2",
-        "description": "\"They are very bright and have a quality build.\"",
-        "publisher": "Thestreet",
-        "publisherDomain": "thestreet.com",
-        "publishedAt": "2026-11-21T23:30:00.000Z",
-        "url": "https://www.thestreet.com/deals/tughlax-rechargeable-flashlight-2-pack-amazon-sale-november-2026",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-6509d763-1c47-59cd-9ec2-841e53a4fc09",
-        "title": "Where to find emergency shelter in Columbia as colder weather moves in",
-        "description": "Oliver Gospel adds 20 beds on the coldest nights, and the city runs an overflow shelter. But Oliver Gospel's Men's Center closes Nov. 30 to Dec. 9.",
-        "publisher": "Wltx",
-        "publisherDomain": "wltx.com",
-        "publishedAt": "2026-11-21T23:27:51.000Z",
-        "url": "https://www.wltx.com/article/news/community/where-find-emergency-shelter-columbia-colder-weather-moves/101-fb0af847-45ef-48d0-91a7-4526d21ed678",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
         ]
       }
     ],
     "U.S.": [
       {
-        "id": "currents-c56ba1f0-f2e0-52a9-ae68-e9cfd02b4e5e",
-        "title": "German e-invoicing for developers: XRechnung and ZUGFeRD via REST API and MCP",
-        "description": "From 2027, many German businesses have to send structured e-invoices to other businesses, and from...",
+        "id": "currents-c5b4f8b2-daaf-5096-81b3-ba8136e81dd8",
+        "title": "Building Slip Away: a fake call that looks completely real",
+        "description": "TL;DR: Slip Away makes your phone ring with a call that looks exactly like a real one, so you can...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:32:15.000Z",
-        "url": "https://dev.to/dominikschroeter/german-e-invoicing-for-developers-xrechnung-and-zugferd-via-rest-api-and-mcp-16dl",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Frbjabkehkdvymcf1lkb7.png",
+        "publishedAt": "2026-11-22T06:23:44.000Z",
+        "url": "https://dev.to/three/building-slip-away-a-fake-call-that-looks-completely-real-33mm",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fx0koqq88bk130nedp4fj.png",
         "categories": [
           "Top",
-          "U.S.",
           "Technology",
-          "Science"
+          "Science",
+          "U.S."
         ]
       },
       {
-        "id": "currents-abfc0137-fd21-5bd2-b828-3a529d1e1151",
-        "title": "38 \"Too Good To Be True” Products That Proved Reviewers Wrong In A Big Way",
-        "description": "Maybe you didn't always believe in this sweat-activated dry shampoo and customizable memory foam pillow, but they sure believed in you.",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-11-21T23:31:01.000Z",
-        "url": "https://www.buzzfeed.com/emmalord9/too-good-true-products-an",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/21/01/thumb/7D_SWN61s.jpg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-9c43b886-fc8c-53a8-b410-679f34525808",
-        "title": "76ers survive in clutch again despite Herro's 50: 'Got to finish better'",
-        "description": "The 76ers survived 50 points from Tyler Herro, nearly blowing a 10-point lead late, before once again coming out on top in the clutch.",
+        "id": "currents-ca3fb8b9-87c6-52ab-8654-7ee0770cf23e",
+        "title": "Predicting the College Football Playoff: Who's most likely to make the field?",
+        "description": "Find out which teams our experts think will make this season's CFP.",
         "publisher": "ESPN",
         "publisherDomain": "espn.com",
-        "publishedAt": "2026-11-21T23:30:54.000Z",
-        "url": "https://www.espn.com/nba/story/_/id/50555316/76ers-survive-clutch-again-tyler-herro-50",
-        "imageUrl": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1121%2Fr1749277_1024x576_16%2D9.jpg",
+        "publishedAt": "2026-11-22T06:20:04.000Z",
+        "url": "https://www.espn.com/college-football/story/_/page/playoffpredictions112126/cfp-predictions-week-12",
+        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1122%2Fr1749422_1296x729_16%2D9.jpg",
         "categories": [
-          "Top",
-          "U.S.",
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-d5982e10-ada3-5073-9850-1ca080cc187d",
-        "title": "Amazon’s Black Friday Sale Already Has Tons Of Deals Over 50% Off",
-        "description": "Prime Big Deal Days has huge Amazon discounts on home essentials, tech, beauty, and more. Shop early deals before they sell out!",
-        "publisher": "Bustle",
-        "publisherDomain": "bustle.com",
-        "publishedAt": "2026-11-21T23:30:24.000Z",
-        "url": "https://www.bustle.com/shopping/the-best-early-black-friday-deals-on-amazon-over-50percent-off",
-        "imageUrl": "https://imgix.bustle.com/uploads/image/2026/11/21/ea0b2189/bustle-bdcmfs.jpg?w=1200&h=630&fit=crop&crop=faces&fm=jpg",
-        "categories": [
+          "Sports",
           "Top",
           "U.S."
         ]
       },
       {
-        "id": "currents-ffeb92b0-3dd4-512f-9601-c975ac3ad0b3",
-        "title": "Introducing Draft Wink — My AI Website Builder Project",
-        "description": "Introducing Draft Wink — My AI Website Builder Project Hi everyone! 👋 I'm Ferid Oci, a...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:32:06.000Z",
-        "url": "https://dev.to/feridoci/introducing-draft-wink-my-ai-website-builder-project-1mco",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6g9qznh0f7h8v8qqo4yk.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-a925d759-ef8b-5906-92da-63e13b32fc0c",
-        "title": "Transactional SMS Alerts: Compare Europe Provider Templates Before Pricing Reviews",
-        "description": "A receipt template becomes a production dependency the moment a settled payment needs it. TL;DR:...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:30:41.000Z",
-        "url": "https://dev.to/rasmusberg6592/transactional-sms-alerts-compare-europe-provider-templates-before-pricing-reviews-30gi",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F29z74mf70vs6y730p7p8.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-973b4707-e1b0-5299-97a6-2c0b12413e3a",
-        "title": "One Request Froze Our API for 26 Minutes. Its Timeout Never Fired.",
-        "description": "The request log said 1,593,543 ms. That's one request taking 26 and a half minutes. For those 26...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:30:00.000Z",
-        "url": "https://dev.to/nabil_since_dev/one-request-froze-our-api-for-26-minutes-its-timeout-never-fired-49l2",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8xirpj0is6b56foz6lor.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-815897bb-b1b4-593c-ba16-c44d5aec9656",
-        "title": "E-commerce Product Search Retrieval Architecture — Setting Safe Crawl Boundaries",
-        "description": "Short answer: keep the crawl boundary at canonical product records and their current availability,...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:27:06.000Z",
-        "url": "https://dev.to/mitchellcross2134/e-commerce-product-search-retrieval-architecture-setting-safe-crawl-boundaries-16d9",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fro9nz32iposj2e768ghc.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-6295fed5-2132-5bbe-89e3-39662a02b069",
-        "title": "Las Vegas Grand Prix betting guide: How to bet Saturday night's race on the strip",
-        "description": "Las Vegas Grand Prix betting picks: Kimi Antonelli to win at +470, Lando Norris podium, Charles Leclerc podium at +350 and Oscar Piastri as biggest mover.",
-        "publisher": "Fox News",
-        "publisherDomain": "foxnews.com",
-        "publishedAt": "2026-11-21T23:25:45.000Z",
-        "url": "https://www.foxnews.com/outkick-betting/las-vegas-grand-prix-betting-guide-bet-saturday-nights-race-strip",
-        "imageUrl": "https://static.foxnews.com/foxnews.com/content/uploads/2025/11/f1-racing-us-grand-prix-auto-racing-las-vegas-002.jpg",
+        "id": "currents-1a3af116-85b3-53c6-aa46-78035bd68694",
+        "title": "Kensington Clean, lrg, safe, n... - Classifieds - The Philadelphia Inquirer",
+        "description": "Kensington Clean, lrg, safe, nr trans, pvt, Seniors OK. $525. 215-634-7200. Ref# 215204. Posted November 20, 2026. Expiry December 20, 2026.",
+        "publisher": "Inquirer",
+        "publisherDomain": "marketplace.inquirer.com",
+        "publishedAt": "2026-11-22T06:06:51.000Z",
+        "url": "https://marketplace.inquirer.com/pa/market/kensington-clean-lrg-safe-n/AC1E033F1b59a00018q7fa99BA83",
         "categories": [
           "Top",
           "U.S.",
@@ -396,28 +305,158 @@
         ]
       },
       {
-        "id": "currents-fb64b5a3-4652-515f-bd78-d5ecd9d1440a",
-        "title": "Put To The Test, Those Special Engine Cleaning Oils Do Some Lifting",
-        "description": "Plenty of products claim to clean your engine, but some engine oils can do the job. The Motor Oil Geek shows us how.",
-        "publisher": "Jalopnik",
-        "publisherDomain": "jalopnik.com",
-        "publishedAt": "2026-11-21T23:25:00.000Z",
-        "url": "https://www.jalopnik.com/2318213/engine-cleaning-oils-test-how-they-work",
-        "imageUrl": "https://www.jalopnik.com/img/gallery/put-to-the-test-those-special-engine-cleaning-oils-do-some-lifting/l-intro-1794499031.jpg",
+        "id": "currents-f45a6a99-15c4-596e-957f-a08ae6328d0b",
+        "title": "Runway vs Pika in 2026: $35 buys 187 seconds on one card and 650 on the other",
+        "description": "Both sell credits. Neither defines them the same way. Priced per second of finished video, the same $35 buys 187 seconds on Runway and 650 on Pika - or 107, depending on the model.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:23:01.000Z",
+        "url": "https://dev.to/saasradarai/runway-vs-pika-in-2026-what-35-buys-in-seconds-on-two-credit-systems-1mcl",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fiili.io%2FoKa5Wpp.jpg",
         "categories": [
           "Top",
+          "Technology",
+          "Science",
           "U.S."
         ]
       },
       {
-        "id": "currents-851eb201-0c5e-5cc0-98f6-c46960359b9c",
-        "title": "An Alzheimer’s Antibody Binds Its Receptor. How Do You Know It Reaches the Brain?",
-        "description": "Two experimental antibody shuttles reached the same average concentration in mouse brain one day...",
+        "id": "currents-99e2ba67-199c-55e1-8013-f2112bfe3ab5",
+        "title": "llm-gemini plugin adds xhigh reasoning for Gemini 4 models",
+        "description": "Simon Willison has published llm-gemini 0.38.1, a dot release of his plugin that connects the LLM...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:23:35.000Z",
-        "url": "https://dev.to/dessygil/an-alzheimers-antibody-binds-its-receptor-how-do-you-know-it-reaches-the-brain-5c4n",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Feptzfd233wnnb72fx5r3.png",
+        "publishedAt": "2026-11-22T06:22:32.000Z",
+        "url": "https://dev.to/mikefluff/llm-gemini-plugin-adds-xhigh-reasoning-for-gemini-4-models-3k48",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcutclmledlsyxknbus7o.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-a73102d5-28e0-5259-a8c2-97ae6a394dd3",
+        "title": "Two new video tools: pull any frame out of a video, right in your browser",
+        "description": "This week's batch on RozKaTool — free, no sign-up, everything runs in your browser — is different...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:22:32.000Z",
+        "url": "https://dev.to/zaidi617796/two-new-video-tools-pull-any-frame-out-of-a-video-right-in-your-browser-56en",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgtmvwhz4rdcjdgt72555.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-afe5040b-ba60-5ddd-bf2f-fa42f126953d",
+        "title": "Vimium injected a subframe message into the top-level page",
+        "description": "Technical analysis of Vimium injected a subframe message into the top-level page.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:21:48.000Z",
+        "url": "https://dev.to/bianliang/vimium-injected-a-subframe-message-into-the-top-level-page-2aj1",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fv75wxnoopgdoxrxf3wx8.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-bd1be2b3-1285-524b-a86c-26b4c22e3c3a",
+        "title": "Design a 3D Printed Clay Stamp With Mirrored Text",
+        "description": "Fully Autonomous / AI-generated adaptation. A clay impression reverses the face that makes it. This...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:21:42.000Z",
+        "url": "https://dev.to/shawn_lee_8d4afa8d6ff67ad/design-a-3d-printed-clay-stamp-with-mirrored-text-4ei9",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5ivb99evrot72eldj9ur.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-b61efecf-4c20-5762-a10c-68e35261d81b",
+        "title": "Building a QR Scanner That Does Both Jobs: Lessons from Shipping Scanqra",
+        "description": "Most QR scanner apps treat creating codes as an afterthought. You get a fast camera scanner, and then...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:20:13.000Z",
+        "url": "https://dev.to/saqib2619/building-a-qr-scanner-that-does-both-jobs-lessons-from-shipping-scanqra-2k7l",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9ljg6dhqj5f1x1thx56q.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-cb1993d9-fb7e-51af-9cd1-71e1a75a565e",
+        "title": "Building a Copilot Studio Agent That Writes to Dataverse via Power Automate",
+        "description": "The problem A canvas app I kept coming back to had the same shape every time: a user opens...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:19:43.000Z",
+        "url": "https://dev.to/pamarthi_dhanush_41e91011/building-a-copilot-studio-agent-that-writes-to-dataverse-via-power-automate-5dbo",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6odt7miy995jl9tzlfsj.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-02c84b17-2332-58b5-bd87-53075058d759",
+        "title": "requests vs httpx vs aiohttp in 2026: Real-World Concurrency & Memory Benchmarks",
+        "description": "Choosing the right HTTP client in Python seems straightforward until your script moves from fetching...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:19:35.000Z",
+        "url": "https://dev.to/alex_mercer_321994/requests-vs-httpx-vs-aiohttp-in-2026-real-world-concurrency-memory-benchmarks-4la5",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu6mbu5scp2epg9yw1pbx.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-d9e0880a-e71d-547d-9ea6-8227d2319985",
+        "title": "Keep outfit references attached to shots when users reorder a video",
+        "description": "A three-beat outfit-change edit can be represented as three shots. Each shot has a timing range, a...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:18:42.000Z",
+        "url": "https://dev.to/_19ec095744cd8d9cce9ae/keep-outfit-references-attached-to-shots-when-users-reorder-a-video-p1l",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fm4r40j9d2nrl208sqj5b.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-cf82a4b6-b934-5a1f-baa9-bafbd4183467",
+        "title": "I got tired of babysitting five coding agents, so I built a supervisor for them",
+        "description": "I don't use one coding agent anymore. Depending on the task, I switch between Claude Code, Codex,...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:12:14.000Z",
+        "url": "https://dev.to/codego-ai/i-got-tired-of-babysitting-five-coding-agents-so-i-built-a-supervisor-for-them-ko4",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fy84uuxncckmp7y4st0u1.png",
         "categories": [
           "Top",
           "U.S.",
@@ -426,14 +465,14 @@
         ]
       },
       {
-        "id": "currents-9175e794-c3ab-50d6-a339-c8e3e0d8dc22",
-        "title": "UG32 raster processing in Python: give each output pixel one owner",
-        "description": "Plan overlapping input windows and nonoverlapping output cores, then reconstruct a synthetic raster to catch crop and boundary errors.",
+        "id": "currents-ee23b539-dfb3-50c4-b71a-62cc06a4cd14",
+        "title": "A Field Guide to Putting Compression at the Front of a Document Pipeline",
+        "description": "This is a practitioner's note about one specific piece of infrastructure: making document...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:23:32.000Z",
-        "url": "https://dev.to/united_uav/ug32-raster-processing-in-python-give-each-output-pixel-one-owner-3f8c",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0750%2F8112%2F2008%2Ffiles%2Fvtol-drones-long-endurance-flight.webp%3Fv%3D1784546067",
+        "publishedAt": "2026-11-22T06:11:52.000Z",
+        "url": "https://dev.to/uglypeardata/a-field-guide-to-putting-compression-at-the-front-of-a-document-pipeline-3lgm",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fs3mo5zw9qq4qx93nkg7o.png",
         "categories": [
           "Top",
           "U.S.",
@@ -442,14 +481,14 @@
         ]
       },
       {
-        "id": "currents-10a69efb-731d-5324-8863-320e37e3ffb5",
-        "title": "Python SMS Alert Service in 2026 — US/EU Account Notifications After Settlement",
-        "description": "Choose an SMS alert service by the application work needed to turn a settled payment into one...",
+        "id": "currents-581f83f7-5590-51fe-86ed-6cf3c888dbc2",
+        "title": "Pay transparency in 2026: what 202,628 job postings with a salary range show",
+        "description": "I run Jobs Every Hour, a free job search that reads open jobs from about 20,000 employers' own career...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:23:26.000Z",
-        "url": "https://dev.to/magnusnilsson2124/python-sms-alert-service-in-2026-useu-account-notifications-after-settlement-4njm",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fv6o7hw0uz0ymod19siyc.png",
+        "publishedAt": "2026-11-22T06:10:56.000Z",
+        "url": "https://dev.to/hypestkey/pay-transparency-in-2026-what-202628-job-postings-with-a-salary-range-show-31al",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftga7znw42lmexm9pys9o.png",
         "categories": [
           "Top",
           "U.S.",
@@ -458,46 +497,14 @@
         ]
       },
       {
-        "id": "currents-de6e5850-801c-555f-a8a0-dce8b1474b98",
-        "title": "Docker CI: Isolate Email Fixtures by Build",
-        "description": "A practical Docker and CI/CD pattern for isolated email fixtures, safer secrets, useful artifacts, and reliable verification tests.",
+        "id": "currents-5d074e41-2a24-5b78-9880-03fb8c335d6c",
+        "title": "CreditNirvana Breach Post-Mortem: What Two API Flaws Taught Us About DPDP-Compliant AI Deployment",
+        "description": "Two flaws in CreditNirvana's agentic debt-collection platform exposed 6.6M accounts and 315k call recordings, and started a DPDP clock for Indian firms.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:23:26.000Z",
-        "url": "https://dev.to/jasonmills94/docker-ci-isolate-email-fixtures-by-build-5eeg",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6ps8hy4agm7qz5ggnt7j.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-0059079b-9feb-5b63-90e4-49ca44c18f1e",
-        "title": "Unskipped: see where your beta reader stopped caring, as page flags in your own manuscript",
-        "description": "This is a submission for the Presage SmartSpectra SDK Challenge. What I Built Every...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:21:06.000Z",
-        "url": "https://dev.to/jonathansolvesstuff/unskipped-see-where-your-beta-reader-stopped-caring-as-page-flags-in-your-own-manuscript-18b2",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgfztb8h6m4ztbt5wdyzj.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-a4d20bcd-8faf-5ccb-b235-fbc3b98bef44",
-        "title": "Homepage: 45 App Matches Are Useful, 617,479 Title Matches Are Not a Product Count",
-        "description": "Homepage: 45 App Matches Are Useful, 617,479 Title Matches Are Not a Product Count",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:20:29.000Z",
-        "url": "https://dev.to/onaeiuspkz/homepage-45-app-matches-are-useful-617479-title-matches-are-not-a-product-count-1l80",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkkijfyecwwhj96vreeyr.png",
+        "publishedAt": "2026-11-22T06:07:33.000Z",
+        "url": "https://dev.to/pybankers/creditnirvana-breach-post-mortem-what-two-api-flaws-taught-us-about-dpdp-compliant-ai-deployment-3e45",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fo1iquk3kj92eyxzhthz4.png",
         "categories": [
           "Top",
           "U.S.",
@@ -508,14 +515,27 @@
     ],
     "World": [
       {
-        "id": "currents-6295fed5-2132-5bbe-89e3-39662a02b069",
-        "title": "Las Vegas Grand Prix betting guide: How to bet Saturday night's race on the strip",
-        "description": "Las Vegas Grand Prix betting picks: Kimi Antonelli to win at +470, Lando Norris podium, Charles Leclerc podium at +350 and Oscar Piastri as biggest mover.",
-        "publisher": "Fox News",
-        "publisherDomain": "foxnews.com",
-        "publishedAt": "2026-11-21T23:25:45.000Z",
-        "url": "https://www.foxnews.com/outkick-betting/las-vegas-grand-prix-betting-guide-bet-saturday-nights-race-strip",
-        "imageUrl": "https://static.foxnews.com/foxnews.com/content/uploads/2025/11/f1-racing-us-grand-prix-auto-racing-las-vegas-002.jpg",
+        "id": "currents-5b8ecf75-680f-57a9-8d11-8319a511c28b",
+        "title": "Health advocates push funding for smoke-free, vape-free bill",
+        "description": "A man smokes a disposable vape, Newcastle-under-Lyme, Britain, September 14, 2023. REUTERS/Carl Recine/File Photo MANILA, Philippines — Health advocates have urged lawmakers to retain the funding",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-11-22T06:21:57.000Z",
+        "url": "https://newsinfo.inquirer.net/2345227/health-advocates-push-funding-for-smoke-free-vape-free-bill",
+        "imageUrl": "https://newsinfo.inquirer.net/files/2024/01/vape-compositefilephoto-01222024.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-1a3af116-85b3-53c6-aa46-78035bd68694",
+        "title": "Kensington Clean, lrg, safe, n... - Classifieds - The Philadelphia Inquirer",
+        "description": "Kensington Clean, lrg, safe, nr trans, pvt, Seniors OK. $525. 215-634-7200. Ref# 215204. Posted November 20, 2026. Expiry December 20, 2026.",
+        "publisher": "Inquirer",
+        "publisherDomain": "marketplace.inquirer.com",
+        "publishedAt": "2026-11-22T06:06:51.000Z",
+        "url": "https://marketplace.inquirer.com/pa/market/kensington-clean-lrg-safe-n/AC1E033F1b59a00018q7fa99BA83",
         "categories": [
           "Top",
           "U.S.",
@@ -523,27 +543,27 @@
         ]
       },
       {
-        "id": "currents-6509d763-1c47-59cd-9ec2-841e53a4fc09",
-        "title": "Where to find emergency shelter in Columbia as colder weather moves in",
-        "description": "Oliver Gospel adds 20 beds on the coldest nights, and the city runs an overflow shelter. But Oliver Gospel's Men's Center closes Nov. 30 to Dec. 9.",
-        "publisher": "Wltx",
-        "publisherDomain": "wltx.com",
-        "publishedAt": "2026-11-21T23:27:51.000Z",
-        "url": "https://www.wltx.com/article/news/community/where-find-emergency-shelter-columbia-colder-weather-moves/101-fb0af847-45ef-48d0-91a7-4526d21ed678",
+        "id": "currents-1446f159-a9c3-5c95-9265-e01e5607c4a9",
+        "title": "Eastern Visayas youth groups warn Pax Silica may spur exploitation",
+        "description": "INQUIRER FILES TACLOBAN CITY — Youth groups across Eastern Visayas have strongly opposed the proposed Pax Silica initiative, warning that it could pave the way for the exploitation of the",
+        "publisher": "Inquirer",
+        "publisherDomain": "newsinfo.inquirer.net",
+        "publishedAt": "2026-11-22T06:21:55.000Z",
+        "url": "https://newsinfo.inquirer.net/2345220/eastern-visayas-youth-groups-warn-pax-silica-may-spur-exploitation",
+        "imageUrl": "https://newsinfo.inquirer.net/files/2022/09/EASTERN-VISAYAS-MAP-09082022.jpeg",
         "categories": [
           "Top",
-          "U.S.",
           "World"
         ]
       },
       {
-        "id": "currents-a2fe9ece-d6dc-5c3d-a102-65fa73be2298",
-        "title": "Land of the Grift, Home of the Fad - The Oberlin Review",
-        "description": "They advertised burgers, chicken tenders, onion rings, tater tots, and chips, all cooked in beef tallow. Most fried foods in fast-food restaurants are ...",
-        "publisher": "Oberlinreview",
-        "publisherDomain": "oberlinreview.org",
-        "publishedAt": "2026-11-21T23:22:19.000Z",
-        "url": "https://oberlinreview.org/39191/opinions/land-of-the-grift-home-of-the-fad",
+        "id": "currents-6d8c2220-2709-5c5a-94a3-e2c9007932a4",
+        "title": "West Oaklane, 2BR Apt, 2nd flo...",
+        "description": "West Oaklane, 2BR Apt, 2nd floor, $1200/mo +.... West Oaklane, 2BR Apt, 2nd flo... Market classified ad of the Inquirer.com Marketplace, Philadelphia, PA. Browse Market classified ads and free ads. Post free Market classified ads.",
+        "publisher": "Inquirer",
+        "publisherDomain": "marketplace.inquirer.com",
+        "publishedAt": "2026-11-22T06:06:53.000Z",
+        "url": "https://marketplace.inquirer.com/pa/market/west-oaklane-2br-apt-2nd-flo/AC1E033F1b59a00018LwkGE84B56",
         "categories": [
           "Top",
           "U.S.",
@@ -553,212 +573,224 @@
     ],
     "Business": [
       {
-        "id": "currents-35a32e00-e17f-579e-91fa-4f4134ee0548",
-        "title": "Massive environmental bill would impact Colorado's public lands - The Denver Post",
-        "description": "A massive bill that would change how the federal government considers environmental impacts when issuing permits for oil and gas drilling, ...",
-        "publisher": "Denverpost",
-        "publisherDomain": "denverpost.com",
-        "publishedAt": "2026-11-21T23:02:45.000Z",
-        "url": "https://www.denverpost.com/2026/11/21/baaja-bill-congress-colorado-environment-oil-gas-permitting",
+        "id": "currents-3e39efc8-f54a-5037-acbc-eee11d6d2bdc",
+        "title": "Quantum computing’s first real-world payoff may come in energy, not drug discovery",
+        "description": "Quantum computing firms are testing energy-grid optimization, solar materials and hydrogen catalysts as they pursue practical uses.",
+        "publisher": "CNBC",
+        "publisherDomain": "cnbc.com",
+        "publishedAt": "2026-11-22T06:00:01.000Z",
+        "url": "https://www.cnbc.com/2026/11/22/quantum-computing-energy-applications.html",
+        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108554063-1795006580677-gettyimages-2271702239-futuristic-microchip-glowing-data-connections.jpeg?v=1795006768&w=1920&h=1080",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-e047128f-e3b2-50fb-84fa-f66faef74e05",
-        "title": "Shopify vs. Uber Technologies: Which Technology Stock Is a Better Buy?",
-        "description": "Key PointsShopify provides a highly scalable e-commerce infrastructure with strong double-digit revenue growth.",
-        "publisher": "Nasdaq",
-        "publisherDomain": "nasdaq.com",
-        "publishedAt": "2026-11-21T22:40:02.000Z",
-        "url": "https://www.nasdaq.com/articles/shopify-vs-uber-technologies-which-technology-stock-better-buy",
+        "id": "currents-18b160c1-fa63-5ef7-a454-b41966042fa8",
+        "title": "No place for narcotics in Keralam; crackdown on drug networks to continue: Chennithala",
+        "description": "Keralam Home Minister Ramesh Chennithala reaffirmed the government's commitment to dismantling drug networks in the state. A Nigerian national and his wife were recently arrested in connection with a drug network under investigation. The couple had over 780 grams of MDMA seized, along with cash and ...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-11-22T05:47:25.000Z",
+        "url": "https://economictimes.indiatimes.com/news/india/no-place-for-narcotics-in-keralam-crackdown-on-drug-networks-to-continue-chennithala/articleshow/136068148.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-136068248,width-1200,height-900,imgsize-62110,overlay-economictimes/articleshow.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-0efeb53a-04ee-57fd-a304-d4cc7196e626",
-        "title": "Aozora Bank, Ltd. 2027 Q2 - Results - Earnings Call Presentation",
-        "description": "2026-11-21. The following slide deck was published by Aozora Bank, Ltd.",
+        "id": "currents-d2850092-79c1-548f-addd-ad68cb56cbd9",
+        "title": "Southern Missouri Bancorp EVP Hecker sells $245,280 in common stock By Investing.com",
+        "description": "Southern Missouri Bancorp EVP Hecker sells $245,280 in common stock",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-11-22T05:31:07.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/southern-missouri-bancorp-evp-hecker-sells-245280-in-common-stock-93CH-5043764",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM3Q0WG_1200_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-8a544415-1bb7-5536-bac1-b39fea989b09",
+        "title": "‘New York doesn’t expect you to stay the same version of yourself. You can move out of the lane you are in’",
+        "description": "Shelly Hackett’s move to New York was ‘really hard’ but she now runs her own business dealing with women’s health issues",
+        "publisher": "Irishtimes",
+        "publisherDomain": "irishtimes.com",
+        "publishedAt": "2026-11-22T06:00:00.000Z",
+        "url": "https://www.irishtimes.com/business/work/2026/11/08/new-york-doesnt-expect-you-to-stay-the-same-version-of-yourself-you-can-try-moving-out-of-the-lane-that-you-are-in",
+        "imageUrl": "https://www.irishtimes.com/resizer/v2/ZZYADLAUJBG3DMICNX5KCJNGOI.jpeg?smart=true&auth=bdde78468f526644f277edfe18462db50bc1a6f0b7e077c78fe342c705b53410&width=1200&height=630",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-527ccd6f-79a7-5e56-91f8-171153798c81",
+        "title": "Nexstar Media Group president sells $830K in stock By Investing.com",
+        "description": "Nexstar Media Group president sells $830K in stock",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-11-22T05:30:52.000Z",
+        "url": "https://www.investing.com/news/insider-trading-news/nexstar-media-group-president-sells-830k-in-stock-93CH-5043763",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEM450ND_1200_L.jpg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-1db1ac82-883c-56a5-b4a1-5d79072b0249",
+        "title": "German business community to gather for Limassol Christmas gala",
+        "description": "The Cyprus-German Business Association will hold its annual Christmas Gala Dinner in Limassol on November 26, bringing together members of the business community for an evening of networking and fundraising. According to invitation circulated by the Cyprus Chamber of Commerce and Industry (Keve), he...",
+        "publisher": "Cyprus Mail",
+        "publisherDomain": "cyprus-mail.com",
+        "publishedAt": "2026-11-22T06:10:00.000Z",
+        "url": "https://cyprus-mail.com/2026/11/22/german-business-community-to-gather-for-limassol-christmas-gala",
+        "imageUrl": "https://cyprus-mail.com/wp-content/uploads/2026/11/a31cd8a3-c210-4c98-9995-75fff98cb3df.webp",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-7312720b-152f-5059-9134-029a45ac7377",
+        "title": "Korea holds landmark Kimchi Day vision declaration in New York - The Korea Times",
+        "description": "The Ministry of Agriculture, Food and Rural Affairs said Sunday that it held its first-ever Kimchi Global Vision Declaration ceremony in New York o...",
+        "publisher": "Co",
+        "publisherDomain": "koreatimes.co.kr",
+        "publishedAt": "2026-11-22T06:02:03.000Z",
+        "url": "https://www.koreatimes.co.kr/business/20261122/korea-holds-landmark-kimchi-day-vision-declaration-in-new-york",
+        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/11/22/da4f414b-df29-455b-82f7-b4e7fbca3cb3.jpeg",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-39661a0d-b39f-5a1d-8a22-7d4952a0aa15",
+        "title": "World Bank's India poverty estimates questioned over scale of gains",
+        "description": "Extreme poverty falls from 27.1% to 2.6% in 12 years, puzzling economists and pleasing officials",
+        "publisher": "Nikkei",
+        "publisherDomain": "asia.nikkei.com",
+        "publishedAt": "2026-11-22T06:01:04.000Z",
+        "url": "https://asia.nikkei.com/economy/demography/world-bank-s-india-poverty-estimates-questioned-over-scale-of-gains",
+        "imageUrl": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F6%2F9%2F3%2F13463960-1-eng-GB%2F9723a0bd6496-2025-08-29T050801Z_349570238_RC2RGGAF9D98_RTRMADP_3_INDIA-DAILYLIFE.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-86fbab40-1e38-5425-b022-ac37d197ef49",
+        "title": "Anirudh Ravichander-Kavya Maran Wedding Reception: Couple Bring Royal Elegance In First Appearance As Newlyweds",
+        "description": "Kavya wore a scarlet-red ensemble with floral embroidery and beadwork, paired with understated jewellery. Anirudh complemented her in a burgundy-and-black embroidered bandhgala and trousers, blending contemporary style with a regal aesthetic.",
+        "publisher": "Ndtvprofit",
+        "publisherDomain": "ndtvprofit.com",
+        "publishedAt": "2026-11-22T06:00:47.000Z",
+        "url": "https://www.ndtvprofit.com/entertainment/anirudh-ravichander-kavya-maran-wedding-reception-couple-bring-royal-elegance-in-first-appearance-as-newlyweds-12361073",
+        "imageUrl": "https://c.ndtvimg.com/2026-11/22ak4he8_anirudh-ravichanderkavya-maran_625x300_22_November_26.png?im=FitAndFill,algorithm=dnn,width=1600,height=900",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-11bebea9-7d2e-5b9a-a7f4-0be55dd4ceb7",
+        "title": "Revolut’s ambitions will remain just that until they can solve customer service issues",
+        "description": "Symbolism of fintech taking a lease at Ulster Bank’s former HQ is a nice touch but it has a ways to go in Ireland",
+        "publisher": "Irishtimes",
+        "publisherDomain": "irishtimes.com",
+        "publishedAt": "2026-11-22T06:00:00.000Z",
+        "url": "https://www.irishtimes.com/business/2026/11/22/revoluts-ambitions-will-remain-just-that-until-they-can-solve-customer-service-issues",
+        "imageUrl": "https://www.irishtimes.com/resizer/v2/JLNLUNS7MJCBXF7WO42URARCMU.jpg?smart=true&auth=919ab868f04adc94882a7e210e53d05dad03c74dff6686c45a8340ef0fc91fac&width=1200&height=630",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-6b1ad294-a836-5f77-86a1-037c79954d07",
+        "title": "Yext's Enterprise Pivot Improves Profitability, But Overall Growth Remains Challenging",
+        "description": "Yext has produced enterprise segment growth and improved operating efficiency, but these gains are offset by challenged overall growth and rising AI-native...",
         "publisher": "Seekingalpha",
         "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-11-21T23:30:38.000Z",
-        "url": "https://seekingalpha.com/article/4970881-aozora-bank-ltd-2027-q2-results-earnings-call-presentation",
-        "imageUrl": "https://static3.seekingalpha.com/uploads/sa_presentations/157/140157/slides/1.jpg?ts=1795303838",
+        "publishedAt": "2026-11-22T05:57:29.000Z",
+        "url": "https://seekingalpha.com/article/4970902-yexts-enterprise-pivot-improves-profitability-but-overall-growth-remains-challenging",
+        "imageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2060663801/image_2060663801.jpg?io=getty-c-og",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-4ba02038-6004-5a1f-92d3-9633cef6f89f",
-        "title": "Amazon's rechargeable flashlights with 5 lighting modes are only $17 for 2",
-        "description": "\"They are very bright and have a quality build.\"",
-        "publisher": "Thestreet",
-        "publisherDomain": "thestreet.com",
-        "publishedAt": "2026-11-21T23:30:00.000Z",
-        "url": "https://www.thestreet.com/deals/tughlax-rechargeable-flashlight-2-pack-amazon-sale-november-2026",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-63d061de-6267-58be-8f0a-cce89d71cc34",
-        "title": "Charlie Munger had 3 reasons partner Warren Buffett was $150 billion richer — then called Albert Einstein poor",
-        "description": "The late billionaire’s answer is a lesson for anyone who thinks getting rich takes genius.",
-        "publisher": "Thestreet",
-        "publisherDomain": "thestreet.com",
-        "publishedAt": "2026-11-21T23:17:00.000Z",
-        "url": "https://www.thestreet.com/investing/charlie-munger-had-3-reasons-partner-warren-buffett-was-150-billion-richer-then-called-albert-einstein-poor",
+        "id": "currents-b2bf8757-de71-50c8-892c-ee7c959802b6",
+        "title": "Aluminium product makers seek zero import duty on raw metal ahead of Budget",
+        "description": "Manufacturers' body ALEMAI has written a letter to Finance Minister Nirmala Sitharaman, seeking to bring down the basic customs duty on primary aluminium to zero",
+        "publisher": "Business Standard",
+        "publisherDomain": "business-standard.com",
+        "publishedAt": "2026-11-22T05:47:08.000Z",
+        "url": "https://www.business-standard.com/industry/news/aluminium-product-makers-seek-zero-import-duty-on-raw-metal-ahead-of-budget-126112200167_1.html",
+        "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-03/16/thumb/featurecrop/1200X628/1773631754-318.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-faa83bcd-6e34-5f36-b4ca-d5e9b118866a",
-        "title": "Relo Group, Inc. 2027 Q2 - Results - Earnings Call Presentation",
-        "description": "2026-11-21. The following slide deck was published by Relo Group, Inc.",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-11-21T23:02:16.000Z",
-        "url": "https://seekingalpha.com/article/4970861-relo-group-inc-2027-q2-results-earnings-call-presentation",
-        "imageUrl": "https://static2.seekingalpha.com/uploads/sa_presentations/137/140137/slides/1.jpg?ts=1795302136",
+        "id": "currents-f4af8aed-2701-573d-8314-d9ea6c92879d",
+        "title": "Mahindra Last Mile Mobility eyes IPO in 18 months to fund next growth phase",
+        "description": "The electric three- and four-wheeler maker plans to use IPO proceeds for new products and capacity expansion",
+        "publisher": "Business Standard",
+        "publisherDomain": "business-standard.com",
+        "publishedAt": "2026-11-22T05:46:36.000Z",
+        "url": "https://www.business-standard.com/companies/news/mahindra-last-mile-mobility-eyes-ipo-in-18-months-to-fund-next-growth-phase-126112200170_1.html",
+        "imageUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-11/05/thumb/fitandfill/1200X628/1793866867-9043.jpeg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-ca6d4316-801e-5759-ac96-ad224e125d55",
-        "title": "A 330-ton-a-year stream of battery-grade graphite can now come out of a single ...",
-        "description": "One Oakland reactor splits natural gas into hydrogen and battery-grade graphite with no oxygen, skipping the weeks-long 5400°F furnace.",
-        "publisher": "Autonocion",
-        "publisherDomain": "autonocion.com",
-        "publishedAt": "2026-11-21T23:11:04.000Z",
-        "url": "https://www.autonocion.com/us/oakland-reactor-graphite-natural-gas",
+        "id": "currents-d4d95f6c-1b7e-5313-9cbe-37e2dc67ea2e",
+        "title": "'Putin wants a reason to escalate...': Zelenskyy calls strikes on Crimean bridge ‘fair response’",
+        "description": "Ukrainian President Volodymyr Zelenskyy has justified Kyiv's repeated attacks on a critical bridge linking Russia to occupied Crimea, calling it a \"fair response\" to 109 separate Russian attacks on bridges in Ukraine. In comments to the reporters in Kyiv, Zelenskyy said the intense attacks on Ukrain...",
+        "publisher": "Indiatimes",
+        "publisherDomain": "economictimes.indiatimes.com",
+        "publishedAt": "2026-11-22T05:42:16.000Z",
+        "url": "https://economictimes.indiatimes.com/news/international/world-news/putin-wants-a-reason-to-escalate-zelenskyy-calls-strikes-on-crimean-bridge-fair-response/videoshow/136068175.cms",
+        "imageUrl": "https://img.etimg.com/thumb/msid-136068175,width-1200,height-900,overlay-economictimes/news/international/world-news/putin-wants-a-reason-to-escalate-zelenskyy-calls-strikes-on-crimean-bridge-fair-response.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-e215b842-83bc-5786-a19e-9078aad6e24b",
-        "title": "Zillow reveals sneaky holiday tricks to hide from hosts, guests",
-        "description": "While hosts duck into locked bathrooms, overnight guests spend big on hotels and take not-so-mysterious \"cousin walks\" to preserve their sanity.",
-        "publisher": "Thestreet",
-        "publisherDomain": "thestreet.com",
-        "publishedAt": "2026-11-21T22:54:16.000Z",
-        "url": "https://www.thestreet.com/real-estate/zillow-reveals-sneaky-holiday-tricks-to-hide-from-hosts-guests",
+        "id": "currents-ac015607-3b6e-5af2-878f-2e25f6884494",
+        "title": "Amitabh Bachchan's Jalsa Row Could Happen To You Too. A CA Explains 3 Mistakes To Avoid",
+        "description": "Originally called Mansa, the bungalow reportedly belonged to producer N.C. Sippy before being given to Amitabh as payment for Satte Pe Satta (1982). He later sold it, bought it back and renamed it Jalsa, according to published accounts.",
+        "publisher": "Ndtvprofit",
+        "publisherDomain": "ndtvprofit.com",
+        "publishedAt": "2026-11-22T05:34:24.000Z",
+        "url": "https://www.ndtvprofit.com/personal-finance/amitabh-bachchans-jalsa-row-could-happen-to-you-too-a-ca-explains-3-mistakes-to-avoid-12361082",
+        "imageUrl": "https://c.ndtvimg.com/2026-11/c9lqrivs_amitabh-bachchan-ani_625x300_16_November_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-66c81254-9e3e-56f0-8b33-eac16111f44e",
-        "title": "iQiyi: 3 Key Takeaways for Long-Term Investors",
-        "description": "Key PointsLong-form revenue-sharing title launches grew over 200% sequentially in Q3.",
-        "publisher": "Nasdaq",
-        "publisherDomain": "nasdaq.com",
-        "publishedAt": "2026-11-21T22:51:33.000Z",
-        "url": "https://www.nasdaq.com/articles/iqiyi-3-key-takeaways-long-term-investors",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-007dde7b-52bc-5c54-a6f4-c173da4a6503",
-        "title": "Oklo vs. NuScale Power: Which Nuclear Stock Is a Better Buy?",
-        "description": "Key PointsOklo is leveraging high-profile partnerships with major tech firms to deploy its fast-fission powerhouses.",
-        "publisher": "Nasdaq",
-        "publisherDomain": "nasdaq.com",
-        "publishedAt": "2026-11-21T22:39:01.000Z",
-        "url": "https://www.nasdaq.com/articles/oklo-vs-nuscale-power-which-nuclear-stock-better-buy",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-d707315a-586e-5ae7-8175-f51e794c3f64",
-        "title": "Kraft Heinz vs. Coca-Cola: Here's the Stock to Buy",
-        "description": "Key PointsKraft Heinz offers a value-oriented play with a deep portfolio of household condiments and prepared food brands.",
-        "publisher": "Nasdaq",
-        "publisherDomain": "nasdaq.com",
-        "publishedAt": "2026-11-21T22:38:01.000Z",
-        "url": "https://www.nasdaq.com/articles/kraft-heinz-vs-coca-cola-heres-stock-buy",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-c5650ae2-7147-55d6-92e5-4cca794c3412",
-        "title": "Mystery after cop shot, man found dead",
-        "description": "A police officer has been shot on a Tasmanian island and officers found the body of a man soon after near the regional police station.",
-        "publisher": "Thewest",
-        "publisherDomain": "thewest.com.au",
-        "publishedAt": "2026-11-21T23:38:15.000Z",
-        "url": "https://thewest.com.au/business/tasmanian-police-officer-shot-at-station-cops-find-body-of-man-nearby-c-23196227",
-        "imageUrl": "https://images.thewest.com.au/publication/C-23196227/309b3508c0b242d91370533e69900b14eff7efab-16x9-x0y0w1280h720.jpg?imwidth=1200",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-f4a783cd-e805-5433-8086-19f6de0603d6",
-        "title": "Coach, Ralph Lauren defy China slump",
-        "description": "ZHANG Tong used to splash out at least 100,000 yuan (US$15,000) per year for Gucci bags and Balenciaga dresses in Shanghai. Now, the 26-year-old doctoral student’s outfit of choice is a plain t-shirt and a Coach leather backpack. While Zhang still has money to spend, she sees her style change as a w...",
-        "publisher": "Com",
-        "publisherDomain": "thestar.com.my",
-        "publishedAt": "2026-11-21T23:28:07.000Z",
-        "url": "https://www.thestar.com.my/business/business-news/2026/11/22/coach-ralph-lauren-defy-china-slump",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-627fd1a0-7d5e-5486-875a-47119d90a8d9",
-        "title": "In the Last Tech Bust, the S&P 500 Lost Money for a Decade. History Says Stocks With the Highest Yields Gained 5.4% a Year.",
-        "description": "Key PointsFrom 2000 to 2009, the S&P 500 averaged a 0.8% annual decline, while the highest-yielding dividend payers gained 5.4% a year.",
-        "publisher": "Nasdaq",
-        "publisherDomain": "nasdaq.com",
-        "publishedAt": "2026-11-21T22:51:02.000Z",
-        "url": "https://www.nasdaq.com/articles/last-tech-bust-sp-500-lost-money-decade-history-says-stocks-highest-yields-gained-54-year",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-d3d712d2-bffb-5004-b5a5-db75474f528b",
-        "title": "Old drains and water strains",
-        "description": "When heavy rain hits, netizens flock to social media to ask the million-dollar question: Is the road home still clear? On Nov 5, a video shared on Facebook carried a more urgent message for residents of Taman Seri Alam in Saujana Utama, Sungai Buloh. Water was spilling onto the main roads and the pe...",
-        "publisher": "Com",
-        "publisherDomain": "thestar.com.my",
-        "publishedAt": "2026-11-21T23:28:07.000Z",
-        "url": "https://www.thestar.com.my/business/business-news/2026/11/22/old-drains-and-water-strains",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-ec575b2a-123b-5f77-b77d-cc004993737c",
-        "title": "Malaysia’s 3Q26 property reality check",
-        "description": "At the beginning of 2026, the consensus surrounding the Malaysian property sector was overwhelmingly optimistic. Real estate analysts and market experts widely projected that the year would serve as the official launchpad for a powerful new real estate up-cycle. These glowing early-year forecasts we...",
-        "publisher": "Com",
-        "publisherDomain": "thestar.com.my",
-        "publishedAt": "2026-11-21T23:28:07.000Z",
-        "url": "https://www.thestar.com.my/business/business-news/2026/11/22/malaysias-3q26-property-reality-check",
+        "id": "currents-679e692e-a0c2-5fef-8761-263160c503da",
+        "title": "Maruti Suzuki Declares Fourth Price Hike In 2026: Cars To Get Costlier From Nov. 22",
+        "description": "Maruti Suzuki has implemented multiple price hikes across its vehicle lineup in 2026 to offset rising input and production costs.",
+        "publisher": "Ndtvprofit",
+        "publisherDomain": "ndtvprofit.com",
+        "publishedAt": "2026-11-22T05:30:29.000Z",
+        "url": "https://www.ndtvprofit.com/business/maruti-suzuki-declares-fourth-price-hike-in-2026-cars-to-get-costlier-from-november-22-12361074",
+        "imageUrl": "https://c.ndtvimg.com/2026-09/fu40io4_maruti-suzuki-price-hike_625x300_07_September_26.png?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
         "categories": [
           "Top",
           "Business"
@@ -767,14 +799,174 @@
     ],
     "Technology": [
       {
-        "id": "currents-c56ba1f0-f2e0-52a9-ae68-e9cfd02b4e5e",
-        "title": "German e-invoicing for developers: XRechnung and ZUGFeRD via REST API and MCP",
-        "description": "From 2027, many German businesses have to send structured e-invoices to other businesses, and from...",
+        "id": "currents-c5b4f8b2-daaf-5096-81b3-ba8136e81dd8",
+        "title": "Building Slip Away: a fake call that looks completely real",
+        "description": "TL;DR: Slip Away makes your phone ring with a call that looks exactly like a real one, so you can...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:32:15.000Z",
-        "url": "https://dev.to/dominikschroeter/german-e-invoicing-for-developers-xrechnung-and-zugferd-via-rest-api-and-mcp-16dl",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Frbjabkehkdvymcf1lkb7.png",
+        "publishedAt": "2026-11-22T06:23:44.000Z",
+        "url": "https://dev.to/three/building-slip-away-a-fake-call-that-looks-completely-real-33mm",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fx0koqq88bk130nedp4fj.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-f45a6a99-15c4-596e-957f-a08ae6328d0b",
+        "title": "Runway vs Pika in 2026: $35 buys 187 seconds on one card and 650 on the other",
+        "description": "Both sell credits. Neither defines them the same way. Priced per second of finished video, the same $35 buys 187 seconds on Runway and 650 on Pika - or 107, depending on the model.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:23:01.000Z",
+        "url": "https://dev.to/saasradarai/runway-vs-pika-in-2026-what-35-buys-in-seconds-on-two-credit-systems-1mcl",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fiili.io%2FoKa5Wpp.jpg",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-99e2ba67-199c-55e1-8013-f2112bfe3ab5",
+        "title": "llm-gemini plugin adds xhigh reasoning for Gemini 4 models",
+        "description": "Simon Willison has published llm-gemini 0.38.1, a dot release of his plugin that connects the LLM...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:22:32.000Z",
+        "url": "https://dev.to/mikefluff/llm-gemini-plugin-adds-xhigh-reasoning-for-gemini-4-models-3k48",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcutclmledlsyxknbus7o.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-a73102d5-28e0-5259-a8c2-97ae6a394dd3",
+        "title": "Two new video tools: pull any frame out of a video, right in your browser",
+        "description": "This week's batch on RozKaTool — free, no sign-up, everything runs in your browser — is different...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:22:32.000Z",
+        "url": "https://dev.to/zaidi617796/two-new-video-tools-pull-any-frame-out-of-a-video-right-in-your-browser-56en",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgtmvwhz4rdcjdgt72555.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-afe5040b-ba60-5ddd-bf2f-fa42f126953d",
+        "title": "Vimium injected a subframe message into the top-level page",
+        "description": "Technical analysis of Vimium injected a subframe message into the top-level page.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:21:48.000Z",
+        "url": "https://dev.to/bianliang/vimium-injected-a-subframe-message-into-the-top-level-page-2aj1",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fv75wxnoopgdoxrxf3wx8.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-bd1be2b3-1285-524b-a86c-26b4c22e3c3a",
+        "title": "Design a 3D Printed Clay Stamp With Mirrored Text",
+        "description": "Fully Autonomous / AI-generated adaptation. A clay impression reverses the face that makes it. This...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:21:42.000Z",
+        "url": "https://dev.to/shawn_lee_8d4afa8d6ff67ad/design-a-3d-printed-clay-stamp-with-mirrored-text-4ei9",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5ivb99evrot72eldj9ur.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-b61efecf-4c20-5762-a10c-68e35261d81b",
+        "title": "Building a QR Scanner That Does Both Jobs: Lessons from Shipping Scanqra",
+        "description": "Most QR scanner apps treat creating codes as an afterthought. You get a fast camera scanner, and then...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:20:13.000Z",
+        "url": "https://dev.to/saqib2619/building-a-qr-scanner-that-does-both-jobs-lessons-from-shipping-scanqra-2k7l",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9ljg6dhqj5f1x1thx56q.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-cb1993d9-fb7e-51af-9cd1-71e1a75a565e",
+        "title": "Building a Copilot Studio Agent That Writes to Dataverse via Power Automate",
+        "description": "The problem A canvas app I kept coming back to had the same shape every time: a user opens...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:19:43.000Z",
+        "url": "https://dev.to/pamarthi_dhanush_41e91011/building-a-copilot-studio-agent-that-writes-to-dataverse-via-power-automate-5dbo",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6odt7miy995jl9tzlfsj.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-02c84b17-2332-58b5-bd87-53075058d759",
+        "title": "requests vs httpx vs aiohttp in 2026: Real-World Concurrency & Memory Benchmarks",
+        "description": "Choosing the right HTTP client in Python seems straightforward until your script moves from fetching...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:19:35.000Z",
+        "url": "https://dev.to/alex_mercer_321994/requests-vs-httpx-vs-aiohttp-in-2026-real-world-concurrency-memory-benchmarks-4la5",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu6mbu5scp2epg9yw1pbx.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-d9e0880a-e71d-547d-9ea6-8227d2319985",
+        "title": "Keep outfit references attached to shots when users reorder a video",
+        "description": "A three-beat outfit-change edit can be represented as three shots. Each shot has a timing range, a...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:18:42.000Z",
+        "url": "https://dev.to/_19ec095744cd8d9cce9ae/keep-outfit-references-attached-to-shots-when-users-reorder-a-video-p1l",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fm4r40j9d2nrl208sqj5b.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-cf82a4b6-b934-5a1f-baa9-bafbd4183467",
+        "title": "I got tired of babysitting five coding agents, so I built a supervisor for them",
+        "description": "I don't use one coding agent anymore. Depending on the task, I switch between Claude Code, Codex,...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:12:14.000Z",
+        "url": "https://dev.to/codego-ai/i-got-tired-of-babysitting-five-coding-agents-so-i-built-a-supervisor-for-them-ko4",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fy84uuxncckmp7y4st0u1.png",
         "categories": [
           "Top",
           "U.S.",
@@ -783,14 +975,14 @@
         ]
       },
       {
-        "id": "currents-ffeb92b0-3dd4-512f-9601-c975ac3ad0b3",
-        "title": "Introducing Draft Wink — My AI Website Builder Project",
-        "description": "Introducing Draft Wink — My AI Website Builder Project Hi everyone! 👋 I'm Ferid Oci, a...",
+        "id": "currents-ee23b539-dfb3-50c4-b71a-62cc06a4cd14",
+        "title": "A Field Guide to Putting Compression at the Front of a Document Pipeline",
+        "description": "This is a practitioner's note about one specific piece of infrastructure: making document...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:32:06.000Z",
-        "url": "https://dev.to/feridoci/introducing-draft-wink-my-ai-website-builder-project-1mco",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6g9qznh0f7h8v8qqo4yk.png",
+        "publishedAt": "2026-11-22T06:11:52.000Z",
+        "url": "https://dev.to/uglypeardata/a-field-guide-to-putting-compression-at-the-front-of-a-document-pipeline-3lgm",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fs3mo5zw9qq4qx93nkg7o.png",
         "categories": [
           "Top",
           "U.S.",
@@ -799,14 +991,14 @@
         ]
       },
       {
-        "id": "currents-a925d759-ef8b-5906-92da-63e13b32fc0c",
-        "title": "Transactional SMS Alerts: Compare Europe Provider Templates Before Pricing Reviews",
-        "description": "A receipt template becomes a production dependency the moment a settled payment needs it. TL;DR:...",
+        "id": "currents-581f83f7-5590-51fe-86ed-6cf3c888dbc2",
+        "title": "Pay transparency in 2026: what 202,628 job postings with a salary range show",
+        "description": "I run Jobs Every Hour, a free job search that reads open jobs from about 20,000 employers' own career...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:30:41.000Z",
-        "url": "https://dev.to/rasmusberg6592/transactional-sms-alerts-compare-europe-provider-templates-before-pricing-reviews-30gi",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F29z74mf70vs6y730p7p8.png",
+        "publishedAt": "2026-11-22T06:10:56.000Z",
+        "url": "https://dev.to/hypestkey/pay-transparency-in-2026-what-202628-job-postings-with-a-salary-range-show-31al",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftga7znw42lmexm9pys9o.png",
         "categories": [
           "Top",
           "U.S.",
@@ -815,14 +1007,14 @@
         ]
       },
       {
-        "id": "currents-973b4707-e1b0-5299-97a6-2c0b12413e3a",
-        "title": "One Request Froze Our API for 26 Minutes. Its Timeout Never Fired.",
-        "description": "The request log said 1,593,543 ms. That's one request taking 26 and a half minutes. For those 26...",
+        "id": "currents-5d074e41-2a24-5b78-9880-03fb8c335d6c",
+        "title": "CreditNirvana Breach Post-Mortem: What Two API Flaws Taught Us About DPDP-Compliant AI Deployment",
+        "description": "Two flaws in CreditNirvana's agentic debt-collection platform exposed 6.6M accounts and 315k call recordings, and started a DPDP clock for Indian firms.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:30:00.000Z",
-        "url": "https://dev.to/nabil_since_dev/one-request-froze-our-api-for-26-minutes-its-timeout-never-fired-49l2",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8xirpj0is6b56foz6lor.png",
+        "publishedAt": "2026-11-22T06:07:33.000Z",
+        "url": "https://dev.to/pybankers/creditnirvana-breach-post-mortem-what-two-api-flaws-taught-us-about-dpdp-compliant-ai-deployment-3e45",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fo1iquk3kj92eyxzhthz4.png",
         "categories": [
           "Top",
           "U.S.",
@@ -831,128 +1023,208 @@
         ]
       },
       {
-        "id": "currents-815897bb-b1b4-593c-ba16-c44d5aec9656",
-        "title": "E-commerce Product Search Retrieval Architecture — Setting Safe Crawl Boundaries",
-        "description": "Short answer: keep the crawl boundary at canonical product records and their current availability,...",
+        "id": "currents-ca0fa7be-9d2d-5836-8528-163a8e04051e",
+        "title": "Thirteen Routines, One Keeper",
+        "description": "Read by id, list, exists, count, create, upsert, soft delete, consume once, backfill and a gRPC method - thirteen routines of an entity live once, as generics in the shared library; the file of an entity in a service is a thin binding.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:27:06.000Z",
-        "url": "https://dev.to/mitchellcross2134/e-commerce-product-search-retrieval-architecture-setting-safe-crawl-boundaries-16d9",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fro9nz32iposj2e768ghc.png",
+        "publishedAt": "2026-11-22T06:18:46.000Z",
+        "url": "https://dev.to/anton_brilliantov/thirteen-routines-one-keeper-59le",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqchn73u4n24gyoev3wdx.png",
         "categories": [
           "Top",
-          "U.S.",
           "Technology",
-          "Science"
+          "Science",
+          "U.S."
         ]
       },
       {
-        "id": "currents-851eb201-0c5e-5cc0-98f6-c46960359b9c",
-        "title": "An Alzheimer’s Antibody Binds Its Receptor. How Do You Know It Reaches the Brain?",
-        "description": "Two experimental antibody shuttles reached the same average concentration in mouse brain one day...",
+        "id": "currents-72379f6b-2b0d-5f08-814e-f57e4abbff5d",
+        "title": "A practical walkthrough for turning HTML into a PDF with correct Thai text (vowels and tone marks), using a single POST request from any automation tool.",
+        "description": "Generate Thai-language PDF receipts from n8n, Make or Zapier with one HTTP reques If you build...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:23:35.000Z",
-        "url": "https://dev.to/dessygil/an-alzheimers-antibody-binds-its-receptor-how-do-you-know-it-reaches-the-brain-5c4n",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Feptzfd233wnnb72fx5r3.png",
+        "publishedAt": "2026-11-22T06:21:39.000Z",
+        "url": "https://dev.to/tato6615/a-practical-walkthrough-for-turning-html-into-a-pdf-with-correct-thai-text-vowels-and-tone-marks-5pj",
+        "imageUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg",
         "categories": [
           "Top",
-          "U.S.",
           "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-9175e794-c3ab-50d6-a339-c8e3e0d8dc22",
-        "title": "UG32 raster processing in Python: give each output pixel one owner",
-        "description": "Plan overlapping input windows and nonoverlapping output cores, then reconstruct a synthetic raster to catch crop and boundary errors.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:23:32.000Z",
-        "url": "https://dev.to/united_uav/ug32-raster-processing-in-python-give-each-output-pixel-one-owner-3f8c",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0750%2F8112%2F2008%2Ffiles%2Fvtol-drones-long-endurance-flight.webp%3Fv%3D1784546067",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-10a69efb-731d-5324-8863-320e37e3ffb5",
-        "title": "Python SMS Alert Service in 2026 — US/EU Account Notifications After Settlement",
-        "description": "Choose an SMS alert service by the application work needed to turn a settled payment into one...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:23:26.000Z",
-        "url": "https://dev.to/magnusnilsson2124/python-sms-alert-service-in-2026-useu-account-notifications-after-settlement-4njm",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fv6o7hw0uz0ymod19siyc.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-de6e5850-801c-555f-a8a0-dce8b1474b98",
-        "title": "Docker CI: Isolate Email Fixtures by Build",
-        "description": "A practical Docker and CI/CD pattern for isolated email fixtures, safer secrets, useful artifacts, and reliable verification tests.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:23:26.000Z",
-        "url": "https://dev.to/jasonmills94/docker-ci-isolate-email-fixtures-by-build-5eeg",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6ps8hy4agm7qz5ggnt7j.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-0059079b-9feb-5b63-90e4-49ca44c18f1e",
-        "title": "Unskipped: see where your beta reader stopped caring, as page flags in your own manuscript",
-        "description": "This is a submission for the Presage SmartSpectra SDK Challenge. What I Built Every...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:21:06.000Z",
-        "url": "https://dev.to/jonathansolvesstuff/unskipped-see-where-your-beta-reader-stopped-caring-as-page-flags-in-your-own-manuscript-18b2",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgfztb8h6m4ztbt5wdyzj.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-a4d20bcd-8faf-5ccb-b235-fbc3b98bef44",
-        "title": "Homepage: 45 App Matches Are Useful, 617,479 Title Matches Are Not a Product Count",
-        "description": "Homepage: 45 App Matches Are Useful, 617,479 Title Matches Are Not a Product Count",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:20:29.000Z",
-        "url": "https://dev.to/onaeiuspkz/homepage-45-app-matches-are-useful-617479-title-matches-are-not-a-product-count-1l80",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkkijfyecwwhj96vreeyr.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
+          "Science",
+          "U.S."
         ]
       }
     ],
     "Science": [
       {
-        "id": "currents-c56ba1f0-f2e0-52a9-ae68-e9cfd02b4e5e",
-        "title": "German e-invoicing for developers: XRechnung and ZUGFeRD via REST API and MCP",
-        "description": "From 2027, many German businesses have to send structured e-invoices to other businesses, and from...",
+        "id": "currents-c5b4f8b2-daaf-5096-81b3-ba8136e81dd8",
+        "title": "Building Slip Away: a fake call that looks completely real",
+        "description": "TL;DR: Slip Away makes your phone ring with a call that looks exactly like a real one, so you can...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:32:15.000Z",
-        "url": "https://dev.to/dominikschroeter/german-e-invoicing-for-developers-xrechnung-and-zugferd-via-rest-api-and-mcp-16dl",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Frbjabkehkdvymcf1lkb7.png",
+        "publishedAt": "2026-11-22T06:23:44.000Z",
+        "url": "https://dev.to/three/building-slip-away-a-fake-call-that-looks-completely-real-33mm",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fx0koqq88bk130nedp4fj.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-f45a6a99-15c4-596e-957f-a08ae6328d0b",
+        "title": "Runway vs Pika in 2026: $35 buys 187 seconds on one card and 650 on the other",
+        "description": "Both sell credits. Neither defines them the same way. Priced per second of finished video, the same $35 buys 187 seconds on Runway and 650 on Pika - or 107, depending on the model.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:23:01.000Z",
+        "url": "https://dev.to/saasradarai/runway-vs-pika-in-2026-what-35-buys-in-seconds-on-two-credit-systems-1mcl",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fiili.io%2FoKa5Wpp.jpg",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-99e2ba67-199c-55e1-8013-f2112bfe3ab5",
+        "title": "llm-gemini plugin adds xhigh reasoning for Gemini 4 models",
+        "description": "Simon Willison has published llm-gemini 0.38.1, a dot release of his plugin that connects the LLM...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:22:32.000Z",
+        "url": "https://dev.to/mikefluff/llm-gemini-plugin-adds-xhigh-reasoning-for-gemini-4-models-3k48",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcutclmledlsyxknbus7o.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-a73102d5-28e0-5259-a8c2-97ae6a394dd3",
+        "title": "Two new video tools: pull any frame out of a video, right in your browser",
+        "description": "This week's batch on RozKaTool — free, no sign-up, everything runs in your browser — is different...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:22:32.000Z",
+        "url": "https://dev.to/zaidi617796/two-new-video-tools-pull-any-frame-out-of-a-video-right-in-your-browser-56en",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgtmvwhz4rdcjdgt72555.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-afe5040b-ba60-5ddd-bf2f-fa42f126953d",
+        "title": "Vimium injected a subframe message into the top-level page",
+        "description": "Technical analysis of Vimium injected a subframe message into the top-level page.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:21:48.000Z",
+        "url": "https://dev.to/bianliang/vimium-injected-a-subframe-message-into-the-top-level-page-2aj1",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fv75wxnoopgdoxrxf3wx8.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-bd1be2b3-1285-524b-a86c-26b4c22e3c3a",
+        "title": "Design a 3D Printed Clay Stamp With Mirrored Text",
+        "description": "Fully Autonomous / AI-generated adaptation. A clay impression reverses the face that makes it. This...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:21:42.000Z",
+        "url": "https://dev.to/shawn_lee_8d4afa8d6ff67ad/design-a-3d-printed-clay-stamp-with-mirrored-text-4ei9",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5ivb99evrot72eldj9ur.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-b61efecf-4c20-5762-a10c-68e35261d81b",
+        "title": "Building a QR Scanner That Does Both Jobs: Lessons from Shipping Scanqra",
+        "description": "Most QR scanner apps treat creating codes as an afterthought. You get a fast camera scanner, and then...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:20:13.000Z",
+        "url": "https://dev.to/saqib2619/building-a-qr-scanner-that-does-both-jobs-lessons-from-shipping-scanqra-2k7l",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9ljg6dhqj5f1x1thx56q.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-cb1993d9-fb7e-51af-9cd1-71e1a75a565e",
+        "title": "Building a Copilot Studio Agent That Writes to Dataverse via Power Automate",
+        "description": "The problem A canvas app I kept coming back to had the same shape every time: a user opens...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:19:43.000Z",
+        "url": "https://dev.to/pamarthi_dhanush_41e91011/building-a-copilot-studio-agent-that-writes-to-dataverse-via-power-automate-5dbo",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6odt7miy995jl9tzlfsj.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-02c84b17-2332-58b5-bd87-53075058d759",
+        "title": "requests vs httpx vs aiohttp in 2026: Real-World Concurrency & Memory Benchmarks",
+        "description": "Choosing the right HTTP client in Python seems straightforward until your script moves from fetching...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:19:35.000Z",
+        "url": "https://dev.to/alex_mercer_321994/requests-vs-httpx-vs-aiohttp-in-2026-real-world-concurrency-memory-benchmarks-4la5",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu6mbu5scp2epg9yw1pbx.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-d9e0880a-e71d-547d-9ea6-8227d2319985",
+        "title": "Keep outfit references attached to shots when users reorder a video",
+        "description": "A three-beat outfit-change edit can be represented as three shots. Each shot has a timing range, a...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:18:42.000Z",
+        "url": "https://dev.to/_19ec095744cd8d9cce9ae/keep-outfit-references-attached-to-shots-when-users-reorder-a-video-p1l",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fm4r40j9d2nrl208sqj5b.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-cf82a4b6-b934-5a1f-baa9-bafbd4183467",
+        "title": "I got tired of babysitting five coding agents, so I built a supervisor for them",
+        "description": "I don't use one coding agent anymore. Depending on the task, I switch between Claude Code, Codex,...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-22T06:12:14.000Z",
+        "url": "https://dev.to/codego-ai/i-got-tired-of-babysitting-five-coding-agents-so-i-built-a-supervisor-for-them-ko4",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fy84uuxncckmp7y4st0u1.png",
         "categories": [
           "Top",
           "U.S.",
@@ -961,14 +1233,14 @@
         ]
       },
       {
-        "id": "currents-ffeb92b0-3dd4-512f-9601-c975ac3ad0b3",
-        "title": "Introducing Draft Wink — My AI Website Builder Project",
-        "description": "Introducing Draft Wink — My AI Website Builder Project Hi everyone! 👋 I'm Ferid Oci, a...",
+        "id": "currents-ee23b539-dfb3-50c4-b71a-62cc06a4cd14",
+        "title": "A Field Guide to Putting Compression at the Front of a Document Pipeline",
+        "description": "This is a practitioner's note about one specific piece of infrastructure: making document...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:32:06.000Z",
-        "url": "https://dev.to/feridoci/introducing-draft-wink-my-ai-website-builder-project-1mco",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6g9qznh0f7h8v8qqo4yk.png",
+        "publishedAt": "2026-11-22T06:11:52.000Z",
+        "url": "https://dev.to/uglypeardata/a-field-guide-to-putting-compression-at-the-front-of-a-document-pipeline-3lgm",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fs3mo5zw9qq4qx93nkg7o.png",
         "categories": [
           "Top",
           "U.S.",
@@ -977,14 +1249,14 @@
         ]
       },
       {
-        "id": "currents-a925d759-ef8b-5906-92da-63e13b32fc0c",
-        "title": "Transactional SMS Alerts: Compare Europe Provider Templates Before Pricing Reviews",
-        "description": "A receipt template becomes a production dependency the moment a settled payment needs it. TL;DR:...",
+        "id": "currents-581f83f7-5590-51fe-86ed-6cf3c888dbc2",
+        "title": "Pay transparency in 2026: what 202,628 job postings with a salary range show",
+        "description": "I run Jobs Every Hour, a free job search that reads open jobs from about 20,000 employers' own career...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:30:41.000Z",
-        "url": "https://dev.to/rasmusberg6592/transactional-sms-alerts-compare-europe-provider-templates-before-pricing-reviews-30gi",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F29z74mf70vs6y730p7p8.png",
+        "publishedAt": "2026-11-22T06:10:56.000Z",
+        "url": "https://dev.to/hypestkey/pay-transparency-in-2026-what-202628-job-postings-with-a-salary-range-show-31al",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftga7znw42lmexm9pys9o.png",
         "categories": [
           "Top",
           "U.S.",
@@ -993,14 +1265,14 @@
         ]
       },
       {
-        "id": "currents-973b4707-e1b0-5299-97a6-2c0b12413e3a",
-        "title": "One Request Froze Our API for 26 Minutes. Its Timeout Never Fired.",
-        "description": "The request log said 1,593,543 ms. That's one request taking 26 and a half minutes. For those 26...",
+        "id": "currents-5d074e41-2a24-5b78-9880-03fb8c335d6c",
+        "title": "CreditNirvana Breach Post-Mortem: What Two API Flaws Taught Us About DPDP-Compliant AI Deployment",
+        "description": "Two flaws in CreditNirvana's agentic debt-collection platform exposed 6.6M accounts and 315k call recordings, and started a DPDP clock for Indian firms.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:30:00.000Z",
-        "url": "https://dev.to/nabil_since_dev/one-request-froze-our-api-for-26-minutes-its-timeout-never-fired-49l2",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8xirpj0is6b56foz6lor.png",
+        "publishedAt": "2026-11-22T06:07:33.000Z",
+        "url": "https://dev.to/pybankers/creditnirvana-breach-post-mortem-what-two-api-flaws-taught-us-about-dpdp-compliant-ai-deployment-3e45",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fo1iquk3kj92eyxzhthz4.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1009,153 +1281,167 @@
         ]
       },
       {
-        "id": "currents-815897bb-b1b4-593c-ba16-c44d5aec9656",
-        "title": "E-commerce Product Search Retrieval Architecture — Setting Safe Crawl Boundaries",
-        "description": "Short answer: keep the crawl boundary at canonical product records and their current availability,...",
+        "id": "currents-ca0fa7be-9d2d-5836-8528-163a8e04051e",
+        "title": "Thirteen Routines, One Keeper",
+        "description": "Read by id, list, exists, count, create, upsert, soft delete, consume once, backfill and a gRPC method - thirteen routines of an entity live once, as generics in the shared library; the file of an entity in a service is a thin binding.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:27:06.000Z",
-        "url": "https://dev.to/mitchellcross2134/e-commerce-product-search-retrieval-architecture-setting-safe-crawl-boundaries-16d9",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fro9nz32iposj2e768ghc.png",
+        "publishedAt": "2026-11-22T06:18:46.000Z",
+        "url": "https://dev.to/anton_brilliantov/thirteen-routines-one-keeper-59le",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqchn73u4n24gyoev3wdx.png",
         "categories": [
           "Top",
-          "U.S.",
           "Technology",
-          "Science"
+          "Science",
+          "U.S."
         ]
       },
       {
-        "id": "currents-851eb201-0c5e-5cc0-98f6-c46960359b9c",
-        "title": "An Alzheimer’s Antibody Binds Its Receptor. How Do You Know It Reaches the Brain?",
-        "description": "Two experimental antibody shuttles reached the same average concentration in mouse brain one day...",
+        "id": "currents-72379f6b-2b0d-5f08-814e-f57e4abbff5d",
+        "title": "A practical walkthrough for turning HTML into a PDF with correct Thai text (vowels and tone marks), using a single POST request from any automation tool.",
+        "description": "Generate Thai-language PDF receipts from n8n, Make or Zapier with one HTTP reques If you build...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:23:35.000Z",
-        "url": "https://dev.to/dessygil/an-alzheimers-antibody-binds-its-receptor-how-do-you-know-it-reaches-the-brain-5c4n",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Feptzfd233wnnb72fx5r3.png",
+        "publishedAt": "2026-11-22T06:21:39.000Z",
+        "url": "https://dev.to/tato6615/a-practical-walkthrough-for-turning-html-into-a-pdf-with-correct-thai-text-vowels-and-tone-marks-5pj",
+        "imageUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg",
         "categories": [
           "Top",
-          "U.S.",
           "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-9175e794-c3ab-50d6-a339-c8e3e0d8dc22",
-        "title": "UG32 raster processing in Python: give each output pixel one owner",
-        "description": "Plan overlapping input windows and nonoverlapping output cores, then reconstruct a synthetic raster to catch crop and boundary errors.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:23:32.000Z",
-        "url": "https://dev.to/united_uav/ug32-raster-processing-in-python-give-each-output-pixel-one-owner-3f8c",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0750%2F8112%2F2008%2Ffiles%2Fvtol-drones-long-endurance-flight.webp%3Fv%3D1784546067",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-10a69efb-731d-5324-8863-320e37e3ffb5",
-        "title": "Python SMS Alert Service in 2026 — US/EU Account Notifications After Settlement",
-        "description": "Choose an SMS alert service by the application work needed to turn a settled payment into one...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:23:26.000Z",
-        "url": "https://dev.to/magnusnilsson2124/python-sms-alert-service-in-2026-useu-account-notifications-after-settlement-4njm",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fv6o7hw0uz0ymod19siyc.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-de6e5850-801c-555f-a8a0-dce8b1474b98",
-        "title": "Docker CI: Isolate Email Fixtures by Build",
-        "description": "A practical Docker and CI/CD pattern for isolated email fixtures, safer secrets, useful artifacts, and reliable verification tests.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:23:26.000Z",
-        "url": "https://dev.to/jasonmills94/docker-ci-isolate-email-fixtures-by-build-5eeg",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6ps8hy4agm7qz5ggnt7j.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-0059079b-9feb-5b63-90e4-49ca44c18f1e",
-        "title": "Unskipped: see where your beta reader stopped caring, as page flags in your own manuscript",
-        "description": "This is a submission for the Presage SmartSpectra SDK Challenge. What I Built Every...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:21:06.000Z",
-        "url": "https://dev.to/jonathansolvesstuff/unskipped-see-where-your-beta-reader-stopped-caring-as-page-flags-in-your-own-manuscript-18b2",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgfztb8h6m4ztbt5wdyzj.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-a4d20bcd-8faf-5ccb-b235-fbc3b98bef44",
-        "title": "Homepage: 45 App Matches Are Useful, 617,479 Title Matches Are Not a Product Count",
-        "description": "Homepage: 45 App Matches Are Useful, 617,479 Title Matches Are Not a Product Count",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-21T23:20:29.000Z",
-        "url": "https://dev.to/onaeiuspkz/homepage-45-app-matches-are-useful-617479-title-matches-are-not-a-product-count-1l80",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkkijfyecwwhj96vreeyr.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
+          "Science",
+          "U.S."
         ]
       }
     ],
     "Sports": [
       {
-        "id": "currents-9519fa3f-87cc-5c30-a4a9-0a6019f69e81",
-        "title": "France thrash Argentina to reach Nations Championship final",
-        "description": "France beat Argentina 45-17 in Paris to set up a clash with South Africa in the Nations Championship final at the Allianz Stadium.",
-        "publisher": "BBC News",
-        "publisherDomain": "bbc.co.uk",
-        "publishedAt": "2026-11-21T23:22:40.000Z",
-        "url": "https://www.bbc.co.uk/sport/rugby-union/videos/cm879py9n9xwo?at_medium=RSS&at_campaign=rss",
+        "id": "currents-3fca5128-4a98-58ad-b7f5-e601c05d71eb",
+        "title": "Max Verstappen touches perfection in dramatic Las Vegas Grand Prix win",
+        "description": "A masterclass in driving under pressure has seen Verstappen take out back-to-back race wins",
+        "publisher": "The Guardian",
+        "publisherDomain": "theguardian.com",
+        "publishedAt": "2026-11-22T06:08:03.000Z",
+        "url": "https://www.theguardian.com/sport/2026/nov/22/max-verstappen-touches-perfection-in-dramatic-las-vegas-grand-prix-win",
+        "imageUrl": "https://i.guim.co.uk/img/media/4f224009927a167cc5d49ee8a21ca8deb84bdb76/323_0_4356_3484/master/4356.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a68b4200153431859578c0b9c2fc0c4d",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-46616cd0-26a9-5c3f-9dcb-cbff1f2f3b39",
-        "title": "Rangers boss Derek McInnes salutes never-say-die attitude of his side",
-        "description": "Rangers manager Derek McInnes praised his side for having the mentality to grind out last-gasp winners and hailed their late victory over Motherwell as a 'top-class performance'.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-11-21T23:17:50.000Z",
-        "url": "https://www.dailymail.com/sport/football/article-16312245/Rangers-boss-Derek-McInnes-salutes-never-say-die-attitude-confident-winning-goal-arriving.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/11/21/23/112656495-0-image-m-22_1795303053092.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-9c43b886-fc8c-53a8-b410-679f34525808",
-        "title": "76ers survive in clutch again despite Herro's 50: 'Got to finish better'",
-        "description": "The 76ers survived 50 points from Tyler Herro, nearly blowing a 10-point lead late, before once again coming out on top in the clutch.",
+        "id": "currents-ca3fb8b9-87c6-52ab-8654-7ee0770cf23e",
+        "title": "Predicting the College Football Playoff: Who's most likely to make the field?",
+        "description": "Find out which teams our experts think will make this season's CFP.",
         "publisher": "ESPN",
         "publisherDomain": "espn.com",
-        "publishedAt": "2026-11-21T23:30:54.000Z",
-        "url": "https://www.espn.com/nba/story/_/id/50555316/76ers-survive-clutch-again-tyler-herro-50",
-        "imageUrl": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1121%2Fr1749277_1024x576_16%2D9.jpg",
+        "publishedAt": "2026-11-22T06:20:04.000Z",
+        "url": "https://www.espn.com/college-football/story/_/page/playoffpredictions112126/cfp-predictions-week-12",
+        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1122%2Fr1749422_1296x729_16%2D9.jpg",
+        "categories": [
+          "Sports",
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-03785b08-0594-57a1-9ad1-5b42c8d903cf",
+        "title": "Macklin Celebrini and Ivar Stenberg lead the Sharks to a 4-3 win over the Kraken",
+        "description": "SAN JOSE, Calif. (AP) — Macklin Celebrini and Ivar Stenberg each had a power-play goal and an assist, and the San Jose Sharks held off the Seattle Kraken 4-3 on Saturday night.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-11-22T06:15:05.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/hockey/2026/11/22/macklin-celebrini-and-ivar-stenberg-lead-the-sharks-to-a-4-3-win-over-the-kraken",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b0288598814a491e9ef46abjpeg.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-a60a1d83-c33e-5d28-b750-f94fc8e6b776",
+        "title": "Glory go top in near three-year first despite goalless draw",
+        "description": "Perth Glory have moved to outright top of the A-League Women ladder for the first time in almost three years after a 0-0 draw away to heavyweights Melbourne Victory.",
+        "publisher": "Thewest",
+        "publisherDomain": "thewest.com.au",
+        "publishedAt": "2026-11-22T06:08:55.000Z",
+        "url": "https://thewest.com.au/sport/perth-glory/a-league-women-perth-glory-go-top-of-ladder-for-first-time-since-december-2023-after-melbourne-victory-draw-c-23196651",
+        "imageUrl": "https://images.thewest.com.au/publication/C-23196651/96d5fea7c0236abfeac5ae98bd18163c8b394280-16x9-x0y0w4062h2285.jpg?imwidth=1200",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-90aed18b-6d67-5567-9767-e28c1c392a72",
+        "title": "Cop31 live: A new draft deal on the table as talks go into final hours",
+        "description": "A third version of the draft text was published overnight, and negotiators have now been called in for what organisers say will be the final plenary",
+        "publisher": "The Guardian",
+        "publisherDomain": "theguardian.com",
+        "publishedAt": "2026-11-22T06:06:33.000Z",
+        "url": "https://www.theguardian.com/environment/live/2026/nov/22/cop31-climate-crisis-talks-turkey-latest-news-updates",
+        "imageUrl": "https://i.guim.co.uk/img/media/b3af68f0e62aec37feb23f801aa2b9118c97630e/463_0_4633_3707/master/4633.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=c4c18f1dd4a19a581fbadde82cfe02d6",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-b7a1cb30-98f1-5ab1-aff7-b4c7f4e8bf0f",
+        "title": "Hacks, AI and conspiracy theories: why are we having so many outages?",
+        "description": "After chaos at airlines, banks and companies from Microsoft to Apple, people have become convinced the world’s systems are under attack",
+        "publisher": "The Guardian",
+        "publisherDomain": "theguardian.com",
+        "publishedAt": "2026-11-22T06:00:19.000Z",
+        "url": "https://www.theguardian.com/technology/2026/nov/22/hacks-ai-internet-outages-airlines-banks-microsoft-apple",
+        "imageUrl": "https://i.guim.co.uk/img/media/917aeeec17f3bee46d98e2201997eb1f9a0b316c/0_807_4000_3198/master/4000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=7cc4a06a36f029168cf89081de8277a0",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-4426424c-2a73-5675-98fb-580f2e62f0fd",
+        "title": "My husband has such bad breath we haven’t kissed in years – but he won’t see a dentist | Ask Annalisa Barbieri",
+        "description": "You clearly love him, but do you love yourself enough to stop letting him get away with this?",
+        "publisher": "The Guardian",
+        "publisherDomain": "theguardian.com",
+        "publishedAt": "2026-11-22T06:00:21.000Z",
+        "url": "https://www.theguardian.com/lifeandstyle/2026/nov/22/husband-bad-breath-wont-see-dentist",
+        "imageUrl": "https://i.guim.co.uk/img/media/3ce94738323e8d7b9adcdf83d4ff763072e0ee3f/1270_0_7809_6250/master/7809.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=444da3d94e9e48be0d17c673ff3f54a5",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-fcf34c89-2fdb-5dd0-9f35-78b7224b4560",
+        "title": "DeBrusk lifts resilient Canucks over Wild with shootout winner",
+        "description": "VANCOUVER - Jake DeBrusk scored in a shootout as the Vancouver Canucks defeated the league-leading Minnesota Wild 4-3 in an NHL game Saturday night.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-11-22T06:14:01.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/hockey/2026/11/22/debrusk-lifts-resilient-canucks-over-wild-with-shootout-winner",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b02803f165b7416d6697272jpeg.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-cb23c190-dfb7-59a1-8b74-5a307af3e104",
+        "title": "Murray's putback with 5 seconds left lifts Kings to 97-96 win over Celtics and end 8-game skid",
+        "description": "SACRAMENTO, Calif. (AP) — Keegan Murray",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-11-22T06:07:26.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/basketball/2026/11/22/murrays-putback-with-5-seconds-left-lifts-kings-to-97-96-win-over-celtics-and-end-8-game-skid",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b0286968814a491e9ef4401jpeg.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-b39f7367-46b2-55bf-b891-a5f2d88db1e6",
+        "title": "Wembanyama makes history in 18 minutes, finishes game with 50 points",
+        "description": "Victor Wembanyama had his third career 50-point outing in Sunday's win vs. the Pelicans, to go along with 19 rebounds, five blocks and four steals.",
+        "publisher": "ESPN",
+        "publisherDomain": "espn.com",
+        "publishedAt": "2026-11-22T06:07:01.000Z",
+        "url": "https://www.espn.com/nba/story/_/id/50559763/victor-wembanyama-shows-50-point-5-block-performance",
+        "imageUrl": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1122%2Fr1749474_1024x576_16%2D9.jpg",
         "categories": [
           "Top",
           "U.S.",
@@ -1163,169 +1449,79 @@
         ]
       },
       {
-        "id": "currents-94cd7d8e-7d9a-56c5-9c66-0083caf6a26e",
-        "title": "CBC Sports Primetime: Grand Slam of Curling - Sydney",
-        "description": "Watch curling action from the Grand Slam of Curling National event in Sydney, Nova Scotia.",
-        "publisher": "Cbc",
-        "publisherDomain": "cbc.ca",
-        "publishedAt": "2026-11-21T23:22:16.000Z",
-        "url": "https://www.cbc.ca/player/play/9.7425007?cmp=rss",
-        "imageUrl": "https://i.cbc.ca/ais/76f5eae2-3d88-4591-9fd5-e23cfee64c08,1794938818123/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C3000%2C1687%29%3B",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-3d6e5a0e-58c3-5f2c-a7ff-0adf0f4577f6",
-        "title": "London City keep up title hunt with emphatic win over Crystal Palace",
-        "description": "London City Lionesses stay in the hunt for the Women's Super League title, with a statement second-half performance to give them a 6-2 win over Crystal Palace.",
-        "publisher": "BBC News",
-        "publisherDomain": "bbc.co.uk",
-        "publishedAt": "2026-11-21T23:14:10.000Z",
-        "url": "https://www.bbc.co.uk/sport/football/videos/c6n83rrknrj2o?at_medium=RSS&at_campaign=rss",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-a3ffd4de-f224-5eb5-83fc-df0968934389",
-        "title": "Heartbreaking final post of Cowboys fan who died after 'fight at game'",
-        "description": "Mario Narro said a 49ers supporter pushed him down a flight of stairs, according to his family, who revealed he had a 'bulge of blood' in his stomach before dying at a Texas hospital.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-11-21T23:15:25.000Z",
-        "url": "https://www.dailymail.com/sport/nfl/article-16312015/cowboys-fan-dies-49ers-game-dallas.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/11/21/23/112644837-0-image-m-16_1795302736526.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-d517ffe1-ac73-561a-bf86-509c6ee698f4",
-        "title": "MOTHERWELL 1 RANGERS 2: Naderi rides to the rescue",
-        "description": "FOR a team that just couldn't find a way to get the ball into the net, it was always going to take a couple of jammy deflections or something out of the ordinary to get out of jail.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-11-21T23:10:16.000Z",
-        "url": "https://www.dailymail.com/sport/football/article-16312249/MOTHERWELL-1-RANGERS-2-Naderi-rides-rescue-wasteful-Ibrox-men-jail-late-winner.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/11/21/22/112656175-0-image-m-94_1795301686735.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-89f5329b-a734-5b96-8554-b3e155c5a060",
-        "title": "Wales fall short of another landmark result against Australia",
-        "description": "RIATH AL-SAMARRAI: If last weekend's win over the All Blacks supplied the greatest afternoon in the history of Welsh rugby, then this eight-try thriller was the dip that followed the highest of highs.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-11-21T22:53:20.000Z",
-        "url": "https://www.dailymail.com/sport/rugbyunion/article-16312239/Wales-Australia-disappointment-progress.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/11/21/22/112655795-0-image-m-76_1795300106335.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-990138ae-b7f0-5ba4-8876-8d61fb315280",
-        "title": "France beat Argentina to reach Nations Champs final",
-        "description": "France have run away with their Nations Championship clash with Argentina and will play South Africa in the tournament final.",
-        "publisher": "Thewest",
-        "publisherDomain": "thewest.com.au",
-        "publishedAt": "2026-11-21T23:27:48.000Z",
-        "url": "https://thewest.com.au/sport/rugby-union/france-beat-argentina-to-reach-nations-champs-final-c-23196203",
-        "imageUrl": "https://images.thewest.com.au/publication/C-23196203/762d76fc55271c8d7e1a6168b74d4d3db240819f-16x9-x0y0w1280h720.jpg?imwidth=1200",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-6f861252-f6bd-5392-bc6b-1c2b74f23a41",
-        "title": "Peyton Miller scores a goal, Revolution beat Union 2-0 in Game 1 of best-of-3 series",
-        "description": "FOXBOROUGH, Mass. (AP) — Peyton Miller became the fifth-youngest player to score a goal in MLS Cup playoffs history, Matt Turner had two saves and the New England Revolution beat the Philadelphia Union 2-0 on Saturday to open a best-of-three first-round series.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-11-21T23:18:10.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/soccer/2026/11/21/peyton-miller-scores-a-goal-revolution-beat-union-2-0-in-game-1-of-best-of-3-series",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b0226a81e37d8fa64da3849jpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-796e1383-332b-5979-aaaf-5f56f9fcb71d",
-        "title": "Hayes throws 4 TD passes, Singleton catches 3 of them, and Tulsa routs Charlotte 42-14",
-        "description": "CHARLOTTE, N.C. (AP) — Baylor Hayes threw four touchdown passes, three of them to Oran Singleton Jr., and Tulsa blew past Charlotte 42-14 on Saturday.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-11-21T23:16:18.000Z",
-        "url": "https://www.winnipegfreepress.com/uncategorized/2026/11/21/hayes-throws-4-td-passes-singleton-catches-3-of-them-and-tulsa-routs-charlotte-42-14",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-5da5b47a-d454-5cd4-841f-4cdaa3c336c3",
-        "title": "The moment we knew this Test was going to be different for the Wallabies",
-        "description": "When 135kg prop Taniela Tupou chimed in to the backline to go over for Australia’s first points against Wales, you sensed Les Kiss’ side meant business.",
-        "publisher": "Smh",
-        "publisherDomain": "smh.com.au",
-        "publishedAt": "2026-11-21T23:14:09.000Z",
-        "url": "https://www.smh.com.au/sport/rugby-union/the-moment-we-knew-this-test-was-going-to-be-different-for-the-wallabies-20261122-p61g7w.html",
-        "imageUrl": "https://static.ffx.io/images/$zoom_0.3101933216168717%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_44/t_crop_custom/q_86%2Cf_auto/t_metro_opinion_no_age_social_wm/568b1502ecebc6611a504f050eabf8b60f7c9082",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-8eed6df2-e4ce-5b6b-acfa-133cb50b5d6d",
-        "title": "Cork lead the way with nine All-Star awards as McCartan wins Player of the Year",
-        "description": "Five Galway players honoured and one from Kilkenny.",
-        "publisher": "The42",
-        "publisherDomain": "the42.ie",
-        "publishedAt": "2026-11-21T23:12:05.000Z",
-        "url": "https://www.the42.ie/camogie-allstars-cork-galway-7233733-Nov2026",
-        "imageUrl": "https://img2.thejournal.ie/article/7233733/river/?height=400&version=7233951",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-4d539b3d-3324-53e4-b6c2-b6a22fdca1fe",
-        "title": "We watch Rocky: LeBron James organizes 76ers' movie night with screening of 'I Play Rocky'",
-        "description": "PHILADEPHIA (AP) — Yo, Adrian! LeBron did it!",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-11-21T23:11:58.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/basketball/2026/11/21/we-watch-rocky-lebron-james-organizes-76ers-movie-night-with-screening-of-i-play-rocky",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b0225351e37d8fa64da35c9jpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-0088c395-0263-5ef3-bac1-26afee99f371",
-        "title": "Miami vs. Columbus (Nov 21, 2026) Live Score",
-        "description": "Live coverage of the Inter Miami CF vs. Columbus Crew MLS game on ESPN, including live score, highlights and updated stats.",
+        "id": "currents-882729b5-4cd3-5349-b126-b68b8fdf4c9d",
+        "title": "Chaos takes over the Big Ten: UCLA, Indiana and Ohio State all lose in Week 12",
+        "description": "UCLA, Indiana and Ohio State all lost to unranked teams in a year where parity is the ever present theme.",
         "publisher": "ESPN",
         "publisherDomain": "espn.com",
-        "publishedAt": "2026-11-21T23:07:55.000Z",
-        "url": "https://www.espn.com/soccer/match/_/gameId/401933739",
-        "imageUrl": "https://s.secure.espncdn.com/stitcher/sports/soccer/usa.1/events/401933739.png?templateId=espn.com.share.1",
+        "publishedAt": "2026-11-22T06:04:34.000Z",
+        "url": "https://www.espn.com/college-football/story/_/page/gamedayfinal112126/week-12-top-games-highlights-takeaways",
+        "imageUrl": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1122%2Fr1749447_1296x729_16%2D9.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-3efe81aa-02d3-5120-9d67-e4ee76040e27",
-        "title": "Kangaroos hope Garner's AFLW crown finally arriving",
-        "description": "Jasmine Garner has remarkably never won the AFLW best and fairest but her coach and teammates hope this could be the North Melbourne superstar's year.",
+        "id": "currents-aec14425-dede-5f1e-8a0b-2206b0655a5e",
+        "title": "Lawson finishes out of points after late start to Las Vegas Grand Prix",
+        "description": "Liam Lawson’s race in Las Vegas was as good as over before it began.",
+        "publisher": "Nzherald",
+        "publisherDomain": "nzherald.co.nz",
+        "publishedAt": "2026-11-22T06:03:35.000Z",
+        "url": "https://www.nzherald.co.nz/sport/motorsport/formula-1/formula-one-liam-lawson-finishes-out-of-points-after-late-start-to-las-vegas-grand-prix/MCDNDKA52RB2JKJPQLPPZV4SLY",
+        "imageUrl": "https://www.nzherald.co.nz/resizer/v2/AXBD7UZZDBFXBASAECO2T4ITXE.jpg?auth=8c8effd4bc318b1fc6168c670d474a27067c6e26934cabd615f02e8c0d639d8e&width=1200&height=675&quality=70&focal=2209%2C1589&smart=false",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-ffc41102-7dbd-5c6b-90ee-28265d73acc4",
+        "title": "Cripps ‘pumped’ Pickett will be on his side again for Origin",
+        "description": "Incumbent and likely West Australian captain Patrick Cripps is relieved Melbourne superstar Kysaiah Pickett will once again black and gold alongside him in 2027 when they take on South Australia.",
         "publisher": "Thewest",
         "publisherDomain": "thewest.com.au",
-        "publishedAt": "2026-11-21T23:01:43.000Z",
-        "url": "https://thewest.com.au/sport/afl/kangaroos-hope-garners-aflw-crown-finally-arriving-c-23196153",
-        "imageUrl": "https://images.thewest.com.au/publication/C-23196153/93a33d7b8711aa0036874c409721edf8fc4d061a-16x9-x0y0w1280h720.jpg?imwidth=1200",
+        "publishedAt": "2026-11-22T06:02:49.000Z",
+        "url": "https://thewest.com.au/sport/afl/afl-origin-west-australian-skipper-patrick-cripps-pumped-to-keep-kysaiah-pickett-in-black-and-gold-c-23196775",
+        "imageUrl": "https://images.thewest.com.au/publication/C-23196775/8357e478ee3bbfc42fcd630849c7ee822549095a-16x9-x0y253w6453h3630.jpg?imwidth=1200",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-10271f9f-6da4-5ef7-9878-88bcc2681fdc",
+        "title": "Anfield is some place for a debut: Pochettino begins challenge of fixing Manchester United",
+        "description": "Parallels to be drawn between United maelstrom and the structures the Argentine encountered as Chelsea boss",
+        "publisher": "Irishtimes",
+        "publisherDomain": "irishtimes.com",
+        "publishedAt": "2026-11-22T06:00:00.000Z",
+        "url": "https://www.irishtimes.com/sport/soccer/2026/11/22/chelsea-were-broken-when-i-arrived-pochettino-begins-challenge-of-fixing-manchester-united",
+        "imageUrl": "https://www.irishtimes.com/resizer/v2/YP7M25DWXM6WUFZCUK2245HGGE.jpg?smart=true&auth=71757dcba65046fc527b86b4af6af735421c15544d3fadeee84d22407fc901c7&width=1200&height=630",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-55764d82-fab0-59d6-b6eb-8c580a30139e",
+        "title": "Mauricio Pochettino, Andoni Iraola and a sliding-doors moment that changed everything",
+        "description": "In a different world, Iraola could have been in the Manchester United dugout instead of Pochettino, writes Miguel Delaney in his latest Inside Football newsletter. And there is one characteristic Iraola has in abundance that Pochettino is looking to re-discover",
+        "publisher": "Independent",
+        "publisherDomain": "independent.co.uk",
+        "publishedAt": "2026-11-22T06:00:00.000Z",
+        "url": "https://www.independent.co.uk/sport/football/pochettino-iraola-man-utd-liverpool-manager-premier-league-b3088694.html",
+        "imageUrl": "https://static.independent.co.uk/2026/11/20/13/17/MixCollage-20-Nov-2026-01-15-PM-7126.jpeg?trim=0,0,0,0&width=1200&height=800&crop=1200:800",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-ab5ed139-4daa-5e74-81b8-58d3bf03e503",
+        "title": "Rhasidat Adeleke moving training base to LA makes perfect sense for a number of reasons",
+        "description": "Sprinter looks to have timed her run perfectly as she chases Olympic dream in Los Angeles",
+        "publisher": "Irishtimes",
+        "publisherDomain": "irishtimes.com",
+        "publishedAt": "2026-11-22T06:00:00.000Z",
+        "url": "https://www.irishtimes.com/sport/athletics/2026/11/22/rhasidat-adeleke-moving-training-base-to-la-makes-perfect-sense-for-a-number-of-reasons",
+        "imageUrl": "https://www.irishtimes.com/resizer/v2/KEVRVTT27NAUNX4MK7S6UEIYMQ.jpg?smart=true&auth=fab7b0a60ab05851d2ba6298141b2ac1628fca40c280792590a893d719376462&width=1200&height=630",
         "categories": [
           "Sports"
         ]
@@ -1333,211 +1529,209 @@
     ],
     "Entertainment": [
       {
-        "id": "currents-45a6b39b-1b16-5c23-bf44-8acf25c75a1d",
-        "title": "A-Plus troll slams Lane Kiffin with salty banner ahead of Tennessee game",
-        "description": "This may top the golf ball to his back Vols’ fans gifted Kiffin back in 2021. These are fighting words.",
-        "publisher": "Newsweek",
-        "publisherDomain": "newsweek.com",
-        "publishedAt": "2026-11-21T22:48:18.000Z",
-        "url": "https://www.newsweek.com/sports/ncaa/a-plus-troll-slams-lane-kiffin-with-salty-banner-ahead-of-tennessee-game-12752528",
-        "imageUrl": "https://assets.newsweek.com/wp-content/uploads/2026/11/GettyImages-2304143358.jpg?w=1200&crop=1",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-12cd5f98-c7f7-55ca-aacc-afcbb0b9b6ff",
-        "title": "AFL star Josh Daicos marries Annalise Dalins in Hunter Valley wedding",
-        "description": "Collingwood star Josh Daicos and his model fiancée Annalise Dalins tied the knot in a lavish Hunter Valley wedding on Saturday.",
+        "id": "currents-ac1bc06d-3641-5b96-94ce-2797b952b89c",
+        "title": "Billy Ray Cyrus poses with newlywed daughter Miley at her wedding",
+        "description": "Billy Ray Cyrus looked on proudly as he watched his daughter Miley Cyrus wed for a second time on Saturday evening to her drummer fiance Maxx Morando.",
         "publisher": "Daily Mail",
         "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-11-21T22:30:11.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16312145/AFL-Josh-Daicos-marries-Annalise-Dalins.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/11/21/21/112655243-0-image-m-14_1795297512553.jpg",
+        "publishedAt": "2026-11-22T04:54:51.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16312633/billy-ray-cyrus-miley-wedding-maxx-morando-elizabeth-hurley.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/11/22/03/112658593-0-image-m-36_1795316527108.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-abfc0137-fd21-5bd2-b828-3a529d1e1151",
-        "title": "38 \"Too Good To Be True” Products That Proved Reviewers Wrong In A Big Way",
-        "description": "Maybe you didn't always believe in this sweat-activated dry shampoo and customizable memory foam pillow, but they sure believed in you.",
+        "id": "currents-eee0e93f-72c5-5b10-8180-10b08daf00d0",
+        "title": "Shah Rukh Khan Remembers 26/11, Pahalgam Attack Victims, Salutes Brave Soldiers At Global Peace Honours Event",
+        "description": "At the Global Peace Honours event in Mumbai, Shah Rukh Khan urged for dialogue over violence and paid tribute to terror victims and security personnel.",
+        "publisher": "News18",
+        "publisherDomain": "news18.com",
+        "publishedAt": "2026-11-22T04:47:33.000Z",
+        "url": "https://www.news18.com/movies/bollywood/shah-rukh-khan-remembers-26-11-pahalgam-attack-victims-salutes-brave-soldiers-at-global-peace-honours-event-ws-l-10435891.html",
+        "imageUrl": "https://images.news18.com/ibnlive/uploads/2026/07/Shah-Rukh-Khan-13-2026-07-bce9634cda451f1c24a1973b608c0148-1200x675.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-0ae0e6ac-4f99-552a-be05-f5f782f0fc5b",
+        "title": "11 Artists Who’ve Been Rumoured To Be Singing The Next James Bond Theme",
+        "description": "As Robert Pattinson is confirmed as the next 007, which stars could be following in the footsteps of Adele, Sam Smith and Billie Eilish...?",
+        "publisher": "Huffingtonpost",
+        "publisherDomain": "huffingtonpost.co.uk",
+        "publishedAt": "2026-11-22T06:05:17.000Z",
+        "url": "https://www.huffingtonpost.co.uk/entry/who-will-sing-next-james-bond-theme_uk_6afeec42e4b03f9a6579b749",
+        "imageUrl": "https://img.huffingtonpost.com/asset/6afef075150000199413c1da.jpg?cache=wuhspxMbnt&ops=1200_630",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-937f30cc-5fcf-5734-97f1-6bd5711efb8f",
+        "title": "Fact Check: Did Selena Gomez break down after spotting husband Benny Blanco with another woman?",
+        "description": "A viral X post claimed Selena Gomez ended her marriage to Benny Blanco after he was spotted with another woman",
+        "publisher": "Meaww",
+        "publisherDomain": "news.meaww.com",
+        "publishedAt": "2026-11-22T05:44:53.000Z",
+        "url": "https://news.meaww.com/fact-check-did-selena-gomez-break-down-after-spotting-husband-benny-blanco-with-another-woman",
+        "imageUrl": "https://media.pubninja.com/articles/brand-6/covers/1795324453108_e6281ed51dad.jpg_1200_630",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-22e90e29-bd8a-5281-85a5-b4c600fb8ac8",
+        "title": "Democrat Jim Himes warns Elon Musk’s SpaceX contracts at risk over Ukraine Starshield disruptions",
+        "description": "Jim Himes warned Elon Musk that SpaceX contracts could face scrutiny over Starshield disruptions affecting Ukraine",
+        "publisher": "Meaww",
+        "publisherDomain": "news.meaww.com",
+        "publishedAt": "2026-11-22T05:40:44.000Z",
+        "url": "https://news.meaww.com/democrat-jim-himes-warns-elon-musks-spacex-contracts-at-risk-over-ukraine-starshield-disruptions",
+        "imageUrl": "https://media.pubninja.com/articles/brand-6/covers/1795324073989_2953a7012aa5.jpg_1200_630",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-e396573c-208f-5283-9e76-d938dcdac7fb",
+        "title": "Trump in a surprise move vows to work with Democrats to cap credit card interest rates",
+        "description": "The proposal would cap credit card interest rates at 10%, substantially below the current average of about 22%",
+        "publisher": "Meaww",
+        "publisherDomain": "news.meaww.com",
+        "publishedAt": "2026-11-22T05:36:43.000Z",
+        "url": "https://news.meaww.com/trump-in-a-surprise-move-vows-to-work-with-democrats-to-cap-credit-card-interest-rates",
+        "imageUrl": "https://media.pubninja.com/articles/brand-6/covers/1795319477705_fe9e404f536e.jpg_1200_630",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-01ee2ab5-c167-5b4c-8b39-e2f5e003830d",
+        "title": "This 'Genius Invention' Can Prevent Major Tripping Hazards Around The House For Just $10",
+        "description": "“This little gem keeps carpets from doing their best impression of a runaway train.”",
         "publisher": "Buzzfeed",
         "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-11-21T23:31:01.000Z",
-        "url": "https://www.buzzfeed.com/emmalord9/too-good-true-products-an",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/21/01/thumb/7D_SWN61s.jpg",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-89771648-e4e6-5c5f-8966-ccdf639736a1",
-        "title": "Why Grace Franklin From The Body Looks So Familiar",
-        "description": "Sofia Wylie plays Grace Franklin in Netflix's The Body. Viewers may recognize her from Andi Mack, High School Musical: The Musical: The Series, and more.",
-        "publisher": "Tvline",
-        "publisherDomain": "tvline.com",
-        "publishedAt": "2026-11-21T23:12:00.000Z",
-        "url": "https://www.tvline.com/2319439/grace-franklin-the-body-actress-sofia-wylie",
-        "imageUrl": "https://www.tvline.com/img/gallery/why-grace-franklin-from-the-body-looks-so-familiar/l-intro-1794937550.jpg",
+        "publishedAt": "2026-11-22T05:31:01.000Z",
+        "url": "https://www.buzzfeed.com/ericakam/this-genius-invention-can-prevent-major-tripping-hazards",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/11/07/thumb/4t6pVoWl_.png?crop=800:419;0,57%26downsize=1250:*",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-7b9fb3a5-deac-5703-8b1d-7bdd6cf36b71",
-        "title": "You Might Be Spending Too Long On The Toilet, According To Experts. This $25 Stool Can Help",
-        "description": "Your bathroom and gastrointestinal tract need a Squatty Potty, stat.",
+        "id": "currents-4f5c9771-324f-51cd-b4c7-4391915693ea",
+        "title": "Comedian Harry Enfield: ‘I went to this horrible Catholic school full of monks’",
+        "description": "Comic’s new one-man live show reanimates some of his durable creations for veteran enthusiasts and younger fans",
+        "publisher": "Irishtimes",
+        "publisherDomain": "irishtimes.com",
+        "publishedAt": "2026-11-22T05:25:00.000Z",
+        "url": "https://www.irishtimes.com/culture/stage/2026/11/22/comedian-harry-enfield-i-went-to-this-horrible-catholic-school-full-of-monks",
+        "imageUrl": "https://www.irishtimes.com/resizer/v2/K2MKCTFRX5G6ZGV5IW2S6O36XE.jpg?smart=true&auth=1d3e2130869c74170421b9049c3710ec598580f3b489b2700cec211e03a4f3e3&width=1200&height=630",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-cadbc1a2-0bd6-56f7-912b-96cd527d569f",
+        "title": "Miley Cyrus Marries Maxx Morando in Poolside Ceremony Led by the Flaming Lips’ Wayne Coyne",
+        "description": "Miley Cyrus married Maxx Morando on Nov. 21 in Palm Springs, with Wayne Coyne officiating, a month after they performed “Let’s Get Married” together.",
+        "publisher": "Billboard",
+        "publisherDomain": "billboard.com",
+        "publishedAt": "2026-11-22T05:24:42.000Z",
+        "url": "https://www.billboard.com/music/pop/miley-cyrus-marries-maxx-morando-palm-springs-wedding-1236387428",
+        "imageUrl": "https://www.billboard.com/wp-content/uploads/2026/11/2268065554-e1795325735581.jpg?w=1024",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-cbca7498-97a3-53cb-a830-8f43504f6725",
+        "title": "44 Gifts You’ll Feel Smug For Buying *Now* Instead Of Panicking At The Last Minute As Usual",
+        "description": "Leave the panicking for the disco because you've got this whole Santa-is-comin'-to-town thing on LOCK.",
         "publisher": "Buzzfeed",
         "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-11-21T23:01:03.000Z",
-        "url": "https://www.buzzfeed.com/marissa_miller/you-might-be-spending-too-long-on-the-toilet",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/11/07/thumb/yWXXsooNG.jpg?crop=3000:1571;0,214%26downsize=1250:*",
+        "publishedAt": "2026-11-22T05:01:02.000Z",
+        "url": "https://www.buzzfeed.com/ashleyschumacher/gifts-youll-feel-smug-for-buying-now-instead-of-last-minute",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/16/07/thumb/oIV_qEiOD.jpg?crop=1249:654;0,88%26downsize=1250:*",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-e9527904-caa0-5219-b21c-9940221f0db9",
-        "title": "Which Thanksgiving Food Matches Your Personality?",
-        "description": "Someone queue \"Whatcha Say\" by Jason Derulo (#iykyk).",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-11-21T23:01:02.000Z",
-        "url": "https://www.buzzfeed.com/hiddendragon505/which-thanksgiving-food-matches-your-personality",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/16/19/thumb/RzCo6h3eiP.jpg?crop=2999:1570;0,2%26downsize=1250:*",
+        "id": "currents-ca96d57c-850f-5efa-9145-ef189e41d337",
+        "title": "Mark Hamill shares rare insight into 50-year friendship with 'Star Wars' co-star Harrison Ford",
+        "description": "Mark Hamill recalls how Harrison Ford's understanding of the entire 'Star Wars' screenplay impressed him when they first met",
+        "publisher": "Meaww",
+        "publisherDomain": "news.meaww.com",
+        "publishedAt": "2026-11-22T05:00:42.000Z",
+        "url": "https://news.meaww.com/mark-hamill-shares-rare-insight-into-50-year-friendship-with-star-wars-co-star-harrison-ford",
+        "imageUrl": "https://media.pubninja.com/articles/brand-5/covers/1795321347449_08ee587bfb04.jpg_1200_630",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-1906c8ce-a4c6-580e-ab76-f5e9eb37db15",
-        "title": "Maxx Morando Arrives At His Wedding to Miley Cyrus in Palm Springs",
-        "description": "The groom is in the house! Maxx Morando has officially arrived at the wedding venue where he and Miley Cyrus will tie the knot later today.",
-        "publisher": "Tmz",
-        "publisherDomain": "tmz.com",
-        "publishedAt": "2026-11-21T23:00:10.000Z",
-        "url": "https://www.tmz.com/2026/11/21/maxx-morando-arrives-at-his-wedding-to-miley-cyrus",
-        "imageUrl": "https://imagez.tmz.com/image/73/16by9/2026/11/21/73c4512879a54f8ab52cd78b998ef0a5_xl.jpg",
+        "id": "currents-e4dd6658-8cc1-5c6e-8216-9084375b6b5e",
+        "title": "Hello Kitty would like to be squeezed between your thighs in her new plushie form [Pics]",
+        "description": "Why hello, Kitty-chan. We didn’t expect to see you there.",
+        "publisher": "Soranews24",
+        "publisherDomain": "soranews24.com",
+        "publishedAt": "2026-11-22T05:00:34.000Z",
+        "url": "https://soranews24.com/2026/11/22/hello-kitty-would-like-to-be-squeezed-between-your-thighs-in-her-new-plushie-form-pics",
+        "imageUrl": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/0_45a15b.jpg?w=1000&h=525&crop=1",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-816d66b0-7d33-54ee-b88d-4d382a6a73ad",
-        "title": "Eli Lilly CEO David Ricks Is Using the Weight-Loss Boom to Buy His Next Bet",
-        "description": "When David Ricks looks beyond Eli Lilly’s blockbuster weight-loss and diabetes business, he isn’t waiting to find the company’s next growth engine. He’s buying possibilities. The latest came Monday…",
-        "publisher": "Observer",
-        "publisherDomain": "observer.com",
-        "publishedAt": "2026-11-21T22:57:39.000Z",
-        "url": "https://observer.com/2026/11/eli-lilly-ceo-david-ricks-is-using-the-weight-loss-boom-to-buy-his-next-bet",
-        "imageUrl": "https://observer.com/wp-content/uploads/sites/2/2016/10/gettyimages-566464851.jpg?quality=80",
+        "id": "currents-8ec78d22-6af3-58c3-9bfb-5cac690fd08c",
+        "title": "Moon phase today: What the Moon will look like on November 22, 2026",
+        "description": "We're less than a week away from the Full Moon.",
+        "publisher": "Mashable",
+        "publisherDomain": "sea.mashable.com",
+        "publishedAt": "2026-11-22T05:00:00.000Z",
+        "url": "https://sea.mashable.com/space/57067/moon-phase-today-what-the-moon-will-look-like-on-november-22-2026",
+        "imageUrl": "https://sm.mashable.com/t/mashable_sea/article/m/moon-phase/moon-phase-today-what-the-moon-will-look-like-on-november-22_z729.1200.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-b11c2cb2-e88d-5b56-b4a7-c345c75fb4fc",
-        "title": "5 Beloved '60s Sitcoms That Deserve A Modern Remake",
-        "description": "Some of the most beloved sitcoms ever made came out in the 1960s. Here are five that we would love to see get a modern-day remake.",
-        "publisher": "Tvline",
-        "publisherDomain": "tvline.com",
-        "publishedAt": "2026-11-21T22:52:00.000Z",
-        "url": "https://www.tvline.com/2319290/beloved-60s-sitcoms-deserve-modern-remake",
-        "imageUrl": "https://www.tvline.com/img/gallery/5-beloved-60s-sitcoms-that-deserve-a-modern-remake/l-intro-1794933683.jpg",
+        "id": "currents-cee8c733-eedc-5b44-8251-82816eafcc0b",
+        "title": "The day Roger Daltrey threatened to throw Iron Maiden’s Nicko McBrain down a flight of stairs",
+        "description": "The ex-Iron Maiden drummer’s friendship with The Who’s Keith Moon in the 1970s led to a incident on a fire escape with Roger Daltrey years later",
+        "publisher": "Loudersound",
+        "publisherDomain": "loudersound.com",
+        "publishedAt": "2026-11-22T05:00:00.000Z",
+        "url": "https://www.loudersound.com/bands-artists/roger-daltrey-threatened-to-punch-nick-mcbrain-iron-maiden",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/UyKcNAkRxsDbZmrZALiKPS-1280-80.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-05303788-8b58-5c75-b22e-8d1fae256850",
-        "title": "California Teen Rescued From Burning Car After Colliding With Amtrak Train in Bodycam Footage",
-        "description": "A California teen was pulled out of a car engulfed in flames just in the nick of time after a train collision ... as harrowing bodycam footage shows officers working hard to yank him from the fiery wreckage.",
-        "publisher": "Tmz",
-        "publisherDomain": "tmz.com",
-        "publishedAt": "2026-11-21T22:46:13.000Z",
-        "url": "https://www.tmz.com/2026/11/21/california-teen-rescued-from-burning-car-after-colliding-with-amtrak-train",
-        "imageUrl": "https://imagez.tmz.com/image/12/16by9/2026/11/21/12c35ed75b234d79ab5719b8f98297db_xl.png",
+        "id": "currents-4078b382-580e-51d5-8a4a-540c4d8a436f",
+        "title": "Miley Cyrus marries Liily drummer Maxx Morando in Palm Springs wedding",
+        "description": "LOS ANGELES - Miley Cyrus doesn't have to buy herself flowers anymore - she's got a husband!The Grammy-winning pop star, 33, reportedly married Liily drummer Maxx Morando, 28, in Palm Springs, California, yesterday, nearly five years after their romance began.According to Entertainment Tonight, the ...",
+        "publisher": "Asiaone",
+        "publisherDomain": "asiaone.com",
+        "publishedAt": "2026-11-22T04:51:51.000Z",
+        "url": "https://www.asiaone.com/entertainment/miley-cyrus-marries-liily-drummer-maxx-morando-palm-springs-wedding",
+        "imageUrl": "https://www.asiaone.com/sites/default/files/styles/article_top_image/public/original_images/Nov2026/Miley%20Cyrus.jpg?itok=U0bN4DPq",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-03347bb1-64bd-5a47-979e-8995eff1a794",
-        "title": "5 Actors Who Should Play M In Robert Pattinson's James Bond Movies",
-        "description": "James Bond's boss M calls for an Oscar-caliber actor, so here are our picks for who should play the role opposite Robert Pattinson as 007.",
-        "publisher": "Slashfilm",
-        "publisherDomain": "slashfilm.com",
-        "publishedAt": "2026-11-21T22:45:00.000Z",
-        "url": "https://www.slashfilm.com/2321752/actors-play-m-robert-pattinson-james-bond-movies",
-        "imageUrl": "https://www.slashfilm.com/img/gallery/5-actors-who-should-play-m-in-robert-pattinsons-james-bond-movies/l-intro-1795102241.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-8162ca85-f70d-56d5-8137-0941afc79a96",
-        "title": "Motorcycle gifted to Billy Joel by MSG for 150th sold-out show fetches $577,000 at auction",
-        "description": "A customized motorcycle that Madison Square Garden owner James Dolan gifted Billy Joel in 2024 for playing his 150th sold-out show at the World’s Most Famous Arena fetched a whopping $577,000 Satur…",
-        "publisher": "Nypost",
-        "publisherDomain": "nypost.com",
-        "publishedAt": "2026-11-21T22:44:15.000Z",
-        "url": "https://nypost.com/2026/11/21/us-news/billy-joel-fetches-577000-at-auction-for-motorcycle-gifted-by-msg-for-150th-sold-out-show",
-        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/11/crop-42037232.jpg?quality=75&strip=all&w=1200",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-c325cd85-1df2-59e5-ba17-94f3d275d30a",
-        "title": "Tish Cyrus Gets Emotional on Miley’s Big Day as Husband Dominic Purcell Comforts Her",
-        "description": "Tish Cyrus was spotted having an emotional moment with her husband, Dominic Purcell, on her daughter Miley Cyrus' wedding day ... and we totally get it, your kid getting hitched is a big deal!",
-        "publisher": "Tmz",
-        "publisherDomain": "tmz.com",
-        "publishedAt": "2026-11-21T22:36:05.000Z",
-        "url": "https://www.tmz.com/2026/11/21/tish-cyrus-emotional-miley-wedding-day-video",
-        "imageUrl": "https://imagez.tmz.com/image/0b/16by9/2026/11/21/0bae7a75eb79489e9d9d1b678b79297b_xl.png",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-e201d762-1c4d-5422-ae53-317346179098",
-        "title": "Brooks Nader Reveals If She Plans to Check Out Ex Gleb Savchenko’s OnlyFans",
-        "description": "Brooks Nader shared her thoughts on her ex Gleb Savchenko launching an OnlyFans account in an exclusive interview with E! News at People and InStyle’s Drive-By Party in Las Vegas Nov. 20.",
-        "publisher": "E! News",
-        "publisherDomain": "eonline.com",
-        "publishedAt": "2026-11-21T22:32:10.000Z",
-        "url": "https://www.eonline.com/news/1438315/brooks-nader-reacts-to-ex-gleb-savchenko-joining-onlyfans",
-        "imageUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20261121/ce038b73-80ab-4f81-bcbe-f83281edaaa5_1795300123.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-8555bde7-0f98-5913-882e-448428d36793",
-        "title": "27 Cool-Looking Gifts That'll Light Up Pretty Much Anyone's Eyes",
-        "description": "Light up their travel with a cutie-patootie bedside lamp, light up their hearts with a monstera leaf pillow. You've got this whole Holiday Razzle Dazzle thing handled.",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-11-21T22:31:03.000Z",
-        "url": "https://www.buzzfeed.com/ashleyschumacher/cool-looking-gifts-thatll-light-up-pretty-much-anyones-eyes",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/17/15/thumb/uxvtKlAzn.jpg?crop=1249:654;0,88%26downsize=1250:*",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-8ce293b8-9b76-501d-81c7-3c9076bc66d7",
-        "title": "Will You Be Awful Or Excellent On This General Knowledge Quiz?",
-        "description": "A foal is what kind of baby animal?",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-11-21T22:31:03.000Z",
-        "url": "https://www.buzzfeed.com/audreyworboys/general-knowledge-trivia-quiz-134",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/20/20/thumb/o5mf0eXOo.jpg?crop=2500:1309;0,176%26downsize=1250:*",
+        "id": "currents-e4549903-02bd-535b-b69f-c30f03ae536d",
+        "title": "‘Greatest jeweller of our time’: Fashion icon dies at 89",
+        "description": "His family announced his death on Saturday.",
+        "publisher": "7news",
+        "publisherDomain": "7news.com.au",
+        "publishedAt": "2026-11-22T04:44:05.000Z",
+        "url": "https://7news.com.au/news/world/paolo-bulgari-italian-jewellery-magnate-dies-at-89-c-23196819",
+        "imageUrl": "https://images.7news.com.au/publication/C-23196819/400c6e41b53d5c9cbe6417c837e0fbbaaf145645-16x9-x0y0w1280h720.png?imwidth=1200",
         "categories": [
           "Entertainment"
         ]
@@ -1549,6 +1743,6 @@
     "successfulRequests": 5,
     "failedRequests": 0,
     "articleCountBeforeDeduplication": 100,
-    "articleCountAfterDeduplication": 93
+    "articleCountAfterDeduplication": 85
   }
 }
