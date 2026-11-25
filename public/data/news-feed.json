@@ -1,173 +1,20 @@
 {
   "schemaVersion": 1,
   "provider": "currents",
-  "generatedAt": "2026-11-24T17:28:20.654Z",
-  "sourceFetchedAt": "2026-11-24T17:28:20.654Z",
+  "generatedAt": "2026-11-25T01:32:12.614Z",
+  "sourceFetchedAt": "2026-11-25T01:32:12.614Z",
   "status": "success",
   "categories": {
     "Top": [
       {
-        "id": "currents-09bcd5a6-94ff-5c52-b365-e725a34811d5",
-        "title": "Two men arrested in suspected burglary at Prince William’s country home",
-        "description": "The property on the Sandringham Estate was unoccupied at the time of the incident, U.K. police said.",
-        "publisher": "The Washington Post",
-        "publisherDomain": "washingtonpost.com",
-        "publishedAt": "2026-11-24T17:20:00.000Z",
-        "url": "https://www.washingtonpost.com/the-seven/2026/11/24/two-men-arrested-possible-burglary-home-prince-william-princess-kate",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-09596b7e-b966-525f-ab63-86493576aebe",
-        "title": "Broderick Wins Tennessee House Race, Giving Democrats Largest Majority in 30 Years",
-        "description": "Democrats’ midterm rout kept expanding in the House after a tech support worker ousted an eight-term Republican without having aired a single TV ad.",
-        "publisher": "The New York Times",
-        "publisherDomain": "nytimes.com",
-        "publishedAt": "2026-11-24T17:15:51.000Z",
-        "url": "https://www.nytimes.com/2026/11/24/us/politics/tennessee-house-election-results-broderick-wins.html",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-78ebb388-03ba-5e4d-b1d1-bd0ea4f081ff",
-        "title": "Ailing Mitch McConnell plots one last act of revenge against Trump",
-        "description": "Senator Mitch McConnell could be preparing one final showdown with Donald Trump before leaving Congress, as he considers blocking the President's ambassador pick.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-11-24T17:25:41.000Z",
-        "url": "https://www.dailymail.com/news/us-politics/article-16318553/Ailing-Mitch-McConnell-plots-one-act-revenge-against-Trump-pick-bitterly-trashed-garbage-truck-ad.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/11/24/17/112701877-0-image-a-13_1795540797775.jpg",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-088382f3-a8df-5480-8f37-e3951814bdd8",
-        "title": "Tidal will start banning AI-generated music next month",
-        "description": "Spotify, YouTube Music, and Apple Music still haven’t banned AI.",
-        "publisher": "The Verge",
-        "publisherDomain": "theverge.com",
-        "publishedAt": "2026-11-24T17:17:09.000Z",
-        "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
-        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25319678/STK301_Tidal_01.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-eb2044c0-77e9-50d3-908d-8851fb4b2cfa",
-        "title": "Security Assessment: Irked (Hack The Box) — Penetration Testing Report",
-        "description": "Comprehensive offensive security assessment and penetration testing report for Irked (Hack The Box). Methodological analysis covering initial access, local privilege escalation, and Enterprise Security remediation.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:19:18.000Z",
-        "url": "https://dev.to/araizcorp/security-assessment-irked-hack-the-box-penetration-testing-report-5504",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Faraizcorp%2Faraizcorp-writeups%2Fmain%2Fhackthebox%2Firked%2Fimages%2Fstep_02.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-243f2344-85a9-5145-8f86-ccec239649de",
-        "title": "Security Alerts That Never Arrive — a Dead maldet Monitor, Exim -t and a Hostname With No SPF",
-        "description": "maldet alerts that never arrive — a dead inotify monitor, Exim -t dropping the recipient, and a hostname with no SPF under strict DMARC.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:04.000Z",
-        "url": "https://dev.to/daanial/security-alerts-that-never-arrive-a-dead-maldet-monitor-exim-t-and-a-hostname-with-no-spf-5hlp",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fquabin.com%2Fwp-content%2Fuploads%2F2026%2F11%2Fquabin-server-security-alerts-never-arrive-maldet-exim-spf-hero.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-40688828-c869-5942-8f61-51633744b0d7",
-        "title": "Two tech companies tried to reinvent the e-bike. Why DJI's Amflow soared while Rivian's ALSO floundered",
-        "description": "Two of the most interesting new electric bicycle companies in the world made headlines on the same day last week,...",
-        "publisher": "Electrek",
-        "publisherDomain": "electrek.co",
-        "publishedAt": "2026-11-24T17:19:16.000Z",
-        "url": "https://electrek.co/2026/11/24/two-tech-companies-tried-to-reinvent-the-e-bike-why-djis-amflow-soared-while-rivians-also-floundered",
-        "imageUrl": "https://electrek.co/wp-content/uploads/sites/3/2026/11/amflow-vs-also-head.jpg?quality=82&strip=all&resize=1200,628",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-83ab760e-ecbb-5f42-a111-68c79382d4d4",
-        "title": "Four Tenant Isolation Rules for SaaS Help Center Retrieval Explained",
-        "description": "The hard part of a multi-tenant help center is not producing an answer from a PDF. It is proving that...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:19:12.000Z",
-        "url": "https://dev.to/sterlingvance2196/four-tenant-isolation-rules-for-saas-help-center-retrieval-explained-pim",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fg7d5hpxc02kkoo5lgs24.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-4ed9177d-e787-5b66-95c9-61ada010ce81",
-        "title": "Marketplace Artifact Retention — Private Access for a Startup App's Uploaded Documents",
-        "description": "Short answer: use private object storage behind an application authorization check, issue short-lived...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:18:44.000Z",
-        "url": "https://dev.to/zachariahholloway9058/marketplace-artifact-retention-private-access-for-a-startup-apps-uploaded-documents-156e",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnjgx94s8acl9l7sutcur.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-42359b6d-b382-5348-b4cf-63daa2098ae3",
-        "title": "Guardrails for a customer-facing AI agent: a ten-point production checklist",
-        "description": "Disclosure: I'm the founder of Aide, an AI customer service platform. Each point below says how we...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:18:21.000Z",
-        "url": "https://dev.to/ziyadbasheer/guardrails-for-a-customer-facing-ai-agent-a-ten-point-production-checklist-62c",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqpzbp2xuvuzezbpn1e2n.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-ac388b25-8e2b-5d2e-8b45-9f91b1cd834c",
-        "title": "Marathon Petroleum: Compelling Sum Of The Parts Valuation",
-        "description": "Marathon Petroleum remains a \"Buy\" after its pullback; fair value is approximately $425 versus $355, with a return above $400 expected.",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-11-24T17:17:51.000Z",
-        "url": "https://seekingalpha.com/article/4971528-marathon-petroleum-compelling-sum-of-the-parts-valuation",
-        "imageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1399380391/image_1399380391.jpg?io=getty-c-og",
+        "id": "currents-4b7960a7-950f-5036-a0fc-7c6e6be22223",
+        "title": "SoftBank drops over 11% as Wall Street AI sell-off ripples across Asian tech names",
+        "description": "Asian technology stocks tumbled Wednesday, led by a rout in Japanese semiconductor stocks, as renewed concerns over the artificial intelligence trade rattled investors.",
+        "publisher": "CNBC",
+        "publisherDomain": "cnbc.com",
+        "publishedAt": "2026-11-25T01:28:30.000Z",
+        "url": "https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html",
+        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108442605-1792601977486-Dextro_Cobot_hero_image.png?v=1792602146&w=1920&h=1080",
         "categories": [
           "Top",
           "Business",
@@ -175,14 +22,29 @@
         ]
       },
       {
-        "id": "currents-bfeba362-8e5c-5e5c-b7ec-fc2bb661c155",
-        "title": "Your AI keeps rewriting files you never asked it to touch? Constrain it.",
-        "description": "Vibe coding's most annoying failure mode isn't a wrong answer. It's an AI that \"helpfully\" rewrites...",
+        "id": "currents-8ffcb342-ea71-56db-9dcd-01cf3cc7062b",
+        "title": "Where China stands in the AI chip race amid Huang's return to Nvidia",
+        "description": "Kyle Chan, a fellow at The Brookings Institute, joins \"The Daily Report\" to discuss the status of China's chip development efforts amid Jensen Huang's reinstatement as CEO of Nvidia.",
+        "publisher": "CBS News",
+        "publisherDomain": "cbsnews.com",
+        "publishedAt": "2026-11-25T01:12:07.000Z",
+        "url": "https://www.cbsnews.com/video/heres-where-china-stands-in-the-ai-chip-race-amid-huangs-return-to-nvidia",
+        "imageUrl": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/25/a9672777-d610-4fe0-a4f1-688a5a414d5b/thumbnail/1200x630/f4db0013d9fb67151d080a4d563c924e/cbsn-fusion-heres-where-china-stands-in-the-ai-chip-race-amid-huangs-return-to-nvidia-thumbnail.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-a799f005-ba96-5521-8802-857f2dd0692d",
+        "title": "How to Make a Tower Defense Game with AI: Systems, Balance and Steps",
+        "description": "How to make a tower defense game with AI: the six systems it needs, a starting wave curve and economy to tune, and the build steps in Tyrbo.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:39.000Z",
-        "url": "https://dev.to/applied_efficiency/your-ai-keeps-rewriting-files-you-never-asked-it-to-touch-constrain-it-1b7k",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwxr651lhwolnvedj0t6m.png",
+        "publishedAt": "2026-11-25T01:14:17.000Z",
+        "url": "https://dev.to/tyrboai/how-to-make-a-tower-defense-game-with-ai-systems-balance-and-steps-37ie",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu0zp1eyrg090ot3owobc.png",
         "categories": [
           "Top",
           "U.S.",
@@ -191,14 +53,87 @@
         ]
       },
       {
-        "id": "currents-9c01fe8c-b6b6-5e10-9061-0b4768eb7a45",
-        "title": "Lambda GPU Instances on Managed Instances: Limits, Pricing and Setup",
-        "description": "Lambda has been CPU-only for its whole life. As of 18 November you can attach a GPU, as long as you...",
+        "id": "currents-564fde14-1b00-56da-8a24-5c04c318e8aa",
+        "title": "Rubio viewed Jensen Huang and Nvidia as ‘malign influence’ before ouster — leading to him warning Trump",
+        "description": "“Rubio was solely concerned with the national security risks,” a US official told The Post, “and [Commerce Secretary Howard] Lutnick did not want to handcuff Nvidia in any way.…",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-11-25T01:12:13.000Z",
+        "url": "https://nypost.com/2026/11/24/us-news/rubio-jensen-huangs-nvidia-as-malign-influence-before-ouster",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/11/newspress-collage-41qqj9feh-1795554968245.jpg?quality=75&strip=all&1795536979&w=1200",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-5d51c40e-1016-5726-afe0-7e2d4f23470e",
+        "title": "Susie Wiles' exit won't fix Trump's corruption problem - The Korea Times",
+        "description": "Americans have loudly proclaimed they’re fed up with government corruption. The problem for both Democrats and Republicans is that while U.S. Presi...",
+        "publisher": "Co",
+        "publisherDomain": "koreatimes.co.kr",
+        "publishedAt": "2026-11-25T01:27:03.000Z",
+        "url": "https://www.koreatimes.co.kr/opinion/20261125/susie-wiles-exit-wont-fix-trumps-corruption-problem",
+        "imageUrl": "https://www.koreatimes.co.kr/images/logo_1200x1200.png",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-fc11ef25-2b6c-5dfb-b492-9f48095aa7e3",
+        "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
+        "description": "Jensen Huang's return as Nvidia CEO demonstrates that the U.S.-China artificial intelligence race is not just about semiconductors, but tech talent too.",
+        "publisher": "CNBC",
+        "publisherDomain": "cnbc.com",
+        "publishedAt": "2026-11-25T01:13:56.000Z",
+        "url": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html",
+        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108558122-1795511350905-gettyimages-2294461110-vcg111665309671.jpeg?v=1795511418&w=1920&h=1080",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-db1cf0e6-67b0-5252-86ba-c9e53aed1d51",
+        "title": "Can renewable energy really get cheaper? - The Korea Times",
+        "description": "Every time you ask a chatbot a question, a data center somewhere uses electricity. The International Energy Agency expects global data center elect...",
+        "publisher": "Co",
+        "publisherDomain": "koreatimes.co.kr",
+        "publishedAt": "2026-11-25T01:27:03.000Z",
+        "url": "https://www.koreatimes.co.kr/opinion/20261125/can-renewable-energy-really-get-cheaper",
+        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/11/23/69b38433-f96e-4925-88e7-452716232253.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-5b5366fc-ff22-5c24-a8c9-5f45ff6dd96b",
+        "title": "CleanSpark, Inc. (CLSK) Q4 2026 Earnings Call Transcript",
+        "description": "CleanSpark, Inc. (CLSK) Q4 2026 Earnings Call November 24, 2026 4:30 PM ESTCompany ParticipantsKyle SourkMatthew SchultzHarry Sudock - Chief Business...",
+        "publisher": "Seekingalpha",
+        "publisherDomain": "seekingalpha.com",
+        "publishedAt": "2026-11-25T01:21:19.000Z",
+        "url": "https://seekingalpha.com/article/4971631-cleanspark-inc-clsk-q4-2026-earnings-call-transcript",
+        "imageUrl": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-23f787c0-5b47-57a7-b166-5865bb08b6e5",
+        "title": "How to Build a Cold Email Scoring System with JavaScript",
+        "description": "When building ColdMailAI, one of the core features I needed was a way to score cold emails before...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:37.000Z",
-        "url": "https://dev.to/damogallagher/lambda-gpu-instances-on-managed-instances-limits-pricing-and-setup-5h2c",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpg49qnlmxvk8rhsw0zql.png",
+        "publishedAt": "2026-11-25T01:13:30.000Z",
+        "url": "https://dev.to/peterpark_coldmail/how-to-build-a-cold-email-scoring-system-with-javascript-42kl",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjauf43nsoszej47eyqaz.png",
         "categories": [
           "Top",
           "U.S.",
@@ -207,14 +142,14 @@
         ]
       },
       {
-        "id": "currents-23212ada-4d58-5aad-a6b0-69ed0997f295",
-        "title": "S3 Tables Managed Migration: Hive to Iceberg Without Writing a Pipeline",
-        "description": "If you still have Hive tables sitting in the Glue Data Catalog as Parquet, S3 Tables now has a...",
+        "id": "currents-890bd8a3-f044-5584-9170-c83639295be6",
+        "title": "GBase Database: Configure sqlhosts in Four Steps to Enable Remote Connections",
+        "description": "Local connections work, but remote connections fail. This is one of the most common issues after a...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:29.000Z",
-        "url": "https://dev.to/damogallagher/s3-tables-managed-migration-hive-to-iceberg-without-writing-a-pipeline-11g0",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4m3chz9ygsrcyq3crk5g.png",
+        "publishedAt": "2026-11-25T01:13:27.000Z",
+        "url": "https://dev.to/mmllllzcn/gbase-database-configure-sqlhosts-in-four-steps-to-enable-remote-connections-16pj",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4twieve3ke3jdkzq11rz.png",
         "categories": [
           "Top",
           "U.S.",
@@ -223,14 +158,14 @@
         ]
       },
       {
-        "id": "currents-a2a2277f-5f1d-5c2f-9a39-0685b23b105a",
-        "title": "EventBridge and Lambda Quietly Deleted a Lot of Glue Code on 20 November",
-        "description": "A few small EventBridge and Lambda announcements from 20 November are easy to skim past. Together...",
+        "id": "currents-e7f2bc6d-95fb-5e6f-9de8-76dddb6a03bb",
+        "title": "How to Retry Failed Requests in an AI API Batch",
+        "description": "A nightly job sends 1,000 product descriptions to a model for classification. By morning, 986 labels...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:25.000Z",
-        "url": "https://dev.to/damogallagher/eventbridge-and-lambda-quietly-deleted-a-lot-of-glue-code-on-20-november-4i76",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fx4421r91k49ltfu7d9k9.png",
+        "publishedAt": "2026-11-25T01:13:15.000Z",
+        "url": "https://dev.to/yi_a_38d6fb851f32cff799ed/how-to-retry-failed-requests-in-an-ai-api-batch-329m",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmaxmd9526owe1735xnag.png",
         "categories": [
           "Top",
           "U.S.",
@@ -239,200 +174,90 @@
         ]
       },
       {
-        "id": "currents-0ff465a2-8368-5ba3-8e3d-b7c02fe451d9",
-        "title": "I Built AI Pets: A Directory to Discover AI Companions and Virtual Pets 🐾",
-        "description": "I've been experimenting with vibe coding lately, and I wanted to build something interesting that...",
+        "id": "currents-92f20034-d367-53ab-95f3-9656ede6e888",
+        "title": "A 9-Question Intake Questionnaire That Saves Freelancers From Scope Creep",
+        "description": "Nine questions to ask every new client in week one, plus a kickoff email and an out-of-scope reply you can copy.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:15.000Z",
-        "url": "https://dev.to/maxxstone/i-built-ai-pets-a-directory-to-discover-ai-companions-and-virtual-pets-4hk5",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F08mbt0g7iircxj9qb0xq.png",
+        "publishedAt": "2026-11-25T01:12:44.000Z",
+        "url": "https://dev.to/sprintshelf/a-9-question-intake-questionnaire-that-saves-freelancers-from-scope-creep-3hd3",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fszdpe7emno7phd1zeu6k.png",
         "categories": [
           "Top",
           "U.S.",
           "Technology",
           "Science"
+        ]
+      },
+      {
+        "id": "currents-ad63d22e-d32c-553e-b62c-77c9f707f8e8",
+        "title": "Testing a Mini App Across a Shift Change on a Shared Tablet",
+        "description": "Use a two-employee test fixture to check what happens to stock searches, a pending refund and a late response when a store tablet changes hands.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-25T01:12:37.000Z",
+        "url": "https://dev.to/ai_superapp/testing-a-mini-app-across-a-shift-change-on-a-shared-tablet-50ng",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fsuper-apps.ai%2Fblog%2Fcontent%2Fimages%2F2026%2F11%2Fcover-14.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-2f4e5f2e-a54b-5aaa-9e4e-469bc4c8ff65",
+        "title": "Texas Man Died When Truck Burst Into Flames On I-24 Near Nickajack Lake",
+        "description": "A semi-truck exploded Sunday afternoon and burst into flames on I-24 eastbound near Nickajack Lake, killing the truck driver. He was identified as 35-year-ol...",
+        "publisher": "Chattanoogan",
+        "publisherDomain": "chattanoogan.com",
+        "publishedAt": "2026-11-25T01:31:13.000Z",
+        "url": "https://www.chattanoogan.com/2026/11/24/526483/Texas-Man-Died-When-Truck-Burst-Into.aspx",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-e1925a1e-f450-5207-a7c3-c8cb05fdfa76",
+        "title": "As I see it | Two warlords and a peace-seeker in Shenzhen",
+        "description": "The war-obsessed West will never understand that avoiding war is intrinsic to Chinese political culture and statecraft.",
+        "publisher": "Scmp",
+        "publisherDomain": "scmp.com",
+        "publishedAt": "2026-11-25T01:30:10.000Z",
+        "url": "https://www.scmp.com/opinion/china-opinion/article/3375418/two-warlords-and-peace-seeker-shenzhen",
+        "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_opinion/public/d8/images/canvas/2026/11/23/1f766a23-e23c-42fc-9b55-91f1fc240200_f83143d9.jpg?itok=jJAHfFeY&v=1795404754",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-be3607be-723f-514b-989d-f54b9f90861e",
+        "title": "'I will not let you take my future': Sexual abuse survivor speaks at abuser's parole hearing",
+        "description": "SALT LAKE CITY (ABC4) — Deserae Garcia appeared before the Utah Pardons and Parole to share her story once again, reliving one of the worst traumas of her life. She filed into the room at the courthouse along with over a dozen supporters, all to face her abuser, who appeared virtually. John Raines p...",
+        "publisher": "Abc4",
+        "publisherDomain": "abc4.com",
+        "publishedAt": "2026-11-25T01:22:41.000Z",
+        "url": "https://www.abc4.com/news/wasatch-front/sexual-abuse-survivor-speaks-abusers-parole-hearing",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
         ]
       }
     ],
     "U.S.": [
       {
-        "id": "currents-09bcd5a6-94ff-5c52-b365-e725a34811d5",
-        "title": "Two men arrested in suspected burglary at Prince William’s country home",
-        "description": "The property on the Sandringham Estate was unoccupied at the time of the incident, U.K. police said.",
-        "publisher": "The Washington Post",
-        "publisherDomain": "washingtonpost.com",
-        "publishedAt": "2026-11-24T17:20:00.000Z",
-        "url": "https://www.washingtonpost.com/the-seven/2026/11/24/two-men-arrested-possible-burglary-home-prince-william-princess-kate",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-09596b7e-b966-525f-ab63-86493576aebe",
-        "title": "Broderick Wins Tennessee House Race, Giving Democrats Largest Majority in 30 Years",
-        "description": "Democrats’ midterm rout kept expanding in the House after a tech support worker ousted an eight-term Republican without having aired a single TV ad.",
-        "publisher": "The New York Times",
-        "publisherDomain": "nytimes.com",
-        "publishedAt": "2026-11-24T17:15:51.000Z",
-        "url": "https://www.nytimes.com/2026/11/24/us/politics/tennessee-house-election-results-broderick-wins.html",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-78ebb388-03ba-5e4d-b1d1-bd0ea4f081ff",
-        "title": "Ailing Mitch McConnell plots one last act of revenge against Trump",
-        "description": "Senator Mitch McConnell could be preparing one final showdown with Donald Trump before leaving Congress, as he considers blocking the President's ambassador pick.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-11-24T17:25:41.000Z",
-        "url": "https://www.dailymail.com/news/us-politics/article-16318553/Ailing-Mitch-McConnell-plots-one-act-revenge-against-Trump-pick-bitterly-trashed-garbage-truck-ad.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/11/24/17/112701877-0-image-a-13_1795540797775.jpg",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-088382f3-a8df-5480-8f37-e3951814bdd8",
-        "title": "Tidal will start banning AI-generated music next month",
-        "description": "Spotify, YouTube Music, and Apple Music still haven’t banned AI.",
-        "publisher": "The Verge",
-        "publisherDomain": "theverge.com",
-        "publishedAt": "2026-11-24T17:17:09.000Z",
-        "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
-        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25319678/STK301_Tidal_01.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-eb2044c0-77e9-50d3-908d-8851fb4b2cfa",
-        "title": "Security Assessment: Irked (Hack The Box) — Penetration Testing Report",
-        "description": "Comprehensive offensive security assessment and penetration testing report for Irked (Hack The Box). Methodological analysis covering initial access, local privilege escalation, and Enterprise Security remediation.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:19:18.000Z",
-        "url": "https://dev.to/araizcorp/security-assessment-irked-hack-the-box-penetration-testing-report-5504",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Faraizcorp%2Faraizcorp-writeups%2Fmain%2Fhackthebox%2Firked%2Fimages%2Fstep_02.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-243f2344-85a9-5145-8f86-ccec239649de",
-        "title": "Security Alerts That Never Arrive — a Dead maldet Monitor, Exim -t and a Hostname With No SPF",
-        "description": "maldet alerts that never arrive — a dead inotify monitor, Exim -t dropping the recipient, and a hostname with no SPF under strict DMARC.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:04.000Z",
-        "url": "https://dev.to/daanial/security-alerts-that-never-arrive-a-dead-maldet-monitor-exim-t-and-a-hostname-with-no-spf-5hlp",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fquabin.com%2Fwp-content%2Fuploads%2F2026%2F11%2Fquabin-server-security-alerts-never-arrive-maldet-exim-spf-hero.png",
-        "categories": [
-          "Top",
-          "U.S.",
-          "Technology",
-          "Science"
-        ]
-      },
-      {
-        "id": "currents-40688828-c869-5942-8f61-51633744b0d7",
-        "title": "Two tech companies tried to reinvent the e-bike. Why DJI's Amflow soared while Rivian's ALSO floundered",
-        "description": "Two of the most interesting new electric bicycle companies in the world made headlines on the same day last week,...",
-        "publisher": "Electrek",
-        "publisherDomain": "electrek.co",
-        "publishedAt": "2026-11-24T17:19:16.000Z",
-        "url": "https://electrek.co/2026/11/24/two-tech-companies-tried-to-reinvent-the-e-bike-why-djis-amflow-soared-while-rivians-also-floundered",
-        "imageUrl": "https://electrek.co/wp-content/uploads/sites/3/2026/11/amflow-vs-also-head.jpg?quality=82&strip=all&resize=1200,628",
-        "categories": [
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-83ab760e-ecbb-5f42-a111-68c79382d4d4",
-        "title": "Four Tenant Isolation Rules for SaaS Help Center Retrieval Explained",
-        "description": "The hard part of a multi-tenant help center is not producing an answer from a PDF. It is proving that...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:19:12.000Z",
-        "url": "https://dev.to/sterlingvance2196/four-tenant-isolation-rules-for-saas-help-center-retrieval-explained-pim",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fg7d5hpxc02kkoo5lgs24.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-4ed9177d-e787-5b66-95c9-61ada010ce81",
-        "title": "Marketplace Artifact Retention — Private Access for a Startup App's Uploaded Documents",
-        "description": "Short answer: use private object storage behind an application authorization check, issue short-lived...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:18:44.000Z",
-        "url": "https://dev.to/zachariahholloway9058/marketplace-artifact-retention-private-access-for-a-startup-apps-uploaded-documents-156e",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnjgx94s8acl9l7sutcur.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-42359b6d-b382-5348-b4cf-63daa2098ae3",
-        "title": "Guardrails for a customer-facing AI agent: a ten-point production checklist",
-        "description": "Disclosure: I'm the founder of Aide, an AI customer service platform. Each point below says how we...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:18:21.000Z",
-        "url": "https://dev.to/ziyadbasheer/guardrails-for-a-customer-facing-ai-agent-a-ten-point-production-checklist-62c",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqpzbp2xuvuzezbpn1e2n.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-664ee1c0-2732-5f89-aa42-4445b6d68792",
-        "title": "Concerns of Cyberattacks Escalate for Global Shipping, US Ports",
-        "description": "Major shipping companies, vessels and U.S. ports are facing an escalation of cyberattack attempts, raising concerns over disruptions to global trade.",
-        "publisher": "Wwd",
-        "publisherDomain": "wwd.com",
-        "publishedAt": "2026-11-24T17:18:05.000Z",
-        "url": "https://wwd.com/sourcing-journal/logistics/cyberattack-concerns-iran-cybersecurity-us-ports-maersk-port-los-angeles-1239463510",
-        "imageUrl": "https://wwd.com/wp-content/uploads/2026/11/portoflosangeles3.jpg?w=1000&h=563&crop=1",
-        "categories": [
-          "Entertainment",
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-ac388b25-8e2b-5d2e-8b45-9f91b1cd834c",
-        "title": "Marathon Petroleum: Compelling Sum Of The Parts Valuation",
-        "description": "Marathon Petroleum remains a \"Buy\" after its pullback; fair value is approximately $425 versus $355, with a return above $400 expected.",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-11-24T17:17:51.000Z",
-        "url": "https://seekingalpha.com/article/4971528-marathon-petroleum-compelling-sum-of-the-parts-valuation",
-        "imageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1399380391/image_1399380391.jpg?io=getty-c-og",
+        "id": "currents-4b7960a7-950f-5036-a0fc-7c6e6be22223",
+        "title": "SoftBank drops over 11% as Wall Street AI sell-off ripples across Asian tech names",
+        "description": "Asian technology stocks tumbled Wednesday, led by a rout in Japanese semiconductor stocks, as renewed concerns over the artificial intelligence trade rattled investors.",
+        "publisher": "CNBC",
+        "publisherDomain": "cnbc.com",
+        "publishedAt": "2026-11-25T01:28:30.000Z",
+        "url": "https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html",
+        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108442605-1792601977486-Dextro_Cobot_hero_image.png?v=1792602146&w=1920&h=1080",
         "categories": [
           "Top",
           "Business",
@@ -440,14 +265,29 @@
         ]
       },
       {
-        "id": "currents-bfeba362-8e5c-5e5c-b7ec-fc2bb661c155",
-        "title": "Your AI keeps rewriting files you never asked it to touch? Constrain it.",
-        "description": "Vibe coding's most annoying failure mode isn't a wrong answer. It's an AI that \"helpfully\" rewrites...",
+        "id": "currents-8ffcb342-ea71-56db-9dcd-01cf3cc7062b",
+        "title": "Where China stands in the AI chip race amid Huang's return to Nvidia",
+        "description": "Kyle Chan, a fellow at The Brookings Institute, joins \"The Daily Report\" to discuss the status of China's chip development efforts amid Jensen Huang's reinstatement as CEO of Nvidia.",
+        "publisher": "CBS News",
+        "publisherDomain": "cbsnews.com",
+        "publishedAt": "2026-11-25T01:12:07.000Z",
+        "url": "https://www.cbsnews.com/video/heres-where-china-stands-in-the-ai-chip-race-amid-huangs-return-to-nvidia",
+        "imageUrl": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/25/a9672777-d610-4fe0-a4f1-688a5a414d5b/thumbnail/1200x630/f4db0013d9fb67151d080a4d563c924e/cbsn-fusion-heres-where-china-stands-in-the-ai-chip-race-amid-huangs-return-to-nvidia-thumbnail.jpg",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-a799f005-ba96-5521-8802-857f2dd0692d",
+        "title": "How to Make a Tower Defense Game with AI: Systems, Balance and Steps",
+        "description": "How to make a tower defense game with AI: the six systems it needs, a starting wave curve and economy to tune, and the build steps in Tyrbo.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:39.000Z",
-        "url": "https://dev.to/applied_efficiency/your-ai-keeps-rewriting-files-you-never-asked-it-to-touch-constrain-it-1b7k",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwxr651lhwolnvedj0t6m.png",
+        "publishedAt": "2026-11-25T01:14:17.000Z",
+        "url": "https://dev.to/tyrboai/how-to-make-a-tower-defense-game-with-ai-systems-balance-and-steps-37ie",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu0zp1eyrg090ot3owobc.png",
         "categories": [
           "Top",
           "U.S.",
@@ -456,14 +296,89 @@
         ]
       },
       {
-        "id": "currents-9c01fe8c-b6b6-5e10-9061-0b4768eb7a45",
-        "title": "Lambda GPU Instances on Managed Instances: Limits, Pricing and Setup",
-        "description": "Lambda has been CPU-only for its whole life. As of 18 November you can attach a GPU, as long as you...",
+        "id": "currents-564fde14-1b00-56da-8a24-5c04c318e8aa",
+        "title": "Rubio viewed Jensen Huang and Nvidia as ‘malign influence’ before ouster — leading to him warning Trump",
+        "description": "“Rubio was solely concerned with the national security risks,” a US official told The Post, “and [Commerce Secretary Howard] Lutnick did not want to handcuff Nvidia in any way.…",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-11-25T01:12:13.000Z",
+        "url": "https://nypost.com/2026/11/24/us-news/rubio-jensen-huangs-nvidia-as-malign-influence-before-ouster",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/11/newspress-collage-41qqj9feh-1795554968245.jpg?quality=75&strip=all&1795536979&w=1200",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-5b5366fc-ff22-5c24-a8c9-5f45ff6dd96b",
+        "title": "CleanSpark, Inc. (CLSK) Q4 2026 Earnings Call Transcript",
+        "description": "CleanSpark, Inc. (CLSK) Q4 2026 Earnings Call November 24, 2026 4:30 PM ESTCompany ParticipantsKyle SourkMatthew SchultzHarry Sudock - Chief Business...",
+        "publisher": "Seekingalpha",
+        "publisherDomain": "seekingalpha.com",
+        "publishedAt": "2026-11-25T01:21:19.000Z",
+        "url": "https://seekingalpha.com/article/4971631-cleanspark-inc-clsk-q4-2026-earnings-call-transcript",
+        "imageUrl": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-fc11ef25-2b6c-5dfb-b492-9f48095aa7e3",
+        "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
+        "description": "Jensen Huang's return as Nvidia CEO demonstrates that the U.S.-China artificial intelligence race is not just about semiconductors, but tech talent too.",
+        "publisher": "CNBC",
+        "publisherDomain": "cnbc.com",
+        "publishedAt": "2026-11-25T01:13:56.000Z",
+        "url": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html",
+        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108558122-1795511350905-gettyimages-2294461110-vcg111665309671.jpeg?v=1795511418&w=1920&h=1080",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-5d2682ab-e0a6-5256-85cd-afa8ba5ec2cb",
+        "title": "20 Horrifying Screenshots From “Mommy Facebook Groups” That Prove People Are Just Really, Really Dumb",
+        "description": "I can't believe these are real.",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-11-25T01:16:02.000Z",
+        "url": "https://www.buzzfeed.com/ajanibazile/scary-online-mom-group-posts",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/19/20/thumb/TlECBf9Hv.jpg?crop=2999:1570;0,0%26downsize=1250:*",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-395b109b-2021-5f59-bc7b-9f5a3062853d",
+        "title": "Emma Roberts Fantasy Movie’s Disney+ Sequel Show Gets Huge Update & Teaser Video",
+        "description": "Emma Roberts is set to return to the world of a fan-favorite movie, and now the Disney+ sequel series to it has gotten some major updates.",
+        "publisher": "Comingsoon",
+        "publisherDomain": "comingsoon.net",
+        "publishedAt": "2026-11-25T01:14:48.000Z",
+        "url": "https://www.comingsoon.net/tv/news/2230160-emma-roberts-fantasy-movie-disney-sequel-show-update-teaser-video",
+        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/emma-roberts-still.png?resize=1200,630",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-23f787c0-5b47-57a7-b166-5865bb08b6e5",
+        "title": "How to Build a Cold Email Scoring System with JavaScript",
+        "description": "When building ColdMailAI, one of the core features I needed was a way to score cold emails before...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:37.000Z",
-        "url": "https://dev.to/damogallagher/lambda-gpu-instances-on-managed-instances-limits-pricing-and-setup-5h2c",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpg49qnlmxvk8rhsw0zql.png",
+        "publishedAt": "2026-11-25T01:13:30.000Z",
+        "url": "https://dev.to/peterpark_coldmail/how-to-build-a-cold-email-scoring-system-with-javascript-42kl",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjauf43nsoszej47eyqaz.png",
         "categories": [
           "Top",
           "U.S.",
@@ -472,14 +387,14 @@
         ]
       },
       {
-        "id": "currents-23212ada-4d58-5aad-a6b0-69ed0997f295",
-        "title": "S3 Tables Managed Migration: Hive to Iceberg Without Writing a Pipeline",
-        "description": "If you still have Hive tables sitting in the Glue Data Catalog as Parquet, S3 Tables now has a...",
+        "id": "currents-890bd8a3-f044-5584-9170-c83639295be6",
+        "title": "GBase Database: Configure sqlhosts in Four Steps to Enable Remote Connections",
+        "description": "Local connections work, but remote connections fail. This is one of the most common issues after a...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:29.000Z",
-        "url": "https://dev.to/damogallagher/s3-tables-managed-migration-hive-to-iceberg-without-writing-a-pipeline-11g0",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4m3chz9ygsrcyq3crk5g.png",
+        "publishedAt": "2026-11-25T01:13:27.000Z",
+        "url": "https://dev.to/mmllllzcn/gbase-database-configure-sqlhosts-in-four-steps-to-enable-remote-connections-16pj",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4twieve3ke3jdkzq11rz.png",
         "categories": [
           "Top",
           "U.S.",
@@ -488,59 +403,106 @@
         ]
       },
       {
-        "id": "currents-a2a2277f-5f1d-5c2f-9a39-0685b23b105a",
-        "title": "EventBridge and Lambda Quietly Deleted a Lot of Glue Code on 20 November",
-        "description": "A few small EventBridge and Lambda announcements from 20 November are easy to skim past. Together...",
+        "id": "currents-e7f2bc6d-95fb-5e6f-9de8-76dddb6a03bb",
+        "title": "How to Retry Failed Requests in an AI API Batch",
+        "description": "A nightly job sends 1,000 product descriptions to a model for classification. By morning, 986 labels...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:25.000Z",
-        "url": "https://dev.to/damogallagher/eventbridge-and-lambda-quietly-deleted-a-lot-of-glue-code-on-20-november-4i76",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fx4421r91k49ltfu7d9k9.png",
+        "publishedAt": "2026-11-25T01:13:15.000Z",
+        "url": "https://dev.to/yi_a_38d6fb851f32cff799ed/how-to-retry-failed-requests-in-an-ai-api-batch-329m",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmaxmd9526owe1735xnag.png",
         "categories": [
           "Top",
           "U.S.",
           "Technology",
           "Science"
+        ]
+      },
+      {
+        "id": "currents-92f20034-d367-53ab-95f3-9656ede6e888",
+        "title": "A 9-Question Intake Questionnaire That Saves Freelancers From Scope Creep",
+        "description": "Nine questions to ask every new client in week one, plus a kickoff email and an out-of-scope reply you can copy.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-25T01:12:44.000Z",
+        "url": "https://dev.to/sprintshelf/a-9-question-intake-questionnaire-that-saves-freelancers-from-scope-creep-3hd3",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fszdpe7emno7phd1zeu6k.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-ad63d22e-d32c-553e-b62c-77c9f707f8e8",
+        "title": "Testing a Mini App Across a Shift Change on a Shared Tablet",
+        "description": "Use a two-employee test fixture to check what happens to stock searches, a pending refund and a late response when a store tablet changes hands.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-25T01:12:37.000Z",
+        "url": "https://dev.to/ai_superapp/testing-a-mini-app-across-a-shift-change-on-a-shared-tablet-50ng",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fsuper-apps.ai%2Fblog%2Fcontent%2Fimages%2F2026%2F11%2Fcover-14.png",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Technology",
+          "Science"
+        ]
+      },
+      {
+        "id": "currents-2f4e5f2e-a54b-5aaa-9e4e-469bc4c8ff65",
+        "title": "Texas Man Died When Truck Burst Into Flames On I-24 Near Nickajack Lake",
+        "description": "A semi-truck exploded Sunday afternoon and burst into flames on I-24 eastbound near Nickajack Lake, killing the truck driver. He was identified as 35-year-ol...",
+        "publisher": "Chattanoogan",
+        "publisherDomain": "chattanoogan.com",
+        "publishedAt": "2026-11-25T01:31:13.000Z",
+        "url": "https://www.chattanoogan.com/2026/11/24/526483/Texas-Man-Died-When-Truck-Burst-Into.aspx",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-be3607be-723f-514b-989d-f54b9f90861e",
+        "title": "'I will not let you take my future': Sexual abuse survivor speaks at abuser's parole hearing",
+        "description": "SALT LAKE CITY (ABC4) — Deserae Garcia appeared before the Utah Pardons and Parole to share her story once again, reliving one of the worst traumas of her life. She filed into the room at the courthouse along with over a dozen supporters, all to face her abuser, who appeared virtually. John Raines p...",
+        "publisher": "Abc4",
+        "publisherDomain": "abc4.com",
+        "publishedAt": "2026-11-25T01:22:41.000Z",
+        "url": "https://www.abc4.com/news/wasatch-front/sexual-abuse-survivor-speaks-abusers-parole-hearing",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-d6e423e8-114f-578a-b4f1-5635e2f05ca1",
+        "title": "'Scary' 40-foot waves forecast in SF as king tide peaks Wednesday",
+        "description": "\"We are not in the clear yet,\" one meteorologist warned.",
+        "publisher": "Sfgate",
+        "publisherDomain": "sfgate.com",
+        "publishedAt": "2026-11-25T01:21:15.000Z",
+        "url": "https://www.sfgate.com/bayarea/article/king-tide-waves-sf-22548830.php",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
         ]
       }
     ],
     "World": [
       {
-        "id": "currents-3daca934-5c92-5262-94d7-c25a4d92fbdd",
-        "title": "Wales women: Home World Cup to inspire ' future stars - Wilkinson",
-        "description": "Wales head coach Rhian Wilkinson says the prospect of a home Women's World Cup in 2035 can inspire a generation of young Welsh players.",
-        "publisher": "BBC News",
-        "publisherDomain": "bbc.co.uk",
-        "publishedAt": "2026-11-24T17:18:20.000Z",
-        "url": "https://www.bbc.co.uk/sport/articles/c8e397zgd12zo",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/4c5d/live/30c130b0-e824-11f1-a58d-43263bea41a8.jpg",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-09bcd5a6-94ff-5c52-b365-e725a34811d5",
-        "title": "Two men arrested in suspected burglary at Prince William’s country home",
-        "description": "The property on the Sandringham Estate was unoccupied at the time of the incident, U.K. police said.",
-        "publisher": "The Washington Post",
-        "publisherDomain": "washingtonpost.com",
-        "publishedAt": "2026-11-24T17:20:00.000Z",
-        "url": "https://www.washingtonpost.com/the-seven/2026/11/24/two-men-arrested-possible-burglary-home-prince-william-princess-kate",
-        "categories": [
-          "Top",
-          "World",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-09596b7e-b966-525f-ab63-86493576aebe",
-        "title": "Broderick Wins Tennessee House Race, Giving Democrats Largest Majority in 30 Years",
-        "description": "Democrats’ midterm rout kept expanding in the House after a tech support worker ousted an eight-term Republican without having aired a single TV ad.",
-        "publisher": "The New York Times",
-        "publisherDomain": "nytimes.com",
-        "publishedAt": "2026-11-24T17:15:51.000Z",
-        "url": "https://www.nytimes.com/2026/11/24/us/politics/tennessee-house-election-results-broderick-wins.html",
+        "id": "currents-8ffcb342-ea71-56db-9dcd-01cf3cc7062b",
+        "title": "Where China stands in the AI chip race amid Huang's return to Nvidia",
+        "description": "Kyle Chan, a fellow at The Brookings Institute, joins \"The Daily Report\" to discuss the status of China's chip development efforts amid Jensen Huang's reinstatement as CEO of Nvidia.",
+        "publisher": "CBS News",
+        "publisherDomain": "cbsnews.com",
+        "publishedAt": "2026-11-25T01:12:07.000Z",
+        "url": "https://www.cbsnews.com/video/heres-where-china-stands-in-the-ai-chip-race-amid-huangs-return-to-nvidia",
+        "imageUrl": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/25/a9672777-d610-4fe0-a4f1-688a5a414d5b/thumbnail/1200x630/f4db0013d9fb67151d080a4d563c924e/cbsn-fusion-heres-where-china-stands-in-the-ai-chip-race-amid-huangs-return-to-nvidia-thumbnail.jpg",
         "categories": [
           "Top",
           "U.S.",
@@ -548,45 +510,130 @@
         ]
       },
       {
-        "id": "currents-78ebb388-03ba-5e4d-b1d1-bd0ea4f081ff",
-        "title": "Ailing Mitch McConnell plots one last act of revenge against Trump",
-        "description": "Senator Mitch McConnell could be preparing one final showdown with Donald Trump before leaving Congress, as he considers blocking the President's ambassador pick.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-11-24T17:25:41.000Z",
-        "url": "https://www.dailymail.com/news/us-politics/article-16318553/Ailing-Mitch-McConnell-plots-one-act-revenge-against-Trump-pick-bitterly-trashed-garbage-truck-ad.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/11/24/17/112701877-0-image-a-13_1795540797775.jpg",
+        "id": "currents-5d51c40e-1016-5726-afe0-7e2d4f23470e",
+        "title": "Susie Wiles' exit won't fix Trump's corruption problem - The Korea Times",
+        "description": "Americans have loudly proclaimed they’re fed up with government corruption. The problem for both Democrats and Republicans is that while U.S. Presi...",
+        "publisher": "Co",
+        "publisherDomain": "koreatimes.co.kr",
+        "publishedAt": "2026-11-25T01:27:03.000Z",
+        "url": "https://www.koreatimes.co.kr/opinion/20261125/susie-wiles-exit-wont-fix-trumps-corruption-problem",
+        "imageUrl": "https://www.koreatimes.co.kr/images/logo_1200x1200.png",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-564fde14-1b00-56da-8a24-5c04c318e8aa",
+        "title": "Rubio viewed Jensen Huang and Nvidia as ‘malign influence’ before ouster — leading to him warning Trump",
+        "description": "“Rubio was solely concerned with the national security risks,” a US official told The Post, “and [Commerce Secretary Howard] Lutnick did not want to handcuff Nvidia in any way.…",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-11-25T01:12:13.000Z",
+        "url": "https://nypost.com/2026/11/24/us-news/rubio-jensen-huangs-nvidia-as-malign-influence-before-ouster",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/11/newspress-collage-41qqj9feh-1795554968245.jpg?quality=75&strip=all&1795536979&w=1200",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-e1925a1e-f450-5207-a7c3-c8cb05fdfa76",
+        "title": "As I see it | Two warlords and a peace-seeker in Shenzhen",
+        "description": "The war-obsessed West will never understand that avoiding war is intrinsic to Chinese political culture and statecraft.",
+        "publisher": "Scmp",
+        "publisherDomain": "scmp.com",
+        "publishedAt": "2026-11-25T01:30:10.000Z",
+        "url": "https://www.scmp.com/opinion/china-opinion/article/3375418/two-warlords-and-peace-seeker-shenzhen",
+        "imageUrl": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_opinion/public/d8/images/canvas/2026/11/23/1f766a23-e23c-42fc-9b55-91f1fc240200_f83143d9.jpg?itok=jJAHfFeY&v=1795404754",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-db1cf0e6-67b0-5252-86ba-c9e53aed1d51",
+        "title": "Can renewable energy really get cheaper? - The Korea Times",
+        "description": "Every time you ask a chatbot a question, a data center somewhere uses electricity. The International Energy Agency expects global data center elect...",
+        "publisher": "Co",
+        "publisherDomain": "koreatimes.co.kr",
+        "publishedAt": "2026-11-25T01:27:03.000Z",
+        "url": "https://www.koreatimes.co.kr/opinion/20261125/can-renewable-energy-really-get-cheaper",
+        "imageUrl": "https://newsimg.koreatimes.co.kr/2026/11/23/69b38433-f96e-4925-88e7-452716232253.jpg",
+        "categories": [
+          "Top",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-2f4e5f2e-a54b-5aaa-9e4e-469bc4c8ff65",
+        "title": "Texas Man Died When Truck Burst Into Flames On I-24 Near Nickajack Lake",
+        "description": "A semi-truck exploded Sunday afternoon and burst into flames on I-24 eastbound near Nickajack Lake, killing the truck driver. He was identified as 35-year-ol...",
+        "publisher": "Chattanoogan",
+        "publisherDomain": "chattanoogan.com",
+        "publishedAt": "2026-11-25T01:31:13.000Z",
+        "url": "https://www.chattanoogan.com/2026/11/24/526483/Texas-Man-Died-When-Truck-Burst-Into.aspx",
         "categories": [
           "Top",
           "World",
           "U.S."
         ]
+      },
+      {
+        "id": "currents-be3607be-723f-514b-989d-f54b9f90861e",
+        "title": "'I will not let you take my future': Sexual abuse survivor speaks at abuser's parole hearing",
+        "description": "SALT LAKE CITY (ABC4) — Deserae Garcia appeared before the Utah Pardons and Parole to share her story once again, reliving one of the worst traumas of her life. She filed into the room at the courthouse along with over a dozen supporters, all to face her abuser, who appeared virtually. John Raines p...",
+        "publisher": "Abc4",
+        "publisherDomain": "abc4.com",
+        "publishedAt": "2026-11-25T01:22:41.000Z",
+        "url": "https://www.abc4.com/news/wasatch-front/sexual-abuse-survivor-speaks-abusers-parole-hearing",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-d6e423e8-114f-578a-b4f1-5635e2f05ca1",
+        "title": "'Scary' 40-foot waves forecast in SF as king tide peaks Wednesday",
+        "description": "\"We are not in the clear yet,\" one meteorologist warned.",
+        "publisher": "Sfgate",
+        "publisherDomain": "sfgate.com",
+        "publishedAt": "2026-11-25T01:21:15.000Z",
+        "url": "https://www.sfgate.com/bayarea/article/king-tide-waves-sf-22548830.php",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
+      },
+      {
+        "id": "currents-fae15bab-c63a-5401-9bf6-d2fb8794e9ff",
+        "title": "Exclusive | Knicks teammates open up on why outside perception of Mikal Bridges is all wrong",
+        "description": "So much of the discourse is asymmetrical.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-11-25T01:14:21.000Z",
+        "url": "https://nypost.com/2026/11/24/sports/knicks-teammates-on-why-outside-perception-of-mikal-bridges-is-all-wrong",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/11/newspress-collage-9cns2jf1f-1795567812409.jpg?quality=75&strip=all&1795549837&w=1200",
+        "categories": [
+          "Top",
+          "U.S.",
+          "World"
+        ]
       }
     ],
     "Business": [
       {
-        "id": "currents-2b72e55c-3f1d-5640-b51b-fcff04b5ca28",
-        "title": "Marvell options signal 8.3% move ahead of Dec. 1 earnings By Investing.com",
-        "description": "Marvell options signal 8.3% move ahead of Dec. 1 earnings",
-        "publisher": "Investing.com",
-        "publisherDomain": "investing.com",
-        "publishedAt": "2026-11-24T17:09:55.000Z",
-        "url": "https://www.investing.com/news/stock-market-news/marvell-options-signal-83-move-ahead-of-dec-1-earnings-93CH-5048781",
-        "imageUrl": "https://content-media.investing.com/news/LYNXMPEBBR0PM_L.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-ac388b25-8e2b-5d2e-8b45-9f91b1cd834c",
-        "title": "Marathon Petroleum: Compelling Sum Of The Parts Valuation",
-        "description": "Marathon Petroleum remains a \"Buy\" after its pullback; fair value is approximately $425 versus $355, with a return above $400 expected.",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-11-24T17:17:51.000Z",
-        "url": "https://seekingalpha.com/article/4971528-marathon-petroleum-compelling-sum-of-the-parts-valuation",
-        "imageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1399380391/image_1399380391.jpg?io=getty-c-og",
+        "id": "currents-4b7960a7-950f-5036-a0fc-7c6e6be22223",
+        "title": "SoftBank drops over 11% as Wall Street AI sell-off ripples across Asian tech names",
+        "description": "Asian technology stocks tumbled Wednesday, led by a rout in Japanese semiconductor stocks, as renewed concerns over the artificial intelligence trade rattled investors.",
+        "publisher": "CNBC",
+        "publisherDomain": "cnbc.com",
+        "publishedAt": "2026-11-25T01:28:30.000Z",
+        "url": "https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html",
+        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108442605-1792601977486-Dextro_Cobot_hero_image.png?v=1792602146&w=1920&h=1080",
         "categories": [
           "Top",
           "Business",
@@ -594,194 +641,208 @@
         ]
       },
       {
-        "id": "currents-a95f2ffd-aeab-55ab-a2ac-2c5fc62ea0b9",
-        "title": "Shop worker who said businessman tried to extort her of inheritance wins dismissal case",
-        "description": "WRC told her mother was dying at the time",
-        "publisher": "Irishtimes",
-        "publisherDomain": "irishtimes.com",
-        "publishedAt": "2026-11-24T17:14:23.000Z",
-        "url": "https://www.irishtimes.com/business/2026/11/24/shop-worker-who-said-businessman-tried-to-extort-her-of-inheritance-wins-dismissal-case",
-        "imageUrl": "https://www.irishtimes.com/resizer/v2/GOREUJIMGNX6LLUYVEKPCNAHCM.jpg?smart=true&auth=88240aa4194253806c0e75b146baf5726c501e4e6b332068ffa6f2a3afd81637&width=1200&height=630",
+        "id": "currents-09c7abdf-8246-5310-adc0-187c30b3b184",
+        "title": "Public hospital to fill IVF gap ahead of Catholic health takeover",
+        "description": "The NSW government will support surgical theatre access for Hunter IVF patients to fill the threatened gap ahead of a proposed Catholic hospital takeover.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-11-25T01:24:42.000Z",
+        "url": "https://www.abc.net.au/news/2026-11-25/continued-access-for-hunter-ivf-services/107423658",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/a2f7943c830d32dfe97a2579a08ebb80?impolicy=wcms_watermark_news&cropH=1075&cropW=1914&xPos=0&yPos=0&width=862&height=485&imformat=generic",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-de3cb60b-1f38-5393-affc-47f15e8bd206",
-        "title": "Forget Nvidia! This FTSE 250 share could be an unlikely AI winner, with earnings growth of 12%",
-        "description": "Following a major announcement at its Capital Markets Day, Andrew Mackie is becoming increasingly bullish on this FTSE 250 stock.",
-        "publisher": "Twelfthmagpie",
-        "publisherDomain": "twelfthmagpie.com",
-        "publishedAt": "2026-11-24T17:13:12.000Z",
-        "url": "https://www.twelfthmagpie.com/2026/11/24/forget-nvidia-this-ftse-250-share-could-be-an-unlikely-ai-winner-with-earnings-growth-of-12",
-        "imageUrl": "https://www.twelfthmagpie.com/wp-content/uploads/2026/11/AdobeStock_2223073894-1200x675.jpeg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-8fb88575-980a-5237-b489-e9ed35e71521",
-        "title": "Jumia Technologies Q3: Untimely Resurgence Of Macroeconomic Pressures",
-        "description": "Analyst rates Jumia a Hold: 2026 GMV growth guidance is cut to 16%-18%, with a $31M-$35M adjusted EBITDA loss expected and 2027 outlook pending.",
+        "id": "currents-5b5366fc-ff22-5c24-a8c9-5f45ff6dd96b",
+        "title": "CleanSpark, Inc. (CLSK) Q4 2026 Earnings Call Transcript",
+        "description": "CleanSpark, Inc. (CLSK) Q4 2026 Earnings Call November 24, 2026 4:30 PM ESTCompany ParticipantsKyle SourkMatthew SchultzHarry Sudock - Chief Business...",
         "publisher": "Seekingalpha",
         "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-11-24T17:14:36.000Z",
-        "url": "https://seekingalpha.com/article/4971527-jumia-technologies-q3-untimely-resurgence-of-macroeconomic-pressures",
-        "imageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2245944990/image_2245944990.jpg?io=getty-c-og",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-efe26e05-d2c9-5771-9f23-2b762e6becc6",
-        "title": "Fiona The Hippo To Get Special Tribute At FC Cincinnati's MLS Playoff Match",
-        "description": "FC Cincinnati will honour Fiona, the beloved Cincinnati Zoo hippo, with a special tifo during its MLS playoff match against Nashville SC, while the club also plans a donation to the zoo in her memory.",
-        "publisher": "Ndtvprofit",
-        "publisherDomain": "ndtvprofit.com",
-        "publishedAt": "2026-11-24T17:13:03.000Z",
-        "url": "https://www.ndtvprofit.com/trending/fiona-the-hippo-to-get-special-tribute-at-fc-cincinnatis-mls-playoff-match-12372299",
-        "imageUrl": "https://c.ndtvimg.com/2026-11/07apu33o_fiona-the-hippo_625x300_24_November_26.jpg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-a7cd6eac-8394-5e38-9f92-a3a24c7130ab",
-        "title": "Burlington outlines 2027 plan for 5%-7% sales growth while keeping EBIT margin flattish",
-        "description": "Burlington's Q3 sales rose 8% as comps gained 1%; Q4 adjusted EPS guidance is $4.85-$4.95 amid freight and fuel pressure.",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-11-24T17:12:57.000Z",
-        "url": "https://seekingalpha.com/news/4676289-burlington-outlines-2027-plan-for-5-percentminus-7-percent-sales-growth-while-keeping-ebit",
+        "publishedAt": "2026-11-25T01:21:19.000Z",
+        "url": "https://seekingalpha.com/article/4971631-cleanspark-inc-clsk-q4-2026-earnings-call-transcript",
         "imageUrl": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
         "categories": [
           "Top",
+          "U.S.",
           "Business"
         ]
       },
       {
-        "id": "currents-3469d8c7-512b-5c04-b4bf-fb7142cedd00",
-        "title": "Prediction: this UK share will soon soar by 89%",
-        "description": "This UK share was flying as we entered 2026, but it's been heading downward since then. Now upbeat forecasts suggest that's about to change.",
-        "publisher": "Twelfthmagpie",
-        "publisherDomain": "twelfthmagpie.com",
-        "publishedAt": "2026-11-24T17:12:00.000Z",
-        "url": "https://www.twelfthmagpie.com/2026/11/24/prediction-this-uk-share-will-soon-soar-by-89",
-        "imageUrl": "https://www.twelfthmagpie.com/wp-content/uploads/2024/07/UK-stocks-1200x675.jpg",
+        "id": "currents-4392bdb4-e527-5b9d-ae80-e2ade40c9f5a",
+        "title": "TORM plc Announces 5.09% Major Shareholder Threshold and Share Capital Increase of 101,694 Class A Shares",
+        "description": "Arrowstreet Capital Holding LLC, as of October 2, 2026, and in its capacity as investment manager for a number of clients, indirectly holds more than 5% of the voting rights of TORM plc. As of October 2, 2026, Arrowstreet Capital Holding LLC indirectly held in total 5,234,660 vot",
+        "publisher": "Nasdaq",
+        "publisherDomain": "nasdaq.com",
+        "publishedAt": "2026-11-25T01:29:00.000Z",
+        "url": "https://www.nasdaq.com/articles/torm-plc-announces-509-major-shareholder-threshold-and-share-capital-increase-101694-class",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-e099f071-fcbc-525a-80b6-0bfd8655283e",
-        "title": "MKTN: Everything You Need To Know About This Market-Neutral Fund",
-        "description": "The Federated Hermes MDT Market Neutral ETF's CART models target risk-adjusted returns, supported by a similar mutual fund's longer record.",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-11-24T17:11:55.000Z",
-        "url": "https://seekingalpha.com/article/4971526-mktn-everything-you-need-to-know-about-this-market-neutral-fund",
-        "imageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2172286427/image_2172286427.jpg?io=getty-c-og",
+        "id": "currents-fc11ef25-2b6c-5dfb-b492-9f48095aa7e3",
+        "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
+        "description": "Jensen Huang's return as Nvidia CEO demonstrates that the U.S.-China artificial intelligence race is not just about semiconductors, but tech talent too.",
+        "publisher": "CNBC",
+        "publisherDomain": "cnbc.com",
+        "publishedAt": "2026-11-25T01:13:56.000Z",
+        "url": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html",
+        "imageUrl": "https://image.cnbcfm.com/api/v1/image/108558122-1795511350905-gettyimages-2294461110-vcg111665309671.jpeg?v=1795511418&w=1920&h=1080",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-3dd0e94e-73c0-5266-b029-fe1555080029",
+        "title": "Breaking: Inflation rises more than expected to 4.9pc in year to October",
+        "description": "The consumer price index has come in hotter than expected and underlying inflation has also risen.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-11-25T01:24:42.000Z",
+        "url": "https://www.abc.net.au/news/2026-11-25/abs-october-cpi-inflation-rises-year-/107424668",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/cc2b42edc32a34def24f1345f4210d2d?impolicy=wcms_watermark_news&cropH=3375&cropW=6000&xPos=0&yPos=0&width=862&height=485&imformat=generic",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-06fe8676-8c2b-59a4-8e10-0a466b1a165f",
-        "title": "Zhihu Inc. (ZH) Q3 2026 Earnings Call Transcript",
-        "description": "Zhihu Inc. (ZH) Q3 2026 Earnings Call November 24, 2026 6:00 AM ESTCompany ParticipantsYuan Zhou - Founder, Chairman & CEOWang Han - Chief Financial...",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-11-24T17:11:38.000Z",
-        "url": "https://seekingalpha.com/article/4971419-zhihu-inc-zh-q3-2026-earnings-call-transcript",
-        "imageUrl": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+        "id": "currents-7336cf5e-af8c-541e-a87b-1c20707c324f",
+        "title": "In Australia's most populated suburb, voters want a pool and more schools",
+        "description": "Days out from Victoria's election, residents in Point Cook say they want better roads to ease traffic congestion, schools to send their children to, and a public pool.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-11-25T01:24:42.000Z",
+        "url": "https://www.abc.net.au/news/2026-11-25/point-cook-schools-pools-victorian-state-election/107420190",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/78ce3de3ada30394d15180b228a52313?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=381&width=862&height=485&imformat=generic",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-468d25c4-97b3-5b16-bd9a-169fa33ba565",
-        "title": "Chagee: Staying Bullish After Catalyst Realization And Q3 Preview",
-        "description": "Analyst maintains a \"Buy\" on Chagee Holdings Limited stock: Its 8.8x forward earnings multiple implies 57% re-rating potential versus peers’ 13.8x average.",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-11-24T17:10:49.000Z",
-        "url": "https://seekingalpha.com/article/4971524-chagee-staying-bullish-after-catalyst-realization-and-q3-preview",
-        "imageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2238976860/image_2238976860.jpg?io=getty-c-og",
+        "id": "currents-90799ab0-1e8a-553f-a230-9a9017aa244e",
+        "title": "NT land clearing jumps six-fold but government says it's sustainable",
+        "description": "The NT government is being asked to explain whether it intends to continue approving land clearing at a rate scientists have labelled \"dramatic\" and concerning.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-11-25T01:24:42.000Z",
+        "url": "https://www.abc.net.au/news/2026-11-25/land-clearing-approvals-pastoral-cotton-farms-habitat-threatened/107421990",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/66f8f08d756cafa32d72ad141edec02c?impolicy=wcms_watermark_news&cropH=2250&cropW=4000&xPos=0&yPos=0&width=862&height=485&imformat=generic",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-27e06c2e-154f-52ba-a9cb-a61fcec40ad4",
-        "title": "I'm a novice baker who tried making Joanna Gaines' biscuits. The recipe was surprisingly easy to follow.",
-        "description": "Joanna Gaines serves her biscuits at Magnolia Table in Waco, Texas. You can make them easily at home, though the recipe is time-consuming.",
-        "publisher": "Businessinsider",
-        "publisherDomain": "businessinsider.com",
-        "publishedAt": "2026-11-24T17:10:30.000Z",
-        "url": "https://www.businessinsider.com/joanna-gaines-biscuit-recipe-review-2026-11",
-        "imageUrl": "https://i.insider.com/6b05a2fe0b69407d788a6088?width=1200&format=jpeg",
+        "id": "currents-b0913a62-8c5b-5758-bc73-710c7cb69530",
+        "title": "Pensioners win private health insurance rebate carve out",
+        "description": "The government has caved to demands to exempt part and full pensioners from plans to wind back private health insurance rebates for over 65s.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-11-25T01:24:42.000Z",
+        "url": "https://www.abc.net.au/news/2026-11-25/pensioners-carved-out-of-cuts-to-private-health-insurance-rebate/107424452",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/b6bdfd21511b508040de023b0672e3de?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485&imformat=generic",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-826d65c1-9c2c-53f2-acf5-5813983daa30",
-        "title": "Marvell: Next Week Could Make Or Break It",
-        "description": "Marvell is considered a sidelines call, as a $156 deal-adjusted value means under 10% upside; 450 million new shares and AI spending doubts beyond 2027 weigh.",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-11-24T17:10:29.000Z",
-        "url": "https://seekingalpha.com/article/4971436-marvell-next-week-could-make-or-break-it",
-        "imageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1291110254/image_1291110254.jpg?io=getty-c-og",
+        "id": "currents-0cdcee6f-f088-54b1-ad3d-061ec40407aa",
+        "title": "Breaking: Beau Lamarre-Condon found guilty of murdering Sydney couple",
+        "description": "The Crown's case was that Beau Lamarre-Condon had a plan to murder Jesse Baird and Luke Davies was murdered as a witness to the crime.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-11-25T01:24:42.000Z",
+        "url": "https://www.abc.net.au/news/2026-11-25/beau-lamarre-condon-verdict-found-guilty-jesse-baird-luke-davies/107420442",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/c5abb5de91a3898fd71c65bb2c71a3b8?impolicy=wcms_watermark_news&cropH=386&cropW=686&xPos=0&yPos=28&width=862&height=485&imformat=generic",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-31f6d409-efad-50ec-b3dd-830400a03e67",
-        "title": "How exposed is the UK stock market if the AI bubble bursts?",
-        "description": "If America’s AI boom turns into a bust, how well would the UK stock market hold up? Mark Hartley looks at ways investors can prepare.",
-        "publisher": "Twelfthmagpie",
-        "publisherDomain": "twelfthmagpie.com",
-        "publishedAt": "2026-11-24T17:10:00.000Z",
-        "url": "https://www.twelfthmagpie.com/2026/11/24/how-exposed-is-the-uk-stock-market-if-the-ai-bubble-bursts",
-        "imageUrl": "https://www.twelfthmagpie.com/wp-content/uploads/2022/04/Balloon-pop.jpg",
+        "id": "currents-2add93b8-bdf7-5c63-8654-5d34a5c7098f",
+        "title": "Rudy Giuliani receives US's top honour, but press not invited to ceremony",
+        "description": "US President Donald Trump issued a federal pardon to Mr Giuliani last year and previously promised him the honour.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-11-25T01:24:42.000Z",
+        "url": "https://www.abc.net.au/news/2026-11-25/rudy-giuliani-awarded-the-presidential-medal-of-freedom-/107424212",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/68626695e25ee7e10b80d205ea73032b?impolicy=wcms_watermark_news&cropH=405&cropW=721&xPos=127&yPos=198&width=862&height=485&imformat=generic",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-f8994f18-1604-57f2-9d85-a8f4702e7daa",
-        "title": "DiaMedica rises after $86M stock offering, mid-stage trial data for lead asset",
-        "description": "DiaMedica rises after $86M stock offering, mid-stage trial data for lead asset",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-11-24T17:12:02.000Z",
-        "url": "https://seekingalpha.com/news/4676288-diamedica-stock-rises-86m-stock-offering",
+        "id": "currents-55a58653-a9a9-596e-88e0-25af9153ad15",
+        "title": "Sydney fire ant infestation more serious than first thought",
+        "description": "A nest detected in Auburn was successfully treated at the weekend, but further surveillance has revealed a more extensive presence of fire ants requiring intensive treatment and a broader biosecurity response.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-11-25T01:24:42.000Z",
+        "url": "https://www.abc.net.au/news/2026-11-25/nsw-government-ramps-up-efforts-to-respond-to-fire-ants-/107424812",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/1fb4a369ab7a3473a01459f68d67919b?impolicy=wcms_watermark_news&cropH=1234&cropW=2194&xPos=0&yPos=114&width=862&height=485&imformat=generic",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-3440cc0e-8dca-5e08-ad9b-8f08885e5ece",
-        "title": "BioNTech co-founders in discussions to raise $1B for cancer start-up: FT",
-        "description": "BioNTech co-founders in discussions to raise $1B for cancer start-up: FT",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-11-24T17:11:37.000Z",
-        "url": "https://seekingalpha.com/news/4676281-biontech-co-founders-discussions-raise-1b-cancer-start-up",
+        "id": "currents-6193b3cb-47af-5b12-ab35-1e54ea91fd5d",
+        "title": "Man who US mistakenly deported to home country to self-deport to Spain",
+        "description": "Kilmar Abrego Garcia's self-deportation to Spain ends a lengthy battle for the 31-year-old whose case became a focal point in the US's immigration debate.",
+        "publisher": "Net",
+        "publisherDomain": "abc.net.au",
+        "publishedAt": "2026-11-25T01:24:42.000Z",
+        "url": "https://www.abc.net.au/news/2026-11-25/kilmar-abrego-garcia-self-deporting-from-us-to-spain/107424634",
+        "imageUrl": "https://live-production.wcms.abc-cdn.net.au/448339aba8e57875b350b1d46fc293a9?impolicy=wcms_watermark_news&cropH=2360&cropW=4195&xPos=0&yPos=219&width=862&height=485&imformat=generic",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-87e578e1-50d6-58c1-90e4-d7b2df0d7acb",
+        "title": "Ellington Financial Inc. Announces Estimated Book Value Per Common Share as of October 31, 2026",
+        "description": "Ellington Financial Inc. announced an estimated book value per share of common stock of $13.40 as of October 31, 2026. According to the company, this estimate incorporates the impact of the previously announced monthly dividend of $0.13 per share of common stock, which is schedul",
+        "publisher": "Nasdaq",
+        "publisherDomain": "nasdaq.com",
+        "publishedAt": "2026-11-25T01:29:00.000Z",
+        "url": "https://www.nasdaq.com/articles/ellington-financial-inc-announces-estimated-book-value-common-share-october-31-2026",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-60a66b0f-40d8-5b2b-afaa-3d3bd27a4c4d",
+        "title": "AMPHENOL CORPORATION Enters into Fourth Amended and Restated Credit Agreement and Increases Commercial Paper Programs",
+        "description": "On November 20, 2026, Amphenol Corporation entered into a fourth amended and restated credit agreement among the Company and Amphenol Technologies Holding GmbH, as borrowers, a syndicate of financial institutions, and JPMorgan Chase Bank, N.A. and J.P. Morgan SE, as administrativ",
+        "publisher": "Nasdaq",
+        "publisherDomain": "nasdaq.com",
+        "publishedAt": "2026-11-25T01:28:59.000Z",
+        "url": "https://www.nasdaq.com/articles/amphenol-corporation-enters-fourth-amended-and-restated-credit-agreement-and-increases",
+        "categories": [
+          "Top",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-5c7ab597-dc6b-5af4-9466-6c7c6d0003df",
+        "title": "Stocks Settle Mostly Lower on a Rout in Chipmakers and AI Stocks",
+        "description": "The S&P 500 Index ($SPX ) (SPY ) closed down by -0.50% on Tuesday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up +0.85%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -1.99%. December E-mini S&P futures (ESZ26 ) fell -0.52%, and December E-mini Nasdaq...",
+        "publisher": "Nasdaq",
+        "publisherDomain": "nasdaq.com",
+        "publishedAt": "2026-11-25T01:20:10.000Z",
+        "url": "https://www.nasdaq.com/articles/stocks-settle-mostly-lower-rout-chipmakers-and-ai-stocks",
         "categories": [
           "Top",
           "Business"
@@ -790,14 +851,14 @@
     ],
     "Technology": [
       {
-        "id": "currents-088382f3-a8df-5480-8f37-e3951814bdd8",
-        "title": "Tidal will start banning AI-generated music next month",
-        "description": "Spotify, YouTube Music, and Apple Music still haven’t banned AI.",
-        "publisher": "The Verge",
-        "publisherDomain": "theverge.com",
-        "publishedAt": "2026-11-24T17:17:09.000Z",
-        "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
-        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25319678/STK301_Tidal_01.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "id": "currents-a799f005-ba96-5521-8802-857f2dd0692d",
+        "title": "How to Make a Tower Defense Game with AI: Systems, Balance and Steps",
+        "description": "How to make a tower defense game with AI: the six systems it needs, a starting wave curve and economy to tune, and the build steps in Tyrbo.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-25T01:14:17.000Z",
+        "url": "https://dev.to/tyrboai/how-to-make-a-tower-defense-game-with-ai-systems-balance-and-steps-37ie",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu0zp1eyrg090ot3owobc.png",
         "categories": [
           "Top",
           "U.S.",
@@ -806,30 +867,28 @@
         ]
       },
       {
-        "id": "currents-eb2044c0-77e9-50d3-908d-8851fb4b2cfa",
-        "title": "Security Assessment: Irked (Hack The Box) — Penetration Testing Report",
-        "description": "Comprehensive offensive security assessment and penetration testing report for Irked (Hack The Box). Methodological analysis covering initial access, local privilege escalation, and Enterprise Security remediation.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:19:18.000Z",
-        "url": "https://dev.to/araizcorp/security-assessment-irked-hack-the-box-penetration-testing-report-5504",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Faraizcorp%2Faraizcorp-writeups%2Fmain%2Fhackthebox%2Firked%2Fimages%2Fstep_02.png",
+        "id": "currents-f29d241b-8247-5aa4-a66e-e925cd932043",
+        "title": "US AI data centers over 20MW could now cover more grid costs",
+        "description": "Power-hungry AI data centers over 20MW could soon face mandatory grid upgrade fees after a 62-33 US Senate vote — yet critics warn there's a catch",
+        "publisher": "Techradar",
+        "publisherDomain": "techradar.com",
+        "publishedAt": "2026-11-25T01:25:00.000Z",
+        "url": "https://www.techradar.com/science/climate-change/is-it-a-perfect-bill-no-but-its-the-bill-that-we-can-get-right-now-us-senate-passes-legislation-to-get-data-centers-to-pay-more-for-grid-infrastructure-but-many-think-it-could-have-gone-further",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/7N4ZtNATBytQgNsTt95woQ-2560-80.jpg",
         "categories": [
           "Top",
           "Technology",
-          "Science",
-          "U.S."
+          "Science"
         ]
       },
       {
-        "id": "currents-243f2344-85a9-5145-8f86-ccec239649de",
-        "title": "Security Alerts That Never Arrive — a Dead maldet Monitor, Exim -t and a Hostname With No SPF",
-        "description": "maldet alerts that never arrive — a dead inotify monitor, Exim -t dropping the recipient, and a hostname with no SPF under strict DMARC.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:04.000Z",
-        "url": "https://dev.to/daanial/security-alerts-that-never-arrive-a-dead-maldet-monitor-exim-t-and-a-hostname-with-no-spf-5hlp",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fquabin.com%2Fwp-content%2Fuploads%2F2026%2F11%2Fquabin-server-security-alerts-never-arrive-maldet-exim-spf-hero.png",
+        "id": "currents-241b7d51-2d94-5fa5-a14d-da6ac836fd78",
+        "title": "New chemical route delivers first synthesis of plant compound with cough-suppressing potential",
+        "description": "Neotuberostemonine, a complex plant-derived alkaloid with promising antitussive activity, has remained a challenging target for chemical synthesis for nearly 30 years. Researchers have now achieved its first total synthesis, alongside the synthesis of neostenine and the putative structure of tuberos...",
+        "publisher": "Phys",
+        "publisherDomain": "phys.org",
+        "publishedAt": "2026-11-25T01:20:01.000Z",
+        "url": "https://phys.org/news/2026-11-chemical-route-synthesis-compound-suppressing.html",
         "categories": [
           "Top",
           "U.S.",
@@ -838,62 +897,14 @@
         ]
       },
       {
-        "id": "currents-83ab760e-ecbb-5f42-a111-68c79382d4d4",
-        "title": "Four Tenant Isolation Rules for SaaS Help Center Retrieval Explained",
-        "description": "The hard part of a multi-tenant help center is not producing an answer from a PDF. It is proving that...",
+        "id": "currents-23f787c0-5b47-57a7-b166-5865bb08b6e5",
+        "title": "How to Build a Cold Email Scoring System with JavaScript",
+        "description": "When building ColdMailAI, one of the core features I needed was a way to score cold emails before...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:19:12.000Z",
-        "url": "https://dev.to/sterlingvance2196/four-tenant-isolation-rules-for-saas-help-center-retrieval-explained-pim",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fg7d5hpxc02kkoo5lgs24.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-4ed9177d-e787-5b66-95c9-61ada010ce81",
-        "title": "Marketplace Artifact Retention — Private Access for a Startup App's Uploaded Documents",
-        "description": "Short answer: use private object storage behind an application authorization check, issue short-lived...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:18:44.000Z",
-        "url": "https://dev.to/zachariahholloway9058/marketplace-artifact-retention-private-access-for-a-startup-apps-uploaded-documents-156e",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnjgx94s8acl9l7sutcur.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-42359b6d-b382-5348-b4cf-63daa2098ae3",
-        "title": "Guardrails for a customer-facing AI agent: a ten-point production checklist",
-        "description": "Disclosure: I'm the founder of Aide, an AI customer service platform. Each point below says how we...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:18:21.000Z",
-        "url": "https://dev.to/ziyadbasheer/guardrails-for-a-customer-facing-ai-agent-a-ten-point-production-checklist-62c",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqpzbp2xuvuzezbpn1e2n.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-bfeba362-8e5c-5e5c-b7ec-fc2bb661c155",
-        "title": "Your AI keeps rewriting files you never asked it to touch? Constrain it.",
-        "description": "Vibe coding's most annoying failure mode isn't a wrong answer. It's an AI that \"helpfully\" rewrites...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:39.000Z",
-        "url": "https://dev.to/applied_efficiency/your-ai-keeps-rewriting-files-you-never-asked-it-to-touch-constrain-it-1b7k",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwxr651lhwolnvedj0t6m.png",
+        "publishedAt": "2026-11-25T01:13:30.000Z",
+        "url": "https://dev.to/peterpark_coldmail/how-to-build-a-cold-email-scoring-system-with-javascript-42kl",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjauf43nsoszej47eyqaz.png",
         "categories": [
           "Top",
           "U.S.",
@@ -902,14 +913,14 @@
         ]
       },
       {
-        "id": "currents-9c01fe8c-b6b6-5e10-9061-0b4768eb7a45",
-        "title": "Lambda GPU Instances on Managed Instances: Limits, Pricing and Setup",
-        "description": "Lambda has been CPU-only for its whole life. As of 18 November you can attach a GPU, as long as you...",
+        "id": "currents-890bd8a3-f044-5584-9170-c83639295be6",
+        "title": "GBase Database: Configure sqlhosts in Four Steps to Enable Remote Connections",
+        "description": "Local connections work, but remote connections fail. This is one of the most common issues after a...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:37.000Z",
-        "url": "https://dev.to/damogallagher/lambda-gpu-instances-on-managed-instances-limits-pricing-and-setup-5h2c",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpg49qnlmxvk8rhsw0zql.png",
+        "publishedAt": "2026-11-25T01:13:27.000Z",
+        "url": "https://dev.to/mmllllzcn/gbase-database-configure-sqlhosts-in-four-steps-to-enable-remote-connections-16pj",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4twieve3ke3jdkzq11rz.png",
         "categories": [
           "Top",
           "U.S.",
@@ -918,14 +929,14 @@
         ]
       },
       {
-        "id": "currents-23212ada-4d58-5aad-a6b0-69ed0997f295",
-        "title": "S3 Tables Managed Migration: Hive to Iceberg Without Writing a Pipeline",
-        "description": "If you still have Hive tables sitting in the Glue Data Catalog as Parquet, S3 Tables now has a...",
+        "id": "currents-e7f2bc6d-95fb-5e6f-9de8-76dddb6a03bb",
+        "title": "How to Retry Failed Requests in an AI API Batch",
+        "description": "A nightly job sends 1,000 product descriptions to a model for classification. By morning, 986 labels...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:29.000Z",
-        "url": "https://dev.to/damogallagher/s3-tables-managed-migration-hive-to-iceberg-without-writing-a-pipeline-11g0",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4m3chz9ygsrcyq3crk5g.png",
+        "publishedAt": "2026-11-25T01:13:15.000Z",
+        "url": "https://dev.to/yi_a_38d6fb851f32cff799ed/how-to-retry-failed-requests-in-an-ai-api-batch-329m",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmaxmd9526owe1735xnag.png",
         "categories": [
           "Top",
           "U.S.",
@@ -934,14 +945,14 @@
         ]
       },
       {
-        "id": "currents-a2a2277f-5f1d-5c2f-9a39-0685b23b105a",
-        "title": "EventBridge and Lambda Quietly Deleted a Lot of Glue Code on 20 November",
-        "description": "A few small EventBridge and Lambda announcements from 20 November are easy to skim past. Together...",
+        "id": "currents-92f20034-d367-53ab-95f3-9656ede6e888",
+        "title": "A 9-Question Intake Questionnaire That Saves Freelancers From Scope Creep",
+        "description": "Nine questions to ask every new client in week one, plus a kickoff email and an out-of-scope reply you can copy.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:25.000Z",
-        "url": "https://dev.to/damogallagher/eventbridge-and-lambda-quietly-deleted-a-lot-of-glue-code-on-20-november-4i76",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fx4421r91k49ltfu7d9k9.png",
+        "publishedAt": "2026-11-25T01:12:44.000Z",
+        "url": "https://dev.to/sprintshelf/a-9-question-intake-questionnaire-that-saves-freelancers-from-scope-creep-3hd3",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fszdpe7emno7phd1zeu6k.png",
         "categories": [
           "Top",
           "U.S.",
@@ -950,14 +961,14 @@
         ]
       },
       {
-        "id": "currents-0ff465a2-8368-5ba3-8e3d-b7c02fe451d9",
-        "title": "I Built AI Pets: A Directory to Discover AI Companions and Virtual Pets 🐾",
-        "description": "I've been experimenting with vibe coding lately, and I wanted to build something interesting that...",
+        "id": "currents-ad63d22e-d32c-553e-b62c-77c9f707f8e8",
+        "title": "Testing a Mini App Across a Shift Change on a Shared Tablet",
+        "description": "Use a two-employee test fixture to check what happens to stock searches, a pending refund and a late response when a store tablet changes hands.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:15.000Z",
-        "url": "https://dev.to/maxxstone/i-built-ai-pets-a-directory-to-discover-ai-companions-and-virtual-pets-4hk5",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F08mbt0g7iircxj9qb0xq.png",
+        "publishedAt": "2026-11-25T01:12:37.000Z",
+        "url": "https://dev.to/ai_superapp/testing-a-mini-app-across-a-shift-change-on-a-shared-tablet-50ng",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fsuper-apps.ai%2Fblog%2Fcontent%2Fimages%2F2026%2F11%2Fcover-14.png",
         "categories": [
           "Top",
           "U.S.",
@@ -968,14 +979,14 @@
     ],
     "Science": [
       {
-        "id": "currents-088382f3-a8df-5480-8f37-e3951814bdd8",
-        "title": "Tidal will start banning AI-generated music next month",
-        "description": "Spotify, YouTube Music, and Apple Music still haven’t banned AI.",
-        "publisher": "The Verge",
-        "publisherDomain": "theverge.com",
-        "publishedAt": "2026-11-24T17:17:09.000Z",
-        "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
-        "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25319678/STK301_Tidal_01.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+        "id": "currents-a799f005-ba96-5521-8802-857f2dd0692d",
+        "title": "How to Make a Tower Defense Game with AI: Systems, Balance and Steps",
+        "description": "How to make a tower defense game with AI: the six systems it needs, a starting wave curve and economy to tune, and the build steps in Tyrbo.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-25T01:14:17.000Z",
+        "url": "https://dev.to/tyrboai/how-to-make-a-tower-defense-game-with-ai-systems-balance-and-steps-37ie",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu0zp1eyrg090ot3owobc.png",
         "categories": [
           "Top",
           "U.S.",
@@ -984,30 +995,28 @@
         ]
       },
       {
-        "id": "currents-eb2044c0-77e9-50d3-908d-8851fb4b2cfa",
-        "title": "Security Assessment: Irked (Hack The Box) — Penetration Testing Report",
-        "description": "Comprehensive offensive security assessment and penetration testing report for Irked (Hack The Box). Methodological analysis covering initial access, local privilege escalation, and Enterprise Security remediation.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:19:18.000Z",
-        "url": "https://dev.to/araizcorp/security-assessment-irked-hack-the-box-penetration-testing-report-5504",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fraw.githubusercontent.com%2Faraizcorp%2Faraizcorp-writeups%2Fmain%2Fhackthebox%2Firked%2Fimages%2Fstep_02.png",
+        "id": "currents-f29d241b-8247-5aa4-a66e-e925cd932043",
+        "title": "US AI data centers over 20MW could now cover more grid costs",
+        "description": "Power-hungry AI data centers over 20MW could soon face mandatory grid upgrade fees after a 62-33 US Senate vote — yet critics warn there's a catch",
+        "publisher": "Techradar",
+        "publisherDomain": "techradar.com",
+        "publishedAt": "2026-11-25T01:25:00.000Z",
+        "url": "https://www.techradar.com/science/climate-change/is-it-a-perfect-bill-no-but-its-the-bill-that-we-can-get-right-now-us-senate-passes-legislation-to-get-data-centers-to-pay-more-for-grid-infrastructure-but-many-think-it-could-have-gone-further",
+        "imageUrl": "https://cdn.mos.cms.futurecdn.net/7N4ZtNATBytQgNsTt95woQ-2560-80.jpg",
         "categories": [
           "Top",
           "Technology",
-          "Science",
-          "U.S."
+          "Science"
         ]
       },
       {
-        "id": "currents-243f2344-85a9-5145-8f86-ccec239649de",
-        "title": "Security Alerts That Never Arrive — a Dead maldet Monitor, Exim -t and a Hostname With No SPF",
-        "description": "maldet alerts that never arrive — a dead inotify monitor, Exim -t dropping the recipient, and a hostname with no SPF under strict DMARC.",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:04.000Z",
-        "url": "https://dev.to/daanial/security-alerts-that-never-arrive-a-dead-maldet-monitor-exim-t-and-a-hostname-with-no-spf-5hlp",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fquabin.com%2Fwp-content%2Fuploads%2F2026%2F11%2Fquabin-server-security-alerts-never-arrive-maldet-exim-spf-hero.png",
+        "id": "currents-241b7d51-2d94-5fa5-a14d-da6ac836fd78",
+        "title": "New chemical route delivers first synthesis of plant compound with cough-suppressing potential",
+        "description": "Neotuberostemonine, a complex plant-derived alkaloid with promising antitussive activity, has remained a challenging target for chemical synthesis for nearly 30 years. Researchers have now achieved its first total synthesis, alongside the synthesis of neostenine and the putative structure of tuberos...",
+        "publisher": "Phys",
+        "publisherDomain": "phys.org",
+        "publishedAt": "2026-11-25T01:20:01.000Z",
+        "url": "https://phys.org/news/2026-11-chemical-route-synthesis-compound-suppressing.html",
         "categories": [
           "Top",
           "U.S.",
@@ -1016,62 +1025,14 @@
         ]
       },
       {
-        "id": "currents-83ab760e-ecbb-5f42-a111-68c79382d4d4",
-        "title": "Four Tenant Isolation Rules for SaaS Help Center Retrieval Explained",
-        "description": "The hard part of a multi-tenant help center is not producing an answer from a PDF. It is proving that...",
+        "id": "currents-23f787c0-5b47-57a7-b166-5865bb08b6e5",
+        "title": "How to Build a Cold Email Scoring System with JavaScript",
+        "description": "When building ColdMailAI, one of the core features I needed was a way to score cold emails before...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:19:12.000Z",
-        "url": "https://dev.to/sterlingvance2196/four-tenant-isolation-rules-for-saas-help-center-retrieval-explained-pim",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fg7d5hpxc02kkoo5lgs24.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-4ed9177d-e787-5b66-95c9-61ada010ce81",
-        "title": "Marketplace Artifact Retention — Private Access for a Startup App's Uploaded Documents",
-        "description": "Short answer: use private object storage behind an application authorization check, issue short-lived...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:18:44.000Z",
-        "url": "https://dev.to/zachariahholloway9058/marketplace-artifact-retention-private-access-for-a-startup-apps-uploaded-documents-156e",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnjgx94s8acl9l7sutcur.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-42359b6d-b382-5348-b4cf-63daa2098ae3",
-        "title": "Guardrails for a customer-facing AI agent: a ten-point production checklist",
-        "description": "Disclosure: I'm the founder of Aide, an AI customer service platform. Each point below says how we...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:18:21.000Z",
-        "url": "https://dev.to/ziyadbasheer/guardrails-for-a-customer-facing-ai-agent-a-ten-point-production-checklist-62c",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqpzbp2xuvuzezbpn1e2n.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-bfeba362-8e5c-5e5c-b7ec-fc2bb661c155",
-        "title": "Your AI keeps rewriting files you never asked it to touch? Constrain it.",
-        "description": "Vibe coding's most annoying failure mode isn't a wrong answer. It's an AI that \"helpfully\" rewrites...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:39.000Z",
-        "url": "https://dev.to/applied_efficiency/your-ai-keeps-rewriting-files-you-never-asked-it-to-touch-constrain-it-1b7k",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwxr651lhwolnvedj0t6m.png",
+        "publishedAt": "2026-11-25T01:13:30.000Z",
+        "url": "https://dev.to/peterpark_coldmail/how-to-build-a-cold-email-scoring-system-with-javascript-42kl",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjauf43nsoszej47eyqaz.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1080,14 +1041,14 @@
         ]
       },
       {
-        "id": "currents-9c01fe8c-b6b6-5e10-9061-0b4768eb7a45",
-        "title": "Lambda GPU Instances on Managed Instances: Limits, Pricing and Setup",
-        "description": "Lambda has been CPU-only for its whole life. As of 18 November you can attach a GPU, as long as you...",
+        "id": "currents-890bd8a3-f044-5584-9170-c83639295be6",
+        "title": "GBase Database: Configure sqlhosts in Four Steps to Enable Remote Connections",
+        "description": "Local connections work, but remote connections fail. This is one of the most common issues after a...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:37.000Z",
-        "url": "https://dev.to/damogallagher/lambda-gpu-instances-on-managed-instances-limits-pricing-and-setup-5h2c",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpg49qnlmxvk8rhsw0zql.png",
+        "publishedAt": "2026-11-25T01:13:27.000Z",
+        "url": "https://dev.to/mmllllzcn/gbase-database-configure-sqlhosts-in-four-steps-to-enable-remote-connections-16pj",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4twieve3ke3jdkzq11rz.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1096,14 +1057,14 @@
         ]
       },
       {
-        "id": "currents-23212ada-4d58-5aad-a6b0-69ed0997f295",
-        "title": "S3 Tables Managed Migration: Hive to Iceberg Without Writing a Pipeline",
-        "description": "If you still have Hive tables sitting in the Glue Data Catalog as Parquet, S3 Tables now has a...",
+        "id": "currents-e7f2bc6d-95fb-5e6f-9de8-76dddb6a03bb",
+        "title": "How to Retry Failed Requests in an AI API Batch",
+        "description": "A nightly job sends 1,000 product descriptions to a model for classification. By morning, 986 labels...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:29.000Z",
-        "url": "https://dev.to/damogallagher/s3-tables-managed-migration-hive-to-iceberg-without-writing-a-pipeline-11g0",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4m3chz9ygsrcyq3crk5g.png",
+        "publishedAt": "2026-11-25T01:13:15.000Z",
+        "url": "https://dev.to/yi_a_38d6fb851f32cff799ed/how-to-retry-failed-requests-in-an-ai-api-batch-329m",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmaxmd9526owe1735xnag.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1112,14 +1073,14 @@
         ]
       },
       {
-        "id": "currents-a2a2277f-5f1d-5c2f-9a39-0685b23b105a",
-        "title": "EventBridge and Lambda Quietly Deleted a Lot of Glue Code on 20 November",
-        "description": "A few small EventBridge and Lambda announcements from 20 November are easy to skim past. Together...",
+        "id": "currents-92f20034-d367-53ab-95f3-9656ede6e888",
+        "title": "A 9-Question Intake Questionnaire That Saves Freelancers From Scope Creep",
+        "description": "Nine questions to ask every new client in week one, plus a kickoff email and an out-of-scope reply you can copy.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:25.000Z",
-        "url": "https://dev.to/damogallagher/eventbridge-and-lambda-quietly-deleted-a-lot-of-glue-code-on-20-november-4i76",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fx4421r91k49ltfu7d9k9.png",
+        "publishedAt": "2026-11-25T01:12:44.000Z",
+        "url": "https://dev.to/sprintshelf/a-9-question-intake-questionnaire-that-saves-freelancers-from-scope-creep-3hd3",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fszdpe7emno7phd1zeu6k.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1128,14 +1089,14 @@
         ]
       },
       {
-        "id": "currents-0ff465a2-8368-5ba3-8e3d-b7c02fe451d9",
-        "title": "I Built AI Pets: A Directory to Discover AI Companions and Virtual Pets 🐾",
-        "description": "I've been experimenting with vibe coding lately, and I wanted to build something interesting that...",
+        "id": "currents-ad63d22e-d32c-553e-b62c-77c9f707f8e8",
+        "title": "Testing a Mini App Across a Shift Change on a Shared Tablet",
+        "description": "Use a two-employee test fixture to check what happens to stock searches, a pending refund and a late response when a store tablet changes hands.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-24T17:17:15.000Z",
-        "url": "https://dev.to/maxxstone/i-built-ai-pets-a-directory-to-discover-ai-companions-and-virtual-pets-4hk5",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F08mbt0g7iircxj9qb0xq.png",
+        "publishedAt": "2026-11-25T01:12:37.000Z",
+        "url": "https://dev.to/ai_superapp/testing-a-mini-app-across-a-shift-change-on-a-shared-tablet-50ng",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fsuper-apps.ai%2Fblog%2Fcontent%2Fimages%2F2026%2F11%2Fcover-14.png",
         "categories": [
           "Top",
           "U.S.",
@@ -1146,209 +1107,209 @@
     ],
     "Sports": [
       {
-        "id": "currents-eb4d0e64-d65b-56e8-9031-4d617809acc5",
-        "title": "Alberta bill poses potential risk to TC Energy growth plans, CIBC analysts say",
-        "description": "CALGARY - Analysts at CIBC Capital Markets say proposed Alberta legislation creates uncertainty around TC Energy Corp.",
+        "id": "currents-0f1fc79c-53f4-5be8-a3c5-5d86b8f03da1",
+        "title": "Billie Jean King gives update on Chris Evert's ovarian cancer fight",
+        "description": "Billie Jean King is sharing an update about her friend and fellow tennis legend, Chris Evert - whose battle with ovarian cancer continues.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-11-25T01:05:39.000Z",
+        "url": "https://www.dailymail.com/sport/tennis/article-16319923/billie-jean-king-chris-evert-cancer-update.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/11/25/01/112710903-0-image-m-43_1795568503282.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-5d36bea1-82c1-5d37-aa95-c0de383c2a8f",
+        "title": "'I'm close': Aussie No.1 primed for PGA Championship",
+        "description": "Min Woo Lee will spearhead the home hopes at the Australian PGA Championship, back in Sydney for the first time in 28 years.",
+        "publisher": "Thewest",
+        "publisherDomain": "thewest.com.au",
+        "publishedAt": "2026-11-25T01:09:37.000Z",
+        "url": "https://thewest.com.au/sport/golf/im-close-aussie-no1-primed-for-pga-championship-c-23210229",
+        "imageUrl": "https://images.thewest.com.au/publication/C-23210229/daf7c85a6ac339d4df079824da42d27554267664-16x9-x0y0w1280h720.jpg?imwidth=1200",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-bb2ede33-7f95-5cea-8fdb-8d0365c08cc6",
+        "title": "Holt and Krivas lead No. 8 Arizona past Providence 84-66 in Maui Invitational semifinals",
+        "description": "LAHAINA, Hawaii (AP) — Caleb Holt scored 21 points and Motiejus Krivas had 20 to carry No. 8 Arizona to a convincing 84-66 win over Providence in a Maui Invitational semifinal Tuesday.",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-11-24T17:21:58.000Z",
-        "url": "https://www.winnipegfreepress.com/business/2026/11/24/alberta-bill-poses-potential-risk-to-tc-energy-growth-plans-cibc-analysts-say",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b05c281a49f3e370953b8adjpeg.jpg?w=1600",
+        "publishedAt": "2026-11-25T01:06:27.000Z",
+        "url": "https://www.winnipegfreepress.com/uncategorized/2026/11/24/holt-and-krivas-lead-no-8-arizona-past-providence-84-66-in-maui-invitational-semifinals",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b0634908814a491e9f1a96djpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-1b469e7b-b91e-5f9a-b6ea-c5b85cdae3fd",
-        "title": "Britain’s ‘Rigged’ Fishing Industry Is Fueling Overfishing - Inside Climate News",
-        "description": "Large-scale boats were caught violating fishing rules 66 percent of the time, while small boats struggle to survive.",
-        "publisher": "Insideclimatenews",
-        "publisherDomain": "insideclimatenews.org",
-        "publishedAt": "2026-11-24T17:04:06.000Z",
-        "url": "https://insideclimatenews.org/news/24112026/uk-fishing-industry-fuels-overfishing",
-        "imageUrl": "https://insideclimatenews.org/wp-content/uploads/2026/11/%C2%A9-Copyright-Chris-Gomersall_Nature-Picture-Library-1-1024x680.jpg",
+        "id": "currents-44871401-35c6-5776-818b-18ca6854c1b3",
+        "title": "Audi New Zealand moves updated Q4 e-tron to all-quattro",
+        "description": "Audi's expression of the VW Group's MEB EV platform was launched in NZ with a choice of RWD/AWD, but Audi NZ has now decided to concentrate on quattro.",
+        "publisher": "Drivencarguide",
+        "publisherDomain": "drivencarguide.co.nz",
+        "publishedAt": "2026-11-25T01:05:00.000Z",
+        "url": "https://www.drivencarguide.co.nz/news/audi-new-zealand-moves-updated-q4-e-tron-to-all-quattro",
+        "imageUrl": "https://www.drivencarguide.co.nz/media/ex3djrgt/a263559_medium.jpg?v=1dd7c1a0b7dca50",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-c42d1481-e7da-515e-b322-47780ece7e84",
-        "title": "Woman turns her B&B into a bakery school with Irish baking classes",
-        "description": "A woman has turned her B&B into a bakery school, offering classes in traditional Irish baking and giving the property a whole new purpose",
-        "publisher": "Belfastlive",
-        "publisherDomain": "belfastlive.co.uk",
-        "publishedAt": "2026-11-24T17:10:46.000Z",
-        "url": "https://www.belfastlive.co.uk/whats-on/food-drink-news/meet-woman-who-transformed-bb-34957724",
-        "imageUrl": "https://i2-prod.belfastlive.co.uk/article34958041.ece/ALTERNATES/s1200d/0_IMG_7753jpeg.jpg",
+        "id": "currents-adeffd43-4efc-5e52-9b9b-c3d3ae94d435",
+        "title": "Fury reveals he had voices in his head 'telling me to kill myself'",
+        "description": "The Gypsy King suffered a breakdown after achieving his life's obsession of defeating Wladimir Klitschko in 2015, during which time he suffered a bout of psychosis and began to hear voices.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-11-25T00:09:34.000Z",
+        "url": "https://www.dailymail.com/sport/boxing/article-16319961/I-voices-head-telling-kill-Tyson-Fury-reveals-dark-demonic-place-diagnosed-schizophrenia-opens-struggles-candid-new-interview.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/11/25/00/112709931-0-image-a-20_1795564823833.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-14e1f308-7fc5-5198-9684-26c9a9ae35ad",
-        "title": "Hugh Hewitt’s Amnesty: Why Trump Should Change Course",
-        "description": "Trump should change course, but Hugh Hewitt’s proposed approach isn’t the answer. A critique of Hewitt’s amnesty proposal and the path forward.",
-        "publisher": "Nationalreview",
-        "publisherDomain": "nationalreview.com",
-        "publishedAt": "2026-11-24T17:07:09.000Z",
-        "url": "https://www.nationalreview.com/article/hugh-hewitt-s-amnesty",
-        "imageUrl": "https://www.nationalreview.com/images/scms/yu68q2re/production/770b28b4be3d8872e56b43b0598a102193da563e-2057x1200.jpg?fm=jpg&q=75",
+        "id": "currents-2f25ac0f-799d-5691-b326-e74f04f942d1",
+        "title": "Demons' new double act ready for biggest stage",
+        "description": "Tyla Hanks and Olivia Purcell have become Melbourne's imposing midfield duo and are ready to make it count on the AFLW grand final stage.",
+        "publisher": "Thewest",
+        "publisherDomain": "thewest.com.au",
+        "publishedAt": "2026-11-25T01:01:09.000Z",
+        "url": "https://thewest.com.au/sport/afl/demons-new-double-act-ready-for-biggest-stage-c-23210129",
+        "imageUrl": "https://images.thewest.com.au/publication/C-23210129/016c06582c7d0cb016b51c2363ab0f9b11c97d57-16x9-x0y0w1280h720.jpg?imwidth=1200",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-163c5940-97f2-50b9-b1ff-1d403458974f",
-        "title": "Nearly $1M lost in online scams targeting Manitoba lawyers and clients",
-        "description": "Manitoba lawyers have been hit with a series of “disturbing” cyber frauds in the past two months, the profession’s provincial regulator says. The Law Society of Manitoba said in a […]",
+        "id": "currents-1fb2d8bc-a504-54e7-b051-c877d1efd6c7",
+        "title": "A year after Hong Kong's deadly fire, survivors struggle with loss and lingering sense of injustice",
+        "description": "HONG KONG (AP) — Yip Ka-kui still sends WhatsApp voice messages to his wife even though they will never be heard. She was one of 168 people killed last November in Hong Kong’s deadliest fire in decades.",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-11-24T17:23:20.000Z",
-        "url": "https://www.winnipegfreepress.com/breakingnews/2026/11/24/nearly-1m-lost-in-online-scams-targeting-manitoba-lawyers-and-clients",
+        "publishedAt": "2026-11-25T01:00:43.000Z",
+        "url": "https://www.winnipegfreepress.com/world/2026/11/24/a-year-after-hong-kongs-deadly-fire-survivors-struggle-with-loss-and-lingering-sense-of-injustice",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b06332edbdd855fc9eea1ffjpeg.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-cf77dd0a-89f1-5aec-9ab4-9c10f7802de3",
+        "title": "US ready to slap tariffs on China, EU and others over subsidized production, AP sources say",
+        "description": "WASHINGTON (AP) — The Trump administration is expected to soon announce plans to raise tariffs on China, the European Union and 14 other economies, according to two people familiar with the matter.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-11-25T00:57:19.000Z",
+        "url": "https://www.winnipegfreepress.com/business/2026/11/24/us-ready-to-slap-tariffs-on-china-eu-and-others-over-subsidized-production-ap-sources-say",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6afae25a1e37d8fa64d479d5jpeg_62b7db.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-88517c83-825c-5d3b-a67a-69004dc183ef",
+        "title": "Ravens waive LaJohntay Wester after 2 fumbled punts against Panthers",
+        "description": "OWINGS MILLS, Md. (AP) — The Baltimore Ravens waived LaJohntay Wester on Tuesday after he fumbled two punts in last weekend",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-11-25T00:54:18.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/11/24/ravens-waive-lajohntay-wester-after-2-fumbled-punts-against-panthers",
         "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-6c303f6a-ca21-5191-835b-c82918c7f1eb",
-        "title": "Yankees finalize 1-year contracts with left-handed relievers Brent Suter and Tim Hill",
-        "description": "NEW YORK (AP) — The Yankees finalized one-year contracts with a pair of left-handed relievers Tuesday, adding Brent Suter with a $4 million deal and retaining Tim Hill with a $2.25 million agreement.",
+        "id": "currents-ced30602-a894-52f3-a187-a2a4b397b38c",
+        "title": "Banfield’s cheeky nod to specialist Dockers role",
+        "description": "Bailey Banfield has given a humorous nod to a sub-optimal specialist position from his Dockers past as he gets set to begin his new AFL life at Essendon.",
+        "publisher": "Thewest",
+        "publisherDomain": "thewest.com.au",
+        "publishedAt": "2026-11-25T00:52:23.000Z",
+        "url": "https://thewest.com.au/sport/fremantle-dockers/bailey-banfield-new-essendon-recruits-cheeky-nod-to-specialist-fremantle-dockers-role-c-23209379",
+        "imageUrl": "https://images.thewest.com.au/publication/C-23209379/4bc2c0eb8fb223d84d9e2943c231aab4c060c629-16x9-x1y0w2446h1376.jpg?imwidth=1200",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-8b398442-b56c-5241-a865-ddde5e043d70",
+        "title": "Tommy DeVito embracing opportunity as starter with Patriots",
+        "description": "FOXBOROUGH, Mass. (AP) — Tommy DeVito was a rookie with the New York Giants in 2023 when he first endured the pressure cooker of being an NFL backup thrust into action during the middle of a season.",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-11-24T17:21:20.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/baseball/2026/11/24/yankees-finalize-1-year-contracts-with-left-handed-relievers-brent-suter-and-tim-hill",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b04d232088dd33913eaf15cjpeg.jpg?w=1600",
+        "publishedAt": "2026-11-25T00:45:33.000Z",
+        "url": "https://www.winnipegfreepress.com/sports/football/nfl/2026/11/24/tommy-devito-embracing-opportunity-as-starter-with-patriots",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b062fa2dbdd855fc9ee9e29jpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-7cf78588-1da5-5209-9424-a781e2a39a06",
-        "title": "Lightning forward Conor Geekie out 4-5 months after having shoulder surgery",
-        "description": "Tampa Bay Lightning forward Conor Geekie is expected to miss the next four to five months after undergoing shoulder surgery, the team said Tuesday.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-11-24T17:15:18.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/hockey/2026/11/24/lightning-forward-conor-geekie-out-4-5-months-after-having-shoulder-surgery",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6af91ebedbdd855fc9e719dajpeg_1ad3ea.jpg?w=1600",
+        "id": "currents-1a84db2d-cb77-5580-9420-dae59a948aa6",
+        "title": "Bryce Young, David Tepper, Panthers Feed 1,200+ Fans Turkey Dinner",
+        "description": "The Carolina Panthers didn't just talk about giving back this Thanksgiving ... they went ham on the holiday, turkey style!",
+        "publisher": "Tmz",
+        "publisherDomain": "tmz.com",
+        "publishedAt": "2026-11-25T00:42:53.000Z",
+        "url": "https://www.tmz.com/2026/11/24/carolina-panthers-feed-turkey-thanksgiving-dinner-to-kids",
+        "imageUrl": "https://imagez.tmz.com/image/db/16by9/2026/11/25/dbcfc493c1124f7fa43fa6a1021da002_xl.png",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-9a18c4a7-b721-5d29-87e8-fe2db2d27e51",
-        "title": "Stasya Pandya Clinches Top Spot In Youth Category At FEI Dressage World Challenge 2026 With 70.82% Score",
-        "description": "Young Indian equestrian Stasya Pandya has secured 1st place in the Youth Category of the FEI Dressage World Challenge (FEI WDC) 2026, achieving an impressive score of 70.825% riding her horse.",
-        "publisher": "Ndtv",
-        "publisherDomain": "sports.ndtv.com",
-        "publishedAt": "2026-11-24T17:07:00.000Z",
-        "url": "https://sports.ndtv.com/equestrian/stasya-pandya-clinches-top-spot-in-youth-category-at-fei-dressage-world-challenge-2026-with-70-82-score-12372325",
-        "imageUrl": "https://c.ndtvimg.com/2026-11/vamevv3k_stasya-pandya_625x300_24_November_26.jpeg?im=FaceCrop,algorithm=dnn,width=1600,height=900",
+        "id": "currents-3644b33b-24d5-515c-82af-f38934e10fd5",
+        "title": "PCB plans Arbab Niaz Stadium Revival After 19 Years in Peshawar, set to Host PSL Opener",
+        "description": "PCB plans to revive Peshawars Arbab Niaz Stadium, with domestic triangular series matches in December and the PSL opening ceremony and match scheduled for March.",
+        "publisher": "Mykhel",
+        "publisherDomain": "mykhel.com",
+        "publishedAt": "2026-11-25T00:40:22.000Z",
+        "url": "https://www.mykhel.com/cricket/pcb-plans-arbab-niaz-stadium-revival-after-19-years-in-peshawar-set-to-host-psl-opener-460009.html",
+        "imageUrl": "https://images.mykhel.com/img/2026/11/peshawar-stadium-72441795549125.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-3fad95d2-3476-521b-b14b-7bbee6ec17fb",
-        "title": "Wales star in boot and out of Japan match and Wallaby escapes ban for incident",
-        "description": "The latest headlines from around the rugby world",
-        "publisher": "Walesonline",
-        "publisherDomain": "walesonline.co.uk",
-        "publishedAt": "2026-11-24T17:06:51.000Z",
-        "url": "https://www.walesonline.co.uk/sport/rugby/rugby-news/wales-star-boot-out-japan-34959073",
-        "imageUrl": "https://i2-prod.walesonline.co.uk/article34960899.ece/ALTERNATES/s1200d/0_JS424318067.jpg",
+        "id": "currents-b3a99159-9933-5cf7-b956-c2a9e5b66560",
+        "title": "$1.23 billion and rising: Tasmania’s AFL stadium is becoming a ‘runaway train’",
+        "description": "Former Collingwood president and AFL executive Jeff Browne says the latest costings for the Tasmanian AFL stadium has cast further doubt on whether the state can afford the team.",
+        "publisher": "Smh",
+        "publisherDomain": "smh.com.au",
+        "publishedAt": "2026-11-25T00:30:00.000Z",
+        "url": "https://www.smh.com.au/sport/afl/1-23-billion-and-rising-tasmania-s-afl-stadium-is-becoming-a-runaway-train-20261125-p61gvd.html",
+        "imageUrl": "https://static.ffx.io/images/$zoom_0.5174%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/d093bb3cd8ebc2ed1bb015666bba4f3981d119a1",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-cae0411e-d168-539b-ae9b-8628e00fa012",
-        "title": "Edmonton's Daniel Costa named one of Canada's six iconic chefs by Air Canada",
-        "description": "Edmonton chef Daniel Costa is being celebrated by Air Canada's enRoute Magazine as one of Air Canada's Best New Restaurants Icons",
-        "publisher": "Edmontonjournal",
-        "publisherDomain": "edmontonjournal.com",
-        "publishedAt": "2026-11-24T17:05:07.000Z",
-        "url": "https://edmontonjournal.com/life/edmonton-chef-daniel-costa-air-canada-icons",
-        "imageUrl": "https://smartcdn.gprod.postmedia.digital/edmontonjournal/wp-content/uploads/2026/11/costa-0620-copy.ej_306406473.jpg",
+        "id": "currents-c4633d21-6be5-5de2-968a-f4f37253422c",
+        "title": "No Joyce Edwards vs. UConn. What it means for Gamecocks lineup",
+        "description": "South Carolina will be without its star forward vs. No. 7 UConn tonight.",
+        "publisher": "Thestate",
+        "publisherDomain": "thestate.com",
+        "publishedAt": "2026-11-25T00:23:08.000Z",
+        "url": "https://www.thestate.com/sports/college/university-of-south-carolina/usc-womens-basketball/article318242101.html",
+        "imageUrl": "https://www.thestate.com/public/latest-news/v0qby1/picture318092922/alternates/LANDSCAPE_1200/final-8337.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-527117ba-975b-53db-8bdd-8ebf26d98ac9",
-        "title": "New charity range gives Edinburgh boutique founder chance to ‘give something back’",
-        "description": "The limited edition bags and lavender hangers are available now in store and online",
-        "publisher": "Scotsman",
-        "publisherDomain": "edinburghnews.scotsman.com",
-        "publishedAt": "2026-11-24T17:01:37.000Z",
-        "url": "https://www.edinburghnews.scotsman.com/news/scottish-textile-showcase-maggies-cancer-charity-new-collection-9371840",
-        "imageUrl": "https://www.edinburghnews.scotsman.com/jpim-static/image/2026/11/24/16/16/Scottish-Textiles-Showcase-Maggies-Edinburgh-Nov-2026.jpg?trim=143,3,52,0&crop=&width=1200&auto=webp&quality=75",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-6ace5d35-2d0f-5c0b-810a-9d12511b6f75",
-        "title": "Ben Stokes Registers For IPL 2027 Auction Despite BCCI's Strict Rule, Base Price Rs 2 Crore: Report",
-        "description": "Former England captain Ben Stokes is set to be one of the marquee names in the Indian Premier League (IPL) 2027 auction, with several reports emerging that the star all-rounder has registered his name.",
-        "publisher": "Ndtv",
-        "publisherDomain": "sports.ndtv.com",
-        "publishedAt": "2026-11-24T17:01:00.000Z",
-        "url": "https://sports.ndtv.com/ipl-2027/ben-stokes-registers-for-ipl-2027-auction-despite-bccis-strict-rule-base-price-rs-2-crore-report-12372302",
-        "imageUrl": "https://c.ndtvimg.com/2026-11/rdheue14_ben-stokes_625x300_24_November_26.jpg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-aa60d576-85e7-50be-9b8a-18627fbab612",
-        "title": "Black Ferns to play Nelson, Timaru and Palmerston North",
-        "description": "The Ferns will host Canada, the USA, Australia and the British and Irish Lions in 2027.",
-        "publisher": "Nzherald",
-        "publisherDomain": "nzherald.co.nz",
-        "publishedAt": "2026-11-24T17:00:00.000Z",
-        "url": "https://www.nzherald.co.nz/sport/rugby/black-ferns/black-ferns-take-tests-to-nelson-timaru-and-palmerston-north-in-2027/YNAGSHBXNBEP3EDP5UL4SUO36M",
-        "imageUrl": "https://www.nzherald.co.nz/resizer/v2/FU25OWVCQZB5VNUAFO4KSYEVDI.jpg?auth=ce2b7ca3dd266f7d49c339b91db85c1484f1e6a7b2b95c5fc049ef0a8e45cfb7&width=1200&height=675&quality=70&smart=true",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-23f29295-e635-5280-a9a2-8f33d7c1f767",
-        "title": "Why New Zealand rugby cannot afford to lose Wallace Sititi in his prime",
-        "description": "All Blacks and Chiefs loose forward is expected to depart New Zealand rugby in his prime.",
-        "publisher": "Nzherald",
-        "publisherDomain": "nzherald.co.nz",
-        "publishedAt": "2026-11-24T16:55:00.000Z",
-        "url": "https://www.nzherald.co.nz/sport/rugby/all-blacks/all-blacks-v-england-wallace-sititi-expected-to-join-stade-francais-in-major-blow/premium/YUF624MQ25HNLJQQCH5CQKANIQ",
-        "imageUrl": "https://www.nzherald.co.nz/resizer/v2/5TXAH77NWZANBIEOTYLRA7XEOE.jpg?auth=0ab7af6b4cf65d2b8a9513772e4184312278f1201b88f68f6cba4f8c7bdf89a4&width=1200&height=675&quality=70&focal=1076%2C406&smart=false",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-6a255080-8609-5d65-b696-dca067d59494",
-        "title": "First Nation welcomes manslaughter charges against 3 Calgary police officers",
-        "description": "CALGARY - The chief of the Blood Tribe in southern Alberta says he welcomed the news that three Calgary police officers have been charged in the death of a band member.",
-        "publisher": "Winnipegfreepress",
-        "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-11-24T16:54:51.000Z",
-        "url": "https://www.winnipegfreepress.com/uncategorized/2026/11/24/first-nation-welcomes-manslaughter-charges-against-3-calgary-police-officers",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b047f22930a7a5b3f6a9b01jpeg.jpg?w=1600",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-b13728f6-a9c6-5de4-b122-c95311fb2e08",
-        "title": "‘We got the best deal possible’ on our dream holiday to Florida",
-        "description": "A family trip to experience the very best that Florida has to offer is hundreds of pounds cheaper",
-        "publisher": "Scotsman",
-        "publisherDomain": "edinburghnews.scotsman.com",
-        "publishedAt": "2026-11-24T16:53:49.000Z",
-        "url": "https://www.edinburghnews.scotsman.com/recommended/we-got-the-best-deal-possible-on-our-dream-holiday-to-florida-9370845",
-        "imageUrl": "https://www.edinburghnews.scotsman.com/jpim-static/image/2026/07/25/14/AP-2022-04-18-0f95b9720fcd45e7b1d8d5b5947d72a9.jpg?crop=3:2,smart&trim=&width=1200&auto=webp&quality=75",
+        "id": "currents-d8543d98-8a02-5458-9ee8-284988b3dcab",
+        "title": "Mike Vrabel: No regrets about moving on from Stefon Diggs",
+        "description": "Despite a lack of production from an injury-ravaged recevier room, the Patriots don't regret letting Stefon Diggs go, Mike Vrabel said.",
+        "publisher": "Boston",
+        "publisherDomain": "boston.com",
+        "publishedAt": "2026-11-25T00:06:05.000Z",
+        "url": "https://www.boston.com/sports/new-england-patriots/2026/11/24/mike-vrabel-no-regrets-about-moving-on-from-stefon-diggs",
+        "imageUrl": "https://bdc2020.o0bc.com/wp-content/uploads/2026/11/Bengals_Commanders_Football_13_16-6b061ee101b23-768x432.jpg",
         "categories": [
           "Sports"
         ]
@@ -1356,211 +1317,210 @@
     ],
     "Entertainment": [
       {
-        "id": "currents-664ee1c0-2732-5f89-aa42-4445b6d68792",
-        "title": "Concerns of Cyberattacks Escalate for Global Shipping, US Ports",
-        "description": "Major shipping companies, vessels and U.S. ports are facing an escalation of cyberattack attempts, raising concerns over disruptions to global trade.",
-        "publisher": "Wwd",
-        "publisherDomain": "wwd.com",
-        "publishedAt": "2026-11-24T17:18:05.000Z",
-        "url": "https://wwd.com/sourcing-journal/logistics/cyberattack-concerns-iran-cybersecurity-us-ports-maersk-port-los-angeles-1239463510",
-        "imageUrl": "https://wwd.com/wp-content/uploads/2026/11/portoflosangeles3.jpg?w=1000&h=563&crop=1",
+        "id": "currents-bcb8396d-ccb1-5989-b498-cd9c2ddc970d",
+        "title": "Bella Hadid reveals goal to settle in 'small town' with 'lots' of kids",
+        "description": "Bella Hadid revealed her goal of settling in a 'small town' with 'lots of children' during a recent cover story for Harper's Bazaar.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-11-25T00:57:45.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16319839/bella-hadid-goal-settle-small-town-children-new-romance-cowboy.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/11/25/00/112710295-0-image-m-20_1795566812106.jpg",
         "categories": [
-          "Entertainment",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-17b1f12e-f3a8-5e93-ac38-cdeca3c687ce",
+        "title": "Miss Universe 2026 kicks off coronation show",
+        "description": "Check our Miss Universe 2026 live updates page to get the latest news and features. The Miss Universe pageant has begun the finals of its 75th edition, where the Philippines’ Bea Millan",
+        "publisher": "Inquirer",
+        "publisherDomain": "entertainment.inquirer.net",
+        "publishedAt": "2026-11-25T01:27:20.000Z",
+        "url": "https://entertainment.inquirer.net/691453/miss-universe-2026-kicks-off-coronation-show",
+        "imageUrl": "https://entertainment.inquirer.net/files/2026/11/FA7C5A1D-3BFB-484D-BA9B-19FF568C6A02.jpeg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-5d2682ab-e0a6-5256-85cd-afa8ba5ec2cb",
+        "title": "20 Horrifying Screenshots From “Mommy Facebook Groups” That Prove People Are Just Really, Really Dumb",
+        "description": "I can't believe these are real.",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-11-25T01:16:02.000Z",
+        "url": "https://www.buzzfeed.com/ajanibazile/scary-online-mom-group-posts",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/19/20/thumb/TlECBf9Hv.jpg?crop=2999:1570;0,0%26downsize=1250:*",
+        "categories": [
           "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-e56ba03d-5f4e-5a1a-aa5b-ad56e103330b",
-        "title": "PSA: The Selfridges Black Friday sale is basically your one-stop shop",
-        "description": "Here's what a shopping editor is buying.",
-        "publisher": "Glamourmagazine",
-        "publisherDomain": "glamourmagazine.co.uk",
-        "publishedAt": "2026-11-24T17:17:13.000Z",
-        "url": "https://www.glamourmagazine.co.uk/gallery/selfridges-black-friday-24-11-26",
-        "imageUrl": "https://media.glamourmagazine.co.uk/photos/6b05c28f47e7b4551893a8a3/16:9/w_1280,c_limit/georgia%20bf%20231126%20%20GettyImages-2258972120%20copy.jpg",
-        "categories": [
+          "U.S.",
           "Entertainment"
         ]
       },
       {
-        "id": "currents-ef72214e-f818-5848-9246-4cffb46cfac8",
-        "title": "Firefighters battle blaze at home in Springfield Township, New Jersey",
-        "description": "Chopper 6 was over the scene as flames engulfed the house and heavy smoke filled the area.",
-        "publisher": "6abc",
-        "publisherDomain": "6abc.com",
-        "publishedAt": "2026-11-24T17:14:08.000Z",
-        "url": "https://6abc.com/post/firefighters-battle-blaze-home-springfield-township-new-jersey/20075128",
-        "imageUrl": "https://cdn.abcotvs.com/dip/images/20075194_112426-wpvi-wynwood-drive-fire-springfield-nj-noon-vid.jpg?w=1600",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-a03e710f-fcf7-57bb-bdaa-6c4f382bfe99",
-        "title": "Why Was Spotify Down? Find Out the Reason & Learn About Hack Rumors",
-        "description": "Spotify went down for thousands of users on November 24, 2026. Get updates on the outage and find out the reason why it went dark.",
-        "publisher": "Hollywoodlife",
-        "publisherDomain": "hollywoodlife.com",
-        "publishedAt": "2026-11-24T17:10:24.000Z",
-        "url": "https://hollywoodlife.com/feature/why-is-spotify-down-5380949",
-        "imageUrl": "https://i0.wp.com/media.hollywoodlife.com/uploads/2025/04/GettyImages-901831704_7cbbf8-e1744818074696.jpeg?resize=1200%2C675&quality=100&ssl=1",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-f4b04416-6248-5df0-beeb-849decc66c40",
-        "title": "Avengers: Doomsday’s Chris Evans Reveals if RDJ Takes Off His Doctor Doom Mask in MCU Movie",
-        "description": "Chris Evans reveals whether Robert Downey Jr. removes his Doctor Doom mask in Avengers: Doomsday, offering insight into the MCU villain.",
-        "publisher": "Superherohype",
-        "publisherDomain": "superherohype.com",
-        "publishedAt": "2026-11-24T17:06:37.000Z",
-        "url": "https://www.superherohype.com/movies/708750-avengers-doomsday-chris-evans-rdj-doctor-doom-mask-mcu-movie",
-        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/Avengers_-Doomsday-1.jpg?resize=1200,630",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-9edf10a8-7c2a-5a94-af6c-4b2370a06591",
-        "title": "How to get Truffade Thrax in GTA 6 explained",
-        "description": "How to get the game's fastest car.",
-        "publisher": "Radiotimes",
-        "publisherDomain": "radiotimes.com",
-        "publishedAt": "2026-11-24T17:04:32.000Z",
-        "url": "https://www.radiotimes.com/technology/gaming/gta-6-how-to-get-truffade-thrax-explained",
-        "imageUrl": "https://images.production.immediate.co.uk/volatile/sites/3/2026/11/gta-6-how-to-get-truffade-thrax-9a11e40.jpeg?resize=1200%2C630",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-c807d7fd-7c39-52df-86e8-5a8745d17761",
-        "title": "Hulu, Disney+, Apple TV, HBO Max and More Streamers Up to 80% Off For Black Friday",
-        "description": "From Hulu and HBO Max to Paramount+ and Prime Video, these are the best Black Friday streaming deals to find online this year. Save up to 80% off.",
-        "publisher": "Variety",
-        "publisherDomain": "variety.com",
-        "publishedAt": "2026-11-24T17:00:51.000Z",
-        "url": "https://variety.com/2026/shopping/news/best-black-friday-streaming-deals-1235441075",
-        "imageUrl": "https://variety.com/wp-content/uploads/2022/11/AdobeStock_435606616.jpeg?w=1000&h=563&crop=1",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-9680c40c-6fb2-5bfe-9b49-94d7e2b15660",
-        "title": "Hexed review: Disney's new animation is a lacklustre witch's brew",
-        "description": "There's something very ho-hum about this tale about an American teen discovering magical powers.",
-        "publisher": "Radiotimes",
-        "publisherDomain": "radiotimes.com",
-        "publishedAt": "2026-11-24T17:00:33.000Z",
-        "url": "https://www.radiotimes.com/movies/hexed-review",
-        "imageUrl": "https://images.production.immediate.co.uk/volatile/sites/3/2026/11/Hexed-f34f855.jpg?resize=1200%2C630",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-0c365549-cfc9-5a06-902c-3551b431914b",
-        "title": "‘Hexed’ Review: Disney’s Not-So-Wicked Witch Tale Is Cheery Enough, but Not Terribly Crafty",
-        "description": "An Ohio teen discovers her helicopter mom is not all she seems in Disney's perky animation 'Hexed,' featuring Hailee Steinfeld and Jodie Foster.",
-        "publisher": "Variety",
-        "publisherDomain": "variety.com",
-        "publishedAt": "2026-11-24T17:00:08.000Z",
-        "url": "https://variety.com/2026/film/reviews/hexed-review-1236956898",
-        "imageUrl": "https://variety.com/wp-content/uploads/2026/11/hexed.jpg?w=1000&h=563&crop=1",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-142396aa-2e8a-5392-bea1-97bbcf3a7380",
-        "title": "‘Hexed’ Review: Disney’s Bewitching Animation Is An Edgy Y.A. Fantasy",
-        "description": "‘Hexed’ review: Disney’s bewitching animation is a surprisingly edgy Y.A. fantasy",
-        "publisher": "Deadline",
-        "publisherDomain": "deadline.com",
-        "publishedAt": "2026-11-24T17:00:00.000Z",
-        "url": "https://deadline.com/2026/11/hexed-review-disney-fawn-veerasunthorn-jason-hand-1237232517",
-        "imageUrl": "https://deadline.com/wp-content/uploads/2026/08/Billie_and_Beef.jpg?w=1024",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-2ee73fbc-e790-563f-b347-9ec6f59011df",
-        "title": "Billy Bob Thornton is celebrating ‘The Mayflower’ and 30 years of ‘Sling Blade’ this Thanksgiving",
-        "description": "The Landman star is headlining Fox Nation's new historical docuseries as his Oscar-winning indie hits a milestone anniversary.",
-        "publisher": "Goldderby",
-        "publisherDomain": "goldderby.com",
-        "publishedAt": "2026-11-24T17:00:00.000Z",
-        "url": "https://www.goldderby.com/film/2026/billy-bob-thornton-the-mayflower-sling-blade-30th-anniversary-interview",
-        "imageUrl": "https://www.goldderby.com/wp-content/uploads/2026/11/SLING-BLADE-Billy-Bob-Thornton-1996-1920-1.jpg?w=650",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-64283953-fd37-5b5e-901c-725b9e87c187",
-        "title": "One & Only: Cinematographer Anna Mendes Details How She Navigates Her Career, Creative Vision and Life",
-        "description": "Mendes also discusses the positive impacts her mother has had on her career pursuits and personal choices including BOTOX® Cosmetic (onabotulinumtoxinA) treatment",
-        "publisher": "Variety",
-        "publisherDomain": "variety.com",
-        "publishedAt": "2026-11-24T17:00:00.000Z",
-        "url": "https://variety.com/2026/biz/lifestyle/one-and-only-cinematographer-anna-mendes-career-1236683127",
-        "imageUrl": "https://variety.com/wp-content/uploads/2026/07/variety1-2590.jpg?w=1000&h=563&crop=1",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-7e9fb10a-ac90-5cd4-9757-31b0a8d89a18",
-        "title": "Dead by Daylight: Terrifier's New Killer is No Laughing Matter",
-        "description": "Hope you’re not afraid of clowns. Putting the laughter in slaughter, The Terrifier steps into Dead by Daylight as the hit horror multiplayer’s latest Hope you’re not afraid of clowns. Putting the laughter in slaughter, The Terrifier steps into Dead by Daylight as the hit horror multiplayer’s latest ...",
-        "publisher": "Xbox",
-        "publisherDomain": "news.xbox.com",
-        "publishedAt": "2026-11-24T17:00:00.000Z",
-        "url": "https://news.xbox.com/en-us/2026/11/24/dead-by-daylight-terrifiers-new-killer-is-no-laughing-matter",
-        "imageUrl": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/11/Keyart_Resizes_1920x1080_NO-LOGO-e13566f3baf87bba0e27.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-8d07b159-af07-53d7-901c-e508e6aa11f7",
-        "title": "Jon Abrahams to Direct Survival Drama ‘Merry Christmas, Jay’",
-        "description": "“Scary Movie” and “Meet the Parents” star Jon Abrahams is set to direct “Merry Christmas Jay,” a drama inspired by real-life mechanic Jay Withey.",
-        "publisher": "Variety",
-        "publisherDomain": "variety.com",
-        "publishedAt": "2026-11-24T17:00:00.000Z",
-        "url": "https://variety.com/2026/film/news/jon-abrahams-merry-christmas-jay-1236956771",
-        "imageUrl": "https://variety.com/wp-content/uploads/2026/11/GettyImages-2304673392.jpg?w=1000&h=563&crop=1",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-b22e3242-64ea-591e-90bb-a0f191435718",
-        "title": "Disney’s Latest Original Animated Movie Hexed Is Borrowing From a Lot of Better Films",
-        "description": "Review: Disney’s latest original animated feature Hexed is borrowing from a lot of better films.",
-        "publisher": "Ign",
-        "publisherDomain": "ign.com",
-        "publishedAt": "2026-11-24T17:00:00.000Z",
-        "url": "https://www.ign.com/articles/hexed-review-disney-movie",
-        "imageUrl": "https://assets-prd.ignimgs.com/2026/11/24/disney-hexed-thumb-1795478812017.jpg?width=1280&format=jpg&auto=webp&quality=80",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-c06f300a-8428-574a-b8a8-e4adfd80bbf0",
-        "title": "Hexed Review: Hailee Steinfeld's Bewitching Disney Movie",
-        "description": "ComingSoon reviews Hexed, a new Disney Animation movie starring Hailee Steinfeld, Rashida Jones, and Jodie Foster.",
+        "id": "currents-395b109b-2021-5f59-bc7b-9f5a3062853d",
+        "title": "Emma Roberts Fantasy Movie’s Disney+ Sequel Show Gets Huge Update & Teaser Video",
+        "description": "Emma Roberts is set to return to the world of a fan-favorite movie, and now the Disney+ sequel series to it has gotten some major updates.",
         "publisher": "Comingsoon",
         "publisherDomain": "comingsoon.net",
-        "publishedAt": "2026-11-24T17:00:00.000Z",
-        "url": "https://www.comingsoon.net/movies/reviews/2229937-hexed-review-hailee-steinfelds-bewitching-disney-movie",
-        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/Hexed_Billie_and_Beef.jpg?resize=1200,630",
+        "publishedAt": "2026-11-25T01:14:48.000Z",
+        "url": "https://www.comingsoon.net/tv/news/2230160-emma-roberts-fantasy-movie-disney-sequel-show-update-teaser-video",
+        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/emma-roberts-still.png?resize=1200,630",
+        "categories": [
+          "Top",
+          "U.S.",
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-94207048-e997-5d60-b4c6-968639f4b5bc",
+        "title": "Taylor Swift's teacher claims VF quote was taken out of context",
+        "description": "Sharon Luyben, who taught at Wyomissing Area Junior-Senior High School for 34 years, told TMZ that she spoke highly of the singer, 36, in the interview for the article.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-11-25T00:42:18.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16319823/Taylor-Swift-music-teacher-quote-Vanity-Fair.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/11/25/00/112710271-0-image-m-12_1795565574163.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-5f1a8cdd-f0f3-5e8d-ae2a-dfb040d94e8c",
+        "title": "Avengers: Doomsday Directors on Why Halle Berry’s Storm & Anna Paquin Aren’t in MCU Movie",
+        "description": "Avengers: Doomsday will feature a litany of former X-Men stars, but two very important ones will be missing.",
+        "publisher": "Superherohype",
+        "publisherDomain": "superherohype.com",
+        "publishedAt": "2026-11-25T01:01:38.000Z",
+        "url": "https://www.superherohype.com/movies/708882-avengers-doomsday-directors-halle-berry-storm-aana-pauin-mcu-movie",
+        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/halle-berry-x-men-still.png?resize=1200,630",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-0856256c-2725-5345-9aa4-f105a86cce23",
+        "title": "15 TV Couples Whose Chemistry Was So Intense That It Saved One Of Them From Being Written Off",
+        "description": "On \"Friends,\" Phoebe Buffay was originally supposed to end up with David. However, she married Mike instead because \"Paul Rudd is so awesome that they sort of found a groove with him and [David] became more of just the grist for that mill...as opposed to the other way around.\"",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-11-25T01:01:02.000Z",
+        "url": "https://www.buzzfeed.com/kristenharris1/tv-love-interests-saved-by-chemistry-fs",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2023-03/24/16/enhanced/74e35e7280af/original-930-1679676118-5.jpg?crop=1246:652;0,0%26downsize=1250:*",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-ad6bc169-61df-52a1-8f6f-c8c174108eae",
+        "title": "These 42 Newer Products From Very Beloved Brands Are Too Good To Miss",
+        "description": "If you want the latest from Glossier, Anthro, Laneige, Stanley, and soooo much more, this is about to be your favorite click on the internet.",
+        "publisher": "Buzzfeed",
+        "publisherDomain": "buzzfeed.com",
+        "publishedAt": "2026-11-25T01:01:02.000Z",
+        "url": "https://www.buzzfeed.com/emmalord9/newer-products-beloved-brands-an",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-10/27/16/thumb/eQbTPLs-g.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-2b9897ba-05e3-5491-a4c1-595aae5a4741",
+        "title": "This bento boxed lunch we got at a Japanese supermarket felt like a scam, but maybe it’s not",
+        "description": "Can we find it in our hearts and stomachs to forgive this deceptive-looking bento?",
+        "publisher": "Soranews24",
+        "publisherDomain": "soranews24.com",
+        "publishedAt": "2026-11-25T01:00:08.000Z",
+        "url": "https://soranews24.com/2026/11/25/this-bento-boxed-lunch-we-got-at-a-japanese-supermarket-felt-like-a-scam-but-maybe-its-not",
+        "imageUrl": "https://soranews24.com/wp-content/uploads/sites/3/2026/11/0_3f5c03.jpg?w=1000&h=525&crop=1",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-40dc9e22-95f7-5766-bdfb-58f1a03ac26f",
+        "title": "Tulisa says she ‘did a lot of healing’ before agreeing to new documentary",
+        "description": "She is the subject of a new Paramount+ series following her as she reflects on her rise to fame and the scrutiny that followed.",
+        "publisher": "Standard",
+        "publisherDomain": "standard.co.uk",
+        "publishedAt": "2026-11-25T00:55:03.000Z",
+        "url": "https://www.standard.co.uk/showbiz/celebrity-news/tulisa-contostavlos-the-x-factor-ndubz-noughties-little-mix-b1306278.html",
+        "imageUrl": "https://static.standard.co.uk/2026/11/25/01/6a11442169771524cc235c9b56bb2f1bY29udGVudHNlYXJjaGFwaSwxNzk1NjUxMTIy-2.86594120.jpg?crop=5:3,smart&auto=webp&quality=75&width=1200",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-e1bf9fee-a19e-5ddc-994b-8d907a6e7d03",
+        "title": "Macaulay Culkin Returns to Acting Ahead of Home Alone Sequel for A24 Movie With Constance Wu",
+        "description": "Macaulay Culkin is getting ready for a big return to acting ahead of his planned Home Alone sequel, as he's zeroed in on a high-profile movie",
+        "publisher": "Comingsoon",
+        "publisherDomain": "comingsoon.net",
+        "publishedAt": "2026-11-25T00:46:20.000Z",
+        "url": "https://www.comingsoon.net/movies/news/2230154-macaulay-culkin-returns-acting-home-alone-sequel-a24-movie-constance-wu",
+        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/macaulay-culkin-fallout-still.png?resize=1200,630",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-0da9f847-1870-5afe-ad37-a81b6914f47e",
+        "title": "Taters and craters: Researchers say potatoes can grow in lunar soil",
+        "description": "NASA’s forthcoming lunar colony may be serving up hash browns and french fries.",
+        "publisher": "Mashable",
+        "publisherDomain": "sea.mashable.com",
+        "publishedAt": "2026-11-25T00:44:11.000Z",
+        "url": "https://sea.mashable.com/science/57132/taters-and-craters-researchers-say-potatoes-can-grow-in-lunar-soil",
+        "imageUrl": "https://sm.mashable.com/t/mashable_sea/article/t/taters-and/taters-and-craters-researchers-say-potatoes-can-grow-in-luna_kr6t.1200.jpg",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-d294caf7-6d6e-5a79-a7a5-e5cfe1064c55",
+        "title": "Weather preps ahead of 6abc Dunkin' Thanksgiving Day Parade",
+        "description": "Patrick Kern, VP of Operations of Kern Studios, is leading the crew that is constructing the floats.",
+        "publisher": "6abc",
+        "publisherDomain": "6abc.com",
+        "publishedAt": "2026-11-25T00:41:52.000Z",
+        "url": "https://6abc.com/post/weather-preps-ahead-6abc-dunkin-thanksgiving-day-parade-philadelphia/20076761",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/20076983_112426-wpvi-wx-parade-balloons-img.png?w=1600",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-8772e549-0579-545f-8226-7b58aae43344",
+        "title": "Mario Kart World Has Been Updated To Version 1.9.0, Here Are The Full Patch Notes",
+        "description": "Knockout Tour updates, adjustments, fixes and more.Nintendo has rolled out a new update for its Switch 2 exclusive Mario Kart World this week. It bumps the title up to Version 1.9.0.According to the official patch notes, the Feather and Lucky Cat Rally have been added to Knockout Tour, and multiple ...",
+        "publisher": "Nintendolife",
+        "publisherDomain": "nintendolife.com",
+        "publishedAt": "2026-11-25T01:05:00.000Z",
+        "url": "https://www.nintendolife.com/news/2026/11/mario-kart-world-has-been-updated-to-version-1-9-0-here-are-the-full-patch-notes",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-4a2b67e5-917c-5d82-8011-391722a992d6",
+        "title": "U2 Is Returning to the NFL Halftime Stage for the First Time in 24 Years",
+        "description": "The rock legends previously performed at the Super Bowl XXXVI halftime show back in 2002. U2 are giving fans something to be thankful for this …",
+        "publisher": "Mensjournal",
+        "publisherDomain": "mensjournal.com",
+        "publishedAt": "2026-11-25T00:37:20.000Z",
+        "url": "https://www.mensjournal.com/news/u2-is-returning-to-the-nfl-halftime-stage-for-the-first-time-in-24-years",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-0290d699-7430-5dea-bc4f-69de0af6952c",
+        "title": "‘Dancing With The Stars’ Contestants Perform Knee-Deep In Beans For Legume Night",
+        "publisher": "Theonion",
+        "publisherDomain": "theonion.com",
+        "publishedAt": "2026-11-25T01:00:00.000Z",
+        "url": "https://theonion.com/dancing-with-the-stars-contestants-perform-knee-deep-in-beans-for-legume-night",
+        "imageUrl": "https://theonion.com/wp-content/uploads/2026/11/Dancing_With_Stars_LegumeNIght_SB_IHA_GR-SOCIAL.jpg",
         "categories": [
           "Entertainment"
         ]
@@ -1572,6 +1532,6 @@
     "successfulRequests": 5,
     "failedRequests": 0,
     "articleCountBeforeDeduplication": 100,
-    "articleCountAfterDeduplication": 80
+    "articleCountAfterDeduplication": 77
   }
 }
