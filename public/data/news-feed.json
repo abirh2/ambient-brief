@@ -1,19 +1,35 @@
 {
   "schemaVersion": 1,
   "provider": "currents",
-  "generatedAt": "2026-11-26T12:12:53.027Z",
-  "sourceFetchedAt": "2026-11-26T12:12:53.027Z",
+  "generatedAt": "2026-11-26T21:51:27.171Z",
+  "sourceFetchedAt": "2026-11-26T21:51:27.171Z",
   "status": "success",
   "categories": {
     "Top": [
       {
-        "id": "currents-aa05f0bc-5ab9-52b7-89b9-d0a97adc9544",
-        "title": "'The hour is late': Energy deal still elusive as holidays loom",
-        "description": "The fate of energy legislation in Massachusetts is still unresolved in closed-door legislative talks, which the Senate's lead negotiator this week called \"still very viable but problematic\" and his House counterpart described as \"progressing.\"",
-        "publisher": "Wwlp",
-        "publisherDomain": "wwlp.com",
-        "publishedAt": "2026-11-26T12:07:37.000Z",
-        "url": "https://www.wwlp.com/news/state-politics/the-hour-is-late-energy-deal-still-elusive-as-holidays-loom",
+        "id": "currents-84df3466-a0a0-5766-9dca-6e2479ca888a",
+        "title": "Argentina bans its central bank from printing money for the government",
+        "description": "BUENOS AIRES, Argentina (AP) — Argentina’s Congress voted Thursday to bar the central bank from printing money to pay the government’s bills, enshrining in law a key pillar of President Javier Milei’s fight against the country’s notoriously high inflation.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-11-26T21:35:52.000Z",
+        "url": "https://www.winnipegfreepress.com/business/2026/11/26/argentina-bans-its-central-bank-from-printing-money-for-the-government",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
+        "categories": [
+          "Sports",
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-bb4fb36b-5350-5361-935d-6776c94faba8",
+        "title": "Spain's De Cos chosen as next ECB president",
+        "description": "European leaders have agreed to nominate the former head of the Bank of Spain as the next president of the European Central Bank. Pablo ​Hernandez ‌de ⁠Cos will replace the outgoing Christine Lagarde as the bank faces pressure to tackle high inflation, borrowing costs, and government debt. Also in t...",
+        "publisher": "France24",
+        "publisherDomain": "france24.com",
+        "publishedAt": "2026-11-26T21:40:29.000Z",
+        "url": "https://www.france24.com/en/spain-s-de-cos-chosen-as-next-ecb-president",
         "categories": [
           "Top",
           "World",
@@ -21,42 +37,93 @@
         ]
       },
       {
-        "id": "currents-019caa45-b93d-57ee-bea6-c59f34fd94a8",
-        "title": "What is closed during Thanksgiving? - Wichita",
-        "description": "WICHITA, Kan. (KWCH) - Government buildings and most major retailers will be closed Thursday for Thanksgiving, which is a federal holiday.",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/2026/11/25/what-is-closed-during-thanksgiving?outputType=amp",
+        "id": "currents-2edc9d8b-60e0-55ee-a9c8-53a953d8a78f",
+        "title": "Spain beats Austria 2-0 to set up Davis Cup semifinal vs. Britain",
+        "description": "Daniel Merida gave Spain the lead in its Davis Cup quarterfinal by defeating Austria's Joel Schwaerzler 6-4, 6-4 before Rafael Jodar clinched victory by coming from a set down to overcome Jurij Rodionov 2-6, 6-0, 6-1.",
+        "publisher": "ESPN",
+        "publisherDomain": "espn.com",
+        "publishedAt": "2026-11-26T21:46:17.000Z",
+        "url": "https://www.espn.com/tennis/story/_/id/50606263/spain-beats-austria-set-davis-cup-semifinal-vs-britain",
+        "imageUrl": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1126%2Fr1751791_1296x729_16%2D9.jpg",
+        "categories": [
+          "Sports",
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-a6153c15-54dc-575c-aeeb-af702efdc4f2",
+        "title": "My First Rust + Tauri Project Is a Full Download Manager. Here's What I Learned",
+        "description": "I recently finished HAUL, a desktop download manager, and it was my first project with both Rust and...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-26T21:42:48.000Z",
+        "url": "https://dev.to/mohammedmnoby/my-first-rust-tauri-project-is-a-full-download-manager-heres-what-i-learned-10p5",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fol4dgpzqfligy4hph75o.png",
         "categories": [
           "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-a1fddc2c-8da6-5a2c-a8ac-6c4bdc35320b",
+        "title": "DoRA vs LoRA: is DoRA worth using for fine-tuning?",
+        "description": "DoRA beat LoRA by 1.0 to 4.4 points in its paper and adds few parameters, but trains and serves slower unmerged. When to try it, with the math.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-26T21:41:33.000Z",
+        "url": "https://dev.to/viswaretas_kotra/dora-vs-lora-is-dora-worth-using-for-fine-tuning-4k70",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F09kpd5r8r8c4ovv9ou89.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-fb911ba9-ea0a-5d05-a603-3b18c67c6c28",
+        "title": "Half-empty dorm, fully booked: how smarter bed allocation raises hostel RevPAB",
+        "description": "A hostel dorm can be half empty and still turn guests away. Here's a real case: a 4-bed dorm, one...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-26T21:41:10.000Z",
+        "url": "https://dev.to/sanderaddink/half-empty-dorm-fully-booked-how-smarter-bed-allocation-raises-hostel-revpab-20ab",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fplyxkcpl5cce1jixvdwi.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-007bf9b2-cad6-57d4-8c50-1ae7d2506bb5",
+        "title": "Thanksgiving storm knocks out power, disrupts flights on US East Coast",
+        "description": "A powerful storm disrupted the Thanksgiving holiday along much of the US East Coast on Thursday, knocking out power for hundreds of thousands.",
+        "publisher": "Detroitnews",
+        "publisherDomain": "detroitnews.com",
+        "publishedAt": "2026-11-26T21:40:51.000Z",
+        "url": "https://www.detroitnews.com/story/news/nation/2026/11/26/thanksgiving-storm-knocks-out-power-on-us-east-coast/92973447007",
+        "imageUrl": "https://www.detroitnews.com/gcdn/authoring/authoring-images/2026/11/26/PDTN/92973416007-20261126-t-185211-z-1512125539-rc-2-svoas-38-nr-rtrmadp-3-usaweather.JPG?crop=6371,3585,x0,y331&width=3200&height=1801&format=pjpg&auto=webp",
+        "categories": [
+          "Top",
+          "World",
           "U.S.",
-          "World"
+          "Business"
         ]
       },
       {
-        "id": "currents-c07b4bb0-3c8c-50f9-80f3-1bc49d1df2d9",
-        "title": "Murderer William Dunlop recommended for release after law change",
-        "description": "William Dunlop, known as Billy, strangled Julie Hogg in her home in Billingham, Co Durham, in 1989 and hid her mutilated body behind a bath panel.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-11-26T12:07:28.000Z",
-        "url": "https://www.dailymail.com/news/article-16324207/Murderer-William-Dunlop-recommended-release-Parole-Board-person-retried-double-jeopardy-laws.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/11/26/12/112005883-0-Billy_Dunlop_was_jailed_for_life_with_a_minimum_term_of_17_years-a-7_1795694653820.jpg",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-b76fc03d-f093-5867-bb90-1d9b8fed00ae",
-        "title": "Treat first frames, last frames, and references like build inputs",
-        "description": "When a video tool is going to sit in a docs or tutorial pipeline, it helps to treat the inputs the...",
+        "id": "currents-659b6e36-6d0f-5a33-b2b9-10347910b00a",
+        "title": "The default log retention is forever. Change it first",
+        "description": "Set log retention before you set anything else A log group with no retention setting keeps every...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-26T12:08:58.000Z",
-        "url": "https://dev.to/jack_2737d4f05bb6873eb5fd/treat-first-frames-last-frames-and-references-like-build-inputs-1odp",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fn6qtj4hd3mfqc8dsbqs8.png",
+        "publishedAt": "2026-11-26T21:39:10.000Z",
+        "url": "https://dev.to/vlad_z_16b6320e21f32bee0d/the-default-log-retention-is-forever-change-it-first-58d6",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmtg4mjjm3eudrm47lvur.png",
         "categories": [
           "Top",
           "Technology",
@@ -65,14 +132,14 @@
         ]
       },
       {
-        "id": "currents-09f3e747-4610-504f-9310-edfd75b59b87",
-        "title": "Your AI Monitor Shares a GPU With the Agent It Watches. Here Is How to Separate Them",
-        "description": "A common safety setup for AI agents looks like this: one model does the work, and a second model...",
+        "id": "currents-5a7a44f1-cfcc-5a7c-ab69-953d85e0fcc1",
+        "title": "Avoiding the 11'-12\" Bug: Parsing US Feet-and-Inches & Auto-Fitting Architectural Print Scales in TypeScript",
+        "description": "If you build residential CAD software, floor plan editors, or construction calculators for US users,...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-26T12:08:10.000Z",
-        "url": "https://dev.to/jamilxt/your-ai-monitor-shares-a-gpu-with-the-agent-it-watches-here-is-how-to-separate-them-4n4o",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fjamilxt.com%2Fassets%2Fai-monitor-shares-gpu-with-agent-vllm-isolation-guide-cover.webp%3Fv%3D1",
+        "publishedAt": "2026-11-26T21:38:41.000Z",
+        "url": "https://dev.to/clara_sutton/avoiding-the-11-12-bug-parsing-us-feet-and-inches-auto-fitting-architectural-print-scales-in-538e",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ft1ori12d9hy125bkbeoq.png",
         "categories": [
           "Top",
           "Technology",
@@ -81,61 +148,14 @@
         ]
       },
       {
-        "id": "currents-622ac175-d05b-54c6-9e1e-f23e8d611ecf",
-        "title": "Check the low-stock list before you place your next order",
-        "description": "Ordering from memory usually means ordering too much of what you already have and missing what is...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-26T12:07:56.000Z",
-        "url": "https://dev.to/thienkrik/check-the-low-stock-list-before-you-place-your-next-order-2o63",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fotbgfuj1rblava7s6fs4.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-2a40b0e0-dbd5-5bab-bf72-4719021b1585",
-        "title": "Which sites block GPTBot, ClaudeBot and PerplexityBot? The robots.txt files of 1,000 top domains",
-        "description": "AI disclosure: An AI agent (Claude) wrote this post from our published dataset. The numbers were...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-26T12:07:35.000Z",
-        "url": "https://dev.to/aiagencynet/which-sites-block-gptbot-claudebot-and-perplexitybot-the-robotstxt-files-of-1000-top-domains-5hn6",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F19eh56da8vt8mpsyia4x.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-3bc5e0ba-fe05-5a6c-9813-3bf96c6ac433",
-        "title": "The 100 KB photo limit: why application forms ask for it, and how to hit it",
-        "description": "Visa applications. Passport photos. A university portal. A job site. A marketplace listing. A...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-26T12:07:06.000Z",
-        "url": "https://dev.to/chobonggi3/the-100-kb-photo-limit-why-application-forms-ask-for-it-and-how-to-hit-it-dg1",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4wmgibil7m6songdctzr.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-3c5684f4-01a2-5641-901a-c9d848fd6652",
-        "title": "Multiple lanes on westbound I-64 closed near 564 interchange due to flooding",
-        "description": "NORFOLK, Va. (WAVY) -- A portion of westbound I-64 near the 564 interchange in Norfolk is down to one lane due to standing water. The westbound right lane and right shoulder are currently being blocked off by VDOT crews. 10 On Your Side will continue to monitor the scene. Use caution if driving in t...",
-        "publisher": "Wavy",
-        "publisherDomain": "wavy.com",
-        "publishedAt": "2026-11-26T12:07:58.000Z",
-        "url": "https://www.wavy.com/traffic/multiple-lanes-on-westbound-i-64-closed-near-564-interchange-due-to-flooding",
+        "id": "currents-c4253971-a051-5ba6-97e1-f936d6075475",
+        "title": "Software giant SAP weighs axing at least 10,000 jobs in massive AI overhaul: report",
+        "description": "Proposed cuts would affect 9% of the global workforce, with executives across all departments tasked with identifying positions that could be nixed.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-11-26T21:38:16.000Z",
+        "url": "https://nypost.com/2026/11/26/business/sap-weighs-axing-at-least-10000-jobs-in-massive-ai-overhaul-report",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/11/150123061.jpg?quality=75&strip=all&w=1200",
         "categories": [
           "Top",
           "World",
@@ -143,13 +163,42 @@
         ]
       },
       {
-        "id": "currents-1738dd88-c9c1-5aa5-a0d9-114408d722ff",
-        "title": "School principal accused of grooming and enticing a minor, authorities say",
-        "description": "Yefferson Rafael Mercado, principal of Midland Adventist Academy in Shawnee, was arrested on Nov. 18 and charged with grooming and enticing a minor.",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/2026/11/25/school-principal-accused-grooming-enticing-minor-authorities-say",
+        "id": "currents-273c3de4-7392-579e-b5d6-d31008c5dd7b",
+        "title": "NYC volunteers flood subway car to treat straphangers to annual ‘Thanksgiving Train’ spread",
+        "description": "“People who are New Yorkers, who’ve been here for a while, they’re like, ‘Oh my gosh, I hit the jackpot! I can’t believe it, I landed on the Thanksgiving train!”…",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-11-26T21:37:55.000Z",
+        "url": "https://nypost.com/2026/11/26/us-news/nyc-volunteers-flood-subway-car-to-treat-straphangers-to-annual-thanksgiving-train-spread",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/11/train-comp.jpg?quality=75&strip=all&w=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-7b68bc40-4b8c-5a22-963b-c67fe68a62d2",
+        "title": "Andrew Fry Obituary (2026) - Dewsbury Reporter - Legacy",
+        "description": "FRYAndrew JohnOf Cleckheaton.It is with sadness thatAndrew's family have toannounce his unexpectedpassing at his home onMonday 26th October,aged ...",
+        "publisher": "Oregonlive",
+        "publisherDomain": "obits.oregonlive.com",
+        "publishedAt": "2026-11-26T21:37:42.000Z",
+        "url": "https://obits.oregonlive.com/uk/obituaries/dewsburyreporter-uk/name/andrew-fry-obituary?id=63066512",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-7c6d64d0-bf3b-529c-b808-3d447de6e73f",
+        "title": "BRUCE YOUNG Obituary (2026) - The Globe and Mail - Legacy",
+        "description": "The Honourable Bruce James Young (May 27, 1942 - November 21, 2026) Peacefully passed away at St. Michael's Hospital, following complications from ...",
+        "publisher": "Oregonlive",
+        "publisherDomain": "obits.oregonlive.com",
+        "publishedAt": "2026-11-26T21:37:42.000Z",
+        "url": "https://obits.oregonlive.com/ca/obituaries/theglobeandmail/name/bruce-young-obituary?id=63057785",
         "categories": [
           "Top",
           "U.S.",
@@ -157,83 +206,41 @@
         ]
       },
       {
-        "id": "currents-1a099721-2997-50de-bac5-df46b4332339",
-        "title": "6 killed in plane crash near Horn Island",
-        "description": "Officials said divers from the Mississippi Department of Marine Resources (MDMR) located the remains of all six individuals.",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/video/2026/11/25/6-killed-plane-crash-near-horn-island",
+        "id": "currents-9242c562-cb7b-5998-a155-f7ab2c002371",
+        "title": "William Butler Obituary (1927 - 2026) - Hamilton, NY - WKTV - Legacy",
+        "description": "William O. Butler, 98, of East State St., passed away on Sunday, October 11, 2026, at Chenango Memorial Hospital, Norwich.",
+        "publisher": "Oregonlive",
+        "publisherDomain": "obits.oregonlive.com",
+        "publishedAt": "2026-11-26T21:37:42.000Z",
+        "url": "http://obits.oregonlive.com/us/obituaries/wktv/name/william-butler-obituary?id=63065546",
         "categories": [
           "Top",
-          "U.S.",
-          "World"
+          "World",
+          "U.S."
         ]
       },
       {
-        "id": "currents-2a4051e5-6340-5beb-bb09-88557bbb5d74",
-        "title": "How to watch 'A Charlie Brown Christmas' for free",
-        "description": "(Gray News) - “A Charlie Brown Christmas” won't air on broadcast television this year, but viewers can stream the holiday staple for free for one ...",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/2026/11/24/how-watch-charlie-brown-christmas-free",
+        "id": "currents-ef115acd-ed99-5461-a534-de7e3cccda5e",
+        "title": "Daisy Tyndall Obituary (2026) - Clinton, NC - The Sampson Independent",
+        "description": "Mrs. Daisy Irene Hayes Tyndall, 95, of 2929 HB Lewis Road, passed away Tuesday, Nov. 24, 2026, at Kitty Askins of Goldsboro with her family by her ...",
+        "publisher": "Oregonlive",
+        "publisherDomain": "obits.oregonlive.com",
+        "publishedAt": "2026-11-26T21:37:42.000Z",
+        "url": "http://obits.oregonlive.com/us/obituaries/clintonnc/name/daisy-tyndall-obituary?id=63069650",
         "categories": [
           "Top",
-          "U.S.",
-          "World"
+          "World",
+          "U.S."
         ]
       },
       {
-        "id": "currents-3825c440-34d5-5bbb-97ee-4b0f267d3348",
-        "title": "Storms postpone Macy's Thanksgiving Day Parade",
-        "description": "The 100th Macy's Thanksgiving Day Parade is postponed to Saturday. Hear from the bands who traveled far to march in it.",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/2026/11/25/storms-postpone-macys-thanksgiving-day-parade",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-5ecff7ef-2815-5fe6-95af-ec29f93d93db",
-        "title": "You'll be able to see a beaver supermoon Tuesday night",
-        "description": "The November beaver moon will also be a supermoon. Here's when to look up and why the full moon is called a Beaver Moon.",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/2026/11/24/youll-be-able-see-beaver-supermoon-tuesday-night",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-654366db-5b7b-59c3-8a11-1e994faa8d76",
-        "title": "Woman sentenced for DUI crash that killed teacher",
-        "description": "A woman was sentenced to 20 years in prison after pleading guilty in a 2024 crash that killed a South Carolina teacher.",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/2026/11/26/woman-sentenced-dui-crash-that-killed-teacher",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-8ce57735-f3ad-5dae-ac30-87a0a79b2755",
-        "title": "Corgis lead hikers to a fairy village in the Maine woods",
-        "description": "A stroll through a Maine forest led by a pack of corgis takes hikers through a magical village. Corgis are known as \"fairy steeds.",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/2026/11/26/corgis-lead-hikers-fairy-village-maine-woods",
+        "id": "currents-0894b166-888c-5b04-889c-f382714d89ae",
+        "title": "LIVE: Officials give update on Macy's Thanksgiving Day Parade",
+        "description": "The Macy's Thanksgiving Day Parade has been postponed, officials said Wednesday afternoon. (CNN Newsource)",
+        "publisher": "Kait8",
+        "publisherDomain": "kait8.com",
+        "publishedAt": "2026-11-26T21:37:28.000Z",
+        "url": "https://www.kait8.com/video/2026/11/25/live-officials-give-update-macys-thanksgiving-day-parade?outputType=amp",
         "categories": [
           "Top",
           "U.S.",
@@ -243,13 +250,29 @@
     ],
     "U.S.": [
       {
-        "id": "currents-aa05f0bc-5ab9-52b7-89b9-d0a97adc9544",
-        "title": "'The hour is late': Energy deal still elusive as holidays loom",
-        "description": "The fate of energy legislation in Massachusetts is still unresolved in closed-door legislative talks, which the Senate's lead negotiator this week called \"still very viable but problematic\" and his House counterpart described as \"progressing.\"",
-        "publisher": "Wwlp",
-        "publisherDomain": "wwlp.com",
-        "publishedAt": "2026-11-26T12:07:37.000Z",
-        "url": "https://www.wwlp.com/news/state-politics/the-hour-is-late-energy-deal-still-elusive-as-holidays-loom",
+        "id": "currents-84df3466-a0a0-5766-9dca-6e2479ca888a",
+        "title": "Argentina bans its central bank from printing money for the government",
+        "description": "BUENOS AIRES, Argentina (AP) — Argentina’s Congress voted Thursday to bar the central bank from printing money to pay the government’s bills, enshrining in law a key pillar of President Javier Milei’s fight against the country’s notoriously high inflation.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-11-26T21:35:52.000Z",
+        "url": "https://www.winnipegfreepress.com/business/2026/11/26/argentina-bans-its-central-bank-from-printing-money-for-the-government",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
+        "categories": [
+          "Sports",
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-bb4fb36b-5350-5361-935d-6776c94faba8",
+        "title": "Spain's De Cos chosen as next ECB president",
+        "description": "European leaders have agreed to nominate the former head of the Bank of Spain as the next president of the European Central Bank. Pablo ​Hernandez ‌de ⁠Cos will replace the outgoing Christine Lagarde as the bank faces pressure to tackle high inflation, borrowing costs, and government debt. Also in t...",
+        "publisher": "France24",
+        "publisherDomain": "france24.com",
+        "publishedAt": "2026-11-26T21:40:29.000Z",
+        "url": "https://www.france24.com/en/spain-s-de-cos-chosen-as-next-ecb-president",
         "categories": [
           "Top",
           "World",
@@ -257,28 +280,93 @@
         ]
       },
       {
-        "id": "currents-019caa45-b93d-57ee-bea6-c59f34fd94a8",
-        "title": "What is closed during Thanksgiving? - Wichita",
-        "description": "WICHITA, Kan. (KWCH) - Government buildings and most major retailers will be closed Thursday for Thanksgiving, which is a federal holiday.",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/2026/11/25/what-is-closed-during-thanksgiving?outputType=amp",
+        "id": "currents-2edc9d8b-60e0-55ee-a9c8-53a953d8a78f",
+        "title": "Spain beats Austria 2-0 to set up Davis Cup semifinal vs. Britain",
+        "description": "Daniel Merida gave Spain the lead in its Davis Cup quarterfinal by defeating Austria's Joel Schwaerzler 6-4, 6-4 before Rafael Jodar clinched victory by coming from a set down to overcome Jurij Rodionov 2-6, 6-0, 6-1.",
+        "publisher": "ESPN",
+        "publisherDomain": "espn.com",
+        "publishedAt": "2026-11-26T21:46:17.000Z",
+        "url": "https://www.espn.com/tennis/story/_/id/50606263/spain-beats-austria-set-davis-cup-semifinal-vs-britain",
+        "imageUrl": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1126%2Fr1751791_1296x729_16%2D9.jpg",
+        "categories": [
+          "Sports",
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-a6153c15-54dc-575c-aeeb-af702efdc4f2",
+        "title": "My First Rust + Tauri Project Is a Full Download Manager. Here's What I Learned",
+        "description": "I recently finished HAUL, a desktop download manager, and it was my first project with both Rust and...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-26T21:42:48.000Z",
+        "url": "https://dev.to/mohammedmnoby/my-first-rust-tauri-project-is-a-full-download-manager-heres-what-i-learned-10p5",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fol4dgpzqfligy4hph75o.png",
         "categories": [
           "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-a1fddc2c-8da6-5a2c-a8ac-6c4bdc35320b",
+        "title": "DoRA vs LoRA: is DoRA worth using for fine-tuning?",
+        "description": "DoRA beat LoRA by 1.0 to 4.4 points in its paper and adds few parameters, but trains and serves slower unmerged. When to try it, with the math.",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-26T21:41:33.000Z",
+        "url": "https://dev.to/viswaretas_kotra/dora-vs-lora-is-dora-worth-using-for-fine-tuning-4k70",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F09kpd5r8r8c4ovv9ou89.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-fb911ba9-ea0a-5d05-a603-3b18c67c6c28",
+        "title": "Half-empty dorm, fully booked: how smarter bed allocation raises hostel RevPAB",
+        "description": "A hostel dorm can be half empty and still turn guests away. Here's a real case: a 4-bed dorm, one...",
+        "publisher": "Dev",
+        "publisherDomain": "dev.to",
+        "publishedAt": "2026-11-26T21:41:10.000Z",
+        "url": "https://dev.to/sanderaddink/half-empty-dorm-fully-booked-how-smarter-bed-allocation-raises-hostel-revpab-20ab",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fplyxkcpl5cce1jixvdwi.png",
+        "categories": [
+          "Top",
+          "Technology",
+          "Science",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-007bf9b2-cad6-57d4-8c50-1ae7d2506bb5",
+        "title": "Thanksgiving storm knocks out power, disrupts flights on US East Coast",
+        "description": "A powerful storm disrupted the Thanksgiving holiday along much of the US East Coast on Thursday, knocking out power for hundreds of thousands.",
+        "publisher": "Detroitnews",
+        "publisherDomain": "detroitnews.com",
+        "publishedAt": "2026-11-26T21:40:51.000Z",
+        "url": "https://www.detroitnews.com/story/news/nation/2026/11/26/thanksgiving-storm-knocks-out-power-on-us-east-coast/92973447007",
+        "imageUrl": "https://www.detroitnews.com/gcdn/authoring/authoring-images/2026/11/26/PDTN/92973416007-20261126-t-185211-z-1512125539-rc-2-svoas-38-nr-rtrmadp-3-usaweather.JPG?crop=6371,3585,x0,y331&width=3200&height=1801&format=pjpg&auto=webp",
+        "categories": [
+          "Top",
+          "World",
           "U.S.",
-          "World"
+          "Business"
         ]
       },
       {
-        "id": "currents-b76fc03d-f093-5867-bb90-1d9b8fed00ae",
-        "title": "Treat first frames, last frames, and references like build inputs",
-        "description": "When a video tool is going to sit in a docs or tutorial pipeline, it helps to treat the inputs the...",
+        "id": "currents-659b6e36-6d0f-5a33-b2b9-10347910b00a",
+        "title": "The default log retention is forever. Change it first",
+        "description": "Set log retention before you set anything else A log group with no retention setting keeps every...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-26T12:08:58.000Z",
-        "url": "https://dev.to/jack_2737d4f05bb6873eb5fd/treat-first-frames-last-frames-and-references-like-build-inputs-1odp",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fn6qtj4hd3mfqc8dsbqs8.png",
+        "publishedAt": "2026-11-26T21:39:10.000Z",
+        "url": "https://dev.to/vlad_z_16b6320e21f32bee0d/the-default-log-retention-is-forever-change-it-first-58d6",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmtg4mjjm3eudrm47lvur.png",
         "categories": [
           "Top",
           "Technology",
@@ -287,29 +375,14 @@
         ]
       },
       {
-        "id": "currents-cd7fc724-e714-57eb-976d-792a687171f0",
-        "title": "Treat Your Feet And Get Up To 40% Off At Bombas This Black Friday",
-        "description": "This little piggy shopped at Bombas.",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-11-26T12:08:03.000Z",
-        "url": "https://www.buzzfeed.com/courtneylynneh/bombas-black-friday-cyber-monday-sale",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/25/19/thumb/Uxsu6rjDA.jpg?crop=3000:1571;0,3%26downsize=1250:*",
-        "categories": [
-          "Entertainment",
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-09f3e747-4610-504f-9310-edfd75b59b87",
-        "title": "Your AI Monitor Shares a GPU With the Agent It Watches. Here Is How to Separate Them",
-        "description": "A common safety setup for AI agents looks like this: one model does the work, and a second model...",
+        "id": "currents-5a7a44f1-cfcc-5a7c-ab69-953d85e0fcc1",
+        "title": "Avoiding the 11'-12\" Bug: Parsing US Feet-and-Inches & Auto-Fitting Architectural Print Scales in TypeScript",
+        "description": "If you build residential CAD software, floor plan editors, or construction calculators for US users,...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-26T12:08:10.000Z",
-        "url": "https://dev.to/jamilxt/your-ai-monitor-shares-a-gpu-with-the-agent-it-watches-here-is-how-to-separate-them-4n4o",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fjamilxt.com%2Fassets%2Fai-monitor-shares-gpu-with-agent-vllm-isolation-guide-cover.webp%3Fv%3D1",
+        "publishedAt": "2026-11-26T21:38:41.000Z",
+        "url": "https://dev.to/clara_sutton/avoiding-the-11-12-bug-parsing-us-feet-and-inches-auto-fitting-architectural-print-scales-in-538e",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ft1ori12d9hy125bkbeoq.png",
         "categories": [
           "Top",
           "Technology",
@@ -318,61 +391,14 @@
         ]
       },
       {
-        "id": "currents-622ac175-d05b-54c6-9e1e-f23e8d611ecf",
-        "title": "Check the low-stock list before you place your next order",
-        "description": "Ordering from memory usually means ordering too much of what you already have and missing what is...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-26T12:07:56.000Z",
-        "url": "https://dev.to/thienkrik/check-the-low-stock-list-before-you-place-your-next-order-2o63",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fotbgfuj1rblava7s6fs4.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-2a40b0e0-dbd5-5bab-bf72-4719021b1585",
-        "title": "Which sites block GPTBot, ClaudeBot and PerplexityBot? The robots.txt files of 1,000 top domains",
-        "description": "AI disclosure: An AI agent (Claude) wrote this post from our published dataset. The numbers were...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-26T12:07:35.000Z",
-        "url": "https://dev.to/aiagencynet/which-sites-block-gptbot-claudebot-and-perplexitybot-the-robotstxt-files-of-1000-top-domains-5hn6",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F19eh56da8vt8mpsyia4x.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-3bc5e0ba-fe05-5a6c-9813-3bf96c6ac433",
-        "title": "The 100 KB photo limit: why application forms ask for it, and how to hit it",
-        "description": "Visa applications. Passport photos. A university portal. A job site. A marketplace listing. A...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-26T12:07:06.000Z",
-        "url": "https://dev.to/chobonggi3/the-100-kb-photo-limit-why-application-forms-ask-for-it-and-how-to-hit-it-dg1",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4wmgibil7m6songdctzr.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-3c5684f4-01a2-5641-901a-c9d848fd6652",
-        "title": "Multiple lanes on westbound I-64 closed near 564 interchange due to flooding",
-        "description": "NORFOLK, Va. (WAVY) -- A portion of westbound I-64 near the 564 interchange in Norfolk is down to one lane due to standing water. The westbound right lane and right shoulder are currently being blocked off by VDOT crews. 10 On Your Side will continue to monitor the scene. Use caution if driving in t...",
-        "publisher": "Wavy",
-        "publisherDomain": "wavy.com",
-        "publishedAt": "2026-11-26T12:07:58.000Z",
-        "url": "https://www.wavy.com/traffic/multiple-lanes-on-westbound-i-64-closed-near-564-interchange-due-to-flooding",
+        "id": "currents-c4253971-a051-5ba6-97e1-f936d6075475",
+        "title": "Software giant SAP weighs axing at least 10,000 jobs in massive AI overhaul: report",
+        "description": "Proposed cuts would affect 9% of the global workforce, with executives across all departments tasked with identifying positions that could be nixed.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-11-26T21:38:16.000Z",
+        "url": "https://nypost.com/2026/11/26/business/sap-weighs-axing-at-least-10000-jobs-in-massive-ai-overhaul-report",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/11/150123061.jpg?quality=75&strip=all&w=1200",
         "categories": [
           "Top",
           "World",
@@ -380,13 +406,42 @@
         ]
       },
       {
-        "id": "currents-1738dd88-c9c1-5aa5-a0d9-114408d722ff",
-        "title": "School principal accused of grooming and enticing a minor, authorities say",
-        "description": "Yefferson Rafael Mercado, principal of Midland Adventist Academy in Shawnee, was arrested on Nov. 18 and charged with grooming and enticing a minor.",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/2026/11/25/school-principal-accused-grooming-enticing-minor-authorities-say",
+        "id": "currents-273c3de4-7392-579e-b5d6-d31008c5dd7b",
+        "title": "NYC volunteers flood subway car to treat straphangers to annual ‘Thanksgiving Train’ spread",
+        "description": "“People who are New Yorkers, who’ve been here for a while, they’re like, ‘Oh my gosh, I hit the jackpot! I can’t believe it, I landed on the Thanksgiving train!”…",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-11-26T21:37:55.000Z",
+        "url": "https://nypost.com/2026/11/26/us-news/nyc-volunteers-flood-subway-car-to-treat-straphangers-to-annual-thanksgiving-train-spread",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/11/train-comp.jpg?quality=75&strip=all&w=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-7b68bc40-4b8c-5a22-963b-c67fe68a62d2",
+        "title": "Andrew Fry Obituary (2026) - Dewsbury Reporter - Legacy",
+        "description": "FRYAndrew JohnOf Cleckheaton.It is with sadness thatAndrew's family have toannounce his unexpectedpassing at his home onMonday 26th October,aged ...",
+        "publisher": "Oregonlive",
+        "publisherDomain": "obits.oregonlive.com",
+        "publishedAt": "2026-11-26T21:37:42.000Z",
+        "url": "https://obits.oregonlive.com/uk/obituaries/dewsburyreporter-uk/name/andrew-fry-obituary?id=63066512",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-7c6d64d0-bf3b-529c-b808-3d447de6e73f",
+        "title": "BRUCE YOUNG Obituary (2026) - The Globe and Mail - Legacy",
+        "description": "The Honourable Bruce James Young (May 27, 1942 - November 21, 2026) Peacefully passed away at St. Michael's Hospital, following complications from ...",
+        "publisher": "Oregonlive",
+        "publisherDomain": "obits.oregonlive.com",
+        "publishedAt": "2026-11-26T21:37:42.000Z",
+        "url": "https://obits.oregonlive.com/ca/obituaries/theglobeandmail/name/bruce-young-obituary?id=63057785",
         "categories": [
           "Top",
           "U.S.",
@@ -394,83 +449,41 @@
         ]
       },
       {
-        "id": "currents-1a099721-2997-50de-bac5-df46b4332339",
-        "title": "6 killed in plane crash near Horn Island",
-        "description": "Officials said divers from the Mississippi Department of Marine Resources (MDMR) located the remains of all six individuals.",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/video/2026/11/25/6-killed-plane-crash-near-horn-island",
+        "id": "currents-9242c562-cb7b-5998-a155-f7ab2c002371",
+        "title": "William Butler Obituary (1927 - 2026) - Hamilton, NY - WKTV - Legacy",
+        "description": "William O. Butler, 98, of East State St., passed away on Sunday, October 11, 2026, at Chenango Memorial Hospital, Norwich.",
+        "publisher": "Oregonlive",
+        "publisherDomain": "obits.oregonlive.com",
+        "publishedAt": "2026-11-26T21:37:42.000Z",
+        "url": "http://obits.oregonlive.com/us/obituaries/wktv/name/william-butler-obituary?id=63065546",
         "categories": [
           "Top",
-          "U.S.",
-          "World"
+          "World",
+          "U.S."
         ]
       },
       {
-        "id": "currents-2a4051e5-6340-5beb-bb09-88557bbb5d74",
-        "title": "How to watch 'A Charlie Brown Christmas' for free",
-        "description": "(Gray News) - “A Charlie Brown Christmas” won't air on broadcast television this year, but viewers can stream the holiday staple for free for one ...",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/2026/11/24/how-watch-charlie-brown-christmas-free",
+        "id": "currents-ef115acd-ed99-5461-a534-de7e3cccda5e",
+        "title": "Daisy Tyndall Obituary (2026) - Clinton, NC - The Sampson Independent",
+        "description": "Mrs. Daisy Irene Hayes Tyndall, 95, of 2929 HB Lewis Road, passed away Tuesday, Nov. 24, 2026, at Kitty Askins of Goldsboro with her family by her ...",
+        "publisher": "Oregonlive",
+        "publisherDomain": "obits.oregonlive.com",
+        "publishedAt": "2026-11-26T21:37:42.000Z",
+        "url": "http://obits.oregonlive.com/us/obituaries/clintonnc/name/daisy-tyndall-obituary?id=63069650",
         "categories": [
           "Top",
-          "U.S.",
-          "World"
+          "World",
+          "U.S."
         ]
       },
       {
-        "id": "currents-3825c440-34d5-5bbb-97ee-4b0f267d3348",
-        "title": "Storms postpone Macy's Thanksgiving Day Parade",
-        "description": "The 100th Macy's Thanksgiving Day Parade is postponed to Saturday. Hear from the bands who traveled far to march in it.",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/2026/11/25/storms-postpone-macys-thanksgiving-day-parade",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-5ecff7ef-2815-5fe6-95af-ec29f93d93db",
-        "title": "You'll be able to see a beaver supermoon Tuesday night",
-        "description": "The November beaver moon will also be a supermoon. Here's when to look up and why the full moon is called a Beaver Moon.",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/2026/11/24/youll-be-able-see-beaver-supermoon-tuesday-night",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-654366db-5b7b-59c3-8a11-1e994faa8d76",
-        "title": "Woman sentenced for DUI crash that killed teacher",
-        "description": "A woman was sentenced to 20 years in prison after pleading guilty in a 2024 crash that killed a South Carolina teacher.",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/2026/11/26/woman-sentenced-dui-crash-that-killed-teacher",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-8ce57735-f3ad-5dae-ac30-87a0a79b2755",
-        "title": "Corgis lead hikers to a fairy village in the Maine woods",
-        "description": "A stroll through a Maine forest led by a pack of corgis takes hikers through a magical village. Corgis are known as \"fairy steeds.",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/2026/11/26/corgis-lead-hikers-fairy-village-maine-woods",
+        "id": "currents-0894b166-888c-5b04-889c-f382714d89ae",
+        "title": "LIVE: Officials give update on Macy's Thanksgiving Day Parade",
+        "description": "The Macy's Thanksgiving Day Parade has been postponed, officials said Wednesday afternoon. (CNN Newsource)",
+        "publisher": "Kait8",
+        "publisherDomain": "kait8.com",
+        "publishedAt": "2026-11-26T21:37:28.000Z",
+        "url": "https://www.kait8.com/video/2026/11/25/live-officials-give-update-macys-thanksgiving-day-parade?outputType=amp",
         "categories": [
           "Top",
           "U.S.",
@@ -480,27 +493,29 @@
     ],
     "World": [
       {
-        "id": "currents-c07b4bb0-3c8c-50f9-80f3-1bc49d1df2d9",
-        "title": "Murderer William Dunlop recommended for release after law change",
-        "description": "William Dunlop, known as Billy, strangled Julie Hogg in her home in Billingham, Co Durham, in 1989 and hid her mutilated body behind a bath panel.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-11-26T12:07:28.000Z",
-        "url": "https://www.dailymail.com/news/article-16324207/Murderer-William-Dunlop-recommended-release-Parole-Board-person-retried-double-jeopardy-laws.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/11/26/12/112005883-0-Billy_Dunlop_was_jailed_for_life_with_a_minimum_term_of_17_years-a-7_1795694653820.jpg",
+        "id": "currents-84df3466-a0a0-5766-9dca-6e2479ca888a",
+        "title": "Argentina bans its central bank from printing money for the government",
+        "description": "BUENOS AIRES, Argentina (AP) — Argentina’s Congress voted Thursday to bar the central bank from printing money to pay the government’s bills, enshrining in law a key pillar of President Javier Milei’s fight against the country’s notoriously high inflation.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-11-26T21:35:52.000Z",
+        "url": "https://www.winnipegfreepress.com/business/2026/11/26/argentina-bans-its-central-bank-from-printing-money-for-the-government",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
         "categories": [
+          "Sports",
           "Top",
-          "World"
+          "World",
+          "U.S."
         ]
       },
       {
-        "id": "currents-aa05f0bc-5ab9-52b7-89b9-d0a97adc9544",
-        "title": "'The hour is late': Energy deal still elusive as holidays loom",
-        "description": "The fate of energy legislation in Massachusetts is still unresolved in closed-door legislative talks, which the Senate's lead negotiator this week called \"still very viable but problematic\" and his House counterpart described as \"progressing.\"",
-        "publisher": "Wwlp",
-        "publisherDomain": "wwlp.com",
-        "publishedAt": "2026-11-26T12:07:37.000Z",
-        "url": "https://www.wwlp.com/news/state-politics/the-hour-is-late-energy-deal-still-elusive-as-holidays-loom",
+        "id": "currents-bb4fb36b-5350-5361-935d-6776c94faba8",
+        "title": "Spain's De Cos chosen as next ECB president",
+        "description": "European leaders have agreed to nominate the former head of the Bank of Spain as the next president of the European Central Bank. Pablo ​Hernandez ‌de ⁠Cos will replace the outgoing Christine Lagarde as the bank faces pressure to tackle high inflation, borrowing costs, and government debt. Also in t...",
+        "publisher": "France24",
+        "publisherDomain": "france24.com",
+        "publishedAt": "2026-11-26T21:40:29.000Z",
+        "url": "https://www.france24.com/en/spain-s-de-cos-chosen-as-next-ecb-president",
         "categories": [
           "Top",
           "World",
@@ -508,83 +523,30 @@
         ]
       },
       {
-        "id": "currents-019caa45-b93d-57ee-bea6-c59f34fd94a8",
-        "title": "What is closed during Thanksgiving? - Wichita",
-        "description": "WICHITA, Kan. (KWCH) - Government buildings and most major retailers will be closed Thursday for Thanksgiving, which is a federal holiday.",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/2026/11/25/what-is-closed-during-thanksgiving?outputType=amp",
+        "id": "currents-007bf9b2-cad6-57d4-8c50-1ae7d2506bb5",
+        "title": "Thanksgiving storm knocks out power, disrupts flights on US East Coast",
+        "description": "A powerful storm disrupted the Thanksgiving holiday along much of the US East Coast on Thursday, knocking out power for hundreds of thousands.",
+        "publisher": "Detroitnews",
+        "publisherDomain": "detroitnews.com",
+        "publishedAt": "2026-11-26T21:40:51.000Z",
+        "url": "https://www.detroitnews.com/story/news/nation/2026/11/26/thanksgiving-storm-knocks-out-power-on-us-east-coast/92973447007",
+        "imageUrl": "https://www.detroitnews.com/gcdn/authoring/authoring-images/2026/11/26/PDTN/92973416007-20261126-t-185211-z-1512125539-rc-2-svoas-38-nr-rtrmadp-3-usaweather.JPG?crop=6371,3585,x0,y331&width=3200&height=1801&format=pjpg&auto=webp",
         "categories": [
           "Top",
+          "World",
           "U.S.",
-          "World"
+          "Business"
         ]
       },
       {
-        "id": "currents-ca1ef5b9-040b-5bc3-92e0-b404a54be49a",
-        "title": "Amsterdam pushing €2 million into building 408 shared student housing units",
-        "description": "Amsterdam has awarded a €2 million subsidy to a new construction project that will build 408 shared student housing units in the city, Alderman Zita Pels (Housing) informed the city council. She did not say which housing association would take on the project, nor when construction will begin, Parool...",
-        "publisher": "Nltimes",
-        "publisherDomain": "nltimes.nl",
-        "publishedAt": "2026-11-26T12:09:39.000Z",
-        "url": "https://nltimes.nl/2026/11/26/amsterdam-pushing-eu2-million-building-408-shared-student-housing-units",
-        "imageUrl": "https://nltimes.nl/sites/nltimes.nl/files/styles/news_article_full_desktop_2x/public/2023-08/Depositphotos_65832457_XL.jpg?h=cecdd2c1",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-289de94c-ec57-558a-9fca-cacea328e7d0",
-        "title": "No definite proof that Alice Huang was a Chinese spy: US officials",
-        "description": "It is possible that she had a genuinely amorous relationship with Jensen Huang, they added.",
-        "publisher": "Mothership",
-        "publisherDomain": "mothership.sg",
-        "publishedAt": "2026-11-26T12:07:30.000Z",
-        "url": "https://mothership.sg/2026/11/no-definite-proof-alice-huang-chinese-spy-us-officials",
-        "imageUrl": "https://static.mothership.sg/1/2026/11/alice-huang-not-spy_.png",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-56005ba7-4a6d-5481-bbe9-a300726e0d7c",
-        "title": "Money seen scattered across AYE, netizen jokes 'Santa' threw notes from the sky",
-        "description": "The notes were discovered on the road after 8am on Nov. 22.",
-        "publisher": "Mothership",
-        "publisherDomain": "mothership.sg",
-        "publishedAt": "2026-11-26T12:07:30.000Z",
-        "url": "https://mothership.sg/2026/11/money-scatters-lanes-aye",
-        "imageUrl": "https://static.mothership.sg/1/2026/11/new-money-fly-cover-pic.jpg",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-9c7e63e8-9c9f-5cc6-b66a-73bc95c4dd0d",
-        "title": "S'pore preschool director, 66, who molested employee, 22, gets 6 weeks & 2 days' jail",
-        "description": "He will begin serving his sentence on Nov. 27.",
-        "publisher": "Mothership",
-        "publisherDomain": "mothership.sg",
-        "publishedAt": "2026-11-26T12:07:30.000Z",
-        "url": "https://mothership.sg/2026/11/preschool-molest-staff",
-        "imageUrl": "https://static.mothership.sg/1/2026/11/cover-photos-part-2-19-1.png",
-        "categories": [
-          "Top",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-3c5684f4-01a2-5641-901a-c9d848fd6652",
-        "title": "Multiple lanes on westbound I-64 closed near 564 interchange due to flooding",
-        "description": "NORFOLK, Va. (WAVY) -- A portion of westbound I-64 near the 564 interchange in Norfolk is down to one lane due to standing water. The westbound right lane and right shoulder are currently being blocked off by VDOT crews. 10 On Your Side will continue to monitor the scene. Use caution if driving in t...",
-        "publisher": "Wavy",
-        "publisherDomain": "wavy.com",
-        "publishedAt": "2026-11-26T12:07:58.000Z",
-        "url": "https://www.wavy.com/traffic/multiple-lanes-on-westbound-i-64-closed-near-564-interchange-due-to-flooding",
+        "id": "currents-c4253971-a051-5ba6-97e1-f936d6075475",
+        "title": "Software giant SAP weighs axing at least 10,000 jobs in massive AI overhaul: report",
+        "description": "Proposed cuts would affect 9% of the global workforce, with executives across all departments tasked with identifying positions that could be nixed.",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-11-26T21:38:16.000Z",
+        "url": "https://nypost.com/2026/11/26/business/sap-weighs-axing-at-least-10000-jobs-in-massive-ai-overhaul-report",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/11/150123061.jpg?quality=75&strip=all&w=1200",
         "categories": [
           "Top",
           "World",
@@ -592,13 +554,42 @@
         ]
       },
       {
-        "id": "currents-1738dd88-c9c1-5aa5-a0d9-114408d722ff",
-        "title": "School principal accused of grooming and enticing a minor, authorities say",
-        "description": "Yefferson Rafael Mercado, principal of Midland Adventist Academy in Shawnee, was arrested on Nov. 18 and charged with grooming and enticing a minor.",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/2026/11/25/school-principal-accused-grooming-enticing-minor-authorities-say",
+        "id": "currents-273c3de4-7392-579e-b5d6-d31008c5dd7b",
+        "title": "NYC volunteers flood subway car to treat straphangers to annual ‘Thanksgiving Train’ spread",
+        "description": "“People who are New Yorkers, who’ve been here for a while, they’re like, ‘Oh my gosh, I hit the jackpot! I can’t believe it, I landed on the Thanksgiving train!”…",
+        "publisher": "Nypost",
+        "publisherDomain": "nypost.com",
+        "publishedAt": "2026-11-26T21:37:55.000Z",
+        "url": "https://nypost.com/2026/11/26/us-news/nyc-volunteers-flood-subway-car-to-treat-straphangers-to-annual-thanksgiving-train-spread",
+        "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/11/train-comp.jpg?quality=75&strip=all&w=1200",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-7b68bc40-4b8c-5a22-963b-c67fe68a62d2",
+        "title": "Andrew Fry Obituary (2026) - Dewsbury Reporter - Legacy",
+        "description": "FRYAndrew JohnOf Cleckheaton.It is with sadness thatAndrew's family have toannounce his unexpectedpassing at his home onMonday 26th October,aged ...",
+        "publisher": "Oregonlive",
+        "publisherDomain": "obits.oregonlive.com",
+        "publishedAt": "2026-11-26T21:37:42.000Z",
+        "url": "https://obits.oregonlive.com/uk/obituaries/dewsburyreporter-uk/name/andrew-fry-obituary?id=63066512",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-7c6d64d0-bf3b-529c-b808-3d447de6e73f",
+        "title": "BRUCE YOUNG Obituary (2026) - The Globe and Mail - Legacy",
+        "description": "The Honourable Bruce James Young (May 27, 1942 - November 21, 2026) Peacefully passed away at St. Michael's Hospital, following complications from ...",
+        "publisher": "Oregonlive",
+        "publisherDomain": "obits.oregonlive.com",
+        "publishedAt": "2026-11-26T21:37:42.000Z",
+        "url": "https://obits.oregonlive.com/ca/obituaries/theglobeandmail/name/bruce-young-obituary?id=63057785",
         "categories": [
           "Top",
           "U.S.",
@@ -606,13 +597,41 @@
         ]
       },
       {
-        "id": "currents-1a099721-2997-50de-bac5-df46b4332339",
-        "title": "6 killed in plane crash near Horn Island",
-        "description": "Officials said divers from the Mississippi Department of Marine Resources (MDMR) located the remains of all six individuals.",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/video/2026/11/25/6-killed-plane-crash-near-horn-island",
+        "id": "currents-9242c562-cb7b-5998-a155-f7ab2c002371",
+        "title": "William Butler Obituary (1927 - 2026) - Hamilton, NY - WKTV - Legacy",
+        "description": "William O. Butler, 98, of East State St., passed away on Sunday, October 11, 2026, at Chenango Memorial Hospital, Norwich.",
+        "publisher": "Oregonlive",
+        "publisherDomain": "obits.oregonlive.com",
+        "publishedAt": "2026-11-26T21:37:42.000Z",
+        "url": "http://obits.oregonlive.com/us/obituaries/wktv/name/william-butler-obituary?id=63065546",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-ef115acd-ed99-5461-a534-de7e3cccda5e",
+        "title": "Daisy Tyndall Obituary (2026) - Clinton, NC - The Sampson Independent",
+        "description": "Mrs. Daisy Irene Hayes Tyndall, 95, of 2929 HB Lewis Road, passed away Tuesday, Nov. 24, 2026, at Kitty Askins of Goldsboro with her family by her ...",
+        "publisher": "Oregonlive",
+        "publisherDomain": "obits.oregonlive.com",
+        "publishedAt": "2026-11-26T21:37:42.000Z",
+        "url": "http://obits.oregonlive.com/us/obituaries/clintonnc/name/daisy-tyndall-obituary?id=63069650",
+        "categories": [
+          "Top",
+          "World",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-0894b166-888c-5b04-889c-f382714d89ae",
+        "title": "LIVE: Officials give update on Macy's Thanksgiving Day Parade",
+        "description": "The Macy's Thanksgiving Day Parade has been postponed, officials said Wednesday afternoon. (CNN Newsource)",
+        "publisher": "Kait8",
+        "publisherDomain": "kait8.com",
+        "publishedAt": "2026-11-26T21:37:28.000Z",
+        "url": "https://www.kait8.com/video/2026/11/25/live-officials-give-update-macys-thanksgiving-day-parade?outputType=amp",
         "categories": [
           "Top",
           "U.S.",
@@ -620,13 +639,13 @@
         ]
       },
       {
-        "id": "currents-2a4051e5-6340-5beb-bb09-88557bbb5d74",
-        "title": "How to watch 'A Charlie Brown Christmas' for free",
-        "description": "(Gray News) - “A Charlie Brown Christmas” won't air on broadcast television this year, but viewers can stream the holiday staple for free for one ...",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/2026/11/24/how-watch-charlie-brown-christmas-free",
+        "id": "currents-2e178fb8-c9b8-5bc0-aa9f-f2792ff38709",
+        "title": "1 killed, 6 others shot during pajama party early on Thanksgiving, sheriff says - KAIT",
+        "description": "One person was killed and six others were injured in a shooting at a teenage birthday party at a Davenport, Florida, Airbnb, the sheriff said.",
+        "publisher": "Kait8",
+        "publisherDomain": "kait8.com",
+        "publishedAt": "2026-11-26T21:37:28.000Z",
+        "url": "https://www.kait8.com/2026/11/26/1-killed-6-others-shot-during-pajama-party-early-thanksgiving-sheriff-says",
         "categories": [
           "Top",
           "U.S.",
@@ -634,13 +653,13 @@
         ]
       },
       {
-        "id": "currents-3825c440-34d5-5bbb-97ee-4b0f267d3348",
-        "title": "Storms postpone Macy's Thanksgiving Day Parade",
-        "description": "The 100th Macy's Thanksgiving Day Parade is postponed to Saturday. Hear from the bands who traveled far to march in it.",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/2026/11/25/storms-postpone-macys-thanksgiving-day-parade",
+        "id": "currents-7efd23bd-c6f7-5771-836d-4dd96c394b9d",
+        "title": "How to avoid AI scams while holiday shopping",
+        "description": "How to avoid AI scams while holiday shopping. Published: Nov. 25, 2026 at 6:59 PM PST|Updated: 3 hours ago. Share.",
+        "publisher": "Wsaz",
+        "publisherDomain": "wsaz.com",
+        "publishedAt": "2026-11-26T21:37:28.000Z",
+        "url": "https://www.wsaz.com/video/2026/11/26/how-avoid-ai-scams-while-holiday-shopping",
         "categories": [
           "Top",
           "U.S.",
@@ -648,13 +667,13 @@
         ]
       },
       {
-        "id": "currents-5ecff7ef-2815-5fe6-95af-ec29f93d93db",
-        "title": "You'll be able to see a beaver supermoon Tuesday night",
-        "description": "The November beaver moon will also be a supermoon. Here's when to look up and why the full moon is called a Beaver Moon.",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/2026/11/24/youll-be-able-see-beaver-supermoon-tuesday-night",
+        "id": "currents-c9998c66-5623-592c-8a05-66f689add92d",
+        "title": "Trump administration proposes new tariffs - Local News Live",
+        "description": "U.S. Trade Representative Jamieson Greer announced the proposed tariffs Wednesday following a months-long investigation into subsidies provided to ...",
+        "publisher": "Kait8",
+        "publisherDomain": "kait8.com",
+        "publishedAt": "2026-11-26T21:37:28.000Z",
+        "url": "https://www.kait8.com/2026/11/26/trump-administration-proposes-new-tariffs?outputType=amp",
         "categories": [
           "Top",
           "U.S.",
@@ -662,41 +681,13 @@
         ]
       },
       {
-        "id": "currents-654366db-5b7b-59c3-8a11-1e994faa8d76",
-        "title": "Woman sentenced for DUI crash that killed teacher",
-        "description": "A woman was sentenced to 20 years in prison after pleading guilty in a 2024 crash that killed a South Carolina teacher.",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/2026/11/26/woman-sentenced-dui-crash-that-killed-teacher",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-8ce57735-f3ad-5dae-ac30-87a0a79b2755",
-        "title": "Corgis lead hikers to a fairy village in the Maine woods",
-        "description": "A stroll through a Maine forest led by a pack of corgis takes hikers through a magical village. Corgis are known as \"fairy steeds.",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/2026/11/26/corgis-lead-hikers-fairy-village-maine-woods",
-        "categories": [
-          "Top",
-          "U.S.",
-          "World"
-        ]
-      },
-      {
-        "id": "currents-97a548f0-5f8d-5759-aa27-efeb52e2ced5",
-        "title": "Apartment property manager charged after resident's death",
-        "description": "An apartment complex manager in Texas has been arrested following the death of a resident.",
-        "publisher": "Kwch",
-        "publisherDomain": "kwch.com",
-        "publishedAt": "2026-11-26T12:06:44.000Z",
-        "url": "https://www.kwch.com/2026/11/24/apartment-property-manager-charged-after-residents-death",
+        "id": "currents-e86f74e1-9478-5acc-a28d-e529ff7ec552",
+        "title": "Gr8 Acts of Kindness: Chuck Bridges brings joy to others after overcoming humble beginnings - KAIT",
+        "description": "Melvin “Chuck” Bridges brings laughter and joy to residents at area nursing centers. At 90, he continues to give back to the communities that ...",
+        "publisher": "Kait8",
+        "publisherDomain": "kait8.com",
+        "publishedAt": "2026-11-26T21:37:28.000Z",
+        "url": "https://www.kait8.com/2026/11/26/gr8-acts-kindness-chuck-bridges-brings-joy-others-after-overcoming-humble-beginnings",
         "categories": [
           "Top",
           "U.S.",
@@ -706,222 +697,224 @@
     ],
     "Business": [
       {
-        "id": "currents-0e4636b5-f92d-5a5d-95f1-c4a8d434e42d",
-        "title": "StanChart’s crypto unit Zodia Custody hit by security breach, some client data exposed",
-        "description": "The breach joins a growing list of cybersecurity incidents worldwide Read more at The Business Times.",
-        "publisher": "Com",
-        "publisherDomain": "businesstimes.com.sg",
-        "publishedAt": "2026-11-26T11:51:29.000Z",
-        "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/stancharts-crypto-unit-zodia-custody-hit-security-breach-some-client-data-exposed",
-        "imageUrl": "https://cassette.sphdigital.com.sg/image/businesstimes/94707841192388dde54ed39fe7dd0efcf0c2a992d7647dc63a52b12ce57db71d?t=og&f=webp&w=240",
+        "id": "currents-b91f9eaa-d675-52c5-b7b1-98bf0cb67cf3",
+        "title": "Saskatchewan health authority finds reason for fraud claim against recovery centre",
+        "description": "REGINA - The Saskatchewan Health Authority says its initial review of an addictions treatment centre accused of fraud has come back with a reasonable explanation.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-11-26T21:10:40.000Z",
+        "url": "https://www.winnipegfreepress.com/arts-and-life/life/health/2026/11/26/saskatchewan-health-authority-finds-reason-for-fraud-claim-against-recovery-centre",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b089412122f61618838e1f4jpeg.jpg?w=1600",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-efe1435a-1e4c-55c9-9cb7-4237f65d5057",
-        "title": "President Donald Trump's \"Big, Beautiful Bill\" Dropped a $169 Billion Bombshell on Social Security",
-        "description": "Key PointsPresident Trump spearheaded a major tax bill in the first year of each of his nonconsecutive terms.",
+        "id": "currents-35dc8bed-8d31-5241-93e5-c4018aa6e2b5",
+        "title": "Intervacc's Strangvac Selected For Mandatory Vaccination At New Zealand Yearling Sales",
+        "description": "(RTTNews) - Intervacc AB (IVACC), a Swedish animal health company, announced Thursday that New Zealand Bloodstock will require all yearlings participating in its 101st National Yearling Sales to be vaccinated with Strangvac, Intervacc's vaccine against equine strangles. The requi",
         "publisher": "Nasdaq",
         "publisherDomain": "nasdaq.com",
-        "publishedAt": "2026-11-26T11:56:02.000Z",
-        "url": "https://www.nasdaq.com/articles/president-donald-trumps-big-beautiful-bill-dropped-169-billion-bombshell-social-security",
+        "publishedAt": "2026-11-26T21:33:54.000Z",
+        "url": "https://www.nasdaq.com/articles/intervaccs-strangvac-selected-mandatory-vaccination-new-zealand-yearling-sales",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-d7857fad-9bc8-5a6f-b27c-e510216a8fb0",
-        "title": "Mint Explainer | Why the Supreme Court wants clearer food label warnings fro India | Mint",
-        "description": "Citing the toll of non-communicable diseases, the Supreme Court rejected FSSAI’s proposed star ratings and nutrient tables as inadequate. Will the apex court's order help Indians make better food choices?",
-        "publisher": "Livemint",
-        "publisherDomain": "livemint.com",
-        "publishedAt": "2026-11-26T11:49:24.000Z",
-        "url": "https://www.livemint.com/industry/what-the-supreme-courts-food-labelling-order-means-for-india-11795686778875.html",
-        "imageUrl": "https://www.livemint.com/lm-img/img/2026/11/26/1600x900/logo/ANI-20250522260-0_1747987279567_1795692468286_Qagq_dd39284e-3376-456b-ba4f-13dae4d34584_ypbR.jpg",
+        "id": "currents-70fa71fc-3859-566c-9f35-5cb9e6b47834",
+        "title": "Mexico stocks lower at close of trade; S&P/BMV IPC down 1.33% By Investing.com",
+        "description": "Mexico stocks lower at close of trade; S&P/BMV IPC down 1.33%",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-11-26T21:30:32.000Z",
+        "url": "https://www.investing.com/news/stock-market-news/mexico-stocks-lower-at-close-of-trade-spbmv-ipc-down-133-5052726",
+        "imageUrl": "https://content-media.investing.com/news/Mexican%20Stock%20Exchange_800x533_L_1429451062.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-27274d47-4191-5273-a3dd-397cf03247d1",
-        "title": "AKVA group ASA: Mandatory notification of transactions by primary insiders and close associates",
-        "description": "Egersund, 26 November 2026 Reference is made to the announcement dated 2 October 2026 regarding the entry into of a transaction agreement (the...",
-        "publisher": "Globenewswire",
-        "publisherDomain": "globenewswire.com",
-        "publishedAt": "2026-11-26T12:07:00.000Z",
-        "url": "https://www.globenewswire.com/news-release/2026/11/26/3410744/0/en/akva-group-asa-mandatory-notification-of-transactions-by-primary-insiders-and-close-associates.html",
-        "imageUrl": "https://ml-eu.globenewswire.com/Resource/Download/5f6f0118-6573-4f36-9b8c-00c2d2d49981",
+        "id": "currents-007bf9b2-cad6-57d4-8c50-1ae7d2506bb5",
+        "title": "Thanksgiving storm knocks out power, disrupts flights on US East Coast",
+        "description": "A powerful storm disrupted the Thanksgiving holiday along much of the US East Coast on Thursday, knocking out power for hundreds of thousands.",
+        "publisher": "Detroitnews",
+        "publisherDomain": "detroitnews.com",
+        "publishedAt": "2026-11-26T21:40:51.000Z",
+        "url": "https://www.detroitnews.com/story/news/nation/2026/11/26/thanksgiving-storm-knocks-out-power-on-us-east-coast/92973447007",
+        "imageUrl": "https://www.detroitnews.com/gcdn/authoring/authoring-images/2026/11/26/PDTN/92973416007-20261126-t-185211-z-1512125539-rc-2-svoas-38-nr-rtrmadp-3-usaweather.JPG?crop=6371,3585,x0,y331&width=3200&height=1801&format=pjpg&auto=webp",
+        "categories": [
+          "Top",
+          "World",
+          "U.S.",
+          "Business"
+        ]
+      },
+      {
+        "id": "currents-fb1bb1b9-9063-5042-a8d2-1e7fc0c38870",
+        "title": "Canada stocks higher at close of trade; S&P/TSX Composite up 0.72% By Investing.com",
+        "description": "Canada stocks higher at close of trade; S&P/TSX Composite up 0.72%",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-11-26T21:30:04.000Z",
+        "url": "https://www.investing.com/news/stock-market-news/canada-stocks-higher-at-close-of-trade-sptsx-composite-up-072-5052724",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEL3D0QK_L.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-4f27e393-ce85-51fc-9ee5-caaa86a396eb",
-        "title": "US dollar rally takes a pause for Thanksgiving",
-        "description": "The yen was largely flat against the dollar, trading around 159.25 Read more at The Business Times.",
-        "publisher": "Com",
-        "publisherDomain": "businesstimes.com.sg",
-        "publishedAt": "2026-11-26T12:05:17.000Z",
-        "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/us-dollar-rally-takes-pause-thanksgiving",
-        "imageUrl": "https://cassette.sphdigital.com.sg/image/businesstimes/e5fac3ddeea56587e349cd37d1cd01e03bd4a8e92c6135e9ccab1dec5a4402d3?t=og&f=webp&w=240",
+        "id": "currents-c37acddb-a928-533e-a69c-e04075fe01ce",
+        "title": "Colombia stocks higher at close of trade; COLCAP up 0.97% By Investing.com",
+        "description": "Colombia stocks higher at close of trade; COLCAP up 0.97%",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-11-26T21:25:06.000Z",
+        "url": "https://www.investing.com/news/stock-market-news/colombia-stocks-higher-at-close-of-trade-colcap-up-097-5052723",
+        "imageUrl": "https://content-media.investing.com/news/moved_LYNXMPEHAT0R7_L.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-83ec2170-6884-52bd-aa67-96986b06040c",
-        "title": "GFG Receives C$200,000 Grant from the Ontario Junior Exploration Program",
-        "description": "SASKATOON, Saskatchewan, Nov. 26, 2026 (GLOBE NEWSWIRE) -- GFG Resources Inc. (TSXV: GFG | OTCQB: GFGSF) (“GFG” or the “Company”) is pleased to announce...",
-        "publisher": "Globenewswire",
-        "publisherDomain": "globenewswire.com",
-        "publishedAt": "2026-11-26T12:05:00.000Z",
-        "url": "https://www.globenewswire.com/news-release/2026/11/26/3410743/0/en/gfg-receives-c-200-000-grant-from-the-ontario-junior-exploration-program.html",
-        "imageUrl": "https://ml.globenewswire.com/Resource/Download/41503605-0bab-431a-998a-c249bbba06a0",
+        "id": "currents-f8425934-c179-5ee2-9739-3920d4580e03",
+        "title": "US malls make a holiday comeback as shoppers seek more than deals By Reuters",
+        "description": "US malls make a holiday comeback as shoppers seek more than deals",
+        "publisher": "Investing.com",
+        "publisherDomain": "investing.com",
+        "publishedAt": "2026-11-26T21:06:17.000Z",
+        "url": "https://www.investing.com/news/stock-market-news/us-malls-make-a-holiday-comeback-as-shoppers-seek-more-than-deals-5052721",
+        "imageUrl": "https://content-media.investing.com/trkd-images/LYNXNPEMAN0VB_L.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-c3406053-28d6-5d6b-809f-c64affb56e03",
-        "title": "JZR Gold Provides Update on Gold Processing and Metallurgical Optimization on the Vila Nova Gold Project",
-        "description": "Targeted Process Improvements Underway to Enhance Gold Recovery and Advance Toward Commercial Production...",
-        "publisher": "Globenewswire",
-        "publisherDomain": "globenewswire.com",
-        "publishedAt": "2026-11-26T12:02:00.000Z",
-        "url": "https://www.globenewswire.com/news-release/2026/11/26/3410742/0/en/jzr-gold-provides-update-on-gold-processing-and-metallurgical-optimization-on-the-vila-nova-gold-project.html",
-        "imageUrl": "https://ml.globenewswire.com/Resource/Download/de4e6009-8cd2-49ba-90d7-ac626d7a03df",
+        "id": "currents-29909c4a-64d6-5891-bfb6-564c8f944a7e",
+        "title": "10 Years From Now, You’ll Be Glad You Bought These Magnificent TSX Dividend Stocks",
+        "description": "These dividend stocks are solid for buying and holding, especially if you're able to grab shares on meaningful market pullbacks.",
+        "publisher": "Fool",
+        "publisherDomain": "fool.ca",
+        "publishedAt": "2026-11-26T21:40:00.000Z",
+        "url": "https://www.fool.ca/2026/11/26/10-years-from-now-youll-be-glad-you-bought-these-magnificent-tsx-dividend-stocks-13",
+        "imageUrl": "https://www.fool.ca/wp-content/uploads/2025/03/GettyImages-1404988611-1200x798.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-39cf6b23-d810-5420-8e77-92b730c556e1",
-        "title": "Rogers Sugar Reports Profitability Growth in 2026, Driven by Strong Execution in a Challenging Market",
-        "description": "VANCOUVER, British Columbia, Nov. 26, 2026 (GLOBE NEWSWIRE) -- Rogers Sugar Inc. (“our,” “we”, “us” or “Rogers”) (TSX: RSI) today reported fourth quarter...",
-        "publisher": "Globenewswire",
-        "publisherDomain": "globenewswire.com",
-        "publishedAt": "2026-11-26T12:01:00.000Z",
-        "url": "https://www.globenewswire.com/news-release/2026/11/26/3410741/0/en/rogers-sugar-reports-profitability-growth-in-2026-driven-by-strong-execution-in-a-challenging-market.html",
-        "imageUrl": "https://ml.globenewswire.com/Resource/Download/e5593648-aee2-4876-b9ae-5e52bf46533b",
+        "id": "currents-0bcfe9b2-b8d1-5556-a67d-94c1f9917f48",
+        "title": "Canadian Utilities vs. Emera: Which Dividend Could Double Your Income Sooner?",
+        "description": "A proposed utility merger makes dividend growth a question of merger exchange terms as well as annual dividend raises.",
+        "publisher": "Fool",
+        "publisherDomain": "fool.ca",
+        "publishedAt": "2026-11-26T21:30:00.000Z",
+        "url": "https://www.fool.ca/2026/11/26/canadian-utilities-vs-emera-which-dividend-could-double-your-income-sooner",
+        "imageUrl": "https://www.fool.ca/wp-content/uploads/2025/07/GettyImages-2161678259-1200x701.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-e59a840a-4e74-53fc-92e6-132ecf13c43a",
-        "title": "Rogers Sugar Inc. Declares Dividend to Shareholders",
-        "description": "THIS MEDIA RELEASE IS NOT FOR DISTRIBUTION TO THE UNITED STATES NEWSWIRE SERVICES OR FOR DISSEMINATION IN THE UNITED STATES MONTREAL, Nov. 26, 2026 ...",
-        "publisher": "Globenewswire",
-        "publisherDomain": "globenewswire.com",
-        "publishedAt": "2026-11-26T12:01:00.000Z",
-        "url": "https://www.globenewswire.com/news-release/2026/11/26/3410740/0/en/rogers-sugar-inc-declares-dividend-to-shareholders.html",
-        "imageUrl": "https://ml.globenewswire.com/Resource/Download/e5593648-aee2-4876-b9ae-5e52bf46533b",
+        "id": "currents-b1cabc12-633e-54e5-9015-a8d6bfa291c3",
+        "title": "How Long Does It Take to Build a Dividend Portfolio That Generates Meaningful Income?",
+        "description": "Learn the various ways to achieve meaningful income that meets your basic and discretionary needs without taking on debt.",
+        "publisher": "Fool",
+        "publisherDomain": "fool.ca",
+        "publishedAt": "2026-11-26T21:20:00.000Z",
+        "url": "https://www.fool.ca/2026/11/26/how-long-does-it-take-to-build-a-dividend-portfolio-that-generates-meaningful-income",
+        "imageUrl": "https://www.fool.ca/wp-content/uploads/2026/11/Copy-of-dividends-blackboard-sketch-doodle-1200x849.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-2a0b0c93-24c6-5f32-ab03-b8c172b7c69e",
-        "title": "Friendsgiving was named in the 2000s but its history stretched back much farther than that",
-        "description": "Of 1,000 people surveyed in 2024, 20% said they planned to celebrate Friendsgiving instead of Thanksgiving.",
-        "publisher": "Fortune",
-        "publisherDomain": "fortune.com",
-        "publishedAt": "2026-11-26T12:00:00.000Z",
-        "url": "https://fortune.com/2026/11/26/friendsgiving-history-holiday-stress",
-        "imageUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/11/friendsgiving-dinner.jpg?resize=1200,600",
+        "id": "currents-b8d43374-e58c-528f-ad87-ac5836dbc02b",
+        "title": "Two companies behind McGregor's stout record €2.43 losses",
+        "description": "Two companies behind Conor McGregor's Forged Stout brand recorded combined losses of €2.43m last year.",
+        "publisher": "Rte",
+        "publisherDomain": "rte.ie",
+        "publishedAt": "2026-11-26T21:19:59.000Z",
+        "url": "https://www.rte.ie/news/business/2026/1126/1600839-mcgregor-stout-losses",
+        "imageUrl": "https://www.rte.ie/images/0022d294-1600.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-dd717bba-c2ec-5c85-9a4d-d8e562d76a27",
-        "title": "OXB Appoints Nawal Ouzren as Independent Non-Executive Director",
-        "description": "OXB Appoints Nawal Ouzren as Independent Non-Executive Director Oxford, UK – 26 November 2026: OXB (LSE: OXB), a global quality and innovation-led cell...",
-        "publisher": "Globenewswire",
-        "publisherDomain": "globenewswire.com",
-        "publishedAt": "2026-11-26T12:00:00.000Z",
-        "url": "https://www.globenewswire.com/news-release/2026/11/26/3410738/0/en/oxb-appoints-nawal-ouzren-as-independent-non-executive-director.html",
-        "imageUrl": "https://ml-eu.globenewswire.com/Resource/Download/3e905c0a-b28c-4981-ac57-745647779ad9",
+        "id": "currents-93c43855-e7fa-58ed-82d1-1e7143b7fe5a",
+        "title": "$100 Invested In T-Mobile US 15 Years Ago Would Be Worth This Much Today - T-Mobile US (NASDAQ:TMUS)",
+        "description": "T-Mobile US (NASDAQ:TMUS) has outperformed the market over the past 15 years by 4.26% on an annualized basis producing an average annual return of 16.61%. Currently, T-Mobile US has a market capitalization of $177.22",
+        "publisher": "Benzinga",
+        "publisherDomain": "benzinga.com",
+        "publishedAt": "2026-11-26T21:15:13.000Z",
+        "url": "https://www.benzinga.com/news/26/11/63663309/100-invested-t-mobile-us-15-years-ago-would-be-worth-much-today",
+        "imageUrl": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2025/11/06/valuestock_4.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-8adb01e5-f4fb-5819-a323-9bf2400608d5",
-        "title": "United Natural Foods: Expanding Margins, Strong Earnings Growth, And An Attractive 8x EBITDA Valuation",
-        "description": "Analyst rates United Natural Foods a Buy: Q4 adjusted EBITDA rose 48.3%, and productivity initiatives support margin expansion at 7.97x forward EV/EBITDA.",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-11-26T11:55:02.000Z",
-        "url": "https://seekingalpha.com/article/4972239-united-natural-foods-stock-expanding-margins-strong-earnings-growth-and-attractive-8x-ebitda-valuation",
-        "imageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/103924839/image_103924839.jpg?io=getty-c-og",
+        "id": "currents-7cb56cd2-0c55-5c99-97db-9f41c6f79c3d",
+        "title": "Quebec police announce arrests in decades-old criminal investigations",
+        "description": "MONTREAL - Police in Quebec have announced arrests in two separate investigations dating back more than a decade.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-11-26T21:13:15.000Z",
+        "url": "https://www.winnipegfreepress.com/uncategorized/2026/11/26/quebec-police-announce-arrests-in-decades-old-criminal-investigations",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b0895d3930a7a5b3f6b2914jpeg.jpg?w=1600",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-f8c6f797-4323-58b5-8e46-5cd1916dcb8b",
-        "title": "BIMCO puts ship-to-ship transfer costs on charterers",
-        "description": "Shipping organisation BIMCO has released a new standard clause for tanker charterparties that places the costs and risks of ship-to-ship cargo transfers on charterers while preserving the master’s authority over vessel safety. Published this week, the clause covers conventional and gas tankers, incl...",
-        "publisher": "Splash247",
-        "publisherDomain": "splash247.com",
-        "publishedAt": "2026-11-26T11:54:00.000Z",
-        "url": "https://splash247.com/bimco-puts-ship-to-ship-transfer-costs-on-charterers",
-        "imageUrl": "https://splash247.com/wp-content/uploads/2026/11/STS-BIMCO.jpg",
+        "id": "currents-aa1646cd-1da1-5793-84e7-88041b088d88",
+        "title": "Strobe Talbott, former Time magazine reporter and deputy secretary of state, has died",
+        "description": "Strobe Talbott, a former Time magazine reporter who later served as deputy secretary of state under President Bill Clinton and then headed the Brookings Institution, died Thursday. He was 80.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-11-26T21:10:30.000Z",
+        "url": "https://www.winnipegfreepress.com/world/2026/11/26/strobe-talbott-former-time-magazine-reporter-and-deputy-secretary-of-state-has-died",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-109e5538-9632-5445-9632-aed01f747c46",
-        "title": "Criminal syndicates are thriving in the gaps between SA's state institutions: Kieswetter",
-        "description": "Former SARS commissioner Edward Kieswetter has called for a co-ordinated national strategy to tackle organised crime, warning that criminal networks are expanding faster than the state can respond.",
-        "publisher": "Co",
-        "publisherDomain": "iol.co.za",
-        "publishedAt": "2026-11-26T11:48:44.000Z",
-        "url": "https://iol.co.za/business/2026-11-26-criminal-syndicates-are-thriving-in-the-gaps-between-sas-state-institutions-kieswetter",
-        "imageUrl": "https://iol-prod.appspot.com/image/556f4619e81a23369afb6104304a9b598140637b/1000/jpeg",
+        "id": "currents-8e2b41e3-9f73-5c67-940b-4f8fa3ed5199",
+        "title": "TFSA \"Pension\": 3 Top High-Yield Dividend Stocks to Own for a Reliable Retirement Income",
+        "description": "Build a reliable TFSA retirement pension with three discounted Canadian monthly dividend stocks paying passive income streams that yield up to 8.9%.",
+        "publisher": "Fool",
+        "publisherDomain": "fool.ca",
+        "publishedAt": "2026-11-26T21:10:00.000Z",
+        "url": "https://www.fool.ca/2026/11/26/tfsa-pension-3-top-high-yield-dividend-stocks-to-own-for-a-reliable-retirement-income",
+        "imageUrl": "https://www.fool.ca/wp-content/uploads/2025/07/REIT-house-home-investing-1200x800.jpg",
         "categories": [
           "Top",
           "Business"
         ]
       },
       {
-        "id": "currents-253acec1-49ee-52ed-a6e7-600d979f157f",
-        "title": "Nitin Gadkari announces Rs 1 lakh crore road projects for Bengal, promises 250-km Kolkata ring road",
-        "description": "Declaring that the Centre would back Bengal's infrastructure push with all necessary financial resources, Gadkari said projects worth around Rs 40,000 crore had already been completed in the state, while works worth Rs 35,000 crore, covering approximately 450 km, were under implementation.",
-        "publisher": "Indiatimes",
-        "publisherDomain": "economictimes.indiatimes.com",
-        "publishedAt": "2026-11-26T11:48:21.000Z",
-        "url": "https://economictimes.indiatimes.com/news/economy/infrastructure/nitin-gadkari-announces-rs-1-lakh-crore-road-projects-for-bengal-promises-250-km-kolkata-ring-road/articleshow/136190629.cms",
-        "imageUrl": "https://img.etimg.com/thumb/msid-136190677,width-1200,height-900,imgsize-10390964,overlay-economictimes/articleshow.jpg",
-        "categories": [
-          "Top",
-          "Business"
-        ]
-      },
-      {
-        "id": "currents-89e90d65-0a8f-5c15-a937-b063eefd3644",
-        "title": "MNTN: Valuation Shows A Robust Upside Despite Near-Term Headwinds",
-        "description": "MNTN: Valuation Shows A Robust Upside Despite Near-Term Headwinds",
-        "publisher": "Seekingalpha",
-        "publisherDomain": "seekingalpha.com",
-        "publishedAt": "2026-11-26T11:57:33.000Z",
-        "url": "https://seekingalpha.com/article/4972240-mntn-valuation-shows-a-robust-upside-despite-near-term-headwinds",
+        "id": "currents-9c0034ff-42ba-5ccf-9ce4-6597d465bd8a",
+        "title": "Precision Optics: 3 Key Takeaways for Long-Term Investors",
+        "description": "Key PointsPrecision Optics reiterated fiscal 2027 revenue guidance of $30 million to $33 million.",
+        "publisher": "Nasdaq",
+        "publisherDomain": "nasdaq.com",
+        "publishedAt": "2026-11-26T21:27:59.000Z",
+        "url": "https://www.nasdaq.com/articles/precision-optics-3-key-takeaways-long-term-investors",
         "categories": [
           "Top",
           "Business"
@@ -930,14 +923,14 @@
     ],
     "Technology": [
       {
-        "id": "currents-b76fc03d-f093-5867-bb90-1d9b8fed00ae",
-        "title": "Treat first frames, last frames, and references like build inputs",
-        "description": "When a video tool is going to sit in a docs or tutorial pipeline, it helps to treat the inputs the...",
+        "id": "currents-a6153c15-54dc-575c-aeeb-af702efdc4f2",
+        "title": "My First Rust + Tauri Project Is a Full Download Manager. Here's What I Learned",
+        "description": "I recently finished HAUL, a desktop download manager, and it was my first project with both Rust and...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-26T12:08:58.000Z",
-        "url": "https://dev.to/jack_2737d4f05bb6873eb5fd/treat-first-frames-last-frames-and-references-like-build-inputs-1odp",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fn6qtj4hd3mfqc8dsbqs8.png",
+        "publishedAt": "2026-11-26T21:42:48.000Z",
+        "url": "https://dev.to/mohammedmnoby/my-first-rust-tauri-project-is-a-full-download-manager-heres-what-i-learned-10p5",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fol4dgpzqfligy4hph75o.png",
         "categories": [
           "Top",
           "Technology",
@@ -946,14 +939,14 @@
         ]
       },
       {
-        "id": "currents-09f3e747-4610-504f-9310-edfd75b59b87",
-        "title": "Your AI Monitor Shares a GPU With the Agent It Watches. Here Is How to Separate Them",
-        "description": "A common safety setup for AI agents looks like this: one model does the work, and a second model...",
+        "id": "currents-a1fddc2c-8da6-5a2c-a8ac-6c4bdc35320b",
+        "title": "DoRA vs LoRA: is DoRA worth using for fine-tuning?",
+        "description": "DoRA beat LoRA by 1.0 to 4.4 points in its paper and adds few parameters, but trains and serves slower unmerged. When to try it, with the math.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-26T12:08:10.000Z",
-        "url": "https://dev.to/jamilxt/your-ai-monitor-shares-a-gpu-with-the-agent-it-watches-here-is-how-to-separate-them-4n4o",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fjamilxt.com%2Fassets%2Fai-monitor-shares-gpu-with-agent-vllm-isolation-guide-cover.webp%3Fv%3D1",
+        "publishedAt": "2026-11-26T21:41:33.000Z",
+        "url": "https://dev.to/viswaretas_kotra/dora-vs-lora-is-dora-worth-using-for-fine-tuning-4k70",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F09kpd5r8r8c4ovv9ou89.png",
         "categories": [
           "Top",
           "Technology",
@@ -962,14 +955,14 @@
         ]
       },
       {
-        "id": "currents-622ac175-d05b-54c6-9e1e-f23e8d611ecf",
-        "title": "Check the low-stock list before you place your next order",
-        "description": "Ordering from memory usually means ordering too much of what you already have and missing what is...",
+        "id": "currents-fb911ba9-ea0a-5d05-a603-3b18c67c6c28",
+        "title": "Half-empty dorm, fully booked: how smarter bed allocation raises hostel RevPAB",
+        "description": "A hostel dorm can be half empty and still turn guests away. Here's a real case: a 4-bed dorm, one...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-26T12:07:56.000Z",
-        "url": "https://dev.to/thienkrik/check-the-low-stock-list-before-you-place-your-next-order-2o63",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fotbgfuj1rblava7s6fs4.png",
+        "publishedAt": "2026-11-26T21:41:10.000Z",
+        "url": "https://dev.to/sanderaddink/half-empty-dorm-fully-booked-how-smarter-bed-allocation-raises-hostel-revpab-20ab",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fplyxkcpl5cce1jixvdwi.png",
         "categories": [
           "Top",
           "Technology",
@@ -978,14 +971,14 @@
         ]
       },
       {
-        "id": "currents-2a40b0e0-dbd5-5bab-bf72-4719021b1585",
-        "title": "Which sites block GPTBot, ClaudeBot and PerplexityBot? The robots.txt files of 1,000 top domains",
-        "description": "AI disclosure: An AI agent (Claude) wrote this post from our published dataset. The numbers were...",
+        "id": "currents-659b6e36-6d0f-5a33-b2b9-10347910b00a",
+        "title": "The default log retention is forever. Change it first",
+        "description": "Set log retention before you set anything else A log group with no retention setting keeps every...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-26T12:07:35.000Z",
-        "url": "https://dev.to/aiagencynet/which-sites-block-gptbot-claudebot-and-perplexitybot-the-robotstxt-files-of-1000-top-domains-5hn6",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F19eh56da8vt8mpsyia4x.png",
+        "publishedAt": "2026-11-26T21:39:10.000Z",
+        "url": "https://dev.to/vlad_z_16b6320e21f32bee0d/the-default-log-retention-is-forever-change-it-first-58d6",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmtg4mjjm3eudrm47lvur.png",
         "categories": [
           "Top",
           "Technology",
@@ -994,30 +987,14 @@
         ]
       },
       {
-        "id": "currents-3bc5e0ba-fe05-5a6c-9813-3bf96c6ac433",
-        "title": "The 100 KB photo limit: why application forms ask for it, and how to hit it",
-        "description": "Visa applications. Passport photos. A university portal. A job site. A marketplace listing. A...",
+        "id": "currents-5a7a44f1-cfcc-5a7c-ab69-953d85e0fcc1",
+        "title": "Avoiding the 11'-12\" Bug: Parsing US Feet-and-Inches & Auto-Fitting Architectural Print Scales in TypeScript",
+        "description": "If you build residential CAD software, floor plan editors, or construction calculators for US users,...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-26T12:07:06.000Z",
-        "url": "https://dev.to/chobonggi3/the-100-kb-photo-limit-why-application-forms-ask-for-it-and-how-to-hit-it-dg1",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4wmgibil7m6songdctzr.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-abc8cd6e-7ffd-5f34-8114-80e454ff6429",
-        "title": "1Password was breached through one GitHub account. I built a CLI that traces whether yours can walk alone from push to production.",
-        "description": "1Password was breached through one GitHub account. I built a CLI that traces whether yours...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-26T12:10:02.000Z",
-        "url": "https://dev.to/techdevfun/1password-was-breached-through-one-github-account-i-built-a-cli-that-traces-whether-yours-can-walk-22mj",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fazdwfs7hr38uxaackjee.png",
+        "publishedAt": "2026-11-26T21:38:41.000Z",
+        "url": "https://dev.to/clara_sutton/avoiding-the-11-12-bug-parsing-us-feet-and-inches-auto-fitting-architectural-print-scales-in-538e",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ft1ori12d9hy125bkbeoq.png",
         "categories": [
           "Top",
           "Technology",
@@ -1028,14 +1005,14 @@
     ],
     "Science": [
       {
-        "id": "currents-b76fc03d-f093-5867-bb90-1d9b8fed00ae",
-        "title": "Treat first frames, last frames, and references like build inputs",
-        "description": "When a video tool is going to sit in a docs or tutorial pipeline, it helps to treat the inputs the...",
+        "id": "currents-a6153c15-54dc-575c-aeeb-af702efdc4f2",
+        "title": "My First Rust + Tauri Project Is a Full Download Manager. Here's What I Learned",
+        "description": "I recently finished HAUL, a desktop download manager, and it was my first project with both Rust and...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-26T12:08:58.000Z",
-        "url": "https://dev.to/jack_2737d4f05bb6873eb5fd/treat-first-frames-last-frames-and-references-like-build-inputs-1odp",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fn6qtj4hd3mfqc8dsbqs8.png",
+        "publishedAt": "2026-11-26T21:42:48.000Z",
+        "url": "https://dev.to/mohammedmnoby/my-first-rust-tauri-project-is-a-full-download-manager-heres-what-i-learned-10p5",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fol4dgpzqfligy4hph75o.png",
         "categories": [
           "Top",
           "Technology",
@@ -1044,14 +1021,14 @@
         ]
       },
       {
-        "id": "currents-09f3e747-4610-504f-9310-edfd75b59b87",
-        "title": "Your AI Monitor Shares a GPU With the Agent It Watches. Here Is How to Separate Them",
-        "description": "A common safety setup for AI agents looks like this: one model does the work, and a second model...",
+        "id": "currents-a1fddc2c-8da6-5a2c-a8ac-6c4bdc35320b",
+        "title": "DoRA vs LoRA: is DoRA worth using for fine-tuning?",
+        "description": "DoRA beat LoRA by 1.0 to 4.4 points in its paper and adds few parameters, but trains and serves slower unmerged. When to try it, with the math.",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-26T12:08:10.000Z",
-        "url": "https://dev.to/jamilxt/your-ai-monitor-shares-a-gpu-with-the-agent-it-watches-here-is-how-to-separate-them-4n4o",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fjamilxt.com%2Fassets%2Fai-monitor-shares-gpu-with-agent-vllm-isolation-guide-cover.webp%3Fv%3D1",
+        "publishedAt": "2026-11-26T21:41:33.000Z",
+        "url": "https://dev.to/viswaretas_kotra/dora-vs-lora-is-dora-worth-using-for-fine-tuning-4k70",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F09kpd5r8r8c4ovv9ou89.png",
         "categories": [
           "Top",
           "Technology",
@@ -1060,14 +1037,14 @@
         ]
       },
       {
-        "id": "currents-622ac175-d05b-54c6-9e1e-f23e8d611ecf",
-        "title": "Check the low-stock list before you place your next order",
-        "description": "Ordering from memory usually means ordering too much of what you already have and missing what is...",
+        "id": "currents-fb911ba9-ea0a-5d05-a603-3b18c67c6c28",
+        "title": "Half-empty dorm, fully booked: how smarter bed allocation raises hostel RevPAB",
+        "description": "A hostel dorm can be half empty and still turn guests away. Here's a real case: a 4-bed dorm, one...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-26T12:07:56.000Z",
-        "url": "https://dev.to/thienkrik/check-the-low-stock-list-before-you-place-your-next-order-2o63",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fotbgfuj1rblava7s6fs4.png",
+        "publishedAt": "2026-11-26T21:41:10.000Z",
+        "url": "https://dev.to/sanderaddink/half-empty-dorm-fully-booked-how-smarter-bed-allocation-raises-hostel-revpab-20ab",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fplyxkcpl5cce1jixvdwi.png",
         "categories": [
           "Top",
           "Technology",
@@ -1076,14 +1053,14 @@
         ]
       },
       {
-        "id": "currents-2a40b0e0-dbd5-5bab-bf72-4719021b1585",
-        "title": "Which sites block GPTBot, ClaudeBot and PerplexityBot? The robots.txt files of 1,000 top domains",
-        "description": "AI disclosure: An AI agent (Claude) wrote this post from our published dataset. The numbers were...",
+        "id": "currents-659b6e36-6d0f-5a33-b2b9-10347910b00a",
+        "title": "The default log retention is forever. Change it first",
+        "description": "Set log retention before you set anything else A log group with no retention setting keeps every...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-26T12:07:35.000Z",
-        "url": "https://dev.to/aiagencynet/which-sites-block-gptbot-claudebot-and-perplexitybot-the-robotstxt-files-of-1000-top-domains-5hn6",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F19eh56da8vt8mpsyia4x.png",
+        "publishedAt": "2026-11-26T21:39:10.000Z",
+        "url": "https://dev.to/vlad_z_16b6320e21f32bee0d/the-default-log-retention-is-forever-change-it-first-58d6",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmtg4mjjm3eudrm47lvur.png",
         "categories": [
           "Top",
           "Technology",
@@ -1092,30 +1069,14 @@
         ]
       },
       {
-        "id": "currents-3bc5e0ba-fe05-5a6c-9813-3bf96c6ac433",
-        "title": "The 100 KB photo limit: why application forms ask for it, and how to hit it",
-        "description": "Visa applications. Passport photos. A university portal. A job site. A marketplace listing. A...",
+        "id": "currents-5a7a44f1-cfcc-5a7c-ab69-953d85e0fcc1",
+        "title": "Avoiding the 11'-12\" Bug: Parsing US Feet-and-Inches & Auto-Fitting Architectural Print Scales in TypeScript",
+        "description": "If you build residential CAD software, floor plan editors, or construction calculators for US users,...",
         "publisher": "Dev",
         "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-26T12:07:06.000Z",
-        "url": "https://dev.to/chobonggi3/the-100-kb-photo-limit-why-application-forms-ask-for-it-and-how-to-hit-it-dg1",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4wmgibil7m6songdctzr.png",
-        "categories": [
-          "Top",
-          "Technology",
-          "Science",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-abc8cd6e-7ffd-5f34-8114-80e454ff6429",
-        "title": "1Password was breached through one GitHub account. I built a CLI that traces whether yours can walk alone from push to production.",
-        "description": "1Password was breached through one GitHub account. I built a CLI that traces whether yours...",
-        "publisher": "Dev",
-        "publisherDomain": "dev.to",
-        "publishedAt": "2026-11-26T12:10:02.000Z",
-        "url": "https://dev.to/techdevfun/1password-was-breached-through-one-github-account-i-built-a-cli-that-traces-whether-yours-can-walk-22mj",
-        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fazdwfs7hr38uxaackjee.png",
+        "publishedAt": "2026-11-26T21:38:41.000Z",
+        "url": "https://dev.to/clara_sutton/avoiding-the-11-12-bug-parsing-us-feet-and-inches-auto-fitting-architectural-print-scales-in-538e",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ft1ori12d9hy125bkbeoq.png",
         "categories": [
           "Top",
           "Technology",
@@ -1126,209 +1087,214 @@
     ],
     "Sports": [
       {
-        "id": "currents-6a3c553c-4972-5fae-9112-8ffabb80f96b",
-        "title": "Golf: Nick Faldo urges LIV stars to 'chip in' for unpaid firms",
-        "description": "The six-time major winner calls on those who benefited financially from LIV Golf to help small businesses still owed money by the tour.",
-        "publisher": "BBC News",
-        "publisherDomain": "bbc.co.uk",
-        "publishedAt": "2026-11-26T11:45:31.000Z",
-        "url": "https://www.bbc.co.uk/sport/golf/articles/ckq6emzlegjyo",
-        "imageUrl": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/7c4c/live/15b5a860-e8b4-11f1-9e64-bddd508b9881.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-3e89b749-1cd8-5fa2-90d3-9dedb004fe20",
-        "title": "Reporter reveals how Jude Bellingham stood up for her",
-        "description": "The female reporter Jude Bellingham defended during an 'intimidating' post-match interview has praised the England star for his 'respectful' and 'well-mannered' conduct.",
+        "id": "currents-ac9f9030-2dca-537a-86a9-c66a590baf1e",
+        "title": "NFL fans left baffled as CBS Thanksgiving broadcast suffers glitch",
+        "description": "During the fourth quarter of the game between the Detroit Lions and Chicago Bears, the CBS feed cut out and viewers were left with an ear-splitting beep and message that read: 'NY TX Test'.",
         "publisher": "Daily Mail",
         "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-11-26T11:49:19.000Z",
-        "url": "https://www.dailymail.com/sport/football/article-16323609/Female-reporter-protected-Jude-Bellingham-reveals-classy-England-star-stood-intimidating-Madrid-press-scrum-leading-viral-moment.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/11/26/11/112741689-0-image-m-38_1795693502718.jpg",
+        "publishedAt": "2026-11-26T21:41:50.000Z",
+        "url": "https://www.dailymail.com/sport/nfl/article-16325377/nfl-cbs-thanksgiving-broadcast-glitch-bears-lions.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/11/26/21/112751555-0-image-a-30_1795728364323.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-02bdae36-5fcc-510d-bcd6-194e26d4dc18",
-        "title": "Chances to put things right in Europe: The five key battles in Olympiacos vs. Milan",
-        "description": "AC Milan will return to a city where they have a glorious history, but this time in dire need of a win to get their European campaign going.",
-        "publisher": "Sempremilan",
-        "publisherDomain": "sempremilan.com",
-        "publishedAt": "2026-11-26T12:00:00.000Z",
-        "url": "https://sempremilan.com/five-key-battles-olympiacos-milan-2026-27",
-        "imageUrl": "https://icdn.sempremilan.com/wp-content/uploads/2026/11/ac-milan-v-fc-internazionale-serie-a-2026-27-17.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-6bec390d-9965-5643-a0e6-c6ae6d4fb2e2",
-        "title": "Commentary: Don’t doubt the Rams. Sean McVay continues to transform crisis into success",
-        "description": "Sean McVay's ability to adjust and instill confidence in his players in times of adversity has played a key role in the team winning five consecutive games.",
-        "publisher": "Latimes",
-        "publisherDomain": "latimes.com",
-        "publishedAt": "2026-11-26T12:00:00.000Z",
-        "url": "https://www.latimes.com/sports/rams/story/2026-11-26/rams-sean-mcvay-team-confidence-winning-streak",
-        "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/e45589d/2147483647/strip/true/crop/2822x1482+0+0/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F21%2F6f%2Fdd468aae4d299d5d973452929cd9%2F1576016-sp-nfl-rams-packers-028.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-e3d6317e-de26-5d2e-8ce3-fe27f7f2b3ea",
-        "title": "'All about giving': Why the Lakers' Ziaire Williams enjoys giving back",
-        "description": "The sixth-year forward appreciates the little things in life and the ability to give back to the community as he did with a Thanksgiving event.",
-        "publisher": "Latimes",
-        "publisherDomain": "latimes.com",
-        "publishedAt": "2026-11-26T12:00:00.000Z",
-        "url": "https://www.latimes.com/sports/lakers/story/2026-11-26/lakers-forward-ziaire-williams-enjoys-hosting-thanksgiving-event",
-        "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/f63d38a/2147483647/strip/true/crop/2028x1065+0+144/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fc7%2F9f%2Faa0eb5d1498c9d5ab22d71915042%2F1579387-sp-nba-lakers-jazz-0495-rb.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-c0b5386c-a9e9-5a12-b0b7-d36f06bf56ab",
-        "title": "Second man pleads guilty to manslaughter of children's nurse Karen Cummings",
-        "description": "Last week 44-year old Kevin McGuigan pleaded guilty to four charges including the manslaughter of Ms Cumming",
-        "publisher": "Belfastlive",
-        "publisherDomain": "belfastlive.co.uk",
-        "publishedAt": "2026-11-26T11:56:25.000Z",
-        "url": "https://www.belfastlive.co.uk/news/belfast-news/karen-cummings-case-sees-second-34968732",
-        "imageUrl": "https://i2-prod.belfastlive.co.uk/article30591869.ece/ALTERNATES/s1200d/2_Karen-Cummings.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-f36759a8-ada8-5cd4-8207-8e02184385a2",
-        "title": "FIFA says it has been victim of a cyberattack accessing 'personal and business information'",
-        "description": "ZURICH (AP) — FIFA was the victim of a cyberattack that saw hackers gain access to what soccer’s world governing body describes as a “limited set of personal and business information,\" it said Thursday.",
+        "id": "currents-84df3466-a0a0-5766-9dca-6e2479ca888a",
+        "title": "Argentina bans its central bank from printing money for the government",
+        "description": "BUENOS AIRES, Argentina (AP) — Argentina’s Congress voted Thursday to bar the central bank from printing money to pay the government’s bills, enshrining in law a key pillar of President Javier Milei’s fight against the country’s notoriously high inflation.",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-11-26T11:53:48.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/soccer/2026/11/26/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6afb24b41e37d8fa64d4b310jpeg_ead442.jpg?w=1600",
+        "publishedAt": "2026-11-26T21:35:52.000Z",
+        "url": "https://www.winnipegfreepress.com/business/2026/11/26/argentina-bans-its-central-bank-from-printing-money-for-the-government",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
         "categories": [
-          "Sports"
+          "Sports",
+          "Top",
+          "World",
+          "U.S."
         ]
       },
       {
-        "id": "currents-75ccad22-f401-592a-a34d-017b7d8e804a",
-        "title": "Man filmed in \"vulnerable state\" threatens legal action over Peelers show",
-        "description": "Solicitors acting on his behalf said the footage shows him held in a PSNI vehicle before he was released without charge",
+        "id": "currents-2edc9d8b-60e0-55ee-a9c8-53a953d8a78f",
+        "title": "Spain beats Austria 2-0 to set up Davis Cup semifinal vs. Britain",
+        "description": "Daniel Merida gave Spain the lead in its Davis Cup quarterfinal by defeating Austria's Joel Schwaerzler 6-4, 6-4 before Rafael Jodar clinched victory by coming from a set down to overcome Jurij Rodionov 2-6, 6-0, 6-1.",
+        "publisher": "ESPN",
+        "publisherDomain": "espn.com",
+        "publishedAt": "2026-11-26T21:46:17.000Z",
+        "url": "https://www.espn.com/tennis/story/_/id/50606263/spain-beats-austria-set-davis-cup-semifinal-vs-britain",
+        "imageUrl": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1126%2Fr1751791_1296x729_16%2D9.jpg",
+        "categories": [
+          "Sports",
+          "Top",
+          "U.S."
+        ]
+      },
+      {
+        "id": "currents-23004525-7fe4-5423-93c0-ae56606c1385",
+        "title": "Law on using phones while driving to be strengthened in NI",
+        "description": "The DfI said distracted driving was the biggest cause of death and serious injuries on the roads in 2025",
         "publisher": "Belfastlive",
         "publisherDomain": "belfastlive.co.uk",
-        "publishedAt": "2026-11-26T11:53:03.000Z",
-        "url": "https://www.belfastlive.co.uk/news/tv/man-threatens-legal-action-over-34968527",
-        "imageUrl": "https://i2-prod.belfastlive.co.uk/article34889663.ece/ALTERNATES/s1200d/1_584011.jpg",
+        "publishedAt": "2026-11-26T21:28:57.000Z",
+        "url": "https://www.belfastlive.co.uk/news/northern-ireland/law-using-handheld-phones-driving-34972242",
+        "imageUrl": "https://i2-prod.belfastlive.co.uk/article34861152.ece/ALTERNATES/s1200d/0_Male-driver-is-driving-car-and-texting-on-mobile-phone.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-afa19833-f644-5c8e-864b-f9d9e9caf957",
-        "title": "Fabien Galthie’s France to go ‘all in’ against Springboks for Nations Championship crown",
-        "description": "World Cup holders the Springboks lost 21-19 to Les Bleus in Paris on Nov 13 during the pool stage. Read more at straitstimes.com.",
-        "publisher": "Straitstimes",
-        "publisherDomain": "straitstimes.com",
-        "publishedAt": "2026-11-26T11:50:00.000Z",
-        "url": "https://www.straitstimes.com/sport/fabien-galthies-france-to-go-all-in-against-springboks-for-nations-championship-crown",
-        "imageUrl": "https://cassette.sphdigital.com.sg/image/straitstimes/8c44eeeb2c70ee835bf407b2fc04bf2ca75c712835c7d333907a7036a06385a0?t=og",
+        "id": "currents-cf8710f5-cc3b-5705-be32-40fd2dd1c256",
+        "title": "Monaco defeat isn't fatal for Hearts' European hopes, insists Vrancken",
+        "description": "Wouter Vrancken claimed that Monaco's 94th-minute winner at Tynecastle has not significantly diminished Hearts' chances of reaching the knockout phase of the UEFA Conference League.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-11-26T21:38:59.000Z",
+        "url": "https://www.dailymail.com/sport/football/article-16325391/Monaco-defeat-isnt-fatal-hopes-progressing-Europe-insists-defiant-Hearts-manager-Wouter-Vrancken.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/11/26/21/112750933-0-image-m-34_1795728583535.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-99d6b212-1dd2-5afc-a998-9b2f16148bca",
-        "title": "Egypt detains a driver suspected of causing Cairo tanker crash that killed 31",
-        "description": "CAIRO (AP) — Egyptian authorities said Thursday they detained the driver of a car suspected of causing a fuel tanker to overturn on a major highway surrounding Cairo, triggering a massive fire and killing at least 31 people during rush hour a day earlier.",
+        "id": "currents-1b7dcaee-023a-5d09-8878-c4cdb42a02ae",
+        "title": "Former NFL star flips Republican stronghold in California",
+        "description": "Chris Kluwe, the former Minnesota Vikings punter who became a political activist, has punched his ticket to the California State Assembly by flipping a Republican stronghold.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-11-26T21:36:18.000Z",
+        "url": "https://www.dailymail.com/sport/nfl/article-16325289/Former-NFL-punter-Chris-Kluwe-flips-Republican-stronghold-California.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/11/26/21/112751447-0-image-a-36_1795728180467.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-81257f02-f60a-5143-92b7-9a6e31fd8df1",
+        "title": "How banner that fell flat led to Arsenal fans taking control of tifos",
+        "description": "Tifos are back at the Emirates. Those loud, passionate designs which last season galvanised Arsenal en route to a first Premier League title in 22 years return on Sunday.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-11-26T21:30:46.000Z",
+        "url": "https://www.dailymail.com/sport/football/article-16324183/Inside-Arsenals-tifo-culture-Emirates-banner-years-PSG-semi-final-fell-flat-led-fans-taking-control-prepare-unveil-new-design-Sundays-showdown-Man-City.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/11/26/20/112750813-0-image-m-30_1795724097124.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-545a7c29-72c8-50d0-8ff7-21137a156f8a",
+        "title": "Night of chaos erupts in Europe as Marseille hooligans descend",
+        "description": "Fans of Marseille and Levski Sofia clashed violently at their Europa League match, with home hooligans descending on the away end after being provoked by a Nazi salute.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-11-26T21:06:54.000Z",
+        "url": "https://www.dailymail.com/sport/football/article-16325217/marseille-levski-sofia-besiktas-sunderland-europe.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/11/26/21/112751209-0-image-a-35_1795727203125.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-fb8cea3f-3072-5ab3-84c0-408c206ea280",
+        "title": "HEARTS 2 MONACO 3: Late agony for brave Hearts as Balogun settles epic",
+        "description": "Hearts' bid to reach the knockout phase of the UEFA Conference League suffered an agonising 94th-minute blow after they had gone toe-to-toe with a classy Monaco side.",
+        "publisher": "Daily Mail",
+        "publisherDomain": "dailymail.com",
+        "publishedAt": "2026-11-26T21:06:35.000Z",
+        "url": "https://www.dailymail.com/sport/football/article-16325327/HEARTS-2-MONACO-3-Late-agony-brave-Hearts-Balogun-strikes-late-settle-rollercoaster-Tynecastle-epic.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/11/26/21/112751169-0-image-a-139_1795726831427.jpg",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-e7573a1d-1ee9-5261-b404-7679c14cb0d4",
+        "title": "Money Williams scores 27, scores with 2 seconds left as BC beats UCF 75-73 at ESPN Events invite",
+        "description": "KISSIMMEE, Fla. (AP) — Money Williams went 10-for-10 from the free-throw line, finished with 27 points and scored with 2 seconds left to help Boston College beat UCF 75-73 on Thursday in a battle of cold-shooting teams at the ESPN Events Invitational - Magic Group.",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-11-26T11:49:27.000Z",
-        "url": "https://www.winnipegfreepress.com/world/2026/11/26/egypt-detains-a-driver-suspected-of-causing-cairo-tanker-crash-that-killed-31",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b0742171e37d8fa64de2a89jpeg.jpg?w=1600",
+        "publishedAt": "2026-11-26T21:38:48.000Z",
+        "url": "https://www.winnipegfreepress.com/uncategorized/2026/11/26/money-williams-scores-27-scores-with-2-seconds-left-as-bc-beats-ucf-75-73-at-espn-events-invite",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-304c5914-5aa9-50b6-b846-7415f7ea9278",
-        "title": "Thangboi Singto leaves Kerala Blasters weeks after joining, to become Samaleswari Head Coach",
-        "description": "Kerala Blasters FC have confirmed that they have mutually agreed to part ways with Thangboi Singto, bringing his tenure as the clubs Head of Football Development to an end. Singto is set to take up a new role as head coach of IFL side Samaleswari FC.",
-        "publisher": "Mykhel",
-        "publisherDomain": "mykhel.com",
-        "publishedAt": "2026-11-26T11:45:36.000Z",
-        "url": "https://www.mykhel.com/football/thangboi-singto-leaves-kerala-blasters-weeks-after-joining-to-become-samaleswari-head-coach-460149.html",
-        "imageUrl": "https://images.mykhel.com/img/2026/11/thangboi-singto-isl-32441795693512.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-0732b596-7fb2-5a8e-80ec-2b20311db1ed",
-        "title": "Liverpool are all smiles as Florian Wirtz, Alexander Isak start to click",
-        "description": "Another match, another fine set of displays from Florian Wirtz and Alexander Isak. Is the huge investment in Liverpool's forward line beginning to pay off?",
-        "publisher": "Espn",
-        "publisherDomain": "espn.in",
-        "publishedAt": "2026-11-26T11:45:14.000Z",
-        "url": "https://www.espn.in/football/story/_/id/50598544/liverpool-champions-league-isak-wirtz-club-brugge",
-        "imageUrl": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1125%2Fr1751380_1296x729_16%2D9.jpg",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-df1f1eb6-6175-5989-a2f7-24128920489a",
-        "title": "Tottenham XI vs Sunderland: Confirmed team news and predicted lineup",
-        "description": "Spurs’ £100m man is set to return amid fears Omar Marmoush has picked up an injury",
-        "publisher": "Standard",
-        "publisherDomain": "standard.co.uk",
-        "publishedAt": "2026-11-26T11:42:46.000Z",
-        "url": "https://www.standard.co.uk/sport/football/tottenham-xi-vs-sunderland-confirmed-team-news-predicted-lineup-injury-latest-2026-premier-league-b1306506.html",
-        "imageUrl": "https://static.standard.co.uk/2026/11/05/21/45/PredictedTottenhamXI2627.png?trim=39,0,1,0&auto=webp&quality=75&width=1200",
-        "categories": [
-          "Sports"
-        ]
-      },
-      {
-        "id": "currents-96ec437c-69f2-5a79-bf81-c36383b744b8",
-        "title": "Man City's form has unraveled ahead of crunch Premier League clash with Arsenal",
-        "description": "MANCHESTER, England (AP) — After four games without a win in the Premier League, Enzo Maresca",
+        "id": "currents-c1da5c80-27c6-568d-9659-a014952cdb30",
+        "title": "E-scooter rider seriously injured after being run over by vehicle in Vancouver",
+        "description": "VANCOUVER - Another e-scooter rider has been seriously hurt in Vancouver after she collided with a vehicle and was run over.",
         "publisher": "Winnipegfreepress",
         "publisherDomain": "winnipegfreepress.com",
-        "publishedAt": "2026-11-26T11:40:28.000Z",
-        "url": "https://www.winnipegfreepress.com/sports/soccer/2026/11/26/man-citys-form-has-unraveled-ahead-of-crunch-premier-league-clash-with-arsenal",
-        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b06cc2fc228d6f869d74066jpeg.jpg?w=1600",
+        "publishedAt": "2026-11-26T21:37:09.000Z",
+        "url": "https://www.winnipegfreepress.com/uncategorized/2026/11/26/e-scooter-rider-seriously-injured-after-being-run-over-by-vehicle-in-vancouver",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/6b071ecf122f61618838c664jpeg.jpg?w=1600",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-b0ced632-94c0-50be-aa3e-b7eb178bd6e9",
-        "title": "Huw Edwards' life after scandal revealed as former BBC star faces his past",
-        "description": "Disgraced former BBC newsreader Huw Edwards will appear in an hour-long Channel 4 documentary next week, addressing his criminal conviction and spectacular fall from grace in 2023.",
+        "id": "currents-909ac72e-cc01-5105-bb3d-8faee6463fe7",
+        "title": "‘Oversight is not interference’: Manitoba First Nations leaders raise concerns about Indigenous community-controlled CFS agencies",
+        "description": "Manitoba First Nations leaders are pointing to gaps in independent oversight of child and family services agencies when control is transferred to Indigenous communities.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-11-26T21:36:37.000Z",
+        "url": "https://www.winnipegfreepress.com/breakingnews/2026/11/26/oversight-is-not-interference-first-nations-leaders-raise-concerns-about-indigenous-community-controlled-cfs-agencies",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/11/4753910_web1_261126-Peguis-CFS-0283.jpg?w=1600",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-4f77f2f8-653a-52fe-bcb0-f1b4ebeb1588",
+        "title": "Bieliauskas' 25 points power South Carolina over Arizona State",
+        "description": "PALM DESERT, Calif. (AP) — Aleksas Bieliauskas scored 25 points and grabbed 13 rebounds as South Carolina beat Arizona State 80-73 on Thursday in the Acrisure Series.",
+        "publisher": "Winnipegfreepress",
+        "publisherDomain": "winnipegfreepress.com",
+        "publishedAt": "2026-11-26T21:35:58.000Z",
+        "url": "https://www.winnipegfreepress.com/uncategorized/2026/11/26/bieliauskas-25-points-power-south-carolina-over-arizona-state",
+        "imageUrl": "https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2022/11/fb-og-image.png",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-58d24129-5533-553b-8199-deb9270c96fc",
+        "title": "'All white' NI council to open HMO register despite race attack concerns",
+        "description": "“The report explicitly states that a list of HMOs was linked by police to anti-immigration attacks.\"",
         "publisher": "Belfastlive",
         "publisherDomain": "belfastlive.co.uk",
-        "publishedAt": "2026-11-26T11:35:44.000Z",
-        "url": "https://www.belfastlive.co.uk/news/tv/huw-edwards-return-public-life-34969139",
-        "imageUrl": "https://i2-prod.belfastlive.co.uk/article34969138.ece/ALTERNATES/s1200d/0_Huw-Edwards-court-case.jpg",
+        "publishedAt": "2026-11-26T21:22:00.000Z",
+        "url": "https://www.belfastlive.co.uk/news/northern-ireland/all-white-ni-council-open-34969681",
+        "imageUrl": "https://i2-prod.belfastlive.co.uk/article33748575.ece/ALTERNATES/s1200d/1_Lagan-Valley-Island2.jpg",
         "categories": [
           "Sports"
         ]
       },
       {
-        "id": "currents-3e2368a9-2529-58e2-b5b6-cd17bb7146c2",
-        "title": "'Sooryavanshi will score 500 in a Test': Kevin Pietersen's jaw-dropping prediction for India's 15-year-old sensation",
-        "description": "Vaibhav Sooryavanshi's extraordinary rise continues to attract attention from some of cricket's biggest names, with former England captain Kevin Pietersen making a staggering prediction about the 15-year-old batting sensation after his record-shattering double century in the ACC Men's Asia Cup Risin...",
-        "publisher": "Indiatimes",
-        "publisherDomain": "timesofindia.indiatimes.com",
-        "publishedAt": "2026-11-26T11:32:26.000Z",
-        "url": "https://timesofindia.indiatimes.com/sports/cricket/news/sooryavanshi-will-score-500-in-a-test-kevin-pietersens-jaw-dropping-prediction-for-indias-15-year-old-sensation/articleshow/136189855.cms",
-        "imageUrl": "https://static.toiimg.com/thumb/msid-136189995,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+        "id": "currents-21371244-207a-59ae-840a-4d45cee351a3",
+        "title": "Former England scrum-half and broadcaster Nigel Starmer-Smith dies aged 81",
+        "description": "The former Harlequins and Barbarians player was diagnosed with dementia in 2015.",
+        "publisher": "The42",
+        "publisherDomain": "the42.ie",
+        "publishedAt": "2026-11-26T21:20:03.000Z",
+        "url": "https://www.the42.ie/nigel-starmer-smith-dies-aged-81-7239608-Nov2026",
+        "imageUrl": "https://img2.thejournal.ie/article/7239608/river/?height=400&version=7239616",
+        "categories": [
+          "Sports"
+        ]
+      },
+      {
+        "id": "currents-140634e0-a427-5272-a3a4-1a4a2dc8f82b",
+        "title": "Steelers activate Michael Pittman Jr. off IR, sign Max Hurleman to active roster",
+        "description": "The Steelers on Thursday activated Michael Pittman Jr. from injured reserve and signed Max Hurleman to the active roster from the practice squad.",
+        "publisher": "ESPN",
+        "publisherDomain": "espn.com",
+        "publishedAt": "2026-11-26T21:13:00.000Z",
+        "url": "https://www.espn.com/nfl/story/_/id/50606063/steelers-activate-michael-pittman-jr-ir-sign-max-hurleman-active-roster-practice-squad",
+        "imageUrl": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1126%2Fr1751781_1296x729_16%2D9.jpg",
         "categories": [
           "Sports"
         ]
@@ -1336,211 +1302,209 @@
     ],
     "Entertainment": [
       {
-        "id": "currents-fe45bf61-1121-58c1-80f4-c20c21781ee4",
-        "title": "From Hollywood's golden couple to a bitter Brangelina court battle",
-        "description": "Wednesday was a momentous day for Angelina Jolie and Brad Pitt as a decade after their divorce they finally ended their legal battle over their shared vineyard.",
+        "id": "currents-f7d0cbf8-5f84-565f-99be-4f2ffd3f3456",
+        "title": "Gisele, 46, shares sweet snaps with baby boy and hubby Joaquim Valente",
+        "description": "The 46-year-old supermodel gave a rare peek into her personal life as she shared a carousel of snaps to celebrate the Thanksgiving holiday on Thursday.",
         "publisher": "Daily Mail",
         "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-11-26T11:37:41.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16323711/From-Hollywoods-golden-couple-bitter-Brangelina-court-battle-Inside-Brad-Pitt-Angelina-Jolies-four-year-164million-legal-war-sparked-abuse-claims-family-estrangement.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/11/26/11/112741283-0-image-m-15_1795692493577.jpg",
+        "publishedAt": "2026-11-26T21:25:37.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16325211/gisele-bundchen-baby-joaquim-valente-thanksgiving.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/11/26/20/112750639-0-image-m-9_1795723194217.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-24d2abc9-de87-5188-9654-93bf59ff9650",
-        "title": "BBC Antisemitism Investigation Opened By John Mann, Govt Adviser",
-        "description": "The BBC is being investigated over antisemitism claims by John Mann, government adviser, a few weeks after Lucie Kon's settlement.",
+        "id": "currents-998ca89a-91ae-5072-8b76-f00131c26a11",
+        "title": "DWTS Cohost Julianne Hough Addresses Criticism of Her Season 35 Fashion",
+        "description": "Dancing With the Stars cohost Julianne Hough reacted to fans criticizing her style choices on season 35: “When you get into your late 30s, you just don’t give a f--k anymore.”",
+        "publisher": "E! News",
+        "publisherDomain": "eonline.com",
+        "publishedAt": "2026-11-26T21:31:54.000Z",
+        "url": "https://www.eonline.com/news/1438434/dwts-julianne-hough-reacts-to-backlash-over-season-35-fashion-looks",
+        "imageUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20261126/3c1a500c-c395-4c6a-a5b1-552eb0b63ab2_1795728217.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-9a7cc907-8f90-5501-bb10-251961c9a4f1",
+        "title": "Kevin Smith Wants to Take the Star Wars & Marvel Crossover Even Further",
+        "description": "Masters of the Universe: Revelations creator Kevin Smith has ideas for a sequel to his Marvel and Star Wars crossover, should it be greenlit.",
+        "publisher": "Superherohype",
+        "publisherDomain": "superherohype.com",
+        "publishedAt": "2026-11-26T21:31:04.000Z",
+        "url": "https://www.superherohype.com/news/709653-kevin-smith-marvel-star-wars-crossover-sequel-plans",
+        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/15_97d350.jpg?resize=1200,630",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-05f0112a-28ad-5763-82be-08462d45ba6d",
+        "title": "Erika Hammond Teases 'RHONY' Reunion \"Drama,\" Says Devyn Simone Is \"Not A Friend I Want\"",
+        "description": "Erika Hammond is teasing The Real Housewives of New York City Season 16 reunion, revealing there will be \"drama\" and \"resolution.\"",
         "publisher": "Deadline",
         "publisherDomain": "deadline.com",
-        "publishedAt": "2026-11-26T11:40:40.000Z",
-        "url": "https://deadline.com/2026/11/bbc-antisemitism-investigation-john-mann-government-1237233983",
-        "imageUrl": "https://deadline.com/wp-content/uploads/2024/02/GettyImages-1739364578.jpg?w=1024",
+        "publishedAt": "2026-11-26T21:30:16.000Z",
+        "url": "https://deadline.com/2026/11/erika-hammond-drama-rhony-season-16-reunion-devyn-simone-1237234147",
+        "imageUrl": "https://deadline.com/wp-content/uploads/2026/11/erika-hammond-devyn-simone-rhony-reunion.jpg?w=1024",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-cd7fc724-e714-57eb-976d-792a687171f0",
-        "title": "Treat Your Feet And Get Up To 40% Off At Bombas This Black Friday",
-        "description": "This little piggy shopped at Bombas.",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-11-26T12:08:03.000Z",
-        "url": "https://www.buzzfeed.com/courtneylynneh/bombas-black-friday-cyber-monday-sale",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/25/19/thumb/Uxsu6rjDA.jpg?crop=3000:1571;0,3%26downsize=1250:*",
-        "categories": [
-          "Entertainment",
-          "Top",
-          "U.S."
-        ]
-      },
-      {
-        "id": "currents-0e3b92a3-72b7-56d9-95fe-7bef11adbf26",
-        "title": "Westside Cowboy, Gurriers, Lime Garden lead stacked Dot To Dot 2027 line-up",
-        "description": "The first wave of names for Dot To Dot 2027 have been revealed, with Westside Cowboy, Gurriers, Lime Garden leading the way.",
-        "publisher": "Nme",
-        "publisherDomain": "nme.com",
-        "publishedAt": "2026-11-26T12:00:02.000Z",
-        "url": "https://www.nme.com/news/music/westside-cowboy-gurriers-lime-garden-lead-stacked-dot-to-dot-2027-line-up-3977010",
-        "imageUrl": "https://www.nme.com/wp-content/uploads/2026/11/dot-to-dot@2000x1270.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-3721b224-6b34-5907-89f3-af2a2c71a0ae",
-        "title": "Oti Mabuse details her 'fear' in the lead up to welcoming her baby boy",
-        "description": "Oti Mabuse has opened up about the 'fear' she felt in the lead up to welcoming her baby boy following what she called a 'heartbreaking 2025.'",
+        "id": "currents-1ea74aa5-4f09-5721-b786-d5a9c1e88ecc",
+        "title": "Robert Pattinson and Suki Waterhouse eye up Cotswolds move",
+        "description": "Robert Pattinson and Suki Waterhouse have reportedly set sights on a quaint village in the Cotswolds as they plan to settle down in the UK ahead of James Bond filming.",
         "publisher": "Daily Mail",
         "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-11-26T12:09:40.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16324097/Oti-Mabuse-emotional-video-fear-lead-welcoming-baby-boy-heartbreaking-2025.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/11/26/11/112741597-0-image-m-48_1795693439882.jpg",
+        "publishedAt": "2026-11-26T21:10:27.000Z",
+        "url": "https://www.dailymail.com/tvshowbiz/article-16325313/Robert-Pattinson-Suki-Waterhouse-Cotswolds-James-Bond.html",
+        "imageUrl": "https://i.dailymail.com/1s/2026/11/26/21/112751151-0-image-m-59_1795727265123.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-445a527e-6c5e-56e0-b0dc-81eb0d2db1a0",
-        "title": "Lisa Snowdon, 54, shows off her toned curves in a bandeau bikini",
-        "description": "Lisa Snowdon looked to be settling into single life well as she soaked up the sun on a getaway to Jamaica this week following her split from ex-fiancé George Smart.",
-        "publisher": "Daily Mail",
-        "publisherDomain": "dailymail.com",
-        "publishedAt": "2026-11-26T11:49:21.000Z",
-        "url": "https://www.dailymail.com/tvshowbiz/article-16324069/Lisa-Snowdon-54-shows-toned-curves-bandeau-bikini-soaks-sun-Jamaica-settles-single-life-split-fianc-George-Smart.html",
-        "imageUrl": "https://i.dailymail.com/1s/2026/11/26/11/112741239-0-image-m-38_1795692956845.jpg",
+        "id": "currents-3a276135-a4d9-52fa-80d3-69c8fc2fbe9f",
+        "title": "Varaždin opens Europe's third-largest Advent ice rink",
+        "description": "The Croatian city of Varaždin has opened an ice rink covering 2,350 square metres, making it the third-largest Advent ice skating venue in Europe, behind those in Vienna and Budapest. The Ice Wonderland attraction at Kapucinski Square opened to visitors on Thursday, 26 November, ahead of the offici",
+        "publisher": "Croatiaweek",
+        "publisherDomain": "croatiaweek.com",
+        "publishedAt": "2026-11-26T21:19:47.000Z",
+        "url": "https://www.croatiaweek.com/varazdin-opens-europes-third-largest-advent-ice-rink",
+        "imageUrl": "https://www.croatiaweek.com/wp-content/uploads/2026/11/1124_023828__JulienDuval-1.jpg",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-c54d37aa-eec2-54b5-906b-b9d4bc323aab",
-        "title": "Stock Up On Underwear With Up To 40% Off At Bare Necessities' Black Friday Sale",
-        "description": "Because the merriest thing you can do for yourself is replace the bra with the underwire that's threatening to jab you.",
+        "id": "currents-6df4d4cd-f395-5cc1-9be0-d5a1ebea9922",
+        "title": "Matt Damon Revives Ford v Ferrari Magic With Zack Snyder, Watch Video",
+        "description": "Matt Damon reunites with Ford v Ferrari director Zack Snyder for a new Ford Racing film featuring the GT41 Hypercar.",
+        "publisher": "Comingsoon",
+        "publisherDomain": "comingsoon.net",
+        "publishedAt": "2026-11-26T21:17:40.000Z",
+        "url": "https://www.comingsoon.net/movies/news/2231762-matt-damon-ford-v-ferrari-zack-snyder-video",
+        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/Matt-Damon-Revives-Ford-v-Ferrari-Magic-With-Zack-Snyder-Watch-Video.jpg?resize=1200,630",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-55f9dfcc-373e-5b6b-8630-01263f74e1ec",
+        "title": "Elizabeth Holmes’ Partner Billy Evans Challenges Her Continued Imprisonment in Thanksgiving Plea",
+        "description": "Elizabeth Holmes' partner, Billy Evans, challenged her continued imprisonment in his latest Thanksgiving plea.",
+        "publisher": "Comingsoon",
+        "publisherDomain": "comingsoon.net",
+        "publishedAt": "2026-11-26T21:16:00.000Z",
+        "url": "https://www.comingsoon.net/tv/news/2231804-billy-evans-elizabeth-holmes-thanksgiving-prison-plea",
+        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/14_36d068.jpg?resize=1200,630",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-9684f0cb-f643-534e-8bd7-327024edc65e",
+        "title": "Judi Dench Has Some Blunt Words About Her Biggest Acting Regrets",
+        "description": "Judi Dench looks back on a disappointing West End production in her new memoir and says she wishes she had handled it differently.",
+        "publisher": "Comingsoon",
+        "publisherDomain": "comingsoon.net",
+        "publishedAt": "2026-11-26T21:08:30.000Z",
+        "url": "https://www.comingsoon.net/movies/news/2231810-judi-dench-biggest-acting-regrets-memoir",
+        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/Judi-Dench.jpg?resize=1200,630",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-df5732b1-9d08-5217-be26-825f92b046c8",
+        "title": "Search underway for pregnant prisoner who escaped in corrections vehicle in New Mexico",
+        "description": "A search was continuing in New Mexico on Thursday for a pregnant inmate who authorities allege escaped.",
+        "publisher": "6abc",
+        "publisherDomain": "6abc.com",
+        "publishedAt": "2026-11-26T21:07:26.000Z",
+        "url": "https://6abc.com/story/search-underway-pregnant-prisoner-escaped-corrections-vehicle-new-mexico/20086766",
+        "imageUrl": "https://cdn.abcotvs.com/dip/images/20086763_abcn-NM-rebecca-taylor-img.jpg?w=1600",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-159f9fa8-cbf4-57de-acc6-89e0ef27f14a",
+        "title": "Donald Trump’s Thanksgiving Rant Takes a Nasty Turn Against One Journalist",
+        "description": "Donald Trump targets New York Times journalist David E. Sanger in a Thanksgiving Day rant, calling him a “lowlife” and criticizing his reporting.",
+        "publisher": "Comingsoon",
+        "publisherDomain": "comingsoon.net",
+        "publishedAt": "2026-11-26T21:06:17.000Z",
+        "url": "https://www.comingsoon.net/movies/news/2231725-donald-trump-thanksgiving-rant-journalist-attack",
+        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/Deepesh-personal-1200-_-675-2026-11-27T023354.737.png?resize=1200,630",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-6fdf5b4e-c269-50ff-8634-e4e5c3817e58",
+        "title": "The Fantastic Four: First Steps Reportedly Couldn’t Turn Box Office Success Into Profit for Marvel Studios",
+        "description": "A Forbes financial report on The Fantastic Four: First Steps reported that the box office numbers did not cover its production costs.",
+        "publisher": "Superherohype",
+        "publisherDomain": "superherohype.com",
+        "publishedAt": "2026-11-26T21:05:39.000Z",
+        "url": "https://www.superherohype.com/news/709646-fantastic-four-first-steps-box-office-loss-marvel-studios",
+        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/13_32088e.jpg?resize=1200,630",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-5ee91c8c-88c0-5eb6-b7bb-3a585c021c03",
+        "title": "Disney’s First Animated Short in Five Years Brings Lilo & Stitch Back in Style",
+        "description": "A new Disney Animation film brings back Lilo and Stitch in a new adventure, marking the studio's first short release in five years.",
+        "publisher": "Comingsoon",
+        "publisherDomain": "comingsoon.net",
+        "publishedAt": "2026-11-26T21:04:42.000Z",
+        "url": "https://www.comingsoon.net/movies/news/2231745-disney-lilo-and-stitch-short-film-clip-released-2d-animation",
+        "imageUrl": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/Disneys-First-Animated-Short-in-Five-Years-Brings-Lilo-Stitch-Back-in-Style.jpg?resize=1200,630",
+        "categories": [
+          "Entertainment"
+        ]
+      },
+      {
+        "id": "currents-4e3ccc78-b01e-571d-829d-657cf88e4209",
+        "title": "Future You Just Called, And They Said Buying These 38 Products Was A Great Decision",
+        "description": "Little treats for present-day you, and major wins for future you.",
         "publisher": "Buzzfeed",
         "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-11-26T12:03:38.000Z",
-        "url": "https://www.buzzfeed.com/ashleyschumacher/stock-up-on-bras-underwear-pjs-and-more-with-up-to-40-off",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/25/21/thumb/bDwRPK6wH.jpg?crop=1250:654;0,0%26downsize=1250:*",
+        "publishedAt": "2026-11-26T21:01:02.000Z",
+        "url": "https://www.buzzfeed.com/mana_faye/products-future-you-will-thank-you-for",
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/13/00/thumb/7EXB_L8OH.jpg?crop=1250:654;0,88%26downsize=1250:*",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-ce5f64d5-ec45-53ab-9a87-0779e71750c1",
-        "title": "I'm Challenging Gen X To Identify These Classic '80s Movies From Just A Screenshot",
-        "description": "My much-loved \"Spaceballs\" VHS is smiling right now.",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-11-26T12:01:03.000Z",
-        "url": "https://www.buzzfeed.com/noradominick/80s-movie-trivia-quiz-fs2",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2025-09/12/13/thumb/1hFJ2Wqxl.jpg?crop=1250:654;0,6%26downsize=1250:*",
+        "id": "currents-d907050b-8cb1-5ee2-a1e8-d4550abe0bd9",
+        "title": "Sweetpea on Sky Atlantic: An oddly shaped vegetable of a TV show lacking murderous edge",
+        "description": "Television: If you want a killer with a conscience, there’s Dexter. And if you’re keen to see Ella Purnell stretch her acting chops, stick to Fallout",
+        "publisher": "Irishtimes",
+        "publisherDomain": "irishtimes.com",
+        "publishedAt": "2026-11-26T21:00:00.000Z",
+        "url": "https://www.irishtimes.com/culture/tv-radio/2026/11/26/sweetpea-on-sky-atlantic-an-oddly-shaped-vegetable-of-a-tv-show-lacking-murderous-edge",
+        "imageUrl": "https://www.irishtimes.com/resizer/v2/Q6GFQJJBXOLJR7S7VSUWDCI4JE.jpg?smart=true&auth=165ef9afdd056673c856935814d9b4bc9bfb2070d7d36b63ca67de0f29253903&width=1200&height=630",
         "categories": [
           "Entertainment"
         ]
       },
       {
-        "id": "currents-3cee5578-8f1e-572f-a053-467dbc78dbf3",
-        "title": "If You Can't Resist A Shoe Sale, You Don't Want To Miss DSW's Black Friday Deals",
-        "description": "Cuz, I mean, who *can* resist a shoe sale? I know I can't; I have three pairs in my cart right now.",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-11-26T11:56:26.000Z",
-        "url": "https://www.buzzfeed.com/jordanagrigs/if-you-cant-resist-a-shoe-sale-you-dont-want-to-miss-dsws",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/25/23/thumb/jvUUBn9hA.jpg?crop=2999:1570;0,2%26downsize=1250:*",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-fccf9691-4f62-5756-96db-d2fcb64098c3",
-        "title": "Park Ji-hoon wins best new actor at the 47th Blue Dragon Film Awards",
-        "description": "Park Jihoon 2026 47th Blue Dragon Film Awards. Photo from X/@YYentertain South Korean singer-actor Park Ji-hoon officially claimed the Best New Actor trophy at the 47th Blue Dragon Film Awards on",
-        "publisher": "Inquirer",
-        "publisherDomain": "entertainment.inquirer.net",
-        "publishedAt": "2026-11-26T11:51:07.000Z",
-        "url": "https://entertainment.inquirer.net/691851/park-ji-hoon-wins-best-new-actor-at-the-47th-blue-dragon-film-awards",
-        "imageUrl": "https://entertainment.inquirer.net/files/2026/11/20261126-Park-Jihoon-wins-best-new-actor-at-the-47th-Blue-Dragon-Film-Awards.png",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-54a58910-743b-5ea9-b32e-79b5f941149b",
-        "title": "Amanda Seyfried thought ‘You Can See Everything’ was going to “ruin her life”",
-        "description": "“It was such a gigantic leap of faith”",
-        "publisher": "Nme",
-        "publisherDomain": "nme.com",
-        "publishedAt": "2026-11-26T11:49:08.000Z",
-        "url": "https://www.nme.com/?p=3977011",
-        "imageUrl": "https://www.nme.com/wp-content/uploads/2026/11/Amanda-Seyfried-1.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-26497813-d80a-5676-97c0-ccc5bed40635",
-        "title": "48 Things With Over 10,000 5-Star Ratings To Buy During Amazon's Black Friday Sale",
-        "description": "You’ll be adding your voice to the chorus of reviewers (but also brag about what a great deal you got at the same time).",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-11-26T11:49:00.000Z",
-        "url": "https://www.buzzfeed.com/melanie_aman/highly-rated-black-friday-deals-2026",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/26/11/thumb/sSLoVSQ6X.jpg?crop=3000:1571;0,50%26downsize=1250:*",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-51e5a3a5-6db0-58eb-8f27-ff363772c904",
-        "title": "Top Gear reboot: Who could join Gordon Ramsay as new presenters?",
-        "description": "The popular motoring show is set to return in 2028. Here’s a look at who else could host the show alongside the TV chef",
-        "publisher": "Standard",
-        "publisherDomain": "standard.co.uk",
-        "publishedAt": "2026-11-26T11:48:53.000Z",
-        "url": "https://www.standard.co.uk/showbiz/top-gear-gordon-ramsay-hosts-jimmy-carr-presenter-b1306491.html",
-        "imageUrl": "https://static.standard.co.uk/2026/11/25/18/389de9367c92d253e2831020e418b4f4Y29udGVudHNlYXJjaGFwaSwxNzk1NzE2Mjkz-2.86604935.jpg?crop=5:3,smart&auto=webp&quality=75&width=1200",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-3faa9d84-7be5-5e15-b769-c367367d3c02",
-        "title": "Fly By Jing's Black Friday Sale Is Heating Up With Up To 50% Off Sauces, Noodles, And More",
-        "description": "Yes, that includes *the* viral Sichuan chili crisp sauce.",
-        "publisher": "Buzzfeed",
-        "publisherDomain": "buzzfeed.com",
-        "publishedAt": "2026-11-26T11:45:07.000Z",
-        "url": "https://www.buzzfeed.com/cierracowan/fly-by-jings-black-friday-sale-is-heating-up-with-up-to-50",
-        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2026-11/24/22/thumb/NkCGcjPb6P.jpg?crop=1250:654;0,142%26downsize=1250:*",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-d5824e30-4952-5fa9-9a4d-f480fc349016",
-        "title": "\"Europe's largest museum development\" opens in Citroën garage",
-        "description": "Brussels' former Citroën Garage has been transformed into Kanal, a museum for modern art and architecture developed with Centre Pompidou.",
-        "publisher": "Dezeen",
-        "publisherDomain": "dezeen.com",
-        "publishedAt": "2026-11-26T11:45:00.000Z",
-        "url": "https://www.dezeen.com/2026/11/26/kanal-museum-brussels-renovation-atelier-kanal",
-        "imageUrl": "https://static-2026.dezeen.com/uploads/2026/11/kanal-museum-brussels-renovation-atelier-kanal-sq2_dezeen_2364_col_0.jpg",
-        "categories": [
-          "Entertainment"
-        ]
-      },
-      {
-        "id": "currents-c6156a0b-445b-5e29-8461-b98f2c6807aa",
-        "title": "Andy Taylor’s reason for keeping cancer diagnosis from Duran Duran bandmates",
-        "description": "The guitarist kept his stage-four prostate cancer diagnosis private for years before finally revealing the news in 2022",
-        "publisher": "Standard",
-        "publisherDomain": "standard.co.uk",
-        "publishedAt": "2026-11-26T11:44:07.000Z",
-        "url": "https://www.standard.co.uk/showbiz/andy-taylor-cancer-diagnosis-duran-duran-b1306492.html",
-        "imageUrl": "https://static.standard.co.uk/2026/11/25/22/8139ff1af10be9095ea85bcb6a0df176Y29udGVudHNlYXJjaGFwaSwxNzk1NzI5NTA0-2.73511990.jpg?crop=5:3,smart&auto=webp&quality=75&width=1200",
+        "id": "currents-e6d91294-35f5-595d-bcf5-4137e44be586",
+        "title": "Chiwetel Ejiofor on How Stephen Frears’ ‘Dirty Pretty Things’ Led Him to Fall in Love With Film",
+        "description": "Chiwetel Ejiofor on falling in love with film - 'with film acting and the rhythm and poetry of cinema' - when he made 'Dirty Pretty Things.'",
+        "publisher": "Variety",
+        "publisherDomain": "variety.com",
+        "publishedAt": "2026-11-26T20:58:05.000Z",
+        "url": "https://variety.com/2026/film/awards/chiwetel-ejiofor-stephen-frears-dirty-pretty-things-1236959080",
+        "imageUrl": "https://variety.com/wp-content/uploads/2026/11/Stephen-Frears-and-Chiwetel-Ejiofor.jpg?w=1000&h=563&crop=1",
         "categories": [
           "Entertainment"
         ]
@@ -1552,6 +1516,6 @@
     "successfulRequests": 5,
     "failedRequests": 0,
     "articleCountBeforeDeduplication": 100,
-    "articleCountAfterDeduplication": 87
+    "articleCountAfterDeduplication": 77
   }
 }
